@@ -13,20 +13,20 @@ permalink: /en/index.html
   <div class="hero-grain paper-grain"></div>
   <div class="wrap hero-inner">
     <div>
-      <div class="eyebrow imperial"><span class="line"></span><span>Top Title Placeholder</span></div>
+      <div class="eyebrow imperial"><span class="line"></span><span>{{ i18n["hero.top-title"][lang] }}</span></div>
       <h1 class="headline">
         <span class="l1 gold-grad">{{ i18n["hero.title"][lang] }} </span>
-        <span class="l2">Title</span>
-        <span class="l3">Placeholder</span>
+        <span class="l2"></span>
+        <span class="l3"></span>
       </h1>
-      <p class="lede">Heading-Subtitle placeholder</p>
+      <p class="lede">{{ i18n["hero.subtitle"][lang] }}</p>
       <div class="cta-row">
-        <a href="#catalog" class="btn btn-primary">View the Catalogue <span class="ar">→</span></a>
-        <a href="#featured" class="btn-link">Featured Edition</a>
+        <a href="#catalog" class="btn btn-primary">{{ i18n["hero.btn1"][lang] }}<span class="ar">→</span></a>
+        <a href="#featured" class="btn-link">{{ i18n["hero.btn2"][lang] }}</a>
       </div>
     </div>
     <div class="metrics">
-      <div class="metric"><div class="n">1894</div><div class="l">Founded, Berlin</div></div>
+      <div class="metric"><div class="n">2026</div><div class="l">{{ i18n["metrics.info1.1st"][lang] }}</div></div>
       <div class="metric"><div class="n">466</div><div class="l">Titles in print</div></div>
       <div class="metric"><div class="n">27</div><div class="l">Living authors</div></div>
       <div class="metric"><div class="n">12</div><div class="l">Languages</div></div>
@@ -34,23 +34,23 @@ permalink: /en/index.html
   </div>
 </section>
 
-<section id="imprint" class="block imprint">
+<section id="mission" class="block imprint">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
 
   <div class="wrap imprint-grid">
   
     <div>
-      <div class="eyebrow-mini">✦ ABOUT US</div>
-      <h2 class="title-xl"><span class="gold-grad">A house built</span><br/><span class="nostyle">on lead and linen.</span></h2>
+      <div class="eyebrow-mini">{{ i18n["about.eyebrow"][lang] }}</div>
+      <h2 class="title-xl"><span class="gold-grad">{{ i18n["about.title"][lang] }}</span><br/><span class="nostyle"></span></h2>
     </div>
     <div>
-      <p>ABOUT US- Content Placeholder.<br/>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.
+      <p>{{ i18n["about.text"][lang] }}
       </p>
-      <p class="sig">— The Editors, AETERNUS VERLAG</p>
+      <p class="sig">— {{ i18n["about.signature"][lang] }}</p>
     </div>
   </div>
 </section>
-
+<!--
 <section class="marquee">
   <div class="wrap row">
     <span class="label">Reviewed in —</span>
@@ -62,7 +62,7 @@ permalink: /en/index.html
     <span class="item">Wall Street Journal</span>
   </div>
 </section>
-
+-->
 <section id="featured" class="block">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
   <div class="wrap featured-grid">

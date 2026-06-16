@@ -48,7 +48,7 @@ header.site .bar{display:flex;align-items:center;justify-content:space-between;p
 .brand{display:flex;align-items:center;gap:12px;}
 .brand-name{font-family:var(--font-display);font-size:18px;letter-spacing:.01em;}
 .brand-sub{font-family:var(--font-sans);font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);margin-top:2px;}
-nav.primary{display:none;gap:40px;}
+nav.primary{display:none;gap:20px;}
 @media(min-width:900px){nav.primary{display:flex;}}
 nav.primary a{font-family:var(--font-sans);font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);transition:color .3s;}
 nav.primary a:hover{color:var(--parchment);}
