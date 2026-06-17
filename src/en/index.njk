@@ -8,7 +8,7 @@ permalink: /en/index.html
 <main>
 <!--HERO SECTION-->
 <section class="hero">
-  <img class="hero-bg" src="../assets/images/hero-library.jpg" alt="Antique books, military map, brass compass and candle on a mahogany desk" />
+  <img class="hero-bg" src="assets/images/hero-library.jpg" alt="Antique books, military map, brass compass and candle on a mahogany desk" />
   <div class="hero-veil"></div>
   <div class="hero-vignette vignette"></div>
   <div class="hero-grain paper-grain"></div>
@@ -23,7 +23,7 @@ permalink: /en/index.html
       <p class="lede">{{ i18n["hero.subtitle"][lang] }}</p>
       <div class="cta-row">
         <a href="#catalog" class="btn btn-primary">{{ i18n["hero.btn1"][lang] }}<span class="ar">→</span></a>
-        <a href="#featured" class="btn-link">{{ i18n["hero.btn2"][lang] }}</a>
+        <a href="#featured-hunted" class="btn-link">{{ i18n["hero.btn2"][lang] }}</a>
       </div>
     </div>
     <div class="metrics">
@@ -84,82 +84,37 @@ permalink: /en/index.html
 </section>
 
 <!--FEATURED BOOK SECTION -->
-<section id="featured-hunted" class="block" style="background-color: #191512; color: #d4af37; position: relative; padding: 60px 0;">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
-  
+
+<section id="featured-hunted" class="block">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
   <div class="wrap featured-grid">
     <div class="book-frame">
-      <div class="glow" style="background: radial-gradient(circle, rgba(212,175,55,0.15) 0%, transparent 70%);"></div>
-      <div class="shot">
-        <!-- Asset placeholder optimized for historical framing styling -->
-        <img src="../assets/images/book-hunted.png" alt="Lives of the Hunted — German Edition Cover" style="box-shadow: 0 15px 35px rgba(0,0,0,0.6);" />
-      </div>
+      <div class="glow"></div>
+      <div class="shot"><img src="assets/images/book-hunted.png" alt="The Long War — first edition, navy cloth with gold-foil title" /></div>
+     
     </div>
-    
     <div>
-      <!-- Dynamic Section Header (Kleine Oberzeile) -->
-      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["hunted.eyebrow"][lang] }}</div>
-      
-      <!-- Dynamic Main Heading (Überschrift) -->
-      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;">
-        <span class="gold-grad" ">{{ i18n["hunted.title"][lang] }}</span>
-      </h2>
-      
-      <!-- Dynamic Subheading (Unterzeile) -->
-      <p class="byline" style="margin-top:10px; color: rgba(243, 231, 207, 0.75);">
-        <em>{{ i18n["hunted.subheading"][lang] }}</em>
-      </p>
-      
-      <div class="rule-gold" style="margin-top:30px; height: 1px; background: linear-gradient(90deg, transparent, #d4af37, transparent);"></div>
-      
-      <!-- Main Content Block (Haupttext) -->
-      <div style="margin-top:30px; max-width:560px; font-size:18px; line-height:1.7; color: rgba(243, 231, 207, 0.85);">
-        <p>{{ i18n["hunted.text1"][lang] }}</p>
-        <p style="margin-top:20px;">{{ i18n["hunted.text2"][lang] }}</p>
-      </div>
-      
-      <!-- Technical Specification Grid Details -->
-      <dl class="specs" style="margin-top:40px; border-top: 1px solid rgba(212, 175, 55, 0.2);">
-        <div class="row" style="border-bottom: 1px solid rgba(212, 175, 55, 0.1); padding: 12px 0; display: flex; justify-content: space-between;">
-          <dt style="color: rgba(243, 231, 207, 0.6);">{{ i18n["hunted.specAuthor"][lang] }}</dt>
-          <dd style="color: #f3e7cf; font-weight: 500;">Ernest Thompson Seton</dd>
-        </div>
-        <div class="row" style="border-bottom: 1px solid rgba(212, 175, 55, 0.1); padding: 12px 0; display: flex; justify-content: space-between;">
-          <dt style="color: rgba(243, 231, 207, 0.6);">{{ i18n["hunted.specOriginal"][lang] }}</dt>
-          <dd style="color: #f3e7cf;">Lives of the Hunted</dd>
-        </div>
-        <div class="row" style="border-bottom: 1px solid rgba(212, 175, 55, 0.1); padding: 12px 0; display: flex; justify-content: space-between;">
-          <dt style="color: rgba(243, 231, 207, 0.6);">{{ i18n["hunted.specPublished"][lang] }}</dt>
-          <dd style="color: #f3e7cf;">1901</dd>
-        </div>
-        <div class="row" style="border-bottom: 1px solid rgba(212, 175, 55, 0.1); padding: 12px 0; display: flex; justify-content: space-between;">
-          <dt style="color: rgba(243, 231, 207, 0.6);">{{ i18n["hunted.specSeries"][lang] }}</dt>
-          <dd style="color: #f3e7cf;">{{ i18n["hunted.specSeriesVal"][lang] }}</dd>
-        </div>
-        <div class="row" style="border-bottom: 1px solid rgba(212, 175, 55, 0.1); padding: 12px 0; display: flex; justify-content: space-between;">
-          <dt style="color: rgba(243, 231, 207, 0.6);">{{ i18n["hunted.specStatus"][lang] }}</dt>
-          <dd style="color: #d4af37; font-weight: 600; letter-spacing: 0.05em;">{{ i18n["hunted.specStatusVal"][lang] }}</dd>
-        </div>
-        <div class="row" style="border-bottom: 1px solid rgba(212, 175, 55, 0.1); padding: 12px 0; display: flex; justify-content: space-between;">
-          <dt style="color: rgba(243, 231, 207, 0.6);">{{ i18n["hunted.specLanguage"][lang] }}</dt>
-          <dd style="color: #f3e7cf;">{{ i18n["hunted.specLanguageVal"][lang] }}</dd>
-        </div>
+      <div class="eyebrow-mini">✦{{ i18n["hunted.eyebrow"][lang] }}</div>
+      <h2 class="title-xl"><span class="gold-grad">{{ i18n["hunted.title"][lang] }}</span><br/><span class="nostyle"></span></h2>
+      <em>{{ i18n["hunted.subheading"][lang] }}</em>
+      <div class="rule-gold" style="margin-top:40px;"></div>
+      <p style="margin-top:40px;max-width:560px;font-size:18px;line-height:1.65;color:rgba(236,227,208,.85);">  <p>{{ i18n["hunted.text1"][lang] }}</p>
+        <p style="margin-top:20px;">{{ i18n["hunted.text2"][lang] }}</p></p>
+      <dl class="specs">
+        <div class="row"><dt>AUTHOR</dt><dd>Ernest Thompson Seton</dd></div>
+        <div class="row"><dt>SERIES</dt><dd>The Seton Edition</dd></div>
+        <div class="row"><dt>Original Title</dt><dd>Lives of the Hunted</dd></div>
+        <div class="row"><dt>First Published</dt><dd>1901</dd></div>
+        <div class="row"><dt>Status</dt><dd>In preparation</dd></div>
+        <div class="row"><dt>Language</dt><dd>German</dd></div>
       </dl>
-      
-      <!-- Action Navigation Buttons -->
-      <div class="featured-cta" style="margin-top:40px; display: flex; gap: 20px; align-items: center;">
-       
-
-  <div class="featured-cta">
-        <a href="#" class="btn btn-gold">          {{ i18n["hunted.btnExplore"][lang] }}<span class="ar">→</span></a>
-        <a href="#" class="read-link">{{ i18n["hunted.btnSample"][lang] }}</a>
-      </div>
-
+      <div class="featured-cta">
+        <a href="#" class="btn btn-gold">Explore The Seton Edition <span class="ar">→</span></a>
+        <a href="#" class="read-link">Reading Sample Coming Soon</a>
       </div>
     </div>
   </div>
 </section>
-
 
 <!--CATALOG SECTION-->
 <section id="catalog" class="block" style="background-color: #120f0d; padding: 100px 0; border-top: 1px solid rgba(212, 175, 55, 0.15);">
@@ -168,10 +123,12 @@ permalink: /en/index.html
       <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">
         {{ i18n["catalogue.eyebrow"][lang] }}
       </div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400; font-size: 2.5rem; color: #f3e7cf;">
+      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;">
+      <span class="gold-grad">
         {{ i18n["catalogue.title"][lang] }}
       </h2>
-      <div style="margin-top: 25px; font-size: 16px; line-height: 1.8; color: rgba(243, 231, 207, 0.85); text-align: justify;">
+      </span>
+      <div style="margin-top: 25px; font-size: 16px; line-height: 1.8; color: rgba(243, 231, 207, 0.85);">
         <p style="margin-bottom: 20px;">{{ i18n["catalogue.intro1"][lang] }}</p>
         <p style="margin-bottom: 0;">{{ i18n["catalogue.intro2"][lang] }}</p>
       </div>
@@ -182,7 +139,7 @@ permalink: /en/index.html
           
           <div>
             <div class="cover" style="text-align: center; margin-bottom: 25px; background: rgba(0,0,0,0.2); padding: 20px 10px; border-radius: 4px;">
-              <img src="../assets/images/emest-{{ loop.index }}.jpg" alt="{{ pillar.title[lang] }}" style="height: 100%;object-fit:cover;width:100%; box-shadow: 0 10px 22px rgba(0,0,0,0.6); border-radius: 2px;" onerror="this.style.display='none';"/>
+              <img src="/assets/images/emest-{{ loop.index }}.jpg" alt="{{ pillar.title[lang] }}" style="height: 100%;object-fit:cover;width:100%; box-shadow: 0 10px 22px rgba(0,0,0,0.6); border-radius: 2px;" onerror="this.style.display='none';"/>
             </div>
          
             <div style="font-size: 0.75rem; letter-spacing: 0.08em; color: #d4af37; text-transform: uppercase; margin-bottom: 8px; font-weight: 600;">
@@ -202,7 +159,7 @@ permalink: /en/index.html
       {% endfor %}     
     </div>
 
-    <div style="text-align: center;">
+    <div style="text-align: center; padding-top:20px">
       <a href="#program" class="btn-catalog-action">
         {{ i18n["catalogue.button"][lang] }} <span style="margin-left: 6px;">→</span>
       </a>
@@ -230,7 +187,7 @@ permalink: /en/index.html
       </div>
     </div>
 
-    <div class="series-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; margin-bottom: 50px;">
+    <div class="catalog-grid">
       
       {% for card in i18n.seriesItems %}
         <div class="series-card" style="border: 1px solid rgba(212, 175, 55, 0.12); padding: 35px; background-color: #181512; box-shadow: 0 12px 35px rgba(0,0,0,0.35); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between;">
@@ -280,7 +237,7 @@ permalink: /en/index.html
 {% for pillar in i18n.catalogItems %}
      <a href="#" class="book-card" style="--card-bg: {{ pillar.bg_color }}; --card-hover: {{ pillar.hover_bg }}; --card-accent: {{ book.accent_color }}; padding:2rem;border-radius:10px">
       <div class="cover">
-    <img src="../{{ pillar.image | url }}" alt="{{ pillar.alt_text }}"/>
+    <img src="{{ pillar.image | url }}" alt="{{ pillar.alt_text }}"/>
       </div>
       <div class="meta">
       <span>{{ pillar.category[lang] }}</span>
@@ -422,8 +379,10 @@ permalink: /en/index.html
     <div class="cat-head">
       <div>
         <div class="eyebrow-mini">{{ i18n["series.eyebrow"][lang] }}</div>
-        <h2 class="title-xl"><span class="gold-grad nostyle"> {{ i18n["series.title"][lang] }}</span></h2>
+        <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;"><span class="gold-grad nostyle"> {{ i18n["series.title"][lang] }}</span></h2>
+            <div class="lede" style="font-size: 16px; line-height: 1.75; color: rgba(243, 231, 207, 0.8); margin-bottom: 35px;">
          <p>{{ i18n["series.intro"][lang] }}</p>
+         </div>
       </div>
      
     </div>
@@ -464,7 +423,7 @@ permalink: /en/index.html
         </div>
         
         <!-- Interactive Operational Link Call To Action Trigger -->
-        <a href="mailto:pkontakt@aeternus-verlag.de" class="btn-press">
+        <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">
           {{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span>
         </a>
       </div>

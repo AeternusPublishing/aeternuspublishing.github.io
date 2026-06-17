@@ -170,6 +170,9 @@ h2.title-xl .nostyle{font-style:normal;}
 .container1{
   padding: 0 15px !important;
 }
+.hero-inner{
+  padding-top:155px !important;
+}
 header.site{
   padding-left:3px;
     padding-right:3px;
