@@ -6,14 +6,16 @@
 <title>{{ title }}</title>
 <meta name="robots" content="index, follow" />
   <meta name="description" content="{{ description or i18n["meta.description"][lang] }}" />
-  <link rel="canonical" href="https://www.aeternus-verlag.de/{{ lang }}/" />
-  <link rel="alternate" hreflang="de" href="https://www.aeternus-verlag.de/de/" />
-  <link rel="alternate" hreflang="en" href="https://www.aeternus-verlag.de/en/" />
-  <link rel="alternate" hreflang="x-default" href="https://www.aeternus-verlag.de/de/" />
+  <link rel="canonical" href="https://aeternus-verlag.de{{ page.url }}" />
+  {% if hreflang %}
+  <link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/" />
+  <link rel="alternate" hreflang="en" href="https://aeternus-verlag.de/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://aeternus-verlag.de/" />
+  {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ i18n["meta.title"][lang] }}" />
   <meta property="og:description" content="{{ i18n["meta.description"][lang] }}" />
-  <meta property="og:url" content="https://www.aeternus-verlag.de/{{ lang }}/" />
+  <meta property="og:url" content="https://aeternus-verlag.de{{ page.url }}" />
   <meta property="og:site_name" content="Aeternus Verlag" />
   <meta property="og:locale" content="{% if lang == 'de' %}de_DE{% else %}en_US{% endif %}" />
   <meta property="og:image" content="https://www.aeternus-verlag.de/assets/images/og-share-cover.jpg" />
