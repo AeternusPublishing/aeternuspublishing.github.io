@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Aeternus Verlag </title>
+<title>{{ title }}</title>
 <meta name="robots" content="index, follow" />
+  <meta name="description" content="{{ description or i18n["meta.description"][lang] }}" />
   <link rel="canonical" href="https://www.aeternus-verlag.de/{{ lang }}/" />
   <link rel="alternate" hreflang="de" href="https://www.aeternus-verlag.de/de/" />
   <link rel="alternate" hreflang="en" href="https://www.aeternus-verlag.de/en/" />
