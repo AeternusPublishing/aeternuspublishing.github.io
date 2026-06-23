@@ -420,7 +420,8 @@ margin-bottom: 24px;
 h1.headline {
   line-height: 1.3 !important;
   height: auto !important;       /* 💡 Prevents the container from squishing the font */
-  overflow: visible !important;  /* 💡 Guarantees the bottom of the 'g' is never sliced off */
+  overflow: visible !important; 
+  text-transform: uppercase !important;/* 💡 Guarantees the bottom of the 'g' is never sliced off */
 }
  
 
