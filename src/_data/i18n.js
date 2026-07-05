@@ -24,8 +24,8 @@ module.exports = {
    "hero.top-title": { de: "AETERNUS VERLAG · EDITIONEN FÜR DAUER ", en: "AETERNUS VERLAG · EDITIONS BUILT TO ENDURE " },
   "hero.title": { de: "Bücher gegen das Vergessen.", en: "Books against oblivion." },
   "hero.subtitle": { de: "AETERNUS VERLAG erschließt vergessene und vernachlässigte Werke neu: Naturerzählungen, Grenzliteratur, historische Quellen, strategische Texte und Klassiker der Zivilisation. Unser Schwerpunkt liegt auf sorgfältiger Übersetzung, syntaktischer Modernisierung und editorischer Ordnung. Wir machen alte Texte wieder lesbar, ohne sie ihrer Herkunft, ihrer Härte oder ihrer geistigen Würde zu berauben", en: "AETERNUS VERLAG restores forgotten and neglected works to the reading world: nature writing, frontier literature, historical sources, strategic texts, and classics of civilization. Our work is centred on careful translation, syntactic modernization, and editorial order. We make older texts readable again without stripping them of their origin, severity, or intellectual dignity. " },
-  "hero.btn1":{ de: "Zum Katalog", en: "View the Catalogue" },
-  "hero.btn2":{ de: "Die Seton-Edition entdecken", en: "Discover the Seton Edition" },
+  "hero.btn1":{ de: "Reihen entdecken", en: "Explore the Series" },
+  "hero.btn2":{ de: "Unser Anspruch", en: "Our Standard" },
 
   //Matrics
     "metrics.info1.1st": { de: "Verlagsaufbau", en: " Publishing house in formation " },
@@ -418,7 +418,7 @@ module.exports = {
   "footer.linkTrade": { de: "Buchhandel", en: "Trade" },
 
   // Links for Reader
-  "footer.linkCatalogue": { de: "Katalog", en: "Catalogue" },
+  "footer.linkCatalogue": { de: "Reihen", en: "Series" },
   "footer.linkReadingRoom": { de: "Leseraum", en: "Reading Room" },
   "footer.linkContact": { de: "Kontakt", en: "Contact" },
   "footer.linkNewsletter": { de: "Newsletter", en: "Newsletter" },
