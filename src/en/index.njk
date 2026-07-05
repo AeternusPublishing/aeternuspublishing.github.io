@@ -58,14 +58,14 @@ hreflang: true
 </section>
 
 <!--ANSPRUCH: Editio Perpetua / 7 Grundsätze + Leitbild (zusammengeführt aus #mission + #editorial-pillars) -->
-<section id="anspruch" class="block" style="background-color: #161311; padding: 100px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+<section id="anspruch" class="block" style="background-color: #161311; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
   <style>
     #anspruch .pillars-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; margin-bottom: 60px; }
     #anspruch .pillar-card { background-color: #1c1815; border: 1px solid rgba(212, 175, 55, 0.08); border-left: 3px solid rgba(212, 175, 55, 0.25); padding: 35px 30px; position: relative; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); }
-    #anspruch .pillar-card:hover { transform: translateY(-5px); background-color: #211c19; border-color: rgba(212, 175, 55, 0.25); border-left-color: #d4af37; box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), 0 0 25px rgba(212, 175, 55, 0.03); }
+    #anspruch .pillar-card:hover { transform: translateY(-5px); background-color: #211c19; border-color: rgba(212, 175, 55, 0.25); border-left-color: var(--gold); box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), 0 0 25px rgba(212, 175, 55, 0.03); }
     #anspruch .pillar-num { font-size: 0.85rem; font-family: sans-serif; color: rgba(243, 231, 207, 0.4); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; transition: color 0.3s ease; }
-    #anspruch .pillar-card:hover .pillar-num { color: #d4af37; }
+    #anspruch .pillar-card:hover .pillar-num { color: var(--gold); }
     #anspruch .pillar-title { color: #f3e7cf; font-family: var(--font-display); font-size: 1.25rem; font-weight: 400; line-height: 1.4; margin: 0 0 15px 0; }
     #anspruch .pillar-desc { color: rgba(243, 231, 207, 0.65); font-size: 14.5px; line-height: 1.7; margin: 0; transition: color 0.3s ease; }
     #anspruch .pillar-card:hover .pillar-desc { color: rgba(243, 231, 207, 0.85); }
@@ -74,7 +74,7 @@ hreflang: true
   <div class="wrap">
     <!-- Kopf -->
     <div style="max-width: 720px; margin-bottom: 64px;">
-      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["pillars.eyebrow"][lang] }}</div>
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["pillars.eyebrow"][lang] }}</div>
       <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["nav.anspruch"][lang] }}</span></h2>
       <div style="margin-top: 25px; font-size: 18px; line-height: 1.75; color: rgba(243, 231, 207, 0.85);"><p>{{ i18n["pillars.text"][lang] }}</p></div>
     </div>
@@ -142,11 +142,11 @@ hreflang: true
 </section>
 
 <!--REIHEN (fünf Säulen; frühere #series-Sektion)-->
-<section id="reihen" class="block" style="background-color: #120f0d; padding: 80px 0; position: relative;">
+<section id="reihen" class="block" style="background-color: #161311; position: relative;">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
   <div class="wrap">
-    <div style="max-width: 650px; margin-bottom: 60px;">
-      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["series.eyebrow"][lang] }}</div>
+    <div style="max-width: 720px; margin-bottom: 60px;">
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["series.eyebrow"][lang] }}</div>
       <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["series.title"][lang] }}</span></h2>
       <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["series.intro"][lang] }}</p></div>
     </div>
@@ -181,12 +181,12 @@ hreflang: true
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
   <div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px;">
     <div style="max-width: 560px;">
-      <p class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem; margin-bottom: 12px;">✦ {{ i18n["press.eyebrow"][lang] }}</p>
+      <p class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem; margin-bottom: 12px;">✦ {{ i18n["press.eyebrow"][lang] }}</p>
       <p style="font-family: var(--font-display); font-size: 1.4rem; color: #f3e7cf; line-height: 1.45; margin: 0;">{{ i18n["press.title"][lang] }}</p>
     </div>
     <div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: center;">
       <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">{{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
-      <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}" style="font-family: var(--font-serif); font-size: 1rem; color: #d4af37; border-bottom: 1px solid rgba(212, 175, 55, 0.4); text-decoration: none; padding-bottom: 2px;">{{ i18n["press.more"][lang] }} →</a>
+      <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}" style="font-family: var(--font-serif); font-size: 1rem; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.4); text-decoration: none; padding-bottom: 2px;">{{ i18n["press.more"][lang] }} →</a>
     </div>
   </div>
 </section>
