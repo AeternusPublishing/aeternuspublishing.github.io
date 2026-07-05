@@ -1,0 +1,32 @@
+---
+title: Presse — Aeternus Verlag
+description: "Presseinformationen des AETERNUS VERLAG: Rezensionsexemplare, Bildmaterial und Anfragen von Redaktionen, Buchhandel, Bibliotheken und Kulturinstitutionen."
+layout: base.njk
+lang: de
+permalink: /presse/index.html
+---
+
+<main>
+<!-- Presse — volle Fassung. Top-Padding 180px, damit die Überschrift den fixierten Header freigibt. -->
+<section class="block" style="background-color: #161311; padding: 180px 0 100px; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
+  <div class="wrap container1">
+    <div class="press-grid">
+      <div>
+        <p class="eyebrow" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem; margin-bottom: 15px;">✦ {{ i18n["press.eyebrow"][lang] }}</p>
+        <h1 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;"><span class="gold-grad">{{ i18n["press.title"][lang] }}</span></h1>
+        <div class="lede" style="font-size: 16px; line-height: 1.75; color: rgba(243, 231, 207, 0.8); margin-bottom: 35px;"><p>{{ i18n["press.body"][lang] | safe }}</p></div>
+        <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">{{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
+      </div>
+      <div class="notes-box">
+        <h3 style="font-family: serif; font-size: 1.2rem; color: #f3e7cf; font-weight: 400; margin-top: 0; margin-bottom: 25px; letter-spacing: 0.02em; border-bottom: 1px solid rgba(212, 175, 55, 0.15); padding-bottom: 12px;">{% if lang == 'de' %}Pressehinweise{% else %}Press Notes{% endif %}</h3>
+        <div>
+          {% for note in i18n.pressNotes %}
+            <div class="note-item"><span>{{ note[lang] }}</span></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
