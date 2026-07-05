@@ -16,6 +16,8 @@ module.exports = {
   "nav.catalog": { "de": "Katalog", "en": "Catalogue" },
   "nav.series": { "de": "Reihen", "en": "Series" },                 // Fixed trailing space after Reihen
   "nav.readingroom": { "de": "Leseraum", "en": "Reading Room" },
+  "nav.anspruch": { "de": "Anspruch", "en": "Standards" },
+  "nav.technik": { "de": "Technik", "en": "Method" },
   "nav.press": { "de": "Presse", "en": "Press" },
 
   // Hero Section
