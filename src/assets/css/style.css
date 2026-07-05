@@ -210,6 +210,7 @@ footer.site .inner{padding:80px 20px;}
 .foot-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:60px;}
 @media(min-width:768px){.foot-grid{grid-template-columns:repeat(5,1fr);}}
 .foot-brand{grid-column:span 2;}
+.foot-brand .brand-logo{max-width:240px;}
 .foot-brand .addr{margin-top:24px;font-family:var(--font-serif);font-size:14px;color:var(--muted);max-width:340px;}
 .foot-col h4{font-family:var(--font-sans);font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font-weight:500;}
 .foot-col ul{list-style:none;margin-top:20px;display:flex;flex-direction:column;gap:12px;font-family:var(--font-serif);font-size:14px;}
@@ -241,7 +242,7 @@ footer.site .inner{padding:80px 20px;}
 /* Logo Wrapper: To constraint the huge layout */
 .logo-wrapper {
   display: block;
-  max-width: 250px; /* লোগো অনেক বড় হলেও এটি সর্বোচ্চ ১৮০ পিক্সেল চওড়া হবে, আপনার প্রয়োজন অনুযায়ী কমাতে-বাড়াতে পারেন */
+  max-width: 300px; /* লোগো অনেক বড় হলেও এটি সর্বোচ্চ ১৮০ পিক্সেল চওড়া হবে, আপনার প্রয়োজন অনুযায়ী কমাতে-বাড়াতে পারেন */
   height: auto;
   overflow: hidden;
   background-color: whit;
