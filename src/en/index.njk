@@ -109,9 +109,9 @@ hreflang: true
     <div class="book-frame">
       <div class="glow"></div>
       <div class="shot"><picture style="display:contents">
-        <source type="image/avif" srcset="/assets/images/emest-4.webp" />
+        <source type="image/avif" srcset="/assets/images/emest-4.avif" />
         <source type="image/webp" srcset="/assets/images/emest-4.webp" />
-        <img src="/assets/images/emest-4.webp" alt="Lives of the Hunted" width="1024" height="1536" loading="lazy" decoding="async" />
+        <img src="/assets/images/emest-4.jpg" alt="{{ i18n["hunted.title"][lang] }}" width="264" height="342" loading="lazy" decoding="async" />
       </picture></div>
      
     </div>
@@ -270,7 +270,7 @@ hreflang: true
 {% for pillar in i18n.catalogItems %}
      <a href="#" class="book-card" style="--card-bg: {{ pillar.bg_color }}; --card-hover: {{ pillar.hover_bg }}; --card-accent: {{ book.accent_color }}; padding:2rem;border-radius:10px">
       <div class="cover">
-    <img src="../{{ pillar.image | url }}" alt="{{ pillar.alt_text }}" loading="lazy" decoding="async"/>
+    <img src="{{ pillar.image | url }}" alt="{{ pillar.alt_text }}" loading="lazy" decoding="async"/>
       </div>
       <div class="meta">
       <span>{{ pillar.category[lang] }}</span>
