@@ -427,7 +427,7 @@ module.exports = {
   // You can freely use single-line comments here to keep notes!
   "catalogItems": [
     {
-      "image": "assets/images/book-3.jpg",
+      "image": "/assets/images/book-3.jpg",
       "bg_color": "#1C1D1F",
       "hover_bg": "#2a1f1f",
       "accent_color": "#ff4a4a",
@@ -437,7 +437,7 @@ module.exports = {
       "alt_text": "Cannae, 216 v. Chr. — gebundene Erstausgabe"
     },
     {
-      "image": "assets/images/book-2.jpg",
+      "image": "/assets/images/book-2.jpg",
       "bg_color": "#142318",
       "hover_bg": "#222f26",
       "accent_color": "#2d4a22",
@@ -447,7 +447,7 @@ module.exports = {
       "alt_text": "Eine concise Ökonomie — gebundene Erstausgabe"
     },
      {
-      "image": "assets/images/book-1.jpg",
+      "image": "/assets/images/book-1.jpg",
       "bg_color": "#2C0909",
       "hover_bg": "#2a1f1f",
       "accent_color": "#ff4a4a",
@@ -457,7 +457,7 @@ module.exports = {
       "alt_text": "Cannae, 216 v. Chr. — gebundene Erstausgabe"
     },
      {
-      "image": "assets/images/book-featured.jpg",
+      "image": "/assets/images/book-featured.jpg",
       "bg_color": "#071321",
       "hover_bg": "#2a1f1f",
       "accent_color": "#ff4a4a",
@@ -467,7 +467,7 @@ module.exports = {
       "alt_text": "Cannae, 216 v. Chr. — gebundene Erstausgabe"
     },
      {
-      "image": "assets/images/book-4.jpg",
+      "image": "/assets/images/book-4.jpg",
       "bg_color": "#3D2308",
       "hover_bg": "#2a1f1f",
       "accent_color": "#ff4a4a",
