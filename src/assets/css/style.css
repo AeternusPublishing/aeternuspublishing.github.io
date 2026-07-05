@@ -12,8 +12,8 @@
   --border:rgba(201,162,74,0.18);
   --border-strong:rgba(201,162,74,0.32);
 
-  --font-display:"Cormorant Garamond","Times New Roman",serif;
-  --font-serif:"EB Garamond",Georgia,serif;
+  --font-display:"Fraunces","Times New Roman",serif;
+  --font-serif:"Spectral",Georgia,serif;
   --font-sans:"Inter",ui-sans-serif,system-ui,sans-serif;
 }
 
@@ -258,7 +258,7 @@ footer.site .inner{padding:80px 20px;}
 
 /* Subtext/Establishment Text Styling */
 .brand-sub {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-display);
   font-size: 0.7rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
