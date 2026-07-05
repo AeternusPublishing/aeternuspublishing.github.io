@@ -16,6 +16,8 @@ module.exports = {
   "nav.catalog": { "de": "Katalog", "en": "Catalogue" },
   "nav.series": { "de": "Reihen", "en": "Series" },                 // Fixed trailing space after Reihen
   "nav.readingroom": { "de": "Leseraum", "en": "Reading Room" },
+  "nav.anspruch": { "de": "Anspruch", "en": "Standards" },
+  "nav.technik": { "de": "Technik", "en": "Method" },
   "nav.press": { "de": "Presse", "en": "Press" },
 
   // Hero Section
@@ -380,6 +382,7 @@ module.exports = {
     en: "AETERNUS VERLAG is building a curated programme of classic and historical editions. The first publications are centred on the Seton Edition: works by the naturalist, artist, and storyteller Ernest Thompson Seton, newly prepared for German-language readers.<br><br>Press information, review copies, visual material, and editorial background notes will be provided alongside individual releases. Enquiries from editors, booksellers, libraries, and cultural institutions are welcome."
   },
   "press.button": { de: "Presseanfrage senden", en: "Send a Press Enquiry" },
+  "press.more": { de: "Zum Pressebereich", en: "Press area" },
 
   // Array for structural Press Notes loop layout
   "pressNotes": [

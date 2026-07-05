@@ -28,8 +28,8 @@ hreflang: true
       </h1>
       <p class="lede">{{ i18n["hero.subtitle"][lang] }}</p>
       <div class="cta-row">
-        <a href="#catalog" class="btn btn-primary">{{ i18n["hero.btn1"][lang] }}<span class="ar">→</span></a>
-        <a href="#featured-hunted" class="btn-link">{{ i18n["hero.btn2"][lang] }}</a>
+        <a href="#reihen" class="btn btn-primary">{{ i18n["hero.btn1"][lang] }}<span class="ar">→</span></a>
+        <a href="#anspruch" class="btn-link">{{ i18n["hero.btn2"][lang] }}</a>
       </div>
     </div>
     <div class="metrics">
@@ -57,31 +57,67 @@ hreflang: true
   </div>
 </section>
 
-<!--ABOUT US SECtION-->
-<section id="mission" class="block imprint">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
+<!--ANSPRUCH: Editio Perpetua / 7 Grundsätze + Leitbild (zusammengeführt aus #mission + #editorial-pillars) -->
+<section id="anspruch" class="block" style="background-color: #161311; padding: 100px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
+  <style>
+    #anspruch .pillars-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; margin-bottom: 60px; }
+    #anspruch .pillar-card { background-color: #1c1815; border: 1px solid rgba(212, 175, 55, 0.08); border-left: 3px solid rgba(212, 175, 55, 0.25); padding: 35px 30px; position: relative; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); }
+    #anspruch .pillar-card:hover { transform: translateY(-5px); background-color: #211c19; border-color: rgba(212, 175, 55, 0.25); border-left-color: #d4af37; box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), 0 0 25px rgba(212, 175, 55, 0.03); }
+    #anspruch .pillar-num { font-size: 0.85rem; font-family: sans-serif; color: rgba(243, 231, 207, 0.4); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; transition: color 0.3s ease; }
+    #anspruch .pillar-card:hover .pillar-num { color: #d4af37; }
+    #anspruch .pillar-title { color: #f3e7cf; font-family: serif; font-size: 1.25rem; font-weight: 400; line-height: 1.4; margin: 0 0 15px 0; }
+    #anspruch .pillar-desc { color: rgba(243, 231, 207, 0.65); font-size: 14.5px; line-height: 1.7; margin: 0; transition: color 0.3s ease; }
+    #anspruch .pillar-card:hover .pillar-desc { color: rgba(243, 231, 207, 0.85); }
+  </style>
 
-  <div class="wrap imprint-grid">
-  
-    <div>
-      <div class="eyebrow-mini">{{ i18n["about.eyebrow"][lang] }}</div>
-      <h2 class="title-xl"><span class="gold-grad">{{ i18n["about.title"][lang] }}</span><br/><span class="nostyle"></span></h2>
+  <div class="wrap">
+    <!-- Kopf -->
+    <div style="max-width: 720px; margin-bottom: 64px;">
+      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["pillars.eyebrow"][lang] }}</div>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;"><span class="gold-grad">{{ i18n["nav.anspruch"][lang] }}</span></h2>
+      <div style="margin-top: 25px; font-size: 18px; line-height: 1.75; color: rgba(243, 231, 207, 0.85);"><p>{{ i18n["pillars.text"][lang] }}</p></div>
     </div>
-    <div>
-    {{ i18n["about.text2"][lang] }}
-  <br/><br/>
-  {{ i18n["about.text3"][lang] }}
-  <br/><br/>
-  {{ i18n["about.text4"][lang] }}
-  <br/><br/>
-  {{ i18n["about.text5"][lang] }}
-      <p class="sig">— {{ i18n["about.signature"][lang] }}</p>
+
+    <!-- Die sieben Grundsätze (I–VII) -->
+    <div class="pillars-grid">
+      {% for pillar in i18n.pillarsItems %}
+        <div class="pillar-card">
+          <div class="pillar-num">{{ pillar.num }}</div>
+          <h3 class="pillar-title">{{ pillar.title[lang] }}</h3>
+          <p class="pillar-desc">{{ pillar.desc[lang] }}</p>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="rule-gold" style="margin: 20px auto 64px auto; max-width: 400px; height: 1px; background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);"></div>
+
+    <!-- Leitbild / Fließtext (aus der früheren #mission-Sektion) -->
+    <div class="imprint-grid">
+      <div>
+        <div class="eyebrow-mini">{{ i18n["about.eyebrow"][lang] }}</div>
+        <h2 class="title-xl"><span class="gold-grad">{{ i18n["about.title"][lang] }}</span><br/><span class="nostyle"></span></h2>
+      </div>
+      <div>
+      {{ i18n["about.text2"][lang] }}
+      <br/><br/>
+      {{ i18n["about.text3"][lang] }}
+      <br/><br/>
+      {{ i18n["about.text4"][lang] }}
+      <br/><br/>
+      {{ i18n["about.text5"][lang] }}
+        <p class="sig">— {{ i18n["about.signature"][lang] }}</p>
+      </div>
+    </div>
+
+    <div style="text-align: center; max-width: 600px; margin: 56px auto 0;">
+      <p class="closing-statement" style="font-family: serif; font-size: 1.25rem; color: #f3e7cf; font-style: italic; letter-spacing: 0.02em; line-height: 1.6;">{{ i18n["pillars.closing"][lang] }}</p>
     </div>
   </div>
 </section>
 
-<!--TRANSLATION SECTION-->
-<section id="translation" class="block imprint">
+<!--TECHNIK (frühere Übersetzungs-Sektion)-->
+<section id="technik" class="block imprint">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
   <div class="wrap imprint-grid">
     <div>
@@ -99,381 +135,60 @@ hreflang: true
       </p>
       <p class="sig">— {{ i18n["translation.promise"][lang] }}</p>
           <div class="header-actions">
-          <a href="#catalog" class="btn-ghost">{{ i18n["translation.button"][lang] }}</a>
-        </div> 
-    </div>
-  </div>
-</section>
-
-<!--FEATURED BOOK SECTION -->
-
-<section id="featured-hunted" class="block">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
-  <div class="wrap featured-grid">
-    <div class="book-frame">
-      <div class="glow"></div>
-      <div class="shot"><picture style="display:contents">
-       <source type="image/avif" srcset="/assets/images/emest-4.avif" />
-        <source type="image/webp" srcset="/assets/images/emest-4.webp" />
-        <img src="/assets/images/emest-4.jpg" alt="{{ i18n["hunted.title"][lang] }}" width="264" height="342" loading="lazy" decoding="async" />
-      </picture></div>
-     
-    </div>
-    <div>
-      <div class="eyebrow-mini">
-      ✦{{ i18n["hunted.eyebrow"][lang] }}
-      </div>
-      <h2 class="title-xl">
-      <span class="gold-grad">{{ i18n["hunted.title"][lang] }}</span><br/><span class="nostyle">
-      </span>
-      </h2>
-      <em style="padding-top:5px">{{ i18n["hunted.subheading"][lang] }}</em>
-      <div class="rule-gold" style="margin-top:40px;">
-      </div>
-      <p style="margin-top:40px;max-width:560px;font-size:18px;line-height:1.65;color:rgba(236,227,208,.85);"> 
-       
-        <p style="margin-top:20px;">
-      
-      <dl class="specs">
-        <div class="row">
-        <dt>{{ i18n["hunted.specAuthor"][lang] }}</dt>
-        <dd>Ernest Thompson Seton</dd>
+          <a href="#reihen" class="btn-ghost">{{ i18n["translation.button"][lang] }}</a>
         </div>
-        <div class="row"><dt>{{ i18n["hunted.specSeries"][lang] }}</dt><dd>{{ i18n["hunted.specSeriesVal"][lang] }}</dd></div>
-        <div class="row"><dt>{{ i18n["hunted.specOriginal"][lang] }}</dt><dd>{{ i18n["hunted.title"][lang] }}</dd></div>
-        <div class="row"><dt>Format</dt><dd>{{ i18n["hunted.specFormatVal"][lang] }}</dd></div>
-        <div class="row"><dt>{{ i18n["hunted.specStatus"][lang] }}</dt><dd>{{ i18n["hunted.specStatusVal"][lang] }}</dd></div>
-        <div class="row"><dt>{{ i18n["hunted.specLanguage"][lang] }}</dt><dd>{{ i18n["hunted.specLanguageVal"][lang] }}</dd></div>
-      </dl>
-      <div class="featured-cta">
-        <a href="#" style="letter-spacing:.10em !important;" class="btn btn-gold">{{ i18n["hunted.btnExplore"][lang] }} <span class="ar">→</span></a>
-        <a href="#" class="read-link">{{ i18n["hunted.btnSample"][lang] }}</a>
-      </div>
     </div>
   </div>
 </section>
 
-<!--CATALOG SECTION-->
-<section id="catalog" class="block" style="background-color: #120f0d; padding: 100px 0; border-top: 1px solid rgba(212, 175, 55, 0.15);">
-  <div class="wrap container1 box">  
-    <div style="max-width: 780px; margin-bottom: 70px;">
-      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">
-        {{ i18n["catalogue.eyebrow"][lang] }}
-      </div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;">
-      <span class="gold-grad">
-        {{ i18n["catalogue.title"][lang] }}
-      </h2>
-      </span>
-      <div style="margin-top: 25px; font-size: 16px; line-height: 1.8; color: rgba(243, 231, 207, 0.85);">
-        <p style="margin-bottom: 20px;">{{ i18n["catalogue.intro1"][lang] }}</p>
-        <p style="margin-bottom: 0;">{{ i18n["catalogue.intro2"][lang] }}</p>
-      </div>
-    </div>
-    <div class="catalog-grid">
-      {% for pillar in i18n.items %}
-        <a href="#" class="book-card" style="background-color:#1c1815 !important" >
-          
-          <div>
-            <div class="cover" style="text-align: center; margin-bottom: 25px; background: rgba(0,0,0,0.2); padding: 20px 10px; border-radius: 4px;">
-              <img src="/assets/images/emest-{{ loop.index }}.jpg" alt="{{ pillar.title[lang] }}" style="height: 100%;object-fit:cover;width:100%; box-shadow: 0 10px 22px rgba(0,0,0,0.6); border-radius: 2px;" loading="lazy" decoding="async" onerror="this.style.display='none';"/>
-            </div>
-         
-            <div style="font-size: 0.75rem; letter-spacing: 0.08em; color: #d4af37; text-transform: uppercase; margin-bottom: 8px; font-weight: 600;">
-              {{ pillar.author }}
-            </div>
-
-            <h3 class="pillar-title" style="font-family: serif; font-weight: 400; color: #f3e7cf; font-size: 1.3rem; line-height: 1.4; margin: 0 0 12px 0;">
-              {{ pillar.title[lang] }}
-            </h3>
-          </div>
-          
-          <p class="pillar-desc" style="font-size: 14px; line-height: 1.6; color: rgba(243, 231, 207, 0.65); margin: 0; padding-top: 5px; text-align: justify;">
-            {{ pillar.desc[lang] }}
-          </p>
-          
-        </a>
-      {% endfor %}     
-    </div>
-
-    <div style="text-align: center; padding-top:20px">
-      <a href="#program" class="btn-catalog-action">
-        {{ i18n["catalogue.button"][lang] }} <span style="margin-left: 6px;">→</span>
-      </a>
-    </div>
-
-  </div>
-</section>
-
-<!--SERIES-->
-<section id="series" class="block" style="background-color: #120f0d; padding: 80px 0; position: relative;">
+<!--REIHEN (fünf Säulen; frühere #series-Sektion)-->
+<section id="reihen" class="block" style="background-color: #120f0d; padding: 80px 0; position: relative;">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
-  
   <div class="wrap">
     <div style="max-width: 650px; margin-bottom: 60px;">
-      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">
-        {{ i18n["series.eyebrow"][lang] }}
-      </div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;">
-        <span class="gold-grad">
-          {{ i18n["series.title"][lang] }}
-        </span>
-      </h2>
-      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);">
-        <p>{{ i18n["series.intro"][lang] }}</p>
-      </div>
+      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["series.eyebrow"][lang] }}</div>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;"><span class="gold-grad">{{ i18n["series.title"][lang] }}</span></h2>
+      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["series.intro"][lang] }}</p></div>
     </div>
 
     <div class="catalog-grid">
-      
       {% for card in i18n.seriesItems %}
-        <div class="series-card" style="border: 1px solid rgba(212, 175, 55, 0.12); padding: 35px; background-color: #181512; box-shadow: 0 12px 35px rgba(0,0,0,0.35); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between;">         
-          <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background-color: {{ card.colorHex }};"></div>         
+        <div class="series-card" style="border: 1px solid rgba(212, 175, 55, 0.12); padding: 35px; background-color: #181512; box-shadow: 0 12px 35px rgba(0,0,0,0.35); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background-color: {{ card.colorHex }};"></div>
           <div>
             <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 20px;">
               <span>{{ card.num }}</span>
               <span style="display: flex; align-items: center; gap: 8px;">
-                <span style="display: inline-block; width: 6px; height: 6px; borderRadius: 50%; background-color: {{ card.colorHex }};"></span>
+                <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background-color: {{ card.colorHex }};"></span>
                 {{ card.colorName[lang] }}
               </span>
             </div>
-            <h3 style="color: #f3e7cf; font-family: serif; font-size: 1.35rem; margin-bottom: 15px; font-weight: 400; line-height: 1.4;">
-              {{ card.label[lang] }}
-            </h3>
-            <p style="color: rgba(243, 231, 207, 0.7); font-size: 15px; line-height: 1.65; margin-bottom: 20px;">
-              {{ card.desc[lang] }}
-            </p>
-          </div>         
-        </div>
-      {% endfor %}
-    </div>
-    <div style="text-align: center; margin-top: 50px;">
-      <a href="#program" class="btn btn-gold">
-        {{ i18n["series.button"][lang] }} <span style="margin-left: 6px;">→</span>
-      </a> 
-    </div
-  </div>
-</section>
-
-<!--READING ROOM-->
-<section id="reading-room" class="block">
-  <div class="wrap">
-    <div class="cat-bar">
-    </div>
-    <div class="catalog-grid">
-{% for pillar in i18n.catalogItems %}
-     <a href="#" class="book-card" style="--card-bg: {{ pillar.bg_color }}; --card-hover: {{ pillar.hover_bg }}; --card-accent: {{ book.accent_color }}; padding:2rem;border-radius:10px">
-      <div class="cover">
-    <img src="{{ pillar.image | url }}" alt="{{ pillar.alt_text }}" loading="lazy" decoding="async"/>
-      </div>
-      <div class="meta">
-      <span>{{ pillar.category[lang] }}</span>
-      <span>{{pillar.de.category}}</span>
-      </div><h3> {{ pillar.title[lang] }}</h3>
-     
-      </a>
-  {% endfor %}
-    </div>
-  </div>
-</section>
-
-<!--EDITORIAL-PILLAR-->
-<section id="editorial-pillars" class="block" style="background-color: #161311; padding: 100px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div> 
-  <!-- Scoped component styles to handle high-end hover interactions elegantly -->
-  <style>
-    #editorial-pillars .pillars-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 30px;
-      margin-bottom: 80px;
-    }
-    
-    #editorial-pillars .pillar-card {
-      background-color: #1c1815;
-      border: 1px solid rgba(212, 175, 55, 0.08);
-      border-left: 3px solid rgba(212, 175, 55, 0.25);
-      padding: 35px 30px;
-      position: relative;
-      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Elegant interactive hover elevation changes */
-    #editorial-pillars .pillar-card:hover {
-      transform: translateY(-5px);
-      background-color: #211c19;
-      border-color: rgba(212, 175, 55, 0.25);
-      border-left-color: #d4af37;
-      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), 
-                  0 0 25px rgba(212, 175, 55, 0.03);
-    }
-
-    #editorial-pillars .pillar-num {
-      font-size: 0.85rem; 
-      font-family: sans-serif; 
-      color: rgba(243, 231, 207, 0.4); 
-      font-weight: 600; 
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-
-    #editorial-pillars .pillar-card:hover .pillar-num {
-      color: #d4af37;
-    }
-
-    #editorial-pillars .pillar-title {
-      color: #f3e7cf; 
-      font-family: serif; 
-      font-size: 1.25rem; 
-      font-weight: 400; 
-      line-height: 1.4;
-      margin: 0 0 15px 0;
-    }
-
-    #editorial-pillars .pillar-desc {
-      color: rgba(243, 231, 207, 0.65); 
-      font-size: 14.5px; 
-      line-height: 1.7; 
-      margin: 0;
-      transition: color 0.3s ease;
-    }
-
-    #editorial-pillars .pillar-card:hover .pillar-desc {
-      color: rgba(243, 231, 207, 0.85);
-    }
-  </style>
-
-  <div class="wrap">
-    <!-- Section Top Header Block -->
-    <div style="max-width: 700px; margin-bottom: 70px;">
-      <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">
-        {{ i18n["pillars.eyebrow"][lang] }}
-      </div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;">
-        <span class="gold-grad">
-          {{ i18n["pillars.title"][lang] }}
-        </span>
-      </h2>
-      <div style="margin-top: 25px; font-size: 18px; line-height: 1.75; color: rgba(243, 231, 207, 0.85);">
-        <p>{{ i18n["pillars.text"][lang] }}</p>
-      </div>
-    </div>
-
-    <!-- Editorial Pillars Matrix Dynamic Generation Layout Grid -->
-    <div class="pillars-grid">
-      
-      {% for pillar in i18n.pillarsItems %}
-        <div class="pillar-card">
-          
-          <!-- Numeral Indicator -->
-          <div class="pillar-num">
-            {{ pillar.num }}
+            <h3 style="color: #f3e7cf; font-family: serif; font-size: 1.35rem; margin-bottom: 15px; font-weight: 400; line-height: 1.4;">{{ card.label[lang] }}</h3>
+            <p style="color: rgba(243, 231, 207, 0.7); font-size: 15px; line-height: 1.65; margin-bottom: 20px;">{{ card.desc[lang] }}</p>
           </div>
-
-          <!-- Pillar Main Title Context -->
-          <h3 class="pillar-title">
-            {{ pillar.title[lang] }}
-          </h3>
-          
-          <!-- Detailed Pillar Explanatory Body Copy Text -->
-          <p class="pillar-desc">
-            {{ pillar.desc[lang] }}
-          </p>
-          
         </div>
       {% endfor %}
-
     </div>
 
-    <div class="rule-gold" style="margin: 60px auto 40px auto; max-width: 400px; height: 1px; background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);"></div>
-
-    <!-- Closing Callout Line Row Footer Styling Layout -->
-    <div style="text-align: center; max-width: 600px; margin: 0 auto;">
-      <p class="closing-statement" style="font-family: serif; font-size: 1.25rem; color: #f3e7cf; font-style: italic; letter-spacing: 0.02em; line-height: 1.6;">
-        {{ i18n["pillars.closing"][lang] }}
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<!--SERIES(same 2 section based on series but 2 different design)
-<section id="series" class="block cat-section">
-  <div class="wrap">
-    <div class="cat-head">
-      <div>
-        <div class="eyebrow-mini">{{ i18n["series.eyebrow"][lang] }}</div>
-        <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;"><span class="gold-grad nostyle"> {{ i18n["series.title"][lang] }}</span></h2>
-            <div class="lede" style="font-size: 16px; line-height: 1.75; color: rgba(243, 231, 207, 0.8); margin-bottom: 35px;">
-         <p>{{ i18n["series.intro"][lang] }}</p>
-         </div>
-      </div>
-     
-    </div>
-    <div class="cat-grid" id="catGrid">
-    {% for card in i18n.seriesItems %}
-      <a href="#" class="tile" data-tile><div class="top"><span class="num">  {{ pillar.num }}</span></div><h3>{{ card.label[lang] }}</h3><p>{{ card.desc[lang] }}</p><div class="more">Browse the series <span class="bar"></span></div></a>
-
-    {% endfor %}
-   
+    <div style="text-align: center; margin-top: 50px;">
+      <a href="#press-section" class="btn btn-gold">{{ i18n["series.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
     </div>
   </div>
 </section>
--->
-<!--PRESS-->
-<section id="press-section" class="state" style="background-color: #161311; padding: 100px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+
+<!--PRESSE (kompaktes Band; Vollinhalt auf /presse/)-->
+<section id="press-section" class="block" style="background-color: #161311; padding: 72px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
-  
-  <!-- Scoped component animation interactions for interactive elements -->
-
-
-  <div class="wrap container1">
-    <div class="press-grid">
-      
-      <!-- Left Column: Main Narrative and Interactive Button Trigger -->
-      <div>
-        <p class="eyebrow" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem; margin-bottom: 15px;">
-          ✦ {{ i18n["press.eyebrow"][lang] }}
-        </p>
-
-         <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;">
-        <span class="gold-grad">
-            {{ i18n["press.title"][lang] }}
-        </span>
-      </h2>
-        
-        <div class="lede" style="font-size: 16px; line-height: 1.75; color: rgba(243, 231, 207, 0.8); margin-bottom: 35px;">
-          <p>{{ i18n["press.body"][lang] | safe }}</p>
-        </div>
-        
-        <!-- Interactive Operational Link Call To Action Trigger -->
-        <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">
-          {{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span>
-        </a>
-      </div>
-
-      <!-- Right Column: Editorial Core Guidelines / Press Notes Summary Box -->
-      <div class="notes-box">
-        <h3 style="font-family: serif; font-size: 1.2rem; color: #f3e7cf; font-weight: 400; margin-top: 0; margin-bottom: 25px; letter-spacing: 0.02em; border-bottom: 1px solid rgba(212, 175, 55, 0.15); padding-bottom: 12px;">
-          {% if lang == 'de' %}Pressehinweise{% else %}Press Notes{% endif %}
-        </h3>
-        
-        <div>
-          {% for note in i18n.pressNotes %}
-            <div class="note-item">
-              <span>{{ note[lang] }}</span>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-
+  <div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px;">
+    <div style="max-width: 560px;">
+      <p class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem; margin-bottom: 12px;">✦ {{ i18n["press.eyebrow"][lang] }}</p>
+      <p style="font-family: serif; font-size: 1.4rem; color: #f3e7cf; line-height: 1.45; margin: 0;">{{ i18n["press.title"][lang] }}</p>
+    </div>
+    <div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: center;">
+      <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">{{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
+      <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}" style="font-family: var(--font-serif); font-size: 1rem; color: #d4af37; border-bottom: 1px solid rgba(212, 175, 55, 0.4); text-decoration: none; padding-bottom: 2px;">{{ i18n["press.more"][lang] }} →</a>
     </div>
   </div>
 </section>
 
 </main>
-
-
