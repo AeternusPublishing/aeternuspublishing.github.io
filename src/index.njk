@@ -66,7 +66,7 @@ hreflang: true
     #anspruch .pillar-card:hover { transform: translateY(-5px); background-color: #211c19; border-color: rgba(212, 175, 55, 0.25); border-left-color: #d4af37; box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), 0 0 25px rgba(212, 175, 55, 0.03); }
     #anspruch .pillar-num { font-size: 0.85rem; font-family: sans-serif; color: rgba(243, 231, 207, 0.4); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; transition: color 0.3s ease; }
     #anspruch .pillar-card:hover .pillar-num { color: #d4af37; }
-    #anspruch .pillar-title { color: #f3e7cf; font-family: serif; font-size: 1.25rem; font-weight: 400; line-height: 1.4; margin: 0 0 15px 0; }
+    #anspruch .pillar-title { color: #f3e7cf; font-family: var(--font-display); font-size: 1.25rem; font-weight: 400; line-height: 1.4; margin: 0 0 15px 0; }
     #anspruch .pillar-desc { color: rgba(243, 231, 207, 0.65); font-size: 14.5px; line-height: 1.7; margin: 0; transition: color 0.3s ease; }
     #anspruch .pillar-card:hover .pillar-desc { color: rgba(243, 231, 207, 0.85); }
   </style>
@@ -75,7 +75,7 @@ hreflang: true
     <!-- Kopf -->
     <div style="max-width: 720px; margin-bottom: 64px;">
       <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["pillars.eyebrow"][lang] }}</div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;"><span class="gold-grad">{{ i18n["nav.anspruch"][lang] }}</span></h2>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["nav.anspruch"][lang] }}</span></h2>
       <div style="margin-top: 25px; font-size: 18px; line-height: 1.75; color: rgba(243, 231, 207, 0.85);"><p>{{ i18n["pillars.text"][lang] }}</p></div>
     </div>
 
@@ -111,7 +111,7 @@ hreflang: true
     </div>
 
     <div style="text-align: center; max-width: 600px; margin: 56px auto 0;">
-      <p class="closing-statement" style="font-family: serif; font-size: 1.25rem; color: #f3e7cf; font-style: italic; letter-spacing: 0.02em; line-height: 1.6;">{{ i18n["pillars.closing"][lang] }}</p>
+      <p class="closing-statement" style="font-family: var(--font-display); font-size: 1.25rem; color: #f3e7cf; font-style: italic; letter-spacing: 0.02em; line-height: 1.6;">{{ i18n["pillars.closing"][lang] }}</p>
     </div>
   </div>
 </section>
@@ -147,7 +147,7 @@ hreflang: true
   <div class="wrap">
     <div style="max-width: 650px; margin-bottom: 60px;">
       <div class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["series.eyebrow"][lang] }}</div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: serif; font-weight: 400;"><span class="gold-grad">{{ i18n["series.title"][lang] }}</span></h2>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["series.title"][lang] }}</span></h2>
       <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["series.intro"][lang] }}</p></div>
     </div>
 
@@ -163,7 +163,7 @@ hreflang: true
                 {{ card.colorName[lang] }}
               </span>
             </div>
-            <h3 style="color: #f3e7cf; font-family: serif; font-size: 1.35rem; margin-bottom: 15px; font-weight: 400; line-height: 1.4;">{{ card.label[lang] }}</h3>
+            <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 15px; font-weight: 400; line-height: 1.4;">{{ card.label[lang] }}</h3>
             <p style="color: rgba(243, 231, 207, 0.7); font-size: 15px; line-height: 1.65; margin-bottom: 20px;">{{ card.desc[lang] }}</p>
           </div>
         </div>
@@ -182,7 +182,7 @@ hreflang: true
   <div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px;">
     <div style="max-width: 560px;">
       <p class="eyebrow-mini" style="color: #d4af37; letter-spacing: 0.15em; font-size: 0.85rem; margin-bottom: 12px;">✦ {{ i18n["press.eyebrow"][lang] }}</p>
-      <p style="font-family: serif; font-size: 1.4rem; color: #f3e7cf; line-height: 1.45; margin: 0;">{{ i18n["press.title"][lang] }}</p>
+      <p style="font-family: var(--font-display); font-size: 1.4rem; color: #f3e7cf; line-height: 1.45; margin: 0;">{{ i18n["press.title"][lang] }}</p>
     </div>
     <div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: center;">
       <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">{{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span></a>

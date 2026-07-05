@@ -7,7 +7,7 @@ const fs = require("fs");
 const path = require("path");
 
 const CSS_URL =
-  "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap";
+  "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap";
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 const KEEP = new Set(["latin", "latin-ext"]);
@@ -36,7 +36,7 @@ const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g
     const weight = ((body.match(/font-weight:\s*([\d ]+)/) || [])[1] || "400").trim();
     const url = (body.match(/url\((https:\/\/[^)]+\.woff2)\)/) || [])[1];
     if (!family || !url) continue;
-    const name = `${slug(family)}-${weight}-${style}-${subset}.woff2`;
+    const name = `${slug(family)}-${weight.replace(/ /g, "-")}-${style}-${subset}.woff2`;
     if (!seen.has(name)) {
       const buf = Buffer.from(
         await (await fetch(url, { headers: { "User-Agent": UA } })).arrayBuffer()
