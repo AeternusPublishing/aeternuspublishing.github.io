@@ -172,6 +172,47 @@ hreflang: true
   </div>
 </section>
 
+<!--SETON-EDITION (Band I + II, bereits erschienen)-->
+<section id="seton-edition" class="block" style="background-color: #161311; padding: 96px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
+  <style>
+    #seton-edition .seton-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
+    #seton-edition .seton-card { display: flex; gap: 20px; border: 1px solid rgba(212, 175, 55, 0.12); background-color: #181512; padding: 24px; box-shadow: 0 12px 35px rgba(0,0,0,0.35); min-width: 0; }
+    #seton-edition .seton-cover { width: 140px; height: 210px; object-fit: cover; flex-shrink: 0; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
+    @media (max-width: 480px) {
+      #seton-edition .seton-card { flex-direction: column; }
+      #seton-edition .seton-cover { width: 120px; height: 180px; }
+    }
+  </style>
+
+  <div class="wrap">
+    <div style="max-width: 720px; margin-bottom: 56px;">
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["seton.eyebrow"][lang] }}</div>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["seton.title"][lang] }}</span></h2>
+      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["seton.intro"][lang] }}</p></div>
+    </div>
+
+    <div class="seton-grid">
+      {% for book in i18n.setonBooks %}
+        <div class="seton-card">
+          <picture style="display:contents">
+            <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
+            <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
+            <img class="seton-cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
+          </picture>
+          <div style="min-width: 0;">
+            <div style="font-size: 0.75rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 10px;">{{ i18n["seton.volume"][lang] }} {{ book.band }} · {{ book.originalTitle }}</div>
+            <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 12px; line-height: 1.35;">{{ book.title[lang] }}</h3>
+            <p style="color: rgba(243, 231, 207, 0.7); font-size: 14.5px; line-height: 1.6; margin-bottom: 16px;">{{ book.desc[lang] }}</p>
+            <div style="font-size: 12px; color: rgba(243, 231, 207, 0.4); margin-bottom: 16px;">ISBN {{ book.isbn }}</div>
+            <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="btn-press" style="font-size: 13px;">{{ i18n["seton.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <!--PRESSE (kompaktes Band; Vollinhalt auf /presse/)-->
 <section id="press-section" class="block" style="background-color: #161311; padding: 72px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
