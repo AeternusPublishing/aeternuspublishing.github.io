@@ -206,7 +206,7 @@ hreflang: true
             <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 12px; line-height: 1.35;">{{ book.title[lang] }}</h3>
             <p style="color: rgba(243, 231, 207, 0.7); font-size: 14.5px; line-height: 1.6; margin-bottom: 16px;">{{ book.desc[lang] }}</p>
             <div style="font-size: 12px; color: rgba(243, 231, 207, 0.4); margin-bottom: 16px;">ISBN {{ book.isbn }}</div>
-            <a href="https://www.amazon.de/s?k={{ book.isbn }}" target="_blank" rel="noopener" class="btn-press" style="font-size: 13px;">{{ i18n["seton.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
+            <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="btn-press" style="font-size: 13px;">{{ i18n["seton.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
           </div>
         </div>
       {% endfor %}

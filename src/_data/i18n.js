@@ -311,7 +311,7 @@ module.exports = {
     de: "Die ersten beiden Bände der Reihe Bernstein liegen vor: Ernest Thompson Setons Tiergeschichten und die Lebensgeschichte eines Grizzlybären, beide neu übersetzt, eingerichtet und bei Amazon erhältlich.",
     en: "The first two volumes of the Amber series are available: Ernest Thompson Seton's animal stories and the life story of a grizzly bear, both newly translated, edited, and available on Amazon."
   },
-  "seton.button": { de: "Auf Amazon suchen", en: "Search on Amazon" },
+  "seton.button": { de: "Bei Amazon ansehen", en: "View on Amazon" },
   "seton.volume": { de: "Band", en: "Volume" },
 
   "setonBooks": [
@@ -319,6 +319,7 @@ module.exports = {
       cover: "cover-wilde-tiere",
       band: "I",
       isbn: "978-3-912883-00-8",
+      amazonUrl: "https://www.amazon.de/dp/3912883009",
       originalTitle: "Wild Animals I Have Known, 1898",
       title: { de: "Wilde Tiere, die ich kannte", en: "Wild Animals I Have Known" },
       desc: {
@@ -330,6 +331,7 @@ module.exports = {
       cover: "cover-wahb",
       band: "II",
       isbn: "978-3-912883-01-5",
+      amazonUrl: "https://www.amazon.de/dp/3912883017",
       originalTitle: "The Biography of a Grizzly, 1900",
       title: { de: "Wahb. Lebensgeschichte eines Grizzlybären", en: "Wahb. The Biography of a Grizzly" },
       desc: {
