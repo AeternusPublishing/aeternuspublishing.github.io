@@ -49,6 +49,18 @@ async function gen(srcName, outputs) {
     { name: "logo.avif", avif: { quality: 72, effort: 4 } },
     { name: "logo.webp", webp: { quality: 92, alphaQuality: 100 } },
   ]);
+
+  // Seton-Edition covers (Band I + II) — front-cover crops from the final KDP wraps.
+  await gen("cover-wilde-tiere.png", [
+    { name: "cover-wilde-tiere.avif", avif: { quality: 55, effort: 4 } },
+    { name: "cover-wilde-tiere.webp", webp: { quality: 80 } },
+    { name: "cover-wilde-tiere-fallback.jpg", jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+  await gen("cover-wahb.png", [
+    { name: "cover-wahb.avif", avif: { quality: 55, effort: 4 } },
+    { name: "cover-wahb.webp", webp: { quality: 80 } },
+    { name: "cover-wahb-fallback.jpg", jpeg: { quality: 84, mozjpeg: true } },
+  ]);
 })().catch((e) => {
   console.error(e);
   process.exit(1);

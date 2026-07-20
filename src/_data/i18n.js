@@ -304,6 +304,41 @@ module.exports = {
   ],
 
 
+  // --- SETON EDITION: bereits erschienene Baende ---
+  "seton.eyebrow": { de: "✦ SETON-EDITION", en: "✦ THE SETON EDITION" },
+  "seton.title": { de: "Band I und II — bereits erschienen", en: "Volumes I and II — already published" },
+  "seton.intro": {
+    de: "Die ersten beiden Bände der Reihe Bernstein liegen vor: Ernest Thompson Setons Tiergeschichten und die Lebensgeschichte eines Grizzlybären, beide neu übersetzt, eingerichtet und bei Amazon erhältlich.",
+    en: "The first two volumes of the Amber series are available: Ernest Thompson Seton's animal stories and the life story of a grizzly bear, both newly translated, edited, and available on Amazon."
+  },
+  "seton.button": { de: "Auf Amazon suchen", en: "Search on Amazon" },
+  "seton.volume": { de: "Band", en: "Volume" },
+
+  "setonBooks": [
+    {
+      cover: "cover-wilde-tiere",
+      band: "I",
+      isbn: "978-3-912883-00-8",
+      originalTitle: "Wild Animals I Have Known, 1898",
+      title: { de: "Wilde Tiere, die ich kannte", en: "Wild Animals I Have Known" },
+      desc: {
+        de: "Acht Tiergeschichten aus der nordamerikanischen Wildnis — vom Wolfskönig Lobo bis zur Krähe Silverspot. Neu übersetzt und eingerichtet.",
+        en: "Eight animal stories from the North American wilderness — from the wolf king Lobo to the crow Silverspot. Newly translated and edited."
+      }
+    },
+    {
+      cover: "cover-wahb",
+      band: "II",
+      isbn: "978-3-912883-01-5",
+      originalTitle: "The Biography of a Grizzly, 1900",
+      title: { de: "Wahb. Lebensgeschichte eines Grizzlybären", en: "Wahb. The Biography of a Grizzly" },
+      desc: {
+        de: "Die Lebensgeschichte eines Grizzlybären von der Jugend bis zum Alter — ungeschönt und ohne Vermenschlichung erzählt.",
+        en: "The life story of a grizzly bear from youth to old age — told plainly, without anthropomorphizing."
+      }
+    }
+  ],
+
   // --- SECTION 9: EDITORIAL PILLARS ---
   "pillars.eyebrow": { de: "EDITIO PERPETUA · MMXXVI", en: "EDITIO PERPETUA · MMXXVI" },
   "pillars.title": { de: "Bücher, die Bestand haben sollen.", en: "Books built to outlast." },
