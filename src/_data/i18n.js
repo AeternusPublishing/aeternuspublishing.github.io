@@ -260,10 +260,10 @@ module.exports = {
       slug: "anthrazit",
       colorName: { de: "ANTHRAZIT", en: "ANTHRACITE" },
       colorHex: "#3a3a3a",
-      label: { de: "Krieg, Strategie und Grenzräume", en: "War, Strategy, and Frontier Regions" },
+      label: { de: "Weltliteratur und Ur-Konflikte", en: "World Literature and Elemental Conflict" },
       desc: {
-        de: "Feldzüge, Sonderoperationen, militärische Erinnerungen, Grenzkriege und die politischen, gesellschaftlichen und militärischen Folgen bewaffneter Konflikte.",
-        en: "Campaigns, special operations, military memoirs, frontier wars, and the long shadow of armed order."
+        de: "Schwere Weltliteratur des Grenzraums und des Ur-Konflikts — von Melville bis Simms — sowie historische Berichte von Eroberung und Feldzug.",
+        en: "Weighty world literature of the frontier and the primal conflict — from Melville to Simms — alongside historical accounts of conquest and campaign."
       },
       authors: []
     },
@@ -272,10 +272,10 @@ module.exports = {
       slug: "gruen",
       colorName: { de: "GRÜN", en: "GREEN" },
       colorHex: "#2d4a22",
-      label: { de: "Natur, Wildnis und Tierwelt", en: "Nature, Wilderness, and Animal Life" },
+      label: { de: "Militär, Expeditionen und Grenzräume", en: "Military, Expeditions, and Frontier Regions" },
       desc: {
-        de: "Naturerzählungen, Reiseberichte, Tierbiographien, Waldwissen und historische Formen der Natur- und Tierbeobachtung.",
-        en: "Nature writing, travel accounts, animal biographies, woodcraft, and the old discipline of precise observation."
+        de: "Feldzüge, Sonderoperationen, militärische Erinnerungen, Grenzkriege und die politischen, gesellschaftlichen und militärischen Folgen bewaffneter Konflikte.",
+        en: "Campaigns, special operations, military memoirs, frontier wars, and the long shadow of armed order."
       },
       authors: []
     },
@@ -284,10 +284,10 @@ module.exports = {
       slug: "rot",
       colorName: { de: "ROT", en: "RED" },
       colorHex: "#7c1c1c",
-      label: { de: "Wirtschaft, Industrie und Aufstieg", en: "Economy, Industry, and Ascent" },
+      label: { de: "Imperien, Herrscher und Staatskunst", en: "Empires, Rulers, and Statecraft" },
       desc: {
-        de: "Geschichte von Unternehmen, Industrie, Arbeit und Kapitalbildung.",
-        en: "Entrepreneurs, factories, capital formation, work ethic, and the history of productive civilization."
+        de: "Reiche, Republiken, Verwaltung, Macht, Recht, diplomatische Ordnung und historische Quellen.",
+        en: "Empires, republics, administration, power, law, diplomatic order, and historical sources."
       },
       authors: []
     },
@@ -296,10 +296,10 @@ module.exports = {
       slug: "blau",
       colorName: { de: "BLAU", en: "BLUE" },
       colorHex: "#1c3d5a",
-      label: { de: "Staatskunst, Geschichte und Diplomatie", en: "Statecraft, History, and Diplomacy" },
+      label: { de: "Wirtschaft, Industrie und Titanen", en: "Economy, Industry, and Titans" },
       desc: {
-        de: "Reiche, Republiken, Verwaltung, Macht, Recht, diplomatische Ordnung und historische Quellen.",
-        en: "Empires, republics, administration, power, law, diplomatic order, and historical sources."
+        de: "Aufstieg und Wirken der großen Industriellen und Unternehmer — Kapitalbildung, Wettbewerb und die Formung der modernen Wirtschaft.",
+        en: "The rise and work of the great industrialists and entrepreneurs — capital formation, competition, and the shaping of the modern economy."
       },
       authors: []
     },
