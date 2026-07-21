@@ -1,0 +1,82 @@
+---
+title: "Series — AETERNUS VERLAG"
+description: "The five series of AETERNUS VERLAG: Anthracite, Green, Red, Blue, and Amber — with the authors and available titles in each."
+layout: base.njk
+lang: en
+permalink: /en/series/index.html
+---
+
+<main>
+<!-- SERIES — full display of the five publishing series (formerly homepage section #reihen) -->
+<!-- Top padding 180px so the heading clears the fixed header. -->
+<section class="block" style="background-color: #161311; padding: 180px 0 112px; position: relative;">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
+  <style>
+    .series-card { border: 1px solid rgba(212, 175, 55, 0.12); padding: 35px; background-color: #181512; box-shadow: 0 12px 35px rgba(0,0,0,0.35); position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; scroll-margin-top: 140px; }
+    .author-block { margin-top: 28px; padding-top: 24px; border-top: 1px solid rgba(212, 175, 55, 0.12); scroll-margin-top: 140px; }
+    .author-block .kicker { font-size: 0.72rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 10px; }
+    .author-block .author-name { font-family: var(--font-display); font-size: 1.05rem; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.4); padding-bottom: 2px; transition: color .3s; }
+    .author-block .author-name:hover { color: #f3e7cf; }
+    .author-block .author-desc { margin-top: 14px; font-size: 14px; line-height: 1.65; color: rgba(243, 231, 207, 0.65); }
+    .book-mini-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+    .book-mini { display: flex; align-items: center; gap: 14px; }
+    .book-mini .cover { width: 40px; height: 60px; object-fit: cover; flex-shrink: 0; box-shadow: 0 6px 16px rgba(0,0,0,0.45); }
+    .book-mini .info { min-width: 0; }
+    .book-mini .title { font-family: var(--font-display); font-size: 14.5px; color: #f3e7cf; line-height: 1.3; }
+    .book-mini a.buy { display: inline-block; margin-top: 3px; font-family: var(--font-sans); font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); transition: color .3s; }
+    .book-mini a.buy:hover { color: #f3e7cf; }
+  </style>
+
+  <div class="wrap">
+    <div style="max-width: 720px; margin-bottom: 60px;">
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["series.eyebrow"][lang] }}</div>
+      <h1 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["series.title"][lang] }}</span></h1>
+      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["series.intro"][lang] }}</p></div>
+    </div>
+
+    <div class="catalog-grid">
+      {% for card in i18n.seriesItems %}
+        <div id="{{ card.slug }}" class="series-card">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 20px;">
+              <span>{{ card.num }}</span>
+              <span style="display: flex; align-items: center; gap: 8px;">
+                <span style="display: inline-block; width: 6px; height: 6px; border-radius: 50%; background-color: {{ card.colorHex }};"></span>
+                {{ card.colorName[lang] }}
+              </span>
+            </div>
+            <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 15px; font-weight: 400; line-height: 1.4;">{{ card.label[lang] }}</h3>
+            <p style="color: rgba(243, 231, 207, 0.7); font-size: 15px; line-height: 1.65; margin-bottom: 0;">{{ card.desc[lang] }}</p>
+
+            {% for author in card.authors %}
+              <div class="author-block">
+                <div class="kicker">{{ i18n["series.authorsHeading"][lang] }}</div>
+                <a href="#{{ author.slug }}" class="author-name">{{ author.name }}</a>
+                <div id="{{ author.slug }}" class="author-desc" style="scroll-margin-top: 140px;">
+                  {{ i18n["author.intro"][lang] }}
+                  <div style="margin-top: 18px; font-size: 0.72rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase;">{{ i18n["author.availableTitles"][lang] }}</div>
+                  <div class="book-mini-list">
+                    {% for book in author.books %}
+                      <div class="book-mini">
+                        <picture style="display:contents">
+                          <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
+                          <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
+                          <img class="cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
+                        </picture>
+                        <div class="info">
+                          <div class="title">{{ book.title[lang] }}</div>
+                          <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="buy">{{ i18n["seton.button"][lang] }} →</a>
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+</main>

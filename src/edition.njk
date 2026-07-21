@@ -1,0 +1,35 @@
+---
+title: "Edition — AETERNUS VERLAG"
+description: "Übersetzung, Syntaxmodernisierung, Textprüfung: wie AETERNUS VERLAG historische Texte redaktionell für heutige Leser einrichtet."
+layout: base.njk
+lang: de
+permalink: /edition/index.html
+---
+
+<main>
+<!-- EDITION — Übersetzung, Syntaxmodernisierung, Textprüfung (vollständige Fassung; vormals Startseiten-Sektion #technik) -->
+<!-- Top-Padding 180px, damit die Überschrift den fixierten Header freigibt. -->
+<section class="block imprint" style="padding: 180px 0 112px;">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
+  <div class="wrap imprint-grid">
+    <div>
+      <div class="eyebrow-mini">{{ i18n["translation.eyebrow"][lang] }}</div>
+      <h1 class="title-xl" style="margin-top: 15px;"><span class="gold-grad">{{ i18n["translation.title"][lang] }}</span></h1>
+    </div>
+    <div>
+      <p>{{ i18n["translation.text1"][lang] }}
+        <br/><br/>
+        {{ i18n["translation.text2"][lang] }}
+        <br/><br/>
+        {{ i18n["translation.text3"][lang] }}
+        <br/><br/>
+        {{ i18n["translation.text4"][lang] }}
+      </p>
+      <p class="sig">— {{ i18n["translation.promise"][lang] }}</p>
+      <div class="header-actions" style="margin-top: 32px;">
+        <a href="/verlag/#grundsaetze" class="btn-ghost">{{ i18n["translation.button"][lang] }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>

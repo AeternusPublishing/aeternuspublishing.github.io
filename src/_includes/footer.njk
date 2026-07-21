@@ -20,25 +20,26 @@
       </div>
       <div class="foot-col">
       <h4>{{ i18n["footer.colSeries"][lang] }}</h4>
-      <ul><li><a href="#reihen">{{ i18n["footer.linkAnthracite"][lang] }}</a></li>
-      <li><a href="#reihen">{{ i18n["footer.linkGreen"][lang] }}</a></li>
-      <li><a href="#reihen">{{ i18n["footer.linkRed"][lang] }}</a></li>
-      <li><a href="#reihen">{{ i18n["footer.linkBlue"][lang] }}</a></li>
-        <li><a href="#reihen">{{ i18n["footer.linkAmber"][lang] }}</a></li>
+      <ul><li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#anthrazit">{{ i18n["footer.linkAnthracite"][lang] }}</a></li>
+      <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#gruen">{{ i18n["footer.linkGreen"][lang] }}</a></li>
+      <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#rot">{{ i18n["footer.linkRed"][lang] }}</a></li>
+      <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#blau">{{ i18n["footer.linkBlue"][lang] }}</a></li>
+        <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#bernstein">{{ i18n["footer.linkAmber"][lang] }}</a></li>
       </ul></div>
       <div class="foot-col">
       <h4>{{ i18n["footer.colHouse"][lang] }}</h4>
-      <ul><li><a href="#anspruch">{{ i18n["footer.linkAbout"][lang] }}</a></li>
-      <li><a href="#anspruch">{{ i18n["footer.linkMission"][lang] }}</a></li>
-          <li><a href="#technik">{{ i18n["footer.linkTranslation"][lang] }}</a></li>
-          <li><a href="#press-section">{{ i18n["footer.linkPress"][lang] }}</a></li>
-         
+      <ul><li><a href="{% if lang == 'de' %}/verlag/{% else %}/en/house/{% endif %}">{{ i18n["footer.linkAbout"][lang] }}</a></li>
+      <li><a href="{% if lang == 'de' %}/verlag/{% else %}/en/house/{% endif %}#leitbild">{{ i18n["footer.linkMission"][lang] }}</a></li>
+          <li><a href="{% if lang == 'de' %}/edition/{% else %}/en/edition/{% endif %}">{{ i18n["footer.linkTranslation"][lang] }}</a></li>
+          <li><a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}">{{ i18n["footer.linkPress"][lang] }}</a></li>
+
       </ul></div>
       <div class="foot-col">
       <h4>{{ i18n["footer.colReader"][lang] }}</h4>
         <ul>
-          <li><a href="#reihen">{{ i18n["footer.linkCatalogue"][lang] }}</a></li>
-          <li><a href="#press-section">{{ i18n["footer.linkContact"][lang] }}</a></li>
+          <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}">{{ i18n["footer.linkCatalogue"][lang] }}</a></li>
+          <li><a href="{% if lang == 'de' %}/{% else %}/en/{% endif %}#aktuelle-ausgaben">{{ i18n["footer.linkReadingRoom"][lang] }}</a></li>
+          <li><a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}">{{ i18n["footer.linkContact"][lang] }}</a></li>
       </ul></div>
     </div>
     <div class="foot-end">

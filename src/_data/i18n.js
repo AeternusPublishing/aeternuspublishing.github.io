@@ -17,7 +17,8 @@ module.exports = {
   "nav.series": { "de": "Reihen", "en": "Series" },                 // Fixed trailing space after Reihen
   "nav.readingroom": { "de": "Leseraum", "en": "Reading Room" },
   "nav.anspruch": { "de": "Anspruch", "en": "Standards" },
-  "nav.technik": { "de": "Technik", "en": "Method" },
+  "nav.verlag": { "de": "Verlag", "en": "House" },
+  "nav.edition": { "de": "Edition", "en": "Edition" },
   "nav.press": { "de": "Presse", "en": "Press" },
 
   // Hero Section
@@ -250,96 +251,137 @@ module.exports = {
   "series.button": { de: "Reihen entdecken", en: "Explore the Series" },
 
   // Matrix array for your dynamic Series generation loop
+  // "authors" is intentionally on every entry (empty for now on I–IV): as further authors
+  // join a series, they are appended here — no template changes required on /reihen/ or the
+  // homepage "Autoren im Programm" / "Aktuelle Ausgaben" sections, both of which read this array.
   "seriesItems": [
     {
       num: "I",
+      slug: "anthrazit",
       colorName: { de: "ANTHRAZIT", en: "ANTHRACITE" },
       colorHex: "#3a3a3a",
       label: { de: "Krieg, Strategie und Grenzräume", en: "War, Strategy, and Frontier Regions" },
       desc: {
         de: "Feldzüge, Sonderoperationen, militärische Erinnerungen, Grenzkriege und die politischen, gesellschaftlichen und militärischen Folgen bewaffneter Konflikte.",
         en: "Campaigns, special operations, military memoirs, frontier wars, and the long shadow of armed order."
-      }
+      },
+      authors: []
     },
     {
       num: "II",
+      slug: "gruen",
       colorName: { de: "GRÜN", en: "GREEN" },
       colorHex: "#2d4a22",
       label: { de: "Natur, Wildnis und Tierwelt", en: "Nature, Wilderness, and Animal Life" },
       desc: {
         de: "Naturerzählungen, Reiseberichte, Tierbiographien, Waldwissen und historische Formen der Natur- und Tierbeobachtung.",
         en: "Nature writing, travel accounts, animal biographies, woodcraft, and the old discipline of precise observation."
-      }
+      },
+      authors: []
     },
     {
       num: "III",
+      slug: "rot",
       colorName: { de: "ROT", en: "RED" },
       colorHex: "#7c1c1c",
       label: { de: "Wirtschaft, Industrie und Aufstieg", en: "Economy, Industry, and Ascent" },
       desc: {
         de: "Geschichte von Unternehmen, Industrie, Arbeit und Kapitalbildung.",
         en: "Entrepreneurs, factories, capital formation, work ethic, and the history of productive civilization."
-      }
+      },
+      authors: []
     },
     {
       num: "IV",
+      slug: "blau",
       colorName: { de: "BLAU", en: "BLUE" },
       colorHex: "#1c3d5a",
       label: { de: "Staatskunst, Geschichte und Diplomatie", en: "Statecraft, History, and Diplomacy" },
       desc: {
         de: "Reiche, Republiken, Verwaltung, Macht, Recht, diplomatische Ordnung und historische Quellen.",
         en: "Empires, republics, administration, power, law, diplomatic order, and historical sources."
-      }
+      },
+      authors: []
     },
     {
       num: "V",
+      slug: "bernstein",
       colorName: { de: "BERNSTEIN", en: "AMBER" },
       colorHex: "#b7791f",
       label: { de: "Jugend, Abenteuer und Charakterbildung", en: "Youth, Adventure, and Character Formation" },
       desc: {
         de: "Erzählungen über Mut, Verantwortung, Naturerfahrung und Selbstständigkeit.",
         en: "Classic adventure literature, education through nature, courage, responsibility, and the early encounter with the seriousness of life."
-      }
+      },
+      // First author in the Bernstein series. Not a standalone editorial line — an author within
+      // this series, listed here because his titles are the first ones actually in print.
+      authors: [
+        {
+          name: "Ernest Thompson Seton",
+          slug: "ernest-thompson-seton",
+          books: [
+            {
+              cover: "cover-wilde-tiere",
+              band: "I",
+              isbn: "978-3-912883-00-8",
+              amazonUrl: "https://www.amazon.de/dp/3912883009",
+              originalTitle: "Wild Animals I Have Known, 1898",
+              title: { de: "Wilde Tiere, die ich kannte", en: "Wild Animals I Have Known" },
+              desc: {
+                de: "Acht Tiergeschichten aus der nordamerikanischen Wildnis — vom Wolfskönig Lobo bis zur Krähe Silverspot. Neu übersetzt und eingerichtet.",
+                en: "Eight animal stories from the North American wilderness — from the wolf king Lobo to the crow Silverspot. Newly translated and edited."
+              }
+            },
+            {
+              cover: "cover-wahb",
+              band: "II",
+              isbn: "978-3-912883-01-5",
+              amazonUrl: "https://www.amazon.de/dp/3912883017",
+              originalTitle: "The Biography of a Grizzly, 1900",
+              title: { de: "Wahb. Lebensgeschichte eines Grizzlybären", en: "Wahb. The Biography of a Grizzly" },
+              desc: {
+                de: "Die Lebensgeschichte eines Grizzlybären von der Jugend bis zum Alter — ungeschönt und ohne Vermenschlichung erzählt.",
+                en: "The life story of a grizzly bear from youth to old age — told plainly, without anthropomorphizing."
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
 
-
-  // --- SETON EDITION: bereits erschienene Baende ---
-  "seton.eyebrow": { de: "✦ SETON-EDITION", en: "✦ THE SETON EDITION" },
-  "seton.title": { de: "Band I und II — bereits erschienen", en: "Volumes I and II — already published" },
-  "seton.intro": {
+  // --- Shared small labels for author/book disclosure (used on /reihen/ and the homepage) ---
+  "series.authorsHeading": { de: "Autor dieser Reihe", en: "Author in this series" },
+  "author.availableTitles": { de: "Verfügbare Titel", en: "Available titles" },
+  "author.intro": {
     de: "Die ersten beiden Bände der Reihe Bernstein liegen vor: Ernest Thompson Setons Tiergeschichten und die Lebensgeschichte eines Grizzlybären, beide neu übersetzt, eingerichtet und bei Amazon erhältlich.",
     en: "The first two volumes of the Amber series are available: Ernest Thompson Seton's animal stories and the life story of a grizzly bear, both newly translated, edited, and available on Amazon."
   },
   "seton.button": { de: "Bei Amazon ansehen", en: "View on Amazon" },
   "seton.volume": { de: "Band", en: "Volume" },
 
-  "setonBooks": [
-    {
-      cover: "cover-wilde-tiere",
-      band: "I",
-      isbn: "978-3-912883-00-8",
-      amazonUrl: "https://www.amazon.de/dp/3912883009",
-      originalTitle: "Wild Animals I Have Known, 1898",
-      title: { de: "Wilde Tiere, die ich kannte", en: "Wild Animals I Have Known" },
-      desc: {
-        de: "Acht Tiergeschichten aus der nordamerikanischen Wildnis — vom Wolfskönig Lobo bis zur Krähe Silverspot. Neu übersetzt und eingerichtet.",
-        en: "Eight animal stories from the North American wilderness — from the wolf king Lobo to the crow Silverspot. Newly translated and edited."
-      }
-    },
-    {
-      cover: "cover-wahb",
-      band: "II",
-      isbn: "978-3-912883-01-5",
-      amazonUrl: "https://www.amazon.de/dp/3912883017",
-      originalTitle: "The Biography of a Grizzly, 1900",
-      title: { de: "Wahb. Lebensgeschichte eines Grizzlybären", en: "Wahb. The Biography of a Grizzly" },
-      desc: {
-        de: "Die Lebensgeschichte eines Grizzlybären von der Jugend bis zum Alter — ungeschönt und ohne Vermenschlichung erzählt.",
-        en: "The life story of a grizzly bear from youth to old age — told plainly, without anthropomorphizing."
-      }
-    }
-  ],
+  // --- Homepage: Aktuelle Ausgaben (condensed, reads seriesItems[].authors[].books) ---
+  "editions.eyebrow": { de: "✦ AKTUELLE AUSGABEN", en: "✦ CURRENT EDITIONS" },
+  "editions.title": { de: "Bereits erschienen", en: "Already published" },
+  "editions.intro": {
+    de: "Die ersten Bände des Verlagsprogramms sind lieferbar: neu übersetzt, eingerichtet und dauerhaft im Handel.",
+    en: "The first volumes of the programme are available now: newly translated, edited, and permanently in print."
+  },
+
+  // --- Homepage: Autoren im Programm (condensed, reads seriesItems[].authors[]) ---
+  "authors.eyebrow": { de: "✦ AUTOREN IM PROGRAMM", en: "✦ AUTHORS IN THE PROGRAMME" },
+  "authors.title": { de: "Ausgewählte Autoren", en: "Selected authors" },
+  "authors.intro": {
+    de: "Das Programm wächst mit jedem Autor, dessen Werk unserem Anspruch entspricht. Den Anfang macht Ernest Thompson Seton.",
+    en: "The programme grows with every author whose work meets our standard. It begins with Ernest Thompson Seton."
+  },
+  "authors.viewTitles": { de: "Titel ansehen", en: "View titles" },
+
+  // --- Cross-links from condensed homepage teasers to the full subpages ---
+  "verlag.more": { de: "Mehr über den Verlag", en: "More about the house" },
+  "edition.more": { de: "Mehr zur Editionsarbeit", en: "More on our editorial method" },
+  "reihen.more": { de: "Alle Reihen im Überblick", en: "All series in full" },
+  "verlag.principlesHeading": { de: "Die sieben Grundsätze", en: "The seven principles" },
 
   // --- SECTION 9: EDITORIAL PILLARS ---
   "pillars.eyebrow": { de: "EDITIO PERPETUA · MMXXVI", en: "EDITIO PERPETUA · MMXXVI" },
