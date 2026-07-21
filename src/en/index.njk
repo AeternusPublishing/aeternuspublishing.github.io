@@ -57,91 +57,80 @@ hreflang: true
   </div>
 </section>
 
-<!--ANSPRUCH: Editio Perpetua / 7 Grundsätze + Leitbild (zusammengeführt aus #mission + #editorial-pillars) -->
-<section id="anspruch" class="block" style="background-color: #161311; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
+<!--AKTUELLE AUSGABEN: datengetrieben aus seriesItems[].authors[].books — kein Autor wird hier besonders hervorgehoben,
+    die Karten erscheinen schlicht in Reihenfolge des Programms. Neue Titel/Autoren erscheinen hier automatisch. -->
+<section id="aktuelle-ausgaben" class="block" style="background-color: #161311; padding: 96px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
   <style>
-    #anspruch .pillars-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; margin-bottom: 60px; }
-    #anspruch .pillar-card { background-color: #1c1815; border: 1px solid rgba(212, 175, 55, 0.08); border-left: 3px solid rgba(212, 175, 55, 0.25); padding: 35px 30px; position: relative; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); }
-    #anspruch .pillar-card:hover { transform: translateY(-5px); background-color: #211c19; border-color: rgba(212, 175, 55, 0.25); border-left-color: var(--gold); box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), 0 0 25px rgba(212, 175, 55, 0.03); }
-    #anspruch .pillar-num { font-size: 0.85rem; font-family: sans-serif; color: rgba(243, 231, 207, 0.4); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; transition: color 0.3s ease; }
-    #anspruch .pillar-card:hover .pillar-num { color: var(--gold); }
-    #anspruch .pillar-title { color: #f3e7cf; font-family: var(--font-display); font-size: 1.25rem; font-weight: 400; line-height: 1.4; margin: 0 0 15px 0; }
-    #anspruch .pillar-desc { color: rgba(243, 231, 207, 0.65); font-size: 14.5px; line-height: 1.7; margin: 0; transition: color 0.3s ease; }
-    #anspruch .pillar-card:hover .pillar-desc { color: rgba(243, 231, 207, 0.85); }
+    #aktuelle-ausgaben .edition-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
+    #aktuelle-ausgaben .edition-card { display: flex; gap: 20px; border: 1px solid rgba(212, 175, 55, 0.12); background-color: #181512; padding: 24px; box-shadow: 0 12px 35px rgba(0,0,0,0.35); min-width: 0; }
+    #aktuelle-ausgaben .edition-cover { width: 140px; height: 210px; object-fit: cover; flex-shrink: 0; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
+    @media (max-width: 480px) {
+      #aktuelle-ausgaben .edition-card { flex-direction: column; }
+      #aktuelle-ausgaben .edition-cover { width: 120px; height: 180px; }
+    }
   </style>
 
   <div class="wrap">
-    <!-- Kopf -->
-    <div style="max-width: 720px; margin-bottom: 64px;">
-      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["pillars.eyebrow"][lang] }}</div>
+    <div style="max-width: 720px; margin-bottom: 56px;">
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["editions.eyebrow"][lang] }}</div>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["editions.title"][lang] }}</span></h2>
+      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["editions.intro"][lang] }}</p></div>
+    </div>
+
+    <div class="edition-grid">
+      {% for series in i18n.seriesItems %}
+        {% for author in series.authors %}
+          {% for book in author.books %}
+            <div class="edition-card">
+              <picture style="display:contents">
+                <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
+                <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
+                <img class="edition-cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
+              </picture>
+              <div style="min-width: 0;">
+                <div style="font-size: 0.75rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 10px;">{{ author.name }} · {{ series.colorName[lang] }}</div>
+                <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 12px; line-height: 1.35;">{{ book.title[lang] }}</h3>
+                <p style="color: rgba(243, 231, 207, 0.7); font-size: 14.5px; line-height: 1.6; margin-bottom: 16px;">{{ book.desc[lang] }}</p>
+                <div style="font-size: 12px; color: rgba(243, 231, 207, 0.4); margin-bottom: 16px;">ISBN {{ book.isbn }}</div>
+                <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="btn-ghost" style="font-size: 11px; padding: 12px 22px;">{{ i18n["seton.button"][lang] }}</a>
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!--ANSPRUCH: gekürzte Fassung — volle Fassung (7 Grundsätze + Leitbild) lebt auf /verlag/-->
+<section id="anspruch" class="block" style="background-color: #161311; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
+  <div class="wrap">
+    <div style="max-width: 720px;">
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["about.eyebrow"][lang] }}</div>
       <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["nav.anspruch"][lang] }}</span></h2>
       <div style="margin-top: 25px; font-size: 18px; line-height: 1.75; color: rgba(243, 231, 207, 0.85);"><p>{{ i18n["pillars.text"][lang] }}</p></div>
     </div>
 
-    <!-- Die sieben Grundsätze (I–VII) -->
-    <div class="pillars-grid">
+    <div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; max-width: 1000px;">
       {% for pillar in i18n.pillarsItems %}
-        <div class="pillar-card">
-          <div class="pillar-num">{{ pillar.num }}</div>
-          <h3 class="pillar-title">{{ pillar.title[lang] }}</h3>
-          <p class="pillar-desc">{{ pillar.desc[lang] }}</p>
-        </div>
+        {% if loop.index <= 3 %}
+          <div style="border-left: 2px solid rgba(212, 175, 55, 0.3); padding-left: 16px;">
+            <div style="font-size: 0.72rem; color: rgba(243, 231, 207, 0.4); letter-spacing: 0.1em; margin-bottom: 6px;">{{ pillar.num }}</div>
+            <div style="font-family: var(--font-display); font-size: 1rem; color: #f3e7cf;">{{ pillar.title[lang] }}</div>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
 
-    <div class="rule-gold" style="margin: 20px auto 64px auto; max-width: 400px; height: 1px; background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);"></div>
-
-    <!-- Leitbild / Fließtext (aus der früheren #mission-Sektion) -->
-    <div class="imprint-grid">
-      <div>
-        <div class="eyebrow-mini">{{ i18n["about.eyebrow"][lang] }}</div>
-        <h2 class="title-xl"><span class="gold-grad">{{ i18n["about.title"][lang] }}</span><br/><span class="nostyle"></span></h2>
-      </div>
-      <div>
-      {{ i18n["about.text2"][lang] }}
-      <br/><br/>
-      {{ i18n["about.text3"][lang] }}
-      <br/><br/>
-      {{ i18n["about.text4"][lang] }}
-      <br/><br/>
-      {{ i18n["about.text5"][lang] }}
-        <p class="sig">— {{ i18n["about.signature"][lang] }}</p>
-      </div>
-    </div>
-
-    <div style="text-align: center; max-width: 600px; margin: 56px auto 0;">
-      <p class="closing-statement" style="font-family: var(--font-display); font-size: 1.25rem; color: #f3e7cf; font-style: italic; letter-spacing: 0.02em; line-height: 1.6;">{{ i18n["pillars.closing"][lang] }}</p>
+    <div style="margin-top: 48px;">
+      <a href="{% if lang == 'de' %}/verlag/{% else %}/en/house/{% endif %}" class="btn-link">{{ i18n["verlag.more"][lang] }} →</a>
     </div>
   </div>
 </section>
 
-<!--TECHNIK (frühere Übersetzungs-Sektion)-->
-<section id="technik" class="block imprint">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
-  <div class="wrap imprint-grid">
-    <div>
-      <div class="eyebrow-mini">{{ i18n["translation.eyebrow"][lang] }}</div>
-      <h2 class="title-xl"><span class="gold-grad">{{ i18n["translation.title"][lang] }}</span><br/><span class="nostyle"></span></h2>
-    </div>
-    <div>
-      <p>{{ i18n["translation.text1"][lang] }}
-        <br/><br/>
-        {{ i18n["translation.text2"][lang] }}
-        <br/><br/>
-        {{ i18n["translation.text3"][lang] }}
-        <br/><br/>
-        {{ i18n["translation.text4"][lang] }}
-      </p>
-      <p class="sig">— {{ i18n["translation.promise"][lang] }}</p>
-          <div class="header-actions">
-          <a href="#anspruch" class="btn-ghost">{{ i18n["translation.button"][lang] }}</a>
-        </div>
-    </div>
-  </div>
-</section>
-
-<!--REIHEN (fünf Säulen; frühere #series-Sektion)-->
+<!--REIHEN: kompakte visuelle Übersicht — volle Fassung (mit Autoren/Titeln je Reihe) lebt auf /reihen/-->
 <section id="reihen" class="block" style="background-color: #161311; position: relative;">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
   <div class="wrap">
@@ -164,57 +153,71 @@ hreflang: true
               </span>
             </div>
             <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.35rem; margin-bottom: 15px; font-weight: 400; line-height: 1.4;">{{ card.label[lang] }}</h3>
-            <p style="color: rgba(243, 231, 207, 0.7); font-size: 15px; line-height: 1.65; margin-bottom: 20px;">{{ card.desc[lang] }}</p>
+            <p style="color: rgba(243, 231, 207, 0.7); font-size: 15px; line-height: 1.65; margin-bottom: 0;">{{ card.desc[lang] }}</p>
           </div>
         </div>
       {% endfor %}
     </div>
 
+    <div style="margin-top: 48px; text-align: center;">
+      <a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}" class="btn-link">{{ i18n["reihen.more"][lang] }} →</a>
+    </div>
   </div>
 </section>
 
-<!--SETON-EDITION (Band I + II, bereits erschienen)-->
-<section id="seton-edition" class="block" style="background-color: #161311; padding: 96px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+<!--EDITION: gekürzte Fassung — volle Fassung lebt auf /edition/-->
+<section id="edition" class="block imprint">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
+  <div class="wrap imprint-grid">
+    <div>
+      <div class="eyebrow-mini">{{ i18n["translation.eyebrow"][lang] }}</div>
+      <h2 class="title-xl"><span class="gold-grad">{{ i18n["translation.title"][lang] }}</span></h2>
+    </div>
+    <div>
+      <p>{{ i18n["translation.text1"][lang] }}</p>
+      <p class="sig">— {{ i18n["translation.promise"][lang] }}</p>
+      <div class="header-actions">
+        <a href="{% if lang == 'de' %}/edition/{% else %}/en/edition/{% endif %}" class="btn-ghost">{{ i18n["edition.more"][lang] }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--AUTOREN IM PROGRAMM: datengetrieben aus seriesItems[].authors[] — verweist auf /reihen/#slug (volles Profil je Reihe)
+    und auf #aktuelle-ausgaben (Titel direkt auf dieser Seite). Wächst automatisch mit jedem neuen Autor. -->
+<section id="autoren" class="block" style="background-color: #161311; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
   <style>
-    #seton-edition .seton-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
-    #seton-edition .seton-card { display: flex; gap: 20px; border: 1px solid rgba(212, 175, 55, 0.12); background-color: #181512; padding: 24px; box-shadow: 0 12px 35px rgba(0,0,0,0.35); min-width: 0; }
-    #seton-edition .seton-cover { width: 140px; height: 210px; object-fit: cover; flex-shrink: 0; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
-    @media (max-width: 480px) {
-      #seton-edition .seton-card { flex-direction: column; }
-      #seton-edition .seton-cover { width: 120px; height: 180px; }
-    }
+    #autoren .authors-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px; margin-top: 48px; }
+    #autoren .author-card { border: 1px solid rgba(212, 175, 55, 0.12); background-color: #181512; padding: 28px; }
+    #autoren .author-card .badge { font-size: 0.72rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 12px; }
+    #autoren .author-card h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 400; margin-bottom: 14px; }
+    #autoren .author-card h3 a { color: #f3e7cf; transition: color .3s; }
+    #autoren .author-card h3 a:hover { color: var(--gold); }
+    #autoren .author-card .view { font-family: var(--font-sans); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); }
   </style>
-
   <div class="wrap">
-    <div style="max-width: 720px; margin-bottom: 56px;">
-      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["seton.eyebrow"][lang] }}</div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["seton.title"][lang] }}</span></h2>
-      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["seton.intro"][lang] }}</p></div>
+    <div style="max-width: 720px;">
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["authors.eyebrow"][lang] }}</div>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["authors.title"][lang] }}</span></h2>
+      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["authors.intro"][lang] }}</p></div>
     </div>
 
-    <div class="seton-grid">
-      {% for book in i18n.setonBooks %}
-        <div class="seton-card">
-          <picture style="display:contents">
-            <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
-            <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
-            <img class="seton-cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
-          </picture>
-          <div style="min-width: 0;">
-            <div style="font-size: 0.75rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 10px;">{{ i18n["seton.volume"][lang] }} {{ book.band }} · {{ book.originalTitle }}</div>
-            <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 12px; line-height: 1.35;">{{ book.title[lang] }}</h3>
-            <p style="color: rgba(243, 231, 207, 0.7); font-size: 14.5px; line-height: 1.6; margin-bottom: 16px;">{{ book.desc[lang] }}</p>
-            <div style="font-size: 12px; color: rgba(243, 231, 207, 0.4); margin-bottom: 16px;">ISBN {{ book.isbn }}</div>
-            <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="btn-press" style="font-size: 13px;">{{ i18n["seton.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
+    <div class="authors-grid">
+      {% for series in i18n.seriesItems %}
+        {% for author in series.authors %}
+          <div class="author-card">
+            <div class="badge">{{ series.colorName[lang] }} · {{ i18n["nav.series"][lang] }} {{ series.num }}</div>
+            <h3><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#{{ author.slug }}">{{ author.name }}</a></h3>
+            <a class="view" href="#aktuelle-ausgaben">{{ i18n["authors.viewTitles"][lang] }} →</a>
           </div>
-        </div>
+        {% endfor %}
       {% endfor %}
     </div>
   </div>
 </section>
 
-<!--PRESSE (kompaktes Band; Vollinhalt auf /en/press/)-->
+<!--PRESSE + LESERAUM (kompaktes Band; Vollinhalt auf /presse/)-->
 <section id="press-section" class="block" style="background-color: #161311; padding: 72px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
   <div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px;">
@@ -225,6 +228,7 @@ hreflang: true
     <div style="display: flex; gap: 24px; flex-wrap: wrap; align-items: center;">
       <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">{{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
       <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}" style="font-family: var(--font-serif); font-size: 1rem; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.4); text-decoration: none; padding-bottom: 2px;">{{ i18n["press.more"][lang] }} →</a>
+      <a href="#aktuelle-ausgaben" style="font-family: var(--font-serif); font-size: 1rem; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.4); text-decoration: none; padding-bottom: 2px;">{{ i18n["nav.readingroom"][lang] }} →</a>
     </div>
   </div>
 </section>

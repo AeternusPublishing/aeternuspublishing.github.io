@@ -1,0 +1,74 @@
+---
+title: "House — AETERNUS VERLAG"
+description: "AETERNUS VERLAG: mission, standards, and the seven principles behind our editions of historical texts and classics."
+layout: base.njk
+lang: en
+permalink: /en/house/index.html
+---
+
+<main>
+<!-- HOUSE — About, standards, and mission (full version; formerly part of the homepage #anspruch section) -->
+<!-- Top padding 180px so the heading clears the fixed header. -->
+<section class="block" style="background-color: #161311; padding: 180px 0 100px; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
+  <style>
+    .pillars-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 30px; }
+    .pillar-card { background-color: #1c1815; border: 1px solid rgba(212, 175, 55, 0.08); border-left: 3px solid rgba(212, 175, 55, 0.25); padding: 35px 30px; position: relative; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); }
+    .pillar-card:hover { transform: translateY(-5px); background-color: #211c19; border-color: rgba(212, 175, 55, 0.25); border-left-color: var(--gold); box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45), 0 0 25px rgba(212, 175, 55, 0.03); }
+    .pillar-num { font-size: 0.85rem; font-family: sans-serif; color: rgba(243, 231, 207, 0.4); font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 12px; transition: color 0.3s ease; }
+    .pillar-card:hover .pillar-num { color: var(--gold); }
+    .pillar-title { color: #f3e7cf; font-family: var(--font-display); font-size: 1.25rem; font-weight: 400; line-height: 1.4; margin: 0 0 15px 0; }
+    .pillar-desc { color: rgba(243, 231, 207, 0.65); font-size: 14.5px; line-height: 1.7; margin: 0; transition: color 0.3s ease; }
+    .pillar-card:hover .pillar-desc { color: rgba(243, 231, 207, 0.85); }
+  </style>
+
+  <div class="wrap">
+    <!-- Kopf -->
+    <div style="max-width: 720px; margin-bottom: 56px;">
+      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["about.eyebrow"][lang] }}</div>
+      <h1 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["about.title"][lang] }}</span></h1>
+      <div style="margin-top: 25px; font-size: 18px; line-height: 1.75; color: rgba(243, 231, 207, 0.85);"><p>{{ i18n["pillars.text"][lang] }}</p></div>
+    </div>
+
+    <!-- Leitbild / Fließtext -->
+    <div id="leitbild" class="imprint-grid" style="scroll-margin-top: 140px;">
+      <div>
+        <div class="eyebrow-mini">{{ i18n["nav.mission"][lang] }}</div>
+        <h2 class="title-xl"><span class="gold-grad">{{ i18n["about.title"][lang] }}</span><br/><span class="nostyle"></span></h2>
+      </div>
+      <div>
+      {{ i18n["about.text2"][lang] }}
+      <br/><br/>
+      {{ i18n["about.text3"][lang] }}
+      <br/><br/>
+      {{ i18n["about.text4"][lang] }}
+      <br/><br/>
+      {{ i18n["about.text5"][lang] }}
+        <p class="sig">— {{ i18n["about.signature"][lang] }}</p>
+      </div>
+    </div>
+
+    <div class="rule-gold" style="margin: 64px auto; max-width: 400px; height: 1px; background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.3), transparent);"></div>
+
+    <!-- Die sieben Grundsätze (I–VII) -->
+    <div id="grundsaetze" style="scroll-margin-top: 140px;">
+      <div style="max-width: 720px; margin-bottom: 40px;">
+        <h2 class="title-xl" style="font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["verlag.principlesHeading"][lang] }}</span></h2>
+      </div>
+      <div class="pillars-grid" style="margin-bottom: 0;">
+        {% for pillar in i18n.pillarsItems %}
+          <div class="pillar-card">
+            <div class="pillar-num">{{ pillar.num }}</div>
+            <h3 class="pillar-title">{{ pillar.title[lang] }}</h3>
+            <p class="pillar-desc">{{ pillar.desc[lang] }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div style="text-align: center; max-width: 600px; margin: 56px auto 0;">
+      <p class="closing-statement" style="font-family: var(--font-display); font-size: 1.25rem; color: #f3e7cf; font-style: italic; letter-spacing: 0.02em; line-height: 1.6;">{{ i18n["pillars.closing"][lang] }}</p>
+    </div>
+  </div>
+</section>
+</main>

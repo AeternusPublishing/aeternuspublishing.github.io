@@ -12,11 +12,10 @@
     </a> 
 <div class="nav-container">
       <nav class="primary">
-    <a href="#anspruch">{{ i18n["nav.anspruch"][lang] }}</a>
-    <a href="#technik">{{ i18n["nav.technik"][lang] }}</a>
-    <a href="#reihen">{{ i18n["nav.series"][lang] }}</a>
-    <a href="#seton-edition">{{ i18n["nav.seton"][lang] }}</a>
-    <a href="#press-section">{{ i18n["nav.press"][lang] }}</a>
+    <a href="{% if lang == 'de' %}/verlag/{% else %}/en/house/{% endif %}">{{ i18n["nav.verlag"][lang] }}</a>
+    <a href="{% if lang == 'de' %}/edition/{% else %}/en/edition/{% endif %}">{{ i18n["nav.edition"][lang] }}</a>
+    <a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}">{{ i18n["nav.series"][lang] }}</a>
+    <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}">{{ i18n["nav.press"][lang] }}</a>
       </nav>
        <!-- Language Selector Toggles -->
     <div class="lang-switch" role="group" aria-label="Language switcher">
