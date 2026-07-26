@@ -43,8 +43,10 @@ section[id] {
 /* HEADER */
 header.site{position:fixed;inset:0 0 auto 0;z-index:30;border-bottom:1px solid #8080801f;background-color: rgba(19, 17, 17, 0.5);
     backdrop-filter: blur(10px);}
-header.site .bar{display:flex;align-items:center;justify-content:space-between;padding:24px 0;}
-@media(min-width:768px){header.site .bar{padding:32px 0;}}
+/* padding-block, damit die horizontale Einrückung von .wrap erhalten bleibt —
+   sonst laufen Logo und Sprachumschalter bündig gegen den Viewport-Rand. */
+header.site .bar{display:flex;align-items:center;justify-content:space-between;padding-block:24px;}
+@media(min-width:768px){header.site .bar{padding-block:32px;}}
 .brand{display:flex;align-items:center;gap:12px;}
 .brand-name{font-family:var(--font-display);font-size:18px;letter-spacing:.01em;}
 .brand-sub{font-family:var(--font-sans);font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);margin-top:2px;}
@@ -226,7 +228,7 @@ footer.site .inner{padding:80px 20px;}
   display: flex;
   align-items: center; /* এটি নেভিগেশন এবং বোতামগুলোকে লোগোর সাথে সোজা লাইনে রাখবে */
   justify-content: space-between;
-  padding: 20px 0;
+  padding-block: 20px;
   width: 100%;
 }
 
@@ -245,7 +247,6 @@ footer.site .inner{padding:80px 20px;}
   max-width: 300px; /* লোগো অনেক বড় হলেও এটি সর্বোচ্চ ১৮০ পিক্সেল চওড়া হবে, আপনার প্রয়োজন অনুযায়ী কমাতে-বাড়াতে পারেন */
   height: auto;
   overflow: hidden;
-  background-color: whit;
 }
 
 /* Brand Logo Layout Fix */
