@@ -213,6 +213,10 @@ footer.site .inner{padding:80px 20px;}
 @media(min-width:768px){.foot-grid{grid-template-columns:repeat(5,1fr);}}
 .foot-brand{grid-column:span 2;}
 .foot-brand .brand-logo{max-width:240px;}
+/* Schutzabstand unter dem Logo. .brand gibt es nur im Footer (der Header nutzt
+   .brand-block), die Regel trifft also ausschliesslich hier. 24px entspricht
+   dem Wert, der in .foot-brand .addr ohnehin schon vorgesehen war. */
+.foot-brand .brand{margin-bottom:24px;}
 .foot-brand .addr{margin-top:24px;font-family:var(--font-serif);font-size:14px;color:var(--muted);max-width:340px;}
 .foot-col h4{font-family:var(--font-sans);font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font-weight:500;}
 .foot-col ul{list-style:none;margin-top:20px;display:flex;flex-direction:column;gap:12px;font-family:var(--font-serif);font-size:14px;}
