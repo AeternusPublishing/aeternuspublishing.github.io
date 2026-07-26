@@ -7,6 +7,7 @@
     "start": "eleventy --serve",
     "build": "node ./node_modules/@11ty/eleventy/cmd.cjs",
     "optimize:images": "node scripts/optimize-images.js",
+    "icons": "node scripts/make-icons.js",
     "fonts": "node scripts/fetch-fonts.js"
   },
   "keywords": [],

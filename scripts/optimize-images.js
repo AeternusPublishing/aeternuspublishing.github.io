@@ -44,11 +44,10 @@ async function gen(srcName, outputs) {
     { name: "book-hunted-fallback.jpg", jpeg: { quality: 84, mozjpeg: true } },
   ]);
 
-  // Logo — graphic with alpha. Near-lossless to keep edges/text crisp; PNG stays as fallback.
-  await gen("logo.png", [
-    { name: "logo.avif", avif: { quality: 72, effort: 4 } },
-    { name: "logo.webp", webp: { quality: 92, alphaQuality: 100 } },
-  ]);
+  // NOTE: the logo is no longer rasterized here. It ships as logo.svg, copied
+  // byte-identical from the frozen master in
+  // 99_SYSTEM/DESIGN_SYSTEM/assets/logo/MASTER_SVG/ (see LOGO_REGISTRY.json).
+  // The only raster derived from it is apple-touch-icon.png — see scripts/make-icons.js.
 
   // Seton-Edition covers (Band I + II) — front-cover crops from the final KDP wraps.
   await gen("cover-wilde-tiere.png", [
