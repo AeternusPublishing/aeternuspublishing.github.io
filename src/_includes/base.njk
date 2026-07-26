@@ -30,8 +30,8 @@
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/fraunces-300-600-italic-latin.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/fraunces-300-600-italic-latin-ext.woff2" />
-<link rel="stylesheet" href="/assets/css/fonts.css" />
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/fonts.css{% if assetVersion.fonts %}?v={{ assetVersion.fonts }}{% endif %}" />
+<link rel="stylesheet" href="/assets/css/style.css{% if assetVersion.style %}?v={{ assetVersion.style }}{% endif %}">
 </head>
 <body>
 {% include 'header.njk' %}
