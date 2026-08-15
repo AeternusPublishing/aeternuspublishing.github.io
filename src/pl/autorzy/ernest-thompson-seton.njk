@@ -453,8 +453,9 @@ eleventyExcludeFromCollections: false
 
     .book-grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: clamp(3rem, 6vw, 7rem) clamp(2rem, 4vw, 4.5rem);
+      grid-template-columns: repeat(4, minmax(220px, 300px));
+      justify-content: center;
+      gap: clamp(3rem, 5vw, 6rem) clamp(1.5rem, 2.5vw, 2.75rem);
     }
 
     .book-card {
@@ -532,6 +533,16 @@ eleventyExcludeFromCollections: false
       background-size: 4px 4px;
     }
 
+    .generated-cover.wild {
+      color: #f1dfb4;
+      background: linear-gradient(145deg, #8a5b1d 0%, #2b2114 52%, #11150f 100%);
+    }
+
+    .generated-cover.wahb {
+      color: #eee1c2;
+      background: linear-gradient(145deg, #53605a 0%, #27312e 48%, #101714 100%);
+    }
+
     .generated-cover.arctic {
       color: #eaddbc;
       background: linear-gradient(145deg, #28413f 0%, #162725 45%, #75582c 100%);
@@ -579,7 +590,7 @@ eleventyExcludeFromCollections: false
       margin: 0;
       color: var(--ivory);
       font-family: var(--display);
-      font-size: clamp(2.25rem, 3.5vw, 4.2rem);
+      font-size: clamp(1.8rem, 2vw, 2.7rem);
       font-weight: 470;
       letter-spacing: -0.04em;
       line-height: 1;
@@ -780,6 +791,7 @@ eleventyExcludeFromCollections: false
       .hero-copy { padding-left: 3rem; }
       .bio-heading, .works-head { grid-template-columns: 1fr; }
       .works-intro { max-width: 46rem; }
+      .book-grid { grid-template-columns: repeat(2, minmax(220px, 300px)); }
     }
 
     @media (max-width: 760px) {
@@ -914,11 +926,11 @@ eleventyExcludeFromCollections: false
           <button class="cover-button" type="button" data-book="0" aria-label="Otwórz szczegóły książki Dzikie zwierzęta, które znałem">
             <span class="book-index">01</span>
             <span class="cover-shell">
-              <picture>
-                <source srcset="/assets/images/cover-wilde-tiere.avif" type="image/avif">
-                <source srcset="/assets/images/cover-wilde-tiere.webp" type="image/webp">
-                <img src="/assets/images/cover-wilde-tiere-fallback.jpg" alt="Okładka książki Dzikie zwierzęta, które znałem" loading="lazy" width="800" height="1127">
-              </picture>
+              <span class="generated-cover wild">
+                <span class="cover-publisher">Aeternus Verlag</span>
+                <span class="cover-title">Dzikie zwierzęta,<br>które znałem</span>
+                <span class="cover-author">Ernest Thompson Seton</span>
+              </span>
             </span>
             <span class="book-meta">Opowieści o zwierzętach · 1898</span>
             <h3>Dzikie zwierzęta, które znałem</h3>
@@ -931,11 +943,11 @@ eleventyExcludeFromCollections: false
           <button class="cover-button" type="button" data-book="1" aria-label="Otwórz szczegóły książki Wahb. Biografia niedźwiedzia grizzly">
             <span class="book-index">02</span>
             <span class="cover-shell">
-              <picture>
-                <source srcset="/assets/images/cover-wahb.avif" type="image/avif">
-                <source srcset="/assets/images/cover-wahb.webp" type="image/webp">
-                <img src="/assets/images/cover-wahb-fallback.jpg" alt="Okładka książki Wahb. Biografia niedźwiedzia grizzly" loading="lazy" width="800" height="1127">
-              </picture>
+              <span class="generated-cover wahb">
+                <span class="cover-publisher">Aeternus Verlag</span>
+                <span class="cover-title">Wahb</span>
+                <span class="cover-author">Ernest Thompson Seton</span>
+              </span>
             </span>
             <span class="book-meta">Opowieść o zwierzęciu · 1900</span>
             <h3>Wahb. Biografia niedźwiedzia grizzly</h3>
