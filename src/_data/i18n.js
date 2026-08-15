@@ -265,7 +265,31 @@ module.exports = {
         de: "Schwere Weltliteratur des Grenzraums und des Ur-Konflikts — von Melville bis Simms — sowie historische Berichte von Eroberung und Feldzug.",
         en: "Weighty world literature of the frontier and the primal conflict — from Melville to Simms — alongside historical accounts of conquest and campaign."
       },
-      authors: []
+      authors: [
+        {
+          name: "Robert Montgomery Bird",
+          slug: "robert-montgomery-bird",
+          landingUrl: { de: "/autoren/robert-montgomery-bird/", en: "/autoren/robert-montgomery-bird/?lang=en" },
+          bio: {
+            de: "Robert Montgomery Bird verbindet historischen Grenzroman, psychologische Spannung und die Konflikte der frühen Vereinigten Staaten. Seine wiederentdeckten Werke erscheinen in der Reihe Anthrazit.",
+            en: "Robert Montgomery Bird combines historical frontier fiction, psychological tension, and the conflicts of the early United States. His rediscovered works appear in the Anthracite series."
+          },
+          books: [
+            {
+              cover: "cover-waldteufel",
+              band: "I",
+              isbn: "978-3-912883-10-7",
+              amazonUrl: "https://www.amazon.de/dp/3912883106",
+              originalTitle: "Nick of the Woods, 1837",
+              title: { de: "Der Waldteufel", en: "Nick of the Woods" },
+              desc: {
+                de: "Ein vergessener Klassiker der amerikanischen Literatur — erstmals vollständig auf Deutsch, ungekürzt und historisch eingeordnet.",
+                en: "A forgotten classic of American literature — presented complete, unabridged, and historically contextualized."
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       num: "II",
@@ -319,6 +343,11 @@ module.exports = {
         {
           name: "Ernest Thompson Seton",
           slug: "ernest-thompson-seton",
+          landingUrl: { de: "/autoren/ernest-thompson-seton/", en: "/autoren/ernest-thompson-seton/?lang=en" },
+          bio: {
+            de: "Ernest Thompson Seton war Naturbeobachter, Zeichner und Erzähler. Seine Tiergeschichten verbinden genaue Beobachtung mit literarischer Kraft und bilden den Auftakt der Reihe Bernstein.",
+            en: "Ernest Thompson Seton was a naturalist, artist, and storyteller. His animal stories unite close observation with literary force and open the Amber series."
+          },
           books: [
             {
               cover: "cover-wilde-tiere",
@@ -372,10 +401,11 @@ module.exports = {
   "authors.eyebrow": { de: "✦ AUTOREN IM PROGRAMM", en: "✦ AUTHORS IN THE PROGRAMME" },
   "authors.title": { de: "Ausgewählte Autoren", en: "Selected authors" },
   "authors.intro": {
-    de: "Das Programm wächst mit jedem Autor, dessen Werk unserem Anspruch entspricht. Den Anfang macht Ernest Thompson Seton.",
-    en: "The programme grows with every author whose work meets our standard. It begins with Ernest Thompson Seton."
+    de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein; Robert Montgomery Bird eröffnet die Reihe Anthrazit.",
+    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series; Robert Montgomery Bird opens the Anthracite series."
   },
   "authors.viewTitles": { de: "Titel ansehen", en: "View titles" },
+  "authors.viewProfile": { de: "Zur Autorenseite", en: "Open author page" },
 
   // --- Cross-links from condensed homepage teasers to the full subpages ---
   "verlag.more": { de: "Mehr über den Verlag", en: "More about the house" },

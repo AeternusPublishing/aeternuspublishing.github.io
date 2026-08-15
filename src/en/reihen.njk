@@ -18,6 +18,7 @@ permalink: /en/series/index.html
     .author-block .author-name { font-family: var(--font-display); font-size: 1.05rem; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.4); padding-bottom: 2px; transition: color .3s; }
     .author-block .author-name:hover { color: #f3e7cf; }
     .author-block .author-desc { margin-top: 14px; font-size: 14px; line-height: 1.65; color: rgba(243, 231, 207, 0.65); }
+    .author-block .profile-link { display: inline-block; margin-top: 14px; font-family: var(--font-sans); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.35); padding-bottom: 2px; }
     .book-mini-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
     .book-mini { display: flex; align-items: center; gap: 14px; }
     .book-mini .cover { width: 40px; height: 60px; object-fit: cover; flex-shrink: 0; box-shadow: 0 6px 16px rgba(0,0,0,0.45); }
@@ -51,9 +52,10 @@ permalink: /en/series/index.html
             {% for author in card.authors %}
               <div class="author-block">
                 <div class="kicker">{{ i18n["series.authorsHeading"][lang] }}</div>
-                <a href="#{{ author.slug }}" class="author-name">{{ author.name }}</a>
+                <a href="{{ author.landingUrl[lang] }}" class="author-name">{{ author.name }}</a>
                 <div id="{{ author.slug }}" class="author-desc" style="scroll-margin-top: 140px;">
-                  {{ i18n["author.intro"][lang] }}
+                  {{ author.bio[lang] }}
+                  <br><a class="profile-link" href="{{ author.landingUrl[lang] }}">{{ i18n["authors.viewProfile"][lang] }} →</a>
                   <div style="margin-top: 18px; font-size: 0.72rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase;">{{ i18n["author.availableTitles"][lang] }}</div>
                   <div class="book-mini-list">
                     {% for book in author.books %}
