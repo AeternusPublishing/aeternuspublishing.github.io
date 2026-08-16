@@ -146,7 +146,11 @@ module.exports = {
   "hunted.specSeries": { de: "Reihe", en: "Series" },
   "hunted.specSeriesVal": { de: "Seton-Edition", en: "The Seton Edition" },
   "hunted.specStatus": { de: "Status", en: "Status" },
-  "hunted.specStatusVal": { de: "Erschienen", en: "Published" },
+  // 2026-08-11, Verlegeranweisung Patrick: ETS_003 "Leben der Gejagten" ist
+  // NICHT erschienen und fuehrt keine veroeffentlichte Ausgabe. Der Wert stand
+  // auf "Erschienen"/"Published" - eine oeffentliche Falschangabe. Kein Template
+  // liest diesen Block derzeit; korrigiert wird trotzdem, damit sie es nie wird.
+  "hunted.specStatusVal": { de: "In Vorbereitung", en: "In preparation" },
   "hunted.specLanguage": { de: "Sprache", en: "Language" },
   "hunted.specLanguageVal": { de: "Deutsch", en: "German" },
   "hunted.specFormatVal": {
@@ -207,8 +211,14 @@ module.exports = {
     },
     {
       author: "Ernest Thompson Seton",
-      ext: "jpg",
-      title: { de: "Das Leben der Gejagten", en: "Lives of the Hunted" },
+      // 2026-08-11: 'ext: "jpg"' zeigte auf book-hunted.jpg - ein Foto des
+      // englischen Originaleinbands von 1901. Das ist nicht der Einband der
+      // AETERNUS-Ausgabe und darf nicht als solcher erscheinen. Bis das
+      // AETERNUS-Cover final ist, steht hier keines. Kanonischer Arbeitstitel
+      // ohne Artikel; der Band ist in Vorbereitung, nicht erschienen.
+      title: { de: "Leben der Gejagten", en: "Lives of the Hunted" },
+      cover: null,
+      status: { de: "In Vorbereitung", en: "In preparation" },
       desc: {
         de: "Lebensbilder verfolgter Tiere unter dem Gesetz von Hunger, Flucht und Überleben.",
         en: "Life portraits of hunted animals under the law of hunger, flight, and survival."
@@ -371,6 +381,23 @@ module.exports = {
               desc: {
                 de: "Die Lebensgeschichte eines Grizzlybären von der Jugend bis zum Alter — ungeschönt und ohne Vermenschlichung erzählt.",
                 en: "The life story of a grizzly bear from youth to old age — told plainly, without anthropomorphizing."
+              }
+            },
+            {
+              // Band IV der Seton-Edition; Band III (Leben der Gejagten) ist noch
+              // in Vorbereitung. Live ist derzeit die Kindle-Ausgabe (ISBN -23-7,
+              // ASIN B0HFDJS2L6); Hardcover (-22-0) und Taschenbuch (-21-3) sind
+              // bei KDP eingereicht — amazonUrl auf die Druckausgabe umstellen,
+              // sobald sie live ist (ISBN-10/ASIN des Hardcovers: 391288322X).
+              cover: "cover-tierhelden",
+              band: "IV",
+              isbn: "978-3-912883-23-7",
+              amazonUrl: "https://www.amazon.de/dp/B0HFDJS2L6",
+              originalTitle: "Animal Heroes, 1905",
+              title: { de: "Tierhelden. Portraits aus der Wildnis", en: "Animal Heroes" },
+              desc: {
+                de: "Acht Lebensbilder aus Setons Spätwerk — von der Slum-Katze bis zum Wolf von Winnipeg. Neu übersetzt und eingerichtet.",
+                en: "Eight animal portraits from Seton's later work — from the slum cat to the Winnipeg wolf. Newly translated and edited."
               }
             }
           ]

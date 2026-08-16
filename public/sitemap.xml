@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aeternus-verlag.de/anthrazit/der-waldteufel/</loc>
+    <loc>https://aeternus-verlag.de/presse/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/press/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/impressum/</loc>
   </url>
   <url>
     <loc>https://aeternus-verlag.de/datenschutz/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/verlag/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/house/</loc>
   </url>
   <url>
     <loc>https://aeternus-verlag.de/edition/</loc>
@@ -13,30 +25,36 @@
     <loc>https://aeternus-verlag.de/en/edition/</loc>
   </url>
   <url>
-    <loc>https://aeternus-verlag.de/en/</loc>
-  </url>
-  <url>
-    <loc>https://aeternus-verlag.de/en/press/</loc>
-  </url>
-  <url>
-    <loc>https://aeternus-verlag.de/en/series/</loc>
-  </url>
-  <url>
-    <loc>https://aeternus-verlag.de/en/house/</loc>
-  </url>
-  <url>
-    <loc>https://aeternus-verlag.de/impressum/</loc>
-  </url>
-  <url>
     <loc>https://aeternus-verlag.de/</loc>
   </url>
   <url>
-    <loc>https://aeternus-verlag.de/presse/</loc>
+    <loc>https://aeternus-verlag.de/en/</loc>
   </url>
   <url>
     <loc>https://aeternus-verlag.de/reihen/</loc>
   </url>
   <url>
-    <loc>https://aeternus-verlag.de/verlag/</loc>
+    <loc>https://aeternus-verlag.de/en/series/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/anthrazit/der-waldteufel/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/es/autores/ernest-thompson-seton/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/es/autores/robert-montgomery-bird/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/pl/autorzy/ernest-thompson-seton/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/qr/es/bird/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/qr/es/seton/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/qr/pl/seton/</loc>
   </url>
 </urlset>

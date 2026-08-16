@@ -21,6 +21,7 @@ async function gen(srcName, outputs) {
   for (const o of outputs) {
     const out = path.join(DIR, o.name);
     let pipe = sharp(src);
+    if (o.resize) pipe = pipe.resize(o.resize);
     if (o.avif) pipe = pipe.avif(o.avif);
     else if (o.webp) pipe = pipe.webp(o.webp);
     else if (o.jpeg) pipe = pipe.jpeg(o.jpeg);
@@ -59,6 +60,14 @@ async function gen(srcName, outputs) {
     { name: "cover-wahb.avif", avif: { quality: 55, effort: 4 } },
     { name: "cover-wahb.webp", webp: { quality: 80 } },
     { name: "cover-wahb-fallback.jpg", jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+
+  // Band IV Tierhelden — Quelle: finales KDP-Ebook-Cover (1600x2560),
+  // auf 1024px Breite normiert wie Band I/II.
+  await gen("cover-tierhelden.jpg", [
+    { name: "cover-tierhelden.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-tierhelden.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-tierhelden-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
 })().catch((e) => {
   console.error(e);
