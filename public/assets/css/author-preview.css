@@ -1,0 +1,56 @@
+/* Ergaenzung zu author-es.css: Reihenfarben BLAU/GRUEN, Portraet-Platzhalter,
+   Vorschau-Zustand fuer Autorenseiten ohne erschienene Ausgabe. */
+
+.series-blue{--accent:#5c86a8;--accent-2:#9dbdd6;--accent-dark:#2e4b64;--line:rgba(157,189,214,.26)}
+.series-blue .hero::before{filter:grayscale(.55) sepia(.06) saturate(.5)}
+.series-blue .biography{background:radial-gradient(circle at 85% 12%,rgba(60,92,120,.16),transparent 28%),linear-gradient(135deg,#e3e2de,#c9cdcd)}
+
+.series-green{--accent:#71905b;--accent-2:#a7c188;--accent-dark:#3f5735;--line:rgba(167,193,136,.26)}
+.series-green .hero::before{filter:grayscale(.35) sepia(.18) saturate(.55)}
+.series-green .biography{background:radial-gradient(circle at 85% 12%,rgba(74,97,55,.16),transparent 28%),linear-gradient(135deg,#e6e4d3,#ccccb4)}
+
+/* Portraets dieser Baende liegen koloriert bzw. farbig vor. Die harte
+   Graustufen-Regel aus author-es.css wuerde diese Kolorierung wegwerfen,
+   deshalb hier eine gemeinsame, ruhige Behandlung statt Graustufe.
+   Umschalten auf Hausgraustufe: naechste Regel loeschen. */
+.is-preview .portrait-frame img{filter:saturate(.86) contrast(1.04)}
+.is-preview .portrait-frame picture{display:block;width:100%;height:100%}
+
+/* Vorschau-Banner: liegt wie der Kopf ueber dem Hero, direkt unter ihm.
+   Der Kopf ist in author-es.css absolut positioniert (min-height 6.5rem,
+   unter 760px 5.2rem) - der Banner setzt exakt darunter auf. */
+.preview-banner{position:absolute;z-index:19;top:6.5rem;left:0;right:0;margin:0;padding:1.05rem 3.25vw;color:var(--accent-2);background:rgba(10,10,9,.92);border-bottom:1px solid var(--line);font:800 .66rem/1.6 var(--sans);letter-spacing:.17em;text-align:center;text-transform:uppercase}
+@media(max-width:760px){.preview-banner{top:5.2rem;padding:.9rem 1rem;letter-spacing:.12em}}
+/* Der Banner liegt ueber dem Hero - der Hero bekommt seine Hoehe als Zuschlag. */
+.is-preview .hero{padding-top:13rem}
+@media(max-width:760px){.is-preview .hero{padding-top:13.5rem}}
+
+/* Ein einzelner Band */
+.book-grid.single-item{grid-template-columns:minmax(220px,300px);max-width:22rem;margin-inline:auto}
+/* Fix: .book-grid.single-row schlaegt per Spezifitaet die Media-Query-Regel
+   .book-grid{grid-template-columns:1fr} in author-es.css. Auf schmalen Schirmen
+   blieben dadurch zwei 220px-Spalten stehen; die Karten ragten seitlich heraus
+   und wurden von .works{overflow:hidden} abgeschnitten. */
+@media(max-width:760px){.book-grid.single-row{grid-template-columns:minmax(0,1fr);max-width:22rem;margin-inline:auto}}
+/* Fuenf Baende: 3 + 2 statt 4 + 1 */
+.book-grid.count-5{grid-template-columns:repeat(3,minmax(220px,300px))}
+@media(max-width:1250px){.book-grid.count-5{grid-template-columns:repeat(2,minmax(220px,300px))}}
+@media(max-width:760px){.book-grid.count-5{grid-template-columns:1fr}}
+
+/* Ohne erschienene Ausgabe: kein Haendlerknopf, stattdessen Statuszeile */
+.is-preview .amazon-button{display:none}
+.status-line{display:inline-flex;align-items:center;gap:.9rem;min-height:3.4rem;margin-top:.4rem;padding:0 1.4rem;color:var(--accent-2);border:1px solid var(--line);font:800 .66rem var(--sans);letter-spacing:.16em;text-transform:uppercase}
+.book-card .details-label.upcoming{color:var(--accent)}
+
+/* Fakten-Leiste zwischen Biografie und Werk */
+.factbar{display:grid;grid-template-columns:repeat(4,1fr);padding:0 max(3.3vw,calc((100vw - 100rem)/2));background:#090908;border-top:1px solid rgba(233,223,196,.1);border-bottom:1px solid rgba(233,223,196,.1)}
+.factbar p{margin:0;min-height:6.5rem;display:grid;place-items:center;padding:1.6rem 1.2rem;color:#8b8375;border-right:1px solid rgba(233,223,196,.08);font:700 .66rem/1.6 var(--sans);letter-spacing:.12em;text-align:center;text-transform:uppercase}
+.factbar p:last-child{border-right:0}
+.factbar strong{display:block;margin-top:.5rem;color:var(--accent-2);font-weight:800}
+@media(max-width:1050px){.factbar{grid-template-columns:1fr 1fr}.factbar p:nth-child(2n){border-right:0}.factbar p:nth-child(-n+2){border-bottom:1px solid rgba(233,223,196,.08)}}
+@media(max-width:640px){.factbar{grid-template-columns:1fr}.factbar p{border-right:0;border-bottom:1px solid rgba(233,223,196,.08)}.factbar p:last-child{border-bottom:0}}
+
+/* Buchdeckel-Platzhalter der drei Vorbereitungsbaende */
+.generated-cover.ford{color:#dfe6ea;background:linear-gradient(145deg,#3d515f,#1b242a 50%,#0f1417)}
+.generated-cover.sale{color:#e7e3cd;background:linear-gradient(145deg,#4d5b3c,#232a1c 48%,#6b5a2c)}
+.generated-cover.scouting{color:#f0e2bd;background:linear-gradient(145deg,#7d6224,#2c2617 50%,#14170f)}

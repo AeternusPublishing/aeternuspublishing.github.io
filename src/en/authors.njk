@@ -1,0 +1,61 @@
+---
+pagination:
+  data: authorsEn
+  size: 1
+  alias: a
+permalink: "/en/authors/{{ a.slug }}/index.html"
+eleventyExcludeFromCollections: false
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ a.name }} | Aeternus Verlag</title>
+  <meta name="description" content="{{ a.metaDescription }}">
+  <meta name="theme-color" content="#0e0d0b"><link rel="canonical" href="https://aeternus-verlag.de/en/authors/{{ a.slug }}/">
+  <meta property="og:type" content="profile"><meta property="og:locale" content="en_GB"><meta property="og:site_name" content="Aeternus Verlag"><meta property="og:title" content="{{ a.name }} | Aeternus Verlag"><meta property="og:description" content="{{ a.tagline }}"><meta property="og:url" content="https://aeternus-verlag.de/en/authors/{{ a.slug }}/"><meta property="og:image" content="https://aeternus-verlag.de/assets/images/{{ a.portrait.file }}{% if a.portrait.modern %}.jpg{% endif %}">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ a.name }} | Aeternus Verlag"><meta name="twitter:description" content="{{ a.tagline }}"><meta name="twitter:image" content="https://aeternus-verlag.de/assets/images/{{ a.portrait.file }}{% if a.portrait.modern %}.jpg{% endif %}">
+  <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/fonts.css"><link rel="stylesheet" href="/assets/css/author-es.css"><link rel="stylesheet" href="/assets/css/author-preview.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","name":"{{ a.name }}","url":"https://aeternus-verlag.de/en/authors/{{ a.slug }}/","inLanguage":"en","mainEntity":{"@type":"Person","name":"{{ a.name }}","birthDate":"{{ a.schema.birthDate }}","deathDate":"{{ a.schema.deathDate }}","description":"{{ a.schema.description }}"},"publisher":{"@type":"Organization","name":"Aeternus Verlag","url":"https://aeternus-verlag.de/"}}</script>
+</head>
+<body class="{{ a.seriesClass }}{% if a.preview %} is-preview{% endif %}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="/en/" aria-label="Aeternus Verlag &mdash; home"><img src="/assets/images/logo.svg" alt="" width="32" height="32"><span>Aeternus Verlag</span></a><nav class="nav" aria-label="Author page navigation"><a href="#biography">Biography</a><a href="#works">Works</a><span class="language" aria-current="page">EN</span></nav></header>
+  {% if a.preview %}<p class="preview-banner">Preview &middot; No edition published yet &middot; Title, cover and date are not yet fixed</p>{% endif %}
+  <main id="main">
+    <section class="hero" aria-labelledby="author-name">
+      <div class="portrait-column"><figure class="portrait-frame">{% if a.portrait.modern %}<picture><source type="image/avif" srcset="/assets/images/{{ a.portrait.file }}.avif"><source type="image/webp" srcset="/assets/images/{{ a.portrait.file }}.webp"><img src="/assets/images/{{ a.portrait.file }}.jpg" alt="{{ a.portrait.alt }}" width="690" height="960" loading="eager" decoding="async"></picture>{% else %}<img src="/assets/images/{{ a.portrait.file }}" alt="{{ a.portrait.alt }}" width="690" height="960">{% endif %}<figcaption class="portrait-caption">AV <small>Author library</small></figcaption></figure></div>
+      <div class="hero-copy"><p class="eyebrow">{{ a.eyebrow | safe }}</p><h1 class="{{ a.nameClass }}" id="author-name">{{ a.name }}</h1><p class="dates">{{ a.dates | safe }}</p><blockquote class="hero-quote">{{ a.tagline }}</blockquote><p class="hero-intro">{{ a.intro | safe }}</p><a class="primary-cta" href="#works">{% if a.preview %}To the work{% else %}Explore the works{% endif %} <span aria-hidden="true">&rarr;</span></a></div>
+    </section>
+    <section class="biography" id="biography" aria-labelledby="bio-title" data-monogram="{{ a.monogram }}">
+      <div class="bio-heading"><div><p class="section-kicker">{{ a.bioKicker | safe }}</p><h2 id="bio-title">{{ a.bioTitle | safe }}</h2></div><p class="bio-lede">{{ a.bioLede | safe }}</p></div>
+      <div class="bio-grid">
+        {%- for b in a.blocks %}
+        <article class="bio-block"><span class="bio-number">0{{ loop.index }}</span><h3>{{ b.h | safe }}</h3>{% for p in b.p %}<p>{{ p | safe }}</p>{% endfor %}</article>
+        {%- endfor %}
+      </div>
+    </section>
+    {%- if a.facts %}
+    <section class="factbar" aria-label="Edition data">
+      {%- for f in a.facts %}<p>{{ f[0] }}<strong>{{ f[1] | safe }}</strong></p>{% endfor %}
+    </section>
+    {%- endif %}
+    <section class="works" id="works" aria-labelledby="works-title">
+      <div class="works-head"><div><p class="section-kicker">{{ a.worksKicker }}</p><h2 id="works-title">{{ a.worksTitle }}</h2></div><p class="works-intro">{{ a.worksIntro | safe }}</p></div>
+      <div class="book-grid {{ a.gridClass }}">
+        {%- for bk in a.books %}
+        <article class="book-card"><button class="cover-button" type="button" data-book="{{ loop.index0 }}" aria-label="Open details: {{ bk.title | striptags }}"><span class="book-index">0{{ loop.index }}</span><span class="cover-shell">{% if bk.cover.img %}<picture><source type="image/avif" srcset="/assets/images/{{ bk.cover.img }}.avif"><source type="image/webp" srcset="/assets/images/{{ bk.cover.img }}.webp"><img src="/assets/images/{{ bk.cover.img }}-fallback.jpg" alt="" loading="lazy" decoding="async"></picture>{% else %}<span class="generated-cover {{ bk.cover.gen }}"><span class="cover-publisher">Aeternus Verlag</span><span class="cover-title">{{ bk.cover.title | safe }}</span><span class="cover-author">{{ a.name }}</span></span>{% endif %}</span><span class="book-meta">{{ bk.meta | safe }}</span><h3>{{ bk.title | safe }}</h3><span class="book-subtitle">{{ bk.subtitle | safe }}</span><span class="details-label{% if a.preview %} upcoming{% endif %}">{% if a.preview %}Details{% else %}Open details{% endif %}</span></button></article>
+        {%- endfor %}
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>Aeternus Verlag &middot; Historic texts in new editions.</span><span>&copy; Aeternus Verlag. All rights reserved.</span></footer>
+  <div class="modal" id="book-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel" role="document"><button class="modal-close" type="button" data-close-modal aria-label="Close">&times;</button><div class="modal-visual" aria-hidden="true"><span class="modal-monogram" id="modal-monogram">01</span></div><div class="modal-content"><p class="modal-eyebrow" id="modal-metadata"></p><h3 id="modal-title"></h3><p class="modal-subtitle" id="modal-subtitle"></p><p class="modal-summary" id="modal-summary"></p><div class="sample"><strong>{% if a.preview %}About the edition{% else %}Reading sample{% endif %}</strong><p id="modal-sample"></p></div>{% if a.preview %}<span class="status-line">In preparation &middot; date open</span>{% endif %}<a class="amazon-button" id="modal-amazon" href="{% if a.preview %}/en/{% else %}#{% endif %}"{% if not a.preview %} target="_blank"{% endif %} rel="noopener noreferrer">{% if a.preview %}More{% else %}View on Amazon{% endif %} <span aria-hidden="true">&rarr;</span></a></div></div></div>
+  <script>window.AETERNUS_BOOKS=[
+  {%- for bk in a.books %}
+    {title:{{ bk.title | striptags | dump | safe }},subtitle:{{ bk.subtitle | striptags | dump | safe }},metadata:{{ bk.modal.metadata | dump | safe }},summary:{{ bk.modal.summary | dump | safe }},sample:{{ bk.modal.sample | dump | safe }},amazon:{{ bk.modal.amazon | default("/en/") | dump | safe }}}{% if not loop.last %},{% endif %}
+  {%- endfor %}
+  ];</script><script src="/assets/js/author-es.js"></script>
+  {%- if a.preview %}<script>(function(){var x=document.getElementById("modal-amazon");if(x&&x.parentNode)x.parentNode.removeChild(x)})();</script>{% endif %}
+</body></html>

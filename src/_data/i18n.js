@@ -34,8 +34,8 @@ module.exports = {
       "metrics.info2.2nd": { de: "Erster Programmschwerpunkt", en: "First editorial line" },
         "metrics.info3.1st": { de: "ÜBERSETZUNG", en: "TRANSLATION" },
           "metrics.info3.2nd": { de: "Kern unserer Arbeit", en: "Core of our work " },
-          "metrics.info4.1st": { de: "5 REIHEN ", en: "5 SERIES" },
-          "metrics.info4.2nd": { de: "Fünf thematisch abgegrenzte Reihen", en: "Clearly ordered programme pillars " },
+          "metrics.info4.1st": { de: "6 REIHEN", en: "6 SERIES" },
+          "metrics.info4.2nd": { de: "Sechs thematisch abgegrenzte Reihen", en: "Clearly ordered programme pillars " },
           "metrics.info5.1st": { de: "DE / EN ", en: "DE / EN" },
           "metrics.info5.2nd": { de: "Deutsche Ausgaben; englische Verlagsinformationen ergänzend", en: "German first, English accompanying  " },
 
@@ -279,7 +279,7 @@ module.exports = {
         {
           name: "Robert Montgomery Bird",
           slug: "robert-montgomery-bird",
-          landingUrl: { de: "/autoren/robert-montgomery-bird/", en: "/autoren/robert-montgomery-bird/?lang=en" },
+          landingUrl: { de: "/autoren/robert-montgomery-bird/", en: "/en/authors/robert-montgomery-bird/" },
           bio: {
             de: "Robert Montgomery Bird verbindet historischen Grenzroman, psychologische Spannung und die Konflikte der frühen Vereinigten Staaten. Seine wiederentdeckten Werke erscheinen in der Reihe Anthrazit.",
             en: "Robert Montgomery Bird combines historical frontier fiction, psychological tension, and the conflicts of the early United States. His rediscovered works appear in the Anthracite series."
@@ -311,7 +311,21 @@ module.exports = {
         de: "Feldzüge, Sonderoperationen, militärische Erinnerungen, Grenzkriege und die politischen, gesellschaftlichen und militärischen Folgen bewaffneter Konflikte.",
         en: "Campaigns, special operations, military memoirs, frontier wars, and the long shadow of armed order."
       },
-      authors: []
+      // Eröffnungsautorin der grünen Linie. Noch kein Band erschienen — books bleibt leer,
+      // damit die Autorin auf /reihen/ und unter "Autoren im Programm" erscheint, aber
+      // NICHT unter "Aktuelle Ausgaben".
+      authors: [
+        {
+          name: "Lady Florentia Sale",
+          slug: "lady-florentia-sale",
+          landingUrl: { de: "/autoren/lady-florentia-sale/", en: "/en/authors/lady-florentia-sale/" },
+          bio: {
+            de: "Lady Florentia Sale schrieb mitten im Zusammenbruch des britischen Feldzugs in Afghanistan weiter — Tag für Tag, ohne zu wissen, wie er ausgeht. Ihr Tagebuch eröffnet die Reihe Grün.",
+            en: "Lady Florentia Sale kept writing through the collapse of the British campaign in Afghanistan — day by day, without knowing how it would end. Her journal opens the Green series."
+          },
+          books: []
+        }
+      ]
     },
     {
       num: "III",
@@ -335,7 +349,19 @@ module.exports = {
         de: "Aufstieg und Wirken der großen Industriellen und Unternehmer — Kapitalbildung, Wettbewerb und die Formung der modernen Wirtschaft.",
         en: "The rise and work of the great industrialists and entrepreneurs — capital formation, competition, and the shaping of the modern economy."
       },
-      authors: []
+      // Erster Autor der blauen Linie auf der V3-Engine. Noch kein Band erschienen — books leer.
+      authors: [
+        {
+          name: "Henry Ford",
+          slug: "henry-ford",
+          landingUrl: { de: "/autoren/henry-ford/", en: "/en/authors/henry-ford/" },
+          bio: {
+            de: "Henry Ford beschrieb in eigenen Büchern, wie Arbeit, Maschine und Lohn ineinandergreifen sollten — knapp, unbeirrbar und in einer Sprache, die keine Umschweife kennt. Seine industrielle Selbstdarstellung eröffnet die Reihe Blau.",
+            en: "In his own books Henry Ford set out how work, machine, and wage should interlock — terse, unwavering, and in a language that wastes no words. His industrial self-portrait opens the Blue series."
+          },
+          books: []
+        }
+      ]
     },
     {
       num: "V",
@@ -353,7 +379,7 @@ module.exports = {
         {
           name: "Ernest Thompson Seton",
           slug: "ernest-thompson-seton",
-          landingUrl: { de: "/autoren/ernest-thompson-seton/", en: "/autoren/ernest-thompson-seton/?lang=en" },
+          landingUrl: { de: "/autoren/ernest-thompson-seton/", en: "/en/authors/ernest-thompson-seton/" },
           bio: {
             de: "Ernest Thompson Seton war Naturbeobachter, Zeichner und Erzähler. Seine Tiergeschichten verbinden genaue Beobachtung mit literarischer Kraft und bilden den Auftakt der Reihe Bernstein.",
             en: "Ernest Thompson Seton was a naturalist, artist, and storyteller. His animal stories unite close observation with literary force and open the Amber series."
@@ -401,8 +427,33 @@ module.exports = {
               }
             }
           ]
+        },
+        {
+          // Zweiter Autor der Bernsteinlinie. Noch kein Band erschienen — books leer.
+          name: "Robert Baden-Powell",
+          slug: "robert-baden-powell",
+          landingUrl: { de: "/autoren/robert-baden-powell/", en: "/en/authors/robert-baden-powell/" },
+          bio: {
+            de: "Robert Baden-Powell schrieb 1908 ein Anleitungsbuch für Jungen — und begründete damit unabsichtlich eine der größten Jugendbewegungen der Welt. Sein Gründungstext erscheint in der Reihe Bernstein.",
+            en: "In 1908 Robert Baden-Powell wrote a handbook for boys — and unintentionally founded one of the largest youth movements in the world. His founding text appears in the Amber series."
+          },
+          books: []
         }
       ]
+    },
+    {
+      // Sechste Säule der Verfassung. Bisher fehlte sie auf /reihen/ und auf der Startseite,
+      // obwohl die ebenfalls autorenlosen Reihen Grün, Rot und Blau dort geführt werden.
+      num: "VI",
+      slug: "weiss",
+      colorName: { de: "WEISS", en: "WHITE" },
+      colorHex: "#d8d5cd",
+      label: { de: "Die nordische Welt", en: "The Northern World" },
+      desc: {
+        de: "Sagen, Seefahrt, Entdeckung und Alltag des Nordens — von der Polarforschung bis zu den Überlieferungen Skandinaviens und Islands.",
+        en: "Sagas, seafaring, discovery, and everyday life in the North — from polar exploration to the traditions of Scandinavia and Iceland."
+      },
+      authors: []
     }
   ],
 
@@ -410,8 +461,8 @@ module.exports = {
   "series.authorsHeading": { de: "Autor dieser Reihe", en: "Author in this series" },
   "author.availableTitles": { de: "Verfügbare Titel", en: "Available titles" },
   "author.intro": {
-    de: "Die ersten beiden Bände der Reihe Bernstein liegen vor: Ernest Thompson Setons Tiergeschichten und die Lebensgeschichte eines Grizzlybären, beide neu übersetzt, eingerichtet und bei Amazon erhältlich.",
-    en: "The first two volumes of the Amber series are available: Ernest Thompson Seton's animal stories and the life story of a grizzly bear, both newly translated, edited, and available on Amazon."
+    de: "Die Autoren, deren Werke wir derzeit erschließen — von den lieferbaren Bänden bis zu den Ausgaben in Vorbereitung.",
+    en: "The authors whose work we are currently opening up — from the volumes in print to the editions in preparation."
   },
   "seton.button": { de: "Bei Amazon ansehen", en: "View on Amazon" },
   "seton.volume": { de: "Band", en: "Volume" },
@@ -428,8 +479,8 @@ module.exports = {
   "authors.eyebrow": { de: "✦ AUTOREN IM PROGRAMM", en: "✦ AUTHORS IN THE PROGRAMME" },
   "authors.title": { de: "Ausgewählte Autoren", en: "Selected authors" },
   "authors.intro": {
-    de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein; Robert Montgomery Bird eröffnet die Reihe Anthrazit.",
-    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series; Robert Montgomery Bird opens the Anthracite series."
+    de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein, Robert Montgomery Bird eröffnet Anthrazit — und mit Lady Florentia Sale, Henry Ford und Robert Baden-Powell nehmen die Reihen Grün, Blau und Bernstein ihre nächsten Bände in Arbeit.",
+    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series and Robert Montgomery Bird opens Anthracite — while Lady Florentia Sale, Henry Ford, and Robert Baden-Powell bring the next volumes of the Green, Blue, and Amber series into preparation."
   },
   "authors.viewTitles": { de: "Titel ansehen", en: "View titles" },
   "authors.viewProfile": { de: "Zur Autorenseite", en: "Open author page" },

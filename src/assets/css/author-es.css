@@ -1,6 +1,3 @@
-@font-face{font-family:Fraunces;src:url('/assets/fonts/fraunces-latin.woff2') format('woff2');font-display:swap}
-@font-face{font-family:Spectral;src:url('/assets/fonts/spectral-latin.woff2') format('woff2');font-display:swap}
-@font-face{font-family:Inter;src:url('/assets/fonts/inter-latin.woff2') format('woff2');font-display:swap}
 :root{--ink:#0c0c0b;--ink-2:#15130f;--paper:#e8dec2;--cream:#f1e6c9;--muted:#aaa18d;--accent:#c99a36;--accent-2:#e0bb5a;--accent-dark:#80551d;--line:rgba(226,189,91,.26);--display:Fraunces,Georgia,serif;--serif:Spectral,Georgia,serif;--sans:Inter,sans-serif}
 .series-anthracite{--accent:#a56c4f;--accent-2:#d1a47c;--accent-dark:#69422f;--line:rgba(198,143,111,.26)}
 *,*::before,*::after{box-sizing:border-box}
