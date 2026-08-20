@@ -17,6 +17,14 @@ for (const p of pages) {
   const u = url(p);
   const isAuthor = /^\/(autoren|en\/authors|es\/autores|pl\/autorzy)\//.test(u);
 
+  // Weiterleitungsstummel (/qr/...) sind absichtlich noindex und zeigen mit
+  // canonical und lang auf ihr Ziel, nicht auf sich selbst. Die beiden
+  // Regeln unten wuerden dort systematisch falschen Alarm schlagen - und ein
+  // Pruefskript, das immer meckert, wird nicht mehr gelesen.
+  const isRedirectStub =
+    /<meta name="robots" content="noindex/.test(h) &&
+    /<meta http-equiv="refresh"/.test(h);
+
   for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     try { JSON.parse(m[1]); } catch (e) { add('HOCH', p, 'JSON-LD kaputt: ' + e.message.slice(0, 60)); }
   }
@@ -29,11 +37,11 @@ for (const p of pages) {
 
   const canM = h.match(/<link rel="canonical" href="https:\/\/aeternus-verlag\.de([^"]*)"/);
   if (!canM) add('MITTEL', p, 'kein canonical');
-  else if (canM[1] !== u) add('HOCH', p, 'canonical zeigt woanders hin: ' + canM[1] + ' statt ' + u);
+  else if (canM[1] !== u && !isRedirectStub) add('HOCH', p, 'canonical zeigt woanders hin: ' + canM[1] + ' statt ' + u);
 
   const lang = (h.match(/<html lang="([^"]*)"/) || [])[1];
   const expect = u.startsWith('/en/') ? 'en' : u.startsWith('/es/') ? 'es' : u.startsWith('/pl/') ? 'pl' : 'de';
-  if (lang !== expect) add('HOCH', p, 'lang="' + lang + '" erwartet "' + expect + '"');
+  if (lang !== expect && !isRedirectStub) add('HOCH', p, 'lang="' + lang + '" erwartet "' + expect + '"');
 
   if (isAuthor && !/hreflang/.test(h)) add('MITTEL', p, 'kein hreflang trotz mehrsprachiger Entsprechung');
 
