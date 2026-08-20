@@ -459,21 +459,34 @@ h1.headline {
 .edition-lede{position:relative;}
 .edition-title{margin-top:15px;}
 
-/* Aufgeschlagenes Buch: unter der Überschrift in der schmalen Spalte.
-   Auf schmalen Viewports als weiche Hintergrundschicht hinter dem Text. */
+/* Aufgeschlagenes Buch: Fotoausschnitt, bewusst nur halb sichtbar.
+   Der Rahmen ist niedriger als das Bild und schneidet es unten ab; die Maske
+   laesst den Rest zum Text und nach unten hin in den Grund auslaufen. */
 .edition-ornament{
-  position:absolute;left:-8%;right:-16%;top:-6%;
-  z-index:-1;opacity:.5;pointer-events:none;user-select:none;
-  filter:drop-shadow(0 24px 48px rgba(0,0,0,.45));
+  position:absolute;left:-10%;right:-14%;top:-4%;
+  z-index:-1;pointer-events:none;user-select:none;
+  height:clamp(220px,42vw,320px);overflow:hidden;
+  opacity:.45;
 }
-.edition-ornament svg{width:100%;height:auto;display:block;}
+.edition-ornament picture{display:contents;}
+.edition-ornament img{
+  width:100%;height:auto;display:block;
+  transform:translateY(-24%);
+  -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,#000 26%,#000 52%,rgba(0,0,0,0) 88%),
+                     linear-gradient(to right,rgba(0,0,0,0) 0%,#000 18%,#000 72%,rgba(0,0,0,0) 100%);
+  mask-image:linear-gradient(to bottom,rgba(0,0,0,0) 0%,#000 26%,#000 52%,rgba(0,0,0,0) 88%),
+             linear-gradient(to right,rgba(0,0,0,0) 0%,#000 18%,#000 72%,rgba(0,0,0,0) 100%);
+  -webkit-mask-composite:source-in;mask-composite:intersect;
+}
 
 @media(min-width:900px){
   .edition-ornament{
     position:static;
-    margin-top:56px;margin-left:-4%;margin-right:-2%;
-    opacity:.85;
+    margin:52px -6% 0 -8%;
+    height:clamp(300px,26vw,420px);
+    opacity:.82;
   }
+  .edition-ornament img{transform:translateY(-30%);}
 }
 
 /* Fließtext: Buchmaß statt Bildschirmbreite, damit die Zeilen lesbar bleiben. */

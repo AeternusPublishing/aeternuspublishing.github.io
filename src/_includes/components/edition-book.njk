@@ -1,64 +1,12 @@
-{# Dekorative Hintergrundgrafik der Editionsseite: aufgeschlagenes Buch auf Pergament.
-   Rein ornamental (aria-hidden), keine Textinformation. #}
+{# Dekorative Hintergrundgrafik der Editionsseite: aufgeschlagene Handschrift
+   bei Kerzenlicht. Bewusst nur zur Haelfte sichtbar — der Ausschnitt laeuft
+   nach unten und zum Text hin in den Verlagsgrund aus (mask-image).
+   Rein ornamental (aria-hidden), traegt keine Textinformation. #}
 <div class="edition-ornament" aria-hidden="true">
-  <svg viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
-    <defs>
-      <radialGradient id="ed-glow" cx="50%" cy="48%" r="58%">
-        <stop offset="0%" stop-color="#d4af37" stop-opacity=".22"/>
-        <stop offset="55%" stop-color="#a07f33" stop-opacity=".07"/>
-        <stop offset="100%" stop-color="#a07f33" stop-opacity="0"/>
-      </radialGradient>
-      <linearGradient id="ed-page" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#f3e7cf" stop-opacity=".10"/>
-        <stop offset="100%" stop-color="#f3e7cf" stop-opacity=".03"/>
-      </linearGradient>
-      <linearGradient id="ed-gutter" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0%" stop-color="#0f0c09" stop-opacity="0"/>
-        <stop offset="50%" stop-color="#0f0c09" stop-opacity=".55"/>
-        <stop offset="100%" stop-color="#0f0c09" stop-opacity="0"/>
-      </linearGradient>
-    </defs>
-
-    <ellipse cx="450" cy="300" rx="420" ry="290" fill="url(#ed-glow)"/>
-
-    <g stroke="#d4af37" stroke-opacity=".38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      {# Blätterstapel unter den aufgeschlagenen Seiten #}
-      <path d="M450 470 C 372 440, 232 434, 96 468" stroke-opacity=".16"/>
-      <path d="M450 462 C 372 432, 232 426, 96 460" stroke-opacity=".22"/>
-      <path d="M450 470 C 528 440, 668 434, 804 468" stroke-opacity=".16"/>
-      <path d="M450 462 C 528 432, 668 426, 804 460" stroke-opacity=".22"/>
-
-      {# Linke Seite #}
-      <path d="M450 176 C 372 130, 232 124, 96 166 L 96 412 C 232 370, 372 376, 450 452 Z"
-            fill="url(#ed-page)"/>
-      {# Rechte Seite #}
-      <path d="M450 176 C 528 130, 668 124, 804 166 L 804 412 C 668 370, 528 376, 450 452 Z"
-            fill="url(#ed-page)"/>
-      {# Bund #}
-      <path d="M450 176 L 450 452" stroke-opacity=".45"/>
-    </g>
-
-    {# Schattenfuge im Bund #}
-    <rect x="410" y="176" width="80" height="276" fill="url(#ed-gutter)"/>
-
-    {# Angedeutete Zeilen — links Fließtext, rechts Kapitelanfang #}
-    <g stroke="#f3e7cf" stroke-opacity=".13" stroke-width="4" stroke-linecap="round">
-      <path d="M150 224 C 240 208, 330 214, 404 240"/>
-      <path d="M150 256 C 240 240, 330 246, 404 272"/>
-      <path d="M150 288 C 240 272, 330 278, 404 304"/>
-      <path d="M150 320 C 240 304, 330 310, 404 336"/>
-      <path d="M150 352 C 240 336, 320 342, 372 362"/>
-
-      <path d="M560 232 C 640 218, 700 220, 750 232" stroke-opacity=".26" stroke-width="7"/>
-      <path d="M496 282 C 590 262, 690 264, 754 278"/>
-      <path d="M496 314 C 590 294, 690 296, 754 310"/>
-      <path d="M496 346 C 590 326, 660 328, 706 340"/>
-    </g>
-
-    {# Initiale/Signet als goldener Akzent auf der rechten Seite #}
-    <circle cx="512" cy="232" r="15" stroke="#d4af37" stroke-opacity=".5" stroke-width="1.4"/>
-    <path d="M506 239 a8 8 0 1 1 12 0 M504 240 h5 M515 240 h5"
-          stroke="#d4af37" stroke-opacity=".62" stroke-width="1.5"
-          stroke-linecap="round" fill="none"/>
-  </svg>
+  <picture>
+    <source type="image/avif" srcset="/assets/images/edition-book.avif" />
+    <source type="image/webp" srcset="/assets/images/edition-book.webp" />
+    <img src="/assets/images/edition-book-fallback.jpg" alt="" width="900" height="1195"
+         loading="eager" fetchpriority="low" decoding="async" />
+  </picture>
 </div>

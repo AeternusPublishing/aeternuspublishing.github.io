@@ -101,7 +101,7 @@ module.exports = [
     blocks: [
       { h: "Life &amp; period", p: ["Ford was born on a Michigan farm in 1863 and came to automobile building by way of the machine shop. He founded the Ford Motor Company in 1903.", "With the Model T of 1908, the moving assembly line of 1913, and the five-dollar day of 1914, he changed manufacturing, wages, and daily life alike."] },
       { h: "Method", p: ["Ford's prose does not narrate; it argues. He reasons with unit counts, wages, prices, and hand movements, and the figures are the argument rather than its decoration.", "His sentences are strikingly short and aphoristic &mdash; a manner of writing that mirrors his own doctrine of efficiency."] },
-      { h: "Influence and contradiction", p: ["Ford's manufacturing idea was copied worldwide and still bears his name. At the same time the newspaper he published, <i>The Dearborn Independent</i>, circulated antisemitic tracts during the 1920s.", "Aeternus does not smooth this contradiction away. The source text stands unaltered; contextualization is kept visibly separate, in the publisher's apparatus."] }
+      { h: "Influence", p: ["Ford's manufacturing idea was copied worldwide and still bears his name.", "Aeternus presents the source text unaltered; any contextualization is kept visibly separate, in the publisher's apparatus."] }
     ],
     facts: [["Series", "Blue line &middot; Pillar IV"], ["First edition", "New York, 1922"], ["Source language", "English"], ["Status", "In preparation"]],
     worksKicker: "In preparation",
@@ -109,7 +109,7 @@ module.exports = [
     worksIntro: "An industrial self-account that is at once autobiography, manufacturing doctrine, and economic polemic &mdash; translated close to the source and historically contextualized.",
     gridClass: "single-item",
     books: [
-      { cover: { gen: "ford", title: "My Life<br>and Work" }, meta: "Industrial autobiography &middot; 1922", title: "My Life and Work", subtitle: "In collaboration with Samuel Crowther",
+      { cover: { img: "cover-ford" }, meta: "Industrial autobiography &middot; 1922", title: "My Life and Work", subtitle: "In collaboration with Samuel Crowther",
         modal: { metadata: "Aeternus Verlag · Blue line · in preparation", summary: "Ford recounts his path from the workshop to a global corporation and lays bare a complete system: how a product comes into being, what labour may cost, and why a low price is to him not a concession but a calculation.", sample: "The German edition follows the wording of the 1922 first edition. Figures, prices, wages, and measures stand unchanged; conversions and historical context belong in the publisher's apparatus, not in the work text." } }
     ]
   },

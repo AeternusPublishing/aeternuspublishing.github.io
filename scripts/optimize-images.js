@@ -69,6 +69,20 @@ async function gen(srcName, outputs) {
     { name: "cover-tierhelden.webp", resize: { width: 1024 }, webp: { quality: 80 } },
     { name: "cover-tierhelden-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
+
+  // Henry Ford, Mein Leben und Werk — finales Cover, auf 1024px Breite normiert.
+  await gen("cover-ford.png", [
+    { name: "cover-ford.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-ford.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-ford-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+
+  // Hintergrundgrafik der Editionsseite — dekorativ, daher kleiner und staerker komprimiert.
+  await gen("edition-book.png", [
+    { name: "edition-book.avif", resize: { width: 900 }, avif: { quality: 50, effort: 4 } },
+    { name: "edition-book.webp", resize: { width: 900 }, webp: { quality: 76 } },
+    { name: "edition-book-fallback.jpg", resize: { width: 900 }, jpeg: { quality: 82, mozjpeg: true } },
+  ]);
 })().catch((e) => {
   console.error(e);
   process.exit(1);
