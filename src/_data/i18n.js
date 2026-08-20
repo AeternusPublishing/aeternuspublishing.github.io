@@ -253,7 +253,7 @@ module.exports = {
 
   // --- SERIES SECTION ---
   "series.eyebrow": { de: "✦ REIHEN", en: "✦ SERIES" },
-  "series.title": { de: "Fünf Reihen des Verlagsprogramms", en: "Five series, one measure." },
+  "series.title": { de: "Sechs Reihen des Verlagsprogramms", en: "Six series, one measure." },
   "series.intro": {
     de: "Das Verlagsprogramm ist in fünf thematisch abgegrenzte Reihen gegliedert. Jede Reihe folgt einem klar abgegrenzten thematischen Schwerpunkt und einer eigenen gestalterischen Farbe.",
     en: "AETERNUS VERLAG does not order its publications according to passing market moods, but according to enduring fields of substance. Each series follows a clear intellectual focus and a distinct visual colour."
@@ -498,7 +498,7 @@ module.exports = {
     de: "AETERNUS VERLAG arbeitet nach einfachen, strengen Grundsätzen. Ein Werk wird weder ideologisch umgedeutet noch nachträglich an gegenwärtige Wertvorstellungen angepasst. Es wird geprüft, geordnet, übersetzt, sprachlich erschlossen und mit Achtung vor seiner Herkunft neu vorgelegt.",
     en: "AETERNUS VERLAG works according to simple and rigorous principles. A work is not appropriated, ideologically rewritten, or sacrificed to the taste of the moment. It is examined, ordered, translated, linguistically recovered, and presented anew with respect for its origin."
   },
-  "pillars.closing": { de: "Fünf Reihen für Literatur, Geschichte, Natur, Staat und Wirtschaft.", en: "Five series. One measure. Books against oblivion." },
+  "pillars.closing": { de: "Sechs Reihen für Literatur, Geschichte, Natur, Staat, Wirtschaft und den Norden.", en: "Six series. One measure. Books against oblivion." },
 
   // Matrix array for your dynamic Pillars generation loop
   "pillarsItems": [
