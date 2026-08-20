@@ -83,6 +83,32 @@ async function gen(srcName, outputs) {
     { name: "edition-book.webp", resize: { width: 900 }, webp: { quality: 76 } },
     { name: "edition-book-fallback.jpg", resize: { width: 900 }, jpeg: { quality: 82, mozjpeg: true } },
   ]);
+
+  // Autorenportraets Bird und Seton. Bird lag als 3,4-MB-JPEG ohne moderne
+  // Formate im Auslieferungspfad. Seitenverhaeltnis bleibt erhalten - der
+  // Zuschnitt macht erst die CSS-Regel object-fit:cover.
+  await gen("portrait-bird.jpg", [
+    { name: "portrait-bird.avif", resize: { width: 900, withoutEnlargement: true }, avif: { quality: 55, effort: 6 } },
+    { name: "portrait-bird.webp", resize: { width: 900, withoutEnlargement: true }, webp: { quality: 80 } },
+  ]);
+  await gen("portrait-seton.jpg", [
+    { name: "portrait-seton.avif", resize: { width: 900, withoutEnlargement: true }, avif: { quality: 55, effort: 6 } },
+    { name: "portrait-seton.webp", resize: { width: 900, withoutEnlargement: true }, webp: { quality: 80 } },
+  ]);
+
+  // Social-Vorschaubild des Waldteufels: 1200x630 JPEG statt 1,7-MB-PNG.
+  await gen("waldteufel-og.png", [
+    { name: "waldteufel-og.jpg", resize: { width: 1200, height: 630, fit: "cover" }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+
+  // Band I Anthrazit, Der Waldteufel - Quelle 1707x2560, auf 1024px normiert
+  // wie die Bernstein-Baende. Der frueher mitgelieferte "-fallback" war eine
+  // unveraenderte Kopie der Quelle.
+  await gen("cover-waldteufel.jpg", [
+    { name: "cover-waldteufel.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-waldteufel.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-waldteufel-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
 })().catch((e) => {
   console.error(e);
   process.exit(1);

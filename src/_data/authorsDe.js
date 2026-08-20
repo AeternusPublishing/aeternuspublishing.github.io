@@ -12,9 +12,9 @@ module.exports = [
     "seriesClass": "",
     "preview": false,
     "portrait": {
-      "file": "portrait-seton.jpg",
+      "file": "portrait-seton",
       "alt": "Historisches Porträt von Ernest Thompson Seton",
-      "modern": false
+      "modern": true
     },
     "schema": {
       "birthDate": "1860-08-14",
@@ -140,9 +140,9 @@ module.exports = [
     "preview": false,
     "nameClass": "bird-name",
     "portrait": {
-      "file": "portrait-bird.jpg",
+      "file": "portrait-bird",
       "alt": "Historisches Porträt von Robert Montgomery Bird",
-      "modern": false
+      "modern": true
     },
     "schema": {
       "birthDate": "1806-02-05",
