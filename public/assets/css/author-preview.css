@@ -25,6 +25,14 @@
 .is-preview .hero{padding-top:13rem}
 @media(max-width:760px){.is-preview .hero{padding-top:13.5rem}}
 
+/* Sprachumschalter im Kopf. Bisher stand dort nur ein statisches Kuerzel;
+   die Fassungen in anderen Sprachen waren von der Seite aus nicht erreichbar. */
+.lang-switch{display:inline-flex;align-items:center;gap:.55rem;padding-left:1.1rem;border-left:1px solid rgba(233,223,196,.22)}
+.lang-switch a,.lang-switch span{color:#b7af9e;text-decoration:none;transition:color .18s ease}
+.lang-switch a:hover,.lang-switch a:focus-visible{color:var(--cream)}
+.lang-switch [aria-current="page"]{color:var(--accent-2);font-weight:800}
+@media(max-width:760px){.lang-switch{padding-left:.7rem;gap:.45rem}}
+
 /* Ein einzelner Band */
 .book-grid.single-item{grid-template-columns:minmax(220px,300px);max-width:22rem;margin-inline:auto}
 /* Fix: .book-grid.single-row schlaegt per Spezifitaet die Media-Query-Regel

@@ -8,7 +8,9 @@
     "build": "node ./node_modules/@11ty/eleventy/cmd.cjs",
     "optimize:images": "node scripts/optimize-images.js",
     "icons": "node scripts/make-icons.js",
-    "fonts": "node scripts/fetch-fonts.js"
+    "fonts": "node scripts/fetch-fonts.js",
+    "check:hreflang": "node ./scripts/check-hreflang.js",
+    "check:pages": "node ./scripts/check-pages.js"
   },
   "keywords": [],
   "author": "",

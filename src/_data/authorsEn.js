@@ -31,7 +31,7 @@ module.exports = [
       { h: "Philosophy", p: ["Seton treated animals as individuals with memory, strategy, and social bonds. His stories dramatize without abandoning behavioral observation.", "For him, woodcraft meant independence built through attention, practice, and restraint."] },
       { h: "Legacy", p: ["The Woodcraft Indians and his role in the early Scout movement gave Seton's ideas international reach.", "Today his work is read at once as literature, natural history, and testimony from a contradictory era."] }
     ],
-    worksKicker: "Published works",
+    worksKicker: "Selected works",
     worksTitle: "Books that teach you to look",
     worksIntro: "Historic texts, carefully reopened. Select a title for context, a reading sample, and its available Amazon route.",
     gridClass: "count-5",
@@ -70,7 +70,7 @@ module.exports = [
       { h: "Form &amp; conflict", p: ["Bird uses the frontier as a moral pressure chamber. Disguise, double identity, and rumor propel his figures through unstable orders.", "Even his historical novels retain a dramatist's instinct, tightening decisions around their consequences."] },
       { h: "Rediscovery", p: ["<i>Nick of the Woods</i> made Bird internationally known in the nineteenth century. <i>Sheppard Lee</i> is now read anew as early experimental satire.", "The Aeternus edition opens Bird's frontier novel to German readers in a complete new translation."] }
     ],
-    worksKicker: "Published works",
+    worksKicker: "Selected works",
     worksTitle: "The frontier under pressure",
     worksIntro: "Historic texts, carefully reopened. Select a title for context, a reading sample, and its available Amazon route.",
     gridClass: "single-row",

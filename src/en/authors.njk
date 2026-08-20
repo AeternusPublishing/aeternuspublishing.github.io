@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: false
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ a.name }} | Aeternus Verlag</title>
   <meta name="description" content="{{ a.metaDescription }}">
-  <meta name="theme-color" content="#0e0d0b"><link rel="canonical" href="https://aeternus-verlag.de/en/authors/{{ a.slug }}/">
+  <meta name="theme-color" content="#0e0d0b"><link rel="canonical" href="https://aeternus-verlag.de/en/authors/{{ a.slug }}/">{%- for v in authorLangs.versions(a.slug, "en") %}<link rel="alternate" hreflang="{{ v.lang }}" href="https://aeternus-verlag.de{{ v.url }}">{%- endfor %}<link rel="alternate" hreflang="x-default" href="https://aeternus-verlag.de/autoren/{{ a.slug }}/">
   <meta property="og:type" content="profile"><meta property="og:locale" content="en_GB"><meta property="og:site_name" content="Aeternus Verlag"><meta property="og:title" content="{{ a.name }} | Aeternus Verlag"><meta property="og:description" content="{{ a.tagline }}"><meta property="og:url" content="https://aeternus-verlag.de/en/authors/{{ a.slug }}/"><meta property="og:image" content="https://aeternus-verlag.de/assets/images/{{ a.portrait.file }}{% if a.portrait.modern %}.jpg{% endif %}">
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ a.name }} | Aeternus Verlag"><meta name="twitter:description" content="{{ a.tagline }}"><meta name="twitter:image" content="https://aeternus-verlag.de/assets/images/{{ a.portrait.file }}{% if a.portrait.modern %}.jpg{% endif %}">
   <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml">
@@ -25,7 +25,7 @@ eleventyExcludeFromCollections: false
 </head>
 <body class="{{ a.seriesClass }}{% if a.preview %} is-preview{% endif %}">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header"><a class="brand" href="/en/" aria-label="Aeternus Verlag &mdash; home"><img src="/assets/images/logo.svg" alt="" width="32" height="32"><span>Aeternus Verlag</span></a><nav class="nav" aria-label="Author page navigation"><a href="#biography">Biography</a><a href="#works">Works</a><span class="language" aria-current="page">EN</span></nav></header>
+  <header class="site-header"><a class="brand" href="/en/" aria-label="Aeternus Verlag &mdash; home"><img src="/assets/images/logo.svg" alt="" width="32" height="32"><span>Aeternus Verlag</span></a><nav class="nav" aria-label="Author page navigation"><a href="#biography">Biography</a><a href="#works">Works</a><span class="lang-switch">{%- for v in authorLangs.versions(a.slug, "en") %}{% if v.current %}<span aria-current="page">{{ v.label }}</span>{% else %}<a href="{{ v.url }}" hreflang="{{ v.lang }}">{{ v.label }}</a>{% endif %}{%- endfor %}</span></nav></header>
   {% if a.preview %}<p class="preview-banner">Preview &middot; No edition published yet &middot; Title, cover and date are not yet fixed</p>{% endif %}
   <main id="main">
     <section class="hero" aria-labelledby="author-name">
