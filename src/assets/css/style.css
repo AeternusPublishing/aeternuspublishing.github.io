@@ -436,3 +436,51 @@ h1.headline {
 
   
   
+
+/* ============================================================
+   EDITION — /edition/ und /en/edition/
+   Hintergrundgrafik (aufgeschlagenes Buch auf Pergamentwäsche)
+   liegt hinter dem Text; alle Dekorschichten sind aria-hidden
+   und nicht klickbar.
+   ============================================================ */
+.edition-page{position:relative;overflow:hidden;padding:180px 0 120px;}
+.edition-page > .wrap{position:relative;z-index:2;}
+
+/* Warme Pergament-Wäsche + Vignette, damit die Grafik nicht flach wirkt. */
+.edition-wash{
+  position:absolute;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(70% 55% at 22% 42%, rgba(212,175,55,.10) 0%, rgba(212,175,55,0) 62%),
+    radial-gradient(90% 70% at 82% 8%, rgba(160,127,51,.09) 0%, rgba(160,127,51,0) 60%),
+    radial-gradient(120% 100% at 50% 50%, rgba(15,12,9,0) 45%, rgba(15,12,9,.72) 100%);
+}
+.edition-grain{position:absolute;inset:0;opacity:.28;pointer-events:none;z-index:1;}
+
+.edition-lede{position:relative;}
+.edition-title{margin-top:15px;}
+
+/* Aufgeschlagenes Buch: unter der Überschrift in der schmalen Spalte.
+   Auf schmalen Viewports als weiche Hintergrundschicht hinter dem Text. */
+.edition-ornament{
+  position:absolute;left:-8%;right:-16%;top:-6%;
+  z-index:-1;opacity:.5;pointer-events:none;user-select:none;
+  filter:drop-shadow(0 24px 48px rgba(0,0,0,.45));
+}
+.edition-ornament svg{width:100%;height:auto;display:block;}
+
+@media(min-width:900px){
+  .edition-ornament{
+    position:static;
+    margin-top:56px;margin-left:-4%;margin-right:-2%;
+    opacity:.85;
+  }
+}
+
+/* Fließtext: Buchmaß statt Bildschirmbreite, damit die Zeilen lesbar bleiben. */
+.edition-body p{max-width:64ch;}
+.edition-body p + p{margin-top:0;}
+.edition-body .sig{max-width:52ch;margin-top:8px;}
+
+@media (prefers-reduced-motion: reduce){
+  .edition-ornament{filter:none;}
+}

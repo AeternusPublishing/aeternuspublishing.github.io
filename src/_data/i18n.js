@@ -106,6 +106,41 @@ module.exports = {
     en: "Read our editorial principles." 
   }
 ,
+
+  // Edition page — Manifest der Textgestalt (nur /edition/ und /en/edition/)
+  "edition.eyebrow": {
+    de: "✦ EDITION AETERNUS",
+    en: "✦ THE AETERNUS EDITION"
+  },
+  "edition.title": {
+    de: "Das Manifest der Textgestalt.",
+    en: "A manifesto on the shape of a text."
+  },
+  "edition.p1": {
+    de: "Eine Übersetzung ist bei AETERNUS kein nachgelagerter Arbeitsschritt, sondern das Herzstück der Edition. Wer historische Literatur, militärische Tagebücher, Reiseberichte oder frühe Dokumente der Wirtschafts- und Naturgeschichte neu vorlegt, steht vor einer doppelten Verantwortung: Ein Text muss für heutige Leser unmittelbar verständlich werden — ohne seine historische Gravität, seine Härte und seinen charakteristischen Ton einzubüßen.",
+    en: "At AETERNUS, translation is not a downstream production step. It is the heart of the edition. Anyone who republishes historical literature, military diaries, travel accounts or early documents of economic and natural history carries a double responsibility: the text must become immediately intelligible to today's readers — without surrendering its historical gravity, its hardness and its characteristic tone."
+  },
+  "edition.p2": {
+    de: "Dafür genügt keine wörtliche Übertragung, die in unlesbarem Museumsstaub erstarrt. Ebenso fern liegt uns eine flache Modernisierung, die alles Fremde glattbügelt. AETERNUS verbindet kompromisslose Sinntreue mit präziser architektonischer Erneuerung.",
+    en: "A literal transfer that sets hard in museum dust will not do. Just as remote from us is a flat modernization that irons out everything unfamiliar. AETERNUS joins uncompromising fidelity of meaning to a precise renewal of architecture."
+  },
+  "edition.p3": {
+    de: "In jeder Ausgabe prüfen wir nicht nur Wortwahl und Nomenklatur, sondern Satzbau, historische Bezüge und die Rhythmik des Fließtexts. Schachtelperioden und ineinander verschachtelte Nebensatzketten des 18. und 19. Jahrhunderts werden dort aufgemacht, wo sie den Lesefluss hemmen — doch immer unter der Doktrin absoluter Bedeutungstreue. Umbauen heißt entwirren, niemals kürzen.",
+    en: "In every edition we examine not only diction and nomenclature, but sentence architecture, historical reference and the rhythm of running text. The nested periods and interlocking subordinate chains of the eighteenth and nineteenth centuries are opened up wherever they impede the flow of reading — always under the doctrine of absolute fidelity of meaning. To rebuild means to disentangle, never to cut."
+  },
+  "edition.p4": {
+    de: "Historische Begriffe, militärische Ränge, geografische Bezeichnungen und kulturelle Fachausdrücke werden nicht durch moderne Konsumvokabeln ersetzt, sondern im Text verankert, geschützt und, wo nötig, organisch im Satzbild oder im Editionsapparat aufgeschlüsselt.",
+    en: "Historical terms, military ranks, geographical designations and cultural idioms are not replaced by modern consumer vocabulary. They are anchored in the text, protected, and where necessary unlocked — organically within the sentence or through the editorial apparatus."
+  },
+  "edition.p5": {
+    de: "Die leitende Doktrin jeder unserer Ausgaben lautet: Welcher Eingriff ist zwingend nötig, um den Text heute flüssig lesbar zu machen — und welches historische Detail muss zwingend unangetastet bleiben, um seine Seele zu wahren?",
+    en: "The guiding doctrine of every edition we make is this: which intervention is strictly necessary to make the text read fluently today — and which historical detail must remain strictly untouched in order to preserve its soul?"
+  },
+  "edition.p6": {
+    de: "AETERNUS überträgt nicht in billige Umgangssprache. AETERNUS schafft Ausgaben von dauerhaftem Wert, die ohne wissenschaftliche Vorkenntnisse packend zu lesen sind und vor jedem quellkritischen Blick bestehen.",
+    en: "AETERNUS does not translate into cheap colloquial speech. AETERNUS makes editions of lasting value — gripping to read without scholarly preparation, and able to withstand any source-critical eye."
+  },
+
   //Featured section
   "hunted.eyebrow": {
     de: "✦ AKTUELLE EDITION",

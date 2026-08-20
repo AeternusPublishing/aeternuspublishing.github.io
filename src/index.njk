@@ -62,12 +62,13 @@ hreflang: true
 <section id="aktuelle-ausgaben" class="block" style="background-color: #161311; padding: 96px 0; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
   <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
   <style>
-    #aktuelle-ausgaben .edition-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
+    #aktuelle-ausgaben .edition-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 32px; }
     #aktuelle-ausgaben .edition-card { display: flex; gap: 20px; border: 1px solid rgba(212, 175, 55, 0.12); background-color: #181512; padding: 24px; box-shadow: 0 12px 35px rgba(0,0,0,0.35); min-width: 0; }
-    #aktuelle-ausgaben .edition-cover { width: 140px; height: 210px; object-fit: cover; flex-shrink: 0; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
-    @media (max-width: 480px) {
+    #aktuelle-ausgaben .edition-cover { width: clamp(112px, 24%, 148px); height: auto; aspect-ratio: 2 / 3; object-fit: cover; flex: 0 0 auto; align-self: flex-start; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
+    #aktuelle-ausgaben .edition-card h3 { overflow-wrap: break-word; }
+    @media (max-width: 560px) {
       #aktuelle-ausgaben .edition-card { flex-direction: column; }
-      #aktuelle-ausgaben .edition-cover { width: 120px; height: 180px; }
+      #aktuelle-ausgaben .edition-cover { width: 120px; }
     }
   </style>
 
