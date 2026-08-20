@@ -3,6 +3,10 @@ pagination:
   data: authorsEn
   size: 1
   alias: a
+  # Ohne dieses Flag nimmt Eleventy nur die ERSTE paginierte Seite in
+  # collections.all auf — sitemap.njk haette dann nur eine der fuenf
+  # englischen Autorenseiten gelistet.
+  addAllPagesToCollections: true
 permalink: "/en/authors/{{ a.slug }}/index.html"
 eleventyExcludeFromCollections: false
 ---
