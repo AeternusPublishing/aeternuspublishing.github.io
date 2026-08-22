@@ -290,25 +290,55 @@ module.exports = {
   "series.eyebrow": { de: "✦ REIHEN", en: "✦ SERIES" },
   "series.title": { de: "Sechs Reihen des Verlagsprogramms", en: "Six series, one measure." },
   "series.intro": {
-    de: "Das Verlagsprogramm ist in fünf thematisch abgegrenzte Reihen gegliedert. Jede Reihe folgt einem klar abgegrenzten thematischen Schwerpunkt und einer eigenen gestalterischen Farbe.",
+    de: "Das Verlagsprogramm ist in sechs thematisch abgegrenzte Reihen gegliedert. Jede Reihe folgt einem klar abgegrenzten thematischen Schwerpunkt und einer eigenen gestalterischen Farbe.",
     en: "AETERNUS VERLAG does not order its publications according to passing market moods, but according to enduring fields of substance. Each series follows a clear intellectual focus and a distinct visual colour."
   },
   "series.button": { de: "Reihen entdecken", en: "Explore the Series" },
+  "series.viewSeries": { de: "Reihe entdecken", en: "Explore this series" },
+  "series.allSeries": { de: "Alle Reihen", en: "All series" },
+  "series.creditLabel": { de: "Bildnachweis", en: "Image credit" },
+  "series.authorCount": { de: "Autor", en: "Author" },
+  "series.authorCountPlural": { de: "Autoren", en: "Authors" },
+  "series.noAuthorsYet": {
+    de: "Noch keine Autoren zugeordnet — diese Reihe eröffnet demnächst.",
+    en: "No authors assigned yet — this series opens soon."
+  },
 
   // Matrix array for your dynamic Series generation loop
   // "authors" is intentionally on every entry (empty for now on I–IV): as further authors
   // join a series, they are appended here — no template changes required on /reihen/ or the
   // homepage "Autoren im Programm" / "Aktuelle Ausgaben" sections, both of which read this array.
+  // mood.credit.public: true zeigt den Bildnachweis sichtbar auf der Reihen-Einzelseite
+  // (echte historische Werke). false haelt ihn nur hier als internes Herkunftsprotokoll -
+  // reihe.njk/en/reihe.njk rendern ihn dann nicht (Verlegeranweisung 2026-08-22: KI-generierte
+  // Stimmungsbilder ohne sichtbaren KI-Hinweis fuer Besucher).
   "seriesItems": [
     {
       num: "I",
       slug: "anthrazit",
       colorName: { de: "ANTHRAZIT", en: "ANTHRACITE" },
       colorHex: "#3a3a3a",
+      colorRgb: "58, 58, 58",
       label: { de: "Weltliteratur und Ur-Konflikte", en: "World Literature and Elemental Conflict" },
       desc: {
         de: "Schwere Weltliteratur des Grenzraums und des Ur-Konflikts — von Melville bis Simms — sowie historische Berichte von Eroberung und Feldzug.",
         en: "Weighty world literature of the frontier and the primal conflict — from Melville to Simms — alongside historical accounts of conquest and campaign."
+      },
+      mood: {
+        file: "mood-anthrazit",
+        focal: "50% 55%",
+        alt: {
+          de: "Zwei Kontrahenten im nächtlichen Grenzwald",
+          en: "Two adversaries in a nocturnal frontier forest"
+        },
+        credit: {
+          public: false,
+          artist: "AETERNUS Verlag",
+          title: { de: "Konfrontation im Grenzwald", en: "Confrontation in the Frontier Woods" },
+          year: "2026",
+          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
+          source: "Midjourney"
+        }
       },
       authors: [
         {
@@ -341,10 +371,27 @@ module.exports = {
       slug: "gruen",
       colorName: { de: "GRÜN", en: "GREEN" },
       colorHex: "#2d4a22",
+      colorRgb: "45, 74, 34",
       label: { de: "Militär, Expeditionen und Grenzräume", en: "Military, Expeditions, and Frontier Regions" },
       desc: {
         de: "Feldzüge, Sonderoperationen, militärische Erinnerungen, Grenzkriege und die politischen, gesellschaftlichen und militärischen Folgen bewaffneter Konflikte.",
         en: "Campaigns, special operations, military memoirs, frontier wars, and the long shadow of armed order."
+      },
+      mood: {
+        file: "mood-gruen",
+        focal: "42% 48%",
+        alt: {
+          de: "Historisches Gemälde eines erschöpften Reiters vor einer Festung",
+          en: "Historical painting of an exhausted rider before a fortress"
+        },
+        credit: {
+          public: true,
+          artist: "Elizabeth Thompson (Lady Butler)",
+          title: { de: "Die Reste einer Armee", en: "Remnants of an Army" },
+          year: "1879",
+          museum: { de: "Tate Britain, London", en: "Tate Britain, London" },
+          source: "Wikimedia Commons"
+        }
       },
       // Eröffnungsautorin der grünen Linie. Noch kein Band erschienen — books bleibt leer,
       // damit die Autorin auf /reihen/ und unter "Autoren im Programm" erscheint, aber
@@ -367,10 +414,27 @@ module.exports = {
       slug: "rot",
       colorName: { de: "ROT", en: "RED" },
       colorHex: "#7c1c1c",
+      colorRgb: "124, 28, 28",
       label: { de: "Imperien, Herrscher und Staatskunst", en: "Empires, Rulers, and Statecraft" },
       desc: {
         de: "Reiche, Republiken, Verwaltung, Macht, Recht, diplomatische Ordnung und historische Quellen.",
         en: "Empires, republics, administration, power, law, diplomatic order, and historical sources."
+      },
+      mood: {
+        file: "mood-rot",
+        focal: "50% 60%",
+        alt: {
+          de: "Kaiserliche Zeremonienhalle im Lichtschein",
+          en: "Imperial ceremonial hall bathed in light"
+        },
+        credit: {
+          public: false,
+          artist: "AETERNUS Verlag",
+          title: { de: "Die Thronhalle", en: "The Throne Hall" },
+          year: "2026",
+          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
+          source: "Midjourney"
+        }
       },
       authors: []
     },
@@ -379,10 +443,27 @@ module.exports = {
       slug: "blau",
       colorName: { de: "BLAU", en: "BLUE" },
       colorHex: "#1c3d5a",
+      colorRgb: "28, 61, 90",
       label: { de: "Wirtschaft, Industrie und Titanen", en: "Economy, Industry, and Titans" },
       desc: {
         de: "Aufstieg und Wirken der großen Industriellen und Unternehmer — Kapitalbildung, Wettbewerb und die Formung der modernen Wirtschaft.",
         en: "The rise and work of the great industrialists and entrepreneurs — capital formation, competition, and the shaping of the modern economy."
+      },
+      mood: {
+        file: "mood-blau",
+        focal: "50% 40%",
+        alt: {
+          de: "Vier Industrielle vor der Skyline New Yorks",
+          en: "Four industrialists before the New York skyline"
+        },
+        credit: {
+          public: false,
+          artist: "AETERNUS Verlag",
+          title: { de: "Die Titanen", en: "The Titans" },
+          year: "2026",
+          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
+          source: "Midjourney"
+        }
       },
       // Erster Autor der blauen Linie auf der V3-Engine. Noch kein Band erschienen — books leer.
       authors: [
@@ -403,10 +484,27 @@ module.exports = {
       slug: "bernstein",
       colorName: { de: "BERNSTEIN", en: "AMBER" },
       colorHex: "#b7791f",
+      colorRgb: "183, 121, 31",
       label: { de: "Jugend, Abenteuer und Charakterbildung", en: "Youth, Adventure, and Character Formation" },
       desc: {
         de: "Erzählungen über Mut, Verantwortung, Naturerfahrung und Selbstständigkeit.",
         en: "Classic adventure literature, education through nature, courage, responsibility, and the early encounter with the seriousness of life."
+      },
+      mood: {
+        file: "mood-bernstein",
+        focal: "60% 55%",
+        alt: {
+          de: "Pfadfinder am Lagerfeuer unter Sternenhimmel",
+          en: "Scouts at a campfire under a starry sky"
+        },
+        credit: {
+          public: false,
+          artist: "AETERNUS Verlag",
+          title: { de: "Am Lagerfeuer", en: "At the Campfire" },
+          year: "2026",
+          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
+          source: "Midjourney"
+        }
       },
       // First author in the Bernstein series. Not a standalone editorial line — an author within
       // this series, listed here because his titles are the first ones actually in print.
@@ -483,10 +581,27 @@ module.exports = {
       slug: "weiss",
       colorName: { de: "WEISS", en: "WHITE" },
       colorHex: "#d8d5cd",
+      colorRgb: "216, 213, 205",
       label: { de: "Die nordische Welt", en: "The Northern World" },
       desc: {
         de: "Sagen, Seefahrt, Entdeckung und Alltag des Nordens — von der Polarforschung bis zu den Überlieferungen Skandinaviens und Islands.",
         en: "Sagas, seafaring, discovery, and everyday life in the North — from polar exploration to the traditions of Scandinavia and Iceland."
+      },
+      mood: {
+        file: "mood-weiss",
+        focal: "50% 62%",
+        alt: {
+          de: "Wikingerschiff in einem winterlichen Fjord",
+          en: "Viking ship in a wintry fjord"
+        },
+        credit: {
+          public: false,
+          artist: "AETERNUS Verlag",
+          title: { de: "Ankunft im Fjord", en: "Arrival at the Fjord" },
+          year: "2026",
+          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
+          source: "Midjourney"
+        }
       },
       authors: []
     }

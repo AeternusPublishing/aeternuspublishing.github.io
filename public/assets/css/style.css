@@ -497,3 +497,89 @@ h1.headline {
 @media (prefers-reduced-motion: reduce){
   .edition-ornament{filter:none;}
 }
+
+/* ============================================================
+   REIHEN-EINZELSEITEN — /reihen/{slug}/ und /en/series/{slug}/
+   Vollflaechiges Stimmungsbild (gemeinfreies historisches Gemaelde)
+   nach demselben Rezept wie der Homepage-Hero: Foto @ reduzierter
+   Deckkraft, dunkle Waesche fuer Lesbarkeit, Vignette, Korn. Die
+   Waesche wird pro Reihe ueber --series-accent (colorHex) eingefaerbt.
+   ============================================================ */
+.series-hero{position:relative;overflow:hidden;isolation:isolate;padding:180px 0 96px;}
+.series-hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5;z-index:-3;}
+.series-hero-veil{
+  position:absolute;inset:0;z-index:-2;
+  background:
+    radial-gradient(120% 90% at 18% 0%, rgba(var(--series-accent-rgb), .28) 0%, transparent 55%),
+    linear-gradient(to bottom, rgba(15,12,9,.55), rgba(15,12,9,.72) 55%, var(--ink) 96%);
+}
+.series-hero-vignette{position:absolute;inset:0;z-index:-1;pointer-events:none;}
+.series-hero-grain{position:absolute;inset:0;z-index:-1;opacity:.4;pointer-events:none;}
+.series-crumb{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(243,231,207,.55);margin-bottom:22px;transition:color .3s;}
+.series-crumb:hover{color:var(--gold);}
+.series-hero-kicker{display:flex;align-items:center;gap:10px;font-family:var(--font-sans);font-size:.8rem;letter-spacing:.14em;color:rgba(243,231,207,.7);text-transform:uppercase;}
+.series-hero-kicker .swatch{display:inline-block;width:8px;height:8px;border-radius:50%;background-color:var(--series-accent);box-shadow:0 0 10px var(--series-accent);}
+.series-hero-title{margin-top:18px;max-width:820px;}
+.series-hero-desc{margin-top:24px;max-width:640px;font-size:17px;line-height:1.75;color:rgba(243,231,207,.8);}
+.series-credit{margin-top:36px;font-family:var(--font-sans);font-size:10px;letter-spacing:.06em;color:rgba(243,231,207,.35);}
+
+/* Autorenbaum der Einzelseite — voller Bio-/Werktext, kein Kartenraster mehr;
+   Struktur und Klassen bewusst identisch zur bisherigen /reihen/-Uebersicht
+   uebernommen, damit bestehendes CSS (author-block, book-mini) weitergilt. */
+.series-authors{padding:96px 0 112px;position:relative;background-color:#161311;}
+.series-authors .author-block{max-width:760px;margin-top:0;padding-top:0;border-top:0;}
+.series-authors .author-block + .author-block{margin-top:64px;padding-top:56px;border-top:1px solid rgba(212,175,55,.12);}
+.series-empty{max-width:560px;padding:48px 0;font-size:15px;line-height:1.7;color:rgba(243,231,207,.55);}
+
+/* author-block/book-mini — Cover-Miniatur je verfuegbarem Titel. Vormals ein
+   Seiten-lokaler <style>-Block auf der alten /reihen/-Uebersicht; jetzt global,
+   da sowohl die Reihen-Einzelseiten (reihe.njk) als auch ihre EN-Mirror
+   dieselben Klassen verwenden. Fehlt diese Regel, rendert <img class="cover">
+   in voller intrinsischer Groesse (1024x1536) statt als 40x60px-Miniatur. */
+.author-block .kicker{font-size:.72rem;letter-spacing:.1em;color:rgba(243,231,207,.4);text-transform:uppercase;margin-bottom:10px;}
+.author-block .author-name{font-family:var(--font-display);font-size:1.05rem;color:var(--gold);border-bottom:1px solid rgba(212,175,55,.4);padding-bottom:2px;transition:color .3s;}
+.author-block .author-name:hover{color:#f3e7cf;}
+.author-block .author-desc{margin-top:14px;font-size:14px;line-height:1.65;color:rgba(243,231,207,.65);}
+.author-block .profile-link{display:inline-block;margin-top:14px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(212,175,55,.35);padding-bottom:2px;}
+.book-mini-list{margin-top:16px;display:flex;flex-direction:column;gap:12px;}
+.book-mini{display:flex;align-items:center;gap:14px;}
+.book-mini .cover{width:40px;height:60px;object-fit:cover;flex-shrink:0;box-shadow:0 6px 16px rgba(0,0,0,.45);}
+.book-mini .info{min-width:0;}
+.book-mini .title{font-family:var(--font-display);font-size:14.5px;color:#f3e7cf;line-height:1.3;}
+.book-mini a.buy{display:inline-block;margin-top:3px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);transition:color .3s;}
+.book-mini a.buy:hover{color:#f3e7cf;}
+
+/* ============================================================
+   REIHEN-UEBERSICHT — /reihen/ und /en/series/
+   Sechs Kacheln, je mit kleinem Stimmungsbild-Ausschnitt statt vollem
+   Autorenbaum; der volle Baum lebt jetzt auf der Einzelseite.
+   ============================================================ */
+.series-overview-card{
+  border:1px solid rgba(212,175,55,.12);background-color:#181512;
+  box-shadow:0 12px 35px rgba(0,0,0,.35);position:relative;overflow:hidden;
+  display:flex;flex-direction:column;transition:border-color .3s,transform .4s;
+  text-decoration:none;color:inherit;
+}
+.series-overview-card:hover{border-color:rgba(212,175,55,.35);transform:translateY(-3px);}
+.series-overview-thumb{position:relative;height:150px;overflow:hidden;}
+.series-overview-thumb img{width:100%;height:100%;object-fit:cover;opacity:.55;transition:opacity .4s;}
+.series-overview-card:hover .series-overview-thumb img{opacity:.72;}
+.series-overview-thumb::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(to top, #181512 0%, rgba(24,21,18,.35) 55%, transparent 100%);
+}
+.series-overview-body{padding:28px 30px 32px;display:flex;flex-direction:column;gap:14px;flex:1;}
+.series-overview-meta{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;letter-spacing:.1em;color:rgba(243,231,207,.4);text-transform:uppercase;}
+.series-overview-meta .swatch-row{display:flex;align-items:center;gap:8px;}
+.series-overview-meta .swatch{display:inline-block;width:6px;height:6px;border-radius:50%;}
+.series-overview-body h3{color:#f3e7cf;font-family:var(--font-display);font-size:1.3rem;font-weight:400;line-height:1.4;}
+.series-overview-body p{color:rgba(243,231,207,.68);font-size:14.5px;line-height:1.6;flex:1;}
+.series-overview-foot{display:flex;justify-content:space-between;align-items:center;margin-top:4px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;}
+.series-overview-foot .authors-count{color:rgba(243,231,207,.4);}
+.series-overview-foot .go{color:var(--gold);border-bottom:1px solid rgba(212,175,55,.35);padding-bottom:2px;transition:color .3s;}
+.series-overview-card:hover .go{color:#f3e7cf;}
+
+@media(max-width:767px){
+  .series-hero{padding:150px 0 72px;}
+  .series-overview-thumb{height:120px;}
+}

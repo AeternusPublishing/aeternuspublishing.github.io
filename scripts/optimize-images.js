@@ -109,6 +109,42 @@ async function gen(srcName, outputs) {
     { name: "cover-waldteufel.webp", resize: { width: 1024 }, webp: { quality: 80 } },
     { name: "cover-waldteufel-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
+
+  // Stimmungsbilder der sechs Reihen-Landingpages (/reihen/{slug}/). Gemeinfreie
+  // historische Gemaelde, thematisch auf die jeweilige Reihe abgestimmt; Quellen
+  // und Bildnachweis stehen im seriesItems[].mood-Objekt in i18n.js. Auf 1920px
+  // normiert wie hero-library.jpg, da sie denselben vollflaechigen Hero-Einsatz
+  // (opacity .55-.7 hinter einer dunklen Wäsche) bedienen.
+  await gen("mood-anthrazit.jpg", [
+    { name: "mood-anthrazit.avif", resize: { width: 1920 }, avif: { quality: 52, effort: 4 } },
+    { name: "mood-anthrazit.webp", resize: { width: 1920 }, webp: { quality: 78 } },
+    { name: "mood-anthrazit-fallback.jpg", resize: { width: 1920 }, jpeg: { quality: 82, mozjpeg: true } },
+  ]);
+  await gen("mood-gruen.jpg", [
+    { name: "mood-gruen.avif", resize: { width: 1920 }, avif: { quality: 52, effort: 4 } },
+    { name: "mood-gruen.webp", resize: { width: 1920 }, webp: { quality: 78 } },
+    { name: "mood-gruen-fallback.jpg", resize: { width: 1920 }, jpeg: { quality: 82, mozjpeg: true } },
+  ]);
+  await gen("mood-rot.jpg", [
+    { name: "mood-rot.avif", resize: { width: 1920, withoutEnlargement: true }, avif: { quality: 52, effort: 4 } },
+    { name: "mood-rot.webp", resize: { width: 1920, withoutEnlargement: true }, webp: { quality: 78 } },
+    { name: "mood-rot-fallback.jpg", resize: { width: 1920, withoutEnlargement: true }, jpeg: { quality: 82, mozjpeg: true } },
+  ]);
+  await gen("mood-blau.jpg", [
+    { name: "mood-blau.avif", resize: { width: 1920 }, avif: { quality: 52, effort: 4 } },
+    { name: "mood-blau.webp", resize: { width: 1920 }, webp: { quality: 78 } },
+    { name: "mood-blau-fallback.jpg", resize: { width: 1920 }, jpeg: { quality: 82, mozjpeg: true } },
+  ]);
+  await gen("mood-bernstein.jpg", [
+    { name: "mood-bernstein.avif", resize: { width: 1920 }, avif: { quality: 52, effort: 4 } },
+    { name: "mood-bernstein.webp", resize: { width: 1920 }, webp: { quality: 78 } },
+    { name: "mood-bernstein-fallback.jpg", resize: { width: 1920 }, jpeg: { quality: 82, mozjpeg: true } },
+  ]);
+  await gen("mood-weiss.jpg", [
+    { name: "mood-weiss.avif", resize: { width: 1920, withoutEnlargement: true }, avif: { quality: 52, effort: 4 } },
+    { name: "mood-weiss.webp", resize: { width: 1920, withoutEnlargement: true }, webp: { quality: 78 } },
+    { name: "mood-weiss-fallback.jpg", resize: { width: 1920, withoutEnlargement: true }, jpeg: { quality: 82, mozjpeg: true } },
+  ]);
 })().catch((e) => {
   console.error(e);
   process.exit(1);

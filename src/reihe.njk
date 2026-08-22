@@ -1,0 +1,83 @@
+---
+pagination:
+  data: i18n.seriesItems
+  size: 1
+  alias: s
+  # Ohne dieses Flag nimmt Eleventy nur die ERSTE paginierte Seite in
+  # collections.all auf — sitemap.njk haette dann nur eine der sechs
+  # Reihen-Landingpages gelistet.
+  addAllPagesToCollections: true
+permalink: "/reihen/{{ s.slug }}/index.html"
+eleventyExcludeFromCollections: false
+layout: base.njk
+lang: de
+eleventyComputed:
+  title: "{{ s.label.de }} — Reihe {{ s.num }} · AETERNUS VERLAG"
+  description: "{{ s.desc.de }}"
+---
+
+<main>
+<!-- REIHEN-EINZELSEITE — vollflaechiges Stimmungsbild + vollstaendiger Autorenbaum
+     dieser einen Reihe. Ersetzt die bisherige Kartenform auf /reihen/, die jetzt
+     nur noch als schlanke Uebersicht dient (siehe reihen.njk). -->
+<section class="series-hero" style="--series-accent: {{ s.colorHex }}; --series-accent-rgb: {{ s.colorRgb }};">
+  <picture style="display:contents">
+    <source type="image/avif" srcset="/assets/images/{{ s.mood.file }}.avif" />
+    <source type="image/webp" srcset="/assets/images/{{ s.mood.file }}.webp" />
+    <img class="series-hero-bg" src="/assets/images/{{ s.mood.file }}-fallback.jpg" alt="{{ s.mood.alt.de }}" style="object-position: {{ s.mood.focal }};" width="1920" height="1200" fetchpriority="high" decoding="async" />
+  </picture>
+  <div class="series-hero-veil"></div>
+  <div class="series-hero-vignette vignette"></div>
+  <div class="series-hero-grain paper-grain"></div>
+  <div class="wrap">
+    <a href="/reihen/" class="series-crumb">← {{ i18n["series.allSeries"][lang] }}</a>
+    <div class="series-hero-kicker">
+      <span>{{ i18n["nav.series"][lang] }} {{ s.num }}</span>
+      <span class="swatch"></span>
+      <span>{{ s.colorName[lang] }}</span>
+    </div>
+    <h1 class="title-xl series-hero-title" style="font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ s.label[lang] }}</span></h1>
+    <p class="series-hero-desc">{{ s.desc[lang] }}</p>
+    {% if s.mood.credit.public %}
+    <p class="series-credit">{{ i18n["series.creditLabel"][lang] }}: {{ s.mood.credit.artist }}, <em>{{ s.mood.credit.title[lang] }}</em> ({{ s.mood.credit.year }}) — {{ s.mood.credit.museum[lang] }}, {{ s.mood.credit.source }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="series-authors">
+  <div class="wrap">
+    {% if s.authors.length %}
+      {% for author in s.authors %}
+        <div class="author-block">
+          <div class="kicker">{{ i18n["series.authorsHeading"][lang] }}</div>
+          <a href="{{ author.landingUrl[lang] }}" class="author-name" style="font-size: 1.4rem;">{{ author.name }}</a>
+          <div class="author-desc">
+            {{ author.bio[lang] }}
+            <br><a class="profile-link" href="{{ author.landingUrl[lang] }}">{{ i18n["authors.viewProfile"][lang] }} →</a>
+            {% if author.books.length %}
+              <div style="margin-top: 18px; font-size: 0.72rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase;">{{ i18n["author.availableTitles"][lang] }}</div>
+              <div class="book-mini-list">
+                {% for book in author.books %}
+                  <div class="book-mini">
+                    <picture style="display:contents">
+                      <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
+                      <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
+                      <img class="cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
+                    </picture>
+                    <div class="info">
+                      <div class="title">{{ book.title[lang] }}</div>
+                      <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="buy">{{ i18n["seton.button"][lang] }} →</a>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p class="series-empty">{{ i18n["series.noAuthorsYet"][lang] }}</p>
+    {% endif %}
+  </div>
+</section>
+</main>

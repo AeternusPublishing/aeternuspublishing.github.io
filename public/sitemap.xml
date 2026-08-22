@@ -31,12 +31,6 @@
     <loc>https://aeternus-verlag.de/en/</loc>
   </url>
   <url>
-    <loc>https://aeternus-verlag.de/reihen/</loc>
-  </url>
-  <url>
-    <loc>https://aeternus-verlag.de/en/series/</loc>
-  </url>
-  <url>
     <loc>https://aeternus-verlag.de/anthrazit/der-waldteufel/</loc>
   </url>
   <url>
@@ -77,5 +71,47 @@
   </url>
   <url>
     <loc>https://aeternus-verlag.de/autoren/robert-baden-powell/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/anthrazit/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/gruen/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/rot/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/blau/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/bernstein/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/weiss/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/anthrazit/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/gruen/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/rot/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/blau/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/bernstein/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/weiss/</loc>
   </url>
 </urlset>
