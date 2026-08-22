@@ -452,11 +452,11 @@ module.exports = {
       mood: {
         file: "mood-blau",
         focal: "50% 42%",
-        // Schwarzweiss-Fotografie statt farbiger Ölmalerei: die dunkle Waesche
-        // (.series-hero-veil) verschluckt bei den Standard-.5 Deckkraft fast
-        // die gesamte Zeichnung (Gesichter/Haeuser wurden zu einem dunklen
-        // Fleck). Hoehere Deckkraft, damit Kontur und Kontrast erhalten bleiben.
-        opacity: 0.82,
+        // Schwarzweiss-Fotografie statt farbiger Ölmalerei: frueher hier ein
+        // opacity-Override (0.82), weil die alte Standard-Deckkraft (.5) die
+        // Zeichnung fast verschluckte. Seit der Aufhellung von .series-hero-bg
+        // (jetzt .85 Standard) liegt der Standardwert bereits ueber dem
+        // frueheren Override, daher entfaellt er hier.
         alt: {
           de: "Vier Industrielle vor der Skyline New Yorks",
           en: "Four industrialists before the New York skyline"

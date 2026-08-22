@@ -506,21 +506,21 @@ h1.headline {
    Waesche wird pro Reihe ueber --series-accent (colorHex) eingefaerbt.
    ============================================================ */
 .series-hero{position:relative;overflow:hidden;isolation:isolate;padding:180px 0 96px;}
-.series-hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5;z-index:-3;}
+.series-hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85;z-index:-3;}
 .series-hero-veil{
   position:absolute;inset:0;z-index:-2;
   background:
-    radial-gradient(120% 90% at 18% 0%, rgba(var(--series-accent-rgb), .28) 0%, transparent 55%),
-    linear-gradient(to bottom, rgba(15,12,9,.55), rgba(15,12,9,.72) 55%, var(--ink) 96%);
+    radial-gradient(120% 90% at 18% 0%, rgba(var(--series-accent-rgb), .22) 0%, transparent 55%),
+    linear-gradient(to bottom, rgba(15,12,9,.15), rgba(15,12,9,.38) 55%, var(--ink) 96%);
 }
-.series-hero-vignette{position:absolute;inset:0;z-index:-1;pointer-events:none;}
+.series-hero-vignette{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.55;}
 .series-hero-grain{position:absolute;inset:0;z-index:-1;opacity:.4;pointer-events:none;}
-.series-crumb{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(243,231,207,.55);margin-bottom:22px;transition:color .3s;}
+.series-crumb{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:rgba(243,231,207,.55);margin-bottom:22px;transition:color .3s;text-shadow:0 2px 10px rgba(0,0,0,.65);}
 .series-crumb:hover{color:var(--gold);}
-.series-hero-kicker{display:flex;align-items:center;gap:10px;font-family:var(--font-sans);font-size:.8rem;letter-spacing:.14em;color:rgba(243,231,207,.7);text-transform:uppercase;}
+.series-hero-kicker{display:flex;align-items:center;gap:10px;font-family:var(--font-sans);font-size:.8rem;letter-spacing:.14em;color:rgba(243,231,207,.7);text-transform:uppercase;text-shadow:0 2px 10px rgba(0,0,0,.65);}
 .series-hero-kicker .swatch{display:inline-block;width:8px;height:8px;border-radius:50%;background-color:var(--series-accent);box-shadow:0 0 10px var(--series-accent);}
-.series-hero-title{margin-top:18px;max-width:820px;}
-.series-hero-desc{margin-top:24px;max-width:640px;font-size:17px;line-height:1.75;color:rgba(243,231,207,.8);}
+.series-hero-title{margin-top:18px;max-width:820px;text-shadow:0 4px 24px rgba(0,0,0,.7);}
+.series-hero-desc{margin-top:24px;max-width:640px;font-size:17px;line-height:1.75;color:rgba(243,231,207,.8);text-shadow:0 2px 14px rgba(0,0,0,.7);}
 .series-credit{margin-top:36px;font-family:var(--font-sans);font-size:10px;letter-spacing:.06em;color:rgba(243,231,207,.35);}
 
 /* Autorenbaum der Einzelseite — voller Bio-/Werktext, kein Kartenraster mehr;
@@ -562,11 +562,11 @@ h1.headline {
 }
 .series-overview-card:hover{border-color:rgba(212,175,55,.35);transform:translateY(-3px);}
 .series-overview-thumb{position:relative;height:150px;overflow:hidden;}
-.series-overview-thumb img{width:100%;height:100%;object-fit:cover;opacity:.55;transition:opacity .4s;}
-.series-overview-card:hover .series-overview-thumb img{opacity:.72;}
+.series-overview-thumb img{width:100%;height:100%;object-fit:cover;opacity:.9;transition:opacity .4s;}
+.series-overview-card:hover .series-overview-thumb img{opacity:1;}
 .series-overview-thumb::after{
   content:"";position:absolute;inset:0;
-  background:linear-gradient(to top, #181512 0%, rgba(24,21,18,.35) 55%, transparent 100%);
+  background:linear-gradient(to top, #181512 0%, rgba(24,21,18,.22) 35%, transparent 75%);
 }
 .series-overview-body{padding:28px 30px 32px;display:flex;flex-direction:column;gap:14px;flex:1;}
 .series-overview-meta{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;letter-spacing:.1em;color:rgba(243,231,207,.4);text-transform:uppercase;}
