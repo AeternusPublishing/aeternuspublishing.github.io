@@ -25,7 +25,7 @@ permalink: /en/series/index.html
             <picture>
               <source type="image/avif" srcset="/assets/images/{{ card.mood.file }}.avif" />
               <source type="image/webp" srcset="/assets/images/{{ card.mood.file }}.webp" />
-              <img src="/assets/images/{{ card.mood.file }}-fallback.jpg" alt="" style="object-position: {{ card.mood.focal }};" loading="lazy" decoding="async" />
+              <img src="/assets/images/{{ card.mood.file }}-fallback.jpg" alt="" style="object-position: {{ card.mood.focal }};{% if card.mood.opacity %} opacity: {{ card.mood.opacity }};{% endif %}" loading="lazy" decoding="async" />
             </picture>
           </div>
           <div class="series-overview-body">

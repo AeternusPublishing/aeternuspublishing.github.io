@@ -24,7 +24,7 @@ eleventyComputed:
   <picture style="display:contents">
     <source type="image/avif" srcset="/assets/images/{{ s.mood.file }}.avif" />
     <source type="image/webp" srcset="/assets/images/{{ s.mood.file }}.webp" />
-    <img class="series-hero-bg" src="/assets/images/{{ s.mood.file }}-fallback.jpg" alt="{{ s.mood.alt.de }}" style="object-position: {{ s.mood.focal }};" width="1920" height="1200" fetchpriority="high" decoding="async" />
+    <img class="series-hero-bg" src="/assets/images/{{ s.mood.file }}-fallback.jpg" alt="{{ s.mood.alt.de }}" style="object-position: {{ s.mood.focal }};{% if s.mood.opacity %} opacity: {{ s.mood.opacity }};{% endif %}" width="1920" height="1200" fetchpriority="high" decoding="async" />
   </picture>
   <div class="series-hero-veil"></div>
   <div class="series-hero-vignette vignette"></div>

@@ -73,12 +73,6 @@
     <loc>https://aeternus-verlag.de/autoren/robert-baden-powell/</loc>
   </url>
   <url>
-    <loc>https://aeternus-verlag.de/reihen/</loc>
-  </url>
-  <url>
-    <loc>https://aeternus-verlag.de/en/series/</loc>
-  </url>
-  <url>
     <loc>https://aeternus-verlag.de/reihen/anthrazit/</loc>
   </url>
   <url>
@@ -113,5 +107,11 @@
   </url>
   <url>
     <loc>https://aeternus-verlag.de/en/series/weiss/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/reihen/</loc>
+  </url>
+  <url>
+    <loc>https://aeternus-verlag.de/en/series/</loc>
   </url>
 </urlset>
