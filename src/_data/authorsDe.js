@@ -65,7 +65,7 @@ module.exports = [
         "title": "Wilde Tiere, die ich kannte",
         "subtitle": "Acht Tiergeschichten aus der nordamerikanischen Wildnis",
         "modal": {
-          "metadata": "Aeternus Verlag · Hardcover & Kindle",
+          "metadata": "229 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 26,99 €",
           "summary": "Vom Wolfskönig Lobo bis zur Krähe Silverspot: Setons berühmtester Band verbindet genaue Naturbeobachtung mit dramatischer Erzählkunst.",
           "sample": "Lobo beherrscht das Currumpaw-Tal nicht als Fabelwesen, sondern durch Erfahrung, Vorsicht und die Bindung an sein Rudel.",
           "amazon": "https://www.amazon.de/dp/3912883009"

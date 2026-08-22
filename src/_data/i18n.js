@@ -155,12 +155,12 @@ module.exports = {
     en: "Ernest Thompson Seton · Volume I of the Seton Edition "
   },
   "hunted.text1": {
-    de: "In „Das Leben der Gejagten“ folgt Ernest Thompson Seton den Spuren jener Tiere, deren Dasein unter dem alten Gesetz der Wildnis steht: Flucht, Hunger, Instinkt, Verfolgung, List und Würde. Es sind keine Tiergeschichten im harmlosen Sinn, sondern Lebensbilder von Geschöpfen, die ihre Welt nicht erklären, sondern bestehen müssen.",
-    en: "In “Lives of the Hunted,” Ernest Thompson Seton follows the tracks of animals whose existence is governed by the old law of the wilderness: flight, hunger, instinct, pursuit, cunning, and dignity. These are not animal stories in the harmless sense, but life portraits of creatures that do not explain their world. They endure it."
+    de: "In „Wilde Tiere, die ich kannte“ erzählt Ernest Thompson Seton acht Tierleben aus der nordamerikanischen Wildnis — vom Wolfskönig Lobo bis zur Krähe Silverspot. Seine Tiere sind keine austauschbaren Typen, sondern unverwechselbare Gestalten mit Erfahrung, Strategie und Bindung.",
+    en: "In “Wild Animals I Have Known,” Ernest Thompson Seton tells eight animal lives from the North American wild — from Lobo the wolf king to Silverspot the crow. His animals are not interchangeable types, but distinct individuals shaped by experience, strategy, and attachment."
   },
   "hunted.text2": {
-    de: "Die AETERNUS-Ausgabe führt Setons Erzählungen in eine klare deutsche Gestalt, ohne ihren Ernst, ihre Härte und ihre eigentümliche Schönheit zu entschärfen. Die Übersetzung wahrt Setons genaue Naturbeobachtung, ordnet aber jene älteren Satzformen, die heutigen Lesern den Zugang unnötig erschweren würden. Der Band steht im Zusammenhang mit Setons großen Naturwerken und bildet einen wesentlichen Baustein der Seton-Edition.",
-    en: "The AETERNUS edition brings Seton’s stories into a clear German form without weakening their gravity, severity, or singular beauty. The translation preserves Seton’s precise natural observation while ordering older sentence structures that would unnecessarily obstruct modern readers. The volume belongs to Seton’s major nature writings and forms an essential part of the Seton Edition."
+    de: "Die neu eingerichtete AETERNUS-Ausgabe verbindet den vollständigen deutschen Text mit neun eigens für diese Ausgabe geschaffenen Bildtafeln. Die Printausgaben umfassen 229 Seiten; eBook, Taschenbuch und Hardcover bilden nun einen harmonisierten Editionsstand.",
+    en: "The newly prepared AETERNUS edition combines the complete German text with nine plates created specifically for this edition. The print editions comprise 229 pages; eBook, paperback, and hardcover now share one harmonized editorial state."
   },
   
   // Book Technical Specs (dl keys)
@@ -181,16 +181,12 @@ module.exports = {
   "hunted.specSeries": { de: "Reihe", en: "Series" },
   "hunted.specSeriesVal": { de: "Seton-Edition", en: "The Seton Edition" },
   "hunted.specStatus": { de: "Status", en: "Status" },
-  // 2026-08-11, Verlegeranweisung Patrick: ETS_003 "Leben der Gejagten" ist
-  // NICHT erschienen und fuehrt keine veroeffentlichte Ausgabe. Der Wert stand
-  // auf "Erschienen"/"Published" - eine oeffentliche Falschangabe. Kein Template
-  // liest diesen Block derzeit; korrigiert wird trotzdem, damit sie es nie wird.
-  "hunted.specStatusVal": { de: "In Vorbereitung", en: "In preparation" },
+  "hunted.specStatusVal": { de: "Erschienen", en: "Published" },
   "hunted.specLanguage": { de: "Sprache", en: "Language" },
   "hunted.specLanguageVal": { de: "Deutsch", en: "German" },
   "hunted.specFormatVal": {
-        "de": "Gebundene Ausgabe",
-        "en": "Hardcover"
+        "de": "eBook · Taschenbuch · Hardcover",
+        "en": "eBook · Paperback · Hardcover"
     },
 
   // CTAs
@@ -527,6 +523,14 @@ module.exports = {
               cover: "cover-wilde-tiere",
               band: "I",
               isbn: "978-3-912883-00-8",
+              isbns: {
+                ebook: "978-3-912883-08-4",
+                paperback: "978-3-912883-20-6",
+                hardcover: "978-3-912883-00-8"
+              },
+              pages: 229,
+              pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "26,99" },
+              asin: { ebook: "B0HDTYK2Y6", paperback: "3912883203", hardcover: "3912883009" },
               amazonUrl: "https://www.amazon.de/dp/3912883009",
               originalTitle: "Wild Animals I Have Known, 1898",
               title: { de: "Wilde Tiere, die ich kannte", en: "Wild Animals I Have Known" },
