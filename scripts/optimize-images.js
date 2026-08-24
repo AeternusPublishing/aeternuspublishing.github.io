@@ -70,6 +70,18 @@ async function gen(srcName, outputs) {
     { name: "cover-tierhelden-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
 
+  // Band III und V — finale E-Book-Cover, auf 1024px Breite normiert.
+  await gen("cover-leben-der-gejagten.jpg", [
+    { name: "cover-leben-der-gejagten.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-leben-der-gejagten.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-leben-der-gejagten-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+  await gen("cover-zwei-kleine-wilde.jpg", [
+    { name: "cover-zwei-kleine-wilde.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-zwei-kleine-wilde.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-zwei-kleine-wilde-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+
   // Henry Ford, Mein Leben und Werk — finales Cover, auf 1024px Breite normiert.
   await gen("cover-ford.png", [
     { name: "cover-ford.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },

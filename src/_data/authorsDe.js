@@ -87,6 +87,20 @@ module.exports = [
       },
       {
         "cover": {
+          "img": "cover-leben-der-gejagten"
+        },
+        "meta": "Tiergeschichten · Band III",
+        "title": "Leben der Gejagten",
+        "subtitle": "Wahrhaftige Berichte über das Tun fünf vierfüßiger und dreier gefiederter Geschöpfe",
+        "modal": {
+          "metadata": "eBook 9,99 € · Taschenbuch 14,01 € · Hardcover 26,99 €",
+          "summary": "Acht Tierleben zwischen Verfolgung, Anpassung und Überlebenskunst — beobachtet mit Setons naturkundlicher Genauigkeit und erzählerischer Spannung.",
+          "sample": "Jede Spur erzählt von Entscheidungen unter Druck: fliehen, ausharren, täuschen oder den vertrauten Weg noch einmal wagen.",
+          "amazon": "https://www.amazon.de/dp/3912883165"
+        }
+      },
+      {
+        "cover": {
           "img": "cover-tierhelden"
         },
         "meta": "Tiergeschichten · 1905",
@@ -97,6 +111,35 @@ module.exports = [
           "summary": "Acht Lebensbilder aus Setons Spätwerk — von der Slum-Katze bis zum Wolf von Winnipeg. Neu übersetzt und eingerichtet.",
           "sample": "Seton sucht das Heldenhafte nicht im Ungewöhnlichen, sondern in der Zähigkeit, mit der ein Tier seinen Platz behauptet.",
           "amazon": "https://www.amazon.de/dp/B0HFDJS2L6"
+        }
+      },
+      {
+        "cover": {
+          "img": "cover-zwei-kleine-wilde"
+        },
+        "meta": "Jugendabenteuer · Band V · 1903",
+        "title": "Zwei kleine Wilde",
+        "subtitle": "Die Abenteuer zweier Knaben, die als Indianer lebten und das Waldläuferhandwerk lernten",
+        "modal": {
+          "metadata": "521 Seiten · eBook 11,99 € · Taschenbuch 19,00 € · Hardcover 29,00 €",
+          "summary": "Yan und Sam machen aus Spiel und Streifzügen eine Schule der Beobachtung, Selbstständigkeit und Freundschaft — in einer umfangreich illustrierten Neuausgabe.",
+          "sample": "Was als Spiel beginnt, wird zur Schule der Aufmerksamkeit: Spuren, Wetter und Gelände geben die Aufgaben vor.",
+          "amazon": "https://www.amazon.de/s?k=9783912883282"
+        }
+      },
+      {
+        "cover": {
+          "gen": "woodcraft",
+          "title": "Rolf in der<br>Wildnis"
+        },
+        "meta": "Jugendabenteuer · Band VI · 1911",
+        "title": "Rolf in der Wildnis",
+        "subtitle": "Band VI der Bernstein-Reihe",
+        "modal": {
+          "metadata": "509 Seiten · Veröffentlichung 2026",
+          "summary": "Rolf wächst an der Seite des Waldläufers Quonab und des Hundes Skookum in die Kunst des Spurenlesens, Jagens und selbstständigen Handelns hinein.",
+          "sample": "In der Wildnis zählt nicht der schnelle Eindruck, sondern was einer an Spuren, Wind und Verhalten wirklich zu lesen gelernt hat.",
+          "amazon": "https://www.amazon.de/s?k=Rolf+in+der+Wildnis+Ernest+Thompson+Seton"
         }
       },
       {
