@@ -611,7 +611,7 @@ module.exports = {
               },
               pages: 509,
               pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "29,99" },
-              amazonUrl: "https://www.amazon.de/s?k=9783912883305",
+              amazonUrl: "https://www.amazon.de/dp/3912883300",
               originalTitle: "Rolf in the Woods, 1911",
               title: { de: "Rolf in der Wildnis", en: "Rolf in the Woods" },
               desc: {

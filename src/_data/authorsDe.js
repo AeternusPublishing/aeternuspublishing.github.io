@@ -138,7 +138,7 @@ module.exports = [
           "metadata": "509 Seiten · eBook 11,99 € · Taschenbuch 19,99 € · Hardcover 29,99 €",
           "summary": "Rolf flieht vor seinem trunksüchtigen Onkel in die Wälder von Vermont. An der Seite Quonabs und des Hundes Skookum lernt er Spurenlesen, Kanubau und das Überleben in der Wildnis.",
           "sample": "Was als Flucht beginnt, wird zu einer Schule der Aufmerksamkeit, Selbstständigkeit und Freundschaft — bis Rolf als Kundschafter in den Krieg von 1812 zieht.",
-          "amazon": "https://www.amazon.de/s?k=9783912883305"
+          "amazon": "https://www.amazon.de/dp/3912883300"
         }
       },
       {
