@@ -143,17 +143,16 @@ module.exports = [
       },
       {
         "cover": {
-          "gen": "arctic",
-          "title": "Die arktischen<br>Prärien"
+          "img": "cover-die-arktischen-praerien-r1"
         },
-        "meta": "Expeditionsbericht · Nordkanada · 1911",
+        "meta": "Expeditionsbericht · Band VII · 1911",
         "title": "Die arktischen Prärien",
         "subtitle": "Zweitausend Meilen im Kanu auf der Suche nach dem Karibu",
         "modal": {
-          "metadata": "Expeditionsbericht · Nordkanada · 1911",
+          "metadata": "498 Seiten · eBook 11,99 € · Taschenbuch 19,99 € · Hardcover 29,99 €",
           "summary": "Setons sechsmonatige Reise in den kanadischen Norden verbindet Feldtagebuch, Tierbeobachtung, Kartierung und Begegnungen entlang der Handelsrouten.",
           "sample": "Hinter den letzten Handelsposten öffnet sich ein Land, in dem Entfernung wieder in Wochen, Wetterwechseln und Flussbiegungen gemessen wird.",
-          "amazon": "https://www.amazon.de/s?k=Die%20arktischen%20Pr%C3%A4rien%20Ernest%20Thompson%20Seton"
+          "amazon": "https://www.amazon.de/s?k=9783912883336"
         }
       },
       {

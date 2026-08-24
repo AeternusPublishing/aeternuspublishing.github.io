@@ -618,6 +618,25 @@ module.exports = {
                 de: "Ein epischer Wildnisroman über Freundschaft, Spurenlesen und Selbstständigkeit — neu übersetzt, illustriert und historisch eingeordnet.",
                 en: "An epic wilderness novel about friendship, tracking, and self-reliance — newly translated, illustrated, and historically contextualized."
               }
+            },
+            {
+              cover: "cover-die-arktischen-praerien-r1",
+              band: "VII",
+              isbn: "978-3-912883-33-6",
+              isbns: {
+                ebook: "978-3-912883-35-0",
+                paperback: "978-3-912883-33-6",
+                hardcover: "978-3-912883-34-3"
+              },
+              pages: 498,
+              pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "29,99" },
+              amazonUrl: "https://www.amazon.de/s?k=9783912883336",
+              originalTitle: "The Arctic Prairies, 1911",
+              title: { de: "Die arktischen Prärien", en: "The Arctic Prairies" },
+              desc: {
+                de: "Setons große Kanureise durch den kanadischen Norden auf der Suche nach dem Karibu — Expeditionsbericht, Naturbeobachtung und Abenteuer in einem Band.",
+                en: "Seton's great canoe journey through northern Canada in search of the caribou — expedition narrative, natural history, and adventure in one volume."
+              }
             }
           ]
         },
