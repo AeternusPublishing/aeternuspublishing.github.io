@@ -81,6 +81,11 @@ async function gen(srcName, outputs) {
     { name: "cover-zwei-kleine-wilde.webp", resize: { width: 1024 }, webp: { quality: 80 } },
     { name: "cover-zwei-kleine-wilde-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
+  await gen("cover-rolf-in-der-wildnis.jpg", [
+    { name: "cover-rolf-in-der-wildnis.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-rolf-in-der-wildnis.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-rolf-in-der-wildnis-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
 
   // Henry Ford, Mein Leben und Werk — finales Cover, auf 1024px Breite normiert.
   await gen("cover-ford.png", [

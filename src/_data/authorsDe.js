@@ -129,17 +129,16 @@ module.exports = [
       },
       {
         "cover": {
-          "gen": "woodcraft",
-          "title": "Rolf in der<br>Wildnis"
+          "img": "cover-rolf-in-der-wildnis"
         },
         "meta": "Jugendabenteuer · Band VI · 1911",
         "title": "Rolf in der Wildnis",
-        "subtitle": "Band VI der Bernstein-Reihe",
+        "subtitle": "Ein epischer Wildnisroman über Freundschaft, Spurenlesen und Selbstständigkeit",
         "modal": {
-          "metadata": "509 Seiten · Veröffentlichung 2026",
-          "summary": "Rolf wächst an der Seite des Waldläufers Quonab und des Hundes Skookum in die Kunst des Spurenlesens, Jagens und selbstständigen Handelns hinein.",
-          "sample": "In der Wildnis zählt nicht der schnelle Eindruck, sondern was einer an Spuren, Wind und Verhalten wirklich zu lesen gelernt hat.",
-          "amazon": "https://www.amazon.de/s?k=Rolf+in+der+Wildnis+Ernest+Thompson+Seton"
+          "metadata": "509 Seiten · eBook 11,99 € · Taschenbuch 19,99 € · Hardcover 29,99 €",
+          "summary": "Rolf flieht vor seinem trunksüchtigen Onkel in die Wälder von Vermont. An der Seite Quonabs und des Hundes Skookum lernt er Spurenlesen, Kanubau und das Überleben in der Wildnis.",
+          "sample": "Was als Flucht beginnt, wird zu einer Schule der Aufmerksamkeit, Selbstständigkeit und Freundschaft — bis Rolf als Kundschafter in den Krieg von 1812 zieht.",
+          "amazon": "https://www.amazon.de/s?k=9783912883305"
         }
       },
       {

@@ -567,6 +567,25 @@ module.exports = {
                 de: "Acht Lebensbilder aus Setons Spätwerk — von der Slum-Katze bis zum Wolf von Winnipeg. Neu übersetzt und eingerichtet.",
                 en: "Eight animal portraits from Seton's later work — from the slum cat to the Winnipeg wolf. Newly translated and edited."
               }
+            },
+            {
+              cover: "cover-rolf-in-der-wildnis",
+              band: "VI",
+              isbn: "978-3-912883-30-5",
+              isbns: {
+                ebook: "978-3-912883-32-9",
+                paperback: "978-3-912883-30-5",
+                hardcover: "978-3-912883-31-2"
+              },
+              pages: 509,
+              pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "29,99" },
+              amazonUrl: "https://www.amazon.de/s?k=9783912883305",
+              originalTitle: "Rolf in the Woods, 1911",
+              title: { de: "Rolf in der Wildnis", en: "Rolf in the Woods" },
+              desc: {
+                de: "Ein epischer Wildnisroman über Freundschaft, Spurenlesen und Selbstständigkeit — neu übersetzt, illustriert und historisch eingeordnet.",
+                en: "An epic wilderness novel about friendship, tracking, and self-reliance — newly translated, illustrated, and historically contextualized."
+              }
             }
           ]
         },
