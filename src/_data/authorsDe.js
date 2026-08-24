@@ -55,7 +55,7 @@ module.exports = [
     "worksKicker": "Ausgewählte Werke",
     "worksTitle": "Bücher, die sehen lehren",
     "worksIntro": "Historische Texte, neu erschlossen. Ein Titel öffnet Einordnung, Leseprobe und den verfügbaren Amazon-Weg.",
-    "gridClass": "count-5",
+    "gridClass": "count-8",
     "books": [
       {
         "cover": {
@@ -121,10 +121,10 @@ module.exports = [
         "title": "Zwei kleine Wilde",
         "subtitle": "Die Abenteuer zweier Knaben, die als Indianer lebten und das Waldläuferhandwerk lernten",
         "modal": {
-          "metadata": "521 Seiten · eBook 11,99 € · Taschenbuch 19,00 € · Hardcover 29,00 €",
+          "metadata": "521 Seiten · eBook 11,99 € · Taschenbuch 19,99 € · Hardcover 29,99 €",
           "summary": "Yan und Sam machen aus Spiel und Streifzügen eine Schule der Beobachtung, Selbstständigkeit und Freundschaft — in einer umfangreich illustrierten Neuausgabe.",
           "sample": "Was als Spiel beginnt, wird zur Schule der Aufmerksamkeit: Spuren, Wetter und Gelände geben die Aufgaben vor.",
-          "amazon": "https://www.amazon.de/s?k=9783912883282"
+          "amazon": "https://www.amazon.de/dp/3912883289"
         }
       },
       {

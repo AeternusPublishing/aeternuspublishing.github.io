@@ -569,6 +569,26 @@ module.exports = {
               }
             },
             {
+              cover: "cover-zwei-kleine-wilde",
+              band: "V",
+              isbn: "978-3-912883-28-2",
+              isbns: {
+                ebook: "978-3-912883-29-9",
+                paperback: "978-3-912883-27-5",
+                hardcover: "978-3-912883-28-2"
+              },
+              pages: 521,
+              pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "29,99" },
+              asin: { hardcover: "3912883289" },
+              amazonUrl: "https://www.amazon.de/dp/3912883289",
+              originalTitle: "Two Little Savages, 1903",
+              title: { de: "Zwei kleine Wilde", en: "Two Little Savages" },
+              desc: {
+                de: "Setons großer Jugend- und Entwicklungsroman über Waldkunst, Aufmerksamkeit und Freundschaft — neu übersetzt, illustriert und historisch eingeordnet.",
+                en: "Seton's great coming-of-age novel about woodcraft, close attention, and friendship — newly translated, illustrated, and historically contextualized."
+              }
+            },
+            {
               cover: "cover-rolf-in-der-wildnis",
               band: "VI",
               isbn: "978-3-912883-30-5",
