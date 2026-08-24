@@ -93,7 +93,7 @@ module.exports = [
         "title": "Leben der Gejagten",
         "subtitle": "Wahrhaftige Berichte über das Tun fünf vierfüßiger und dreier gefiederter Geschöpfe",
         "modal": {
-          "metadata": "eBook 9,99 € · Taschenbuch 14,01 € · Hardcover 26,99 €",
+          "metadata": "239 Seiten · eBook 9,99 € · Taschenbuch 14,01 € · Hardcover 26,99 €",
           "summary": "Acht Tierleben zwischen Verfolgung, Anpassung und Überlebenskunst — beobachtet mit Setons naturkundlicher Genauigkeit und erzählerischer Spannung.",
           "sample": "Jede Spur erzählt von Entscheidungen unter Druck: fliehen, ausharren, täuschen oder den vertrauten Weg noch einmal wagen.",
           "amazon": "https://www.amazon.de/dp/3912883165"

@@ -242,17 +242,11 @@ module.exports = {
     },
     {
       author: "Ernest Thompson Seton",
-      // 2026-08-11: 'ext: "jpg"' zeigte auf book-hunted.jpg - ein Foto des
-      // englischen Originaleinbands von 1901. Das ist nicht der Einband der
-      // AETERNUS-Ausgabe und darf nicht als solcher erscheinen. Bis das
-      // AETERNUS-Cover final ist, steht hier keines. Kanonischer Arbeitstitel
-      // ohne Artikel; der Band ist in Vorbereitung, nicht erschienen.
       title: { de: "Leben der Gejagten", en: "Lives of the Hunted" },
-      cover: null,
-      status: { de: "In Vorbereitung", en: "In preparation" },
+      cover: "cover-leben-der-gejagten",
       desc: {
-        de: "Lebensbilder verfolgter Tiere unter dem Gesetz von Hunger, Flucht und Überleben.",
-        en: "Life portraits of hunted animals under the law of hunger, flight, and survival."
+        de: "Acht Tierleben zwischen Verfolgung, Anpassung und Überlebenskunst — beobachtet mit Setons naturkundlicher Genauigkeit und erzählerischer Spannung.",
+        en: "Eight animal lives shaped by pursuit, adaptation, and survival — observed with Seton's naturalistic precision and narrative force."
       }
     },
     {
@@ -552,8 +546,26 @@ module.exports = {
               }
             },
             {
-              // Band IV der Seton-Edition; Band III (Leben der Gejagten) ist noch
-              // in Vorbereitung. Live ist derzeit die Kindle-Ausgabe (ISBN -23-7,
+              cover: "cover-leben-der-gejagten",
+              band: "III",
+              isbn: "978-3-912883-16-9",
+              isbns: {
+                ebook: "978-3-912883-18-3",
+                paperback: "978-3-912883-17-6",
+                hardcover: "978-3-912883-16-9"
+              },
+              pages: 239,
+              pricesEur: { ebook: "9,99", paperback: "14,01", hardcover: "26,99" },
+              amazonUrl: "https://www.amazon.de/dp/3912883165",
+              originalTitle: "Lives of the Hunted, 1901",
+              title: { de: "Leben der Gejagten", en: "Lives of the Hunted" },
+              desc: {
+                de: "Acht Tierleben zwischen Verfolgung, Anpassung und Überlebenskunst — beobachtet mit Setons naturkundlicher Genauigkeit und erzählerischer Spannung.",
+                en: "Eight animal lives shaped by pursuit, adaptation, and survival — observed with Seton's naturalistic precision and narrative force."
+              }
+            },
+            {
+              // Band IV der Seton-Edition. Live ist derzeit die Kindle-Ausgabe (ISBN -23-7,
               // ASIN B0HFDJS2L6); Hardcover (-22-0) und Taschenbuch (-21-3) sind
               // bei KDP eingereicht — amazonUrl auf die Druckausgabe umstellen,
               // sobald sie live ist (ISBN-10/ASIN des Hardcovers: 391288322X).
