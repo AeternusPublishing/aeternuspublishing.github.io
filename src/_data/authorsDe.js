@@ -87,7 +87,7 @@ module.exports = [
       },
       {
         "cover": {
-          "img": "cover-leben-der-gejagten"
+          "img": "cover-leben-der-gejagten-r3"
         },
         "meta": "Tiergeschichten · Band III",
         "title": "Leben der Gejagten",

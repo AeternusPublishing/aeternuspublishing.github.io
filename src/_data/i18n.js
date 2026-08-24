@@ -243,7 +243,7 @@ module.exports = {
     {
       author: "Ernest Thompson Seton",
       title: { de: "Leben der Gejagten", en: "Lives of the Hunted" },
-      cover: "cover-leben-der-gejagten",
+      cover: "cover-leben-der-gejagten-r3",
       desc: {
         de: "Acht Tierleben zwischen Verfolgung, Anpassung und Überlebenskunst — beobachtet mit Setons naturkundlicher Genauigkeit und erzählerischer Spannung.",
         en: "Eight animal lives shaped by pursuit, adaptation, and survival — observed with Seton's naturalistic precision and narrative force."
@@ -546,7 +546,7 @@ module.exports = {
               }
             },
             {
-              cover: "cover-leben-der-gejagten",
+              cover: "cover-leben-der-gejagten-r3",
               band: "III",
               isbn: "978-3-912883-16-9",
               isbns: {

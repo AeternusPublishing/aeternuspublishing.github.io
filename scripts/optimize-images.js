@@ -71,10 +71,10 @@ async function gen(srcName, outputs) {
   ]);
 
   // Band III und V — finale E-Book-Cover, auf 1024px Breite normiert.
-  await gen("cover-leben-der-gejagten.jpg", [
-    { name: "cover-leben-der-gejagten.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
-    { name: "cover-leben-der-gejagten.webp", resize: { width: 1024 }, webp: { quality: 80 } },
-    { name: "cover-leben-der-gejagten-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  await gen("cover-leben-der-gejagten-r3.jpg", [
+    { name: "cover-leben-der-gejagten-r3.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-leben-der-gejagten-r3.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-leben-der-gejagten-r3-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
   await gen("cover-zwei-kleine-wilde.jpg", [
     { name: "cover-zwei-kleine-wilde.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
