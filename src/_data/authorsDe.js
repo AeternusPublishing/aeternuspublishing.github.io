@@ -55,7 +55,7 @@ module.exports = [
     "worksKicker": "Ausgewählte Werke",
     "worksTitle": "Bücher, die sehen lehren",
     "worksIntro": "Historische Texte, neu erschlossen. Ein Titel öffnet Einordnung, Leseprobe und den verfügbaren Amazon-Weg.",
-    "gridClass": "count-8",
+    "gridClass": "count-9",
     "books": [
       {
         "cover": {
@@ -153,6 +153,20 @@ module.exports = [
           "summary": "Setons sechsmonatige Reise in den kanadischen Norden verbindet Feldtagebuch, Tierbeobachtung, Kartierung und Begegnungen entlang der Handelsrouten.",
           "sample": "Hinter den letzten Handelsposten öffnet sich ein Land, in dem Entfernung wieder in Wochen, Wetterwechseln und Flussbiegungen gemessen wird.",
           "amazon": "https://www.amazon.de/s?k=9783912883336"
+        }
+      },
+      {
+        "cover": {
+          "img": "cover-monarch"
+        },
+        "meta": "Tiererzählung · Band VIII · 1904",
+        "title": "Monarch",
+        "subtitle": "Der große Bär vom Tallac",
+        "modal": {
+          "metadata": "121 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,99 €",
+          "summary": "Vom verwaisten Bärenjungen zum Herrscher am Mount Tallac: Seton erzählt ein Tierleben zwischen Wildnis, Legende und Gefangenschaft.",
+          "sample": "Der Bär wächst in die Wildnis hinein und wird zum Monarchen der Weiden — bis ein Preisgeld die Jagd auf ihn eröffnet.",
+          "amazon": "https://www.amazon.de/s?k=9783912883367"
         }
       },
       {

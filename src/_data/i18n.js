@@ -637,6 +637,25 @@ module.exports = {
                 de: "Setons große Kanureise durch den kanadischen Norden auf der Suche nach dem Karibu — Expeditionsbericht, Naturbeobachtung und Abenteuer in einem Band.",
                 en: "Seton's great canoe journey through northern Canada in search of the caribou — expedition narrative, natural history, and adventure in one volume."
               }
+            },
+            {
+              cover: "cover-monarch",
+              band: "VIII",
+              isbn: "978-3-912883-37-4",
+              isbns: {
+                ebook: "978-3-912883-38-1",
+                paperback: "978-3-912883-36-7",
+                hardcover: "978-3-912883-37-4"
+              },
+              pages: 121,
+              pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "24,99" },
+              amazonUrl: "https://www.amazon.de/s?k=9783912883367",
+              originalTitle: "Monarch, the Big Bear of Tallac, 1904",
+              title: { de: "Monarch", en: "Monarch" },
+              desc: {
+                de: "Vom verwaisten Bärenjungen zum Herrscher am Mount Tallac: Seton erzählt ein Tierleben zwischen Wildnis, Legende und Gefangenschaft.",
+                en: "From orphaned cub to ruler of Mount Tallac: Seton tells an animal life shaped by wilderness, legend, and captivity."
+              }
             }
           ]
         },
