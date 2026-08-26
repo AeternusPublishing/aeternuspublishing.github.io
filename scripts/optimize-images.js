@@ -99,6 +99,13 @@ async function gen(srcName, outputs) {
     { name: "cover-ford-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
 
+  // Lady Florentia Sale, Tagebuch der Katastrophe — finales E-Book-Cover.
+  await gen("cover-sale.jpg", [
+    { name: "cover-sale.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-sale.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-sale-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+
   // Hintergrundgrafik der Editionsseite — dekorativ, daher kleiner und staerker komprimiert.
   await gen("edition-book.png", [
     { name: "edition-book.avif", resize: { width: 900 }, avif: { quality: 50, effort: 4 } },

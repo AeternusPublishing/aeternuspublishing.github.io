@@ -727,8 +727,8 @@ module.exports = {
   "authors.eyebrow": { de: "✦ AUTOREN IM PROGRAMM", en: "✦ AUTHORS IN THE PROGRAMME" },
   "authors.title": { de: "Ausgewählte Autoren", en: "Selected authors" },
   "authors.intro": {
-    de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein, Robert Montgomery Bird eröffnet Anthrazit, Henry Fords Mein Leben und Werk die Reihe Blau — während mit Lady Florentia Sale und Robert Baden-Powell die nächsten Bände der Reihen Grün und Bernstein entstehen.",
-    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, and Henry Ford's Mein Leben und Werk opens the Blue series — while the next Green and Amber volumes are taking shape with Lady Florentia Sale and Robert Baden-Powell."
+    de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein, Robert Montgomery Bird eröffnet Anthrazit, Henry Fords Mein Leben und Werk die Reihe Blau — und Lady Florentia Sales Tagebuch der Katastrophe ist für die Reihe Grün bei Amazon eingereicht.",
+    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, Henry Ford's Mein Leben und Werk opens the Blue series — and Lady Florentia Sale's Tagebuch der Katastrophe has been submitted to Amazon for the Green series."
   },
   "authors.viewTitles": { de: "Titel ansehen", en: "View titles" },
   "authors.viewProfile": { de: "Zur Autorenseite", en: "Open author page" },

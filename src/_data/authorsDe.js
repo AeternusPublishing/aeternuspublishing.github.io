@@ -365,7 +365,7 @@ module.exports = [
     "monogram": "FS",
     "dates": "1790–1853",
     "seriesClass": "series-green",
-    "preview": true,
+    "preview": false,
     "nameClass": "bird-name",
     "portrait": {
       "file": "portrait-sale",
@@ -380,7 +380,7 @@ module.exports = [
     "eyebrow": "Grün · Militär, Expeditionen, Grenzräume",
     "tagline": "Ein Tagebuch aus dem Zusammenbruch.",
     "intro": "Sie schrieb mitten in der Katastrophe weiter: Tag für Tag hält Florentia Sale fest, wie eine britische Armee in Afghanistan zerfällt — nüchtern, genau und ohne den Schutz der späteren Erklärung.",
-    "metaDescription": "Lady Florentia Sale: Leben, Tagebuch und die in Vorbereitung befindliche deutsche Ausgabe ihres Afghanistan-Journals in der Gruenen Linie des Aeternus Verlags.",
+    "metaDescription": "Lady Florentia Sale: Leben, Tagebuch und die bei Amazon eingereichte deutsche Ausgabe Tagebuch der Katastrophe in der Grünen Linie des Aeternus Verlags.",
     "ogDescription": "Ein Tagebuch aus dem Zusammenbruch. Leben und Werk von Lady Florentia Sale.",
     "bioKicker": "Biografie",
     "bioTitle": "Die Zeugin<br>des Untergangs",
@@ -418,32 +418,31 @@ module.exports = [
         "John Murray, London 1843"
       ],
       [
-        "Quellsprache",
-        "Englisch"
+        "Formate",
+        "Paperback · Kindle eBook"
       ],
       [
         "Status",
-        "In Vorbereitung"
+        "Bei Amazon eingereicht"
       ]
     ],
-    "worksKicker": "In Vorbereitung",
-    "worksTitle": "Der Winter von Kabul",
+    "worksKicker": "Bei Amazon eingereicht",
+    "worksTitle": "Tagebuch der Katastrophe",
     "worksIntro": "Ein datiertes Augenzeugentagebuch aus dem Ersten Anglo-Afghanischen Krieg, mit den Anhängen und Dokumenten der Erstausgabe — quellennah übersetzt und historisch eingeordnet.",
     "gridClass": "single-item",
     "books": [
       {
         "cover": {
-          "gen": "sale",
-          "title": "Tagebuch der<br>Katastrophe in<br>Afghanistan"
+          "img": "cover-sale"
         },
-        "meta": "Tagebuch · Kabul · 1843",
-        "title": "Tagebuch der Katastrophe in Afghanistan 1841–1842",
-        "subtitle": "Arbeitstitel der deutschen Ausgabe",
+        "meta": "Tagebuch · Paperback 19,99 € · Kindle 11,99 €",
+        "title": "Tagebuch der Katastrophe",
+        "subtitle": "Afghanistan 1841–1842",
         "modal": {
-          "metadata": "Aeternus Verlag · Grüne Linie · in Vorbereitung",
+          "metadata": "Aeternus Verlag · Grüne Linie · Paperback 19,99 € · Kindle 11,99 €",
           "summary": "Kabul, Winter 1841: Eine britische Besatzungsarmee verliert die Kontrolle, verhandelt, zieht ab und wird auf dem Marsch durch die Pässe vernichtet. Florentia Sale schreibt das alles mit, während es geschieht — Datum für Datum, bis in die Gefangenschaft hinein.",
           "sample": "Die deutsche Ausgabe folgt der Erstausgabe London 1843 einschließlich Einleitung, Anmerkungen, Addenda und Anhang. Die Tagebuchstimme wird bewahrt; sie in eine distanzierte Chronistensprache zu überführen wäre Substanzverlust.",
-          "amazon": "/"
+          "amazon": "https://www.amazon.de/s?k=9783912883428"
         }
       }
     ]
