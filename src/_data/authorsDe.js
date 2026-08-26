@@ -277,7 +277,7 @@ module.exports = [
     "monogram": "HF",
     "dates": "1863–1947",
     "seriesClass": "series-blue",
-    "preview": true,
+    "preview": false,
     "nameClass": "bird-name",
     "portrait": {
       "file": "portrait-ford",
@@ -292,7 +292,7 @@ module.exports = [
     "eyebrow": "Blau · Wirtschaft, Industrie und die Titanen des Fortschritts",
     "tagline": "Die Fabrik als Argument.",
     "intro": "Mechaniker, Fabrikant, Weltveränderer und Streitfall: Ford beschrieb in eigenen Büchern, wie Arbeit, Maschine und Lohn ineinandergreifen sollten — knapp, unbeirrbar und in einer Sprache, die keine Umschweife kennt.",
-    "metaDescription": "Henry Ford: Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von Mein Leben und Werk in der Blauen Linie des Aeternus Verlags.",
+    "metaDescription": "Henry Ford: Leben, Werk und die neue deutsche Ausgabe von Mein Leben und Werk in der Blauen Reihe des Aeternus Verlags — als Paperback und Kindle-eBook bei Amazon eingereicht.",
     "ogDescription": "Die Fabrik als Argument. Leben und Werk von Henry Ford.",
     "bioKicker": "Biografie",
     "bioTitle": "Ein Handwerker,<br>der die Arbeit<br>neu ordnete",
@@ -330,15 +330,15 @@ module.exports = [
         "New York, 1922"
       ],
       [
-        "Quellsprache",
-        "Englisch"
+        "Ausgaben",
+        "Paperback · Kindle-eBook"
       ],
       [
         "Status",
-        "In Vorbereitung"
+        "Bei Amazon eingereicht"
       ]
     ],
-    "worksKicker": "In Vorbereitung",
+    "worksKicker": "Neu bei Aeternus",
     "worksTitle": "Das Werk hinter dem Werk",
     "worksIntro": "Ein industrielles Selbstzeugnis, das zugleich Autobiografie, Fertigungslehre und wirtschaftspolitische Streitschrift ist — quellennah übersetzt und historisch eingeordnet.",
     "gridClass": "single-item",
@@ -349,12 +349,12 @@ module.exports = [
         },
         "meta": "Industrielle Autobiografie · 1922",
         "title": "Mein Leben und Werk",
-        "subtitle": "Arbeitstitel · in Zusammenarbeit mit Samuel Crowther",
+        "subtitle": "Die Autobiographie",
         "modal": {
-          "metadata": "Aeternus Verlag · Blaue Linie · in Vorbereitung",
+          "metadata": "Aeternus Verlag · BLAUE REIHE · Paperback 15,99 € · Kindle 11,99 €",
           "summary": "Ford erzählt seinen Weg von der Werkstatt zum Weltkonzern und legt dabei ein vollständiges System offen: wie ein Produkt entsteht, was Arbeit kosten darf und warum ein niedriger Preis für ihn kein Zugeständnis, sondern eine Rechnung ist.",
           "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1922. Zahlen, Preise, Löhne und Maße bleiben unverändert stehen; Umrechnungen und historische Einordnung gehören in den verlegerischen Apparat, nicht in den Werktext.",
-          "amazon": "/"
+          "amazon": "https://www.amazon.de/s?k=Mein+Leben+und+Werk+Henry+Ford+AETERNUS"
         }
       }
     ]

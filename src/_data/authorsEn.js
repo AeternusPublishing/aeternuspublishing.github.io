@@ -87,14 +87,14 @@ module.exports = [
     monogram: "HF",
     dates: "1863&ndash;1947",
     seriesClass: "series-blue",
-    preview: true,
+    preview: false,
     nameClass: "bird-name",
     portrait: { file: "portrait-ford", alt: "Henry Ford at his desk, photographic portrait", modern: true },
     schema: { birthDate: "1863-07-30", deathDate: "1947-04-07", description: "American industrialist, founder of the Ford Motor Company, and author of industrial self-accounts." },
     eyebrow: "Blue &middot; Economy, industry, and the titans of progress",
     tagline: "The factory as an argument.",
     intro: "Mechanic, manufacturer, world-changer, and point of contention: in his own books Ford set out how work, machine, and wage should interlock &mdash; terse, unwavering, and in a language that wastes no words.",
-    metaDescription: "Henry Ford: life, work, and the forthcoming Aeternus Verlag edition of My Life and Work in the Blue series.",
+    metaDescription: "Henry Ford: life, work, and the new German Aeternus Verlag edition of My Life and Work in the Blue series — submitted to Amazon as paperback and Kindle eBook.",
     bioKicker: "Author &amp; context",
     bioTitle: "A mechanic who<br>reordered work",
     bioLede: "Between workbench and world market: the story of a man whose ideas shaped the working life of the twentieth century &mdash; for better and for worse.",
@@ -103,14 +103,14 @@ module.exports = [
       { h: "Method", p: ["Ford's prose does not narrate; it argues. He reasons with unit counts, wages, prices, and hand movements, and the figures are the argument rather than its decoration.", "His sentences are strikingly short and aphoristic &mdash; a manner of writing that mirrors his own doctrine of efficiency."] },
       { h: "Influence", p: ["Ford's manufacturing idea was copied worldwide and still bears his name.", "Aeternus presents the source text unaltered; any contextualization is kept visibly separate, in the publisher's apparatus."] }
     ],
-    facts: [["Series", "Blue line &middot; Pillar IV"], ["First edition", "New York, 1922"], ["Source language", "English"], ["Status", "In preparation"]],
-    worksKicker: "In preparation",
+    facts: [["Series", "Blue line &middot; Pillar IV"], ["First edition", "New York, 1922"], ["Formats", "Paperback &middot; Kindle eBook"], ["Status", "Submitted to Amazon"]],
+    worksKicker: "New from Aeternus",
     worksTitle: "The work behind the works",
     worksIntro: "An industrial self-account that is at once autobiography, manufacturing doctrine, and economic polemic &mdash; translated close to the source and historically contextualized.",
     gridClass: "single-item",
     books: [
-      { cover: { img: "cover-ford" }, meta: "Industrial autobiography &middot; 1922", title: "My Life and Work", subtitle: "In collaboration with Samuel Crowther",
-        modal: { metadata: "Aeternus Verlag · Blue line · in preparation", summary: "Ford recounts his path from the workshop to a global corporation and lays bare a complete system: how a product comes into being, what labour may cost, and why a low price is to him not a concession but a calculation.", sample: "The German edition follows the wording of the 1922 first edition. Figures, prices, wages, and measures stand unchanged; conversions and historical context belong in the publisher's apparatus, not in the work text." } }
+      { cover: { img: "cover-ford" }, meta: "Industrial autobiography &middot; 1922", title: "Mein Leben und Werk", subtitle: "Die Autobiographie",
+        modal: { metadata: "Aeternus Verlag · Blue series · Paperback €15.99 · Kindle €11.99", summary: "Ford recounts his path from the workshop to a global corporation and lays bare a complete system: how a product comes into being, what labour may cost, and why a low price is to him not a concession but a calculation.", sample: "The German edition follows the wording of the 1922 first edition. Figures, prices, wages, and measures stand unchanged; conversions and historical context belong in the publisher's apparatus, not in the work text.", amazon: "https://www.amazon.de/s?k=Mein+Leben+und+Werk+Henry+Ford+AETERNUS" } }
     ]
   },
   {
