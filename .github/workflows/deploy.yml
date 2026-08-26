@@ -3,6 +3,13 @@ name: Deploy Eleventy to GitHub Pages
 on:
   push:
     branches: [ "main" ]
+  # Am 2026-08-26 gemessen: der Merge von PR #29 (Commit 309ab43) loeste
+  # KEINEN Deploy aus - fuer diesen Commit existiert kein Workflow-Lauf, der
+  # letzte lief um 05:45 UTC gegen db21509. Pushes, die ein Bot mit dem
+  # GITHUB_TOKEN erzeugt, starten keine Workflows. Ohne Handausloeser bleibt
+  # eine gemergte Seite dann unsichtbar - hier /qr/sale/, das Ziel eines
+  # bereits GEDRUCKTEN QR-Codes. Ein toter QR im Buch ist nicht reparierbar.
+  workflow_dispatch:
 
 permissions:
   contents: read
