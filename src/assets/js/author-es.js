@@ -2,12 +2,15 @@
   const books=window.AETERNUS_BOOKS||[];
   const modal=document.getElementById('book-modal');
   if(!modal)return;
-  const fields={title:document.getElementById('modal-title'),subtitle:document.getElementById('modal-subtitle'),metadata:document.getElementById('modal-metadata'),summary:document.getElementById('modal-summary'),sample:document.getElementById('modal-sample'),amazon:document.getElementById('modal-amazon'),monogram:document.getElementById('modal-monogram')};
+  const fields={title:document.getElementById('modal-title'),subtitle:document.getElementById('modal-subtitle'),metadata:document.getElementById('modal-metadata'),summary:document.getElementById('modal-summary'),sample:document.getElementById('modal-sample'),amazon:document.getElementById('modal-amazon'),monogram:document.getElementById('modal-monogram'),content:modal.querySelector('.modal-content'),visual:modal.querySelector('.modal-visual')};
   let lastTrigger=null;
   function openBook(index,trigger){
     const book=books[index];if(!book)return;
     lastTrigger=trigger;
     fields.title.textContent=book.title;fields.subtitle.textContent=book.subtitle;fields.metadata.textContent=book.metadata;fields.summary.textContent=book.summary;fields.sample.textContent=book.sample;fields.amazon.href=book.amazon;fields.monogram.textContent=String(index+1).padStart(2,'0');
+    const oldCover=fields.visual.querySelector('.modal-cover');if(oldCover)oldCover.remove();
+    const sourceCover=trigger.querySelector('.cover-shell');if(sourceCover){const modalCover=sourceCover.cloneNode(true);modalCover.className='modal-cover';modalCover.querySelectorAll('[id]').forEach(node=>node.removeAttribute('id'));fields.visual.insertBefore(modalCover,fields.monogram)}
+    fields.content.scrollTop=0;
     modal.classList.add('is-open');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');modal.querySelector('.modal-close').focus();
   }
   function closeBook(){modal.classList.remove('is-open');modal.setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');if(lastTrigger)lastTrigger.focus()}
