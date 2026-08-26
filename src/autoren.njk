@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: false
   <meta property="og:type" content="profile"><meta property="og:locale" content="de_DE"><meta property="og:site_name" content="Aeternus Verlag"><meta property="og:title" content="{{ a.name }} | Aeternus Verlag"><meta property="og:description" content="{{ a.ogDescription }}"><meta property="og:url" content="https://aeternus-verlag.de/autoren/{{ a.slug }}/"><meta property="og:image" content="https://aeternus-verlag.de/assets/images/{{ a.portrait.file }}{% if a.portrait.modern %}.jpg{% endif %}">
   <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ a.name }} | Aeternus Verlag"><meta name="twitter:description" content="{{ a.ogDescription }}"><meta name="twitter:image" content="https://aeternus-verlag.de/assets/images/{{ a.portrait.file }}{% if a.portrait.modern %}.jpg{% endif %}">
   <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/fonts.css"><link rel="stylesheet" href="/assets/css/author-es.css"><link rel="stylesheet" href="/assets/css/author-preview.css">
+  <link rel="stylesheet" href="/assets/css/fonts.css"><link rel="stylesheet" href="/assets/css/author-es.css?v=20260826-1"><link rel="stylesheet" href="/assets/css/author-preview.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","name":"{{ a.name }}","url":"https://aeternus-verlag.de/autoren/{{ a.slug }}/","inLanguage":"de","mainEntity":{"@type":"Person","name":"{{ a.name }}","birthDate":"{{ a.schema.birthDate }}","deathDate":"{{ a.schema.deathDate }}","description":"{{ a.schema.description }}"},"publisher":{"@type":"Organization","name":"Aeternus Verlag","url":"https://aeternus-verlag.de/"}}</script>
 </head>
 <body class="{{ a.seriesClass }}{% if a.preview %} is-preview{% endif %}">
@@ -60,6 +60,6 @@ eleventyExcludeFromCollections: false
   {%- for bk in a.books %}
     {title:{{ bk.title | striptags | dump | safe }},subtitle:{{ bk.subtitle | striptags | dump | safe }},metadata:{{ bk.modal.metadata | dump | safe }},summary:{{ bk.modal.summary | dump | safe }},sample:{{ bk.modal.sample | dump | safe }},amazon:{{ bk.modal.amazon | default("/") | dump | safe }}}{% if not loop.last %},{% endif %}
   {%- endfor %}
-  ];</script><script src="/assets/js/author-es.js"></script>
+  ];</script><script src="/assets/js/author-es.js?v=20260826-1"></script>
   {%- if a.preview %}<script>(function(){var x=document.getElementById("modal-amazon");if(x&&x.parentNode)x.parentNode.removeChild(x)})();</script>{% endif %}
 </body></html>
