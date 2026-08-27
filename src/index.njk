@@ -64,11 +64,14 @@ hreflang: true
   <style>
     #aktuelle-ausgaben .edition-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 32px; }
     #aktuelle-ausgaben .edition-card { display: flex; gap: 20px; border: 1px solid rgba(212, 175, 55, 0.12); background-color: #181512; padding: 24px; box-shadow: 0 12px 35px rgba(0,0,0,0.35); min-width: 0; }
-    #aktuelle-ausgaben .edition-cover { width: clamp(112px, 24%, 148px); height: auto; aspect-ratio: 2 / 3; object-fit: cover; flex: 0 0 auto; align-self: flex-start; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
+    #aktuelle-ausgaben .edition-cover-link { display: block; width: clamp(112px, 24%, 148px); flex: 0 0 auto; align-self: flex-start; }
+    #aktuelle-ausgaben .edition-cover { display: block; width: 100%; height: auto; aspect-ratio: 2 / 3; object-fit: cover; box-shadow: 0 8px 24px rgba(0,0,0,0.45); }
     #aktuelle-ausgaben .edition-card h3 { overflow-wrap: break-word; }
+    #aktuelle-ausgaben .edition-title-link { color: inherit; text-decoration: none; transition: color .2s ease; }
+    #aktuelle-ausgaben .edition-title-link:hover, #aktuelle-ausgaben .edition-title-link:focus-visible { color: var(--gold); }
     @media (max-width: 560px) {
       #aktuelle-ausgaben .edition-card { flex-direction: column; }
-      #aktuelle-ausgaben .edition-cover { width: 120px; }
+      #aktuelle-ausgaben .edition-cover-link { width: 120px; }
     }
   </style>
 
@@ -84,14 +87,16 @@ hreflang: true
         {% for author in series.authors %}
           {% for book in author.books %}
             <div class="edition-card">
-              <picture style="display:contents">
-                <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
-                <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
-                <img class="edition-cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
-              </picture>
+              <a class="edition-cover-link" href="{{ author.landingUrl[lang] }}" aria-label="{{ book.title[lang] }} – {{ author.name }}">
+                <picture style="display:contents">
+                  <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
+                  <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
+                  <img class="edition-cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
+                </picture>
+              </a>
               <div style="min-width: 0;">
                 <div style="font-size: 0.75rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase; margin-bottom: 10px;">{{ author.name }} · {{ series.colorName[lang] }}</div>
-                <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 12px; line-height: 1.35;">{{ book.title[lang] }}</h3>
+                <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 12px; line-height: 1.35;"><a class="edition-title-link" href="{{ author.landingUrl[lang] }}">{{ book.title[lang] }}</a></h3>
                 <p style="color: rgba(243, 231, 207, 0.7); font-size: 14.5px; line-height: 1.6; margin-bottom: 16px;">{{ book.desc[lang] }}</p>
                 <div style="font-size: 12px; color: rgba(243, 231, 207, 0.4); margin-bottom: 16px;">ISBN {{ book.isbn }}</div>
                 <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="btn-ghost" style="font-size: 11px; padding: 12px 22px;">{{ i18n["seton.button"][lang] }}</a>
@@ -166,24 +171,6 @@ hreflang: true
   </div>
 </section>
 
-<!--EDITION: gekürzte Fassung — volle Fassung lebt auf /edition/-->
-<section id="edition" class="block imprint">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
-  <div class="wrap imprint-grid">
-    <div>
-      <div class="eyebrow-mini">{{ i18n["translation.eyebrow"][lang] }}</div>
-      <h2 class="title-xl"><span class="gold-grad">{{ i18n["translation.title"][lang] }}</span></h2>
-    </div>
-    <div>
-      <p>{{ i18n["translation.text1"][lang] }}</p>
-      <p class="sig">— {{ i18n["translation.promise"][lang] }}</p>
-      <div class="header-actions">
-        <a href="{% if lang == 'de' %}/edition/{% else %}/en/edition/{% endif %}" class="btn-ghost">{{ i18n["edition.more"][lang] }}</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!--AUTOREN IM PROGRAMM: datengetrieben aus seriesItems[].authors[] — verweist auf /reihen/#slug (volles Profil je Reihe)
     und auf #aktuelle-ausgaben (Titel direkt auf dieser Seite). Wächst automatisch mit jedem neuen Autor. -->
 <section id="autoren" class="block" style="background-color: #161311; position: relative; border-top: 1px solid rgba(212, 175, 55, 0.15);">
@@ -230,6 +217,24 @@ hreflang: true
       <a href="mailto:kontakt@aeternus-verlag.de" class="btn-press">{{ i18n["press.button"][lang] }} <span style="margin-left: 6px;">→</span></a>
       <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}" style="font-family: var(--font-serif); font-size: 1rem; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.4); text-decoration: none; padding-bottom: 2px;">{{ i18n["press.more"][lang] }} →</a>
       <a href="#aktuelle-ausgaben" style="font-family: var(--font-serif); font-size: 1rem; color: var(--gold); border-bottom: 1px solid rgba(212, 175, 55, 0.4); text-decoration: none; padding-bottom: 2px;">{{ i18n["nav.readingroom"][lang] }} →</a>
+    </div>
+  </div>
+</section>
+
+<!--EDITION: gekürzte Fassung — volle Fassung lebt auf /edition/; bewusst letzter Startseitenblock.-->
+<section id="edition" class="block imprint">
+  <div class="paper-grain" style="position:absolute;inset:0;opacity:.3;pointer-events:none;"></div>
+  <div class="wrap imprint-grid">
+    <div>
+      <div class="eyebrow-mini">{{ i18n["translation.eyebrow"][lang] }}</div>
+      <h2 class="title-xl"><span class="gold-grad">{{ i18n["translation.title"][lang] }}</span></h2>
+    </div>
+    <div>
+      <p>{{ i18n["translation.text1"][lang] }}</p>
+      <p class="sig">— {{ i18n["translation.promise"][lang] }}</p>
+      <div class="header-actions">
+        <a href="{% if lang == 'de' %}/edition/{% else %}/en/edition/{% endif %}" class="btn-ghost">{{ i18n["edition.more"][lang] }}</a>
+      </div>
     </div>
   </div>
 </section>

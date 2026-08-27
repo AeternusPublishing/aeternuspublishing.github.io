@@ -24,6 +24,7 @@ button,a{-webkit-tap-highlight-color:transparent}
 .portrait-frame{position:relative;width:min(78%,34rem);aspect-ratio:.72;padding:.45rem;border:1px solid var(--line);background:rgba(233,223,196,.88);box-shadow:0 2.2rem 5rem rgba(0,0,0,.48);transform:translateX(7%);animation:portrait-in .9s cubic-bezier(.16,1,.3,1) both}
 .portrait-frame::before{content:'';position:absolute;inset:-.85rem .9rem .8rem -.85rem;z-index:-1;border:1px solid var(--line)}
 .portrait-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 38%;filter:grayscale(1) contrast(1.05)}
+.portrait-frame img[src="/assets/images/portrait-sale.jpg"]{filter:none!important}
 .portrait-caption{position:absolute;left:-.2rem;bottom:-3.35rem;display:flex;align-items:center;gap:.75rem;color:var(--accent-2);font:400 1.1rem var(--display);letter-spacing:.06em}
 .portrait-caption::after{content:'';width:4rem;height:1px;background:rgba(233,223,196,.34)}
 .portrait-caption small{color:#817a6d;font:700 .58rem var(--sans);letter-spacing:.13em;text-transform:uppercase}
