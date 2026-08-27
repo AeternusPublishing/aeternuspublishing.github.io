@@ -380,7 +380,7 @@ module.exports = [
     "eyebrow": "Grün · Militär, Expeditionen, Grenzräume",
     "tagline": "Ein Tagebuch aus dem Zusammenbruch.",
     "intro": "Sie schrieb mitten in der Katastrophe weiter: Tag für Tag hält Florentia Sale fest, wie eine britische Armee in Afghanistan zerfällt — nüchtern, genau und ohne den Schutz der späteren Erklärung.",
-    "metaDescription": "Lady Florentia Sale: Leben, Tagebuch und die bei Amazon eingereichte deutsche Ausgabe Tagebuch der Katastrophe in der Grünen Linie des Aeternus Verlags.",
+    "metaDescription": "Lady Florentia Sale: Leben, Tagebuch und die bei Amazon lieferbare deutsche Ausgabe Tagebuch der Katastrophe in der Grünen Linie des Aeternus Verlags.",
     "ogDescription": "Ein Tagebuch aus dem Zusammenbruch. Leben und Werk von Lady Florentia Sale.",
     "bioKicker": "Biografie",
     "bioTitle": "Die Zeugin<br>des Untergangs",
@@ -423,10 +423,10 @@ module.exports = [
       ],
       [
         "Status",
-        "Bei Amazon eingereicht"
+        "Bei Amazon lieferbar"
       ]
     ],
-    "worksKicker": "Bei Amazon eingereicht",
+    "worksKicker": "Bei Amazon lieferbar",
     "worksTitle": "Tagebuch der Katastrophe",
     "worksIntro": "Ein datiertes Augenzeugentagebuch aus dem Ersten Anglo-Afghanischen Krieg, mit den Anhängen und Dokumenten der Erstausgabe — quellennah übersetzt und historisch eingeordnet.",
     "gridClass": "single-item",
@@ -442,7 +442,7 @@ module.exports = [
           "metadata": "Aeternus Verlag · Grüne Linie · Paperback 19,99 € · Kindle 11,99 €",
           "summary": "Kabul, Winter 1841: Eine britische Besatzungsarmee verliert die Kontrolle, verhandelt, zieht ab und wird auf dem Marsch durch die Pässe vernichtet. Florentia Sale schreibt das alles mit, während es geschieht — Datum für Datum, bis in die Gefangenschaft hinein.",
           "sample": "Die deutsche Ausgabe folgt der Erstausgabe London 1843 einschließlich Einleitung, Anmerkungen, Addenda und Anhang. Die Tagebuchstimme wird bewahrt; sie in eine distanzierte Chronistensprache zu überführen wäre Substanzverlust.",
-          "amazon": "https://www.amazon.de/s?k=9783912883428"
+          "amazon": "https://www.amazon.de/dp/3912883424"
         }
       }
     ]

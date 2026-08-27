@@ -383,9 +383,7 @@ module.exports = {
           source: "Wikimedia Commons"
         }
       },
-      // Eröffnungsautorin der grünen Linie. Noch kein Band erschienen — books bleibt leer,
-      // damit die Autorin auf /reihen/ und unter "Autoren im Programm" erscheint, aber
-      // NICHT unter "Aktuelle Ausgaben".
+      // Eröffnungsautorin und erste lieferbare Ausgabe der grünen Linie.
       authors: [
         {
           name: "Lady Florentia Sale",
@@ -395,7 +393,18 @@ module.exports = {
             de: "Lady Florentia Sale schrieb mitten im Zusammenbruch des britischen Feldzugs in Afghanistan weiter — Tag für Tag, ohne zu wissen, wie er ausgeht. Ihr Tagebuch eröffnet die Reihe Grün.",
             en: "Lady Florentia Sale kept writing through the collapse of the British campaign in Afghanistan — day by day, without knowing how it would end. Her journal opens the Green series."
           },
-          books: []
+          books: [
+            {
+              cover: "cover-sale",
+              title: { de: "Tagebuch der Katastrophe", en: "Tagebuch der Katastrophe" },
+              desc: {
+                de: "Florentia Sales Augenzeugentagebuch aus dem Rückzug von Kabul, nach der Londoner Erstausgabe von 1843.",
+                en: "Florentia Sale's eyewitness diary of the retreat from Kabul, based on the London first edition of 1843."
+              },
+              isbn: "978-3-912883-42-8",
+              amazonUrl: "https://www.amazon.de/dp/3912883424"
+            }
+          ]
         }
       ]
     },
@@ -727,8 +736,8 @@ module.exports = {
   "authors.eyebrow": { de: "✦ AUTOREN IM PROGRAMM", en: "✦ AUTHORS IN THE PROGRAMME" },
   "authors.title": { de: "Ausgewählte Autoren", en: "Selected authors" },
   "authors.intro": {
-    de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein, Robert Montgomery Bird eröffnet Anthrazit, Henry Fords Mein Leben und Werk die Reihe Blau — und Lady Florentia Sales Tagebuch der Katastrophe ist für die Reihe Grün bei Amazon eingereicht.",
-    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, Henry Ford's Mein Leben und Werk opens the Blue series — and Lady Florentia Sale's Tagebuch der Katastrophe has been submitted to Amazon for the Green series."
+    de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein, Robert Montgomery Bird eröffnet Anthrazit, Henry Fords Mein Leben und Werk die Reihe Blau — und Lady Florentia Sales Tagebuch der Katastrophe ist für die Reihe Grün bei Amazon lieferbar.",
+    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, Henry Ford's Mein Leben und Werk opens the Blue series — and Lady Florentia Sale's Tagebuch der Katastrophe is available from Amazon for the Green series."
   },
   "authors.viewTitles": { de: "Titel ansehen", en: "View titles" },
   "authors.viewProfile": { de: "Zur Autorenseite", en: "Open author page" },

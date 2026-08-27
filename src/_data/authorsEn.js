@@ -126,7 +126,7 @@ module.exports = [
     eyebrow: "Green &middot; Military, expeditions, frontier regions",
     tagline: "A diary written inside the collapse.",
     intro: "She kept writing in the middle of the catastrophe: day after day Florentia Sale records how a British army in Afghanistan falls apart &mdash; soberly, precisely, and without the shelter of later explanation.",
-    metaDescription: "Lady Florentia Sale: life, journal, and the Aeternus Verlag edition Tagebuch der Katastrophe, submitted to Amazon in the Green series.",
+    metaDescription: "Lady Florentia Sale: life, journal, and the Aeternus Verlag edition Tagebuch der Katastrophe, available from Amazon in the Green series.",
     bioKicker: "Author &amp; context",
     bioTitle: "The witness<br>of the collapse",
     bioLede: "A woman at the headquarters of a failing campaign &mdash; and the only voice that wrote it down day by day, without knowing how it would end.",
@@ -135,14 +135,14 @@ module.exports = [
       { h: "The voice", p: ["Her text is a true diary, not a retrospective report: first person, often in the present tense of the writing, with dates, marching figures, and names.", "She judges her own command sharply and describes cold, hunger, and violence without heroic inflation. Preserving that voice is the central editorial task of the edition."] },
       { h: "Afterlife", p: ["The journal appeared in 1843 from John Murray in London and made her known overnight; the press called her the <i>Grenadier in Petticoats</i>.", "Her diary still counts among the most important eyewitness sources for the First Anglo-Afghan War."] }
     ],
-    facts: [["Series", "Green line &middot; Pillar II"], ["First edition", "John Murray, London 1843"], ["Formats", "Paperback &middot; Kindle eBook"], ["Status", "Submitted to Amazon"]],
-    worksKicker: "Submitted to Amazon",
+    facts: [["Series", "Green line &middot; Pillar II"], ["First edition", "John Murray, London 1843"], ["Formats", "Paperback &middot; Kindle eBook"], ["Status", "Available from Amazon"]],
+    worksKicker: "Available from Amazon",
     worksTitle: "Tagebuch der Katastrophe",
     worksIntro: "A dated eyewitness diary from the First Anglo-Afghan War, with the appendices and documents of the first edition &mdash; translated close to the source and historically contextualized.",
     gridClass: "single-item",
     books: [
       { cover: { img: "cover-sale" }, meta: "Journal &middot; Paperback €19.99 &middot; Kindle €11.99", title: "Tagebuch der Katastrophe", subtitle: "Afghanistan 1841&ndash;1842",
-        modal: { metadata: "Aeternus Verlag · Green line · Paperback €19.99 · Kindle €11.99", summary: "Kabul, winter 1841: a British army of occupation loses control, negotiates, withdraws, and is destroyed on the march through the passes. Florentia Sale writes it all down as it happens — date by date, into captivity itself.", sample: "The German edition follows the London first edition of 1843, including the introduction, notes, addenda, and appendix. The diary voice is preserved; recasting it as detached chronicle prose would be a loss of substance.", amazon: "https://www.amazon.de/s?k=9783912883428" } }
+        modal: { metadata: "Aeternus Verlag · Green line · Paperback €19.99 · Kindle €11.99", summary: "Kabul, winter 1841: a British army of occupation loses control, negotiates, withdraws, and is destroyed on the march through the passes. Florentia Sale writes it all down as it happens — date by date, into captivity itself.", sample: "The German edition follows the London first edition of 1843, including the introduction, notes, addenda, and appendix. The diary voice is preserved; recasting it as detached chronicle prose would be a loss of substance.", amazon: "https://www.amazon.de/dp/3912883424" } }
     ]
   },
   {
