@@ -1,0 +1,75 @@
+---
+permalink: /bernstein-maerchen/index.html
+layout: base.njk
+lang: de
+title: Die Märchenlinie der Reihe Bernstein · AETERNUS VERLAG
+description: Die Märchenlinie der Reihe Bernstein und Band I der Schreckensmärchen der Brüder Grimm.
+---
+
+<main>
+  <style>
+    .fairy-hero { position: relative; overflow: hidden; isolation: isolate; padding: 176px 0 104px; background: #11100e; }
+    .fairy-hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 58%; opacity: .36; z-index: -3; filter: saturate(.82); }
+    .fairy-hero::before { content: ""; position: absolute; inset: 0; z-index: -2; background: linear-gradient(90deg, rgba(12,11,10,.98) 0%, rgba(12,11,10,.82) 45%, rgba(12,11,10,.48) 100%); }
+    .fairy-hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(18,15,10,.1), #161311 100%); }
+    .fairy-kicker { display: flex; align-items: center; gap: 10px; color: var(--gold); font-family: var(--font-sans); font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; }
+    .fairy-kicker .swatch { width: 8px; height: 8px; border-radius: 50%; background: #b7791f; box-shadow: 0 0 12px rgba(183,121,31,.8); }
+    .fairy-title { max-width: 900px; margin-top: 22px; font-family: var(--font-display); font-size: clamp(52px, 8vw, 108px); font-style: italic; font-weight: 400; line-height: .95; }
+    .fairy-intro { max-width: 690px; margin-top: 30px; color: rgba(243,231,207,.82); font-size: 18px; line-height: 1.75; }
+    .fairy-book { position: relative; background: #161311; padding: 96px 0 120px; border-top: 1px solid rgba(212,175,55,.15); }
+    .fairy-book-grid { display: grid; grid-template-columns: minmax(230px, 360px) minmax(0, 1fr); gap: clamp(44px, 7vw, 96px); align-items: center; }
+    .fairy-cover { display: block; width: 100%; height: auto; box-shadow: 0 22px 60px rgba(0,0,0,.58); }
+    .fairy-label { color: var(--gold); font-family: var(--font-sans); font-size: .76rem; letter-spacing: .16em; text-transform: uppercase; }
+    .fairy-book-title { margin-top: 18px; max-width: 760px; color: #f3e7cf; font-family: var(--font-display); font-size: clamp(36px, 5vw, 66px); font-weight: 400; line-height: 1.05; }
+    .fairy-copy { margin-top: 28px; max-width: 720px; color: rgba(243,231,207,.78); font-size: 17px; line-height: 1.75; }
+    .fairy-meta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 28px; margin-top: 34px; padding-top: 26px; border-top: 1px solid rgba(212,175,55,.18); max-width: 720px; }
+    .fairy-meta dt { color: rgba(243,231,207,.42); font-family: var(--font-sans); font-size: .68rem; letter-spacing: .13em; text-transform: uppercase; }
+    .fairy-meta dd { margin-top: 6px; color: #f3e7cf; font-family: var(--font-serif); font-size: 16px; }
+    .fairy-back { display: inline-block; margin-top: 34px; color: var(--gold); font-family: var(--font-sans); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
+    @media (max-width: 760px) {
+      .fairy-hero { padding: 142px 0 76px; }
+      .fairy-book { padding: 72px 0 88px; }
+      .fairy-book-grid { grid-template-columns: 1fr; }
+      .fairy-cover-wrap { width: min(72vw, 330px); }
+      .fairy-meta { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <section class="fairy-hero">
+    <picture style="display:contents">
+      <source type="image/avif" srcset="/assets/images/mood-bernstein.avif">
+      <source type="image/webp" srcset="/assets/images/mood-bernstein.webp">
+      <img class="fairy-hero-bg" src="/assets/images/mood-bernstein-fallback.jpg" alt="" width="1920" height="1200" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="paper-grain" style="position:absolute;inset:0;opacity:.28;pointer-events:none;z-index:-1;"></div>
+    <div class="wrap">
+      <a href="/reihen/bernstein/" class="series-crumb">← Zur Reihe Bernstein</a>
+      <div class="fairy-kicker"><span class="swatch"></span><span>Bernstein · Märchenlinie</span></div>
+      <h1 class="fairy-title"><span class="gold-grad">Märchen in ihrer dunklen Gestalt.</span></h1>
+      <p class="fairy-intro">Die Märchenlinie innerhalb der Reihe Bernstein versammelt überlieferte Erzählungen, deren Härte, Fremdheit und moralische Grenzerfahrung in späteren Fassungen oft geglättet wurden. AETERNUS legt sie sorgfältig eingerichtet und historisch eingeordnet neu vor.</p>
+    </div>
+  </section>
+
+  <section class="fairy-book">
+    <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
+    <div class="wrap fairy-book-grid">
+      <div class="fairy-cover-wrap">
+        <picture style="display:contents">
+          <source type="image/avif" srcset="/assets/images/cover-grimm-band-i.avif">
+          <source type="image/webp" srcset="/assets/images/cover-grimm-band-i.webp">
+          <img class="fairy-cover" src="/assets/images/cover-grimm-band-i-fallback.jpg" alt="Cover: Die Schreckensmärchen der Brüder Grimm · Band I" width="1024" height="1583" loading="eager" decoding="async">
+        </picture>
+      </div>
+      <div>
+        <div class="fairy-label">Brüder Grimm · Band I</div>
+        <h2 class="fairy-book-title">Die Schreckensmärchen der Brüder Grimm · Band I</h2>
+        <p class="fairy-copy">Eine Auswahl jener Märchen, in denen Angst, Grausamkeit, Verwandlung und Schuld offen hervortreten. Band I macht die ursprüngliche erzählerische Kraft der Überlieferung wieder sichtbar – ohne Verharmlosung und mit editorischer Einordnung.</p>
+        <dl class="fairy-meta">
+          <div><dt>Taschenbuch</dt><dd>ISBN 978-3-912883-44-2</dd></div>
+          <div><dt>EPUB 3</dt><dd>ISBN 978-3-912883-45-9</dd></div>
+        </dl>
+        <a class="fairy-back" href="/reihen/bernstein/">Mehr zur Reihe Bernstein →</a>
+      </div>
+    </div>
+  </section>
+</main>

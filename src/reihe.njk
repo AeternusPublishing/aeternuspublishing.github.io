@@ -46,6 +46,16 @@ eleventyComputed:
 
 <section class="series-authors">
   <div class="wrap">
+    {% if s.slug == "bernstein" %}
+      <div class="author-block" style="margin-bottom: 64px; padding-bottom: 56px; border-bottom: 1px solid rgba(212,175,55,.12);">
+        <div class="kicker">Märchenlinie</div>
+        <a href="/bernstein-maerchen/" class="author-name" style="font-size: 1.4rem;">Brüder Grimm · Die Schreckensmärchen</a>
+        <div class="author-desc">
+          Überlieferte Märchen in ihrer dunklen, unverkürzten Gestalt – sorgfältig eingerichtet und historisch eingeordnet.
+          <br><a class="profile-link" href="/bernstein-maerchen/">Zur Märchenlinie →</a>
+        </div>
+      </div>
+    {% endif %}
     {% if s.authors.length %}
       {% for author in s.authors %}
         <div class="author-block">

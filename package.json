@@ -10,7 +10,8 @@
     "icons": "node scripts/make-icons.js",
     "fonts": "node scripts/fetch-fonts.js",
     "check:hreflang": "node ./scripts/check-hreflang.js",
-    "check:pages": "node ./scripts/check-pages.js"
+    "check:pages": "node ./scripts/check-pages.js",
+    "check:qr": "node ./scripts/check-qr-targets.js"
   },
   "keywords": [],
   "author": "",
