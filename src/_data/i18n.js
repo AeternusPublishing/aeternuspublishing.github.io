@@ -678,6 +678,19 @@ module.exports = {
             en: "In 1908 Robert Baden-Powell wrote a handbook for boys — and unintentionally founded one of the largest youth movements in the world. His founding text appears in the Amber series."
           },
           books: []
+        },
+        {
+          // Dritter Autor der Bernsteinlinie. Noch kein Band erschienen — books leer.
+          // landingUrl fuehrt bewusst nur Deutsch: die englische Autorenseite existiert
+          // noch nicht, und ein Link auf eine 404 waere schaedlicher als keiner.
+          name: "H. Rider Haggard",
+          slug: "henry-rider-haggard",
+          landingUrl: { de: "/autoren/henry-rider-haggard/", en: "/autoren/henry-rider-haggard/" },
+          bio: {
+            de: "H. Rider Haggard schrieb 1885 auf eine Wette hin einen Roman — und erfand damit das Genre der verlorenen Welt. König Salomos Schatzkammer erscheint in der Reihe Bernstein.",
+            en: "In 1885 H. Rider Haggard wrote a novel on a wager — and invented the lost-world genre. King Solomon’s Mines appears in the Amber series."
+          },
+          books: []
         }
       ]
     },
