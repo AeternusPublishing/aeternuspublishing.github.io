@@ -544,9 +544,9 @@ module.exports = [
     "seriesClass": "",
     "preview": true,
     "portrait": {
-      "file": "portrait-sears.jpg",
-      "alt": "Monogramm George Washington Sears, Porträt folgt",
-      "modern": false
+      "file": "portrait-sears",
+      "alt": "George Washington Sears, genannt Nessmuk, Porträt aus einer Publikation von 1887",
+      "modern": true
     },
     "schema": {
       "birthDate": "1821-12-02",
