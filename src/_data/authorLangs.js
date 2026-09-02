@@ -24,7 +24,9 @@ const AVAILABLE = {
   "robert-montgomery-bird": ["de", "en", "es"],
   "henry-ford": ["de", "en"],
   "lady-florentia-sale": ["de", "en"],
-  "robert-baden-powell": ["de", "en"]
+  "robert-baden-powell": ["de", "en"],
+  // Nur Deutsch: weitere Sprachfassungen existieren noch nicht.
+  "george-washington-sears": ["de"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };

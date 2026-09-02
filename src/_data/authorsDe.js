@@ -535,5 +535,93 @@ module.exports = [
         }
       }
     ]
+  },
+  {
+    "slug": "george-washington-sears",
+    "name": "George Washington Sears",
+    "monogram": "GWS",
+    "dates": "1821–1890",
+    "seriesClass": "",
+    "preview": true,
+    "portrait": {
+      "file": "portrait-sears.jpg",
+      "alt": "Monogramm George Washington Sears, Porträt folgt",
+      "modern": false
+    },
+    "schema": {
+      "birthDate": "1821-12-02",
+      "deathDate": "1890-05-01",
+      "description": "Amerikanischer Schuhmacher, Kanufahrer und Autor; als Nessmuk Begruender des leichten Reisens in Wald und Kanu."
+    },
+    "eyebrow": "Bernstein · Jugend, Abenteuer, Charakterbildung",
+    "tagline": "Reist leicht; je leichter, desto besser.",
+    "intro": "Schuhmacher, Kanufahrer und Waldläufer: Sears schrieb 1884 unter dem Namen »Nessmuk« das erste Buch, das nicht den Überfluss lehrt, sondern das Weglassen — leichte Ausrüstung, ein offenes Lager, ein richtig gebautes Feuer.",
+    "metaDescription": "George Washington Sears (Nessmuk): Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von Woodcraft (1884) als Waldhandwerk in der Bernsteinlinie des Aeternus Verlags.",
+    "ogDescription": "Der Mann, der das Weglassen lehrte. Leben und Werk von George Washington Sears, genannt Nessmuk.",
+    "bioKicker": "Biografie",
+    "bioTitle": "Mit wenig<br>durch den Wald",
+    "bioLede": "Ein kleiner, kränklicher Schuhmacher aus Pennsylvania wurde zur bekanntesten Stimme des amerikanischen Freiluftlebens — weil er nicht viel tragen konnte und deshalb klug tragen musste.",
+    "blocks": [
+      {
+        "h": "Leben und Zeit",
+        "p": [
+          "1821 in Massachusetts geboren, wuchs Sears in einfachen Verhältnissen auf, lernte das Schuhmacherhandwerk und fuhr als junger Mann auf einem Walfänger in den Südpazifik. Den Namen Nessmuk übernahm er von einem Narragansett, der ihn als Kind in die Wälder mitgenommen hatte.",
+          "Er ließ sich in Wellsboro im nördlichen Pennsylvania nieder und unternahm von dort über Jahrzehnte seine Waldfahrten. Zwischen 1880 und 1883 befuhr er die Seen der Adirondacks in immer leichteren Kanus, die ihm der Bootsbauer J. Henry Rushton nach seinen Vorgaben baute. Das leichteste, die <i>Sairy Gamp</i>, wog knapp über zehn Pfund."
+        ]
+      },
+      {
+        "h": "Die Haltung",
+        "p": [
+          "Sears schrieb für die »Ausflügler«: Handwerker, Angestellte, Kaufleute, die einmal im Jahr Erholung brauchen und sie sich nicht durch Führer, Packkörbe und Waldhotels teuer erkaufen wollen. Sein Rat ist einfach: Reist leicht, baut ein offenes Lager mit einem Feuer davor, kocht schlicht, und schießt nicht mehr, als ihr essen könnt.",
+          "Er sah den Raubbau seiner Zeit und beklagte ihn mit bitteren Worten — in einem Buch, das sonst vor trockenem Humor und Erfahrung nur so funkelt."
+        ]
+      },
+      {
+        "h": "Das Erbe",
+        "p": [
+          "<i>Woodcraft</i> erschien 1884 im Verlag der Zeitschrift <i>Forest and Stream</i> und wurde seither unzählige Male neu aufgelegt. Sein Dreiklang aus kleinem Beil, festem Scheidenmesser und zweiklingigem Taschenmesser wird bis heute als Nessmuk-Dreiheit nachgebaut.",
+          "Sears starb 1890 in Wellsboro. Ein Berg und ein See in Pennsylvania tragen seinen Namen; die <i>Sairy Gamp</i> ist im Adirondack Experience Museum zu sehen."
+        ]
+      }
+    ],
+    "facts": [
+      [
+        "Reihe",
+        "Bernsteinlinie · Säule V"
+      ],
+      [
+        "Originalausgabe",
+        "New York, 1884"
+      ],
+      [
+        "Quellsprache",
+        "Englisch"
+      ],
+      [
+        "Status",
+        "In Vorbereitung"
+      ]
+    ],
+    "worksKicker": "In Vorbereitung",
+    "worksTitle": "Das Buch vom Weglassen",
+    "worksIntro": "Die deutsche Ausgabe folgt der Erstausgabe von 1884 in vollem Umfang: Ausrüstung, Lagerbau, Feuer, Angeln, Lagerküche, eine Wildnisfahrt und das leichte Kanu — quellennah übersetzt, mit den zehn Abbildungen der Erstausgabe als Rekonstruktionen und historischer Einordnung.",
+    "gridClass": "single-item",
+    "books": [
+      {
+        "cover": {
+          "gen": "scouting",
+          "title": "Waldhandwerk"
+        },
+        "meta": "Ratgeber · New York · 1884",
+        "title": "Waldhandwerk",
+        "subtitle": "Woodcraft — die Kunst, mit wenig im Wald zu leben",
+        "modal": {
+          "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
+          "summary": "New York 1884: Ein Schuhmacher, der kaum hundert Pfund wiegt, schreibt auf, wie man mit sechsundzwanzig Pfund Gepäck wochenlang durch die Wildnis zieht. Rucksack, Beil und Messer, das Shanty-Zelt, das richtig gebaute Lagerfeuer, Froschfang und Lagerküche, ein zehntägiger Alleingang durch Michigan und das federleichte Zedernkanu — Sears' Buch ist Anleitung und Erzählung in einem.",
+          "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1884. Maße, Preise und Gerätenamen bleiben im Bezugssystem der Zeit; ein Glossar und eine Übersicht der Maße erschließen sie. Die zehn Holzschnitte des Originals sind als fotorealistische Rekonstruktionen neu geschaffen.",
+          "amazon": "/"
+        }
+      }
+    ]
   }
 ];
