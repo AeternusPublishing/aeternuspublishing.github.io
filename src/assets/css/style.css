@@ -160,6 +160,15 @@ h2.title-xl .nostyle{font-style:normal;}
 .cat-bar .all:hover{color:var(--gold);}
 @media(min-width:768px){.cat-bar .all{display:inline-flex;}}
 
+/* Reihenkarten sind Links: die Klickbarkeit muss sichtbar sein, ohne das
+   ruhige Bild der Kachelwand zu stoeren. */
+a.series-card{color:inherit;transition:border-color .18s ease,box-shadow .18s ease,transform .18s ease;}
+a.series-card:hover,a.series-card:focus-visible{border-color:rgba(212,175,55,.45)!important;
+  box-shadow:0 18px 45px rgba(0,0,0,.5)!important;transform:translateY(-2px);}
+a.series-card:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+a.series-card h3{transition:color .18s ease;}
+a.series-card:hover h3,a.series-card:focus-visible h3{color:var(--gold);}
+@media(prefers-reduced-motion:reduce){a.series-card{transition:none;}a.series-card:hover{transform:none;}}
 .catalog-grid{margin-top:64px;display:grid;grid-template-columns:repeat(2,1fr);gap:64px 32px;}
 @media(min-width:900px){.catalog-grid{grid-template-columns:repeat(3,1fr);gap:64px 40px;}}
 @media (max-width: 767px) {

@@ -535,5 +535,72 @@ module.exports = [
         }
       }
     ]
+  },
+  {
+    "slug": "henry-rider-haggard",
+    "name": "H. Rider Haggard",
+    "monogram": "HRH",
+    "dates": "1856–1925",
+    "seriesClass": "",
+    "preview": true,
+    "portrait": {
+      "file": "portrait-haggard",
+      "alt": "Historisches Porträt von Henry Rider Haggard",
+      "modern": true
+    },
+    "schema": {
+      "birthDate": "1856-06-22",
+      "deathDate": "1925-05-14",
+      "description": "Britischer Schriftsteller und Kolonialbeamter, Begruender des Lost-World-Abenteuerromans."
+    },
+    "eyebrow": "Bernstein · Jugend, Abenteuer, Charakterbildung",
+    "tagline": "Wer Haggards Afrika betritt, betritt kein Phantasieprodukt aus dem Arbeitszimmer. Er ritt durch das Veldt, als die Speere der Zulu den Horizont verdunkelten – und schrieb auf, was er sah.",
+    "intro": "Kolonialbeamter, Farmer, Jurist und Erzähler: Haggard schrieb 1885 einen Roman auf eine Wette hin – und erfand damit das Genre der verlorenen Welt.",
+    "metaDescription": "H. Rider Haggard: Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von König Salomos Schatzkammer in der Bernsteinlinie des Aeternus Verlags.",
+    "ogDescription": "Der Mann, der die Landkarte zur Handlung machte. Leben und Werk von H. Rider Haggard.",
+    "bioKicker": "Biografie",
+    "bioTitle": "Im Pulverdampf<br>des Empire",
+    "bioLede": "Der Mann, der die Landkarte zur Handlung machte.",
+    "blocks": [
+      {
+        "h": "Leben und Zeit",
+        "p": [
+          "Mit neunzehn Jahren steht der junge Landadelige mitten im Mahlstrom Südafrikas: Zulukrieg, Annexion des Transvaal, Erster Burenkrieg. Als Sekretär des Gouverneurs erlebt Haggard den kolonialen Zusammenstoß aus nächster Nähe. Er lernt die Sprachen, studiert das Terrain und durchmisst eine Welt, die sich dem europäischen Zugriff verwehrt. Nach seiner Rückkehr wird er Anwalt und Agrarreformer – doch das geschriebene Wort aus den Grenzländern macht ihn unsterblich."
+        ]
+      },
+      {
+        "h": "Die Haltung",
+        "p": [
+          "Wo seine Zeitgenossen den Kontinent zur bloßen Statisterie herabwürdigten, zeichnete Haggard Gestalten von tragischem, homerischem Format. Ein König wie Ignosi steht den Engländern nicht als Unterworfener gegenüber, sondern als ebenbürtige Figur. Das Werk trägt das ungeglättete Siegel seiner Epoche – der Aeternus Verlag macht diese Spannung im verlegerischen Apparat greifbar, ohne den Quelltext zu korrigieren."
+        ]
+      },
+      {
+        "h": "Das Erbe",
+        "p": [
+          "In Allan Quatermain erschuf Haggard den Urtyp des modernen Abenteurers: keinen unbesiegbaren Superhelden, sondern einen gealterten, pragmatischen Jäger, der überlebt, weil er die Wildnis fürchtet. Ob die Blutkarte, die verschollene Dynastie oder der Lichtspalt im Fels – Haggard goss das Fundament, auf dem spätere Ikonen von Conan Doyle bis Indiana Jones ihre Tempel bauten."
+        ]
+      }
+    ],
+    "worksKicker": "In Vorbereitung",
+    "worksTitle": "Die Ur-Schablone des Abenteuerromans",
+    "worksIntro": "Die deutsche Ausgabe folgt der illustrierten Fassung Cassell 1887 einschließlich der neun Tafeln von Walter Paget.",
+    "gridClass": "single-item",
+    "books": [
+      {
+        "cover": {
+          "gen": "scouting",
+          "title": "König Salomos<br>Schatzkammer"
+        },
+        "meta": "Roman · London · 1885",
+        "title": "König Salomos Schatzkammer",
+        "subtitle": "Roman einer Expedition in das unentdeckte Afrika",
+        "modal": {
+          "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
+          "summary": "Eine vergilbte, mit Blut gezeichnete Karte, die Legende von unermeßlichen Diamantenfeldern und das spurlose Verschwinden eines englischen Edelmanns: Das sind die Stücke, die den gealterten Elefantenjäger Allan Quatermain in das gefährlichste Unternehmen seines Lebens führen. Der Weg geht durch glühende Wüste und über die eiskalten Zwillingsgipfel der Königin von Saba in ein von der Welt vergessenes Reich.",
+          "sample": "Die deutsche Ausgabe folgt der Fassung Cassell 1887 einschließlich der Einleitung und der neun Tafeln von Walter Paget. Der historische Wortlaut bleibt erhalten; Begriffe und Weltbild der Entstehungszeit werden im verlegerischen Apparat sichtbar gemacht, nicht im Werktext korrigiert.",
+          "amazon": "/"
+        }
+      }
+    ]
   }
 ];
