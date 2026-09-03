@@ -405,6 +405,30 @@ module.exports = {
               amazonUrl: "https://www.amazon.de/dp/3912883424"
             }
           ]
+        },
+        {
+          // Zweiter Autor der gruenen Linie. Sein Aschanti-Tagebuch ist als
+          // GRUENE REIHE Band 2 erschienen; sein Pfadfinderhandbuch erscheint
+          // getrennt davon in der Bernsteinlinie.
+          name: "Robert Baden-Powell",
+          slug: "robert-baden-powell",
+          landingUrl: { de: "/autoren/robert-baden-powell/", en: "/en/authors/robert-baden-powell/" },
+          bio: {
+            de: "Robert Baden-Powell fuehrte 1895 im Aschanti-Feldzug eine aus einheimischen Staemmen geformte Vorhut — und schrieb Tag fuer Tag mit. Sein Feldtagebuch erscheint in der Reihe Gruen.",
+            en: "In 1895 Robert Baden-Powell led a native levy through the Ashanti campaign — and kept a diary day by day. His field journal appears in the Green series."
+          },
+          books: [
+            {
+              cover: "cover-der-sturz-prempehs",
+              title: { de: "Der Sturz Prempehs", en: "Der Sturz Prempehs" },
+              desc: {
+                de: "Baden-Powells Feldtagebuch des Aschanti-Feldzugs 1895–96, nach der Londoner Erstausgabe von 1896 mit allen 22 Originaltafeln.",
+                en: "Baden-Powell's field diary of the 1895–96 Ashanti campaign, after the London first edition of 1896 with all 22 original plates."
+              },
+              isbn: "978-3-912883-48-0",
+              amazonUrl: "https://www.amazon.de/dp/3912883483"
+            }
+          ]
         }
       ]
     },
@@ -669,7 +693,9 @@ module.exports = {
           ]
         },
         {
-          // Zweiter Autor der Bernsteinlinie. Noch kein Band erschienen — books leer.
+          // Baden-Powell steht in zwei Linien: sein Aschanti-Tagebuch ist in
+          // Gruen erschienen, das Pfadfinderhandbuch ist hier in Vorbereitung.
+          // books bleibt leer, bis es erscheint.
           name: "Robert Baden-Powell",
           slug: "robert-baden-powell",
           landingUrl: { de: "/autoren/robert-baden-powell/", en: "/en/authors/robert-baden-powell/" },
