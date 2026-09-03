@@ -453,7 +453,7 @@ module.exports = [
     "monogram": "BP",
     "dates": "1857–1941",
     "seriesClass": "",
-    "preview": true,
+    "preview": false,
     "nameClass": "bird-name",
     "portrait": {
       "file": "portrait-baden-powell",
@@ -465,7 +465,7 @@ module.exports = [
       "deathDate": "1941-01-08",
       "description": "Britischer Offizier, Autor und Gruender der Pfadfinderbewegung."
     },
-    "eyebrow": "Bernstein · Jugend, Abenteuer, Charakterbildung",
+    "eyebrow": "Grün · Militär, Expeditionen, Grenzräume",
     "tagline": "Ein Handbuch, das eine Weltbewegung auslöste.",
     "intro": "Offizier, Kundschafter, Zeichner und Erzähler: Baden-Powell schrieb 1908 ein Anleitungsbuch für Jungen — und begründete damit unabsichtlich eine der größten Jugendbewegungen der Welt.",
     "metaDescription": "Robert Baden-Powell: Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von Scouting for Boys in der Bernsteinlinie des Aeternus Verlags.",
@@ -519,6 +519,20 @@ module.exports = [
     "worksIntro": "Das Handbuch von 1908 in vollem Umfang: Lagerkunde, Spurenlesen, Proben und Erzählungen — quellennah übersetzt, mit den Zeichnungen der Erstausgabe und historischer Einordnung.",
     "gridClass": "single-item",
     "books": [
+      {
+        "cover": {
+          "img": "cover-der-sturz-prempehs"
+        },
+        "meta": "Tagebuch · London · 1896",
+        "title": "Der Sturz Prempehs",
+        "subtitle": "Tagebuch des Aschanti-Feldzugs 1895–96",
+        "modal": {
+          "metadata": "196 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,98 €",
+          "summary": "Winter 1895: Eine britische Expedition rückt in den Dschungel Westafrikas vor, um König Prempeh I. zu unterwerfen. An ihrer Spitze steht Major Robert Baden-Powell — beauftragt, mitten im Vormarsch aus einheimischen Stämmen eine Vorhut zu formen, die Native Levy. Sein Tagebuch ist kein geglätteter Bericht, sondern das Protokoll eines Feldzugs im Morast: Schneisen durch den Urwald, Brücken über reißende Flüsse, Späher im Busch — festgehalten mit militärischer Präzision und trockenem Spott. Hier steht die Felderfahrung, aus der drei Jahre später Aids to Scouting wurde und aus der die weltweite Pfadfinderbewegung hervorging.",
+          "sample": "Ungekürzte deutsche Neuübersetzung der Erstausgabe London 1896, mit allen 22 Originaltafeln nach Zeichnungen des Verfassers, dem Anhang seines Bruders George Baden-Powell, historischer Einordnung, Glossar und Bildnachweis.",
+          "amazon": "https://www.amazon.de/dp/3912883483"
+        }
+      },
       {
         "cover": {
           "gen": "scouting",
