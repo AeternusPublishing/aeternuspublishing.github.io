@@ -453,7 +453,7 @@ module.exports = [
     "monogram": "BP",
     "dates": "1857–1941",
     "seriesClass": "",
-    "preview": true,
+    "preview": false,
     "nameClass": "bird-name",
     "portrait": {
       "file": "portrait-baden-powell",
@@ -465,7 +465,7 @@ module.exports = [
       "deathDate": "1941-01-08",
       "description": "Britischer Offizier, Autor und Gruender der Pfadfinderbewegung."
     },
-    "eyebrow": "Bernstein · Jugend, Abenteuer, Charakterbildung",
+    "eyebrow": "Grün · Militär, Expeditionen, Grenzräume",
     "tagline": "Ein Handbuch, das eine Weltbewegung auslöste.",
     "intro": "Offizier, Kundschafter, Zeichner und Erzähler: Baden-Powell schrieb 1908 ein Anleitungsbuch für Jungen — und begründete damit unabsichtlich eine der größten Jugendbewegungen der Welt.",
     "metaDescription": "Robert Baden-Powell: Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von Scouting for Boys in der Bernsteinlinie des Aeternus Verlags.",
@@ -521,6 +521,20 @@ module.exports = [
     "books": [
       {
         "cover": {
+          "img": "cover-der-sturz-prempehs"
+        },
+        "meta": "Tagebuch · London · 1896",
+        "title": "Der Sturz Prempehs",
+        "subtitle": "Tagebuch des Aschanti-Feldzugs 1895–96",
+        "modal": {
+          "metadata": "196 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,98 €",
+          "summary": "Winter 1895: Eine britische Expedition rückt in den Dschungel Westafrikas vor, um König Prempeh I. zu unterwerfen. An ihrer Spitze steht Major Robert Baden-Powell — beauftragt, mitten im Vormarsch aus einheimischen Stämmen eine Vorhut zu formen, die Native Levy. Sein Tagebuch ist kein geglätteter Bericht, sondern das Protokoll eines Feldzugs im Morast: Schneisen durch den Urwald, Brücken über reißende Flüsse, Späher im Busch — festgehalten mit militärischer Präzision und trockenem Spott. Hier steht die Felderfahrung, aus der drei Jahre später Aids to Scouting wurde und aus der die weltweite Pfadfinderbewegung hervorging.",
+          "sample": "Ungekürzte deutsche Neuübersetzung der Erstausgabe London 1896, mit allen 22 Originaltafeln nach Zeichnungen des Verfassers, dem Anhang seines Bruders George Baden-Powell, historischer Einordnung, Glossar und Bildnachweis.",
+          "amazon": "https://www.amazon.de/dp/3912883483"
+        }
+      },
+      {
+        "cover": {
           "gen": "scouting",
           "title": "Scouting<br>for Boys"
         },
@@ -537,88 +551,67 @@ module.exports = [
     ]
   },
   {
-    "slug": "george-washington-sears",
-    "name": "George Washington Sears",
-    "monogram": "GWS",
-    "dates": "1821–1890",
+    "slug": "henry-rider-haggard",
+    "name": "H. Rider Haggard",
+    "monogram": "HRH",
+    "dates": "1856–1925",
     "seriesClass": "",
     "preview": true,
     "portrait": {
-      "file": "portrait-sears",
-      "alt": "George Washington Sears, genannt Nessmuk, Porträt aus einer Publikation von 1887",
+      "file": "portrait-haggard",
+      "alt": "Historisches Porträt von Henry Rider Haggard",
       "modern": true
     },
     "schema": {
-      "birthDate": "1821-12-02",
-      "deathDate": "1890-05-01",
-      "description": "Amerikanischer Schuhmacher, Kanufahrer und Autor; als Nessmuk Begruender des leichten Reisens in Wald und Kanu."
+      "birthDate": "1856-06-22",
+      "deathDate": "1925-05-14",
+      "description": "Britischer Schriftsteller und Kolonialbeamter, Begruender des Lost-World-Abenteuerromans."
     },
     "eyebrow": "Bernstein · Jugend, Abenteuer, Charakterbildung",
-    "tagline": "Reist leicht; je leichter, desto besser.",
-    "intro": "Schuhmacher, Kanufahrer und Waldläufer: Sears schrieb 1884 unter dem Namen »Nessmuk« das erste Buch, das nicht den Überfluss lehrt, sondern das Weglassen — leichte Ausrüstung, ein offenes Lager, ein richtig gebautes Feuer.",
-    "metaDescription": "George Washington Sears (Nessmuk): Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von Woodcraft (1884) als Waldhandwerk in der Bernsteinlinie des Aeternus Verlags.",
-    "ogDescription": "Der Mann, der das Weglassen lehrte. Leben und Werk von George Washington Sears, genannt Nessmuk.",
+    "tagline": "Wer Haggards Afrika betritt, betritt kein Phantasieprodukt aus dem Arbeitszimmer. Er ritt durch das Veldt, als die Speere der Zulu den Horizont verdunkelten – und schrieb auf, was er sah.",
+    "intro": "Kolonialbeamter, Farmer, Jurist und Erzähler: Haggard schrieb 1885 einen Roman auf eine Wette hin – und erfand damit das Genre der verlorenen Welt.",
+    "metaDescription": "H. Rider Haggard: Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von König Salomos Schatzkammer in der Bernsteinlinie des Aeternus Verlags.",
+    "ogDescription": "Der Mann, der die Landkarte zur Handlung machte. Leben und Werk von H. Rider Haggard.",
     "bioKicker": "Biografie",
-    "bioTitle": "Mit wenig<br>durch den Wald",
-    "bioLede": "Ein kleiner, kränklicher Schuhmacher aus Pennsylvania wurde zur bekanntesten Stimme des amerikanischen Freiluftlebens — weil er nicht viel tragen konnte und deshalb klug tragen musste.",
+    "bioTitle": "Im Pulverdampf<br>des Empire",
+    "bioLede": "Der Mann, der die Landkarte zur Handlung machte.",
     "blocks": [
       {
         "h": "Leben und Zeit",
         "p": [
-          "1821 in Massachusetts geboren, wuchs Sears in einfachen Verhältnissen auf, lernte das Schuhmacherhandwerk und fuhr als junger Mann auf einem Walfänger in den Südpazifik. Den Namen Nessmuk übernahm er von einem Narragansett, der ihn als Kind in die Wälder mitgenommen hatte.",
-          "Er ließ sich in Wellsboro im nördlichen Pennsylvania nieder und unternahm von dort über Jahrzehnte seine Waldfahrten. Zwischen 1880 und 1883 befuhr er die Seen der Adirondacks in immer leichteren Kanus, die ihm der Bootsbauer J. Henry Rushton nach seinen Vorgaben baute. Das leichteste, die <i>Sairy Gamp</i>, wog knapp über zehn Pfund."
+          "Mit neunzehn Jahren steht der junge Landadelige mitten im Mahlstrom Südafrikas: Zulukrieg, Annexion des Transvaal, Erster Burenkrieg. Als Sekretär des Gouverneurs erlebt Haggard den kolonialen Zusammenstoß aus nächster Nähe. Er lernt die Sprachen, studiert das Terrain und durchmisst eine Welt, die sich dem europäischen Zugriff verwehrt. Nach seiner Rückkehr wird er Anwalt und Agrarreformer – doch das geschriebene Wort aus den Grenzländern macht ihn unsterblich."
         ]
       },
       {
         "h": "Die Haltung",
         "p": [
-          "Sears schrieb für die »Ausflügler«: Handwerker, Angestellte, Kaufleute, die einmal im Jahr Erholung brauchen und sie sich nicht durch Führer, Packkörbe und Waldhotels teuer erkaufen wollen. Sein Rat ist einfach: Reist leicht, baut ein offenes Lager mit einem Feuer davor, kocht schlicht, und schießt nicht mehr, als ihr essen könnt.",
-          "Er sah den Raubbau seiner Zeit und beklagte ihn mit bitteren Worten — in einem Buch, das sonst vor trockenem Humor und Erfahrung nur so funkelt."
+          "Wo seine Zeitgenossen den Kontinent zur bloßen Statisterie herabwürdigten, zeichnete Haggard Gestalten von tragischem, homerischem Format. Ein König wie Ignosi steht den Engländern nicht als Unterworfener gegenüber, sondern als ebenbürtige Figur. Das Werk trägt das ungeglättete Siegel seiner Epoche – der Aeternus Verlag macht diese Spannung im verlegerischen Apparat greifbar, ohne den Quelltext zu korrigieren."
         ]
       },
       {
         "h": "Das Erbe",
         "p": [
-          "<i>Woodcraft</i> erschien 1884 im Verlag der Zeitschrift <i>Forest and Stream</i> und wurde seither unzählige Male neu aufgelegt. Sein Dreiklang aus kleinem Beil, festem Scheidenmesser und zweiklingigem Taschenmesser wird bis heute als Nessmuk-Dreiheit nachgebaut.",
-          "Sears starb 1890 in Wellsboro. Ein Berg und ein See in Pennsylvania tragen seinen Namen; die <i>Sairy Gamp</i> ist im Adirondack Experience Museum zu sehen."
+          "In Allan Quatermain erschuf Haggard den Urtyp des modernen Abenteurers: keinen unbesiegbaren Superhelden, sondern einen gealterten, pragmatischen Jäger, der überlebt, weil er die Wildnis fürchtet. Ob die Blutkarte, die verschollene Dynastie oder der Lichtspalt im Fels – Haggard goss das Fundament, auf dem spätere Ikonen von Conan Doyle bis Indiana Jones ihre Tempel bauten."
         ]
       }
     ],
-    "facts": [
-      [
-        "Reihe",
-        "Bernsteinlinie · Säule V"
-      ],
-      [
-        "Originalausgabe",
-        "New York, 1884"
-      ],
-      [
-        "Quellsprache",
-        "Englisch"
-      ],
-      [
-        "Status",
-        "In Vorbereitung"
-      ]
-    ],
     "worksKicker": "In Vorbereitung",
-    "worksTitle": "Das Buch vom Weglassen",
-    "worksIntro": "Die deutsche Ausgabe folgt der Erstausgabe von 1884 in vollem Umfang: Ausrüstung, Lagerbau, Feuer, Angeln, Lagerküche, eine Wildnisfahrt und das leichte Kanu — quellennah übersetzt, mit den zehn Abbildungen der Erstausgabe als Rekonstruktionen und historischer Einordnung.",
+    "worksTitle": "Die Ur-Schablone des Abenteuerromans",
+    "worksIntro": "Die deutsche Ausgabe folgt der illustrierten Fassung Cassell 1887 einschließlich der neun Tafeln von Walter Paget.",
     "gridClass": "single-item",
     "books": [
       {
         "cover": {
           "gen": "scouting",
-          "title": "Waldhandwerk"
+          "title": "König Salomos<br>Schatzkammer"
         },
-        "meta": "Ratgeber · New York · 1884",
-        "title": "Waldhandwerk",
-        "subtitle": "Woodcraft — die Kunst, mit wenig im Wald zu leben",
+        "meta": "Roman · London · 1885",
+        "title": "König Salomos Schatzkammer",
+        "subtitle": "Roman einer Expedition in das unentdeckte Afrika",
         "modal": {
           "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
-          "summary": "New York 1884: Ein Schuhmacher, der kaum hundert Pfund wiegt, schreibt auf, wie man mit sechsundzwanzig Pfund Gepäck wochenlang durch die Wildnis zieht. Rucksack, Beil und Messer, das Shanty-Zelt, das richtig gebaute Lagerfeuer, Froschfang und Lagerküche, ein zehntägiger Alleingang durch Michigan und das federleichte Zedernkanu — Sears' Buch ist Anleitung und Erzählung in einem.",
-          "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1884. Maße, Preise und Gerätenamen bleiben im Bezugssystem der Zeit; ein Glossar und eine Übersicht der Maße erschließen sie. Die zehn Holzschnitte des Originals sind als fotorealistische Rekonstruktionen neu geschaffen.",
+          "summary": "Eine vergilbte, mit Blut gezeichnete Karte, die Legende von unermeßlichen Diamantenfeldern und das spurlose Verschwinden eines englischen Edelmanns: Das sind die Stücke, die den gealterten Elefantenjäger Allan Quatermain in das gefährlichste Unternehmen seines Lebens führen. Der Weg geht durch glühende Wüste und über die eiskalten Zwillingsgipfel der Königin von Saba in ein von der Welt vergessenes Reich.",
+          "sample": "Die deutsche Ausgabe folgt der Fassung Cassell 1887 einschließlich der Einleitung und der neun Tafeln von Walter Paget. Der historische Wortlaut bleibt erhalten; Begriffe und Weltbild der Entstehungszeit werden im verlegerischen Apparat sichtbar gemacht, nicht im Werktext korrigiert.",
           "amazon": "/"
         }
       }
