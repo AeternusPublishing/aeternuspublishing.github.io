@@ -459,7 +459,20 @@ module.exports = {
           source: "Midjourney"
         }
       },
-      authors: []
+      authors: [
+        {
+          // Erstes Werk der Roten Linie (TAC_001, Verlegerbeschluss 2026-09-03). Noch kein Band erschienen - books leer.
+          // landingUrl nur Deutsch: die englische Autorenseite existiert noch nicht.
+          name: "Tacitus",
+          slug: "tacitus",
+          landingUrl: { de: "/autoren/tacitus/", en: "/autoren/tacitus/" },
+          bio: {
+            de: "Cornelius Tacitus, Senator und Konsul, schrieb die Geschichte der Kaiser von Tiberius bis Nero als Mann aus der Mitte der Macht. Seine Annalen eröffnen in zwei Bänden die Reihe Rot.",
+            en: "Cornelius Tacitus, senator and consul, wrote the history of the emperors from Tiberius to Nero as a man from the centre of power. His Annals open the Red series in two volumes."
+          },
+          books: []
+        }
+      ]
     },
     {
       num: "IV",
