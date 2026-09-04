@@ -9,6 +9,10 @@
 .series-green .hero::before{filter:grayscale(.35) sepia(.18) saturate(.55)}
 .series-green .biography{background:radial-gradient(circle at 85% 12%,rgba(74,97,55,.16),transparent 28%),linear-gradient(135deg,#e6e4d3,#ccccb4)}
 
+.series-red{--accent:#a8433f;--accent-2:#d9a09a;--accent-dark:#5a1c1c;--line:rgba(217,160,154,.26)}
+.series-red .hero::before{filter:grayscale(.45) sepia(.12) saturate(.6)}
+.series-red .biography{background:radial-gradient(circle at 85% 12%,rgba(124,28,28,.14),transparent 28%),linear-gradient(135deg,#e6e0da,#cfc6c0)}
+
 /* Portraets dieser Baende liegen koloriert bzw. farbig vor. Die harte
    Graustufen-Regel aus author-es.css wuerde diese Kolorierung wegwerfen,
    deshalb hier eine gemeinsame, ruhige Behandlung statt Graustufe.
@@ -62,3 +66,4 @@
 .generated-cover.ford{color:#dfe6ea;background:linear-gradient(145deg,#3d515f,#1b242a 50%,#0f1417)}
 .generated-cover.sale{color:#e7e3cd;background:linear-gradient(145deg,#4d5b3c,#232a1c 48%,#6b5a2c)}
 .generated-cover.scouting{color:#f0e2bd;background:linear-gradient(145deg,#7d6224,#2c2617 50%,#14170f)}
+.generated-cover.imperium{color:#e9d9c2;background:linear-gradient(145deg,#7c1c1c,#2a0d0d 50%,#120707)}
