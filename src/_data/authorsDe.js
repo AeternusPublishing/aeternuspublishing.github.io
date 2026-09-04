@@ -1012,6 +1012,107 @@ module.exports = [
         }
       }
     ]
+  },
+  {
+    "slug": "tacitus",
+    "name": "Tacitus",
+    "monogram": "TAC",
+    "dates": "um 56–nach 117",
+    "seriesClass": "series-red",
+    "preview": true,
+    "portrait": {
+      "file": "portrait-tacitus.jpg",
+      "alt": "Monogramm Tacitus, Bildnis folgt",
+      "modern": false
+    },
+    "schema": {
+      "birthDate": "0056",
+      "deathDate": "0117",
+      "description": "Römischer Senator, Konsul des Jahres 97 und Geschichtsschreiber; Verfasser der Annalen und Historien."
+    },
+    "eyebrow": "Rot · Imperien, Herrscher und Staatskunst",
+    "tagline": "Ohne Zorn und Eifer.",
+    "intro": "Senator, Konsul, Prokonsul der Provinz Asia und der schärfste Beobachter des frühen Prinzipats: Tacitus schrieb die Geschichte der Kaiser von Tiberius bis Nero als Mann aus der Mitte der Macht — kalt, verknappt, ohne Rücksicht auf den Ruf der Herrschenden.",
+    "metaDescription": "Tacitus: Leben, Werk und die in Vorbereitung befindliche zweibändige deutsche Ausgabe der Annalen in der Roten Linie des Aeternus Verlags.",
+    "ogDescription": "Die Zerlegung der Herrschaftsarchitektur von Tiberius bis Nero. Leben und Werk des Cornelius Tacitus.",
+    "bioKicker": "Biografie",
+    "bioTitle": "Ein Senator<br>seziert das Prinzipat",
+    "bioLede": "Er sah Senatoren schweigen, schmeicheln und fallen; er erlebte, wie das Wort im Senat zur Gefahr wurde. Aus dieser Erfahrung gewann seine Geschichtsschreibung ihre Kraft.",
+    "blocks": [
+      {
+        "h": "Leben und Zeit",
+        "p": [
+          "Cornelius Tacitus wurde wohl um 56 n. Chr. geboren; sein Geburtsort ist nicht sicher überliefert. Unter den flavischen Kaisern durchlief er die Ämterlaufbahn, war 97 Suffektkonsul und verwaltete später als Prokonsul die Provinz Asia.",
+          "Er kannte die Mechanismen des Prinzipats aus eigener Anschauung — die Denunziationen unter Domitian ebenso wie die vorsichtige Öffnung unter Nerva und Trajan. Seine großen Werke, die <i>Historien</i> und die <i>Annalen</i>, entstanden in dieser späten Zeit. Er starb vermutlich nach 117."
+        ]
+      },
+      {
+        "h": "Die Sprache",
+        "p": [
+          "Wo Cicero die harmonische, ausbalancierte Periode suchte, schuf Tacitus ein dunkles, monumentales Latein: asymmetrisch, überraschend, voller Auslassungen und jäher Wendungen. Verblose Ellipsen, harte Antithesen und peitschenhiebartige Sentenzen legen die Nacktheit der Macht offen.",
+          "Seine Sprache gleicht dem Staat, den er beschreibt — unberechenbar, gefährlich, ohne leeren Prunk. Die Aeternus-Ausgabe stellt dem Leser diese <i>brevitas</i> nicht geglättet gegenüber."
+        ]
+      },
+      {
+        "h": "Die Überlieferung",
+        "p": [
+          "Von den <i>Annalen</i>, der Geschichte Roms vom Tod des Augustus bis in die letzten Jahre Neros, sind zwölf Bücher erhalten: die Bücher I–VI und XI–XVI. Die Bücher VII–X sind verloren und werden nicht rekonstruiert; Lücken der Überlieferung bleiben im Lesetext sichtbar.",
+          "Textgrundlage der deutschen Ausgabe ist die Oxforder Edition von Charles Dennis Fisher (1906). Aeternus rahmt das Werk mit Vorwort, Autorenporträt, Nachwort und Registern; der Text selbst bleibt unverfälscht."
+        ]
+      }
+    ],
+    "facts": [
+      [
+        "Reihe",
+        "Rote Linie · Säule III"
+      ],
+      [
+        "Entstehung",
+        "Rom, um 115–120 n. Chr."
+      ],
+      [
+        "Quellsprache",
+        "Latein"
+      ],
+      [
+        "Status",
+        "In Vorbereitung"
+      ]
+    ],
+    "worksKicker": "In Vorbereitung",
+    "worksTitle": "Die Annalen<br>in zwei Bänden",
+    "worksIntro": "Die deutsche Neuübersetzung folgt dem erhaltenen Text vollständig: Band I umfasst die tiberische Epoche (Bücher I–VI), Band II die klaudisch-neronische Epoche (Bücher XI–XVI). Beide Bände erscheinen als Hardcover, mit Personen-, Orts- und Sachregister.",
+    "gridClass": "single-row",
+    "books": [
+      {
+        "cover": {
+          "img": "cover-tacitus-annalen-band-1"
+        },
+        "meta": "Geschichtswerk · Rom · um 117 n. Chr.",
+        "title": "Die Annalen · Band I",
+        "subtitle": "Tiberische Epoche · Bücher I–VI",
+        "modal": {
+          "metadata": "Aeternus Verlag · Rote Linie · Hardcover · in Vorbereitung",
+          "summary": "Rom nach Augustus. Unter Tiberius wird die Republik zur Fassade, der Senat zum Schauplatz von Furcht, Ehrgeiz und Verrat. Tacitus schreibt Geschichte als Machtanalyse: knapp, kalt und psychologisch unerbittlich.",
+          "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Oxforder Edition von 1906. Textverluste der Überlieferung bleiben sichtbar; nichts wird ergänzt, nichts geglättet.",
+          "amazon": "/"
+        }
+      },
+      {
+        "cover": {
+          "img": "cover-tacitus-annalen-band-2"
+        },
+        "meta": "Geschichtswerk · Rom · um 117 n. Chr.",
+        "title": "Die Annalen · Band II",
+        "subtitle": "Klaudisch-neronische Epoche · Bücher XI–XVI",
+        "modal": {
+          "metadata": "Aeternus Verlag · Rote Linie · Hardcover · in Vorbereitung",
+          "summary": "Unter Claudius und Nero wird die römische Republik endgültig zur blutigen Fassade. Der Senat verkommt zum Schauplatz von Unterwerfung, Furcht und Verrat. Tacitus kannte diese Welt als Senator aus nächster Nähe – und schreibt doch, wie er verspricht, ohne Zorn und Eifer: Geschichte als Psychologie der Macht, knapp, unbarmherzig und frei von Illusionen.",
+          "sample": "Der zweite Band umfasst die erhaltenen Bücher XI–XVI, von den Intrigen der Messalina bis zum Tod des Thrasea Paetus. Textverluste bleiben sichtbar; Band II schließt mit den Registern der Personen, Orte und Sachen.",
+          "amazon": "/"
+        }
+      }
+    ]
   }
 ];
 
