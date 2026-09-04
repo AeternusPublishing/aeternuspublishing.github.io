@@ -690,8 +690,7 @@ module.exports = [
     "books": [
       {
         "cover": {
-          "gen": "scouting",
-          "title": "Waldhandwerk"
+          "img": "cover-waldhandwerk"
         },
         "meta": "Ratgeber · New York · 1884",
         "title": "Waldhandwerk",
