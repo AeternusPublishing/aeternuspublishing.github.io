@@ -26,7 +26,8 @@ const AVAILABLE = {
   "lady-florentia-sale": ["de", "en"],
   "robert-baden-powell": ["de", "en"],
   // Nur Deutsch: die englische, spanische und polnische Fassung existiert noch nicht.
-  "henry-rider-haggard": ["de"]
+  "henry-rider-haggard": ["de"],
+  "george-washington-sears": ["de"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };

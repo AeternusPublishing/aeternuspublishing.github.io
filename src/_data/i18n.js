@@ -718,6 +718,18 @@ module.exports = {
           },
           books: []
         }
+        ,{
+          // Weiterer Autor der Bernsteinlinie (GWS_001). Noch kein Band erschienen — books leer.
+          // landingUrl nur Deutsch: die englische Autorenseite existiert noch nicht.
+          name: "George Washington Sears",
+          slug: "george-washington-sears",
+          landingUrl: { de: "/autoren/george-washington-sears/", en: "/autoren/george-washington-sears/" },
+          bio: {
+            de: "George Washington Sears, genannt Nessmuk, schrieb 1884 das erste Buch, das im Wald nicht den Überfluss, sondern das Weglassen lehrt. Waldhandwerk erscheint in der Reihe Bernstein.",
+            en: "George Washington Sears, known as Nessmuk, wrote in 1884 the first book to teach not abundance in the woods but going light. Woodcraft appears in the Amber series."
+          },
+          books: []
+        }
       ]
     },
     {
