@@ -602,8 +602,7 @@ module.exports = [
     "books": [
       {
         "cover": {
-          "gen": "scouting",
-          "title": "König Salomos<br>Schatzkammer"
+          "img": "cover-koenig-salomos-schatzkammer"
         },
         "meta": "Roman · London · 1885",
         "title": "König Salomos Schatzkammer",
