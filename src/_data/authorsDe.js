@@ -608,7 +608,7 @@ module.exports = [
         "title": "König Salomos Schatzkammer",
         "subtitle": "Roman einer Expedition in das unentdeckte Afrika",
         "modal": {
-          "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
+          "metadata": "344 Seiten · eBook 11,99 € · Taschenbuch 17,99 € · Hardcover 27,99 €",
           "summary": "Eine vergilbte, mit Blut gezeichnete Karte, die Legende von unermeßlichen Diamantenfeldern und das spurlose Verschwinden eines englischen Edelmanns: Das sind die Stücke, die den gealterten Elefantenjäger Allan Quatermain in das gefährlichste Unternehmen seines Lebens führen. Der Weg geht durch glühende Wüste und über die eiskalten Zwillingsgipfel der Königin von Saba in ein von der Welt vergessenes Reich.",
           "sample": "Die deutsche Ausgabe folgt der Fassung Cassell 1887 einschließlich der Einleitung und der neun Tafeln von Walter Paget. Der historische Wortlaut bleibt erhalten; Begriffe und Weltbild der Entstehungszeit werden im verlegerischen Apparat sichtbar gemacht, nicht im Werktext korrigiert.",
           "amazon": "/"
