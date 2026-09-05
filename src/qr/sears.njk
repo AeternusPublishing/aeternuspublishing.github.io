@@ -16,7 +16,12 @@ eleventyExcludeFromCollections: true
     if (!params.has("utm_source")) params.set("utm_source", "book_qr");
     if (!params.has("utm_medium")) params.set("utm_medium", "print");
     if (!params.has("utm_campaign")) params.set("utm_campaign", "sears");
-    window.location.replace("/autoren/george-washington-sears/?" + params.toString());
+    // Der QR-Weg steht in beiden Ausgaben (Waldhandwerk, Woodcraft) gleich im Buch: deutsche
+    // Browser landen auf der deutschen Seite, alle anderen auf der englischen; ohne JavaScript
+    // greift der Meta-Refresh auf die deutsche Seite.
+    const lang = (navigator.language || "").toLowerCase();
+    const target = lang.startsWith("de") ? "/autoren/george-washington-sears/" : "/en/authors/george-washington-sears/";
+    window.location.replace(target + "?" + params.toString());
   </script>
 </head>
 <body>
