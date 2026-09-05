@@ -176,5 +176,39 @@ module.exports = [
       { cover: { gen: "scouting", title: "Scouting<br>for Boys" }, meta: "Handbook &middot; London &middot; 1908", title: "Scouting for Boys", subtitle: "A handbook for instruction in good citizenship",
         modal: { metadata: "Aeternus Verlag · Amber line · in preparation", summary: "London 1908: an officer rewrites his military handbook for scouts into a book for boys. Campcraft, tracking, first aid, tests of nerve, and campfire yarns stand side by side — and became the founding text of the Scout movement.", sample: "The German edition follows the wording of the 1908 first edition, including the author's drawings. The historical wording is preserved; the terms and worldview of its time are made visible in the publisher's apparatus, not corrected in the work text." } }
     ]
+  },
+  {
+    // George Washington Sears, "Nessmuk" (GWS_001). The English edition gives Sears' own text
+    // of 1884 — no translation. Amber line. In preparation: preview banner, no retailer button.
+    slug: "george-washington-sears",
+    name: "George Washington Sears",
+    monogram: "GWS",
+    dates: "1821&ndash;1890",
+    seriesClass: "",
+    preview: true,
+    nameClass: "bird-name",
+    portrait: { file: "portrait-sears", alt: "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887", modern: true },
+    schema: { birthDate: "1821-12-02", deathDate: "1890-05-01", description: "American shoemaker, canoeist, and writer; as Nessmuk the founder of going light in the woods and by canoe." },
+    eyebrow: "Amber &middot; Youth, adventure, character",
+    tagline: "Go light; the lighter the better.",
+    intro: "Shoemaker, canoeist, and woodsman: in 1884, under the name “Nessmuk,” Sears wrote the first book to teach not abundance in the woods but going light &mdash; a small kit, an open camp, and a fire built as it should be.",
+    metaDescription: "George Washington Sears (Nessmuk): life, work, and the forthcoming Aeternus edition of Woodcraft (1884) in the Amber series — the complete first-edition text, fully illustrated.",
+    bioKicker: "Author &amp; context",
+    bioTitle: "Through the woods<br>with little",
+    bioLede: "A small, frail shoemaker from Pennsylvania became the best-loved voice of American outdoor life &mdash; because he could not carry much, and so had to carry wisely.",
+    blocks: [
+      { h: "Life &amp; period", p: ["Born in Massachusetts in 1821, Sears grew up in modest circumstances, learned the shoemaker’s trade, and as a young man sailed on a New Bedford whaler to the South Pacific. He took the name Nessmuk from a Narragansett who had taken him into the woods as a boy.", "He settled in Wellsboro in northern Pennsylvania and made his forest journeys from there for decades. Between 1880 and 1883 he cruised the Adirondack lakes in ever lighter canoes that J. Henry Rushton built to his specifications; the lightest, the <i>Sairy Gamp</i>, weighed ten and a half pounds."] },
+      { h: "The stance", p: ["Sears wrote for the “outers”: artisans, clerks, and small merchants who need one real rest a year and cannot buy it with guides, pack baskets, and forest hotels. His advice is plain: go light, build an open camp with a fire in front of it, cook simply, and shoot no more than you can eat.", "He saw the plunder of his day and condemned it in bitter words &mdash; in a book that otherwise sparkles with dry humor and long experience."] },
+      { h: "The legacy", p: ["<i>Woodcraft</i> was published in 1884 by the Forest and Stream Publishing Company and has been reprinted countless times since. His trio of a light hatchet, a sturdy sheath knife, and a two-blade pocket knife is still copied as the “Nessmuk trio.”", "Sears died in Wellsboro in 1890. A mountain and a lake in Pennsylvania bear his name; the <i>Sairy Gamp</i> is preserved at the Adirondack Experience museum."] }
+    ],
+    facts: [["Series", "Amber line &middot; Pillar V"], ["First edition", "New York, 1884"], ["Text", "The author’s own English, first edition"], ["Status", "In preparation"]],
+    worksKicker: "In preparation",
+    worksTitle: "The book of going light",
+    worksIntro: "The Aeternus edition gives the complete text of the 1884 first edition &mdash; kit, camp building, fire, fishing, camp cookery, a wilderness tramp, and the light canoe &mdash; with all ten original illustrations recreated as photorealistic reconstructions, Sears’ own chapter summaries in the table of contents, a glossary of the terms of his day, and an afterword on his legacy.",
+    gridClass: "single-item",
+    books: [
+      { cover: { img: "cover-woodcraft" }, meta: "Outdoor classic &middot; New York &middot; 1884", title: "Woodcraft", subtitle: "The 1884 Classic of Going Light, Fully Illustrated",
+        modal: { metadata: "Aeternus Publisher · Amber series · Paperback & Kindle · in preparation", summary: "New York, 1884: a Pennsylvania shoemaker who weighs little more than a hundred pounds writes down how to travel for weeks through the wilderness with twenty-six pounds of duffle. Knapsack, hatchet and knives, the shanty-tent, the camp-fire built as it should be, frogging and camp cookery, a ten days’ tramp alone across Michigan, and the ten-and-a-half-pound cedar canoe — Sears’ book is instruction and story in one.", sample: "The edition follows the first edition of 1884 word for word; later reprints revised Sears’ wording and dropped passages, and none of those changes are adopted. The ten woodcuts of the original are recreated as photorealistic reconstructions, and further plates after Sears’ own measurements are in preparation.", amazon: "/en/" } }
+    ]
   }
 ];

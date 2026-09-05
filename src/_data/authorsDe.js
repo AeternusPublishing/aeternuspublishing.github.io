@@ -625,9 +625,9 @@ module.exports = [
     "seriesClass": "",
     "preview": true,
     "portrait": {
-      "file": "portrait-sears.jpg",
-      "alt": "Monogramm George Washington Sears, Porträt folgt",
-      "modern": false
+      "file": "portrait-sears",
+      "alt": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",
+      "modern": true
     },
     "schema": {
       "birthDate": "1821-12-02",
@@ -680,10 +680,10 @@ module.exports = [
       ],
       [
         "Status",
-        "In Vorbereitung"
+        "Bei Amazon eingereicht"
       ]
     ],
-    "worksKicker": "In Vorbereitung",
+    "worksKicker": "Bei Amazon eingereicht",
     "worksTitle": "Das Buch vom Weglassen",
     "worksIntro": "Die deutsche Ausgabe folgt der Erstausgabe von 1884 in vollem Umfang: Ausrüstung, Lagerbau, Feuer, Angeln, Lagerküche, eine Wildnisfahrt und das leichte Kanu — quellennah übersetzt, mit den zehn Abbildungen der Erstausgabe als Rekonstruktionen und historischer Einordnung.",
     "gridClass": "single-item",
@@ -696,7 +696,7 @@ module.exports = [
         "title": "Waldhandwerk",
         "subtitle": "Woodcraft — die Kunst, mit wenig im Wald zu leben",
         "modal": {
-          "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
+          "metadata": "Aeternus Verlag · Bernsteinlinie · Taschenbuch 14,99 € · Kindle 9,99 € · bei Amazon eingereicht",
           "summary": "New York 1884: Ein Schuhmacher, der kaum hundert Pfund wiegt, schreibt auf, wie man mit sechsundzwanzig Pfund Gepäck wochenlang durch die Wildnis zieht. Rucksack, Beil und Messer, das Shanty-Zelt, das richtig gebaute Lagerfeuer, Froschfang und Lagerküche, ein zehntägiger Alleingang durch Michigan und das federleichte Zedernkanu — Sears' Buch ist Anleitung und Erzählung in einem.",
           "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1884. Maße, Preise und Gerätenamen bleiben im Bezugssystem der Zeit; ein Glossar und eine Übersicht der Maße erschließen sie. Die zehn Holzschnitte des Originals sind als fotorealistische Rekonstruktionen neu geschaffen.",
           "amazon": "/"

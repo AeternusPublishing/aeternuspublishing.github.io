@@ -26,7 +26,7 @@ eleventyExcludeFromCollections: false
 <body class="{{ a.seriesClass }}{% if a.preview %} is-preview{% endif %}">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header"><a class="brand" href="/en/" aria-label="Aeternus Verlag &mdash; home"><img src="/assets/images/logo-signet.svg" alt="" width="36" height="32"><span>Aeternus Verlag</span></a><nav class="nav" aria-label="Author page navigation"><a href="#biography">Biography</a><a href="#works">Works</a><span class="lang-switch">{%- for v in authorLangs.versions(a.slug, "en") %}{% if v.current %}<span aria-current="page">{{ v.label }}</span>{% else %}<a href="{{ v.url }}" hreflang="{{ v.lang }}">{{ v.label }}</a>{% endif %}{%- endfor %}</span></nav></header>
-  {% if a.preview %}<p class="preview-banner">Preview &middot; No edition published yet &middot; Title, cover and date are not yet fixed</p>{% endif %}
+  {% if a.preview %}<p class="preview-banner">Preview &middot; Edition in preparation &middot; Not yet available</p>{% endif %}
   <main id="main">
     <section class="hero" aria-labelledby="author-name">
       <div class="portrait-column"><figure class="portrait-frame">{% if a.portrait.modern %}<picture><source type="image/avif" srcset="/assets/images/{{ a.portrait.file }}.avif"><source type="image/webp" srcset="/assets/images/{{ a.portrait.file }}.webp"><img src="/assets/images/{{ a.portrait.file }}.jpg" alt="{{ a.portrait.alt }}" width="690" height="960" loading="eager" decoding="async"></picture>{% else %}<img src="/assets/images/{{ a.portrait.file }}" alt="{{ a.portrait.alt }}" width="690" height="960">{% endif %}<figcaption class="portrait-caption">AV <small>Author library</small></figcaption></figure></div>
