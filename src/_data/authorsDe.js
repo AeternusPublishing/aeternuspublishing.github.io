@@ -556,7 +556,7 @@ module.exports = [
     "monogram": "HRH",
     "dates": "1856–1925",
     "seriesClass": "",
-    "preview": true,
+    "preview": false,
     "portrait": {
       "file": "portrait-haggard",
       "alt": "Historisches Porträt von Henry Rider Haggard",
@@ -570,7 +570,7 @@ module.exports = [
     "eyebrow": "Bernstein · Jugend, Abenteuer, Charakterbildung",
     "tagline": "Wer Haggards Afrika betritt, betritt kein Phantasieprodukt aus dem Arbeitszimmer. Er ritt durch das Veldt, als die Speere der Zulu den Horizont verdunkelten – und schrieb auf, was er sah.",
     "intro": "Kolonialbeamter, Farmer, Jurist und Erzähler: Haggard schrieb 1885 einen Roman auf eine Wette hin – und erfand damit das Genre der verlorenen Welt.",
-    "metaDescription": "H. Rider Haggard: Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von König Salomos Schatzkammer in der Bernsteinlinie des Aeternus Verlags.",
+    "metaDescription": "H. Rider Haggard: Leben, Werk und die bei Amazon lieferbare deutsche Ausgabe von König Salomos Schatzkammer in der Bernsteinlinie des Aeternus Verlags.",
     "ogDescription": "Der Mann, der die Landkarte zur Handlung machte. Leben und Werk von H. Rider Haggard.",
     "bioKicker": "Biografie",
     "bioTitle": "Im Pulverdampf<br>des Empire",
@@ -595,24 +595,23 @@ module.exports = [
         ]
       }
     ],
-    "worksKicker": "In Vorbereitung",
+    "worksKicker": "Bei Amazon lieferbar",
     "worksTitle": "Die Ur-Schablone des Abenteuerromans",
     "worksIntro": "Die deutsche Ausgabe folgt der illustrierten Fassung Cassell 1887 einschließlich der neun Tafeln von Walter Paget.",
     "gridClass": "single-item",
     "books": [
       {
         "cover": {
-          "gen": "scouting",
-          "title": "König Salomos<br>Schatzkammer"
+          "img": "cover-koenig-salomos-schatzkammer"
         },
-        "meta": "Roman · London · 1885",
+        "meta": "Roman · Taschenbuch 17,99 € · Hardcover 27,99 €",
         "title": "König Salomos Schatzkammer",
         "subtitle": "Roman einer Expedition in das unentdeckte Afrika",
         "modal": {
-          "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
+          "metadata": "Aeternus Verlag · Bernsteinlinie · Taschenbuch 17,99 € · Hardcover 27,99 €",
           "summary": "Eine vergilbte, mit Blut gezeichnete Karte, die Legende von unermeßlichen Diamantenfeldern und das spurlose Verschwinden eines englischen Edelmanns: Das sind die Stücke, die den gealterten Elefantenjäger Allan Quatermain in das gefährlichste Unternehmen seines Lebens führen. Der Weg geht durch glühende Wüste und über die eiskalten Zwillingsgipfel der Königin von Saba in ein von der Welt vergessenes Reich.",
           "sample": "Die deutsche Ausgabe folgt der Fassung Cassell 1887 einschließlich der Einleitung und der neun Tafeln von Walter Paget. Der historische Wortlaut bleibt erhalten; Begriffe und Weltbild der Entstehungszeit werden im verlegerischen Apparat sichtbar gemacht, nicht im Werktext korrigiert.",
-          "amazon": "/"
+          "amazon": "https://www.amazon.de/dp/3912883548"
         }
       }
     ]

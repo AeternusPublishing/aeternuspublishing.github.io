@@ -106,6 +106,15 @@ async function gen(srcName, outputs) {
     { name: "cover-sale-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
 
+  // H. Rider Haggard, König Salomos Schatzkammer — Frontcover-Crop aus dem
+  // finalen Taschenbuch-Wrap (HRH001_PB_FINAL_20260905, front_rect_in aus dem
+  // build-report gegen den Buchsatz gerechnet).
+  await gen("cover-koenig-salomos-schatzkammer.jpg", [
+    { name: "cover-koenig-salomos-schatzkammer.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-koenig-salomos-schatzkammer.webp", resize: { width: 1024 }, webp: { quality: 80 } },
+    { name: "cover-koenig-salomos-schatzkammer-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+
   // Brüder Grimm, Schreckensmärchen Band I — finales E-Book-Cover.
   await gen("cover-grimm-band-i.jpg", [
     { name: "cover-grimm-band-i.avif", resize: { width: 1024 }, avif: { quality: 55, effort: 4 } },

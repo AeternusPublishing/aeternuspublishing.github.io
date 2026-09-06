@@ -706,7 +706,8 @@ module.exports = {
           books: []
         },
         {
-          // Dritter Autor der Bernsteinlinie. Noch kein Band erschienen — books leer.
+          // Dritter Autor der Bernsteinlinie. König Salomos Schatzkammer ist seit 05.09.2026
+          // als Taschenbuch und Hardcover bei Amazon lieferbar (ISBN -54-1 / -55-8).
           // landingUrl fuehrt bewusst nur Deutsch: die englische Autorenseite existiert
           // noch nicht, und ein Link auf eine 404 waere schaedlicher als keiner.
           name: "H. Rider Haggard",
@@ -716,7 +717,19 @@ module.exports = {
             de: "H. Rider Haggard schrieb 1885 auf eine Wette hin einen Roman — und erfand damit das Genre der verlorenen Welt. König Salomos Schatzkammer erscheint in der Reihe Bernstein.",
             en: "In 1885 H. Rider Haggard wrote a novel on a wager — and invented the lost-world genre. King Solomon’s Mines appears in the Amber series."
           },
-          books: []
+          books: [
+            {
+              cover: "cover-koenig-salomos-schatzkammer",
+              isbn: "978-3-912883-54-1",
+              amazonUrl: "https://www.amazon.de/dp/3912883548",
+              originalTitle: "King Solomon's Mines, 1885",
+              title: { de: "König Salomos Schatzkammer", en: "King Solomon's Mines" },
+              desc: {
+                de: "Eine Schatzkarte, ein verschollener Adliger und ein vergessenes Königreich hinter der Wüste: Haggards Roman von 1885 erfand das Genre der verlorenen Welt.",
+                en: "A treasure map, a vanished nobleman, and a forgotten kingdom beyond the desert: Haggard's 1885 novel invented the lost-world genre."
+              }
+            }
+          ]
         }
         ,{
           // Weiterer Autor der Bernsteinlinie (GWS_001). Waldhandwerk ist bei Amazon eingereicht,
