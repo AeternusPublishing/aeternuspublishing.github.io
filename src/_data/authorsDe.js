@@ -772,6 +772,113 @@ module.exports = [
         }
       }
     ]
+  },
+  {
+    "slug": "theodore-roosevelt",
+    "name": "Theodore Roosevelt",
+    "monogram": "TR",
+    "dates": "1858–1919",
+    "seriesClass": "series-anthracite",
+    "preview": true,
+    "portrait": {
+      "file": "portrait-roosevelt",
+      "alt": "Theodore Roosevelt nach dem Gemälde von Philip Alexius de László, 1908",
+      "modern": true
+    },
+    "schema": {
+      "birthDate": "1858-10-27",
+      "deathDate": "1919-01-06",
+      "description": "Amerikanischer Historiker, Naturforscher und Staatsmann; Verfasser von The Winning of the West."
+    },
+    "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
+    "tagline": "Der Westen als historische Schule des Charakters.",
+    "intro": "Historiker, Naturforscher und Staatsmann: Lange vor der Präsidentschaft schrieb Roosevelt die Geschichte jener Grenzwelt, aus der das amerikanische Gemeinwesen hervorging.",
+    "metaDescription": "Theodore Roosevelt bei AETERNUS: Die Eroberung des Westens in vier Bänden – erstmals vollständig auf Deutsch, in der Anthrazitlinie.",
+    "ogDescription": "Der Westen als historische Schule des Charakters. Leben und Werk Theodore Roosevelts.",
+    "bioKicker": "Autor & Kontext",
+    "bioTitle": "Quellen lesen,<br>Bewegung erzählen",
+    "bioLede": "Ein Gelehrter und politischer Mensch zugleich: Quellenforscher und Erzähler, Angehöriger einer alten Familie des Ostens und Bewunderer der Grenzer.",
+    "blocks": [
+      {
+        "h": "Leben & Zeit",
+        "p": [
+          "Als Roosevelt im Mai 1889 das Vorwort zum ersten Band von <i>The Winning of the West</i> datierte, war er dreißig Jahre alt. Die Präsidentschaft und die weltpolitische Rolle lagen noch vor ihm.",
+          "Geboren 1858 in New York, zwangen ihn Asthma und eine fragile Konstitution früh zu jener Selbstdisziplin, die später zum Lebensprinzip wurde: Widerstand sollte nicht umgangen, sondern überwunden werden."
+        ]
+      },
+      {
+        "h": "Haltung",
+        "p": [
+          "Roosevelt war kein Historiker im späteren akademischen Sinne. Er war etwas Eigentümlicheres: Gelehrter und politischer Mensch zugleich, Quellenforscher und Erzähler.",
+          "Nach dem Tod seiner Frau und seiner Mutter am selben Tag im Februar 1884 kehrte er in das Dakota-Territorium zurück. Der Westen war für ihn fortan kein geographischer Raum mehr, sondern eine historische Schule des Charakters."
+        ]
+      },
+      {
+        "h": "Das Werk",
+        "p": [
+          "Roosevelt wollte erklären, wie aus einem schmalen Streifen englischsprachiger Kolonien an der Atlantikküste ein kontinentales Gemeinwesen wurde. Sein Gegenstand war größer als die Geschichte einzelner Pioniere: ihn interessierte die Bewegung selbst.",
+          "<i>The Winning of the West</i> erschien zwischen 1889 und 1896 in vier Bänden bei G. P. Putnam’s Sons. AETERNUS legt das Werk erstmals vollständig auf Deutsch vor."
+        ]
+      }
+    ],
+    "worksKicker": "Die Reihe",
+    "worksTitle": "Die Eroberung des Westens",
+    "worksIntro": "Vier Bände, erstmals vollständig auf Deutsch. Ein Titel öffnet Einordnung und Leseprobe.",
+    "gridClass": "count-4",
+    "books": [
+      {
+        "cover": {
+          "img": "cover-wotw-1"
+        },
+        "meta": "Geschichte · 1889",
+        "title": "Die Eroberung des Westens · Band I",
+        "subtitle": "Von den Alleghenies zum Mississippi, 1769–1776",
+        "modal": {
+          "metadata": "AETERNUS Verlag · Hardcover · in Vorbereitung",
+          "summary": "Wie die englischsprachigen Völker über die Berge kamen: Roosevelt setzt bei den Grenzern der Alleghenies an, bei Boone und den Long Hunters, und führt bis an die Schwelle der Revolution.",
+          "sample": "Der Westen war für Roosevelt nicht bloß ein Raum, sondern eine Bewegung – und diese Bewegung beginnt hier."
+        }
+      },
+      {
+        "cover": {
+          "img": "cover-wotw-2"
+        },
+        "meta": "Geschichte · 1889",
+        "title": "Die Eroberung des Westens · Band II",
+        "subtitle": "Im Strom der Revolution, 1777–1783",
+        "modal": {
+          "metadata": "AETERNUS Verlag · Hardcover · in Vorbereitung",
+          "summary": "Clarks Zug gegen das Illinois-Land, King’s Mountain, die Holston- und Cumberland-Siedlungen: der Unabhängigkeitskrieg, gesehen von seiner westlichen Flanke.",
+          "sample": "Was die Männer des Westens während der Revolution taten, entschied mit, wie weit die junge Republik reichen würde."
+        }
+      },
+      {
+        "cover": {
+          "img": "cover-wotw-3"
+        },
+        "meta": "Geschichte · 1894",
+        "title": "Die Eroberung des Westens · Band III",
+        "subtitle": "Die Wiege des Grenzlandes, 1784–1790",
+        "modal": {
+          "metadata": "AETERNUS Verlag · Hardcover · in Vorbereitung",
+          "summary": "Der Ansturm der Siedler, der Staat Franklin, Kentuckys Kampf um die Staatlichkeit: die Jahre, in denen sich entschied, ob der Westen zur Union gehören würde.",
+          "sample": "Jahrelang schwankte vieles. Aber die Strömung setzte, so wirbelnd und träge sie war, auf die Union zu."
+        }
+      },
+      {
+        "cover": {
+          "img": "cover-wotw-4"
+        },
+        "meta": "Geschichte · 1896",
+        "title": "Die Eroberung des Westens · Band IV",
+        "subtitle": "Louisiana und der ferne Westen, 1791–1807",
+        "modal": {
+          "metadata": "AETERNUS Verlag · Hardcover · in Vorbereitung",
+          "summary": "St. Clairs Niederlage, Waynes Feldzug, der Erwerb Louisianas und die Erforscher des fernen Westens: der Abschluss des Werks.",
+          "sample": "Am Ende steht ein Kontinent – und die Frage, was seine Eroberung gekostet hat."
+        }
+      }
+    ]
   }
 ];
 
