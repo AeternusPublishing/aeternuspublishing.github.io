@@ -719,19 +719,6 @@ module.exports = {
           },
           books: [
             {
-  "name": "Felix Salten",
-  "slug": "felix-salten",
-  "landingUrl": {
-    "de": "/autoren/felix-salten/",
-    "en": "/autoren/felix-salten/"
-  },
-  "bio": {
-    "de": "Der Erzähler hinter Bambi. Unsere erste illustrierte Salten-Ausgabe ist in Vorbereitung; weitere Tierromane erweitern den Blick auf sein Werk.",
-    "en": "The author behind Bambi. Our first illustrated German Salten edition is in preparation; discover more of his animal stories on the German author page."
-  },
-  "books": []
-},
-        {
               cover: "cover-koenig-salomos-schatzkammer",
               isbn: "978-3-912883-54-1",
               amazonUrl: "https://www.amazon.de/dp/3912883548",
@@ -1001,3 +988,18 @@ module.exports = {
 };
 
 // Array array matrix for your catalogue grid generation loop
+
+// Author entry, separate from the bibliography of every existing author.
+module.exports.seriesItems.find(series => series.slug === "bernstein").authors.push({
+  "name": "Felix Salten",
+  "slug": "felix-salten",
+  "landingUrl": {
+    "de": "/autoren/felix-salten/",
+    "en": "/autoren/felix-salten/"
+  },
+  "bio": {
+    "de": "Der Erzähler hinter Bambi. Unsere erste illustrierte Salten-Ausgabe ist in Vorbereitung; weitere Tierromane erweitern den Blick auf sein Werk.",
+    "en": "The author behind Bambi. Our first illustrated German Salten edition is in preparation; discover more of his animal stories on the German author page."
+  },
+  "books": []
+});
