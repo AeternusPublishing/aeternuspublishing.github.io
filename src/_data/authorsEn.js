@@ -49,37 +49,188 @@ module.exports = [
     ]
   },
   {
-    slug: "robert-montgomery-bird",
-    name: "Robert Montgomery Bird",
-    monogram: "RMB",
-    dates: "1806&ndash;1854",
-    seriesClass: "series-anthracite",
-    preview: false,
-    nameClass: "bird-name",
-    portrait: { file: "portrait-bird", alt: "Historical portrait of Robert Montgomery Bird", modern: true },
-    schema: { birthDate: "1806-02-05", deathDate: "1854-01-23", description: "American physician, dramatist, novelist, and artist." },
-    eyebrow: "Anthracite &middot; Frontier literature &amp; primal conflict",
-    tagline: "Where civilization becomes a fragile line.",
-    intro: "Physician, dramatist, novelist, and artist, Bird wrote about identity, violence, and social order on the borders of early America.",
-    metaDescription: "Robert Montgomery Bird: biography and frontier novels in the Anthracite series of Aeternus Verlag.",
-    bioKicker: "Author &amp; context",
-    bioTitle: "The dark anatomy of the frontier",
-    bioLede: "Bird's work joins historical romance, political satire, and stage drama to an unusually sharp view of power and transformation.",
-    blocks: [
-      { h: "Life &amp; period", p: ["Born in Delaware in 1806, Bird studied medicine in Philadelphia and soon left practice for literature.", "His most productive years yielded plays and novels before he turned toward medicine, politics, and journalism."] },
-      { h: "Form &amp; conflict", p: ["Bird uses the frontier as a moral pressure chamber. Disguise, double identity, and rumor propel his figures through unstable orders.", "Even his historical novels retain a dramatist's instinct, tightening decisions around their consequences."] },
-      { h: "Rediscovery", p: ["<i>Nick of the Woods</i> made Bird internationally known in the nineteenth century. <i>Sheppard Lee</i> is now read anew as early experimental satire.", "The Aeternus edition opens Bird's frontier novel to German readers in a complete new translation."] }
+    "slug": "robert-montgomery-bird",
+    "name": "Robert Montgomery Bird",
+    "monogram": "RMB",
+    "dates": "1806&ndash;1854",
+    "seriesClass": "series-anthracite",
+    "preview": false,
+    "nameClass": "bird-name",
+    "portrait": {
+      "file": "portrait-bird",
+      "alt": "Historical portrait of Robert Montgomery Bird",
+      "modern": true
+    },
+    "schema": {
+      "birthDate": "1806-02-05",
+      "deathDate": "1854-01-23",
+      "description": "American physician, dramatist, novelist, and artist."
+    },
+    "eyebrow": "Anthracite &middot; Frontier literature &amp; primal conflict",
+    "tagline": "Where civilization becomes a fragile line.",
+    "intro": "Physician, dramatist, novelist, and artist, Bird wrote about identity, violence, and social order on the borders of early America.",
+    "metaDescription": "Robert Montgomery Bird at AETERNUS: illustrated English editions of Nick of the Woods and The Hawks of Hawk-Hollow, with formats and international Amazon links.",
+    "bioKicker": "Author &amp; context",
+    "bioTitle": "The dark anatomy of the frontier",
+    "bioLede": "Bird's work joins historical romance, political satire, and stage drama to an unusually sharp view of power and transformation.",
+    "blocks": [
+      {
+        "h": "Life &amp; period",
+        "p": [
+          "Born in Delaware in 1806, Bird studied medicine in Philadelphia and soon left practice for literature.",
+          "His most productive years yielded plays and novels before he turned toward medicine, politics, and journalism."
+        ]
+      },
+      {
+        "h": "Form &amp; conflict",
+        "p": [
+          "Bird uses the frontier as a moral pressure chamber. Disguise, double identity, and rumor propel his figures through unstable orders.",
+          "Even his historical novels retain a dramatist's instinct, tightening decisions around their consequences."
+        ]
+      },
+      {
+        "h": "Rediscovery",
+        "p": [
+          "<i>Nick of the Woods</i> made Bird internationally known in the nineteenth century. <i>Sheppard Lee</i> is now read anew as early experimental satire.",
+          "AETERNUS brings these novels back to English-language readers in illustrated editions. New editorial material gives readers a way into their historical world without smoothing away its conflicts."
+        ]
+      }
     ],
-    worksKicker: "Selected works",
-    worksTitle: "The frontier under pressure",
-    worksIntro: "Historic texts, carefully reopened. Select a title for context, a reading sample, and its available Amazon route.",
-    gridClass: "single-row",
-    books: [
-      { cover: { img: "cover-waldteufel" }, meta: "Frontier novel &middot; Kentucky &middot; 1837", title: "Nick of the Woods", subtitle: "A tale of the Kentucky frontier",
-        modal: { metadata: "Aeternus Verlag · Hardcover & Kindle", summary: "Bird's best-known frontier novel follows a party through Kentucky in 1782, where identity, violence, and legend continually change shape.", sample: "In the border forest nothing is stable, neither the marks on the ground nor the names under which people meet one another.", amazon: "https://www.amazon.com/s?k=Nick%20of%20the%20Woods%20Robert%20Montgomery%20Bird" } },
-      { cover: { gen: "hawks", title: "The Hawks of<br>Hawk-Hollow" }, meta: "Historical novel &middot; Pennsylvania &middot; 1835", title: "The Hawks of Hawk-Hollow", subtitle: "A tradition of Pennsylvania",
-        modal: { metadata: "Historical novel · Pennsylvania · 1835", summary: "Family inheritance, political loyalty, and old violence converge in a landscape unwilling to surrender its history.", sample: "Hawk-Hollow keeps its past not in archives but in glances, rumors, and the roads people avoid after dark.", amazon: "https://www.amazon.com/s?k=The%20Hawks%20of%20Hawk-Hollow%20Robert%20Montgomery%20Bird" } }
-    ]
+    "worksKicker": "Selected works",
+    "worksTitle": "The frontier under pressure",
+    "worksIntro": "Two illustrated English editions: Kentucky frontier suspense and a Pennsylvania romance of divided loyalties. Explore each book, then choose a format and your Amazon store.",
+    "gridClass": "single-row",
+    "books": [
+      {
+        "cover": {
+          "img": "cover-nick-en"
+        },
+        "meta": "Frontier novel &middot; Kentucky &middot; 1837",
+        "title": "Nick of the Woods",
+        "subtitle": "A tale of the Kentucky frontier",
+        "modal": {
+          "metadata": "AETERNUS · English · Illustrated · Kindle, paperback & hardcover",
+          "summary": "Kentucky, 1782. A party of travelers enters a forest haunted by the name Jibbenainosay. Their guide, Nathan Slaughter, is a Quaker who appears to reject violence; the dangers around him make that conviction increasingly difficult to read. Bird turns a frontier adventure into a story of hidden identity and vengeance.",
+          "sample": "An illustrated English edition with a glossary, an afterword and a note on the edition. Bird’s portrayal of frontier warfare, including its hostility toward Indigenous people, belongs to the novel’s historical perspective; the editorial material helps readers place it in context.",
+          "amazon": "#edition-nick"
+        },
+        "id": "edition-nick",
+        "status": "Available now",
+        "formats": [
+          {
+            "name": "Kindle",
+            "isbn": "978-3-912883-14-5",
+            "price": "US list price $6.99",
+            "links": [
+              {
+                "label": "United States",
+                "url": "https://www.amazon.com/dp/B0HFG6QCY5"
+              },
+              {
+                "label": "United Kingdom",
+                "url": "https://www.amazon.co.uk/dp/B0HFG6QCY5"
+              },
+              {
+                "label": "Australia",
+                "url": "https://www.amazon.com.au/dp/B0HFG6QCY5"
+              },
+              {
+                "label": "Canada",
+                "url": "https://www.amazon.ca/dp/B0HFG6QCY5"
+              }
+            ]
+          },
+          {
+            "name": "Paperback",
+            "isbn": "978-3-912883-25-1",
+            "price": "US list price $14.99",
+            "links": [
+              {
+                "label": "United States",
+                "url": "https://www.amazon.com/dp/3912883254"
+              },
+              {
+                "label": "United Kingdom",
+                "url": "https://www.amazon.co.uk/dp/3912883254"
+              },
+              {
+                "label": "Australia",
+                "url": "https://www.amazon.com.au/dp/3912883254"
+              },
+              {
+                "label": "Canada",
+                "url": "https://www.amazon.ca/dp/3912883254"
+              }
+            ]
+          },
+          {
+            "name": "Hardcover",
+            "isbn": "978-3-912883-11-4",
+            "price": "US list price $24.99",
+            "links": [
+              {
+                "label": "United States",
+                "url": "https://www.amazon.com/dp/3912883114"
+              },
+              {
+                "label": "United Kingdom",
+                "url": "https://www.amazon.co.uk/dp/3912883114"
+              },
+              {
+                "label": "Canada",
+                "url": "https://www.amazon.ca/dp/3912883114"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cover": {
+          "img": "cover-hawks-en"
+        },
+        "meta": "Historical novel &middot; Pennsylvania &middot; 1835",
+        "title": "The Hawks of Hawk-Hollow",
+        "subtitle": "A tradition of Pennsylvania",
+        "modal": {
+          "metadata": "AETERNUS · English · 468 print pages · 15 illustrations",
+          "summary": "In Pennsylvania, the Revolution has left loyalties divided and old injuries unsettled. The return of a dispossessed family draws love, inheritance and revenge into the same conflict. A mysterious stranger and the outlaw reputation of the Hawks turn a quiet valley into a place where every allegiance has a price.",
+          "sample": "The complete novel, with both original volumes in one edition, 15 new illustrations, a new foreword, historical context and a selective glossary. Spelling has been lightly modernized for readability; Bird’s narrative voice and the characters’ dialects are preserved.",
+          "amazon": "#edition-hawks"
+        },
+        "id": "edition-hawks",
+        "status": "Forthcoming · Amazon release in progress",
+        "formats": [
+          {
+            "name": "Kindle",
+            "isbn": "978-3-912883-90-9",
+            "price": "German list price €10.99 incl. VAT · In review",
+            "links": []
+          },
+          {
+            "name": "Paperback",
+            "isbn": "978-3-912883-88-6",
+            "price": "German list price €17.99 incl. VAT · Release in progress",
+            "links": []
+          },
+          {
+            "name": "Hardcover",
+            "isbn": "978-3-912883-89-3",
+            "price": "German list price €27.99 incl. VAT · Release in progress",
+            "links": []
+          }
+        ],
+        "availabilityNote": "Submitted to Amazon on 7 September 2026. Purchase links will be added once the editions are live. Local-currency prices will appear in each supported store."
+      }
+    ],
+    "brand": "AETERNUS",
+    "sampleLabel": "About this edition",
+    "editionSection": true,
+    "editionsTitle": "Choose your edition",
+    "modalActionLabel": "Formats & availability",
+    "ogDescription": "Where civilization becomes a fragile line.",
+    "editionsNote": "Prices and delivery depend on your Amazon store; the applicable local taxes are handled by Amazon. US prices may have sales tax added at checkout. Hardcover is offered in the US, UK and Canada; Amazon.com.au supports the Kindle and paperback editions. Availability checked 7 September 2026.",
+    "sisterUrl": "/autoren/robert-montgomery-bird/",
+    "sisterLabel": "Looking for the German editions?"
   },
   {
     slug: "henry-ford",

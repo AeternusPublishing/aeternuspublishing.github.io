@@ -1,0 +1,14 @@
+.bird-editions{max-width:1160px;margin:0 auto;padding:3rem 5vw 5rem;color:#d5cbb9;line-height:1.7}
+.bird-editions h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.15;color:#e3d5b8}
+.bird-edition{padding:2.5rem 0;border-bottom:1px solid #62563e;scroll-margin-top:6rem}
+.bird-edition h3{font-size:clamp(1.6rem,3vw,2.4rem);line-height:1.2;color:#e3d5b8}
+.bird-edition>p{max-width:78ch;margin:1rem 0}
+.bird-formats{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:1.5rem;margin:2rem 0}
+.bird-format{padding:1.25rem;border:1px solid #62563e;min-width:0}
+.bird-format h4{font-size:1.3rem;margin:0;color:#e3d5b8}
+.bird-format ul{list-style:none;padding:0;margin:1rem 0 0}
+.bird-format li{margin:.35rem 0}
+.bird-editions a{color:#e6c980;text-decoration:underline;text-underline-offset:.2em}
+.bird-editions a:focus-visible{outline:2px solid #e6c980;outline-offset:4px}
+.bird-isbn{font-size:.9rem;overflow-wrap:anywhere}
+.bird-availability{border-left:3px solid #b79b5a;padding-left:1rem}

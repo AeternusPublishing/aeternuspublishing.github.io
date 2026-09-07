@@ -207,8 +207,8 @@ module.exports = [
     "eyebrow": "Anthrazit · Grenzliteratur & Ur-Konflikt",
     "tagline": "Wo Zivilisation zur dünnen Linie wird.",
     "intro": "Arzt, Dramatiker, Romancier und Zeichner: Bird schrieb über Identität, Gewalt und gesellschaftliche Ordnung in den Grenzräumen des frühen Amerika.",
-    "metaDescription": "Robert Montgomery Bird: Biografie und Grenzromane in der Anthrazitlinie des Aeternus Verlags.",
-    "ogDescription": "Wo Zivilisation zur duennen Linie wird. Leben und Werk von Robert Montgomery Bird.",
+    "metaDescription": "Robert Montgomery Bird bei AETERNUS: Der Waldteufel und Die Falken von Hawk-Hollow. Illustrierte deutsche Ausgaben, Ausstattung, Formate und Kauflinks.",
+    "ogDescription": "Wo Zivilisation zur dünnen Linie wird. Robert Montgomery Bird in illustrierten deutschen Ausgaben.",
     "bioKicker": "Autor & Kontext",
     "bioTitle": "Die dunkle Anatomie der Grenze",
     "bioLede": "Birds Werk verbindet historischen Roman, politische Satire und Bühnendrama mit einem ungewöhnlich scharfen Blick auf Macht und Verwandlung.",
@@ -231,13 +231,13 @@ module.exports = [
         "h": "Wiederentdeckung",
         "p": [
           "<i>Der Waldteufel</i> machte Bird im 19. Jahrhundert international bekannt. <i>Sheppard Lee</i> wird heute als frühe, experimentelle Satire neu gelesen.",
-          "Die Aeternus-Ausgabe erschließt Birds Grenzroman erstmals vollständig auf Deutsch."
+          "AETERNUS erschließt die beiden Romane in vollständigen deutschen Übersetzungen mit Illustrationen und editorischem Begleitmaterial. Parallel erscheinen eigenständige englischsprachige Ausgaben."
         ]
       }
     ],
     "worksKicker": "Ausgewählte Werke",
     "worksTitle": "Die Grenze unter Druck",
-    "worksIntro": "Historische Texte, neu erschlossen. Ein Titel öffnet Einordnung, Leseprobe und den verfügbaren Amazon-Weg.",
+    "worksIntro": "Zwei illustrierte deutsche Ausgaben: ein Grenzroman aus Kentucky und ein historischer Roman um geteilte Loyalitäten in Pennsylvania. Hier finden Sie Inhalt, Ausstattung und die verfügbaren Formate.",
     "gridClass": "single-row",
     "books": [
       {
@@ -248,28 +248,98 @@ module.exports = [
         "title": "Der Waldteufel",
         "subtitle": "Eine Erzählung aus Kentucky",
         "modal": {
-          "metadata": "Aeternus Verlag · Hardcover & Kindle",
-          "summary": "Ein vergessener Klassiker der amerikanischen Grenzliteratur, erstmals vollständig auf Deutsch und editorisch neu erschlossen.",
-          "sample": "Im Grenzwald ist nichts eindeutig: weder die Spuren im Boden noch die Namen, unter denen Menschen einander begegnen.",
-          "amazon": "https://www.amazon.de/dp/3912883106"
-        }
+          "metadata": "AETERNUS Verlag · Deutsch · Illustriert · Kindle & Hardcover",
+          "summary": "Kentucky, 1782. Eine Reisegesellschaft gerät in einen Wald, in dem der Name Jibbenainosay Angst verbreitet. Ihr Führer Nathan Slaughter scheint als Quäker jeder Gewalt abzuschwören. Doch je größer die Gefahr wird, desto rätselhafter erscheint er. Bird verbindet das Grenzabenteuer mit einer Geschichte um verborgene Identität und Vergeltung.",
+          "sample": "Vollständige deutsche Übersetzung mit Illustrationen und editorischem Begleitmaterial. Birds Darstellung der Grenzkriege und seine feindseligen Bilder indigener Menschen werden als Teil der historischen Perspektive des Romans lesbar gemacht.",
+          "amazon": "#edition-nick"
+        },
+        "id": "edition-nick",
+        "status": "Jetzt erhältlich",
+        "formats": [
+          {
+            "name": "Kindle",
+            "isbn": "978-3-912883-13-8",
+            "price": "11,99 €",
+            "links": [
+              {
+                "label": "Amazon.de",
+                "url": "https://www.amazon.de/dp/B0HDRJVR7N"
+              }
+            ]
+          },
+          {
+            "name": "Hardcover",
+            "isbn": "978-3-912883-10-7",
+            "price": "27,99 €",
+            "links": [
+              {
+                "label": "Amazon.de",
+                "url": "https://www.amazon.de/dp/3912883106"
+              }
+            ]
+          }
+        ]
       },
       {
         "cover": {
-          "gen": "hawks",
-          "title": "Die Falken von<br>Hawk-Hollow"
+          "img": "cover-hawks-de"
         },
         "meta": "Historischer Roman · Pennsylvania · 1835",
         "title": "Die Falken von Hawk-Hollow",
         "subtitle": "Eine Tradition aus Pennsylvania",
         "modal": {
-          "metadata": "Historischer Roman · Pennsylvania · 1835",
-          "summary": "Familienerbe, politische Loyalität und alte Gewaltlinien verdichten sich in einer Landschaft, die ihre Geschichte nicht preisgibt.",
-          "sample": "Hawk-Hollow bewahrt seine Vergangenheit nicht in Archiven, sondern in Blicken, Gerüchten und den Wegen, die nachts gemieden werden.",
-          "amazon": "https://www.amazon.de/s?k=The%20Hawks%20of%20Hawk-Hollow%20Robert%20Montgomery%20Bird"
-        }
+          "metadata": "AETERNUS Verlag · Deutsch · 530 Druckseiten · Illustriert",
+          "summary": "In Pennsylvania hat die Revolution geteilte Loyalitäten und offene Rechnungen hinterlassen. Die Rückkehr einer enteigneten Familie verknüpft Liebe, Erbe und Vergeltung. Ein geheimnisvoller Fremder und der Ruf der geächteten Falken verwandeln das Tal in einen Ort, an dem jede Bindung ihren Preis hat.",
+          "sample": "Der vollständige Roman in deutscher Übersetzung, beide ursprünglichen Bände in einer Ausgabe. Illustrationen und editorisches Begleitmaterial erschließen die historischen Konflikte und die Welt des Romans.",
+          "amazon": "#edition-hawks"
+        },
+        "id": "edition-hawks",
+        "status": "Jetzt erhältlich",
+        "formats": [
+          {
+            "name": "Kindle",
+            "isbn": "978-3-912883-53-4",
+            "price": "12,99 €",
+            "links": [
+              {
+                "label": "Amazon.de",
+                "url": "https://www.amazon.de/dp/B0HHJRK4TL"
+              }
+            ]
+          },
+          {
+            "name": "Taschenbuch",
+            "isbn": "978-3-912883-51-0",
+            "price": "19,99 €",
+            "links": [
+              {
+                "label": "Amazon.de",
+                "url": "https://www.amazon.de/dp/3912883513"
+              }
+            ]
+          },
+          {
+            "name": "Hardcover",
+            "isbn": "978-3-912883-52-7",
+            "price": "29,99 €",
+            "links": [
+              {
+                "label": "Amazon.de",
+                "url": "https://www.amazon.de/dp/3912883521"
+              }
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "brand": "Aeternus Verlag",
+    "sampleLabel": "Zur Ausgabe",
+    "editionSection": true,
+    "editionsTitle": "Die Ausgaben im Überblick",
+    "modalActionLabel": "Formate & Verfügbarkeit",
+    "editionsNote": "Preisangaben für Amazon.de einschließlich Umsatzsteuer; gegebenenfalls zuzüglich Versand. Lieferbarkeit und aktueller Verkaufspreis stehen beim Händler. Verfügbarkeit geprüft am 7. September 2026.",
+    "sisterUrl": "/en/authors/robert-montgomery-bird/",
+    "sisterLabel": "Sie suchen die englischen Ausgaben?"
   },
   {
     "slug": "henry-ford",

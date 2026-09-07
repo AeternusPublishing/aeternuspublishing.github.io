@@ -1,0 +1,24 @@
+<section class="bird-editions" aria-labelledby="editions-title">
+  <h2 id="editions-title">{{ a.editionsTitle }}</h2>
+  {% for bk in a.books %}
+  <article class="bird-edition" id="{{ bk.id }}">
+    <p class="section-kicker">{{ bk.status }}</p>
+    <h3>{{ bk.title }}</h3>
+    <p>{{ bk.modal.metadata }}</p>
+    <p>{{ bk.modal.summary }}</p>
+    <p>{{ bk.modal.sample }}</p>
+    {% if bk.availabilityNote %}<p class="bird-availability">{{ bk.availabilityNote }}</p>{% endif %}
+    <div class="bird-formats">
+      {% for f in bk.formats %}
+      <div class="bird-format"><h4>{{ f.name }}</h4><p>{{ f.price }}</p><p class="bird-isbn">ISBN {{ f.isbn }}</p>
+      {% if f.links.length %}<ul>{% for link in f.links %}<li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ bk.title }} · {{ f.name }} · {{ link.label }}">{{ link.label }} <span aria-hidden="true">↗</span></a></li>{% endfor %}</ul>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </article>
+  {% endfor %}
+  <p>{{ a.editionsNote }}</p>
+  <p><a href="{{ a.sisterUrl }}">{{ a.sisterLabel }} →</a></p>
+  <p>{% if a.brand == 'AETERNUS' %}<a href="/impressum/">Legal notice (German)</a> · <a href="/datenschutz/">Privacy (German)</a>{% else %}<a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a>{% endif %}</p>
+</section>
+<script>document.addEventListener('DOMContentLoaded',function(){document.getElementById('modal-amazon').addEventListener('click',function(){document.querySelector('#book-modal .modal-close').click()})});</script>
