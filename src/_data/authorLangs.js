@@ -20,6 +20,7 @@ const P = {
 };
 
 const AVAILABLE = {
+  "felix-salten": ["de"],
   "ernest-thompson-seton": ["de", "en", "es", "pl"],
   "robert-montgomery-bird": ["de", "en", "es"],
   "henry-ford": ["de", "en"],

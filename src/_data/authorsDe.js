@@ -774,3 +774,124 @@ module.exports = [
     ]
   }
 ];
+
+// Felix Salten: publisher-requested author landing page, 2026-09-07.
+module.exports.push({
+  "slug": "felix-salten",
+  "name": "Felix Salten",
+  "monogram": "FS",
+  "dates": "1869–1945",
+  "seriesClass": "",
+  "preview": true,
+  "previewStatus": "Bambi in Vorbereitung · Weitere Werke in Auswahl",
+  "sampleLabel": "Zum Werk",
+  "portrait": {
+    "file": "portrait-salten",
+    "alt": "Felix Salten, historische Fotografie von Ferdinand Schmutzer, um 1910",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1869-09-06",
+    "deathDate": "1945-10-08",
+    "description": "Wiener Schriftsteller und Journalist, Autor von Bambi und weiteren Tierromanen."
+  },
+  "eyebrow": "Bernstein · Felix Salten",
+  "tagline": "Ein Wald voller Stimmen. Ein Werk, das weiterführt.",
+  "intro": "Mit Bambi beginnt die Begegnung. Dahinter steht ein Erzähler, dessen Tiere eigene Wege gehen: durch Wald und Feld, durch die Welt der Menschen und durch ein Leben voller Entdeckungen.",
+  "metaDescription": "Felix Salten bei AETERNUS: Bambi im ungekürzten deutschen Original, Leben und Werk sowie weitere Tierromane. Die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
+  "ogDescription": "Bambi und die Tierromane Felix Saltens. Die neue illustrierte Ausgabe bei AETERNUS.",
+  "bioKicker": "Leben und Werk",
+  "bioTitle": "Der Erzähler<br>hinter Bambi",
+  "bioLede": "Bevor Bambi zur Filmfigur wurde, war es eine deutsche Erzählung. Felix Saltens literarische Welt reicht weit über diesen einen Titel hinaus.",
+  "blocks": [
+    {
+      "h": "Aus dem literarischen Wien",
+      "p": [
+        "Felix Salten wuchs in Wien auf. Als Journalist, Theaterkritiker und Schriftsteller gehörte er zum Umfeld des Jungen Wien. Er schrieb über Kunst und Bühne ebenso wie über das Leben auf den Straßen der Stadt.",
+        "1939 floh er mit seiner Frau in die Schweiz. Seinen Lebensabend verbrachte er in Zürich, wo er 1945 starb."
+      ]
+    },
+    {
+      "h": "Tiere mit einer eigenen Geschichte",
+      "p": [
+        "In Bambi wird der Wald aus der Nähe eines jungen Rehs erfahrbar: die erste Wiese, die Stimmen der Nachbarn, das Vertrauen zur Mutter. Mit den Jahreszeiten wächst auch Bambis Erfahrung.",
+        "Fünfzehn Hasen, Florian und Perri öffnen weitere Zugänge zu Saltens Tierwelt. Diese Autorenseite versammelt ausgewählte Werke; Bambi ist der Auftakt unserer editorischen Arbeit."
+      ]
+    },
+    {
+      "h": "Das Buch vor dem Film",
+      "p": [
+        "Walt Disneys Zeichentrickfilm von 1942 hat das Bild von Bambi weltweit geprägt. Saltens Roman besitzt seinen eigenen Ton und seine eigenen Gestalten. Gobo und das Gespräch der beiden Herbstblätter gehören zu den Begegnungen, die den Lesern des Buches vorbehalten bleiben.",
+        "Unsere Ausgabe bewahrt den ungekürzten deutschen Originaltext. Zwölf neue Innenillustrationen, ein Verlagsvorwort und ein Nachwort begleiten die Lektüre."
+      ]
+    },
+    {
+      "h": "Bild und Quellen",
+      "p": [
+        "Autorenbild: Ferdinand Schmutzer, um 1910. Historische Fotografie. Das Bambi-Cover zeigt den gegenwärtigen Gestaltungsstand der neuen Ausgabe.",
+        "Zur Biographie und zum Werk: <a href=\"https://magazin.wienmuseum.at/ausstellung-ueber-felix-salten\">Wien Museum: Im Schatten von Bambi</a>."
+      ]
+    }
+  ],
+  "worksKicker": "Ausgewählte Werke",
+  "worksTitle": "Bambi ist der Anfang",
+  "worksIntro": "Unsere illustrierte Bambi-Ausgabe entsteht derzeit. Die weiteren Titel zeigen, was es bei Salten zu entdecken gibt; für sie sind noch keine AETERNUS-Ausgaben angekündigt.",
+  "gridClass": "count-4",
+  "books": [
+    {
+      "title": "Bambi",
+      "subtitle": "Eine Lebensgeschichte aus dem Walde",
+      "meta": "AETERNUS-Ausgabe in Vorbereitung",
+      "cover": {
+        "img": "cover-bambi-salten"
+      },
+      "modal": {
+        "metadata": "AETERNUS-Ausgabe in Vorbereitung",
+        "summary": "Der Weg eines jungen Rehs durch die Jahreszeiten: vom Schutz der Mutter über die erste Wiese bis zu den Erfahrungen, die sein Leben verändern.",
+        "sample": "Ungekürzter deutscher Originaltext, zwölf neue Innenillustrationen, historisches Autorenporträt sowie Vor- und Nachwort. Noch nicht lieferbar."
+      }
+    },
+    {
+      "title": "Fünfzehn Hasen",
+      "subtitle": "Schicksale in Wald und Feld",
+      "meta": "Tierroman · 1929 · Werkübersicht",
+      "cover": {
+        "gen": "amber",
+        "title": "Fünfzehn<br>Hasen"
+      },
+      "modal": {
+        "metadata": "Tierroman · 1929 · Werkübersicht",
+        "summary": "Salten richtet den Blick auf das Leben der Hasen in Wald und Feld. Ein weiterer Tierroman neben Bambi, der die Auswahl für die Bernstein-Linie erweitert.",
+        "sample": "Ein möglicher nächster Titel. Eine AETERNUS-Ausgabe ist noch nicht angekündigt."
+      }
+    },
+    {
+      "title": "Florian",
+      "subtitle": "Das Pferd des Kaisers",
+      "meta": "Tierroman · 1933 · Werkübersicht",
+      "cover": {
+        "gen": "amber",
+        "title": "Florian"
+      },
+      "modal": {
+        "metadata": "Tierroman · 1933 · Werkübersicht",
+        "summary": "Ein Pferd steht im Mittelpunkt dieser Erzählung. Mit Florian führt Saltens Tierliteratur aus dem Wald in die Welt der Menschen.",
+        "sample": "Ein möglicher nächster Titel. Eine AETERNUS-Ausgabe ist noch nicht angekündigt."
+      }
+    },
+    {
+      "title": "Die Jugend des Eichhörnchens Perri",
+      "subtitle": "Eine weitere Begegnung mit Saltens Tierwelt",
+      "meta": "Tiererzählung · Werkübersicht",
+      "cover": {
+        "gen": "amber",
+        "title": "Perri"
+      },
+      "modal": {
+        "metadata": "Tiererzählung · Werkübersicht",
+        "summary": "Nach dem jungen Reh begegnet der Leser einem Eichhörnchen. Perri gehört zu den Tiergeschichten, mit denen Salten über Bambi hinaus bekannt wurde.",
+        "sample": "Ein möglicher nächster Titel. Eine AETERNUS-Ausgabe ist noch nicht angekündigt."
+      }
+    }
+  ]
+});
