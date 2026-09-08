@@ -1079,8 +1079,8 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     "en": "/autoren/felix-salten/"
   },
   "bio": {
-    "de": "Der Erzähler hinter Bambi. Unsere erste illustrierte Salten-Ausgabe ist in Vorbereitung; weitere Tierromane erweitern den Blick auf sein Werk.",
-    "en": "The author behind Bambi. Our first illustrated German Salten edition is in preparation; discover more of his animal stories on the German author page."
+    "de": "Der Erzähler hinter Bambi. Bambis Kinder ist zur Veröffentlichung eingereicht, die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
+    "en": "The author behind Bambi. Bambi's Children has been submitted for publication; our illustrated German Bambi edition is in preparation."
   },
   "books": []
 });

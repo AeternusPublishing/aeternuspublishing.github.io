@@ -890,7 +890,7 @@ module.exports.push({
   "dates": "1869–1945",
   "seriesClass": "",
   "preview": true,
-  "previewStatus": "Bambi in Vorbereitung · Weitere Werke in Auswahl",
+  "previewStatus": "Verfügbarkeit siehe Werkbeschreibung",
   "sampleLabel": "Zum Werk",
   "portrait": {
     "file": "portrait-salten",
@@ -905,7 +905,7 @@ module.exports.push({
   "eyebrow": "Bernstein · Felix Salten",
   "tagline": "Ein Wald voller Stimmen. Ein Werk, das weiterführt.",
   "intro": "Mit Bambi beginnt die Begegnung. Dahinter steht ein Erzähler, dessen Tiere eigene Wege gehen: durch Wald und Feld, durch die Welt der Menschen und durch ein Leben voller Entdeckungen.",
-  "metaDescription": "Felix Salten bei AETERNUS: Bambi im ungekürzten deutschen Original, Leben und Werk sowie weitere Tierromane. Die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
+  "metaDescription": "Felix Salten bei AETERNUS: Bambi im ungekürzten deutschen Original, Leben und Werk. Bambis Kinder ist zur Veröffentlichung eingereicht, die illustrierte Bambi-Ausgabe in Vorbereitung.",
   "ogDescription": "Bambi und die Tierromane Felix Saltens. Die neue illustrierte Ausgabe bei AETERNUS.",
   "bioKicker": "Leben und Werk",
   "bioTitle": "Der Erzähler<br>hinter Bambi",
@@ -922,7 +922,7 @@ module.exports.push({
       "h": "Tiere mit einer eigenen Geschichte",
       "p": [
         "In Bambi wird der Wald aus der Nähe eines jungen Rehs erfahrbar: die erste Wiese, die Stimmen der Nachbarn, das Vertrauen zur Mutter. Mit den Jahreszeiten wächst auch Bambis Erfahrung.",
-        "Fünfzehn Hasen, Florian und Perri öffnen weitere Zugänge zu Saltens Tierwelt. Diese Autorenseite versammelt ausgewählte Werke; Bambi ist der Auftakt unserer editorischen Arbeit."
+        "Bambi ist der Auftakt unserer editorischen Arbeit an Saltens Tierwelt; Bambis Kinder führt sie fort."
       ]
     },
     {
@@ -942,9 +942,22 @@ module.exports.push({
   ],
   "worksKicker": "Ausgewählte Werke",
   "worksTitle": "Bambi ist der Anfang",
-  "worksIntro": "Unsere illustrierte Bambi-Ausgabe entsteht derzeit. Die weiteren Titel zeigen, was es bei Salten zu entdecken gibt; für sie sind noch keine AETERNUS-Ausgaben angekündigt.",
-  "gridClass": "count-4",
+  "worksIntro": "Bambis Kinder führt die Geschichte fort: deutscher Originaltext, sechs Bildtafeln sowie ausführliches Vor- und Nachwort. Die Ausgabe ist bei Amazon zur Veröffentlichung eingereicht.",
+  "gridClass": "single-row",
   "books": [
+{
+  "title": "Bambis Kinder",
+  "subtitle": "Eine Familie im Walde",
+  "meta": "Bernstein · 248 Seiten · In Kürze",
+  "cover": {
+    "img": "cover-bambis-kinder"
+  },
+  "modal": {
+    "metadata": "AETERNUS · 2026 · Veröffentlichung eingereicht",
+    "summary": "Das düstere Vermächtnis des großen Wald-Epos Die Fortsetzung des Weltbestsellers — 1940 in deutscher Sprache erschienen.\n\nMit Bambis Kinder schuf Felix Salten im Schatten des heraufziehenden Zweiten Weltkriegs die unerbittliche Fortsetzung seines legendären Meisterwerks. Der Wald ist nicht friedlicher geworden: Bambis und Falines Zwillinge, der ängstliche Geno und die stolze Gurri, müssen sich in einer Schöpfung behaupten, die von Gefahren, Hunger und der ewigen Lauer des namenlosen Jägers durchsetzt ist.\n\nAls Gurri in die Hände des Menschen gerät und Rettung in Gefangenschaft umschlägt, tritt Bambi – nun der unnahbare Fürst des Forstes – aus den Schatten. Seine Lehre kennt keine Kompromisse: Wer in der Wildnis überleben will, darf sich niemals der Macht unterwerfen.\n\nEine bibliophile Prachtausgabe des deutschen Originaltexts — veredelt durch meisterhafte, bildgewaltige Neuinterpretationen von atemberaubender räumlicher Tiefe.\n\nUngeschminkt. Die Vollendung eines Mythos.",
+    "sample": "Deutscher Originaltext mit sechs Bildtafeln, Verlagsvorwort und Nachwort. E-Book 9,99 € (ISBN 978-3-67605-003-6) · Paperback 14,99 € (ISBN 978-3-67605-004-3) · Hardcover 25,00 € (ISBN 978-3-67605-005-0). Druckausgaben: 248 Seiten. Deutsche Endpreise. Die Freischaltung bei Amazon steht noch aus."
+  }
+},
     {
       "title": "Bambi",
       "subtitle": "Eine Lebensgeschichte aus dem Walde",
@@ -957,7 +970,14 @@ module.exports.push({
         "summary": "Der Weg eines jungen Rehs durch die Jahreszeiten: vom Schutz der Mutter über die erste Wiese bis zu den Erfahrungen, die sein Leben verändern.",
         "sample": "Ungekürzter deutscher Originaltext, zwölf neue Innenillustrationen, historisches Autorenporträt sowie Vor- und Nachwort. Noch nicht lieferbar."
       }
-    },
+    }
+  ],
+  // 2026-09-08, Verlegeranweisung: Die drei Werkuebersicht-Platzhalter sind
+  // stillgelegt - fuer Fuenfzehn Hasen, Florian und Perri ist keine AETERNUS-
+  // Ausgabe in Arbeit. Die Datensaetze bleiben hier unveraendert erhalten; das
+  // Template rendert allein "books". Zum Wiederaufschalten die Objekte zurueck
+  // nach "books" schieben und gridClass wieder auf "count-5" setzen.
+  "booksParked": [
     {
       "title": "Fünfzehn Hasen",
       "subtitle": "Schicksale in Wald und Feld",

@@ -78,11 +78,25 @@ hreflang: true
   <div class="wrap">
     <div style="max-width: 720px; margin-bottom: 56px;">
       <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["editions.eyebrow"][lang] }}</div>
-      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["editions.title"][lang] }}</span></h2>
-      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["editions.intro"][lang] }}</p></div>
+      <h2 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">Aktuelle Ausgaben</span></h2>
+      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>Lieferbare Titel und angekündigte Neuerscheinungen aus dem Verlagsprogramm.</p></div>
     </div>
 
     <div class="edition-grid">
+      <article class="edition-card">
+        <a class="edition-cover-link" href="/autoren/felix-salten/#werke" aria-label="Bambis Kinder – Felix Salten">
+          <picture><source type="image/avif" srcset="/assets/images/cover-bambis-kinder.avif"><source type="image/webp" srcset="/assets/images/cover-bambis-kinder.webp"><img class="edition-cover" src="/assets/images/cover-bambis-kinder-fallback.jpg" alt="Bambis Kinder – Cover der AETERNUS-Ausgabe" width="1024" height="1536" loading="lazy" decoding="async"></picture>
+        </a>
+        <div style="min-width:0">
+          <div class="eyebrow-mini">Felix Salten · Bernstein</div>
+          <h3 style="margin:12px 0"><a class="edition-title-link" href="/autoren/felix-salten/#werke">Bambis Kinder</a></h3>
+          <p>Eine Familie im Walde. Saltens Fortsetzung von Bambi im deutschen Original, mit sechs Bildtafeln, Vorwort und Nachwort.</p>
+          <p style="margin:14px 0">E-Book 9,99 € · Paperback 14,99 € · Hardcover 25,00 €</p>
+          <p style="margin:14px 0;font-size:14px">In Kürze bei Amazon · Veröffentlichung eingereicht</p>
+          <a class="btn-ghost" href="/autoren/felix-salten/#werke">Zur Ausgabe →</a>
+        </div>
+      </article>
+
       {% for series in i18n.seriesItems %}
         {% for author in series.authors %}
           {% for book in author.books %}
