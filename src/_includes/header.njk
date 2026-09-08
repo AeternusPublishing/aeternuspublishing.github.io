@@ -13,6 +13,7 @@
     <a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}">{{ i18n["nav.series"][lang] }}</a>
     <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}">{{ i18n["nav.press"][lang] }}</a>
       </nav>
+       {% include 'instagram.njk' %}
        <!-- Language Selector Toggles -->
     <div class="lang-switch" role="group" aria-label="Language switcher">
           <a href="/" class="lang-btn {% if lang == 'de' %}is-active{% endif %}">DE</a>
