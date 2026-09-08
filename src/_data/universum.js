@@ -115,9 +115,18 @@ function baue(lang, authors) {
   }
   knoten = bleib;
 
+  // Titel -> Knoten-Kennung: damit eine Autorenseite ohne Umweg in den
+  // Graphen verlinken kann (/karte/#werk:ets-rolf).
+  const schluessel = {};
+  knoten.forEach(n => { if (n.typ === "werk") schluessel[n.label] = n.id; });
+  const autorSchluessel = {};
+  knoten.forEach(n => { if (n.typ === "autor") autorSchluessel[n.key] = n.id; });
+
   return {
     knoten,
     kanten,
+    schluessel,
+    autorSchluessel,
     stand: {
       werke: knoten.filter(n => n.typ === "werk" && !n.fehlt).length,
       ereignisse: knoten.filter(n => n.typ === "ereignis").length,

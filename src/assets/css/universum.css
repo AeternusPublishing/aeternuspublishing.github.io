@@ -11,14 +11,14 @@
 .uni svg.zieht{cursor:grabbing;}
 
 /* --- Linien --- */
-.uni-kante{stroke:rgba(212,175,55,.14);stroke-width:1;transition:stroke .25s,stroke-width .25s,opacity .25s;}
-.uni-kante.art-verwandt{stroke:rgba(226,192,116,.10);stroke-dasharray:3 6;}
-.uni-kante.art-teil_von{stroke:rgba(243,231,207,.13);}
+.uni-kante{stroke:rgba(243,231,207,.13);stroke-width:.8;transition:stroke .25s,stroke-width .25s,opacity .25s;}
+.uni-kante.art-verwandt{stroke:rgba(226,192,116,.09);stroke-dasharray:3 7;}
+.uni-kante.art-teil_von{stroke:rgba(243,231,207,.1);}
 .uni-kante.art-wirkung{stroke:rgba(226,192,116,.34);stroke-width:1.4;}
-.uni-kante.ist-hell{stroke:rgba(226,192,116,.4);stroke-width:1.1;}
+.uni-kante.ist-hell{stroke:rgba(243,231,207,.45);stroke-width:1;}
 /* Die Querverbindung zwischen zwei verwandten Baenden ist die Aussage, auf
    die es ankommt: sie liegt heller und dicker als jede Merkmalslinie. */
-.uni-kante.ist-quer{stroke:#ffe7a8;stroke-width:3;stroke-dasharray:none;opacity:1;}
+.uni-kante.ist-quer{stroke:#ffe7a8;stroke-width:2;stroke-dasharray:none;opacity:.9;}
 .uni-kante.ist-fern{opacity:.05;}
 
 /* Der Funke laeuft die leuchtende Linie entlang. */
@@ -53,8 +53,8 @@
 .uni-knoten.ist-fern{opacity:.06;}
 .uni-knoten.ist-fern .beschriftung{opacity:0 !important;}
 .uni-knoten.ist-gewaehlt .kern{stroke:#fff0c9;stroke-width:2.4;}
-.uni-knoten.ist-heiss .kern,.uni-knoten.ist-gewaehlt .kern{filter:drop-shadow(0 0 9px rgba(255,231,168,.95));}
-.uni-knoten.ist-verwandt .kern{filter:drop-shadow(0 0 7px rgba(255,231,168,.75));}
+.uni-knoten.ist-heiss .kern,.uni-knoten.ist-gewaehlt .kern{filter:drop-shadow(0 0 7px rgba(255,231,168,.8));}
+.uni-knoten.ist-verwandt .kern{filter:drop-shadow(0 0 4px rgba(255,231,168,.5));}
 .uni-knoten.ist-nah .kern{filter:none;}
 /* Merkmale sind der Grund einer Verbindung, nicht ihr Ziel: sie bleiben als
    Beschriftung lesbar, treten aber hinter die Baende zurueck. */
@@ -68,7 +68,7 @@
 .uni-knoten.ist-nah.typ-ort .beschriftung,
 .uni-knoten.ist-nah.typ-motiv .beschriftung,
 .uni-knoten.ist-nah.typ-person .beschriftung,
-.uni-knoten.ist-nah.typ-ereignis .beschriftung{opacity:.85 !important;font-size:8.5px;}
+.uni-knoten.ist-nah.typ-ereignis .beschriftung{opacity:.9 !important;font-size:10px;}
 
 .uni-knoten .puls{opacity:0;transform-box:fill-box;transform-origin:center;}
 .uni-knoten.ist-heiss .puls{animation:uniPuls 1.8s cubic-bezier(.2,.6,.3,1) infinite;}

@@ -14,16 +14,16 @@
 
   // Ruhelaengen: was inhaltlich enger zusammengehoert, zieht staerker.
   var FEDER = {
-    autorschaft: { laenge: 55, kraft: 0.055 },
-    teil_von: { laenge: 60, kraft: 0.06 },
-    ereignis: { laenge: 70, kraft: 0.05 },
-    person: { laenge: 75, kraft: 0.04 },
-    ort: { laenge: 90, kraft: 0.03 },
-    motiv: { laenge: 105, kraft: 0.022 },
-    wirkung: { laenge: 80, kraft: 0.05 },
-    verwandt: { laenge: 130, kraft: 0.004 }
+    autorschaft: { laenge: 95, kraft: 0.05 },
+    teil_von: { laenge: 100, kraft: 0.05 },
+    ereignis: { laenge: 115, kraft: 0.045 },
+    person: { laenge: 120, kraft: 0.035 },
+    ort: { laenge: 140, kraft: 0.026 },
+    motiv: { laenge: 160, kraft: 0.018 },
+    wirkung: { laenge: 125, kraft: 0.045 },
+    verwandt: { laenge: 200, kraft: 0.003 }
   };
-  var ABSTOSSUNG = 5200;
+  var ABSTOSSUNG = 11000;
   var TICKS = 520;
 
   var RADIUS = { werk: 7, autor: 5.5, ereignis: 6, ort: 5, motiv: 4.5, person: 4.5 };
@@ -81,6 +81,8 @@
 
     var aus = {};                 // ausgeblendete Knotenarten
     var gewaehlt = null, warm = null;
+    var fokus = null;             // Knoten, der die Karte allein beherrscht
+    var fokusMenge = null;        // was im Fokus ueberhaupt zu sehen ist
 
     // --- Kraftfeld ---------------------------------------------------------
     var rnd = zufall(20260908);
@@ -89,7 +91,13 @@
       n.x = Math.cos(w) * r; n.y = Math.sin(w) * r; n.vx = 0; n.vy = 0;
     });
 
-    function sichtbar(n) { return !aus[n.typ]; }
+    function sichtbar(n) {
+      if (aus[n.typ]) return false;
+      // Im Fokus verschwindet der Rest wirklich. Ihn nur abzudunkeln liess
+      // neunzig blasse Punkte stehen, durch die man die Antwort suchen musste.
+      if (fokusMenge) return !!fokusMenge[n.id];
+      return true;
+    }
 
     function tick(alpha) {
       var i, j, a, b, dx, dy, d2, d, f;
@@ -100,7 +108,7 @@
           a = akt[i]; b = akt[j];
           dx = b.x - a.x; dy = b.y - a.y;
           d2 = dx * dx + dy * dy || 0.01;
-          if (d2 > 360000) continue;          // weit entfernt: vernachlaessigbar
+          if (d2 > 640000) continue;          // weit entfernt: vernachlaessigbar
           d = Math.sqrt(d2);
           f = ABSTOSSUNG / d2 * alpha;
           dx /= d; dy /= d;
@@ -135,6 +143,76 @@
       N.forEach(function (n) { n.ruheX = n.x; n.ruheY = n.y; });
     }
 
+    // Eigene Anordnung fuer den Fokus: das gewaehlte Werk in der Mitte, seine
+    // verwandten Baende auf einem weiten Ring, die Merkmale auf einem engen.
+    // Gleichmaessige Winkel heissen: die Beschriftungen koennen einander nicht
+    // mehr ueberdecken - im Kraftfeld lagen sie uebereinander, weil dort die
+    // Physik entscheidet und nicht die Lesbarkeit.
+    var R_MERKMAL = 245, R_WERK = 500;
+
+    function fokusAnordnung(id) {
+      var mitte = byId[id];
+      var nb = nachbarn[id] || [];
+      var u = umfeld(id);
+
+      var buecher = Object.keys(u.verwandt).map(function (x) { return byId[x]; })
+        .filter(function (n) { return !aus[n.typ]; });
+      var merkmale = nb.map(function (x) { return byId[x.id]; })
+        .filter(function (n) {
+          return ["ereignis", "ort", "motiv", "person", "autor"].indexOf(n.typ) >= 0 && !aus[n.typ];
+        });
+
+      var menge = {};
+      menge[id] = true;
+      buecher.forEach(function (n) { menge[n.id] = true; });
+      merkmale.forEach(function (n) { menge[n.id] = true; });
+      fokusMenge = menge;
+
+      mitte.zielX = 0; mitte.zielY = 0;
+      var ring = function (liste, r, versatz) {
+        liste.forEach(function (n, i) {
+          var w = (i / Math.max(1, liste.length)) * Math.PI * 2 + versatz;
+          n.zielX = Math.cos(w) * r;
+          n.zielY = Math.sin(w) * r;
+        });
+      };
+      ring(merkmale, R_MERKMAL, -Math.PI / 2);
+      ring(buecher, R_WERK, -Math.PI / 2 + Math.PI / Math.max(1, buecher.length));
+    }
+
+    // Weicher Uebergang zwischen den beiden Anordnungen.
+    var anordnungsRaf = null;
+    function fahreAnordnung(fertig) {
+      var von = N.map(function (n) { return { n: n, x: n.x, y: n.y }; });
+      if (reduce || document.hidden) {
+        von.forEach(function (v) { if (v.n.zielX !== undefined) { v.n.x = v.n.zielX; v.n.y = v.n.zielY; } });
+        zeichnen(); if (fertig) fertig(); return;
+      }
+      if (anordnungsRaf) cancelAnimationFrame(anordnungsRaf);
+      var start = null;
+      var schritt = function (ts) {
+        if (start === null) start = ts;
+        var t = Math.min(1, (ts - start) / 620);
+        var e = 1 - Math.pow(1 - t, 3);
+        von.forEach(function (v) {
+          if (v.n.zielX === undefined) return;
+          v.n.x = v.x + (v.n.zielX - v.x) * e;
+          v.n.y = v.y + (v.n.zielY - v.y) * e;
+        });
+        zeichnen();
+        if (t < 1) anordnungsRaf = requestAnimationFrame(schritt);
+        else if (fertig) fertig();
+      };
+      anordnungsRaf = requestAnimationFrame(schritt);
+    }
+
+    function fokusVerlassen() {
+      fokus = null; fokusMenge = null;
+      if (history.replaceState) history.replaceState(null, "", location.pathname);
+      N.forEach(function (n) { n.zielX = n.ruheX; n.zielY = n.ruheY; });
+      fahreAnordnung(function () { einpassen(); });
+    }
+
     // --- Zeichnen ----------------------------------------------------------
     var gWelt = el("g", { "data-welt": "" });
     var gKanten = el("g", {});
@@ -158,7 +236,7 @@
       g.appendChild(el("circle", { class: "puls", r: RADIUS[n.typ] + 2, fill: "none", stroke: FARBE[n.typ] }));
       var r = RADIUS[n.typ] + Math.min(4, (n.grad || 0) * 0.18);
       if (n.typ === "werk") {
-        g.appendChild(el("circle", { class: "halo", r: r * 2.6, fill: FARBE[n.typ], opacity: ".08" }));
+        g.appendChild(el("circle", { class: "halo", r: r * 1.9, fill: FARBE[n.typ], opacity: ".05" }));
       }
       // Erschienene Baende stehen als voller Stern, angekuendigte als offener
       // Ring - man sieht auf einen Blick, wohin man heute schon greifen kann.
@@ -216,6 +294,13 @@
       });
       kantenEl.forEach(function (ke) {
         var a = byId[ke.k.a], b = byId[ke.k.b];
+        // Im Fokus zaehlen nur die Linien, die vom Mittelpunkt ausgehen. Die
+        // Ringbaende sind untereinander ebenfalls verwandt - zeichnet man das
+        // mit, entsteht ein Pentagramm, in dem die eigentliche Aussage
+        // untergeht. Wer diese Verbindungen sehen will, waehlt das Buch.
+        if (fokus && ke.k.a !== fokus && ke.k.b !== fokus) {
+          ke.el.style.display = "none"; if (ke.funke) ke.funke.style.display = "none"; return;
+        }
         if (!sichtbar(a) || !sichtbar(b)) { ke.el.style.display = "none"; if (ke.funke) ke.funke.style.display = "none"; return; }
         ke.el.style.display = "";
         ke.el.setAttribute("x1", a.x.toFixed(1)); ke.el.setAttribute("y1", a.y.toFixed(1));
@@ -317,9 +402,14 @@
 
     function waehle(id) {
       gewaehlt = gewaehlt === id ? null : id;
-      hervorheben();
+      warm = null;
       zeigen(gewaehlt);
-      if (gewaehlt) blickAuf(byId[gewaehlt]);
+      if (!gewaehlt) { hervorheben(); fokusVerlassen(); return; }
+      fokus = gewaehlt;
+      if (history.replaceState) history.replaceState(null, "", "#" + gewaehlt);
+      fokusAnordnung(gewaehlt);
+      hervorheben();
+      fahreAnordnung(function () { einpassen(); });
     }
 
     // --- Kamerafahrt -------------------------------------------------------
@@ -439,6 +529,7 @@
         var typ = b.getAttribute("data-uni-typ");
         aus[typ] = !aus[typ];
         b.setAttribute("aria-pressed", String(!aus[typ]));
+        if (fokus) { fokusAnordnung(fokus); hervorheben(); fahreAnordnung(function () { einpassen(); }); return; }
         ordnen(160);
         zeichnen();
         hervorheben();
@@ -486,31 +577,57 @@
       anwenden();
     }, { passive: false });
     svg.addEventListener("click", function (e) {
-      if (!e.target.closest(".uni-knoten")) { gewaehlt = null; warm = null; hervorheben(); zeigen(null); }
+      if (!e.target.closest(".uni-knoten")) {
+        gewaehlt = null; warm = null; hervorheben(); zeigen(null);
+        if (fokus) fokusVerlassen();
+      }
     });
 
     root.querySelector("[data-uni-heim]") && root.querySelector("[data-uni-heim]").addEventListener("click", function () {
       gewaehlt = null; warm = null; hervorheben(); zeigen(null);
-      einpassen();
+      if (fokus) fokusVerlassen(); else einpassen();
     });
 
     // Das ganze Feld ins Bild ruecken. Rechts bleibt Platz fuer die
     // Seitenspalte, damit keine Sterne dauerhaft dahinter liegen.
     function einpassen() {
-      var akt = N.filter(sichtbar);
-      if (!akt.length) return;
-      var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
-      akt.forEach(function (n) {
-        x0 = Math.min(x0, n.x); x1 = Math.max(x1, n.x);
-        y0 = Math.min(y0, n.y); y1 = Math.max(y1, n.y);
-      });
+      if (!N.filter(sichtbar).length) return;
+      // Gemessen wird die gezeichnete Flaeche samt Beschriftungen, nicht die
+      // Punktkoordinaten: sonst haengt der laengste Titel ausserhalb des Bildes.
+      var vorher = gWelt.getAttribute("transform");
+      gWelt.removeAttribute("transform");
+      var bb = gWelt.getBBox();
+      if (vorher) gWelt.setAttribute("transform", vorher);
+      if (!bb.width || !bb.height) return;
+
       var w = svg.clientWidth || 1200, h = svg.clientHeight || 800;
-      var frei = w - (w > 900 ? 420 : 40);
-      var z = Math.min(frei / Math.max(1, x1 - x0 + 140), (h - 200) / Math.max(1, y1 - y0 + 140));
-      cam.z = Math.max(0.35, Math.min(1.6, z));
-      cam.x = (x0 + x1) / 2 + (w > 900 ? 190 / cam.z : 0);
-      cam.y = (y0 + y1) / 2;
+      var breit = w > 900;
+      var frei = w - (breit ? 430 : 48);          // Platz fuer die Seitenspalte
+      var z = Math.min(frei / (bb.width + 60), (h - 150) / (bb.height + 60));
+      cam.z = Math.max(0.3, Math.min(1.8, z));
+      cam.x = bb.x + bb.width / 2 + (breit ? 195 / cam.z : 0);
+      cam.y = bb.y + bb.height / 2;
       anwenden();
+    }
+
+    // Einstieg von aussen: /karte/#werk:ets-rolf - von jeder Autorenseite
+    // fuehrt ein Weg hierher, und wer so kommt, will nicht das ganze Feld
+    // sehen, sondern die Querverbindungen seines Bandes.
+    function ausAdresse() {
+      var wunsch = (location.hash || "").replace(/^#/, "");
+      if (!wunsch) {
+        var m = (location.search || "").match(/[?&]w=([^&]+)/);
+        wunsch = m ? m[1] : "";
+      }
+      if (!wunsch) return null;
+      wunsch = decodeURIComponent(wunsch);
+      if (byId[wunsch]) return wunsch;
+      // Zweiter Weg: der Titel selbst, wie er auf der Autorenseite steht.
+      var gesucht = wunsch.toLowerCase();
+      var treffer = N.filter(function (n) {
+        return n.label.toLowerCase() === gesucht || n.key === wunsch;
+      });
+      return treffer.length ? treffer[0].id : null;
     }
 
     // --- Start -------------------------------------------------------------
@@ -519,6 +636,13 @@
     zeichnen();
     einpassen();
     window.addEventListener("resize", function () { anwenden(); });
+
+    var einstieg = ausAdresse();
+    if (einstieg) waehle(einstieg);
+    window.addEventListener("hashchange", function () {
+      var z = ausAdresse();
+      if (z && z !== gewaehlt) waehle(z);
+    });
 
     // Ruhe im Bild. Die Kraftsimulation laeuft einmal und steht dann still -
     // sie weiter tickern zu lassen, liess die Punkte zittern und die
@@ -533,7 +657,7 @@
         if (t0 === null) t0 = ts;
         if (ts - letzte < 40) return;          // 25 Bilder je Sekunde genuegen
         letzte = ts;
-        if (warm || gewaehlt) {
+        if (warm || gewaehlt || fokus) {
           // Beim Lesen steht das Bild still - aber das Wachsen des beruehrten
           // Punktes muss zu Ende laufen, sonst bleibt es auf halbem Weg stehen.
           var laeuft = N.some(function (n) { return Math.abs((n.zielSkala || 1) - (n.skala || 1)) > 0.006; });
