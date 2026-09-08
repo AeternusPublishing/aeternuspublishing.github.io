@@ -1002,3 +1002,69 @@ module.exports.push({
     }
   ]
 });
+
+// Publisher-requested Collodi QR landing page.
+module.exports.push({
+  "slug": "carlo-collodi",
+  "name": "Carlo Collodi",
+  "monogram": "CC",
+  "dates": "1826–1890",
+  "seriesClass": "",
+  "preview": true,
+  "previewStatus": "Pinocchio · Illustrierte Neuübersetzung in Vorbereitung",
+  "sampleLabel": "Zur Ausgabe",
+  "portrait": {
+    "file": "portrait-collodi.jpg",
+    "alt": "Carlo Collodi, historischer Stich nach einer Fotografie von Montabone, 1890",
+    "modern": false
+  },
+  "schema": {
+    "birthDate": "1826-11-24",
+    "deathDate": "1890-10-26",
+    "description": "Italienischer Schriftsteller und Autor von Pinocchio."
+  },
+  "eyebrow": "Bernstein · Carlo Collodi",
+  "tagline": "Pinocchio. Geschichte einer Holzpuppe.",
+  "intro": "Das unzensierte Original der Menschwerdung. Jenseits der späteren Verfilmungen: die Geschichte, wie Carlo Collodi sie schrieb.",
+  "metaDescription": "Carlo Collodi bei AETERNUS: Pinocchio in vollständiger deutscher Neuübersetzung, mit neuen Illustrationen und historischen Begleittexten.",
+  "ogDescription": "Pinocchio in der Bernstein-Reihe des AETERNUS Verlags.",
+  "bioKicker": "Autor und Werk",
+  "bioTitle": "Carlo Collodi<br>1826–1890",
+  "bioLede": "Carlo Collodi ist der Künstlername des italienischen Schriftstellers Carlo Lorenzini. Seine Geschichte einer Holzpuppe erschien 1883 als Buch.",
+  "blocks": [
+    {
+      "h": "Pinocchio bei AETERNUS",
+      "p": [
+        "Bevor Pinocchio durch spätere Bearbeitungen zur bloßen Kinderbuchfigur wurde, schuf Carlo Collodi 1883 eine der vielschichtigsten Parabeln der europäischen Literatur. Seine Holzpuppe ist kein angepasstes Kind, sondern ein eigensinniger Rebell, der sich zunächst jeder Ordnung, Arbeit und Einsicht verweigert.",
+        "In einer Welt von Armut, Täuschung und strengen Gesetzen muss die Figur am eigenen Leib erfahren, dass Freiheit ohne Verantwortung keine Heimat findet. Vom frühen Ende der sprechenden Grille über die Bedrohung an der Großen Eiche bis hin zu den Irrwegen im Spielzeugland zeigt Collodis Original unbeschönigt die Mühen und die Würde des Erwachsenwerdens.",
+        "Eine bibliophile Prachtausgabe in vollständiger deutscher Neuübersetzung — veredelt durch meisterhafte, bildgewaltige Neuinterpretationen von atemberaubender räumlicher Tiefe."
+      ]
+    },
+    {
+      "h": "Zum Autorenbild",
+      "p": [
+        "Historischer Stich nach einer Fotografie von Montabone, aus L’Illustrazione Italiana, Nr. 44 vom 2. November 1890.",
+        "Bildquelle: <a href=\"https://commons.wikimedia.org/wiki/File:Carlo_Collodi.jpg\">Wikimedia Commons</a>."
+      ]
+    }
+  ],
+  "worksKicker": "Bernstein-Reihe",
+  "worksTitle": "Pinocchio",
+  "worksIntro": "Vollständige deutsche Neuübersetzung mit Frontispiz, zwölf Innenillustrationen sowie Vorwort und Nachwort des Verlags. Die Ausgabe befindet sich in der Schlussredaktion.",
+  "gridClass": "count-1",
+  "books": [
+    {
+      "title": "Pinocchio",
+      "subtitle": "Geschichte einer Holzpuppe",
+      "meta": "Illustrierte Neuübersetzung · In Vorbereitung",
+      "cover": {
+        "img": "cover-pinocchio-collodi"
+      },
+      "modal": {
+        "metadata": "EPUB 9,99 € · Paperback 16,99 € · Hardcover 24,99 €",
+        "summary": "Das unzensierte Original der Menschwerdung Jenseits der späteren Verfilmungen. Dies ist die Geschichte, wie Carlo Collodi sie schrieb.",
+        "sample": "Ungekürzt. Ungeschminkt. Ein Werk von weltliterarischem Rang."
+      }
+    }
+  ]
+});
