@@ -1031,7 +1031,8 @@ module.exports.push({
   "dates": "1826–1890",
   "seriesClass": "",
   "preview": true,
-  "previewStatus": "Pinocchio · Illustrierte Neuübersetzung in Vorbereitung",
+  "previewStatus": "Pinocchio · Erscheint in Kürze",
+  "previewBanner": "Pinocchio · Erscheint in Kürze · Amazon-Freischaltung ausstehend",
   "sampleLabel": "Zur Ausgabe",
   "portrait": {
     "file": "portrait-collodi.jpg",
@@ -1057,7 +1058,7 @@ module.exports.push({
       "p": [
         "Bevor Pinocchio durch spätere Bearbeitungen zur bloßen Kinderbuchfigur wurde, schuf Carlo Collodi 1883 eine der vielschichtigsten Parabeln der europäischen Literatur. Seine Holzpuppe ist kein angepasstes Kind, sondern ein eigensinniger Rebell, der sich zunächst jeder Ordnung, Arbeit und Einsicht verweigert.",
         "In einer Welt von Armut, Täuschung und strengen Gesetzen muss die Figur am eigenen Leib erfahren, dass Freiheit ohne Verantwortung keine Heimat findet. Vom frühen Ende der sprechenden Grille über die Bedrohung an der Großen Eiche bis hin zu den Irrwegen im Spielzeugland zeigt Collodis Original unbeschönigt die Mühen und die Würde des Erwachsenwerdens.",
-        "Eine bibliophile Prachtausgabe in vollständiger deutscher Neuübersetzung — veredelt durch meisterhafte, bildgewaltige Neuinterpretationen von atemberaubender räumlicher Tiefe."
+        "Eine bibliophile Ausgabe in vollständiger deutscher Neuübersetzung — mit eigens für diese Ausgabe geschaffenen Illustrationen."
       ]
     },
     {
@@ -1070,20 +1071,20 @@ module.exports.push({
   ],
   "worksKicker": "Bernstein-Reihe",
   "worksTitle": "Pinocchio",
-  "worksIntro": "Vollständige deutsche Neuübersetzung mit Frontispiz, zwölf Innenillustrationen sowie Vorwort und Nachwort des Verlags. Die Ausgabe befindet sich in der Schlussredaktion.",
+  "worksIntro": "Vollständige deutsche Neuübersetzung mit Frontispiz, zwölf Innenillustrationen sowie Vorwort und Nachwort des Verlags. Erscheint in Kürze als Kindle eBook für 10,99 €, Taschenbuch für 19,99 € und Hardcover für 28,99 € — jeweils inklusive deutscher MwSt. Die drei Ausgaben sind zur Veröffentlichung eingereicht; die Freischaltung bei Amazon steht noch aus.",
   "gridClass": "count-1",
   "books": [
     {
       "title": "Pinocchio",
       "subtitle": "Geschichte einer Holzpuppe",
-      "meta": "Illustrierte Neuübersetzung · In Vorbereitung",
+      "meta": "Illustrierte Neuübersetzung · Bernstein-Reihe · Erscheint in Kürze",
       "cover": {
         "img": "cover-pinocchio-collodi"
       },
       "modal": {
-        "metadata": "EPUB 9,99 € · Paperback 16,99 € · Hardcover 24,99 €",
+        "metadata": "Kindle 10,99 € · Taschenbuch 19,99 € · Hardcover 28,99 € · inkl. deutscher MwSt.",
         "summary": "Das unzensierte Original der Menschwerdung Jenseits der späteren Verfilmungen. Dies ist die Geschichte, wie Carlo Collodi sie schrieb.",
-        "sample": "Ungekürzt. Ungeschminkt. Ein Werk von weltliterarischem Rang."
+        "sample": "Die Druckausgaben umfassen 192 Seiten. Kindle: ISBN 978-3-67605-000-5 · Taschenbuch: ISBN 978-3-67605-001-2 · Hardcover: ISBN 978-3-67605-002-9. Alle drei Ausgaben erscheinen nach Abschluss der Amazon-Prüfung."
       }
     }
   ]
