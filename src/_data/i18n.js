@@ -298,7 +298,7 @@ module.exports = {
   // Die Karte selbst liest src/_data/karte.js; hier steht nur, was auf der
   // Seite geschrieben steht. Im englischen Lesertext heisst das Haus nur
   // AETERNUS - die vollstaendige Firmierung bleibt dem Impressum vorbehalten.
-  "nav.map": { de: "Karte", en: "Map" },
+  "nav.map": { de: "Universum", en: "Universe" },
   "karte.eyebrow": { de: "Das Programm im Zusammenhang", en: "The programme in context" },
   "karte.title": { de: "Die Karte des Verlags", en: "The Map of the House" },
   "karte.intro": {
@@ -338,6 +338,37 @@ module.exports = {
   "karte.countAuthors": { de: "Autoren", en: "Authors" },
   "karte.countWorks": { de: "Bände", en: "Volumes" },
   "karte.countSeries": { de: "Reihen", en: "Series" },
+  // --- Universum (Vollbildkarte) ---
+  "uni.title": { de: "Das Universum des Verlags", en: "The Universe of the House" },
+  "uni.eyebrow": { de: "Jedes Buch ein Stern", en: "Every book a star" },
+  "uni.intro": {
+    de: "Jeder Band ist ein Punkt, und jeder Punkt hängt an dem, wovon er handelt: an einem Ereignis, an einer Landschaft, an einem Stoff. Wer Rolf in der Wildnis anfasst, findet die Schlacht von Plattsburgh, den Krieg von 1812 und über die Waldläuferkunst den Weg zu Nessmuk und zu Baden-Powell.",
+    en: "Every volume is a point, and every point hangs from what it is about: an event, a landscape, a subject. Touch Rolf in the Woods and you find the Battle of Plattsburgh, the War of 1812, and by way of woodcraft the path to Nessmuk and Baden-Powell."
+  },
+  "uni.typ_werk": { de: "Band", en: "Volume" },
+  "uni.typ_autor": { de: "Autor", en: "Author" },
+  "uni.typ_ereignis": { de: "Ereignis", en: "Event" },
+  "uni.typ_ort": { de: "Ort", en: "Place" },
+  "uni.typ_motiv": { de: "Stoff", en: "Subject" },
+  "uni.typ_person": { de: "Person", en: "Person" },
+  "uni.merkmale": { de: "Woran dieser Band hängt", en: "What this volume hangs from" },
+  "uni.gehoertZu": { de: "Gehört zu", en: "Part of" },
+  "uni.umfasst": { de: "Umfasst", en: "Includes" },
+  "uni.verbindungen": { de: "Verbindungen", en: "Connections" },
+  "uni.werkeDaran": { de: "Bände hierzu", en: "Volumes on this" },
+  "uni.verwandt": { de: "Verwandte Bände", en: "Related volumes" },
+  "uni.herkunft": { de: "Woher wir das wissen", en: "How we know" },
+  "uni.zumBuch": { de: "Zum Buch", en: "To the book" },
+  "uni.seite": { de: "Seite öffnen", en: "Open page" },
+  "uni.suche": { de: "Suchen: Buch, Ereignis, Ort, Stoff", en: "Search: book, event, place, subject" },
+  "uni.leerTitel": { de: "Einen Punkt wählen", en: "Choose a point" },
+  "uni.leerText": {
+    de: "Fahren Sie über einen Punkt, um seine Verbindungen zu sehen. Ein Klick hält ihn fest, rückt ihn in den Blick und zeigt, woran er hängt und welche Bände daneben stehen. Ziehen verschiebt, das Mausrad zoomt.",
+    en: "Hover a point to see its connections. A click holds it, brings it into view, and shows what it hangs from and which volumes stand beside it. Drag to move, scroll to zoom."
+  },
+  "uni.heim": { de: "Ganzes Feld", en: "Whole field" },
+  "uni.stand": { de: "Stand der Karte", en: "What the map holds" },
+
   "karte.metaDescription": {
     de: "Die Karte des Aeternus Verlags: sechs Reihen, ihre Autoren und alle erschlossenen Bände als begehbarer Zusammenhang.",
     en: "The map of AETERNUS: six series, their authors, and every volume we have opened up, shown as a web of relations."

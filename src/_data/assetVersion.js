@@ -30,6 +30,6 @@ function hash(datei, dir) {
 module.exports = () => ({
   style: hash("style.css"),
   fonts: hash("fonts.css"),
-  karteCss: hash("karte.css"),
-  karte: hash("karte.js", JS_DIR),
+  uniCss: hash("universum.css"),
+  uni: hash("universum.js", JS_DIR),
 });
