@@ -146,4 +146,17 @@ if (de.stand.ohneDna.length) {
     de.stand.ohneDna.join(" | "));
 }
 
+// Der harte Halt oben gilt nur der deutschen Fassung, und das mit Grund: die
+// englischen Autorenseiten fuehren weniger Baende, ein Fehlen ist dort der
+// Normalfall und kein Fehler. Damit die Luecke trotzdem niemandem entgeht,
+// wird sie beim Bau benannt - ein stilles Weglassen waere genau die Art
+// Befund, die man erst Wochen spaeter auf der Seite bemerkt.
+const deTitel = new Set(de.knoten.filter(n => n.typ === "werk").map(n => n.key));
+const enTitel = new Set(en.knoten.filter(n => n.typ === "werk").map(n => n.key));
+const nurDe = [...deTitel].filter(k => !enTitel.has(k));
+if (nurDe.length) {
+  console.warn("[universum] nur in der deutschen Karte, auf keiner englischen " +
+    "Autorenseite gefunden: " + nurDe.join(" | "));
+}
+
 module.exports = { de, en };
