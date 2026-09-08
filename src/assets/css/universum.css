@@ -11,17 +11,21 @@
 .uni svg.zieht{cursor:grabbing;}
 
 /* --- Linien --- */
-.uni-kante{stroke:rgba(212,175,55,.16);stroke-width:1;transition:stroke .3s,opacity .3s;}
+.uni-kante{stroke:rgba(212,175,55,.14);stroke-width:1;transition:stroke .25s,stroke-width .25s,opacity .25s;}
 .uni-kante.art-verwandt{stroke:rgba(226,192,116,.10);stroke-dasharray:3 6;}
 .uni-kante.art-teil_von{stroke:rgba(243,231,207,.13);}
 .uni-kante.art-wirkung{stroke:rgba(226,192,116,.34);stroke-width:1.4;}
-.uni-kante.ist-hell{stroke:rgba(226,192,116,.8);stroke-width:1.5;}
-.uni-kante.ist-fern{opacity:.14;}
+.uni-kante.ist-hell{stroke:rgba(226,192,116,.4);stroke-width:1.1;}
+/* Die Querverbindung zwischen zwei verwandten Baenden ist die Aussage, auf
+   die es ankommt: sie liegt heller und dicker als jede Merkmalslinie. */
+.uni-kante.ist-quer{stroke:#ffe7a8;stroke-width:3;stroke-dasharray:none;opacity:1;}
+.uni-kante.ist-fern{opacity:.05;}
 
 /* Der Funke laeuft die leuchtende Linie entlang. */
-.uni-funke{stroke:#fff0c9;stroke-width:2.4;stroke-linecap:round;
+.uni-funke{stroke:#fff0c9;stroke-width:2.2;stroke-linecap:round;
   stroke-dasharray:0.06 1;stroke-dashoffset:1;pathLength:1;
   animation:uniFunke 1.6s linear infinite;}
+.uni-funke.ist-quer{stroke:#fffaf0;stroke-width:3.4;}
 @keyframes uniFunke{from{stroke-dashoffset:1.06;}to{stroke-dashoffset:0;}}
 
 /* --- Knoten --- */
@@ -44,14 +48,31 @@
 .uni svg:not(.nah) .uni-knoten.typ-person .beschriftung{opacity:0;}
 .uni-knoten.ist-nah .beschriftung,.uni-knoten.ist-heiss .beschriftung{opacity:1 !important;fill:var(--parchment);}
 
-.uni-knoten.ist-fern{opacity:.13;}
+/* Drei Raenge: das beruehrte Werk, seine Verwandtschaft, der Rest.
+   Der Rest verschwindet fast - erst dadurch wird das Bild lesbar. */
+.uni-knoten.ist-fern{opacity:.06;}
+.uni-knoten.ist-fern .beschriftung{opacity:0 !important;}
 .uni-knoten.ist-gewaehlt .kern{stroke:#fff0c9;stroke-width:2.4;}
-.uni-knoten.ist-heiss .kern,.uni-knoten.ist-gewaehlt .kern{filter:drop-shadow(0 0 7px rgba(226,192,116,.85));}
-.uni-knoten.ist-nah .kern{filter:drop-shadow(0 0 4px rgba(226,192,116,.45));}
+.uni-knoten.ist-heiss .kern,.uni-knoten.ist-gewaehlt .kern{filter:drop-shadow(0 0 9px rgba(255,231,168,.95));}
+.uni-knoten.ist-verwandt .kern{filter:drop-shadow(0 0 7px rgba(255,231,168,.75));}
+.uni-knoten.ist-nah .kern{filter:none;}
+/* Merkmale sind der Grund einer Verbindung, nicht ihr Ziel: sie bleiben als
+   Beschriftung lesbar, treten aber hinter die Baende zurueck. */
+.uni-knoten.ist-nah.typ-ort,.uni-knoten.ist-nah.typ-motiv,
+.uni-knoten.ist-nah.typ-person,.uni-knoten.ist-nah.typ-ereignis{opacity:.42;}
+.uni-knoten.ist-nah.typ-werk,.uni-knoten.ist-nah.typ-autor{opacity:.5;}
+.uni-knoten.ist-verwandt .beschriftung{opacity:1 !important;fill:#ffe7a8;font-weight:500;font-size:11px;}
+.uni-knoten.ist-heiss .beschriftung{opacity:1 !important;fill:#fff6de;font-size:12px;}
+/* Merkmale treten zurueck, sobald ein Werk im Mittelpunkt steht: sie erklaeren
+   die Verbindung, sie sind nicht das Ziel. */
+.uni-knoten.ist-nah.typ-ort .beschriftung,
+.uni-knoten.ist-nah.typ-motiv .beschriftung,
+.uni-knoten.ist-nah.typ-person .beschriftung,
+.uni-knoten.ist-nah.typ-ereignis .beschriftung{opacity:.85 !important;font-size:8.5px;}
 
 .uni-knoten .puls{opacity:0;transform-box:fill-box;transform-origin:center;}
 .uni-knoten.ist-heiss .puls{animation:uniPuls 1.8s cubic-bezier(.2,.6,.3,1) infinite;}
-.uni-knoten.ist-nah .puls{animation:uniPulsLeise 2.6s ease-out infinite;}
+.uni-knoten.ist-verwandt .puls{animation:uniPulsLeise 2.6s ease-out infinite;}
 @keyframes uniPuls{0%{opacity:.8;transform:scale(1);}70%{opacity:0;transform:scale(3.6);}100%{opacity:0;transform:scale(3.6);}}
 @keyframes uniPulsLeise{0%{opacity:.35;transform:scale(1);}75%{opacity:0;transform:scale(2.3);}100%{opacity:0;transform:scale(2.3);}}
 
@@ -99,6 +120,8 @@
   color:rgba(243,231,207,.82);font-family:var(--font-serif);font-size:14px;line-height:1.35;transition:color .3s;}
 .uni-panel ul button:hover{color:var(--gold-bright);}
 .uni-panel ul button .wer,.uni-panel ul button .warum{display:block;font-size:11px;color:var(--muted);margin-top:2px;}
+.uni-panel .vorbereitung{font-family:var(--font-sans);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-soft);margin-left:8px;}
+.uni-panel .vorbereitung-zeile{color:var(--gold-soft);}
 .uni-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
 .uni-chip{background:rgba(212,175,55,.07);border:1px solid var(--border);color:rgba(243,231,207,.76);
   font-family:var(--font-sans);font-size:10px;letter-spacing:.1em;padding:6px 9px;cursor:pointer;transition:all .25s;}
@@ -127,5 +150,5 @@
 
 @media(prefers-reduced-motion:reduce){
   .uni-funke{animation:none;stroke-dasharray:none;opacity:.5;}
-  .uni-knoten.ist-heiss .puls,.uni-knoten.ist-nah .puls{animation:none;}
+  .uni-knoten.ist-heiss .puls,.uni-knoten.ist-verwandt .puls{animation:none;}
 }

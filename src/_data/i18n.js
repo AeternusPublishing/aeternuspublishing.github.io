@@ -354,6 +354,7 @@ module.exports = {
   "uni.merkmale": { de: "Woran dieser Band hängt", en: "What this volume hangs from" },
   "uni.gehoertZu": { de: "Gehört zu", en: "Part of" },
   "uni.umfasst": { de: "Umfasst", en: "Includes" },
+  "uni.inVorbereitung": { de: "in Vorbereitung", en: "in preparation" },
   "uni.verbindungen": { de: "Verbindungen", en: "Connections" },
   "uni.werkeDaran": { de: "Bände hierzu", en: "Volumes on this" },
   "uni.verwandt": { de: "Verwandte Bände", en: "Related volumes" },

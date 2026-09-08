@@ -131,6 +131,8 @@
 
     function ordnen(schritte) {
       for (var t = 0; t < schritte; t++) tick(Math.max(0.08, 1 - t / schritte));
+      // Ruhelage festhalten: das Schweben schwingt um sie, nicht um sich selbst.
+      N.forEach(function (n) { n.ruheX = n.x; n.ruheY = n.y; });
     }
 
     // --- Zeichnen ----------------------------------------------------------
@@ -158,10 +160,14 @@
       if (n.typ === "werk") {
         g.appendChild(el("circle", { class: "halo", r: r * 2.6, fill: FARBE[n.typ], opacity: ".08" }));
       }
+      // Erschienene Baende stehen als voller Stern, angekuendigte als offener
+      // Ring - man sieht auf einen Blick, wohin man heute schon greifen kann.
+      var offen = n.typ === "werk" && !n.extern;
       g.appendChild(el("circle", {
         class: "kern", r: r,
-        fill: n.typ === "werk" ? FARBE[n.typ] : "none",
-        stroke: FARBE[n.typ], "stroke-width": n.typ === "werk" ? 0 : 1.6
+        fill: n.typ === "werk" && !offen ? FARBE[n.typ] : "none",
+        stroke: FARBE[n.typ], "stroke-width": n.typ === "werk" && !offen ? 0 : 1.6,
+        "stroke-dasharray": offen ? "2.5 2.5" : null
       }));
       var t = el("text", { class: "beschriftung", y: r + 13, "text-anchor": "middle" });
       t.textContent = n.label;
@@ -196,7 +202,17 @@
         var e = knotenEl[n.id];
         if (!sichtbar(n)) { e.g.style.display = "none"; return; }
         e.g.style.display = "";
-        e.g.setAttribute("transform", "translate(" + n.x.toFixed(1) + "," + n.y.toFixed(1) + ")");
+        // Die Groesse faehrt weich auf ihr Ziel zu: das beruehrte Werk waechst,
+        // seine Verwandtschaft waechst mit, der Rest bleibt klein.
+        var ziel = n.zielSkala || 1;
+        // Ohne laufenden Bildtakt (verborgener Tab, Vorschaufenster im
+        // Hintergrund) gaebe es keinen zweiten Zeichenschritt - die Groesse
+        // bliebe auf halbem Weg stehen. Dann springt sie sofort ans Ziel.
+        n.skala = (reduce || document.hidden) ? ziel
+          : (n.skala || 1) + (ziel - (n.skala || 1)) * 0.28;
+        if (Math.abs(ziel - n.skala) < 0.006) n.skala = ziel;
+        var s = n.skala > 1.001 ? " scale(" + n.skala.toFixed(3) + ")" : "";
+        e.g.setAttribute("transform", "translate(" + n.x.toFixed(1) + "," + n.y.toFixed(1) + ")" + s);
       });
       kantenEl.forEach(function (ke) {
         var a = byId[ke.k.a], b = byId[ke.k.b];
@@ -213,31 +229,82 @@
     }
 
     // --- Hervorheben -------------------------------------------------------
+    // Wer zu einem Punkt gehoert - und in welchem Rang.
+    //
+    // Verwandt sind nur andere BAENDE, und nur ueber eine belegte, gewichtete
+    // Verbindung. Ein Werk, das zufaellig auch "Jagd" fuehrt, ist kein
+    // Lesevorschlag; wer jede Beruehrung als Verwandtschaft zaehlt, hebt am
+    // Ende alles hervor und damit nichts. Die Merkmalsknoten bleiben sichtbar,
+    // aber sie erklaeren die Verbindung - sie sind nicht ihr Ziel.
+    var HOECHSTENS = 8;
+
     function umfeld(id) {
       if (!id) return null;
-      var set = {}; set[id] = true;
-      (nachbarn[id] || []).forEach(function (x) { set[x.id] = true; });
-      return set;
+      var set = {}, verwandt = {}, rang = [];
+      set[id] = true;
+      (nachbarn[id] || []).forEach(function (x) {
+        set[x.id] = true;
+        if ((x.art === "verwandt" || x.art === "wirkung") && byId[x.id].typ === "werk") {
+          rang.push({ id: x.id, gewicht: x.art === "wirkung" ? 99 : (x.k.gewicht || 0) });
+        }
+      });
+      // Steht ein Merkmal im Mittelpunkt, sind seine Baende das Ziel.
+      if (byId[id].typ !== "werk" && byId[id].typ !== "autor") {
+        (nachbarn[id] || []).forEach(function (x) {
+          if (byId[x.id].typ === "werk") rang.push({ id: x.id, gewicht: 50 });
+        });
+      }
+      if (byId[id].typ === "autor") {
+        (nachbarn[id] || []).forEach(function (x) {
+          if (byId[x.id].typ === "werk") rang.push({ id: x.id, gewicht: 50 });
+        });
+      }
+      // Ein Band, den es schon gibt, geht einem vor, der noch in Vorbereitung
+      // ist: die Karte soll zu Buechern fuehren, nicht zu Ankuendigungen.
+      // Gemessen am harten Merkmal - fuehrt der Band einen Weg zum Buch.
+      rang.sort(function (a, b) {
+        var da = byId[a.id].extern ? 1 : 0, db = byId[b.id].extern ? 1 : 0;
+        if (da !== db) return db - da;
+        return b.gewicht - a.gewicht;
+      });
+      rang.slice(0, HOECHSTENS).forEach(function (x) { verwandt[x.id] = true; set[x.id] = true; });
+      return { set: set, verwandt: verwandt };
     }
 
     function hervorheben() {
       var id = warm || gewaehlt;
-      var set = umfeld(id);
+      var u = umfeld(id);
+      var vorn = [];
       N.forEach(function (n) {
         var g = knotenEl[n.id].g;
-        g.classList.toggle("ist-fern", !!set && !set[n.id]);
-        g.classList.toggle("ist-nah", !!set && !!set[n.id]);
-        g.classList.toggle("ist-heiss", n.id === id);
+        var heiss = n.id === id;
+        var verwandt = !!u && !!u.verwandt[n.id];
+        var nah = !!u && !!u.set[n.id];
+        g.classList.toggle("ist-fern", !!u && !nah);
+        g.classList.toggle("ist-nah", nah && !verwandt && !heiss);
+        g.classList.toggle("ist-verwandt", verwandt && !heiss);
+        g.classList.toggle("ist-heiss", heiss);
         g.classList.toggle("ist-gewaehlt", n.id === gewaehlt);
+        n.zielSkala = heiss ? 2.1 : (verwandt ? 1.5 : 1);
+        if (heiss || verwandt) vorn.push(g);
       });
+      // Was leuchtet, gehoert nach oben - sonst liegt ein blasser Punkt darueber.
+      vorn.forEach(function (g) { gKnoten.appendChild(g); });
+
       kantenEl.forEach(function (ke) {
-        var an = set && (ke.k.a === id || ke.k.b === id);
+        var direkt = u && (ke.k.a === id || ke.k.b === id);
+        // Querverbindung: die Linie zwischen zwei verwandten Baenden, auch
+        // wenn sie nicht am beruehrten Punkt selbst haengt.
+        var quer = u && ke.k.art === "verwandt" &&
+          (u.verwandt[ke.k.a] || ke.k.a === id) && (u.verwandt[ke.k.b] || ke.k.b === id);
+        var an = direkt || quer;
         ke.el.classList.toggle("ist-hell", !!an);
-        ke.el.classList.toggle("ist-fern", !!set && !an);
+        ke.el.classList.toggle("ist-quer", !!quer);
+        ke.el.classList.toggle("ist-fern", !!u && !an);
         // Der Funke entsteht erst, wenn eine Linie leuchtet - und verschwindet
         // wieder, damit nicht dreihundert Lichter gleichzeitig laufen.
         if (an && !ke.funke) {
-          ke.funke = el("line", { class: "uni-funke art-" + ke.k.art });
+          ke.funke = el("line", { class: "uni-funke art-" + ke.k.art + (quer ? " ist-quer" : "") });
           gFunken.appendChild(ke.funke);
         } else if (!an && ke.funke) {
           gFunken.removeChild(ke.funke); ke.funke = null;
@@ -258,7 +325,7 @@
     // --- Kamerafahrt -------------------------------------------------------
     var fahrt = null;
     function blickAuf(n, z) {
-      ziel = { x: n.x, y: n.y, z: z || Math.max(cam.z, 1.5) };
+      ziel = { x: n.x, y: n.y, z: z || Math.max(cam.z, 1.9) };
       if (reduce) { cam = { x: ziel.x, y: ziel.y, z: ziel.z }; anwenden(); return; }
       if (fahrt) cancelAnimationFrame(fahrt);
       var start = null, von = { x: cam.x, y: cam.y, z: cam.z };
@@ -291,6 +358,7 @@
         if (n.autorName) meta.push(esc(n.autorName));
         if (n.handlung) meta.push(esc(n.handlung[0] === n.handlung[1] ? n.handlung[0] : n.handlung[0] + "–" + n.handlung[1]));
         if (meta.length) html += '<p class="meta">' + meta.join(" &middot; ") + "</p>";
+        if (!n.extern && T.inVorbereitung) html += '<p class="meta vorbereitung-zeile">' + esc(T.inVorbereitung) + "</p>";
         if (n.untertitel) html += '<p class="unter">' + esc(n.untertitel) + "</p>";
         if (n.text) html += '<p class="text">' + esc(n.text) + "</p>";
       } else if (n.jahre) {
@@ -334,10 +402,17 @@
       }
       if (verwandt.length) {
         html += '<p class="kicker top">' + esc(T.verwandt || "") + "</p><ul>";
+        verwandt.sort(function (a, b) {
+          var da = byId[a.id].extern ? 1 : 0, db = byId[b.id].extern ? 1 : 0;
+          if (da !== db) return db - da;
+          return (b.k.gewicht || 0) - (a.k.gewicht || 0);
+        });
         verwandt.slice(0, 8).forEach(function (x) {
           var gruende = (x.k.gruende || []).map(function (g) { return g.label; }).join(", ");
+          var vorbereitung = byId[x.id].typ === "werk" && !byId[x.id].extern && T.inVorbereitung
+            ? ' <span class="vorbereitung">' + esc(T.inVorbereitung) + "</span>" : "";
           html += '<li><button type="button" data-goto="' + esc(x.id) + '">' + esc(byId[x.id].label) +
-            '<span class="warum">' + esc(gruende) + "</span></button></li>";
+            vorbereitung + '<span class="warum">' + esc(gruende) + "</span></button></li>";
         });
         html += "</ul>";
       }
@@ -445,18 +520,41 @@
     einpassen();
     window.addEventListener("resize", function () { anwenden(); });
 
-    // Leises Nachschwingen, damit das Bild lebt statt zu stehen.
+    // Ruhe im Bild. Die Kraftsimulation laeuft einmal und steht dann still -
+    // sie weiter tickern zu lassen, liess die Punkte zittern und die
+    // Beschriftungen flackern. Was bleibt, ist ein sehr leises Schweben aus
+    // einer festen Sinuskurve: keine Physik, keine Zufallsschritte, und es
+    // haelt an, sobald jemand etwas anschaut oder ausgewaehlt hat.
     if (!reduce) {
-      var atmen = function () {
-        tick(0.03);
+      N.forEach(function (n) { n.ruheX = n.x; n.ruheY = n.y; n.phase = n.i * 0.73; });
+      var t0 = null, letzte = 0;
+      var schweben = function (ts) {
+        raf2 = requestAnimationFrame(schweben);
+        if (t0 === null) t0 = ts;
+        if (ts - letzte < 40) return;          // 25 Bilder je Sekunde genuegen
+        letzte = ts;
+        if (warm || gewaehlt) {
+          // Beim Lesen steht das Bild still - aber das Wachsen des beruehrten
+          // Punktes muss zu Ende laufen, sonst bleibt es auf halbem Weg stehen.
+          var laeuft = N.some(function (n) { return Math.abs((n.zielSkala || 1) - (n.skala || 1)) > 0.006; });
+          if (!laeuft) return;
+          N.forEach(function (n) { n.x = n.ruheX; n.y = n.ruheY; });
+          zeichnen();
+          return;
+        }
+        var t = (ts - t0) / 1000;
+        N.forEach(function (n) {
+          n.x = n.ruheX + Math.sin(t * 0.32 + n.phase) * 2.4;
+          n.y = n.ruheY + Math.cos(t * 0.27 + n.phase * 1.6) * 2.4;
+        });
         zeichnen();
-        requestAnimationFrame(atmen);
       };
-      var laeuft = false;
+      var raf2 = null;
       var beobachter = window.IntersectionObserver ? new IntersectionObserver(function (es) {
-        if (es[0].isIntersecting && !laeuft) { laeuft = true; requestAnimationFrame(atmen); }
+        if (es[0].isIntersecting) { if (!raf2) raf2 = requestAnimationFrame(schweben); }
+        else if (raf2) { cancelAnimationFrame(raf2); raf2 = null; }
       }, { threshold: 0.02 }) : null;
-      if (beobachter) beobachter.observe(svg); else requestAnimationFrame(atmen);
+      if (beobachter) beobachter.observe(svg); else raf2 = requestAnimationFrame(schweben);
     }
   }
 
