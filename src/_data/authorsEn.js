@@ -260,7 +260,7 @@ module.exports = [
     worksIntro: "An industrial self-account that is at once autobiography, manufacturing doctrine, and economic polemic &mdash; translated close to the source and historically contextualized.",
     gridClass: "single-item",
     books: [
-      { cover: { img: "cover-ford" }, meta: "Industrial autobiography &middot; 1922", title: "Mein Leben und Werk", subtitle: "Die Autobiographie",
+      { cover: { img: "cover-ford" }, meta: "Industrial autobiography &middot; 1922", title: "My Life and Work", subtitle: "The Autobiography",
         modal: { metadata: "Aeternus Verlag · Blue series · Paperback €15.99 · Kindle €11.99", summary: "Ford recounts his path from the workshop to a global corporation and lays bare a complete system: how a product comes into being, what labour may cost, and why a low price is to him not a concession but a calculation.", sample: "The German edition follows the wording of the 1922 first edition. Figures, prices, wages, and measures stand unchanged; conversions and historical context belong in the publisher's apparatus, not in the work text.", amazon: "https://www.amazon.de/s?k=Mein+Leben+und+Werk+Henry+Ford+AETERNUS" } }
     ]
   },
@@ -277,7 +277,7 @@ module.exports = [
     eyebrow: "Green &middot; Military, expeditions, frontier regions",
     tagline: "A diary written inside the collapse.",
     intro: "She kept writing in the middle of the catastrophe: day after day Florentia Sale records how a British army in Afghanistan falls apart &mdash; soberly, precisely, and without the shelter of later explanation.",
-    metaDescription: "Lady Florentia Sale: life, journal, and the Aeternus Verlag edition Tagebuch der Katastrophe, available from Amazon in the Green series.",
+    metaDescription: "Lady Florentia Sale: life, journal, and the German Aeternus Verlag edition of A Journal of the Disasters in Affghanistan, available from Amazon in the Green series.",
     bioKicker: "Author &amp; context",
     bioTitle: "The witness<br>of the collapse",
     bioLede: "A woman at the headquarters of a failing campaign &mdash; and the only voice that wrote it down day by day, without knowing how it would end.",
@@ -288,11 +288,11 @@ module.exports = [
     ],
     facts: [["Series", "Green line &middot; Pillar II"], ["First edition", "John Murray, London 1843"], ["Formats", "Paperback &middot; Kindle eBook"], ["Status", "Available from Amazon"]],
     worksKicker: "Available from Amazon",
-    worksTitle: "Tagebuch der Katastrophe",
+    worksTitle: "A Journal of the Disasters in Affghanistan",
     worksIntro: "A dated eyewitness diary from the First Anglo-Afghan War, with the appendices and documents of the first edition &mdash; translated close to the source and historically contextualized.",
     gridClass: "single-item",
     books: [
-      { cover: { img: "cover-sale" }, meta: "Journal &middot; Paperback €19.99 &middot; Kindle €11.99", title: "Tagebuch der Katastrophe", subtitle: "Afghanistan 1841&ndash;1842",
+      { cover: { img: "cover-sale" }, meta: "Journal &middot; Paperback €19.99 &middot; Kindle €11.99", title: "A Journal of the Disasters in Affghanistan", subtitle: "Afghanistan 1841&ndash;1842",
         modal: { metadata: "Aeternus Verlag · Green line · Paperback €19.99 · Kindle €11.99", summary: "Kabul, winter 1841: a British army of occupation loses control, negotiates, withdraws, and is destroyed on the march through the passes. Florentia Sale writes it all down as it happens — date by date, into captivity itself.", sample: "The German edition follows the London first edition of 1843, including the introduction, notes, addenda, and appendix. The diary voice is preserved; recasting it as detached chronicle prose would be a loss of substance.", amazon: "https://www.amazon.de/dp/3912883424" } }
     ]
   },

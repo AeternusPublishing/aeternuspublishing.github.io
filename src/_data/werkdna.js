@@ -364,33 +364,16 @@ const WERKE = [
     motive: ["tierbiografie", "tiertod", "jagd", "reifung", "naturbeobachtung"],
     herkunft: "Werkkenntnis; ein Reh vom ersten Sommer bis zur Einsamkeit des alten Bocks"
   },
+
   {
-    key: "fsa-hasen",
+    key: "fsa-bambis-kinder",
     autor: "felix-salten",
-    titel: { de: "Fünfzehn Hasen", en: "Fifteen Rabbits" },
-    handlung: [1900, 1929],
+    titel: { de: "Bambis Kinder", en: "Bambi's Children" },
+    handlung: [1900, 1940],
     orte: ["mitteleuropa_wald"],
-    motive: ["tierbiografie", "tiertod", "jagd", "naturbeobachtung"],
-    herkunft: "Werkkenntnis; ein Jahreslauf im Wald aus der Sicht der Hasen"
-  },
-  {
-    key: "fsa-florian",
-    autor: "felix-salten",
-    titel: { de: "Florian", en: "Florian" },
-    handlung: [1901, 1918],
-    orte: ["wien"],
-    ereignisse: ["untergang_habsburg"],
-    motive: ["pferd", "tierbiografie"],
-    herkunft: "Werkkenntnis; der Lipizzaner vom Hofstall bis zum Fiaker nach dem Ende der Monarchie"
-  },
-  {
-    key: "fsa-perri",
-    autor: "felix-salten",
-    titel: { de: "Die Jugend des Eichhörnchens Perri", en: "Perri" },
-    handlung: [1900, 1938],
-    orte: ["mitteleuropa_wald"],
-    motive: ["tierbiografie", "naturbeobachtung", "reifung"],
-    herkunft: "Werkkenntnis; das erste Jahr eines Eichhörnchens"
+    motive: ["tierbiografie", "tiertod", "jagd", "reifung", "gefangenschaft", "naturbeobachtung"],
+    wirkung: [{ ziel: "fsa-bambi", art: "fortsetzung", beleg: "Fortsetzung von Bambi: Genos und Gurris Geschichte setzt die des Vaters fort" }],
+    herkunft: "Werkkenntnis; die 1940 auf Deutsch erschienene Fortsetzung - Bambis Zwillinge Geno und Gurri, Gurris Gefangenschaft beim Menschen"
   },
 
   // --- Carlo Collodi ---
