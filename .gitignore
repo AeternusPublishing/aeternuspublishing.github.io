@@ -2,6 +2,15 @@
 node_modules
 
 # build artefacts
+# public/ ist das Erzeugnis von 'npm run build'. Es war seit dem 15.06.2026
+# eingecheckt, als GitHub Pages die Seite noch unmittelbar aus dem Zweig
+# auslieferte. Seit dem Deploy-Workflow vom 23.06.2026 baut das CI selbst aus
+# src/ und laedt das Ergebnis als Artefakt hoch (die Pages-API meldet
+# build_type=workflow) - der eingecheckte Ordner wurde also nie mehr
+# ausgeliefert, lief aber weiter auseinander: anderes style.css, andere
+# Bilder, fehlende Seiten. Wer ihn ansah, sah einen Stand, den es im Netz
+# nicht gab.
+public/
 
 # secrets and errors
 .env

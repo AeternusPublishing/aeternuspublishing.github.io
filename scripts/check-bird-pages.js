@@ -1,6 +1,14 @@
 const fs = require('fs');
 const assert = require('node:assert/strict');
 const path = require('path');
+// Diese Pruefung liest das Bau-Erzeugnis, nicht die Quellen. Seit public/
+// nicht mehr eingecheckt ist, kann der Ordner in einem frischen Klon fehlen -
+// dann braeche der Lauf mit einem nackten ENOENT ab, und niemand wuesste warum.
+if (!require('fs').existsSync('public')) {
+  console.error('Der Ordner public/ fehlt. Er ist das Bau-Erzeugnis und wird nicht mehr mitgeliefert.');
+  console.error("Bitte zuerst 'npm run build' ausfuehren, dann diese Pruefung erneut.");
+  process.exit(2);
+}
 const expected = {
   De: { route: 'autoren', covers: ['cover-waldteufel', 'cover-hawks-de'], asins: ['B0HDRJVR7N','3912883106','B0HHJRK4TL','3912883513','3912883521'], formats: [2,3] },
   En: { route: 'en/authors', covers: ['cover-nick-en', 'cover-hawks-en'], asins: ['B0HFG6QCY5','3912883254','3912883114'], formats: [3,3] }

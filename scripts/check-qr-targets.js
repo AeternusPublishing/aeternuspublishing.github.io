@@ -1,5 +1,13 @@
 const fs = require("fs");
 const path = require("path");
+// Diese Pruefung liest das Bau-Erzeugnis, nicht die Quellen. Seit public/
+// nicht mehr eingecheckt ist, kann der Ordner in einem frischen Klon fehlen -
+// dann braeche der Lauf mit einem nackten ENOENT ab, und niemand wuesste warum.
+if (!require('fs').existsSync('public')) {
+  console.error('Der Ordner public/ fehlt. Er ist das Bau-Erzeugnis und wird nicht mehr mitgeliefert.');
+  console.error("Bitte zuerst 'npm run build' ausfuehren, dann diese Pruefung erneut.");
+  process.exit(2);
+}
 
 const PUBLIC = path.resolve("public");
 const QR_ROOT = path.join(PUBLIC, "qr");
