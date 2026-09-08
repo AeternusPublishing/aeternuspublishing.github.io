@@ -1,0 +1,113 @@
+{# Verlagskarte — gemeinsamer Rumpf fuer /karte/ und /en/map/.
+   Erwartet: lang ("de"|"en"). Daten aus src/_data/karte.js, Text aus i18n.js.
+   Eine Quelle fuer beide Sprachen: eine spaetere Aenderung kann nicht mehr
+   nur die halbe Website erreichen. #}
+{% set k = karte[lang] %}
+
+<main data-karte>
+  <section class="block karte-head" style="background-color:#161311;">
+    <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
+    <div class="wrap">
+      <div style="max-width:760px;">
+        <div class="eyebrow-mini" style="color:var(--gold);letter-spacing:.15em;font-size:.85rem;">{{ i18n["karte.eyebrow"][lang] }}</div>
+        <h1 class="title-xl" style="margin-top:15px;font-family:var(--font-display);font-weight:400;"><span class="gold-grad">{{ i18n["karte.title"][lang] }}</span></h1>
+        <p class="lede">{{ i18n["karte.intro"][lang] }}</p>
+        <p class="meta-line imperial-xs" style="margin-top:28px;color:var(--muted);">
+          {{ k.stats.works }} {{ i18n["karte.countWorks"][lang] }}
+          &middot; {{ k.stats.authors }} {{ i18n["karte.countAuthors"][lang] }}
+          &middot; {{ k.stats.series }} {{ i18n["karte.countSeries"][lang] }}
+        </p>
+      </div>
+
+      <div class="karte-bar">
+        <div>
+          <p class="imperial-xs" style="color:var(--muted);margin-bottom:12px;">{{ i18n["karte.viewLabel"][lang] }}</p>
+          <div class="karte-modes" role="group" aria-label="{{ i18n['karte.viewLabel'][lang] }}">
+            <button type="button" data-karte-mode="reihen" aria-pressed="true">{{ i18n["karte.bySeries"][lang] }}</button>
+            <button type="button" data-karte-mode="motive" aria-pressed="false">{{ i18n["karte.byMotive"][lang] }}</button>
+          </div>
+        </div>
+        <div>
+          <p class="imperial-xs" style="color:var(--muted);margin-bottom:12px;">{{ i18n["karte.filterLabel"][lang] }}</p>
+          <div class="karte-filter" role="group" aria-label="{{ i18n['karte.filterLabel'][lang] }}">
+            <button type="button" class="chip" data-karte-series="" aria-pressed="true">{{ i18n["karte.allSeries"][lang] }}</button>
+            {%- for s in k.series %}
+            <button type="button" class="chip" data-karte-series="{{ s.slug }}" aria-pressed="false"{% if s.empty %} data-empty="1"{% endif %}>
+              <span class="dot" style="background:{{ s.color }};"></span>{{ s.label }}
+            </button>
+            {%- endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block karte-stage-block" style="background-color:#161311;">
+    <div class="wrap karte-stage">
+      <div>
+        <div class="karte-canvas">
+          <svg data-karte-svg viewBox="0 0 1500 1500" preserveAspectRatio="xMidYMid meet"
+               role="img" aria-label="{{ i18n['karte.title'][lang] }}"></svg>
+        </div>
+        <div class="karte-legend">
+          <span><i class="ring"></i>{{ i18n["karte.legendSeries"][lang] }}</span>
+          <span><i class="ring"></i>{{ i18n["karte.legendAuthor"][lang] }}</span>
+          <span><i></i>{{ i18n["karte.legendWork"][lang] }}</span>
+          <span><i class="sq"></i>{{ i18n["karte.legendMotive"][lang] }}</span>
+          <span><i class="kin"></i>{{ i18n["karte.legendKin"][lang] }}</span>
+        </div>
+        <noscript><p class="karte-legend" style="text-transform:none;letter-spacing:0;font-family:var(--font-serif);font-size:14px;">{{ i18n["karte.noscript"][lang] }}</p></noscript>
+      </div>
+
+      <aside class="karte-panel" data-karte-panel aria-live="polite">
+        <p class="kicker">{{ i18n["karte.eyebrow"][lang] }}</p>
+        <h2>{{ i18n["karte.emptyTitle"][lang] }}</h2>
+        <p class="text">{{ i18n["karte.emptyText"][lang] }}</p>
+      </aside>
+    </div>
+
+    <div class="wrap">
+      <details class="karte-index">
+        <summary>{{ i18n["karte.indexTitle"][lang] }}</summary>
+        <div class="cols">
+          {%- for s in k.index %}
+          <div>
+            <h3 style="color:{% if s.slug == 'anthrazit' %}#8a8170{% else %}{{ s.color }}{% endif %};">{{ s.num }} &middot; {{ s.label }}</h3>
+            <ul>
+              {%- if s.authors.length == 0 %}
+              <li><span>{{ i18n["series.noAuthorsYet"][lang] }}</span></li>
+              {%- endif %}
+              {%- for a in s.authors %}
+              <li><a href="{{ a.url }}">{{ a.label }}</a> <span>{{ a.sub }}</span></li>
+                {%- for w in a.works %}
+              <li style="padding-left:16px;">{{ w.label }}{% if w.year %} <span>&middot; {{ w.year }}</span>{% endif %}</li>
+                {%- endfor %}
+              {%- endfor %}
+            </ul>
+          </div>
+          {%- endfor %}
+        </div>
+      </details>
+    </div>
+  </section>
+</main>
+
+<script>
+window.AETERNUS_KARTE = {{ k | dump | safe }};
+window.AETERNUS_KARTE.labels = {
+  bySeries: {{ i18n["karte.bySeries"][lang] | dump | safe }},
+  byMotive: {{ i18n["karte.byMotive"][lang] | dump | safe }},
+  type_reihe: {{ i18n["karte.type_reihe"][lang] | dump | safe }},
+  type_autor: {{ i18n["karte.type_autor"][lang] | dump | safe }},
+  type_werk: {{ i18n["karte.type_werk"][lang] | dump | safe }},
+  type_motiv: {{ i18n["karte.type_motiv"][lang] | dump | safe }},
+  authorsLabel: {{ i18n["karte.authorsLabel"][lang] | dump | safe }},
+  worksLabel: {{ i18n["karte.worksLabel"][lang] | dump | safe }},
+  motivLabel: {{ i18n["karte.motivLabel"][lang] | dump | safe }},
+  open: {{ i18n["karte.open"][lang] | dump | safe }},
+  buy: {{ i18n["karte.buy"][lang] | dump | safe }},
+  emptySeries: {{ i18n["series.noAuthorsYet"][lang] | dump | safe }},
+  kinLabel: {{ i18n["karte.kinLabel"][lang] | dump | safe }}
+};
+</script>
+<script src="/assets/js/karte.js{% if assetVersion.karte %}?v={{ assetVersion.karte }}{% endif %}" defer></script>

@@ -294,6 +294,55 @@ module.exports = {
     en: "No authors assigned yet — this series opens soon."
   },
 
+  // --- Verlagskarte (/karte/, /en/map/) ---
+  // Die Karte selbst liest src/_data/karte.js; hier steht nur, was auf der
+  // Seite geschrieben steht. Im englischen Lesertext heisst das Haus nur
+  // AETERNUS - die vollstaendige Firmierung bleibt dem Impressum vorbehalten.
+  "nav.map": { de: "Karte", en: "Map" },
+  "karte.eyebrow": { de: "Das Programm im Zusammenhang", en: "The programme in context" },
+  "karte.title": { de: "Die Karte des Verlags", en: "The Map of the House" },
+  "karte.intro": {
+    de: "Sechs Reihen, ihre Autoren und jeder Band, den wir erschlossen haben — nicht als Liste, sondern als Zusammenhang. Ein Punkt zeigt, woran er hängt: an seiner Reihe, an seinem Autor, an dem Stoff, den er mit anderen teilt.",
+    en: "Six series, their authors, and every volume we have opened up — not a list but a web of relations. Each point shows what it hangs from: its series, its author, and the subject it shares with others."
+  },
+  "karte.bySeries": { de: "Nach Reihen", en: "By series" },
+  "karte.byMotive": { de: "Nach Stoffen", en: "By subject" },
+  "karte.viewLabel": { de: "Ansicht", en: "View" },
+  "karte.filterLabel": { de: "Reihe hervorheben", en: "Highlight a series" },
+  "karte.allSeries": { de: "Alle", en: "All" },
+  "karte.emptyTitle": { de: "Einen Punkt wählen", en: "Choose a point" },
+  "karte.emptyText": {
+    de: "Fahren Sie über einen Punkt, um seine Verbindungen zu sehen, und wählen Sie ihn aus, um Titel, Jahr und den Weg zum Buch zu lesen. Mit der Tabulatortaste erreichen Sie jeden Punkt auch ohne Maus.",
+    en: "Hover a point to see its connections, and select it to read title, year, and the way to the book. Every point can be reached with the tab key as well."
+  },
+  "karte.type_reihe": { de: "Reihe", en: "Series" },
+  "karte.type_autor": { de: "Autor", en: "Author" },
+  "karte.type_werk": { de: "Band", en: "Volume" },
+  "karte.type_motiv": { de: "Stoff", en: "Subject" },
+  "karte.authorsLabel": { de: "Autoren dieser Reihe", en: "Authors in this series" },
+  "karte.worksLabel": { de: "Bände", en: "Volumes" },
+  "karte.motivLabel": { de: "Stoff", en: "Subject" },
+  "karte.kinLabel": { de: "Verwandt im Stoff", en: "Related in subject" },
+  "karte.legendKin": { de: "Verwandtschaft", en: "Kinship" },
+  "karte.open": { de: "Seite öffnen", en: "Open page" },
+  "karte.buy": { de: "Zum Buch", en: "To the book" },
+  "karte.legendSeries": { de: "Reihe", en: "Series" },
+  "karte.legendAuthor": { de: "Autor", en: "Author" },
+  "karte.legendWork": { de: "Band", en: "Volume" },
+  "karte.legendMotive": { de: "Stoff", en: "Subject" },
+  "karte.indexTitle": { de: "Verzeichnis der Karte", en: "Index of the map" },
+  "karte.noscript": {
+    de: "Die Karte wird im Browser gezeichnet. Ohne aktives JavaScript steht der vollständige Inhalt im Verzeichnis unter der Karte.",
+    en: "The map is drawn in the browser. Without JavaScript the full content is available in the index below."
+  },
+  "karte.countAuthors": { de: "Autoren", en: "Authors" },
+  "karte.countWorks": { de: "Bände", en: "Volumes" },
+  "karte.countSeries": { de: "Reihen", en: "Series" },
+  "karte.metaDescription": {
+    de: "Die Karte des Aeternus Verlags: sechs Reihen, ihre Autoren und alle erschlossenen Bände als begehbarer Zusammenhang.",
+    en: "The map of AETERNUS: six series, their authors, and every volume we have opened up, shown as a web of relations."
+  },
+
   // Matrix array for your dynamic Series generation loop
   // "authors" is intentionally on every entry (empty for now on I–IV): as further authors
   // join a series, they are appended here — no template changes required on /reihen/ or the

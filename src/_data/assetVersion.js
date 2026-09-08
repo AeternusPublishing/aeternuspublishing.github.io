@@ -14,9 +14,10 @@ const fs = require("fs");
 const path = require("path");
 
 const CSS_DIR = path.join(__dirname, "..", "assets", "css");
+const JS_DIR = path.join(__dirname, "..", "assets", "js");
 
-function hash(datei) {
-  const p = path.join(CSS_DIR, datei);
+function hash(datei, dir) {
+  const p = path.join(dir || CSS_DIR, datei);
   try {
     return crypto.createHash("sha256").update(fs.readFileSync(p)).digest("hex").slice(0, 10);
   } catch (e) {
@@ -29,4 +30,6 @@ function hash(datei) {
 module.exports = () => ({
   style: hash("style.css"),
   fonts: hash("fonts.css"),
+  karteCss: hash("karte.css"),
+  karte: hash("karte.js", JS_DIR),
 });
