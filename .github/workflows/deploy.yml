@@ -27,6 +27,22 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      # public/ ist das Bau-Erzeugnis und seit dem 08.09.2026 nicht mehr
+      # versioniert (siehe .gitignore). Diese Pruefung haelt den Weg zu: eine
+      # .gitignore-Zeile verhindert kein "git add -f" und keinen Merge, der den
+      # Ordner wieder mitbringt. Kaeme er zurueck, laege im CI wieder ein
+      # Altstand neben dem frischen Bau - und der Upload-Schritt laedt den
+      # ganzen Ordner hoch, also auch die alten Dateien.
+      - name: public/ darf nicht versioniert sein
+        run: |
+          if [ -n "$(git ls-files public)" ]; then
+            echo "::error::Der Ordner public/ ist wieder in der Versionsverwaltung."
+            echo "Er ist das Erzeugnis von 'npm run build' und wird im CI ohnehin neu gebaut."
+            echo "Bitte 'git rm -r --cached public' ausfuehren und den Commit wiederholen."
+            git ls-files public | head -20
+            exit 1
+          fi
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
