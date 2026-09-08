@@ -21,6 +21,12 @@
 // das Werk seine Orte, Zeiten, Ereignisse und Stoffe nennt.
 
 // --- Vokabular -------------------------------------------------------------
+// KANONISCHE QUELLE: 99_SYSTEM/PIPELINES/V3/PROFILES/CONTRACTS/WORK_DNA_VOCABULARY.json
+// im Produktionsordner. Dort haengt seit dem 2026-09-08 das Gate ACC-E801 daran,
+// das jede Werk-DNA gegen dieses Verzeichnis prueft. Was hier steht, ist eine
+// Spiegelung fuer den Bau der Website - wer ein Merkmal ergaenzt, ergaenzt es
+// zuerst dort.
+//
 // Kanten entstehen nur zwischen gleichen Schluesseln. Ein Ort, der bei einem
 // Werk "Adirondacks" und beim naechsten "Adirondack Mountains" hiesse, fiele
 // auseinander - deshalb ein geschlossenes Verzeichnis mit Klartext je Sprache.
