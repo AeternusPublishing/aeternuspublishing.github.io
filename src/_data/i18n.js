@@ -294,6 +294,87 @@ module.exports = {
     en: "No authors assigned yet — this series opens soon."
   },
 
+  // --- Verlagskarte (/karte/, /en/map/) ---
+  // Die Karte selbst liest src/_data/karte.js; hier steht nur, was auf der
+  // Seite geschrieben steht. Im englischen Lesertext heisst das Haus nur
+  // AETERNUS - die vollstaendige Firmierung bleibt dem Impressum vorbehalten.
+  "nav.map": { de: "Universum", en: "Universe" },
+  "karte.eyebrow": { de: "Das Programm im Zusammenhang", en: "The programme in context" },
+  "karte.title": { de: "Die Karte des Verlags", en: "The Map of the House" },
+  "karte.intro": {
+    de: "Sechs Reihen, ihre Autoren und jeder Band, den wir erschlossen haben — nicht als Liste, sondern als Zusammenhang. Ein Punkt zeigt, woran er hängt: an seiner Reihe, an seinem Autor, an dem Stoff, den er mit anderen teilt.",
+    en: "Six series, their authors, and every volume we have opened up — not a list but a web of relations. Each point shows what it hangs from: its series, its author, and the subject it shares with others."
+  },
+  "karte.bySeries": { de: "Nach Reihen", en: "By series" },
+  "karte.byMotive": { de: "Nach Stoffen", en: "By subject" },
+  "karte.viewLabel": { de: "Ansicht", en: "View" },
+  "karte.filterLabel": { de: "Reihe hervorheben", en: "Highlight a series" },
+  "karte.allSeries": { de: "Alle", en: "All" },
+  "karte.emptyTitle": { de: "Einen Punkt wählen", en: "Choose a point" },
+  "karte.emptyText": {
+    de: "Fahren Sie über einen Punkt, um seine Verbindungen zu sehen, und wählen Sie ihn aus, um Titel, Jahr und den Weg zum Buch zu lesen. Mit der Tabulatortaste erreichen Sie jeden Punkt auch ohne Maus.",
+    en: "Hover a point to see its connections, and select it to read title, year, and the way to the book. Every point can be reached with the tab key as well."
+  },
+  "karte.type_reihe": { de: "Reihe", en: "Series" },
+  "karte.type_autor": { de: "Autor", en: "Author" },
+  "karte.type_werk": { de: "Band", en: "Volume" },
+  "karte.type_motiv": { de: "Stoff", en: "Subject" },
+  "karte.authorsLabel": { de: "Autoren dieser Reihe", en: "Authors in this series" },
+  "karte.worksLabel": { de: "Bände", en: "Volumes" },
+  "karte.motivLabel": { de: "Stoff", en: "Subject" },
+  "karte.kinLabel": { de: "Verwandt im Stoff", en: "Related in subject" },
+  "karte.legendKin": { de: "Verwandtschaft", en: "Kinship" },
+  "karte.open": { de: "Seite öffnen", en: "Open page" },
+  "karte.buy": { de: "Zum Buch", en: "To the book" },
+  "karte.legendSeries": { de: "Reihe", en: "Series" },
+  "karte.legendAuthor": { de: "Autor", en: "Author" },
+  "karte.legendWork": { de: "Band", en: "Volume" },
+  "karte.legendMotive": { de: "Stoff", en: "Subject" },
+  "karte.indexTitle": { de: "Verzeichnis der Karte", en: "Index of the map" },
+  "karte.noscript": {
+    de: "Die Karte wird im Browser gezeichnet. Ohne aktives JavaScript steht der vollständige Inhalt im Verzeichnis unter der Karte.",
+    en: "The map is drawn in the browser. Without JavaScript the full content is available in the index below."
+  },
+  "karte.countAuthors": { de: "Autoren", en: "Authors" },
+  "karte.countWorks": { de: "Bände", en: "Volumes" },
+  "karte.countSeries": { de: "Reihen", en: "Series" },
+  // --- Universum (Vollbildkarte) ---
+  "uni.title": { de: "Das Universum des Verlags", en: "The Universe of the House" },
+  "uni.eyebrow": { de: "Jedes Buch ein Stern", en: "Every book a star" },
+  "uni.intro": {
+    de: "Jeder Band ist ein Punkt, und jeder Punkt hängt an dem, wovon er handelt: an einem Ereignis, an einer Landschaft, an einem Stoff. Wer Rolf in der Wildnis anfasst, findet die Schlacht von Plattsburgh, den Krieg von 1812 und über die Waldläuferkunst den Weg zu Nessmuk und zu Baden-Powell.",
+    en: "Every volume is a point, and every point hangs from what it is about: an event, a landscape, a subject. Touch Rolf in the Woods and you find the Battle of Plattsburgh, the War of 1812, and by way of woodcraft the path to Nessmuk and Baden-Powell."
+  },
+  "uni.typ_werk": { de: "Band", en: "Volume" },
+  "uni.typ_autor": { de: "Autor", en: "Author" },
+  "uni.typ_ereignis": { de: "Ereignis", en: "Event" },
+  "uni.typ_ort": { de: "Ort", en: "Place" },
+  "uni.typ_motiv": { de: "Stoff", en: "Subject" },
+  "uni.typ_person": { de: "Person", en: "Person" },
+  "uni.merkmale": { de: "Woran dieser Band hängt", en: "What this volume hangs from" },
+  "uni.gehoertZu": { de: "Gehört zu", en: "Part of" },
+  "uni.umfasst": { de: "Umfasst", en: "Includes" },
+  "uni.inVorbereitung": { de: "in Vorbereitung", en: "in preparation" },
+  "uni.verbindungen": { de: "Verbindungen", en: "Connections" },
+  "uni.werkeDaran": { de: "Bände hierzu", en: "Volumes on this" },
+  "uni.verwandt": { de: "Verwandte Bände", en: "Related volumes" },
+  "uni.herkunft": { de: "Woher wir das wissen", en: "How we know" },
+  "uni.zumBuch": { de: "Zum Buch", en: "To the book" },
+  "uni.seite": { de: "Seite öffnen", en: "Open page" },
+  "uni.suche": { de: "Suchen: Buch, Ereignis, Ort, Stoff", en: "Search: book, event, place, subject" },
+  "uni.leerTitel": { de: "Einen Punkt wählen", en: "Choose a point" },
+  "uni.leerText": {
+    de: "Fahren Sie über einen Punkt, um seine Verbindungen zu sehen. Ein Klick hält ihn fest, rückt ihn in den Blick und zeigt, woran er hängt und welche Bände daneben stehen. Ziehen verschiebt, das Mausrad zoomt.",
+    en: "Hover a point to see its connections. A click holds it, brings it into view, and shows what it hangs from and which volumes stand beside it. Drag to move, scroll to zoom."
+  },
+  "uni.heim": { de: "Ganzes Feld", en: "Whole field" },
+  "uni.stand": { de: "Stand der Karte", en: "What the map holds" },
+
+  "karte.metaDescription": {
+    de: "Die Karte des Aeternus Verlags: sechs Reihen, ihre Autoren und alle erschlossenen Bände als begehbarer Zusammenhang.",
+    en: "The map of AETERNUS: six series, their authors, and every volume we have opened up, shown as a web of relations."
+  },
+
   // Matrix array for your dynamic Series generation loop
   // "authors" is intentionally on every entry (empty for now on I–IV): as further authors
   // join a series, they are appended here — no template changes required on /reihen/ or the
@@ -396,7 +477,7 @@ module.exports = {
           books: [
             {
               cover: "cover-sale",
-              title: { de: "Tagebuch der Katastrophe", en: "Tagebuch der Katastrophe" },
+              title: { de: "Tagebuch der Katastrophe", en: "A Journal of the Disasters in Affghanistan" },
               desc: {
                 de: "Florentia Sales Augenzeugentagebuch aus dem Rückzug von Kabul, nach der Londoner Erstausgabe von 1843.",
                 en: "Florentia Sale's eyewitness diary of the retreat from Kabul, based on the London first edition of 1843."
@@ -420,7 +501,7 @@ module.exports = {
           books: [
             {
               cover: "cover-der-sturz-prempehs",
-              title: { de: "Der Sturz Prempehs", en: "Der Sturz Prempehs" },
+              title: { de: "Der Sturz Prempehs", en: "The Downfall of Prempeh" },
               desc: {
                 de: "Baden-Powells Feldtagebuch des Aschanti-Feldzugs 1895–96, nach der Londoner Erstausgabe von 1896 mit allen 22 Originaltafeln.",
                 en: "Baden-Powell's field diary of the 1895–96 Ashanti campaign, after the London first edition of 1896 with all 22 original plates."
@@ -801,7 +882,7 @@ module.exports = {
   "authors.title": { de: "Ausgewählte Autoren", en: "Selected authors" },
   "authors.intro": {
     de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein, Robert Montgomery Bird eröffnet Anthrazit, Henry Fords Mein Leben und Werk die Reihe Blau — und Lady Florentia Sales Tagebuch der Katastrophe ist für die Reihe Grün bei Amazon lieferbar.",
-    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, Henry Ford's Mein Leben und Werk opens the Blue series — and Lady Florentia Sale's Tagebuch der Katastrophe is available from Amazon for the Green series."
+    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, Henry Ford's My Life and Work opens the Blue series — and Lady Florentia Sale's A Journal of the Disasters in Affghanistan is available from Amazon for the Green series."
   },
   "authors.viewTitles": { de: "Titel ansehen", en: "View titles" },
   "authors.viewProfile": { de: "Zur Autorenseite", en: "Open author page" },

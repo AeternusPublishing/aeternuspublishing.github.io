@@ -103,3 +103,14 @@ h2{margin:0;font:460 clamp(3rem,5vw,5.8rem)/.94 var(--display);letter-spacing:-.
 @media(max-width:1250px){.book-grid{grid-template-columns:repeat(2,minmax(220px,300px))}}
 @media(max-width:1050px){.hero{grid-template-columns:.8fr 1.2fr;padding-inline:3vw}.portrait-frame{width:min(88%,28rem);transform:translateX(2%)}.hero-copy{padding-left:3rem}.bio-heading,.works-head{grid-template-columns:1fr}.works-intro{max-width:46rem}}
 @media(max-width:760px){.site-header{min-height:5.2rem;padding:0 1rem}.brand span{font-size:.92rem;letter-spacing:.11em}.brand img{width:auto;height:1.6rem}.nav{gap:1rem;font-size:.58rem}.nav a:not(.language){display:none}.language{padding-left:0;border-left:0}.hero{display:flex;flex-direction:column;align-items:stretch;min-height:auto;padding:7rem 1.25rem 5rem}.hero::before{background-position:60% center}.portrait-column{order:2;padding:3.5rem 0 2.5rem}.portrait-frame{width:min(88vw,26rem);transform:none}.portrait-caption{bottom:-2.6rem}.hero-copy{order:1;padding:1rem 0 0}h1,.bird-name{font-size:clamp(3.8rem,18vw,6rem)}.hero-quote{font-size:clamp(2rem,10vw,3rem)}.eyebrow{margin-bottom:1.3rem}.bio-heading{gap:2rem}.bio-grid,.book-grid{grid-template-columns:1fr}.bio-grid{gap:3rem}.book-grid{gap:5rem}.book-subtitle{min-height:0}.site-footer{flex-direction:column}.modal{padding:.5rem}.modal-panel{grid-template-columns:1fr;grid-template-rows:7rem minmax(0,1fr);height:calc(100dvh - 1rem);max-height:calc(100svh - 1rem)}.modal-visual{min-height:0;padding:1rem 1.5rem;justify-content:flex-start}.modal-cover{display:none}.modal-monogram{position:static;font-size:4.5rem}.modal-content{padding:2.25rem 1.5rem 2rem}.modal h3{font-size:clamp(2.45rem,12vw,3.5rem)}.modal-close{top:.8rem;right:.8rem;color:var(--cream);border-color:rgba(240,223,183,.35)}}
+
+
+/* Weg in den Graphen. Von jeder Autorenseite fuehrt ein Link auf die Karte,
+   und zwar nicht auf das ganze Feld, sondern auf den Punkt dieses Bandes -
+   dort stehen seine Querverbindungen. */
+.uni-verweis{display:inline-flex;align-items:center;gap:8px;margin-top:14px;
+  font-family:var(--font-sans,system-ui);font-size:10px;letter-spacing:.22em;
+  text-transform:uppercase;color:#a07f33;text-decoration:none;
+  border-bottom:1px solid rgba(160,127,51,.35);padding-bottom:4px;transition:color .3s,border-color .3s;}
+.uni-verweis:hover{color:#d4af37;border-color:rgba(212,175,55,.7);}
+.uni-verweis-gross{margin-top:22px;font-size:11px;}

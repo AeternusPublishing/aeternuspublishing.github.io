@@ -11,14 +11,18 @@
     <a href="{% if lang == 'de' %}/verlag/{% else %}/en/house/{% endif %}">{{ i18n["nav.verlag"][lang] }}</a>
     <a href="{% if lang == 'de' %}/edition/{% else %}/en/edition/{% endif %}">{{ i18n["nav.edition"][lang] }}</a>
     <a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}">{{ i18n["nav.series"][lang] }}</a>
+    <a href="{% if lang == 'de' %}/karte/{% else %}/en/map/{% endif %}">{{ i18n["nav.map"][lang] }}</a>
     <a href="{% if lang == 'de' %}/presse/{% else %}/en/press/{% endif %}">{{ i18n["nav.press"][lang] }}</a>
       </nav>
        {% include 'instagram.njk' %}
        <!-- Language Selector Toggles -->
+    {# altDe/altEn: Seiten, die eine Entsprechung in der anderen Sprache haben,
+       setzen sie im Front Matter und schicken den Leser dorthin statt auf die
+       Startseite. Ohne die Angaben bleibt es beim bisherigen Verhalten. #}
     <div class="lang-switch" role="group" aria-label="Language switcher">
-          <a href="/" class="lang-btn {% if lang == 'de' %}is-active{% endif %}">DE</a>
+          <a href="{{ altDe | default('/') }}" class="lang-btn {% if lang == 'de' %}is-active{% endif %}">DE</a>
           <span class="lang-sep">|</span>
-          <a href="/en/" class="lang-btn {% if lang == 'en' %}is-active{% endif %}">EN</a>
+          <a href="{{ altEn | default('/en/') }}" class="lang-btn {% if lang == 'en' %}is-active{% endif %}">EN</a>
         </div>  
 </div>
 </header>

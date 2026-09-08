@@ -109,6 +109,11 @@ function switchLanguage(lang, button) {
 
       // RULE B: If it's a language switcher link (e.g., href="/" or href="/en/")
       if (link.closest('.lang-switch')) {
+        // Der Austausch unten ersetzt nur main/footer und fuehrt keine Skripte
+        // der Zielseite aus. Fuer Seiten, die im Browser etwas aufbauen (etwa
+        // die Karte), fuehrt das zu einer leeren Flaeche - deshalb wechseln
+        // Sprachlinks, die auf eine Unterseite zeigen, normal die Seite.
+        if (href !== '/' && href !== '/en/') return;
         e.preventDefault();
         const targetUrl = href;
         

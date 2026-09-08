@@ -1,0 +1,87 @@
+{# Das Universum des Verlags — gemeinsamer Rumpf fuer /karte/ und /en/map/.
+   Erwartet: lang. Daten aus src/_data/universum.js (Graph + Buchangaben). #}
+{% set u = universum[lang] %}
+
+<main data-uni>
+  <section class="uni">
+    <svg data-uni-svg role="application" aria-label="{{ i18n['uni.title'][lang] }}"></svg>
+
+    <div class="uni-suche">
+      <label class="sr-only" for="uni-suchfeld">{{ i18n["uni.suche"][lang] }}</label>
+      <input id="uni-suchfeld" type="search" data-uni-suche autocomplete="off"
+             placeholder="{{ i18n['uni.suche'][lang] }}">
+      <div class="uni-treffer" data-uni-treffer hidden></div>
+    </div>
+
+    <aside class="uni-panel" data-uni-panel aria-live="polite">
+      <p class="kicker">{{ i18n["uni.eyebrow"][lang] }}</p>
+      <h2>{{ i18n["uni.leerTitel"][lang] }}</h2>
+      <p class="text">{{ i18n["uni.leerText"][lang] }}</p>
+      <p class="herkunft">{{ i18n["uni.stand"][lang] }}: {{ u.stand.werke }} {{ i18n["karte.countWorks"][lang] }} &middot;
+        {{ u.stand.ereignisse }} {{ i18n["uni.typ_ereignis"][lang] }} &middot;
+        {{ u.stand.orte }} {{ i18n["uni.typ_ort"][lang] }} &middot;
+        {{ u.stand.stoffe }} {{ i18n["uni.typ_motiv"][lang] }} &middot;
+        {{ u.stand.verbindungen }} {{ i18n["uni.verbindungen"][lang] }}</p>
+    </aside>
+
+    <div class="uni-leiste">
+      <button type="button" class="uni-taste" data-uni-typ="werk" aria-pressed="true"><span class="punkt" style="background:#e2c074"></span>{{ i18n["uni.typ_werk"][lang] }}</button>
+      <button type="button" class="uni-taste" data-uni-typ="autor" aria-pressed="true"><span class="punkt" style="background:#f3e7cf"></span>{{ i18n["uni.typ_autor"][lang] }}</button>
+      <button type="button" class="uni-taste" data-uni-typ="ereignis" aria-pressed="true"><span class="punkt" style="background:#c98b5e"></span>{{ i18n["uni.typ_ereignis"][lang] }}</button>
+      <button type="button" class="uni-taste" data-uni-typ="ort" aria-pressed="true"><span class="punkt" style="background:#7fa3a0"></span>{{ i18n["uni.typ_ort"][lang] }}</button>
+      <button type="button" class="uni-taste" data-uni-typ="motiv" aria-pressed="true"><span class="punkt" style="background:#a08fc0"></span>{{ i18n["uni.typ_motiv"][lang] }}</button>
+      <button type="button" class="uni-taste" data-uni-typ="person" aria-pressed="true"><span class="punkt" style="background:#c98b8b"></span>{{ i18n["uni.typ_person"][lang] }}</button>
+      <button type="button" class="uni-taste" data-uni-heim>{{ i18n["uni.heim"][lang] }}</button>
+    </div>
+  </section>
+
+  {# Unter der Karte steht dasselbe als Text: fuer den Fall, dass im Browser
+     kein Skript laeuft, fuer die Tastatur und fuer Suchmaschinen. #}
+  <section class="block" style="background-color:#161311;">
+    <div class="wrap">
+      <div style="max-width:760px;">
+        <div class="eyebrow-mini" style="color:var(--gold);letter-spacing:.15em;font-size:.85rem;">{{ i18n["uni.eyebrow"][lang] }}</div>
+        <h1 class="title-xl" style="margin-top:15px;font-family:var(--font-display);font-weight:400;"><span class="gold-grad">{{ i18n["uni.title"][lang] }}</span></h1>
+        <p class="lede">{{ i18n["uni.intro"][lang] }}</p>
+      </div>
+
+      <details class="karte-index">
+        <summary>{{ i18n["karte.indexTitle"][lang] }}</summary>
+        <div class="cols">
+          {%- for n in u.knoten %}{% if n.typ == "werk" %}
+          <div>
+            <h3 style="color:var(--gold-soft);">{{ n.label }}</h3>
+            <ul>
+              {%- if n.autorName %}<li><a href="{{ n.autorUrl }}">{{ n.autorName }}</a></li>{% endif %}
+              {%- if n.handlung %}<li><span>{{ n.handlung[0] }}{% if n.handlung[1] != n.handlung[0] %}–{{ n.handlung[1] }}{% endif %}</span></li>{% endif %}
+              {%- if n.herkunft %}<li><span>{{ n.herkunft }}</span></li>{% endif %}
+            </ul>
+          </div>
+          {% endif %}{%- endfor %}
+        </div>
+      </details>
+    </div>
+  </section>
+</main>
+
+<script>
+window.AETERNUS_UNIVERSUM = {{ u | dump | safe }};
+window.AETERNUS_UNIVERSUM.labels = {
+  typ_werk: {{ i18n["uni.typ_werk"][lang] | dump | safe }},
+  typ_autor: {{ i18n["uni.typ_autor"][lang] | dump | safe }},
+  typ_ereignis: {{ i18n["uni.typ_ereignis"][lang] | dump | safe }},
+  typ_ort: {{ i18n["uni.typ_ort"][lang] | dump | safe }},
+  typ_motiv: {{ i18n["uni.typ_motiv"][lang] | dump | safe }},
+  typ_person: {{ i18n["uni.typ_person"][lang] | dump | safe }},
+  merkmale: {{ i18n["uni.merkmale"][lang] | dump | safe }},
+  gehoertZu: {{ i18n["uni.gehoertZu"][lang] | dump | safe }},
+  umfasst: {{ i18n["uni.umfasst"][lang] | dump | safe }},
+  inVorbereitung: {{ i18n["uni.inVorbereitung"][lang] | dump | safe }},
+  werkeDaran: {{ i18n["uni.werkeDaran"][lang] | dump | safe }},
+  verwandt: {{ i18n["uni.verwandt"][lang] | dump | safe }},
+  herkunft: {{ i18n["uni.herkunft"][lang] | dump | safe }},
+  zumBuch: {{ i18n["uni.zumBuch"][lang] | dump | safe }},
+  seite: {{ i18n["uni.seite"][lang] | dump | safe }}
+};
+</script>
+<script src="/assets/js/universum.js{% if assetVersion.uni %}?v={{ assetVersion.uni }}{% endif %}" defer></script>
