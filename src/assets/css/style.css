@@ -595,7 +595,7 @@ h1.headline {
 
 /* Language-specific Instagram profile, using a local vector icon. */
 .instagram-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:44px;min-height:44px;color:inherit;text-decoration:none;flex-shrink:0;font-size:14px}
-.instagram-link svg{flex-shrink:0}
+.instagram-link img{flex-shrink:0;width:24px;height:24px;object-fit:contain}
 .instagram-link:hover{color:#bda264}
 .instagram-link:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:4px}
 header .instagram-link span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
