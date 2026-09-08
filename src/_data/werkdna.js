@@ -140,7 +140,10 @@ const WERKE = [
     orte: ["neumexiko", "manitoba", "ontario"],
     motive: ["tierbiografie", "tiertod", "wolf", "jagd", "naturbeobachtung"],
     personen: [],
-    herkunft: "Werkkenntnis; Lobo im Currumpaw-Tal, Silberfleck und Wully sind Schauplatz und Stoff der acht Geschichten"
+    herkunft: {
+      de: "Werkkenntnis; Lobo im Currumpaw-Tal, Silberfleck und Wully sind Schauplatz und Stoff der acht Geschichten",
+      en: "Knowledge of the work; Lobo of the Currumpaw, Silverspot and Wully are the setting and the substance of the eight stories"
+    }
   },
   {
     key: "ets-wahb",
@@ -149,7 +152,10 @@ const WERKE = [
     handlung: [1880, 1900],
     orte: ["yellowstone", "rocky_mountains"],
     motive: ["tierbiografie", "tiertod", "baer", "wildnisverlust", "naturbeobachtung"],
-    herkunft: "Werkkenntnis; Wahbs Leben spielt im Yellowstone-Land"
+    herkunft: {
+      de: "Werkkenntnis; Wahbs Leben spielt im Yellowstone-Land",
+      en: "Knowledge of the work; Wahb's life is set in the Yellowstone country"
+    }
   },
   {
     key: "ets-gejagte",
@@ -158,7 +164,10 @@ const WERKE = [
     handlung: [1880, 1901],
     orte: ["yellowstone", "neumexiko", "ontario"],
     motive: ["tierbiografie", "tiertod", "jagd", "naturbeobachtung"],
-    herkunft: "Werkkenntnis; Fortsetzung der Tierbiografien, u. a. Krag und Johnny Bear"
+    herkunft: {
+      de: "Werkkenntnis; Fortsetzung der Tierbiografien, u. a. Krag und Johnny Bear",
+      en: "Knowledge of the work; the sequel volume of animal biographies, among them Krag and Johnny Bear"
+    }
   },
   {
     key: "ets-tierhelden",
@@ -167,7 +176,10 @@ const WERKE = [
     handlung: [1880, 1905],
     orte: ["new_york", "ontario", "manitoba"],
     motive: ["tierbiografie", "tiertod", "naturbeobachtung"],
-    herkunft: "Werkkenntnis; von der Brieftaube Arnaux über New York bis zum Luchs in den Wäldern"
+    herkunft: {
+      de: "Werkkenntnis; von der Brieftaube Arnaux über New York bis zum Luchs in den Wäldern",
+      en: "Knowledge of the work; from the homing pigeon Arnaux over New York to the lynx in the woods"
+    }
   },
   {
     key: "ets-zwei-kleine-wilde",
@@ -177,7 +189,10 @@ const WERKE = [
     orte: ["ontario"],
     motive: ["jungenbande", "waldlaeuferkunst", "spurenlesen", "lagerleben", "selbstversorgung", "indigenes_wissen", "reifung", "naturbeobachtung"],
     wirkung: [{ ziel: "bp-scouting", art: "vorbild", beleg: "Scouting for Boys nennt Seton fünfzehnmal (gemessen am Quelltext im Haus)" }],
-    herkunft: "Werkkenntnis; Yan und Sam bauen sich in Sanger ein indianisches Lager - das Buch, aus dem die Woodcraft Indians hervorgingen"
+    herkunft: {
+      de: "Werkkenntnis; Yan und Sam bauen sich in Sanger ein indianisches Lager - das Buch, aus dem die Woodcraft Indians hervorgingen",
+      en: "Knowledge of the work; Yan and Sam build themselves an Indian camp at Sanger - the book the Woodcraft Indians grew out of"
+    }
   },
   {
     key: "ets-rolf",
@@ -188,7 +203,10 @@ const WERKE = [
     ereignisse: ["krieg_1812", "plattsburgh"],
     motive: ["waldlaeuferkunst", "spurenlesen", "kanufahrt", "lagerleben", "selbstversorgung", "indigenes_wissen", "reifung", "jagd"],
     personen: [],
-    herkunft: "Werkkenntnis, am Manuskript nachgeprüft: 'Plattsburg' steht 63-mal im deutschen Endmanuskript; Rolf und Quonab fahren die Adirondacks bis zum Lake Champlain und geraten in den Krieg von 1812"
+    herkunft: {
+      de: "Werkkenntnis, am Manuskript nachgeprüft: 'Plattsburg' steht 63-mal im deutschen Endmanuskript; Rolf und Quonab fahren die Adirondacks bis zum Lake Champlain und geraten in den Krieg von 1812",
+      en: "Knowledge of the work, checked against the manuscript: 'Plattsburg' occurs 63 times in the German final manuscript; Rolf and Quonab travel the Adirondacks to Lake Champlain and are caught up in the War of 1812"
+    }
   },
   {
     key: "ets-arktische-praerien",
@@ -197,7 +215,10 @@ const WERKE = [
     handlung: [1907, 1907],
     orte: ["nordkanada"],
     motive: ["expedition", "kanufahrt", "augenzeuge", "naturbeobachtung", "indigenes_wissen", "lagerleben"],
-    herkunft: "Werkkenntnis; die 2000-Meilen-Kanufahrt durch die Barren Grounds zum Aylmer Lake, 1907"
+    herkunft: {
+      de: "Werkkenntnis; die 2000-Meilen-Kanufahrt durch die Barren Grounds zum Aylmer Lake, 1907",
+      en: "Knowledge of the work; the 2000-mile canoe journey through the Barren Grounds to Aylmer Lake, 1907"
+    }
   },
   {
     key: "ets-monarch",
@@ -206,7 +227,10 @@ const WERKE = [
     handlung: [1880, 1904],
     orte: ["kalifornien", "sierra_nevada"],
     motive: ["tierbiografie", "baer", "wildnisverlust", "tiertod"],
-    herkunft: "WERK_DNA.json des Werks (content.places, content.themes): Tallac, Sierra Nevada, Kalifornien am Übergang zum 20. Jahrhundert"
+    herkunft: {
+      de: "WERK_DNA.json des Werks (content.places, content.themes): Tallac, Sierra Nevada, Kalifornien am Übergang zum 20. Jahrhundert",
+      en: "The work's own WERK_DNA.json (content.places, content.themes): Tallac, Sierra Nevada, California at the turn of the twentieth century"
+    }
   },
   {
     key: "ets-waldlaeuferkunst",
@@ -216,7 +240,10 @@ const WERKE = [
     orte: ["ontario", "new_york"],
     motive: ["waldlaeuferkunst", "spurenlesen", "lagerleben", "selbstversorgung", "indigenes_wissen", "jugenderziehung", "naturbeobachtung"],
     wirkung: [{ ziel: "bp-scouting", art: "vorbild", beleg: "Scouting for Boys nennt Seton fünfzehnmal (gemessen am Quelltext im Haus)" }],
-    herkunft: "Werkkenntnis; das Handbuch der Woodcraft Indians, über 500 eigene Zeichnungen"
+    herkunft: {
+      de: "Werkkenntnis; das Handbuch der Woodcraft Indians, über 500 eigene Zeichnungen",
+      en: "Knowledge of the work; the handbook of the Woodcraft Indians, with more than 500 drawings by the author"
+    }
   },
 
   // --- George Washington Sears ---
@@ -228,7 +255,10 @@ const WERKE = [
     orte: ["adirondacks", "new_york"],
     motive: ["waldlaeuferkunst", "kanufahrt", "leichtes_gepaeck", "lagerleben", "selbstversorgung", "jagd"],
     wirkung: [{ ziel: "bp-scouting", art: "nachwirkung", beleg: "Scouting for Boys nennt Nessmuk (gemessen am Quelltext im Haus)" }],
-    herkunft: "Werkkenntnis; Nessmuks Adirondack-Fahrten im eigenen Leichtkanu, das Buch des Weglassens"
+    herkunft: {
+      de: "Werkkenntnis; Nessmuks Adirondack-Fahrten im eigenen Leichtkanu, das Buch des Weglassens",
+      en: "Knowledge of the work; Nessmuk's Adirondack journeys in his own light canoe, the book of leaving things behind"
+    }
   },
 
   // --- Robert Baden-Powell ---
@@ -240,7 +270,10 @@ const WERKE = [
     orte: ["england"],
     motive: ["pfadfinderei", "waldlaeuferkunst", "spurenlesen", "lagerleben", "jugenderziehung", "selbstversorgung"],
     personen: ["seton", "nessmuk"],
-    herkunft: "Am Quelltext im Haus gemessen: das Buch nennt Seton fünfzehnmal, Nessmuk einmal und führt Woodcraft als eigenes Kapitelwort"
+    herkunft: {
+      de: "Am Quelltext im Haus gemessen: das Buch nennt Seton fünfzehnmal, Nessmuk einmal und führt Woodcraft als eigenes Kapitelwort",
+      en: "Measured against the source text in house: the book names Seton fifteen times and Nessmuk once, and carries woodcraft as a chapter word of its own"
+    }
   },
   {
     key: "bp-prempeh",
@@ -250,7 +283,10 @@ const WERKE = [
     orte: ["westafrika"],
     ereignisse: ["ashanti_1895"],
     motive: ["kolonialfeldzug", "augenzeuge", "expedition", "spurenlesen"],
-    herkunft: "WERK_DNA.json des Werks; Tagebuch des Ashanti-Marsches 1895/96"
+    herkunft: {
+      de: "WERK_DNA.json des Werks; Tagebuch des Ashanti-Marsches 1895/96",
+      en: "The work's own WERK_DNA.json; diary of the Ashanti march of 1895-96"
+    }
   },
 
   // --- Lady Florentia Sale ---
@@ -262,7 +298,10 @@ const WERKE = [
     orte: ["afghanistan"],
     ereignisse: ["anglo_afghan_1", "rueckzug_kabul"],
     motive: ["augenzeuge", "militaerkatastrophe", "gefangenschaft", "kolonialfeldzug"],
-    herkunft: "Werkkenntnis; Tag für Tag geschrieben im Zusammenbruch des Kabuler Feldzugs und in neunmonatiger Geiselhaft"
+    herkunft: {
+      de: "Werkkenntnis; Tag für Tag geschrieben im Zusammenbruch des Kabuler Feldzugs und in neunmonatiger Geiselhaft",
+      en: "Knowledge of the work; written day by day inside the collapse of the Kabul campaign and through nine months of captivity"
+    }
   },
 
   // --- Robert Montgomery Bird ---
@@ -274,7 +313,10 @@ const WERKE = [
     orte: ["kentucky", "ohiotal"],
     ereignisse: ["indianerkriege_frontier", "amerikanische_revolution"],
     motive: ["frontier_gewalt", "siedlung", "jagd"],
-    herkunft: "Werkkenntnis; Kentucky im Jahr 1782, am Ende der Revolution, mit dem Quäker Nathan Slaughter"
+    herkunft: {
+      de: "Werkkenntnis; Kentucky im Jahr 1782, am Ende der Revolution, mit dem Quäker Nathan Slaughter",
+      en: "Knowledge of the work; Kentucky in 1782, at the close of the Revolution, with the Quaker Nathan Slaughter"
+    }
   },
   {
     key: "rmb-hawks",
@@ -284,7 +326,10 @@ const WERKE = [
     orte: ["pennsylvania"],
     ereignisse: ["amerikanische_revolution"],
     motive: ["frontier_gewalt", "siedlung"],
-    herkunft: "Werkkenntnis; Pennsylvania 1782, die Loyalistenfehde am Delaware"
+    herkunft: {
+      de: "Werkkenntnis; Pennsylvania 1782, die Loyalistenfehde am Delaware",
+      en: "Knowledge of the work; Pennsylvania 1782, the loyalist feud on the Delaware"
+    }
   },
 
   // --- Theodore Roosevelt ---
@@ -297,7 +342,10 @@ const WERKE = [
     ereignisse: ["indianerkriege_frontier"],
     motive: ["historiografie", "siedlung", "frontier_gewalt", "jagd"],
     personen: ["boone"],
-    herkunft: "Werkkenntnis; Band I führt von den Alleghenies zum Mississippi, 1769–1776, mit Boone und den Long Hunters"
+    herkunft: {
+      de: "Werkkenntnis; Band I führt von den Alleghenies zum Mississippi, 1769–1776, mit Boone und den Long Hunters",
+      en: "Knowledge of the work; volume I runs from the Alleghenies to the Mississippi, 1769-1776, with Boone and the Long Hunters"
+    }
   },
   {
     key: "tr-wotw-2",
@@ -307,7 +355,10 @@ const WERKE = [
     orte: ["kentucky", "ohiotal", "tennessee"],
     ereignisse: ["amerikanische_revolution", "indianerkriege_frontier"],
     motive: ["historiografie", "siedlung", "frontier_gewalt"],
-    herkunft: "Werkkenntnis; die Grenze im Revolutionskrieg, Clarks Feldzug im Nordwesten"
+    herkunft: {
+      de: "Werkkenntnis; die Grenze im Revolutionskrieg, Clarks Feldzug im Nordwesten",
+      en: "Knowledge of the work; the frontier during the war of the Revolution, Clark's campaign in the Northwest"
+    }
   },
   {
     key: "tr-wotw-3",
@@ -317,7 +368,10 @@ const WERKE = [
     orte: ["ohiotal", "tennessee", "kentucky"],
     ereignisse: ["indianerkriege_frontier"],
     motive: ["historiografie", "siedlung", "frontier_gewalt"],
-    herkunft: "Werkkenntnis; die Jahre der jungen Republik an der Grenze"
+    herkunft: {
+      de: "Werkkenntnis; die Jahre der jungen Republik an der Grenze",
+      en: "Knowledge of the work; the years of the young republic on the frontier"
+    }
   },
   {
     key: "tr-wotw-4",
@@ -327,7 +381,10 @@ const WERKE = [
     orte: ["ohiotal", "tennessee"],
     ereignisse: ["indianerkriege_frontier"],
     motive: ["historiografie", "siedlung"],
-    herkunft: "Werkkenntnis; bis zur Louisiana-Erwerbung und darüber hinaus"
+    herkunft: {
+      de: "Werkkenntnis; bis zur Louisiana-Erwerbung und darüber hinaus",
+      en: "Knowledge of the work; up to the Louisiana Purchase and beyond"
+    }
   },
 
   // --- H. Rider Haggard ---
@@ -339,7 +396,10 @@ const WERKE = [
     orte: ["suedafrika"],
     motive: ["schatzsuche", "expedition", "jagd", "reifung"],
     personen: ["quatermain"],
-    herkunft: "Werkkenntnis; Quatermains Zug ins Kukuanaland"
+    herkunft: {
+      de: "Werkkenntnis; Quatermains Zug ins Kukuanaland",
+      en: "Knowledge of the work; Quatermain's march into Kukuanaland"
+    }
   },
 
   // --- Henry Ford ---
@@ -351,7 +411,10 @@ const WERKE = [
     orte: ["michigan"],
     ereignisse: ["fliessband_1913"],
     motive: ["industrie", "unternehmertum", "augenzeuge"],
-    herkunft: "Werkkenntnis; Fords eigene Darstellung von der Farm über die Werkstatt bis zur Fließbandfertigung"
+    herkunft: {
+      de: "Werkkenntnis; Fords eigene Darstellung von der Farm über die Werkstatt bis zur Fließbandfertigung",
+      en: "Knowledge of the work; Ford's own account from the farm through the workshop to assembly-line production"
+    }
   },
 
   // --- Felix Salten ---
@@ -362,7 +425,10 @@ const WERKE = [
     handlung: [1900, 1923],
     orte: ["mitteleuropa_wald"],
     motive: ["tierbiografie", "tiertod", "jagd", "reifung", "naturbeobachtung"],
-    herkunft: "Werkkenntnis; ein Reh vom ersten Sommer bis zur Einsamkeit des alten Bocks"
+    herkunft: {
+      de: "Werkkenntnis; ein Reh vom ersten Sommer bis zur Einsamkeit des alten Bocks",
+      en: "Knowledge of the work; a roe deer from his first summer to the solitude of the old buck"
+    }
   },
 
   {
@@ -373,7 +439,10 @@ const WERKE = [
     orte: ["mitteleuropa_wald"],
     motive: ["tierbiografie", "tiertod", "jagd", "reifung", "gefangenschaft", "naturbeobachtung"],
     wirkung: [{ ziel: "fsa-bambi", art: "fortsetzung", beleg: "Fortsetzung von Bambi: Genos und Gurris Geschichte setzt die des Vaters fort" }],
-    herkunft: "Werkkenntnis; die 1940 auf Deutsch erschienene Fortsetzung - Bambis Zwillinge Geno und Gurri, Gurris Gefangenschaft beim Menschen"
+    herkunft: {
+      de: "Werkkenntnis; die 1940 auf Deutsch erschienene Fortsetzung - Bambis Zwillinge Geno und Gurri, Gurris Gefangenschaft beim Menschen",
+      en: "Knowledge of the work; the sequel published in German in 1940 - Bambi's twins Geno and Gurri, and Gurri's captivity among men"
+    }
   },
 
   // --- Carlo Collodi ---
@@ -384,7 +453,10 @@ const WERKE = [
     handlung: [1880, 1883],
     orte: ["toskana"],
     motive: ["maerchen", "reifung"],
-    herkunft: "Werkkenntnis; die toskanische Erzählung vom hölzernen Jungen"
+    herkunft: {
+      de: "Werkkenntnis; die toskanische Erzählung vom hölzernen Jungen",
+      en: "Knowledge of the work; the Tuscan tale of the wooden boy"
+    }
   }
 ];
 
@@ -497,7 +569,9 @@ function graph(lang) {
       label: w.titel[lang] || w.titel.de,
       autor: w.autor,
       handlung: w.handlung || null,
-      herkunft: w.herkunft || ""
+      // herkunft ist zweisprachig gefuehrt: die Belegzeile steht auf der
+      // englischen Karte sonst auf Deutsch.
+      herkunft: (w.herkunft && (w.herkunft[lang] || w.herkunft.de)) || w.herkunft || ""
     });
 
     const autorId = "autor:" + w.autor;

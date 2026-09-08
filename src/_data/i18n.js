@@ -477,7 +477,7 @@ module.exports = {
           books: [
             {
               cover: "cover-sale",
-              title: { de: "Tagebuch der Katastrophe", en: "Tagebuch der Katastrophe" },
+              title: { de: "Tagebuch der Katastrophe", en: "A Journal of the Disasters in Affghanistan" },
               desc: {
                 de: "Florentia Sales Augenzeugentagebuch aus dem Rückzug von Kabul, nach der Londoner Erstausgabe von 1843.",
                 en: "Florentia Sale's eyewitness diary of the retreat from Kabul, based on the London first edition of 1843."
@@ -501,7 +501,7 @@ module.exports = {
           books: [
             {
               cover: "cover-der-sturz-prempehs",
-              title: { de: "Der Sturz Prempehs", en: "Der Sturz Prempehs" },
+              title: { de: "Der Sturz Prempehs", en: "The Downfall of Prempeh" },
               desc: {
                 de: "Baden-Powells Feldtagebuch des Aschanti-Feldzugs 1895–96, nach der Londoner Erstausgabe von 1896 mit allen 22 Originaltafeln.",
                 en: "Baden-Powell's field diary of the 1895–96 Ashanti campaign, after the London first edition of 1896 with all 22 original plates."
@@ -882,7 +882,7 @@ module.exports = {
   "authors.title": { de: "Ausgewählte Autoren", en: "Selected authors" },
   "authors.intro": {
     de: "Das Programm verbindet Autoren, Reihen und Ausgaben. Ernest Thompson Seton prägt die Reihe Bernstein, Robert Montgomery Bird eröffnet Anthrazit, Henry Fords Mein Leben und Werk die Reihe Blau — und Lady Florentia Sales Tagebuch der Katastrophe ist für die Reihe Grün bei Amazon lieferbar.",
-    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, Henry Ford's Mein Leben und Werk opens the Blue series — and Lady Florentia Sale's Tagebuch der Katastrophe is available from Amazon for the Green series."
+    en: "The programme connects authors, series, and editions. Ernest Thompson Seton shapes the Amber series, Robert Montgomery Bird opens Anthracite, Henry Ford's My Life and Work opens the Blue series — and Lady Florentia Sale's A Journal of the Disasters in Affghanistan is available from Amazon for the Green series."
   },
   "authors.viewTitles": { de: "Titel ansehen", en: "View titles" },
   "authors.viewProfile": { de: "Zur Autorenseite", en: "Open author page" },
