@@ -558,6 +558,17 @@ h1.headline {
 .book-mini a.buy{display:inline-block;margin-top:3px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);transition:color .3s;}
 .book-mini a.buy:hover{color:#f3e7cf;}
 
+/* Zweite Titelklasse: angekuendigte Baende. Gleiche Zeile wie ein lieferbarer
+   Titel, aber ohne Kaufweg — statt des Amazon-Links steht der Stand. Baende
+   ohne entschiedenes Cover-Motiv bekommen eine Textplatte (.cover-plate);
+   ein Platzhalterbild waere hier eine Behauptung ueber ein Motiv, das es
+   noch nicht gibt. */
+.book-mini-heading{margin-top:18px;font-size:.72rem;letter-spacing:.1em;color:rgba(243,231,207,.4);text-transform:uppercase;}
+.book-mini.is-upcoming .cover{opacity:.72;}
+.book-mini .status{margin-top:3px;font-family:var(--font-sans);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:rgba(243,231,207,.45);}
+.book-mini .cover-plate{width:40px;height:60px;flex-shrink:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:3px;background-color:#221d17;border:1px solid rgba(212,175,55,.28);box-shadow:0 6px 16px rgba(0,0,0,.45);}
+.book-mini .cover-plate span{font-family:var(--font-display);font-size:7.5px;line-height:1.25;color:rgba(243,231,207,.78);}
+
 /* ============================================================
    REIHEN-UEBERSICHT — /reihen/ und /en/series/
    Sechs Kacheln, je mit kleinem Stimmungsbild-Ausschnitt statt vollem
