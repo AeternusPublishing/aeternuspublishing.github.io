@@ -759,13 +759,23 @@ module.exports = {
             de: "George Washington Sears, genannt Nessmuk, schrieb 1884 das erste Buch, das im Wald nicht den Überfluss, sondern das Weglassen lehrt. Waldhandwerk erscheint in der Reihe Bernstein.",
             en: "George Washington Sears, known as Nessmuk, wrote in 1884 the first book to teach not abundance in the woods but going light. Woodcraft appears in the Amber series."
           },
-          books: [],
-          upcoming: [
+          books: [
             {
               cover: "cover-waldhandwerk",
+              isbn: "978-3-912883-57-2",
+              isbns: {
+                ebook: "978-3-912883-58-9",
+                paperback: "978-3-912883-57-2"
+              },
+              pages: 177,
+              pricesEur: { ebook: "9,99", paperback: "14,99" },
+              amazonUrl: "https://www.amazon.de/dp/3912883572",
               originalTitle: "Woodcraft, New York 1884",
-              title: { de: "Waldhandwerk", en: "Woodcraft" },
-              status: { de: "Bei Amazon eingereicht · Freischaltung ausstehend", en: "Submitted to Amazon · release pending" }
+              title: { de: "Waldhandwerk", en: "Waldhandwerk" },
+              desc: {
+                de: "Nessmuks Klassiker von 1884: mit sechsundzwanzig Pfund Gepäck wochenlang durch die Wildnis — Ausrüstung, Shanty-Zelt, Lagerfeuer, Lagerküche und Zedernkanu, Anleitung und Erzählung in einem.",
+                en: "The German edition of Nessmuk's 1884 classic Woodcraft: weeks in the wilderness with twenty-six pounds of kit — outfit, shanty tent, campfire, camp cookery, and cedar canoe, instruction and narrative in one."
+              }
             }
           ]
         }
@@ -1028,20 +1038,30 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     "en": "/autoren/felix-salten/"
   },
   "bio": {
-    "de": "Der Erzähler hinter Bambi. Bambis Kinder ist zur Veröffentlichung eingereicht, die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
-    "en": "The author behind Bambi. Bambi's Children has been submitted for publication; our illustrated German Bambi edition is in preparation."
+    "de": "Der Erzähler hinter Bambi. Bambis Kinder ist lieferbar, die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
+    "en": "The author behind Bambi. Bambi's Children is available; our illustrated German Bambi edition is in preparation."
   },
-  "books": [],
-  "upcoming": [
+  "books": [
     {
       "cover": "cover-bambis-kinder",
+      "isbn": "978-3-67605-004-3",
+      "isbns": {
+        "ebook": "978-3-67605-003-6",
+        "paperback": "978-3-67605-004-3",
+        "hardcover": "978-3-67605-005-0"
+      },
+      "pages": 248,
+      "pricesEur": { "ebook": "9,99", "paperback": "14,99", "hardcover": "25,00" },
+      "amazonUrl": "https://www.amazon.de/dp/3676050045",
       "originalTitle": "Bambis Kinder. Eine Familie im Walde, 1940",
       "title": { "de": "Bambis Kinder", "en": "Bambis Kinder" },
-      "status": {
-        "de": "Veröffentlichung eingereicht · Freischaltung ausstehend",
-        "en": "Submitted for publication · release pending"
+      "desc": {
+        "de": "Saltens Fortsetzung von Bambi im deutschen Originaltext: Geno und Gurri behaupten sich in einem Wald, der nicht friedlicher geworden ist — mit sechs Bildtafeln, Verlagsvorwort und Nachwort.",
+        "en": "Salten's sequel to Bambi in the German original: Geno and Gurri hold their own in a forest that has grown no gentler — with six plates, a publisher's preface, and an afterword."
       }
-    },
+    }
+  ],
+  "upcoming": [
     {
       "cover": "cover-bambi-salten",
       "originalTitle": "Bambi. Eine Lebensgeschichte aus dem Walde, 1923",
@@ -1069,15 +1089,23 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     "de": "Carlo Collodi schrieb 1881 die Geschichte einer Holzpuppe, die ein Mensch werden will — bis heute eines der meistübersetzten Bücher der Welt. Pinocchio erscheint in der Reihe Bernstein.",
     "en": "In 1881 Carlo Collodi wrote the story of a wooden puppet who wants to become a boy — to this day one of the most translated books in the world. Pinocchio appears in the Amber series."
   },
-  "books": [],
-  "upcoming": [
+  "books": [
     {
       "cover": "cover-pinocchio-collodi",
-      "originalTitle": "Le avventure di Pinocchio, 1881",
+      "isbn": "978-3-67605-001-2",
+      "isbns": {
+        "ebook": "978-3-67605-000-5",
+        "paperback": "978-3-67605-001-2",
+        "hardcover": "978-3-67605-002-9"
+      },
+      "pages": 192,
+      "pricesEur": { "ebook": "10,99", "paperback": "19,99", "hardcover": "28,99" },
+      "amazonUrl": "https://www.amazon.de/dp/3676050010",
+      "originalTitle": "Le avventure di Pinocchio, 1883",
       "title": { "de": "Pinocchio", "en": "Pinocchio" },
-      "status": {
-        "de": "Erscheint in Kürze · Amazon-Freischaltung ausstehend",
-        "en": "Coming soon · Amazon release pending"
+      "desc": {
+        "de": "Collodis unverkürzte Geschichte einer Holzpuppe in vollständiger deutscher Neuübersetzung — mit Frontispiz, zwölf Innenillustrationen sowie Vorwort und Nachwort des Verlags.",
+        "en": "Collodi's unabridged story of a wooden puppet in a complete new German translation — with frontispiece, twelve interior illustrations, and a publisher's preface and afterword."
       }
     }
   ]
