@@ -53,6 +53,21 @@ eleventyComputed:
         <div class="author-desc">
           Überlieferte Märchen in ihrer dunklen, unverkürzten Gestalt – sorgfältig eingerichtet und historisch eingeordnet.
           <br><a class="profile-link" href="/bernstein-maerchen/">Zur Märchenlinie →</a>
+          <!-- Cover-Miniatur wie bei jedem anderen Band der Reihe. Bewusst ohne
+               Statuszeile und ohne Kaufweg: der Stand von Band I gehoert auf
+               /bernstein-maerchen/, nicht in eine Behauptung auf der Reihenseite. -->
+          <div class="book-mini-list">
+            <a class="book-mini" href="/bernstein-maerchen/">
+              <picture style="display:contents">
+                <source type="image/avif" srcset="/assets/images/cover-grimm-band-i.avif" />
+                <source type="image/webp" srcset="/assets/images/cover-grimm-band-i.webp" />
+                <img class="cover" src="/assets/images/cover-grimm-band-i-fallback.jpg" alt="Die Schreckensmärchen der Brüder Grimm · Band I" width="1024" height="1583" loading="lazy" decoding="async" />
+              </picture>
+              <div class="info">
+                <div class="title">Die Schreckensmärchen der Brüder Grimm · Band I</div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     {% endif %}
@@ -65,7 +80,7 @@ eleventyComputed:
             {{ author.bio[lang] }}
             <br><a class="profile-link" href="{{ author.landingUrl[lang] }}">{{ i18n["authors.viewProfile"][lang] }} →</a>
             {% if author.books.length %}
-              <div style="margin-top: 18px; font-size: 0.72rem; letter-spacing: 0.1em; color: rgba(243, 231, 207, 0.4); text-transform: uppercase;">{{ i18n["author.availableTitles"][lang] }}</div>
+              <div class="book-mini-heading">{{ i18n["author.availableTitles"][lang] }}</div>
               <div class="book-mini-list">
                 {% for book in author.books %}
                   <div class="book-mini">
@@ -77,6 +92,28 @@ eleventyComputed:
                     <div class="info">
                       <div class="title">{{ book.title[lang] }}</div>
                       <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="buy">{{ i18n["seton.button"][lang] }} →</a>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
+            {% if author.upcoming.length %}
+              <div class="book-mini-heading">{{ i18n["author.upcomingTitles"][lang] }}</div>
+              <div class="book-mini-list">
+                {% for book in author.upcoming %}
+                  <div class="book-mini is-upcoming">
+                    {% if book.cover %}
+                      <picture style="display:contents">
+                        <source type="image/avif" srcset="/assets/images/{{ book.cover }}.avif" />
+                        <source type="image/webp" srcset="/assets/images/{{ book.cover }}.webp" />
+                        <img class="cover" src="/assets/images/{{ book.cover }}-fallback.jpg" alt="{{ book.title[lang] }}" width="1024" height="1536" loading="lazy" decoding="async" />
+                      </picture>
+                    {% else %}
+                      <span class="cover cover-plate" aria-hidden="true"><span>{{ book.plate[lang] | safe }}</span></span>
+                    {% endif %}
+                    <div class="info">
+                      <div class="title">{{ book.title[lang] }}</div>
+                      <div class="status">{{ book.status[lang] }}</div>
                     </div>
                   </div>
                 {% endfor %}

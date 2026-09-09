@@ -181,7 +181,7 @@ module.exports = [
           "metadata": "Handbuch · Über 500 Zeichnungen · 1912",
           "summary": "Ein enzyklopädisches Handbuch zu Spurenlesen, Lagerbau, Orientierung, Naturkunde und gemeinschaftlicher Erziehung im Freien.",
           "sample": "Woodcraft beginnt für Seton nicht beim Werkzeug, sondern bei Aufmerksamkeit: sehen lernen, bevor man handelt.",
-          "amazon": "https://www.amazon.de/s?k=The%20Book%20of%20Woodcraft%20Ernest%20Thompson%20Seton"
+          "status": "In Vorbereitung"
         }
       }
     ]
@@ -615,7 +615,7 @@ module.exports = [
           "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
           "summary": "London 1908: Ein Offizier schreibt sein Militärhandbuch für Kundschafter zu einem Buch für Jungen um. Lagerkunde, Spurenlesen, Erste Hilfe, Mutproben und Lagerfeuergeschichten stehen nebeneinander — und wurden zum Gründungstext der Pfadfinderbewegung.",
           "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1908 einschließlich der Zeichnungen des Autors. Der historische Wortlaut bleibt erhalten; Begriffe und Weltbild der Entstehungszeit werden im verlegerischen Apparat sichtbar gemacht, nicht im Werktext korrigiert.",
-          "amazon": "/"
+          "status": "In Vorbereitung"
         }
       }
     ]
@@ -692,7 +692,7 @@ module.exports = [
     "monogram": "GWS",
     "dates": "1821–1890",
     "seriesClass": "",
-    "preview": true,
+    "preview": false,
     "portrait": {
       "file": "portrait-sears",
       "alt": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",
@@ -706,7 +706,7 @@ module.exports = [
     "eyebrow": "Bernstein · Jugend, Abenteuer, Charakterbildung",
     "tagline": "Reist leicht; je leichter, desto besser.",
     "intro": "Schuhmacher, Kanufahrer und Waldläufer: Sears schrieb 1884 unter dem Namen »Nessmuk« das erste Buch, das nicht den Überfluss lehrt, sondern das Weglassen — leichte Ausrüstung, ein offenes Lager, ein richtig gebautes Feuer.",
-    "metaDescription": "George Washington Sears (Nessmuk): Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von Woodcraft (1884) als Waldhandwerk in der Bernsteinlinie des Aeternus Verlags.",
+    "metaDescription": "George Washington Sears (Nessmuk): Leben, Werk und die deutsche Ausgabe von Woodcraft (1884) als Waldhandwerk in der Bernsteinlinie des Aeternus Verlags — als Taschenbuch und Kindle-eBook lieferbar.",
     "ogDescription": "Der Mann, der das Weglassen lehrte. Leben und Werk von George Washington Sears, genannt Nessmuk.",
     "bioKicker": "Biografie",
     "bioTitle": "Mit wenig<br>durch den Wald",
@@ -749,10 +749,10 @@ module.exports = [
       ],
       [
         "Status",
-        "Bei Amazon eingereicht"
+        "Lieferbar"
       ]
     ],
-    "worksKicker": "Bei Amazon eingereicht",
+    "worksKicker": "Lieferbar",
     "worksTitle": "Das Buch vom Weglassen",
     "worksIntro": "Die deutsche Ausgabe folgt der Erstausgabe von 1884 in vollem Umfang: Ausrüstung, Lagerbau, Feuer, Angeln, Lagerküche, eine Wildnisfahrt und das leichte Kanu — quellennah übersetzt, mit den zehn Abbildungen der Erstausgabe als Rekonstruktionen und historischer Einordnung.",
     "gridClass": "single-item",
@@ -765,10 +765,10 @@ module.exports = [
         "title": "Waldhandwerk",
         "subtitle": "Woodcraft — die Kunst, mit wenig im Wald zu leben",
         "modal": {
-          "metadata": "Aeternus Verlag · Bernsteinlinie · Taschenbuch 14,99 € · Kindle 9,99 € · bei Amazon eingereicht",
+          "metadata": "177 Seiten · Kindle 9,99 € · Taschenbuch 14,99 €",
           "summary": "New York 1884: Ein Schuhmacher, der kaum hundert Pfund wiegt, schreibt auf, wie man mit sechsundzwanzig Pfund Gepäck wochenlang durch die Wildnis zieht. Rucksack, Beil und Messer, das Shanty-Zelt, das richtig gebaute Lagerfeuer, Froschfang und Lagerküche, ein zehntägiger Alleingang durch Michigan und das federleichte Zedernkanu — Sears' Buch ist Anleitung und Erzählung in einem.",
-          "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1884. Maße, Preise und Gerätenamen bleiben im Bezugssystem der Zeit; ein Glossar und eine Übersicht der Maße erschließen sie. Die zehn Holzschnitte des Originals sind als fotorealistische Rekonstruktionen neu geschaffen.",
-          "amazon": "/"
+          "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1884. Maße, Preise und Gerätenamen bleiben im Bezugssystem der Zeit; ein Glossar und eine Übersicht der Maße erschließen sie. Die zehn Holzschnitte des Originals sind als fotorealistische Rekonstruktionen neu geschaffen. Taschenbuch ISBN 978-3-912883-57-2 · eBook ISBN 978-3-912883-58-9.",
+          "amazon": "https://www.amazon.de/dp/3912883572"
         }
       }
     ]
@@ -889,8 +889,7 @@ module.exports.push({
   "monogram": "FS",
   "dates": "1869–1945",
   "seriesClass": "",
-  "preview": true,
-  "previewStatus": "Verfügbarkeit siehe Werkbeschreibung",
+  "preview": false,
   "sampleLabel": "Zum Werk",
   "portrait": {
     "file": "portrait-salten",
@@ -905,7 +904,7 @@ module.exports.push({
   "eyebrow": "Bernstein · Felix Salten",
   "tagline": "Ein Wald voller Stimmen. Ein Werk, das weiterführt.",
   "intro": "Mit Bambi beginnt die Begegnung. Dahinter steht ein Erzähler, dessen Tiere eigene Wege gehen: durch Wald und Feld, durch die Welt der Menschen und durch ein Leben voller Entdeckungen.",
-  "metaDescription": "Felix Salten bei AETERNUS: Bambi im ungekürzten deutschen Original, Leben und Werk. Bambis Kinder ist zur Veröffentlichung eingereicht, die illustrierte Bambi-Ausgabe in Vorbereitung.",
+  "metaDescription": "Felix Salten bei AETERNUS: Bambi im ungekürzten deutschen Original, Leben und Werk. Bambis Kinder ist lieferbar, die illustrierte Bambi-Ausgabe in Vorbereitung.",
   "ogDescription": "Bambi und die Tierromane Felix Saltens. Die neue illustrierte Ausgabe bei AETERNUS.",
   "bioKicker": "Leben und Werk",
   "bioTitle": "Der Erzähler<br>hinter Bambi",
@@ -942,20 +941,21 @@ module.exports.push({
   ],
   "worksKicker": "Ausgewählte Werke",
   "worksTitle": "Bambi ist der Anfang",
-  "worksIntro": "Bambis Kinder führt die Geschichte fort: deutscher Originaltext, sechs Bildtafeln sowie ausführliches Vor- und Nachwort. Die Ausgabe ist bei Amazon zur Veröffentlichung eingereicht.",
+  "worksIntro": "Bambis Kinder führt die Geschichte fort: deutscher Originaltext, sechs Bildtafeln sowie ausführliches Vor- und Nachwort. Die Ausgabe ist als eBook, Taschenbuch und Hardcover lieferbar.",
   "gridClass": "single-row",
   "books": [
 {
   "title": "Bambis Kinder",
   "subtitle": "Eine Familie im Walde",
-  "meta": "Bernstein · 248 Seiten · In Kürze",
+  "meta": "Bernstein · 248 Seiten · Lieferbar",
   "cover": {
     "img": "cover-bambis-kinder"
   },
   "modal": {
-    "metadata": "AETERNUS · 2026 · Veröffentlichung eingereicht",
+    "metadata": "248 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 25,00 €",
     "summary": "Das düstere Vermächtnis des großen Wald-Epos Die Fortsetzung des Weltbestsellers — 1940 in deutscher Sprache erschienen.\n\nMit Bambis Kinder schuf Felix Salten im Schatten des heraufziehenden Zweiten Weltkriegs die unerbittliche Fortsetzung seines legendären Meisterwerks. Der Wald ist nicht friedlicher geworden: Bambis und Falines Zwillinge, der ängstliche Geno und die stolze Gurri, müssen sich in einer Schöpfung behaupten, die von Gefahren, Hunger und der ewigen Lauer des namenlosen Jägers durchsetzt ist.\n\nAls Gurri in die Hände des Menschen gerät und Rettung in Gefangenschaft umschlägt, tritt Bambi – nun der unnahbare Fürst des Forstes – aus den Schatten. Seine Lehre kennt keine Kompromisse: Wer in der Wildnis überleben will, darf sich niemals der Macht unterwerfen.\n\nEine bibliophile Prachtausgabe des deutschen Originaltexts — veredelt durch meisterhafte, bildgewaltige Neuinterpretationen von atemberaubender räumlicher Tiefe.\n\nUngeschminkt. Die Vollendung eines Mythos.",
-    "sample": "Deutscher Originaltext mit sechs Bildtafeln, Verlagsvorwort und Nachwort. E-Book 9,99 € (ISBN 978-3-67605-003-6) · Paperback 14,99 € (ISBN 978-3-67605-004-3) · Hardcover 25,00 € (ISBN 978-3-67605-005-0). Druckausgaben: 248 Seiten. Deutsche Endpreise. Die Freischaltung bei Amazon steht noch aus."
+    "sample": "Deutscher Originaltext mit sechs Bildtafeln, Verlagsvorwort und Nachwort. E-Book 9,99 € (ISBN 978-3-67605-003-6) · Paperback 14,99 € (ISBN 978-3-67605-004-3) · Hardcover 25,00 € (ISBN 978-3-67605-005-0). Druckausgaben: 248 Seiten. Deutsche Endpreise.",
+    "amazon": "https://www.amazon.de/dp/3676050045"
   }
 },
     {
@@ -968,7 +968,8 @@ module.exports.push({
       "modal": {
         "metadata": "AETERNUS-Ausgabe in Vorbereitung",
         "summary": "Der Weg eines jungen Rehs durch die Jahreszeiten: vom Schutz der Mutter über die erste Wiese bis zu den Erfahrungen, die sein Leben verändern.",
-        "sample": "Ungekürzter deutscher Originaltext, zwölf neue Innenillustrationen, historisches Autorenporträt sowie Vor- und Nachwort. Noch nicht lieferbar."
+        "sample": "Ungekürzter deutscher Originaltext, zwölf neue Innenillustrationen, historisches Autorenporträt sowie Vor- und Nachwort.",
+        "status": "In Vorbereitung · noch nicht lieferbar"
       }
     }
   ],
@@ -1030,9 +1031,7 @@ module.exports.push({
   "monogram": "CC",
   "dates": "1826–1890",
   "seriesClass": "",
-  "preview": true,
-  "previewStatus": "Pinocchio · Erscheint in Kürze",
-  "previewBanner": "Pinocchio · Erscheint in Kürze · Amazon-Freischaltung ausstehend",
+  "preview": false,
   "sampleLabel": "Zur Ausgabe",
   "portrait": {
     "file": "portrait-collodi.jpg",
@@ -1071,20 +1070,21 @@ module.exports.push({
   ],
   "worksKicker": "Bernstein-Reihe",
   "worksTitle": "Pinocchio",
-  "worksIntro": "Vollständige deutsche Neuübersetzung mit Frontispiz, zwölf Innenillustrationen sowie Vorwort und Nachwort des Verlags. Erscheint in Kürze als Kindle eBook für 10,99 €, Taschenbuch für 19,99 € und Hardcover für 28,99 € — jeweils inklusive deutscher MwSt. Die drei Ausgaben sind zur Veröffentlichung eingereicht; die Freischaltung bei Amazon steht noch aus.",
+  "worksIntro": "Vollständige deutsche Neuübersetzung mit Frontispiz, zwölf Innenillustrationen sowie Vorwort und Nachwort des Verlags. Lieferbar als Kindle eBook für 10,99 €, Taschenbuch für 19,99 € und Hardcover für 28,99 € — jeweils inklusive deutscher MwSt.",
   "gridClass": "count-1",
   "books": [
     {
       "title": "Pinocchio",
       "subtitle": "Geschichte einer Holzpuppe",
-      "meta": "Illustrierte Neuübersetzung · Bernstein-Reihe · Erscheint in Kürze",
+      "meta": "Illustrierte Neuübersetzung · Bernstein-Reihe · 192 Seiten",
       "cover": {
         "img": "cover-pinocchio-collodi"
       },
       "modal": {
         "metadata": "Kindle 10,99 € · Taschenbuch 19,99 € · Hardcover 28,99 € · inkl. deutscher MwSt.",
         "summary": "Das unzensierte Original der Menschwerdung Jenseits der späteren Verfilmungen. Dies ist die Geschichte, wie Carlo Collodi sie schrieb.",
-        "sample": "Die Druckausgaben umfassen 192 Seiten. Kindle: ISBN 978-3-67605-000-5 · Taschenbuch: ISBN 978-3-67605-001-2 · Hardcover: ISBN 978-3-67605-002-9. Alle drei Ausgaben erscheinen nach Abschluss der Amazon-Prüfung."
+        "sample": "Die Druckausgaben umfassen 192 Seiten. Kindle: ISBN 978-3-67605-000-5 · Taschenbuch: ISBN 978-3-67605-001-2 · Hardcover: ISBN 978-3-67605-002-9. Alle drei Ausgaben sind lieferbar.",
+        "amazon": "https://www.amazon.de/dp/3676050010"
       }
     }
   ]

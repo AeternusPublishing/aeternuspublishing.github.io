@@ -83,20 +83,9 @@ hreflang: true
     </div>
 
     <div class="edition-grid">
-      <article class="edition-card">
-        <a class="edition-cover-link" href="/autoren/felix-salten/#werke" aria-label="Bambis Kinder – Felix Salten">
-          <picture><source type="image/avif" srcset="/assets/images/cover-bambis-kinder.avif"><source type="image/webp" srcset="/assets/images/cover-bambis-kinder.webp"><img class="edition-cover" src="/assets/images/cover-bambis-kinder-fallback.jpg" alt="Bambis Kinder – Cover der AETERNUS-Ausgabe" width="1024" height="1536" loading="lazy" decoding="async"></picture>
-        </a>
-        <div style="min-width:0">
-          <div class="eyebrow-mini">Felix Salten · Bernstein</div>
-          <h3 style="margin:12px 0"><a class="edition-title-link" href="/autoren/felix-salten/#werke">Bambis Kinder</a></h3>
-          <p>Eine Familie im Walde. Saltens Fortsetzung von Bambi im deutschen Original, mit sechs Bildtafeln, Vorwort und Nachwort.</p>
-          <p style="margin:14px 0">E-Book 9,99 € · Paperback 14,99 € · Hardcover 25,00 €</p>
-          <p style="margin:14px 0;font-size:14px">In Kürze bei Amazon · Veröffentlichung eingereicht</p>
-          <a class="btn-ghost" href="/autoren/felix-salten/#werke">Zur Ausgabe →</a>
-        </div>
-      </article>
-
+      <!-- Der handgesetzte Bambis-Kinder-Kasten ist entfallen: der Band ist seit dem
+           09.09.2026 lieferbar und wird jetzt wie jeder andere Titel aus
+           seriesItems[].authors[].books gerendert. -->
       {% for series in i18n.seriesItems %}
         {% for author in series.authors %}
           {% for book in author.books %}

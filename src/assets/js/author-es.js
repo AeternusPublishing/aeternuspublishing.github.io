@@ -4,10 +4,21 @@
   if(!modal)return;
   const fields={title:document.getElementById('modal-title'),subtitle:document.getElementById('modal-subtitle'),metadata:document.getElementById('modal-metadata'),summary:document.getElementById('modal-summary'),sample:document.getElementById('modal-sample'),amazon:document.getElementById('modal-amazon'),monogram:document.getElementById('modal-monogram'),content:modal.querySelector('.modal-content'),visual:modal.querySelector('.modal-visual')};
   let lastTrigger=null;
+  const statusLine=document.getElementById('modal-status');
+  // Ein Autor kann eine gemischte Auslage haben: ein lieferbarer Band neben
+  // einem angekuendigten. Der Kaufweg haengt deshalb am BAND, nicht am Autor —
+  // fehlt der Link (oder zeigt er nur auf die Startseite), verschwindet der
+  // Knopf und an seiner Stelle steht der Stand.
+  function setPurchase(book){
+    const url=book.amazon;
+    const noBuy=!url||url==='/'||url==='/en/';
+    if(fields.amazon){fields.amazon.href=noBuy?'#':url;fields.amazon.style.display=noBuy?'none':'';}
+    if(statusLine){const t=book.status||'';statusLine.textContent=t;statusLine.style.display=t?'':'none';}
+  }
   function openBook(index,trigger){
     const book=books[index];if(!book)return;
     lastTrigger=trigger;
-    fields.title.textContent=book.title;fields.subtitle.textContent=book.subtitle;fields.metadata.textContent=book.metadata;fields.summary.textContent=book.summary;fields.sample.textContent=book.sample;fields.amazon.href=book.amazon;fields.monogram.textContent=String(index+1).padStart(2,'0');
+    fields.title.textContent=book.title;fields.subtitle.textContent=book.subtitle;fields.metadata.textContent=book.metadata;fields.summary.textContent=book.summary;fields.sample.textContent=book.sample;setPurchase(book);fields.monogram.textContent=String(index+1).padStart(2,'0');
     const oldCover=fields.visual.querySelector('.modal-cover');if(oldCover)oldCover.remove();
     const sourceCover=trigger.querySelector('.cover-shell');if(sourceCover){const modalCover=sourceCover.cloneNode(true);modalCover.className='modal-cover';modalCover.querySelectorAll('[id]').forEach(node=>node.removeAttribute('id'));fields.visual.insertBefore(modalCover,fields.monogram)}
     fields.content.scrollTop=0;

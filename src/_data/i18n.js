@@ -690,6 +690,16 @@ module.exports = {
                 en: "From orphaned cub to ruler of Mount Tallac: Seton tells an animal life shaped by wilderness, legend, and captivity."
               }
             }
+          ],
+          // Angekuendigt, noch nicht lieferbar. Kein Cover-Motiv entschieden —
+          // deshalb eine Textplatte statt eines Bildes (plate).
+          upcoming: [
+            {
+              plate: { de: "Das Buch der<br>Waldläuferkunst", en: "The Book of<br>Woodcraft" },
+              originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
+              title: { de: "Das Buch der Waldläuferkunst", en: "The Book of Woodcraft" },
+              status: { de: "In Vorbereitung", en: "In preparation" }
+            }
           ]
         },
         {
@@ -703,7 +713,15 @@ module.exports = {
             de: "Robert Baden-Powell schrieb 1908 ein Anleitungsbuch für Jungen — und begründete damit unabsichtlich eine der größten Jugendbewegungen der Welt. Sein Gründungstext erscheint in der Reihe Bernstein.",
             en: "In 1908 Robert Baden-Powell wrote a handbook for boys — and unintentionally founded one of the largest youth movements in the world. His founding text appears in the Amber series."
           },
-          books: []
+          books: [],
+          upcoming: [
+            {
+              plate: { de: "Scouting<br>for Boys", en: "Scouting<br>for Boys" },
+              originalTitle: "Scouting for Boys, London 1908",
+              title: { de: "Scouting for Boys", en: "Scouting for Boys" },
+              status: { de: "In Vorbereitung", en: "In preparation" }
+            }
+          ]
         },
         {
           // Dritter Autor der Bernsteinlinie. König Salomos Schatzkammer ist seit 05.09.2026
@@ -741,7 +759,25 @@ module.exports = {
             de: "George Washington Sears, genannt Nessmuk, schrieb 1884 das erste Buch, das im Wald nicht den Überfluss, sondern das Weglassen lehrt. Waldhandwerk erscheint in der Reihe Bernstein.",
             en: "George Washington Sears, known as Nessmuk, wrote in 1884 the first book to teach not abundance in the woods but going light. Woodcraft appears in the Amber series."
           },
-          books: []
+          books: [
+            {
+              cover: "cover-waldhandwerk",
+              isbn: "978-3-912883-57-2",
+              isbns: {
+                ebook: "978-3-912883-58-9",
+                paperback: "978-3-912883-57-2"
+              },
+              pages: 177,
+              pricesEur: { ebook: "9,99", paperback: "14,99" },
+              amazonUrl: "https://www.amazon.de/dp/3912883572",
+              originalTitle: "Woodcraft, New York 1884",
+              title: { de: "Waldhandwerk", en: "Waldhandwerk" },
+              desc: {
+                de: "Nessmuks Klassiker von 1884: mit sechsundzwanzig Pfund Gepäck wochenlang durch die Wildnis — Ausrüstung, Shanty-Zelt, Lagerfeuer, Lagerküche und Zedernkanu, Anleitung und Erzählung in einem.",
+                en: "The German edition of Nessmuk's 1884 classic Woodcraft: weeks in the wilderness with twenty-six pounds of kit — outfit, shanty tent, campfire, camp cookery, and cedar canoe, instruction and narrative in one."
+              }
+            }
+          ]
         }
       ]
     },
@@ -781,6 +817,10 @@ module.exports = {
   // --- Shared small labels for author/book disclosure (used on /reihen/ and the homepage) ---
   "series.authorsHeading": { de: "Autor dieser Reihe", en: "Author in this series" },
   "author.availableTitles": { de: "Verfügbare Titel", en: "Available titles" },
+  // Zweite Titelklasse der Reihenseite: angekuendigte Baende, die noch nicht
+  // lieferbar sind. Bewusst getrennt von books[] — books speist die Startseite
+  // unter "Aktuelle Ausgaben" und darf nur Lieferbares fuehren.
+  "author.upcomingTitles": { de: "Vorschau", en: "Forthcoming" },
   "author.intro": {
     de: "Die Autoren, deren Werke wir derzeit erschließen — von den lieferbaren Bänden bis zu den Ausgaben in Vorbereitung.",
     en: "The authors whose work we are currently opening up — from the volumes in print to the editions in preparation."
@@ -998,8 +1038,75 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     "en": "/autoren/felix-salten/"
   },
   "bio": {
-    "de": "Der Erzähler hinter Bambi. Bambis Kinder ist zur Veröffentlichung eingereicht, die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
-    "en": "The author behind Bambi. Bambi's Children has been submitted for publication; our illustrated German Bambi edition is in preparation."
+    "de": "Der Erzähler hinter Bambi. Bambis Kinder ist lieferbar, die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
+    "en": "The author behind Bambi. Bambi's Children is available; our illustrated German Bambi edition is in preparation."
   },
-  "books": []
+  "books": [
+    {
+      "cover": "cover-bambis-kinder",
+      "isbn": "978-3-67605-004-3",
+      "isbns": {
+        "ebook": "978-3-67605-003-6",
+        "paperback": "978-3-67605-004-3",
+        "hardcover": "978-3-67605-005-0"
+      },
+      "pages": 248,
+      "pricesEur": { "ebook": "9,99", "paperback": "14,99", "hardcover": "25,00" },
+      "amazonUrl": "https://www.amazon.de/dp/3676050045",
+      "originalTitle": "Bambis Kinder. Eine Familie im Walde, 1940",
+      "title": { "de": "Bambis Kinder", "en": "Bambis Kinder" },
+      "desc": {
+        "de": "Saltens Fortsetzung von Bambi im deutschen Originaltext: Geno und Gurri behaupten sich in einem Wald, der nicht friedlicher geworden ist — mit sechs Bildtafeln, Verlagsvorwort und Nachwort.",
+        "en": "Salten's sequel to Bambi in the German original: Geno and Gurri hold their own in a forest that has grown no gentler — with six plates, a publisher's preface, and an afterword."
+      }
+    }
+  ],
+  "upcoming": [
+    {
+      "cover": "cover-bambi-salten",
+      "originalTitle": "Bambi. Eine Lebensgeschichte aus dem Walde, 1923",
+      "title": { "de": "Bambi", "en": "Bambi" },
+      "status": {
+        "de": "In Vorbereitung · noch nicht lieferbar",
+        "en": "In preparation · not yet available"
+      }
+    }
+  ]
+});
+
+// Sechster Autor der Bernsteinlinie. Pinocchio ist angekuendigt, die Freischaltung
+// bei Amazon steht aus — deshalb steht der Band unter upcoming und nicht unter books.
+// landingUrl fuehrt in beiden Sprachen auf die deutsche Autorenseite: eine englische
+// Fassung existiert nicht, und ein Link auf eine 404 waere schaedlicher als keiner.
+module.exports.seriesItems.find(series => series.slug === "bernstein").authors.push({
+  "name": "Carlo Collodi",
+  "slug": "carlo-collodi",
+  "landingUrl": {
+    "de": "/autoren/carlo-collodi/",
+    "en": "/autoren/carlo-collodi/"
+  },
+  "bio": {
+    "de": "Carlo Collodi schrieb 1881 die Geschichte einer Holzpuppe, die ein Mensch werden will — bis heute eines der meistübersetzten Bücher der Welt. Pinocchio erscheint in der Reihe Bernstein.",
+    "en": "In 1881 Carlo Collodi wrote the story of a wooden puppet who wants to become a boy — to this day one of the most translated books in the world. Pinocchio appears in the Amber series."
+  },
+  "books": [
+    {
+      "cover": "cover-pinocchio-collodi",
+      "isbn": "978-3-67605-001-2",
+      "isbns": {
+        "ebook": "978-3-67605-000-5",
+        "paperback": "978-3-67605-001-2",
+        "hardcover": "978-3-67605-002-9"
+      },
+      "pages": 192,
+      "pricesEur": { "ebook": "10,99", "paperback": "19,99", "hardcover": "28,99" },
+      "amazonUrl": "https://www.amazon.de/dp/3676050010",
+      "originalTitle": "Le avventure di Pinocchio, 1883",
+      "title": { "de": "Pinocchio", "en": "Pinocchio" },
+      "desc": {
+        "de": "Collodis unverkürzte Geschichte einer Holzpuppe in vollständiger deutscher Neuübersetzung — mit Frontispiz, zwölf Innenillustrationen sowie Vorwort und Nachwort des Verlags.",
+        "en": "Collodi's unabridged story of a wooden puppet in a complete new German translation — with frontispiece, twelve interior illustrations, and a publisher's preface and afterword."
+      }
+    }
+  ]
 });

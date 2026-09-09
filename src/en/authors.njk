@@ -10,6 +10,7 @@ pagination:
 permalink: "/en/authors/{{ a.slug }}/index.html"
 eleventyExcludeFromCollections: false
 ---
+{%- set authorStatus = (a.previewStatus | default("In preparation · date open")) if a.preview else "" %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -57,11 +58,11 @@ eleventyExcludeFromCollections: false
   {% if a.editionSection %}{% include "bird-editions.njk" %}{% endif %}
   </main>
   <footer class="site-footer"><span>{{ a.brand | default("Aeternus Verlag") }} &middot; Historic texts in new editions.</span><span>&copy; {{ a.brand | default("Aeternus Verlag") }}. All rights reserved.</span></footer>
-  <div class="modal" id="book-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel" role="document"><button class="modal-close" type="button" data-close-modal aria-label="Close">&times;</button><div class="modal-visual" aria-hidden="true"><span class="modal-monogram" id="modal-monogram">01</span></div><div class="modal-content"><p class="modal-eyebrow" id="modal-metadata"></p><h3 id="modal-title"></h3><p class="modal-subtitle" id="modal-subtitle"></p><p class="modal-summary" id="modal-summary"></p><div class="sample"><strong>{% if a.sampleLabel %}{{ a.sampleLabel }}{% elif a.preview %}About the edition{% else %}Reading sample{% endif %}</strong><p id="modal-sample"></p></div>{% if a.preview %}<span class="status-line">In preparation &middot; date open</span>{% endif %}<a class="amazon-button" id="modal-amazon" href="{% if a.preview %}/en/{% else %}#{% endif %}"{% if not a.preview and not a.editionSection %} target="_blank"{% endif %} rel="noopener noreferrer">{% if a.modalActionLabel %}{{ a.modalActionLabel }}{% elif a.preview %}More{% else %}View on Amazon{% endif %} <span aria-hidden="true">&rarr;</span></a></div></div></div>
+  <div class="modal" id="book-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel" role="document"><button class="modal-close" type="button" data-close-modal aria-label="Close">&times;</button><div class="modal-visual" aria-hidden="true"><span class="modal-monogram" id="modal-monogram">01</span></div><div class="modal-content"><p class="modal-eyebrow" id="modal-metadata"></p><h3 id="modal-title"></h3><p class="modal-subtitle" id="modal-subtitle"></p><p class="modal-summary" id="modal-summary"></p><div class="sample"><strong>{% if a.sampleLabel %}{{ a.sampleLabel }}{% elif a.preview %}About the edition{% else %}Reading sample{% endif %}</strong><p id="modal-sample"></p></div><span class="status-line" id="modal-status"{% if not authorStatus %} style="display:none"{% endif %}>{{ authorStatus | safe }}</span><a class="amazon-button" id="modal-amazon" href="{% if a.preview %}/en/{% else %}#{% endif %}"{% if not a.preview and not a.editionSection %} target="_blank"{% endif %} rel="noopener noreferrer">{% if a.modalActionLabel %}{{ a.modalActionLabel }}{% elif a.preview %}More{% else %}View on Amazon{% endif %} <span aria-hidden="true">&rarr;</span></a></div></div></div>
   <script>window.AETERNUS_BOOKS=[
   {%- for bk in a.books %}
-    {title:{{ bk.title | striptags | dump | safe }},subtitle:{{ bk.subtitle | striptags | dump | safe }},metadata:{{ bk.modal.metadata | dump | safe }},summary:{{ bk.modal.summary | dump | safe }},sample:{{ bk.modal.sample | dump | safe }},amazon:{{ bk.modal.amazon | default("/en/") | dump | safe }}}{% if not loop.last %},{% endif %}
+    {title:{{ bk.title | striptags | dump | safe }},subtitle:{{ bk.subtitle | striptags | dump | safe }},metadata:{{ bk.modal.metadata | dump | safe }},summary:{{ bk.modal.summary | dump | safe }},sample:{{ bk.modal.sample | dump | safe }},amazon:{{ bk.modal.amazon | default("/en/") | dump | safe }},status:{{ bk.modal.status | default(authorStatus) | dump | safe }}}{% if not loop.last %},{% endif %}
   {%- endfor %}
-  ];</script><script src="/assets/js/author-es.js?v=20260826-1"></script>
+  ];</script><script src="/assets/js/author-es.js?v=20260909-1"></script>
   {%- if a.preview %}<script>(function(){var x=document.getElementById("modal-amazon");if(x&&x.parentNode)x.parentNode.removeChild(x)})();</script>{% endif %}
 </body></html>
