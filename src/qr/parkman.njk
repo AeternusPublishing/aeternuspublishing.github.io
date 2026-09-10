@@ -1,0 +1,27 @@
+---
+permalink: /qr/parkman/index.html
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <title>Francis Parkman · AETERNUS VERLAG</title>
+  <meta http-equiv="refresh" content="0;url=/autoren/francis-parkman/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=parkman">
+  <link rel="canonical" href="https://aeternus-verlag.de/autoren/francis-parkman/">
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    if (!params.has("utm_source")) params.set("utm_source", "book_qr");
+    if (!params.has("utm_medium")) params.set("utm_medium", "print");
+    if (!params.has("utm_campaign")) params.set("utm_campaign", "parkman");
+    // Parkman erscheint zunaechst nur auf Deutsch; es gibt keine englische Autorenseite.
+    // Der QR-Weg fuehrt deshalb jeden Leser auf die deutsche Seite (Muster /qr/roosevelt/).
+    window.location.replace("/autoren/francis-parkman/?" + params.toString());
+  </script>
+</head>
+<body>
+  <p><a href="/autoren/francis-parkman/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=parkman">Zur Autorenseite von Francis Parkman</a></p>
+</body>
+</html>
