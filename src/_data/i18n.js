@@ -353,6 +353,66 @@ module.exports = {
               }
             }
           ]
+        },
+        {
+          // Die Eroberung des Westens: nur Hardcover (Verleger 2026-09-06). Band I und III gehen
+          // im September 2026 in den Verkauf; sie wandern von upcoming nach books, sobald die
+          // Amazon-Produktseite gemessen live ist. Band II und IV warten auf den Anhangslauf (VP-2).
+          // landingUrl fuehrt in beiden Sprachen auf die deutsche Seite: es gibt keine englische.
+          name: "Theodore Roosevelt",
+          slug: "theodore-roosevelt",
+          landingUrl: { de: "/autoren/theodore-roosevelt/", en: "/autoren/theodore-roosevelt/" },
+          bio: {
+            de: "Theodore Roosevelt schrieb, lange vor der Präsidentschaft, die Geschichte der Grenzwelt jenseits der Alleghenies. Die Eroberung des Westens erscheint in vier Bänden in der Reihe Anthrazit.",
+            en: "Long before his presidency, Theodore Roosevelt wrote the history of the frontier beyond the Alleghenies. The Winning of the West appears in German in four volumes in the Anthracite series."
+          },
+          books: [],
+          upcoming: [
+            {
+              cover: "cover-wotw-1",
+              originalTitle: "The Winning of the West, Vol. I, 1889",
+              title: { de: "Die Eroberung des Westens · Band I", en: "The Winning of the West · Vol. I (German)" },
+              status: { de: "Erscheint im September 2026", en: "September 2026" }
+            },
+            {
+              cover: "cover-wotw-2",
+              originalTitle: "The Winning of the West, Vol. II, 1889",
+              title: { de: "Die Eroberung des Westens · Band II", en: "The Winning of the West · Vol. II (German)" },
+              status: { de: "In Vorbereitung", en: "In preparation" }
+            },
+            {
+              cover: "cover-wotw-3",
+              originalTitle: "The Winning of the West, Vol. III, 1894",
+              title: { de: "Die Eroberung des Westens · Band III", en: "The Winning of the West · Vol. III (German)" },
+              status: { de: "Erscheint im September 2026", en: "September 2026" }
+            },
+            {
+              cover: "cover-wotw-4",
+              originalTitle: "The Winning of the West, Vol. IV, 1896",
+              title: { de: "Die Eroberung des Westens · Band IV", en: "The Winning of the West · Vol. IV (German)" },
+              status: { de: "In Vorbereitung", en: "In preparation" }
+            }
+          ]
+        },
+        {
+          // Francis Parkman: Saeule ANTHRAZIT (Verleger 2026-09-09). Deutscher Titel offen -
+          // deshalb Textplatte mit dem Originaltitel. landingUrl in beiden Sprachen deutsch.
+          name: "Francis Parkman",
+          slug: "francis-parkman",
+          landingUrl: { de: "/autoren/francis-parkman/", en: "/autoren/francis-parkman/" },
+          bio: {
+            de: "Francis Parkman ritt 1846 mit zweiundzwanzig Jahren den Oregon Trail hinauf und wurde später der große Historiker des Ringens um Nordamerika. Sein Prärie-Bericht erscheint in der Reihe Anthrazit.",
+            en: "In 1846, aged twenty-two, Francis Parkman rode up the Oregon Trail; he became the great historian of the struggle for North America. His prairie narrative appears in the Anthracite series."
+          },
+          books: [],
+          upcoming: [
+            {
+              plate: { de: "The Oregon<br>Trail", en: "The Oregon<br>Trail" },
+              originalTitle: "The California and Oregon Trail, New York 1849",
+              title: { de: "The California and Oregon Trail", en: "The California and Oregon Trail" },
+              status: { de: "In Vorbereitung", en: "In preparation" }
+            }
+          ]
         }
       ]
     },

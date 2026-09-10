@@ -22,6 +22,8 @@ const P = {
 const AVAILABLE = {
   "carlo-collodi": ["de"],
   "felix-salten": ["de"],
+  "theodore-roosevelt": ["de"],
+  "francis-parkman": ["de"],
   "ernest-thompson-seton": ["de", "en", "es", "pl"],
   "robert-montgomery-bird": ["de", "en", "es"],
   "henry-ford": ["de", "en"],

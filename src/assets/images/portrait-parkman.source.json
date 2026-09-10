@@ -1,0 +1,18 @@
+{
+  "asset": "portrait-parkman",
+  "subject": "Francis Parkman (1823-1893)",
+  "work": "Half-plate daguerreotype, circa 1852",
+  "artist": "Southworth & Hawes, Boston",
+  "holding": "National Portrait Gallery, Smithsonian Institution, NPG.84.268",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Francis_Parkman_by_Southworth_%26_Hawes,_c._1852,_half-plate_dageurreotype,_from_the_National_Portrait_Gallery_-_NPG-NPG_84_268Parkman-000001.jpg",
+  "license": "CC0 (Creative Commons Zero, Public Domain Dedication)",
+  "original": {
+    "pixels": "1906x2288",
+    "bytes": 6723203,
+    "sha1_commons_verified": true,
+    "sha256": "4e6ab47a39794d5af1808a80b4f5487988897024640a6bf80fac9abdf7364422"
+  },
+  "derivation": "Crop x463-1454, y354-1733 (oval interior, head upper third), Lanczos to 690x960; jpg/webp/avif. No retouching, no AI.",
+  "fetched_utc": "2026-09-10",
+  "authority": "Publisher approval in chat 2026-09-10 (download of the CC0 daguerreotype)."
+}
