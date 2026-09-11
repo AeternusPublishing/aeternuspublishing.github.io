@@ -102,7 +102,7 @@ hreflang: true
                 <h3 style="color: #f3e7cf; font-family: var(--font-display); font-size: 1.3rem; font-weight: 400; margin-bottom: 12px; line-height: 1.35;"><a class="edition-title-link" href="{{ author.landingUrl[lang] }}">{{ book.title[lang] }}</a></h3>
                 <p style="color: rgba(243, 231, 207, 0.7); font-size: 14.5px; line-height: 1.6; margin-bottom: 16px;">{{ book.desc[lang] }}</p>
                 <div style="font-size: 12px; color: rgba(243, 231, 207, 0.4); margin-bottom: 16px;">ISBN {{ book.isbn }}</div>
-                <a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="btn-ghost" style="font-size: 11px; padding: 12px 22px;">{{ i18n["seton.button"][lang] }}</a>
+                {% if book.amazonUrl %}<a href="{{ book.amazonUrl }}" target="_blank" rel="noopener" class="btn-ghost" style="font-size: 11px; padding: 12px 22px;">{{ i18n["seton.button"][lang] }}</a>{% else %}<a href="{{ author.landingUrl[lang] }}" class="btn-ghost" style="font-size: 11px; padding: 12px 22px;">{% if lang == "de" %}Zur Ausgabe{% else %}Edition details{% endif %}</a>{% endif %}
               </div>
             </div>
           {% endfor %}

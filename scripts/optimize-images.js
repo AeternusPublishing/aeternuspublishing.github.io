@@ -122,6 +122,14 @@ async function gen(srcName, outputs) {
     { name: "cover-grimm-band-i-fallback.jpg", resize: { width: 1024 }, jpeg: { quality: 84, mozjpeg: true } },
   ]);
 
+  // Robert Baden-Powell, Scouting for Boys — finales Frontcover der
+  // deutschen KDP-Ausgabe (Paperback und Hardcover teilen das Frontmotiv).
+  await gen("cover-scouting-for-boys.png", [
+    { name: "cover-scouting-for-boys.avif", resize: { width: 1024, withoutEnlargement: true }, avif: { quality: 55, effort: 4 } },
+    { name: "cover-scouting-for-boys.webp", resize: { width: 1024, withoutEnlargement: true }, webp: { quality: 80 } },
+    { name: "cover-scouting-for-boys-fallback.jpg", resize: { width: 1024, withoutEnlargement: true }, jpeg: { quality: 84, mozjpeg: true } },
+  ]);
+
   // Hintergrundgrafik der Editionsseite — dekorativ, daher kleiner und staerker komprimiert.
   await gen("edition-book.png", [
     { name: "edition-book.avif", resize: { width: 900 }, avif: { quality: 50, effort: 4 } },
