@@ -407,15 +407,14 @@ module.exports = {
           ]
         },
         {
-          // Zweiter Autor der gruenen Linie. Sein Aschanti-Tagebuch ist als
-          // GRUENE REIHE Band 2 erschienen; sein Pfadfinderhandbuch erscheint
-          // getrennt davon in der Bernsteinlinie.
+          // Baden-Powells Aschanti-Tagebuch und das Pfadfinderhandbuch sind
+          // beide in der GRUENEN REIHE verankert.
           name: "Robert Baden-Powell",
           slug: "robert-baden-powell",
           landingUrl: { de: "/autoren/robert-baden-powell/", en: "/en/authors/robert-baden-powell/" },
           bio: {
-            de: "Robert Baden-Powell fuehrte 1895 im Aschanti-Feldzug eine aus einheimischen Staemmen geformte Vorhut — und schrieb Tag fuer Tag mit. Sein Feldtagebuch erscheint in der Reihe Gruen.",
-            en: "In 1895 Robert Baden-Powell led a native levy through the Ashanti campaign — and kept a diary day by day. His field journal appears in the Green series."
+            de: "Robert Baden-Powell schrieb als Offizier ueber Feldzuege und Kundschafterarbeit — und schuf 1908 mit Scouting for Boys das Handbuch einer Weltbewegung. Beide deutschen Ausgaben erscheinen in der GRUENEN REIHE.",
+            en: "Robert Baden-Powell wrote as an officer about campaigns and scouting — and in 1908 created the handbook of a worldwide movement. Both German editions appear in the Green series."
           },
           books: [
             {
@@ -427,6 +426,16 @@ module.exports = {
               },
               isbn: "978-3-912883-48-0",
               amazonUrl: "https://www.amazon.de/dp/3912883483"
+            },
+            {
+              cover: "cover-scouting-for-boys",
+              title: { de: "Scouting for Boys (Übersetzt)", en: "Scouting for Boys (Translated)" },
+              desc: {
+                de: "Das Original-Handbuch der Pfadfinderbewegung in vollständiger deutscher Übersetzung, mit den Zeichnungen der Erstausgabe und neuem editorischem Apparat.",
+                en: "The original handbook of the Scout movement in a complete German translation, with the first edition drawings and new editorial material."
+              },
+              isbn: "978-3-67605-007-4 / 978-3-67605-008-1",
+              status: { de: "Bei KDP eingereicht", en: "Submitted to KDP" }
             }
           ]
         }
@@ -698,27 +707,6 @@ module.exports = {
               plate: { de: "Das Buch der<br>Waldläuferkunst", en: "The Book of<br>Woodcraft" },
               originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
               title: { de: "Das Buch der Waldläuferkunst", en: "The Book of Woodcraft" },
-              status: { de: "In Vorbereitung", en: "In preparation" }
-            }
-          ]
-        },
-        {
-          // Baden-Powell steht in zwei Linien: sein Aschanti-Tagebuch ist in
-          // Gruen erschienen, das Pfadfinderhandbuch ist hier in Vorbereitung.
-          // books bleibt leer, bis es erscheint.
-          name: "Robert Baden-Powell",
-          slug: "robert-baden-powell",
-          landingUrl: { de: "/autoren/robert-baden-powell/", en: "/en/authors/robert-baden-powell/" },
-          bio: {
-            de: "Robert Baden-Powell schrieb 1908 ein Anleitungsbuch für Jungen — und begründete damit unabsichtlich eine der größten Jugendbewegungen der Welt. Sein Gründungstext erscheint in der Reihe Bernstein.",
-            en: "In 1908 Robert Baden-Powell wrote a handbook for boys — and unintentionally founded one of the largest youth movements in the world. His founding text appears in the Amber series."
-          },
-          books: [],
-          upcoming: [
-            {
-              plate: { de: "Scouting<br>for Boys", en: "Scouting<br>for Boys" },
-              originalTitle: "Scouting for Boys, London 1908",
-              title: { de: "Scouting for Boys", en: "Scouting for Boys" },
               status: { de: "In Vorbereitung", en: "In preparation" }
             }
           ]

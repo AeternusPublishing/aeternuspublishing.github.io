@@ -538,7 +538,7 @@ module.exports = [
     "eyebrow": "Grün · Militär, Expeditionen, Grenzräume",
     "tagline": "Ein Handbuch, das eine Weltbewegung auslöste.",
     "intro": "Offizier, Kundschafter, Zeichner und Erzähler: Baden-Powell schrieb 1908 ein Anleitungsbuch für Jungen — und begründete damit unabsichtlich eine der größten Jugendbewegungen der Welt.",
-    "metaDescription": "Robert Baden-Powell: Leben, Werk und die in Vorbereitung befindliche deutsche Ausgabe von Scouting for Boys in der Bernsteinlinie des Aeternus Verlags.",
+    "metaDescription": "Robert Baden-Powell bei AETERNUS: Scouting for Boys in vollständiger deutscher Übersetzung, als Taschenbuch und Hardcover bei KDP eingereicht.",
     "ogDescription": "Ein Handbuch, das eine Weltbewegung ausloeste. Leben und Werk von Robert Baden-Powell.",
     "bioKicker": "Biografie",
     "bioTitle": "Vom Spähtrupp<br>zur Bewegung",
@@ -569,7 +569,7 @@ module.exports = [
     "facts": [
       [
         "Reihe",
-        "Bernsteinlinie · Säule V"
+        "GRÜNE REIHE · Band 1"
       ],
       [
         "Originalausgabe",
@@ -581,12 +581,12 @@ module.exports = [
       ],
       [
         "Status",
-        "In Vorbereitung"
+        "Bei KDP eingereicht"
       ]
     ],
-    "worksKicker": "In Vorbereitung",
+    "worksKicker": "Neuerscheinung",
     "worksTitle": "Der Gründungstext",
-    "worksIntro": "Das Handbuch von 1908 in vollem Umfang: Lagerkunde, Spurenlesen, Proben und Erzählungen — quellennah übersetzt, mit den Zeichnungen der Erstausgabe und historischer Einordnung.",
+    "worksIntro": "Das Handbuch von 1908 in vollem Umfang: Lagerkunde, Spurenlesen, Proben und Erzählungen — vollständig übersetzt, mit den Zeichnungen der Erstausgabe, 41 neuen Tafeln und editorischer Einordnung. Taschenbuch und Hardcover sind bei KDP eingereicht; die Bestelllinks folgen nach Freischaltung.",
     "gridClass": "single-item",
     "books": [
       {
@@ -605,17 +605,16 @@ module.exports = [
       },
       {
         "cover": {
-          "gen": "scouting",
-          "title": "Scouting<br>for Boys"
+          "img": "cover-scouting-for-boys"
         },
-        "meta": "Handbuch · London · 1908",
-        "title": "Scouting for Boys",
-        "subtitle": "Ein Handbuch zur Anleitung zu guter Bürgerschaft",
+        "meta": "GRÜNE REIHE · Band 1 · London 1908",
+        "title": "Scouting for Boys (Übersetzt)",
+        "subtitle": "Das Original-Handbuch der Pfadfinderbewegung",
         "modal": {
-          "metadata": "Aeternus Verlag · Bernsteinlinie · in Vorbereitung",
+          "metadata": "504 Seiten · Taschenbuch 19,99 € · Hardcover 34,99 €",
           "summary": "London 1908: Ein Offizier schreibt sein Militärhandbuch für Kundschafter zu einem Buch für Jungen um. Lagerkunde, Spurenlesen, Erste Hilfe, Mutproben und Lagerfeuergeschichten stehen nebeneinander — und wurden zum Gründungstext der Pfadfinderbewegung.",
-          "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1908 einschließlich der Zeichnungen des Autors. Der historische Wortlaut bleibt erhalten; Begriffe und Weltbild der Entstehungszeit werden im verlegerischen Apparat sichtbar gemacht, nicht im Werktext korrigiert.",
-          "status": "In Vorbereitung"
+          "sample": "Vollständige deutsche Übersetzung der Erstausgabe von 1908 mit den Zeichnungen des Autors, 41 neuen Tafeln, 29 redaktionellen Anmerkungen, Glossar, Autorenporträt, Verlagsvorwort und Editorischem Nachwort. Taschenbuch: ISBN 978-3-67605-007-4. Hardcover: ISBN 978-3-67605-008-1.",
+          "status": "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"
         }
       }
     ]

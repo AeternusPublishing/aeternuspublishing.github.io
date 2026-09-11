@@ -302,14 +302,14 @@ module.exports = [
     monogram: "BP",
     dates: "1857&ndash;1941",
     seriesClass: "",
-    preview: true,
+    preview: false,
     nameClass: "bird-name",
     portrait: { file: "portrait-baden-powell", alt: "Robert Baden-Powell in profile, wearing the Scout hat", modern: true },
     schema: { birthDate: "1857-02-22", deathDate: "1941-01-08", description: "British army officer, author, and founder of the Scout movement." },
-    eyebrow: "Amber &middot; Youth, adventure, character",
+    eyebrow: "Green Series &middot; Volume 1",
     tagline: "A handbook that set off a world movement.",
     intro: "Officer, scout, draughtsman, and storyteller: in 1908 Baden-Powell wrote a book of instruction for boys &mdash; and unintentionally founded one of the largest youth movements in the world.",
-    metaDescription: "Robert Baden-Powell: life, work, and the forthcoming Aeternus Verlag edition of Scouting for Boys in the Amber series.",
+    metaDescription: "Robert Baden-Powell at AETERNUS: Scouting for Boys in a complete German translation, submitted to KDP as paperback and hardcover.",
     bioKicker: "Author &amp; context",
     bioTitle: "From the scouting<br>patrol to a movement",
     bioLede: "A military handbook for scouts, rewritten for fourteen-year-olds &mdash; and out of that detour came a worldwide youth movement.",
@@ -318,14 +318,14 @@ module.exports = [
       { h: "The form", p: ["<i>Scouting for Boys</i> is not a treatise but a handbook: campfire yarns, games, tests, maxims, and drawings alternate in short, practical units.", "The tone speaks directly to young readers &mdash; vivid, demanding, often dryly funny. A translation has to hold exactly that register."] },
       { h: "Reach and context", p: ["Within a few years Scout troops had formed on every continent; the book ranks among the most widely circulated books for young readers of the twentieth century.", "It is at the same time a document of the British Empire and carries its worldview plainly. Aeternus preserves the historical wording and makes that context visible rather than smoothing it away."] }
     ],
-    facts: [["Series", "Amber line &middot; Pillar V"], ["First edition", "London, 1908"], ["Source language", "English"], ["Status", "In preparation"]],
-    worksKicker: "In preparation",
+    facts: [["Series", "Green Series &middot; Volume 1"], ["First edition", "London, 1908"], ["Source language", "English"], ["Status", "Submitted to KDP"]],
+    worksKicker: "New edition",
     worksTitle: "The founding text",
-    worksIntro: "The 1908 handbook in full: campcraft, tracking, tests, and yarns &mdash; translated close to the source, with the drawings of the first edition and historical context.",
+    worksIntro: "The 1908 handbook in full: campcraft, tracking, tests, and yarns &mdash; completely translated into German, with the first-edition drawings, 41 new plates, and editorial context. Paperback and hardcover have been submitted to KDP; order links will follow after approval.",
     gridClass: "single-item",
     books: [
-      { cover: { gen: "scouting", title: "Scouting<br>for Boys" }, meta: "Handbook &middot; London &middot; 1908", title: "Scouting for Boys", subtitle: "A handbook for instruction in good citizenship",
-        modal: { metadata: "Aeternus Verlag · Amber line · in preparation", summary: "London 1908: an officer rewrites his military handbook for scouts into a book for boys. Campcraft, tracking, first aid, tests of nerve, and campfire yarns stand side by side — and became the founding text of the Scout movement.", sample: "The German edition follows the wording of the 1908 first edition, including the author's drawings. The historical wording is preserved; the terms and worldview of its time are made visible in the publisher's apparatus, not corrected in the work text." } }
+      { cover: { img: "cover-scouting-for-boys" }, meta: "Green Series &middot; Volume 1 &middot; London 1908", title: "Scouting for Boys (Translated)", subtitle: "The Original Handbook of the Scout Movement",
+        modal: { metadata: "504 pages · Paperback €19.99 · Hardcover €34.99", summary: "London 1908: an officer rewrites his military handbook for scouts into a book for boys. Campcraft, tracking, first aid, tests of nerve, and campfire yarns stand side by side — and became the founding text of the Scout movement.", sample: "Complete German translation of the 1908 first edition with the author's drawings, 41 new plates, 29 editorial notes, glossary, author portrait, publisher's foreword, and editorial afterword. Paperback ISBN 978-3-67605-007-4. Hardcover ISBN 978-3-67605-008-1.", status: "Submitted to KDP · Order links will follow after approval" } }
     ]
   },
   {
