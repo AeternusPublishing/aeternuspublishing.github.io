@@ -1,18 +1,18 @@
 {
   "asset": "portrait-parkman",
   "subject": "Francis Parkman (1823-1893)",
-  "work": "Half-plate daguerreotype, circa 1852",
-  "artist": "Southworth & Hawes, Boston",
-  "holding": "National Portrait Gallery, Smithsonian Institution, NPG.84.268",
-  "source_url": "https://commons.wikimedia.org/wiki/File:Francis_Parkman_by_Southworth_%26_Hawes,_c._1852,_half-plate_dageurreotype,_from_the_National_Portrait_Gallery_-_NPG-NPG_84_268Parkman-000001.jpg",
-  "license": "CC0 (Creative Commons Zero, Public Domain Dedication)",
-  "original": {
-    "pixels": "1906x2288",
-    "bytes": 6723203,
-    "sha1_commons_verified": true,
-    "sha256": "4e6ab47a39794d5af1808a80b4f5487988897024640a6bf80fac9abdf7364422"
+  "work": "Historische Fotografie, Brustbild (Aufnahmejahr und Fotograf nicht belegt)",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Francis_Parkman%2C_Jr.jpg",
+  "restoration": {
+    "delivered_by": "Verleger, 2026-09-13",
+    "steps": "Stempelperforation entfernt, darunterliegendes Jackett rekonstruiert (OpenAI Imagegen); 4x vergroessert (Magnific). Keine archivalische Faksimile-Wiedergabe.",
+    "record": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/07_ILLUSTRATIONEN/AUTORENPORTRAET/EINGANG_VERLEGER_20260913_MAGNIFIC/Francis_Parkman_Bearbeitungsnachweis.json",
+    "file": "Francis_Parkman_bereinigt_Magnific_4x.jpg",
+    "pixels": "4192x5984",
+    "sha256": "4d74afd67ff87ae2316b0b03fe13cdbadd5292f9d40ca958004220819fb8dba7"
   },
-  "derivation": "Crop x463-1454, y354-1733 (oval interior, head upper third), Lanczos to 690x960; jpg/webp/avif. No retouching, no AI.",
-  "fetched_utc": "2026-09-10",
-  "authority": "Publisher approval in chat 2026-09-10 (download of the CC0 daguerreotype)."
+  "same_image_as_book": "Autorenportraet in Der Oregon Trail (FP_002), Kolophon: Historische Fotografie, digital restauriert und vergroessert.",
+  "derivation": "Crop x0-4192, y0-5832 (Seitenverhaeltnis 690:960), Lanczos auf 690x960; jpg (mozjpeg 84), webp (80), avif (55).",
+  "replaces": "Daguerreotypie Southworth & Hawes um 1852 (NPG.84.268, CC0), online seit 2026-09-10",
+  "authority": "Verleger im Chat 2026-09-13: 'autorenbild austauschen' (Autorenseite Francis Parkman)"
 }

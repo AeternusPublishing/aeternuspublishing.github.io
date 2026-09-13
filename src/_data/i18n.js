@@ -394,22 +394,22 @@ module.exports = {
           ]
         },
         {
-          // Francis Parkman: Saeule ANTHRAZIT. Deutscher Titel, Untertitel, Umfang und
-          // Manifestationen sind entschieden; die Endabnahme steht noch aus.
+          // Francis Parkman: Saeule ANTHRAZIT. Endabnahme durch den Verleger 2026-09-13; solange
+          // keine Produktseite gemessen live ist, bleibt der Band als upcoming ohne Kaufweg sichtbar.
           name: "Francis Parkman",
           slug: "francis-parkman",
           landingUrl: { de: "/autoren/francis-parkman/", en: "/autoren/francis-parkman/" },
           bio: {
-            de: "Francis Parkman ritt 1846 mit zweiundzwanzig Jahren den Oregon Trail hinauf und schrieb später die Geschichte des Ringens um Nordamerika. Der deutsche Text seines Prärieberichts steht; die Endabnahme steht noch aus.",
-            en: "In 1846, aged twenty-two, Francis Parkman rode up the Oregon Trail and later wrote the history of the struggle for North America. The German text of his prairie narrative is complete; final approval is still pending."
+            de: "Francis Parkman ritt 1846 mit zweiundzwanzig Jahren den Oregon Trail hinauf und schrieb später die Geschichte des Ringens um Nordamerika. Die deutsche Ausgabe seines Prärieberichts ist vom Verlag abgenommen und geht in die Auslieferung.",
+            en: "In 1846, aged twenty-two, Francis Parkman rode up the Oregon Trail and later wrote the history of the struggle for North America. The German edition of his prairie narrative has been approved by the publisher and is going into distribution."
           },
           books: [],
           upcoming: [
             {
-              plate: { de: "Der Oregon<br>Trail", en: "Der Oregon<br>Trail" },
+              cover: "cover-der-oregon-trail",
               originalTitle: "The California and Oregon Trail, New York 1849",
               title: { de: "Der Oregon Trail", en: "Der Oregon Trail (German edition)" },
-              status: { de: "In Herstellung · deutsche Fassung abgeschlossen", en: "In production · German text complete" }
+              status: { de: "Vom Verlag abgenommen · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
             }
           ]
         }
