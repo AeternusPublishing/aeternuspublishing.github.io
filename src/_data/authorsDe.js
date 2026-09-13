@@ -908,17 +908,19 @@ module.exports = [
   },
   {
     // Francis Parkman: Autorensphaere PARKMAN, Saeule ANTHRAZIT (Verleger 2026-09-09).
-    // Der deutsche Titel, Untertitel, die drei ISBN und der 530-Seiten-Satz sind entschieden.
-    // Die Endabnahme steht aus; deshalb bleibt die Ausgabe als Vorschau gekennzeichnet.
+    // Endabnahme durch den Verleger 2026-09-13 (Innenteil 528 Seiten, 13 Tafeln und Autorenportraet);
+    // KDP-Uploadpaket bei Codex (Koordination 0641). Kaufweg haengt am Band (author-es.js): "amazon" erst
+    // eintragen, wenn die Produktseite gemessen live ist - Taschenbuch 367605024X, Hardcover 3676050258.
     "slug": "francis-parkman",
     "name": "Francis Parkman",
     "monogram": "FP",
     "dates": "1823–1893",
     "seriesClass": "series-anthracite",
-    "preview": true,
+    "preview": false,
+    "sampleLabel": "Zur Ausgabe",
     "portrait": {
       "file": "portrait-parkman",
-      "alt": "Francis Parkman, Daguerreotypie von Southworth & Hawes, um 1852",
+      "alt": "Francis Parkman, historische Fotografie, digital restauriert",
       "modern": true
     },
     "schema": {
@@ -929,7 +931,7 @@ module.exports = [
     "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
     "tagline": "Er ging in die Prärie, um zu sehen, worüber er schreiben wollte.",
     "intro": "Bostoner Patriziersohn und später der große Historiker des Ringens zwischen Frankreich und England um Nordamerika. 1846, mit zweiundzwanzig Jahren, zog er den Oregon Trail hinauf und lebte Wochen in einem Lager der Oglala.",
-    "metaDescription": "Francis Parkman bei AETERNUS: Der Oregon Trail in neuer deutscher Übersetzung nach der Erstausgabe von 1849, 530 Seiten, in Herstellung in der Anthrazitlinie.",
+    "metaDescription": "Francis Parkman bei AETERNUS: Der Oregon Trail in neuer deutscher Übersetzung nach der Erstausgabe von 1849, 528 Seiten, vom Verlag abgenommen und vor der Auslieferung.",
     "ogDescription": "Die Prärie von 1846, gesehen von einem jungen Bostoner. Leben und Werk Francis Parkmans.",
     "bioKicker": "Autor & Kontext",
     "bioTitle": "Erst die Reise,<br>dann die Geschichte",
@@ -968,30 +970,30 @@ module.exports = [
       ],
       [
         "Ausgabe",
-        "530 Seiten · 14 Tafeln · Hardcover, Taschenbuch und E-Book"
+        "528 Seiten · 13 Tafeln und Autorenporträt · Hardcover, Taschenbuch und E-Book"
       ],
       [
         "Stand",
-        "Deutsche Fassung abgeschlossen · Endabnahme ausstehend"
+        "Vom Verlag abgenommen · Auslieferung in Vorbereitung"
       ]
     ],
     "worksKicker": "Im Programm",
     "worksTitle": "Der Oregon Trail",
-    "worksIntro": "Der deutsche Text steht. Der Satz umfasst 530 Seiten; Hardcover, Taschenbuch und E-Book sind vorgesehen. Die Endabnahme steht noch aus. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
+    "worksIntro": "Der Satz umfasst 528 Seiten mit 13 Tafeln und dem Autorenporträt. Die Ausgabe ist vom Verlag abgenommen; Hardcover, Taschenbuch und E-Book gehen in die Auslieferung. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
     "gridClass": "single-item",
     "books": [
       {
         "cover": {
-          "gen": "oregon",
-          "title": "Der Oregon<br>Trail"
+          "img": "cover-der-oregon-trail"
         },
         "meta": "Reisebericht · 1849",
         "title": "Der Oregon Trail",
         "subtitle": "Skizzen aus dem Leben der Prärien und Rocky Mountains",
         "modal": {
-          "metadata": "AETERNUS Verlag · 530 Seiten · Hardcover, Taschenbuch und E-Book · in Herstellung",
+          "metadata": "AETERNUS Verlag · 528 Seiten · Hardcover, Taschenbuch und E-Book",
           "summary": "Sommer 1846: Zwei junge Bostoner reiten von Missouri aus in die Prärie, das Platte-Tal hinauf bis Fort Laramie, und leben Wochen in einem Lager der Oglala. Parkmans Bericht zeigt die Great Plains im Jahr der großen Auswanderung – Büffeljagd, Handelsposten, Trapper und Stämme, gesehen ohne spätere Verklärung.",
-          "sample": "Die deutsche Ausgabe folgt der Erstausgabe von 1849, nicht dem verbreiteten Digitaltext: Parkmans eigene Schreibungen der Völker- und Ortsnamen, der vollständige Mottobestand und die Schlussanmerkung über Henry Chatillon bleiben erhalten."
+          "sample": "Die deutsche Ausgabe folgt der Erstausgabe von 1849, nicht dem verbreiteten Digitaltext: Parkmans eigene Schreibungen der Völker- und Ortsnamen, der vollständige Mottobestand und die Schlussanmerkung über Henry Chatillon bleiben erhalten.",
+          "status": "Vom Verlag abgenommen · Auslieferung in Vorbereitung · Hardcover, Taschenbuch und E-Book"
         }
       }
     ]

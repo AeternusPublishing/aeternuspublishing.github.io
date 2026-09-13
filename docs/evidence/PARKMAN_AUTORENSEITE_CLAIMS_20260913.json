@@ -1,0 +1,108 @@
+{
+  "schema": "AETERNUS_PARATEXT_CLAIM_REVIEW_V1",
+  "status": "REVIEWED_CHANGED_PASSAGES",
+  "work_id": [
+    "FP_002"
+  ],
+  "text_version": "website-parkman-autorenseite-20260913",
+  "voice_profile": "AETERNUS_PUBLISHER_VOICE_V2_1_20260907",
+  "text_files": [
+    {
+      "path": "src/_data/authorsDe.js",
+      "sha256": "f3a47d0295b93b2baa109eb0519d820b7b077bbff79b6f65d084819bae523873"
+    },
+    {
+      "path": "src/_data/i18n.js",
+      "sha256": "15aa8ff6f8d63adb831d080d9e0afb21dd787e86a5516b65d2f842fe8944e00f"
+    }
+  ],
+  "scope_note": "Geprueft sind nur die in diesem Stand geaenderten Parkman-Angaben (Umfang, Tafeln, Stand, Bio-Schlusssatz, Portraet). Biographie und Einordnung bleiben unveraendert und sind in ANTHRAZIT_ROOSEVELT_PARKMAN_CLAIMS_20260913.json (AR-005, AR-006) belegt.",
+  "claims": [
+    {
+      "id": "PK-001",
+      "sentence_or_passage": "Der Satz umfasst 528 Seiten.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/08_BUCHSATZ/ARBEITSSATZ_V1/ARBEITSSATZ_BERICHT.json",
+      "source_hash_if_local": "055c89e286625c6db3c92a67b21f25c6be0bb4c788895deb2051173f711c2ff2",
+      "exact_locator": "ergebnis.seiten; ergebnis.sha256 fada7b47...",
+      "supporting_excerpt": "seiten 528 (Bau 14, sechs Gates PASS)",
+      "what_the_source_actually_supports": "Umfang des abgenommenen Innenteils. Ersetzt AR-004 (530 Seiten, Stand vor der Korrekturrunde).",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "claude",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "PK-002",
+      "sentence_or_passage": "13 Tafeln und Autorenportraet.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/08_BUCHSATZ/ARBEITSSATZ_V1/ARBEITSSATZ_BERICHT.json",
+      "source_hash_if_local": "055c89e286625c6db3c92a67b21f25c6be0bb4c788895deb2051173f711c2ff2",
+      "exact_locator": "ergebnis.tafeln (12 Kapiteltafeln) plus Frontispiz T10; gate_portraet_doppelseite",
+      "supporting_excerpt": "12 Kapiteltafeln, Frontispiz Open Range, Autorenportraet auf gerader Seite",
+      "what_the_source_actually_supports": "13 eigene Tafeln einschliesslich Frontispiz und ein historisches Autorenportraet im Innenteil. Das vierzehnte Motiv (T03) steht nur auf dem Umschlag.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "claude",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "PK-003",
+      "sentence_or_passage": "Vom Verlag abgenommen; Hardcover, Taschenbuch und E-Book gehen in die Auslieferung.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/99_SYSTEM/COORDINATION/DECISIONS.ndjson",
+      "source_hash_if_local": "32b9eeffc5cab14eeca71c8c803fde95e3ab53f95bb5fbbe217f11e20c16c592",
+      "exact_locator": "decision_fp002_endabnahme_produktion_kdp_preise_20260913",
+      "supporting_excerpt": "Innenteil Bau 14 abgenommen, Produktion und KDP-Uploadpaket beauftragt",
+      "what_the_source_actually_supports": "Redaktionelle Abnahme und Auftrag zur Auslieferung. Keine Behauptung, dass eine Produktseite schon live ist; der Kaufweg bleibt ausgeblendet.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "claude",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "PK-004",
+      "sentence_or_passage": "Uploadpaket fuer Hardcover, Taschenbuch und E-Book liegt bei der Auslieferung.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/99_SYSTEM/COORDINATION/CLAUDE_TO_CODEX/20260913T164623Z__msg_claude_fp002_kdp_uploadpaket_0641.json",
+      "source_hash_if_local": "4bbdafeda0e905135c47dbc60b02695ea8318982fa551adb08feaba1ad1950b1",
+      "exact_locator": "msg_claude_fp002_kdp_uploadpaket_0641",
+      "supporting_excerpt": "vier Dateien, Metadaten und Preise an Codex",
+      "what_the_source_actually_supports": "Die Auslieferung ist vorbereitet, nicht abgeschlossen.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "claude",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "PK-005",
+      "sentence_or_passage": "Portraet: Francis Parkman, historische Fotografie, digital restauriert.",
+      "type": "IMAGE_PROVENANCE",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/07_ILLUSTRATIONEN/AUTORENPORTRAET/EINGANG_VERLEGER_20260913_MAGNIFIC/Francis_Parkman_Bearbeitungsnachweis.json",
+      "source_hash_if_local": "1aaa848690f95525f262c92128d0c43dca652f8dd9c97c801b06221f693313f3",
+      "exact_locator": "cleanup; upscale_provider; notes",
+      "supporting_excerpt": "Stempelperforation entfernt, Jackett rekonstruiert, 4x vergroessert; kein archivalisches Faksimile",
+      "what_the_source_actually_supports": "Restaurierte Fassung einer historischen Fotografie, dieselbe wie im Buch. Aufnahmejahr und Fotograf sind nicht belegt und werden deshalb nicht genannt.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "claude",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "PK-006",
+      "sentence_or_passage": "Umschlagbild Der Oregon Trail (Werkkarte, Reihenseiten).",
+      "type": "IMAGE_PROVENANCE",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/09_EXPORT/FP002_KDP_RELEASE_20260913/FP002_UMSCHLAG_KDP_TASCHENBUCH_528S.pdf",
+      "source_hash_if_local": "27e68e87860ee8662055a49a2b04c91da610e8a28f7ee199995b7c5cd7aac840",
+      "exact_locator": "Vorderseite (Trimmflaeche 6x9 in), 300 dpi gerendert, Lanczos 600x900",
+      "supporting_excerpt": "Compilerbau PARKMAN V2 quer, PRINT_READY",
+      "what_the_source_actually_supports": "Vorderseite des KDP-Taschenbuchumschlags im Uploadpaket.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "claude",
+      "checked_at": "2026-09-13"
+    }
+  ],
+  "publisher_release": "Verleger im Chat 2026-09-13: 'https://aeternus-verlag.de/autoren/francis-parkman/ aktualisieren' und 'autorenbild austauschen'.",
+  "note": "Kein Kaufweg, keine Preise, keine ASIN auf der Seite, bis die Produktseiten gemessen live sind."
+}
