@@ -1,0 +1,130 @@
+{
+  "schema": "AETERNUS_PARATEXT_CLAIM_REVIEW_V1",
+  "status": "REVIEWED_CHANGED_PASSAGES",
+  "work_id": [
+    "WOTW_BAND_I",
+    "WOTW_BAND_II",
+    "WOTW_BAND_III",
+    "WOTW_BAND_IV",
+    "FP_002"
+  ],
+  "text_version": "website-anthrazit-refresh-20260913",
+  "voice_profile": "AETERNUS_PUBLISHER_VOICE_V2_1_20260907",
+  "text_files": [
+    {
+      "path": "src/_data/authorsDe.js",
+      "sha256": "04012a87960f32518ae6bf03e597140fcaab4feeaba95c4034b4a46ecd00f0b2"
+    },
+    {
+      "path": "src/_data/i18n.js",
+      "sha256": "64f65e3766f980bf9478a1a82ecdd75a6e84e2654c8d50a742780765374c23e3"
+    }
+  ],
+  "scope_note": "Geprüft sind die in diesem Stand neu geschriebenen oder sachlich fortgeschriebenen Passagen. Die bereits zuvor veröffentlichte Roosevelt-Biographie wurde nicht neu verfasst; ihre unveränderten Absätze sind nicht Gegenstand dieses Änderungsregisters.",
+  "claims": [
+    {
+      "id": "AR-001",
+      "sentence_or_passage": "Alle vier Bände von Die Eroberung des Westens sind gesetzt und vom Verlag freigegeben; die Auslieferung ist noch nicht als abgeschlossen behauptet.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/99_SYSTEM/COORDINATION/DECISIONS.ndjson",
+      "source_hash_if_local": "8ad91a54fd07dc1690d55d5031a66c396921b1365c2d54decf4229ee019279b9",
+      "exact_locator": "decision_wotw_neufreigabe_nach_kursivreparatur_20260913",
+      "supporting_excerpt": "Vier KDP- und vier Ingram-Innenteil-Hashes freigegeben; Preis und Veröffentlichen bleiben eigene Schritte.",
+      "what_the_source_actually_supports": "Die vier korrigierten Bandstände sind redaktionell freigegeben. Es folgt daraus keine Behauptung, dass alle Verkaufsseiten oder Vertriebsfreigaben bereits live sind.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "codex",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "AR-002",
+      "sentence_or_passage": "WOTW erscheint als vier Hardcover-Bände mit den ISBN 978-3-912883-91-6 bis 978-3-912883-94-7.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/99_SYSTEM/DESIGN_SYSTEM/assets/qr/QR_BACKMATTER_REGISTRY.json",
+      "source_hash_if_local": null,
+      "exact_locator": "kurzwege[work_id=WOTW_BAND_I..IV].isbn_kdp_hardcover",
+      "supporting_excerpt": "Je Band ist eine eigene KDP-Hardcover-ISBN registriert.",
+      "what_the_source_actually_supports": "Format und ISBN-Identität der vier Bände; nicht deren momentane Lieferbarkeit.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "codex",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "AR-003",
+      "sentence_or_passage": "Der deutsche Titel lautet Der Oregon Trail; der Untertitel lautet Skizzen aus dem Leben der Prärien und Rocky Mountains.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/05_LEKTORAT/MASTER_DE_V1/PAKET_MANIFEST.json",
+      "source_hash_if_local": "87e086ad2fb8db823a56b8686bd40294e39add867e167569849c60d12e5ad60f",
+      "exact_locator": "titel_de; untertitel_de",
+      "supporting_excerpt": "Titel und Untertitel sind im Masterpaket gebunden.",
+      "what_the_source_actually_supports": "Die verbindliche deutsche Werkbenennung dieses Produktionsstands.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "codex",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "AR-004",
+      "sentence_or_passage": "Der Oregon Trail umfasst im entschiedenen Satz 530 Seiten und ist als Hardcover, Taschenbuch und E-Book vorgesehen; die Endabnahme steht aus.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/00_ADMIN/FP002_FINALISIERUNGSSTAND_20260913.md",
+      "source_hash_if_local": "86cf30eb51a0a3e8d7c4c1d3cff9bf40f413b1be54837a22c4f60a4fe29a7c0a",
+      "exact_locator": "Standtabelle; Offene Schritte; decision_fp002_satzkern_v2_m8_530_seiten_20260913",
+      "supporting_excerpt": "Satzkern V2: 530 Seiten; KDP Taschenbuch und Hardcover; EPUB vorgesehen; Endabnahme offen.",
+      "what_the_source_actually_supports": "Produktionsumfang, Manifestationen und noch offene Freigabe. Keine Lieferbarkeitsbehauptung.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "codex",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "AR-005",
+      "sentence_or_passage": "Die Parkman-Ausgabe folgt der Erstausgabe von 1849, bewahrt deren vollständigen Mottobestand und die spätere gestrichene Schlussanmerkung über Henry Chatillon; Vorrede von 1872 und Widmung sind gekennzeichnete Zugaben.",
+      "type": "EDITION_PROMISE",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/13_VERLAGSPARATEXTE/BEHAUPTUNGSREGISTER_APPARAT_GLOSSAR_20260913.json",
+      "source_hash_if_local": "200cc714b220d249a9c56459bbc916787f0e3b238da9c4745bf5b8d669c7de1a",
+      "exact_locator": "claims A01-A05, A10-A12",
+      "supporting_excerpt": "Erstdruck 1849, 28 Mottos unter 27 Überschriften, spätere Fassung und Zusätze am Bildzeugen geprüft.",
+      "what_the_source_actually_supports": "Die Editionsgrundlage und die genannten erhaltenen beziehungsweise gekennzeichnet ergänzten Bestandteile.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "codex",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "AR-006",
+      "sentence_or_passage": "Parkman reiste 1846 mit zweiundzwanzig Jahren westwärts, erreichte Fort Laramie und lebte Wochen unter den Oglala.",
+      "type": "BIOGRAPHICAL",
+      "source_path_or_url": "C:/AETERNUS/01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_OREGON_TRAIL/13_VERLAGSPARATEXTE/BEHAUPTUNGSREGISTER_APPARAT_GLOSSAR_20260913.json",
+      "source_hash_if_local": "200cc714b220d249a9c56459bbc916787f0e3b238da9c4745bf5b8d669c7de1a",
+      "exact_locator": "claims A19-A23, E06-E12",
+      "supporting_excerpt": "Harvard-Abschluss, Reisejahr, Fort Laramie und Wochen im Dorf sind gegen Werktext und Bildzeugen geprüft.",
+      "what_the_source_actually_supports": "Die biographische und reisefaktische Grundlage der Einleitung; wertende Formulierungen bleiben als Verlagsurteil erkennbar.",
+      "status": "BELEGT",
+      "required_revision": null,
+      "checked_by": "codex",
+      "checked_at": "2026-09-13"
+    }
+  ],
+  "style_review": {
+    "status": "PASS",
+    "examples_read": [
+      "T04 · Baden-Powell – Der Sturz Prempehs · Klappentext",
+      "T10 · Grimm – Schreckensmärchen Band I · Vorwort"
+    ],
+    "findings": [
+      "Die Anthrazit-Einleitung benennt Tätigkeit und Gegenstand statt allgemeiner Begeisterungsformeln.",
+      "Lieferstatus und Freigabestatus bleiben getrennt.",
+      "Keine Gegenwartsmoral, keine entschuldigende Vorrede, keine geglättete Assistentensprache."
+    ]
+  },
+  "documentary_review": {
+    "status": "PASS_CHANGED_PASSAGES",
+    "all_factual_passages_accounted_for": true,
+    "unresolved_claim_ids": []
+  },
+  "publisher_release": true,
+  "publisher_release_basis": "Explizite Verlegeranweisung im aktuellen Chat, Website und QR-Ziele vollständig zu aktualisieren.",
+  "note": "Dieses Register belegt den Website-Änderungsstand; es ersetzt weder Buch-Endabnahmen noch Plattform-Veröffentlichungsnachweise."
+}

@@ -793,7 +793,7 @@ module.exports = [
     "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
     "tagline": "Der Westen als historische Schule des Charakters.",
     "intro": "Historiker, Naturforscher und Staatsmann: Lange vor der Präsidentschaft schrieb Roosevelt die Geschichte jener Grenzwelt, aus der das amerikanische Gemeinwesen hervorging.",
-    "metaDescription": "Theodore Roosevelt bei AETERNUS: Die Eroberung des Westens in vier Bänden, erstmals auf Deutsch – Band I und Band III als Hardcover in der Anthrazitlinie.",
+    "metaDescription": "Theodore Roosevelt bei AETERNUS: Die Eroberung des Westens erstmals auf Deutsch in vier Hardcover-Bänden, vom Verlag freigegeben und vor der Auslieferung.",
     "ogDescription": "Der Westen als historische Schule des Charakters. Leben und Werk Theodore Roosevelts.",
     "bioKicker": "Autor & Kontext",
     "bioTitle": "Quellen lesen,<br>Bewegung erzählen",
@@ -836,18 +836,17 @@ module.exports = [
       ],
       [
         "Stand",
-        "Band I und III erscheinen im September 2026"
+        "Vier Bände freigegeben · Auslieferung in Vorbereitung"
       ]
     ],
     "worksKicker": "Die Reihe",
     "worksTitle": "Die Eroberung des Westens",
-    "worksIntro": "Vier Bände, erstmals auf Deutsch. Band I und Band III erscheinen zuerst; Band II und Band IV folgen, sobald ihre Anhänge übertragen sind. Ein Titel öffnet Klappentext und Zitat.",
+    "worksIntro": "Vier Bände, erstmals auf Deutsch. Alle vier sind gesetzt und vom Verlag freigegeben. Die Auslieferung wird plattformweise abgeschlossen. Ein Titel öffnet Klappentext und Zitat.",
     "gridClass": "count-4",
     // Kaufweg haengt am Band (author-es.js): "amazon" erst eintragen, wenn die Produktseite
     // bei Amazon gemessen live ist - Muster https://www.amazon.de/dp/<ISBN-10>.
     // Band I: 3912883912 · Band II: 3912883920 · Band III: 3912883939 · Band IV: 3912883947.
-    // Band II und IV duerfen "erstmals vollstaendig auf Deutsch" erst tragen, wenn ihr
-    // Anhangsblock keinen Platzhalter mehr fuehrt (Verlegeranweisung 2026-09-10, WOTW-VP2).
+    // Alle vier Baende sind seit 2026-09-13 nach der Kursivreparatur hashgebunden freigegeben.
     "books": [
       {
         "cover": {
@@ -860,7 +859,7 @@ module.exports = [
           "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-91-6",
           "summary": "Jenseits der Alleghenies lag ein Land, das keine Karte verzeichnete. Zwischen 1769 und 1776 schoben sich Jäger, Siedler und Abenteurer über die Bergkette nach Westen – in Wildnis, in fremdes Jagdland, in einen Krieg ohne Front. Roosevelt erzählt vom Aufbruch der Grenzer, von Boone und den Long Hunters, von Lord Dunmores Krieg und der Gründung Kentuckys. Der erste Band seines großen Geschichtswerks von 1889, erstmals vollständig auf Deutsch.",
           "sample": "„Der Westen war für Roosevelt nicht bloß ein Raum, sondern eine historische Schule des Charakters.“ — Aus dem Verlagsvorwort",
-          "status": "Erscheint im September 2026 · Hardcover"
+          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
         }
       },
       {
@@ -871,10 +870,10 @@ module.exports = [
         "title": "Die Eroberung des Westens · Band II",
         "subtitle": "Im Strom der Revolution, 1777–1783",
         "modal": {
-          "metadata": "AETERNUS Verlag · Hardcover · in Vorbereitung",
+          "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-92-3",
           "summary": "Während an der Küste um die Unabhängigkeit gekämpft wurde, brannte im Westen ein zweiter Krieg. Von Detroit aus warb der britische Vizegouverneur Hamilton die Stämme an; in Kentucky hielten die Blockhausforts stand. George Rogers Clark zog mit einer Handvoll Männer ins Illinois-Land und nahm Vincennes im Winterhochwasser. Im Süden überrannten die Backwoodsmen die Cherokee und schlugen bei King's Mountain.",
           "sample": "„Hamilton und seine Untergebenen, rote wie weiße, waren mit dem beschäftigt, was im Wesentlichen der Versuch war, die Grenzlandsiedler auszutilgen.“ — Theodore Roosevelt",
-          "status": "In Vorbereitung · die Anhänge des Bandes werden übertragen"
+          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
         }
       },
       {
@@ -888,7 +887,7 @@ module.exports = [
           "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-93-0",
           "summary": "Der Krieg war vorbei, und der Andrang begann. Jahr um Jahr strömten Siedler über die Pässe: nach Kentucky, an den Cumberland, in das eben erst gewonnene Land. Die Indianerkriege gingen weiter, die Mündung des Mississippi lag in spanischer Hand, und am Holston rief sich mit dem Staat Franklin ein Gemeinwesen aus, das die Union nie anerkannte. Der dritte Band des Geschichtswerks, erstmals vollständig auf Deutsch.",
           "sample": "„Die Zeit war für die ganze Nation von entscheidender Bedeutung, für das Volk der binnenländischen Siedlungsgrenze so gut wie für das der Küste.“ — Theodore Roosevelt",
-          "status": "Erscheint im September 2026 · Hardcover"
+          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
         }
       },
       {
@@ -899,19 +898,18 @@ module.exports = [
         "title": "Die Eroberung des Westens · Band IV",
         "subtitle": "Der Vorstoß nach Louisiana, 1791–1807",
         "modal": {
-          "metadata": "AETERNUS Verlag · Hardcover · in Vorbereitung",
+          "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-94-7",
           "summary": "Zwei Niederlagen, ein Sieg – und ein Kontinent wechselte den Besitzer. St. Clairs Heer wurde 1791 am Wabash vernichtet; vier Jahre später schlug Anthony Wayne die Stämme an den Fallen Timbers. Tennessee wurde Staat, die Verträge von Jay und Pinckney öffneten Strom und Grenze, und mit dem Kauf Louisianas reichte die Republik bis an die Rocky Mountains.",
           "sample": "„Jahr für Jahr wirkte jede Schar rauher Siedler und rauher Soldaten ihren Teil an dem großen Epos der Wildniseroberung.“ — Theodore Roosevelt",
-          "status": "In Vorbereitung · die Anhänge des Bandes werden übertragen"
+          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
         }
       }
     ]
   },
   {
     // Francis Parkman: Autorensphaere PARKMAN, Saeule ANTHRAZIT (Verleger 2026-09-09).
-    // The Oregon Trail ist vorbereitet, aber ohne Werkidentitaet, ISBN und deutschen Titel -
-    // deshalb Vorschau und der englische Originaltitel. Copy text: Erstausgabe 1849
-    // (decision_parkman_oregon_trail_copytext_1849_mit_spaeteren_vorreden_20260909).
+    // Der deutsche Titel, Untertitel, die drei ISBN und der 530-Seiten-Satz sind entschieden.
+    // Die Endabnahme steht aus; deshalb bleibt die Ausgabe als Vorschau gekennzeichnet.
     "slug": "francis-parkman",
     "name": "Francis Parkman",
     "monogram": "FP",
@@ -931,7 +929,7 @@ module.exports = [
     "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
     "tagline": "Er ging in die Prärie, um zu sehen, worüber er schreiben wollte.",
     "intro": "Bostoner Patriziersohn und später der große Historiker des Ringens zwischen Frankreich und England um Nordamerika. 1846, mit zweiundzwanzig Jahren, zog er den Oregon Trail hinauf und lebte Wochen in einem Lager der Oglala.",
-    "metaDescription": "Francis Parkman bei AETERNUS: The California and Oregon Trail nach der Erstausgabe von 1849, in Vorbereitung in der Anthrazitlinie.",
+    "metaDescription": "Francis Parkman bei AETERNUS: Der Oregon Trail in neuer deutscher Übersetzung nach der Erstausgabe von 1849, 530 Seiten, in Herstellung in der Anthrazitlinie.",
     "ogDescription": "Die Prärie von 1846, gesehen von einem jungen Bostoner. Leben und Werk Francis Parkmans.",
     "bioKicker": "Autor & Kontext",
     "bioTitle": "Erst die Reise,<br>dann die Geschichte",
@@ -955,7 +953,7 @@ module.exports = [
         "h": "Das Werk",
         "p": [
           "Der Bericht erschien zuerst in Folgen im <i>Knickerbocker Magazine</i> und 1849 als Buch unter dem Titel <i>The California and Oregon Trail</i>. Später folgten <i>The Conspiracy of Pontiac</i> (1851) und der siebenteilige Zyklus <i>France and England in North America</i>.",
-          "AETERNUS übersetzt die Erstausgabe von 1849 mit allen 27 Kapitelmottos und der Schlussanmerkung über den Führer Henry Chatillon, die Parkman später strich. Die Vorrede von 1872 und die Widmung an Shaw stehen als gekennzeichnete Zugaben im Vorspann."
+          "AETERNUS übersetzt die Erstausgabe von 1849 mit ihrem vollständigen Mottobestand und der Schlussanmerkung über den Führer Henry Chatillon, die Parkman später strich. Die Vorrede von 1872 und die Widmung an Shaw stehen als gekennzeichnete Zugaben im Vorspann."
         ]
       }
     ],
@@ -969,31 +967,31 @@ module.exports = [
         "<i>The California and Oregon Trail</i>, New York 1849"
       ],
       [
-        "Textgrundlage",
-        "Erstausgabe 1849 · Vorrede von 1872 als Zugabe"
+        "Ausgabe",
+        "530 Seiten · 14 Tafeln · Hardcover, Taschenbuch und E-Book"
       ],
       [
         "Stand",
-        "In Vorbereitung"
+        "Deutsche Fassung abgeschlossen · Endabnahme ausstehend"
       ]
     ],
     "worksKicker": "Im Programm",
-    "worksTitle": "The Oregon Trail",
-    "worksIntro": "Der deutsche Titel folgt. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
+    "worksTitle": "Der Oregon Trail",
+    "worksIntro": "Der deutsche Text steht. Der Satz umfasst 530 Seiten; Hardcover, Taschenbuch und E-Book sind vorgesehen. Die Endabnahme steht noch aus. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
     "gridClass": "single-item",
     "books": [
       {
         "cover": {
           "gen": "oregon",
-          "title": "The Oregon<br>Trail"
+          "title": "Der Oregon<br>Trail"
         },
         "meta": "Reisebericht · 1849",
-        "title": "The California and Oregon Trail",
-        "subtitle": "Skizzen aus dem Leben in Prärie und Felsengebirge",
+        "title": "Der Oregon Trail",
+        "subtitle": "Skizzen aus dem Leben der Prärien und Rocky Mountains",
         "modal": {
-          "metadata": "AETERNUS Verlag · Anthrazitlinie · in Vorbereitung",
+          "metadata": "AETERNUS Verlag · 530 Seiten · Hardcover, Taschenbuch und E-Book · in Herstellung",
           "summary": "Sommer 1846: Zwei junge Bostoner reiten von Missouri aus in die Prärie, das Platte-Tal hinauf bis Fort Laramie, und leben Wochen in einem Lager der Oglala. Parkmans Bericht zeigt die Great Plains im Jahr der großen Auswanderung – Büffeljagd, Handelsposten, Trapper und Stämme, gesehen ohne spätere Verklärung.",
-          "sample": "Die deutsche Ausgabe folgt der Erstausgabe von 1849, nicht dem verbreiteten Digitaltext: Parkmans eigene Schreibungen der Völker- und Ortsnamen, alle 27 Kapitelmottos und die Schlussanmerkung über Henry Chatillon bleiben erhalten."
+          "sample": "Die deutsche Ausgabe folgt der Erstausgabe von 1849, nicht dem verbreiteten Digitaltext: Parkmans eigene Schreibungen der Völker- und Ortsnamen, der vollständige Mottobestand und die Schlussanmerkung über Henry Chatillon bleiben erhalten."
         }
       }
     ]

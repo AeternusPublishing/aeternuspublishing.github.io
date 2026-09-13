@@ -311,8 +311,8 @@ module.exports = {
       colorRgb: "58, 58, 58",
       label: { de: "Weltliteratur und Ur-Konflikte", en: "World Literature and Elemental Conflict" },
       desc: {
-        de: "Schwere Weltliteratur des Grenzraums und des Ur-Konflikts — von Melville bis Simms — sowie historische Berichte von Eroberung und Feldzug.",
-        en: "Weighty world literature of the frontier and the primal conflict — from Melville to Simms — alongside historical accounts of conquest and campaign."
+        de: "ANTHRAZIT hält die Härte historischer Texte aus. Grenzland, Eroberung, Aufbruch, Verrat und Gewalt werden nicht in das Vokabular der Gegenwart umgegossen. Der Verlag prüft, übersetzt und ordnet ein; den Eigenwillen des Werkes lässt er stehen.",
+        en: "ANTHRACITE leaves the force of historical texts intact. Frontier, conquest, departure, betrayal, and violence are not recast in the vocabulary of the present. The publisher verifies, translates, and supplies context; the work keeps its own temper."
       },
       mood: {
         file: "mood-anthrazit",
@@ -355,16 +355,15 @@ module.exports = {
           ]
         },
         {
-          // Die Eroberung des Westens: nur Hardcover (Verleger 2026-09-06). Band I und III gehen
-          // im September 2026 in den Verkauf; sie wandern von upcoming nach books, sobald die
-          // Amazon-Produktseite gemessen live ist. Band II und IV warten auf den Anhangslauf (VP-2).
-          // landingUrl fuehrt in beiden Sprachen auf die deutsche Seite: es gibt keine englische.
+          // Die Eroberung des Westens: vier Hardcover. Alle vier Baende sind seit 2026-09-13
+          // nach der Kursivreparatur hashgebunden freigegeben. Solange keine Produktseite
+          // gemessen live ist, bleiben sie als upcoming ohne Kaufweg sichtbar.
           name: "Theodore Roosevelt",
           slug: "theodore-roosevelt",
           landingUrl: { de: "/autoren/theodore-roosevelt/", en: "/autoren/theodore-roosevelt/" },
           bio: {
-            de: "Theodore Roosevelt schrieb, lange vor der Präsidentschaft, die Geschichte der Grenzwelt jenseits der Alleghenies. Die Eroberung des Westens erscheint in vier Bänden in der Reihe Anthrazit.",
-            en: "Long before his presidency, Theodore Roosevelt wrote the history of the frontier beyond the Alleghenies. The Winning of the West appears in German in four volumes in the Anthracite series."
+            de: "Lange vor der Präsidentschaft schrieb Theodore Roosevelt die Geschichte der Grenzwelt jenseits der Alleghenies. Alle vier Bände der Eroberung des Westens sind gesetzt und vom Verlag freigegeben; die Auslieferung wird abgeschlossen.",
+            en: "Long before his presidency, Theodore Roosevelt wrote the history of the frontier beyond the Alleghenies. All four German volumes of The Winning of the West have been typeset and approved by the publisher; distribution is being completed."
           },
           books: [],
           upcoming: [
@@ -372,45 +371,45 @@ module.exports = {
               cover: "cover-wotw-1",
               originalTitle: "The Winning of the West, Vol. I, 1889",
               title: { de: "Die Eroberung des Westens · Band I", en: "The Winning of the West · Vol. I (German)" },
-              status: { de: "Erscheint im September 2026", en: "September 2026" }
+              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
             },
             {
               cover: "cover-wotw-2",
               originalTitle: "The Winning of the West, Vol. II, 1889",
               title: { de: "Die Eroberung des Westens · Band II", en: "The Winning of the West · Vol. II (German)" },
-              status: { de: "In Vorbereitung", en: "In preparation" }
+              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
             },
             {
               cover: "cover-wotw-3",
               originalTitle: "The Winning of the West, Vol. III, 1894",
               title: { de: "Die Eroberung des Westens · Band III", en: "The Winning of the West · Vol. III (German)" },
-              status: { de: "Erscheint im September 2026", en: "September 2026" }
+              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
             },
             {
               cover: "cover-wotw-4",
               originalTitle: "The Winning of the West, Vol. IV, 1896",
               title: { de: "Die Eroberung des Westens · Band IV", en: "The Winning of the West · Vol. IV (German)" },
-              status: { de: "In Vorbereitung", en: "In preparation" }
+              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
             }
           ]
         },
         {
-          // Francis Parkman: Saeule ANTHRAZIT (Verleger 2026-09-09). Deutscher Titel offen -
-          // deshalb Textplatte mit dem Originaltitel. landingUrl in beiden Sprachen deutsch.
+          // Francis Parkman: Saeule ANTHRAZIT. Deutscher Titel, Untertitel, Umfang und
+          // Manifestationen sind entschieden; die Endabnahme steht noch aus.
           name: "Francis Parkman",
           slug: "francis-parkman",
           landingUrl: { de: "/autoren/francis-parkman/", en: "/autoren/francis-parkman/" },
           bio: {
-            de: "Francis Parkman ritt 1846 mit zweiundzwanzig Jahren den Oregon Trail hinauf und wurde später der große Historiker des Ringens um Nordamerika. Sein Prärie-Bericht erscheint in der Reihe Anthrazit.",
-            en: "In 1846, aged twenty-two, Francis Parkman rode up the Oregon Trail; he became the great historian of the struggle for North America. His prairie narrative appears in the Anthracite series."
+            de: "Francis Parkman ritt 1846 mit zweiundzwanzig Jahren den Oregon Trail hinauf und schrieb später die Geschichte des Ringens um Nordamerika. Der deutsche Text seines Prärieberichts steht; die Endabnahme steht noch aus.",
+            en: "In 1846, aged twenty-two, Francis Parkman rode up the Oregon Trail and later wrote the history of the struggle for North America. The German text of his prairie narrative is complete; final approval is still pending."
           },
           books: [],
           upcoming: [
             {
-              plate: { de: "The Oregon<br>Trail", en: "The Oregon<br>Trail" },
+              plate: { de: "Der Oregon<br>Trail", en: "Der Oregon<br>Trail" },
               originalTitle: "The California and Oregon Trail, New York 1849",
-              title: { de: "The California and Oregon Trail", en: "The California and Oregon Trail" },
-              status: { de: "In Vorbereitung", en: "In preparation" }
+              title: { de: "Der Oregon Trail", en: "Der Oregon Trail (German edition)" },
+              status: { de: "In Herstellung · deutsche Fassung abgeschlossen", en: "In production · German text complete" }
             }
           ]
         }
