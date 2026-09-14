@@ -825,6 +825,37 @@ module.exports = {
               }
             }
           ]
+        },
+        {
+          // Johanna Spyris Heidi (JSP_001) ist als E-Book, Taschenbuch und Hardcover bei KDP eingereicht.
+          // Bestelllinks werden erst nach der Freischaltung ergänzt.
+          name: "Johanna Spyri",
+          slug: "johanna-spyri",
+          landingUrl: { de: "/autoren/johanna-spyri/", en: "/autoren/johanna-spyri/" },
+          bio: {
+            de: "Johanna Spyri schuf mit Heidi eine der großen Erzählungen der Weltliteratur. Die AETERNUS-Ausgabe vereint beide Teile von 1880 und 1881 ungekürzt in einem Band.",
+            en: "Johanna Spyri created one of world literature's enduring stories with Heidi. The AETERNUS edition brings together both parts from 1880 and 1881, complete in one volume."
+          },
+          books: [
+            {
+              cover: "cover-heidi-spyri",
+              isbn: "978-3-67605-036-4",
+              isbns: {
+                ebook: "978-3-67605-035-7",
+                paperback: "978-3-67605-036-4",
+                hardcover: "978-3-67605-037-1"
+              },
+              pages: 296,
+              pricesEur: { ebook: "9,99", paperback: "16,99", hardcover: "24,99" },
+              originalTitle: "Heidis Lehr- und Wanderjahre, 1880 · Heidi kann brauchen, was es gelernt hat, 1881",
+              title: { de: "Heidi", en: "Heidi" },
+              desc: {
+                de: "Beide Originalbände ungekürzt in einer Gesamtausgabe, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn neuen Bildtafeln und editorischem Apparat.",
+                en: "Both original volumes complete in one edition, with gently modernised spelling, a frontispiece, seventeen new full-page plates, and editorial apparatus."
+              },
+              status: { de: "Bei KDP eingereicht", en: "Submitted to KDP" }
+            }
+          ]
         }
       ]
     },

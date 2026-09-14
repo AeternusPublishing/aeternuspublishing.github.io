@@ -1265,7 +1265,7 @@ module.exports.push({
     ["Reihe", "Bernsteinlinie · Säule V"],
     ["Textgrundlage", "Erstausgaben Gotha 1880 und 1881"],
     ["Ausgabe", "296 Seiten · Frontispiz und 17 Tafeln · Hardcover, Taschenbuch und E-Book"],
-    ["Stand", "Vom Verlag freigegeben · KDP-Einreichung wird vorbereitet"]
+    ["Stand", "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"]
   ],
   "worksKicker": "Im Programm",
   "worksTitle": "Heidi",
@@ -1281,7 +1281,7 @@ module.exports.push({
         "metadata": "AETERNUS Verlag · 296 Seiten · Hardcover, Taschenbuch und E-Book",
         "summary": "Von der rauen Ankunft auf der Alm über das Frankfurter Heimweh bis zu Klaras Weg zurück ins Leben: Johanna Spyris zweibändiges Werk vollständig in einem Band.",
         "sample": "Nach den Erstausgaben von 1880 und 1881, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn eigens geschaffenen Bildtafeln und editorischem Apparat. E-Book 9,99 € · Taschenbuch 16,99 € · Hardcover 24,99 €.",
-        "status": "Vom Verlag freigegeben · KDP-Einreichung wird vorbereitet"
+        "status": "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"
       }
     }
   ]
