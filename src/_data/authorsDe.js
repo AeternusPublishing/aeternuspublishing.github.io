@@ -1207,3 +1207,82 @@ module.exports.push({
     }
   ]
 });
+
+// Johanna Spyri: QR landing page for the publisher-approved Heidi edition.
+// The first deployment intentionally states only publisher approval. KDP and
+// purchase-link status are advanced after the actual submission is verified.
+module.exports.push({
+  "slug": "johanna-spyri",
+  "name": "Johanna Spyri",
+  "monogram": "JS",
+  "dates": "1827–1901",
+  "seriesClass": "series-amber",
+  "preview": true,
+  "previewBanner": "Verlagsfreigegeben · KDP-Einreichung wird vorbereitet",
+  "sampleLabel": "Zur Ausgabe",
+  "portrait": {
+    "file": "portrait-spyri",
+    "alt": "Johanna Spyri, historische Fotografie um 1890",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1827-06-12",
+    "deathDate": "1901-07-07",
+    "description": "Schweizer Schriftstellerin und Autorin von Heidi."
+  },
+  "eyebrow": "Bernstein · Johanna Spyri",
+  "tagline": "Die Heimat in den Bergen, das Heimweh in der Stadt und die Kraft menschlicher Bindung.",
+  "intro": "Johanna Spyri schuf mit Heidi eine der großen Erzählungen der Weltliteratur. Die AETERNUS-Ausgabe vereint beide Teile von 1880 und 1881 ungekürzt in einem Band.",
+  "metaDescription": "Johanna Spyri bei AETERNUS: Heidi als ungekürzte Gesamtausgabe beider Teile, mit Frontispiz, siebzehn neuen Bildtafeln und editorischem Apparat.",
+  "ogDescription": "Heidi als ungekürzte Gesamtausgabe beider Teile in der Bernstein-Reihe des AETERNUS Verlags.",
+  "bioKicker": "Autorin & Werk",
+  "bioTitle": "Johanna Spyri<br>1827–1901",
+  "bioLede": "Aus den Schweizer Voralpen und der Erfahrung städtischer Enge entstand ein Werk über Heimat, Verlust, Heilung und tätige Nächstenliebe.",
+  "blocks": [
+    {
+      "h": "Leben & Herkunft",
+      "p": [
+        "Johanna Louise Heusser wurde am 12. Juni 1827 im schweizerischen Hirzel am Zürichsee geboren. Als Tochter eines Landarztes und einer pietistisch geprägten Dichterin wuchs sie mit genauer Kenntnis der bäuerlichen Welt der Voralpen auf.",
+        "Nach der Heirat mit dem Zürcher Stadtschreiber Johann Bernhard Spyri lebte sie in Zürich. Die Spannung zwischen Bergwelt und Stadt, Geborgenheit und seelischer Enge prägte später die dramatische Bewegung von <i>Heidi</i>."
+      ]
+    },
+    {
+      "h": "Heidi",
+      "p": [
+        "1880 erschien <i>Heidis Lehr- und Wanderjahre</i>, 1881 folgte <i>Heidi kann brauchen, was es gelernt hat</i>. Erst gemeinsam schließen beide Bände den Bogen von der Trennung über die Heimkehr bis zur Weitergabe des Empfangenen.",
+        "AETERNUS legt beide Teile ungekürzt nach den Erstausgaben vor. Rechtschreibung und Satzführung sind behutsam modernisiert; Schweizer Sprachkolorit, religiöse Ernsthaftigkeit und der Wortlaut des Originals bleiben erhalten."
+      ]
+    },
+    {
+      "h": "Werk & Nachleben",
+      "p": [
+        "Spyri begann erst mit über vierzig Jahren zu veröffentlichen. Ihr Werk umfasst mehr als dreißig Bände; <i>Heidi</i> machte sie weltweit bekannt.",
+        "Sie mied das Rampenlicht bis an ihr Lebensende und starb am 7. Juli 1901 in Zürich."
+      ]
+    }
+  ],
+  "facts": [
+    ["Reihe", "Bernsteinlinie · Säule V"],
+    ["Textgrundlage", "Erstausgaben Gotha 1880 und 1881"],
+    ["Ausgabe", "296 Seiten · Frontispiz und 17 Tafeln · Hardcover, Taschenbuch und E-Book"],
+    ["Stand", "Vom Verlag freigegeben · KDP-Einreichung wird vorbereitet"]
+  ],
+  "worksKicker": "Im Programm",
+  "worksTitle": "Heidi",
+  "worksIntro": "Beide Teile in einem Band: ungekürzt, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn ganzseitigen Bildtafeln, Vorwort, Nachwort, Autorenporträt, Editionsnotiz und Glossar.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-heidi-spyri" },
+      "meta": "Gesamtausgabe · 1880/1881 · 296 Seiten",
+      "title": "Heidi",
+      "subtitle": "Heidis Lehr- und Wanderjahre · Heidi kann brauchen, was es gelernt hat",
+      "modal": {
+        "metadata": "AETERNUS Verlag · 296 Seiten · Hardcover, Taschenbuch und E-Book",
+        "summary": "Von der rauen Ankunft auf der Alm über das Frankfurter Heimweh bis zu Klaras Weg zurück ins Leben: Johanna Spyris zweibändiges Werk vollständig in einem Band.",
+        "sample": "Nach den Erstausgaben von 1880 und 1881, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn eigens geschaffenen Bildtafeln und editorischem Apparat. E-Book 9,99 € · Taschenbuch 16,99 € · Hardcover 24,99 €.",
+        "status": "Vom Verlag freigegeben · KDP-Einreichung wird vorbereitet"
+      }
+    }
+  ]
+});
