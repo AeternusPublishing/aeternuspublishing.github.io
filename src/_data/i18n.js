@@ -394,8 +394,8 @@ module.exports = {
           ]
         },
         {
-          // Francis Parkman: Saeule ANTHRAZIT. Endabnahme durch den Verleger 2026-09-13; solange
-          // keine Produktseite gemessen live ist, bleibt der Band als upcoming ohne Kaufweg sichtbar.
+          // Francis Parkman: Saeule ANTHRAZIT. Deutsche Ausgabe am 2026-09-14 bei KDP eingereicht;
+          // Kaufwege werden erst nach gemessener Freischaltung der Produktseiten ergänzt.
           name: "Francis Parkman",
           slug: "francis-parkman",
           landingUrl: { de: "/autoren/francis-parkman/", en: "/autoren/francis-parkman/" },
@@ -403,15 +403,27 @@ module.exports = {
             de: "Francis Parkman ritt 1846 mit zweiundzwanzig Jahren den Oregon Trail hinauf und schrieb später die Geschichte des Ringens um Nordamerika. Die deutsche Ausgabe seines Prärieberichts ist vom Verlag abgenommen und geht in die Auslieferung.",
             en: "In 1846, aged twenty-two, Francis Parkman rode up the Oregon Trail and later wrote the history of the struggle for North America. The German edition of his prairie narrative has been approved by the publisher and is going into distribution."
           },
-          books: [],
-          upcoming: [
+          books: [
             {
               cover: "cover-der-oregon-trail",
+              isbn: "978-3-67605-024-1",
+              isbns: {
+                ebook: "978-3-67605-023-4",
+                paperback: "978-3-67605-024-1",
+                hardcover: "978-3-67605-025-8"
+              },
+              pages: 528,
+              pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "27,99" },
               originalTitle: "The California and Oregon Trail, New York 1849",
               title: { de: "Der Oregon Trail", en: "Der Oregon Trail (German edition)" },
-              status: { de: "Vom Verlag abgenommen · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
+              desc: {
+                de: "Neue deutsche Übersetzung nach der Erstausgabe von 1849, mit vollständigem Mottobestand, 13 eigens geschaffenen Tafeln, Autorenporträt und editorischem Apparat.",
+                en: "A new German translation based on the 1849 first edition, with the complete set of chapter epigraphs, 13 newly created plates, an author portrait, and editorial apparatus."
+              },
+              status: { de: "Bei KDP eingereicht", en: "Submitted to KDP" }
             }
-          ]
+          ],
+          upcoming: []
         }
       ]
     },
