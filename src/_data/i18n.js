@@ -497,6 +497,27 @@ module.exports = {
               status: { de: "Bei KDP eingereicht", en: "Submitted to KDP" }
             }
           ]
+        },
+        {
+          name: "Banastre Tarleton",
+          slug: "banastre-tarleton",
+          landingUrl: { de: "/autoren/banastre-tarleton/", en: "/autoren/banastre-tarleton/" },
+          bio: {
+            de: "Banastre Tarleton führte die British Legion durch die Karolinas und Virginia. Sein 1787 veröffentlichter Bericht über den südlichen Feldzug erscheint bei AETERNUS erstmals vollständig auf Deutsch.",
+            en: "Banastre Tarleton led the British Legion through the Carolinas and Virginia. His 1787 account of the southern campaign is being published by AETERNUS in a complete German translation."
+          },
+          books: [
+            {
+              cover: "cover-tarleton",
+              title: { de: "Geschichte der Feldzüge von 1780 und 1781", en: "Geschichte der Feldzüge von 1780 und 1781" },
+              desc: {
+                de: "Vollständige deutsche Neuübersetzung der Londoner Ausgabe von 1787 – mit allen fünf Karten und Plänen sowie sämtlichen Dokumenten des Anhangs.",
+                en: "A complete German translation of the 1787 London edition, including all five maps and plans and every document in the appendix."
+              },
+              isbn: "978-3-912883-70-1 / 978-3-912883-71-8 / 978-3-912883-72-5",
+              status: { de: "Veröffentlichung in Vorbereitung", en: "Publication in preparation" }
+            }
+          ]
         }
       ]
     },

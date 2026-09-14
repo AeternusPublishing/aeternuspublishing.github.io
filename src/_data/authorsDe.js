@@ -1208,6 +1208,84 @@ module.exports.push({
   ]
 });
 
+module.exports.push({
+  "slug": "banastre-tarleton",
+  "name": "Banastre Tarleton",
+  "monogram": "BT",
+  "dates": "1754–1833",
+  "seriesClass": "",
+  "preview": true,
+  "previewStatus": "Vollständige Neuübersetzung · Veröffentlichung in Vorbereitung",
+  "sampleLabel": "Zur Ausgabe",
+  "portrait": {
+    "file": "portrait-tarleton",
+    "alt": "Banastre Tarleton nach dem Gemälde von Joshua Reynolds, 1782",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1754-08-21",
+    "deathDate": "1833-01-15",
+    "description": "Britischer Kavallerieoffizier, Politiker und Verfasser eines Augenzeugenberichts über den südlichen Feldzug im Amerikanischen Unabhängigkeitskrieg."
+  },
+  "eyebrow": "Grüne Reihe · Militärgeschichte",
+  "tagline": "Der südliche Feldzug – berichtet von seinem umstrittensten Reiterführer.",
+  "intro": "Tarletons Bericht verbindet Gefechtsaufstellungen, Eilmärsche und militärische Korrespondenz mit der offensiven Selbstbehauptung eines Truppenführers nach einem verlorenen Krieg.",
+  "metaDescription": "Banastre Tarleton bei AETERNUS: Geschichte der Feldzüge von 1780 und 1781 in vollständiger deutscher Neuübersetzung, mit allen Karten, Plänen und Dokumenten der Ausgabe von 1787.",
+  "ogDescription": "Banastre Tarletons Geschichte der Feldzüge von 1780 und 1781 – vollständig auf Deutsch in der Grünen Reihe.",
+  "bioKicker": "Autor und Zeitzeuge",
+  "bioTitle": "Reiterführer,<br>Politiker,<br>Chronist",
+  "bioLede": "Banastre Tarleton schrieb aus der Perspektive des britischen Offiziers, der im Süden der amerikanischen Kolonien zugleich gefürchtet, bewundert und heftig angefeindet wurde.",
+  "blocks": [
+    {
+      "h": "Der Krieg im Süden",
+      "p": [
+        "Als Kommandeur der British Legion führte Tarleton eine hochmobile Truppe aus loyalistischer Kavallerie und leichter Infanterie durch die Karolinas und Virginia. Sein Name wurde mit der Härte dieses Kriegsschauplatzes verbunden.",
+        "Der Bericht verfolgt den Feldzug von 1780 und 1781 aus britischer Sicht und reicht von Charleston und Camden über Cowpens und Guilford Court House bis in die Schlussphase vor Yorktown."
+      ]
+    },
+    {
+      "h": "Ein Bericht als Verteidigungsschrift",
+      "p": [
+        "Tarleton veröffentlichte das Werk 1787 in London. Es ist weder spätes Bekenntnis noch distanzierte Geschichtsschreibung, sondern eine präzise und parteiliche Rechtfertigung des eigenen Handelns.",
+        "Besondere Schärfe erhält das Buch durch Tarletons Auseinandersetzung mit Lord Cornwallis. Die im Anhang abgedruckten Briefe, Befehle und Berichte machen den Band zugleich zu einer umfangreichen Quellensammlung."
+      ]
+    },
+    {
+      "h": "Die AETERNUS-Ausgabe",
+      "p": [
+        "Die deutsche Ausgabe folgt vollständig der Londoner Erstausgabe von 1787. Sie enthält alle fünf Karten und Pläne, die Anmerkungen des Verfassers sowie sämtliche von Tarleton abgedruckten Schriftstücke.",
+        "Autorenporträt, Verlagsvorwort, Nachwort und Editionsbericht ordnen Werk, Überlieferung und historische Perspektive ein."
+      ]
+    },
+    {
+      "h": "Bild und Quelle",
+      "p": [
+        "Autorenbild und Umschlagmotiv: Sir Joshua Reynolds, Banastre Tarleton, 1782, National Gallery, London.",
+        "Textgrundlage: <i>A History of the Campaigns of 1780 and 1781, in the Southern Provinces of North America</i>, London 1787."
+      ]
+    }
+  ],
+  "worksKicker": "Grüne Reihe",
+  "worksTitle": "Geschichte der Feldzüge von 1780 und 1781",
+  "worksIntro": "Vollständige deutsche Neuübersetzung mit allen Karten, Plänen und Dokumenten der Londoner Erstausgabe. Die Ausgabe wird für KDP vorbereitet.",
+  "gridClass": "count-1",
+  "books": [
+    {
+      "title": "Geschichte der Feldzüge von 1780 und 1781",
+      "subtitle": "in den südlichen Provinzen Nordamerikas",
+      "meta": "Grüne Reihe · 524 Seiten · In Vorbereitung",
+      "cover": {
+        "img": "cover-tarleton"
+      },
+      "modal": {
+        "metadata": "Vollständige Neuübersetzung · Veröffentlichung in Vorbereitung",
+        "summary": "Im Pulverdampf der Karolinas: das Protokoll eines unerbittlichen Feldzugs. Tarletons Bericht dokumentiert Gefechte, Eilmärsche und Befehle – ohne Schonung des Gegners und ohne Schonung des eigenen Oberbefehlshabers Lord Cornwallis.",
+        "sample": "E-Book ISBN 978-3-912883-72-5 · Paperback ISBN 978-3-912883-70-1 · Hardcover ISBN 978-3-912883-71-8. Die Freischaltung bei Amazon steht noch aus."
+      }
+    }
+  ]
+});
+
 // Johanna Spyri: QR landing page for the publisher-approved Heidi edition.
 // The first deployment intentionally states only publisher approval. KDP and
 // purchase-link status are advanced after the actual submission is verified.
