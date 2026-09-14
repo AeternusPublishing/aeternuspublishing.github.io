@@ -363,3 +363,91 @@ module.exports = [
     ]
   }
 ];
+
+module.exports.push({
+  "slug": "francis-parkman",
+  "name": "Francis Parkman",
+  "brand": "AETERNUS",
+  "monogram": "FP",
+  "dates": "1823–1893",
+  "seriesClass": "series-anthracite",
+  "preview": false,
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-parkman",
+    "alt": "Historical portrait of Francis Parkman",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1823-09-16",
+    "deathDate": "1893-11-08",
+    "description": "American historian and author of The Oregon Trail."
+  },
+  "eyebrow": "Anthracite · The American frontier",
+  "tagline": "The West before it became a legend.",
+  "intro": "In 1846, aged twenty-two, Francis Parkman rode west from Missouri, followed the Platte towards Fort Laramie, and spent weeks in an Oglala camp. The journey became his first book.",
+  "metaDescription": "Francis Parkman’s The Oregon Trail: the English text of the 1849 first edition, with 13 newly created plates. AETERNUS Anthracite Series.",
+  "bioKicker": "Author & context",
+  "bioTitle": "First the journey,<br>then the history",
+  "bioLede": "Parkman went to see the country for himself: its trails, trading posts, hunting grounds, and camps.",
+  "blocks": [
+    {
+      "h": "A historian in the making",
+      "p": [
+        "Born in Boston in 1823, Parkman studied at Harvard and began planning a history of the struggle for North America. His later work would follow the contest between France and England across the continent."
+      ]
+    },
+    {
+      "h": "The journey of 1846",
+      "p": [
+        "With his cousin Quincy Adams Shaw, Parkman travelled from St. Louis into the Great Plains. Emigrant wagons, buffalo hunts, Fort Laramie, and life among the Oglala form the substance of his account.",
+        "The return journey took him by Bent’s Fort and the Arkansas. He wrote as a young traveller, close to the encounters and hardships he described."
+      ]
+    },
+    {
+      "h": "The book and its text",
+      "p": [
+        "The narrative appeared in the <i>Knickerbocker Magazine</i> before its publication as <i>The California and Oregon Trail</i> in 1849. Parkman later became known for <i>The Conspiracy of Pontiac</i> and <i>France and England in North America</i>.",
+        "This AETERNUS edition returns to the English text of the first edition, with its chapter epigraphs and concluding note on Henry Chatillon. Thirteen newly created plates accompany the narrative."
+      ]
+    }
+  ],
+  "facts": [
+    [
+      "Series",
+      "Anthracite"
+    ],
+    [
+      "Text",
+      "English · first edition, 1849"
+    ],
+    [
+      "Print edition",
+      "478 pages · 13 plates"
+    ],
+    [
+      "Formats",
+      "Hardcover · Paperback · Kindle"
+    ]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "The Oregon Trail",
+  "worksIntro": "An illustrated English edition of <i>Sketches of Prairie and Rocky Mountain Life</i>. Publication is being prepared for hardcover, paperback, and Kindle. Ordering links will appear once Amazon makes the editions available.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": {
+        "img": "cover-oregon-trail-en"
+      },
+      "meta": "Travel narrative · 1849",
+      "title": "The Oregon Trail (Illustrated)",
+      "subtitle": "Sketches of Prairie and Rocky Mountain Life",
+      "modal": {
+        "metadata": "AETERNUS · Anthracite Series · 478 print pages",
+        "summary": "The Great Plains in 1846: emigrant trains, buffalo hunts, trading posts, and weeks in an Oglala camp. Parkman’s first book records a journey into a West still being travelled and contested.",
+        "sample": "The English text of the 1849 first edition, with its chapter epigraphs and concluding note on Henry Chatillon, accompanied by 13 newly created plates. Paperback ISBN 978-3-67605-030-2; hardcover ISBN 978-3-67605-031-9; e-book ISBN 978-3-67605-029-6.",
+        "status": "Publication in progress · ordering links to follow"
+      }
+    }
+  ]
+});
