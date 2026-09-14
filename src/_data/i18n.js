@@ -398,7 +398,7 @@ module.exports = {
           // Kaufwege werden erst nach gemessener Freischaltung der Produktseiten ergänzt.
           name: "Francis Parkman",
           slug: "francis-parkman",
-          landingUrl: { de: "/autoren/francis-parkman/", en: "/autoren/francis-parkman/" },
+          landingUrl: { de: "/autoren/francis-parkman/", en: "/en/authors/francis-parkman/" },
           bio: {
             de: "Francis Parkman ritt 1846 mit zweiundzwanzig Jahren den Oregon Trail hinauf und schrieb später die Geschichte des Ringens um Nordamerika. Die deutsche Ausgabe seines Prärieberichts ist vom Verlag abgenommen und geht in die Auslieferung.",
             en: "In 1846, aged twenty-two, Francis Parkman rode up the Oregon Trail and later wrote the history of the struggle for North America. The German edition of his prairie narrative has been approved by the publisher and is going into distribution."
