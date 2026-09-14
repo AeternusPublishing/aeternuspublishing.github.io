@@ -34,8 +34,8 @@ module.exports = {
       "metrics.info2.2nd": { de: "Erster Programmschwerpunkt", en: "First editorial line" },
         "metrics.info3.1st": { de: "ÜBERSETZUNG", en: "TRANSLATION" },
           "metrics.info3.2nd": { de: "Kern unserer Arbeit", en: "Core of our work " },
-          "metrics.info4.1st": { de: "6 REIHEN", en: "6 SERIES" },
-          "metrics.info4.2nd": { de: "Sechs thematisch abgegrenzte Reihen", en: "Clearly ordered programme pillars " },
+          "metrics.info4.1st": { de: "7 REIHEN", en: "7 SERIES" },
+          "metrics.info4.2nd": { de: "Sieben thematisch abgegrenzte Reihen", en: "Clearly ordered programme pillars " },
           "metrics.info5.1st": { de: "DE / EN ", en: "DE / EN" },
           "metrics.info5.2nd": { de: "Deutsche Ausgaben; englische Verlagsinformationen ergänzend", en: "German first, English accompanying  " },
 
@@ -278,9 +278,9 @@ module.exports = {
 
   // --- SERIES SECTION ---
   "series.eyebrow": { de: "✦ REIHEN", en: "✦ SERIES" },
-  "series.title": { de: "Sechs Reihen des Verlagsprogramms", en: "Six series, one measure." },
+  "series.title": { de: "Sieben Reihen des Verlagsprogramms", en: "Seven series, one measure." },
   "series.intro": {
-    de: "Das Verlagsprogramm ist in sechs thematisch abgegrenzte Reihen gegliedert. Jede Reihe folgt einem klar abgegrenzten thematischen Schwerpunkt und einer eigenen gestalterischen Farbe.",
+    de: "Das Verlagsprogramm ist in sieben thematisch abgegrenzte Reihen gegliedert. Jede Reihe folgt einem klar abgegrenzten thematischen Schwerpunkt und einer eigenen gestalterischen Farbe.",
     en: "AETERNUS VERLAG does not order its publications according to passing market moods, but according to enduring fields of substance. Each series follows a clear intellectual focus and a distinct visual colour."
   },
   "series.button": { de: "Reihen entdecken", en: "Explore the Series" },
@@ -957,6 +957,38 @@ module.exports = {
         }
       },
       authors: []
+    },
+    {
+      num: "VII",
+      slug: "purpur",
+      colorName: { de: "PURPUR", en: "PURPLE" },
+      colorHex: "#591c3b",
+      colorRgb: "89, 28, 59",
+      label: {
+        de: "Leidenschaften, Gesellschaft und romantische Tragödien",
+        en: "Human Passions, Society, and Romantic Tragedies"
+      },
+      desc: {
+        de: "Klassische Belletristik, großangelegte Romane, Gesellschaftsdramen und Liebesgeschichten — Literatur über Gefühl, Stand, Schicksal und die Ordnungen, in denen Menschen einander suchen und verfehlen.",
+        en: "Classic fiction, sweeping novels, social dramas, and love stories — literature of feeling, rank, fate, and the orders within which people find and lose one another."
+      },
+      mood: {
+        file: null,
+        focal: "50% 50%",
+        alt: {
+          de: "Abstrakter Hintergrund in tiefem Purpur und Burgunderrot",
+          en: "Abstract background in deep purple and burgundy"
+        },
+        credit: {
+          public: false,
+          artist: "AETERNUS Verlag",
+          title: { de: "Purpur", en: "Purple" },
+          year: "2026",
+          museum: { de: "Reihengestaltung", en: "Series design" },
+          source: "AETERNUS"
+        }
+      },
+      authors: []
     }
   ],
 
@@ -1005,7 +1037,7 @@ module.exports = {
     de: "AETERNUS VERLAG arbeitet nach einfachen, strengen Grundsätzen. Ein Werk wird weder ideologisch umgedeutet noch nachträglich an gegenwärtige Wertvorstellungen angepasst. Es wird geprüft, geordnet, übersetzt, sprachlich erschlossen und mit Achtung vor seiner Herkunft neu vorgelegt.",
     en: "AETERNUS VERLAG works according to simple and rigorous principles. A work is not appropriated, ideologically rewritten, or sacrificed to the taste of the moment. It is examined, ordered, translated, linguistically recovered, and presented anew with respect for its origin."
   },
-  "pillars.closing": { de: "Sechs Reihen für Literatur, Geschichte, Natur, Staat, Wirtschaft und den Norden.", en: "Six series. One measure. Books against oblivion." },
+  "pillars.closing": { de: "Sieben Reihen für Literatur, Geschichte, Natur, Staat, Wirtschaft, den Norden und die großen menschlichen Leidenschaften.", en: "Seven series. One measure. Books against oblivion." },
 
   // Matrix array for your dynamic Pillars generation loop
   "pillarsItems": [
@@ -1100,6 +1132,7 @@ module.exports = {
   "footer.linkRed": { de: "Rot", en: "Red" },
   "footer.linkBlue": { de: "Blau", en: "Blue" },
   "footer.linkAmber": { de: "Bernstein", en: "Amber" },
+  "footer.linkPurple": { de: "Purpur", en: "Purple" },
 
   // Links for House
   "footer.linkAbout": { de: "Über uns", en: "About" },

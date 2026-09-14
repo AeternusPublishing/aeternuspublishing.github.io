@@ -20,12 +20,14 @@ eleventyComputed:
 <!-- REIHEN-EINZELSEITE — vollflaechiges Stimmungsbild + vollstaendiger Autorenbaum
      dieser einen Reihe. Ersetzt die bisherige Kartenform auf /reihen/, die jetzt
      nur noch als schlanke Uebersicht dient (siehe reihen.njk). -->
-<section class="series-hero" style="--series-accent: {{ s.colorHex }}; --series-accent-rgb: {{ s.colorRgb }};">
+<section class="series-hero" style="--series-accent: {{ s.colorHex }}; --series-accent-rgb: {{ s.colorRgb }};{% if not s.mood.file %} background: radial-gradient(circle at 28% 24%, rgba({{ s.colorRgb }}, .78), transparent 42%), linear-gradient(135deg, #160c12 0%, {{ s.colorHex }} 52%, #211018 100%);{% endif %}">
+  {% if s.mood.file %}
   <picture style="display:contents">
     <source type="image/avif" srcset="/assets/images/{{ s.mood.file }}.avif" />
     <source type="image/webp" srcset="/assets/images/{{ s.mood.file }}.webp" />
     <img class="series-hero-bg" src="/assets/images/{{ s.mood.file }}-fallback.jpg" alt="{{ s.mood.alt.de }}" style="object-position: {{ s.mood.focal }};{% if s.mood.opacity %} opacity: {{ s.mood.opacity }};{% endif %}" width="1920" height="1200" fetchpriority="high" decoding="async" />
   </picture>
+  {% endif %}
   <div class="series-hero-veil"></div>
   <div class="series-hero-vignette vignette"></div>
   <div class="series-hero-grain paper-grain"></div>
