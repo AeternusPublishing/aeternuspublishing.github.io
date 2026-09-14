@@ -171,17 +171,32 @@ module.exports = [
       },
       {
         "cover": {
-          "gen": "woodcraft",
-          "title": "Das Buch der<br>Waldläuferkunst"
+          "img": "cover-waldhandwerk-band-i"
         },
-        "meta": "Handbuch · Über 500 Zeichnungen · 1912",
-        "title": "Das Buch der Waldläuferkunst",
-        "subtitle": "Naturkunde, Lagerleben und Charakterbildung",
+        "meta": "Handbuch · Band I · 352 Seiten",
+        "title": "Das Buch des Waldhandwerks und der Indianerweisheit",
+        "subtitle": "Erster Band: Die Weisheit des Stammes",
         "modal": {
-          "metadata": "Handbuch · Über 500 Zeichnungen · 1912",
-          "summary": "Ein enzyklopädisches Handbuch zu Spurenlesen, Lagerbau, Orientierung, Naturkunde und gemeinschaftlicher Erziehung im Freien.",
+          "metadata": "352 Seiten · eBook 10,99 € · Taschenbuch 19,00 € · Hardcover 27,99 €",
+          "summary": "Band I erschließt Setons Naturphilosophie, Stammesordnung und Charakterbildung in der ersten vollständigen deutschen Ausgabe dieses Grundwerks von 1912.",
           "sample": "Woodcraft beginnt für Seton nicht beim Werkzeug, sondern bei Aufmerksamkeit: sehen lernen, bevor man handelt.",
-          "status": "In Vorbereitung"
+          "amazon": "https://www.amazon.de/s?k=9783676050098",
+          "status": "Bei KDP eingereicht · Veröffentlichung ausstehend"
+        }
+      },
+      {
+        "cover": {
+          "img": "cover-waldhandwerk-band-ii"
+        },
+        "meta": "Handbuch · Band II · 406 Seiten",
+        "title": "Das Buch des Waldhandwerks und der Indianerweisheit",
+        "subtitle": "Zweiter Band: Das Handwerk des Waldläufers",
+        "modal": {
+          "metadata": "406 Seiten · eBook 10,99 € · Taschenbuch 19,00 € · Hardcover 27,99 €",
+          "summary": "Band II führt von Feuer ohne Streichholz über Fährtenlesen, Botanik und Sternkunde bis zum Bau von Zufluchten und Holzkanus.",
+          "sample": "Jede Kunst beginnt mit genauer Beobachtung und wird durch Übung zu verlässlichem Können.",
+          "amazon": "https://www.amazon.de/s?k=9783676050128",
+          "status": "Bei KDP eingereicht · Veröffentlichung ausstehend"
         }
       }
     ]

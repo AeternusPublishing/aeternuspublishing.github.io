@@ -790,18 +790,53 @@ module.exports = {
                 de: "Vom verwaisten Bärenjungen zum Herrscher am Mount Tallac: Seton erzählt ein Tierleben zwischen Wildnis, Legende und Gefangenschaft.",
                 en: "From orphaned cub to ruler of Mount Tallac: Seton tells an animal life shaped by wilderness, legend, and captivity."
               }
+            },
+            {
+              cover: "cover-waldhandwerk-band-i",
+              band: "I",
+              isbn: "978-3-67605-009-8",
+              isbns: {
+                ebook: null,
+                paperback: "978-3-67605-009-8",
+                hardcover: "978-3-67605-010-4"
+              },
+              pages: 352,
+              pricesEur: { ebook: "10,99", paperback: "19,00", hardcover: "27,99" },
+              amazonUrl: "https://www.amazon.de/s?k=9783676050098",
+              originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
+              title: {
+                de: "Das Buch des Waldhandwerks und der Indianerweisheit · Band I",
+                en: "The Book of Woodcraft and Indian Lore · German Edition, Volume I"
+              },
+              desc: {
+                de: "Die Weisheit des Stammes: Setons Naturphilosophie, Stammesordnung und Charakterbildung in deutscher Erstübersetzung. Bei KDP eingereicht; Veröffentlichung ausstehend.",
+                en: "The Wisdom of the Tribe in the first German translation. Submitted to KDP; publication pending."
+              }
+            },
+            {
+              cover: "cover-waldhandwerk-band-ii",
+              band: "II",
+              isbn: "978-3-67605-012-8",
+              isbns: {
+                ebook: null,
+                paperback: "978-3-67605-012-8",
+                hardcover: "978-3-67605-013-5"
+              },
+              pages: 406,
+              pricesEur: { ebook: "10,99", paperback: "19,00", hardcover: "27,99" },
+              amazonUrl: "https://www.amazon.de/s?k=9783676050128",
+              originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
+              title: {
+                de: "Das Buch des Waldhandwerks und der Indianerweisheit · Band II",
+                en: "The Book of Woodcraft and Indian Lore · German Edition, Volume II"
+              },
+              desc: {
+                de: "Das Handwerk des Waldläufers: Feuer, Fährtenlesen, Naturkunde, Zufluchten und Kanubau. Bei KDP eingereicht; Veröffentlichung ausstehend.",
+                en: "The Woodcrafter's Practice: fire, tracking, natural history, shelters, and canoe building. Submitted to KDP; publication pending."
+              }
             }
           ],
-          // Angekuendigt, noch nicht lieferbar. Kein Cover-Motiv entschieden —
-          // deshalb eine Textplatte statt eines Bildes (plate).
-          upcoming: [
-            {
-              plate: { de: "Das Buch der<br>Waldläuferkunst", en: "The Book of<br>Woodcraft" },
-              originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
-              title: { de: "Das Buch der Waldläuferkunst", en: "The Book of Woodcraft" },
-              status: { de: "In Vorbereitung", en: "In preparation" }
-            }
-          ]
+          upcoming: []
         },
         {
           // Dritter Autor der Bernsteinlinie. König Salomos Schatzkammer ist seit 05.09.2026
