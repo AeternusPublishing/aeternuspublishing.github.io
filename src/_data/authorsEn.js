@@ -386,7 +386,7 @@ module.exports.push({
   "eyebrow": "Anthracite · The American frontier",
   "tagline": "The West before it became a legend.",
   "intro": "In 1846, aged twenty-two, Francis Parkman rode west from Missouri, followed the Platte towards Fort Laramie, and spent weeks in an Oglala camp. The journey became his first book.",
-  "metaDescription": "Francis Parkman’s The Oregon Trail: the English text of the 1849 first edition, with 13 newly created plates. AETERNUS Anthracite Series.",
+  "metaDescription": "The Oregon Trail by Francis Parkman: freshly typeset from the 1849 English text, with 13 illustrations created for this edition and a carefully composed print layout.",
   "bioKicker": "Author & context",
   "bioTitle": "First the journey,<br>then the history",
   "bioLede": "Parkman went to see the country for himself: its trails, trading posts, hunting grounds, and camps.",
@@ -432,7 +432,7 @@ module.exports.push({
   ],
   "worksKicker": "The AETERNUS edition",
   "worksTitle": "The Oregon Trail",
-  "worksIntro": "An illustrated English edition of <i>Sketches of Prairie and Rocky Mountain Life</i>. Publication is being prepared for hardcover, paperback, and Kindle. Ordering links will appear once Amazon makes the editions available.",
+  "worksIntro": "A classic given a carefully composed new form. Fresh typesetting brings clear, readable text to every page; balanced margins, chapter openings, and thoughtfully placed illustrations give the book a coherent rhythm. Thirteen plates were created specifically for this edition. The English text of 1849 retains its chapter epigraphs and concluding note on Henry Chatillon. Hardcover, paperback, and Kindle editions are in preparation; ordering links will follow when available.",
   "gridClass": "single-item",
   "books": [
     {
@@ -445,7 +445,7 @@ module.exports.push({
       "modal": {
         "metadata": "AETERNUS · Anthracite Series · 478 print pages",
         "summary": "The Great Plains in 1846: emigrant trains, buffalo hunts, trading posts, and weeks in an Oglala camp. Parkman’s first book records a journey into a West still being travelled and contested.",
-        "sample": "The English text of the 1849 first edition, with its chapter epigraphs and concluding note on Henry Chatillon, accompanied by 13 newly created plates. Paperback ISBN 978-3-67605-030-2; hardcover ISBN 978-3-67605-031-9; e-book ISBN 978-3-67605-029-6.",
+        "sample": "Freshly typeset throughout, with clear typography, balanced page proportions, and 13 illustrations created specifically for this edition. Text and plates have been arranged together across 478 print pages, with the layout checked for print. The English text follows the first edition of 1849, including its chapter epigraphs and concluding note on Henry Chatillon. Paperback ISBN 978-3-67605-030-2; hardcover ISBN 978-3-67605-031-9; e-book ISBN 978-3-67605-029-6.",
         "status": "Publication in progress · ordering links to follow"
       }
     }
