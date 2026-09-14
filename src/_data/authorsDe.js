@@ -909,8 +909,8 @@ module.exports = [
   {
     // Francis Parkman: Autorensphaere PARKMAN, Saeule ANTHRAZIT (Verleger 2026-09-09).
     // Endabnahme durch den Verleger 2026-09-13 (Innenteil 528 Seiten, 13 Tafeln und Autorenportraet);
-    // KDP-Uploadpaket bei Codex (Koordination 0641). Kaufweg haengt am Band (author-es.js): "amazon" erst
-    // eintragen, wenn die Produktseite gemessen live ist - Taschenbuch 367605024X, Hardcover 3676050258.
+    // Kindle, Taschenbuch und Hardcover wurden 2026-09-14 bei KDP eingereicht. Kaufweg haengt am Band
+    // (author-es.js): "amazon" erst eintragen, wenn die Produktseite gemessen live ist.
     "slug": "francis-parkman",
     "name": "Francis Parkman",
     "monogram": "FP",
@@ -931,7 +931,7 @@ module.exports = [
     "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
     "tagline": "Er ging in die Prärie, um zu sehen, worüber er schreiben wollte.",
     "intro": "Bostoner Patriziersohn und später der große Historiker des Ringens zwischen Frankreich und England um Nordamerika. 1846, mit zweiundzwanzig Jahren, zog er den Oregon Trail hinauf und lebte Wochen in einem Lager der Oglala.",
-    "metaDescription": "Francis Parkman bei AETERNUS: Der Oregon Trail in neuer deutscher Übersetzung nach der Erstausgabe von 1849, 528 Seiten, vom Verlag abgenommen und vor der Auslieferung.",
+    "metaDescription": "Francis Parkman bei AETERNUS: Der Oregon Trail in neuer deutscher Übersetzung nach der Erstausgabe von 1849, 528 Seiten, bei KDP eingereicht.",
     "ogDescription": "Die Prärie von 1846, gesehen von einem jungen Bostoner. Leben und Werk Francis Parkmans.",
     "bioKicker": "Autor & Kontext",
     "bioTitle": "Erst die Reise,<br>dann die Geschichte",
@@ -974,12 +974,12 @@ module.exports = [
       ],
       [
         "Stand",
-        "Vom Verlag abgenommen · Auslieferung in Vorbereitung"
+        "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"
       ]
     ],
     "worksKicker": "Im Programm",
     "worksTitle": "Der Oregon Trail",
-    "worksIntro": "Der Satz umfasst 528 Seiten mit 13 Tafeln und dem Autorenporträt. Die Ausgabe ist vom Verlag abgenommen; Hardcover, Taschenbuch und E-Book gehen in die Auslieferung. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
+    "worksIntro": "Der Satz umfasst 528 Seiten mit 13 Tafeln und dem Autorenporträt. Hardcover, Taschenbuch und E-Book sind bei KDP eingereicht; die Bestelllinks folgen nach der Freischaltung. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
     "gridClass": "single-item",
     "books": [
       {
@@ -993,7 +993,7 @@ module.exports = [
           "metadata": "AETERNUS Verlag · 528 Seiten · Hardcover, Taschenbuch und E-Book",
           "summary": "Sommer 1846: Zwei junge Bostoner reiten von Missouri aus in die Prärie, das Platte-Tal hinauf bis Fort Laramie, und leben Wochen in einem Lager der Oglala. Parkmans Bericht zeigt die Great Plains im Jahr der großen Auswanderung – Büffeljagd, Handelsposten, Trapper und Stämme, gesehen ohne spätere Verklärung.",
           "sample": "Die deutsche Ausgabe folgt der Erstausgabe von 1849, nicht dem verbreiteten Digitaltext: Parkmans eigene Schreibungen der Völker- und Ortsnamen, der vollständige Mottobestand und die Schlussanmerkung über Henry Chatillon bleiben erhalten.",
-          "status": "Vom Verlag abgenommen · Auslieferung in Vorbereitung · Hardcover, Taschenbuch und E-Book"
+          "status": "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"
         }
       }
     ]
