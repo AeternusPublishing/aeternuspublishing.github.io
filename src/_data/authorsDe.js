@@ -1379,3 +1379,82 @@ module.exports.push({
     }
   ]
 });
+
+// Rudyard Kipling: Autoren- und Werksseite für die vollständige deutsche
+// Dschungelbuch-Ausgabe. Druckdaten und ISBNs sind abgeschlossen; der
+// Lieferstatus bleibt bis zur tatsächlichen Freischaltung transparent.
+module.exports.push({
+  "slug": "rudyard-kipling",
+  "name": "Rudyard Kipling",
+  "monogram": "RK",
+  "dates": "1865–1936",
+  "seriesClass": "series-amber",
+  "preview": true,
+  "previewBanner": "Druckdaten abgeschlossen · Veröffentlichung in Vorbereitung",
+  "sampleLabel": "Zur Ausgabe",
+  "portrait": {
+    "file": "portrait-kipling",
+    "alt": "Rudyard Kipling, historisches Autorenporträt",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1865-12-30",
+    "deathDate": "1936-01-18",
+    "description": "Britischer Erzähler, Lyriker und Journalist, Autor der Dschungelbücher und Literaturnobelpreisträger von 1907."
+  },
+  "eyebrow": "Bernstein · Rudyard Kipling",
+  "tagline": "Das Auge des Reporters. Der Mythos der Wildnis.",
+  "intro": "Zwischen Bombay, Lahore, Allahabad und Vermont entwickelte Kipling jene Verbindung aus journalistischer Genauigkeit, rhythmischer Sprache und mythischer Naturerzählung, die seine Dschungelbücher bis heute prägt.",
+  "metaDescription": "Rudyard Kipling bei AETERNUS: Die Dschungelbücher von 1894 und 1895 als ungekürzte, neu übersetzte und großformatig illustrierte Gesamtausgabe.",
+  "ogDescription": "Rudyard Kipling und die Dschungelbücher: journalistische Präzision, Naturmythos und die Widersprüche des Empire.",
+  "bioKicker": "Autor & Kontext",
+  "bioTitle": "Das Auge des Reporters<br>und der Mythos der Wildnis",
+  "bioLede": "Kiplings Werk verbindet die Präzision des Zeitungsreporters mit einem musikalischen Gehör für Stimmen, Rituale und die unerbittlichen Rhythmen der Natur.",
+  "blocks": [
+    {
+      "h": "Bombay, Lahore, Allahabad",
+      "p": [
+        "Rudyard Kipling wurde 1865 in Bombay als Kind britischer Eltern geboren. Nach einer harten Erziehungszeit in England kehrte er 1882 als Siebzehnjähriger nach Nordindien zurück.",
+        "Als Lokalreporter der <i>Civil and Military Gazette</i> in Lahore und später für <i>The Pioneer</i> in Allahabad schärfte er seinen Blick für technische Einzelheiten, soziale Schichtungen und die vielen Stimmen des kolonialen Alltags."
+      ]
+    },
+    {
+      "h": "Naulakha und der erinnerte Dschungel",
+      "p": [
+        "Nach seiner Heirat mit Caroline Balestier lebte Kipling im ländlichen Vermont. In dem von ihm entworfenen Haus Naulakha schrieb er 1894 und 1895 die beiden Dschungelbücher.",
+        "Die Wälder Seonis entstanden aus räumlicher Distanz und verdichteter Erinnerung. Ihr Dschungel ist kein botanisches Abbild, sondern eine Welt von Hunger und Schutz, Zugehörigkeit und Ausstoßung, Gesetz und gefährlicher Freiheit."
+      ]
+    },
+    {
+      "h": "Preis und Schatten des Empire",
+      "p": [
+        "1907 erhielt Kipling als erster englischsprachiger Autor und damals jüngster Preisträger den Nobelpreis für Literatur. Gewürdigt wurden seine Beobachtungskraft, die Originalität seiner Vorstellung und die Kraft seiner Erzählkunst.",
+        "Sein Erbe bleibt mit dem viktorianischen Imperialismus verbunden. Die Ausgabe bewahrt diese historische Spannung: sprachliche Energie und Naturmythos stehen neben Hierarchie, Herrschaftsanspruch und den Widersprüchen des britischen Empire."
+      ]
+    }
+  ],
+  "facts": [
+    ["Reihe", "Bernsteinlinie · Säule V"],
+    ["Textgrundlage", "<i>The Jungle Book</i> (1894) und <i>The Second Jungle Book</i> (1895)"],
+    ["Ausgabe", "376 Seiten · Frontispiz, großformatige Bildtafeln und historisches Autorenporträt"],
+    ["ISBN", "Paperback 978-3-67605-043-2 · Hardcover 978-3-67605-044-9"]
+  ],
+  "worksKicker": "Im Programm",
+  "worksTitle": "Das Dschungelbuch",
+  "worksIntro": "Beide Dschungelbücher in einem lückenlosen Textkorpus: fünfzehn ungekürzte Erzählungen, sämtliche Gedichte und Gesänge, Kiplings Vorrede von 1894 sowie ein editorischer Apparat in neuer deutscher Übertragung.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-dschungelbuch-kipling" },
+      "meta": "Illustrierte Gesamtausgabe · 1894/1895 · 376 Seiten",
+      "title": "Das Dschungelbuch",
+      "subtitle": "Illustrierte Gesamtausgabe",
+      "modal": {
+        "metadata": "AETERNUS Verlag · 376 Seiten · Paperback und Hardcover",
+        "summary": "Mowgli wächst im Wolfsrudel heran; Kotick, Rikki-Tikki-Tavi, Toomai und Purun Bhagat bestehen ihre je eigene Prüfung um Leben, Zugehörigkeit und Schicksal.",
+        "sample": "Vollständig neu ins Deutsche übertragen: alle fünfzehn Erzählungen, Gedichte, Lieder und Gesänge sowie Kiplings Vorrede von 1894 und die abweichenden Passagen der amerikanischen Parallelausgabe.",
+        "status": "Druckdaten abgeschlossen · Bestelllinks folgen nach Freischaltung"
+      }
+    }
+  ]
+});
