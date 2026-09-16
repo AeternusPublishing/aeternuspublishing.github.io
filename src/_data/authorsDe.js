@@ -1080,7 +1080,7 @@ module.exports = [
       ]
     ],
     "worksKicker": "In Vorbereitung",
-    "worksTitle": "Die Annalen<br>in zwei Bänden",
+    "worksTitle": "Die Annalen in zwei Bänden",
     "worksIntro": "Die deutsche Neuübersetzung folgt dem erhaltenen Text vollständig: Band I umfasst die tiberische Epoche (Bücher I–VI), Band II die klaudisch-neronische Epoche (Bücher XI–XVI). Beide Bände erscheinen als Hardcover, mit Personen-, Orts- und Sachregister.",
     "gridClass": "single-row",
     "books": [
