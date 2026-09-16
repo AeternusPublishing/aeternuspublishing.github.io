@@ -1021,9 +1021,9 @@ module.exports = [
     "seriesClass": "series-red",
     "preview": true,
     "portrait": {
-      "file": "portrait-tacitus.jpg",
-      "alt": "Monogramm Tacitus, Bildnis folgt",
-      "modern": false
+      "file": "portrait-tacitus-umschlag",
+      "alt": "Tacitus im roten Senatorenmantel, Umschlagmotiv der Aeternus-Ausgabe der Annalen",
+      "modern": true
     },
     "schema": {
       "birthDate": "0056",
