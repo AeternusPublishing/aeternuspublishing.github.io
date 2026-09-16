@@ -16,10 +16,13 @@ eleventyExcludeFromCollections: true
     if (!params.has("utm_source")) params.set("utm_source", "book_qr");
     if (!params.has("utm_medium")) params.set("utm_medium", "print");
     if (!params.has("utm_campaign")) params.set("utm_campaign", "hall");
-    window.location.replace("/autoren/james-hall/?" + params.toString());
+    // Deutsche und englische Ausgabe drucken denselben Kurzweg.
+    const lang = ((navigator.languages && navigator.languages[0]) || navigator.language || "de").toLowerCase();
+    const target = lang.startsWith("de") ? "/autoren/james-hall/" : "/en/authors/james-hall/";
+    window.location.replace(target + "?" + params.toString());
   </script>
 </head>
 <body>
-  <p><a href="/autoren/james-hall/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=hall">Zur Autorenseite von James Hall</a></p>
+  <p><a href="/autoren/james-hall/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=hall">Zur Autorenseite von James Hall</a> · <a href="/en/authors/james-hall/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=hall" hreflang="en">James Hall in English</a></p>
 </body>
 </html>
