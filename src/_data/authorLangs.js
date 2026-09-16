@@ -32,6 +32,7 @@ const AVAILABLE = {
   "robert-baden-powell": ["de", "en"],
   // Nur Deutsch: die englische, spanische und polnische Fassung existiert noch nicht.
   "henry-rider-haggard": ["de"],
+  "tacitus": ["de"],
   "george-washington-sears": ["de", "en"]
 };
 
