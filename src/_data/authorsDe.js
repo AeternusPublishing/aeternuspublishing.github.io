@@ -1559,3 +1559,89 @@ module.exports.push({
     }
   ]
 });
+
+// James Hall: Autorenseite und Ziel des QR-Kurzwegs /qr/hall/ aus der
+// Schlussseite von „Harpes Haupt“ (JH_001). Texte nach den verlagsfreigegebenen
+// Paratexten REDIGIERT_V2; Bestelllinks folgen nach der KDP-Freischaltung.
+module.exports.push({
+  "slug": "james-hall",
+  "name": "James Hall",
+  "monogram": "JH",
+  "dates": "1793–1868",
+  "seriesClass": "series-anthracite",
+  "preview": true,
+  "previewBanner": "Verlagsfreigegeben · KDP-Einreichung wird vorbereitet",
+  "sampleLabel": "Zur Ausgabe",
+  "portrait": {
+    "file": "portrait-hall",
+    "alt": "James Hall, Stich von J. C. Buttre nach einem Gemälde von J. O. Eaton",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1793-08-19",
+    "deathDate": "1868-07-05",
+    "description": "Amerikanischer Offizier, Richter, Herausgeber und Erzähler, Chronist der Trans-Appalachen-Frontier."
+  },
+  "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
+  "tagline": "Offizier, Richter, Chronist der Frontier.",
+  "intro": "Auf seinen Amtsritten durch Illinois sammelte James Hall die Überlieferungen der Jäger, Späher und Auswanderer – und schrieb aus ihnen die frühesten Legenden des amerikanischen Westens.",
+  "metaDescription": "James Hall bei AETERNUS: Harpes Haupt, die Legende aus Kentucky von 1833, in neuer deutscher Übersetzung mit Frontispiz, neun Tafeln und historischem Nachwort.",
+  "ogDescription": "James Hall und Harpes Haupt: die Harpe-Brüder, die Wilderness Road und das gesetzlose Grenzland Kentuckys.",
+  "bioKicker": "Autor & Kontext",
+  "bioTitle": "Offizier, Richter<br>und Chronist der Frontier",
+  "bioLede": "Die im Militärdienst erworbene Disziplin und sein geschärfter Blick für das Handeln von Männern unter Extrembedingungen prägten Halls gesamtes späteres Schaffen.",
+  "blocks": [
+    {
+      "h": "Philadelphia und der Krieg von 1812",
+      "p": [
+        "James Hall wurde am 19. August 1793 in Philadelphia geboren. Im Krieg von 1812 diente er als Leutnant unter Winfield Scott an der Kanadagrenze und zeichnete sich bei Lundy’s Lane und bei der Belagerung von Fort Erie aus.",
+        "1815 nahm er unter Commodore Stephen Decatur an den Operationen gegen die Barbaresken-Piraten im Mittelmeer teil."
+      ]
+    },
+    {
+      "h": "Richter im Grenzland von Illinois",
+      "p": [
+        "1820 zog Hall nach Shawneetown in Illinois, wo er als Anwalt, Zeitungsherausgeber und Staatsanwalt wirkte, bevor er 1824 zum Bezirksrichter berufen wurde.",
+        "Auf seinen Amtsritten legte er Hunderte von Meilen durch unerschlossene Wälder und Prärien zurück und erlebte die Gewalt der Grenzregion aus nächster Nähe."
+      ]
+    },
+    {
+      "h": "Der Herausgeber des Westens",
+      "p": [
+        "1828 gab Hall mit dem <i>Western Souvenir</i> das erste literarische Jahrbuch westlich der Alleghenies heraus, 1830 gründete er das <i>Illinois Monthly Magazine</i>.",
+        "Zu seinen Werken zählen <i>Letters from the West</i> (1828), <i>Legends of the West</i> (1832), <i>Harpe’s Head</i> (1833) und die <i>History of the Indian Tribes of North America</i> (1836–1844, mit Thomas L. McKenney). Hall starb am 5. Juli 1868 bei Cincinnati."
+      ]
+    },
+    {
+      "h": "Bild und Quelle",
+      "p": [
+        "Autorenbild: Stahlstich von J. C. Buttre nach einem Gemälde von J. O. Eaton, Frontispiz zu <i>The Romance of Western History</i>, 1857.",
+        "Textgrundlage: <i>The Harpe’s Head; A Legend of Kentucky</i>, Key & Biddle, Philadelphia 1833."
+      ]
+    }
+  ],
+  "facts": [
+    ["Reihe", "Anthrazit · Säule I"],
+    ["Textgrundlage", "<i>Harpe’s Head</i>, Erstausgabe 1833"],
+    ["Ausgabe", "298 Seiten · Frontispiz, neun Tafeln, Nachwort und Glossar"],
+    ["ISBN", "E-Book 978-3-67605-047-0 · Taschenbuch 978-3-67605-048-7 · Hardcover 978-3-67605-049-4"]
+  ],
+  "worksKicker": "Im Programm",
+  "worksTitle": "Harpes Haupt",
+  "worksIntro": "Neue deutsche Übersetzung nach der Erstausgabe von 1833, Wort für Wort an den Seitenbildern des Erstdrucks geprüft, mit Verlagsvorwort, Autorenporträt, historischem Nachwort und Glossar.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-harpes-haupt-hall" },
+      "meta": "Illustrierte Ausgabe · 1833 · 298 Seiten",
+      "title": "Harpes Haupt",
+      "subtitle": "Eine Legende aus Kentucky",
+      "modal": {
+        "metadata": "AETERNUS Verlag · 298 Seiten · E-Book, Taschenbuch und Hardcover",
+        "summary": "Wo die Zivilisation endet, herrscht das Gesetz des Urwalds. Die Gebrüder Harpe ziehen eine Spur aus Feuer und Mord durch die Ansiedlungen der Pioniere – und die Jagd durch die Wildnis am Ohio wird zum unerbittlichen Kampf um Leben und Vernichtung.",
+        "sample": "Ungekürzte Neuausgabe mit Frontispiz und neun Tafeln, Verlagsvorwort, Autorenporträt, historischem Nachwort, Anhang zur Textgrundlage und Übersetzung sowie einem Glossar mit 34 Stichworten.",
+        "status": "Verlagsfreigegeben · Bestelllinks folgen nach Freischaltung"
+      }
+    }
+  ]
+});
