@@ -1,53 +1,8 @@
 ---
-title: "Reihen — AETERNUS VERLAG"
-description: "Die sechs Reihen des AETERNUS VERLAG: Anthrazit, Grün, Rot, Blau, Bernstein und Weiß — mit den Autoren und lieferbaren Titeln je Reihe."
-layout: base.njk
+layout: editorial-base.njk
+title: "Sieben Reihen · AETERNUS Verlag"
+description: "Sieben Reihen, sieben Zugänge zur Literatur: Das thematisch geordnete Verlagsprogramm von AETERNUS."
 lang: de
 permalink: /reihen/index.html
 ---
-
-<main>
-<!-- REIHEN-UEBERSICHT — schlanke Kachelseite, die auf die sechs Einzelseiten
-     /reihen/{slug}/ verweist. Die frueher hier eingebetteten vollen
-     Autorenbaeume leben jetzt auf den Einzelseiten (reihe.njk); Grund:
-     jede Reihe waechst inzwischen zu gross fuer eine gemeinsame Seite. -->
-<section class="block" style="background-color: #161311; padding: 180px 0 112px; position: relative;">
-  <div class="paper-grain" style="position:absolute;inset:0;opacity:.15;pointer-events:none;"></div>
-
-  <div class="wrap">
-    <div style="max-width: 720px; margin-bottom: 60px;">
-      <div class="eyebrow-mini" style="color: var(--gold); letter-spacing: 0.15em; font-size: 0.85rem;">{{ i18n["series.eyebrow"][lang] }}</div>
-      <h1 class="title-xl" style="margin-top: 15px; font-family: var(--font-display); font-weight: 400;"><span class="gold-grad">{{ i18n["series.title"][lang] }}</span></h1>
-      <div style="margin-top: 25px; font-size: 17px; line-height: 1.7; color: rgba(243, 231, 207, 0.75);"><p>{{ i18n["series.intro"][lang] }}</p></div>
-    </div>
-
-    <div class="catalog-grid">
-      {% for card in i18n.seriesItems %}
-        <a href="/reihen/{{ card.slug }}/" class="series-overview-card">
-          <div class="series-overview-thumb">
-            <picture>
-              <source type="image/avif" srcset="/assets/images/{{ card.mood.file }}.avif" />
-              <source type="image/webp" srcset="/assets/images/{{ card.mood.file }}.webp" />
-              <img src="/assets/images/{{ card.mood.file }}-fallback.jpg" alt="" style="object-position: {{ card.mood.focal }};{% if card.mood.opacity %} opacity: {{ card.mood.opacity }};{% endif %}" loading="lazy" decoding="async" />
-            </picture>
-          </div>
-          <div class="series-overview-body">
-            <div class="series-overview-meta">
-              <span>{{ card.num }}</span>
-              <span class="swatch-row"><span class="swatch" style="background-color: {{ card.colorHex }};"></span>{{ card.colorName[lang] }}</span>
-            </div>
-            <h3>{{ card.label[lang] }}</h3>
-            <p>{{ card.desc[lang] }}</p>
-            <div class="series-overview-foot">
-              <span class="authors-count">
-                {% if card.authors.length == 0 %}{{ i18n["series.noAuthorsYet"][lang] }}{% elif card.authors.length == 1 %}1 {{ i18n["series.authorCount"][lang] }}{% else %}{{ card.authors.length }} {{ i18n["series.authorCountPlural"][lang] }}{% endif %}
-              </span>
-              <span class="go">{{ i18n["series.viewSeries"][lang] }} →</span>
-            </div>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-</main>
+<main id="main" class="shell catalogue-page"><div class="catalogue-heading"><p class="kicker">Das Verlagsprogramm</p><h1>Sieben Reihen.<br><em>Viele Welten.</em></h1><p>{{ i18n["series.intro"].de }}</p></div><div class="series-directory">{% for s in i18n.seriesItems %}<a class="series-entry" href="/reihen/{{ s.slug }}/" id="{{ s.slug }}"><span class="series-entry-number">{{ s.num }}</span><div><p class="kicker"><span class="series-dot" style="--series-color:{{ s.colorHex }}"></span>{{ s.colorName.de }}</p><h2>{{ s.label.de }}</h2><p>{{ s.desc.de }}</p></div><span aria-hidden="true">↗</span></a>{% endfor %}</div><a class="button ink-button" href="/buecher/">Zum vollständigen Buchprogramm →</a></main>

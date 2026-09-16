@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "node ./node_modules/@11ty/eleventy/cmd.cjs",
+    "build": "node ./node_modules/@11ty/eleventy/cmd.cjs && node scripts/editorial-images.cjs --write",
     "optimize:images": "node scripts/optimize-images.js",
     "icons": "node scripts/make-icons.js",
     "fonts": "node scripts/fetch-fonts.js",
     "check:hreflang": "node ./scripts/check-hreflang.js",
     "check:pages": "node ./scripts/check-pages.js",
+    "check:editorial": "node ./scripts/check-editorial.cjs",
     "check:qr": "node ./scripts/check-qr-targets.js"
   },
   "keywords": [],

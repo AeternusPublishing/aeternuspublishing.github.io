@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="{{ lang | default('de') }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="theme-color" content="#182522">
+  <link rel="canonical" href="https://aeternus-verlag.de{{ page.url }}">
+  {% if hreflang %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/"><link rel="alternate" hreflang="en" href="https://aeternus-verlag.de/en/"><link rel="alternate" hreflang="x-default" href="https://aeternus-verlag.de/">{% endif %}
+  <meta property="og:type" content="{% if book %}book{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:url" content="https://aeternus-verlag.de{{ page.url }}">
+  <meta property="og:site_name" content="AETERNUS Verlag">
+  <meta property="og:image" content="https://aeternus-verlag.de/assets/images/{% if book %}{{ book.cover }}.webp{% else %}hero-library.jpg{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/fraunces-300-600-normal-latin.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/fonts/fraunces-300-600-italic-latin.woff2">
+  <link rel="stylesheet" href="/assets/css/fonts.css?v={{ assetVersion.fonts }}">
+  <link rel="stylesheet" href="/assets/css/editorial.css?v={{ assetVersion.editorial }}">
+  <script src="/assets/js/editorial.js?v=20260916" defer></script>
+  {% if book %}<script type="application/ld+json">{{ book.schema | dump | safe }}</script>{% endif %}
+</head>
+<body class="editorial-site">
+  <a class="skip-link" href="#main">{% if lang == 'en' %}Skip to content{% else %}Zum Inhalt{% endif %}</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="wordmark" href="{% if lang == 'en' %}/en/{% else %}/{% endif %}"><img src="/assets/images/logo.svg" alt="AETERNUS Verlag" width="832" height="50"></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" hidden>{% if lang == 'en' %}Menu{% else %}Menü{% endif %} <span aria-hidden="true">☰</span></button>
+      <nav class="main-navigation" id="main-navigation" aria-label="{% if lang == 'en' %}Main navigation{% else %}Hauptnavigation{% endif %}">
+        <a href="/buecher/"{% if section == 'books' %} aria-current="page"{% endif %}>{% if lang == 'en' %}Books (DE){% else %}Bücher{% endif %}</a>
+        <a href="{% if lang == 'en' %}/en/series/{% else %}/reihen/{% endif %}">{% if lang == 'en' %}Series{% else %}Reihen{% endif %}</a>
+        <a href="{% if lang == 'en' %}/en/edition/{% else %}/edition/{% endif %}">Edition</a>
+        <a href="{% if lang == 'en' %}/en/house/{% else %}/verlag/{% endif %}">{% if lang == 'en' %}The house{% else %}Verlag{% endif %}</a>
+        <a href="{% if lang == 'en' %}/en/press/{% else %}/presse/{% endif %}">{% if lang == 'en' %}Press{% else %}Presse{% endif %}</a>
+        <span class="language-links"><a href="/" lang="de"{% if lang != 'en' %} aria-current="true"{% endif %}>DE</a><span aria-hidden="true">/</span><a href="/en/" lang="en"{% if lang == 'en' %} aria-current="true"{% endif %}>EN</a></span>
+      </nav>
+    </div>
+  </header>
+  {{ content | safe }}
+  <footer class="colophon">
+    <div class="shell footer-top">
+      <div><a class="wordmark" href="/"><img src="/assets/images/logo.svg" alt="AETERNUS Verlag" width="832" height="50" loading="lazy"></a><p>{% if lang == 'en' %}Historical texts. New editions.<br>Literature to return to.{% else %}Historische Texte. Neue Ausgaben.<br>Literatur, zu der man zurückkehrt.{% endif %}</p></div>
+      <div><h2>{% if lang == 'en' %}Discover{% else %}Entdecken{% endif %}</h2><a href="/buecher/">{% if lang == 'en' %}German book catalogue{% else %}Alle Bücher{% endif %}</a><a href="/reihen/">{% if lang == 'en' %}Our seven series{% else %}Unsere sieben Reihen{% endif %}</a><a href="/buecher/wilde-tiere-die-ich-kannte/#leseprobe">{% if lang == 'en' %}Reading room (DE){% else %}Leseraum{% endif %}</a></div>
+      <div><h2>{% if lang == 'en' %}The publishing house{% else %}Das Verlagshaus{% endif %}</h2><a href="/verlag/">{% if lang == 'en' %}About AETERNUS{% else %}Über AETERNUS{% endif %}</a><a href="/presse/">{% if lang == 'en' %}Press & booksellers{% else %}Presse & Buchhandel{% endif %}</a><a href="mailto:kontakt@aeternus-verlag.de">kontakt@aeternus-verlag.de</a><a href="https://www.instagram.com/aeternus.verlag/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div>
+    </div>
+    <div class="shell footer-bottom"><span>© AETERNUS Verlag</span><div><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></div></div>
+  </footer>
+</body>
+</html>

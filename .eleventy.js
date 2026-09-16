@@ -1,4 +1,8 @@
 module.exports = function(eleventyConfig){
+    eleventyConfig.addFilter("bookUrl", cover => {
+        const book = require("./src/_data/catalogue").books.find(b => b.cover === cover);
+        return book ? book.url : "";
+    });
     eleventyConfig.addPassthroughCopy('./src/css/style.css')
     eleventyConfig.addPassthroughCopy('./src/assets')
 

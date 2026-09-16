@@ -1,0 +1,22 @@
+---
+layout: editorial-base.njk
+title: "Bücher entdecken · AETERNUS Verlag"
+description: "Das AETERNUS-Verlagsprogramm: Klassiker, Naturerzählungen und historische Quellen. Nach Autor, Titel und Reihe suchen und Ausgaben entdecken."
+lang: de
+section: books
+cardHeading: h2
+permalink: /buecher/index.html
+---
+<main id="main" class="catalogue-page shell">
+  <div class="catalogue-heading"><p class="kicker">Die AETERNUS-Bibliothek</p><h1>Was möchten Sie<br><em>entdecken?</em></h1><p>Klassiker, historische Stimmen und wiederentdeckte Werke.<br>Finden Sie Ihre nächste Lektüre.</p></div>
+  <form class="catalogue-filters" data-catalogue-filters role="search" hidden>
+    <div class="search-field"><label for="book-search">Titel, Autor, Thema oder ISBN</label><input type="search" id="book-search" name="q" placeholder="Zum Beispiel: Seton, Wildnis, Tagebuch …" autocomplete="off"></div>
+    <div><label for="series-filter">Reihe</label><select id="series-filter" name="reihe"><option value="">Alle Reihen</option>{% for series in catalogue.series %}{% if series.count %}<option value="{{ series.slug }}">{{ series.name }} ({{ series.count }})</option>{% endif %}{% endfor %}</select></div>
+    <div><label for="status-filter">Auswahl</label><select id="status-filter" name="status"><option value="">Alle Ausgaben</option><option value="catalogue">Im Programm</option><option value="upcoming">Demnächst</option></select></div>
+    <button class="reset-filters" type="reset">Zurücksetzen</button>
+  </form>
+  <div class="catalogue-count"><p data-result-count role="status" aria-live="polite">{{ catalogue.books.length }} Ausgaben</p><span>Originale neu entdecken.</span></div>
+  <div class="books-grid catalogue-grid">{% for item in catalogue.books %}{% include 'book-card.njk' %}{% endfor %}</div>
+  <div class="no-results" data-no-results hidden><h2>Noch kein passendes Buch gefunden.</h2><p>Versuchen Sie einen anderen Suchbegriff oder setzen Sie die Auswahl zurück.</p><button type="button" class="button ink-button" data-reset-search>Alle Bücher zeigen</button></div>
+  <noscript><p>Alle Ausgaben sind unten vollständig aufgeführt. Die zusätzliche Suchfunktion benötigt JavaScript.</p></noscript>
+</main>

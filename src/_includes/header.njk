@@ -7,7 +7,8 @@
       </div>
     </a> 
 <div class="nav-container">
-      <nav class="primary">
+      <nav class="primary" aria-label="Hauptnavigation">
+    <a href="/buecher/">{% if lang == 'de' %}Bücher{% else %}Books (DE){% endif %}</a>
     <a href="{% if lang == 'de' %}/verlag/{% else %}/en/house/{% endif %}">{{ i18n["nav.verlag"][lang] }}</a>
     <a href="{% if lang == 'de' %}/edition/{% else %}/en/edition/{% endif %}">{{ i18n["nav.edition"][lang] }}</a>
     <a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}">{{ i18n["nav.series"][lang] }}</a>

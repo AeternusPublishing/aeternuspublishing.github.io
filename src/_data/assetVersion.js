@@ -29,4 +29,5 @@ function hash(datei) {
 module.exports = () => ({
   style: hash("style.css"),
   fonts: hash("fonts.css"),
+  editorial: hash("editorial.css"),
 });
