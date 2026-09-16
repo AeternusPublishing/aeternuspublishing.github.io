@@ -20,6 +20,7 @@ const P = {
 };
 
 const AVAILABLE = {
+  "james-hall": ["de"],
   "johanna-spyri": ["de"],
   "carlo-collodi": ["de"],
   "felix-salten": ["de"],

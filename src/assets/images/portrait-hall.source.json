@@ -1,0 +1,12 @@
+{
+  "asset": "portrait-hall",
+  "subject": "James Hall (1793-1868)",
+  "work": "Stahlstich von J. C. Buttre nach einem Gemaelde von J. O. Eaton (Signaturen im Bild), Frontispiz zu The Romance of Western History, 1857",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/James_Hall%2C_judge_and_writer.png",
+  "record": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/JH_JAMES_HALL/02_WERKE/JH_001_HARPES_HAUPT_1833/07_ILLUSTRATIONEN/AUTORENPORTRAET/ASSET_MANIFEST.json",
+  "sha256_source": "9c0dfc0f91481e31a2011b2011e0ded1f146462b6b787cc5315d48645f12adf4",
+  "same_image_as_book": "Autorenportraet in Harpes Haupt (JH_001)",
+  "derivation": "Auf Weiss geglaettet (Graustufe mit Alpha), Crop x79-885, y0-1122 (Seitenverhaeltnis 690:960), Lanczos auf 690x960; jpg (mozjpeg 84), webp (80), avif (55).",
+  "cover_derivation": "cover-harpes-haupt-hall: aus dem endfreigegebenen E-Book-Umschlag 1600x2400 des KDP-Pakets V1 (09_EXPORT/JH001_KDP_UPLOAD_PAKET_V1_20260916/EBOOK), Lanczos auf 720x1080 (jpg) und 1024x1536 (webp/avif).",
+  "rights_note": "Stich 1857; Maler Eaton und Stecher Buttre im 19. Jahrhundert verstorben, Werk gemeinfrei (Commons PD-US)."
+}
