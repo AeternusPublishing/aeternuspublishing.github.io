@@ -33,6 +33,8 @@ const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 for (const book of catalogue.books) {
   assert(sitemap.includes("https://aeternus-verlag.de" + book.url), "Book absent from sitemap");
   const html = read(book.url);
+  assert(html.includes('href="' + book.authorUrl + '"'), "Missing author landing-page link: " + book.id);
+  assert(read('/buecher/').includes('href="' + book.authorUrl + '"'), "Author not reachable directly from catalogue: " + book.id);
   assert(!html.includes("Bei KDP eingereicht"), "Internal production status in book UI");
   if (book.pending) {
     const primary = html.split('id="ausgabe"')[0];
@@ -46,6 +48,14 @@ assert(monarch.searchIsbns.includes("978-3-912883-36-7"));
 assert(sample.paragraphs.length >= 4 && sample.paragraphs.join(" ").length > 2000, "Real reading sample required");
 const reader = read("/buecher/wilde-tiere-die-ich-kannte/");
 assert(reader.includes(sample.paragraphs[0]));
+const quotation = read('/').match(/<blockquote lang="de">„([^]*?)“<\/blockquote>/)?.[1];
+assert(quotation && sample.paragraphs.some(p => p.includes(quotation)), "Homepage quotation must be verbatim from the sourced sample");
+const authors = require('../src/_data/authorsDe');
+for (const author of authors) {
+  const url = '/autoren/' + author.slug + '/';
+  assert(read(url).includes('<h1'), 'Author landing page missing: ' + url);
+  assert(sitemap.includes('https://aeternus-verlag.de' + url), 'Author absent from sitemap: ' + url);
+}
 // These data regressions are examples of observed launch faults.
 const woodcraft = catalogue.books.filter(b => b.cover.startsWith("cover-waldhandwerk-band"));
 assert.equal(woodcraft.length, 2);

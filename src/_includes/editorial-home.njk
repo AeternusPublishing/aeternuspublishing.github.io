@@ -1,16 +1,17 @@
 <main id="main">
   <section class="frontispiece">
+    <img class="hero-atmosphere" src="/assets/editorial/hero-library-800.webp" width="800" height="450" alt="" decoding="async">
     <div class="shell hero-layout">
       <div class="hero-copy"><p class="kicker light-kicker">{% if lang == 'en' %}Independent editions · AETERNUS{% else %}Unabhängiges Editionshaus · AETERNUS{% endif %}</p>
         <h1>{% if lang == 'en' %}Literature<br>that <em>endures.</em>{% else %}Literatur,<br>die <em>bleibt.</em>{% endif %}</h1>
         <p class="hero-intro">{% if lang == 'en' %}Rediscover classics and historical voices. <br>Carefully translated. Thoughtfully edited.{% else %}Klassiker und historische Stimmen neu entdecken. <br>Sorgfältig übersetzt. Mit Achtung vor dem Original.{% endif %}</p>
         <div class="actions"><a class="button gold-button" href="/buecher/">{% if lang == 'en' %}Discover our books{% else %}Bücher entdecken{% endif %} <span aria-hidden="true">→</span></a><a class="quiet-link" href="{{ catalogue.spotlight.url }}#leseprobe">{% if lang == 'en' %}Read an excerpt (DE){% else %}Eine erste Leseprobe{% endif %} <span aria-hidden="true">↗</span></a></div>
-        <p class="hero-footnote">{% if lang == 'en' %}New perspectives on enduring works.{% else %}Vergessene Werke. Unvergessliche Geschichten.{% endif %}</p>
+        <p class="hero-footnote">{% if lang == 'en' %}For the pleasure of losing yourself in a book.{% else %}Für die Freude, sich in einem Buch zu verlieren.{% endif %}</p>
       </div>
       <div class="hero-exhibit">
-        <span class="exhibit-label">{% if lang == 'en' %}From our programme{% else %}Aus unserem Programm{% endif %} <span>01 / {{ catalogue.books.length }}</span></span>
+        <span class="exhibit-label">{% if lang == 'en' %}A book to rediscover{% else %}Ein Buch zum Wiederentdecken{% endif %}</span>
         <a class="hero-book" href="{{ catalogue.spotlight.url }}" aria-label="Wilde Tiere, die ich kannte – Ernest Thompson Seton"><picture><source type="image/avif" srcset="/assets/editorial/cover-wilde-tiere-480.avif"><source type="image/webp" srcset="/assets/editorial/cover-wilde-tiere-480.webp"><img src="/assets/images/cover-wilde-tiere-fallback.jpg" alt="Wilde Tiere, die ich kannte – die AETERNUS-Ausgabe" width="400" height="600" fetchpriority="high" decoding="async"></picture></a>
-        <div class="exhibit-caption"><span>Ernest Thompson Seton</span><a href="{{ catalogue.spotlight.url }}">Wilde Tiere, die ich kannte <span aria-hidden="true">↗</span></a><span class="exhibit-series">BERNSTEIN · 1898</span></div>
+        <div class="exhibit-caption"><span>Ernest Thompson Seton</span><a href="{{ catalogue.spotlight.url }}">Wilde Tiere, die ich kannte <span aria-hidden="true">↗</span></a><span class="exhibit-series">BERNSTEIN · 1898</span><p class="exhibit-note">{% if lang == 'en' %}Eight animal stories. A whole world to enter.{% else %}Acht Tiergeschichten. Eine ganze Welt zum Eintauchen.{% endif %}</p></div>
       </div>
     </div>
   </section>
@@ -35,5 +36,8 @@
       <a class="text-link" href="{% if lang == 'en' %}/en/edition/{% else %}/edition/{% endif %}">{% if lang == 'en' %}How we work{% else %}So arbeiten wir{% endif %} →</a>
     </div>
   </section>
-  <section class="reading-invitation"><div class="shell"><p class="kicker">{% if lang == 'en' %}The reading room{% else %}Der Leseraum{% endif %}</p><h2>{% if lang == 'en' %}Every discovery begins<br>with a first page.{% else %}Jede Entdeckung beginnt<br>mit einer ersten Seite.{% endif %}</h2><a class="button gold-button" href="{{ catalogue.spotlight.url }}#leseprobe">{% if lang == 'en' %}Open the excerpt (DE){% else %}Jetzt hineinlesen{% endif %} →</a></div></section>
+  <section class="reading-invitation"><div class="shell reading-invitation-layout">
+    <div class="reading-welcome"><p class="kicker">{% if lang == 'en' %}The reading room{% else %}Der Leseraum{% endif %}</p><h2>{% if lang == 'en' %}Stay a little.<br><em>Read a page.</em>{% else %}Ein wenig bleiben.<br><em>Eine Seite lesen.</em>{% endif %}</h2><p>{% if lang == 'en' %}Meet Lobo, the old grey wolf of the Currumpaw valley. An excerpt from our German edition.{% else %}Begegnen Sie Lobo, dem alten grauen Wolf des Currumpaw-Tals. Hier beginnt seine Geschichte.{% endif %}</p><a class="button gold-button" href="{{ catalogue.spotlight.url }}#leseprobe">{% if lang == 'en' %}Continue reading (DE){% else %}Die Geschichte weiterlesen{% endif %} →</a></div>
+    <figure class="literary-leaf"><span class="leaf-heading">ERNEST THOMPSON SETON <span aria-hidden="true">✦</span> LOBO</span><blockquote lang="de">„Und der König, dessen despotische Macht über die gesamte Ausdehnung dieses Landes lastete, war ein alter grauer Wolf.“</blockquote><figcaption lang="de">Aus <cite>Wilde Tiere, die ich kannte</cite><br>Deutsche AETERNUS-Ausgabe</figcaption><span class="leaf-ornament" aria-hidden="true">❦</span></figure>
+  </div></section>
 </main>
