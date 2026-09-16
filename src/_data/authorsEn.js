@@ -451,3 +451,88 @@ module.exports.push({
     }
   ]
 });
+
+// James Hall (JH_001-EN, The Harpe's Head). Copy follows the English publisher's
+// apparatus of the English edition (PARATEXT_EN, claims register BEHAUPTUNGSREGISTER_EN).
+// The edition is being typeset; no ISBN, no retailer link yet — preview page.
+module.exports.push({
+  "slug": "james-hall",
+  "name": "James Hall",
+  "brand": "AETERNUS",
+  "monogram": "JH",
+  "dates": "1793–1868",
+  "seriesClass": "series-anthracite",
+  "preview": true,
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-hall",
+    "alt": "James Hall, steel engraving by J. C. Buttre after a painting by J. O. Eaton",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1793-08-19",
+    "deathDate": "1868-07-05",
+    "description": "American soldier, frontier judge, editor, and author of The Harpe's Head (1833)."
+  },
+  "eyebrow": "Anthracite · The American frontier",
+  "tagline": "Soldier, frontier judge, chronicler of the West.",
+  "intro": "On his circuit rounds through Illinois, James Hall collected the recollections of hunters, scouts, and old settlers — and gave the literature of the early West its first forums.",
+  "metaDescription": "James Hall at AETERNUS: The Harpe's Head, A Legend of Kentucky (1833), in the complete text of the Philadelphia first edition with a frontispiece and nine new plates.",
+  "bioKicker": "Author & context",
+  "bioTitle": "Soldier, judge,<br>chronicler of the frontier",
+  "bioLede": "Military service gave Hall an unsentimental eye for how men behave under the worst conditions, and that eye is at work throughout his one novel.",
+  "blocks": [
+    {
+      "h": "Philadelphia and the War of 1812",
+      "p": [
+        "James Hall was born in Philadelphia on August 19, 1793. In the War of 1812 he was distinguished at the battle of Lundy’s Lane and at the siege of Fort Erie, and served as a lieutenant under Colonel Winfield Scott on the Canadian frontier.",
+        "In 1815 he took part in Commodore Stephen Decatur’s operations against the Barbary corsairs in the Mediterranean."
+      ]
+    },
+    {
+      "h": "A judge on the Illinois frontier",
+      "p": [
+        "In 1820 Hall moved to Shawneetown, Illinois, where he practiced law, edited the <i>Illinois Gazette</i>, served as state’s attorney, and in 1824 was appointed a circuit judge.",
+        "His rounds through a raw and thinly settled country brought him into contact with the hunters, scouts, and old settlers whose recollections of the frontier’s first generation he began to collect and publish."
+      ]
+    },
+    {
+      "h": "The first voice of the West",
+      "p": [
+        "The <i>Western Souvenir</i> (1828) was the first literary annual published west of the Allegheny Mountains; the <i>Illinois Monthly Magazine</i>, founded by Hall in 1830, the first literary periodical west of the Ohio.",
+        "<i>Letters from the West</i> (1828) and <i>Legends of the West</i> (1832) collected sketches and tales of the border; <i>The Harpe’s Head</i> (1833) was his only novel. With Thomas L. McKenney he produced the <i>History of the Indian Tribes of North America</i> (1838–1844). Hall died on July 5, 1868, at Loveland, near Cincinnati."
+      ]
+    },
+    {
+      "h": "Image and source",
+      "p": [
+        "Portrait: steel engraving by J. C. Buttre after a painting by J. O. Eaton, frontispiece to <i>The Romance of Western History</i>, 1857.",
+        "Text: <i>The Harpe’s Head; A Legend of Kentucky</i>, Key &amp; Biddle, Philadelphia, 1833."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Anthracite"],
+    ["Text", "English · first edition, 1833"],
+    ["Print edition", "270 pages · frontispiece and nine plates"],
+    ["Status", "In preparation"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "The Harpe’s Head",
+  "worksIntro": "The complete text of the Philadelphia first edition of 1833, checked word by word against the original page images, with a publisher’s apparatus, a frontispiece, and nine new plates. Paperback, hardcover, and Kindle editions are in preparation; ordering links will follow when available.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "gen": "wald", "title": "The Harpe’s<br>Head" },
+      "meta": "Frontier novel · Philadelphia · 1833",
+      "title": "The Harpe’s Head (Illustrated)",
+      "subtitle": "A Legend of Kentucky",
+      "modal": {
+        "metadata": "AETERNUS · Anthracite Series · 270 print pages",
+        "summary": "Virginia in the 1790s: a young stranger rides into the settled world of the planter aristocracy, while in the mountains and canebrakes of Kentucky the Harpe brothers make the borderlands a place where no traveller rides safe. Hall sets a romance of planters and pioneers against the darkest legend of the Kentucky frontier.",
+        "sample": "The complete text of the 1833 first edition, checked word by word against the original page images. Publisher’s foreword, note on the text, historical note, afterword, and glossary; a frontispiece and nine plates created for this edition.",
+        "status": "In preparation · ordering links to follow"
+      }
+    }
+  ]
+});
