@@ -536,3 +536,85 @@ module.exports.push({
     }
   ]
 });
+
+// Daniel Carter Beard (DCB_001-EN, Shelters, Shacks, and Shanties). The copy follows the
+// approved English paratext package of the edition (PARATEXT_PAKET_EN_V1: publisher’s note,
+// about the author, afterword, editorial note, blurb). English-only edition, so there is no
+// German counterpart page and /qr/beard/ leads straight here. Preview until the edition is
+// live on Amazon; the ordering link is activated with publication.
+module.exports.push({
+  "slug": "daniel-carter-beard",
+  "name": "Daniel Carter Beard",
+  "brand": "AETERNUS",
+  "monogram": "DCB",
+  "dates": "1850&ndash;1941",
+  "seriesClass": "",
+  "preview": true,
+  "previewStatus": "Paperback and Kindle in preparation &middot; ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-beard",
+    "alt": "Daniel Carter Beard in Scout uniform, photographed by Bain News Service",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1850-06-21",
+    "deathDate": "1941-06-11",
+    "description": "American illustrator, author and outdoor educator; cofounder of the Boy Scouts of America."
+  },
+  "eyebrow": "Amber &middot; Youth, adventure, character",
+  "tagline": "The buildings here suggested require a woodsman more than an architect.",
+  "intro": "Illustrator, author and outdoor teacher: in 1914 Beard wrote down how a shelter is built in the woods &mdash; from a bed of balsam boughs to a log house with a wooden latch &mdash; and drew every stage himself.",
+  "metaDescription": "Daniel Carter Beard: life, work and the AETERNUS edition of Shelters, Shacks, and Shanties (1914) in the Amber series &mdash; the complete first-edition text with all 63 plates of the author’s own drawings.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "First the drawing,<br>then the roof",
+  "bioLede": "A draughtsman who taught building by making its parts visible: the frame under the covering, the mechanism inside the latch.",
+  "blocks": [
+    {
+      "h": "Life &amp; period",
+      "p": [
+        "Born in Cincinnati, Ohio, in 1850, Beard spent part of his childhood in Covington, Kentucky, where the frontier and the figure of Daniel Boone caught his imagination early. He worked in engineering, surveying and mapmaking before turning to professional illustration in New York; the Library of Congress dates his study at the Art Students League to 1880&ndash;1884.",
+        "Those occupations explain the range of skills his books bring together: observing an object, understanding its structure, and making that structure intelligible on paper."
+      ]
+    },
+    {
+      "h": "The draughtsman as teacher",
+      "p": [
+        "<i>The American Boy’s Handy Book</i> appeared in 1882 under the fuller title <i>What to Do and How to Do It</i>. Beard also illustrated Mark Twain, including the first edition of <i>A Connecticut Yankee in King Arthur’s Court</i> in 1889.",
+        "In <i>Shelters, Shacks, and Shanties</i> his method becomes explicit: he says his readers rely more on the diagrams than on the written explanation, and that he has tried to make those diagrams explain themselves."
+      ]
+    },
+    {
+      "h": "Scouting &amp; legacy",
+      "p": [
+        "In 1905 Beard founded the Sons of Daniel Boone; in 1910 he became a cofounder of the Boy Scouts of America, serving as a national Scout commissioner and on its executive board until his death. The outdoor school he established in 1915 gave another setting to the activities he described in print.",
+        "He published his autobiography, <i>Hardly a Man Is Now Alive</i>, in 1939 and died at Suffern, New York, in 1941. In the foreword to this book, dated at Flushing on 1 April 1914, he addresses boys, Scoutmasters and sportsmen alike, and later recounts building his own log house at Big Tink Pond &mdash; mistakes included."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Amber line &middot; Pillar V"],
+    ["First edition", "New York, 1914"],
+    ["Text", "The author’s own English, first edition"],
+    ["Print edition", "270 pages &middot; 63 plates"],
+    ["Formats", "Paperback &middot; Kindle"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "The book of the shelter",
+  "worksIntro": "The edition gives the complete English text of the 1914 first edition, with Beard’s spelling and wording kept as he wrote them. All 63 plates of his own drawings are reproduced with their original figure numbers and in the groupings of the original pages, because the comparison within a group is part of his teaching. A publisher’s note, an account of the author, an afterword and a glossary of thirty period building terms accompany the work; an editorial note identifies the witness used to supply two pages missing from the principal copy.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-shelters-shacks-shanties" },
+      "meta": "Outdoor classic &middot; New York &middot; 1914",
+      "title": "Shelters, Shacks, and Shanties (Illustrated)",
+      "subtitle": "The 1914 Classic of Building in the Woods, with the Author’s Own Drawings",
+      "modal": {
+        "metadata": "AETERNUS · Amber series · 270 print pages · 63 plates",
+        "summary": "A bed of balsam boughs, a shelter beneath a fallen tree, a cabin with a wooden latch: Beard begins with what lies close at hand and works towards the construction of a log house. His drawings open roofs to reveal their frames, separate the parts of a fastening, and show how a few tools can be put to work — bark coverings, framed shanties, sod walls, raised camps and log buildings across forty-nine chapters.",
+        "sample": "The text follows the English first edition of 1914, published in New York by Charles Scribner’s Sons; the two printed pages missing from the principal copy are supplied from the 1916 printing, and that substitution is confined to the gap. Beard’s spelling and vocabulary are retained, his foreword stays distinct from the publisher’s material, and the plates keep his original figure numbers. Paperback ISBN 978-3-67605-072-2; e-book ISBN 978-3-67605-071-5.",
+        "status": "Paperback and Kindle in preparation · ordering links to follow"
+      }
+    }
+  ]
+});

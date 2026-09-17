@@ -34,7 +34,10 @@ const AVAILABLE = {
   // Nur Deutsch: die englische, spanische und polnische Fassung existiert noch nicht.
   "henry-rider-haggard": ["de"],
   "tacitus": ["de"],
-  "george-washington-sears": ["de", "en"]
+  "george-washington-sears": ["de", "en"],
+  // Nur Englisch: Shelters, Shacks, and Shanties ist eine englische Originalausgabe,
+  // eine deutsche Beard-Seite gibt es nicht.
+  "daniel-carter-beard": ["en"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };
@@ -42,6 +45,13 @@ const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };
 module.exports = {
   available: AVAILABLE,
   label: LABEL,
+  // Das hreflang-Ziel x-default. Deutsch ist die Hausfassung, solange es sie gibt;
+  // bei einer englischen Originalausgabe ohne deutsche Seite (Beard) waere ein
+  // x-default auf /autoren/<slug>/ ein Verweis auf eine 404.
+  xDefault(slug) {
+    const langs = AVAILABLE[slug] || [];
+    return P[langs.includes("de") ? "de" : "en"](slug);
+  },
   // [{lang, label, url, current}] für einen Autor in einer Sprache
   versions(slug, current) {
     return (AVAILABLE[slug] || []).map(l => ({

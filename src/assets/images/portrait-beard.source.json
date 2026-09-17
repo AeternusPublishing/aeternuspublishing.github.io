@@ -1,0 +1,20 @@
+{
+  "asset": "portrait-beard",
+  "subject": "Daniel Carter Beard (1850-1941)",
+  "work": "Daniel Carter Beard in Scout-Uniform, Strassenaufnahme; Bain News Service",
+  "source_url": "https://tile.loc.gov/storage-services/service/pnp/ggbain/28800/28810v.jpg",
+  "catalog_url": "https://www.loc.gov/pictures/item/2014708970/",
+  "commons_record": "https://commons.wikimedia.org/wiki/File:Dan_Beard_LCCN2014708970.tif",
+  "creator": "Bain News Service",
+  "date": "Vollscan-Katalog auf Commons nennt 1915; ein beschnittenes Derivat ist 1919 bezeichnet, das Aufnahmedatum ist nicht belegt",
+  "rights": "Library of Congress: no known restrictions on publication; Commons PD-Bain, PD-old-70-expired",
+  "original": {
+    "file": "BEARD_PORTRAIT_BAIN_LC_28810_ORIGINAL.jpg",
+    "record": "_STAGING_OUTDOOR_CLASSICS_PILLAR_PENDING/BEARD/02_WERKE/DCB_001_SHELTERS_SHACKS_SHANTIES_1914/06_PARATEXT/EN/BEARD_PORTRAIT_BAIN_LC_28810_ORIGINAL.PROVENANCE.json",
+    "pixels": "688x1024",
+    "sha256": "d2ba5e36663b4e1884c76545f2c67a34a854ceb79ec4448d22ae6b3fc8685925"
+  },
+  "derivation": "Ausschnitt left 120, top 200, 512x712 (Negativrand und die handschriftliche Archivbeschriftung DAN BEARD 4914-16 entfernt), Lanczos auf 690x960; jpg (mozjpeg 86), webp (80), avif (55). Keine Retusche, keine Generierung.",
+  "same_image_as_book": "Autorenportraet in Shelters, Shacks, and Shanties (DCB_001), Paratextpaket EN V1 Abschnitt 9",
+  "authority": "Verleger im Chat 2026-09-17: 'mach den qr-kurzweg /qr/beard/ fertig'"
+}
