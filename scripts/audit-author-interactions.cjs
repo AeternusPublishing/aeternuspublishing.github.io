@@ -9,6 +9,14 @@ async page => {
     for (const route of routes) {
       await page.goto(base + route);
       await page.emulateMedia({ reducedMotion: 'reduce' });
+      const order = await page.evaluate(() => {
+        const sections = [...document.querySelectorAll('main > section')];
+        const hero = sections.find(el => el.classList.contains('hero'));
+        const works = sections.find(el => el.classList.contains('works'));
+        const bio = sections.find(el => el.classList.contains('biography'));
+        return sections[0] === hero && sections[1] === works && sections.at(-1) === bio && Math.abs(hero.getBoundingClientRect().bottom - works.getBoundingClientRect().top) < 2 && bio.getBoundingClientRect().top >= works.getBoundingClientRect().bottom;
+      });
+      if (!order) findings.push({ route, width, type:'incorrect-section-order' });
       const anchors = page.locator('a.cover-button');
       links += await anchors.count();
       const buttons = page.locator('button.cover-button');

@@ -40,7 +40,9 @@ jobs:
         run: npm run build
 
       - name: Check text and image integrity
-        run: npm run check:text
+        run: |
+          npm run check:text
+          npm run check:author-order
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3

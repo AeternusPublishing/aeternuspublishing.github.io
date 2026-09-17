@@ -27,26 +27,13 @@ eleventyExcludeFromCollections: false
 </head>
 <body class="{{ a.seriesClass }}{% if a.preview %} is-preview{% endif %}">
   <a class="skip-link" href="#main">Zum Inhalt</a>
-  <header class="site-header"><a class="brand" href="/" aria-label="Aeternus Verlag &mdash; Startseite"><img src="/assets/images/logo-signet.svg" alt="" width="36" height="32"><span>Aeternus Verlag</span></a><nav class="nav" aria-label="Navigation der Autorenseite"><a href="/buecher/">Bücher</a><a href="#biografie">Biografie</a><a href="#werke">Werke</a><span class="lang-switch">{%- for v in authorLangs.versions(a.slug, "de") %}{% if v.current %}<span aria-current="page">{{ v.label }}</span>{% else %}<a href="{{ v.url }}" hreflang="{{ v.lang }}">{{ v.label }}</a>{% endif %}{%- endfor %}</span></nav></header>
+  <header class="site-header"><a class="brand" href="/" aria-label="Aeternus Verlag &mdash; Startseite"><img src="/assets/images/logo-signet.svg" alt="" width="36" height="32"><span>Aeternus Verlag</span></a><nav class="nav" aria-label="Navigation der Autorenseite"><a href="/buecher/">Bücher</a><a href="#werke">Werke</a><a href="#biografie">Biografie</a><span class="lang-switch">{%- for v in authorLangs.versions(a.slug, "de") %}{% if v.current %}<span aria-current="page">{{ v.label }}</span>{% else %}<a href="{{ v.url }}" hreflang="{{ v.lang }}">{{ v.label }}</a>{% endif %}{%- endfor %}</span></nav></header>
   {% if a.preview %}<p class="preview-banner">{{ a.previewBanner | default("Vorschau · Ausgabe in Vorbereitung · noch nicht lieferbar") }}</p>{% endif %}
   <main id="main">
     <section class="hero" aria-labelledby="author-name">
       <div class="portrait-column"><figure class="portrait-frame">{% if a.portrait.modern %}<picture><source type="image/avif" srcset="/assets/images/{{ a.portrait.file }}.avif"><source type="image/webp" srcset="/assets/images/{{ a.portrait.file }}.webp"><img src="/assets/images/{{ a.portrait.file }}.jpg" alt="{{ a.portrait.alt }}" width="690" height="960" loading="eager" decoding="async"></picture>{% else %}<img src="/assets/images/{{ a.portrait.file }}" alt="{{ a.portrait.alt }}" width="690" height="960">{% endif %}<figcaption class="portrait-caption">AV <small>Autorenbibliothek</small></figcaption></figure></div>
       <div class="hero-copy"><p class="eyebrow">{{ a.eyebrow | safe }}</p><h1 class="{{ a.nameClass }}" id="author-name">{{ a.name }}</h1><p class="dates">{{ a.dates | safe }}</p><blockquote class="hero-quote">{{ a.tagline }}</blockquote><p class="hero-intro">{{ a.intro | safe }}</p><a class="primary-cta" href="#werke">{% if a.preview %}Zum Werk{% else %}Werke entdecken{% endif %} <span aria-hidden="true">&rarr;</span></a></div>
     </section>
-    <section class="biography" id="biografie" aria-labelledby="bio-title" data-monogram="{{ a.monogram }}">
-      <div class="bio-heading"><div><p class="section-kicker">{{ a.bioKicker | safe }}</p><h2 id="bio-title">{{ a.bioTitle | safe }}</h2></div><p class="bio-lede">{{ a.bioLede | safe }}</p></div>
-      <div class="bio-grid">
-        {%- for b in a.blocks %}
-        <article class="bio-block"><span class="bio-number">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span><h3>{{ b.h | safe }}</h3>{% for p in b.p %}<p>{{ p | safe }}</p>{% endfor %}</article>
-        {%- endfor %}
-      </div>
-    </section>
-    {%- if a.facts %}
-    <section class="factbar" aria-label="Ausgabedaten">
-      {%- for f in a.facts %}<p>{{ f[0] }}<strong>{{ f[1] | safe }}</strong></p>{% endfor %}
-    </section>
-    {%- endif %}
     <section class="works" id="werke" aria-labelledby="works-title">
       <div class="works-head"><div><p class="section-kicker">{{ a.worksKicker }}</p><h2 id="works-title">{{ a.worksTitle }}</h2></div><p class="works-intro">{{ a.worksIntro | safe }}</p></div>
       <div class="book-grid {{ a.gridClass }}">
@@ -56,6 +43,19 @@ eleventyExcludeFromCollections: false
       </div>
     </section>
   {% if a.editionSection %}{% include "bird-editions.njk" %}{% endif %}
+    {%- if a.facts %}
+    <section class="factbar" aria-label="Ausgabedaten">
+      {%- for f in a.facts %}<p>{{ f[0] }}<strong>{{ f[1] | safe }}</strong></p>{% endfor %}
+    </section>
+    {%- endif %}
+    <section class="biography" id="biografie" aria-labelledby="bio-title" data-monogram="{{ a.monogram }}">
+      <div class="bio-heading"><div><p class="section-kicker">{{ a.bioKicker | safe }}</p><h2 id="bio-title">{{ a.bioTitle | safe }}</h2></div><p class="bio-lede">{{ a.bioLede | safe }}</p></div>
+      <div class="bio-grid">
+        {%- for b in a.blocks %}
+        <article class="bio-block"><span class="bio-number">{% if loop.index < 10 %}0{% endif %}{{ loop.index }}</span><h3>{{ b.h | safe }}</h3>{% for p in b.p %}<p>{{ p | safe }}</p>{% endfor %}</article>
+        {%- endfor %}
+      </div>
+    </section>
   </main>
   <footer class="site-footer"><span>Aeternus Verlag · Unabhängige Editionen von Klassikern und historischen Quellen.</span><span>&copy; Aeternus Verlag. Alle Rechte vorbehalten.</span></footer>
   <div class="modal" id="book-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel" role="document"><button class="modal-close" type="button" data-close-modal aria-label="Schlie&szlig;en">&times;</button><div class="modal-visual" aria-hidden="true"><span class="modal-monogram" id="modal-monogram">01</span></div><div class="modal-content"><p class="modal-eyebrow" id="modal-metadata"></p><h3 id="modal-title"></h3><p class="modal-subtitle" id="modal-subtitle"></p><p class="modal-summary" id="modal-summary"></p><div class="sample"><strong>{% if a.sampleLabel %}{{ a.sampleLabel }}{% else %}Zur Ausgabe{% endif %}</strong><p id="modal-sample"></p></div><span class="status-line" id="modal-status"{% if not authorStatus %} style="display:none"{% endif %}>{{ authorStatus | safe }}</span><a class="amazon-button" id="modal-amazon" href="{% if a.preview %}/{% else %}#{% endif %}"{% if not a.preview and not a.editionSection %} target="_blank"{% endif %} rel="noopener noreferrer">{% if a.modalActionLabel %}{{ a.modalActionLabel }}{% elif a.preview %}Mehr{% else %}Bei Amazon ansehen{% endif %} <span aria-hidden="true">&rarr;</span></a></div></div></div>
