@@ -1403,16 +1403,14 @@ module.exports.push({
 });
 
 // Johanna Spyri: QR landing page for the publisher-approved Heidi edition.
-// The first deployment intentionally states only publisher approval. KDP and
-// purchase-link status are advanced after the actual submission is verified.
+// All three Amazon formats and their purchase links verified 2026-09-17.
 module.exports.push({
   "slug": "johanna-spyri",
   "name": "Johanna Spyri",
   "monogram": "JS",
   "dates": "1827–1901",
   "seriesClass": "series-amber",
-  "preview": true,
-  "previewBanner": "Verlagsfreigegeben · KDP-Einreichung wird vorbereitet",
+  "preview": false,
   "sampleLabel": "Zur Ausgabe",
   "portrait": {
     "file": "portrait-spyri",
@@ -1459,7 +1457,7 @@ module.exports.push({
     ["Reihe", "Bernsteinlinie · Säule V"],
     ["Textgrundlage", "Erstausgaben Gotha 1880 und 1881"],
     ["Ausgabe", "296 Seiten · Frontispiz und 17 Tafeln · Hardcover, Taschenbuch und E-Book"],
-    ["Stand", "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"]
+    ["Stand", "Jetzt erhältlich · Hardcover, Taschenbuch und E-Book"]
   ],
   "worksKicker": "Im Programm",
   "worksTitle": "Heidi",
@@ -1474,8 +1472,9 @@ module.exports.push({
       "modal": {
         "metadata": "AETERNUS Verlag · 296 Seiten · Hardcover, Taschenbuch und E-Book",
         "summary": "Von der rauen Ankunft auf der Alm über das Frankfurter Heimweh bis zu Klaras Weg zurück ins Leben: Johanna Spyris zweibändiges Werk vollständig in einem Band.",
-        "sample": "Nach den Erstausgaben von 1880 und 1881, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn eigens geschaffenen Bildtafeln und editorischem Apparat. E-Book 9,99 € · Taschenbuch 16,99 € · Hardcover 24,99 €.",
-        "status": "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"
+        "sample": "Nach den Erstausgaben von 1880 und 1881, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn eigens geschaffenen Bildtafeln und editorischem Apparat. E-Book 9,99 € · Taschenbuch 16,99 € · Hardcover 24,98 €.",
+        "status": "Jetzt erhältlich",
+        "amazon": "https://www.amazon.de/dp/3676050363"
       }
     }
   ]

@@ -908,8 +908,7 @@ module.exports = {
           ]
         },
         {
-          // Johanna Spyris Heidi (JSP_001) ist als E-Book, Taschenbuch und Hardcover bei KDP eingereicht.
-          // Bestelllinks werden erst nach der Freischaltung ergänzt.
+          // Heidi: alle drei Amazon-Ausgaben am 17.09.2026 öffentlich verifiziert.
           name: "Johanna Spyri",
           slug: "johanna-spyri",
           landingUrl: { de: "/autoren/johanna-spyri/", en: "/autoren/johanna-spyri/" },
@@ -920,6 +919,8 @@ module.exports = {
           books: [
             {
               cover: "cover-heidi-spyri",
+              amazonUrl: "https://www.amazon.de/dp/3676050363",
+              asin: { ebook: "B0HJTRVJ17", paperback: "3676050363", hardcover: "3676050371" },
               isbn: "978-3-67605-036-4",
               isbns: {
                 ebook: "978-3-67605-035-7",
@@ -927,14 +928,14 @@ module.exports = {
                 hardcover: "978-3-67605-037-1"
               },
               pages: 296,
-              pricesEur: { ebook: "9,99", paperback: "16,99", hardcover: "24,99" },
+              pricesEur: { ebook: "9,99", paperback: "16,99", hardcover: "24,98" },
               originalTitle: "Heidis Lehr- und Wanderjahre, 1880 · Heidi kann brauchen, was es gelernt hat, 1881",
               title: { de: "Heidi", en: "Heidi" },
               desc: {
                 de: "Beide Originalbände ungekürzt in einer Gesamtausgabe, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn neuen Bildtafeln und editorischem Apparat.",
                 en: "Both original volumes complete in one edition, with gently modernised spelling, a frontispiece, seventeen new full-page plates, and editorial apparatus."
               },
-              status: { de: "Bei KDP eingereicht", en: "Submitted to KDP" }
+              status: { de: "Jetzt erhältlich", en: "Available now" }
             }
           ]
         }
