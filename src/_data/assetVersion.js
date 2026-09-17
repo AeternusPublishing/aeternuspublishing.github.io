@@ -30,4 +30,6 @@ module.exports = () => ({
   style: hash("style.css"),
   fonts: hash("fonts.css"),
   editorial: hash("editorial.css"),
+  author: hash("author-es.css"),
+  authorPreview: hash("author-preview.css"),
 });

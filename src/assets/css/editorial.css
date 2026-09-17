@@ -10,8 +10,8 @@ button{cursor:pointer}
 img{display:block;max-width:100%;height:auto}
 picture{display:block}
 h1,h2,h3,p{margin:0}
-h1,h2,h3{font-family:var(--serif);font-weight:400}
-h1,h2,h3,p,a{overflow-wrap:break-word}
+h1,h2,h3{font-family:var(--serif);font-weight:400;hyphens:auto}
+h1,h2,h3,p,a{overflow-wrap:anywhere}
 h1,h2{letter-spacing:-.045em;line-height:1.07;text-wrap:balance}
 h2{font-size:clamp(32px,3.6vw,51px)}
 em{font-weight:400}
@@ -236,4 +236,5 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .essay-page{padding-block:65px 90px}.essay-heading{max-width:970px;margin-bottom:60px}.essay-heading h1{font-size:clamp(44px,5.6vw,78px);margin:22px 0}.essay-heading>p:not(.kicker){font:21px/1.7 var(--text);color:var(--muted);max-width:760px}.essay-layout{display:grid;grid-template-columns:1fr 1.3fr;gap:9%;align-items:start}.essay-layout aside>img{width:100%;height:310px;object-fit:cover}.essay-layout aside>p{margin-top:20px;font-size:12px;color:var(--muted)}.essay-layout aside>.text-link{margin-top:25px}.essay-body>p{margin-bottom:25px}.editorial-signature{color:var(--gold-dark);font-style:italic}.principle-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin:30px 0 45px}.principle-grid article{border-top:1px solid var(--rule);padding-top:20px}.principle-grid h3{font-size:25px;margin:13px 0}.principle-grid article>p:last-child{font:16px/1.7 var(--text);color:var(--muted)}.press-notes{background:var(--paper-deep);padding:32px}.press-notes h2{font-size:30px}.press-notes>p{border-top:1px solid #cfccbf;padding-top:18px;font-size:14px!important}.contact-lead{font:18px/1.8 var(--text);margin:24px 0}.contact-email{font-size:13px;margin-top:20px}
 @media(max-width:700px){.essay-page{padding-block:40px 55px}.essay-heading{margin-bottom:35px}.essay-heading>p:not(.kicker){font-size:18px}.essay-layout{grid-template-columns:1fr;gap:35px}.essay-layout aside>img{height:250px}.principle-grid{grid-template-columns:1fr 1fr;gap:25px}.series-entry{grid-template-columns:28px 1fr 18px;gap:15px;padding:28px 0}.series-entry h2{font-size:27px}.series-entry p:not(.kicker){font-size:16px}.series-intro{padding:48px 0}.series-intro p:not(.kicker){font-size:18px}}
 @media(max-width:400px){.principle-grid{grid-template-columns:1fr}}
+@media(max-width:360px){.books-grid{grid-template-columns:minmax(0,1fr)}.book-art{height:300px}.detail-copy h1{font-size:36px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}.hero-book:hover{transform:rotate(-5deg)}}

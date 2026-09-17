@@ -12,6 +12,7 @@
     "check:hreflang": "node ./scripts/check-hreflang.js",
     "check:pages": "node ./scripts/check-pages.js",
     "check:editorial": "node ./scripts/check-editorial.cjs",
+    "check:text": "node ./scripts/check-text.cjs",
     "check:qr": "node ./scripts/check-qr-targets.js"
   },
   "keywords": [],

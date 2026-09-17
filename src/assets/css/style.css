@@ -21,7 +21,7 @@
 html,body{background:var(--ink);color:var(--parchment);font-family:var(--font-serif);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;scroll-behavior: smooth;}
 img{display:block;max-width:100%;}
 a{color:inherit;text-decoration:none;}
-h1,h2,h3,h4{font-family:var(--font-display);font-weight:500;letter-spacing:-0.01em;line-height:1.05;}
+h1,h2,h3,h4{font-family:var(--font-display);font-weight:500;letter-spacing:-0.01em;line-height:1.05;overflow-wrap:anywhere;hyphens:auto;}
 ::selection{background:var(--gold);color:var(--ink);}
 section[id] {
   scroll-margin-top: 30px; /* আপনার হেডারের হাইট অনুযায়ী এটি কম-বেশি করতে পারেন */

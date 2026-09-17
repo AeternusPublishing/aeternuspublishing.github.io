@@ -1,6 +1,6 @@
 ---
 title: "Series — AETERNUS VERLAG"
-description: "The six series of AETERNUS VERLAG: Anthracite, Green, Red, Blue, Amber, and White — with the authors and available titles in each."
+description: "The seven series of AETERNUS — with the authors and available titles in each."
 layout: base.njk
 lang: en
 permalink: /en/series/index.html
@@ -21,12 +21,14 @@ permalink: /en/series/index.html
     <div class="catalog-grid">
       {% for card in i18n.seriesItems %}
         <a href="/en/series/{{ card.slug }}/" class="series-overview-card">
-          <div class="series-overview-thumb">
+          <div class="series-overview-thumb"{% if not card.mood.file %} style="background:linear-gradient(135deg,#160c12,{{ card.colorHex }})"{% endif %}>
+            {% if card.mood.file %}
             <picture>
               <source type="image/avif" srcset="/assets/images/{{ card.mood.file }}.avif" />
               <source type="image/webp" srcset="/assets/images/{{ card.mood.file }}.webp" />
               <img src="/assets/images/{{ card.mood.file }}-fallback.jpg" alt="" style="object-position: {{ card.mood.focal }};{% if card.mood.opacity %} opacity: {{ card.mood.opacity }};{% endif %}" loading="lazy" decoding="async" />
             </picture>
+            {% endif %}
           </div>
           <div class="series-overview-body">
             <div class="series-overview-meta">

@@ -39,6 +39,9 @@ jobs:
       - name: Build Eleventy Site
         run: npm run build
 
+      - name: Check text and image integrity
+        run: npm run check:text
+
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
