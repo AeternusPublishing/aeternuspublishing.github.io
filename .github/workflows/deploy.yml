@@ -43,6 +43,7 @@ jobs:
         run: |
           npm run check:text
           npm run check:author-order
+          npm run check:kosmos
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
