@@ -134,7 +134,10 @@
       });
 
       nodes
-        .on("pointerenter", function(event, item) {
+        .on("pointermove", function(event, item) {
+          // A panel disappearing or a layout settling under a stationary
+          // cursor must not choose a different book without pointer movement.
+          if (selectedId || event.pointerType === "touch" || focusId === item.id) return;
           exploredId = item.id;
           this.parentNode.appendChild(this);
           updateFocus();
