@@ -618,3 +618,86 @@ module.exports.push({
     }
   ]
 });
+
+// H. Rider Haggard (HRH_001-EN, King Solomon's Mines). The copy follows the approved
+// English paratext package of the Amber series (PARATEXTE_LIEFERUNG_V2: about the author,
+// back-cover copy, editorial note) as printed in the released edition. The German page
+// /autoren/henry-rider-haggard/ stays the house version; /qr/haggard/ forks by browser
+// language because both editions print that short path. Preview until the English
+// edition is live on Amazon; the ordering links are activated with publication.
+module.exports.push({
+  "slug": "henry-rider-haggard",
+  "name": "H. Rider Haggard",
+  "brand": "AETERNUS",
+  "monogram": "HRH",
+  "dates": "1856&ndash;1925",
+  "seriesClass": "",
+  "preview": true,
+  "previewStatus": "Paperback, hardcover and Kindle in preparation &middot; ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-haggard",
+    "alt": "Historical portrait of Henry Rider Haggard",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1856-06-22",
+    "deathDate": "1925-05-14",
+    "description": "English novelist, colonial official and agricultural writer; author of King Solomon’s Mines (1885) and She (1887)."
+  },
+  "eyebrow": "Amber &middot; Youth, adventure, character",
+  "tagline": "Most alive as a writer when a line across a map opened into country not yet crossed.",
+  "intro": "Colonial official in Natal and the Transvaal, barrister, farmer and romancer: in 1885 Haggard answered the challenge of <i>Treasure Island</i> with an African adventure &mdash; and gave the lost-world story its lasting form.",
+  "metaDescription": "H. Rider Haggard at AETERNUS: King Solomon’s Mines (1885) in the Amber series, following Cassell’s 1887 printing read against the page images, with nine source-bound notes and Walter Paget’s nine plates.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "From the veld<br>to the Norfolk fields",
+  "bioLede": "Those African years gave him something more valuable to the future writer than a catalogue of scenery: a memory of distances, camps, political ceremony and frontier talk.",
+  "blocks": [
+    {
+      "h": "Natal and the Transvaal",
+      "p": [
+        "Henry Rider Haggard was born at Bradenham Hall in Norfolk on 22 June 1856, the eighth child of a large country family. At nineteen he was sent to Natal on the staff of Sir Henry Bulwer, and in 1877 he accompanied Sir Theophilus Shepstone’s mission into the Transvaal at the time of the British annexation. He later served as Master and Registrar of the High Court there.",
+        "He returned to England, entered Lincoln’s Inn and was called to the Bar in January 1885. The law never became his true country."
+      ]
+    },
+    {
+      "h": "The wager with Stevenson",
+      "p": [
+        "Haggard later recalled that a notice of Robert Louis Stevenson’s <i>Treasure Island</i> prompted him to attempt an adventure of his own; a later memoir supplied the famous wager with his brother. What can be said securely is that Stevenson supplied the challenge, and that Haggard wrote under the pressure of emulation rather than the shelter of an established reputation.",
+        "He remembered the writing as taking “about six weeks”, done in the evenings while his days belonged to the Temple; his notebooks place the drafting over roughly sixteen weeks, from January to 21 April 1885. <i>She</i> and <i>Allan Quatermain</i> followed within two years."
+      ]
+    },
+    {
+      "h": "Land and legacy",
+      "p": [
+        "At Ditchingham in Norfolk Haggard became a practical farmer. <i>A Farmer’s Year</i> and the two volumes of <i>Rural England</i> grew from that life, and led him into public service on land settlement and on the Royal Commission on Coast Erosion and Afforestation. He was knighted in 1912.",
+        "He died in London on 14 May 1925; his ashes were buried at St Mary’s, Ditchingham. By then Allan Quatermain had long escaped his maker and entered the common stock of adventure."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Amber line &middot; Pillar V"],
+    ["First edition", "London, Cassell, 1885"],
+    ["Text", "The author’s own English &middot; Cassell 1887"],
+    ["Print edition", "306 pages &middot; nine plates by Walter Paget"],
+    ["Formats", "Paperback &middot; Hardcover &middot; Kindle"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "The first crossing of the map",
+  "worksIntro": "The edition follows Cassell’s 1887 “fifty-third thousand” printing, read against the original page images, and keeps the rougher, less regularised voice in which the first readers met Allan Quatermain. A publisher’s introduction, nine source-bound notes, an afterword and an editorial note on the copy text accompany the novel, together with Walter Paget’s nine plates. Further volumes of the English Haggard series &mdash; <i>Allan Quatermain</i>, <i>She</i>, <i>Ayesha</i> and <i>Nada the Lily</i> &mdash; are in preparation.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-king-solomons-mines" },
+      "meta": "African romance &middot; London &middot; 1885",
+      "title": "King Solomon’s Mines (Annotated)",
+      "subtitle": "An African Romance",
+      "modal": {
+        "metadata": "AETERNUS · Amber series · Volume 1 · 306 print pages · nine plates",
+        "summary": "A faded map, copied from the hand of a dying traveller, marks a road northward across country from which no man is known to have returned. When Sir Henry Curtis asks Allan Quatermain to guide an expedition in search of a lost brother, the old hunter agrees; with Captain Good and the enigmatic Umbopa they go north &mdash; through thirst, battle, kingship, witchcraft and the fatal seduction of buried wealth.",
+        "sample": "The text follows Cassell’s 1887 printing of the 1885 novel, read against the page images, with a named editorial apparatus: publisher’s introduction, nine notes, afterword and editorial note, and the nine plates by Walter Paget. Paperback ISBN 978-3-67605-068-5; hardcover ISBN 978-3-67605-069-2; e-book ISBN 978-3-67605-067-8.",
+        "status": "Paperback, hardcover and Kindle in preparation · ordering links to follow"
+      }
+    }
+  ]
+});

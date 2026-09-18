@@ -31,8 +31,8 @@ const AVAILABLE = {
   "henry-ford": ["de", "en"],
   "lady-florentia-sale": ["de", "en"],
   "robert-baden-powell": ["de", "en"],
-  // Nur Deutsch: die englische, spanische und polnische Fassung existiert noch nicht.
-  "henry-rider-haggard": ["de"],
+  // Deutsch und Englisch (King Solomon's Mines EN); ES/PL existieren noch nicht.
+  "henry-rider-haggard": ["de", "en"],
   "tacitus": ["de"],
   "george-washington-sears": ["de", "en"],
   // Nur Englisch: Shelters, Shacks, and Shanties ist eine englische Originalausgabe,
