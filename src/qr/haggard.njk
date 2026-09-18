@@ -9,17 +9,20 @@ eleventyExcludeFromCollections: true
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,follow">
   <title>H. Rider Haggard · AETERNUS VERLAG</title>
-  <meta http-equiv="refresh" content="0;url=/autoren/henry-rider-haggard/">
+  <meta http-equiv="refresh" content="0;url=/autoren/henry-rider-haggard/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=haggard">
   <link rel="canonical" href="https://aeternus-verlag.de/autoren/henry-rider-haggard/">
   <script>
     const params = new URLSearchParams(window.location.search);
     if (!params.has("utm_source")) params.set("utm_source", "book_qr");
     if (!params.has("utm_medium")) params.set("utm_medium", "print");
     if (!params.has("utm_campaign")) params.set("utm_campaign", "haggard");
-    window.location.replace("/autoren/henry-rider-haggard/?" + params.toString());
+    // Deutsche Ausgabe und englische Ausgabe (Band 1) drucken denselben Kurzweg.
+    const lang = ((navigator.languages && navigator.languages[0]) || navigator.language || "de").toLowerCase();
+    const target = lang.startsWith("de") ? "/autoren/henry-rider-haggard/" : "/en/authors/henry-rider-haggard/";
+    window.location.replace(target + "?" + params.toString());
   </script>
 </head>
 <body>
-  <p><a href="/autoren/henry-rider-haggard/">Zur Autorenseite von H. Rider Haggard</a></p>
+  <p><a href="/autoren/henry-rider-haggard/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=haggard">Zur Autorenseite von H. Rider Haggard</a> · <a href="/en/authors/henry-rider-haggard/?utm_source=book_qr&amp;utm_medium=print&amp;utm_campaign=haggard" hreflang="en">H. Rider Haggard in English</a></p>
 </body>
 </html>
