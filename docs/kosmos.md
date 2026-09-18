@@ -9,3 +9,7 @@
 D3 7.9.0 (ISC), TopoJSON client 3.1.0 (ISC) and Natural Earth land from world-atlas 2.0.2 (public domain) are served locally. Attribution and licenses are in `src/assets/vendor/` and `src/assets/data/`. Exploring the atlas requires no third-party requests.
 
 Run `npm run build`, `npm run check:kosmos`, and the existing text, author-order, editorial, page, hreflang and QR checks. Verify desktop and mobile navigation, focus, direct-neighbor connections, book details, Escape and reduced-motion behavior in the browser. Visitors without JavaScript can follow the catalogue link.
+
+Exploration remains selected after pointer leave or keyboard blur, so visitors can cross empty space to related covers without a timeout. Dimmed books do not intercept pointer or keyboard navigation. Clicking a related cover opens its details; closing details returns to that book's network. Escape, the overview button, empty-map click or a continent choice resets the network. Neighbor positions use a shared central exclusion area, independent of which book is selected.
+
+The current map displays the complete moderate catalogue. Before expanding to 100+ works, add regional aggregation with counts and progressive disclosure (world → region → local book group); keep only the selected book's direct relationships visible. Regional groups must never appear as fabricated books or acquire thematic edges.
