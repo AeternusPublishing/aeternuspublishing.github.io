@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-18",
+  "reason": "Removed broad comparisons: shared genre, epoch, continent or generic motifs alone do not justify a visible book-to-book connection. No specific relation was documented for these pairs.",
+  "removed": [
+    {
+      "source": "woodcraft",
+      "target": "arctic",
+      "reason": "Leichtes Reisen im kanadischen Norden"
+    },
+    {
+      "source": "two-wild",
+      "target": "rolf",
+      "reason": "Jugend, Wildnis und Selbstständigkeit"
+    },
+    {
+      "source": "wild-animals",
+      "target": "rolf",
+      "reason": "Setons erzählte nordamerikanische Wildnis"
+    },
+    {
+      "source": "arctic",
+      "target": "wild-animals",
+      "reason": "Feldbeobachtung und Tierwelt"
+    },
+    {
+      "source": "arctic",
+      "target": "rolf",
+      "reason": "Reise und Überleben in Nordamerika"
+    },
+    {
+      "source": "prempeh",
+      "target": "lady-sale",
+      "reason": "Augenzeugenberichte britischer Feldzüge"
+    },
+    {
+      "source": "prempeh",
+      "target": "haggard",
+      "reason": "Afrika im Zeitalter des Empire"
+    },
+    {
+      "source": "jungle",
+      "target": "haggard",
+      "reason": "Abenteuerliteratur und koloniale Weltbilder"
+    },
+    {
+      "source": "heroes",
+      "target": "bambi",
+      "reason": "Tierleben aus der Perspektive der Tiere"
+    },
+    {
+      "source": "bambi",
+      "target": "wahb",
+      "reason": "Heranwachsen eines Tieres in einer gefährlichen Wildnis"
+    },
+    {
+      "source": "heidi",
+      "target": "pinocchio",
+      "reason": "Kindheit, Bewährung und das Erwachsenwerden"
+    },
+    {
+      "source": "heidi",
+      "target": "two-wild",
+      "reason": "Kindheit und Lernen in der Natur"
+    },
+    {
+      "source": "pinocchio",
+      "target": "grimm",
+      "reason": "Verwandlung, Prüfung und die Härte des Märchens"
+    },
+    {
+      "source": "grimm",
+      "target": "jungle",
+      "reason": "Tiere, Menschen und die Gesetze der Erzählwelt"
+    },
+    {
+      "source": "oregon",
+      "target": "arctic",
+      "reason": "Reiseberichte aus dem nordamerikanischen Binnenland"
+    }
+  ]
+}
