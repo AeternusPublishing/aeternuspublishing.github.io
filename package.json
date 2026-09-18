@@ -14,7 +14,8 @@
     "check:editorial": "node ./scripts/check-editorial.cjs",
     "check:text": "node ./scripts/check-text.cjs",
     "check:author-order": "node ./scripts/check-author-order.cjs",
-    "check:qr": "node ./scripts/check-qr-targets.js"
+    "check:qr": "node ./scripts/check-qr-targets.js",
+    "check:kosmos": "node ./scripts/check-kosmos.cjs"
   },
   "keywords": [],
   "author": "",

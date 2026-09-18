@@ -20,6 +20,25 @@
     <div class="section-heading"><div><p class="kicker">{% if lang == 'en' %}The programme{% else %}Das Verlagsprogramm{% endif %}</p><h2>{% if lang == 'en' %}Worth discovering.{% else %}Eine Entdeckung wert.{% endif %}</h2></div><a class="text-link" href="/buecher/">{% if lang == 'en' %}All books{% else %}Alle Bücher{% endif %} <span aria-hidden="true">→</span></a></div>
     <div class="books-grid">{% for item in catalogue.featured %}{% include 'book-card.njk' %}{% endfor %}</div>
   </section>
+  <section class="cosmos-invitation" aria-labelledby="cosmos-heading">
+    <div class="shell cosmos-invitation-layout">
+      <div>
+        <p class="kicker">{% if lang == 'en' %}The literary atlas{% else %}Der literarische Atlas{% endif %}</p>
+        <h2 id="cosmos-heading">{% if lang == 'en' %}Every book opens<br><em>another world.</em>{% else %}Jedes Buch öffnet<br><em>eine neue Welt.</em>{% endif %}</h2>
+        <p>{% if lang == 'en' %}From the forests of North America to the mountains of Afghanistan. Discover our books on an interactive map — and follow the connections between them.{% else %}Von den Wäldern Nordamerikas bis in die Berge Afghanistans. Entdecken Sie unsere Bücher auf einer interaktiven Weltkarte – und folgen Sie ihren Verbindungen.{% endif %}</p>
+        <a class="button gold-button" href="/kosmos/">{% if lang == 'en' %}Explore the book cosmos (DE){% else %}Den Bücherkosmos entdecken{% endif %} <span aria-hidden="true">→</span></a>
+        <span class="cosmos-count">{{ kosmos.count }} {% if lang == 'en' %}books · one connected world{% else %}Werke · eine verbundene Welt{% endif %}</span>
+      </div>
+      <a class="cosmos-constellation" href="/kosmos/" aria-label="{% if lang == 'en' %}Open the interactive book atlas{% else %}Interaktiven Bücherkosmos öffnen{% endif %}">
+        <svg viewBox="0 0 500 360" aria-hidden="true"><ellipse cx="250" cy="180" rx="223" ry="151"/><ellipse cx="250" cy="180" rx="115" ry="151"/><path d="M27 180H473M52 105Q250 145 448 105M52 255Q250 215 448 255M250 29V331"/><g class="cosmos-trails"><path d="M126 104Q203 116 250 177L380 95M250 177Q171 225 112 270M250 177Q310 248 389 263"/></g></svg>
+        <img class="cosmos-mini cosmos-mini-one" src="/assets/images/cover-waldhandwerk.webp" width="60" height="90" alt="" loading="lazy">
+        <img class="cosmos-mini cosmos-mini-two" src="/assets/images/cover-dschungelbuch-kipling.webp" width="60" height="90" alt="" loading="lazy">
+        <img class="cosmos-mini cosmos-mini-three" src="/assets/images/cover-rolf-in-der-wildnis.webp" width="60" height="90" alt="" loading="lazy">
+        <img class="cosmos-mini cosmos-mini-four" src="/assets/images/cover-sale.webp" width="60" height="90" alt="" loading="lazy">
+        <img class="cosmos-center" src="/assets/images/cover-scouting-for-boys.webp" width="120" height="180" alt="" loading="lazy">
+      </a>
+    </div>
+  </section>
   <section class="discovery-section" id="reihen"><div class="shell">
     <div class="section-heading"><div><p class="kicker">{% if lang == 'en' %}Follow your curiosity{% else %}Der Neugier folgen{% endif %}</p><h2>{% if lang == 'en' %}A world between the covers.{% else %}Eine Welt zwischen den Seiten.{% endif %}</h2></div></div>
     <div class="discovery-grid">

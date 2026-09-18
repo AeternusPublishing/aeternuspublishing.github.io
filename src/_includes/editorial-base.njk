@@ -31,6 +31,7 @@
       <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" hidden>{% if lang == 'en' %}Menu{% else %}Menü{% endif %} <span aria-hidden="true">☰</span></button>
       <nav class="main-navigation" id="main-navigation" aria-label="{% if lang == 'en' %}Main navigation{% else %}Hauptnavigation{% endif %}">
         <a href="/buecher/"{% if section == 'books' %} aria-current="page"{% endif %}>{% if lang == 'en' %}Books (DE){% else %}Bücher{% endif %}</a>
+        <a href="/kosmos/">{% if lang == 'en' %}Book cosmos (DE){% else %}Bücherkosmos{% endif %}</a>
         <a href="{% if lang == 'en' %}/en/series/{% else %}/reihen/{% endif %}">{% if lang == 'en' %}Series{% else %}Reihen{% endif %}</a>
         <a href="{% if lang == 'en' %}/en/edition/{% else %}/edition/{% endif %}">Edition</a>
         <a href="{% if lang == 'en' %}/en/house/{% else %}/verlag/{% endif %}">{% if lang == 'en' %}The house{% else %}Verlag{% endif %}</a>
