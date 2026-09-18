@@ -57,7 +57,6 @@
       const graticule = mapLayer.append("path").attr("class", "graticule");
       const land = mapLayer.append("path").attr("class", "land");
       const edgeLayer = svg.append("g").attr("aria-hidden", "true");
-      const focusCorridor = svg.append("path").attr("class", "focus-corridor").attr("aria-hidden", "true");
       const nodeLayer = svg.append("g");
       const focusBook = d3.select("main").append("button").attr("type", "button")
         .attr("class", "focus-book").attr("tabindex", -1).attr("aria-hidden", "true");
@@ -90,29 +89,22 @@
       let height = innerHeight;
       let currentRegion = "world";
       let selectedId = null;
-      let hoverId = null;
+      let exploredId = null;
       let projection = d3.geoNaturalEarth1();
       let geoPath = d3.geoPath(projection);
       let worldLand = null;
       let focusId = null;
-      let hoverOrigin = null;
-      let leaveTimer;
+      const resetButton = document.getElementById("reset-focus");
 
-      const keepFocus = () => clearTimeout(leaveTimer);
-      const leaveFocus = () => {
-        clearTimeout(leaveTimer);
-        leaveTimer = setTimeout(() => { hoverId = null; updateFocus(); }, 180);
-      };
-
-      focusBook.on("pointerenter", keepFocus).on("pointerleave", leaveFocus)
-        .on("click", () => { if (focusId) openBook(focusId); });
-      focusCorridor.on("pointerenter", keepFocus).on("pointerleave", leaveFocus);
+      // Exploration persists across the empty space between books. Only an
+      // explicit reset, region change or another book changes the selection.
+      focusBook.on("click", () => { if (focusId) openBook(focusId); });
 
       const setFocus = activeId => {
         if (focusId !== activeId) {
           focusId = activeId;
           const item = nodeById.get(activeId);
-          focusBook.classed("is-visible", Boolean(item)).attr("aria-hidden", String(!item));
+          focusBook.classed("is-visible", Boolean(item)).attr("aria-hidden", String(!item)).attr("tabindex", item ? 0 : -1);
           if (item) {
             focusBook.select("img").attr("src", item.coverImageUrl).attr("alt", `Cover von ${item.title}`);
             focusBook.select("strong").text(item.title);
@@ -120,29 +112,37 @@
             focusBook.attr("aria-label", `${item.title}: Details öffnen`);
           }
         }
+        resetButton.hidden = !activeId;
         const related = activeId ? neighbors.get(activeId) : new Set();
         nodes
           .classed("is-active", item => item.id === activeId)
           .classed("is-neighbor", item => Boolean(activeId && related.has(item.id)))
-          .classed("is-dimmed", item => activeId ? item.id !== activeId && !related.has(item.id) : currentRegion !== "world" && item.region !== currentRegion);
+          .classed("is-dimmed", item => activeId ? item.id !== activeId && !related.has(item.id) : currentRegion !== "world" && item.region !== currentRegion)
+          .attr("tabindex", function() { return this.classList.contains("is-dimmed") ? -1 : 0; });
         edges.classed("is-related", link => Boolean(activeId && (link.source.id === activeId || link.target.id === activeId))).classed("is-dimmed", link => activeId ? link.source.id !== activeId && link.target.id !== activeId : currentRegion !== "world" && link.source.region !== currentRegion && link.target.region !== currentRegion);
         renderGraph();
       };
 
-      const updateFocus = () => setFocus(hoverId || selectedId);
+      const updateFocus = () => setFocus(selectedId || exploredId);
+      const clearFocus = () => { exploredId = null; updateFocus(); };
+      resetButton.addEventListener("click", () => {
+        clearFocus();
+        document.querySelector(`[data-region="${currentRegion}"]`).focus({ preventScroll: true });
+      });
+      svg.on("click", event => {
+        if (!event.target.closest(".node") && !selectedId) clearFocus();
+      });
 
       nodes
-        .on("pointerenter", function(event, item) {
-          keepFocus();
-          const [x, y] = d3.pointer(event, svg.node());
-          hoverOrigin = { id: item.id, x, y };
-          hoverId = item.id;
+        .on("pointermove", function(event, item) {
+          // A panel disappearing or a layout settling under a stationary
+          // cursor must not choose a different book without pointer movement.
+          if (selectedId || event.pointerType === "touch" || focusId === item.id) return;
+          exploredId = item.id;
           this.parentNode.appendChild(this);
           updateFocus();
         })
-        .on("pointerleave", leaveFocus)
-        .on("focus", (_, item) => { keepFocus(); hoverId = item.id; updateFocus(); })
-        .on("blur", leaveFocus)
+        .on("focus", (_, item) => { exploredId = item.id; updateFocus(); })
         .on("pointerup", (event, item) => {
           if (event.button === 0 || event.pointerType === "touch" || event.pointerType === "pen") openBook(item.id);
         })
@@ -156,14 +156,14 @@
         const halfWidth = (coverHeight / 3 + 25) * scale;
         const halfHeight = (coverHeight / 2 + 65) * scale;
         const active = nodeById.get(focusId);
-        const position = item => {
-          if (item.id === focusId) return center;
-          if (!active || !neighbors.get(focusId).has(item.id)) return item;
+        const nodePosition = item => {
+          if (!active) return item;
           const dx = item.x - center.x, dy = item.y - center.y;
           const radius = Math.max(halfWidth, halfHeight) + 45 * scale;
           const distance = Math.hypot(dx, dy) || 1;
           return distance < radius ? { x: center.x + (dx || 1) / distance * radius, y: center.y + dy / distance * radius } : item;
         };
+        const position = item => item.id === focusId ? center : nodePosition(item);
         edges.attr("d", link => {
           let source = position(link.source), target = position(link.target);
           // End the line at the featured book's boundary, not behind its cover.
@@ -180,19 +180,9 @@
           return `M${source.x},${source.y} Q${(source.x + target.x) / 2 - dy / length * bend},${(source.y + target.y) / 2 + dx / length * bend} ${target.x},${target.y}`;
         });
         nodes.attr("transform", item => {
-          const point = item.id === focusId ? item : position(item);
+          const point = nodePosition(item);
           return `translate(${point.x},${point.y})`;
         });
-        if (active) {
-          const origin = hoverOrigin?.id === active.id ? hoverOrigin : active;
-          const hull = d3.polygonHull([
-            [origin.x - 22, origin.y - 28], [origin.x + 22, origin.y - 28],
-            [origin.x + 22, origin.y + 28], [origin.x - 22, origin.y + 28],
-            [center.x - halfWidth, center.y - halfHeight], [center.x + halfWidth, center.y - halfHeight],
-            [center.x + halfWidth, center.y + halfHeight], [center.x - halfWidth, center.y + halfHeight]
-          ]);
-          focusCorridor.attr("d", `M${hull.join("L")}Z`);
-        } else focusCorridor.attr("d", null);
       }
 
       const simulation = d3.forceSimulation(nodesData)
@@ -229,7 +219,10 @@
         else { svg.attr("viewBox", target); renderGraph(); }
       };
 
-      document.querySelectorAll("[data-region]").forEach(button => button.addEventListener("click", () => chooseRegion(button.dataset.region)));
+      document.querySelectorAll("[data-region]").forEach(button => button.addEventListener("click", () => {
+        exploredId = null;
+        chooseRegion(button.dataset.region);
+      }));
 
       const panel = document.getElementById("book-panel");
       const panelCover = document.getElementById("panel-cover");
@@ -237,11 +230,10 @@
       const amazonLink = document.getElementById("amazon-link");
 
       function openBook(id) {
-        keepFocus();
         const item = nodeById.get(id);
         if (!item) return;
         selectedId = id;
-        hoverId = null;
+        exploredId = id;
         updateFocus();
         panelCover.src = item.coverImageUrl;
         panelCover.alt = `Cover von ${item.title}`;
@@ -274,7 +266,7 @@
         if (!selectedId) return;
         const previous = selectedId;
         selectedId = null;
-        hoverId = null;
+        exploredId = previous;
         document.body.classList.remove("panel-open");
         panel.inert = true;
         document.querySelectorAll("main, .atlas-home, .atlas-catalogue").forEach(element => { element.inert = false; });
@@ -292,6 +284,12 @@
         openBook(related.id);
       });
       document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && !selectedId && exploredId) {
+          event.preventDefault();
+          clearFocus();
+          document.querySelector(`[data-region="${currentRegion}"]`).focus({ preventScroll: true });
+          return;
+        }
         if (!selectedId) return;
         if (event.key === "Escape") { event.preventDefault(); closePanel(); }
         if (event.key === "Tab") {
