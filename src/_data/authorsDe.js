@@ -1019,7 +1019,7 @@ module.exports = [
     "monogram": "TAC",
     "dates": "um 56–nach 117",
     "seriesClass": "series-red",
-    "preview": true,
+    "preview": false,
     "portrait": {
       "file": "portrait-tacitus-umschlag",
       "alt": "Tacitus im roten Senatorenmantel, Umschlagmotiv der Aeternus-Ausgabe der Annalen",
@@ -1033,7 +1033,7 @@ module.exports = [
     "eyebrow": "Rot · Imperien, Herrscher und Staatskunst",
     "tagline": "Ohne Zorn und Eifer.",
     "intro": "Senator, Konsul, Prokonsul der Provinz Asia und der schärfste Beobachter des frühen Prinzipats: Tacitus schrieb die Geschichte der Kaiser von Tiberius bis Nero als Mann aus der Mitte der Macht — kalt, verknappt, ohne Rücksicht auf den Ruf der Herrschenden.",
-    "metaDescription": "Tacitus: Leben, Werk und die in Vorbereitung befindliche zweibändige deutsche Ausgabe der Annalen in der Roten Linie des Aeternus Verlags.",
+    "metaDescription": "Tacitus: Leben, Werk und die erschienene zweibändige deutsche Ausgabe der Annalen in der Roten Linie des Aeternus Verlags.",
     "ogDescription": "Die Zerlegung der Herrschaftsarchitektur von Tiberius bis Nero. Leben und Werk des Cornelius Tacitus.",
     "bioKicker": "Biografie",
     "bioTitle": "Ein Senator<br>seziert das Prinzipat",
@@ -1076,40 +1076,42 @@ module.exports = [
       ],
       [
         "Status",
-        "In Vorbereitung"
+        "Erschienen"
       ]
     ],
-    "worksKicker": "In Vorbereitung",
+    "worksKicker": "Jetzt erhältlich",
     "worksTitle": "Die Annalen in zwei Bänden",
-    "worksIntro": "Die deutsche Neuübersetzung folgt dem erhaltenen Text vollständig: Band I umfasst die tiberische Epoche (Bücher I–VI), Band II die klaudisch-neronische Epoche (Bücher XI–XVI). Beide Bände erscheinen als Hardcover, mit Personen-, Orts- und Sachregister.",
+    "worksIntro": "Die deutsche Neuübersetzung folgt dem erhaltenen Text vollständig: Band I umfasst die tiberische Epoche (Bücher I–VI), Band II die klaudisch-neronische Epoche (Bücher XI–XVI). Beide Bände sind als Hardcover erschienen, mit Personen-, Orts- und Sachregister.",
     "gridClass": "single-row",
     "books": [
       {
         "cover": {
           "img": "cover-tacitus-annalen-band-1"
         },
-        "meta": "Geschichtswerk · Rom · um 117 n. Chr.",
+        "meta": "Geschichtswerk · Rom · um 117 n. Chr. · Erschienen",
         "title": "Die Annalen · Band I",
         "subtitle": "Tiberische Epoche · Bücher I–VI",
         "modal": {
-          "metadata": "Aeternus Verlag · Rote Linie · Hardcover · in Vorbereitung",
+          "metadata": "Aeternus Verlag · Rote Linie · Hardcover · erschienen",
           "summary": "Rom nach Augustus. Unter Tiberius wird die Republik zur Fassade, der Senat zum Schauplatz von Furcht, Ehrgeiz und Verrat. Tacitus schreibt Geschichte als Machtanalyse: knapp, kalt und psychologisch unerbittlich.",
           "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Oxforder Edition von 1906. Textverluste der Überlieferung bleiben sichtbar; nichts wird ergänzt, nichts geglättet.",
-          "amazon": "/"
+          "amazon": "/",
+          "status": "Erschienen · Bestelllink wird ergänzt"
         }
       },
       {
         "cover": {
           "img": "cover-tacitus-annalen-band-2"
         },
-        "meta": "Geschichtswerk · Rom · um 117 n. Chr.",
+        "meta": "Geschichtswerk · Rom · um 117 n. Chr. · Erschienen",
         "title": "Die Annalen · Band II",
         "subtitle": "Klaudisch-neronische Epoche · Bücher XI–XVI",
         "modal": {
-          "metadata": "Aeternus Verlag · Rote Linie · Hardcover · in Vorbereitung",
+          "metadata": "Aeternus Verlag · Rote Linie · Hardcover · erschienen",
           "summary": "Unter Claudius und Nero wird die römische Republik endgültig zur blutigen Fassade. Der Senat verkommt zum Schauplatz von Unterwerfung, Furcht und Verrat. Tacitus kannte diese Welt als Senator aus nächster Nähe – und schreibt doch, wie er verspricht, ohne Zorn und Eifer: Geschichte als Psychologie der Macht, knapp, unbarmherzig und frei von Illusionen.",
           "sample": "Der zweite Band umfasst die erhaltenen Bücher XI–XVI, von den Intrigen der Messalina bis zum Tod des Thrasea Paetus. Textverluste bleiben sichtbar; Band II schließt mit den Registern der Personen, Orte und Sachen.",
-          "amazon": "/"
+          "amazon": "/",
+          "status": "Erschienen · Bestelllink wird ergänzt"
         }
       }
     ]
