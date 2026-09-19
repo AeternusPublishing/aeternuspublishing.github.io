@@ -9,9 +9,11 @@
 .series-green .hero::before{filter:grayscale(.35) sepia(.18) saturate(.55)}
 .series-green .biography{background:radial-gradient(circle at 85% 12%,rgba(74,97,55,.16),transparent 28%),linear-gradient(135deg,#e6e4d3,#ccccb4)}
 
-.series-red{--accent:#a8433f;--accent-2:#d9a09a;--accent-dark:#5a1c1c;--line:rgba(217,160,154,.26)}
+.series-red{--accent:#d16443;--accent-2:#d6b36e;--accent-dark:#7c1c1c;--line:rgba(124,28,28,.38)}
 .series-red .hero::before{filter:grayscale(.45) sepia(.12) saturate(.6)}
-.series-red .biography{background:radial-gradient(circle at 85% 12%,rgba(124,28,28,.14),transparent 28%),linear-gradient(135deg,#e6e0da,#cfc6c0)}
+.series-red .biography{background:radial-gradient(circle at 85% 12%,rgba(124,28,28,.14),transparent 28%),linear-gradient(135deg,#e9e0d1,#d4c6b0)}
+.series-red .works{background:radial-gradient(circle at 11% 11%,rgba(124,28,28,.2),transparent 27%),radial-gradient(circle at 83% 80%,rgba(124,28,28,.12),transparent 31%),#100d0c}
+.series-red .primary-cta{background:linear-gradient(100deg,#d6b36e,#c79b52)}
 
 /* Portraets dieser Baende liegen koloriert bzw. farbig vor. Die harte
    Graustufen-Regel aus author-es.css wuerde diese Kolorierung wegwerfen,
