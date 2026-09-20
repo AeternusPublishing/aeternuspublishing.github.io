@@ -414,13 +414,14 @@ module.exports = {
               },
               pages: 528,
               pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "27,99" },
+              asin: { ebook: "B0HJRF4X59", paperback: "367605024X", hardcover: "3676050258" },
+              amazonUrl: "https://www.amazon.de/dp/367605024X",
               originalTitle: "The California and Oregon Trail, New York 1849",
               title: { de: "Der Oregon Trail", en: "Der Oregon Trail (German edition)" },
               desc: {
                 de: "Neue deutsche Übersetzung nach der Erstausgabe von 1849, mit vollständigem Mottobestand, 13 eigens geschaffenen Tafeln, Autorenporträt und editorischem Apparat.",
                 en: "A new German translation based on the 1849 first edition, with the complete set of chapter epigraphs, 13 newly created plates, an author portrait, and editorial apparatus."
-              },
-              status: { de: "Bei KDP eingereicht", en: "Submitted to KDP" }
+              }
             }
           ],
           upcoming: []
@@ -505,8 +506,13 @@ module.exports = {
                 de: "Das Original-Handbuch der Pfadfinderbewegung in vollständiger deutscher Übersetzung, mit den Zeichnungen der Erstausgabe und neuem editorischem Apparat.",
                 en: "The original handbook of the Scout movement in a complete German translation, with the first edition drawings and new editorial material."
               },
-              isbn: "978-3-67605-007-4 / 978-3-67605-008-1",
-              status: { de: "Bei KDP eingereicht", en: "Submitted to KDP" }
+              isbn: "978-3-67605-007-4",
+              isbns: {
+                paperback: "978-3-67605-007-4",
+                hardcover: "978-3-67605-008-1"
+              },
+              asin: { paperback: "367605007X", hardcover: "3676050088" },
+              amazonUrl: "https://www.amazon.de/dp/367605007X"
             }
           ]
         },
@@ -526,8 +532,13 @@ module.exports = {
                 de: "Vollständige deutsche Neuübersetzung der Londoner Ausgabe von 1787 – mit allen fünf Karten und Plänen sowie sämtlichen Dokumenten des Anhangs.",
                 en: "A complete German translation of the 1787 London edition, including all five maps and plans and every document in the appendix."
               },
-              isbn: "978-3-912883-70-1 / 978-3-912883-71-8 / 978-3-912883-72-5",
-              status: { de: "Veröffentlichung in Vorbereitung", en: "Publication in preparation" }
+              isbn: "978-3-912883-70-1",
+              isbns: {
+                paperback: "978-3-912883-70-1",
+                hardcover: "978-3-912883-71-8"
+              },
+              asin: { paperback: "391288370X", hardcover: "3912883718" },
+              amazonUrl: "https://www.amazon.de/dp/391288370X"
             }
           ]
         }
@@ -930,7 +941,7 @@ module.exports = {
                 hardcover: "978-3-67605-037-1"
               },
               pages: 296,
-              pricesEur: { ebook: "9,99", paperback: "16,99", hardcover: "24,98" },
+              pricesEur: { ebook: "9,99", paperback: "16,99", hardcover: "24,99" },
               originalTitle: "Heidis Lehr- und Wanderjahre, 1880 · Heidi kann brauchen, was es gelernt hat, 1881",
               title: { de: "Heidi", en: "Heidi" },
               desc: {
