@@ -814,16 +814,17 @@ module.exports = {
                 hardcover: "978-3-67605-010-4"
               },
               pages: 352,
-              pricesEur: { ebook: "10,99", paperback: "19,00", hardcover: "27,99" },
-              amazonUrl: "https://www.amazon.de/s?k=9783676050098",
+              pricesEur: { paperback: "19,00", hardcover: "27,99" },
+              asin: { paperback: "3676050096", hardcover: "367605010X" },
+              amazonUrl: "https://www.amazon.de/dp/3676050096",
               originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
               title: {
                 de: "Das Buch des Waldhandwerks und der Indianerweisheit · Band I",
                 en: "The Book of Woodcraft and Indian Lore · German Edition, Volume I"
               },
               desc: {
-                de: "Die Weisheit des Stammes: Setons Naturphilosophie, Stammesordnung und Charakterbildung in deutscher Erstübersetzung. Bei KDP eingereicht; Veröffentlichung ausstehend.",
-                en: "The Wisdom of the Tribe in the first German translation. Submitted to KDP; publication pending."
+                de: "Die Weisheit des Stammes: Setons Naturphilosophie, Stammesordnung und Charakterbildung in deutscher Erstübersetzung.",
+                en: "The Wisdom of the Tribe in the first German translation."
               }
             },
             {
@@ -836,16 +837,17 @@ module.exports = {
                 hardcover: "978-3-67605-013-5"
               },
               pages: 406,
-              pricesEur: { ebook: "10,99", paperback: "19,00", hardcover: "27,99" },
-              amazonUrl: "https://www.amazon.de/s?k=9783676050128",
+              pricesEur: { paperback: "19,00", hardcover: "27,99" },
+              asin: { paperback: "3676050126", hardcover: "3676050134" },
+              amazonUrl: "https://www.amazon.de/dp/3676050126",
               originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
               title: {
                 de: "Das Buch des Waldhandwerks und der Indianerweisheit · Band II",
                 en: "The Book of Woodcraft and Indian Lore · German Edition, Volume II"
               },
               desc: {
-                de: "Das Handwerk des Waldläufers: Feuer, Fährtenlesen, Naturkunde, Zufluchten und Kanubau. Bei KDP eingereicht; Veröffentlichung ausstehend.",
-                en: "The Woodcrafter's Practice: fire, tracking, natural history, shelters, and canoe building. Submitted to KDP; publication pending."
+                de: "Das Handwerk des Waldläufers: Feuer, Fährtenlesen, Naturkunde, Zufluchten und Kanubau.",
+                en: "The Woodcrafter's Practice: fire, tracking, natural history, shelters, and canoe building."
               }
             }
           ],
