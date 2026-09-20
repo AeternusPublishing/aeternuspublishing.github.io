@@ -713,6 +713,27 @@
       "landingUrl": "https://aeternus-verlag.de/bernstein-maerchen/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/bernstein-maerchen/"
+    },
+    {
+      "id": "texas-rangers",
+      "title": "Sechs Jahre bei den Texas Rangers",
+      "author": "James B. Gillett",
+      "year": "1921",
+      "region": "north-america",
+      "location": [
+        -100.9,
+        30.6
+      ],
+      "place": "Zentral- und Westtexas, Rio Grande",
+      "status": "Im Programm",
+      "statusDetail": "Im Programm",
+      "language": "Deutsch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-texas-rangers-gillett.webp",
+      "subtitle": "1875 bis 1881",
+      "summary": "Die Erinnerungen eines Ranger des Frontier Battalion: Patrouillen, Verfolgungen und Gefechte zwischen San Saba und Rio Grande.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/james-b-gillett/",
+      "amazonUrl": "https://www.amazon.de/dp/3676050452",
+      "sourceUrl": "https://aeternus-verlag.de/autoren/james-b-gillett/"
     }
   ],
   "links": [

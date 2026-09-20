@@ -1644,3 +1644,82 @@ module.exports.push({
     }
   ]
 });
+
+
+// James B. Gillett: Autorenseite und Ziel des QR-Kurzwegs /qr/gillett/ aus der
+// Schlussseite von „Sechs Jahre bei den Texas Rangers“ (JBG_001). Biografie
+// wortgetreu aus dem verlagsfreigegebenen Autorenportraet des Bandes.
+module.exports.push({
+  "slug": "james-b-gillett",
+  "name": "James B. Gillett",
+  "monogram": "JBG",
+  "dates": "1856\u20131937",
+  "seriesClass": "series-green",
+  "preview": false,
+  "portrait": {
+    "file": "portrait-gillett",
+    "alt": "James B. Gillett als Texas Ranger, historisches Autorenportr\u00e4t",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1856-11-04",
+    "deathDate": "1937-06-11",
+    "description": "Texas Ranger, City Marshal von El Paso, Viehz\u00fcchter und Chronist der texanischen Frontier."
+  },
+  "eyebrow": "Gr\u00fcne Reihe \u00b7 Grenzland & Ordnungsdienst",
+  "tagline": "Sechs Jahre im Sattel, aufgeschrieben vierzig Jahre sp\u00e4ter.",
+  "intro": "Mit achtzehn Jahren trat Gillett in das Frontier Battalion der Texas Rangers ein. Sein Bericht von 1921 ist keine Geschichtsschreibung, sondern die Erinnerung eines Beteiligten: unmittelbar, konkret und ohne erfundene Abenteuer.",
+  "metaDescription": "James B. Gillett bei AETERNUS: Sechs Jahre bei den Texas Rangers, 1875 bis 1881 \u2014 die Erinnerungen eines Ranger des Frontier Battalion in neuer deutscher \u00dcbersetzung.",
+  "ogDescription": "Texas Ranger, City Marshal, Viehz\u00fcchter: Leben und Werk von James B. Gillett.",
+  "bioKicker": "Autor & Kontext",
+  "bioTitle": "Sechs Jahre<br>im Frontier<br>Battalion",
+  "bioLede": "Ein Zeuge aus dem Inneren des Dienstes \u2014 ohne Ausschm\u00fcckung, ohne Dime-Novel-Firnis.",
+  "blocks": [
+    {
+      "h": "Herkunft & Dienstantritt",
+      "p": [
+        "James Buchanan Gillett wurde am 4. November 1856 in Austin, Texas, geboren. Seine Kindheit begann nicht im offenen Grenzland, sondern in der Hauptstadt des Staates. Erst als die Familie 1872 nach Lampasas zog, trat jene Welt in sein Leben, die ihn pr\u00e4gen sollte: Weideland, Viehtriebe, lange Ritte und Ansiedlungen, hinter denen die staatliche Ordnung rasch an Reichweite verlor.",
+        "Nach dem Tod seines Vaters ging Gillett nach Menardville. Am 1. Juni 1875 trat er, achtzehn Jahre alt, in Captain Daniel W. Roberts\u2019 Company D des Frontier Battalion ein."
+      ]
+    },
+    {
+      "h": "Sechs Jahre Ranger-Dienst",
+      "p": [
+        "Sechs Jahre lang diente er in mehreren Kompanien der Texas Rangers. Er ritt Patrouillen durch Zentral- und Westtexas, verfolgte Viehdiebe und gesuchte Verbrecher und nahm an Eins\u00e4tzen gegen Kiowa, Comanchen und Lipan-Apachen teil. Der Dienst f\u00fchrte ihn vom San Saba bis an den Rio Grande und in das weite Land westlich des Pecos.",
+        "Im Juli 1878 geh\u00f6rte Gillett zu jener Abteilung, die in einem Gewaltmarsch nach Round Rock aufbrach, um den geplanten Bank\u00fcberfall der Sam-Bass-Bande zu verhindern. Das Feuergefecht war bereits vor\u00fcber, als seine Einheit eingriff; am folgenden Morgen fanden die Ranger den t\u00f6dlich verwundeten Sam Bass unter einer Eiche."
+      ]
+    },
+    {
+      "h": "El Paso, Ranch und Buch",
+      "p": [
+        "Gillett schied am 26. Dezember 1881 auf eigenen Wunsch und im Rang eines First Sergeant aus dem Ranger-Dienst. Nach einer kurzen T\u00e4tigkeit bei der Santa Fe Railroad wurde er Assistant City Marshal von El Paso und 1882 City Marshal. Das Amt verlangte dieselbe Entschlossenheit wie die Frontier, doch unter anderen Bedingungen: in einer rasch wachsenden Eisenbahnstadt, in der Handel, Gl\u00fccksspiel, Einwanderung und Gewalt auf engem Raum zusammentrafen.",
+        "1885 gab Gillett den Polizeidienst auf und kehrte zur Viehwirtschaft zur\u00fcck. In Westtexas baute er sich als Rancher eine zweite Laufbahn auf; 1923 zog er sich nach Marfa zur\u00fcck. Der sp\u00e4ter gebr\u00e4uchliche Titel Captain war eine Ehrenbezeichnung und nicht sein letzter Dienstrang bei den Rangers.",
+        "1921 ver\u00f6ffentlichte Gillett <i>Six Years with the Texas Rangers, 1875 to 1881</i>. Statt einer vollst\u00e4ndigen Geschichte bot er die Erinnerungen eines Beteiligten: unmittelbar, konkret und ohne erfundene Abenteuer. Am 11. Juni 1937 starb James B. Gillett in Temple, Texas. Sein Buch blieb als eines der bedeutenden pers\u00f6nlichen Zeugnisse aus der Zeit des Frontier Battalion im Druck."
+      ]
+    }
+  ],
+  "facts": [
+    ["Reihe", "Gr\u00fcne Reihe \u00b7 S\u00e4ule II"],
+    ["Textgrundlage", "<i>Six Years with the Texas Rangers, 1875 to 1881</i>, Erstausgabe 1921"],
+    ["Ausgabe", "285 Seiten \u00b7 Frontispiz, acht Originaltafeln, Karte, Zeittafel, Glossar und Personenverzeichnis"],
+    ["ISBN", "Taschenbuch 978-3-67605-045-6 \u00b7 Hardcover 978-3-67605-094-4"]
+  ],
+  "worksKicker": "Im Programm",
+  "worksTitle": "Sechs Jahre bei den Texas Rangers",
+  "worksIntro": "Vollst\u00e4ndige deutsche \u00dcbersetzung der Erstausgabe von 1921 mit allen acht Originaltafeln, dem Vorwort des Verfassers, einer Karte des Einsatzraums sowie Zeittafel, Glossar und Personenverzeichnis. Die englische Originalausgabe erscheint parallel.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-texas-rangers-gillett" },
+      "meta": "Illustrierte Ausgabe \u00b7 1921 \u00b7 285 Seiten",
+      "title": "Sechs Jahre bei den Texas Rangers",
+      "subtitle": "1875 bis 1881",
+      "modal": {
+        "metadata": "AETERNUS Verlag \u00b7 285 Seiten \u00b7 E-Book, Taschenbuch und Hardcover",
+        "summary": "Am 1. Juni 1875 tritt der achtzehnj\u00e4hrige Gillett in Company D des Frontier Battalion ein. Vor ihm liegen Tage im Sattel, die Verfolgung von Viehdieben und M\u00f6rdern, Gefechte mit Kiowa, Comanchen und Apachen und sp\u00e4ter das Amt des City Marshal von El Paso.",
+        "sample": "Vierzig Jahre danach schrieb Gillett diese Erinnerungen nieder \u2014 in einer Sprache, die schlicht und konkret bleibt und ohne Dime-Novel-Firnis auskommt.",
+        "amazon": "https://www.amazon.de/dp/3676050452"
+      }
+    }
+  ]
+});
