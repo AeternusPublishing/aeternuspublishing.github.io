@@ -375,7 +375,7 @@ module.exports = [
     "eyebrow": "Blau · Wirtschaft, Industrie und die Titanen des Fortschritts",
     "tagline": "Die Fabrik als Argument.",
     "intro": "Mechaniker, Fabrikant, Weltveränderer und Streitfall: Ford beschrieb in eigenen Büchern, wie Arbeit, Maschine und Lohn ineinandergreifen sollten — knapp, unbeirrbar und in einer Sprache, die keine Umschweife kennt.",
-    "metaDescription": "Henry Ford: Leben, Werk und die neue deutsche Ausgabe von Mein Leben und Werk in der Blauen Reihe des Aeternus Verlags — als Paperback und Kindle-eBook bei Amazon eingereicht.",
+    "metaDescription": "Henry Ford: Leben, Werk und die neue deutsche Ausgabe von Mein Leben und Werk in der Blauen Reihe des Aeternus Verlags — als Paperback und Kindle-eBook bei Amazon erhältlich.",
     "ogDescription": "Die Fabrik als Argument. Leben und Werk von Henry Ford.",
     "bioKicker": "Biografie",
     "bioTitle": "Ein Handwerker,<br>der die Arbeit<br>neu ordnete",
@@ -418,7 +418,7 @@ module.exports = [
       ],
       [
         "Status",
-        "Bei Amazon eingereicht"
+        "Bei Amazon erhältlich"
       ]
     ],
     "worksKicker": "Neu bei Aeternus",
@@ -551,7 +551,7 @@ module.exports = [
     "eyebrow": "Grün · Militär, Expeditionen, Grenzräume",
     "tagline": "Ein Handbuch, das eine Weltbewegung auslöste.",
     "intro": "Offizier, Kundschafter, Zeichner und Erzähler: Baden-Powell schrieb 1908 ein Anleitungsbuch für Jungen — und begründete damit unabsichtlich eine der größten Jugendbewegungen der Welt.",
-    "metaDescription": "Robert Baden-Powell bei AETERNUS: Scouting for Boys in vollständiger deutscher Übersetzung, als Taschenbuch und Hardcover bei KDP eingereicht.",
+    "metaDescription": "Robert Baden-Powell bei AETERNUS: Scouting for Boys in vollständiger deutscher Übersetzung, als Taschenbuch und Hardcover bei Amazon erhältlich.",
     "ogDescription": "Ein Handbuch, das eine Weltbewegung ausloeste. Leben und Werk von Robert Baden-Powell.",
     "bioKicker": "Biografie",
     "bioTitle": "Vom Spähtrupp<br>zur Bewegung",
@@ -594,12 +594,12 @@ module.exports = [
       ],
       [
         "Status",
-        "Bei KDP eingereicht"
+        "Bei Amazon erhältlich"
       ]
     ],
     "worksKicker": "Neuerscheinung",
     "worksTitle": "Der Gründungstext",
-    "worksIntro": "Das Handbuch von 1908 in vollem Umfang: Lagerkunde, Spurenlesen, Proben und Erzählungen — vollständig übersetzt, mit den Zeichnungen der Erstausgabe, 41 neuen Tafeln und editorischer Einordnung. Taschenbuch und Hardcover sind bei KDP eingereicht; die Bestelllinks folgen nach Freischaltung.",
+    "worksIntro": "Das Handbuch von 1908 in vollem Umfang: Lagerkunde, Spurenlesen, Proben und Erzählungen — vollständig übersetzt, mit den Zeichnungen der Erstausgabe, 41 neuen Tafeln und editorischer Einordnung. Taschenbuch und Hardcover sind bei Amazon erhältlich.",
     "gridClass": "single-item",
     "books": [
       {
@@ -626,8 +626,7 @@ module.exports = [
         "modal": {
           "metadata": "504 Seiten · Taschenbuch 19,99 € · Hardcover 34,99 €",
           "summary": "London 1908: Ein Offizier schreibt sein Militärhandbuch für Kundschafter zu einem Buch für Jungen um. Lagerkunde, Spurenlesen, Erste Hilfe, Mutproben und Lagerfeuergeschichten stehen nebeneinander — und wurden zum Gründungstext der Pfadfinderbewegung.",
-          "sample": "Vollständige deutsche Übersetzung der Erstausgabe von 1908 mit den Zeichnungen des Autors, 41 neuen Tafeln, 29 redaktionellen Anmerkungen, Glossar, Autorenporträt, Verlagsvorwort und Editorischem Nachwort. Taschenbuch: ISBN 978-3-67605-007-4. Hardcover: ISBN 978-3-67605-008-1.",
-          "status": "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"
+          "sample": "Vollständige deutsche Übersetzung der Erstausgabe von 1908 mit den Zeichnungen des Autors, 41 neuen Tafeln, 29 redaktionellen Anmerkungen, Glossar, Autorenporträt, Verlagsvorwort und Editorischem Nachwort. Taschenbuch: ISBN 978-3-67605-007-4. Hardcover: ISBN 978-3-67605-008-1."
         }
       }
     ]
@@ -944,7 +943,7 @@ module.exports = [
     "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
     "tagline": "Er ging in die Prärie, um zu sehen, worüber er schreiben wollte.",
     "intro": "Bostoner Patriziersohn und später der große Historiker des Ringens zwischen Frankreich und England um Nordamerika. 1846, mit zweiundzwanzig Jahren, zog er den Oregon Trail hinauf und lebte Wochen in einem Lager der Oglala.",
-    "metaDescription": "Francis Parkman bei AETERNUS: Der Oregon Trail in neuer deutscher Übersetzung nach der Erstausgabe von 1849, 528 Seiten, bei KDP eingereicht.",
+    "metaDescription": "Francis Parkman bei AETERNUS: Der Oregon Trail in neuer deutscher Übersetzung nach der Erstausgabe von 1849, 528 Seiten, bei Amazon erhältlich.",
     "ogDescription": "Die Prärie von 1846, gesehen von einem jungen Bostoner. Leben und Werk Francis Parkmans.",
     "bioKicker": "Autor & Kontext",
     "bioTitle": "Erst die Reise,<br>dann die Geschichte",
@@ -992,7 +991,7 @@ module.exports = [
     ],
     "worksKicker": "Im Programm",
     "worksTitle": "Der Oregon Trail",
-    "worksIntro": "Der Satz umfasst 528 Seiten mit 13 Tafeln und dem Autorenporträt. Hardcover, Taschenbuch und E-Book sind bei KDP eingereicht; die Bestelllinks folgen nach der Freischaltung. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
+    "worksIntro": "Der Satz umfasst 528 Seiten mit 13 Tafeln und dem Autorenporträt. Hardcover, Taschenbuch und E-Book sind bei Amazon erhältlich. Ein Klick öffnet Einordnung und Stand der Ausgabe.",
     "gridClass": "single-item",
     "books": [
       {
@@ -1005,8 +1004,7 @@ module.exports = [
         "modal": {
           "metadata": "AETERNUS Verlag · 528 Seiten · Hardcover, Taschenbuch und E-Book",
           "summary": "Sommer 1846: Zwei junge Bostoner reiten von Missouri aus in die Prärie, das Platte-Tal hinauf bis Fort Laramie, und leben Wochen in einem Lager der Oglala. Parkmans Bericht zeigt die Great Plains im Jahr der großen Auswanderung – Büffeljagd, Handelsposten, Trapper und Stämme, gesehen ohne spätere Verklärung.",
-          "sample": "Die deutsche Ausgabe folgt der Erstausgabe von 1849, nicht dem verbreiteten Digitaltext: Parkmans eigene Schreibungen der Völker- und Ortsnamen, der vollständige Mottobestand und die Schlussanmerkung über Henry Chatillon bleiben erhalten.",
-          "status": "Bei KDP eingereicht · Bestelllinks folgen nach Freischaltung"
+          "sample": "Die deutsche Ausgabe folgt der Erstausgabe von 1849, nicht dem verbreiteten Digitaltext: Parkmans eigene Schreibungen der Völker- und Ortsnamen, der vollständige Mottobestand und die Schlussanmerkung über Henry Chatillon bleiben erhalten."
         }
       }
     ]
@@ -1472,7 +1470,7 @@ module.exports.push({
       "modal": {
         "metadata": "AETERNUS Verlag · 296 Seiten · Hardcover, Taschenbuch und E-Book",
         "summary": "Von der rauen Ankunft auf der Alm über das Frankfurter Heimweh bis zu Klaras Weg zurück ins Leben: Johanna Spyris zweibändiges Werk vollständig in einem Band.",
-        "sample": "Nach den Erstausgaben von 1880 und 1881, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn eigens geschaffenen Bildtafeln und editorischem Apparat. E-Book 9,99 € · Taschenbuch 16,99 € · Hardcover 24,98 €.",
+        "sample": "Nach den Erstausgaben von 1880 und 1881, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn eigens geschaffenen Bildtafeln und editorischem Apparat. E-Book 9,99 € · Taschenbuch 16,99 € · Hardcover 24,99 €.",
         "status": "Jetzt erhältlich",
         "amazon": "https://www.amazon.de/dp/3676050363"
       }
