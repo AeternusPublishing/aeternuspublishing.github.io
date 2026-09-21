@@ -654,7 +654,8 @@ module.exports = {
           source: "Midjourney"
         }
       },
-      // Erster Autor der blauen Linie auf der V3-Engine. Noch kein Band erschienen — books leer.
+      // Erster Autor der blauen Linie auf der V3-Engine. Mein Leben und Werk ist laut
+      // KDP-Regalabzug vom 2026-09-20 als E-Book, Taschenbuch und Hardcover live.
       authors: [
         {
           name: "Henry Ford",
@@ -664,7 +665,25 @@ module.exports = {
             de: "Henry Ford beschrieb in eigenen Büchern, wie Arbeit, Maschine und Lohn ineinandergreifen sollten — knapp, unbeirrbar und in einer Sprache, die keine Umschweife kennt. Seine industrielle Selbstdarstellung eröffnet die Reihe Blau.",
             en: "In his own books Henry Ford set out how work, machine, and wage should interlock — terse, unwavering, and in a language that wastes no words. His industrial self-portrait opens the Blue series."
           },
-          books: []
+          books: [
+            {
+              cover: "cover-ford",
+              isbn: "978-3-912883-39-8",
+              isbns: {
+                paperback: "978-3-912883-39-8",
+                hardcover: "978-3-912883-40-4"
+              },
+              asin: { ebook: "B0HGMCF8NC", paperback: "3912883394", hardcover: "3912883408" },
+              pricesEur: { ebook: "11,99", paperback: "15,99" },
+              amazonUrl: "https://www.amazon.de/dp/3912883394",
+              originalTitle: "My Life and Work, 1922",
+              title: { de: "Mein Leben und Werk", en: "Mein Leben und Werk (German edition)" },
+              desc: {
+                de: "Henry Fords Autobiographie nach dem Wortlaut der Erstausgabe von 1922 — der Weg von der Werkstatt zum Weltkonzern.",
+                en: "Henry Ford's autobiography following the wording of the 1922 first edition — the road from workshop to global enterprise."
+              }
+            }
+          ]
         }
       ]
     },
@@ -761,12 +780,16 @@ module.exports = {
             {
               // Band IV der Seton-Edition. Live ist derzeit die Kindle-Ausgabe (ISBN -23-7,
               // ASIN B0HFDJS2L6); Hardcover (-22-0) und Taschenbuch (-21-3) sind
-              // bei KDP eingereicht — amazonUrl auf die Druckausgabe umstellen,
-              // sobald sie live ist (ISBN-10/ASIN des Hardcovers: 391288322X).
+              // Druckausgaben laut KDP-Regalabzug vom 2026-09-20 live.
               cover: "cover-tierhelden",
               band: "IV",
-              isbn: "978-3-912883-23-7",
-              amazonUrl: "https://www.amazon.de/dp/B0HFDJS2L6",
+              isbn: "978-3-912883-21-3",
+              isbns: {
+                paperback: "978-3-912883-21-3",
+                hardcover: "978-3-912883-22-0"
+              },
+              asin: { ebook: "B0HFDJS2L6", paperback: "3912883211", hardcover: "391288322X" },
+              amazonUrl: "https://www.amazon.de/dp/3912883211",
               originalTitle: "Animal Heroes, 1905",
               title: { de: "Tierhelden. Portraits aus der Wildnis", en: "Animal Heroes" },
               desc: {
@@ -824,7 +847,8 @@ module.exports = {
               },
               pages: 498,
               pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "29,99" },
-              amazonUrl: "https://www.amazon.de/s?k=9783912883336",
+              asin: { ebook: "B0HGBBG94N", paperback: "3912883335", hardcover: "3912883343" },
+              amazonUrl: "https://www.amazon.de/dp/3912883335",
               originalTitle: "The Arctic Prairies, 1911",
               title: { de: "Die arktischen Prärien", en: "The Arctic Prairies" },
               desc: {
@@ -843,7 +867,8 @@ module.exports = {
               },
               pages: 121,
               pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "24,99" },
-              amazonUrl: "https://www.amazon.de/s?k=9783912883367",
+              asin: { ebook: "B0HGFK9NXM", paperback: "391288336X", hardcover: "3912883378" },
+              amazonUrl: "https://www.amazon.de/dp/391288336X",
               originalTitle: "Monarch, the Big Bear of Tallac, 1904",
               title: { de: "Monarch", en: "Monarch" },
               desc: {

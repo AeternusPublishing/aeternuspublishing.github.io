@@ -434,10 +434,10 @@ module.exports = [
         "title": "Mein Leben und Werk",
         "subtitle": "Die Autobiographie",
         "modal": {
-          "metadata": "Aeternus Verlag · BLAUE REIHE · Paperback 15,99 € · Kindle 11,99 €",
+          "metadata": "Aeternus Verlag · BLAUE REIHE · Paperback 15,99 € · Kindle 11,99 € · Hardcover",
           "summary": "Ford erzählt seinen Weg von der Werkstatt zum Weltkonzern und legt dabei ein vollständiges System offen: wie ein Produkt entsteht, was Arbeit kosten darf und warum ein niedriger Preis für ihn kein Zugeständnis, sondern eine Rechnung ist.",
           "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Erstausgabe von 1922. Zahlen, Preise, Löhne und Maße bleiben unverändert stehen; Umrechnungen und historische Einordnung gehören in den verlegerischen Apparat, nicht in den Werktext.",
-          "amazon": "https://www.amazon.de/s?k=Mein+Leben+und+Werk+Henry+Ford+AETERNUS"
+          "amazon": "https://www.amazon.de/dp/3912883394"
         }
       }
     ]
