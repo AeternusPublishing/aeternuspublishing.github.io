@@ -1136,7 +1136,7 @@ module.exports.push({
   "eyebrow": "Bernstein · Felix Salten",
   "tagline": "Ein Wald voller Stimmen. Ein Werk, das weiterführt.",
   "intro": "Mit Bambi beginnt die Begegnung. Dahinter steht ein Erzähler, dessen Tiere eigene Wege gehen: durch Wald und Feld, durch die Welt der Menschen und durch ein Leben voller Entdeckungen.",
-  "metaDescription": "Felix Salten bei AETERNUS: Bambi im ungekürzten deutschen Original, Leben und Werk. Bambis Kinder ist lieferbar, die illustrierte Bambi-Ausgabe in Vorbereitung.",
+  "metaDescription": "Felix Salten bei AETERNUS: Bambi im ungekürzten deutschen Original, Leben und Werk. die illustrierte Bambi-Ausgabe und Bambis Kinder sind lieferbar.",
   "ogDescription": "Bambi und die Tierromane Felix Saltens. Die neue illustrierte Ausgabe bei AETERNUS.",
   "bioKicker": "Leben und Werk",
   "bioTitle": "Der Erzähler<br>hinter Bambi",
@@ -1166,7 +1166,7 @@ module.exports.push({
     {
       "h": "Bild und Quellen",
       "p": [
-        "Autorenbild: Ferdinand Schmutzer, um 1910. Historische Fotografie. Das Bambi-Cover zeigt den gegenwärtigen Gestaltungsstand der neuen Ausgabe.",
+        "Autorenbild: Ferdinand Schmutzer, um 1910. Historische Fotografie. Das Bambi-Cover zeigt die AETERNUS-Ausgabe.",
         "Zur Biographie und zum Werk: <a href=\"https://magazin.wienmuseum.at/ausstellung-ueber-felix-salten\">Wien Museum: Im Schatten von Bambi</a>."
       ]
     }
@@ -1198,10 +1198,11 @@ module.exports.push({
         "img": "cover-bambi-salten"
       },
       "modal": {
-        "metadata": "AETERNUS-Ausgabe in Vorbereitung",
+        "metadata": "AETERNUS Verlag · Taschenbuch und Hardcover",
         "summary": "Der Weg eines jungen Rehs durch die Jahreszeiten: vom Schutz der Mutter über die erste Wiese bis zu den Erfahrungen, die sein Leben verändern.",
         "sample": "Ungekürzter deutscher Originaltext, zwölf neue Innenillustrationen, historisches Autorenporträt sowie Vor- und Nachwort.",
-        "status": "In Vorbereitung · noch nicht lieferbar"
+        "status": "Jetzt erhältlich",
+        "amazon": "https://www.amazon.de/dp/391288398X"
       }
     }
   ],
