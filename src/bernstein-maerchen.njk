@@ -3,7 +3,7 @@ permalink: /bernstein-maerchen/index.html
 layout: base.njk
 lang: de
 title: Die Märchenlinie der Reihe Bernstein · AETERNUS VERLAG
-description: Die Märchenlinie der Reihe Bernstein und Band I der Schreckensmärchen der Brüder Grimm.
+description: Die Märchenlinie der Reihe Bernstein – die Schreckensmärchen der Brüder Grimm (Band I und II) und die slawischen Schreckensmärchen (Band III).
 ---
 
 <main>
@@ -65,11 +65,43 @@ description: Die Märchenlinie der Reihe Bernstein und Band I der Schreckensmär
         <h2 class="fairy-book-title">Die Schreckensmärchen der Brüder Grimm · Band I</h2>
         <p class="fairy-copy">Eine Auswahl jener Märchen, in denen Angst, Grausamkeit, Verwandlung und Schuld offen hervortreten. Band I macht die ursprüngliche erzählerische Kraft der Überlieferung wieder sichtbar – ohne Verharmlosung und mit editorischer Einordnung.</p>
         <dl class="fairy-meta">
+          <div><dt>E-Book</dt><dd>ISBN 978-3-912883-45-9</dd></div>
           <div><dt>Taschenbuch</dt><dd>ISBN 978-3-912883-44-2</dd></div>
-          <div><dt>EPUB 3</dt><dd>ISBN 978-3-912883-45-9</dd></div>
+          <div><dt>Hardcover</dt><dd>ISBN 978-3-912883-46-6</dd></div>
         </dl>
-        <a class="fairy-back" href="/reihen/bernstein/">Mehr zur Reihe Bernstein →</a>
+        <a class="fairy-back" href="/buecher/die-schreckensmaerchen-der-brueder-grimm-band-i/">Zum Buch und zu den Ausgaben →</a>
       </div>
     </div>
   </section>
+{% set weitere = [
+  { cover: "cover-grimm-band-ii", label: "Brüder Grimm · Band II", title: "Die Schreckensmärchen der Brüder Grimm · Band II", url: "/buecher/die-schreckensmaerchen-der-brueder-grimm-band-ii/",
+    copy: "Weitere Erzählungen aus der Sammlung der Brüder Grimm in ihrer dunklen Gestalt, illustriert und editorisch eingeordnet.",
+    meta: [["E-Book", "978-3-67605-032-6"], ["Taschenbuch", "978-3-67605-033-3"], ["Hardcover", "978-3-67605-034-0"]] },
+  { cover: "cover-slawische-schreckensmaerchen", label: "Afanassjew · Erben · Band III", title: "Die slawischen Schreckensmärchen · Band III", url: "/buecher/die-slawischen-schreckensmaerchen-band-iii/",
+    copy: "Die Märchenlinie führt in die slawische Überlieferung: Volksmärchen aus den Sammlungen Alexander Afanassjews und Karel Jaromír Erbens in deutscher Übersetzung.",
+    meta: [["Taschenbuch", "978-3-67605-039-5"], ["Hardcover", "978-3-67605-040-1"]] }
+] %}
+{% for b in weitere %}
+  <section class="fairy-book">
+    <div class="paper-grain" style="position:absolute;inset:0;opacity:.12;pointer-events:none;"></div>
+    <div class="wrap fairy-book-grid">
+      <div class="fairy-cover-wrap">
+        <picture style="display:contents">
+          <source type="image/avif" srcset="/assets/images/{{ b.cover }}.avif">
+          <source type="image/webp" srcset="/assets/images/{{ b.cover }}.webp">
+          <img class="fairy-cover" src="/assets/images/{{ b.cover }}-fallback.jpg" alt="Cover: {{ b.title }}" width="640" height="988" loading="lazy" decoding="async">
+        </picture>
+      </div>
+      <div>
+        <div class="fairy-label">{{ b.label }}</div>
+        <h2 class="fairy-book-title">{{ b.title }}</h2>
+        <p class="fairy-copy">{{ b.copy }}</p>
+        <dl class="fairy-meta">
+          {% for m in b.meta %}<div><dt>{{ m[0] }}</dt><dd>ISBN {{ m[1] }}</dd></div>{% endfor %}
+        </dl>
+        <a class="fairy-back" href="{{ b.url }}">Zum Buch und zu den Ausgaben →</a>
+      </div>
+    </div>
+  </section>
+{% endfor %}
 </main>

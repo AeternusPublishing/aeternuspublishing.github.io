@@ -734,6 +734,27 @@
       "landingUrl": "https://aeternus-verlag.de/autoren/james-b-gillett/",
       "amazonUrl": "https://www.amazon.de/dp/3676050452",
       "sourceUrl": "https://aeternus-verlag.de/autoren/james-b-gillett/"
+    },
+    {
+      "id": "bevis",
+      "title": "Bevis (Annotated)",
+      "author": "Richard Jefferies",
+      "year": "1882",
+      "region": "europe",
+      "location": [
+        -1.75,
+        51.54
+      ],
+      "place": "Coate bei Swindon, Wiltshire, England",
+      "status": "Im Programm",
+      "statusDetail": "Englische Ausgabe · Taschenbuch und Kindle",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-bevis-en.webp",
+      "subtitle": "The Story of a Boy",
+      "summary": "Bevis und Mark geben der Landschaft um den Hof neue Namen, bauen Floß und Boot und segeln zu Inseln, die mit jedem Plan ferner werden. Jefferies' Roman von 1882 verbindet eine erfundene Reise mit einem genau beobachteten Ort.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/richard-jefferies/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/richard-jefferies/"
     }
   ],
   "links": [
@@ -876,6 +897,11 @@
       "source": "tacitus-1",
       "target": "tacitus-2",
       "reason": "Die erhaltenen Annalen: von Tiberius zu Nero"
+    },
+    {
+      "source": "bevis",
+      "target": "scouting",
+      "reason": "Jungen, Wasser und selbstgebaute Ausrüstung"
     }
   ]
 }

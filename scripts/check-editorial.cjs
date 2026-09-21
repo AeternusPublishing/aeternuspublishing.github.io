@@ -65,6 +65,13 @@ assert.equal(woodcraft.length, 2);
 // Die fruehere Regel hielt den Einreichungsstand vom 15.09. fest und schuetzte damit
 // genau den Fehler, den sie fangen sollte: ein lieferbares Buch ohne Kaufweg.
 assert(woodcraft.every(b => !b.pending && b.amazon.includes("amazon.de/dp/")), "Live volumes must be buyable");
+// Stand 2026-09-21: Die Seton-E-Books waren live, fehlten aber auf der Website, weil der
+// Katalog nur Formate mit eigener ISBN kannte. Ein Kindle mit ASIN ist eine Ausgabe.
+for (const book of woodcraft) assert(book.formats.some(f => f.name === "E-Book" && f.asin), "Kindle edition without ISBN must be listed: " + book.id);
+// Stand 2026-09-21: Die Schreckensmärchen I-III waren live und standen in keinem Buchkatalog.
+const tales = catalogue.books.filter(b => /Schreckensmärchen/.test(b.title));
+assert.equal(tales.length, 3, "Schreckensmärchen Band I-III must be in the catalogue");
+assert(tales.every(b => !b.pending && b.amazon.includes("amazon.de/dp/")), "Live tales must be buyable");
 const seton = read("/autoren/ernest-thompson-seton/");
 assert(seton.includes('href="/buecher/wilde-tiere-die-ich-kannte/"'));
 assert(!seton.includes('class="book-index">010<'), "Tenth book must be 10");

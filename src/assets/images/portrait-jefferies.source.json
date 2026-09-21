@@ -1,0 +1,11 @@
+{
+  "asset": "portrait-jefferies",
+  "source": "Walter Besant, The Eulogy of Richard Jefferies, Chatto & Windus, London, 1888, frontispiece",
+  "source_url": "https://archive.org/details/eulogyofrichardj00besarich",
+  "house_derivative": "_STAGING_OUTDOOR_CLASSICS_PILLAR_PENDING/JEFFERIES/02_WERKE/RJE_001_BEVIS_1882/06_PARATEXT/EN/JEFFERIES_PORTRAIT_1879_DERIVED.png",
+  "house_derivative_sha256": "fdfd41d4686682f80ef90851eb2f2dc65a10f3da131e0ed6e926a36061d8a7b8",
+  "provenance_record": "JEFFERIES_PORTRAIT_1879_DERIVED.PROVENANCE.json (same folder)",
+  "web_processing": "centre crop to 690x960, Lanczos; no generative processing",
+  "rights": "public domain (published 1888)",
+  "authority": "Verleger im Chat 2026-09-21: '1. ja' (Bevis-QR und Seite)"
+}

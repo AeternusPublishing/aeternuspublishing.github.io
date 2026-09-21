@@ -22,7 +22,7 @@ module.exports = [
     eyebrow: "Amber &middot; Nature writing &amp; character",
     tagline: "The wild as a school of close attention.",
     intro: "Naturalist, animal artist, and storyteller, Seton joined field observation to an ethic of responsibility and helped shape modern outdoor education.",
-    metaDescription: "Ernest Thompson Seton: biography, works, and the Aeternus Verlag editions of his animal stories in the Amber series.",
+    metaDescription: "Ernest Thompson Seton: biography, works, and the AETERNUS editions in the Amber series — Rolf in the Woods, Two Little Savages and The Arctic Prairies in English, with the German translations.",
     bioKicker: "Author &amp; context",
     bioTitle: "Observe,<br>narrate,<br>preserve",
     bioLede: "A writer at the threshold of Victorian natural history, modern ethology, and popular storytelling.",
@@ -33,19 +33,23 @@ module.exports = [
     ],
     worksKicker: "Selected works",
     worksTitle: "Books that teach you to look",
-    worksIntro: "Historic texts, carefully reopened. Select a title for context, a reading sample, and its available Amazon route.",
-    gridClass: "count-5",
+    worksIntro: "Three illustrated English editions, followed by the German translations of the AETERNUS programme. Select a title for context and its Amazon page.",
+    gridClass: "",
     books: [
-      { cover: { img: "cover-wilde-tiere" }, meta: "Animal stories &middot; 1898", title: "Wild Animals I Have Known", subtitle: "Eight true animal histories from the North American wild",
-        modal: { metadata: "Aeternus Verlag · Hardcover & Kindle", summary: "From Lobo the wolf to Silverspot the crow, Seton's landmark collection joins close field observation with dramatic storytelling.", sample: "Lobo rules the Currumpaw range through experience, caution, and an attachment to his pack that ultimately determines his fate.", amazon: "https://www.amazon.com/s?k=Wild%20Animals%20I%20Have%20Known%20Ernest%20Thompson%20Seton" } },
-      { cover: { img: "cover-wahb" }, meta: "Animal biography &middot; 1900", title: "The Biography of a Grizzly", subtitle: "A grizzly's life told without sentimentality",
-        modal: { metadata: "Aeternus Verlag · Hardcover & Kindle", summary: "The life of Wahb from cubhood to old age, rendered with unsparing precision and an unusual intimacy with the wild.", sample: "Wahb's world is made of scent, memory, and terrain. Every track alters the invisible map by which he survives.", amazon: "https://www.amazon.com/s?k=Biography%20of%20a%20Grizzly%20Ernest%20Thompson%20Seton" } },
-      { cover: { img: "cover-tierhelden" }, meta: "Animal stories &middot; 1905", title: "Animal Heroes", subtitle: "Eight lives from Seton's later work",
-        modal: { metadata: "Aeternus Verlag · Volume IV of the Amber series", summary: "Eight animal portraits from Seton's later work — from the slum cat to the Winnipeg wolf. Newly translated and edited.", sample: "Seton looks for the heroic not in the extraordinary but in the tenacity with which an animal holds its ground.", amazon: "https://www.amazon.com/s?k=Animal%20Heroes%20Ernest%20Thompson%20Seton" } },
-      { cover: { gen: "arctic", title: "The Arctic<br>Prairies" }, meta: "Expedition narrative &middot; Northern Canada &middot; 1911", title: "The Arctic Prairies", subtitle: "A 2,000-mile canoe journey in search of the caribou",
-        modal: { metadata: "Expedition narrative · Northern Canada · 1911", summary: "Seton's six-month journey into northern Canada combines field diary, animal observation, mapping, and encounters along the trading routes.", sample: "Beyond the last trading posts, distance is measured again in weeks, changes of weather, and bends of the river.", amazon: "https://www.amazon.com/s?k=The%20Arctic%20Prairies%20Ernest%20Thompson%20Seton" } },
-      { cover: { gen: "woodcraft", title: "The Book of<br>Woodcraft" }, meta: "Field manual &middot; More than 500 drawings &middot; 1912", title: "The Book of Woodcraft and Indian Lore", subtitle: "Fieldcraft, camp life, and character formation",
-        modal: { metadata: "Field manual · More than 500 drawings · 1912", summary: "An encyclopedic guide to tracking, campcraft, navigation, natural history, and cooperative education outdoors.", sample: "For Seton, woodcraft begins not with equipment but with attention: learning to see before choosing how to act.", amazon: "https://www.amazon.com/s?k=The%20Book%20of%20Woodcraft%20Ernest%20Thompson%20Seton" } }
+      { cover: { img: "cover-rolf-in-the-woods-en" }, meta: "English edition &middot; Illustrated &middot; 1911", title: "Rolf in the Woods (Illustrated)", subtitle: "The adventures of a boy scout with Indian Quonab and little dog Skookum",
+        modal: { metadata: "AETERNUS · English · 453 print pages · Kindle, paperback & hardcover", summary: "At sunrise, Quonab climbs the rock above his shelter and sings. Into his life comes Rolf, a boy who needs a home and has much to learn.", sample: "Seton's English text in the AETERNUS edition, newly typeset and illustrated.", amazon: "https://www.amazon.com/dp/3912883637" } },
+      { cover: { img: "cover-two-little-savages-en" }, meta: "English edition &middot; Illustrated &middot; 1903", title: "Two Little Savages (Illustrated)", subtitle: "Being the adventures of two boys who lived as Indians and what they learned",
+        modal: { metadata: "AETERNUS · English · 470 print pages · Kindle, paperback & hardcover", summary: "Yan can spend hours at a taxidermist's window, longing to know the names of the birds. Give him a patch of woods, a friend like Sam, and the old woodsman Caleb, and that hunger becomes a life: a teepee to raise, tracks to read, a bow to make, a camp to keep going.", sample: "Seton's English text in the AETERNUS edition, newly typeset and illustrated.", amazon: "https://www.amazon.com/dp/3912883610" } },
+      { cover: { img: "cover-arctic-prairies-en" }, meta: "English edition &middot; Northern Canada &middot; 1911", title: "The Arctic Prairies (Illustrated)", subtitle: "A canoe journey of 2,000 miles in search of the caribou",
+        modal: { metadata: "AETERNUS · English · 414 print pages · Kindle, paperback & hardcover", summary: "Two thousand miles by canoe, with caribou somewhere ahead. In 1907 Ernest Thompson Seton traveled north with the naturalist Edward A. Preble, following waterways toward Great Slave Lake and the country beyond Aylmer Lake.", sample: "Seton's English text in the AETERNUS edition, newly typeset and illustrated.", amazon: "https://www.amazon.com/dp/3912883653" } },
+      { cover: { img: "cover-wilde-tiere" }, meta: "German edition &middot; 1898", title: "Wild Animals I Have Known", subtitle: "Wilde Tiere, die ich kannte &middot; German translation",
+        modal: { metadata: "Aeternus Verlag · German edition · Hardcover, paperback & Kindle", summary: "From Lobo the wolf to Silverspot the crow, Seton's landmark collection joins close field observation with dramatic storytelling.", sample: "This is the German translation, sold on Amazon.de. An English AETERNUS edition of this title has not been published.", amazon: "https://www.amazon.de/dp/3912883203" } },
+      { cover: { img: "cover-wahb" }, meta: "German edition &middot; 1900", title: "The Biography of a Grizzly", subtitle: "Wahb &middot; German translation",
+        modal: { metadata: "Aeternus Verlag · German edition · Hardcover, paperback & Kindle", summary: "The life of Wahb from cubhood to old age, rendered with unsparing precision and an unusual intimacy with the wild.", sample: "This is the German translation, sold on Amazon.de. An English AETERNUS edition of this title has not been published.", amazon: "https://www.amazon.de/dp/3912883262" } },
+      { cover: { img: "cover-tierhelden" }, meta: "German edition &middot; 1905", title: "Animal Heroes", subtitle: "Tierhelden &middot; German translation",
+        modal: { metadata: "Aeternus Verlag · German edition · Hardcover, paperback & Kindle", summary: "Eight animal portraits from Seton's later work — from the slum cat to the Winnipeg wolf.", sample: "This is the German translation, sold on Amazon.de. An English AETERNUS edition of this title has not been published.", amazon: "https://www.amazon.de/dp/3912883211" } },
+      { cover: { img: "cover-waldhandwerk-band-i" }, meta: "German edition &middot; Two volumes &middot; 1912", title: "The Book of Woodcraft and Indian Lore", subtitle: "Das Buch des Waldhandwerks und der Indianerweisheit &middot; German translation",
+        modal: { metadata: "Aeternus Verlag · German edition in two volumes · Hardcover, paperback & Kindle", summary: "An encyclopedic guide to tracking, campcraft, navigation, natural history, and cooperative education outdoors.", sample: "This is the German translation in two volumes, sold on Amazon.de. The link opens Volume I.", amazon: "https://www.amazon.de/dp/3676050096" } }
     ]
   },
   {
@@ -198,28 +202,27 @@ module.exports = [
           "amazon": "#edition-hawks"
         },
         "id": "edition-hawks",
-        "status": "Forthcoming · Amazon release in progress",
+        "status": "Available now",
         "formats": [
           {
             "name": "Kindle",
             "isbn": "978-3-912883-90-9",
-            "price": "German list price €10.99 incl. VAT · In review",
-            "links": []
+            "price": "German list price €10.99 incl. VAT",
+            "links": [{ "label": "United States", "url": "https://www.amazon.com/dp/B0HJ2HX6CD" }, { "label": "United Kingdom", "url": "https://www.amazon.co.uk/dp/B0HJ2HX6CD" }, { "label": "Australia", "url": "https://www.amazon.com.au/dp/B0HJ2HX6CD" }, { "label": "Canada", "url": "https://www.amazon.ca/dp/B0HJ2HX6CD" }]
           },
           {
             "name": "Paperback",
             "isbn": "978-3-912883-88-6",
-            "price": "German list price €17.99 incl. VAT · Release in progress",
-            "links": []
+            "price": "German list price €17.99 incl. VAT",
+            "links": [{ "label": "United States", "url": "https://www.amazon.com/dp/3912883882" }, { "label": "United Kingdom", "url": "https://www.amazon.co.uk/dp/3912883882" }, { "label": "Australia", "url": "https://www.amazon.com.au/dp/3912883882" }, { "label": "Canada", "url": "https://www.amazon.ca/dp/3912883882" }]
           },
           {
             "name": "Hardcover",
             "isbn": "978-3-912883-89-3",
-            "price": "German list price €27.99 incl. VAT · Release in progress",
-            "links": []
+            "price": "German list price €27.99 incl. VAT",
+            "links": [{ "label": "United States", "url": "https://www.amazon.com/dp/3912883890" }, { "label": "United Kingdom", "url": "https://www.amazon.co.uk/dp/3912883890" }, { "label": "Canada", "url": "https://www.amazon.ca/dp/3912883890" }]
           }
         ],
-        "availabilityNote": "Submitted to Amazon on 7 September 2026. Purchase links will be added once the editions are live. Local-currency prices will appear in each supported store."
       }
     ],
     "brand": "AETERNUS",
@@ -228,7 +231,7 @@ module.exports = [
     "editionsTitle": "Choose your edition",
     "modalActionLabel": "Formats & availability",
     "ogDescription": "Where civilization becomes a fragile line.",
-    "editionsNote": "Prices and delivery depend on your Amazon store; the applicable local taxes are handled by Amazon. US prices may have sales tax added at checkout. Hardcover is offered in the US, UK and Canada; Amazon.com.au supports the Kindle and paperback editions. Availability checked 7 September 2026.",
+    "editionsNote": "Prices and delivery depend on your Amazon store; the applicable local taxes are handled by Amazon. US prices may have sales tax added at checkout. Hardcover is offered in the US, UK and Canada; Amazon.com.au supports the Kindle and paperback editions. Availability checked 21 September 2026.",
     "sisterUrl": "/autoren/robert-montgomery-bird/",
     "sisterLabel": "Looking for the German editions?"
   },
@@ -336,14 +339,14 @@ module.exports = [
     monogram: "GWS",
     dates: "1821&ndash;1890",
     seriesClass: "",
-    preview: true,
+    preview: false,
     nameClass: "bird-name",
     portrait: { file: "portrait-sears", alt: "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887", modern: true },
     schema: { birthDate: "1821-12-02", deathDate: "1890-05-01", description: "American shoemaker, canoeist, and writer; as Nessmuk the founder of going light in the woods and by canoe." },
     eyebrow: "Amber &middot; Youth, adventure, character",
     tagline: "Go light; the lighter the better.",
     intro: "Shoemaker, canoeist, and woodsman: in 1884, under the name “Nessmuk,” Sears wrote the first book to teach not abundance in the woods but going light &mdash; a small kit, an open camp, and a fire built as it should be.",
-    metaDescription: "George Washington Sears (Nessmuk): life, work, and the forthcoming Aeternus edition of Woodcraft (1884) in the Amber series — the complete first-edition text, fully illustrated.",
+    metaDescription: "George Washington Sears (Nessmuk): life, work, and the Aeternus edition of Woodcraft (1884) in the Amber series — the complete first-edition text, fully illustrated.",
     bioKicker: "Author &amp; context",
     bioTitle: "Through the woods<br>with little",
     bioLede: "A small, frail shoemaker from Pennsylvania became the best-loved voice of American outdoor life &mdash; because he could not carry much, and so had to carry wisely.",
@@ -352,14 +355,14 @@ module.exports = [
       { h: "The stance", p: ["Sears wrote for the “outers”: artisans, clerks, and small merchants who need one real rest a year and cannot buy it with guides, pack baskets, and forest hotels. His advice is plain: go light, build an open camp with a fire in front of it, cook simply, and shoot no more than you can eat.", "He saw the plunder of his day and condemned it in bitter words &mdash; in a book that otherwise sparkles with dry humor and long experience."] },
       { h: "The legacy", p: ["<i>Woodcraft</i> was published in 1884 by the Forest and Stream Publishing Company and has been reprinted countless times since. His trio of a light hatchet, a sturdy sheath knife, and a two-blade pocket knife is still copied as the “Nessmuk trio.”", "Sears died in Wellsboro in 1890. A mountain and a lake in Pennsylvania bear his name; the <i>Sairy Gamp</i> is preserved at the Adirondack Experience museum."] }
     ],
-    facts: [["Series", "Amber line &middot; Pillar V"], ["First edition", "New York, 1884"], ["Text", "The author’s own English, first edition"], ["Status", "In preparation"]],
-    worksKicker: "In preparation",
+    facts: [["Series", "Amber line &middot; Pillar V"], ["First edition", "New York, 1884"], ["Text", "The author’s own English, first edition"], ["Print edition", "189 pages"], ["Formats", "Paperback &middot; Kindle"]],
+    worksKicker: "The AETERNUS edition",
     worksTitle: "The book of going light",
     worksIntro: "The Aeternus edition gives the complete text of the 1884 first edition &mdash; kit, camp building, fire, fishing, camp cookery, a wilderness tramp, and the light canoe &mdash; with all ten original illustrations recreated as photorealistic reconstructions, Sears’ own chapter summaries in the table of contents, a glossary of the terms of his day, and an afterword on his legacy.",
     gridClass: "single-item",
     books: [
-      { cover: { img: "cover-woodcraft" }, meta: "Outdoor classic &middot; New York &middot; 1884", title: "Woodcraft", subtitle: "The 1884 Classic of Going Light, Fully Illustrated",
-        modal: { metadata: "Aeternus Publisher · Amber series · Paperback & Kindle · in preparation", summary: "New York, 1884: a Pennsylvania shoemaker who weighs little more than a hundred pounds writes down how to travel for weeks through the wilderness with twenty-six pounds of duffle. Knapsack, hatchet and knives, the shanty-tent, the camp-fire built as it should be, frogging and camp cookery, a ten days’ tramp alone across Michigan, and the ten-and-a-half-pound cedar canoe — Sears’ book is instruction and story in one.", sample: "The edition follows the first edition of 1884 word for word; later reprints revised Sears’ wording and dropped passages, and none of those changes are adopted. The ten woodcuts of the original are recreated as photorealistic reconstructions, and further plates after Sears’ own measurements are in preparation.", amazon: "/en/" } }
+      { cover: { img: "cover-woodcraft-en" }, meta: "Outdoor classic &middot; New York &middot; 1884", title: "Woodcraft (Illustrated)", subtitle: "The 1884 Classic of Going Light, Fully Illustrated",
+        modal: { metadata: "AETERNUS · Amber series · 189 print pages · Paperback & Kindle", summary: "New York, 1884: a Pennsylvania shoemaker who weighs little more than a hundred pounds writes down how to travel for weeks through the wilderness with twenty-six pounds of duffle. Knapsack, hatchet and knives, the shanty-tent, the camp-fire built as it should be, frogging and camp cookery, a ten days’ tramp alone across Michigan, and the ten-and-a-half-pound cedar canoe — Sears’ book is instruction and story in one.", sample: "The edition follows the first edition of 1884 word for word; later reprints revised Sears’ wording and dropped passages, and none of those changes are adopted. The ten woodcuts of the original are recreated as photorealistic reconstructions, and further plates after Sears’ own measurements are in preparation.", amazon: "https://www.amazon.com/dp/3912883599" } }
     ]
   }
 ];
@@ -432,7 +435,7 @@ module.exports.push({
   ],
   "worksKicker": "The AETERNUS edition",
   "worksTitle": "The Oregon Trail",
-  "worksIntro": "A classic given a carefully composed new form. Fresh typesetting brings clear, readable text to every page; balanced margins, chapter openings, and thoughtfully placed illustrations give the book a coherent rhythm. Thirteen plates were created specifically for this edition. The English text of 1849 retains its chapter epigraphs and concluding note on Henry Chatillon. Hardcover, paperback, and Kindle editions are in preparation; ordering links will follow when available.",
+  "worksIntro": "A classic given a carefully composed new form. Fresh typesetting brings clear, readable text to every page; balanced margins, chapter openings, and thoughtfully placed illustrations give the book a coherent rhythm. Thirteen plates were created specifically for this edition. The English text of 1849 retains its chapter epigraphs and concluding note on Henry Chatillon. Available in hardcover, paperback, and Kindle.",
   "gridClass": "single-item",
   "books": [
     {
@@ -446,7 +449,8 @@ module.exports.push({
         "metadata": "AETERNUS · Anthracite Series · 478 print pages",
         "summary": "The Great Plains in 1846: emigrant trains, buffalo hunts, trading posts, and weeks in an Oglala camp. Parkman’s first book records a journey into a West still being travelled and contested.",
         "sample": "Freshly typeset throughout, with clear typography, balanced page proportions, and 13 illustrations created specifically for this edition. Text and plates have been arranged together across 478 print pages, with the layout checked for print. The English text follows the first edition of 1849, including its chapter epigraphs and concluding note on Henry Chatillon. Paperback ISBN 978-3-67605-030-2; hardcover ISBN 978-3-67605-031-9; e-book ISBN 978-3-67605-029-6.",
-        "status": "Publication in progress · ordering links to follow"
+        "status": "Available now",
+        "amazon": "https://www.amazon.com/dp/3676050304"
       }
     }
   ]
@@ -700,4 +704,155 @@ module.exports.push({
       }
     }
   ]
+});
+
+// Richard Jefferies (21.09.2026): Bevis is live on Amazon since September; the printed QR
+// /qr/jefferies/ answered 404 until this page existed. English only - there is no German edition.
+module.exports.push({
+  "slug": "richard-jefferies",
+  "name": "Richard Jefferies",
+  "brand": "AETERNUS",
+  "monogram": "RJ",
+  "dates": "1848&ndash;1887",
+  "seriesClass": "",
+  "preview": false,
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-jefferies",
+    "alt": "Richard Jefferies, frontispiece portrait from Walter Besant, The Eulogy of Richard Jefferies (1888)",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1848-11-06",
+    "deathDate": "1887-08-14",
+    "description": "English nature writer and novelist; author of Bevis."
+  },
+  "eyebrow": "Amber &middot; Youth, adventure, character",
+  "tagline": "The wind went seawards, and the stars are always over the ocean.",
+  "intro": "Born on a Wiltshire farm in 1848, Jefferies wrote about the English countryside with an attention to weather, water, and work that few writers have matched. <i>Bevis</i> turns that attention to a boyhood.",
+  "metaDescription": "Richard Jefferies at AETERNUS: Bevis (1882), the complete text of the first edition, annotated, as paperback and Kindle.",
+  "ogDescription": "Bevis: The Story of a Boy &mdash; the complete 1882 text in the Amber series.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "A field, a brook,<br>a boyhood",
+  "bioLede": "Jefferies grew up at Coate near Swindon; the farm, the reservoir, and the downs of his childhood became the ground of his best books.",
+  "blocks": [
+    {
+      "h": "Life &amp; period",
+      "p": [
+        "Jefferies began as a local reporter in Wiltshire and made his name with essays on country life for London papers. His books on the farmer, the gamekeeper, and the poacher record a rural England in the middle of change.",
+        "He died at Goring-by-Sea in 1887, aged thirty-eight, after years of illness."
+      ]
+    },
+    {
+      "h": "Bevis",
+      "p": [
+        "<i>Bevis: The Story of a Boy</i> appeared in three volumes in 1882. Bevis and his friend Mark rename the fields and waters around them, build a raft and a boat, and sail for islands that grow more remote with every plan.",
+        "The adventure is imagined; the place is not. Wind, weed, and the working countryside set the limits of every day's ambition."
+      ]
+    },
+    {
+      "h": "The edition",
+      "p": [
+        "AETERNUS gives the complete text of the first edition of 1882 in one volume, with five reconstructions, a glossary of thirty terms, an author profile, and an afterword."
+      ]
+    }
+  ],
+  "facts": [
+    [
+      "Series",
+      "Amber line &middot; Pillar V"
+    ],
+    [
+      "First edition",
+      "London, 1882"
+    ],
+    [
+      "Text",
+      "The author’s own English, first edition"
+    ],
+    [
+      "Print edition",
+      "678 pages"
+    ],
+    [
+      "Formats",
+      "Paperback &middot; Kindle"
+    ]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "Bevis",
+  "worksIntro": "All three volumes of 1882 in one book. Choose a format and your Amazon store below.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "id": "edition-bevis",
+      "cover": {
+        "img": "cover-bevis-en"
+      },
+      "meta": "Novel &middot; Wiltshire &middot; 1882",
+      "title": "Bevis (Annotated)",
+      "subtitle": "The Story of a Boy",
+      "status": "Available now",
+      "modal": {
+        "metadata": "AETERNUS · English · Annotated · 678 print pages · Kindle & paperback",
+        "summary": "A packing-case becomes the beginning of a project. A brook becomes the Mississippi. Bevis and Mark give the countryside new names, build and equip their craft, and set out for islands whose remoteness grows with every plan.",
+        "sample": "Complete text of the first edition of 1882 with five reconstructions, a glossary of 30 terms, an author profile and an afterword.",
+        "amazon": "#edition-bevis"
+      },
+      "formats": [
+        {
+          "name": "Kindle",
+          "isbn": "978-3-912883-97-8",
+          "price": "US list price $10.99",
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJ6M56RG"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJ6M56RG"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJ6M56RG"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJ6M56RG"
+            }
+          ]
+        },
+        {
+          "name": "Paperback",
+          "isbn": "978-3-912883-95-4",
+          "price": "",
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883955"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883955"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883955"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883955"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "editionSection": true,
+  "editionsTitle": "Choose your edition",
+  "modalActionLabel": "Formats & availability",
+  "editionsNote": "Prices and delivery depend on your Amazon store; the applicable local taxes are handled by Amazon. Availability checked 21 September 2026.",
+  "sisterUrl": "/en/",
+  "sisterLabel": "More AETERNUS editions in English"
 });

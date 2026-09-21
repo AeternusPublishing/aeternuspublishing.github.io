@@ -12,9 +12,12 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
   const pending = /eingereicht|ausstehend|vorbereitung|folgen nach/i.test([book.status?.de, book.desc.de, detail?.modal?.status].join(" "));
   const amazon = !pending ? book.amazonUrl || "" : "";
   const description = book.desc.de.replace(/\s*Bei KDP eingereicht; Veröffentlichung ausstehend\.?/g, "").trim();
+  // A Kindle edition may have no ISBN of its own (KDP assigns only an ASIN). It is still an
+  // edition: it is listed when its ASIN is recorded, and shown with the ASIN instead of an ISBN.
   const formats = detail?.formats?.map(f => ({ name: f.name, isbn: f.isbn, price: f.price, url: !pending ? f.links?.[0]?.url : "" })) ||
-    Object.entries(book.isbns || {}).filter(([, isbn]) => isbn).map(([key, isbn]) => ({
-      name: formatNames[key], isbn, price: book.pricesEur?.[key] ? book.pricesEur[key] + " €" : "",
+    Object.keys(formatNames).filter(key => book.isbns?.[key] || (key === "ebook" && book.asin?.ebook)).map(key => ({
+      name: formatNames[key], isbn: book.isbns?.[key] || null, asin: book.isbns?.[key] ? null : book.asin[key],
+      price: book.pricesEur?.[key] ? book.pricesEur[key] + " €" : "",
       url: !pending && book.asin?.[key] ? `https://www.amazon.de/dp/${book.asin[key]}` : ""
     }));
   // An ISBN-specific search can belong to a different binding than the cover.
@@ -22,11 +25,11 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
   return {
     id, url: `/buecher/${id}/`, title: book.title.de, author: author.name,
     authorUrl: author.landingUrl.de, authorSlug: authorData?.slug,
-    portrait: authorData?.portrait, authorIntro: clean(authorData?.intro),
+    portrait: authorData?.portrait, authorIntro: clean(authorData?.intro) || clean(author.bio?.de),
     cover: book.cover, description, summary: clean(detail?.modal?.summary) || description,
     subtitle: clean(detail?.subtitle), original: book.originalTitle || "",
     series: series.slug, seriesName: series.colorName.de, seriesColor: series.colorHex,
-    isbn: book.isbn, searchIsbns: [book.isbn, ...formats.map(f => f.isbn)].join(" "), pages: book.pages, formats, amazon,
+    isbn: book.isbn, searchIsbns: [book.isbn, ...formats.map(f => f.isbn)].filter(Boolean).join(" "), pages: book.pages, formats, amazon,
     amazonLabel: linkedFormat ? `${linkedFormat.name} bei Amazon suchen` : amazon.includes("/s?") ? "Bei Amazon suchen" : "Bei Amazon ansehen",
     pending, status: pending ? "Demnächst erhältlich" : "Im Programm",
     metadata: pending ? "" : clean(detail?.modal?.metadata),
