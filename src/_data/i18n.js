@@ -332,6 +332,16 @@ module.exports = {
       },
       authors: [
         {
+          name: "Charles Brockden Brown",
+          slug: "charles-brockden-brown",
+          landingUrl: { de: "/en/authors/charles-brockden-brown/", en: "/en/authors/charles-brockden-brown/" },
+          bio: {
+            de: "Charles Brockden Brown steht am Anfang der amerikanischen Literatur. Edgar Huntly erscheint zuerst in englischer, später auch in deutscher Ausgabe.",
+            en: "Charles Brockden Brown stands near the beginning of American fiction. Edgar Huntly is the first AETERNUS edition; Wieland and a German edition will follow."
+          },
+          books: []
+        },
+        {
           name: "Robert Montgomery Bird",
           slug: "robert-montgomery-bird",
           landingUrl: { de: "/autoren/robert-montgomery-bird/", en: "/en/authors/robert-montgomery-bird/" },

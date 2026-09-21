@@ -673,6 +673,27 @@
       "sourceUrl": "https://aeternus-verlag.de/autoren/james-hall/"
     },
     {
+      "id": "edgar-huntly",
+      "title": "Edgar Huntly (Illustrated)",
+      "author": "Charles Brockden Brown",
+      "year": "1799",
+      "region": "north-america",
+      "location": [
+        -75.1,
+        40.2
+      ],
+      "place": "Rural Pennsylvania and the wilderness of Norwalk",
+      "status": "In Vorbereitung",
+      "statusDetail": "Complete KDP drafts · publication pending",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-edgar-huntly.webp",
+      "subtitle": "or, Memoirs of a Sleep-Walker",
+      "summary": "Murder, sleepwalking and fractured memory draw Edgar Huntly from rural Pennsylvania into a wilderness of caves, violence and uncertain consciousness.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/charles-brockden-brown/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/charles-brockden-brown/"
+    },
+    {
       "id": "shelters",
       "title": "Shelters, Shacks, and Shanties (Illustrated)",
       "author": "Daniel Carter Beard",
@@ -857,6 +878,16 @@
       "source": "waldteufel",
       "target": "harpe",
       "reason": "Gewalt und Verfolgung im Kentucky-Grenzland"
+    },
+    {
+      "source": "edgar-huntly",
+      "target": "harpe",
+      "reason": "American frontier fiction before the frontier became myth"
+    },
+    {
+      "source": "edgar-huntly",
+      "target": "waldteufel",
+      "reason": "American Gothic, wilderness and divided identity"
     },
     {
       "source": "waldteufel",

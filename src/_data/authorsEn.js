@@ -884,3 +884,100 @@ module.exports.push({
   "sisterUrl": "/en/",
   "sisterLabel": "More AETERNUS editions in English"
 });
+
+// Charles Brockden Brown (CBB_001-EN, Edgar Huntly). The biography below is
+// assembled exclusively from complete paragraphs of ABOUT THE AUTHOR in the
+// publisher-approved paratext V4. Retail copy likewise follows V4 verbatim.
+// The title is a complete KDP draft; buying links remain disabled until the
+// editions are publicly visible.
+module.exports.push({
+  "slug": "charles-brockden-brown",
+  "name": "Charles Brockden Brown",
+  "brand": "AETERNUS",
+  "monogram": "CBB",
+  "dates": "1771&ndash;1810",
+  "seriesClass": "series-anthracite",
+  "preview": true,
+  "previewStatus": "Complete edition in preparation &middot; ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-charles-brockden-brown",
+    "alt": "Charles Brockden Brown, pastel by James Sharples, about 1798",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1771-01-17",
+    "deathDate": "1810-02-22",
+    "description": "American novelist and author of Edgar Huntly; or, Memoirs of a Sleep-Walker (1799)."
+  },
+  "eyebrow": "Anthracite Series &middot; American Gothic",
+  "tagline": "“Brown is great as ever human writer was in showing the self-sustaining force of which a lonely mind is capable.” — Margaret Fuller, 1846",
+  "intro": "Charles Brockden Brown was born in Philadelphia in 1771, at a moment when the political existence of the future United States was itself still unsettled. He came of age with the new republic. For his generation, the creation of an American literature was therefore not an inherited fact, nor even an inevitable development. It was an open question.",
+  "metaDescription": "Published in 1799, Charles Brockden Brown’s Edgar Huntly; or, Memoirs of a Sleep-Walker is one of the formative works of American Gothic fiction.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "At the beginning<br>of American fiction",
+  "bioLede": "Europe already possessed its established literary landscapes. It had ancient houses, ruined abbeys, ancestral crimes, castles, dynasties, monasteries, graveyards and the accumulated memory of centuries. American writers inherited the English language and the literary forms of the Old World, but they inhabited a country whose imaginative geography had scarcely begun to be defined.",
+  "blocks": [
+    {
+      "h": "A first American generation",
+      "p": [
+        "Brown belonged to the first generation forced to confront that disparity.",
+        "Between 1798 and 1801 he produced the extraordinary sequence of novels upon which his reputation chiefly rests: <i>Wieland</i>, <i>Ormond</i>, <i>Arthur Mervyn</i> and <i>Edgar Huntly</i>. Their variety is considerable, but certain pressures recur throughout them with remarkable persistence: disturbed perception, moral uncertainty, psychological compulsion, isolation, concealed motives, fractured memory and the failure of reason when placed under extreme strain.",
+        "These were not merely subjects of plot. They formed part of Brown’s deeper understanding of human consciousness."
+      ]
+    },
+    {
+      "h": "The unsettled mind",
+      "p": [
+        "His characters frequently discover that the mind cannot be regarded as a perfectly governed territory. Knowledge may be incomplete. Memory may fail. Motives may remain obscure even to the person who acts upon them. Conviction may coexist with error. The rational self, which the eighteenth century had so often imagined as capable of examining and ordering the world, repeatedly encounters forces it cannot entirely command.",
+        "In <i>Edgar Huntly</i>, that instability is joined to something equally consequential: the American landscape itself."
+      ]
+    },
+    {
+      "h": "Before the frontier became myth",
+      "p": [
+        "Brown wrote before many of the forms later associated with American Gothic fiction had hardened into convention. He wrote before Poe and Hawthorne. He wrote before the frontier had acquired the immense symbolic apparatus that the nineteenth century would eventually place upon it. The wilderness in his fiction therefore retains an unusual rawness. It has not yet become picturesque scenery, national mythology or romantic memory. It remains dangerous because it is still difficult to read.",
+        "Forest, cave, ravine, isolated dwelling and uncertain path become more than physical settings. They become conditions of consciousness."
+      ]
+    },
+    {
+      "h": "Priority and legacy",
+      "p": [
+        "Brown died in 1810 at the age of thirty-nine.",
+        "He therefore did not live to witness the great flowering of American literature that followed. He did not see the wilderness novel mature, the frontier become legend, or the darker traditions of American fiction achieve their canonical forms. Yet many of the tensions that later writers would explore were already present in his work in elemental form.",
+        "Charles Brockden Brown wrote when American literature was still deciding what it might become. He understood, earlier than most, that the young republic possessed more than new political institutions and new geographical spaces. It possessed new imaginative possibilities."
+      ]
+    },
+    {
+      "h": "Portrait",
+      "p": [
+        "James Sharples, <i>Charles Brockden Brown</i>, about 1798. Pastel and charcoal over graphite on blue wove paper. Worcester Art Museum, Museum Purchase, 1916.71."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Anthracite"],
+    ["Text", "English &middot; checked against the Philadelphia first edition, 1799"],
+    ["Print editions", "316 pages &middot; frontispiece and nine new plates"],
+    ["Formats", "Kindle &middot; paperback &middot; hardcover"],
+    ["Status", "Complete KDP drafts &middot; not yet published"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "Edgar Huntly",
+  "worksIntro": "Published in 1799, Charles Brockden Brown’s <i>Edgar Huntly; or, Memoirs of a Sleep-Walker</i> is one of the formative works of American Gothic fiction.<br><br>Brown replaced the castles and ruins of European Gothic with the forests, caves and unsettled borderlands of the young United States. What begins as an investigation into murder and mysterious sleepwalking becomes a journey through wilderness, violence, fractured memory and psychological disorientation.<br><br>Written decades before Poe and Hawthorne, and before the frontier had become a fully developed literary mythology, <i>Edgar Huntly</i> stands near the beginning of a dark American tradition later explored in works such as <i>The Harpe’s Head</i> and <i>Nick of the Woods</i>.<br><br>A remarkable novel from the uncertain dawn of American literature.<br><br><i>Wieland</i> and a German edition of <i>Edgar Huntly</i> will follow.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-edgar-huntly" },
+      "meta": "American Gothic &middot; Philadelphia &middot; 1799",
+      "title": "Edgar Huntly (Illustrated)",
+      "subtitle": "or, Memoirs of a Sleep-Walker",
+      "modal": {
+        "metadata": "AETERNUS &middot; Anthracite Series &middot; 316 print pages",
+        "summary": "Published in 1799, Charles Brockden Brown’s Edgar Huntly; or, Memoirs of a Sleep-Walker is one of the formative works of American Gothic fiction.",
+        "sample": "Complete novel after the first edition, Philadelphia 1799; carefully modernized English, checked against the 1799 text; frontispiece and nine new plates; publisher’s preface, editorial note, author profile, and afterword; Brown’s preface “To the Public” in its original wording.",
+        "status": "Complete KDP drafts &middot; not yet published"
+      }
+    }
+  ]
+});

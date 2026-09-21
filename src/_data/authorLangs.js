@@ -20,6 +20,8 @@ const P = {
 };
 
 const AVAILABLE = {
+  // English edition first; the German edition will receive its own page later.
+  "charles-brockden-brown": ["en"],
   "james-hall": ["de", "en"],
   "johanna-spyri": ["de"],
   "carlo-collodi": ["de"],
