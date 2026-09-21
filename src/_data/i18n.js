@@ -886,8 +886,8 @@ module.exports = {
                 hardcover: "978-3-67605-010-4"
               },
               pages: 352,
-              pricesEur: { paperback: "19,00", hardcover: "27,99" },
-              asin: { paperback: "3676050096", hardcover: "367605010X" },
+              pricesEur: { ebook: "10,99", paperback: "19,00", hardcover: "27,99" },
+              asin: { ebook: "B0HJR7X4W2", paperback: "3676050096", hardcover: "367605010X" },
               amazonUrl: "https://www.amazon.de/dp/3676050096",
               originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
               title: {
@@ -909,8 +909,8 @@ module.exports = {
                 hardcover: "978-3-67605-013-5"
               },
               pages: 406,
-              pricesEur: { paperback: "19,00", hardcover: "27,99" },
-              asin: { paperback: "3676050126", hardcover: "3676050134" },
+              pricesEur: { ebook: "10,99", paperback: "19,00", hardcover: "27,99" },
+              asin: { ebook: "B0HJQNKYB1", paperback: "3676050126", hardcover: "3676050134" },
               amazonUrl: "https://www.amazon.de/dp/3676050126",
               originalTitle: "The Book of Woodcraft and Indian Lore, 1912",
               title: {
@@ -1008,6 +1008,94 @@ module.exports = {
               desc: {
                 de: "Beide Originalbände ungekürzt in einer Gesamtausgabe, mit behutsam modernisierter Rechtschreibung, Frontispiz, siebzehn neuen Bildtafeln und editorischem Apparat.",
                 en: "Both original volumes complete in one edition, with gently modernised spelling, a frontispiece, seventeen new full-page plates, and editorial apparatus."
+              },
+              status: { de: "Jetzt erhältlich", en: "Available now" }
+            }
+          ]
+        },
+        {
+          // Märchenlinie (21.09.2026): Die Schreckensmärchen Band I-III sind bei KDP live, standen
+          // aber in keinem Buchkatalog. Eine eigene Autorenseite gibt es (noch) nicht, weil im Haus
+          // kein gemeinfreies Porträt liegt; die Märchenlinien-Seite dient als Autorenseite.
+          // Druckpreise stehen bei KDP netto im Regal und werden hier nicht zurückgerechnet.
+          name: "Brüder Grimm",
+          slug: "brueder-grimm",
+          landingUrl: { de: "/bernstein-maerchen/", en: "/bernstein-maerchen/" },
+          bio: {
+            de: "Jacob und Wilhelm Grimm sammelten die Kinder- und Hausmärchen. Die Schreckensmärchen versammeln jene Erzählungen, in denen Angst, Grausamkeit, Verwandlung und Schuld offen hervortreten.",
+            en: "Jacob and Wilhelm Grimm collected the Children's and Household Tales. The Tales of Terror gather the stories in which fear, cruelty, transformation, and guilt come openly to the surface."
+          },
+          books: [
+            {
+              cover: "cover-grimm-band-i",
+              band: "I",
+              isbn: "978-3-912883-44-2",
+              isbns: {
+                ebook: "978-3-912883-45-9",
+                paperback: "978-3-912883-44-2",
+                hardcover: "978-3-912883-46-6"
+              },
+              pages: 107,
+              pricesEur: { ebook: "9,99" },
+              asin: { ebook: "B0HH8L3GRH", paperback: "3912883440", hardcover: "3912883467" },
+              amazonUrl: "https://www.amazon.de/dp/3912883440",
+              originalTitle: "Kinder- und Hausmärchen",
+              title: { de: "Die Schreckensmärchen der Brüder Grimm · Band I", en: "The Grimm Brothers' Tales of Terror · Volume I" },
+              desc: {
+                de: "Eine Auswahl jener Märchen, in denen Angst, Grausamkeit, Verwandlung und Schuld offen hervortreten – ohne Verharmlosung und mit editorischer Einordnung.",
+                en: "A selection of the tales in which fear, cruelty, transformation, and guilt come openly to the surface."
+              },
+              status: { de: "Jetzt erhältlich", en: "Available now" }
+            },
+            {
+              cover: "cover-grimm-band-ii",
+              band: "II",
+              isbn: "978-3-67605-033-3",
+              isbns: {
+                ebook: "978-3-67605-032-6",
+                paperback: "978-3-67605-033-3",
+                hardcover: "978-3-67605-034-0"
+              },
+              pages: 134,
+              pricesEur: { ebook: "9,99" },
+              asin: { ebook: "B0HJPB9WDP", paperback: "3676050339", hardcover: "3676050347" },
+              amazonUrl: "https://www.amazon.de/dp/3676050339",
+              originalTitle: "Kinder- und Hausmärchen",
+              title: { de: "Die Schreckensmärchen der Brüder Grimm · Band II", en: "The Grimm Brothers' Tales of Terror · Volume II" },
+              desc: {
+                de: "Der zweite Band der Schreckensmärchen: weitere Erzählungen aus der Sammlung der Brüder Grimm in ihrer dunklen Gestalt, illustriert und editorisch eingeordnet.",
+                en: "The second volume of the Tales of Terror: further stories from the Grimm collection in their dark form, illustrated and placed in context."
+              },
+              status: { de: "Jetzt erhältlich", en: "Available now" }
+            }
+          ]
+        },
+        {
+          name: "Afanassjew · Erben",
+          slug: "afanassjew-erben",
+          landingUrl: { de: "/bernstein-maerchen/", en: "/bernstein-maerchen/" },
+          bio: {
+            de: "Alexander Afanassjew und Karel Jaromír Erben sammelten die Volksmärchen Russlands und Böhmens. Band III der Schreckensmärchen führt die Märchenlinie in die slawische Überlieferung.",
+            en: "Alexander Afanasyev and Karel Jaromír Erben collected the folk tales of Russia and Bohemia. Volume III of the Tales of Terror carries the fairy-tale line into the Slavic tradition."
+          },
+          books: [
+            {
+              cover: "cover-slawische-schreckensmaerchen",
+              band: "III",
+              isbn: "978-3-67605-039-5",
+              isbns: {
+                ebook: null,
+                paperback: "978-3-67605-039-5",
+                hardcover: "978-3-67605-040-1"
+              },
+              pages: 202,
+              asin: { paperback: "3676050398", hardcover: "3676050401" },
+              amazonUrl: "https://www.amazon.de/dp/3676050398",
+              originalTitle: "",
+              title: { de: "Die slawischen Schreckensmärchen · Band III", en: "The Slavic Tales of Terror · Volume III" },
+              desc: {
+                de: "Band III der Schreckensmärchen: slawische Volksmärchen aus den Sammlungen Afanassjews und Erbens in deutscher Übersetzung.",
+                en: "Volume III of the Tales of Terror: Slavic folk tales from the collections of Afanasyev and Erben."
               },
               status: { de: "Jetzt erhältlich", en: "Available now" }
             }

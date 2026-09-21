@@ -37,7 +37,9 @@ const AVAILABLE = {
   "george-washington-sears": ["de", "en"],
   // Nur Englisch: Shelters, Shacks, and Shanties ist eine englische Originalausgabe,
   // eine deutsche Beard-Seite gibt es nicht.
-  "daniel-carter-beard": ["en"]
+  "daniel-carter-beard": ["en"],
+  // Nur Englisch: Bevis ist eine englische Originalausgabe (QR /qr/jefferies/).
+  "richard-jefferies": ["en"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };

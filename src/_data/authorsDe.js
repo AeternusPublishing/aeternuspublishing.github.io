@@ -177,7 +177,7 @@ module.exports = [
         "title": "Das Buch des Waldhandwerks und der Indianerweisheit",
         "subtitle": "Erster Band: Die Weisheit des Stammes",
         "modal": {
-          "metadata": "352 Seiten · Taschenbuch 19,00 € · Hardcover 27,99 €",
+          "metadata": "352 Seiten · E-Book 10,99 € · Taschenbuch 19,00 € · Hardcover 27,99 €",
           "summary": "Band I erschließt Setons Naturphilosophie, Stammesordnung und Charakterbildung in der ersten vollständigen deutschen Ausgabe dieses Grundwerks von 1912.",
           "sample": "Woodcraft beginnt für Seton nicht beim Werkzeug, sondern bei Aufmerksamkeit: sehen lernen, bevor man handelt.",
           "amazon": "https://www.amazon.de/dp/3676050096"
@@ -191,7 +191,7 @@ module.exports = [
         "title": "Das Buch des Waldhandwerks und der Indianerweisheit",
         "subtitle": "Zweiter Band: Das Handwerk des Waldläufers",
         "modal": {
-          "metadata": "406 Seiten · Taschenbuch 19,00 € · Hardcover 27,99 €",
+          "metadata": "406 Seiten · E-Book 10,99 € · Taschenbuch 19,00 € · Hardcover 27,99 €",
           "summary": "Band II führt von Feuer ohne Streichholz über Fährtenlesen, Botanik und Sternkunde bis zum Bau von Zufluchten und Holzkanus.",
           "sample": "Jede Kunst beginnt mit genauer Beobachtung und wird durch Übung zu verlässlichem Können.",
           "amazon": "https://www.amazon.de/dp/3676050126"
