@@ -451,10 +451,37 @@ module.exports.push({
         "summary": "The Great Plains in 1846: emigrant trains, buffalo hunts, trading posts, and weeks in an Oglala camp. Parkman’s first book records a journey into a West still being travelled and contested.",
         "sample": "Freshly typeset throughout, with clear typography, balanced page proportions, and 13 illustrations created specifically for this edition. Text and plates have been arranged together across 478 print pages, with the layout checked for print. The English text follows the first edition of 1849, including its chapter epigraphs and concluding note on Henry Chatillon. Paperback ISBN 978-3-67605-030-2; hardcover ISBN 978-3-67605-031-9; e-book ISBN 978-3-67605-029-6.",
         "status": "Available now",
-        "amazon": "https://www.amazon.com/dp/3676050304"
-      }
+        "amazon": "#edition-oregon-trail"
+      },
+      "id": "edition-oregon-trail",
+      "status": "Available now",
+      "formats": [
+        { "name": "Kindle", "isbn": "978-3-67605-029-6", "price": "US list price $12.99", "links": [
+            { "label": "United States", "url": "https://www.amazon.com/dp/B0HJXVW262" },
+            { "label": "United Kingdom", "url": "https://www.amazon.co.uk/dp/B0HJXVW262" },
+            { "label": "Australia", "url": "https://www.amazon.com.au/dp/B0HJXVW262" },
+            { "label": "Canada", "url": "https://www.amazon.ca/dp/B0HJXVW262" }
+        ] },
+        { "name": "Paperback", "isbn": "978-3-67605-030-2", "price": "US list price $21.99", "links": [
+            { "label": "United States", "url": "https://www.amazon.com/dp/3676050304" },
+            { "label": "United Kingdom", "url": "https://www.amazon.co.uk/dp/3676050304" },
+            { "label": "Australia", "url": "https://www.amazon.com.au/dp/3676050304" },
+            { "label": "Canada", "url": "https://www.amazon.ca/dp/3676050304" }
+        ] },
+        { "name": "Hardcover", "isbn": "978-3-67605-031-9", "price": "US list price $29.99", "links": [
+            { "label": "United States", "url": "https://www.amazon.com/dp/3676050312" },
+            { "label": "United Kingdom", "url": "https://www.amazon.co.uk/dp/3676050312" },
+            { "label": "Canada", "url": "https://www.amazon.ca/dp/3676050312" }
+        ] }
+      ]
     }
-  ]
+  ],
+  "editionSection": true,
+  "editionsTitle": "Choose your edition",
+  "modalActionLabel": "Formats & availability",
+  "editionsNote": "Prices and delivery depend on your Amazon store; the applicable local taxes are handled by Amazon. US prices may have sales tax added at checkout. Hardcover is offered in the US, UK and Canada; Amazon.com.au supports the Kindle and paperback editions. Availability checked 21 September 2026.",
+  "sisterUrl": "/autoren/francis-parkman/",
+  "sisterLabel": "Looking for the German edition?"
 });
 
 // James Hall (JH_001-EN, The Harpe's Head). Copy follows the English publisher's
