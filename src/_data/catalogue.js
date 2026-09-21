@@ -25,7 +25,7 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
   return {
     id, url: `/buecher/${id}/`, title: book.title.de, author: author.name,
     authorUrl: author.landingUrl.de, authorSlug: authorData?.slug,
-    portrait: authorData?.portrait, authorIntro: clean(authorData?.intro),
+    portrait: authorData?.portrait, authorIntro: clean(authorData?.intro) || clean(author.bio?.de),
     cover: book.cover, description, summary: clean(detail?.modal?.summary) || description,
     subtitle: clean(detail?.subtitle), original: book.originalTitle || "",
     series: series.slug, seriesName: series.colorName.de, seriesColor: series.colorHex,
