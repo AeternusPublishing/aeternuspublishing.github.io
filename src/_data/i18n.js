@@ -355,43 +355,79 @@ module.exports = {
           ]
         },
         {
-          // Die Eroberung des Westens: vier Hardcover. Alle vier Baende sind seit 2026-09-13
-          // nach der Kursivreparatur hashgebunden freigegeben. Solange keine Produktseite
-          // gemessen live ist, bleiben sie als upcoming ohne Kaufweg sichtbar.
+          // Die Eroberung des Westens: vier Hardcover, seit dem KDP-Regalabzug vom 2026-09-20
+          // gemessen live (ASIN = ISBN-10 der KDP-Hardcovernummer). Keine Preise: das Regal
+          // fuehrt Nettowerte, der Bruttopreis ist Verlegersache.
           name: "Theodore Roosevelt",
           slug: "theodore-roosevelt",
           landingUrl: { de: "/autoren/theodore-roosevelt/", en: "/autoren/theodore-roosevelt/" },
           bio: {
-            de: "Lange vor der Präsidentschaft schrieb Theodore Roosevelt die Geschichte der Grenzwelt jenseits der Alleghenies. Alle vier Bände der Eroberung des Westens sind gesetzt und vom Verlag freigegeben; die Auslieferung wird abgeschlossen.",
-            en: "Long before his presidency, Theodore Roosevelt wrote the history of the frontier beyond the Alleghenies. All four German volumes of The Winning of the West have been typeset and approved by the publisher; distribution is being completed."
+            de: "Lange vor der Präsidentschaft schrieb Theodore Roosevelt die Geschichte der Grenzwelt jenseits der Alleghenies. Alle vier Bände der Eroberung des Westens sind als Hardcover erhältlich.",
+            en: "Long before his presidency, Theodore Roosevelt wrote the history of the frontier beyond the Alleghenies. All four German volumes of The Winning of the West are available in hardcover."
           },
-          books: [],
-          upcoming: [
+          books: [
             {
               cover: "cover-wotw-1",
+              band: "I",
+              isbn: "978-3-912883-91-6",
+              isbns: { hardcover: "978-3-912883-91-6" },
+              asin: { hardcover: "3912883912" },
+              pages: 448,
+              amazonUrl: "https://www.amazon.de/dp/3912883912",
               originalTitle: "The Winning of the West, Vol. I, 1889",
               title: { de: "Die Eroberung des Westens · Band I", en: "The Winning of the West · Vol. I (German)" },
-              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
+              desc: {
+                de: "Band I von Theodore Roosevelts Geschichtswerk über die Grenzwelt jenseits der Alleghenies, erstmals vollständig auf Deutsch. Hardcover.",
+                en: "Volume I of Theodore Roosevelt's history of the frontier beyond the Alleghenies, complete in German for the first time. Hardcover."
+              }
             },
             {
               cover: "cover-wotw-2",
+              band: "II",
+              isbn: "978-3-912883-92-3",
+              isbns: { hardcover: "978-3-912883-92-3" },
+              asin: { hardcover: "3912883920" },
+              pages: 502,
+              amazonUrl: "https://www.amazon.de/dp/3912883920",
               originalTitle: "The Winning of the West, Vol. II, 1889",
               title: { de: "Die Eroberung des Westens · Band II", en: "The Winning of the West · Vol. II (German)" },
-              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
+              desc: {
+                de: "Band II von Theodore Roosevelts Geschichtswerk über die Grenzwelt jenseits der Alleghenies, erstmals vollständig auf Deutsch. Hardcover.",
+                en: "Volume II of Theodore Roosevelt's history of the frontier beyond the Alleghenies, complete in German for the first time. Hardcover."
+              }
             },
             {
               cover: "cover-wotw-3",
+              band: "III",
+              isbn: "978-3-912883-93-0",
+              isbns: { hardcover: "978-3-912883-93-0" },
+              asin: { hardcover: "3912883939" },
+              pages: 392,
+              amazonUrl: "https://www.amazon.de/dp/3912883939",
               originalTitle: "The Winning of the West, Vol. III, 1894",
               title: { de: "Die Eroberung des Westens · Band III", en: "The Winning of the West · Vol. III (German)" },
-              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
+              desc: {
+                de: "Band III von Theodore Roosevelts Geschichtswerk über die Grenzwelt jenseits der Alleghenies, erstmals vollständig auf Deutsch. Hardcover.",
+                en: "Volume III of Theodore Roosevelt's history of the frontier beyond the Alleghenies, complete in German for the first time. Hardcover."
+              }
             },
             {
               cover: "cover-wotw-4",
+              band: "IV",
+              isbn: "978-3-912883-94-7",
+              isbns: { hardcover: "978-3-912883-94-7" },
+              asin: { hardcover: "3912883947" },
+              pages: 430,
+              amazonUrl: "https://www.amazon.de/dp/3912883947",
               originalTitle: "The Winning of the West, Vol. IV, 1896",
               title: { de: "Die Eroberung des Westens · Band IV", en: "The Winning of the West · Vol. IV (German)" },
-              status: { de: "Vom Verlag freigegeben · Auslieferung in Vorbereitung", en: "Publisher-approved · distribution pending" }
+              desc: {
+                de: "Band IV von Theodore Roosevelts Geschichtswerk über die Grenzwelt jenseits der Alleghenies, erstmals vollständig auf Deutsch. Hardcover.",
+                en: "Volume IV of Theodore Roosevelt's history of the frontier beyond the Alleghenies, complete in German for the first time. Hardcover."
+              }
             }
-          ]
+          ],
+          upcoming: []
         },
         {
           // Francis Parkman: Saeule ANTHRAZIT. Deutsche Ausgabe am 2026-09-14 bei KDP eingereicht;
