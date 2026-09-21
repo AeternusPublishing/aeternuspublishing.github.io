@@ -533,6 +533,9 @@ module.exports = {
                 en: "Baden-Powell's field diary of the 1895–96 Ashanti campaign, after the London first edition of 1896 with all 22 original plates."
               },
               isbn: "978-3-912883-48-0",
+              isbns: { ebook: null, paperback: "978-3-912883-48-0", hardcover: "978-3-912883-49-7" },
+              pricesEur: { hardcover: "24,99" },
+              asin: { ebook: "B0HHBS3WL4", paperback: "3912883483", hardcover: "3912883491" },
               amazonUrl: "https://www.amazon.de/dp/3912883483"
             },
             {
@@ -750,6 +753,8 @@ module.exports = {
               cover: "cover-wahb",
               band: "II",
               isbn: "978-3-912883-01-5",
+              isbns: { ebook: null, paperback: "978-3-912883-26-8", hardcover: "978-3-912883-01-5" },
+              asin: { ebook: "B0HDSSK196", paperback: "3912883262", hardcover: "3912883017" },
               amazonUrl: "https://www.amazon.de/dp/3912883017",
               originalTitle: "The Biography of a Grizzly, 1900",
               title: { de: "Wahb. Lebensgeschichte eines Grizzlybären", en: "Wahb. The Biography of a Grizzly" },
@@ -768,7 +773,8 @@ module.exports = {
                 hardcover: "978-3-912883-16-9"
               },
               pages: 239,
-              pricesEur: { ebook: "9,99", paperback: "14,01", hardcover: "26,99" },
+              pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "26,99" },
+              asin: { ebook: "B0HFD2K7L2", paperback: "3912883173", hardcover: "3912883165" },
               amazonUrl: "https://www.amazon.de/dp/3912883165",
               originalTitle: "Lives of the Hunted, 1901",
               title: { de: "Leben der Gejagten", en: "Lives of the Hunted" },
@@ -808,7 +814,7 @@ module.exports = {
               },
               pages: 521,
               pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "29,99" },
-              asin: { hardcover: "3912883289" },
+              asin: { ebook: "B0HHZ3YXK4", paperback: "3912883270", hardcover: "3912883289" },
               amazonUrl: "https://www.amazon.de/dp/3912883289",
               originalTitle: "Two Little Savages, 1903",
               title: { de: "Zwei kleine Wilde", en: "Two Little Savages" },
@@ -828,6 +834,7 @@ module.exports = {
               },
               pages: 509,
               pricesEur: { ebook: "11,99", paperback: "19,99", hardcover: "29,99" },
+              asin: { ebook: "B0HGB7B1XX", paperback: "3912883300", hardcover: "3912883319" },
               amazonUrl: "https://www.amazon.de/dp/3912883300",
               originalTitle: "Rolf in the Woods, 1911",
               title: { de: "Rolf in der Wildnis", en: "Rolf in the Woods" },
@@ -941,6 +948,8 @@ module.exports = {
             {
               cover: "cover-koenig-salomos-schatzkammer",
               isbn: "978-3-912883-54-1",
+              isbns: { ebook: null, paperback: "978-3-912883-54-1", hardcover: "978-3-912883-55-8" },
+              asin: { ebook: "B0HHYSSKRW", paperback: "3912883548", hardcover: "3912883556" },
               amazonUrl: "https://www.amazon.de/dp/3912883548",
               originalTitle: "King Solomon's Mines, 1885",
               title: { de: "König Salomos Schatzkammer", en: "King Solomon's Mines" },
@@ -1393,10 +1402,26 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     "en": "/autoren/felix-salten/"
   },
   "bio": {
-    "de": "Der Erzähler hinter Bambi. Bambis Kinder ist lieferbar, die illustrierte Bambi-Ausgabe ist in Vorbereitung.",
-    "en": "The author behind Bambi. Bambi's Children is available; our illustrated German Bambi edition is in preparation."
+    "de": "Der Erzähler hinter Bambi. Die illustrierte Bambi-Ausgabe und Bambis Kinder sind lieferbar.",
+    "en": "The author behind Bambi. Our illustrated German Bambi edition and Bambi's Children are available."
   },
   "books": [
+    {
+      // Bambi (illustriert): bei KDP live als Taschenbuch und Hardcover (KDP-Regal 20.09.2026);
+      // ein E-Book gibt es auf Verlegerwort vom 08.09. nicht.
+      "cover": "cover-bambi-salten",
+      "isbn": "978-3-912883-98-5",
+      "isbns": { "ebook": null, "paperback": "978-3-912883-98-5", "hardcover": "978-3-912883-99-2" },
+      "asin": { "paperback": "391288398X", "hardcover": "3912883998" },
+      "amazonUrl": "https://www.amazon.de/dp/391288398X",
+      "originalTitle": "Bambi. Eine Lebensgeschichte aus dem Walde, 1923",
+      "title": { "de": "Bambi", "en": "Bambi" },
+      "desc": {
+        "de": "Der Weg eines jungen Rehs durch die Jahreszeiten, im ungekürzten deutschen Originaltext mit zwölf neuen Innenillustrationen, historischem Autorenporträt sowie Vor- und Nachwort.",
+        "en": "A young deer's way through the seasons, in the unabridged German original with twelve new illustrations, a historical author portrait, foreword, and afterword."
+      },
+      "status": { "de": "Jetzt erhältlich", "en": "Available now" }
+    },
     {
       "cover": "cover-bambis-kinder",
       "isbn": "978-3-67605-004-3",
@@ -1407,6 +1432,7 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
       },
       "pages": 248,
       "pricesEur": { "ebook": "9,99", "paperback": "14,99", "hardcover": "25,00" },
+      "asin": { "ebook": "B0HJ6MS5LT", "paperback": "3676050045", "hardcover": "3676050053" },
       "amazonUrl": "https://www.amazon.de/dp/3676050045",
       "originalTitle": "Bambis Kinder. Eine Familie im Walde, 1940",
       "title": { "de": "Bambis Kinder", "en": "Bambis Kinder" },
@@ -1455,6 +1481,7 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
       },
       "pages": 192,
       "pricesEur": { "ebook": "10,99", "paperback": "19,99", "hardcover": "28,99" },
+      "asin": { "ebook": "B0HJ6QJPYQ", "paperback": "3676050010", "hardcover": "3676050029" },
       "amazonUrl": "https://www.amazon.de/dp/3676050010",
       "originalTitle": "Le avventure di Pinocchio, 1883",
       "title": { "de": "Pinocchio", "en": "Pinocchio" },
