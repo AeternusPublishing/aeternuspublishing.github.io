@@ -59,7 +59,10 @@ for (const author of authors) {
 // These data regressions are examples of observed launch faults.
 const woodcraft = catalogue.books.filter(b => b.cover.startsWith("cover-waldhandwerk-band"));
 assert.equal(woodcraft.length, 2);
-assert(woodcraft.every(b => b.pending && !b.amazon), "Submitted is not yet buyable");
+// Stand 2026-09-20: beide Baende sind bei KDP live (Buchregister, KDP-Regalabzug).
+// Die fruehere Regel hielt den Einreichungsstand vom 15.09. fest und schuetzte damit
+// genau den Fehler, den sie fangen sollte: ein lieferbares Buch ohne Kaufweg.
+assert(woodcraft.every(b => !b.pending && b.amazon.includes("amazon.de/dp/")), "Live volumes must be buyable");
 const seton = read("/autoren/ernest-thompson-seton/");
 assert(seton.includes('href="/buecher/wilde-tiere-die-ich-kannte/"'));
 assert(!seton.includes('class="book-index">010<'), "Tenth book must be 10");

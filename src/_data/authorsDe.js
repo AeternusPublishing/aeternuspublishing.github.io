@@ -610,7 +610,7 @@ module.exports = [
         "title": "Der Sturz Prempehs",
         "subtitle": "Tagebuch des Aschanti-Feldzugs 1895–96",
         "modal": {
-          "metadata": "196 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,98 €",
+          "metadata": "196 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,99 €",
           "summary": "Winter 1895: Eine britische Expedition rückt in den Dschungel Westafrikas vor, um König Prempeh I. zu unterwerfen. An ihrer Spitze steht Major Robert Baden-Powell — beauftragt, mitten im Vormarsch aus einheimischen Stämmen eine Vorhut zu formen, die Native Levy. Sein Tagebuch ist kein geglätteter Bericht, sondern das Protokoll eines Feldzugs im Morast: Schneisen durch den Urwald, Brücken über reißende Flüsse, Späher im Busch — festgehalten mit militärischer Präzision und trockenem Spott. Hier steht die Felderfahrung, aus der drei Jahre später Aids to Scouting wurde und aus der die weltweite Pfadfinderbewegung hervorging.",
           "sample": "Ungekürzte deutsche Neuübersetzung der Erstausgabe London 1896, mit allen 22 Originaltafeln nach Zeichnungen des Verfassers, dem Anhang seines Bruders George Baden-Powell, historischer Einordnung, Glossar und Bildnachweis.",
           "amazon": "https://www.amazon.de/dp/3912883483"
@@ -871,7 +871,7 @@ module.exports = [
           "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-91-6",
           "summary": "Jenseits der Alleghenies lag ein Land, das keine Karte verzeichnete. Zwischen 1769 und 1776 schoben sich Jäger, Siedler und Abenteurer über die Bergkette nach Westen – in Wildnis, in fremdes Jagdland, in einen Krieg ohne Front. Roosevelt erzählt vom Aufbruch der Grenzer, von Boone und den Long Hunters, von Lord Dunmores Krieg und der Gründung Kentuckys. Der erste Band seines großen Geschichtswerks von 1889, erstmals vollständig auf Deutsch.",
           "sample": "„Der Westen war für Roosevelt nicht bloß ein Raum, sondern eine historische Schule des Charakters.“ — Aus dem Verlagsvorwort",
-          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
+          "amazon": "https://www.amazon.de/dp/3912883912"
         }
       },
       {
@@ -885,7 +885,7 @@ module.exports = [
           "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-92-3",
           "summary": "Während an der Küste um die Unabhängigkeit gekämpft wurde, brannte im Westen ein zweiter Krieg. Von Detroit aus warb der britische Vizegouverneur Hamilton die Stämme an; in Kentucky hielten die Blockhausforts stand. George Rogers Clark zog mit einer Handvoll Männer ins Illinois-Land und nahm Vincennes im Winterhochwasser. Im Süden überrannten die Backwoodsmen die Cherokee und schlugen bei King's Mountain.",
           "sample": "„Hamilton und seine Untergebenen, rote wie weiße, waren mit dem beschäftigt, was im Wesentlichen der Versuch war, die Grenzlandsiedler auszutilgen.“ — Theodore Roosevelt",
-          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
+          "amazon": "https://www.amazon.de/dp/3912883920"
         }
       },
       {
@@ -899,7 +899,7 @@ module.exports = [
           "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-93-0",
           "summary": "Der Krieg war vorbei, und der Andrang begann. Jahr um Jahr strömten Siedler über die Pässe: nach Kentucky, an den Cumberland, in das eben erst gewonnene Land. Die Indianerkriege gingen weiter, die Mündung des Mississippi lag in spanischer Hand, und am Holston rief sich mit dem Staat Franklin ein Gemeinwesen aus, das die Union nie anerkannte. Der dritte Band des Geschichtswerks, erstmals vollständig auf Deutsch.",
           "sample": "„Die Zeit war für die ganze Nation von entscheidender Bedeutung, für das Volk der binnenländischen Siedlungsgrenze so gut wie für das der Küste.“ — Theodore Roosevelt",
-          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
+          "amazon": "https://www.amazon.de/dp/3912883939"
         }
       },
       {
@@ -913,7 +913,7 @@ module.exports = [
           "metadata": "AETERNUS Verlag · Hardcover · ISBN 978-3-912883-94-7",
           "summary": "Zwei Niederlagen, ein Sieg – und ein Kontinent wechselte den Besitzer. St. Clairs Heer wurde 1791 am Wabash vernichtet; vier Jahre später schlug Anthony Wayne die Stämme an den Fallen Timbers. Tennessee wurde Staat, die Verträge von Jay und Pinckney öffneten Strom und Grenze, und mit dem Kauf Louisianas reichte die Republik bis an die Rocky Mountains.",
           "sample": "„Jahr für Jahr wirkte jede Schar rauher Siedler und rauher Soldaten ihren Teil an dem großen Epos der Wildniseroberung.“ — Theodore Roosevelt",
-          "status": "Vom Verlag freigegeben · Auslieferung in Vorbereitung · Hardcover"
+          "amazon": "https://www.amazon.de/dp/3912883947"
         }
       }
     ]
