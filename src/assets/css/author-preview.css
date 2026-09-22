@@ -19,8 +19,8 @@
    Graustufen-Regel aus author-es.css wuerde diese Kolorierung wegwerfen,
    deshalb hier eine gemeinsame, ruhige Behandlung statt Graustufe.
    Umschalten auf Hausgraustufe: naechste Regel loeschen. */
-.is-preview .portrait-frame img{filter:saturate(.86) contrast(1.04)}
-.is-preview .portrait-frame picture{display:block;width:100%;height:100%}
+.is-preview .portrait-frame img{filter:none}
+.is-preview .portrait-frame picture{display:block;width:100%;height:auto}
 
 /* Vorschau-Banner: liegt wie der Kopf ueber dem Hero, direkt unter ihm.
    Der Kopf ist in author-es.css absolut positioniert (min-height 6.5rem,
