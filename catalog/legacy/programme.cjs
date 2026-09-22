@@ -40,70 +40,70 @@ module.exports = {
           "metrics.info5.2nd": { de: "Deutsche Ausgaben; englische Verlagsinformationen ergänzend", en: "German first, English accompanying  " },
 
   // About Us Section
-  "about.eyebrow": { 
-    de: "✦ ÜBER UNS", 
-    en: "✦ ABOUT US" 
+  "about.eyebrow": {
+    de: "✦ ÜBER UNS",
+    en: "✦ ABOUT US"
   },
-  "about.title": { 
+  "about.title": {
     de: "Ein Editionsverlag für wiederzuentdeckende Werke.",
-    en: "A house built on lead and linen." 
+    en: "A house built on lead and linen."
   },
-  "about.text1": { 
-    de: "AETERNUS VERLAG ist ein unabhängiges Editionshaus für Werke, die nicht nach kurzer Aufmerksamkeit verlangen, sondern nach Bestand. Unser Programm gilt Texten, die aus der Tiefe der Geschichte sprechen: Naturbeobachtung, Wildnis, Grenzerfahrung, Krieg, Unternehmertum, Staatskunst, Architektur, Charakterbildung und Zivilisation.", 
-    en: "AETERNUS VERLAG is an independent editorial house for works that ask not for brief attention, but for endurance. Our programme is devoted to texts that speak from the depth of history: nature observation, wilderness, frontier experience, war, enterprise, statecraft, architecture, character formation, and civilization." 
+  "about.text1": {
+    de: "AETERNUS VERLAG ist ein unabhängiges Editionshaus für Werke, die nicht nach kurzer Aufmerksamkeit verlangen, sondern nach Bestand. Unser Programm gilt Texten, die aus der Tiefe der Geschichte sprechen: Naturbeobachtung, Wildnis, Grenzerfahrung, Krieg, Unternehmertum, Staatskunst, Architektur, Charakterbildung und Zivilisation.",
+    en: "AETERNUS VERLAG is an independent editorial house for works that ask not for brief attention, but for endurance. Our programme is devoted to texts that speak from the depth of history: nature observation, wilderness, frontier experience, war, enterprise, statecraft, architecture, character formation, and civilization."
   },
-  "about.text2": { 
+  "about.text2": {
     de: "AETERNUS veröffentlicht Neuübersetzungen und neu eingerichtete Ausgaben älterer Werke. Viele bedeutende Werke sind nicht deshalb verschwunden, weil sie inhaltlich überholt wären, sondern weil ihre Sprache, ihre Satzführung, ihre historischen Begriffe und ihre fremde Welt den Zugang erschweren.",
-    en: "At the centre of our work stands the recovery of older texts for modern readers. Many important works have disappeared not because their substance has become obsolete, but because their language, sentence structure, historical terminology, and unfamiliar world make access difficult. This is precisely where AETERNUS begins." 
+    en: "At the centre of our work stands the recovery of older texts for modern readers. Many important works have disappeared not because their substance has become obsolete, but because their language, sentence structure, historical terminology, and unfamiliar world make access difficult. This is precisely where AETERNUS begins."
   },
-  "about.text3": { 
+  "about.text3": {
     de: "Jede Ausgabe wird anhand einer festgelegten Textgrundlage übersetzt, sprachlich bearbeitet und in mehreren Prüfschritten mit dem Ausgangstext abgeglichen. Lange Satzgefüge werden gegliedert, unklare Bezüge aufgelöst und überholte Wendungen verständlich übertragen. Verschachtelte Perioden werden, soweit nötig, in klarere Satzfolgen gegliedert, und historische sowie fremdsprachige Begriffe knapp erläutert. Aussage, Perspektive und historischer Ton des Originals bleiben erhalten.",
-    en: "We work with highly qualified translators, editors, and language specialists who are trained in historical texts, syntactic modernization, terminological precision, and careful restoration of readability. Older sentence structures are not mechanically simplified, but thoughtfully reshaped. Dense periods are opened, unclear references are ordered, outdated expressions are clarified, and culturally specific terms are explained organically. The intellectual character of the original remains decisive." 
+    en: "We work with highly qualified translators, editors, and language specialists who are trained in historical texts, syntactic modernization, terminological precision, and careful restoration of readability. Older sentence structures are not mechanically simplified, but thoughtfully reshaped. Dense periods are opened, unclear references are ordered, outdated expressions are clarified, and culturally specific terms are explained organically. The intellectual character of the original remains decisive."
   },
-  "about.text4": { 
+  "about.text4": {
     de: "Wir veröffentlichen daher keine bloßen Nachdrucke und keine hastigen Rohübersetzungen. Jede Ausgabe wird textkritisch geprüft, neu gesetzt und sprachlich so bearbeitet, dass sie ohne vermeidbare Verständnishürden gelesen werden kann, ohne dass der Kern des Werkes modernisiert, geglättet oder entstellt wird. Notwendige Erläuterungen erscheinen als kurze Anmerkungen, Zusätze oder Glossareinträge. Wo das Original hart, fremd oder altertümlich ist, bleibt seine Eigenart erhalten.",
-    en: "We therefore do not publish mere reprints or hurried raw translations. Each edition is examined, prepared, and guided in language so that modern readers can enter the work without having its core modernized, softened, or distorted. Where explanation is necessary, it is given with restraint. Where the original is severe, unfamiliar, or archaic, its character is preserved." 
+    en: "We therefore do not publish mere reprints or hurried raw translations. Each edition is examined, prepared, and guided in language so that modern readers can enter the work without having its core modernized, softened, or distorted. Where explanation is necessary, it is given with restraint. Where the original is severe, unfamiliar, or archaic, its character is preserved."
   },
-  "about.text5": { 
+  "about.text5": {
     de: "Das Programm richtet sich auf Werke, die historisch oder literarisch weiterhin bedeutsam sind, im deutschen Buchhandel jedoch fehlen, nur in veralteten Übersetzungen vorliegen oder bislang schwer zugänglich waren.",
-    en: "Our aim is not literary fashion. Our aim is transmission: books that can be read again because they contain more than entertainment, namely experience, perception, discipline, and a form of truth that outlives the moment." 
+    en: "Our aim is not literary fashion. Our aim is transmission: books that can be read again because they contain more than entertainment, namely experience, perception, discipline, and a form of truth that outlives the moment."
   },
   "about.signature": {
     de: "AETERNUS VERLAG",
     en: "The Editors, AETERNUS VERLAG"
   },
   //Translation
-  "translation.eyebrow": { 
-    de: "✦ ÜBERSETZUNG", 
-    en: "✦ TRANSLATION" 
+  "translation.eyebrow": {
+    de: "✦ ÜBERSETZUNG",
+    en: "✦ TRANSLATION"
   },
-  "translation.title": { 
-    de: "Alte Texte wieder lesbar machen.", 
-    en: "Making older texts readable again." 
+  "translation.title": {
+    de: "Alte Texte wieder lesbar machen.",
+    en: "Making older texts readable again."
   },
-  "translation.text1": { 
-    de: "Übersetzung ist bei AETERNUS VERLAG kein nachgeordneter Arbeitsschritt, sondern der eigentliche Kern der Edition. Wer historische Literatur, Reiseberichte, militärische Erinnerungen, Naturerzählungen oder frühe wirtschaftliche und politische Texte neu vorlegt, steht vor einer doppelten Aufgabe: Der Text muss für heutige Leser verständlich werden, ohne seine historische Prägung und seinen Ton zu verlieren.", 
-    en: "At AETERNUS VERLAG, translation is not a secondary production step. It is the core of the edition. Anyone who brings historical literature, travel accounts, military memoirs, nature writing, or early economic and political texts back into print faces a double task: the text must become intelligible to modern readers without losing its historical soul." 
+  "translation.text1": {
+    de: "Übersetzung ist bei AETERNUS VERLAG kein nachgeordneter Arbeitsschritt, sondern der eigentliche Kern der Edition. Wer historische Literatur, Reiseberichte, militärische Erinnerungen, Naturerzählungen oder frühe wirtschaftliche und politische Texte neu vorlegt, steht vor einer doppelten Aufgabe: Der Text muss für heutige Leser verständlich werden, ohne seine historische Prägung und seinen Ton zu verlieren.",
+    en: "At AETERNUS VERLAG, translation is not a secondary production step. It is the core of the edition. Anyone who brings historical literature, travel accounts, military memoirs, nature writing, or early economic and political texts back into print faces a double task: the text must become intelligible to modern readers without losing its historical soul."
   },
-  "translation.text2": { 
+  "translation.text2": {
     de: "Dafür genügt keine wörtliche Übertragung. Ebenso wenig genügt eine glatte Modernisierung, die alles Fremde beseitigt. AETERNUS verbindet sinngenaue Übersetzung mit vorsichtiger sprachlicher Modernisierung. Der Text soll heutigen Lesern verständlich sein, ohne historische Ausdrucksweise, Erzählhaltung und Begriffe unnötig zu vereinheitlichen.",
-    en: "A literal transfer is not enough. Nor is a smooth modernization that removes everything unfamiliar. AETERNUS follows a third path: fidelity of meaning, clear syntax, careful modernization, and editorial discipline. The result should not sound like a museum display, but neither should it read like contemporary prose without origin." 
+    en: "A literal transfer is not enough. Nor is a smooth modernization that removes everything unfamiliar. AETERNUS follows a third path: fidelity of meaning, clear syntax, careful modernization, and editorial discipline. The result should not sound like a museum display, but neither should it read like contemporary prose without origin."
   },
-  "translation.text3": { 
+  "translation.text3": {
     de: "Bei der Bearbeitung werden nicht nur einzelne Wörter, sondern auch Satzbau, Bezüge und Absatzgliederung geprüft. Lange Perioden werden dort gegliedert, wo sie den heutigen Lesefluss blockieren. Unübersichtliche Nebensatzketten werden gegliedert, sofern dies ohne Bedeutungsverlust möglich ist. Historische Begriffe werden nicht blind ersetzt, sondern geprüft, eingeordnet und, wo nötig, durch einen kurzen erklärenden Zusatz im Satz erläutert. Eigennamen, Landschaftsbegriffe, militärische Bezeichnungen und kulturelle Ausdrücke werden beibehalten und, soweit erforderlich, durch kurze Erläuterungen verständlich gemacht.",
-    en: "Our translators and editors work on the architecture of the sentence itself. Long periods are divided where they block modern reading. Overloaded chains of subordinate clauses are brought into clear movement. Historical terms are not blindly replaced, but examined, ordered, and, where necessary, clarified through organic apposition. Proper names, landscape terms, military designations, and cultural expressions remain recognizable, while receiving the context required for comprehension." 
+    en: "Our translators and editors work on the architecture of the sentence itself. Long periods are divided where they block modern reading. Overloaded chains of subordinate clauses are brought into clear movement. Historical terms are not blindly replaced, but examined, ordered, and, where necessary, clarified through organic apposition. Proper names, landscape terms, military designations, and cultural expressions remain recognizable, while receiving the context required for comprehension."
   },
-  "translation.text4": { 
+  "translation.text4": {
     de: "Die Leitfrage lautet in jeder Ausgabe: Welche sprachlichen Eingriffe sind nötig, damit der Text heute verständlich ist, ohne Aussage, Ton und historische Eigenart zu verändern? Die Bearbeitung soll Verständlichkeit herstellen, ohne den Text sprachlich zu vereinheitlichen oder in gegenwärtige Umgangssprache zu übertragen. Ziel ist eine Ausgabe, die ohne wissenschaftliche Spezialkenntnisse gelesen werden kann und dennoch historisch zuverlässig bleibt.",
-    en: "The guiding question in every edition is this: How should this text sound today if it were not allowed to betray its origin? From this question emerges a language that is readable, dignified, precise, and durable. It serves neither convenience nor academic isolation, but the renewed encounter between work and reader." 
+    en: "The guiding question in every edition is this: How should this text sound today if it were not allowed to betray its origin? From this question emerges a language that is readable, dignified, precise, and durable. It serves neither convenience nor academic isolation, but the renewed encounter between work and reader."
   },
-  "translation.promise": { 
-    de: "AETERNUS macht alte Texte nicht jünger. AETERNUS macht sie wieder zugänglich.", 
-    en: "AETERNUS does not make old texts younger. AETERNUS makes them accessible again." 
+  "translation.promise": {
+    de: "AETERNUS macht alte Texte nicht jünger. AETERNUS macht sie wieder zugänglich.",
+    en: "AETERNUS does not make old texts younger. AETERNUS makes them accessible again."
   },
-  "translation.button": { 
-    de: "Unsere Editionsgrundsätze lesen.", 
-    en: "Read our editorial principles." 
+  "translation.button": {
+    de: "Unsere Editionsgrundsätze lesen.",
+    en: "Read our editorial principles."
   }
 ,
 
@@ -162,7 +162,7 @@ module.exports = {
     de: "Die neu eingerichtete AETERNUS-Ausgabe verbindet den vollständigen deutschen Text mit neun eigens für diese Ausgabe geschaffenen Bildtafeln. Die Printausgaben umfassen 229 Seiten; eBook, Taschenbuch und Hardcover bilden nun einen harmonisierten Editionsstand.",
     en: "The newly prepared AETERNUS edition combines the complete German text with nine plates created specifically for this edition. The print editions comprise 229 pages; eBook, paperback, and hardcover now share one harmonized editorial state."
   },
-  
+
   // Book Technical Specs (dl keys)
   //"hunted.specAuthor": { de: "Autor", en: "Author" },
   //"hunted.specOriginal": { de: "Originaltitel", en: "Original Title" },
@@ -1315,7 +1315,7 @@ module.exports = {
     de: "AETERNUS VERLAG veröffentlicht historische Quellen, Literaturklassiker und wiederentdeckte Werke in neu übersetzten und sorgfältig bearbeiteten Ausgaben.",
     en: "AETERNUS VERLAG publishes classic and historical works in carefully prepared editions for readers who value origin, measure, and permanence above the noise of the moment."
   },
-  
+
   // Column Titles
   "footer.colSeries": { de: "Reihen", en: "Series" },
   "footer.colHouse": { de: "Verlag", en: "House" },
