@@ -1,0 +1,7 @@
+{
+ "general":{"skip":"Skip to content","preview":"DEVELOPMENT PREVIEW · Ordering is not available","navigation":"Main navigation","books":"Books","publisher":"The publishing house","language":"Language","country":"Country / region","update":"Update","forthcoming":"The direct shop is in preparation.","empty":"No editions have been added to this shop yet.","home":"Return to the shop","not_found":"Page not found"},
+ "product":{"format":"Choose a format","quantity":"Quantity","add":"Add to cart","sold_out":"Unavailable","author":"About the author","series":"Explore the series","edition":"About this edition","sample":"Reading sample"},
+ "cart":{"title":"Cart","empty":"Your cart is empty.","update":"Update cart","checkout":"Checkout","remove":"Remove","total":"Total","taxes":"Taxes and shipping are calculated at checkout."},
+ "password":{"title":"AETERNUS is taking shape.","message":"Our direct shop is in preparation.","label":"Store password","enter":"Enter"},
+ "search":{"title":"Search books","submit":"Search","empty":"No results found."}
+}

@@ -1,0 +1,12 @@
+{
+ "schema_version":1,"owner_type":"PRODUCT","namespace":"aeternus","applied":false,
+ "definitions":[
+  {"key":"book_id","type":"single_line_text_field","name":"Shared catalogue ID"},
+  {"key":"edition_language","type":"single_line_text_field","name":"Edition language"},
+  {"key":"author_url","type":"url","name":"Author page"},
+  {"key":"series_url","type":"url","name":"Series page"},
+  {"key":"edition_url","type":"url","name":"Edition page"},
+  {"key":"sample_url","type":"url","name":"Reading sample"}
+ ],
+ "variant_definitions":[{"namespace":"aeternus","key":"isbn","type":"single_line_text_field","name":"ISBN"}]
+}

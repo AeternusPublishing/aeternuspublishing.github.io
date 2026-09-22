@@ -1,0 +1,15 @@
+---
+layout: layout.njk
+pagination:
+  data: site.authors
+  size: 1
+  alias: author
+  addAllPagesToCollections: true
+permalink: "/authors/{{ author.slug }}/index.html"
+eleventyComputed:
+  title: "{{ author.name }}"
+  description: "{{ author.metaDescription }}"
+---
+<section class="shell author-note author-hero"><div><p class="kicker">{{ author.eyebrow | plain }}</p><h1>{{ author.name }}</h1><p>{{ author.dates | plain }}</p><p class="detail-subtitle">{{ author.tagline | plain }}</p><p>{{ author.intro | plain }}</p></div>{% if author.portrait.modern %}<img src="/assets/images/{{ author.portrait.file }}.webp" alt="{{ author.portrait.alt | escape }}" width="210" height="260">{% endif %}</section>
+<section class="shell international-section"><div class="section-heading"><h2>English-language editions</h2></div>{% set books = author.slug | authorBooks %}{% if books.length %}<div class="books-grid">{% for item in books %}{% include 'book-card.njk' %}{% endfor %}</div>{% else %}<p>Explore this author’s current programme on the German publishing website.</p><a class="text-link" href="https://aeternus-verlag.de/en/authors/{{ author.slug }}/">View the existing author page →</a>{% endif %}</section>
+<section class="shell international-section prose biography-copy"><p class="kicker">Life & context</p>{% for block in author.blocks %}<h2>{{ block.h | plain }}</h2>{% for paragraph in block.p %}<p>{{ paragraph | plain }}</p>{% endfor %}{% endfor %}</section>

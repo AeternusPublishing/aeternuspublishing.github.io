@@ -1,0 +1,24 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://aeternuspublishing.com/schemas/book-v1.json",
+ "title":"AETERNUS edition record v1", "type":"object",
+ "required":["id","language","title","subtitle","author","contributors","series","series_number","original_title","original_publication_year","isbn","formats","description","cover","publication_date","pricing","availability","links","distribution_status","commerce"],
+ "properties":{
+  "id":{"type":"string","pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+  "language":{"type":"string","pattern":"^[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$","description":"Edition language; separate from interface or description language. BCP47-compatible tags allow future languages."},
+  "title":{"type":"string","minLength":1},"subtitle":{"type":"string"},"author":{"type":"string","minLength":1},
+  "contributors":{"type":"array","items":{"type":"object","required":["name","role"],"properties":{"name":{"type":"string"},"role":{"type":"string"}}}},
+  "series":{"enum":["anthrazit","gruen","rot","blau","bernstein","weiss","purpur"]},
+  "series_number":{"type":["integer","null"],"minimum":1},"original_title":{"type":["string","null"]},"original_publication_year":{"type":["integer","null"]},
+  "isbn":{"type":"object","required":["hardcover","paperback","ebook"],"additionalProperties":{"type":["string","null"]}},
+  "formats":{"type":"object","required":["hardcover","paperback","ebook"],"additionalProperties":{"type":["object","null"]}},
+  "description":{"type":"object","required":["short","long"],"properties":{"short":{"type":"string"},"long":{"type":"string"}}},
+  "translations":{"type":"object","description":"Optional localized metadata keyed by language. No automatic fallback or generated translations.","additionalProperties":{"type":"object","required":["title","description","approved"],"properties":{"title":{"type":"string"},"description":{"type":"object"},"approved":{"type":"boolean"}}}},
+  "cover":{"type":["string","null"]},"publication_date":{"type":["string","null"],"format":"date"},
+  "pricing":{"type":"object","required":["EUR","USD","GBP","CAD","AUD"],"additionalProperties":{"type":["number","null"],"minimum":0}},
+  "availability":{"enum":["DRAFT","COMING_SOON","AVAILABLE","UNAVAILABLE","OUT_OF_PRINT"]},
+  "links":{"type":"object","required":["shop","amazon","ingram"],"additionalProperties":{"type":["string","null"]}},
+  "distribution_status":{"type":"object","required":["own_shop","amazon","ingram","other"]},
+  "commerce":{"type":"object","required":["shopify_product_id","shopify_handle"],"properties":{"shopify_product_id":{"type":["string","null"]},"shopify_handle":{"type":["string","null"],"pattern":"^[a-z0-9]+(?:-[a-z0-9]+)*$"}}}
+}
+}

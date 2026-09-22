@@ -1,0 +1,2 @@
+<h1>{{ collection.title | escape }}</h1><div class="rte">{{ collection.description }}</div>{% paginate collection.products by 24 %}<div class="grid">{% for product in collection.products %}{% render 'book-card', product: product %}{% else %}<p>{{ 'general.empty' | t }}</p>{% endfor %}</div>{{ paginate | default_pagination }}{% endpaginate %}
+{% schema %}{"name":"Book collection","settings":[]}{% endschema %}

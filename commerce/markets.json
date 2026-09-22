@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "name": "AETERNUS CENTRAL COMMERCE",
+  "provider": "shopify",
+  "store_count": 1,
+  "store_domain": "aeternus-central-commerce-hhg0ucrd.myshopify.com",
+  "enabled": false,
+  "product_population": false,
+  "domains": {
+    "de": "shop.aeternus-verlag.de",
+    "en": "shop.aeternuspublishing.com"
+  },
+  "markets": [
+    {
+      "id": "germany",
+      "name": "Germany",
+      "countries": [
+        "DE"
+      ],
+      "language": "de",
+      "currency": "EUR",
+      "url": "https://shop.aeternus-verlag.de",
+      "active": false
+    },
+    {
+      "id": "eu",
+      "name": "European Union",
+      "countries": [
+        "AT",
+        "BE",
+        "BG",
+        "HR",
+        "CY",
+        "CZ",
+        "DK",
+        "EE",
+        "FI",
+        "FR",
+        "GR",
+        "HU",
+        "IE",
+        "IT",
+        "LV",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SK",
+        "SI",
+        "ES",
+        "SE"
+      ],
+      "language": "en",
+      "currency": "EUR",
+      "url": "https://shop.aeternuspublishing.com/en-eu",
+      "active": false
+    },
+    {
+      "id": "us",
+      "name": "United States",
+      "countries": [
+        "US"
+      ],
+      "language": "en",
+      "currency": "USD",
+      "url": "https://shop.aeternuspublishing.com",
+      "active": false
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "countries": [
+        "GB"
+      ],
+      "language": "en",
+      "currency": "GBP",
+      "url": "https://shop.aeternuspublishing.com/en-gb",
+      "active": false
+    },
+    {
+      "id": "ca",
+      "name": "Canada",
+      "countries": [
+        "CA"
+      ],
+      "language": "en",
+      "currency": "CAD",
+      "url": "https://shop.aeternuspublishing.com/en-ca",
+      "active": false
+    },
+    {
+      "id": "au",
+      "name": "Australia",
+      "countries": [
+        "AU"
+      ],
+      "language": "en",
+      "currency": "AUD",
+      "url": "https://shop.aeternuspublishing.com/en-au",
+      "active": false
+    },
+    {
+      "id": "rest",
+      "name": "Rest of World",
+      "countries": [],
+      "selection": "remaining supported countries after shipping review",
+      "language": "en",
+      "currency": null,
+      "url": "https://shop.aeternuspublishing.com/en-int",
+      "active": false
+    }
+  ],
+  "notes": "Configuration plan only. Market URLs, currencies and availability must be validated in the actual Shopify plan and payment configuration. No rates, shipping, payments or products have been activated.",
+  "planned_languages": {
+    "en": true,
+    "de": true,
+    "es": false,
+    "pl": false
+  }
+}

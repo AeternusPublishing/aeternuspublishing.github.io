@@ -1,0 +1,7 @@
+---
+layout: layout.njk
+title: Series
+description: "The seven AETERNUS series: Anthracite, Green, Red, Blue, Amber, White and Purple."
+permalink: /series/index.html
+---
+<section class="shell page-intro"><p class="kicker">The AETERNUS programme</p><h1>Seven colours.<br><em>Many ways into the past.</em></h1></section><section class="shell international-section series-grid">{% for series in site.series %}<a class="series-panel" href="/series/{{ series.id }}/" style="--series-color:{{ series.color }}"><span class="series-dot"></span><h2>{{ series.name.en }}</h2><p>{{ series.label.en | plain }}</p><span class="text-link">Discover →</span></a>{% endfor %}</section>

@@ -1,0 +1,13 @@
+# Separate future international project only. Not loaded by the existing DE build.
+# Copy/select this configuration only after approval of an external preview.
+[build]
+  command = "npm run build:international"
+  publish = "dist/international"
+[build.environment]
+  NODE_VERSION = "22"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

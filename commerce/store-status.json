@@ -1,0 +1,70 @@
+{
+  "checked_date": "2026-09-22",
+  "store_name": "AETERNUS CENTRAL COMMERCE",
+  "store_domain": "aeternus-central-commerce-hhg0ucrd.myshopify.com",
+  "admin_url": "https://admin.shopify.com/store/aeternus-central-commerce-hhg0ucrd",
+  "creation_type": "client_transfer",
+  "paid_plan_activated": false,
+  "paid_apps_added": false,
+  "products_added": 0,
+  "custom_domains_connected": false,
+  "checkout_tested": false,
+  "languages": {
+    "default": "en",
+    "theme_translations": [
+      "en",
+      "de"
+    ],
+    "future_unpopulated": [
+      "es",
+      "pl"
+    ]
+  },
+  "markets_observed": [
+    {
+      "name": "Germany",
+      "id": "115234832727",
+      "status": "ACTIVE_DEFAULT",
+      "currency": "EUR"
+    },
+    {
+      "name": "European Union",
+      "id": "115234898263",
+      "status": "DRAFT",
+      "currency": "EUR"
+    },
+    {
+      "name": "United States",
+      "id": "115235029335",
+      "status": "DRAFT",
+      "currency": "EUR"
+    },
+    {
+      "name": "United Kingdom",
+      "id": "115235094871",
+      "status": "DRAFT",
+      "currency": "EUR"
+    },
+    {
+      "name": "Canada",
+      "id": "115235160407",
+      "status": "DRAFT",
+      "currency": "EUR"
+    },
+    {
+      "name": "Australia",
+      "id": "115235225943",
+      "status": "DRAFT",
+      "currency": "EUR"
+    }
+  ],
+  "rest_of_world": "PLANNED_NOT_CREATED_PENDING_SHIPPING_COUNTRIES",
+  "theme": {
+    "id": 205652689239,
+    "name": "AETERNUS Preparation V1",
+    "role": "unpublished",
+    "upload_verified": true,
+    "theme_check_findings": 0
+  },
+  "password_protected": true
+}

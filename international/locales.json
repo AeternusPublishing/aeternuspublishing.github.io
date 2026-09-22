@@ -1,0 +1,10 @@
+{
+  "default": "en",
+  "languages": {
+    "en": { "label": "English", "prefix": "/", "enabled": true, "content_ready": true },
+    "es": { "label": "Español", "prefix": "/es/", "enabled": false, "content_ready": false },
+    "pl": { "label": "Polski", "prefix": "/pl/", "enabled": false, "content_ready": false }
+  },
+  "external": { "de": "https://aeternus-verlag.de/" },
+  "fallback": "none"
+}

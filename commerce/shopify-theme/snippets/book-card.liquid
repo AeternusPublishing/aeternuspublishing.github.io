@@ -1,0 +1,1 @@
+<article class="book"><a href="{{ product.url }}">{% if product.featured_image %}{{ product.featured_image | image_url: width: 600 | image_tag: loading: 'lazy', widths: '200,400,600', sizes: '(min-width: 800px) 25vw, 50vw' }}{% endif %}<h2>{{ product.title | escape }}</h2></a>{% if settings.commerce_enabled %}<p>{{ product.price | money_with_currency }}</p>{% endif %}</article>
