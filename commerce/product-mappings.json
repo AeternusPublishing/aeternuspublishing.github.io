@@ -1,1 +1,172 @@
-{"schema_version":1,"products":[],"populated":false}
+{
+  "schema": "AETERNUS_SHOPIFY_PRODUCT_MAPPING_V1",
+  "store": "aeternus-central-commerce-hhg0ucrd.myshopify.com",
+  "observed_utc": "2026-09-22T10:20:07.533Z",
+  "products": [
+    {
+      "catalog_id": "en-ernest-thompson-seton-edition-rolf",
+      "work_id": "ETS_005",
+      "shopify_product_id": "11197592797527",
+      "shopify_handle": "en-ernest-thompson-seton-edition-rolf",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-ernest-thompson-seton-edition-two-little-savages",
+      "work_id": "ETS_008",
+      "shopify_product_id": "11197592863063",
+      "shopify_handle": "en-ernest-thompson-seton-edition-two-little-savages",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-ernest-thompson-seton-edition-arctic-prairies",
+      "work_id": "ETS_006",
+      "shopify_product_id": "11197592895831",
+      "shopify_handle": "en-ernest-thompson-seton-edition-arctic-prairies",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-robert-montgomery-bird-edition-nick",
+      "work_id": "RMB_001",
+      "shopify_product_id": "11197592961367",
+      "shopify_handle": "en-robert-montgomery-bird-edition-nick",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-robert-montgomery-bird-edition-hawks",
+      "work_id": "RMB_002",
+      "shopify_product_id": "11197592994135",
+      "shopify_handle": "en-robert-montgomery-bird-edition-hawks",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-george-washington-sears-woodcraft-illustrated",
+      "work_id": "GWS_001",
+      "shopify_product_id": "11197593059671",
+      "shopify_handle": "en-george-washington-sears-woodcraft-illustrated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-francis-parkman-edition-oregon-trail",
+      "work_id": "FP_002_EN",
+      "shopify_product_id": "11197593092439",
+      "shopify_handle": "en-francis-parkman-edition-oregon-trail",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-james-hall-the-harpe-s-head-illustrated",
+      "work_id": "JH_001_EN",
+      "shopify_product_id": "11197593190743",
+      "shopify_handle": "en-james-hall-the-harpe-s-head-illustrated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-richard-jefferies-edition-bevis",
+      "work_id": "RJE_001",
+      "shopify_product_id": "11197593223511",
+      "shopify_handle": "en-richard-jefferies-edition-bevis",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-charles-brockden-brown-edgar-huntly-illustrated",
+      "work_id": "CBB_001",
+      "shopify_product_id": "11197593321815",
+      "shopify_handle": "en-charles-brockden-brown-edgar-huntly-illustrated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "work_id": "ETS_001",
+      "shopify_product_id": "11197593354583",
+      "shopify_handle": "en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "work_id": "ETS_002",
+      "shopify_product_id": "11197593420119",
+      "shopify_handle": "en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "work_id": "ETS_003",
+      "shopify_product_id": "11197593452887",
+      "shopify_handle": "en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-ernest-thompson-seton-animal-heroes-annotated",
+      "work_id": "ETS_004",
+      "shopify_product_id": "11197593518423",
+      "shopify_handle": "en-ernest-thompson-seton-animal-heroes-annotated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    },
+    {
+      "catalog_id": "en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "work_id": "ETS_007",
+      "shopify_product_id": "11197593551191",
+      "shopify_handle": "en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "status": "DRAFT",
+      "sales_channels": 0,
+      "inventory_quantity": 0,
+      "direct_price_status": "UNCONFIGURED",
+      "fulfillment_status": "UNCONFIGURED"
+    }
+  ]
+}

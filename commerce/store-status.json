@@ -66,5 +66,15 @@
     "upload_verified": true,
     "theme_check_findings": 0
   },
-  "password_protected": true
+  "password_protected": true,
+  "product_import": {
+    "verified_utc": "2026-09-22T10:20:07.534Z",
+    "products": 15,
+    "variants": 41,
+    "all_draft": true,
+    "all_sales_channels": 0,
+    "source": "Shopify admin product table and CSV import preview",
+    "pricing": "Not configured. Administrative zero placeholders. No customer offer.",
+    "fulfillment": "Not configured"
+  }
 }

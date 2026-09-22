@@ -16,3 +16,18 @@ if (button && nav) {
     }
   });
 }
+
+// No Meta connection until the visitor explicitly requests a live post.
+document.querySelectorAll('[data-load-instagram]').forEach(button => {
+ button.addEventListener('click', () => {
+  const container = button.closest('[data-instagram-url]');
+  const url = new URL(container.dataset.instagramUrl);
+  if (url.origin !== 'https://www.instagram.com' || !/^\/p\/[A-Za-z0-9_-]+\/$/.test(url.pathname)) return;
+  const frame = document.createElement('iframe');
+  frame.src = url.href + 'embed/';
+  frame.title = 'AETERNUS Publishing Instagram post';
+  frame.loading = 'lazy'; frame.referrerPolicy = 'no-referrer';
+  frame.setAttribute('allowfullscreen', '');
+  container.replaceChildren(frame);
+ });
+});

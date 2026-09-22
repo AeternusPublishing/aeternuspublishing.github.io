@@ -4,7 +4,6 @@ const catalog = require('./catalog/index.cjs');
 module.exports = function(config) {
   config.addPassthroughCopy({ 'src/assets': 'assets' });
   config.addPassthroughCopy({ 'international/assets': 'assets' });
-  config.addPassthroughCopy({ 'international/_headers': '_headers' });
   config.addFilter('plain', catalog.clean);
   config.addFilter('jsonld', value => JSON.stringify(value).replace(/</g, '\\u003c'));
   config.addFilter('shopUrl', catalog.directShopUrl);

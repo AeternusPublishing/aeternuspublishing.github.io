@@ -5,7 +5,7 @@
   "store_count": 1,
   "store_domain": "aeternus-central-commerce-hhg0ucrd.myshopify.com",
   "enabled": false,
-  "product_population": false,
+  "product_population": true,
   "domains": {
     "de": "shop.aeternus-verlag.de",
     "en": "shop.aeternuspublishing.com"

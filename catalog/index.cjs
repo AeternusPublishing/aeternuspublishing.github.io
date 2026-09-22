@@ -5,7 +5,7 @@ const authorsDe = require('./legacy/authors-de.cjs');
 const authorsEn = require('./legacy/authors-en.cjs');
 const german = require('./legacy/catalogue-de.cjs');
 const commerce = require('../commerce/markets.json');
-const clean = value => String(value || '').replace(/<[^>]*>/g, '').replace(/&middot;/g, '·').replace(/&amp;/g, '&').replace(/&ndash;/g, '–').replace(/&mdash;/g, '—').replace(/&nbsp;/g, ' ').trim();
+const clean = value => String(value || '').replace(/<[^>]*>/g, '').replace(/&middot;/g, '·').replace(/&amp;/g, '&').replace(/&ndash;/g, '–').replace(/&mdash;/g, '—').replace(/&nbsp;/g, ' ').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').trim();
 const slug = value => clean(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const series = programme.seriesItems.map(s => ({ id: s.slug, name: s.colorName, label: s.label, color: s.colorHex, description: s.desc || s.description || {}, authors: s.authors.map(a => a.slug || a.landingUrl?.de?.split('/')[2]).filter(Boolean) }));
 // Explicit migration manifest: page language is NOT edition language. English
@@ -39,6 +39,7 @@ const englishBooks = authorsEn.filter(a => englishAuthors.has(a.slug)).flatMap(a
     seriesColor: line.color, legacy: b, provenance: `catalog/legacy/authors-en.cjs#${a.slug}/${b.id || slug(b.title)}`
   };
 }));
+require('./populate-english.cjs')(englishBooks, authorsEn, series, clean);
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];

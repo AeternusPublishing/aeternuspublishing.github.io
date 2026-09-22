@@ -3,4 +3,5 @@ permalink: /robots.txt
 eleventyExcludeFromCollections: true
 ---
 User-agent: *
-Disallow: /
+{% if site.preview %}Disallow: /{% else %}Allow: /
+Sitemap: {{ site.origin }}/sitemap.xml{% endif %}

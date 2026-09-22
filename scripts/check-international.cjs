@@ -6,7 +6,8 @@ const catalog = require('../catalog/index.cjs');
 const locale = require('../catalog/localization.cjs');
 const markets = require('../commerce/markets.json');
 const root = path.resolve(__dirname, '..');
-const output = path.join(root, 'dist/international');
+const production = process.env.AETERNUS_SITE_MODE === 'production';
+const output = path.join(root, production ? 'dist/release' : 'dist/international');
 const walk = dir => fs.readdirSync(dir, {withFileTypes:true}).flatMap(d => d.isDirectory() ? walk(path.join(dir,d.name)) : [path.join(dir,d.name)]);
 const failures = [];
 const hash = value => crypto.createHash('sha256').update(value).digest('hex');
@@ -35,10 +36,12 @@ check('catalogue IDs, language and series', () => {
     assert.equal(catalog.directShopUrl(b,'en'),null);
   }
 });
-check('no new products, paid activation or commerce mapping', () => {
+check('Shopify checkout stays gated until activation', () => {
   assert.deepEqual(require('../catalog/books/index.json'),[]);
-  assert.deepEqual(require('../commerce/product-mappings.json').products,[]);
-  assert.equal(markets.enabled,false);assert.equal(markets.product_population,false);
+  const mappings=require('../commerce/product-mappings.json').products;
+  assert.equal(mappings.length,15);
+  for(const p of mappings){assert.equal(p.status,'DRAFT');assert.equal(p.sales_channels,0);assert.equal(p.inventory_quantity,0);}
+  assert.equal(markets.enabled,false);assert.equal(markets.product_population,true);
   assert.equal(require('../commerce/shopify-theme/config/settings_data.json').current.commerce_enabled,false);
 });
 check('direct-buy gating requires availability and valid product mapping', () => {
@@ -61,11 +64,12 @@ check('market country groups do not overlap', () => {
   const countries=new Set();for(const m of markets.markets) for(const c of m.countries) {assert(!countries.has(c),c);countries.add(c);}
   assert.equal(markets.markets.length,7);
 });
-check('all local HTML links and assets resolve; preview SEO is closed', () => {
+check('all local HTML links and assets resolve; SEO matches deployment mode', () => {
   const canonicals=new Set();let count=0;
   for(const file of walk(output).filter(f=>f.endsWith('.html'))) {
     const html=fs.readFileSync(file,'utf8');count++;
-    assert.match(html,/<html lang="en">/);assert.match(html,/name="robots" content="noindex, nofollow"/);
+    assert.match(html,/<html lang="en">/);
+    if(production) assert(!html.includes('noindex'),file); else assert.match(html,/name="robots" content="noindex, nofollow"/);
     const canonical=html.match(/rel="canonical" href="([^"]+)"/)[1];
     assert(canonical.startsWith('https://aeternuspublishing.com/'));assert(!canonicals.has(canonical));canonicals.add(canonical);
     assert.equal((html.match(/<h1(?:\s|>)/g)||[]).length,1,file);
@@ -77,8 +81,20 @@ check('all local HTML links and assets resolve; preview SEO is closed', () => {
     }
     for(const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) JSON.parse(m[1]);
   }
-  assert(count>40);assert(!fs.readFileSync(path.join(output,'sitemap.xml'),'utf8').includes('<loc>'));
+  assert(count>40);assert.equal(fs.readFileSync(path.join(output,'sitemap.xml'),'utf8').includes('<loc>'),production);
+  assert.equal(fs.readFileSync(path.join(output,'robots.txt'),'utf8').includes('Disallow: /'),!production);
+  assert.equal(fs.readFileSync(path.join(output,'_headers'),'utf8').includes('noindex'),!production);
   console.log('Checked HTML pages:',count);
+});
+check('English Instagram is linked without automatic third-party loading', () => {
+  const home=fs.readFileSync(path.join(output,'index.html'),'utf8');
+  assert(home.includes('https://www.instagram.com/aeternus.publishing/'));
+  assert(home.includes('data-load-instagram'));
+  assert(!/<(?:iframe|script)[^>]+src="https:\/\/[^\"]*(instagram|facebook)/.test(home));
+  for(const post of require('../catalog/social.json').instagram.posts) {
+    assert(catalog.englishBooks.some(b=>b.id===post.book_id));
+    assert(/^https:\/\/www.instagram.com\/p\/[A-Za-z0-9_-]+\/$/.test(post.url));
+  }
 });
 check('theme JSON, sections and translations', () => {
   const theme=path.join(root,'commerce/shopify-theme');
