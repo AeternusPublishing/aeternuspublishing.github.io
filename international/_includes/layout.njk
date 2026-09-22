@@ -19,5 +19,3 @@
 <main id="main">{{ content | safe }}</main>
 <footer class="colophon"><div class="shell footer-top"><div><a class="international-brand" href="/"><img src="/assets/images/aeternus-wordmark.svg" alt="AETERNUS" width="832" height="50" loading="lazy"><span>PUBLISHING</span></a><p>Historical voices.<br>Independent editions.</p></div><div><h2>Explore</h2>{% for label, url in site.nav %}<a href="{{ url }}">{{ label }}</a>{% endfor %}</div><div><h2>The publishing house</h2>{% for label, url in site.footer %}<a href="{{ url }}">{{ label }}</a>{% endfor %}</div></div><div class="shell footer-bottom"><span>© AETERNUS PUBLISHING</span><a href="mailto:{{ site.email }}">{{ site.email }}</a></div></footer>
 </body></html>
-
-
