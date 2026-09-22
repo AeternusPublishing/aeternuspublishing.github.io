@@ -13,7 +13,7 @@ eleventyComputed:
   description: "{{ s.desc.en }}"
 ---
 
-<main>
+<main>{% if s.slug == 'gruen' %}<div class="wrap" style="padding:24px 0"><a href="https://aeternuspublishing.com/series/gruen/historical-background/">Historical Background · Explore the Green Series in context →</a></div>{% endif %}
 <!-- SERIES SINGLE PAGE — English mirror of /reihen/{slug}/. Same data source
      (i18n.seriesItems), same markup, language-swapped via lang: en. -->
 <section class="series-hero" style="--series-accent: {{ s.colorHex }}; --series-accent-rgb: {{ s.colorRgb }};{% if not s.mood.file %} background: radial-gradient(circle at 28% 24%, rgba({{ s.colorRgb }}, .78), transparent 42%), linear-gradient(135deg, #160c12 0%, {{ s.colorHex }} 52%, #211018 100%);{% endif %}">

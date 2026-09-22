@@ -1,0 +1,10 @@
+---
+layout: layout.njk
+lang: en
+historicalPage: true
+permalink: "{{ history.base }}index.html"
+eleventyComputed:
+  title: "{{ history.labels.title }}"
+  description: "{{ history.labels.meta }}"
+---
+<div class="history-world"><header class="shell history-intro"><a class="history-link" href="{{ history.seriesUrl }}">← {{ history.labels.series }}</a><p class="kicker">AETERNUS · {{ history.labels.series }}</p><h1>{{ history.labels.title }}</h1><p>{{ history.labels.intro }}</p><a class="history-link" href="{{ history.otherUrl }}" hreflang="de">{{ history.labels.switch }} →</a></header><section class="shell history-gallery" aria-label="{{ history.labels.title }}">{% for theme in history.themes %}{% include 'history-panel.njk' %}{% endfor %}</section></div>

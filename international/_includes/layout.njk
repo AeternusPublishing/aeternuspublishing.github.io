@@ -2,6 +2,8 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title | escape }} · {{ site.name }}</title>
+{% if historicalPage %}{% set alternates = history.alternates %}{% if theme %}{% set alternates = theme.alternates %}{% endif %}<link rel="alternate" hreflang="de" href="{{ alternates.de }}"><link rel="alternate" hreflang="en" href="{{ alternates.en }}"><link rel="alternate" hreflang="x-default" href="{{ alternates.en }}">{% endif %}
+<link rel="stylesheet" href="/assets/css/history.css?v=20260922">
 <meta name="description" content="{{ description | escape }}">
 {% if site.preview %}<meta name="robots" content="noindex, nofollow">{% endif %}<meta name="theme-color" content="#171816">
 <link rel="canonical" href="{{ site.origin }}{{ page.url }}">
