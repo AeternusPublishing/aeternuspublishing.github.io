@@ -10,6 +10,9 @@ const pages = [];
 const SEP = new RegExp('\\\\', 'g');
 const url = p => '/' + path.relative(ROOT, p).replace(SEP, '/').replace(/index\.html$/, '');
 const out = [];
+// The historical atlas URL serves the same unified explorer as the network URL.
+// Keep one indexed canonical while preserving old bookmarks and homepage links.
+const canonicalAliases = { '/kosmos/': '/kosmos/netzwerk/' };
 const add = (sev, p, msg) => out.push({ sev, page: url(p), msg });
 
 for (const p of pages) {
@@ -37,7 +40,7 @@ for (const p of pages) {
 
   const canM = h.match(/<link rel="canonical" href="https:\/\/aeternus-verlag\.de([^"]*)"/);
   if (!canM) add('MITTEL', p, 'kein canonical');
-  else if (canM[1] !== u && !isRedirectStub) add('HOCH', p, 'canonical zeigt woanders hin: ' + canM[1] + ' statt ' + u);
+  else if (canM[1] !== u && canM[1] !== canonicalAliases[u] && !isRedirectStub) add('HOCH', p, 'canonical zeigt woanders hin: ' + canM[1] + ' statt ' + u);
 
   const lang = (h.match(/<html lang="([^"]*)"/) || [])[1];
   const expect = u.startsWith('/en/') ? 'en' : u.startsWith('/es/') ? 'es' : u.startsWith('/pl/') ? 'pl' : 'de';
