@@ -20,6 +20,32 @@ for(const t of history.data.themes)add({id:'theme:'+t.id,type:'theme',label:{de:
 for(const t of history.data.themes){for(const lang of ['de','en'])for(const ref of t.bookRefs[lang]||[])edge('theme:'+t.id,byRef.get(lang+':'+ref),'context');for(const id of t.relatedIds)edge('theme:'+t.id,'theme:'+id,'related');for(const id of t.parentIds)edge('theme:'+t.id,'theme:'+id,'parent');}
 // Author/series membership is bibliographic, never presented as thematic influence.
 for(const book of nodes.filter(n=>n.type==='book')){const id='author:'+book.author;if(!ids.has(id))add({id,type:'author',label:{de:book.author,en:book.author}});edge(book.id,id,'author');}
-const result={schema:1,provenance:['src/_data/catalogue.js','catalog/index.cjs','src/_data/kosmos.js','editorial/historical-themes.json'],nodes,links};
+// Reuse the last complete atlas's editorial geography. Equivalent editions
+// share a work's setting; books without a verified setting stay in the shelf.
+const editionPlaces={
+'en-ernest-thompson-seton-edition-rolf':'rolf',
+'en-ernest-thompson-seton-edition-two-little-savages':'two-wild',
+'en-ernest-thompson-seton-edition-arctic-prairies':'arctic',
+'en-robert-montgomery-bird-edition-nick':'waldteufel',
+'en-robert-montgomery-bird-edition-hawks':'hawks',
+'en-george-washington-sears-woodcraft-illustrated':'woodcraft',
+'en-francis-parkman-edition-oregon-trail':'oregon',
+'en-james-hall-the-harpe-s-head-illustrated':'harpe',
+'en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated':'shelters',
+'en-henry-rider-haggard-king-solomon-s-mines-annotated':'haggard',
+'en-richard-jefferies-edition-bevis':'bevis',
+'en-charles-brockden-brown-edgar-huntly-illustrated':'edgar-huntly',
+'en-ernest-thompson-seton-wild-animals-i-have-known-annotated':'wild-animals',
+'en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated':'wahb',
+'en-ernest-thompson-seton-lives-of-the-hunted-annotated':'hunted',
+'en-ernest-thompson-seton-animal-heroes-annotated':'heroes',
+'en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated':'monarch'
+};
+for(const n of nodes.filter(n=>n.type==='book')){
+ const a=atlas.nodes.find(a=>a.coverImageUrl.split('/').pop()===n.cover?.split('/').pop()) || atlas.nodes.find(a=>a.id===editionPlaces[n.id.replace(/^book:/,'')]);
+ if(a)n.geography={location:a.location,region:a.region,place:a.place,source:'kosmosSelection:'+a.id};
+}
+const result={schema:2,provenance:['src/_data/catalogue.js','catalog/index.cjs','src/_data/kosmos.js','editorial/historical-themes.json'],nodes,links};
 fs.writeFileSync('editorial/library-graph.json',JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({books:nodes.filter(n=>n.type==='book').length,themes:history.data.themes.length,links:links.length}));
+
