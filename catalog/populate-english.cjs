@@ -13,7 +13,7 @@ module.exports = function populate(books, authors, series, clean) {
       author:author.slug, authorName:author.name, contributors:[], series:line.id,
       series_number:null, original_title:null, original_publication_year:null,
       isbn:{hardcover:null,paperback:null,ebook:null}, formats:{hardcover:null,paperback:null,ebook:null},
-      description:{short:text.split(/(?<=\.)\s/).slice(0,3).join(' '),long:text}, cover:null,
+      description:{short:text.split(/(?<=\.)\s/).slice(0,3).join(' '),long:text}, cover:data.cover || null,
       publication_date:null, pricing:{EUR:null,USD:null,GBP:null,CAD:null,AUD:null},
       availability:'COMING_SOON', links:{shop:null,amazon:null,ingram:null},
       distribution_status:{own_shop:'NOT_CONFIGURED',amazon:'UNKNOWN',ingram:'UNKNOWN',other:{}},
