@@ -12,7 +12,7 @@ module.exports = [
     "seriesClass": "",
     "preview": false,
     "portrait": {
-      "file": "portrait-seton",
+      "file": "portrait-seton-clean-20260923",
       "alt": "Historisches Porträt von Ernest Thompson Seton",
       "modern": true
     },

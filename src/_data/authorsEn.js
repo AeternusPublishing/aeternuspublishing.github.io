@@ -17,7 +17,7 @@ module.exports = [
     dates: "1860&ndash;1946",
     seriesClass: "",
     preview: false,
-    portrait: { file: "portrait-seton", alt: "Historical portrait of Ernest Thompson Seton", modern: true },
+    portrait: { file: "portrait-seton-clean-20260923", alt: "Historical portrait of Ernest Thompson Seton", modern: true },
     schema: { birthDate: "1860-08-14", deathDate: "1946-10-23", description: "Naturalist, animal artist, writer, and pioneer of outdoor education." },
     eyebrow: "Amber &middot; Nature writing &amp; character",
     tagline: "The wild as a school of close attention.",
