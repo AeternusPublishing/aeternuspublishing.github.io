@@ -1,0 +1,2200 @@
+{
+  "schema": 1,
+  "provenance": [
+    "src/_data/catalogue.js",
+    "catalog/index.cjs",
+    "src/_data/kosmos.js",
+    "editorial/historical-themes.json"
+  ],
+  "nodes": [
+    {
+      "id": "series:anthrazit",
+      "type": "series",
+      "label": {
+        "de": "ANTHRAZIT",
+        "en": "ANTHRACITE"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/anthrazit/",
+        "en": "https://aeternuspublishing.com/series/anthrazit/"
+      }
+    },
+    {
+      "id": "series:gruen",
+      "type": "series",
+      "label": {
+        "de": "GRÜN",
+        "en": "GREEN"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/gruen/",
+        "en": "https://aeternuspublishing.com/series/gruen/"
+      }
+    },
+    {
+      "id": "series:rot",
+      "type": "series",
+      "label": {
+        "de": "ROT",
+        "en": "RED"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/rot/",
+        "en": "https://aeternuspublishing.com/series/rot/"
+      }
+    },
+    {
+      "id": "series:blau",
+      "type": "series",
+      "label": {
+        "de": "BLAU",
+        "en": "BLUE"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/blau/",
+        "en": "https://aeternuspublishing.com/series/blau/"
+      }
+    },
+    {
+      "id": "series:bernstein",
+      "type": "series",
+      "label": {
+        "de": "BERNSTEIN",
+        "en": "AMBER"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/bernstein/",
+        "en": "https://aeternuspublishing.com/series/bernstein/"
+      }
+    },
+    {
+      "id": "series:weiss",
+      "type": "series",
+      "label": {
+        "de": "WEISS",
+        "en": "WHITE"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/weiss/",
+        "en": "https://aeternuspublishing.com/series/weiss/"
+      }
+    },
+    {
+      "id": "series:purpur",
+      "type": "series",
+      "label": {
+        "de": "PURPUR",
+        "en": "PURPLE"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/purpur/",
+        "en": "https://aeternuspublishing.com/series/purpur/"
+      }
+    },
+    {
+      "id": "book:de:der-waldteufel",
+      "type": "book",
+      "label": {
+        "de": "Der Waldteufel",
+        "en": "Der Waldteufel"
+      },
+      "author": "Robert Montgomery Bird",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-waldteufel.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/der-waldteufel/",
+        "en": "https://aeternus-verlag.de/buecher/der-waldteufel/"
+      },
+      "summary": {
+        "de": "Kentucky, 1782. Eine Reisegesellschaft gerät in einen Wald, in dem der Name Jibbenainosay Angst verbreitet. Ihr Führer Nathan Slaughter scheint als Quäker jeder Gewalt abzuschwören. Doch je größer die Gefahr wird, desto rätselhafter erscheint er. Bird verbindet das Grenzabenteuer mit einer Geschichte um verborgene Identität und Vergeltung.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-eroberung-des-westens-band-i",
+      "type": "book",
+      "label": {
+        "de": "Die Eroberung des Westens · Band I",
+        "en": "Die Eroberung des Westens · Band I"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-wotw-1.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-i/",
+        "en": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-i/"
+      },
+      "summary": {
+        "de": "Jenseits der Alleghenies lag ein Land, das keine Karte verzeichnete. Zwischen 1769 und 1776 schoben sich Jäger, Siedler und Abenteurer über die Bergkette nach Westen – in Wildnis, in fremdes Jagdland, in einen Krieg ohne Front. Roosevelt erzählt vom Aufbruch der Grenzer, von Boone und den Long Hunters, von Lord Dunmores Krieg und der Gründung Kentuckys. Der erste Band seines großen Geschichtswerks von 1889, erstmals vollständig auf Deutsch.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-eroberung-des-westens-band-ii",
+      "type": "book",
+      "label": {
+        "de": "Die Eroberung des Westens · Band II",
+        "en": "Die Eroberung des Westens · Band II"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-wotw-2.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-ii/",
+        "en": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-ii/"
+      },
+      "summary": {
+        "de": "Während an der Küste um die Unabhängigkeit gekämpft wurde, brannte im Westen ein zweiter Krieg. Von Detroit aus warb der britische Vizegouverneur Hamilton die Stämme an; in Kentucky hielten die Blockhausforts stand. George Rogers Clark zog mit einer Handvoll Männer ins Illinois-Land und nahm Vincennes im Winterhochwasser. Im Süden überrannten die Backwoodsmen die Cherokee und schlugen bei King's Mountain.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-eroberung-des-westens-band-iii",
+      "type": "book",
+      "label": {
+        "de": "Die Eroberung des Westens · Band III",
+        "en": "Die Eroberung des Westens · Band III"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-wotw-3.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-iii/",
+        "en": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-iii/"
+      },
+      "summary": {
+        "de": "Der Krieg war vorbei, und der Andrang begann. Jahr um Jahr strömten Siedler über die Pässe: nach Kentucky, an den Cumberland, in das eben erst gewonnene Land. Die Indianerkriege gingen weiter, die Mündung des Mississippi lag in spanischer Hand, und am Holston rief sich mit dem Staat Franklin ein Gemeinwesen aus, das die Union nie anerkannte. Der dritte Band des Geschichtswerks, erstmals vollständig auf Deutsch.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-eroberung-des-westens-band-iv",
+      "type": "book",
+      "label": {
+        "de": "Die Eroberung des Westens · Band IV",
+        "en": "Die Eroberung des Westens · Band IV"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-wotw-4.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-iv/",
+        "en": "https://aeternus-verlag.de/buecher/die-eroberung-des-westens-band-iv/"
+      },
+      "summary": {
+        "de": "Zwei Niederlagen, ein Sieg – und ein Kontinent wechselte den Besitzer. St. Clairs Heer wurde 1791 am Wabash vernichtet; vier Jahre später schlug Anthony Wayne die Stämme an den Fallen Timbers. Tennessee wurde Staat, die Verträge von Jay und Pinckney öffneten Strom und Grenze, und mit dem Kauf Louisianas reichte die Republik bis an die Rocky Mountains.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:der-oregon-trail",
+      "type": "book",
+      "label": {
+        "de": "Der Oregon Trail",
+        "en": "Der Oregon Trail"
+      },
+      "author": "Francis Parkman",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-der-oregon-trail.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/der-oregon-trail/",
+        "en": "https://aeternus-verlag.de/buecher/der-oregon-trail/"
+      },
+      "summary": {
+        "de": "Sommer 1846: Zwei junge Bostoner reiten von Missouri aus in die Prärie, das Platte-Tal hinauf bis Fort Laramie, und leben Wochen in einem Lager der Oglala. Parkmans Bericht zeigt die Great Plains im Jahr der großen Auswanderung – Büffeljagd, Handelsposten, Trapper und Stämme, gesehen ohne spätere Verklärung.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:tagebuch-der-katastrophe",
+      "type": "book",
+      "label": {
+        "de": "Tagebuch der Katastrophe",
+        "en": "Tagebuch der Katastrophe"
+      },
+      "author": "Lady Florentia Sale",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-sale.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/tagebuch-der-katastrophe/",
+        "en": "https://aeternus-verlag.de/buecher/tagebuch-der-katastrophe/"
+      },
+      "summary": {
+        "de": "Kabul, Winter 1841: Eine britische Besatzungsarmee verliert die Kontrolle, verhandelt, zieht ab und wird auf dem Marsch durch die Pässe vernichtet. Florentia Sale schreibt das alles mit, während es geschieht — Datum für Datum, bis in die Gefangenschaft hinein.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:der-sturz-prempehs",
+      "type": "book",
+      "label": {
+        "de": "Der Sturz Prempehs",
+        "en": "Der Sturz Prempehs"
+      },
+      "author": "Robert Baden-Powell",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-der-sturz-prempehs.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/der-sturz-prempehs/",
+        "en": "https://aeternus-verlag.de/buecher/der-sturz-prempehs/"
+      },
+      "summary": {
+        "de": "Winter 1895: Eine britische Expedition rückt in den Dschungel Westafrikas vor, um König Prempeh I. zu unterwerfen. An ihrer Spitze steht Major Robert Baden-Powell — beauftragt, mitten im Vormarsch aus einheimischen Stämmen eine Vorhut zu formen, die Native Levy. Sein Tagebuch ist kein geglätteter Bericht, sondern das Protokoll eines Feldzugs im Morast: Schneisen durch den Urwald, Brücken über reißende Flüsse, Späher im Busch — festgehalten mit militärischer Präzision und trockenem Spott. Hier steht die Felderfahrung, aus der drei Jahre später Aids to Scouting wurde und aus der die weltweite Pfadfinderbewegung hervorging.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:scouting-for-boys-uebersetzt",
+      "type": "book",
+      "label": {
+        "de": "Scouting for Boys (Übersetzt)",
+        "en": "Scouting for Boys (Übersetzt)"
+      },
+      "author": "Robert Baden-Powell",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-scouting-for-boys.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/scouting-for-boys-uebersetzt/",
+        "en": "https://aeternus-verlag.de/buecher/scouting-for-boys-uebersetzt/"
+      },
+      "summary": {
+        "de": "London 1908: Ein Offizier schreibt sein Militärhandbuch für Kundschafter zu einem Buch für Jungen um. Lagerkunde, Spurenlesen, Erste Hilfe, Mutproben und Lagerfeuergeschichten stehen nebeneinander — und wurden zum Gründungstext der Pfadfinderbewegung.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
+      "type": "book",
+      "label": {
+        "de": "Geschichte der Feldzüge von 1780 und 1781",
+        "en": "Geschichte der Feldzüge von 1780 und 1781"
+      },
+      "author": "Banastre Tarleton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-tarleton.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/geschichte-der-feldzuege-von-1780-und-1781/",
+        "en": "https://aeternus-verlag.de/buecher/geschichte-der-feldzuege-von-1780-und-1781/"
+      },
+      "summary": {
+        "de": "Im Pulverdampf der Karolinas: das Protokoll eines unerbittlichen Feldzugs. Tarletons Bericht dokumentiert Gefechte, Eilmärsche und Befehle – ohne Schonung des Gegners und ohne Schonung des eigenen Oberbefehlshabers Lord Cornwallis.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:mein-leben-und-werk",
+      "type": "book",
+      "label": {
+        "de": "Mein Leben und Werk",
+        "en": "Mein Leben und Werk"
+      },
+      "author": "Henry Ford",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-ford.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/mein-leben-und-werk/",
+        "en": "https://aeternus-verlag.de/buecher/mein-leben-und-werk/"
+      },
+      "summary": {
+        "de": "Ford erzählt seinen Weg von der Werkstatt zum Weltkonzern und legt dabei ein vollständiges System offen: wie ein Produkt entsteht, was Arbeit kosten darf und warum ein niedriger Preis für ihn kein Zugeständnis, sondern eine Rechnung ist.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:wilde-tiere-die-ich-kannte",
+      "type": "book",
+      "label": {
+        "de": "Wilde Tiere, die ich kannte",
+        "en": "Wilde Tiere, die ich kannte"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-wilde-tiere.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/wilde-tiere-die-ich-kannte/",
+        "en": "https://aeternus-verlag.de/buecher/wilde-tiere-die-ich-kannte/"
+      },
+      "summary": {
+        "de": "Vom Wolfskönig Lobo bis zur Krähe Silverspot: Setons berühmtester Band verbindet genaue Naturbeobachtung mit dramatischer Erzählkunst.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:wahb-lebensgeschichte-eines-grizzlybaeren",
+      "type": "book",
+      "label": {
+        "de": "Wahb. Lebensgeschichte eines Grizzlybären",
+        "en": "Wahb. Lebensgeschichte eines Grizzlybären"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-wahb.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/wahb-lebensgeschichte-eines-grizzlybaeren/",
+        "en": "https://aeternus-verlag.de/buecher/wahb-lebensgeschichte-eines-grizzlybaeren/"
+      },
+      "summary": {
+        "de": "Die Lebensgeschichte des Grizzlys Wahb von der Jugend bis ins Alter, hart, präzise und mit außergewöhnlicher Nähe zur Wildnis erzählt.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:leben-der-gejagten",
+      "type": "book",
+      "label": {
+        "de": "Leben der Gejagten",
+        "en": "Leben der Gejagten"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-leben-der-gejagten-r3.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/leben-der-gejagten/",
+        "en": "https://aeternus-verlag.de/buecher/leben-der-gejagten/"
+      },
+      "summary": {
+        "de": "Acht Tierleben zwischen Verfolgung, Anpassung und Überlebenskunst — beobachtet mit Setons naturkundlicher Genauigkeit und erzählerischer Spannung.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:tierhelden-portraits-aus-der-wildnis",
+      "type": "book",
+      "label": {
+        "de": "Tierhelden. Portraits aus der Wildnis",
+        "en": "Tierhelden. Portraits aus der Wildnis"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-tierhelden.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/tierhelden-portraits-aus-der-wildnis/",
+        "en": "https://aeternus-verlag.de/buecher/tierhelden-portraits-aus-der-wildnis/"
+      },
+      "summary": {
+        "de": "Acht Lebensbilder aus Setons Spätwerk — von der Slum-Katze bis zum Wolf von Winnipeg. Neu übersetzt und eingerichtet.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:zwei-kleine-wilde",
+      "type": "book",
+      "label": {
+        "de": "Zwei kleine Wilde",
+        "en": "Zwei kleine Wilde"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-zwei-kleine-wilde.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/zwei-kleine-wilde/",
+        "en": "https://aeternus-verlag.de/buecher/zwei-kleine-wilde/"
+      },
+      "summary": {
+        "de": "Yan und Sam machen aus Spiel und Streifzügen eine Schule der Beobachtung, Selbstständigkeit und Freundschaft — in einer umfangreich illustrierten Neuausgabe.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:rolf-in-der-wildnis",
+      "type": "book",
+      "label": {
+        "de": "Rolf in der Wildnis",
+        "en": "Rolf in der Wildnis"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-rolf-in-der-wildnis.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/rolf-in-der-wildnis/",
+        "en": "https://aeternus-verlag.de/buecher/rolf-in-der-wildnis/"
+      },
+      "summary": {
+        "de": "Rolf flieht vor seinem trunksüchtigen Onkel in die Wälder von Vermont. An der Seite Quonabs und des Hundes Skookum lernt er Spurenlesen, Kanubau und das Überleben in der Wildnis.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-arktischen-praerien",
+      "type": "book",
+      "label": {
+        "de": "Die arktischen Prärien",
+        "en": "Die arktischen Prärien"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-die-arktischen-praerien-r1.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-arktischen-praerien/",
+        "en": "https://aeternus-verlag.de/buecher/die-arktischen-praerien/"
+      },
+      "summary": {
+        "de": "Setons sechsmonatige Reise in den kanadischen Norden verbindet Feldtagebuch, Tierbeobachtung, Kartierung und Begegnungen entlang der Handelsrouten.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:monarch",
+      "type": "book",
+      "label": {
+        "de": "Monarch",
+        "en": "Monarch"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-monarch.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/monarch/",
+        "en": "https://aeternus-verlag.de/buecher/monarch/"
+      },
+      "summary": {
+        "de": "Vom verwaisten Bärenjungen zum Herrscher am Mount Tallac: Seton erzählt ein Tierleben zwischen Wildnis, Legende und Gefangenschaft.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "type": "book",
+      "label": {
+        "de": "Das Buch des Waldhandwerks und der Indianerweisheit · Band I",
+        "en": "Das Buch des Waldhandwerks und der Indianerweisheit · Band I"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-waldhandwerk-band-i.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i/",
+        "en": "https://aeternus-verlag.de/buecher/das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i/"
+      },
+      "summary": {
+        "de": "Band I erschließt Setons Naturphilosophie, Stammesordnung und Charakterbildung in der ersten vollständigen deutschen Ausgabe dieses Grundwerks von 1912.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "type": "book",
+      "label": {
+        "de": "Das Buch des Waldhandwerks und der Indianerweisheit · Band II",
+        "en": "Das Buch des Waldhandwerks und der Indianerweisheit · Band II"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-waldhandwerk-band-ii.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii/",
+        "en": "https://aeternus-verlag.de/buecher/das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii/"
+      },
+      "summary": {
+        "de": "Band II führt von Feuer ohne Streichholz über Fährtenlesen, Botanik und Sternkunde bis zum Bau von Zufluchten und Holzkanus.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:koenig-salomos-schatzkammer",
+      "type": "book",
+      "label": {
+        "de": "König Salomos Schatzkammer",
+        "en": "König Salomos Schatzkammer"
+      },
+      "author": "H. Rider Haggard",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-koenig-salomos-schatzkammer.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/koenig-salomos-schatzkammer/",
+        "en": "https://aeternus-verlag.de/buecher/koenig-salomos-schatzkammer/"
+      },
+      "summary": {
+        "de": "Eine vergilbte, mit Blut gezeichnete Karte, die Legende von unermeßlichen Diamantenfeldern und das spurlose Verschwinden eines englischen Edelmanns: Das sind die Stücke, die den gealterten Elefantenjäger Allan Quatermain in das gefährlichste Unternehmen seines Lebens führen. Der Weg geht durch glühende Wüste und über die eiskalten Zwillingsgipfel der Königin von Saba in ein von der Welt vergessenes Reich.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:waldhandwerk",
+      "type": "book",
+      "label": {
+        "de": "Waldhandwerk",
+        "en": "Waldhandwerk"
+      },
+      "author": "George Washington Sears",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-waldhandwerk.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/waldhandwerk/",
+        "en": "https://aeternus-verlag.de/buecher/waldhandwerk/"
+      },
+      "summary": {
+        "de": "New York 1884: Ein Schuhmacher, der kaum hundert Pfund wiegt, schreibt auf, wie man mit sechsundzwanzig Pfund Gepäck wochenlang durch die Wildnis zieht. Rucksack, Beil und Messer, das Shanty-Zelt, das richtig gebaute Lagerfeuer, Froschfang und Lagerküche, ein zehntägiger Alleingang durch Michigan und das federleichte Zedernkanu — Sears' Buch ist Anleitung und Erzählung in einem.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:heidi",
+      "type": "book",
+      "label": {
+        "de": "Heidi",
+        "en": "Heidi"
+      },
+      "author": "Johanna Spyri",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-heidi-spyri.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/heidi/",
+        "en": "https://aeternus-verlag.de/buecher/heidi/"
+      },
+      "summary": {
+        "de": "Von der rauen Ankunft auf der Alm über das Frankfurter Heimweh bis zu Klaras Weg zurück ins Leben: Johanna Spyris zweibändiges Werk vollständig in einem Band.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-i",
+      "type": "book",
+      "label": {
+        "de": "Die Schreckensmärchen der Brüder Grimm · Band I",
+        "en": "Die Schreckensmärchen der Brüder Grimm · Band I"
+      },
+      "author": "Brüder Grimm",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-grimm-band-i.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-schreckensmaerchen-der-brueder-grimm-band-i/",
+        "en": "https://aeternus-verlag.de/buecher/die-schreckensmaerchen-der-brueder-grimm-band-i/"
+      },
+      "summary": {
+        "de": "Eine Auswahl jener Märchen, in denen Angst, Grausamkeit, Verwandlung und Schuld offen hervortreten – ohne Verharmlosung und mit editorischer Einordnung.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-ii",
+      "type": "book",
+      "label": {
+        "de": "Die Schreckensmärchen der Brüder Grimm · Band II",
+        "en": "Die Schreckensmärchen der Brüder Grimm · Band II"
+      },
+      "author": "Brüder Grimm",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-grimm-band-ii.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-schreckensmaerchen-der-brueder-grimm-band-ii/",
+        "en": "https://aeternus-verlag.de/buecher/die-schreckensmaerchen-der-brueder-grimm-band-ii/"
+      },
+      "summary": {
+        "de": "Der zweite Band der Schreckensmärchen: weitere Erzählungen aus der Sammlung der Brüder Grimm in ihrer dunklen Gestalt, illustriert und editorisch eingeordnet.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:die-slawischen-schreckensmaerchen-band-iii",
+      "type": "book",
+      "label": {
+        "de": "Die slawischen Schreckensmärchen · Band III",
+        "en": "Die slawischen Schreckensmärchen · Band III"
+      },
+      "author": "Afanassjew · Erben",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-slawische-schreckensmaerchen.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-slawischen-schreckensmaerchen-band-iii/",
+        "en": "https://aeternus-verlag.de/buecher/die-slawischen-schreckensmaerchen-band-iii/"
+      },
+      "summary": {
+        "de": "Band III der Schreckensmärchen: slawische Volksmärchen aus den Sammlungen Afanassjews und Erbens in deutscher Übersetzung.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:bambi",
+      "type": "book",
+      "label": {
+        "de": "Bambi",
+        "en": "Bambi"
+      },
+      "author": "Felix Salten",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-bambi-salten.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/bambi/",
+        "en": "https://aeternus-verlag.de/buecher/bambi/"
+      },
+      "summary": {
+        "de": "Der Weg eines jungen Rehs durch die Jahreszeiten: vom Schutz der Mutter über die erste Wiese bis zu den Erfahrungen, die sein Leben verändern.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:bambis-kinder",
+      "type": "book",
+      "label": {
+        "de": "Bambis Kinder",
+        "en": "Bambis Kinder"
+      },
+      "author": "Felix Salten",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-bambis-kinder.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/bambis-kinder/",
+        "en": "https://aeternus-verlag.de/buecher/bambis-kinder/"
+      },
+      "summary": {
+        "de": "Das düstere Vermächtnis des großen Wald-Epos Die Fortsetzung des Weltbestsellers — 1940 in deutscher Sprache erschienen.\n\nMit Bambis Kinder schuf Felix Salten im Schatten des heraufziehenden Zweiten Weltkriegs die unerbittliche Fortsetzung seines legendären Meisterwerks. Der Wald ist nicht friedlicher geworden: Bambis und Falines Zwillinge, der ängstliche Geno und die stolze Gurri, müssen sich in einer Schöpfung behaupten, die von Gefahren, Hunger und der ewigen Lauer des namenlosen Jägers durchsetzt ist.\n\nAls Gurri in die Hände des Menschen gerät und Rettung in Gefangenschaft umschlägt, tritt Bambi – nun der unnahbare Fürst des Forstes – aus den Schatten. Seine Lehre kennt keine Kompromisse: Wer in der Wildnis überleben will, darf sich niemals der Macht unterwerfen.\n\nEine bibliophile Prachtausgabe des deutschen Originaltexts — veredelt durch meisterhafte, bildgewaltige Neuinterpretationen von atemberaubender räumlicher Tiefe.\n\nUngeschminkt. Die Vollendung eines Mythos.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:de:pinocchio",
+      "type": "book",
+      "label": {
+        "de": "Pinocchio",
+        "en": "Pinocchio"
+      },
+      "author": "Carlo Collodi",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-pinocchio-collodi.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/pinocchio/",
+        "en": "https://aeternus-verlag.de/buecher/pinocchio/"
+      },
+      "summary": {
+        "de": "Das unzensierte Original der Menschwerdung Jenseits der späteren Verfilmungen. Dies ist die Geschichte, wie Carlo Collodi sie schrieb.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-edition-rolf",
+      "type": "book",
+      "label": {
+        "de": "Rolf in the Woods (Illustrated)",
+        "en": "Rolf in the Woods (Illustrated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-rolf/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-rolf/"
+      },
+      "summary": {
+        "de": "",
+        "en": "At sunrise, Quonab climbs the rock above his shelter and sings. Into his life comes Rolf, a boy who needs a home and has much to learn."
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-edition-two-little-savages",
+      "type": "book",
+      "label": {
+        "de": "Two Little Savages (Illustrated)",
+        "en": "Two Little Savages (Illustrated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-two-little-savages-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-two-little-savages/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-two-little-savages/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Yan can spend hours at a taxidermist's window, longing to know the names of the birds. Give him a patch of woods, a friend like Sam, and the old woodsman Caleb, and that hunger becomes a life: a teepee to raise, tracks to read, a bow to make, a camp to keep going."
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-edition-arctic-prairies",
+      "type": "book",
+      "label": {
+        "de": "The Arctic Prairies (Illustrated)",
+        "en": "The Arctic Prairies (Illustrated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-arctic-prairies-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-arctic-prairies/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-arctic-prairies/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Two thousand miles by canoe, with caribou somewhere ahead. In 1907 Ernest Thompson Seton traveled north with the naturalist Edward A. Preble, following waterways toward Great Slave Lake and the country beyond Aylmer Lake."
+      }
+    },
+    {
+      "id": "book:en-robert-montgomery-bird-edition-nick",
+      "type": "book",
+      "label": {
+        "de": "Nick of the Woods",
+        "en": "Nick of the Woods"
+      },
+      "author": "Robert Montgomery Bird",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-nick-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-nick/",
+        "en": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-nick/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Kentucky, 1782. A party of travelers enters a forest haunted by the name Jibbenainosay. Their guide, Nathan Slaughter, is a Quaker who appears to reject violence; the dangers around him make that conviction increasingly difficult to read. Bird turns a frontier adventure into a story of hidden identity and vengeance."
+      }
+    },
+    {
+      "id": "book:en-robert-montgomery-bird-edition-hawks",
+      "type": "book",
+      "label": {
+        "de": "The Hawks of Hawk-Hollow",
+        "en": "The Hawks of Hawk-Hollow"
+      },
+      "author": "Robert Montgomery Bird",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-hawks-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-hawks/",
+        "en": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-hawks/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In Pennsylvania, the Revolution has left loyalties divided and old injuries unsettled. The return of a dispossessed family draws love, inheritance and revenge into the same conflict. A mysterious stranger and the outlaw reputation of the Hawks turn a quiet valley into a place where every allegiance has a price."
+      }
+    },
+    {
+      "id": "book:en-george-washington-sears-woodcraft-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Woodcraft (Illustrated)",
+        "en": "Woodcraft (Illustrated)"
+      },
+      "author": "George Washington Sears",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-woodcraft-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-washington-sears-woodcraft-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-george-washington-sears-woodcraft-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "New York, 1884: a Pennsylvania shoemaker who weighs little more than a hundred pounds writes down how to travel for weeks through the wilderness with twenty-six pounds of duffle. Knapsack, hatchet and knives, the shanty-tent, the camp-fire built as it should be, frogging and camp cookery, a ten days’ tramp alone across Michigan, and the ten-and-a-half-pound cedar canoe — Sears’ book is instruction and story in one."
+      }
+    },
+    {
+      "id": "book:en-francis-parkman-edition-oregon-trail",
+      "type": "book",
+      "label": {
+        "de": "The Oregon Trail (Illustrated)",
+        "en": "The Oregon Trail (Illustrated)"
+      },
+      "author": "Francis Parkman",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-oregon-trail-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-francis-parkman-edition-oregon-trail/",
+        "en": "https://aeternuspublishing.com/books/en-francis-parkman-edition-oregon-trail/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The Great Plains in 1846: emigrant trains, buffalo hunts, trading posts, and weeks in an Oglala camp. Parkman’s first book records a journey into a West still being travelled and contested."
+      }
+    },
+    {
+      "id": "book:en-james-hall-the-harpe-s-head-illustrated",
+      "type": "book",
+      "label": {
+        "de": "The Harpe’s Head (Illustrated)",
+        "en": "The Harpe’s Head (Illustrated)"
+      },
+      "author": "James Hall",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-hall-the-harpe-s-head-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-james-hall-the-harpe-s-head-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Virginia in the 1790s: a young stranger rides into the settled world of the planter aristocracy, while in the mountains and canebrakes of Kentucky the Harpe brothers make the borderlands a place where no traveller rides safe. Hall sets a romance of planters and pioneers against the darkest legend of the Kentucky frontier."
+      }
+    },
+    {
+      "id": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Shelters, Shacks, and Shanties (Illustrated)",
+        "en": "Shelters, Shacks, and Shanties (Illustrated)"
+      },
+      "author": "Daniel Carter Beard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-shelters-shacks-shanties-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A bed of balsam boughs, a shelter beneath a fallen tree, a cabin with a wooden latch: Beard begins with what lies close at hand and works towards the construction of a log house. His drawings open roofs to reveal their frames, separate the parts of a fastening, and show how a few tools can be put to work — bark coverings, framed shanties, sod walls, raised camps and log buildings across forty-nine chapters."
+      }
+    },
+    {
+      "id": "book:en-henry-rider-haggard-king-solomon-s-mines-annotated",
+      "type": "book",
+      "label": {
+        "de": "King Solomon’s Mines (Annotated)",
+        "en": "King Solomon’s Mines (Annotated)"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-king-solomons-mines-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-henry-rider-haggard-king-solomon-s-mines-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-henry-rider-haggard-king-solomon-s-mines-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A faded map, copied from the hand of a dying traveller, marks a road northward across country from which no man is known to have returned. When Sir Henry Curtis asks Allan Quatermain to guide an expedition in search of a lost brother, the old hunter agrees; with Captain Good and the enigmatic Umbopa they go north — through thirst, battle, kingship, witchcraft and the fatal seduction of buried wealth."
+      }
+    },
+    {
+      "id": "book:en-richard-jefferies-edition-bevis",
+      "type": "book",
+      "label": {
+        "de": "Bevis (Annotated)",
+        "en": "Bevis (Annotated)"
+      },
+      "author": "Richard Jefferies",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-bevis-en-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-richard-jefferies-edition-bevis/",
+        "en": "https://aeternuspublishing.com/books/en-richard-jefferies-edition-bevis/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A packing-case becomes the beginning of a project. A brook becomes the Mississippi. Bevis and Mark give the countryside new names, build and equip their craft, and set out for islands whose remoteness grows with every plan."
+      }
+    },
+    {
+      "id": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Edgar Huntly (Illustrated)",
+        "en": "Edgar Huntly (Illustrated)"
+      },
+      "author": "Charles Brockden Brown",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-edgar-huntly-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-brockden-brown-edgar-huntly-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-charles-brockden-brown-edgar-huntly-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Published in 1799, Charles Brockden Brown’s Edgar Huntly; or, Memoirs of a Sleep-Walker is one of the formative works of American Gothic fiction."
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "type": "book",
+      "label": {
+        "de": "Wild Animals I Have Known (Annotated)",
+        "en": "Wild Animals I Have Known (Annotated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-wild-animals-i-have-known-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-wild-animals-i-have-known-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Lobo knows where the traps are. Silverspot knows his flock and his country. Raggylug has much to learn, and Molly is determined that he shall live to learn it."
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "type": "book",
+      "label": {
+        "de": "The Biography of a Grizzly (Annotated)",
+        "en": "The Biography of a Grizzly (Annotated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Wahb begins as a cub beside his mother, learning where to find food and when to take shelter. Alone, he must learn the rest from the country itself. Seasons pass, wounds leave their marks, and the small bear becomes a formidable presence whose strength seems equal to every rival."
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "type": "book",
+      "label": {
+        "de": "Lives of the Hunted (Annotated)",
+        "en": "Lives of the Hunted (Annotated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-lives-of-the-hunted-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-lives-of-the-hunted-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Two lambs, scarcely born, are already beyond a hunter's reach. A coyote learns from every narrow escape. A small dog discovers what it means to stand his ground."
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-animal-heroes-annotated",
+      "type": "book",
+      "label": {
+        "de": "Animal Heroes (Annotated)",
+        "en": "Animal Heroes (Annotated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-animal-heroes-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-animal-heroes-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A gray cat learns the uses of an alley. A pigeon has a continent of dangers between himself and home. A little terrier faces an enemy no sensible measure of size would allow him to challenge."
+      }
+    },
+    {
+      "id": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "type": "book",
+      "label": {
+        "de": "Monarch, the Big Bear of Tallac (Annotated)",
+        "en": "Monarch, the Big Bear of Tallac (Annotated)"
+      },
+      "author": "Ernest Thompson Seton",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A small bear remembers honey and a familiar voice. Years later, the great bear of Tallac can break ropes, defeat traps, and send mounted men scrambling for safety. His strength has grown with his knowledge of the mountains."
+      }
+    },
+    {
+      "id": "book:atlas:hawks",
+      "type": "book",
+      "label": {
+        "de": "Die Falken von Hawk-Hollow",
+        "en": "Die Falken von Hawk-Hollow"
+      },
+      "author": "Robert Montgomery Bird",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hawks-de.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/robert-montgomery-bird/#werke",
+        "en": "https://aeternus-verlag.de/autoren/robert-montgomery-bird/#werke"
+      },
+      "summary": {
+        "de": "In Pennsylvania hat die Revolution geteilte Loyalitäten und offene Rechnungen hinterlassen. Die Rückkehr einer enteigneten Familie verknüpft Liebe, Erbe und Vergeltung. Ein geheimnisvoller Fremder und der Ruf der geächteten Falken verwandeln das Tal in einen Ort, an dem jede Bindung ihren Preis hat.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:atlas:tacitus-1",
+      "type": "book",
+      "label": {
+        "de": "Die Annalen · Band I",
+        "en": "Die Annalen · Band I"
+      },
+      "author": "Tacitus",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-tacitus-annalen-band-1.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/tacitus/#werke",
+        "en": "https://aeternus-verlag.de/autoren/tacitus/#werke"
+      },
+      "summary": {
+        "de": "Rom nach Augustus. Unter Tiberius wird die Republik zur Fassade, der Senat zum Schauplatz von Furcht, Ehrgeiz und Verrat. Tacitus schreibt Geschichte als Machtanalyse: knapp, kalt und psychologisch unerbittlich.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:atlas:tacitus-2",
+      "type": "book",
+      "label": {
+        "de": "Die Annalen · Band II",
+        "en": "Die Annalen · Band II"
+      },
+      "author": "Tacitus",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-tacitus-annalen-band-2.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/tacitus/#werke",
+        "en": "https://aeternus-verlag.de/autoren/tacitus/#werke"
+      },
+      "summary": {
+        "de": "Unter Claudius und Nero wird die römische Republik endgültig zur blutigen Fassade. Der Senat verkommt zum Schauplatz von Unterwerfung, Furcht und Verrat. Tacitus kannte diese Welt als Senator aus nächster Nähe – und schreibt doch, wie er verspricht, ohne Zorn und Eifer: Geschichte als Psychologie der Macht, knapp, unbarmherzig und frei von Illusionen.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:atlas:jungle",
+      "type": "book",
+      "label": {
+        "de": "Das Dschungelbuch",
+        "en": "Das Dschungelbuch"
+      },
+      "author": "Rudyard Kipling",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-dschungelbuch-kipling.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/rudyard-kipling/#werke",
+        "en": "https://aeternus-verlag.de/autoren/rudyard-kipling/#werke"
+      },
+      "summary": {
+        "de": "Mowgli wächst im Wolfsrudel heran; Kotick, Rikki-Tikki-Tavi, Toomai und Purun Bhagat bestehen ihre je eigene Prüfung um Leben, Zugehörigkeit und Schicksal.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:atlas:harpe",
+      "type": "book",
+      "label": {
+        "de": "Harpes Haupt",
+        "en": "Harpes Haupt"
+      },
+      "author": "James Hall",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-harpes-haupt-hall.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/james-hall/#werke",
+        "en": "https://aeternus-verlag.de/autoren/james-hall/#werke"
+      },
+      "summary": {
+        "de": "Wo die Zivilisation endet, herrscht das Gesetz des Urwalds. Die Gebrüder Harpe ziehen eine Spur aus Feuer und Mord durch die Ansiedlungen der Pioniere – und die Jagd durch die Wildnis am Ohio wird zum unerbittlichen Kampf um Leben und Vernichtung.",
+        "en": ""
+      }
+    },
+    {
+      "id": "book:atlas:texas-rangers",
+      "type": "book",
+      "label": {
+        "de": "Sechs Jahre bei den Texas Rangers",
+        "en": "Sechs Jahre bei den Texas Rangers"
+      },
+      "author": "James B. Gillett",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-texas-rangers-gillett.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/james-b-gillett/",
+        "en": "https://aeternus-verlag.de/autoren/james-b-gillett/"
+      },
+      "summary": {
+        "de": "Am 1. Juni 1875 tritt der achtzehnjährige Gillett in Company D des Frontier Battalion ein. Vor ihm liegen Tage im Sattel, die Verfolgung von Viehdieben und Mördern, Gefechte mit Kiowa, Comanchen und Apachen und später das Amt des City Marshal von El Paso.",
+        "en": ""
+      }
+    },
+    {
+      "id": "theme:great-game",
+      "type": "theme",
+      "label": {
+        "de": "Das Great Game",
+        "en": "The Great Game"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/gruen/historischer-hintergrund/great-game/",
+        "en": "https://aeternuspublishing.com/series/gruen/historical-background/great-game/"
+      },
+      "summary": {
+        "de": "Großbritannien, Russland und das Ringen um Zentralasien",
+        "en": "Britain, Russia and the struggle for Central Asia"
+      }
+    },
+    {
+      "id": "theme:north-west-frontier",
+      "type": "theme",
+      "label": {
+        "de": "Die Nordwestgrenze Indiens",
+        "en": "The North-West Frontier"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/gruen/historischer-hintergrund/nordwestgrenze-indiens/",
+        "en": "https://aeternuspublishing.com/series/gruen/historical-background/north-west-frontier/"
+      },
+      "summary": {
+        "de": "Pässe, Grenzgesellschaften und Feldzüge im Gebirge",
+        "en": "Mountain passes, border societies and campaigning beyond the plains"
+      }
+    },
+    {
+      "id": "theme:sudan-nile",
+      "type": "theme",
+      "label": {
+        "de": "Sudan und Nilfeldzüge",
+        "en": "The Sudan and the Nile Campaigns"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/gruen/historischer-hintergrund/sudan-und-nil/",
+        "en": "https://aeternuspublishing.com/series/gruen/historical-background/sudan-and-the-nile/"
+      },
+      "summary": {
+        "de": "Khartum, Wüstenwege und der Kampf um den Strom",
+        "en": "Khartoum, desert crossings and the struggle for the river"
+      }
+    },
+    {
+      "id": "theme:west-africa-ashanti",
+      "type": "theme",
+      "label": {
+        "de": "Westafrika und Ashanti",
+        "en": "West Africa and Ashanti"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/gruen/historischer-hintergrund/westafrika-und-ashanti/",
+        "en": "https://aeternuspublishing.com/series/gruen/historical-background/west-africa-and-ashanti/"
+      },
+      "summary": {
+        "de": "Kumasi, die Goldküste und Wege ins Binnenland",
+        "en": "Kumasi, the Gold Coast and the roads inland"
+      }
+    },
+    {
+      "id": "theme:abyssinian-expedition",
+      "type": "theme",
+      "label": {
+        "de": "Die Abessinien-Expedition von 1868",
+        "en": "The Abyssinian Expedition of 1868"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/gruen/historischer-hintergrund/abessinien-expedition-1868/",
+        "en": "https://aeternuspublishing.com/series/gruen/historical-background/abyssinian-expedition-1868/"
+      },
+      "summary": {
+        "de": "Vom Roten Meer nach Magdala",
+        "en": "From the Red Sea to Magdala"
+      }
+    },
+    {
+      "id": "theme:survey-intelligence",
+      "type": "theme",
+      "label": {
+        "de": "Vermessung, Nachrichtendienst und Empire",
+        "en": "Survey, Intelligence and Empire"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/reihen/gruen/historischer-hintergrund/vermessung-und-nachrichtenwesen/",
+        "en": "https://aeternuspublishing.com/series/gruen/historical-background/survey-intelligence-and-empire/"
+      },
+      "summary": {
+        "de": "Wie Landschaft zu Karten und Karten zu Entscheidungen wurden",
+        "en": "From field observation to maps and military decisions"
+      }
+    },
+    {
+      "id": "author:Robert Montgomery Bird",
+      "type": "author",
+      "label": {
+        "de": "Robert Montgomery Bird",
+        "en": "Robert Montgomery Bird"
+      }
+    },
+    {
+      "id": "author:Theodore Roosevelt",
+      "type": "author",
+      "label": {
+        "de": "Theodore Roosevelt",
+        "en": "Theodore Roosevelt"
+      }
+    },
+    {
+      "id": "author:Francis Parkman",
+      "type": "author",
+      "label": {
+        "de": "Francis Parkman",
+        "en": "Francis Parkman"
+      }
+    },
+    {
+      "id": "author:Lady Florentia Sale",
+      "type": "author",
+      "label": {
+        "de": "Lady Florentia Sale",
+        "en": "Lady Florentia Sale"
+      }
+    },
+    {
+      "id": "author:Robert Baden-Powell",
+      "type": "author",
+      "label": {
+        "de": "Robert Baden-Powell",
+        "en": "Robert Baden-Powell"
+      }
+    },
+    {
+      "id": "author:Banastre Tarleton",
+      "type": "author",
+      "label": {
+        "de": "Banastre Tarleton",
+        "en": "Banastre Tarleton"
+      }
+    },
+    {
+      "id": "author:Henry Ford",
+      "type": "author",
+      "label": {
+        "de": "Henry Ford",
+        "en": "Henry Ford"
+      }
+    },
+    {
+      "id": "author:Ernest Thompson Seton",
+      "type": "author",
+      "label": {
+        "de": "Ernest Thompson Seton",
+        "en": "Ernest Thompson Seton"
+      }
+    },
+    {
+      "id": "author:H. Rider Haggard",
+      "type": "author",
+      "label": {
+        "de": "H. Rider Haggard",
+        "en": "H. Rider Haggard"
+      }
+    },
+    {
+      "id": "author:George Washington Sears",
+      "type": "author",
+      "label": {
+        "de": "George Washington Sears",
+        "en": "George Washington Sears"
+      }
+    },
+    {
+      "id": "author:Johanna Spyri",
+      "type": "author",
+      "label": {
+        "de": "Johanna Spyri",
+        "en": "Johanna Spyri"
+      }
+    },
+    {
+      "id": "author:Brüder Grimm",
+      "type": "author",
+      "label": {
+        "de": "Brüder Grimm",
+        "en": "Brüder Grimm"
+      }
+    },
+    {
+      "id": "author:Afanassjew · Erben",
+      "type": "author",
+      "label": {
+        "de": "Afanassjew · Erben",
+        "en": "Afanassjew · Erben"
+      }
+    },
+    {
+      "id": "author:Felix Salten",
+      "type": "author",
+      "label": {
+        "de": "Felix Salten",
+        "en": "Felix Salten"
+      }
+    },
+    {
+      "id": "author:Carlo Collodi",
+      "type": "author",
+      "label": {
+        "de": "Carlo Collodi",
+        "en": "Carlo Collodi"
+      }
+    },
+    {
+      "id": "author:James Hall",
+      "type": "author",
+      "label": {
+        "de": "James Hall",
+        "en": "James Hall"
+      }
+    },
+    {
+      "id": "author:Daniel Carter Beard",
+      "type": "author",
+      "label": {
+        "de": "Daniel Carter Beard",
+        "en": "Daniel Carter Beard"
+      }
+    },
+    {
+      "id": "author:Richard Jefferies",
+      "type": "author",
+      "label": {
+        "de": "Richard Jefferies",
+        "en": "Richard Jefferies"
+      }
+    },
+    {
+      "id": "author:Charles Brockden Brown",
+      "type": "author",
+      "label": {
+        "de": "Charles Brockden Brown",
+        "en": "Charles Brockden Brown"
+      }
+    },
+    {
+      "id": "author:Tacitus",
+      "type": "author",
+      "label": {
+        "de": "Tacitus",
+        "en": "Tacitus"
+      }
+    },
+    {
+      "id": "author:Rudyard Kipling",
+      "type": "author",
+      "label": {
+        "de": "Rudyard Kipling",
+        "en": "Rudyard Kipling"
+      }
+    },
+    {
+      "id": "author:James B. Gillett",
+      "type": "author",
+      "label": {
+        "de": "James B. Gillett",
+        "en": "James B. Gillett"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "book:de:der-waldteufel",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-i",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-ii",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-iii",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-iv",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:der-oregon-trail",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:tagebuch-der-katastrophe",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:de:der-sturz-prempehs",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:de:scouting-for-boys-uebersetzt",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:de:mein-leben-und-werk",
+      "target": "series:blau",
+      "type": "series"
+    },
+    {
+      "source": "book:de:wilde-tiere-die-ich-kannte",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:wahb-lebensgeschichte-eines-grizzlybaeren",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:leben-der-gejagten",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:tierhelden-portraits-aus-der-wildnis",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:zwei-kleine-wilde",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:rolf-in-der-wildnis",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-arktischen-praerien",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:monarch",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:koenig-salomos-schatzkammer",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:waldhandwerk",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:heidi",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-i",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-ii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-slawischen-schreckensmaerchen-band-iii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:bambi",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:bambis-kinder",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:pinocchio",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-edition-rolf",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-edition-two-little-savages",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-edition-arctic-prairies",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-robert-montgomery-bird-edition-nick",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-robert-montgomery-bird-edition-hawks",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-washington-sears-woodcraft-illustrated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-francis-parkman-edition-oregon-trail",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-hall-the-harpe-s-head-illustrated",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-henry-rider-haggard-king-solomon-s-mines-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-richard-jefferies-edition-bevis",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-animal-heroes-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:scouting-for-boys-uebersetzt",
+      "target": "book:de:waldhandwerk",
+      "type": "curated",
+      "label": {
+        "de": "Praxiswissen und leichtes Leben draußen",
+        "en": "Praxiswissen und leichtes Leben draußen"
+      }
+    },
+    {
+      "source": "book:de:scouting-for-boys-uebersetzt",
+      "target": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "type": "curated",
+      "label": {
+        "de": "Naturerfahrung und Charakterbildung",
+        "en": "Naturerfahrung und Charakterbildung"
+      }
+    },
+    {
+      "source": "book:de:scouting-for-boys-uebersetzt",
+      "target": "book:atlas:jungle",
+      "type": "curated",
+      "label": {
+        "de": "Die Wolfsmeute als Vorbild der Wölflingsarbeit",
+        "en": "Die Wolfsmeute als Vorbild der Wölflingsarbeit"
+      }
+    },
+    {
+      "source": "book:de:scouting-for-boys-uebersetzt",
+      "target": "book:de:der-sturz-prempehs",
+      "type": "curated",
+      "label": {
+        "de": "Vom militärischen Späher zum Pfadfinder",
+        "en": "Vom militärischen Späher zum Pfadfinder"
+      }
+    },
+    {
+      "source": "book:de:waldhandwerk",
+      "target": "book:de:rolf-in-der-wildnis",
+      "type": "curated",
+      "label": {
+        "de": "Lagerleben, Kanu und Selbstständigkeit",
+        "en": "Lagerleben, Kanu und Selbstständigkeit"
+      }
+    },
+    {
+      "source": "book:de:waldhandwerk",
+      "target": "book:de:zwei-kleine-wilde",
+      "type": "curated",
+      "label": {
+        "de": "Waldläuferwissen als Lebensschule",
+        "en": "Waldläuferwissen als Lebensschule"
+      }
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "target": "book:de:zwei-kleine-wilde",
+      "type": "curated",
+      "label": {
+        "de": "Setons Woodcraft-System",
+        "en": "Setons Woodcraft-System"
+      }
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "target": "book:de:rolf-in-der-wildnis",
+      "type": "curated",
+      "label": {
+        "de": "Spurenlesen und Charakterbildung",
+        "en": "Spurenlesen und Charakterbildung"
+      }
+    },
+    {
+      "source": "book:de:wilde-tiere-die-ich-kannte",
+      "target": "book:de:wahb-lebensgeschichte-eines-grizzlybaeren",
+      "type": "curated",
+      "label": {
+        "de": "Tierbiografie und genaue Beobachtung",
+        "en": "Tierbiografie und genaue Beobachtung"
+      }
+    },
+    {
+      "source": "book:de:wilde-tiere-die-ich-kannte",
+      "target": "book:de:monarch",
+      "type": "curated",
+      "label": {
+        "de": "Tierleben zwischen Wildnis und Verfolgung",
+        "en": "Tierleben zwischen Wildnis und Verfolgung"
+      }
+    },
+    {
+      "source": "book:de:wahb-lebensgeschichte-eines-grizzlybaeren",
+      "target": "book:de:monarch",
+      "type": "curated",
+      "label": {
+        "de": "Zwei Bärenleben zwischen Freiheit und Verfolgung",
+        "en": "Zwei Bärenleben zwischen Freiheit und Verfolgung"
+      }
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "target": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "type": "curated",
+      "label": {
+        "de": "Die beiden Bände von Setons Woodcraft-Handbuch",
+        "en": "Die beiden Bände von Setons Woodcraft-Handbuch"
+      }
+    },
+    {
+      "source": "book:de:scouting-for-boys-uebersetzt",
+      "target": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "type": "curated",
+      "label": {
+        "de": "Fährtenlesen, Naturkunde und Lagerbau",
+        "en": "Fährtenlesen, Naturkunde und Lagerbau"
+      }
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "target": "book:de:waldhandwerk",
+      "type": "curated",
+      "label": {
+        "de": "Feuer, Zufluchten und Kanubau",
+        "en": "Feuer, Zufluchten und Kanubau"
+      }
+    },
+    {
+      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "target": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "type": "curated",
+      "label": {
+        "de": "Unterstände und Hütten aus Naturmaterialien",
+        "en": "Unterstände und Hütten aus Naturmaterialien"
+      }
+    },
+    {
+      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "target": "book:de:waldhandwerk",
+      "type": "curated",
+      "label": {
+        "de": "Praktischer Lager- und Hüttenbau",
+        "en": "Praktischer Lager- und Hüttenbau"
+      }
+    },
+    {
+      "source": "book:de:wilde-tiere-die-ich-kannte",
+      "target": "book:de:leben-der-gejagten",
+      "type": "curated",
+      "label": {
+        "de": "Setons Tiergeschichten: Verfolgung und Überleben",
+        "en": "Setons Tiergeschichten: Verfolgung und Überleben"
+      }
+    },
+    {
+      "source": "book:de:leben-der-gejagten",
+      "target": "book:de:tierhelden-portraits-aus-der-wildnis",
+      "type": "curated",
+      "label": {
+        "de": "Individuelle Tierporträts und Überlebenskunst",
+        "en": "Individuelle Tierporträts und Überlebenskunst"
+      }
+    },
+    {
+      "source": "book:de:bambi",
+      "target": "book:de:bambis-kinder",
+      "type": "curated",
+      "label": {
+        "de": "Bambis Geschichte und ihre Fortsetzung",
+        "en": "Bambis Geschichte und ihre Fortsetzung"
+      }
+    },
+    {
+      "source": "book:de:der-waldteufel",
+      "target": "book:atlas:harpe",
+      "type": "curated",
+      "label": {
+        "de": "Gewalt und Verfolgung im Kentucky-Grenzland",
+        "en": "Gewalt und Verfolgung im Kentucky-Grenzland"
+      }
+    },
+    {
+      "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+      "target": "book:atlas:harpe",
+      "type": "curated",
+      "label": {
+        "de": "American frontier fiction before the frontier became myth",
+        "en": "American frontier fiction before the frontier became myth"
+      }
+    },
+    {
+      "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+      "target": "book:de:der-waldteufel",
+      "type": "curated",
+      "label": {
+        "de": "American Gothic, wilderness and divided identity",
+        "en": "American Gothic, wilderness and divided identity"
+      }
+    },
+    {
+      "source": "book:de:der-waldteufel",
+      "target": "book:atlas:hawks",
+      "type": "curated",
+      "label": {
+        "de": "Birds Grenzromane: Identität, Loyalität und Vergeltung",
+        "en": "Birds Grenzromane: Identität, Loyalität und Vergeltung"
+      }
+    },
+    {
+      "source": "book:de:der-waldteufel",
+      "target": "book:de:die-eroberung-des-westens-band-ii",
+      "type": "curated",
+      "label": {
+        "de": "Kentucky während des amerikanischen Unabhängigkeitskriegs",
+        "en": "Kentucky während des amerikanischen Unabhängigkeitskriegs"
+      }
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-i",
+      "target": "book:de:die-eroberung-des-westens-band-ii",
+      "type": "curated",
+      "label": {
+        "de": "Roosevelts Geschichte: Aufbruch und Revolution",
+        "en": "Roosevelts Geschichte: Aufbruch und Revolution"
+      }
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-ii",
+      "target": "book:de:die-eroberung-des-westens-band-iii",
+      "type": "curated",
+      "label": {
+        "de": "Roosevelts Geschichte: vom Krieg zur Besiedlung",
+        "en": "Roosevelts Geschichte: vom Krieg zur Besiedlung"
+      }
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-iii",
+      "target": "book:de:die-eroberung-des-westens-band-iv",
+      "type": "curated",
+      "label": {
+        "de": "Roosevelts Geschichte: Grenzland und Louisiana",
+        "en": "Roosevelts Geschichte: Grenzland und Louisiana"
+      }
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-ii",
+      "target": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
+      "type": "curated",
+      "label": {
+        "de": "Der Unabhängigkeitskrieg aus amerikanischer und britischer Sicht",
+        "en": "Der Unabhängigkeitskrieg aus amerikanischer und britischer Sicht"
+      }
+    },
+    {
+      "source": "book:de:der-oregon-trail",
+      "target": "book:de:die-eroberung-des-westens-band-iv",
+      "type": "curated",
+      "label": {
+        "de": "Die Westexpansion vom Mississippi in die Great Plains",
+        "en": "Die Westexpansion vom Mississippi in die Great Plains"
+      }
+    },
+    {
+      "source": "book:atlas:tacitus-1",
+      "target": "book:atlas:tacitus-2",
+      "type": "curated",
+      "label": {
+        "de": "Die erhaltenen Annalen: von Tiberius zu Nero",
+        "en": "Die erhaltenen Annalen: von Tiberius zu Nero"
+      }
+    },
+    {
+      "source": "book:en-richard-jefferies-edition-bevis",
+      "target": "book:de:scouting-for-boys-uebersetzt",
+      "type": "curated",
+      "label": {
+        "de": "Jungen, Wasser und selbstgebaute Ausrüstung",
+        "en": "Jungen, Wasser und selbstgebaute Ausrüstung"
+      }
+    },
+    {
+      "source": "theme:great-game",
+      "target": "book:de:tagebuch-der-katastrophe",
+      "type": "context"
+    },
+    {
+      "source": "theme:great-game",
+      "target": "theme:north-west-frontier",
+      "type": "related"
+    },
+    {
+      "source": "theme:great-game",
+      "target": "theme:survey-intelligence",
+      "type": "related"
+    },
+    {
+      "source": "theme:north-west-frontier",
+      "target": "book:de:tagebuch-der-katastrophe",
+      "type": "context"
+    },
+    {
+      "source": "theme:north-west-frontier",
+      "target": "theme:survey-intelligence",
+      "type": "related"
+    },
+    {
+      "source": "theme:sudan-nile",
+      "target": "theme:survey-intelligence",
+      "type": "related"
+    },
+    {
+      "source": "theme:west-africa-ashanti",
+      "target": "book:de:der-sturz-prempehs",
+      "type": "context"
+    },
+    {
+      "source": "theme:west-africa-ashanti",
+      "target": "theme:abyssinian-expedition",
+      "type": "related"
+    },
+    {
+      "source": "theme:abyssinian-expedition",
+      "target": "theme:survey-intelligence",
+      "type": "related"
+    },
+    {
+      "source": "book:de:der-waldteufel",
+      "target": "author:Robert Montgomery Bird",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-i",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-ii",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-iii",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-eroberung-des-westens-band-iv",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
+      "source": "book:de:der-oregon-trail",
+      "target": "author:Francis Parkman",
+      "type": "author"
+    },
+    {
+      "source": "book:de:tagebuch-der-katastrophe",
+      "target": "author:Lady Florentia Sale",
+      "type": "author"
+    },
+    {
+      "source": "book:de:der-sturz-prempehs",
+      "target": "author:Robert Baden-Powell",
+      "type": "author"
+    },
+    {
+      "source": "book:de:scouting-for-boys-uebersetzt",
+      "target": "author:Robert Baden-Powell",
+      "type": "author"
+    },
+    {
+      "source": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
+      "target": "author:Banastre Tarleton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:mein-leben-und-werk",
+      "target": "author:Henry Ford",
+      "type": "author"
+    },
+    {
+      "source": "book:de:wilde-tiere-die-ich-kannte",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:wahb-lebensgeschichte-eines-grizzlybaeren",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:leben-der-gejagten",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:tierhelden-portraits-aus-der-wildnis",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:zwei-kleine-wilde",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:rolf-in-der-wildnis",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-arktischen-praerien",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:monarch",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:koenig-salomos-schatzkammer",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:de:waldhandwerk",
+      "target": "author:George Washington Sears",
+      "type": "author"
+    },
+    {
+      "source": "book:de:heidi",
+      "target": "author:Johanna Spyri",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-i",
+      "target": "author:Brüder Grimm",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-ii",
+      "target": "author:Brüder Grimm",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-slawischen-schreckensmaerchen-band-iii",
+      "target": "author:Afanassjew · Erben",
+      "type": "author"
+    },
+    {
+      "source": "book:de:bambi",
+      "target": "author:Felix Salten",
+      "type": "author"
+    },
+    {
+      "source": "book:de:bambis-kinder",
+      "target": "author:Felix Salten",
+      "type": "author"
+    },
+    {
+      "source": "book:de:pinocchio",
+      "target": "author:Carlo Collodi",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-edition-rolf",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-edition-two-little-savages",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-edition-arctic-prairies",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-robert-montgomery-bird-edition-nick",
+      "target": "author:Robert Montgomery Bird",
+      "type": "author"
+    },
+    {
+      "source": "book:en-robert-montgomery-bird-edition-hawks",
+      "target": "author:Robert Montgomery Bird",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-washington-sears-woodcraft-illustrated",
+      "target": "author:George Washington Sears",
+      "type": "author"
+    },
+    {
+      "source": "book:en-francis-parkman-edition-oregon-trail",
+      "target": "author:Francis Parkman",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-hall-the-harpe-s-head-illustrated",
+      "target": "author:James Hall",
+      "type": "author"
+    },
+    {
+      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "target": "author:Daniel Carter Beard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-henry-rider-haggard-king-solomon-s-mines-annotated",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-richard-jefferies-edition-bevis",
+      "target": "author:Richard Jefferies",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+      "target": "author:Charles Brockden Brown",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-animal-heroes-annotated",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:hawks",
+      "target": "author:Robert Montgomery Bird",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:tacitus-1",
+      "target": "author:Tacitus",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:tacitus-2",
+      "target": "author:Tacitus",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:jungle",
+      "target": "author:Rudyard Kipling",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:harpe",
+      "target": "author:James Hall",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:texas-rangers",
+      "target": "author:James B. Gillett",
+      "type": "author"
+    }
+  ]
+}

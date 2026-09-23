@@ -12,7 +12,7 @@
 {% if book %}<script type="application/ld+json">{{ book | bookSchema | jsonld | safe }}</script>{% set product = book | productSchema %}{% if product %}<script type="application/ld+json">{{ product | jsonld | safe }}</script>{% endif %}{% endif %}
 <link rel="stylesheet" href="/assets/css/details.css?v=20260922-portraits"><script src="/assets/js/international.js" defer></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AETERNUS PUBLISHING","url":"https://aeternuspublishing.com","sameAs":["https://www.instagram.com/aeternus.publishing/"]}</script>
-</head><body class="editorial-site international-site">
+{% if libraryPage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/kosmos/netzwerk/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/book-universe/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/book-universe/">{% endif %}</head><body class="editorial-site international-site">
 <a class="skip-link" href="#main">Skip to content</a>
 {% if site.preview %}<div class="preview-strip">INTERNATIONAL PREVIEW <span>·</span> Direct shop forthcoming</div>{% endif %}
 <header class="masthead"><div class="shell masthead-inner">
