@@ -1,0 +1,16 @@
+{
+  "schema": "AETERNUS_DIRECT_SALES_LAUNCH_V1",
+  "enabled": false,
+  "api_origin": null,
+  "approved_work_ids": [],
+  "gates": {
+    "seller_price_from_bookregister": false,
+    "lulu_profile_print_ready": false,
+    "physical_sample_approved": false,
+    "stripe_test_checkout_passed": false,
+    "lulu_sandbox_fulfillment_passed": false,
+    "legal_tax_approved": false,
+    "publisher_live_release": false
+  },
+  "note": "Fail-closed. Never flip a gate based on a successful build alone. The live register, not this file, owns ISBN and selling price."
+}
