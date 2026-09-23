@@ -27,3 +27,5 @@ for (const file of ['assets/vendor/d3-7.9.0.min.js','assets/vendor/topojson-clie
 assert(JSON.parse(fs.readFileSync(path.join(root,'assets/data/land-110m.json'))).objects.land);
 new Function(fs.readFileSync('src/assets/js/kosmos.js','utf8'));
 console.log(JSON.stringify({status:'PASS',books:payload.nodes.length,connections:payload.links.length,landingPagesChecked:payload.nodes.length,selfHostedAssets:true},null,2));
+
+require('./check-library-graph.cjs');

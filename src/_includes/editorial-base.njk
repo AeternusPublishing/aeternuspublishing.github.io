@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/assets/css/editorial.css?v={{ assetVersion.editorial }}">
   <script src="/assets/js/editorial.js?v=20260916" defer></script>
   {% if book %}<script type="application/ld+json">{{ book.schema | dump | safe }}</script>{% endif %}
-</head>
+{% if libraryPage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/kosmos/netzwerk/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/book-universe/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/book-universe/">{% endif %}</head>
 <body class="editorial-site">
   <a class="skip-link" href="#main">{% if lang == 'en' %}Skip to content{% else %}Zum Inhalt{% endif %}</a>
   <header class="masthead">
@@ -33,7 +33,7 @@
       <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" hidden>{% if lang == 'en' %}Menu{% else %}Menü{% endif %} <span aria-hidden="true">☰</span></button>
       <nav class="main-navigation" id="main-navigation" aria-label="{% if lang == 'en' %}Main navigation{% else %}Hauptnavigation{% endif %}">
         <a href="/buecher/"{% if section == 'books' %} aria-current="page"{% endif %}>{% if lang == 'en' %}Books (DE){% else %}Bücher{% endif %}</a>
-        <a href="/kosmos/">{% if lang == 'en' %}Book cosmos (DE){% else %}Bücherkosmos{% endif %}</a>
+        <a href="/kosmos/netzwerk/">{% if lang == 'en' %}Book cosmos (DE){% else %}Bücherkosmos{% endif %}</a>
         <a href="{% if lang == 'en' %}/en/series/{% else %}/reihen/{% endif %}">{% if lang == 'en' %}Series{% else %}Reihen{% endif %}</a>
         {% if lang != 'en' %}<a href="/warum-aeternus/"{% if section == 'why' %} aria-current="page"{% endif %}>Warum AETERNUS?</a>{% endif %}
         <a href="{% if lang == 'en' %}/en/edition/{% else %}/edition/{% endif %}">Edition</a>
