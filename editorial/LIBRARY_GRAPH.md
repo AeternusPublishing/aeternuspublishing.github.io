@@ -1,9 +1,9 @@
 # Books and historical themes
 
-The original geographical atlas at `/kosmos/` remains intact. The network at
-`/kosmos/netzwerk/` (DE) and `/book-universe/` (EN) adds historical themes and
-cross-language programme navigation. Both versions show the same editions.
-
+The full-page atlas and the network are now two views of one explorer at
+`/kosmos/netzwerk/` (DE) and `/book-universe/` (EN). The old DE `/kosmos/`
+entry also opens the unified explorer. All original atlas coordinates and
+curated relationships are preserved. See `docs/kosmos.md` for recovery evidence.
 `library-graph.json` is a generated, portable read projection, not a second
 editorial catalogue. Regenerate it in the international source branch with
 `node scripts/build-library-graph.cjs` after catalogue or historical-theme changes.

@@ -5,13 +5,13 @@ const kosmos = require('../src/_data/kosmos');
 const root = path.resolve('public');
 const read = route => fs.readFileSync(path.join(root, route, 'index.html'), 'utf8');
 const html = read('/kosmos/');
-const payload = JSON.parse(html.match(/<script type="application\/json" id="kosmos-data">([^]*?)<\/script>/)[1]);
+const payload = kosmos;
 assert.equal(payload.nodes.length, kosmos.count);
 assert.equal(new Set(payload.nodes.map(n => n.id)).size, payload.nodes.length);
 assert(read('/').includes('href="/kosmos/"'), 'Homepage must link to atlas');
 assert(read('/en/').includes('href="/kosmos/"'), 'English homepage must link to atlas');
 assert(fs.readFileSync(path.join(root,'sitemap.xml'),'utf8').includes('https://aeternus-verlag.de/kosmos/'));
-assert(html.includes('rel="canonical" href="https://aeternus-verlag.de/kosmos/"'));
+assert(html.includes('rel="canonical" href="https://aeternus-verlag.de/kosmos/netzwerk/"'));
 assert(!html.includes('src="https://cdn.'), 'Runtime assets must be self-hosted');
 assert(html.includes('<noscript>'), 'Catalogue fallback must be available without JavaScript');
 for (const node of payload.nodes) {

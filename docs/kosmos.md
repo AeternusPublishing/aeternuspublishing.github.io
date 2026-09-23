@@ -15,3 +15,11 @@ Run `npm run build`, `npm run check:kosmos`, and the existing text, author-order
 Exploration remains selected after pointer leave or keyboard blur, so visitors can cross empty space to related covers without a timeout. Dimmed books do not intercept pointer or keyboard navigation. Clicking a related cover opens its details; closing details returns to that book's network. Escape, the overview button, empty-map click or a continent choice resets the network. Neighbor positions use a shared central exclusion area, independent of which book is selected.
 
 The current map displays the complete moderate catalogue. Before expanding to 100+ works, add regional aggregation with counts and progressive disclosure (world → region → local book group); keep only the selected book's direct relationships visible. Regional groups must never appear as fabricated books or acquire thematic edges.
+
+## Recovery 2026-09-23
+
+The last complete atlas implementation is commit `a64e77c` (identical kosmos.js SHA256 `9958a2b5ee59c2d20e3a0bf0444fa734b91bf1ed5c375a741598afd540d55ce5` in the September 19–22 checkouts). The first network port separated the map from the primary navigation. Both `/kosmos/` and `/kosmos/netzwerk/` now open the same full-page map and network explorer, canonical `/kosmos/netzwerk/`.
+
+All 37 existing geographical reference points and 31 curated connections are preserved. The union contains 53 editions, 51 with geography; equivalent English editions reuse the existing work's point through explicit edition mappings in `build-library-graph.cjs`. Two editions without a source placement remain in the shelf/network. Points indicate principal settings or cultural reference areas, not exact routes. Cover separation uses thin leader lines to the reference points. Map data and libraries remain local.
+
+The page uses a full viewport atlas with a shelf, historical context choices, persistent selection, details and direct-neighbour navigation. Map and connections are two views of one dataset. On small screens the world overview aggregates actual books by region with counts. Every book remains in the scrollable shelf. DE/EN initially select their edition language; All languages reveals the complete union. No cover is invented for editions without cover assets.
