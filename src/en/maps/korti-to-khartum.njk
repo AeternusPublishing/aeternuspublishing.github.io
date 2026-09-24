@@ -1,0 +1,189 @@
+---
+permalink: /en/maps/korti-to-khartum/index.html
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>From Korti to Khartum · The Map · AETERNUS</title>
+  <meta name="description" content="A large free map for readers of Sir Charles W. Wilson’s From Korti to Khartum: the desert march of January 1885, its camps and wells, Abu Klea and Abu Kru, and the ascent of the Nile to Khartum.">
+  <meta name="theme-color" content="#161311">
+  <link rel="canonical" href="https://aeternus-verlag.de/en/maps/korti-to-khartum/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="From Korti to Khartum · The Map">
+  <meta property="og:description" content="The desert march and the ascent of the Nile, December 1884 – February 1885. Free to view and print.">
+  <meta property="og:url" content="https://aeternus-verlag.de/en/maps/korti-to-khartum/">
+  <meta property="og:image" content="https://aeternus-verlag.de/assets/maps/korti-to-khartum/korti-to-khartum-map-preview.jpg">
+  <meta property="og:site_name" content="AETERNUS">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <style>
+    :root{--ink:#161311;--ink-2:#1f1a16;--parchment:#f3e7cf;--parchment-dim:#bdb29a;--muted:#8a8170;--gold:#d4af37;--gold-soft:#a07f33;--green:#24452f;--line:rgba(212,175,55,.28)}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--ink);color:var(--parchment);font-family:Spectral,Georgia,serif;font-size:18px;line-height:1.6}
+    a{color:var(--gold)}
+    .top{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:1px solid var(--line);font-family:Inter,system-ui,sans-serif;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+    .top a{text-decoration:none;color:var(--parchment-dim)}
+    .top a:hover{color:var(--gold)}
+    .brand{font-family:Fraunces,Georgia,serif;letter-spacing:.3em;color:var(--parchment)!important}
+    header.intro{max-width:880px;margin:0 auto;padding:56px 20px 28px;text-align:center}
+    .eyebrow{font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold-soft);margin:0 0 14px}
+    h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(34px,6vw,62px);line-height:1.05;letter-spacing:.04em;margin:0 0 14px}
+    .lead{font-style:italic;color:var(--parchment-dim);font-size:clamp(17px,2.2vw,21px);margin:0 auto;max-width:720px}
+    .rule{width:120px;height:1px;background:var(--gold-soft);margin:26px auto 0;position:relative}
+    .rule:after{content:"";position:absolute;left:50%;top:-4px;width:8px;height:8px;background:var(--gold-soft);transform:translateX(-50%) rotate(45deg)}
+    .viewer{max-width:1400px;margin:0 auto;padding:0 20px}
+    .stage{position:relative;background:#f1e6cd;border:1px solid var(--line);border-radius:2px;height:min(86vh,1150px);overflow:hidden;touch-action:none;cursor:grab}
+    .stage.dragging{cursor:grabbing}
+    .stage svg{width:100%;height:100%;display:block;user-select:none}
+    .tools{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:6px;z-index:2}
+    .tools button{width:40px;height:40px;border:1px solid rgba(42,34,27,.35);background:rgba(241,230,205,.94);color:#2a221b;font:600 20px/1 Spectral,Georgia,serif;cursor:pointer;border-radius:2px}
+    .tools button:hover{background:#fff8e8}
+    .loading{position:absolute;inset:0;display:grid;place-items:center;color:#5a4d3c;font-style:italic}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:22px 0 8px}
+    .btn{display:inline-block;padding:12px 22px;border:1px solid var(--gold-soft);color:var(--parchment);text-decoration:none;font-family:Inter,system-ui,sans-serif;font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+    .btn.primary{background:var(--gold-soft);color:var(--ink);border-color:var(--gold-soft)}
+    .btn:hover{border-color:var(--gold);color:var(--gold)}
+    .btn.primary:hover{background:var(--gold);color:var(--ink)}
+    .hint{text-align:center;color:var(--muted);font-size:14px;margin:4px 0 0}
+    section{max-width:880px;margin:0 auto;padding:44px 20px}
+    h2{font-family:Fraunces,Georgia,serif;font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:18px;color:var(--gold);margin:0 0 18px}
+    .book{display:grid;grid-template-columns:minmax(0,260px) 1fr;gap:40px;align-items:start;border-top:1px solid var(--line)}
+    .book img{width:100%;height:auto;box-shadow:0 18px 40px rgba(0,0,0,.55)}
+    .blurb p{margin:0 0 12px}
+    .blurb .caps{font-family:Fraunces,Georgia,serif;letter-spacing:.08em;font-weight:600}
+    blockquote{margin:18px 0;padding-left:16px;border-left:2px solid var(--gold-soft);font-style:italic}
+    blockquote cite{display:block;font-style:normal;color:var(--parchment-dim);font-size:15px;margin-top:4px}
+    .note{border-top:1px solid var(--line);color:var(--parchment-dim);font-size:16px}
+    .note p{margin:0 0 12px}
+    footer{border-top:1px solid var(--line);padding:26px 20px 40px;text-align:center;font-family:Inter,system-ui,sans-serif;font-size:12px;letter-spacing:.12em;color:var(--muted)}
+    footer a{color:var(--parchment-dim);text-decoration:none;margin:0 10px}
+    @media (max-width:720px){
+      body{font-size:17px}
+      .book{grid-template-columns:1fr}
+      .book img{max-width:240px;margin:0 auto;display:block}
+      .stage{height:72vh}
+      .top{padding:12px 16px}
+      .viewer,section,header.intro{padding-left:16px;padding-right:16px}
+    }
+  </style>
+</head>
+<body>
+  <nav class="top" aria-label="Site">
+    <a class="brand" href="/en/">AETERNUS</a>
+    <a href="/en/series/gruen/">Green Series</a>
+  </nav>
+
+  <header class="intro">
+    <p class="eyebrow">Green Series · Companion Map</p>
+    <h1>From Korti to Khartum</h1>
+    <p class="lead">The desert march of January 1885, its camps and wells, the fights at Abu Klea and Abu Kru, and the ascent of the Nile in General Gordon’s steamers — drawn for readers of Sir Charles W. Wilson’s journal.</p>
+    <div class="rule" aria-hidden="true"></div>
+  </header>
+
+  <div class="viewer">
+    <div class="stage" id="stage" aria-label="Map of the desert march and the ascent of the Nile, 1885. Drag to move, scroll or pinch to zoom.">
+      <div class="tools">
+        <button type="button" id="zin" aria-label="Zoom in">+</button>
+        <button type="button" id="zout" aria-label="Zoom out">−</button>
+        <button type="button" id="zreset" aria-label="Show whole map">⤢</button>
+      </div>
+      <div class="loading" id="loading">Unfolding the map …</div>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="/assets/maps/korti-to-khartum/korti-to-khartum-map-A2.pdf" download>Download the map · A2 PDF</a>
+      <a class="btn" href="/assets/maps/korti-to-khartum/korti-to-khartum-map.svg" target="_blank" rel="noopener">Open full size</a>
+    </div>
+    <p class="hint">Free to view, save and print for your own use. Drag to move · scroll or pinch to zoom.</p>
+  </div>
+
+  <section class="book" aria-labelledby="book-title">
+    <img src="/assets/maps/korti-to-khartum/cover_front.webp" width="901" height="1351" alt="Cover of From Korti to Khartum by Sir Charles W. Wilson, AETERNUS Green Series" loading="lazy">
+    <div class="blurb">
+      <h2 id="book-title">The Book</h2>
+      <p class="caps">Sudan, 1885. Khartoum is besieged. Time is running out.</p>
+      <p>Across the Bayuda Desert, the British Desert Column drives towards the Nile in a desperate attempt to reach General Gordon. Among its officers is Sir Charles William Wilson—Royal Engineer, intelligence chief and, after the mortal wounding of Sir Herbert Stewart, commander in the field. He fights through Abu Klea and Abu Kru, reaches the Nile, and boards Gordon’s armed steamers for the final dash to Khartoum.</p>
+      <p>He arrives on 28 January 1885.</p>
+      <p>Two days too late.</p>
+      <blockquote>“The record of one of the most remarkable enterprises in military history.”<cite>— The Times</cite></blockquote>
+      <p>Sir Charles W. Wilson, <em>From Korti to Khartum</em>. The AETERNUS edition of the journal first published in 1885, with a portrait of the author, a new preface and afterword, and all the plans and sketch maps printed in the text of the original. Paperback, hardcover and e-book — coming soon.</p>
+    </div>
+  </section>
+
+  <section class="note" aria-labelledby="about-map">
+    <h2 id="about-map">About the Map</h2>
+    <p>The map is newly drawn. Route, camps, wells and dates follow Wilson’s journal and the sketch map published with it in 1885; they are set on a modern survey of the ground, so the positions in the desert are good to within a few miles. Place names keep the spellings of Wilson’s day.</p>
+    <p>The Nile is drawn in its present course. The Merowe reservoir, flooded in 2009, is left out, and the Fourth Cataract is shown as the open river the soldiers knew.</p>
+    <p>Relief: SRTM (NASA) via AWS Terrain Tiles. River: © <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap contributors</a>, ODbL.</p>
+  </section>
+
+  <section class="note" aria-labelledby="more">
+    <h2 id="more">More from the Green Series</h2>
+    <p>Wilson’s journal belongs to the AETERNUS Green Series: first-hand accounts of war, expedition and frontier, from the men who were there.</p>
+    <p class="actions" style="justify-content:flex-start;margin:6px 0 0"><a class="btn" href="/en/series/gruen/">The Green Series</a></p>
+  </section>
+
+  <footer>
+    <a href="/en/">AETERNUS</a> · <a href="/impressum/">Imprint</a> · <a href="/datenschutz/">Privacy</a>
+  </footer>
+
+  <script>
+  (function(){
+    var stage=document.getElementById('stage'), svg=null, vb=null, full=null;
+    function apply(){ svg.setAttribute('viewBox', vb.join(' ')); }
+    function clamp(){
+      var w=Math.min(Math.max(vb[2], full[2]/14), full[2]*1.05), h=w*vb[3]/vb[2];
+      vb[2]=w; vb[3]=h;
+      vb[0]=Math.min(Math.max(vb[0], -w*0.25), full[2]-w*0.75);
+      vb[1]=Math.min(Math.max(vb[1], -h*0.25), full[3]-h*0.75);
+    }
+    function fit(){
+      var r=stage.getBoundingClientRect(), a=r.width/r.height, fa=full[2]/full[3];
+      if(a>fa){ var w=full[3]*a; vb=[(full[2]-w)/2,0,w,full[3]]; } else { var h=full[2]/a; vb=[0,(full[3]-h)/2,full[2],h]; }
+      apply();
+    }
+    function zoom(f,cx,cy){
+      var r=stage.getBoundingClientRect();
+      if(cx===undefined){ cx=r.left+r.width/2; cy=r.top+r.height/2; }
+      var px=vb[0]+(cx-r.left)/r.width*vb[2], py=vb[1]+(cy-r.top)/r.height*vb[3];
+      var w=vb[2]/f, h=vb[3]/f;
+      vb=[px-(cx-r.left)/r.width*w, py-(cy-r.top)/r.height*h, w, h]; clamp(); apply();
+    }
+    fetch('/assets/maps/korti-to-khartum/korti-to-khartum-map.svg').then(function(r){return r.text();}).then(function(t){
+      document.getElementById('loading').remove();
+      stage.insertAdjacentHTML('beforeend', t);
+      svg=stage.querySelector('svg');
+      svg.removeAttribute('width'); svg.removeAttribute('height');
+      svg.setAttribute('preserveAspectRatio','xMidYMid meet');
+      full=svg.getAttribute('viewBox').split(/[ ,]+/).map(Number);
+      fit();
+      stage.addEventListener('wheel',function(e){ e.preventDefault(); zoom(e.deltaY<0?1.25:0.8,e.clientX,e.clientY); },{passive:false});
+      var pts={}, last=null, lastDist=null;
+      stage.addEventListener('pointerdown',function(e){ if(e.target.closest('.tools')) return; stage.setPointerCapture(e.pointerId); pts[e.pointerId]={x:e.clientX,y:e.clientY}; stage.classList.add('dragging'); });
+      stage.addEventListener('pointermove',function(e){
+        if(!pts[e.pointerId]) return;
+        var r=stage.getBoundingClientRect(), p=pts[e.pointerId], ids=Object.keys(pts);
+        if(ids.length===1){
+          vb[0]-= (e.clientX-p.x)/r.width*vb[2]; vb[1]-= (e.clientY-p.y)/r.height*vb[3]; clamp(); apply();
+        } else if(ids.length===2){
+          pts[e.pointerId]={x:e.clientX,y:e.clientY};
+          var a=pts[ids[0]], b=pts[ids[1]], d=Math.hypot(a.x-b.x,a.y-b.y);
+          if(lastDist) zoom(d/lastDist,(a.x+b.x)/2,(a.y+b.y)/2);
+          lastDist=d; return;
+        }
+        pts[e.pointerId]={x:e.clientX,y:e.clientY};
+      });
+      function up(e){ delete pts[e.pointerId]; lastDist=null; if(!Object.keys(pts).length) stage.classList.remove('dragging'); }
+      stage.addEventListener('pointerup',up); stage.addEventListener('pointercancel',up);
+      document.getElementById('zin').onclick=function(){zoom(1.5);};
+      document.getElementById('zout').onclick=function(){zoom(1/1.5);};
+      document.getElementById('zreset').onclick=fit;
+      window.addEventListener('resize',fit);
+    }).catch(function(){ document.getElementById('loading').textContent='The map could not be loaded — please use the PDF below.'; });
+  })();
+  </script>
+</body>
+</html>
