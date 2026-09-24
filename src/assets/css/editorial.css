@@ -260,3 +260,4 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 
 /* Author portraits on book pages use the same colour-preserving treatment. */
 .author-note img{width:min(30%,300px);height:auto;object-fit:contain;filter:none;flex-shrink:0}@media(max-width:700px){.author-note{flex-direction:column}.author-note img{width:min(100%,320px);align-self:center}}
+.series-intro-portrait{min-height:620px}.series-intro-portrait>img{left:50%;width:50%;object-fit:contain;opacity:.7}.series-intro-portrait>.shell>h1,.series-intro-portrait>.shell>p{max-width:48%}@media(max-width:700px){.series-intro-portrait>img{left:0;width:100%;opacity:.25}.series-intro-portrait>.shell>h1,.series-intro-portrait>.shell>p{max-width:100%}}
