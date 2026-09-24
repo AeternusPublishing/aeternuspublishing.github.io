@@ -2654,6 +2654,114 @@
       "source": "book:atlas:texas-rangers",
       "target": "author:James B. Gillett",
       "type": "author"
+    },
+    {
+      "source": "book:en-george-washington-sears-woodcraft-illustrated",
+      "target": "book:en-ernest-thompson-seton-edition-rolf",
+      "type": "curated",
+      "label": {
+        "de": "Lagerleben, Kanu und Selbstständigkeit",
+        "en": "Lagerleben, Kanu und Selbstständigkeit"
+      }
+    },
+    {
+      "source": "book:en-george-washington-sears-woodcraft-illustrated",
+      "target": "book:en-ernest-thompson-seton-edition-two-little-savages",
+      "type": "curated",
+      "label": {
+        "de": "Waldläuferwissen als Lebensschule",
+        "en": "Waldläuferwissen als Lebensschule"
+      }
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "target": "book:en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "type": "curated",
+      "label": {
+        "de": "Tierbiografie und genaue Beobachtung",
+        "en": "Tierbiografie und genaue Beobachtung"
+      }
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "target": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "type": "curated",
+      "label": {
+        "de": "Tierleben zwischen Wildnis und Verfolgung",
+        "en": "Tierleben zwischen Wildnis und Verfolgung"
+      }
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "target": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "type": "curated",
+      "label": {
+        "de": "Zwei Bärenleben zwischen Freiheit und Verfolgung",
+        "en": "Zwei Bärenleben zwischen Freiheit und Verfolgung"
+      }
+    },
+    {
+      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "target": "book:en-george-washington-sears-woodcraft-illustrated",
+      "type": "curated",
+      "label": {
+        "de": "Praktischer Lager- und Hüttenbau",
+        "en": "Praktischer Lager- und Hüttenbau"
+      }
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "target": "book:en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "type": "curated",
+      "label": {
+        "de": "Setons Tiergeschichten: Verfolgung und Überleben",
+        "en": "Setons Tiergeschichten: Verfolgung und Überleben"
+      }
+    },
+    {
+      "source": "book:en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "target": "book:en-ernest-thompson-seton-animal-heroes-annotated",
+      "type": "curated",
+      "label": {
+        "de": "Individuelle Tierporträts und Überlebenskunst",
+        "en": "Individuelle Tierporträts und Überlebenskunst"
+      }
+    },
+    {
+      "source": "book:en-robert-montgomery-bird-edition-nick",
+      "target": "book:en-james-hall-the-harpe-s-head-illustrated",
+      "type": "curated",
+      "label": {
+        "de": "Gewalt und Verfolgung im Kentucky-Grenzland",
+        "en": "Gewalt und Verfolgung im Kentucky-Grenzland"
+      }
+    },
+    {
+      "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+      "target": "book:en-james-hall-the-harpe-s-head-illustrated",
+      "type": "curated",
+      "label": {
+        "de": "American frontier fiction before the frontier became myth",
+        "en": "American frontier fiction before the frontier became myth"
+      }
+    },
+    {
+      "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+      "target": "book:en-robert-montgomery-bird-edition-nick",
+      "type": "curated",
+      "label": {
+        "de": "American Gothic, wilderness and divided identity",
+        "en": "American Gothic, wilderness and divided identity"
+      }
+    },
+    {
+      "source": "book:en-robert-montgomery-bird-edition-nick",
+      "target": "book:en-robert-montgomery-bird-edition-hawks",
+      "type": "curated",
+      "label": {
+        "de": "Birds Grenzromane: Identität, Loyalität und Vergeltung",
+        "en": "Birds Grenzromane: Identität, Loyalität und Vergeltung"
+      }
     }
   ]
 }

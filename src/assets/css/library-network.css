@@ -12,3 +12,6 @@
 @media(max-width:800px){.atlas-zoom{bottom:218px}#library-status{bottom:192px}.atlas-invitation{top:199px}}
 #library-list{overflow-y:hidden}.library-node[aria-pressed=true]{filter:drop-shadow(0 0 7px #cfb37a88)}
 @media(max-width:800px){.atlas-regions{top:218px}.atlas-invitation{top:249px}#library-detail{top:218px}.atlas-brand{font-size:14px}.atlas-header{gap:10px}.atlas-language{flex-shrink:0}.library-controls #library-reset{margin-left:auto}.library-controls{gap:5px}.library-controls button{padding:8px 6px}.library-controls select{max-width:116px}}
+
+/* Readable book-to-book connections, including the map view. */
+.library-edge{stroke:#bba878;stroke-width:1.25;vector-effect:non-scaling-stroke}.library-edge.is-active{stroke:#ffe2a0;stroke-width:2.5;filter:drop-shadow(0 0 3px #ebc36c88)}.atlas-anchor{display:none}.has-selection .atlas-land{fill:#28382c;stroke-opacity:.3}.has-selection .atlas-graticule{stroke-opacity:.06}.edge-label{font:8px system-ui;fill:#ffe6ad;paint-order:stroke;stroke:#111714;stroke-width:4px;stroke-linejoin:round;pointer-events:none}
