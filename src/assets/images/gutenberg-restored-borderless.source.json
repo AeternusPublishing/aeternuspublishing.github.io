@@ -1,0 +1,8 @@
+{
+  "source": "gutenberg-first-proof-1869.source.json",
+  "processing": "Built-in image_gen: remove all paper margins and caption; restore sharp engraving linework while preserving scene. AI reconstructed detail, not a facsimile or true 2x upscale.",
+  "width": 1448,
+  "height": 1086,
+  "originalPreserved": true,
+  "sha256": "0c79a7b96bec4d9efb8a34abc88a9f787de02fd7b9af89c27cb3ce04167d36e5"
+}
