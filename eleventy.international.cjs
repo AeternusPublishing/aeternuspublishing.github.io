@@ -1,12 +1,14 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const catalog = require('./catalog/index.cjs');
+const directSales = require('./commerce/direct-sales/availability.cjs');
 module.exports = function(config) {
   config.addPassthroughCopy({ 'src/assets': 'assets' });
   config.addPassthroughCopy({ 'international/assets': 'assets' });
   config.addFilter('plain', catalog.clean);
   config.addFilter('jsonld', value => JSON.stringify(value).replace(/</g, '\\u003c'));
   config.addFilter('shopUrl', catalog.directShopUrl);
+  config.addFilter('directSalesUrl', directSales.directSalesUrl);
   config.addFilter('authorBooks', author => catalog.englishBooks.filter(b => b.author === author));
   config.addFilter('seriesBooks', series => catalog.englishBooks.filter(b => b.series === series));
   config.addFilter('existingImage', filename => filename && fs.existsSync(path.join(__dirname, 'src', filename.replace(/^\//, ''))) ? filename : null);
