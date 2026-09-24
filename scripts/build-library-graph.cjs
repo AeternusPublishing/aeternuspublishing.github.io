@@ -45,6 +45,12 @@ for(const n of nodes.filter(n=>n.type==='book')){
  const a=atlas.nodes.find(a=>a.coverImageUrl.split('/').pop()===n.cover?.split('/').pop()) || atlas.nodes.find(a=>a.id===editionPlaces[n.id.replace(/^book:/,'')]);
  if(a)n.geography={location:a.location,region:a.region,place:a.place,source:'kosmosSelection:'+a.id};
 }
+// Carry editorial work relationships into each available edition language.
+for(const e of atlas.links){
+ const sourceBooks=nodes.filter(n=>n.geography?.source==='kosmosSelection:'+e.source);
+ const targetBooks=nodes.filter(n=>n.geography?.source==='kosmosSelection:'+e.target);
+ for(const a of sourceBooks)for(const b of targetBooks)if(a.language===b.language&&a.id!==b.id)edge(a.id,b.id,'curated',{de:e.reason,en:e.reason});
+}
 const result={schema:2,provenance:['src/_data/catalogue.js','catalog/index.cjs','src/_data/kosmos.js','editorial/historical-themes.json'],nodes,links};
 fs.writeFileSync('editorial/library-graph.json',JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({books:nodes.filter(n=>n.type==='book').length,themes:history.data.themes.length,links:links.length}));
