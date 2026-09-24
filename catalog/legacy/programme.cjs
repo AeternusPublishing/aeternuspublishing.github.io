@@ -315,21 +315,27 @@ module.exports = {
         en: "ANTHRACITE leaves the force of historical texts intact. Frontier, conquest, departure, betrayal, and violence are not recast in the vocabulary of the present. The publisher verifies, translates, and supplies context; the work keeps its own temper."
       },
       mood: {
-        file: "mood-anthrazit",
-        focal: "50% 55%",
-        alt: {
-          de: "Zwei Kontrahenten im nächtlichen Grenzwald",
-          en: "Two adversaries in a nocturnal frontier forest"
-        },
-        credit: {
-          public: false,
-          artist: "AETERNUS Verlag",
-          title: { de: "Konfrontation im Grenzwald", en: "Confrontation in the Frontier Woods" },
-          year: "2026",
-          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
-          source: "Midjourney"
-        }
-      },
+  "file": "mood-anthrazit-selected-20260924",
+  "focal": "50% 43%",
+  "alt": {
+    "de": "Falke über den Klippen von Hawk Hollow",
+    "en": "A hawk above the cliffs of Hawk Hollow"
+  },
+  "credit": {
+    "public": false,
+    "artist": "AETERNUS Verlag",
+    "title": {
+      "de": "Falke über den Klippen von Hawk Hollow",
+      "en": "A hawk above the cliffs of Hawk Hollow"
+    },
+    "year": "2026",
+    "museum": {
+      "de": "Verlagsillustration",
+      "en": "Publisher illustration"
+    },
+    "source": "Hawk Hollow · vorhandene Farbtafel"
+  }
+},
       authors: [
         {
           name: "Charles Brockden Brown",
@@ -486,21 +492,27 @@ module.exports = {
         en: "Campaigns, special operations, military memoirs, frontier wars, and the long shadow of armed order."
       },
       mood: {
-        file: "mood-gruen",
-        focal: "42% 48%",
-        alt: {
-          de: "Historisches Gemälde eines erschöpften Reiters vor einer Festung",
-          en: "Historical painting of an exhausted rider before a fortress"
-        },
-        credit: {
-          public: true,
-          artist: "Elizabeth Thompson (Lady Butler)",
-          title: { de: "Die Reste einer Armee", en: "Remnants of an Army" },
-          year: "1879",
-          museum: { de: "Tate Britain, London", en: "Tate Britain, London" },
-          source: "Wikimedia Commons"
-        }
-      },
+  "file": "mood-gruen-selected-20260924",
+  "focal": "40% 50%",
+  "alt": {
+    "de": "Expedition am Hochgebirgspass",
+    "en": "Expedition at a high mountain pass"
+  },
+  "credit": {
+    "public": false,
+    "artist": "AETERNUS Verlag",
+    "title": {
+      "de": "Expedition am Hochgebirgspass",
+      "en": "Expedition at a high mountain pass"
+    },
+    "year": "2026",
+    "museum": {
+      "de": "Verlagsillustration",
+      "en": "Publisher illustration"
+    },
+    "source": "OpenAI Imagegen"
+  }
+},
       // Eröffnungsautorin und erste lieferbare Ausgabe der grünen Linie.
       authors: [
         {
@@ -605,21 +617,27 @@ module.exports = {
         en: "Empires, republics, administration, power, law, diplomatic order, and historical sources."
       },
       mood: {
-        file: "mood-rot",
-        focal: "50% 60%",
-        alt: {
-          de: "Kaiserliche Zeremonienhalle im Lichtschein",
-          en: "Imperial ceremonial hall bathed in light"
-        },
-        credit: {
-          public: false,
-          artist: "AETERNUS Verlag",
-          title: { de: "Die Thronhalle", en: "The Throne Hall" },
-          year: "2026",
-          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
-          source: "Midjourney"
-        }
-      },
+  "file": "mood-rot-selected-20260924",
+  "focal": "50% 28%",
+  "alt": {
+    "de": "Römischer Reiter mit Adlerstandarte und Truppen – Frontispiz der Annalen",
+    "en": "Roman horseman with eagle standard and troops – Annals frontispiece"
+  },
+  "credit": {
+    "public": false,
+    "artist": "AETERNUS Verlag",
+    "title": {
+      "de": "Römischer Reiter mit Adlerstandarte und Truppen – Frontispiz der Annalen",
+      "en": "Roman horseman with eagle standard and troops – Annals frontispiece"
+    },
+    "year": "2026",
+    "museum": {
+      "de": "Verlagsillustration",
+      "en": "Publisher illustration"
+    },
+    "source": "Tacitus · Annalen · vorhandene Bildtafel"
+  }
+},
       authors: [
         {
           // Erstes Werk der Roten Linie (TAC_001, Verlegerbeschluss 2026-09-03). Noch kein Band erschienen - books leer.
@@ -712,21 +730,27 @@ module.exports = {
         en: "Classic adventure literature, education through nature, courage, responsibility, and the early encounter with the seriousness of life."
       },
       mood: {
-        file: "mood-bernstein",
-        focal: "60% 55%",
-        alt: {
-          de: "Pfadfinder am Lagerfeuer unter Sternenhimmel",
-          en: "Scouts at a campfire under a starry sky"
-        },
-        credit: {
-          public: false,
-          artist: "AETERNUS Verlag",
-          title: { de: "Am Lagerfeuer", en: "At the Campfire" },
-          year: "2026",
-          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
-          source: "Midjourney"
-        }
-      },
+  "file": "mood-bernstein-selected-20260924",
+  "focal": "45% 50%",
+  "alt": {
+    "de": "Reisende am See in der Wildnis",
+    "en": "Wilderness travellers beside a mountain lake"
+  },
+  "credit": {
+    "public": false,
+    "artist": "AETERNUS Verlag",
+    "title": {
+      "de": "Reisende am See in der Wildnis",
+      "en": "Wilderness travellers beside a mountain lake"
+    },
+    "year": "2026",
+    "museum": {
+      "de": "Verlagsillustration",
+      "en": "Publisher illustration"
+    },
+    "source": "OpenAI Imagegen"
+  }
+},
       // First author in the Bernstein series. Not a standalone editorial line — an author within
       // this series, listed here because his titles are the first ones actually in print.
       authors: [
@@ -1136,21 +1160,27 @@ module.exports = {
         en: "Sagas, seafaring, discovery, and everyday life in the North — from polar exploration to the traditions of Scandinavia and Iceland."
       },
       mood: {
-        file: "mood-weiss",
-        focal: "50% 62%",
-        alt: {
-          de: "Wikingerschiff in einem winterlichen Fjord",
-          en: "Viking ship in a wintry fjord"
-        },
-        credit: {
-          public: false,
-          artist: "AETERNUS Verlag",
-          title: { de: "Ankunft im Fjord", en: "Arrival at the Fjord" },
-          year: "2026",
-          museum: { de: "KI-generierte Illustration", en: "AI-generated illustration" },
-          source: "Midjourney"
-        }
-      },
+  "file": "mood-weiss-selected-20260924",
+  "focal": "40% 50%",
+  "alt": {
+    "de": "Langschiff im nördlichen Fjord",
+    "en": "Longship in a northern fjord"
+  },
+  "credit": {
+    "public": false,
+    "artist": "AETERNUS Verlag",
+    "title": {
+      "de": "Langschiff im nördlichen Fjord",
+      "en": "Longship in a northern fjord"
+    },
+    "year": "2026",
+    "museum": {
+      "de": "Verlagsillustration",
+      "en": "Publisher illustration"
+    },
+    "source": "OpenAI Imagegen"
+  }
+},
       authors: []
     },
     {
@@ -1168,21 +1198,27 @@ module.exports = {
         en: "Classic fiction, sweeping novels, social dramas, and love stories — literature of feeling, rank, fate, and the orders within which people find and lose one another."
       },
       mood: {
-        file: null,
-        focal: "50% 50%",
-        alt: {
-          de: "Abstrakter Hintergrund in tiefem Purpur und Burgunderrot",
-          en: "Abstract background in deep purple and burgundy"
-        },
-        credit: {
-          public: false,
-          artist: "AETERNUS Verlag",
-          title: { de: "Purpur", en: "Purple" },
-          year: "2026",
-          museum: { de: "Reihengestaltung", en: "Series design" },
-          source: "AETERNUS"
-        }
-      },
+  "file": "mood-purpur-selected-20260924",
+  "focal": "40% 50%",
+  "alt": {
+    "de": "Begegnung im Opernhaus",
+    "en": "An encounter at the opera house"
+  },
+  "credit": {
+    "public": false,
+    "artist": "AETERNUS Verlag",
+    "title": {
+      "de": "Begegnung im Opernhaus",
+      "en": "An encounter at the opera house"
+    },
+    "year": "2026",
+    "museum": {
+      "de": "Verlagsillustration",
+      "en": "Publisher illustration"
+    },
+    "source": "OpenAI Imagegen"
+  }
+},
       authors: []
     }
   ],
