@@ -555,7 +555,7 @@ module.exports.push({
   "gridClass": "single-item",
   "books": [
     {
-      "cover": { "gen": "wald", "title": "The Harpe’s<br>Head" },
+      "cover": { "img": "cover-harpes-head-en-20260924", "title": "The Harpe’s<br>Head" },
       "meta": "Frontier novel · Philadelphia · 1833",
       "title": "The Harpe’s Head (Illustrated)",
       "subtitle": "A Legend of Kentucky",
