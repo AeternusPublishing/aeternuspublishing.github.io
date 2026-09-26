@@ -1,0 +1,29 @@
+---
+layout: layout.njk
+permalink: "/es/bernal-diaz/index.html"
+lang: es
+ogLocale: es_ES
+title: "Bernal Díaz del Castillo · Historia verdadera de la conquista de la Nueva España"
+description: "La Historia verdadera de la conquista de la Nueva España de Bernal Díaz del Castillo en la edición de AETERNUS: tres tomos en tapa dura, Línea Roja."
+tomos:
+  - n: "I"
+    caps: "Capítulos I–CX"
+    paginas: 506
+    img: "/assets/images/es/bdd001-tomo-i.webp"
+    texto: "Hubo una hora en que el océano dejó de ser término y se convirtió en camino. Cuando Bernal Díaz del Castillo cruzó aquel mar pertenecía todavía a una edad de espada, juramento, sacramento y corona. Pero no encontraron un vacío. Encontraron otro poder."
+  - n: "II"
+    caps: "Capítulos CXI–CLXVI"
+    paginas: 474
+    img: "/assets/images/es/bdd001-tomo-ii.webp"
+    texto: "El primer tomo condujo a los españoles hasta el corazón de México. El segundo comienza cuando aquella entrada triunfal se convierte en encierro. Muere Motecuhzoma. La ciudad se levanta. Llega la noche."
+  - n: "III"
+    caps: "Capítulos CLXVII–CCXII"
+    paginas: 364
+    img: "/assets/images/es/bdd001-tomo-iii.webp"
+    texto: "México ha caído. Pero Nueva España todavía debe nacer. Los antiguos conquistadores envejecen en ciudades que ellos mismos ayudaron a fundar. Bernal responde tomando la pluma. Ésta será su última campaña. No contra México. Contra el tiempo."
+---
+<section class="shell author-note author-hero" lang="es"><div><p class="kicker">AETERNUS · Línea Roja · Edición en español</p><h1>Bernal Díaz del Castillo</h1><p class="detail-subtitle"><em>Historia verdadera de la conquista de la Nueva España</em></p><p>Muchos años después, en Santiago de los Caballeros de Guatemala, volvió a formar aquella hueste con palabras. No escribió como archivero de hazañas ajenas. Había estado allí.</p><p><em>«… me he hallado en ciento y diez y nueve batallas y reencuentros de guerra …»</em><br><small>Bernal Díaz del Castillo, cap. CCXII</small></p></div><img src="/assets/images/es/bdd001-wappen.webp" alt="Armas del emperador Carlos V con el lema PLVS VLTRA, según la xilografía de Heinrich Vogtherr (hacia 1547/48)" width="210" height="268"></section>
+
+<section class="shell international-section" lang="es"><div class="section-heading"><div><p class="kicker">Tres tomos · Tapa dura</p><h2>La edición</h2></div></div><div class="books-grid">{% for t in tomos %}<article class="book-tile"><span class="book-art"><img src="{{ t.img }}" alt="Historia verdadera de la conquista de la Nueva España, Tomo {{ t.n }}" width="400" height="600" loading="lazy"></span><div class="book-caption"><p class="kicker"><span class="series-dot" style="--series-color:#7c1c1c"></span>Línea Roja</p><h3 class="book-card-title">Tomo {{ t.n }}</h3><p class="book-author">{{ t.caps }} · Tapa dura · {{ t.paginas }} páginas</p><p class="book-description">{{ t.texto }}</p><p class="book-description"><strong>En preparación.</strong></p></div></article>{% endfor %}</div></section>
+
+<section class="shell international-section prose biography-copy" lang="es"><p class="kicker">Sobre esta edición</p><h2>El texto</h2><p>Primera edición: Madrid, Imprenta del Reyno, 1632. Texto base de esta edición: <em>Verdadera historia de los sucesos de la conquista de la Nueva-España</em>, por el capitán Bernal Díaz del Castillo, tres tomos, Madrid: Imprenta de Tejado, 1862.</p><p>La presente edición reproduce íntegramente el corpus de la obra, sin supresiones deliberadas de su contenido. La intervención editorial se limita a una actualización prudente de la ortografía, la puntuación y aquellas estructuras sintácticas cuya forma antigua pudiera interponerse innecesariamente entre la voz de Bernal Díaz y el lector contemporáneo.</p><h2>Los tres tomos</h2><p>Prólogo general, nota sobre el texto, semblanza del autor y guía cronológica en el primer tomo; un umbral al comienzo del segundo y del tercero; glosario breve y epílogo al final de la obra. Láminas propias de AETERNUS acompañan los capítulos.</p><h2>Contacto</h2><p>Comentarios, correcciones y preguntas: <a href="mailto:{{ site.email }}">{{ site.email }}</a>. Programa en inglés: <a href="/">aeternuspublishing.com</a> · Programa en alemán: <a href="https://aeternus-verlag.de/" lang="de">aeternus-verlag.de</a>.</p></section>

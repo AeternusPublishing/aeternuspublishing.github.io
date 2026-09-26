@@ -57,7 +57,11 @@ check('future languages stay unpublished and extensible', () => {
   assert.equal(locale.localePath('en','books/'),'/books/');
   for(const lang of ['es','pl','fr']) assert.equal(locale.localePath(lang,'books/'),null);
   assert.deepEqual(locale.alternatives({en:'books/',es:'libros/',pl:'ksiazki/'}),[{language:'en',path:'/books/'}]);
-  assert(!fs.existsSync(path.join(output,'es')));assert(!fs.existsSync(path.join(output,'pl')));
+  // Ausnahme nur für ausdrücklich deklarierte Ausgabeseiten (locales.json edition_pages), keine Website-Übersetzung
+  const esErlaubt=new Set(((require('../international/locales.json').edition_pages||{}).es||{}).paths||[]);
+  const esIst=fs.existsSync(path.join(output,'es'))?fs.readdirSync(path.join(output,'es'),{recursive:true}).filter(f=>f.endsWith('.html')).map(f=>'es/'+f.split(path.sep).join('/')):[];
+  assert.deepEqual(esIst.sort(),[...esErlaubt].sort());
+  assert(!fs.existsSync(path.join(output,'pl')));
   assert.throws(()=>locale.localePath('en','../secret'));
 });
 check('market country groups do not overlap', () => {
@@ -68,7 +72,8 @@ check('all local HTML links and assets resolve; SEO matches deployment mode', ()
   const canonicals=new Set();let count=0;
   for(const file of walk(output).filter(f=>f.endsWith('.html'))) {
     const html=fs.readFileSync(file,'utf8');count++;
-    assert.match(html,/<html lang="en">/);
+    const esSeite=path.relative(output,file).split(path.sep)[0]==='es';
+    assert.match(html,esSeite?/<html lang="es">/:/<html lang="en">/,file);
     if(production) assert(!html.includes('noindex'),file); else assert.match(html,/name="robots" content="noindex, nofollow"/);
     const canonical=html.match(/rel="canonical" href="([^"]+)"/)[1];
     assert(canonical.startsWith('https://aeternuspublishing.com/'));assert(!canonicals.has(canonical));canonicals.add(canonical);

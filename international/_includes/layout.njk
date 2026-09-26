@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="{{ lang or 'en' }}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title | escape }} · {{ site.name }}</title>
 {% if historicalPage %}{% set alternates = history.alternates %}{% if theme %}{% set alternates = theme.alternates %}{% endif %}<link rel="alternate" hreflang="de" href="{{ alternates.de }}"><link rel="alternate" hreflang="en" href="{{ alternates.en }}"><link rel="alternate" hreflang="x-default" href="{{ alternates.en }}">{% endif %}
@@ -7,13 +7,13 @@
 <meta name="description" content="{{ description | escape }}">
 {% if site.preview %}<meta name="robots" content="noindex, nofollow">{% endif %}<meta name="theme-color" content="#171816">
 <link rel="canonical" href="{{ site.origin }}{{ page.url }}">
-<meta property="og:type" content="{% if book %}book{% else %}website{% endif %}"><meta property="og:title" content="{{ title | escape }} · {{ site.name }}"><meta property="og:description" content="{{ description | escape }}"><meta property="og:url" content="{{ site.origin }}{{ page.url }}"><meta property="og:site_name" content="{{ site.name }}"><meta property="og:locale" content="en_GB"><meta property="og:image" content="{{ site.origin }}/assets/images/hero-library.jpg"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="{% if book %}book{% else %}website{% endif %}"><meta property="og:title" content="{{ title | escape }} · {{ site.name }}"><meta property="og:description" content="{{ description | escape }}"><meta property="og:url" content="{{ site.origin }}{{ page.url }}"><meta property="og:site_name" content="{{ site.name }}"><meta property="og:locale" content="{{ ogLocale or 'en_GB' }}"><meta property="og:image" content="{{ site.origin }}/assets/images/hero-library.jpg"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/fonts.css"><link rel="stylesheet" href="/assets/css/editorial.css"><link rel="stylesheet" href="/assets/css/international.css?v=20260924-series">
 {% if book %}<script type="application/ld+json">{{ book | bookSchema | jsonld | safe }}</script>{% set product = book | productSchema %}{% if product %}<script type="application/ld+json">{{ product | jsonld | safe }}</script>{% endif %}{% endif %}
 <link rel="stylesheet" href="/assets/css/details.css?v=20260922-portraits"><script src="/assets/js/international.js" defer></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AETERNUS PUBLISHING","url":"https://aeternuspublishing.com","sameAs":["https://www.instagram.com/aeternus.publishing/"]}</script>
 {% if libraryPage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/kosmos/netzwerk/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/book-universe/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/book-universe/">{% endif %}</head><body class="editorial-site international-site">
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">{% if lang == 'es' %}Ir al contenido{% else %}Skip to content{% endif %}</a>
 {% if site.preview %}<div class="preview-strip">INTERNATIONAL PREVIEW <span>·</span> Direct shop forthcoming</div>{% endif %}
 <header class="masthead"><div class="shell masthead-inner">
 <a class="international-brand" href="/" aria-label="AETERNUS PUBLISHING — home"><img src="/assets/images/aeternus-wordmark.svg" alt="AETERNUS" width="832" height="50"><span>PUBLISHING</span></a>

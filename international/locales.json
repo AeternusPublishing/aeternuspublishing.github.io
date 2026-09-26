@@ -1,10 +1,36 @@
 {
   "default": "en",
   "languages": {
-    "en": { "label": "English", "prefix": "/", "enabled": true, "content_ready": true },
-    "es": { "label": "Español", "prefix": "/es/", "enabled": false, "content_ready": false },
-    "pl": { "label": "Polski", "prefix": "/pl/", "enabled": false, "content_ready": false }
+    "en": {
+      "label": "English",
+      "prefix": "/",
+      "enabled": true,
+      "content_ready": true
+    },
+    "es": {
+      "label": "Español",
+      "prefix": "/es/",
+      "enabled": false,
+      "content_ready": false
+    },
+    "pl": {
+      "label": "Polski",
+      "prefix": "/pl/",
+      "enabled": false,
+      "content_ready": false
+    }
   },
-  "external": { "de": "https://aeternus-verlag.de/" },
-  "fallback": "none"
+  "external": {
+    "de": "https://aeternus-verlag.de/"
+  },
+  "fallback": "none",
+  "edition_pages": {
+    "es": {
+      "paths": [
+        "es/index.html",
+        "es/bernal-diaz/index.html"
+      ],
+      "reason": "Verleger 2026-09-26: spanische Landingpage der Historia verdadera (BDD_001) auf der englischen Website; die spanische Ausgabe verweist intern wie extern hierher. Keine Übersetzung der Website, Sprache es bleibt als Website-Sprache abgeschaltet."
+    }
+  }
 }
