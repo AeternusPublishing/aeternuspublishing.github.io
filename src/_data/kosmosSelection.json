@@ -776,6 +776,27 @@
       "landingUrl": "https://aeternus-verlag.de/en/authors/richard-jefferies/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/en/authors/richard-jefferies/"
+    },
+    {
+      "id": "highways",
+      "title": "Highways of Progress (Illustrated)",
+      "author": "James J. Hill",
+      "year": "1910",
+      "region": "north-america",
+      "location": [
+        -93.09,
+        44.95
+      ],
+      "place": "Saint Paul, Minnesota – Great Northern Railway",
+      "status": "In Vorbereitung",
+      "statusDetail": "Englische Ausgabe – Taschenbuch, Hardcover und Kindle in Vorbereitung",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-highways-of-progress-hill-en-20260929.webp",
+      "subtitle": "",
+      "summary": "Der Erbauer der Great Northern über Landwirtschaft, Handel, Bewässerung, Wasserwege, Erhaltung der Naturschätze und die produktive Zukunft einer kontinentalen Nation.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/james-j-hill/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/james-j-hill/"
     }
   ],
   "links": [
@@ -933,6 +954,16 @@
       "source": "bevis",
       "target": "scouting",
       "reason": "Jungen, Wasser und selbstgebaute Ausrüstung"
+    },
+    {
+      "source": "highways",
+      "target": "ford",
+      "reason": "Titanen der Blauen Reihe: Verkehr, Industrie und Kapital"
+    },
+    {
+      "source": "highways",
+      "target": "oregon",
+      "reason": "Der Weg nach Westen: erst der Treck, dann die Schiene"
     }
   ]
 }

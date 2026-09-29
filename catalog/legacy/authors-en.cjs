@@ -1070,3 +1070,89 @@ module.exports.push({
     }
   ]
 });
+
+// James J. Hill (JJH_001-EN, Highways of Progress, 1910). The printed QR code of the English
+// edition points to /authors/james-j-hill/. Copy follows the English publisher's apparatus
+// (04_PARATEXT/JJH001_EN_PARATEXT_V1.txt: About the Author, Milestones, back-cover text).
+// Print and Kindle editions are not yet at Amazon: ISBNs and list prices only, no retailer links.
+module.exports.push({
+  "slug": "james-j-hill",
+  "name": "James J. Hill",
+  "brand": "AETERNUS",
+  "monogram": "JJH",
+  "dates": "1838–1916",
+  "seriesClass": "series-blue",
+  "preview": true,
+  "previewStatus": "Paperback, hardcover and Kindle forthcoming &middot; ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-hill",
+    "alt": "James J. Hill, photographic portrait from Famous Living Americans, 1914",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1838-09-16",
+    "deathDate": "1916-05-29",
+    "description": "Canadian-born American railroad builder of the Great Northern Railway, known as the Empire Builder, and author of Highways of Progress."
+  },
+  "eyebrow": "Blue &middot; Economy, industry, and the titans of progress",
+  "tagline": "His rails crossed a continent.",
+  "intro": "From Saint Paul he drove the Great Northern across the northern plains, through the Rocky Mountains and onward to Puget Sound. <i>Highways of Progress</i> (1910) is the mature statement of the man remembered as the Empire Builder.",
+  "metaDescription": "James J. Hill at AETERNUS: Highways of Progress (1910), the Empire Builder on agriculture, commerce, waterways, conservation and the productive future of a continental nation.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "From the levee<br>to the Pacific",
+  "bioLede": "Before Hill became a railroad man, he learned transportation from the cargo outward.",
+  "blocks": [
+    {
+      "h": "Saint Paul and the river trade",
+      "p": [
+        "James Jerome Hill was born on September 16, 1838, in southern Ontario, into a farming family of modest means. His father’s death while Hill was still young ended plans for further formal education and sent him into employment. In July 1856, at seventeen, he arrived in Saint Paul and began work as a shipping clerk on the Mississippi levee.",
+        "During the 1860s he moved through steamboat agencies, fuel and warehousing; in 1872 he joined Norman W. Kittson in establishing the Red River Transportation Company, and a regular through transportation service linked Saint Paul with Winnipeg. In 1867 Hill married Mary Theresa Mehegan; their son Louis would eventually succeed him at the head of the Great Northern."
+      ]
+    },
+    {
+      "h": "The Great Northern",
+      "p": [
+        "In 1878 Hill and his associates acquired the insolvent St. Paul &amp; Pacific Railroad. From this distressed property arose the St. Paul, Minneapolis &amp; Manitoba, and ultimately the Great Northern. Marias Pass furnished the crucial crossing of the Rockies; on January 6, 1893, the last rail of the transcontinental connection was laid at Scenic, Washington.",
+        "The western extension was undertaken without the federal land-grant support upon which several competing transcontinental railroads had relied. The achievement earned Hill the enduring sobriquet “Empire Builder.”"
+      ]
+    },
+    {
+      "h": "Highways of Progress",
+      "p": [
+        "In 1901 the Great Northern and Northern Pacific jointly acquired almost all of the Chicago, Burlington &amp; Quincy; the Northern Securities Company that followed was ordered broken apart by the United States Supreme Court in 1904. In 1907 Hill relinquished the presidency of the Great Northern but remained chairman until 1912.",
+        "In 1910 he published <i>Highways of Progress</i>, the mature reflections of a man whose horizon had expanded from the operation of trains to agriculture, soil, conservation, commerce, ports and capital. Hill died at Saint Paul on May 29, 1916, aged seventy-seven."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Blue"],
+    ["Text", "English · first edition, 1910"],
+    ["Print edition", "309 pages · frontispiece and eleven plates"],
+    ["Formats", "Paperback · Hardcover · Kindle (forthcoming)"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "Highways of Progress",
+  "worksIntro": "The complete text of the first edition of 1910, checked against the page, with eleven plates made for this edition and a restored frontispiece; publisher’s preface, author biography and timeline, afterword, note on the text and glossary. Paperback, hardcover and Kindle editions are forthcoming; ordering links will follow when available.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-highways-of-progress-hill-en-20260929", "title": "Highways<br>of Progress" },
+      "meta": "Economics · Railroads · 1910",
+      "title": "Highways of Progress (Illustrated)",
+      "subtitle": "",
+      "status": "Forthcoming",
+      "formats": [
+        {"name": "Paperback", "isbn": "978-3-67605-100-2", "price": "US list price $19.99", "links": []},
+        {"name": "Hardcover", "isbn": "978-3-67605-101-9", "price": "US list price $27.99", "links": []},
+        {"name": "Kindle", "isbn": "978-3-67605-102-6", "price": "US list price $9.99", "links": []}
+      ],
+      "modal": {
+        "metadata": "AETERNUS · Blue Series · 309 print pages",
+        "summary": "Published in 1910, Highways of Progress is the mature statement of the man remembered as the Empire Builder: a reflection on agriculture, commerce, irrigation, waterways, conservation, natural resources and the productive future of a continental nation.",
+        "sample": "“Land without population is a wilderness, and population without land is a mob.” Hill thought in immense spaces and exact measurements. He understood that railways, farms, towns, markets and ports formed one living economic system, and that progress required more than ambition: it required calculation, discipline, capital and the will to build before the future was certain.",
+        "status": "Forthcoming · ordering links to follow"
+      }
+    }
+  ]
+});
