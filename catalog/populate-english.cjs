@@ -35,10 +35,15 @@ module.exports = function populate(books, authors, series, clean) {
         // Retailer net values in the register are not public consumer prices.
         const display = prior?.price_display || (/USD$/.test(row.price || '') ? `US list price $${row.price.split(' ')[0]}` : null);
         book.formats[format] = {label,price_display:display,availability:row.status === 'LIVE' ? 'AVAILABLE' : 'COMING_SOON'};
+        const domains = format === 'hardcover' ? [['United States','com'],['United Kingdom','co.uk'],['Canada','ca']] : [['United States','com'],['United Kingdom','co.uk'],['Australia','com.au'],['Canada','ca']];
+        const links = row.status === 'LIVE' && row.asin ? domains.map(([label,domain])=>({label,url:`https://www.amazon.${domain}/dp/${row.asin}`})) : [];
         if (!prior) {
-          const domains = format === 'hardcover' ? [['United States','com'],['United Kingdom','co.uk'],['Canada','ca']] : [['United States','com'],['United Kingdom','co.uk'],['Australia','com.au'],['Canada','ca']];
-          const links = row.status === 'LIVE' && row.asin ? domains.map(([label,domain])=>({label,url:`https://www.amazon.${domain}/dp/${row.asin}`})) : [];
           book.retailer_formats.push({label,isbn:row.isbn,price_display:display,links,status:row.status});
+        } else if (!prior.links.length && links.length) {
+          // A legacy format entry announced before publication carries no links; the register
+          // snapshot is the later truth (2026-09-29: ETS_001-004 print editions had none).
+          prior.links = links;
+          prior.isbn = prior.isbn || row.isbn;
         }
       }
       book.distribution_status.amazon = rows.some(r=>r.format.startsWith('kdp_')&&r.status==='LIVE') ? 'LIVE' : 'PENDING';

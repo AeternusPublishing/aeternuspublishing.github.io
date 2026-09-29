@@ -547,11 +547,11 @@ module.exports.push({
     ["Series", "Anthracite"],
     ["Text", "English · first edition, 1833"],
     ["Print edition", "270 pages · frontispiece and nine plates"],
-    ["Status", "In preparation"]
+    ["Available", "Hardcover through booksellers · ISBN 978-3-67605-060-9"]
   ],
   "worksKicker": "The AETERNUS edition",
   "worksTitle": "The Harpe’s Head",
-  "worksIntro": "The complete text of the Philadelphia first edition of 1833, checked word by word against the original page images, with a publisher’s apparatus, a frontispiece, and nine new plates. Paperback, hardcover, and Kindle editions are in preparation; ordering links will follow when available.",
+  "worksIntro": "The complete text of the Philadelphia first edition of 1833, checked word by word against the original page images, with a publisher’s apparatus, a frontispiece, and nine new plates. The hardcover edition is available to order through booksellers under ISBN 978-3-67605-060-9.",
   "gridClass": "single-item",
   "books": [
     {
@@ -563,7 +563,8 @@ module.exports.push({
         "metadata": "AETERNUS · Anthracite Series · 270 print pages",
         "summary": "Virginia in the 1790s: a young stranger rides into the settled world of the planter aristocracy, while in the mountains and canebrakes of Kentucky the Harpe brothers make the borderlands a place where no traveller rides safe. Hall sets a romance of planters and pioneers against the darkest legend of the Kentucky frontier.",
         "sample": "The complete text of the 1833 first edition, checked word by word against the original page images. Publisher’s foreword, note on the text, historical note, afterword, and glossary; a frontispiece and nine plates created for this edition.",
-        "status": "In preparation · ordering links to follow"
+        "status": "Available now",
+        "amazon": "/"
       }
     }
   ]
@@ -977,6 +978,94 @@ module.exports.push({
         "summary": "Published in 1799, Charles Brockden Brown’s Edgar Huntly; or, Memoirs of a Sleep-Walker is one of the formative works of American Gothic fiction.",
         "sample": "Complete novel after the first edition, Philadelphia 1799; carefully modernized English, checked against the 1799 text; frontispiece and nine new plates; publisher’s preface, editorial note, author profile, and afterword; Brown’s preface “To the Public” in its original wording.",
         "status": "Complete KDP drafts &middot; not yet published"
+      }
+    }
+  ]
+});
+
+// James B. Gillett (JBG_001-EN, Six Years with the Texas Rangers, 1875 to 1881). The printed QR code
+// of the English edition points to /authors/james-b-gillett/; the page did not exist until 2026-09-29.
+// Kindle edition live since 2026-09-15 (ASIN B0HJXX6366); no English print edition yet.
+module.exports.push({
+  "slug": "james-b-gillett",
+  "name": "James B. Gillett",
+  "brand": "AETERNUS",
+  "monogram": "JBG",
+  "dates": "1856–1937",
+  "seriesClass": "series-green",
+  "preview": false,
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-gillett",
+    "alt": "James B. Gillett as a Texas Ranger, historical author portrait",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1856-11-04",
+    "deathDate": "1937-06-11",
+    "description": "Texas Ranger, City Marshal of El Paso, cattleman, and chronicler of the Texas frontier."
+  },
+  "eyebrow": "Green · Frontier & law",
+  "tagline": "Six years in the saddle, written down forty years later.",
+  "intro": "At eighteen Gillett enlisted in the Frontier Battalion of the Texas Rangers. His account of 1921 is not a history but the memory of a participant: direct, concrete, and without invented adventure.",
+  "metaDescription": "James B. Gillett at AETERNUS: Six Years with the Texas Rangers, 1875 to 1881, the recollections of a Frontier Battalion ranger in the text of the 1921 first edition.",
+  "bioKicker": "Author & context",
+  "bioTitle": "Six years<br>in the Frontier<br>Battalion",
+  "bioLede": "A witness from inside the service, without embellishment and without dime-novel varnish.",
+  "blocks": [
+    {
+      "h": "Origins and enlistment",
+      "p": [
+        "James Buchanan Gillett was born in Austin, Texas, on November 4, 1856. His boyhood began not on the open frontier but in the state capital; only when the family moved to Lampasas in 1872 did the world that would shape him enter his life: rangeland, cattle drives, long rides, and settlements beyond which the reach of the state quickly thinned.",
+        "After his father's death Gillett went to Menardville. On June 1, 1875, aged eighteen, he enlisted in Captain Daniel W. Roberts's Company D of the Frontier Battalion."
+      ]
+    },
+    {
+      "h": "Six years of ranger service",
+      "p": [
+        "For six years he served in several companies of the Texas Rangers, riding patrols through Central and West Texas, pursuing cattle thieves and wanted men, and taking part in operations against Kiowa, Comanche, and Lipan Apache. The service carried him from the San Saba to the Rio Grande and into the country west of the Pecos.",
+        "In July 1878 Gillett rode with the detachment that made a forced march to Round Rock to stop the bank robbery planned by the Sam Bass gang. The fight was over when his unit came in; the next morning the rangers found the mortally wounded Sam Bass under an oak tree."
+      ]
+    },
+    {
+      "h": "El Paso, ranch, and book",
+      "p": [
+        "Gillett left the service at his own request on December 26, 1881, with the rank of first sergeant. After a short spell with the Santa Fe Railroad he became assistant city marshal of El Paso and, in 1882, city marshal of a fast-growing railroad town.",
+        "In 1885 he returned to cattle and built a second career as a West Texas rancher, retiring to Marfa in 1923. The title of captain, by which he was later known, was honorary. In 1921 he published <i>Six Years with the Texas Rangers, 1875 to 1881</i>. Gillett died at Temple, Texas, on June 11, 1937."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Green"],
+    ["Text", "English · first edition, 1921"],
+    ["Edition", "Frontispiece and the eight original plates"],
+    ["Available", "Kindle"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "Six Years with the Texas Rangers",
+  "worksIntro": "The text of the 1921 first edition with the author's preface and all eight original plates. The Kindle edition is available now; a German translation is published by AETERNUS Verlag.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-texas-rangers-gillett-en-20260929", "title": "Six Years with<br>the Texas Rangers" },
+      "meta": "Frontier memoir · Texas · 1921",
+      "title": "Six Years with the Texas Rangers (Illustrated)",
+      "subtitle": "1875 to 1881",
+      "status": "Available now",
+      "formats": [
+        {"name": "Kindle", "isbn": null, "price": null, "links": [
+          {"label": "United States", "url": "https://www.amazon.com/dp/B0HJXX6366"},
+          {"label": "United Kingdom", "url": "https://www.amazon.co.uk/dp/B0HJXX6366"},
+          {"label": "Canada", "url": "https://www.amazon.ca/dp/B0HJXX6366"},
+          {"label": "Australia", "url": "https://www.amazon.com.au/dp/B0HJXX6366"}
+        ]}
+      ],
+      "modal": {
+        "metadata": "AETERNUS · Green Series · Kindle",
+        "summary": "On June 1, 1875, eighteen-year-old James Gillett enlists in Company D of the Frontier Battalion. Ahead lie days in the saddle, the pursuit of cattle thieves and murderers, fights with Kiowa, Comanche, and Apache, and later the office of city marshal of El Paso.",
+        "sample": "Forty years afterwards Gillett wrote these recollections down, in plain and concrete language that needs no dime-novel varnish.",
+        "amazon": "https://www.amazon.com/dp/B0HJXX6366",
+        "status": "Available now · Kindle"
       }
     }
   ]

@@ -155,7 +155,7 @@ module.exports = [
       },
       {
         "heading": "Local assets and optional Instagram posts",
-        "text": "Fonts and website images are served from this website. We do not add advertising pixels or third-party analytics. Instagram posts are not loaded automatically. Clicking “Load Instagram post” gives consent to connect to Meta for that post under Article 6(1)(a) GDPR. Meta receives technical data including your IP address and may use cookies or associate the request with your Instagram account. Refreshing or leaving the page stops the embedded connection; loading another post requires another click. Ordinary Instagram links take you to Instagram only when followed."
+        "text": "Fonts and website images are served from this website. We do not add advertising pixels or tracking cookies. To count page views we use Cloudflare Web Analytics, a cookie-free statistics service that does not store IP addresses or build visitor profiles; our basis is our legitimate interest in understanding how the website is used under Article 6(1)(f) GDPR. Instagram posts are not loaded automatically. Clicking “Load Instagram post” gives consent to connect to Meta for that post under Article 6(1)(a) GDPR. Meta receives technical data including your IP address and may use cookies or associate the request with your Instagram account. Refreshing or leaving the page stops the embedded connection; loading another post requires another click. Ordinary Instagram links take you to Instagram only when followed."
       },
       {
         "heading": "Email enquiries",
@@ -167,7 +167,7 @@ module.exports = [
       },
       {
         "heading": "Your rights",
-        "text": "Subject to the applicable conditions, you may request access, rectification, erasure, restriction or portability of your personal data and object to processing based on legitimate interests. You may withdraw consent for future processing and lodge a complaint with a data protection supervisory authority. Contact us using the email above. Last updated: 22 September 2026."
+        "text": "Subject to the applicable conditions, you may request access, rectification, erasure, restriction or portability of your personal data and object to processing based on legitimate interests. You may withdraw consent for future processing and lodge a complaint with a data protection supervisory authority. Contact us using the email above. Last updated: 29 September 2026."
       }
     ],
     "link": {

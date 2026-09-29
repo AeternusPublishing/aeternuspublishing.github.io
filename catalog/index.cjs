@@ -10,11 +10,11 @@ const slug = value => clean(value).toLowerCase().normalize('NFD').replace(/[\u03
 const series = programme.seriesItems.map(s => ({ id: s.slug, name: s.colorName, label: s.label, color: s.colorHex, mood: s.mood, description: s.desc || s.description || {}, authors: s.authors.map(a => a.slug || a.landingUrl?.de?.split('/')[2]).filter(Boolean) }));
 // Explicit migration manifest: page language is NOT edition language. English
 // author pages also advertise German editions. Those are deliberately excluded.
-const englishAuthors = new Set(['ernest-thompson-seton', 'robert-montgomery-bird', 'george-washington-sears', 'francis-parkman', 'james-hall', 'daniel-carter-beard', 'henry-rider-haggard', 'richard-jefferies', 'charles-brockden-brown']);
+const englishAuthors = new Set(['ernest-thompson-seton', 'robert-montgomery-bird', 'george-washington-sears', 'francis-parkman', 'james-hall', 'daniel-carter-beard', 'henry-rider-haggard', 'richard-jefferies', 'charles-brockden-brown', 'james-b-gillett']);
 const englishBooks = authorsEn.filter(a => englishAuthors.has(a.slug)).flatMap(a => a.books.filter(b => !/German (edition|translation)/i.test(b.meta || '')).map(b => {
   // These existing author pages postdate the programme overview; their own
   // explicit series labels are the authority for this migration mapping.
-  const additionalSeries = { 'james-hall': 'anthrazit', 'daniel-carter-beard': 'bernstein', 'richard-jefferies': 'bernstein' };
+  const additionalSeries = { 'james-hall': 'anthrazit', 'daniel-carter-beard': 'bernstein', 'richard-jefferies': 'bernstein', 'james-b-gillett': 'gruen' };
   const line = series.find(s => s.authors.includes(a.slug) || s.id === additionalSeries[a.slug]);
   if (!line) throw new Error('Unmapped author series: ' + a.slug);
   const id = `en-${a.slug}-${b.id || slug(b.title)}`;
