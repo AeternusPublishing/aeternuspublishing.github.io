@@ -41,7 +41,9 @@ const AVAILABLE = {
   // eine deutsche Beard-Seite gibt es nicht.
   "daniel-carter-beard": ["en"],
   // Nur Englisch: Bevis ist eine englische Originalausgabe (QR /qr/jefferies/).
-  "richard-jefferies": ["en"]
+  "richard-jefferies": ["en"],
+  // Nur Englisch: Highways of Progress ist eine englische Originalausgabe (JJH_001 EN).
+  "james-j-hill": ["en"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };
