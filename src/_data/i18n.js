@@ -532,6 +532,8 @@ module.exports = {
                 en: "Florentia Sale's eyewitness diary of the retreat from Kabul, based on the London first edition of 1843."
               },
               isbn: "978-3-912883-42-8",
+              isbns: { paperback: "978-3-912883-42-8" },
+              asin: { ebook: "B0HGNNN9BS", paperback: "3912883424" },
               amazonUrl: "https://www.amazon.de/dp/3912883424"
             }
           ]
@@ -598,7 +600,7 @@ module.exports = {
                 paperback: "978-3-912883-70-1",
                 hardcover: "978-3-912883-71-8"
               },
-              asin: { paperback: "391288370X", hardcover: "3912883718" },
+              asin: { ebook: "B0HJRS6S2D", paperback: "391288370X", hardcover: "3912883718" },
               amazonUrl: "https://www.amazon.de/dp/391288370X"
             }
           ]
@@ -1014,6 +1016,7 @@ module.exports = {
               },
               pages: 177,
               pricesEur: { ebook: "9,99", paperback: "14,99" },
+              asin: { ebook: "B0HHTG8QRH", paperback: "3912883572" },
               amazonUrl: "https://www.amazon.de/dp/3912883572",
               originalTitle: "Woodcraft, New York 1884",
               title: { de: "Waldhandwerk", en: "Waldhandwerk" },

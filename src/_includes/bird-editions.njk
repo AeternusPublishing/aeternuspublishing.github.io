@@ -10,7 +10,7 @@
     {% if bk.availabilityNote %}<p class="bird-availability">{{ bk.availabilityNote }}</p>{% endif %}
     <div class="bird-formats">
       {% for f in bk.formats %}
-      <div class="bird-format"><h4>{{ f.name }}</h4><p>{{ f.price }}</p><p class="bird-isbn">ISBN {{ f.isbn }}</p>
+      <div class="bird-format"><h4>{{ f.name }}</h4><p>{{ f.price }}</p>{% if f.isbn %}<p class="bird-isbn">ISBN {{ f.isbn }}</p>{% endif %}
       {% if f.links.length %}<ul>{% for link in f.links %}<li><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ bk.title }} · {{ f.name }} · {{ link.label }}">{{ link.label }} <span aria-hidden="true">↗</span></a></li>{% endfor %}</ul>{% endif %}
       </div>
       {% endfor %}
