@@ -513,6 +513,12 @@ module.exports = [
     "worksTitle": "Tagebuch der Katastrophe",
     "worksIntro": "Ein datiertes Augenzeugentagebuch aus dem Ersten Anglo-Afghanischen Krieg, mit den Anhängen und Dokumenten der Erstausgabe — quellennah übersetzt und historisch eingeordnet.",
     "gridClass": "single-item",
+    "editionSection": true,
+    "editionsTitle": "Die Ausgaben im Überblick",
+    "modalActionLabel": "Formate & Verfügbarkeit",
+    "editionsNote": "Preisangaben für Amazon.de einschließlich Umsatzsteuer; gegebenenfalls zuzüglich Versand. Lieferbarkeit und aktueller Verkaufspreis stehen beim Händler. Verfügbarkeit geprüft am 29. September 2026.",
+    "sisterUrl": "/autoren/",
+    "sisterLabel": "Alle Autoren im Programm",
     "books": [
       {
         "cover": {
@@ -521,6 +527,8 @@ module.exports = [
         "meta": "Tagebuch · Paperback 19,99 € · Kindle 11,99 €",
         "title": "Tagebuch der Katastrophe",
         "subtitle": "Afghanistan 1841–1842",
+        "status": "Erschienen",
+        "formats": [{"name": "Kindle", "price": "11,99 €", "links": [{"label": "Amazon.de", "url": "https://www.amazon.de/dp/B0HGNNN9BS"}]}, {"name": "Taschenbuch", "isbn": "978-3-912883-42-8", "price": "19,99 €", "links": [{"label": "Amazon.de", "url": "https://www.amazon.de/dp/3912883424"}]}],
         "modal": {
           "metadata": "Aeternus Verlag · Grüne Linie · Paperback 19,99 € · Kindle 11,99 €",
           "summary": "Kabul, Winter 1841: Eine britische Besatzungsarmee verliert die Kontrolle, verhandelt, zieht ab und wird auf dem Marsch durch die Pässe vernichtet. Florentia Sale schreibt das alles mit, während es geschieht — Datum für Datum, bis in die Gefangenschaft hinein.",
@@ -1707,13 +1715,21 @@ module.exports.push({
   "worksTitle": "Sechs Jahre bei den Texas Rangers",
   "worksIntro": "Vollst\u00e4ndige deutsche \u00dcbersetzung der Erstausgabe von 1921 mit allen acht Originaltafeln, dem Vorwort des Verfassers, einer Karte des Einsatzraums sowie Zeittafel, Glossar und Personenverzeichnis. Die englische Originalausgabe erscheint parallel.",
   "gridClass": "single-item",
-  "books": [
+  "editionSection": true,
+    "editionsTitle": "Die Ausgaben im Überblick",
+    "modalActionLabel": "Formate & Verfügbarkeit",
+    "editionsNote": "Preisangaben für Amazon.de einschließlich Umsatzsteuer; gegebenenfalls zuzüglich Versand. Lieferbarkeit und aktueller Verkaufspreis stehen beim Händler. Verfügbarkeit geprüft am 29. September 2026.",
+    "sisterUrl": "https://aeternuspublishing.com/authors/james-b-gillett/",
+    "sisterLabel": "Die englische Originalausgabe",
+    "books": [
     {
       "cover": { "img": "cover-texas-rangers-gillett" },
       "meta": "Illustrierte Ausgabe \u00b7 1921 \u00b7 285 Seiten",
       "title": "Sechs Jahre bei den Texas Rangers",
       "subtitle": "1875 bis 1881",
-      "modal": {
+      "status": "Erschienen",
+        "formats": [{"name": "Kindle", "price": "10,99 €", "links": [{"label": "Amazon.de", "url": "https://www.amazon.de/dp/B0HKMNKN2X"}]}, {"name": "Taschenbuch", "isbn": "978-3-67605-045-6", "price": "19,99 €", "links": [{"label": "Amazon.de", "url": "https://www.amazon.de/dp/3676050452"}]}],
+        "modal": {
         "metadata": "AETERNUS Verlag \u00b7 285 Seiten \u00b7 E-Book, Taschenbuch und Hardcover",
         "summary": "Am 1. Juni 1875 tritt der achtzehnj\u00e4hrige Gillett in Company D des Frontier Battalion ein. Vor ihm liegen Tage im Sattel, die Verfolgung von Viehdieben und M\u00f6rdern, Gefechte mit Kiowa, Comanchen und Apachen und sp\u00e4ter das Amt des City Marshal von El Paso.",
         "sample": "Vierzig Jahre danach schrieb Gillett diese Erinnerungen nieder \u2014 in einer Sprache, die schlicht und konkret bleibt und ohne Dime-Novel-Firnis auskommt.",
