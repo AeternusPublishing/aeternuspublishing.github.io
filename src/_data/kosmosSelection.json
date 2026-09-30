@@ -776,6 +776,27 @@
       "landingUrl": "https://aeternus-verlag.de/en/authors/richard-jefferies/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/en/authors/richard-jefferies/"
+    },
+    {
+      "id": "siemens",
+      "title": "Lebenserinnerungen",
+      "author": "Werner von Siemens",
+      "year": "1892",
+      "region": "europe",
+      "location": [
+        13.3,
+        52.52
+      ],
+      "place": "Berlin-Charlottenburg",
+      "status": "In Vorbereitung",
+      "statusDetail": "Vom Verlag gebaut · Auslieferung in Vorbereitung",
+      "language": "Deutsch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-siemens-lebenserinnerungen.webp",
+      "subtitle": "Der Architekt des elektrischen Zeitalters",
+      "summary": "Siemens erzählt von preußischer Artillerie und Festungshaft, von Telegraphenlinien und Kabelschiffen, vom Kaukasus und vom Atlantik und vom Weg einer Berliner Werkstatt zum Weltunternehmen.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/werner-von-siemens/#werke",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/autoren/werner-von-siemens/"
     }
   ],
   "links": [
@@ -933,6 +954,11 @@
       "source": "bevis",
       "target": "scouting",
       "reason": "Jungen, Wasser und selbstgebaute Ausrüstung"
+    },
+    {
+      "source": "siemens",
+      "target": "ford",
+      "reason": "Industrielle Selbstzeugnisse der Blauen Reihe"
     }
   ]
 }
