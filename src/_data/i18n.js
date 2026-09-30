@@ -717,6 +717,36 @@ module.exports = {
               }
             }
           ]
+        },
+        // Werner von Siemens, Lebenserinnerungen (WVS_001): gebaut 30.09.2026, Upload ausstehend.
+        // desc traegt "in Vorbereitung" -> catalogue.js setzt pending, kein Kaufweg bis Amazon gemessen live.
+        {
+          name: "Werner von Siemens",
+          slug: "werner-von-siemens",
+          landingUrl: { de: "/autoren/werner-von-siemens/", en: "/autoren/werner-von-siemens/" },
+          bio: {
+            de: "Werner von Siemens baute aus einer Berliner Werkstatt ein Weltunternehmen und fand 1866 das dynamoelektrische Prinzip. Seine Lebenserinnerungen erzählen den Weg vom Telegraphen zur Starkstromtechnik aus erster Hand.",
+            en: "Werner von Siemens built a world enterprise from a Berlin workshop and discovered the dynamo-electric principle in 1866. His memoirs tell the road from the telegraph to power engineering first-hand."
+          },
+          books: [
+            {
+              cover: "cover-siemens-lebenserinnerungen",
+              isbn: "978-3-67605-109-5",
+              isbns: {
+                ebook: "978-3-67605-111-8",
+                paperback: "978-3-67605-109-5",
+                hardcover: "978-3-67605-110-1"
+              },
+              pricesEur: { ebook: "10,99", paperback: "19,99", hardcover: "27,99" },
+              pages: 408,
+              originalTitle: "Lebenserinnerungen, 1892",
+              title: { de: "Lebenserinnerungen", en: "Lebenserinnerungen (German edition)" },
+              desc: {
+                de: "Die Lebenserinnerungen des Erfinders und Unternehmers nach der Erstausgabe von 1892, ungekürzt und in heutiger Rechtschreibung. In Vorbereitung.",
+                en: "The memoirs of the inventor and industrialist after the 1892 first edition, unabridged, in modern German spelling. In preparation."
+              }
+            }
+          ]
         }
       ]
     },

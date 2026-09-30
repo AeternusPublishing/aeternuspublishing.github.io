@@ -1738,3 +1738,81 @@ module.exports.push({
     }
   ]
 });
+
+// Werner von Siemens: Blaue Reihe, Lebenserinnerungen (WVS_001), Verleger 30.09.2026.
+// Ausgaben gebaut, Upload ausstehend: kein Kaufknopf (amazon "/"), Status traegt den Stand.
+module.exports.push({
+  "slug": "werner-von-siemens",
+  "name": "Werner von Siemens",
+  "monogram": "WS",
+  "dates": "1816–1892",
+  "seriesClass": "series-blue",
+  "preview": false,
+  "nameClass": "bird-name",
+  "portrait": {
+    "file": "portrait-siemens",
+    "alt": "Werner von Siemens, Heliogravüre aus der Erstausgabe der Lebenserinnerungen, 1892",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1816-12-13",
+    "deathDate": "1892-12-06",
+    "description": "Deutscher Erfinder, Ingenieur und Unternehmer; Mitbegründer von Siemens & Halske, Entdecker des dynamoelektrischen Prinzips."
+  },
+  "eyebrow": "Blau · Wirtschaft, Industrie und die Titanen des Fortschritts",
+  "tagline": "Der Architekt des elektrischen Zeitalters.",
+  "intro": "Artillerieoffizier, Erfinder, Unternehmer: Werner von Siemens baute aus einer Berliner Hinterhauswerkstatt ein Weltunternehmen und legte mit dem dynamoelektrischen Prinzip den Grund für die Starkstromtechnik. Seine Lebenserinnerungen erzählen diesen Weg aus erster Hand.",
+  "metaDescription": "Werner von Siemens: Leben, Werk und die neue Ausgabe seiner Lebenserinnerungen nach der Erstausgabe von 1892 in der Blauen Reihe des Aeternus Verlags.",
+  "ogDescription": "Der Architekt des elektrischen Zeitalters. Leben und Werk von Werner von Siemens.",
+  "bioKicker": "Biografie",
+  "bioTitle": "Vom Telegraphen<br>zur Dynamomaschine",
+  "bioLede": "Als er 1816 geboren wurde, reiste eine Nachricht mit Pferd und Schiff. Als er 1892 starb, verbanden Telegraphendrähte und Tiefseekabel Europa mit Indien und Amerika.",
+  "blocks": [
+    {
+      "h": "Leben und Zeit",
+      "p": [
+        "Werner Siemens wurde am 13. Dezember 1816 in Lenthe bei Hannover geboren, als viertes von vierzehn Kindern einer Gutspächterfamilie. Die preußische Artillerie öffnete ihm den Weg an die Berliner Artillerie- und Ingenieurschule, wo er zwischen 1835 und 1838 seine naturwissenschaftlich-technische Ausbildung erhielt.",
+        "1847 gründete er mit dem Mechaniker Johann Georg Halske die Telegraphen-Bauanstalt Siemens &amp; Halske. Mit seinen Brüdern Wilhelm in London und Carl in Petersburg wuchs daraus ein Haus, dessen Linien vom Kaukasus bis nach Indien und über den Atlantik reichten."
+      ]
+    },
+    {
+      "h": "Das Werk",
+      "p": [
+        "1866 fand Siemens das dynamoelektrische Prinzip: eine Maschine, die elektrische Energie in wirtschaftlich nutzbarer Größe erzeugte. Damit begann der Übergang von der Nachrichten- zur Starkstromtechnik.",
+        "Er wirkte zugleich als Abgeordneter, trat für ein wirksames Patentwesen ein und setzte sich für die Physikalisch-Technische Reichsanstalt ein. 1888 wurde er in den erblichen Adelsstand erhoben; er starb am 6. Dezember 1892 in Charlottenburg."
+      ]
+    },
+    {
+      "h": "Die Lebenserinnerungen",
+      "p": [
+        "Zwischen 1889 und 1892 schrieb Siemens seine Lebenserinnerungen: Festungshaft und erste Experimente, Telegraphenlinien und Kabelschiffe, Brüder, Mitarbeiter und Konkurrenten, Irrtümer ebenso wie Erfolge.",
+        "Die Aeternus-Ausgabe folgt der Erstausgabe von Julius Springer, Berlin 1892, ungekürzt und in heutiger Rechtschreibung, mit Frontispiz, Tafeln, Zeittafel, Nachwort und Register."
+      ]
+    }
+  ],
+  "facts": [
+    ["Reihe", "Blaue Linie · Säule IV"],
+    ["Erstausgabe", "Berlin, 1892"],
+    ["Ausgaben", "Taschenbuch · Hardcover · E-Book"],
+    ["Status", "In Vorbereitung"]
+  ],
+  "worksKicker": "Neu bei Aeternus",
+  "worksTitle": "Ein Leben aus erster Hand",
+  "worksIntro": "Der vollständige Text der Erstausgabe von 1892, behutsam in die heutige Rechtschreibung übertragen, mit Frontispiz, Tafeln, Zeittafel, Nachwort, Editorischer Notiz und Personen- und Ortsregister.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-siemens-lebenserinnerungen" },
+      "meta": "Lebenserinnerungen · 1892 · 408 Seiten",
+      "title": "Lebenserinnerungen",
+      "subtitle": "Der Architekt des elektrischen Zeitalters",
+      "modal": {
+        "metadata": "Aeternus Verlag · Blaue Reihe · Taschenbuch ISBN 978-3-67605-109-5 · 19,99 € · Hardcover ISBN 978-3-67605-110-1 · 27,99 € · E-Book 10,99 €",
+        "summary": "Siemens erzählt von preußischer Artillerie und Festungshaft, von ersten Experimenten, Telegraphenlinien und Kabelschiffen, vom Kaukasus und vom Atlantik, von Wissenschaftlern, Brüdern und Konkurrenten und von dem Willen, eine technische Idee erst dann als vollendet anzusehen, wenn sie in der Wirklichkeit bestand.",
+        "sample": "Die Ausgabe folgt Seite für Seite der Erstausgabe von 1892. Der Text ist ungekürzt; der Brief an Gordon mit seinen Figuren und der Anhang über die wissenschaftlichen Arbeiten stehen an ihrem Ort.",
+        "amazon": "/",
+        "status": "In Vorbereitung · Taschenbuch, Hardcover und E-Book erscheinen in Kürze"
+      }
+    }
+  ]
+});
