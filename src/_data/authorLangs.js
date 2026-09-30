@@ -45,7 +45,9 @@ const AVAILABLE = {
   // Nur Englisch: Highways of Progress ist eine englische Originalausgabe (JJH_001 EN).
   "james-j-hill": ["en"],
   // Nur Englisch: The Epic of Mount Everest ist eine englische Originalausgabe (FEY_001 EN).
-  "francis-younghusband": ["en"]
+  "francis-younghusband": ["en"],
+  // Nur Englisch: Treasure Island ist eine englische Originalausgabe (RLS_001 EN, Cassell 1883).
+  "robert-louis-stevenson": ["en"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };
