@@ -43,7 +43,9 @@ const AVAILABLE = {
   // Nur Englisch: Bevis ist eine englische Originalausgabe (QR /qr/jefferies/).
   "richard-jefferies": ["en"],
   // Nur Englisch: Highways of Progress ist eine englische Originalausgabe (JJH_001 EN).
-  "james-j-hill": ["en"]
+  "james-j-hill": ["en"],
+  // Nur Englisch: The Epic of Mount Everest ist eine englische Originalausgabe (FEY_001 EN).
+  "francis-younghusband": ["en"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };
