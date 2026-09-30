@@ -818,6 +818,27 @@
       "landingUrl": "https://aeternus-verlag.de/en/authors/francis-younghusband/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/en/authors/francis-younghusband/"
+    },
+    {
+      "id": "treasure-island",
+      "title": "Treasure Island (Annotated)",
+      "author": "Robert Louis Stevenson",
+      "year": "1883",
+      "region": "europe",
+      "location": [
+        -3.4,
+        57.01
+      ],
+      "place": "Braemar, Schottland – hier entstand 1881 die Karte der Insel",
+      "status": "In Vorbereitung",
+      "statusDetail": "Englische Ausgabe – Taschenbuch, Hardcover und Kindle in Vorbereitung",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-treasure-island-rls-en-20260930.webp",
+      "subtitle": "The Complete 1883 Text with Notes, Glossary and Gazetteer",
+      "summary": "Jim Hawkins, Long John Silver und die Karte mit dem roten Kreuz: der vollständige Cassell-Text von 1883 mit Anmerkungen, Glossar, Ortsverzeichnis und neuen Tafeln.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/robert-louis-stevenson/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/robert-louis-stevenson/"
     }
   ],
   "links": [
@@ -995,6 +1016,16 @@
       "source": "everest",
       "target": "arctic",
       "reason": "Expeditionen an die Grenzen der bewohnbaren Welt"
+    },
+    {
+      "source": "treasure-island",
+      "target": "haggard",
+      "reason": "Stevensons Schatzinsel reizte Haggard zu König Salomons Schatzkammer"
+    },
+    {
+      "source": "treasure-island",
+      "target": "bevis",
+      "reason": "Jungen, Boote und Abenteuer der Bernsteinreihe"
     }
   ]
 }

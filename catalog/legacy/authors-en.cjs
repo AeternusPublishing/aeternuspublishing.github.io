@@ -1242,3 +1242,97 @@ module.exports.push({
     }
   ]
 });
+
+// Robert Louis Stevenson (RLS_001-EN, Treasure Island, Cassell 1883). The printed QR code of the
+// English edition points to /authors/robert-louis-stevenson/. Copy follows the edition's apparatus
+// (PARATEXT_EN/ARBEIT_V1: About the Author, Back Cover). Portrait: photogravure frontispiece of
+// The Letters of Robert Louis Stevenson, vol. I (Methuen, 1899). Formats not yet assigned: no ISBNs,
+// no prices, no retailer links. "extras" announces the reader's portfolio of restored original imagery.
+module.exports.push({
+  "slug": "robert-louis-stevenson",
+  "name": "Robert Louis Stevenson",
+  "brand": "AETERNUS",
+  "monogram": "RLS",
+  "dates": "1850–1894",
+  "seriesClass": "",
+  "preview": true,
+  "previewStatus": "Annotated edition in preparation &middot; ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-stevenson",
+    "alt": "Robert Louis Stevenson at his writing desk, photogravure frontispiece of his Letters, 1899",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1850-11-13",
+    "deathDate": "1894-12-03",
+    "description": "Scottish novelist, essayist, poet and traveller, author of Treasure Island, Kidnapped and Strange Case of Dr Jekyll and Mr Hyde."
+  },
+  "eyebrow": "Amber &middot; Youth, adventure and the shaping of character",
+  "tagline": "He drew an island, and the story followed.",
+  "intro": "In the summer of 1881 a painted map of an imaginary island set Stevenson writing. <i>Treasure Island</i> (1883) became one of the defining romances of the English language: the black spot, the sea cook, the stockade and the chart marked with a red cross.",
+  "metaDescription": "Robert Louis Stevenson at AETERNUS: Treasure Island (Annotated), the complete Cassell text of 1883 with footnotes, glossary, gazetteer, new plates and a portfolio of the restored original illustrations.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "From Edinburgh<br>to Vailima",
+  "bioLede": "Born into a family of lighthouse engineers, Stevenson chose the sea of stories instead.",
+  "blocks": [
+    {
+      "h": "Edinburgh and the family profession",
+      "p": [
+        "Robert Louis Stevenson was born in Edinburgh on 13 November 1850 into a distinguished Scottish family of lighthouse engineers. His father, Thomas Stevenson, expected him to enter the family profession, and he began by studying engineering at the University of Edinburgh.",
+        "Literature had already claimed his deeper allegiance. In 1871 he abandoned engineering for law as a compromise with his family, qualified for the Scottish bar, and then devoted himself to writing: essays, travel books, stories, poems and novels, written on the move through Scotland, France, Switzerland and the United States."
+      ]
+    },
+    {
+      "h": "The island at Braemar",
+      "p": [
+        "In the summer of 1881, at Braemar, a map of an island painted with his stepson Lloyd Osbourne gave rise to a story first called <i>The Sea Cook</i>. It ran in the boys’ paper <i>Young Folks</i> under the name Captain George North before Cassell published it in book form as <i>Treasure Island</i> in 1883.",
+        "The years that followed brought <i>A Child’s Garden of Verses</i>, <i>Strange Case of Dr Jekyll and Mr Hyde</i>, <i>Kidnapped</i> and <i>The Master of Ballantrae</i>."
+      ]
+    },
+    {
+      "h": "Tusitala",
+      "p": [
+        "In 1888 Stevenson sailed into the Pacific. In 1890 he settled at Vailima on Upolu, Samoa, where he became known as Tusitala, “the teller of tales”. He died there on 3 December 1894, aged forty-four."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Amber"],
+    ["Text", "English · Cassell first edition, 1883, unmodernised"],
+    ["Apparatus", "Nearly 400 footnotes · glossary · gazetteer"],
+    ["Illustrations", "Ten new plates · chart of the island"],
+    ["Formats", "Paperback · Hardcover · Kindle (in preparation)"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "Treasure Island",
+  "worksIntro": "The complete text of the Cassell first edition of 1883, checked word by word against the printed page and left in Stevenson’s own spelling, dialect and punctuation; explanatory footnotes, a glossary of sea and ship terms, a gazetteer, ten new plates and a newly drawn chart of the island. Ordering links will follow when the edition is available.",
+  "gridClass": "single-item",
+  "extras": {
+    "kicker": "For readers",
+    "title": "The original illustrations",
+    "text": "The pictures that first went to sea with this story belong to its history. For readers who wish to keep them beside the book, we are restoring the historic imagery from period copies as a free printable portfolio in A4 and US Letter: for framing, for cutting out, or simply for looking at.",
+    "items": [
+      ["The map of Treasure Island", "From the first edition of 1883, in colour and in black and white"],
+      ["The Cassell wood engravings", "Twenty-five engravings from Cassell’s illustrated edition"],
+      ["N. C. Wyeth’s paintings", "The celebrated colour plates of 1911, with cover and endpapers"]
+    ],
+    "status": "In preparation"
+  },
+  "books": [
+    {
+      "cover": { "img": "cover-treasure-island-rls-en-20260930", "title": "Treasure<br>Island" },
+      "meta": "Adventure · Sea fiction · 1883",
+      "title": "Treasure Island (Annotated)",
+      "subtitle": "The Complete 1883 Text with Notes, Glossary and Gazetteer",
+      "status": "Forthcoming",
+      "formats": [],
+      "modal": {
+        "metadata": "AETERNUS · Amber Series · Cassell text of 1883",
+        "summary": "A sea-chest, a hidden map and the name of a dead pirate draw young Jim Hawkins from the quiet Admiral Benbow into one of literature’s great voyages. This annotated edition keeps the Cassell text of 1883 unchanged, with footnotes, glossary, gazetteer and ten new plates.",
+        "sample": "At the centre stands Long John Silver: genial, dangerous, intelligent and impossible to forget, while the dead Captain Flint casts his shadow across the entire voyage. Beneath the legend lies an exact and tightly constructed novel of ships, tides, distances, divided loyalties and a boy learning to judge men under pressure.",
+        "status": "Forthcoming · ordering links to follow"
+      }
+    }
+  ]
+});
