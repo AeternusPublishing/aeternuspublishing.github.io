@@ -1156,3 +1156,89 @@ module.exports.push({
     }
   ]
 });
+
+// Sir Francis Younghusband (FEY_001-EN, The Epic of Mount Everest, 1926). The printed QR code of the
+// English edition points to /authors/francis-younghusband/. Copy follows the edition's apparatus
+// (PARATEXT_EN/FEY001_PARATEXT_EN_V2: About the Author, Publisher's Note, Afterword) and the back cover.
+// Print and Kindle editions are not yet at Amazon: ISBNs and list prices only, no retailer links.
+module.exports.push({
+  "slug": "francis-younghusband",
+  "name": "Sir Francis Younghusband",
+  "brand": "AETERNUS",
+  "monogram": "FEY",
+  "dates": "1863–1942",
+  "seriesClass": "series-green",
+  "preview": true,
+  "previewStatus": "Paperback, hardcover and Kindle forthcoming &middot; ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-younghusband",
+    "alt": "Sir Francis Younghusband, historical photographic portrait",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1863-05-31",
+    "deathDate": "1942-07-31",
+    "description": "British army officer and explorer of Central Asia, leader of the 1903–1904 mission to Tibet, President of the Royal Geographical Society and author of The Epic of Mount Everest."
+  },
+  "eyebrow": "Green &middot; Military, expeditions and frontiers",
+  "tagline": "Before conquest came the attempt.",
+  "intro": "Soldier, traveller in Central Asia and leader of the mission to Lhasa, Younghusband presided over the first British attempts upon Everest. <i>The Epic of Mount Everest</i> (1926) gathers the expeditions of 1921, 1922 and 1924 into one continuous narrative.",
+  "metaDescription": "Sir Francis Younghusband at AETERNUS: The Epic of Mount Everest (1926), the British Everest expeditions of 1921, 1922 and 1924 in the text of the first edition, with sixteen photographic plates and two maps.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "From Murree<br>to the Himalaya",
+  "bioLede": "Long before the Everest expeditions, Younghusband had crossed the mountain systems of Asia himself.",
+  "blocks": [
+    {
+      "h": "The road into Asia",
+      "p": [
+        "Francis Edward Younghusband was born in 1863 at Murree, in the Punjab of British India. Educated at Clifton College and the Royal Military College, Sandhurst, he was commissioned into the 1st King’s Dragoon Guards and returned to India as a young officer.",
+        "From the middle of the 1880s he turned to exploration. After travelling through Manchuria he crossed the Gobi Desert, continued westward through Chinese Turkestan and forced a passage towards India over the Muztagh Pass of the Karakoram. Further journeys through the Pamirs, where British India, Russia, Afghanistan and China approached one another, established him among the leading Asian travellers of his generation."
+      ]
+    },
+    {
+      "h": "Frontier service and Lhasa",
+      "p": [
+        "The Royal Geographical Society made him a Fellow while he was still in his twenties and awarded him its Founder’s Medal. He served as a political officer on the north-western approaches to India, in Hunza and Chitral, and rose within the Indian Political Department.",
+        "In 1903–1904 he led the British mission to Tibet, which reached Lhasa. He afterwards served as British Resident in Kashmir before withdrawing from imperial administration."
+      ]
+    },
+    {
+      "h": "The Mount Everest Committee",
+      "p": [
+        "As President of the Royal Geographical Society from 1919 to 1922, and as chairman of the Mount Everest Committee formed jointly by the Society and the Alpine Club, Younghusband stood at the centre of the first British attempts upon the mountain. He did not climb it himself: he helped make the enterprise possible and interpreted it to the world.",
+        "The reconnaissance of 1921 found the approach by the North Col; in 1922 men climbed higher than ever before, and an avalanche killed seven Himalayan porters; in 1924 Edward Norton reached about 28,000 feet without supplementary oxygen, and George Mallory and Andrew Irvine were last seen high on the mountain on 8 June. In 1926 Younghusband gathered the three expeditions into <i>The Epic of Mount Everest</i>. His later writings turned to religion and philosophy. He died in 1942 at Lytchett Minster, Dorset."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Green"],
+    ["Text", "English · first edition, 1926"],
+    ["Print edition", "256 pages · sixteen photographic plates · two maps"],
+    ["Formats", "Paperback · Hardcover · Kindle (forthcoming)"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "The Epic of Mount Everest",
+  "worksIntro": "The complete text of the first edition of 1926, read against two copies; the sixteen photographic plates of 1926, rebuilt for legibility with AI; the two maps of the first edition, enlarged for this edition; author profile with portrait, publisher’s note and afterword. Paperback, hardcover and Kindle editions are forthcoming; ordering links will follow when available.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-epic-of-mount-everest-younghusband-en-20260930", "title": "The Epic<br>of Mount Everest" },
+      "meta": "Exploration · Mountaineering · 1926",
+      "title": "The Epic of Mount Everest (Illustrated)",
+      "subtitle": "",
+      "status": "Forthcoming",
+      "formats": [
+        {"name": "Paperback", "isbn": "978-3-67605-115-6", "price": "US list price $17.99", "links": []},
+        {"name": "Hardcover", "isbn": "978-3-67605-116-3", "price": "US list price $27.99", "links": []},
+        {"name": "Kindle", "isbn": "978-3-67605-117-0", "price": "US list price $9.99", "links": []}
+      ],
+      "modal": {
+        "metadata": "AETERNUS · Green Series · 256 print pages",
+        "summary": "In 1921, Mount Everest was still a fortress of unknown ridges, glaciers and immense altitude. Britain sent an expedition not to conquer Everest, but to discover whether a way to its summit existed at all. They returned in 1922 to make the first determined assault upon the mountain, and again in 1924 for the expedition that would become inseparable from the names of George Mallory and Andrew Irvine.",
+        "sample": "“The mountain now stands there proud and erect and unconquered.” Drawing upon the records of all three expeditions, explorer and former Royal Geographical Society President Sir Francis Younghusband recounts the great opening campaign upon the highest mountain on Earth: reconnaissance, extreme altitude, oxygen, avalanche, endurance, and the final ascent into the clouds, from which they never returned. Published in 1926, <i>The Epic of Mount Everest</i> preserves the mountain at the moment when its summit still stood beyond certainty. Before conquest came the attempt.",
+        "status": "Forthcoming · ordering links to follow"
+      }
+    }
+  ]
+});
