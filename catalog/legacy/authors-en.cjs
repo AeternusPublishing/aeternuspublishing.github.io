@@ -1247,7 +1247,7 @@ module.exports.push({
 // English edition points to /authors/robert-louis-stevenson/. Copy follows the edition's apparatus
 // (PARATEXT_EN/ARBEIT_V1: About the Author, Back Cover). Portrait: photogravure frontispiece of
 // The Letters of Robert Louis Stevenson, vol. I (Methuen, 1899). Formats not yet assigned: no ISBNs,
-// no prices, no retailer links. "extras" announces the reader's portfolio of restored original imagery.
+// no prices, no retailer links. "extras" offers the reader's downloads of the reconstructed historic imagery (01.10.2026).
 module.exports.push({
   "slug": "robert-louis-stevenson",
   "name": "Robert Louis Stevenson",
@@ -1260,7 +1260,7 @@ module.exports.push({
   "sampleLabel": "About this edition",
   "portrait": {
     "file": "portrait-stevenson",
-    "alt": "Robert Louis Stevenson at his writing desk, photogravure frontispiece of his Letters, 1899",
+    "alt": "Robert Louis Stevenson at his writing desk, portrait reconstructed after the photogravure frontispiece of his Letters, 1899",
     "modern": true
   },
   "schema": {
@@ -1271,7 +1271,7 @@ module.exports.push({
   "eyebrow": "Amber &middot; Youth, adventure and the shaping of character",
   "tagline": "He drew an island, and the story followed.",
   "intro": "In the summer of 1881 a painted map of an imaginary island set Stevenson writing. <i>Treasure Island</i> (1883) became one of the defining romances of the English language: the black spot, the sea cook, the stockade and the chart marked with a red cross.",
-  "metaDescription": "Robert Louis Stevenson at AETERNUS: Treasure Island (Annotated), the complete Cassell text of 1883 with footnotes, glossary, gazetteer, new plates and a portfolio of the restored original illustrations.",
+  "metaDescription": "Robert Louis Stevenson at AETERNUS: Treasure Island (Annotated), the complete Cassell text of 1883 with footnotes, glossary, gazetteer, new plates and a free portfolio of the historic illustrations.",
   "bioKicker": "Author &amp; context",
   "bioTitle": "From Edinburgh<br>to Vailima",
   "bioLede": "Born into a family of lighthouse engineers, Stevenson chose the sea of stories instead.",
@@ -1310,12 +1310,14 @@ module.exports.push({
   "gridClass": "single-item",
   "extras": {
     "kicker": "For readers",
-    "title": "The original illustrations",
-    "text": "The pictures that first went to sea with this story belong to its history. For readers who wish to keep them beside the book, we are restoring the historic imagery from period copies as a free printable portfolio in A4 and US Letter: for framing, for cutting out, or simply for looking at.",
+    "title": "The historic illustrations",
+    "text": "The pictures that first went to sea with this story belong to its history. For readers who wish to keep them beside the book, we have reconstructed the historic imagery after period copies: free for your personal use, for framing, for cutting out, or simply for looking at. These are reconstructions, not facsimiles; faces and small details may differ from the printed originals. Every download includes a letter from the publisher.",
     "items": [
-      ["The map of Treasure Island", "From the first edition of 1883, in colour and in black and white"],
-      ["The Cassell wood engravings", "Twenty-five engravings from Cassell’s illustrated edition"],
-      ["N. C. Wyeth’s paintings", "The celebrated colour plates of 1911, with cover and endpapers"]
+      ["The map of Treasure Island", "From the first edition of 1883, in colour and in black and white, as image and as scalable vector file", "/assets/downloads/treasure-island/Treasure-Island_Map-1883.zip", "Download ZIP · 6 MB"],
+      ["The Cassell wood engravings", "Twenty-five engravings from Cassell’s illustrated edition of 1885", "/assets/downloads/treasure-island/Treasure-Island_Cassell-Engravings-1885.zip", "Download ZIP · 22 MB"],
+      ["N. C. Wyeth’s paintings", "The colour plates of 1911, with cover, endpapers and title page", "/assets/downloads/treasure-island/Treasure-Island_Wyeth-Paintings-1911.zip", "Download ZIP · 8 MB"],
+      ["Printable portfolio · A4", "All forty pictures, each on its own page", "/assets/downloads/treasure-island/Treasure-Island_Historic-Pictures_Portfolio_A4.pdf", "Download PDF · 25 MB"],
+      ["Printable portfolio · US Letter", "All forty pictures, each on its own page", "/assets/downloads/treasure-island/Treasure-Island_Historic-Pictures_Portfolio_US-Letter.pdf", "Download PDF · 25 MB"]
     ],
     "status": "In preparation"
   },
