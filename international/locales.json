@@ -28,7 +28,8 @@
     "es": {
       "paths": [
         "es/index.html",
-        "es/bernal-diaz/index.html"
+        "es/bernal-diaz/index.html",
+        "es/cabeza-de-vaca/index.html"
       ],
       "reason": "Verleger 2026-09-26: spanische Landingpage der Historia verdadera (BDD_001) auf der englischen Website; die spanische Ausgabe verweist intern wie extern hierher. Keine Übersetzung der Website, Sprache es bleibt als Website-Sprache abgeschaltet."
     }
