@@ -860,6 +860,27 @@
       "landingUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/"
+    },
+    {
+      "id": "korti-khartum",
+      "title": "From Korti to Khartum (Illustrated)",
+      "author": "Sir Charles William Wilson",
+      "year": "1885",
+      "region": "africa",
+      "location": [
+        32.5599,
+        15.5007
+      ],
+      "place": "Khartum, Sudan – Korti, Bayuda-Wüste, Abu Klea, Gubat",
+      "status": "In Vorbereitung",
+      "statusDetail": "Englische Ausgabe – Taschenbuch, Hardcover und Kindle in Vorbereitung",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-from-korti-to-khartum-wilson-en-20261006.webp",
+      "subtitle": "",
+      "summary": "Der Entsatzzug zu Gordon: Marsch der Desert Column durch die Bayuda, Abu Klea und Abu Kru, die letzte Fahrt auf dem Nil – und Khartum, zwei Tage zu spät.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/charles-william-wilson/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/charles-william-wilson/"
     }
   ],
   "links": [
@@ -1057,6 +1078,16 @@
       "source": "kabul",
       "target": "everest",
       "reason": "Grenzräume Britisch-Indiens: Afghanistan, Himalaya und Tibet"
+    },
+    {
+      "source": "korti-khartum",
+      "target": "prempeh",
+      "reason": "Britische Expeditionskorps Afrikas: Nil 1885 und Aschanti 1896"
+    },
+    {
+      "source": "korti-khartum",
+      "target": "kabul",
+      "reason": "Feldzüge des späten Empire, von Teilnehmern geschrieben"
     }
   ]
 }

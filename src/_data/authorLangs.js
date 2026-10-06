@@ -49,7 +49,9 @@ const AVAILABLE = {
   // Nur Englisch: Treasure Island ist eine englische Originalausgabe (RLS_001 EN, Cassell 1883).
   "robert-louis-stevenson": ["en"],
   // Nur Englisch: Recollections of the Kabul Campaign ist eine englische Originalausgabe (JDU_001 EN).
-  "joshua-duke": ["en"]
+  "joshua-duke": ["en"],
+  // Nur Englisch: From Korti to Khartum ist eine englische Originalausgabe (CWW_001 EN, Blackwood 1885).
+  "charles-william-wilson": ["en"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };
