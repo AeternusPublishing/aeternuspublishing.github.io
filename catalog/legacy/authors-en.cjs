@@ -1338,3 +1338,88 @@ module.exports.push({
     }
   ]
 });
+
+// Joshua Duke (JDU_001-EN, Recollections of the Kabul Campaign, 1879 & 1880, London 1883). The printed QR code of
+// the English edition points to /authors/joshua-duke/. Copy follows the edition's apparatus
+// (04_PARATEXT/PARATEXT_V6: Joshua Duke - Surgeon of the Frontier, preface, back-cover text). No portrait of Duke
+// is known to the publisher; the page carries none. Print and Kindle editions are not yet at Amazon: ISBNs and
+// list prices only, no retailer links. A second edition in modern English follows.
+module.exports.push({
+  "slug": "joshua-duke",
+  "name": "Joshua Duke",
+  "brand": "AETERNUS",
+  "monogram": "JDU",
+  "dates": "1847–1920",
+  "seriesClass": "series-green",
+  "preview": true,
+  "previewStatus": "Paperback, hardcover and Kindle forthcoming &middot; ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "",
+    "alt": "",
+    "modern": false
+  },
+  "schema": {
+    "description": "Medical officer of the Bengal Medical Service who accompanied the Kabul Field Force in the Second Anglo-Afghan War and wrote Recollections of the Kabul Campaign, 1879 & 1880."
+  },
+  "eyebrow": "Green &middot; Military, expeditions and frontiers",
+  "tagline": "The Great Game seen from the road, the battlefield and the hospital tent.",
+  "intro": "A medical officer of the Bengal service, Duke went into Afghanistan with the Kabul Field Force under Sir Frederick Roberts. <i>Recollections of the Kabul Campaign, 1879 &amp; 1880</i> (1883) follows the army through the occupation of Kabul, the defence of Sherpur and the march towards Kandahar.",
+  "metaDescription": "Joshua Duke at AETERNUS: Recollections of the Kabul Campaign, 1879 & 1880 (London 1883), a surgeon's account of the Second Anglo-Afghan War in the text of the first edition, with seven restored plates and a map.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "Surgeon<br>of the Frontier",
+  "bioLede": "Duke did not command a brigade or determine imperial strategy. He saw what strategy required of the men who carried it out.",
+  "blocks": [
+    {
+      "h": "A medical career in India",
+      "p": [
+        "Joshua Duke, 1847–1920, entered the Bengal Medical Service and spent much of his professional life within India and its frontier regions, later holding appointments in Central India and Kashmir. After retirement in 1902 he returned once more to medical service during the First World War, serving again between 1914 and 1917.",
+        "His writings extended beyond military recollection into questions of diet, cholera, snakebite and other practical problems encountered during a long medical career in India, yet it was the Afghan campaign of 1879–1880 that furnished the experience from which his most enduring book arose."
+      ]
+    },
+    {
+      "h": "From Gilgit to London",
+      "p": [
+        "Duke began working from his notes in 1881 at Gilgit, close to the extreme northern marches of British India, and completed the manuscript after his return to Amritsar. A privately printed version appeared in 1882; Sir Frederick Roberts annotated a copy, and a number of those observations were incorporated into the London edition issued by W. H. Allen in 1883.",
+        "The recollections were therefore written while the campaign was still close enough for its ground to remain more than geography and its dead more than names upon monuments."
+      ]
+    },
+    {
+      "h": "The surgeon’s testimony",
+      "p": [
+        "The surgeon occupies a singular place within an army: he belongs wholly to the force, moves with its columns, shares its risks and depends upon its military success, yet those who arrive before him wounded continually strip the language of campaigning back to physical fact.",
+        "The volume stands beneath the memory of Lieutenant-Colonel Francis Brownlow, C.B., commanding the 72nd (Duke of Albany’s Own Highlanders) Regiment of Foot, killed at Kandahar, and Brevet-Major John Cook, V.C., of the 5th Goorkha Regiment, mortally wounded during the fighting before Kabul. Duke remembered both men as companions taken by the campaign."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Green"],
+    ["Text", "English · first edition, London 1883"],
+    ["Print edition", "366 pages · frontispiece · seven restored plates · one map"],
+    ["Formats", "Paperback · Hardcover · Kindle (forthcoming)"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "Recollections of the Kabul Campaign",
+  "worksIntro": "The complete text of the first edition of 1883, read against the page images of three copies of that printing; the seven plates and the map restored after the first edition; frontispiece of Lord Roberts after John Singer Sargent; author profile, preface, regimental register and afterword. Paperback, hardcover and Kindle editions are forthcoming; ordering links will follow when available. An edition in modern English is in preparation.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-recollections-kabul-campaign-duke-en-20261006", "title": "Recollections<br>of the Kabul Campaign" },
+      "meta": "Military history · Afghanistan · 1883",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880",
+      "subtitle": "",
+      "status": "Forthcoming",
+      "formats": [
+        {"name": "Paperback", "isbn": "978-3-67605-125-5", "price": "US list price $17.99", "links": []},
+        {"name": "Hardcover", "isbn": "978-3-67605-126-2", "price": "US list price $27.99", "links": []},
+        {"name": "Kindle", "isbn": "978-3-67605-127-9", "price": "US list price $9.99", "links": []}
+      ],
+      "modal": {
+        "metadata": "AETERNUS · Green Series · 366 print pages",
+        "summary": "Beyond the North-West Frontier of British India lay Afghanistan: mountain kingdom, strategic barrier and one of the great contested spaces of the nineteenth-century struggle later remembered as the Great Game. Into that country went the Kabul Field Force under Sir Frederick Roberts. Joshua Duke went with it.",
+        "sample": "“The book is thoroughly readable throughout. The author seems a careful observer, and has the gift of describing what he sees.” (<i>The Spectator</i>, 25 August 1883.) A medical officer of the Bengal service, Duke witnessed a campaign fought across mountain passes, fortified heights and hostile valleys, through the occupation of Kabul, the defence of Sherpur and the final march southward towards Kandahar. Yet Duke was a surgeon before he was a chronicler. He knew that every advance left wounded men behind it, and that military glory acquires its meaning only when the cost is remembered beside the achievement.",
+        "status": "Forthcoming · ordering links to follow"
+      }
+    }
+  ]
+});

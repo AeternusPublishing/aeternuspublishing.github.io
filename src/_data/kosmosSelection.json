@@ -839,6 +839,27 @@
       "landingUrl": "https://aeternus-verlag.de/en/authors/robert-louis-stevenson/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/en/authors/robert-louis-stevenson/"
+    },
+    {
+      "id": "kabul",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880",
+      "author": "Joshua Duke",
+      "year": "1883",
+      "region": "asia",
+      "location": [
+        69.172,
+        34.528
+      ],
+      "place": "Kabul, Afghanistan – Kurram, Sherpur, Marsch nach Kandahar",
+      "status": "In Vorbereitung",
+      "statusDetail": "Englische Ausgabe – Taschenbuch, Hardcover und Kindle in Vorbereitung",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-recollections-kabul-campaign-duke-en-20261006.webp",
+      "subtitle": "",
+      "summary": "Der Zweite Anglo-Afghanische Krieg aus der Sicht eines Arztes der Kabul Field Force: Einnahme Kabuls, Verteidigung von Sherpur und der Marsch nach Kandahar.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/"
     }
   ],
   "links": [
@@ -1026,6 +1047,16 @@
       "source": "treasure-island",
       "target": "bevis",
       "reason": "Jungen, Boote und Abenteuer der Bernsteinreihe"
+    },
+    {
+      "source": "kabul",
+      "target": "lady-sale",
+      "reason": "Kabul zweimal: der Rückzug von 1842 und der Feldzug von 1879–1880"
+    },
+    {
+      "source": "kabul",
+      "target": "everest",
+      "reason": "Grenzräume Britisch-Indiens: Afghanistan, Himalaya und Tibet"
     }
   ]
 }

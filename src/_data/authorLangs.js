@@ -47,7 +47,9 @@ const AVAILABLE = {
   // Nur Englisch: The Epic of Mount Everest ist eine englische Originalausgabe (FEY_001 EN).
   "francis-younghusband": ["en"],
   // Nur Englisch: Treasure Island ist eine englische Originalausgabe (RLS_001 EN, Cassell 1883).
-  "robert-louis-stevenson": ["en"]
+  "robert-louis-stevenson": ["en"],
+  // Nur Englisch: Recollections of the Kabul Campaign ist eine englische Originalausgabe (JDU_001 EN).
+  "joshua-duke": ["en"]
 };
 
 const LABEL = { de: "DE", en: "EN", es: "ES", pl: "PL" };
