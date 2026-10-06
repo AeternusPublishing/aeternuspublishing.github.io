@@ -1423,3 +1423,92 @@ module.exports.push({
     }
   ]
 });
+
+// Sir Charles William Wilson (CWW_001-EN, From Korti to Khartum, Edinburgh and London 1885). The printed QR code of
+// the English edition points to /authors/charles-william-wilson/. Copy follows the edition's apparatus
+// (04_PARATEXT/CWW001_EN_PARATEXTE_V7: author profile "Soldier, Engineer, Surveyor and Servant of Empire",
+// the back-cover text of 19 September 2026 and the afterword). Portrait: the Lafayette photograph from
+// Sir Charles M. Watson, The Life of Major-General Sir Charles William Wilson, John Murray, London 1909 - the
+// same plate the book carries. Print and Kindle editions are not yet at Amazon: ISBNs and list prices only,
+// no retailer links.
+module.exports.push({
+  "slug": "charles-william-wilson",
+  "name": "Sir Charles William Wilson",
+  "brand": "AETERNUS",
+  "monogram": "CWW",
+  "dates": "1836–1905",
+  "seriesClass": "series-green",
+  "preview": true,
+  "previewStatus": "Paperback, hardcover and Kindle forthcoming · ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-wilson",
+    "alt": "Sir Charles William Wilson, photograph by Lafayette of Dublin, from Watson's Life of 1909",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1836-03-14",
+    "deathDate": "1905-10-25",
+    "description": "Royal Engineer, surveyor and Chief of Intelligence of the Nile Expedition, who took command of the Desert Column after Sir Herbert Stewart was mortally wounded and made the final ascent towards Khartoum."
+  },
+  "eyebrow": "Green · Military, expeditions and frontiers",
+  "tagline": "He reached Khartoum forty-eight hours too late.",
+  "intro": "Royal Engineer, surveyor of Jerusalem and Chief of Intelligence of the Nile Expedition, Wilson crossed the Bayuda with the Desert Column, took command when Sir Herbert Stewart was mortally wounded, and boarded Gordon’s armed steamers for the last ascent. <i>From Korti to Khartum</i> (1885) is his own record of that march.",
+  "metaDescription": "Sir Charles William Wilson at AETERNUS: From Korti to Khartum (1885), the journal of the Desert March and the last ascent towards Gordon's Khartoum, in the text of the first edition with thirteen redrawn sketch plans.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "The map is<br>earned before<br>it is drawn",
+  "bioLede": "An officer in whom engineer, geographer, intelligence chief and field commander were one profession.",
+  "blocks": [
+    {
+      "h": "Engineer and surveyor",
+      "p": [
+        "Born at Liverpool on 14 March 1836, Wilson entered the Royal Engineers at nineteen. In 1858 he became secretary to the British Boundary Commission surveying the forty-ninth parallel between the Rocky Mountains and the Pacific, where surveying itself became expeditionary work against distance.",
+        "In 1864–1865 he commanded the Royal Engineers party responsible for the Ordnance Survey of Jerusalem, work that transformed the modern cartography of the city and placed British geographical investigation in Palestine on a scientific footing."
+      ]
+    },
+    {
+      "h": "Intelligence and diplomacy",
+      "p": [
+        "After returning to Britain he served in the Topographical Department of the War Office and later in the Intelligence Department as Assistant Quartermaster-General, organising the geographical and political knowledge on which British military planning increasingly depended.",
+        "Special missions and boundary commissions in the Balkans and the Ottoman Empire followed; from 1879 to 1882 he was British Consul-General in Anatolia. When Britain intervened in Egypt in 1882 he accompanied Sir Garnet Wolseley’s expedition."
+      ]
+    },
+    {
+      "h": "The Desert Column",
+      "p": [
+        "Wilson joined the Nile Expedition of 1884–1885 as Chief of Intelligence and went with the Desert Column across the Bayuda. At Abu Klea on 17 January 1885 the British square was penetrated and closed again; two days later, near Abu Kru, Sir Herbert Stewart was mortally wounded and command passed without warning to Wilson, with some fourteen hundred exhausted men still short of the Nile.",
+        "He brought the column to the river at Gubat, then went upstream himself aboard the steamers <i>Bordein</i> and <i>Talahawiyeh</i>, four days under rifle and artillery fire. On the afternoon of 28 January Khartoum came into view. The Mahdist banners stood over the city; it had fallen in the early hours of 26 January, and Gordon was dead."
+      ]
+    }
+  ],
+  "facts": [
+    ["Series", "Green"],
+    ["Text", "English · first edition, Edinburgh and London 1885"],
+    ["Print edition", "220 pages · frontispiece · thirteen redrawn sketch plans · two Admiralty plates"],
+    ["Formats", "Paperback · Hardcover · Kindle (forthcoming)"]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "From Korti to Khartum",
+  "worksIntro": "The complete text of the first edition of 1885, read word by word against the page images of two copies of that printing. All thirteen sketch plans of the first edition have been drawn afresh from it, line for line, with every departure named in the edition; two Admiralty plates of the Gardner gun, a frontispiece portrait of Sir Herbert Stewart and the author’s own portrait accompany them. Preface, author profile, a register of the regiments and corps of the Desert Column and a publisher’s afterword complete the volume. Paperback, hardcover and Kindle editions are forthcoming; ordering links will follow when available.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": { "img": "cover-from-korti-to-khartum-wilson-en-20261006", "title": "From Korti<br>to Khartum" },
+      "meta": "Military history · Sudan · 1885",
+      "title": "From Korti to Khartum (Illustrated)",
+      "subtitle": "The Diary of the Desert Column and the Last March to Khartoum, 1884–1885",
+      "status": "Forthcoming",
+      "formats": [
+        {"name": "Paperback", "isbn": "978-3-67605-134-7", "price": "US list price $17.99", "links": []},
+        {"name": "Hardcover", "isbn": "978-3-67605-135-4", "price": "US list price $27.99", "links": []},
+        {"name": "Kindle", "isbn": "978-3-67605-136-1", "price": "US list price $9.99", "links": []}
+      ],
+      "modal": {
+        "metadata": "AETERNUS · Green Series · 220 print pages",
+        "summary": "Sudan, 1885. Khartoum is besieged and time is running out. Across the Bayuda Desert the British Desert Column drives towards the Nile in a desperate attempt to reach General Gordon. Among its officers is Sir Charles William Wilson, Royal Engineer, intelligence chief and, after the mortal wounding of Sir Herbert Stewart, commander in the field.",
+        "sample": "“The record of one of the most remarkable enterprises in military history.” (<i>The Times</i>.) He crosses the desert with the Camel Corps, fights through Abu Klea and Abu Kru, reaches the Nile and boards Gordon’s armed steamers for the final ascent towards Khartoum. He sees the city on 28 January 1885. It has fallen two days before. <i>From Korti to Khartum</i> is Wilson’s first-hand record of one of the Victorian Army’s hardest and most tragic expeditionary campaigns: a narrative of intelligence, desert warfare, logistics, command and the relentless contest between distance and time.",
+        "status": "Forthcoming · ordering links to follow"
+      }
+    }
+  ]
+});
