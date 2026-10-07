@@ -1,8 +1,12 @@
 {
   "schema_version":1,
-  "account_status":"NOT_CREATED_CONFIRMED_BY_PUBLISHER_20261007",
+  "account_status":"SANDBOX_ONBOARDED_20261007_LIVE_ACTIVATION_PENDING",
   "account_purpose":"AETERNUS own-book sales; merchant account, not Stripe Connect",
   "customer_account_required":false,
+  "configured_checkout":"Vordefinierter Bezahlvorgang / Stripe Checkout",
+  "credential_store":"Windows Credential Manager: AETERNUS/Stripe/Sandbox",
+  "email_verification_status":"PENDING_PER_DASHBOARD_GUIDE",
+  "provider_tests":{"api":"PASS","checkout":"PASS","sandbox_payment":"PASS_100_EUR_CENTS","sandbox_refund":"SUCCEEDED","webhook_delivery":"NOT_TESTED","live_payments":"NOT_ENABLED"},
   "register_url":"https://dashboard.stripe.com/register",
   "documentation_url":"https://docs.stripe.com/get-started/account/set-up",
   "public_business_draft":{"brand":"AETERNUS","website":"https://aeternus-verlag.de","support_email":"kontakt@aeternus-verlag.de"},

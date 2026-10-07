@@ -6,8 +6,8 @@
   "initial_currency": "EUR",
   "provider_billing_currency": "EUR",
   "requirements": [
-    {"id":"stripe_account","owner":"publisher","status":"NOT_CREATED","evidence":null,"description":"Verleger bestätigt am 07.10.: noch kein Stripe-Konto. Verlagseigenes Händlerkonto, Unternehmensprüfung und Auszahlungskonto benötigt; Käufer benötigen kein Konto."},
-    {"id":"stripe_test_flow","owner":"operator","status":"MISSING","evidence":null,"description":"Testschlüssel, signierter Webhook, Checkout, Zahlung und Erstattung gegen Stripe prüfen."},
+    {"id":"stripe_account","owner":"publisher","status":"SANDBOX_CREATED_LIVE_PENDING","evidence":null,"description":"AETERNUS-Sandbox am 07.10. eingerichtet und geprüft. E-Mail-Bestätigung, Unternehmensprüfung und Live-Aktivierung bleiben offen; Käufer benötigen kein Konto."},
+    {"id":"stripe_test_flow","owner":"operator","status":"WEBHOOK_PENDING","evidence":null,"description":"Testschlüssel im Windows-Tresor; API, Checkout, Zahlung und Erstattung bestanden. Signierte Webhook-Zustellung zum privaten Shop fehlt noch."},
     {"id":"lulu_production","owner":"operator","status":"MISSING","evidence":null,"description":"Separaten Produktions-API-Zugang prüfen; Sandbox-Schlüssel sind nicht übertragbar."},
     {"id":"lulu_payment","owner":"publisher","status":"MISSING","evidence":null,"description":"Zahlungsmethode und automatische Druckkosten-Zahlung im Produktionsportal einrichten und prüfen; Kunden-Stripe-Zahlung bezahlt Lulu nicht automatisch."},
     {"id":"print_approvals","owner":"production","status":"MISSING","evidence":null,"description":"Je Pilotprodukt Lulu-Profil, validierte Druckdateien, Übergabe-PASS und abgenommenes Muster mit Hashbindung."},

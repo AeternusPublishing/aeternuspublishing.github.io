@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T18:59:45.758Z",
+  "generated_at": "2026-10-07T19:12:02.494Z",
   "sales_ready": false,
   "technical_result": "REPORT_ONLY_NOT_RELEASE_AUTHORITY",
   "ready": false,
@@ -145,6 +145,7 @@
   ],
   "credentials": {
     "lulu_sandbox_local": true,
+    "stripe_sandbox_local": true,
     "stripe_test_process": false,
     "stripe_webhook_process": false
   },
@@ -171,15 +172,15 @@
     },
     {
       "path": "credential-store.py",
-      "sha256": "6c14336ffc575065f99c635c2044e69ede62841b883210a02b1018d3862e4b2b"
+      "sha256": "eda770b01962f4dfff70f03584c84750262c4caf8dab89e555efbf05f3ed1288"
     },
     {
       "path": "credentials.mjs",
-      "sha256": "8d76b5b6772fa9fd61560d06a34fb9dc5961eed6ed1eb374280b843300f6e7b7"
+      "sha256": "9cb9ad8487b51a01bb67fd93f4e28ce79053c51f7674975da1c740166e70d1f8"
     },
     {
       "path": "env.example",
-      "sha256": "1710050d7e23dc5b3f7e06e860033de36f6d9ac3b9c22e0c838db6ca2f7a80ae"
+      "sha256": "d47a623be7d9dd1746bd66062cce43fdbfd338fde855bfdfc7a111c406e76b6b"
     },
     {
       "path": "local-db.mjs",
@@ -203,7 +204,7 @@
     },
     {
       "path": "preflight.mjs",
-      "sha256": "dc782c15f79cbec9da26d23ccea2c136115986af6cbc506b10baaa86cc10a6dd"
+      "sha256": "680c38061e73ea4c9b268daab44e853fa3e42f09c3910aaf1567dfe6add44225"
     },
     {
       "path": "process.mjs",
@@ -243,15 +244,15 @@
     },
     {
       "path": "readiness.json",
-      "sha256": "a97e2159ff7d2dee72d5f2aa351ab58708f09d29d9adb893129c552454fe1ae9"
+      "sha256": "5373847ccc53b84c68b3a8548bad06e635ebc5559af164212effad9929c11a97"
     },
     {
       "path": "README.md",
-      "sha256": "50fd8340b411cf0852afb7a183c5c2117c72e14bffe52f9416dc33dc2fa8df2b"
+      "sha256": "9c09c420e1efa2fe6143dd647a9cbc8bcc633021e90f06a4a34ff2db4bb26b38"
     },
     {
       "path": "release-plan.json",
-      "sha256": "76f9d0439ddb22420424016c13e43659254e31e10e10a31ff4e2ead8f9ce8858"
+      "sha256": "31b96c0a53856509965213a2bb1798b7de1f9f6eef02dbb5aa44d93c97d7ea54"
     },
     {
       "path": "service.mjs",
@@ -259,7 +260,7 @@
     },
     {
       "path": "stripe-setup.json",
-      "sha256": "261820c5344a59b275fc7291a5926e195f1d4ba14ee32f1e708dfb43a266a649"
+      "sha256": "469a90c17af199bcbcdfc0dabb0fa05c1e29175297cdbb5a53618facc146c0bf"
     },
     {
       "path": "sync-catalog.cjs",
@@ -270,8 +271,16 @@
       "sha256": "d09e549afab9e1034d5d8424404d22913310952449146dfc827a5c51060ac72f"
     },
     {
+      "path": "verify-stripe-checkout.mjs",
+      "sha256": "e028e897f2abd17fe77e23a2287557aeb6b181b1577d07e0caec66e36e7967ba"
+    },
+    {
+      "path": "verify-stripe-payment.mjs",
+      "sha256": "1b252d1533432d41419b8096a3306d2c11f4e365261ef788aaeff04e14505952"
+    },
+    {
       "path": "verify-stripe.mjs",
-      "sha256": "ba5a52b40184e14370e3b9e42dac3c5c0d1dc11547314db9aa17d68b814cdfdb"
+      "sha256": "ee4f242209c250eba2011e8c53066405be3171dd1128fb07cc3620473232c0c0"
     },
     {
       "path": "website.cjs",

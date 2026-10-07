@@ -2,6 +2,7 @@
 import {writeFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {loadStripeCredentials} from './credentials.mjs';
 export async function verifyStripe(env,fetcher=fetch) {
   if(!env.STRIPE_KEY?.startsWith('sk_test_'))throw new Error('Stripe sandbox key missing; live keys prohibited');
   const response=await fetcher('https://api.stripe.com/v1/account',{headers:{Authorization:`Bearer ${env.STRIPE_KEY}`},signal:AbortSignal.timeout(20000)});
@@ -15,7 +16,7 @@ export async function verifyStripe(env,fetcher=fetch) {
 }
 if(process.argv[1] && fileURLToPath(import.meta.url)===process.argv[1]) {
   try {
-    const evidence=await verifyStripe(process.env);
+    const evidence=await verifyStripe(loadStripeCredentials({...process.env,MODE:'sandbox'}));
     await writeFile(new URL('./evidence/stripe-sandbox-verification.json',import.meta.url),JSON.stringify(evidence,null,2)+'\n');
     console.log(JSON.stringify(evidence));
   }catch(error){console.error(error.message);process.exitCode=2;}

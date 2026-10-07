@@ -19,7 +19,7 @@ test('Lulu verification works without Stripe and rejects a mismatched cost curre
 });
 
 test('credential loader leaves simulation and explicit process credentials unchanged',()=>{
-  for(const env of [{MODE:'simulation'},{MODE:'sandbox',LULU_CLIENT_KEY:'fixture',LULU_CLIENT_SECRET:'fixture'}])
+  for(const env of [{MODE:'simulation'},{MODE:'sandbox',LULU_CLIENT_KEY:'fixture',LULU_CLIENT_SECRET:'fixture',STRIPE_KEY:'sk_test_fixture'}])
     assert.equal(loadSandboxCredentials(env),env);
 });
 

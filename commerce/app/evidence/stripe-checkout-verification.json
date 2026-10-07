@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T19:11:33.259Z",
+  "mode": "sandbox",
+  "session_reference_sha256": "0f1aa0b7123cf5ccc72775764afbd68303df89a5036d34966235cf9b6503c906",
+  "amount_cents": 100,
+  "currency": "EUR",
+  "payment_confirmed": true,
+  "checkout_status": "complete",
+  "verification_source": "Authenticated Stripe session retrieval; not a webhook test",
+  "webhook_verified": false,
+  "print_job_created": false,
+  "test_refund_status": "succeeded",
+  "test_refund_reference_sha256": "8d392960f40f0527d7908df781448bf98a32efb9dd6c693f16f99944a2ebe09e"
+}

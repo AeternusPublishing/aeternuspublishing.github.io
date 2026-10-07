@@ -30,37 +30,48 @@ def main():
     api.CredReadW.restype = wintypes.BOOL
     api.CredFree.argtypes = [ctypes.c_void_p]
     action = sys.argv[1]
+    provider = sys.argv[2] if len(sys.argv) > 2 else 'lulu'
+    if provider not in ('lulu', 'stripe'):
+        raise ValueError('Unsupported provider')
+    target = TARGET if provider == 'lulu' else 'AETERNUS/Stripe/Sandbox'
     if action == "store":
         data = json.load(sys.stdin)
-        key, secret = data["client_key"], data["client_secret"]
-        if len(key) != 36 or not 20 <= len(secret) <= 1000:
-            raise ValueError("Unexpected credential shape")
+        if provider == 'lulu':
+            key, secret = data["client_key"], data["client_secret"]
+            if len(key) != 36 or not 20 <= len(secret) <= 1000:
+                raise ValueError("Unexpected credential shape")
+        else:
+            api_key = data['api_key']
+            if not api_key.startswith('sk_test_') or not 20 <= len(api_key) <= 1000:
+                raise ValueError('Stripe test credential required')
+            key, secret = 'Stripe sandbox', json.dumps({'api_key': api_key})
         blob = secret.encode("utf-16-le")
         buffer = (ctypes.c_ubyte * len(blob)).from_buffer_copy(blob)
-        credential = Credential(Type=1, TargetName=TARGET,
-                                Comment="AETERNUS Lulu sandbox only",
+        credential = Credential(Type=1, TargetName=target,
+                                Comment="AETERNUS sandbox only",
                                 CredentialBlobSize=len(blob), CredentialBlob=buffer,
                                 Persist=2, UserName=key)
         if not api.CredWriteW(ctypes.byref(credential), 0):
             raise ctypes.WinError(ctypes.get_last_error())
-        print(json.dumps({"stored": True, "target": TARGET}))
+        print(json.dumps({"stored": True, "target": target}))
         return
     pointer = ctypes.POINTER(Credential)()
-    if not api.CredReadW(TARGET, 1, 0, ctypes.byref(pointer)):
+    if not api.CredReadW(target, 1, 0, ctypes.byref(pointer)):
         if action == "status":
-            print(json.dumps({"stored": False, "target": TARGET}))
+            print(json.dumps({"stored": False, "target": target}))
             return
         raise ctypes.WinError(ctypes.get_last_error())
     try:
         credential = pointer.contents
         if action == "status":
-            print(json.dumps({"stored": True, "target": TARGET,
+            print(json.dumps({"stored": True, "target": target,
                               "secret_bytes": credential.CredentialBlobSize}))
         elif action == "read":
             # Read exclusively into a child-process pipe, never into shell command text or logs.
             secret = ctypes.string_at(credential.CredentialBlob,
                                       credential.CredentialBlobSize).decode("utf-16-le")
-            print(json.dumps({"client_key": credential.UserName, "client_secret": secret}))
+            print(json.dumps({"client_key": credential.UserName, "client_secret": secret})
+                  if provider == 'lulu' else secret)
         else:
             raise ValueError("Unsupported operation")
     finally:

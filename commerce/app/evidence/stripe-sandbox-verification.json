@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T19:06:30.348Z",
+  "mode": "sandbox",
+  "connectivity": "PASS",
+  "account_reference_sha256": "8728b21a06b10cd102d4bacc28360d5d54988ed030e0d08e20fdeaddb83d1f95",
+  "webhook_secret_present": false,
+  "live_activation_verified": false,
+  "checkout_tested": false,
+  "payment_created": false,
+  "refund_created": false
+}

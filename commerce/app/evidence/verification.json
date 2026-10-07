@@ -42,11 +42,12 @@
     "lulu_login": "VERIFIED_20261007",
     "lulu_sandbox_login": "VERIFIED_20261007",
     "lulu_api_test": "OAUTH_SHIPPING_COST_PASS_EUR_US_FIXTURE",
-    "stripe_api_test": "NOT_RUN_ACCOUNT_NOT_CREATED",
+    "stripe_api_test": "API_CHECKOUT_PAYMENT_REFUND_PASS_WEBHOOK_PENDING",
     "real_printing": "NOT_REQUESTED",
     "paid_calls": 0,
     "emails_sent": 0,
-    "cloud_deployment": "NOT_DEPLOYED"
+    "cloud_deployment": "NOT_DEPLOYED",
+    "stripe_account": "AETERNUS_SANDBOX_CONFIGURED_LIVE_PENDING"
   },
   "existing_website_findings": [
     "old catalogue and German HTML snapshot expectations already fail on base",

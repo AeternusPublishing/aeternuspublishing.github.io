@@ -46,9 +46,12 @@ if(process.argv[1] && fileURLToPath(import.meta.url)===process.argv[1]) {
   const vault=process.platform==='win32'?spawnSync('python',[join(root,'credential-store.py'),'status'],{encoding:'utf8',windowsHide:true}):null;
   let stored=false;
   try {stored=JSON.parse(vault?.stdout||'{}').stored===true;}catch { /* Missing vault is a finding, never log child output. */ }
+  const stripeVault=process.platform==='win32'?spawnSync('python',[join(root,'credential-store.py'),'status','stripe'],{encoding:'utf8',windowsHide:true}):null;
+  let stripeStored=false;
+  try {stripeStored=JSON.parse(stripeVault?.stdout||'{}').stored===true;}catch { /* Report only, never expose child output. */ }
   const report={schema_version:1,generated_at:new Date().toISOString(),sales_ready:result.findings.length===0,
     technical_result:'REPORT_ONLY_NOT_RELEASE_AUTHORITY',...result,
-    credentials:{lulu_sandbox_local:stored,stripe_test_process:!!process.env.STRIPE_KEY?.startsWith('sk_test_'),stripe_webhook_process:!!process.env.STRIPE_WEBHOOK_SECRET},
+    credentials:{lulu_sandbox_local:stored,stripe_sandbox_local:stripeStored,stripe_test_process:!!process.env.STRIPE_KEY?.startsWith('sk_test_'),stripe_webhook_process:!!process.env.STRIPE_WEBHOOK_SECRET},
     files:files.sort((a,b)=>a.path.localeCompare(b.path)),paid_calls:0,uploads:0};
   // Runtime is still deliberately sandbox-only even if external approvals have arrived.
   report.sales_ready=false;
