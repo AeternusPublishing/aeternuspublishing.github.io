@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T19:53:32.780Z",
+  "generated_at": "2026-10-07T20:16:03.970Z",
   "sales_ready": false,
   "technical_result": "REPORT_ONLY_NOT_RELEASE_AUTHORITY",
   "ready": false,
@@ -78,11 +78,6 @@
       "owner": "publisher"
     },
     {
-      "id": "stripe_test_flow",
-      "code": "EVIDENCE_OR_APPROVAL_MISSING",
-      "owner": "operator"
-    },
-    {
       "id": "lulu_production",
       "code": "EVIDENCE_OR_APPROVAL_MISSING",
       "owner": "operator"
@@ -109,11 +104,6 @@
     },
     {
       "id": "mail_delivery",
-      "code": "EVIDENCE_OR_APPROVAL_MISSING",
-      "owner": "operator"
-    },
-    {
-      "id": "private_hosting",
       "code": "EVIDENCE_OR_APPROVAL_MISSING",
       "owner": "operator"
     },
@@ -216,7 +206,7 @@
     },
     {
       "path": "private-hosting-plan.json",
-      "sha256": "b2380f44bb9d561fde6bf5ed37c8d735b1b18b1092cf72dafc79b1181bdca490"
+      "sha256": "6de6f6861d3e176e882cb0d514c1cc6c31c7469f1f71e08ef42812a29715ef12"
     },
     {
       "path": "process.mjs",
@@ -229,6 +219,10 @@
     {
       "path": "providers.mjs",
       "sha256": "6364ceb44d017396a606f0bc39debac29e1c6f051477b6756d74f4b2b6a9d5b2"
+    },
+    {
+      "path": "provision-cloud-webhook.mjs",
+      "sha256": "9b741b1104c6fb2d61f023e271a91116bc53cadc95c0621fa6d80a40b113e4a7"
     },
     {
       "path": "provision-secrets.mjs",
@@ -252,7 +246,7 @@
     },
     {
       "path": "public/shop.js",
-      "sha256": "a5c416fe7b027e443118be05367cf4d5ab09bf94af0bde04b48864ac5c50112d"
+      "sha256": "61c116fbe61e46819c680d234f708f3f9284e8a191733316b2a964af4a9ee97d"
     },
     {
       "path": "public/style.css",
@@ -260,15 +254,15 @@
     },
     {
       "path": "readiness.json",
-      "sha256": "766ed833e3ea5acd68e25703c7f194bb76aef5ec4482e299309e5eacad3aee05"
+      "sha256": "473f0876a07f6a20cff10b34a602b504b38449a205f9d1ae4c4430aa05b1dacd"
     },
     {
       "path": "README.md",
-      "sha256": "ea24bd8fe390e2b45aca1a7429c1c40e49bf94bfe98f680d3ca4b3be4e6d9004"
+      "sha256": "8729e811683f26dabe8df0dbf6cd9a5e83e784b343045a102d0550a3ee874a13"
     },
     {
       "path": "release-plan.json",
-      "sha256": "f67800f739b1200813cae123c5e95c382bdc1bd534de85ee2839460facc3b9ad"
+      "sha256": "33e66ef6b81a05b0e9a73f66fc95dd7a5fa18058d34a9d8b0dd1f7ede7eaf69b"
     },
     {
       "path": "service.mjs",
@@ -281,6 +275,14 @@
     {
       "path": "sync-catalog.cjs",
       "sha256": "4bccd9d9bff706851ea2a428a705c980c05d3447609b266cc0ac681f75003d57"
+    },
+    {
+      "path": "verify-cloud-checkout.mjs",
+      "sha256": "1c1c58f871f273da641d3bcdc432088beb5bd6c127140e8f261e1f97d9e60a26"
+    },
+    {
+      "path": "verify-cloud-restore.mjs",
+      "sha256": "5c4b1edcaa4586f7aa53198b516dc5ac43754f7511ca66145049f26a7381c99a"
     },
     {
       "path": "verify-lulu.mjs",
@@ -312,7 +314,7 @@
     },
     {
       "path": "wrangler.jsonc",
-      "sha256": "42048853e177d35530973f99ae347d80d38116a665c84540a7f50a0c2b4c4492"
+      "sha256": "fe1bde9cbec6f461473011db2d404674cf1a7a0dbd9c3206c9201f41e504a810"
     }
   ],
   "paid_calls": 0,

@@ -26,11 +26,12 @@ function render(){
     const card=node('article',undefined,'book'); let art=node('div',undefined,'book-art');
     art.append(node('span',b.author,'small'),node('strong',b.title),node('span','AETERNUS · VORSCHAU','small'));
     if(b.cover){art=node('img');art.src=b.cover;art.alt=b.title;art.className='book-image';art.loading='lazy';}
-    const copy=node('div');copy.append(node('span',b.language==='en'?tr('ENGLISCHE AUSGABE','ENGLISH EDITION'):tr('DEUTSCHE AUSGABE','GERMAN EDITION'),'eyebrow'),node('h3',b.title),node('p',b.author),node('p',`${b.format} · ISBN ${b.isbn}`,'format'),node('p',money(b.prices[currency],currency),'price'));
-    const add=node('button',tr('In den Warenkorb','Add to basket'),'primary'); add.onclick=()=>{cart[b.sku]=Math.min(10,(cart[b.sku]||0)+1);changed();};copy.append(add);card.append(art,copy);list.append(card);
+    const available=(catalog.simulation||b.approved)&&Number.isSafeInteger(b.prices[currency])&&b.prices[currency]>0;
+    const copy=node('div');copy.append(node('span',b.language==='en'?tr('ENGLISCHE AUSGABE','ENGLISH EDITION'):tr('DEUTSCHE AUSGABE','GERMAN EDITION'),'eyebrow'),node('h3',b.title),node('p',b.author),node('p',`${b.format} · ISBN ${b.isbn}`,'format'),node('p',available?money(b.prices[currency],currency):tr('Noch nicht freigegeben','Not yet approved'),'price'));
+    const add=node('button',available?tr('In den Warenkorb','Add to basket'):tr('Noch nicht bestellbar','Not available yet'),'primary'); add.disabled=!available;add.onclick=()=>{cart[b.sku]=Math.min(10,(cart[b.sku]||0)+1);changed();};copy.append(add);card.append(art,copy);list.append(card);
   }
   $('#cart-items').replaceChildren();let sum=0,count=0;
-  for(const [sku,quantity] of Object.entries(cart)){const b=catalog.items.find(i=>i.sku===sku);if(!b)continue;
+  for(const [sku,quantity] of Object.entries(cart)){const b=catalog.items.find(i=>i.sku===sku);if(!b||(!catalog.simulation&&!b.approved)||!Number.isSafeInteger(b.prices[currency])||b.prices[currency]<=0){delete cart[sku];continue;}
     const row=node('div',undefined,'cart-row');row.append(node('strong',`${b.title} · ${b.format}`));
     const input=node('input');input.type='number';input.min='1';input.max='10';input.value=quantity;input.setAttribute('aria-label',tr('Anzahl','Quantity'));input.onchange=()=>{cart[sku]=Math.max(1,Math.min(10,Number(input.value)||1));changed();};
     const remove=node('button',tr('Entfernen','Remove'));remove.onclick=()=>{delete cart[sku];changed();};

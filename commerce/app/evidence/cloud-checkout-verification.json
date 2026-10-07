@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T20:10:59.253Z",
+  "mode": "sandbox",
+  "transport": "Dedicated Stripe webhook to Cloudflare Worker and D1",
+  "real_stripe_payment_delivery": true,
+  "invoice_drafts": 1,
+  "receipt_drafts": 1,
+  "payment_events": 1,
+  "final_order_status": "REFUNDED",
+  "refunded_cents": 100,
+  "amount_cents": 100,
+  "currency": "EUR",
+  "lulu_job_created": false,
+  "emails_sent": 0,
+  "checkout_fixture_is_not_product_approval": true,
+  "print_fixture_blocked": true,
+  "print_block_status": 409
+}

@@ -1,22 +1,103 @@
 {
   "schema_version": 1,
   "live_enabled": false,
-  "pilot_skus": ["CBB_001_EN_PB", "CBB_001_EN_HC"],
+  "pilot_skus": [
+    "CBB_001_EN_PB",
+    "CBB_001_EN_HC"
+  ],
   "pilot_selection_status": "CANDIDATES_NOT_RELEASED",
   "initial_currency": "EUR",
   "provider_billing_currency": "EUR",
   "requirements": [
-    {"id":"stripe_account","owner":"publisher","status":"SANDBOX_CREATED_LIVE_PENDING","evidence":null,"description":"AETERNUS-Sandbox am 07.10. eingerichtet und geprüft. E-Mail-Bestätigung, Unternehmensprüfung und Live-Aktivierung bleiben offen; Käufer benötigen kein Konto."},
-    {"id":"stripe_test_flow","owner":"operator","status":"LOCAL_WEBHOOK_VERIFIED_CLOUD_PENDING","evidence":null,"description":"Lokale echte signierte Zustellung über Stripe CLI bestanden, einschließlich PAID, Belegentwürfen, Duplikatsperre und REFUNDED. Cloud-Webhook-Abnahme fehlt noch; evidence/stripe-webhook-verification.json."},
-    {"id":"lulu_production","owner":"operator","status":"MISSING","evidence":null,"description":"Separaten Produktions-API-Zugang prüfen; Sandbox-Schlüssel sind nicht übertragbar."},
-    {"id":"lulu_payment","owner":"publisher","status":"MISSING","evidence":null,"description":"Zahlungsmethode und automatische Druckkosten-Zahlung im Produktionsportal einrichten und prüfen; Kunden-Stripe-Zahlung bezahlt Lulu nicht automatisch."},
-    {"id":"print_approvals","owner":"production","status":"MISSING","evidence":null,"description":"Je Pilotprodukt Lulu-Profil, validierte Druckdateien, Übergabe-PASS und abgenommenes Muster mit Hashbindung."},
-    {"id":"commercial_policy","owner":"publisher","status":"MISSING","evidence":null,"description":"Preise und Margen, freigegebene Lieferländer, Steuern und Währungsstrategie."},
-    {"id":"legal_accounting","owner":"advisor","status":"MISSING","evidence":null,"description":"Verkäuferstammdaten, Rechtstexte, Rechnungen/Gutschriften, Datenschutz und Aufbewahrung fachlich abnehmen."},
-    {"id":"mail_delivery","owner":"operator","status":"MISSING","evidence":null,"description":"Absender und Versanddienst konfigurieren; derzeit ausschließlich Outbox-Entwürfe."},
-    {"id":"private_hosting","owner":"operator","status":"WORKER_STAGED_ZERO_TRUST_ACTIVATION_PENDING","evidence":null,"description":"D1 und gesperrter Worker ohne Route provisioniert, Sandbox-Secrets und Backup geprüft. Dashboard angemeldet; Verleger muss Vertrags-/Abrechnungsschritt für Zero Trust Free übernehmen. Access, Cloud-Wiederherstellung und Webhook-Abnahme offen; private-hosting-plan.json."},
-    {"id":"production_runtime","owner":"operator","status":"NOT_ENABLED","evidence":null,"description":"Separaten geprüften Produktionsbetrieb bauen; derzeit verweigert die Anwendung jeden Live-Modus."},
-    {"id":"end_to_end","owner":"operator","status":"MISSING","evidence":null,"description":"Zahlung bis Produktion und Versand, Widerruf, Fehlerabgleich und Erstattung nachweisen."},
-    {"id":"publisher_release","owner":"publisher","status":"NOT_AUTHORIZED","evidence":null,"description":"Gesondertes Verlegerwort für den hashgebundenen Gesamtstand; technisches PASS ist keine Verkaufsfreigabe."}
+    {
+      "id": "stripe_account",
+      "owner": "publisher",
+      "status": "SANDBOX_CREATED_LIVE_PENDING",
+      "evidence": null,
+      "description": "AETERNUS-Sandbox am 07.10. eingerichtet und geprüft. E-Mail-Bestätigung, Unternehmensprüfung und Live-Aktivierung bleiben offen; Käufer benötigen kein Konto."
+    },
+    {
+      "id": "stripe_test_flow",
+      "owner": "operator",
+      "status": "VERIFIED",
+      "evidence": {
+        "path": "commerce/app/evidence/cloud-checkout-verification.json",
+        "sha256": "b44be3e1a161f30ef935c15b995321f3e46552143bc1fac1e8cccaf82879cf56"
+      },
+      "description": "Echte Stripe-Testzustellung lokal und direkt an Cloudflare bestanden: PAID, genau ein Rechnungs-/Nachrichtenentwurf, Drucksperre und Vollerstattung REFUNDED. Keine Produktfreigabe."
+    },
+    {
+      "id": "lulu_production",
+      "owner": "operator",
+      "status": "MISSING",
+      "evidence": null,
+      "description": "Separaten Produktions-API-Zugang prüfen; Sandbox-Schlüssel sind nicht übertragbar."
+    },
+    {
+      "id": "lulu_payment",
+      "owner": "publisher",
+      "status": "MISSING",
+      "evidence": null,
+      "description": "Zahlungsmethode und automatische Druckkosten-Zahlung im Produktionsportal einrichten und prüfen; Kunden-Stripe-Zahlung bezahlt Lulu nicht automatisch."
+    },
+    {
+      "id": "print_approvals",
+      "owner": "production",
+      "status": "MISSING",
+      "evidence": null,
+      "description": "Je Pilotprodukt Lulu-Profil, validierte Druckdateien, Übergabe-PASS und abgenommenes Muster mit Hashbindung."
+    },
+    {
+      "id": "commercial_policy",
+      "owner": "publisher",
+      "status": "MISSING",
+      "evidence": null,
+      "description": "Preise und Margen, freigegebene Lieferländer, Steuern und Währungsstrategie."
+    },
+    {
+      "id": "legal_accounting",
+      "owner": "advisor",
+      "status": "MISSING",
+      "evidence": null,
+      "description": "Verkäuferstammdaten, Rechtstexte, Rechnungen/Gutschriften, Datenschutz und Aufbewahrung fachlich abnehmen."
+    },
+    {
+      "id": "mail_delivery",
+      "owner": "operator",
+      "status": "MISSING",
+      "evidence": null,
+      "description": "Absender und Versanddienst konfigurieren; derzeit ausschließlich Outbox-Entwürfe."
+    },
+    {
+      "id": "private_hosting",
+      "owner": "operator",
+      "status": "VERIFIED",
+      "evidence": {
+        "path": "commerce/app/evidence/private-hosting-preparation.json",
+        "sha256": "5acdb22772c5d6e6119fc38a3102a5efc1059143f7219c61df499348e3e9b224"
+      },
+      "description": "Operator-only Access, authentifizierte Verwaltung, D1, direkter Stripe-Testwebhook, Testzahlung und Erstattung geprüft. Backup lokal und in separater Cloud-Datenbank erfolgreich wiederhergestellt. Keine Live-Freigabe."
+    },
+    {
+      "id": "production_runtime",
+      "owner": "operator",
+      "status": "NOT_ENABLED",
+      "evidence": null,
+      "description": "Separaten geprüften Produktionsbetrieb bauen; derzeit verweigert die Anwendung jeden Live-Modus."
+    },
+    {
+      "id": "end_to_end",
+      "owner": "operator",
+      "status": "MISSING",
+      "evidence": null,
+      "description": "Zahlung bis Produktion und Versand, Widerruf, Fehlerabgleich und Erstattung nachweisen."
+    },
+    {
+      "id": "publisher_release",
+      "owner": "publisher",
+      "status": "NOT_AUTHORIZED",
+      "evidence": null,
+      "description": "Gesondertes Verlegerwort für den hashgebundenen Gesamtstand; technisches PASS ist keine Verkaufsfreigabe."
+    }
   ]
 }

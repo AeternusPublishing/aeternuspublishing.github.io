@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "verified_date": "2026-10-07",
-  "state": "LOCAL_TEST_READY",
+  "state": "PRIVATE_CLOUD_TEST_READY",
   "live_enabled": false,
   "runtime": {
     "node": "26.7.0",
@@ -32,7 +32,11 @@
     "simulated Lulu submission",
     "electronic withdrawal receipt",
     "simulated full refund",
-    "invoice draft and readable outbox"
+    "invoice draft and readable outbox",
+    "authenticated Cloudflare Access and private cloud catalog",
+    "cloud admin and D1",
+    "actual Stripe cloud webhook PAID and full refund REFUNDED",
+    "unapproved prices hidden and purchase buttons disabled"
   ],
   "backup": {
     "sqlite_integrity_check": "ok",
@@ -42,12 +46,12 @@
     "lulu_login": "VERIFIED_20261007",
     "lulu_sandbox_login": "VERIFIED_20261007",
     "lulu_api_test": "OAUTH_SHIPPING_COST_PASS_EUR_US_FIXTURE",
-    "stripe_api_test": "REAL_LOCAL_SIGNED_WEBHOOK_PAID_DRAFTS_REFUND_PASS_CLOUD_PENDING",
+    "stripe_api_test": "REAL_CLOUD_SIGNED_WEBHOOK_PAID_DRAFTS_REFUND_PASS",
     "lulu_product_preparation": "PB_HC_DIMENSIONS_PASS_NOT_FILE_APPROVAL",
     "real_printing": "NOT_REQUESTED",
     "paid_calls": 0,
     "emails_sent": 0,
-    "cloud_deployment": "D1_WORKER_STAGED_NO_ROUTE_ACCESS_PENDING_SECRETS_AUTHORIZED",
+    "cloud_deployment": "PRIVATE_ACCESS_WORKER_D1_SANDBOX_VERIFIED",
     "stripe_account": "AETERNUS_SANDBOX_CONFIGURED_LIVE_PENDING"
   },
   "existing_website_findings": [
@@ -59,9 +63,9 @@
   "machine_operations": {
     "preflight": "BLOCKED_WITH_HASH_MANIFEST",
     "monitor": "READ_ONLY_PASS_DATABASE_INTEGRITY_OK",
-    "stripe_setup": "SANDBOX_CONNECTED_LOCAL_WEBHOOK_VERIFIED",
+    "stripe_setup": "SANDBOX_LOCAL_AND_CLOUD_WEBHOOK_VERIFIED",
     "production_runtime": "NOT_ENABLED",
-    "cloud_backup": "SQL_EXPORT_LOCAL_RESTORE_PASS_REMOTE_RESTORE_PENDING",
+    "cloud_backup": "SQL_EXPORT_LOCAL_AND_SEPARATE_CLOUD_RESTORE_PASS",
     "secret_scan": "PASS_NO_LEAKS"
   }
 }

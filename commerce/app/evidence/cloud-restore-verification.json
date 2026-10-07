@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T20:13:48.086Z",
+  "backup_sha256": "f43d45c0491387e366a6c0243361ed26b9c3b7ed9a0a36b54abf4e7168ad608e",
+  "recovery_database": "aeternus-recovery-2f3b77ff",
+  "recovery_database_id": "adb224f3-da97-401b-86ea-3e606c6dad81",
+  "cloud_restore_verified": true,
+  "original_database_modified": false,
+  "recovery_database_retained": true,
+  "counts": {
+    "orders": 1,
+    "documents": 1,
+    "outbox": 2,
+    "tables": 5,
+    "refunded_test_orders": 1
+  },
+  "customer_data_is_fictitious": true
+}
