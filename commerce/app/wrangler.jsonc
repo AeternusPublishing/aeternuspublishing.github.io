@@ -1,0 +1,10 @@
+{
+  "name":"aeternus-commerce-sandbox",
+  "main":"worker.mjs",
+  "compatibility_date":"2026-10-01",
+  "workers_dev":false,
+  "preview_urls":false,
+  "assets":{"directory":"../../dist/shop-assets","binding":"ASSETS","run_worker_first":true},
+  "vars":{"MODE":"sandbox","OPERATOR_EMAIL":"kontakt@aeternus-verlag.de","PRIVATE_DEPLOYMENT_VERIFIED":"false"},
+  "d1_databases":[{"binding":"DB","database_name":"aeternus-commerce-sandbox","database_id":"PROVISION_BEFORE_PRIVATE_DEPLOYMENT","migrations_dir":"migrations"}]
+}

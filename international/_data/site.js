@@ -1,5 +1,6 @@
 const catalog = require('../../catalog/index.cjs');
 module.exports = {
+  shopPreviewUrl: require('../../commerce/app/website.cjs').previewUrl('en'),
   name: 'AETERNUS PUBLISHING', origin: 'https://aeternuspublishing.com',
   preview: process.env.AETERNUS_SITE_MODE !== 'production', language: 'en', email: 'kontakt@aeternus-verlag.de',
   social: require('../../catalog/social.json'),

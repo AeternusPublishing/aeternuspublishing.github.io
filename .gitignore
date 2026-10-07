@@ -13,3 +13,9 @@ work/
 dist/
 output/
 .playwright-cli/
+.dev.vars
+.dev.vars.*
+.wrangler/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm

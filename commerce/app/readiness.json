@@ -1,0 +1,19 @@
+{
+  "schema_version":1,
+  "live_enabled":false,
+  "operator_email":"kontakt@aeternus-verlag.de",
+  "countries":{"DE":"EUR","US":"USD","GB":"GBP","CA":"CAD","AU":"AUD"},
+  "gates":[
+    {"id":"lulu_account","status":"PENDING_LOGIN","owner":"publisher","description":"Bestehendes Lulu-Konto erneut anmelden; separates Sandbox-Konto prüfen."},
+    {"id":"lulu_api","status":"MISSING","owner":"operator","description":"Sandbox-Client-Key und Secret im Secret Store hinterlegen."},
+    {"id":"stripe_test","status":"MISSING","owner":"operator","description":"Stripe-Testkonto, Testschlüssel und Webhook-Signatur konfigurieren."},
+    {"id":"print_assets","status":"BLOCKED","owner":"production","description":"Lulu-Maße, Innen-/Umschlagvalidierung, Hashes und Übergabe-PASS je Produkt; PB/HC-Muster abnehmen."},
+    {"id":"public_domain","status":"PENDING","owner":"publisher","description":"Differenzierungsdossier und Zulässigkeit bei Lulu bestätigen."},
+    {"id":"prices","status":"PENDING_APPROVAL","owner":"publisher","description":"Landespreise, Preisbindung, aktuelle Vollkosten und Mindestmargen genehmigen."},
+    {"id":"tax_legal","status":"PENDING_REVIEW","owner":"advisor","description":"Steuer-/Lieferkettenprüfung je Land, Rechtstexte, elektronische Widerrufsfunktion und Datenschutz abnehmen."},
+    {"id":"notifications","status":"PREVIEW_ONLY","owner":"operator","description":"Absender, Versanddienst und Kundenmail-Texte freigeben; derzeit lokale Outbox."},
+    {"id":"accounting","status":"DRAFT_EXPORT","owner":"advisor","description":"Test-Rechnungsentwürfe und Erstattungsbelege exportierbar; steuerliche Stammdaten, Nummernkreis und Buchhaltungsübergabe abnehmen."},
+    {"id":"hosting","status":"LOCAL_ONLY","owner":"operator","description":"Private Testumgebung, Zugangsschutz, Datenbank, Backups und Aufbewahrung provisionieren."},
+    {"id":"live_release","status":"NOT_AUTHORIZED","owner":"publisher","description":"Gesonderte Freigabe des geprüften Gesamtstands; Live-Aufträge sind im Code gesperrt."}
+  ]
+}
