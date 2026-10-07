@@ -13,7 +13,7 @@ async function checked(response) {
 }
 export function providers(env, fetcher = fetch) {
   if (env.MODE !== 'sandbox') throw new Error('Sandbox provider mode required');
-  if (!env.STRIPE_KEY?.startsWith('sk_test_')) throw new Error('Stripe test key required');
+  if (env.STRIPE_KEY && !env.STRIPE_KEY.startsWith('sk_test_')) throw new Error('Stripe test key required');
   const lulu = 'https://api.sandbox.lulu.com';
   let access;
   async function request(path, body, method = 'POST') {
@@ -30,6 +30,7 @@ export function providers(env, fetcher = fetch) {
       ...(body ? {body:JSON.stringify(body)} : {}), signal:AbortSignal.timeout(25000)}));
   }
   async function stripe(path, body, key) {
+    if (!env.STRIPE_KEY?.startsWith('sk_test_')) throw new Error('Stripe test key required');
     return checked(await fetcher(`https://api.stripe.com/v1/${path}`, {method:'POST',
       headers:{Authorization:`Bearer ${env.STRIPE_KEY}`, 'Content-Type':'application/x-www-form-urlencoded', 'Idempotency-Key':key},
       body:new URLSearchParams(body), signal:AbortSignal.timeout(25000)}));
@@ -41,7 +42,7 @@ export function providers(env, fetcher = fetch) {
         shipping_address:{...address, country:address.country_code, state:address.state_code}});
       if (!options.some(o => o.level === level && o.currency === currency)) throw new Error('Shipping unavailable in selected currency');
       const cost = await request('/print-job-cost-calculations/', {line_items:lines, shipping_address:address, shipping_option:level});
-      if (cost.currency !== currency) throw new Error('Lulu currency mismatch');
+      if (cost.currency !== currency) throw new Error(`Lulu currency mismatch: requested ${currency}, received ${cost.currency}`);
       return {cost_cents:cents(cost.total_cost_incl_tax), raw:cost, options};
     },
     checkout(order, origin) {

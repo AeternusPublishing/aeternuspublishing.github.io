@@ -19,7 +19,7 @@ Die lokale Verwaltung erhält einen bei jedem Serverstart neu erzeugten Zugang; 
 - 79 gedruckte Varianten aus dem vorhandenen Website-Katalog (52 DE / 27 EN). Importierte Metadaten sind keine bestätigte Lieferbarkeit. Edgar-Huntly-Pilot-ISBNs wurden zusätzlich mit dem Buchregister abgeglichen.
 - Persistente Bestellungen, Statusjournal, Zahlungsabgleich, Verwaltung, Datenexport, Teil-/Vollerstattung, Widerruf und Nachrichten-Outbox.
 - Serverseitige Mengen-/Betragsprüfung, signierter Stripe-Webhook, doppelte Ereignisse und parallele Druckanforderungen berücksichtigt.
-- Lulu-Sandbox-Adapter: OAuth, Versandoptionen, Vollkosten, Druckauftrag und Statusabfrage; Stripe-Testadapter: Checkout und Erstattung. Schnittstellen anhand der offiziellen Dokumentation implementiert, **noch nicht mit echten Anbieterzugängen getestet**.
+- Lulu-Sandbox-Adapter: OAuth, Versandoptionen, Vollkosten, Druckauftrag und Statusabfrage; Stripe-Testadapter: Checkout und Erstattung. OAuth, Versandoptionen und Kostenabfrage sind mit dem echten Sandbox-Zugang geprüft. Druckaufträge und Stripe sind noch nicht mit Anbieterzugängen geprüft.
 - Nachgelagerte Queue: `npm run shop:process` bearbeitet maximal zehn bestätigte Bestellungen bzw. deren Druckstände. Ungewisse Übertragungen bleiben zur Klärung stehen. Im Cloud-Worker ist derselbe Ablauf vorbereitet, ohne aktivierten Zeitplan.
 - `npm run shop:backup` erzeugt eine konsistente SQLite-Sicherung im privaten Datenordner; Sicherung testweise wiederhergestellt und geprüft. Keine automatische Löschung oder Überschreibung.
 
@@ -33,7 +33,9 @@ Die angezeigten 24,90 / 34,90 und Versand 6,50 sind **frei gewählte Testbeträg
 
 Die Anwendung trennt Katalog, Bestellzustand und Anbieteradapter. `MODE=sandbox` erlaubt ausschließlich Stripe-Testschlüssel und `api.sandbox.lulu.com`. `MODE=production` und Live-Schlüssel sind im Code gesperrt. Simulation wird bei öffentlichen Hostnamen verweigert.
 
-Secrets gehören in Prozessvariablen oder einen Secret Store, niemals ins Repository. Konfigurationsbedarf steht in `env.example`. Ein separates Lulu-Sandbox-Konto ist erforderlich. Das bekannte Lulu-Konto `kontakt@aeternus-verlag.de` war am 07.10. abgemeldet; die Anmeldung wurde für den Verleger geöffnet, nicht abgeschlossen.
+Secrets gehören in Prozessvariablen oder einen Secret Store, niemals ins Repository. Konfigurationsbedarf steht in `env.example`. Lulu und das separate Sandbox-Konto `kontakt@aeternus-verlag.de` sind am 07.10. angemeldet und geprüft. Der ausdrücklich freigegebene Sandbox-Client liegt im Windows-Anmeldetresor unter `AETERNUS/Lulu/Sandbox`. Lokaler Sandbox-Server und Queue lesen ihn über einen privaten Prozesskanal; die Simulation liest keine Zugangsdaten. Auf einem anderen Rechner oder im Cloud-Worker muss ein eigener Secret Store konfiguriert werden.
+
+`node commerce/app/verify-lulu.mjs` prüft ausschließlich Anmeldung, Versandoptionen und Kosten mit einem Dokumentationsprodukt und einer öffentlichen US-Adresse. Beleg: `evidence/lulu-sandbox-verification.json`. Ergebnis: 10,10 EUR für dieses Testbeispiel, kein Verkaufspreis. Die Kostenberechnung lieferte bei angeforderten USD die Kontowährung EUR; der Adapter sperrt diesen Währungskonflikt. Angebote in USD/GBP/CAD/AUD benötigen deshalb erst eine geprüfte Kalkulations- und Währungsstrategie. Keine Kontowährung wurde geändert und kein Druckauftrag erzeugt.
 
 Vor echten Sandbox-Bestellungen müssen Artikel ausdrücklich freigegeben und mit gültigen Druckdatei-URLs plus SHA-256, Landespreisen und geprüfter Kalkulation versehen sein. Die vorhandenen Kandidaten-Paketcodes sind nicht als Lulu-validierte Profile bestätigt. Aktuelle Lulu-Vollkosten müssen zur Angebotswährung passen. Lieferland und Steuer-/Zahlungskosten werden nicht geraten; fehlende Regeln blockieren.
 

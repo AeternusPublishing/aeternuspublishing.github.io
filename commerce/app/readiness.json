@@ -4,8 +4,8 @@
   "operator_email":"kontakt@aeternus-verlag.de",
   "countries":{"DE":"EUR","US":"USD","GB":"GBP","CA":"CAD","AU":"AUD"},
   "gates":[
-    {"id":"lulu_account","status":"PENDING_LOGIN","owner":"publisher","description":"Bestehendes Lulu-Konto erneut anmelden; separates Sandbox-Konto prüfen."},
-    {"id":"lulu_api","status":"MISSING","owner":"operator","description":"Sandbox-Client-Key und Secret im Secret Store hinterlegen."},
+    {"id":"lulu_account","status":"VERIFIED","owner":"operator","description":"Lulu-Konto und separates Sandbox-Konto am 07.10.2026 angemeldet und geprüft."},
+    {"id":"lulu_api","status":"VERIFIED_LOCAL","owner":"operator","description":"Freigegebener Sandbox-Client im Windows-Anmeldetresor; OAuth, Versandoptionen und US-Kostenabfrage in EUR bestanden. Kein Druckauftrag angelegt. Andere Angebotswährungen bleiben ohne geprüfte Währungsstrategie gesperrt."},
     {"id":"stripe_test","status":"MISSING","owner":"operator","description":"Stripe-Testkonto, Testschlüssel und Webhook-Signatur konfigurieren."},
     {"id":"print_assets","status":"BLOCKED","owner":"production","description":"Lulu-Maße, Innen-/Umschlagvalidierung, Hashes und Übergabe-PASS je Produkt; PB/HC-Muster abnehmen."},
     {"id":"public_domain","status":"PENDING","owner":"publisher","description":"Differenzierungsdossier und Zulässigkeit bei Lulu bestätigen."},

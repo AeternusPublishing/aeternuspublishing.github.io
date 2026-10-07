@@ -5,13 +5,14 @@ import {join,resolve,sep} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {database} from './local-db.mjs';
 import {createService} from './service.mjs';
+import {loadSandboxCredentials} from './credentials.mjs';
 
 const port = Number(process.env.SHOP_PORT || 8093);
 const origin = `http://127.0.0.1:${port}`;
 const privateFolder = process.env.SHOP_DATA_DIR || join(process.env.LOCALAPPDATA || process.env.HOME,'AETERNUS','commerce-preview');
 mkdirSync(privateFolder,{recursive:true});
 const adminToken = process.env.ADMIN_TOKEN || randomBytes(32).toString('hex');
-const env = {...process.env,MODE:process.env.MODE || 'simulation',ADMIN_TOKEN:adminToken,DB:database(join(privateFolder,'test-orders.sqlite'))};
+const env = loadSandboxCredentials({...process.env,MODE:process.env.MODE || 'simulation',ADMIN_TOKEN:adminToken,DB:database(join(privateFolder,'test-orders.sqlite'))});
 const service = createService(env);
 const publicFolder = resolve(fileURLToPath(new URL('./public/',import.meta.url)));
 const root = resolve(publicFolder,'../../..');
