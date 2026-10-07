@@ -27,7 +27,7 @@ export async function stripeSignature(raw, header, secret, timestamp = Date.now(
   const expected = Array.from(new Uint8Array(bytes), x => x.toString(16).padStart(2,'0')).join('');
   assert(signatures.some(s => safeEqual(s,expected)), 'Webhook signature invalid', 401);
 }
-export function createService(env, suppliedProvider) {
+export function createService(env, suppliedProvider, suppliedCatalog = catalog) {
   const db = env.DB;
   const simulation = env.MODE === 'simulation';
   const provider = suppliedProvider || (!simulation ? providers(env) : null);
@@ -69,7 +69,7 @@ export function createService(env, suppliedProvider) {
     const seen = new Set();
     const items = body.items.map(line => {
       assert(!seen.has(line.sku), 'Duplicate cart line'); seen.add(line.sku);
-      const book = catalog.items.find(i => i.sku === line.sku);
+      const book = suppliedCatalog.items.find(i => i.sku === line.sku);
       assert(book && Number.isInteger(line.quantity) && line.quantity >= 1 && line.quantity <= 10, 'Invalid product or quantity');
       if (!simulation) {
         assert(productFindings(book,currency).length===0,'Product print evidence or approval missing',409);
@@ -141,6 +141,14 @@ export function createService(env, suppliedProvider) {
     assert(order.status === 'PAID','Only confirmed payments can enter fulfillment',409);
     const withdrawn = await query("SELECT id FROM requests WHERE order_id=? AND kind='WITHDRAWAL'",id).first();
     assert(!withdrawn && !order.refunded,'Refund or withdrawal requires resolution before printing',409);
+    if (!simulation) {
+      assert(!order.data.integration_fixture && Array.isArray(order.data.items) && order.data.items.length > 0,'Integration fixtures cannot print',409);
+      for (const item of order.data.items) {
+        const current = suppliedCatalog.items.find(book => book.sku === item.sku);
+        assert(current && productFindings(current,order.data.currency).length === 0 && productFindings(item,order.data.currency).length === 0,'Current product approval missing before printing',409);
+        assert(JSON.stringify(current.print_assets) === JSON.stringify(item.print_assets) && current.package === item.package && current.pages === item.pages,'Print evidence changed after quotation',409);
+      }
+    }
     order = await transition(order,'SUBMITTING');
     try {
       const job = simulation ? {id:`sim-${uuid()}`,status:{name:'CREATED'}} : await provider.submit(order);

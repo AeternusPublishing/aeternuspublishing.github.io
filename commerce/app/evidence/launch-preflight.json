@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T19:12:02.494Z",
+  "generated_at": "2026-10-07T19:36:13.918Z",
   "sales_ready": false,
   "technical_result": "REPORT_ONLY_NOT_RELEASE_AUTHORITY",
   "ready": false,
@@ -152,7 +152,7 @@
   "files": [
     {
       "path": "access.mjs",
-      "sha256": "6edd978230e1a02665bee686f5c0540f360b7260942a2b2b9e7ceb303a36674e"
+      "sha256": "a81d2d714864ad437bbdb8ddfb20ea150632c828a7abaf5035610407fa3f3db0"
     },
     {
       "path": "backup.mjs",
@@ -160,7 +160,7 @@
     },
     {
       "path": "build.mjs",
-      "sha256": "6dd8cfdfd4ae28e9900791b1bbfb8c1175da9a3db9dce0740b897e0a1fb1308f"
+      "sha256": "5c9b68f1e96ac0477c6742346fd23ee3bce6d64b41c603bad06711acf69fc68e"
     },
     {
       "path": "catalog.json",
@@ -171,8 +171,12 @@
       "sha256": "ebd8c84c71968ec2d2ac8d909c8567022834adc21c266c826daf9c1327ea8fa8"
     },
     {
+      "path": "cloud-backup.mjs",
+      "sha256": "6e4923ba1e90a92c8b8860cb25001edd9afba125a9040611d5b95dbd2f0a8682"
+    },
+    {
       "path": "credential-store.py",
-      "sha256": "eda770b01962f4dfff70f03584c84750262c4caf8dab89e555efbf05f3ed1288"
+      "sha256": "c64511727f549906d8c2840223e53c9a6449972a24c106d0510e08664d6fa570"
     },
     {
       "path": "credentials.mjs",
@@ -207,6 +211,14 @@
       "sha256": "680c38061e73ea4c9b268daab44e853fa3e42f09c3910aaf1567dfe6add44225"
     },
     {
+      "path": "prepare-lulu.mjs",
+      "sha256": "1facab72dbd39031cf5100e64ea6b199f4a5b9415a00731bb7cfeaa83bd5b532"
+    },
+    {
+      "path": "private-hosting-plan.json",
+      "sha256": "398218d563afde8930cb28336d14942d78025516acf5df23155d66544a0b7ad4"
+    },
+    {
       "path": "process.mjs",
       "sha256": "ac31d767ce9149e2f0f2aebe872671e3097815a905c21f4cbee9b02204bfa910"
     },
@@ -216,7 +228,11 @@
     },
     {
       "path": "providers.mjs",
-      "sha256": "6fbbbcf88bd8e89aa7e9992106db84766c4c0717d10281f343b82073df4ea31b"
+      "sha256": "6364ceb44d017396a606f0bc39debac29e1c6f051477b6756d74f4b2b6a9d5b2"
+    },
+    {
+      "path": "provision-secrets.mjs",
+      "sha256": "ccba4715d2f62109de751e5046804114617e01c1a536679644fabe328e5842dd"
     },
     {
       "path": "public/admin.html",
@@ -244,23 +260,23 @@
     },
     {
       "path": "readiness.json",
-      "sha256": "5373847ccc53b84c68b3a8548bad06e635ebc5559af164212effad9929c11a97"
+      "sha256": "1f2786c0f41ca065a3a45e7679ddd3824c27fab34242aee1325f4182f49363af"
     },
     {
       "path": "README.md",
-      "sha256": "9c09c420e1efa2fe6143dd647a9cbc8bcc633021e90f06a4a34ff2db4bb26b38"
+      "sha256": "c44dafa063176f6fb9d1c24829b7d715833d3cf08ae555f56d6b7b3c3d1d9b17"
     },
     {
       "path": "release-plan.json",
-      "sha256": "31b96c0a53856509965213a2bb1798b7de1f9f6eef02dbb5aa44d93c97d7ea54"
+      "sha256": "8b13ec54b797bc30b37142c3d60a707eb8a06ad2cce8e1008f704278fb243880"
     },
     {
       "path": "service.mjs",
-      "sha256": "d55a4b1ae00848ac3f225daf1ac4557bcc419cb85f3913ed93c9a3482f22bf91"
+      "sha256": "0a6d119d6a65e124d3d312b974f81f662e98f507428294217db600c333836ca8"
     },
     {
       "path": "stripe-setup.json",
-      "sha256": "469a90c17af199bcbcdfc0dabb0fa05c1e29175297cdbb5a53618facc146c0bf"
+      "sha256": "71db38cc4fe3393e047e855342ee4247df95dbcc6cdfc8895bae523e1df080c9"
     },
     {
       "path": "sync-catalog.cjs",
@@ -283,6 +299,10 @@
       "sha256": "ee4f242209c250eba2011e8c53066405be3171dd1128fb07cc3620473232c0c0"
     },
     {
+      "path": "verify-webhook.mjs",
+      "sha256": "c6cc861600b33fc0e1b9d398ccfb917471f0e7f0ffe9f0f565ae8277a6c902df"
+    },
+    {
       "path": "website.cjs",
       "sha256": "fdbd7096f92b7d277a54b95a40ab00a7e8f2e9b66ecf3c0c772032040a96f780"
     },
@@ -292,7 +312,7 @@
     },
     {
       "path": "wrangler.jsonc",
-      "sha256": "66356bf80dc6d1c57dea3d4040fcdf5c4c0baaef145b043b5a70d406f189e8f7"
+      "sha256": "42048853e177d35530973f99ae347d80d38116a665c84540a7f50a0c2b4c4492"
     }
   ],
   "paid_calls": 0,

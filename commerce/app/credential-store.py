@@ -31,20 +31,26 @@ def main():
     api.CredFree.argtypes = [ctypes.c_void_p]
     action = sys.argv[1]
     provider = sys.argv[2] if len(sys.argv) > 2 else 'lulu'
-    if provider not in ('lulu', 'stripe'):
+    if provider not in ('lulu', 'stripe', 'shop-admin'):
         raise ValueError('Unsupported provider')
-    target = TARGET if provider == 'lulu' else 'AETERNUS/Stripe/Sandbox'
+    target = {'lulu': TARGET, 'stripe': 'AETERNUS/Stripe/Sandbox',
+              'shop-admin': 'AETERNUS/Shop/SandboxAdmin'}[provider]
     if action == "store":
         data = json.load(sys.stdin)
         if provider == 'lulu':
             key, secret = data["client_key"], data["client_secret"]
             if len(key) != 36 or not 20 <= len(secret) <= 1000:
                 raise ValueError("Unexpected credential shape")
-        else:
+        elif provider == 'stripe':
             api_key = data['api_key']
             if not api_key.startswith('sk_test_') or not 20 <= len(api_key) <= 1000:
                 raise ValueError('Stripe test credential required')
             key, secret = 'Stripe sandbox', json.dumps({'api_key': api_key})
+        else:
+            admin_token = data['admin_token']
+            if len(admin_token) != 64 or any(c not in '0123456789abcdef' for c in admin_token):
+                raise ValueError('Private admin credential required')
+            key, secret = 'AETERNUS private sandbox', json.dumps({'admin_token': admin_token})
         blob = secret.encode("utf-16-le")
         buffer = (ctypes.c_ubyte * len(blob)).from_buffer_copy(blob)
         credential = Credential(Type=1, TargetName=target,

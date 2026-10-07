@@ -5,6 +5,6 @@
   "workers_dev":false,
   "preview_urls":false,
   "assets":{"directory":"../../dist/shop-assets","binding":"ASSETS","run_worker_first":true},
-  "vars":{"MODE":"sandbox","OPERATOR_EMAIL":"kontakt@aeternus-verlag.de","PRIVATE_DEPLOYMENT_VERIFIED":"false"},
-  "d1_databases":[{"binding":"DB","database_name":"aeternus-commerce-sandbox","database_id":"PROVISION_BEFORE_PRIVATE_DEPLOYMENT","migrations_dir":"migrations"}]
+  "vars":{"MODE":"sandbox","OPERATOR_EMAIL":"kontakt@aeternus-verlag.de","ACCESS_ALLOWED_EMAILS":"kontakt@aeternus-verlag.de","PRIVATE_DEPLOYMENT_VERIFIED":"false"},
+  "d1_databases":[{"binding":"DB","database_name":"aeternus-commerce-sandbox","database_id":"a6123bd1-c68e-4c37-b989-5125d2575306","migrations_dir":"migrations"}]
 }

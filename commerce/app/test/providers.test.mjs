@@ -43,3 +43,13 @@ test('expired Lulu token is refreshed before the next cost request',async()=>{
   await client.quote([{pages:32,package:'fixture',quantity:1}],{country_code:'DE'},'EUR','MAIL');
   assert.equal(tokens,2);
 });
+test('cover dimension preparation verifies the provider unit without uploading files',async()=>{
+  const calls=[];
+  const client=providers({MODE:'sandbox',LULU_CLIENT_KEY:'fixture',LULU_CLIENT_SECRET:'fixture'},async(url,options)=>{
+    calls.push({url,body:options.body});return new Response(JSON.stringify(url.includes('/token')?{access_token:'fixture',expires_in:600}:{width:'900',height:'666',unit:'pt'}));
+  });
+  assert.equal((await client.coverDimensions({pages:316,package:'fixture'})).unit,'pt');
+  assert.deepEqual(JSON.parse(calls[1].body),{pod_package_id:'fixture',interior_page_count:316,unit:'pt'});
+  assert.ok(calls.every(call=>!call.url.includes('print-jobs')&&!call.url.includes('validate')));
+  await assert.rejects(()=>client.coverDimensions({pages:0,package:'fixture'}));
+});

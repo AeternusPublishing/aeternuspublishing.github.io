@@ -1,0 +1,23 @@
+{
+  "schema_version":1,
+  "verified_date":"2026-10-07",
+  "database":"aeternus-commerce-sandbox",
+  "database_id":"a6123bd1-c68e-4c37-b989-5125d2575306",
+  "region":"WEUR",
+  "migration":"0001.sql",
+  "migration_result":"PASS",
+  "application_tables":["documents","events","orders","outbox","requests"],
+  "order_count":0,
+  "worker_bundle":"DRY_RUN_PASS",
+  "worker_deployed":true,
+  "worker_state":"STAGED_NO_TARGETS_PRIVATE_DEPLOYMENT_VERIFIED_FALSE",
+  "code_version_id":"809c2bed-3c05-453a-90d0-e73b2602eb67",
+  "public_route_created":false,
+  "secrets_transferred":true,
+  "secret_names_verified":["ADMIN_TOKEN","LULU_CLIENT_KEY","LULU_CLIENT_SECRET","STRIPE_KEY"],
+  "access_api_read":"HTTP_403_EXISTING_OAUTH_SCOPE",
+  "dashboard":"SIGN_IN_REQUIRED",
+  "cloud_integrity_check":"D1 does not permit requested PRAGMA; not claimed",
+  "local_fixture_integrity":"ok",
+  "cloud_backup_restore":"SQL_EXPORT_LOCAL_RESTORE_PASS; cloud restoration remains untested"
+}

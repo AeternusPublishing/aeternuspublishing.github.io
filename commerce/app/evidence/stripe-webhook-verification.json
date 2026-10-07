@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T19:25:24.224Z",
+  "mode": "sandbox",
+  "transport": "Official Stripe CLI WebSocket forwarding to loopback; not a deployed webhook",
+  "real_stripe_delivery": true,
+  "signed_webhook_verified": true,
+  "payment_status_before_refund": "PAID",
+  "invoice_drafts": 1,
+  "receipt_drafts": 1,
+  "duplicate_event_ignored": true,
+  "print_fixture_blocked": true,
+  "lulu_job_created": false,
+  "refund_status": "succeeded",
+  "final_order_status": "REFUNDED",
+  "amount_cents": 100,
+  "currency": "EUR",
+  "emails_sent": 0,
+  "public_hosting_verified": false
+}

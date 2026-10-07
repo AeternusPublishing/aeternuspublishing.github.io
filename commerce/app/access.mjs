@@ -1,6 +1,6 @@
 // Verify Cloudflare Access JWT cryptographically, rather than trusting a forwarded header.
 export async function verifyAccess(token, env, fetcher = fetch) {
-  if (!token || !/^https:\/\/[a-z0-9-]+\.cloudflareaccess\.com$/.test(env.ACCESS_ISSUER || '') || !env.ACCESS_AUDIENCE) return false;
+  if (!token || !/^https:\/\/[a-z0-9-]+\.cloudflareaccess\.com$/.test(env.ACCESS_ISSUER || '') || !env.ACCESS_AUDIENCE || !env.ACCESS_ALLOWED_EMAILS) return false;
   try {
     const [header,payload,signature,...extra] = token.split('.');
     if (extra.length || !signature || token.length > 16000) return false;
@@ -8,6 +8,8 @@ export async function verifyAccess(token, env, fetcher = fetch) {
     const h=JSON.parse(new TextDecoder().decode(decode(header)));
     const p=JSON.parse(new TextDecoder().decode(decode(payload)));
     const time=Date.now()/1000;
+    const allowed=env.ACCESS_ALLOWED_EMAILS.split(',').map(email=>email.trim().toLowerCase()).filter(Boolean);
+    if(typeof p.email!=='string'||!allowed.includes(p.email.toLowerCase()))return false;
     if (h.alg !== 'RS256' || p.iss !== env.ACCESS_ISSUER || !Array.isArray(p.aud) || !p.aud.includes(env.ACCESS_AUDIENCE) || !Number.isFinite(p.exp) || p.exp <= time || !Number.isFinite(p.iat) || p.iat > time+60 || (p.nbf && p.nbf > time+60)) return false;
     const response=await fetcher(`${env.ACCESS_ISSUER}/cdn-cgi/access/certs`,{signal:AbortSignal.timeout(10000)});
     if (!response.ok) return false;

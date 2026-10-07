@@ -39,6 +39,12 @@ export function providers(env, fetcher = fetch) {
       body:new URLSearchParams(body), signal:AbortSignal.timeout(25000)}));
   }
   return {
+    async coverDimensions(item) {
+      if(!Number.isInteger(item.pages)||item.pages<2||typeof item.package!=='string')throw new Error('Lulu product specification missing');
+      const dimensions=await request('/cover-dimensions/',{pod_package_id:item.package,interior_page_count:item.pages,unit:'pt'});
+      if(dimensions.unit!=='pt'||!Number.isFinite(Number(dimensions.width))||Number(dimensions.width)<=0||!Number.isFinite(Number(dimensions.height))||Number(dimensions.height)<=0)throw new Error('Invalid Lulu cover dimensions');
+      return dimensions;
+    },
     async quote(items, address, currency, level) {
       const lines = items.map(i => ({page_count:i.pages, pod_package_id:i.package, quantity:i.quantity}));
       const options = await request('/shipping-options/', {currency, line_items:lines,
