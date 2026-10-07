@@ -73,6 +73,8 @@ Die D1-Datenbank `aeternus-commerce-sandbox` wurde am 07.10. in WEUR angelegt un
 
 ## Offene Abnahmen
 
+Cloudflare-Dashboard am 07.10. angemeldet. Zero Trust war noch nicht aktiviert; der Free-Tarif ist im Abschluss vorbereitet. Das Dashboard zeigt 0 USD/Monat Grundgebühr und verlangt zusätzlich Zustimmung zu Vertragsbedingungen sowie monatlicher Abrechnung oberhalb der Gratisgrenzen. Dieser Abschluss wurde dem Verleger übergeben; keine Checkbox wurde durch den Agenten bestätigt. Nach Aktivierung folgt die private Access-Anwendung. Die Sandbox-Schlüsselfreigabe ist vorhanden und muss nicht erneut eingeholt werden.
+
 Die maschinenlesbare Liste steht in `readiness.json` und in der Verwaltung: Anmeldung und Testschlüssel, Lulu-Druckprüfung und Muster PB/HC, Differenzierungsdossier, Landespreise/Margen, Steuer-/Rechtstexte, Kundenkommunikation, Rechnungs-/Buchhaltungsprozess, privates Hosting und Live-Freigabe. Keine dieser Abnahmen wird durch einen erfolgreichen technischen Test ersetzt.
 
 ## Prüfung

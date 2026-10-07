@@ -16,7 +16,9 @@
   "secrets_transferred":true,
   "secret_names_verified":["ADMIN_TOKEN","LULU_CLIENT_KEY","LULU_CLIENT_SECRET","STRIPE_KEY"],
   "access_api_read":"HTTP_403_EXISTING_OAUTH_SCOPE",
-  "dashboard":"SIGN_IN_REQUIRED",
+  "dashboard":"AUTHENTICATED_ZERO_TRUST_FREE_CHECKOUT_PENDING",
+  "zero_trust_free_base_fee":"0 USD/month shown in dashboard",
+  "billing_terms_accepted_by_agent":false,
   "cloud_integrity_check":"D1 does not permit requested PRAGMA; not claimed",
   "local_fixture_integrity":"ok",
   "cloud_backup_restore":"SQL_EXPORT_LOCAL_RESTORE_PASS; cloud restoration remains untested"

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T19:36:13.918Z",
+  "generated_at": "2026-10-07T19:53:32.780Z",
   "sales_ready": false,
   "technical_result": "REPORT_ONLY_NOT_RELEASE_AUTHORITY",
   "ready": false,
@@ -216,7 +216,7 @@
     },
     {
       "path": "private-hosting-plan.json",
-      "sha256": "398218d563afde8930cb28336d14942d78025516acf5df23155d66544a0b7ad4"
+      "sha256": "b2380f44bb9d561fde6bf5ed37c8d735b1b18b1092cf72dafc79b1181bdca490"
     },
     {
       "path": "process.mjs",
@@ -260,15 +260,15 @@
     },
     {
       "path": "readiness.json",
-      "sha256": "1f2786c0f41ca065a3a45e7679ddd3824c27fab34242aee1325f4182f49363af"
+      "sha256": "766ed833e3ea5acd68e25703c7f194bb76aef5ec4482e299309e5eacad3aee05"
     },
     {
       "path": "README.md",
-      "sha256": "c44dafa063176f6fb9d1c24829b7d715833d3cf08ae555f56d6b7b3c3d1d9b17"
+      "sha256": "ea24bd8fe390e2b45aca1a7429c1c40e49bf94bfe98f680d3ca4b3be4e6d9004"
     },
     {
       "path": "release-plan.json",
-      "sha256": "8b13ec54b797bc30b37142c3d60a707eb8a06ad2cce8e1008f704278fb243880"
+      "sha256": "f67800f739b1200813cae123c5e95c382bdc1bd534de85ee2839460facc3b9ad"
     },
     {
       "path": "service.mjs",

@@ -14,7 +14,7 @@
     {"id":"tax_legal","status":"PENDING_REVIEW","owner":"advisor","description":"Steuer-/Lieferkettenprüfung je Land, Rechtstexte, elektronische Widerrufsfunktion und Datenschutz abnehmen."},
     {"id":"notifications","status":"PREVIEW_ONLY","owner":"operator","description":"Absender, Versanddienst und Kundenmail-Texte freigeben; derzeit lokale Outbox."},
     {"id":"accounting","status":"DRAFT_EXPORT","owner":"advisor","description":"Test-Rechnungsentwürfe und Erstattungsbelege exportierbar; steuerliche Stammdaten, Nummernkreis und Buchhaltungsübergabe abnehmen."},
-    {"id":"hosting","status":"WORKER_STAGED_ACCESS_LOGIN_PENDING","owner":"operator","description":"D1 und gesperrter Worker provisioniert, noch keine Route. Freigegebene Sandbox-Secrets hinterlegt. Cloud-Export mit lokaler Wiederherstellung bestanden. Access-Dashboard-Anmeldung und Cloud-Webhooks sowie Cloud-Wiederherstellung offen."},
+    {"id":"hosting","status":"WORKER_STAGED_ZERO_TRUST_ACTIVATION_PENDING","owner":"operator","description":"D1 und gesperrter Worker provisioniert, noch keine Route. Sandbox-Secrets und Backup geprüft. Dashboard angemeldet; Zero Trust Free verlangt Vertrags-/Abrechnungsschritt durch Verleger. Access-Anwendung, Cloud-Webhooks und Cloud-Wiederherstellung offen."},
     {"id":"live_release","status":"NOT_AUTHORIZED","owner":"publisher","description":"Gesonderte Freigabe des geprüften Gesamtstands; Live-Aufträge sind im Code gesperrt."}
   ]
 }
