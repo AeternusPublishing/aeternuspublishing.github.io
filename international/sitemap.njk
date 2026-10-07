@@ -1,0 +1,9 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{# Preview deliberately advertises no indexable pages. #}
+{% if not site.preview %}{% for entry in collections.all %}<url><loc>{{ site.origin }}{{ entry.url }}</loc></url>{% endfor %}{% endif %}
+</urlset>

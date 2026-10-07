@@ -1828,42 +1828,6 @@
         "de": "James B. Gillett",
         "en": "James B. Gillett"
       }
-    },
-    {
-      "id": "author:Werner von Siemens",
-      "type": "author",
-      "label": {
-        "de": "Werner von Siemens",
-        "en": "Werner von Siemens"
-      }
-    },
-    {
-      "id": "book:de:lebenserinnerungen",
-      "type": "book",
-      "label": {
-        "de": "Lebenserinnerungen",
-        "en": "Lebenserinnerungen"
-      },
-      "author": "Werner von Siemens",
-      "language": "de",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-siemens-lebenserinnerungen.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/buecher/lebenserinnerungen/",
-        "en": "https://aeternus-verlag.de/buecher/lebenserinnerungen/"
-      },
-      "summary": {
-        "de": "Siemens erzählt von preußischer Artillerie und Festungshaft, von Telegraphenlinien und Kabelschiffen, vom Kaukasus und vom Atlantik und vom Weg einer Berliner Werkstatt zum Weltunternehmen.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          13.3,
-          52.52
-        ],
-        "region": "europe",
-        "place": "Berlin-Charlottenburg",
-        "source": "kosmosSelection:siemens"
-      }
     }
   ],
   "links": [
@@ -2797,25 +2761,6 @@
       "label": {
         "de": "Birds Grenzromane: Identität, Loyalität und Vergeltung",
         "en": "Birds Grenzromane: Identität, Loyalität und Vergeltung"
-      }
-    },
-    {
-      "source": "book:de:lebenserinnerungen",
-      "target": "series:blau",
-      "type": "series"
-    },
-    {
-      "source": "book:de:lebenserinnerungen",
-      "target": "author:Werner von Siemens",
-      "type": "author"
-    },
-    {
-      "source": "book:de:lebenserinnerungen",
-      "target": "book:de:mein-leben-und-werk",
-      "type": "curated",
-      "label": {
-        "de": "Industrielle Selbstzeugnisse der Blauen Reihe",
-        "en": "Industrial self-portraits of the Blue series"
       }
     }
   ]

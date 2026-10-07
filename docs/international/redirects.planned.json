@@ -1,0 +1,177 @@
+{
+  "enabled": false,
+  "status": 301,
+  "source_origin": "https://aeternus-verlag.de",
+  "target_origin": "https://aeternuspublishing.com",
+  "activation": "Only after launch approval; exact paths verified against builds. Fragment coverage requires review.",
+  "routes": [
+    {
+      "from": "/en/",
+      "to": "/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/",
+      "to": "/series/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/house/",
+      "to": "/about/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/edition/",
+      "to": "/editorial-method/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/press/",
+      "to": "/press/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/ernest-thompson-seton/",
+      "to": "/authors/ernest-thompson-seton/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/robert-montgomery-bird/",
+      "to": "/authors/robert-montgomery-bird/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/henry-ford/",
+      "to": "/authors/henry-ford/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/lady-florentia-sale/",
+      "to": "/authors/lady-florentia-sale/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/robert-baden-powell/",
+      "to": "/authors/robert-baden-powell/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/george-washington-sears/",
+      "to": "/authors/george-washington-sears/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/francis-parkman/",
+      "to": "/authors/francis-parkman/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/james-hall/",
+      "to": "/authors/james-hall/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/daniel-carter-beard/",
+      "to": "/authors/daniel-carter-beard/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/henry-rider-haggard/",
+      "to": "/authors/henry-rider-haggard/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/richard-jefferies/",
+      "to": "/authors/richard-jefferies/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/authors/charles-brockden-brown/",
+      "to": "/authors/charles-brockden-brown/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/anthrazit/",
+      "to": "/series/anthrazit/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/gruen/",
+      "to": "/series/gruen/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/rot/",
+      "to": "/series/rot/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/blau/",
+      "to": "/series/blau/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/bernstein/",
+      "to": "/series/bernstein/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/weiss/",
+      "to": "/series/weiss/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    },
+    {
+      "from": "/en/series/purpur/",
+      "to": "/series/purpur/",
+      "source_exists": true,
+      "target_exists": true,
+      "editorial_equivalence_approved": false
+    }
+  ]
+}

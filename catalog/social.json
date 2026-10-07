@@ -1,0 +1,87 @@
+{
+  "instagram": {
+    "handle": "aeternus.publishing",
+    "url": "https://www.instagram.com/aeternus.publishing/",
+    "language": "en",
+    "verified_utc": "2026-09-22T10:10:39.924Z",
+    "posts": [
+      {
+        "title": "Animal Heroes",
+        "url": "https://www.instagram.com/p/DdZPvPGl6gf/",
+        "book_id": "en-ernest-thompson-seton-animal-heroes-annotated"
+      },
+      {
+        "title": "Bevis",
+        "url": "https://www.instagram.com/p/DdCRsu9l_4S/",
+        "book_id": "en-richard-jefferies-edition-bevis"
+      },
+      {
+        "title": "Woodcraft",
+        "url": "https://www.instagram.com/p/DdBf9DnlzyH/",
+        "book_id": "en-george-washington-sears-woodcraft-illustrated"
+      },
+      {
+        "title": "Nick of the Woods",
+        "url": "https://www.instagram.com/p/DdBf_l3Fyrb/",
+        "book_id": "en-robert-montgomery-bird-edition-nick"
+      },
+      {
+        "title": "The Hawks of Hawk-Hollow",
+        "url": "https://www.instagram.com/p/DdBf6WKFw2l/",
+        "book_id": "en-robert-montgomery-bird-edition-hawks"
+      },
+      {
+        "title": "Two Little Savages (Illustrated)",
+        "url": "https://www.instagram.com/p/DdBf3I5FwbV/",
+        "book_id": "en-ernest-thompson-seton-edition-two-little-savages"
+      },
+      {
+        "title": "The Arctic Prairies (Illustrated)",
+        "url": "https://www.instagram.com/p/DdBf0p6F5Ms/",
+        "book_id": "en-ernest-thompson-seton-edition-arctic-prairies"
+      },
+      {
+        "title": "Monarch, the Big Bear of Tallac (Annotated)",
+        "url": "https://www.instagram.com/p/DdZP0hwl4Rk/",
+        "book_id": "en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated"
+      },
+      {
+        "title": "Lives of the Hunted (Annotated)",
+        "url": "https://www.instagram.com/p/DdZPiVgl080/",
+        "book_id": "en-ernest-thompson-seton-lives-of-the-hunted-annotated"
+      },
+      {
+        "title": "The Biography of a Grizzly (Annotated)",
+        "url": "https://www.instagram.com/p/DdZPdQ2FxN9/",
+        "book_id": "en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated"
+      },
+      {
+        "title": "Wild Animals I Have Known (Annotated)",
+        "url": "https://www.instagram.com/p/DdYxZn8F9VS/",
+        "book_id": "en-ernest-thompson-seton-wild-animals-i-have-known-annotated"
+      },
+      {
+        "title": "The Oregon Trail (Illustrated)",
+        "url": "https://www.instagram.com/p/DdZKVsAF0kn/",
+        "book_id": "en-francis-parkman-edition-oregon-trail"
+      },
+      {
+        "title": "Edgar Huntly (Illustrated)",
+        "url": "https://www.instagram.com/p/DdlJzbcl-Na/",
+        "book_id": "en-charles-brockden-brown-edgar-huntly-illustrated"
+      }
+    ],
+    "feed_sync": {
+      "status": "CURATED_LINKS_AND_OPTIONAL_EMBEDS",
+      "automatic_new_posts": false,
+      "automatic_posting": false,
+      "authority": "Publisher clarified: Nur Website, Profil-Link und vorhandene Beiträge miteinander verbinden"
+    },
+    "profile_backlink": {
+      "visible_in_bio": true,
+      "text": "aeternuspublishing.com",
+      "clickable_website_field": "MOBILE_APP_REQUIRED",
+      "observed_utc": "2026-09-22T10:23:51.332Z"
+    }
+  }
+}

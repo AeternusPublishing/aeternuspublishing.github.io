@@ -1,0 +1,7 @@
+---
+layout: layout.njk
+title: Authors
+description: "Meet the authors of the AETERNUS programme, from naturalists and explorers to novelists and historical witnesses."
+permalink: /authors/index.html
+---
+<section class="shell page-intro"><p class="kicker">The people behind the books</p><h1>Voices with a world<br><em>of their own.</em></h1></section><section class="shell author-index international-section">{% for author in site.authors %}<a class="author-panel" href="/authors/{{ author.slug }}/">{% if author.portrait.modern %}<img src="/assets/images/{{ author.portrait.file }}.webp" alt="{{ author.portrait.alt | escape }}" width="210" height="260" loading="lazy">{% endif %}<div><p class="kicker">{{ author.dates | plain }}</p><h2>{{ author.name }}</h2><p>{{ author.tagline | plain }}</p><span class="text-link">Life & works →</span></div></a>{% endfor %}</section>

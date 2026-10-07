@@ -1,0 +1,9 @@
+[
+  { "name": "theme_info", "theme_name": "AETERNUS Preparation", "theme_version": "1.0.0", "theme_author": "AETERNUS", "theme_documentation_url": "https://aeternus-verlag.de/", "theme_support_url": "https://aeternus-verlag.de/" },
+  { "name": "AETERNUS", "settings": [
+    { "type": "paragraph", "content": "Development preparation only. Enable ordering only after the publisher has explicitly approved launch and payments, shipping and legal information have been checked." },
+    { "type": "checkbox", "id": "commerce_enabled", "label": "Enable ordering after launch approval", "default": false },
+    { "type": "url", "id": "publisher_de", "label": "German publishing website" },
+    { "type": "url", "id": "publisher_en", "label": "International publishing website" }
+  ]}
+]

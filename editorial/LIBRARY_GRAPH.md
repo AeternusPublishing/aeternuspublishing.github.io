@@ -23,3 +23,4 @@ The graph uses the already bundled D3, loaded only on the network page.
 The static directory is usable without JavaScript. Search, edition-language
 filter, zoom buttons, keyboard activation and Escape/reset supplement the SVG.
 Original German editorial relation notes are marked as German in the EN view.
+

@@ -1,0 +1,7 @@
+---
+layout: layout.njk
+title: Books
+description: "Explore the English-language AETERNUS editions: nature writing, historical sources, frontier novels and adventure classics."
+permalink: /books/index.html
+---
+<section class="shell page-intro"><p class="kicker">The English-language catalogue</p><h1>Books to return to.</h1><p>Explore the editions, their authors and the worlds they record.</p></section><section class="shell international-section"><div class="books-grid">{% for item in site.books %}{% include 'book-card.njk' %}{% endfor %}</div></section>
