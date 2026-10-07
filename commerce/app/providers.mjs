@@ -16,14 +16,17 @@ export function providers(env, fetcher = fetch) {
   if (env.STRIPE_KEY && !env.STRIPE_KEY.startsWith('sk_test_')) throw new Error('Stripe test key required');
   const lulu = 'https://api.sandbox.lulu.com';
   let access;
+  let accessExpires=0;
   async function request(path, body, method = 'POST') {
     if (!env.LULU_CLIENT_KEY || !env.LULU_CLIENT_SECRET) throw new Error('Lulu sandbox credentials missing');
-    if (!access) {
+    if (!access || Date.now()>=accessExpires) {
       access = await checked(await fetcher(`${lulu}/auth/realms/glasstree/protocol/openid-connect/token`, {
         method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded',
           Authorization:`Basic ${btoa(`${env.LULU_CLIENT_KEY}:${env.LULU_CLIENT_SECRET}`)}`},
         body:'grant_type=client_credentials', signal:AbortSignal.timeout(20000)
       }));
+      if(typeof access.access_token!=='string'||!access.access_token)throw new Error('Lulu access token missing');
+      accessExpires=Date.now()+Math.max(0,(Number(access.expires_in)||60)-30)*1000;
     }
     return checked(await fetcher(lulu + path, {method,
       headers:{Authorization:`Bearer ${access.access_token}`, 'Content-Type':'application/json'},

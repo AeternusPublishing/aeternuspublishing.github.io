@@ -41,6 +41,17 @@ Vor echten Sandbox-Bestellungen müssen Artikel ausdrücklich freigegeben und mi
 
 ## Betrieb und Fehlerbehandlung
 
+Maschinelle Betriebsbefehle:
+
+- `npm run shop:readiness`: schreibt `evidence/launch-preflight.json` mit Produktbefunden, Zuständigkeiten und SHA-256 des technischen Stands. Rückgabe 0 bedeutet nur, dass der Bericht erzeugt wurde; `sales_ready` bleibt false.
+- `npm run shop:preflight`: dieselbe Prüfung als Sperrprüfung; Rückgabe 2 solange Startvoraussetzungen fehlen. Der aktuelle Code enthält keinen freigegebenen Produktionsmodus.
+- `npm run shop:monitor`: öffnet die lokale Testdatenbank ausschließlich lesend, prüft Integrität und meldet unklare Druck-/Erstattungsvorgänge, unbezahlte Lulu-Aufträge, alte Zahlungen und Druckverzögerungen. Rückgabe 2 erfordert Klärung. Ausgabe enthält keine Kundenadressen oder E-Mail-Adressen.
+- `npm run shop:verify-stripe`: prüft mit einem außerhalb Git bereitgestellten `sk_test_` nur die Stripe-Konto-Verbindung. Es erzeugt keinen Checkout und keine Zahlung. Kontoidentität erscheint nur als SHA-256 im Beleg; eine erfolgreiche Testverbindung beweist keine Live-Aktivierung.
+
+`release-plan.json` enthält die noch offenen Startvoraussetzungen; Edgar Huntly PB/HC sind lediglich bisherige Pilotkandidaten, keine genehmigte Startauswahl. `stripe-setup.json` enthält die technische Kontoeinrichtung und Abnahmefälle. Der Verleger bestätigt am 07.10.2026, dass noch kein Stripe-Konto existiert. Käufer benötigen kein eigenes Stripe-Konto. Für Livezahlungen sind die Unternehmensprüfung und Aktivierung des Händlerkontos erforderlich.
+
+Stripe nimmt Kundenzahlungen entgegen; Lulu muss separat für Druck und Versand bezahlt werden. Vor automatischem Betrieb sind eine Zahlungsmethode und automatische Zahlungen im Lulu-Produktionsportal einzurichten und nachzuweisen. Keine Kontozahlung wurde eingerichtet. [Stripe-Kontoaktivierung](https://docs.stripe.com/get-started/account/set-up) · [Lulu-Zahlungseinrichtung](https://help.api.lulu.com/en/support/solutions/articles/64000311553-how-do-i-set-up-scheduled-batch-payments-).
+
 1. `QUOTED → PAYMENT_PENDING → PAID`: nur bestätigte, betrags- und währungsgleiche Testzahlungen werden übernommen. Ein fehlgeschlagener Stripe-Checkout kann mit demselben Idempotenzschlüssel erneut abgefragt werden.
 2. `PAID → SUBMITTING → PRINT_SUBMITTED`: Ein unklarer Lulu-Ausgang wird `SUBMISSION_UNKNOWN`. Kein automatisches Wiederholen. Vorhandene Lulu-Job-ID in der Verwaltung zuordnen; deren `external_id` muss zur Bestellung passen. `SUBMITTING` nach einem Prozessabbruch ebenfalls klären.
 3. Lulu-Statusabfrage führt vorwärts zu `IN_PRODUCTION` / `SHIPPED`. Rückwärts laufende Antworten werden ignoriert. Ablehnung, Stornierung und unbekannte Zustände erzeugen einen Prüfvermerk. Versand ist kein Zustellnachweis.

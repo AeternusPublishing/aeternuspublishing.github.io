@@ -6,7 +6,8 @@
   "gates":[
     {"id":"lulu_account","status":"VERIFIED","owner":"operator","description":"Lulu-Konto und separates Sandbox-Konto am 07.10.2026 angemeldet und geprüft."},
     {"id":"lulu_api","status":"VERIFIED_LOCAL","owner":"operator","description":"Freigegebener Sandbox-Client im Windows-Anmeldetresor; OAuth, Versandoptionen und US-Kostenabfrage in EUR bestanden. Kein Druckauftrag angelegt. Andere Angebotswährungen bleiben ohne geprüfte Währungsstrategie gesperrt."},
-    {"id":"stripe_test","status":"MISSING","owner":"operator","description":"Stripe-Testkonto, Testschlüssel und Webhook-Signatur konfigurieren."},
+    {"id":"stripe_test","status":"ACCOUNT_NOT_CREATED","owner":"publisher","description":"Noch kein Stripe-Händlerkonto (Verleger bestätigt 07.10.). Technisches Setup und Testplan in stripe-setup.json vorbereitet; danach Testschlüssel und Webhook konfigurieren."},
+    {"id":"lulu_production_payment","status":"MISSING","owner":"publisher","description":"Produktions-API-Zugang, Zahlungsmethode und automatische Druckkosten-Zahlung separat einrichten und prüfen. Stripe-Kundenzahlung bezahlt Lulu nicht automatisch."},
     {"id":"print_assets","status":"BLOCKED","owner":"production","description":"Lulu-Maße, Innen-/Umschlagvalidierung, Hashes und Übergabe-PASS je Produkt; PB/HC-Muster abnehmen."},
     {"id":"public_domain","status":"PENDING","owner":"publisher","description":"Differenzierungsdossier und Zulässigkeit bei Lulu bestätigen."},
     {"id":"prices","status":"PENDING_APPROVAL","owner":"publisher","description":"Landespreise, Preisbindung, aktuelle Vollkosten und Mindestmargen genehmigen."},

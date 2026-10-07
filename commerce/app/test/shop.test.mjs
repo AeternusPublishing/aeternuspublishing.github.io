@@ -31,6 +31,15 @@ test('sandbox fails closed without approved products; live mode and live Stripe 
 test('Stripe HMAC accepts valid signature and rejects replay, forged and stale payload',async()=>{const raw='{"test":true}';const secret='test-webhook-secret';const t=Math.floor(Date.now()/1000);const signature=createHmac('sha256',secret).update(`${t}.${raw}`).digest('hex');await stripeSignature(raw,`t=${t},v1=${signature}`,secret);await assert.rejects(()=>stripeSignature(raw+' ',`t=${t},v1=${signature}`,secret));await assert.rejects(()=>stripeSignature(raw,`t=${t-301},v1=${signature}`,secret));await assert.rejects(()=>stripeSignature(raw,`t=${t},v1=bad`,secret));});
 test('currency parsing uses exact cents and refuses unsupported precision',()=>{assert.equal(cents('12.34'),1234);assert.equal(cents('0.75'),75);assert.equal(cents('12'),1200);for(const v of ['1.001','NaN','-1','1e4'])assert.throws(()=>cents(v));});
 test('queue processes confirmed orders and excludes uncertain submissions',async()=>{const {service,db}=fixture();const q=await prepared(service);await service.processQueue();assert.equal((await service.get(q.id)).status,'PRINT_SUBMITTED');await service.processQueue();assert.equal((await service.get(q.id)).status,'SHIPPED');db.close();});
+test('completed orders do not occupy the ten fulfillment queue slots',async()=>{
+  const {service,db}=fixture();
+  for(let i=0;i<11;i++)await db.prepare('INSERT INTO orders (id,token,created,updated,status,data) VALUES (?,?,?,?,?,?)').bind(crypto.randomUUID(),crypto.randomUUID(),'2020','2020','SHIPPED','{}').run();
+  const q=await prepared(service);
+  const processed=await service.processQueue();
+  assert.equal(processed.length,1);
+  assert.equal((await service.get(q.id)).status,'PRINT_SUBMITTED');
+  db.close();
+});
 test('pending and timed out refunds remain reserved and cannot be duplicated',async()=>{
   for(const timeout of [false,true]) {
     const db=database();let calls=0;const service=createService({MODE:'sandbox',ADMIN_TOKEN:admin,DB:db,STRIPE_KEY:'sk_test_fixture'},{refund:async()=>{calls++;if(timeout)throw new Error('timeout');return {id:'re_test_fixture',status:'pending'};}});

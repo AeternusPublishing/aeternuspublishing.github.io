@@ -1,6 +1,7 @@
 import catalog from './catalog.json' with {type:'json'};
 import readiness from './readiness.json' with {type:'json'};
 import {providers} from './providers.mjs';
+import {productFindings} from './product-check.mjs';
 import {renderMessage} from './messages.mjs';
 
 const now = () => new Date().toISOString();
@@ -71,6 +72,7 @@ export function createService(env, suppliedProvider) {
       const book = catalog.items.find(i => i.sku === line.sku);
       assert(book && Number.isInteger(line.quantity) && line.quantity >= 1 && line.quantity <= 10, 'Invalid product or quantity');
       if (!simulation) {
+        assert(productFindings(book,currency).length===0,'Product print evidence or approval missing',409);
         assert(book.approved && book.print_assets && Number.isSafeInteger(book.prices[currency]) && book.prices[currency] > 0, 'Product not approved for sandbox', 409);
         for (const asset of Object.values(book.print_assets)) {
           assert(/^https:\/\//.test(asset.url) && /^[a-f0-9]{64}$/.test(asset.sha256), 'Print asset evidence missing', 409);
@@ -163,6 +165,7 @@ export function createService(env, suppliedProvider) {
     const order = await get(id);
     assert(order.job_id && ['PRINT_SUBMITTED','IN_PRODUCTION','SHIPPED'].includes(order.status),'Order is not pollable',409);
     const job = simulation ? {status:{name:demoStatus || 'SHIPPED'},line_items:[]} : await provider.getJob(order.job_id);
+    await query('UPDATE orders SET data=?,updated=? WHERE id=? AND status=?',JSON.stringify({...order.data,lulu_status:job.status?.name || 'UNKNOWN',last_provider_check:now()}),now(),id,order.status).run();
     const next = fromLulu[job.status?.name];
     if (!next) {await event(id,'PROVIDER_STATUS_REVIEW',{status:job.status?.name || 'UNKNOWN'}).run(); return order;}
     if (next === 'CANCELLED') {await event(id,'PROVIDER_FAILURE_REVIEW',{status:job.status.name}).run(); return order;}
@@ -206,7 +209,7 @@ export function createService(env, suppliedProvider) {
   const publicOrder = o => ({id:o.id,status:o.status,created:o.created,currency:o.data.currency,total:o.data.total,refunded:o.refunded,simulation:o.data.simulation,
     items:o.data.items.map(i=>({sku:i.sku,title:i.title,format:i.format,quantity:i.quantity,unit:i.unit})),tracking:o.data.tracking || []});
   async function processQueue() {
-    const candidates=(await query("SELECT id,status FROM orders WHERE status IN ('PAID','PRINT_SUBMITTED','IN_PRODUCTION','SHIPPED') ORDER BY created LIMIT 10").all()).results;
+    const candidates=(await query("SELECT id,status FROM orders WHERE status IN ('PAID','PRINT_SUBMITTED','IN_PRODUCTION') ORDER BY created LIMIT 10").all()).results;
     const result=[];
     for(const order of candidates) {
       try {const updated=order.status==='PAID'?await submit(order.id):await poll(order.id);result.push({id:order.id,status:updated.status});}

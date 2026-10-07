@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "live_enabled": false,
+  "pilot_skus": ["CBB_001_EN_PB", "CBB_001_EN_HC"],
+  "pilot_selection_status": "CANDIDATES_NOT_RELEASED",
+  "initial_currency": "EUR",
+  "provider_billing_currency": "EUR",
+  "requirements": [
+    {"id":"stripe_account","owner":"publisher","status":"NOT_CREATED","evidence":null,"description":"Verleger bestätigt am 07.10.: noch kein Stripe-Konto. Verlagseigenes Händlerkonto, Unternehmensprüfung und Auszahlungskonto benötigt; Käufer benötigen kein Konto."},
+    {"id":"stripe_test_flow","owner":"operator","status":"MISSING","evidence":null,"description":"Testschlüssel, signierter Webhook, Checkout, Zahlung und Erstattung gegen Stripe prüfen."},
+    {"id":"lulu_production","owner":"operator","status":"MISSING","evidence":null,"description":"Separaten Produktions-API-Zugang prüfen; Sandbox-Schlüssel sind nicht übertragbar."},
+    {"id":"lulu_payment","owner":"publisher","status":"MISSING","evidence":null,"description":"Zahlungsmethode und automatische Druckkosten-Zahlung im Produktionsportal einrichten und prüfen; Kunden-Stripe-Zahlung bezahlt Lulu nicht automatisch."},
+    {"id":"print_approvals","owner":"production","status":"MISSING","evidence":null,"description":"Je Pilotprodukt Lulu-Profil, validierte Druckdateien, Übergabe-PASS und abgenommenes Muster mit Hashbindung."},
+    {"id":"commercial_policy","owner":"publisher","status":"MISSING","evidence":null,"description":"Preise und Margen, freigegebene Lieferländer, Steuern und Währungsstrategie."},
+    {"id":"legal_accounting","owner":"advisor","status":"MISSING","evidence":null,"description":"Verkäuferstammdaten, Rechtstexte, Rechnungen/Gutschriften, Datenschutz und Aufbewahrung fachlich abnehmen."},
+    {"id":"mail_delivery","owner":"operator","status":"MISSING","evidence":null,"description":"Absender und Versanddienst konfigurieren; derzeit ausschließlich Outbox-Entwürfe."},
+    {"id":"private_hosting","owner":"operator","status":"MISSING","evidence":null,"description":"Private Sandbox mit Access, Datenbank, Sicherung/Wiederherstellung und Webhook bereitstellen und testen."},
+    {"id":"production_runtime","owner":"operator","status":"NOT_ENABLED","evidence":null,"description":"Separaten geprüften Produktionsbetrieb bauen; derzeit verweigert die Anwendung jeden Live-Modus."},
+    {"id":"end_to_end","owner":"operator","status":"MISSING","evidence":null,"description":"Zahlung bis Produktion und Versand, Widerruf, Fehlerabgleich und Erstattung nachweisen."},
+    {"id":"publisher_release","owner":"publisher","status":"NOT_AUTHORIZED","evidence":null,"description":"Gesondertes Verlegerwort für den hashgebundenen Gesamtstand; technisches PASS ist keine Verkaufsfreigabe."}
+  ]
+}

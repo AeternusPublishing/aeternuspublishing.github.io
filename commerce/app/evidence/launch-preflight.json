@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-07T18:59:45.758Z",
+  "sales_ready": false,
+  "technical_result": "REPORT_ONLY_NOT_RELEASE_AUTHORITY",
+  "ready": false,
+  "products": [
+    {
+      "sku": "CBB_001_EN_PB",
+      "ready": false,
+      "findings": [
+        "PRODUCT_NOT_APPROVED",
+        "PRICE_MISSING",
+        "COVER_EVIDENCE_MISSING",
+        "INTERIOR_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "sku": "CBB_001_EN_HC",
+      "ready": false,
+      "findings": [
+        "PRODUCT_NOT_APPROVED",
+        "PRICE_MISSING",
+        "COVER_EVIDENCE_MISSING",
+        "INTERIOR_EVIDENCE_MISSING"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "CBB_001_EN_PB",
+      "code": "PRODUCT_NOT_APPROVED",
+      "owner": "production"
+    },
+    {
+      "id": "CBB_001_EN_PB",
+      "code": "PRICE_MISSING",
+      "owner": "production"
+    },
+    {
+      "id": "CBB_001_EN_PB",
+      "code": "COVER_EVIDENCE_MISSING",
+      "owner": "production"
+    },
+    {
+      "id": "CBB_001_EN_PB",
+      "code": "INTERIOR_EVIDENCE_MISSING",
+      "owner": "production"
+    },
+    {
+      "id": "CBB_001_EN_HC",
+      "code": "PRODUCT_NOT_APPROVED",
+      "owner": "production"
+    },
+    {
+      "id": "CBB_001_EN_HC",
+      "code": "PRICE_MISSING",
+      "owner": "production"
+    },
+    {
+      "id": "CBB_001_EN_HC",
+      "code": "COVER_EVIDENCE_MISSING",
+      "owner": "production"
+    },
+    {
+      "id": "CBB_001_EN_HC",
+      "code": "INTERIOR_EVIDENCE_MISSING",
+      "owner": "production"
+    },
+    {
+      "id": "pilot",
+      "code": "PILOT_SELECTION_NOT_APPROVED",
+      "owner": "publisher"
+    },
+    {
+      "id": "stripe_account",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "publisher"
+    },
+    {
+      "id": "stripe_test_flow",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "operator"
+    },
+    {
+      "id": "lulu_production",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "operator"
+    },
+    {
+      "id": "lulu_payment",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "publisher"
+    },
+    {
+      "id": "print_approvals",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "production"
+    },
+    {
+      "id": "commercial_policy",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "publisher"
+    },
+    {
+      "id": "legal_accounting",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "advisor"
+    },
+    {
+      "id": "mail_delivery",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "operator"
+    },
+    {
+      "id": "private_hosting",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "operator"
+    },
+    {
+      "id": "production_runtime",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "operator"
+    },
+    {
+      "id": "end_to_end",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "operator"
+    },
+    {
+      "id": "publisher_release",
+      "code": "EVIDENCE_OR_APPROVAL_MISSING",
+      "owner": "publisher"
+    },
+    {
+      "id": "live",
+      "code": "LIVE_DISABLED",
+      "owner": "publisher"
+    },
+    {
+      "id": "runtime",
+      "code": "PRODUCTION_RUNTIME_NOT_IMPLEMENTED",
+      "owner": "operator"
+    }
+  ],
+  "credentials": {
+    "lulu_sandbox_local": true,
+    "stripe_test_process": false,
+    "stripe_webhook_process": false
+  },
+  "files": [
+    {
+      "path": "access.mjs",
+      "sha256": "6edd978230e1a02665bee686f5c0540f360b7260942a2b2b9e7ceb303a36674e"
+    },
+    {
+      "path": "backup.mjs",
+      "sha256": "ca87df5fad5b99197a0ab0b07e8029d8241e5020c757e802088ad8d453130bef"
+    },
+    {
+      "path": "build.mjs",
+      "sha256": "6dd8cfdfd4ae28e9900791b1bbfb8c1175da9a3db9dce0740b897e0a1fb1308f"
+    },
+    {
+      "path": "catalog.json",
+      "sha256": "3424b8762ca62c7c0daf78bf86fe56de85635dc327dc5f6f12f89acc1d368423"
+    },
+    {
+      "path": "check-website.cjs",
+      "sha256": "ebd8c84c71968ec2d2ac8d909c8567022834adc21c266c826daf9c1327ea8fa8"
+    },
+    {
+      "path": "credential-store.py",
+      "sha256": "6c14336ffc575065f99c635c2044e69ede62841b883210a02b1018d3862e4b2b"
+    },
+    {
+      "path": "credentials.mjs",
+      "sha256": "8d76b5b6772fa9fd61560d06a34fb9dc5961eed6ed1eb374280b843300f6e7b7"
+    },
+    {
+      "path": "env.example",
+      "sha256": "1710050d7e23dc5b3f7e06e860033de36f6d9ac3b9c22e0c838db6ca2f7a80ae"
+    },
+    {
+      "path": "local-db.mjs",
+      "sha256": "4f0056842a60f612288b953c01de935ffde88f522bbbb80e2c639003f553e1e2"
+    },
+    {
+      "path": "local.mjs",
+      "sha256": "73834def0800bae5fea8b2ecd2835914aad84d29d876b62de88388e0a314c977"
+    },
+    {
+      "path": "messages.mjs",
+      "sha256": "93fae81a679ee489fa90cff53a85bc360dbe5a4ff0bf6caf3e1f585815d2a557"
+    },
+    {
+      "path": "migrations/0001.sql",
+      "sha256": "f0c0cf7f9713a8fff7f6a17b1448aac41e89301bac61de1b3430712fca4fd65c"
+    },
+    {
+      "path": "monitor.mjs",
+      "sha256": "5ced49a7a8bc5d0c3e9c9d510bd74b84f26a6e44e6afb84592e64c87f2dd6c5e"
+    },
+    {
+      "path": "preflight.mjs",
+      "sha256": "dc782c15f79cbec9da26d23ccea2c136115986af6cbc506b10baaa86cc10a6dd"
+    },
+    {
+      "path": "process.mjs",
+      "sha256": "ac31d767ce9149e2f0f2aebe872671e3097815a905c21f4cbee9b02204bfa910"
+    },
+    {
+      "path": "product-check.mjs",
+      "sha256": "dc09882f8756ef1d5d7cff032bc80dfa34436c9af7faa457ab0f5202dfe90191"
+    },
+    {
+      "path": "providers.mjs",
+      "sha256": "6fbbbcf88bd8e89aa7e9992106db84766c4c0717d10281f343b82073df4ea31b"
+    },
+    {
+      "path": "public/admin.html",
+      "sha256": "7394d5fcb1b8e5d055ac6d39a8affba06a8ce461d1f38b2557344c0b1f8cf06a"
+    },
+    {
+      "path": "public/admin.js",
+      "sha256": "f7cdbae8d76a70774757caee9eb1d2867f8b8954000b1e80a7760fdd393cc341"
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "732fcc36d8cec118dacc16370dcf48672cccc61de5fd09c075a64f7e07637958"
+    },
+    {
+      "path": "public/legal.html",
+      "sha256": "75eb329b1b025d7239f6b69ced75be28214bf1bed5c03ef7051ce9725c53ca67"
+    },
+    {
+      "path": "public/shop.js",
+      "sha256": "a5c416fe7b027e443118be05367cf4d5ab09bf94af0bde04b48864ac5c50112d"
+    },
+    {
+      "path": "public/style.css",
+      "sha256": "9833520271eca77ac5de08d3dc835454554cf295cb1b96b4be9a90c9fa77b4b2"
+    },
+    {
+      "path": "readiness.json",
+      "sha256": "a97e2159ff7d2dee72d5f2aa351ab58708f09d29d9adb893129c552454fe1ae9"
+    },
+    {
+      "path": "README.md",
+      "sha256": "50fd8340b411cf0852afb7a183c5c2117c72e14bffe52f9416dc33dc2fa8df2b"
+    },
+    {
+      "path": "release-plan.json",
+      "sha256": "76f9d0439ddb22420424016c13e43659254e31e10e10a31ff4e2ead8f9ce8858"
+    },
+    {
+      "path": "service.mjs",
+      "sha256": "d55a4b1ae00848ac3f225daf1ac4557bcc419cb85f3913ed93c9a3482f22bf91"
+    },
+    {
+      "path": "stripe-setup.json",
+      "sha256": "261820c5344a59b275fc7291a5926e195f1d4ba14ee32f1e708dfb43a266a649"
+    },
+    {
+      "path": "sync-catalog.cjs",
+      "sha256": "4bccd9d9bff706851ea2a428a705c980c05d3447609b266cc0ac681f75003d57"
+    },
+    {
+      "path": "verify-lulu.mjs",
+      "sha256": "d09e549afab9e1034d5d8424404d22913310952449146dfc827a5c51060ac72f"
+    },
+    {
+      "path": "verify-stripe.mjs",
+      "sha256": "ba5a52b40184e14370e3b9e42dac3c5c0d1dc11547314db9aa17d68b814cdfdb"
+    },
+    {
+      "path": "website.cjs",
+      "sha256": "fdbd7096f92b7d277a54b95a40ab00a7e8f2e9b66ecf3c0c772032040a96f780"
+    },
+    {
+      "path": "worker.mjs",
+      "sha256": "6fc8a2d496caada8fd4c75ed5b6349a1f4f0f6e61ac31f4d4f4240c85d5ba008"
+    },
+    {
+      "path": "wrangler.jsonc",
+      "sha256": "66356bf80dc6d1c57dea3d4040fcdf5c4c0baaef145b043b5a70d406f189e8f7"
+    }
+  ],
+  "paid_calls": 0,
+  "uploads": 0
+}
