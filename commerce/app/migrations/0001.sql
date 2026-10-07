@@ -1,0 +1,25 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE IF NOT EXISTS orders (
+ id TEXT PRIMARY KEY, token TEXT NOT NULL UNIQUE, created TEXT NOT NULL,
+ updated TEXT NOT NULL, status TEXT NOT NULL, data TEXT NOT NULL,
+ session_id TEXT UNIQUE, job_id TEXT UNIQUE, refunded INTEGER NOT NULL DEFAULT 0
+);
+CREATE TABLE IF NOT EXISTS events (
+ id TEXT PRIMARY KEY, order_id TEXT NOT NULL REFERENCES orders(id),
+ created TEXT NOT NULL, kind TEXT NOT NULL, data TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS outbox (
+ id TEXT PRIMARY KEY, order_id TEXT NOT NULL REFERENCES orders(id),
+ created TEXT NOT NULL, kind TEXT NOT NULL, recipient TEXT NOT NULL,
+ body TEXT NOT NULL, status TEXT NOT NULL DEFAULT 'PREVIEW'
+);
+CREATE TABLE IF NOT EXISTS requests (
+ id TEXT PRIMARY KEY, order_id TEXT NOT NULL REFERENCES orders(id),
+ created TEXT NOT NULL, kind TEXT NOT NULL, data TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS orders_status ON orders(status, created);
+CREATE UNIQUE INDEX IF NOT EXISTS payment_once ON events(order_id) WHERE kind='PAYMENT_VERIFIED';
+CREATE TABLE IF NOT EXISTS documents (
+ id TEXT PRIMARY KEY, order_id TEXT NOT NULL REFERENCES orders(id), created TEXT NOT NULL,
+ kind TEXT NOT NULL, data TEXT NOT NULL, UNIQUE(order_id,kind)
+);

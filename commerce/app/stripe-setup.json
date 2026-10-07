@@ -1,0 +1,36 @@
+{
+  "schema_version":1,
+  "account_status":"SANDBOX_ONBOARDED_20261007_LIVE_ACTIVATION_PENDING",
+  "account_purpose":"AETERNUS own-book sales; merchant account, not Stripe Connect",
+  "customer_account_required":false,
+  "configured_checkout":"Vordefinierter Bezahlvorgang / Stripe Checkout",
+  "credential_store":"Windows Credential Manager: AETERNUS/Stripe/Sandbox",
+  "email_verification_status":"PENDING_PER_DASHBOARD_GUIDE",
+  "provider_tests":{"api":"PASS","checkout":"PASS","sandbox_payment":"PASS_100_EUR_CENTS","sandbox_refund":"SUCCEEDED","webhook_delivery":"REAL_LOCAL_CLI_SIGNED_PASS_CLOUD_PENDING","live_payments":"NOT_ENABLED"},
+  "register_url":"https://dashboard.stripe.com/register",
+  "documentation_url":"https://docs.stripe.com/get-started/account/set-up",
+  "public_business_draft":{"brand":"AETERNUS","website":"https://aeternus-verlag.de","support_email":"kontakt@aeternus-verlag.de"},
+  "publisher_entry_required":["Legal business name and legal form","Business address and registration/tax details as requested","Representative identity and relationship to business","Beneficial owners where applicable","Payout bank account","Acceptance of Stripe service agreement"],
+  "technical_configuration":{
+    "mode":"sandbox",
+    "checkout":"hosted Checkout; one-time payment; guest checkout",
+    "secret_storage":"OS or hosting secret vault; never repository or chat",
+    "server_secrets":["STRIPE_KEY (sk_test_)","STRIPE_WEBHOOK_SECRET (whsec_)"],
+    "webhook_path":"/api/webhooks/stripe",
+    "webhook_events":["checkout.session.completed","checkout.session.async_payment_succeeded"],
+    "signature_tolerance_seconds":300,
+    "fulfillment_trigger":"Verified signed webhook only; never the browser success redirect",
+    "private_test_host_required":true,
+    "live_enabled":false
+  },
+  "acceptance_tests":[
+    "Successful test checkout -> one verified payment and invoice draft",
+    "Declined/canceled checkout -> no printing",
+    "Replayed webhook -> no duplicate receipt or print job",
+    "Incorrect amount, currency, session or order reference -> rejected",
+    "Delayed payment -> no fulfillment until signed paid event",
+    "Partial/full refund -> provider status checked and printing held",
+    "Timeout -> reconciliation, no duplicate refund",
+    "Lulu supplier payment -> independently verified, not inferred from Stripe payment"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T19:28:54.364Z",
+  "endpoint": "https://api.sandbox.lulu.com/cover-dimensions/",
+  "products": [
+    {
+      "sku": "CBB_001_EN_PB",
+      "isbn": "9783676050982",
+      "pages": 316,
+      "pod_package_id": "0600X0900.BW.STD.PB.060UC444.MXX",
+      "dimensions": {
+        "width": "938.000",
+        "height": "666.000",
+        "unit": "pt"
+      },
+      "status": "DIMENSIONS_RETURNED_NOT_FILE_VALIDATION"
+    },
+    {
+      "sku": "CBB_001_EN_HC",
+      "isbn": "9783676050999",
+      "pages": 316,
+      "pod_package_id": "0600X0900.BW.STD.CW.060UC444.MXX",
+      "dimensions": {
+        "width": "1062.000",
+        "height": "774.000",
+        "unit": "pt"
+      },
+      "status": "DIMENSIONS_RETURNED_NOT_FILE_VALIDATION"
+    }
+  ],
+  "catalog_source": "Candidate specifications only; re-run after final print page count",
+  "print_ready": false,
+  "files_uploaded": 0,
+  "print_jobs_created": 0,
+  "paid_calls": 0
+}

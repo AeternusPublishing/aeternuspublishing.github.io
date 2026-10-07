@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T20:06:02.667Z",
+  "mode": "sandbox",
+  "endpoint": "https://sandbox-shop.aeternuspublishing.com/api/webhooks/stripe",
+  "stripe_endpoint_id": "we_1UO12iDwBoWrI3rYyI8LMt54",
+  "secret_destination": "Cloudflare Worker aeternus-commerce-sandbox",
+  "secret_values_recorded": false,
+  "live_endpoint_created": false,
+  "cloud_delivery_verified": true,
+  "signature_transport_verified": true,
+  "forged_signature_status": 401,
+  "probe_created_order": false,
+  "delivery_evidence": "cloud-checkout-verification.json"
+}

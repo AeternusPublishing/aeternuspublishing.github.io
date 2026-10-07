@@ -1,0 +1,9 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Public Cloudflare Access application audience identifier, not an authentication secret"
+condition = "AND"
+paths = ['''commerce[/\\]app[/\\]wrangler\.jsonc$''']
+regexTarget = "secret"
+regexes = ['''^622ab0cad19679f7165a9d7cd1b4d8f03704b661e52169762a498ed606a3d1cf$''']

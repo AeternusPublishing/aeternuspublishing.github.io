@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T16:29:08.015Z",
+  "mode": "sandbox",
+  "credential_store": "Windows Credential Manager: AETERNUS/Lulu/Sandbox",
+  "oauth": "PASS",
+  "shipping_options": "PASS",
+  "cost_calculation": "PASS",
+  "currency": "EUR",
+  "destination": "US",
+  "cross_currency_checkout": "BLOCKED: sandbox cost calculations return account currency EUR; no unapproved conversion",
+  "fixture": "Lulu documentation package; public US address; not an approved AETERNUS product",
+  "provider_cost_cents": 1010,
+  "shipping_levels": [
+    "EXPEDITED",
+    "EXPRESS",
+    "GROUND_HD",
+    "PRIORITY_MAIL",
+    "MAIL"
+  ],
+  "print_job_created": false,
+  "payment_created": false,
+  "live_enabled": false
+}

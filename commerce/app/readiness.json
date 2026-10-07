@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "live_enabled": false,
+  "operator_email": "kontakt@aeternus-verlag.de",
+  "countries": {
+    "DE": "EUR",
+    "US": "USD",
+    "GB": "GBP",
+    "CA": "CAD",
+    "AU": "AUD"
+  },
+  "gates": [
+    {
+      "id": "lulu_account",
+      "status": "VERIFIED",
+      "owner": "operator",
+      "description": "Lulu-Konto und separates Sandbox-Konto am 07.10.2026 angemeldet und geprüft."
+    },
+    {
+      "id": "lulu_api",
+      "status": "VERIFIED_LOCAL",
+      "owner": "operator",
+      "description": "Freigegebener Sandbox-Client im Windows-Anmeldetresor; OAuth, Versandoptionen und US-Kostenabfrage in EUR bestanden. Kein Druckauftrag angelegt. Andere Angebotswährungen bleiben ohne geprüfte Währungsstrategie gesperrt."
+    },
+    {
+      "id": "stripe_test",
+      "status": "CLOUD_SIGNED_WEBHOOK_PAYMENT_REFUND_VERIFIED",
+      "owner": "operator",
+      "description": "Lokaler und Cloud-Test bestanden: echte Stripe-Sandbox-Zustellung an Worker/D1, 1 EUR Testzahlung, genau ein Rechnungs-/Nachrichtenentwurf, Drucksperre der Testbestellung und Vollerstattung bis REFUNDED. Unsignierte/gefälschte Aufrufe abgewiesen. Live-Aktivierung offen."
+    },
+    {
+      "id": "lulu_production_payment",
+      "status": "MISSING",
+      "owner": "publisher",
+      "description": "Produktions-API-Zugang, Zahlungsmethode und automatische Druckkosten-Zahlung separat einrichten und prüfen. Stripe-Kundenzahlung bezahlt Lulu nicht automatisch."
+    },
+    {
+      "id": "print_assets",
+      "status": "BLOCKED",
+      "owner": "production",
+      "description": "Lulu-Maße, Innen-/Umschlagvalidierung, Hashes und Übergabe-PASS je Produkt; PB/HC-Muster abnehmen."
+    },
+    {
+      "id": "public_domain",
+      "status": "PENDING",
+      "owner": "publisher",
+      "description": "Differenzierungsdossier und Zulässigkeit bei Lulu bestätigen."
+    },
+    {
+      "id": "prices",
+      "status": "PENDING_APPROVAL",
+      "owner": "publisher",
+      "description": "Landespreise, Preisbindung, aktuelle Vollkosten und Mindestmargen genehmigen."
+    },
+    {
+      "id": "tax_legal",
+      "status": "PENDING_REVIEW",
+      "owner": "advisor",
+      "description": "Steuer-/Lieferkettenprüfung je Land, Rechtstexte, elektronische Widerrufsfunktion und Datenschutz abnehmen."
+    },
+    {
+      "id": "notifications",
+      "status": "PREVIEW_ONLY",
+      "owner": "operator",
+      "description": "Absender, Versanddienst und Kundenmail-Texte freigeben; derzeit lokale Outbox."
+    },
+    {
+      "id": "accounting",
+      "status": "DRAFT_EXPORT",
+      "owner": "advisor",
+      "description": "Test-Rechnungsentwürfe und Erstattungsbelege exportierbar; steuerliche Stammdaten, Nummernkreis und Buchhaltungsübergabe abnehmen."
+    },
+    {
+      "id": "hosting",
+      "status": "VERIFIED_PRIVATE_SANDBOX",
+      "owner": "operator",
+      "description": "Privater Worker, operator-only Access, Anmeldung, Verwaltung und D1 gepr�ft. F�nf Sandbox-Secrets und eigener Stripe-Testwebhook aktiv. Backup lokal und in separater Cloud-Datenbank erfolgreich wiederhergestellt. Kein Livebetrieb."
+    },
+    {
+      "id": "live_release",
+      "status": "NOT_AUTHORIZED",
+      "owner": "publisher",
+      "description": "Gesonderte Freigabe des geprüften Gesamtstands; Live-Aufträge sind im Code gesperrt."
+    }
+  ]
+}

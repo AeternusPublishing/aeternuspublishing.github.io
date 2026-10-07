@@ -1,0 +1,21 @@
+name: Commerce test mode
+on:
+  pull_request:
+    paths:
+      - 'commerce/app/**'
+      - '.github/workflows/commerce-test.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '26'
+      - run: npm run shop:check
+      - run: npm run shop:test

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "mode": "sandbox",
+  "hostname_candidate": "sandbox-shop.aeternuspublishing.com",
+  "live_sales_enabled": false,
+  "deployment_status": "PRIVATE_SANDBOX_VERIFIED",
+  "database": {
+    "name": "aeternus-commerce-sandbox",
+    "id": "a6123bd1-c68e-4c37-b989-5125d2575306",
+    "region": "WEUR",
+    "migration": "0001.sql",
+    "verified_empty": false,
+    "initially_verified_empty": true,
+    "current_order_count": 1
+  },
+  "access": {
+    "status": "AUTHENTICATED_OPERATOR_AND_ANONYMOUS_DENIAL_VERIFIED",
+    "application_id": "37918d21-2198-4de0-b54f-b955942f0e81",
+    "policy_id": "b30b725e-324a-4df5-a83d-c6eeb4172764",
+    "allowed_emails": [
+      "kontakt@aeternus-verlag.de"
+    ],
+    "default": "deny",
+    "webhook_application_id": "aaa038c6-706e-47c8-930d-35158ebc5316",
+    "webhook_exception": "Exact /api/webhooks/stripe path; Worker only accepts POST with verified Stripe signature. Other paths still require Access JWT."
+  },
+  "zero_trust_onboarding": {
+    "selected_plan": "Zero Trust Free",
+    "displayed_base_fee": "0 USD/month",
+    "status": "ACTIVE_OBSERVED_PURCHASE_COMPLETE",
+    "terms_accepted_by_agent": false,
+    "overage_billing_authorized_by_agent": false
+  },
+  "secrets": {
+    "destination": "Cloudflare Worker secret store for aeternus-commerce-sandbox",
+    "transfer_authorized": true,
+    "authority": "Publisher UI reply 2026-10-07: Ja, privaten Cloud-Testshop anbinden",
+    "provisioned": [
+      "STRIPE_KEY",
+      "LULU_CLIENT_KEY",
+      "LULU_CLIENT_SECRET",
+      "ADMIN_TOKEN",
+      "STRIPE_WEBHOOK_SECRET"
+    ],
+    "pending": []
+  },
+  "completed_preparation": [
+    "D1 schema provisioned",
+    "Operator-only Access and authenticated admin verified",
+    "Authorized sandbox secrets stored",
+    "Private hostname attached; anonymous and invalid JWT requests rejected",
+    "Dedicated Stripe cloud delivery, one invoice/receipt draft and full refund verified",
+    "Cloud SQL backup restored to new local SQLite with integrity=ok",
+    "Cloud recovery into a separate new D1 database verified"
+  ],
+  "activation_order": [
+    "Approve print assets, products, prices and operational requirements",
+    "Separate live release authorization"
+  ],
+  "release_gate": "No public sales, no production credentials, no paid plan, no unapproved print assets"
+}

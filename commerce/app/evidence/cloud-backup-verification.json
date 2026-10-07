@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-07T20:11:29.562Z",
+  "source": "Cloudflare D1 aeternus-commerce-sandbox",
+  "sql_sha256": "f43d45c0491387e366a6c0243361ed26b9c3b7ed9a0a36b54abf4e7168ad608e",
+  "restore_target": "New local SQLite database outside Git",
+  "integrity": "ok",
+  "application_tables": [
+    "documents",
+    "events",
+    "orders",
+    "outbox",
+    "requests"
+  ],
+  "order_count": 1,
+  "remote_database_modified": false,
+  "cloud_restore_verified": false,
+  "backup_contains_customer_data": true
+}
