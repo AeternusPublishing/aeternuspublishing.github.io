@@ -1365,7 +1365,7 @@ module.exports.push({
   "eyebrow": "Green &middot; Military, expeditions and frontiers",
   "tagline": "The Great Game seen from the road, the battlefield and the hospital tent.",
   "intro": "A medical officer of the Bengal service, Duke went into Afghanistan with the Kabul Field Force under Sir Frederick Roberts. <i>Recollections of the Kabul Campaign, 1879 &amp; 1880</i> (1883) follows the army through the occupation of Kabul, the defence of Sherpur and the march towards Kandahar.",
-  "metaDescription": "Joshua Duke at AETERNUS: Recollections of the Kabul Campaign, 1879 & 1880 (London 1883), a surgeon's account of the Second Anglo-Afghan War in the text of the first edition, with seven restored plates and a map.",
+  "metaDescription": "Joshua Duke at AETERNUS: Recollections of the Kabul Campaign, 1879 & 1880 in the original text of 1883 and a complete Modern English Edition, with restored plates and map.",
   "bioKicker": "Author &amp; context",
   "bioTitle": "Surgeon<br>of the Frontier",
   "bioLede": "Duke did not command a brigade or determine imperial strategy. He saw what strategy required of the men who carried it out.",
@@ -1393,33 +1393,100 @@ module.exports.push({
     }
   ],
   "facts": [
-    ["Series", "Green"],
-    ["Text", "English · first edition, London 1883"],
-    ["Print edition", "366 pages · frontispiece · seven restored plates · one map"],
-    ["Formats", "Paperback · Hardcover · Kindle (forthcoming)"]
+    [
+      "Series",
+      "Green"
+    ],
+    [
+      "Text",
+      "Original English Edition · Modern English Edition"
+    ],
+    [
+      "Print editions",
+      "366 / 368 pages · frontispiece · seven restored plates · one map"
+    ],
+    [
+      "Formats",
+      "Paperback · Hardcover · Kindle (forthcoming)"
+    ]
   ],
-  "worksKicker": "The AETERNUS edition",
+  "worksKicker": "The AETERNUS editions",
   "worksTitle": "Recollections of the Kabul Campaign",
-  "worksIntro": "The complete text of the first edition of 1883, read against the page images of three copies of that printing; the seven plates and the map restored after the first edition; frontispiece of Lord Roberts after John Singer Sargent; author profile, preface, regimental register and afterword. Paperback, hardcover and Kindle editions are forthcoming; ordering links will follow when available. An edition in modern English is in preparation.",
-  "gridClass": "single-item",
+  "worksIntro": "Two complete English editions: the original wording of 1883 and a carefully modernised English edition. Both include a frontispiece, seven restored plates, a map and a publisher’s apparatus. Paperback, hardcover and Kindle; ordering links will follow when available.",
+  "gridClass": "",
   "books": [
     {
-      "cover": { "img": "cover-recollections-kabul-campaign-duke-en-20261006", "title": "Recollections<br>of the Kabul Campaign" },
-      "meta": "Military history · Afghanistan · 1883",
+      "cover": {
+        "img": "cover-recollections-kabul-campaign-duke-en-20261006",
+        "title": "Recollections<br>of the Kabul Campaign"
+      },
+      "meta": "Original English text · Military history · Afghanistan · 1883",
       "title": "Recollections of the Kabul Campaign, 1879 & 1880",
-      "subtitle": "",
+      "subtitle": "Original English Edition · complete text of 1883",
       "status": "Forthcoming",
       "formats": [
-        {"name": "Paperback", "isbn": "978-3-67605-125-5", "price": "US list price $17.99", "links": []},
-        {"name": "Hardcover", "isbn": "978-3-67605-126-2", "price": "US list price $27.99", "links": []},
-        {"name": "Kindle", "isbn": "978-3-67605-127-9", "price": "US list price $9.99", "links": []}
+        {
+          "name": "Paperback",
+          "isbn": "978-3-67605-125-5",
+          "price": "US list price $19.99",
+          "links": []
+        },
+        {
+          "name": "Hardcover",
+          "isbn": "978-3-67605-126-2",
+          "price": "US list price $29.99",
+          "links": []
+        },
+        {
+          "name": "Kindle",
+          "isbn": "978-3-67605-127-9",
+          "price": "US list price $9.99",
+          "links": []
+        }
       ],
       "modal": {
-        "metadata": "AETERNUS · Green Series · 366 print pages",
+        "metadata": "AETERNUS · Green Series · Original English Edition · 366 print pages",
         "summary": "Beyond the North-West Frontier of British India lay Afghanistan: mountain kingdom, strategic barrier and one of the great contested spaces of the nineteenth-century struggle later remembered as the Great Game. Into that country went the Kabul Field Force under Sir Frederick Roberts. Joshua Duke went with it.",
         "sample": "“The book is thoroughly readable throughout. The author seems a careful observer, and has the gift of describing what he sees.” (<i>The Spectator</i>, 25 August 1883.) A medical officer of the Bengal service, Duke witnessed a campaign fought across mountain passes, fortified heights and hostile valleys, through the occupation of Kabul, the defence of Sherpur and the final march southward towards Kandahar. Yet Duke was a surgeon before he was a chronicler. He knew that every advance left wounded men behind it, and that military glory acquires its meaning only when the cost is remembered beside the achievement.",
         "status": "Forthcoming · ordering links to follow"
       }
+    },
+    {
+      "cover": {
+        "img": "cover-recollections-kabul-campaign-duke-en-modern-20261007",
+        "title": "Recollections<br>of the Kabul Campaign"
+      },
+      "meta": "Modern English Edition · Military history · Afghanistan · 1883",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+      "subtitle": "Complete and unabridged · carefully modernised English",
+      "status": "Forthcoming",
+      "formats": [
+        {
+          "name": "Paperback",
+          "isbn": "978-3-67605-128-6",
+          "price": "US list price $19.99",
+          "links": []
+        },
+        {
+          "name": "Hardcover",
+          "isbn": "978-3-67605-129-3",
+          "price": "US list price $29.99",
+          "links": []
+        },
+        {
+          "name": "Kindle",
+          "isbn": "978-3-67605-130-9",
+          "price": "US list price $9.99",
+          "links": []
+        }
+      ],
+      "modal": {
+        "metadata": "AETERNUS · Green Series · Modern English Edition · 368 print pages",
+        "summary": "Duke’s complete narrative in carefully modernised English, with seven restored plates, a map and a publisher’s apparatus. His preface, documents, notes and appendix retain their original wording.",
+        "sample": "This edition gives Duke’s complete text in carefully modernised English; his preface and the documents he quotes appear in their original wording. Seven plates and the map of the first edition are restored for print. The publisher’s apparatus includes a preface, author profile, regimental register and afterword.",
+        "status": "Forthcoming · ordering links to follow"
+      },
+      "id": "recollections-of-the-kabul-campaign-1879-1880-modern-english-edition"
     }
   ]
 });

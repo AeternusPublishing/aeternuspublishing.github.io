@@ -881,6 +881,27 @@
       "landingUrl": "https://aeternus-verlag.de/en/authors/charles-william-wilson/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/en/authors/charles-william-wilson/"
+    },
+    {
+      "id": "kabul-modern",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+      "author": "Joshua Duke",
+      "year": "1883",
+      "region": "asia",
+      "location": [
+        69.172,
+        34.528
+      ],
+      "place": "Kabul, Afghanistan – Kurram, Sherpur, Marsch nach Kandahar",
+      "status": "In Vorbereitung",
+      "statusDetail": "Modern English Edition – Taschenbuch, Hardcover und Kindle in Vorbereitung",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007.webp",
+      "subtitle": "Complete and unabridged · carefully modernised English",
+      "summary": "Der Zweite Anglo-Afghanische Krieg aus der Sicht eines Arztes der Kabul Field Force: Einnahme Kabuls, Verteidigung von Sherpur und der Marsch nach Kandahar.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/"
     }
   ],
   "links": [

@@ -13,3 +13,4 @@ work/
 dist/
 output/
 .playwright-cli/
+.wrangler/

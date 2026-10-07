@@ -3,7 +3,7 @@
     "handle": "aeternus.publishing",
     "url": "https://www.instagram.com/aeternus.publishing/",
     "language": "en",
-    "verified_utc": "2026-09-22T10:10:39.924Z",
+    "verified_utc": "2026-10-07T20:20:00Z",
     "posts": [
       {
         "title": "Animal Heroes",
@@ -69,6 +69,11 @@
         "title": "Edgar Huntly (Illustrated)",
         "url": "https://www.instagram.com/p/DdlJzbcl-Na/",
         "book_id": "en-charles-brockden-brown-edgar-huntly-illustrated"
+      },
+      {
+        "title": "Recollections of the Kabul Campaign, 1879 & 1880",
+        "url": "https://www.instagram.com/p/DeJtC0LiK3y/",
+        "book_id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880"
       }
     ],
     "feed_sync": {
