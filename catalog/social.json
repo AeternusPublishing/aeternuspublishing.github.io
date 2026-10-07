@@ -3,7 +3,7 @@
     "handle": "aeternus.publishing",
     "url": "https://www.instagram.com/aeternus.publishing/",
     "language": "en",
-    "verified_utc": "2026-10-07T20:20:00Z",
+    "verified_utc": "2026-10-07T20:28:31.255884+00:00",
     "posts": [
       {
         "title": "Animal Heroes",
@@ -74,6 +74,11 @@
         "title": "Recollections of the Kabul Campaign, 1879 & 1880",
         "url": "https://www.instagram.com/p/DeJtC0LiK3y/",
         "book_id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880"
+      },
+      {
+        "title": "From Korti to Khartum (Illustrated)",
+        "url": "https://www.instagram.com/p/DeNN2guiNlJ/",
+        "book_id": "en-charles-william-wilson-from-korti-to-khartum-illustrated"
       }
     ],
     "feed_sync": {
