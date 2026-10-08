@@ -40,6 +40,12 @@ const englishBooks = authorsEn.filter(a => englishAuthors.has(a.slug)).flatMap(a
   };
 }));
 require('./populate-english.cjs')(englishBooks, authorsEn, series, clean);
+// Publisher-authorized DCB_001 V2 copy; forthcoming until distribution is observed.
+const dcb001 = require('./dcb001-en-20261008.json');
+Object.assign(authorsEn.find(a => a.slug === 'daniel-carter-beard'), dcb001.author);
+const dcbBook = englishBooks.find(b => b.author === 'daniel-carter-beard');
+Object.assign(dcbBook, dcb001.book);
+dcbBook.legacy = { ...dcbBook.legacy, modal: { ...dcbBook.legacy.modal, metadata: dcb001.book.metadata, summary: dcb001.book.description.long, status: 'Paperback forthcoming' } };
 // Publisher-authorized WGS_001 V6 announcement; register status GEBAUT, no retail links.
 const wgs001 = require('./wgs001-en-20261008.json');
 authorsEn.push(wgs001.author);
