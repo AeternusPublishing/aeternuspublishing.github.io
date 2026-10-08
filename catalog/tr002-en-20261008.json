@@ -1,0 +1,149 @@
+{
+  "author": {
+    "slug": "theodore-roosevelt",
+    "name": "Theodore Roosevelt",
+    "dates": "1858–1919",
+    "eyebrow": "GREEN SERIES · AETERNUS",
+    "tagline": "Historian, naturalist, soldier and statesman",
+    "intro": "The author of The Rough Riders, writing before the White House.",
+    "metaDescription": "In 1898 Theodore Roosevelt leaves Washington for Cuba. Cowboys, ranchmen and Eastern athletes become a volunteer regiment whose brief campaign will enter American history. The complete English text of the 1899 first edition, with a new publisher’s apparatus.",
+    "portrait": {
+      "modern": true,
+      "file": "portrait-roosevelt",
+      "alt": "Theodore Roosevelt, after the portrait by Philip Alexius de László, 1908"
+    },
+    "blocks": [
+      {
+        "h": "Before the White House",
+        "p": [
+          "Theodore Roosevelt entered the world in New York City on October 27, 1858, with advantages of family, education and circumstance, but without the physical constitution that later legend might suggest. Severe asthma, bodily weakness and extreme nearsightedness shadowed his childhood. His response was characteristic: he refused to treat weakness as a final verdict.",
+          "The famous injunction from his father that he must make his body became, in Roosevelt’s life, something greater than a program of exercise. He came to believe that physical effort, danger, discipline and chosen hardship formed part of moral development. The philosophy he later called the strenuous life grew from this personal revolt against fragility.",
+          "Yet Roosevelt was never merely a man of action.",
+          "He was a voracious reader, naturalist and historian whose intellectual appetite equaled his physical restlessness. His early The Naval War of 1812 showed a young author already capable of serious documentary work and strategic judgment. Across his lifetime he would write on war, politics, natural history, hunting, exploration, biography and the American West with a productivity unusual even among professional men of letters.",
+          "Politics claimed him early. He entered the New York State Assembly in his twenties and quickly became known for reformist combativeness. The trajectory might have remained that of an Eastern political career had private catastrophe not altered its course in 1884, when his mother and his first wife, Alice Lee, died within hours of one another.",
+          "Roosevelt went west.",
+          "The Dakota Badlands gave him a second education. He ranched, hunted, rode enormous distances, drove cattle and lived among men whose social world differed profoundly from that of New York. The experience did not turn him into a Westerner by birth, nor did he pretend that it had. It did something more important: it taught him to admire a form of practical competence and self-command which he believed modern urban life could too easily weaken.",
+          "These years entered his historical imagination as well as his character. Roosevelt would later write the four-volume The Winning of the West, an immense attempt to narrate the continental expansion that had created the republic he knew. By the 1890s, however, the frontier whose advance he had chronicled was itself passing into history.",
+          "Roosevelt returned to public life with greater appetite rather than less. He served as United States Civil Service Commissioner, became a New York City Police Commissioner and in 1897 entered the Navy Department as Assistant Secretary. In each office he showed the same impatience with inert machinery. He expected systems to function and men entrusted with public responsibilities to discharge them visibly.",
+          "At the Navy Department this instinct acquired strategic weight. Roosevelt believed that the United States could not enter the coming century as a major nation while neglecting sea power. He pushed preparedness, modernization and a conception of national power larger than coastal defense.",
+          "Then came war.",
+          "Roosevelt had advocated preparedness in Washington; now he refused to let other men bear the entire physical burden of the policy he supported. On May 6, 1898, he left office and accepted a commission as lieutenant colonel of the First United States Volunteer Cavalry.",
+          "The decision itself is important, but so is the rank he accepted.",
+          "Roosevelt might have sought the colonelcy. Instead he supported Leonard Wood for command because Wood possessed the professional experience necessary to organize the regiment quickly. Roosevelt understood that enthusiasm, however fierce, did not replace technical knowledge. He intended to learn under a man better prepared for the immediate task.",
+          "This was not modesty in the conventional sense.",
+          "It was judgment.",
+          "In Cuba, that judgment would be tested alongside everything else. At Las Guasimas Roosevelt encountered sustained enemy fire for the first time. When Wood advanced to brigade command, Roosevelt took over the regiment and later received the colonelcy formally.",
+          "Then came July 1.",
+          "The attack upon Kettle Hill and the San Juan positions would become the central military image of Roosevelt’s life, yet what matters beneath the image is the alignment between his public creed and his personal conduct. Roosevelt had spent years praising vigor, courage and willingness to assume responsibility. On the battlefield he placed himself where the consequences of those words applied to him as directly as to the men he commanded.",
+          "That fact gave the episode unusual political force.",
+          "The Cuban campaign did not create Roosevelt’s character. It certified it in public.",
+          "Within months he was elected Governor of New York. In 1900 he was elected Vice President, and after William McKinley’s assassination in September 1901 the forty-two-year-old Roosevelt entered the White House.",
+          "The presidency revealed a range no single battlefield image could contain. Roosevelt confronted corporate power, enlarged the practical authority of the presidency, intervened in labor conflict, advanced the Panama Canal, strengthened the Navy and pursued an American foreign policy based upon the conviction that diplomacy carried greater weight when backed by visible capability.",
+          "He also became one of the decisive presidential figures in the history of American conservation. The hunter and former ranchman did not conclude that wilderness existed merely to be consumed. He believed that forests, waters, wildlife and open country formed part of the national inheritance and required deliberate protection from short-term exhaustion.",
+          "This combination of hunter, conservationist, soldier and peacemaker appears contradictory only if each role is reduced to a caricature.",
+          "Roosevelt himself saw a common principle.",
+          "Power imposed duty.",
+          "The strong man had obligations precisely because he possessed strength; the strong nation likewise. Preparedness was not valuable because war was desirable, but because helplessness surrendered the decision to others.",
+          "In 1906 this philosophy reached an extraordinary counterpart to San Juan when Roosevelt received the Nobel Peace Prize for his role in mediating the end of the Russo-Japanese War.",
+          "His own military honor remained unresolved during his lifetime. Roosevelt had been recommended for the Medal of Honor after Santiago, but the decoration was not awarded. More than a century after the charge, in 2001, it was conferred posthumously for his actions of July 1, 1898.",
+          "Thus two distinctions of very different character stand over his name: the Medal of Honor and the Nobel Peace Prize.",
+          "They describe not two Roosevelts, but the breadth of one conception of public life. Courage mattered when bullets were close. Restraint and judgment mattered when nations possessed the power to kill on a far greater scale.",
+          "The Rough Rider became President.",
+          "The field enlarged.",
+          "The requirement to bear responsibility remained."
+        ]
+      }
+    ],
+    "publisherPortraitCaption": "After the portrait by Philip Alexius de László, 1908."
+  },
+  "book": {
+    "id": "en-theodore-roosevelt-the-rough-riders-annotated",
+    "work_id": "TR_002",
+    "language": "en",
+    "title": "The Rough Riders (Annotated)",
+    "subtitle": "",
+    "author": "theodore-roosevelt",
+    "authorName": "Theodore Roosevelt",
+    "contributors": [],
+    "series": "gruen",
+    "series_number": null,
+    "original_title": "The Rough Riders",
+    "original_publication_year": 1899,
+    "isbn": {
+      "paperback": "978-3-67605-155-2",
+      "hardcover": "978-3-67605-156-9",
+      "ebook": "978-3-67605-157-6"
+    },
+    "formats": {
+      "paperback": {
+        "label": "Paperback",
+        "price_display": "US$19.99"
+      },
+      "hardcover": {
+        "label": "Hardcover",
+        "price_display": "US$29.99"
+      },
+      "ebook": {
+        "label": "E-Book",
+        "price_display": "US$10.99"
+      }
+    },
+    "description": {
+      "short": "In 1898 Theodore Roosevelt leaves Washington for Cuba. Cowboys, ranchmen and Eastern athletes become a volunteer regiment whose brief campaign will enter American history. The complete English text of the 1899 first edition, with a new publisher’s apparatus.",
+      "long": "  Complete text of the first edition of 1899, collated with three copies  All forty-four illustrations of 1899, digitally repaired  The complete Muster-out Roll of the regiment with 1,349 entries  Publisher’s Foreword, About the Author and Historical Afterword  Publisher’s Notes and Glossary   In 1898 Theodore Roosevelt occupied one of the most influential civilian posts in Washington. As Assistant Secretary of the Navy he had argued for readiness, modern ships and a larger conception of American power. When war with Spain came, he abandoned the security of office and sought a commission in the field.  With Leonard Wood he helped raise the First United States Volunteer Cavalry. The regiment drew heavily upon the Western territories, where horses, rifles, long distances and physical hardship still belonged to ordinary life. Cowboys, ranchmen, hunters, prospectors and law officers entered alongside athletes and men from the great universities and clubs of the East. Within weeks, men who had little in common beyond ability, confidence and willingness to serve had to be made into soldiers.  The campaign stripped the romance away quickly. At Tampa the American mobilization system bent under the sudden concentration of men, animals, railways, stores and shipping. Four troops and almost all the horses of the Rough Riders remained in Florida. The regiment entered Cuba largely dismounted and fought through tropical vegetation against Spanish troops armed with modern Mauser rifles and protected by difficult ground.  Roosevelt carries the reader from San Antonio to Tampa, from the confused embarkation to Las Guasimas, and from the first casualties to the advance of July 1 against Kettle Hill and the wider San Juan position. He writes with the authority of command, the eye of a historian and the unmistakable temperament of a man who believed that courage, usefulness and responsibility revealed themselves only when put under pressure.   The Rough Riders  is therefore more than the memoir of one famous charge. It is the history of a volunteer regiment, a primary account of the Santiago campaign and one of the defining books of Theodore Roosevelt’s life. Its pages show the frontier horseman, the Regular soldier, the Eastern athlete and the future President standing within the same brief military drama.  The AETERNUS edition restores the full structure of the 1899 first edition, including the original dedication and motto, four appendices, all forty-four illustrations and the complete Muster Roll of 1,349 entries.  About the illustrations  All forty-four historical illustrations are included. Forty-three were digitally reconstructed for clarity; fine details were rebuilt and may differ from the originals. The Charles Dana Gibson portrait follows the original drawing in the National Portrait Gallery, Smithsonian Institution. "
+    },
+    "publisherDescriptionHTML": "<ul><li>Complete text of the first edition of 1899, collated with three copies</li><li>All forty-four illustrations of 1899, digitally repaired</li><li>The complete Muster-out Roll of the regiment with 1,349 entries</li><li>Publisher’s Foreword, About the Author and Historical Afterword</li><li>Publisher’s Notes and Glossary</li></ul><p>In 1898 Theodore Roosevelt occupied one of the most influential civilian posts in Washington. As Assistant Secretary of the Navy he had argued for readiness, modern ships and a larger conception of American power. When war with Spain came, he abandoned the security of office and sought a commission in the field.</p><p>With Leonard Wood he helped raise the First United States Volunteer Cavalry. The regiment drew heavily upon the Western territories, where horses, rifles, long distances and physical hardship still belonged to ordinary life. Cowboys, ranchmen, hunters, prospectors and law officers entered alongside athletes and men from the great universities and clubs of the East. Within weeks, men who had little in common beyond ability, confidence and willingness to serve had to be made into soldiers.</p><p>The campaign stripped the romance away quickly. At Tampa the American mobilization system bent under the sudden concentration of men, animals, railways, stores and shipping. Four troops and almost all the horses of the Rough Riders remained in Florida. The regiment entered Cuba largely dismounted and fought through tropical vegetation against Spanish troops armed with modern Mauser rifles and protected by difficult ground.</p><p>Roosevelt carries the reader from San Antonio to Tampa, from the confused embarkation to Las Guasimas, and from the first casualties to the advance of July 1 against Kettle Hill and the wider San Juan position. He writes with the authority of command, the eye of a historian and the unmistakable temperament of a man who believed that courage, usefulness and responsibility revealed themselves only when put under pressure.</p><p><i>The Rough Riders</i> is therefore more than the memoir of one famous charge. It is the history of a volunteer regiment, a primary account of the Santiago campaign and one of the defining books of Theodore Roosevelt’s life. Its pages show the frontier horseman, the Regular soldier, the Eastern athlete and the future President standing within the same brief military drama.</p><p>The AETERNUS edition restores the full structure of the 1899 first edition, including the original dedication and motto, four appendices, all forty-four illustrations and the complete Muster Roll of 1,349 entries.</p><h3>About the illustrations</h3><p>All forty-four historical illustrations are included. Forty-three were digitally reconstructed for clarity; fine details were rebuilt and may differ from the originals. The Charles Dana Gibson portrait follows the original drawing in the National Portrait Gallery, Smithsonian Institution.</p>",
+    "cover": "/assets/images/cover-tr002-en-v1-20261008.jpg",
+    "publication_date": null,
+    "pricing": {},
+    "availability": "COMING_SOON",
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "amazon": "GEBAUT",
+      "ingram": "GEBAUT",
+      "own_shop": "NOT_CONFIGURED"
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-theodore-roosevelt-the-rough-riders-annotated/",
+    "authorUrl": "/authors/theodore-roosevelt/",
+    "seriesName": "Green Series",
+    "seriesColor": "#2d4a22",
+    "legacy": {
+      "modal": {
+        "metadata": "352 book pages · Complete English text of the 1899 first edition · Four appendices and the Muster-out Roll with 1,349 entries · Paperback, hardcover and e-book forthcoming",
+        "sample": "In 1898 Theodore Roosevelt leaves Washington for Cuba. Cowboys, ranchmen and Eastern athletes become a volunteer regiment whose brief campaign will enter American history. The complete English text of the 1899 first edition, with a new publisher’s apparatus."
+      }
+    },
+    "provenance": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\TR_THEODORE_ROOSEVELT\\02_WERKE\\TR_002_THE_ROUGH_RIDERS_1899\\08_HANDEL\\UPLOADPAKET_TR002_EN_INGRAM_V1_20261008\\METADATEN\\ingram_paperback.json",
+    "retailer_formats": [
+      {
+        "label": "Paperback",
+        "isbn": "978-3-67605-155-2",
+        "price_display": "US$19.99",
+        "links": [],
+        "status": "GEBAUT"
+      },
+      {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-156-9",
+        "price_display": "US$29.99",
+        "links": [],
+        "status": "GEBAUT"
+      },
+      {
+        "label": "E-Book",
+        "isbn": "978-3-67605-157-6",
+        "price_display": "US$10.99",
+        "links": [],
+        "status": "GEBAUT"
+      }
+    ]
+  }
+}

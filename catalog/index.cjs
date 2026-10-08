@@ -57,6 +57,10 @@ const acd = require('./acd-en-20261008.json');
 const amberRef = englishBooks.find(b => b.series === 'bernstein');
 authorsEn.push(acd.author);
 englishBooks.push({ ...acd.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+// Explicitly authorized English announcement; no retail availability claimed.
+const tr002 = require('./tr002-en-20261008.json');
+authorsEn.push(tr002.author);
+englishBooks.unshift(tr002.book);
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
