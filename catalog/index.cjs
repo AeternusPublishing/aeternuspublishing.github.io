@@ -61,6 +61,10 @@ englishBooks.push({ ...acd.book, seriesName: amberRef.seriesName, seriesColor: a
 const coo001 = require('./coo001-en-20261008.json');
 authorsEn.push(coo001.author);
 englishBooks.push({ ...coo001.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+// ETA author page (QR target of The Klondike Stampede); register status GEBAUT, no ISBN, no prices, no retail links.
+const eta001 = require('./eta001-en-20261008.json');
+authorsEn.push(eta001.author);
+englishBooks.push(eta001.book);
 // Explicitly authorized English announcement; no retail availability claimed.
 const tr002 = require('./tr002-en-20261008.json');
 authorsEn.push(tr002.author);

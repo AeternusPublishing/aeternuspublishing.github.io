@@ -1,0 +1,92 @@
+{
+  "author": {
+    "slug": "tappan-adney",
+    "name": "Edwin Tappan Adney",
+    "dates": "1868–1950",
+    "eyebrow": "ANTHRACITE SERIES · AETERNUS",
+    "tagline": "Artist, Correspondent, Witness of the North",
+    "intro": "",
+    "metaDescription": "Edwin Tappan Adney (1868–1950), artist, correspondent and witness of the Klondike rush of 1897–1898. The Klondike Stampede in the AETERNUS Anthracite Series.",
+    "portrait": {
+      "modern": true,
+      "file": "portrait-eta-adney-20261008",
+      "alt": "Edwin Tappan Adney in field dress on a northern shore, 1897–1898"
+    },
+    "blocks": [
+      {
+        "h": "About the Author",
+        "p": [
+          "Edwin Tappan Adney belonged to a nineteenth-century type that has become increasingly rare: the observer whose education was not confined to a single discipline.",
+          "Born in Ohio in 1868, Adney became an artist, illustrator, writer, photographer and student of the cultures and material traditions of northeastern North America. Long before his name became associated with the Klondike, he had trained his eye upon birds, forests, hunting life, Indian craftsmanship and the innumerable details by which a landscape reveals the people who inhabit it.",
+          "That habit of observation proved decisive when the gold discoveries of the Yukon set North America in motion.",
+          "Sent north as a correspondent during the great rush of 1897–1898, Adney travelled through the country over which the stampeders themselves were struggling. He saw the coastal gateways, the mountain approaches and the extraordinary migration of men and goods toward the interior. His reports and illustrations carried scenes of the northern trails to readers far removed from them; the experience later became the foundation of The Klondike Stampede, published by Harper & Brothers in 1900.",
+          "Yet Adney was never merely a chronicler of spectacle.",
+          "His attention repeatedly descends from the grand event to the material fact: equipment, transport, clothing, food, dogs, boats, distances, methods of labour, the price of error. He possessed the illustrator’s eye for form and the field observer’s instinct for significant detail. Consequently, the world he records is unusually tangible. The reader does not simply learn that thousands travelled north; he begins to understand what such movement required.",
+          "Adney’s later life confirmed the seriousness of this instinct. He devoted decades to the study of Indian birchbark canoes and their construction, building an extraordinary body of models and documentation that helped preserve knowledge which might otherwise have disappeared.",
+          "There is therefore a unity beneath his apparently varied pursuits.",
+          "Whether studying a canoe, sketching an animal, photographing a trail or describing the ascent toward the Klondike, Adney sought to understand how things were actually made, used, endured and lived.",
+          "It is this fidelity to the concrete world that gives his account its lasting strength.",
+          "He went north as a correspondent.",
+          "He returned as one of the witnesses through whom the great stampede can still be seen."
+        ]
+      }
+    ],
+    "publisherEditionHTML": "<h2>The Klondike Stampede</h2><p>The text of this edition is that of the first edition, <em>The Klondike Stampede</em>, by Tappan Adney, New York and London: Harper & Brothers, 1900. It was established from page images of that printing, every doubtful reading being decided against the printed page.</p><p>The author’s spelling, punctuation, capitalisation and hyphenation have been retained throughout, as have his words for people, places and things as they were used in the camps of 1897 and 1898. Obvious slips of the original printing have not been silently corrected. Words set in italic in the first edition are set in italic here. The author’s footnotes are printed at the foot of the page.</p><p>Of the one hundred and forty-six illustrations listed in the first edition, one hundred and forty-four are reproduced, each from the clearest available copy; the captions follow the first edition’s list of illustrations. Two folding panoramas, of Dawson and of Bonanza Creek, could not be recovered complete from any surviving copy that we were able to examine and are omitted. The two newspaper mastheads in the text, the <em>Yukon Midnight Sun</em> and <em>The Klondike Nugget</em>, are given as facsimiles.</p><p>The English edition of the Anthracite Series is forthcoming.</p>",
+    "publisherPortraitCaption": "Edwin Tappan Adney, born 1868 at Athens, Ohio, United States; died 1950 at Upper Woodstock, New Brunswick, Canada."
+  },
+  "book": {
+    "id": "en-tappan-adney-the-klondike-stampede",
+    "work_id": "ETA_001",
+    "language": "en",
+    "title": "The Klondike Stampede",
+    "subtitle": "",
+    "author": "tappan-adney",
+    "authorName": "Edwin Tappan Adney",
+    "contributors": [],
+    "series": "anthrazit",
+    "series_number": null,
+    "original_title": "The Klondike Stampede",
+    "original_publication_year": 1900,
+    "isbn": {
+      "paperback": null,
+      "hardcover": null,
+      "ebook": null
+    },
+    "formats": {},
+    "description": {
+      "short": "There are moments in history when a distant name acquires the force of a summons. In the closing years of the nineteenth century, Klondike became such a name.",
+      "long": "There are moments in history when a distant name acquires the force of a summons. In the closing years of the nineteenth century, Klondike became such a name. It passed from ship to railway station, from newspaper office to workshop, from farmstead to city street. Men who had never seen the North unfolded maps of rivers whose courses they scarcely understood. Savings accumulated over years were gathered into a single stake. Shops were abandoned, professions interrupted, households left behind. Beyond the ordinary boundaries of settled life, somewhere among the mountains and frozen waterways of the Yukon, gold had been found — and for thousands, that knowledge was enough. The movement that followed was greater than a search for metal. It was one of those vast and revealing migrations in which hope, calculation, courage, vanity, endurance and folly travel together. Tappan Adney saw it at close quarters. He observed not merely the destination, but the road toward it: the ports swollen with men and freight; the trails over which entire livelihoods had to be carried upon human backs; the animals, boats, camps and improvised settlements; the machinery of transportation and supply; the innumerable practical difficulties lying between the dream of wealth and the ground from which wealth might actually be taken. That distinction gives The Klondike Stampede its enduring authority. This is not the Klondike remembered after legend had softened its edges. It is the Klondike while the trails were crowded, the calculations unfinished, the fortunes uncertain and the great northern experiment still unfolding before the eyes of those who had entered it. More than a century has passed. The fever has broken; the camps have fallen silent; the great human tide has withdrawn. The testimony remains."
+    },
+    "cover": null,
+    "publication_date": null,
+    "pricing": {},
+    "availability": "COMING_SOON",
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "amazon": "UNKNOWN",
+      "ingram": "UNKNOWN",
+      "own_shop": "NOT_CONFIGURED"
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-tappan-adney-the-klondike-stampede/",
+    "authorUrl": "/authors/tappan-adney/",
+    "seriesName": "Anthracite Series",
+    "seriesColor": "#383838",
+    "legacy": {
+      "modal": {
+        "sample": "There are moments in history when a distant name acquires the force of a summons. In the closing years of the nineteenth century, Klondike became such a name. It passed from ship to railway station, from newspaper office to workshop, from farmstead to city street. Men who had never seen the North unfolded maps of rivers whose courses they scarcely understood. Savings accumulated over years were gathered into a single stake. Shops were abandoned, professions interrupted, households left behind. Beyond the ordinary boundaries of settled life, somewhere among the mountains and frozen waterways of the Yukon, gold had been found — and for thousands, that knowledge was enough. The movement that followed was greater than a search for metal. It was one of those vast and revealing migrations in which hope, calculation, courage, vanity, endurance and folly travel together. Tappan Adney saw it at close quarters. He observed not merely the destination, but the road toward it: the ports swollen with men and freight; the trails over which entire livelihoods had to be carried upon human backs; the animals, boats, camps and improvised settlements; the machinery of transportation and supply; the innumerable practical difficulties lying between the dream of wealth and the ground from which wealth might actually be taken. That distinction gives The Klondike Stampede its enduring authority. This is not the Klondike remembered after legend had softened its edges. It is the Klondike while the trails were crowded, the calculations unfinished, the fortunes uncertain and the great northern experiment still unfolding before the eyes of those who had entered it. More than a century has passed. The fever has broken; the camps have fallen silent; the great human tide has withdrawn. The testimony remains.",
+        "metadata": "ANTHRACITE SERIES reading edition: the complete text of the first edition of 1900, with one hundred and forty-four of its illustrations."
+      }
+    },
+    "provenance": "ETA_001/04_PARATEXT/ETA001_EN_PARATEXTE_V4.json (about_the_author, publishers_foreword, note_on_the_text, author_portrait_caption) + 00_ADMIN/STAND_ETA001_20261008.md",
+    "retailer_formats": [],
+    "publisherDescriptionHTML": "<ul><li>Complete text of the first edition, The Klondike Stampede, Harper &amp; Brothers, New York and London, 1900, established from page images of that printing</li><li>One hundred and forty-four of the one hundred and forty-six illustrations of the first edition: the frontispiece and one hundred and forty-three plates</li><li>The author&#8217;s spelling, punctuation, capitalisation and hyphenation retained throughout, as are his words for people, places and things as they were used in the camps of 1897 and 1898</li><li>Publisher&#8217;s foreword, author profile, a note on the edition and an afterword</li></ul><p>There are moments in history when a distant name acquires the force of a summons.</p><p>In the closing years of the nineteenth century, <em>Klondike</em> became such a name.</p><p>It passed from ship to railway station, from newspaper office to workshop, from farmstead to city street. Men who had never seen the North unfolded maps of rivers whose courses they scarcely understood. Savings accumulated over years were gathered into a single stake. Shops were abandoned, professions interrupted, households left behind. Beyond the ordinary boundaries of settled life, somewhere among the mountains and frozen waterways of the Yukon, gold had been found — and for thousands, that knowledge was enough.</p><p>The movement that followed was greater than a search for metal. It was one of those vast and revealing migrations in which hope, calculation, courage, vanity, endurance and folly travel together.</p><p>Tappan Adney saw it at close quarters.</p><p>He observed not merely the destination, but the road toward it: the ports swollen with men and freight; the trails over which entire livelihoods had to be carried upon human backs; the animals, boats, camps and improvised settlements; the machinery of transportation and supply; the innumerable practical difficulties lying between the dream of wealth and the ground from which wealth might actually be taken.</p><p>That distinction gives <em>The Klondike Stampede</em> its enduring authority.</p><p>This is not the Klondike remembered after legend had softened its edges. It is the Klondike while the trails were crowded, the calculations unfinished, the fortunes uncertain and the great northern experiment still unfolding before the eyes of those who had entered it.</p><p>More than a century has passed. The fever has broken; the camps have fallen silent; the great human tide has withdrawn.</p><p>The testimony remains.</p>"
+  }
+}
