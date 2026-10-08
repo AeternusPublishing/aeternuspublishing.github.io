@@ -3,7 +3,7 @@
     "handle": "aeternus.publishing",
     "url": "https://www.instagram.com/aeternus.publishing/",
     "language": "en",
-    "verified_utc": "2026-10-08T15:59:03.762067+00:00",
+    "verified_utc": "2026-10-08T16:30:32Z",
     "posts": [
       {
         "title": "Animal Heroes",
@@ -89,6 +89,11 @@
         "title": "The Lost World (Illustrated)",
         "url": "https://www.instagram.com/p/DePV6PFCCAX/",
         "book_id": "en-arthur-conan-doyle-the-lost-world"
+      },
+      {
+        "url": "https://www.instagram.com/p/DePXXvpCJAL/",
+        "title": "Shelters, Shacks, and Shanties (Illustrated)",
+        "book_id": "en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated"
       }
     ],
     "feed_sync": {
