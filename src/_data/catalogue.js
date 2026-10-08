@@ -46,7 +46,7 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
 if (new Set(books.map(b => b.id)).size !== books.length) throw new Error("Duplicate book URL");
 module.exports = {
   books,
-  featured: ["cover-rough-riders-de", "cover-wilde-tiere", "cover-waldteufel", "cover-sale", "cover-koenig-salomos-schatzkammer"].map(cover => books.find(b => b.cover === cover)),
+  featured: ["cover-rough-riders-de", "cover-wilde-tiere", "cover-waldteufel-v5-20261008", "cover-sale", "cover-koenig-salomos-schatzkammer"].map(cover => books.find(b => b.cover === cover)),
   spotlight: books.find(b => b.cover === "cover-wilde-tiere"),
   series: programme.seriesItems.map(s => ({ slug: s.slug, name: s.colorName.de, label: s.label.de, color: s.colorHex, count: books.filter(b => b.series === s.slug).length }))
 };

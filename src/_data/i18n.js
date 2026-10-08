@@ -357,14 +357,14 @@ module.exports = {
           },
           books: [
             {
-              cover: "cover-waldteufel",
+              cover: "cover-waldteufel-v5-20261008",
               band: "I",
               isbn: "978-3-912883-10-7",
               amazonUrl: "https://www.amazon.de/dp/3912883106",
               originalTitle: "Nick of the Woods, 1837",
               title: { de: "Der Waldteufel", en: "Nick of the Woods" },
               desc: {
-                de: "Ein vergessener Klassiker der amerikanischen Literatur — erstmals vollständig auf Deutsch, ungekürzt und historisch eingeordnet.",
+                de: "Vollständige deutsche Übersetzung, am Text der Erstausgabe von 1837 ergänzt, mit Frontispiz und zwölf Tafeln. Der Hardcover-Relaunch mit 478 Seiten ist in KDP-Prüfung; Taschenbuch und E-Book-Aktualisierung folgen.",
                 en: "A forgotten classic of American literature — presented complete, unabridged, and historically contextualized."
               }
             }
