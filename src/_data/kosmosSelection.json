@@ -902,6 +902,27 @@
       "landingUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/en/authors/joshua-duke/"
+    },
+    {
+      "id": "last-frontier",
+      "title": "The Men of the Last Frontier",
+      "author": "Grey Owl",
+      "year": "1931",
+      "region": "north-america",
+      "location": [
+        -80.0,
+        47.0
+      ],
+      "place": "Kanada – Wälder, Seen und Flüsse des Nordens",
+      "status": "In Vorbereitung",
+      "statusDetail": "Englische Ausgabe – Taschenbuch, Hardcover und E-Book in Vorbereitung",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008.webp",
+      "subtitle": "",
+      "summary": "Jenseits der letzten Straße: Trapper, Führer und Waldläufer des kanadischen Nordens in dem Augenblick, da ihre alte Welt vor Straßen, Märkten und Besiedlung zurückweicht.",
+      "landingUrl": "https://aeternus-verlag.de/en/authors/grey-owl/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/en/authors/grey-owl/"
     }
   ],
   "links": [

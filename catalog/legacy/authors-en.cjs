@@ -1579,3 +1579,129 @@ module.exports.push({
     }
   ]
 });
+
+// Grey Owl (AB_001-EN, The Men of the Last Frontier, London, Country Life Limited, 1931). The printed QR code of
+// the English edition points to /authors/grey-owl/. All copy is the publisher's wording from
+// 06_PARATEXT_EN/06_EN_SATZFASSUNG_V2/PARATEXTE_EN_SATZFASSUNG_V2.md, shortened by whole paragraphs only:
+// "About the Author" (biography, one paragraph left out), "Short Author Portrait" (intro), "Back-Cover Copy"
+// (tagline, summary, sample) and "Product Description" (meta description, works intro). Portrait: the photograph
+// of the first edition, the same plate the book carries (manuscript.json author_portrait). The frontispiece made
+// for the edition is not used here. Not yet published: ISBNs and list prices only, no retailer links.
+module.exports.push({
+  "slug": "grey-owl",
+  "name": "Grey Owl",
+  "brand": "AETERNUS",
+  "monogram": "GO",
+  "dates": "1888–1938",
+  "seriesClass": "series-green",
+  "preview": true,
+  "previewStatus": "Paperback, hardcover and e-book forthcoming · ordering links to follow",
+  "sampleLabel": "About this edition",
+  "portrait": {
+    "file": "portrait-grey-owl",
+    "alt": "Grey Owl (Archibald Stansfeld Belaney), photograph from the first edition, 1931",
+    "modern": true
+  },
+  "schema": {
+    "birthDate": "1888-09-18",
+    "deathDate": "1938-04-13",
+    "description": "Grey Owl (1888–1938) was the literary name and public identity of Archibald Stansfeld Belaney, an English-born writer, trapper and conservationist who emigrated to Canada as a young man and spent much of his adult life in the northern wilderness."
+  },
+  "eyebrow": "Green · Military, expeditions and frontiers",
+  "tagline": "The frontier was closing. The wilderness remained.",
+  "intro": "Grey Owl (1888–1938) was the literary name and public identity of Archibald Stansfeld Belaney, an English-born writer, trapper and conservationist who emigrated to Canada as a young man and spent much of his adult life in the northern wilderness.",
+  "metaDescription": "Grey Owl’s The Men of the Last Frontier is a classic portrait of the old Canadian bush at the moment when the age of trappers, wilderness guides and remote northern travel was beginning to disappear.",
+  "bioKicker": "Author &amp; context",
+  "bioTitle": "The Man,<br>the Mask, and<br>the Wilderness",
+  "bioLede": "Grey Owl must therefore be read on two levels at once. The public identity demands scrutiny. The writing demands judgement of its own.",
+  "blocks": [
+    {
+      "h": "About the Author",
+      "p": [
+        "Grey Owl became one of the most celebrated voices of Canadian wilderness literature during the years between the two world wars. Through books, public lectures and his highly visible work for the protection of the beaver, he came to embody for thousands of readers a disappearing northern world of forest, lake, animal life and old bushcraft.",
+        "The public figure was compelling. Grey Owl appeared as a man formed by the wilderness itself: grave, weathered, eloquent, dressed in a manner associated with the Indian north and speaking with authority about animals, forests and the destruction advancing into both.",
+        "Behind that figure stood Archibald Stansfeld Belaney. He had been born in England in 1888. The fact became widely known only after his death in 1938 and permanently altered the history of his reputation.",
+        "Belaney had emigrated to Canada as a young man and deliberately entered the world he had imagined from afar. He did not remain a casual visitor. The northern country became his life. He learned trapping, canoe travel, guiding, hunting and the practical disciplines demanded by long residence beyond settled districts. He formed close relationships within Indian communities and gradually fashioned for himself the identity under which he would later become famous.",
+        "That identity was false in an important respect. Grey Owl represented himself publicly as a man of Indian ancestry when he was not. The matter cannot be reduced to a theatrical pseudonym or harmless literary disguise. His claimed origin formed part of the authority with which he appeared before audiences and readers.",
+        "Yet the disclosure did not make the wilderness experience contained in his books imaginary. This is what makes Grey Owl a more difficult figure than either worship or dismissal permits.",
+        "Archibald Belaney was English by birth. Grey Owl was constructed. But the years in the Canadian bush were real. The winters were real. The trapping was real. The canoe routes were real. The animals were real. And the transformation of the man who had once killed beaver into one of their most famous defenders was real as well.",
+        "The distinction matters because literature ultimately rests upon more than biography. An author may deceive about himself and still observe the outer world with extraordinary accuracy. Conversely, an impeccable biography does not guarantee a sentence worth preserving.",
+        "Grey Owl must therefore be read on two levels at once. The public identity demands scrutiny. The writing demands judgement of its own.",
+        "His early life in Canada was shaped by the trapper’s existence, a form of life combining independence with severe economic dependence. The trapper seemed free because he moved alone across vast country, yet his livelihood ultimately depended upon distant markets whose demands reached even the remotest cabin. Fur prices, game populations and the success or failure of a season could determine whether months of labour had produced prosperity or hardship.",
+        "Such a life encouraged extraordinary practical knowledge. A competent trapper needed to understand water, weather, tracks, animal behaviour, routes, timber, fire, equipment and his own physical limits. Romantic literature sometimes turned the wilderness man into a creature of instinct; in reality, survival depended upon accumulated technique. Grey Owl possessed much of that technique.",
+        "Yet familiarity with the trap line gradually produced a conclusion that would alter his life. He became increasingly troubled by the destruction of the beaver and by the wider assumption that wildlife existed principally to be converted into revenue. This transition was neither immediate nor abstract. It arose from proximity. The more intimately he came to know individual animals, the less satisfactory it became to regard them merely as pelts awaiting harvest. His association with Anahareo played an important part in this change, and the beavers which entered their lives eventually became central to Grey Owl’s public mission.",
+        "The former trapper began to write as a defender. From this transformation grew the Grey Owl known to the wider world: author, lecturer and conservationist, a man whose appeal lay partly in the paradox that he knew the destructive machinery of the trap line from within.",
+        "His message found an audience because it arrived at the right historical moment. North America had already begun to reckon with the consequences of uncontrolled exploitation. The great nineteenth-century assumption of inexhaustibility had been shaken by vanished passenger pigeons, diminished bison herds, devastated forests and depleted wildlife populations. Conservation was becoming not merely the concern of naturalists but a question of national inheritance.",
+        "The significance of this change can scarcely be overstated. For centuries the frontier had moved under one commanding assumption: more land lay ahead. Once the frontier began to close, another question arose. What should remain?",
+        "Grey Owl answered through animals and landscape rather than policy. He wanted the beaver alive in its pond, the forest functioning as forest and the young reader capable of imagining wild country as something more than unused acreage.",
+        "His method possessed considerable theatrical power, and therein lay both his effectiveness and the central problem of his reputation. Grey Owl understood the symbolic force of his own persona. He became, in effect, one of the characters in his conservation story.",
+        "After his death, when the English origins of Archibald Belaney became widely known, that persona could no longer be accepted at face value. The revelation was severe because the public identity had been integral to the message.",
+        "Some readers therefore rejected Grey Owl altogether. Others attempted to excuse what could not reasonably be excused. Neither response is necessary. The harder judgement is also the more useful one.",
+        "Grey Owl’s assumed ancestry was false. His conservation work was consequential. His northern experience was substantial. His literary voice was distinctive. His books remain documents of a remarkable life, but they must be read with knowledge of the distance between the man and the legend he created around himself.",
+        "That distance need not destroy the work. In a strange sense, it makes the story still more characteristic of the frontier. The frontier has always attracted men seeking another life. Some changed occupation, some name, some nationality, some allegiance; others attempted something more radical and remade themselves entirely.",
+        "Archibald Belaney crossed the Atlantic and went farther than most. He did not merely enter the wilderness. He attempted to become the man he believed belonged there.",
+        "The result was compromised by deception, yet from that compromised life came writing which helped persuade thousands that the wilderness was worth preserving. History rarely offers cleaner ironies."
+      ]
+    }
+  ],
+  "facts": [
+    [
+      "Series",
+      "Green"
+    ],
+    [
+      "Text",
+      "English · first edition, London, Country Life Limited, 1931"
+    ],
+    [
+      "Print edition",
+      "316 pages · 6 × 9 in"
+    ],
+    [
+      "Formats",
+      "Paperback · Hardcover · E-Book (forthcoming)"
+    ]
+  ],
+  "worksKicker": "The AETERNUS edition",
+  "worksTitle": "The Men of the Last Frontier",
+  "worksIntro": "Drawing upon years spent in the Canadian wilderness, Grey Owl presents a world of canoe routes, trap lines, snow, forest, animal life and men whose survival depended upon skill rather than comfort. At the same time, the book reveals the beginnings of the conservation philosophy that would later make its author internationally famous.",
+  "gridClass": "single-item",
+  "books": [
+    {
+      "cover": {
+        "img": "cover-men-of-the-last-frontier-grey-owl-en-20261008",
+        "title": "The Men of the<br>Last Frontier"
+      },
+      "meta": "Wilderness · Canada · 1931",
+      "title": "The Men of the Last Frontier",
+      "subtitle": "",
+      "status": "Forthcoming",
+      "formats": [
+        {
+          "name": "Paperback",
+          "isbn": "978-3-67605-141-5",
+          "price": "List price $16.99 · £13.99 · €15.99",
+          "links": []
+        },
+        {
+          "name": "Hardcover",
+          "isbn": "978-3-67605-142-2",
+          "price": "List price $26.99 · £21.99 · €25.99",
+          "links": []
+        },
+        {
+          "name": "E-Book",
+          "isbn": "978-3-67605-143-9",
+          "price": "List price $6.99",
+          "links": []
+        }
+      ],
+      "modal": {
+        "metadata": "AETERNUS · Green Series · 316 print pages",
+        "summary": "Beyond the last road lay another Canada. It was a country of forest and muskeg, rivers and cold lakes, trap lines, winter camps and long distances travelled by canoe, snowshoe and dog team. Men who lived there depended less upon possessions than upon judgement: the ability to read weather, follow a trail, repair what had broken and endure what could not be avoided.",
+        "sample": "Grey Owl knew that world from within. In <i>The Men of the Last Frontier</i> he records the trappers, guides, woodsmen and Indian figures of the northern bush at the very moment when their old world was beginning to recede before roads, markets and modern settlement. Yet beneath the portraits lies another story: the awakening conviction that the wilderness itself was not inexhaustible. The former trapper who would become one of Canada’s most famous voices for wildlife conservation here stands between two ages — the old frontier of taking and the emerging ethic of preservation. A rugged, elegiac portrait of men, animals and a northern country approaching the end of one era. The frontier was closing. The wilderness remained.",
+        "status": "Forthcoming · ordering links to follow"
+      }
+    }
+  ]
+});
