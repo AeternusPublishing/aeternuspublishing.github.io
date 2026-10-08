@@ -44,6 +44,11 @@ require('./populate-english.cjs')(englishBooks, authorsEn, series, clean);
 const wgs001 = require('./wgs001-en-20261008.json');
 authorsEn.push(wgs001.author);
 englishBooks.push(wgs001.book);
+// ACD author page (QR target of The Lost World and The White Company); register status GEBAUT, no prices, no retail links.
+const acd = require('./acd-en-20261008.json');
+const amberRef = englishBooks.find(b => b.series === 'bernstein');
+authorsEn.push(acd.author);
+englishBooks.push({ ...acd.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
