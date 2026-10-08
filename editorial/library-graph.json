@@ -914,6 +914,25 @@
       }
     },
     {
+      "id": "book:en-theodore-roosevelt-the-rough-riders-annotated",
+      "type": "book",
+      "label": {
+        "de": "The Rough Riders (Annotated)",
+        "en": "The Rough Riders (Annotated)"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-tr002-en-v1-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-rough-riders-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-rough-riders-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In 1898 Theodore Roosevelt leaves Washington for Cuba. Cowboys, ranchmen and Eastern athletes become a volunteer regiment whose brief campaign will enter American history. The complete English text of the 1899 first edition, with a new publisher’s apparatus."
+      }
+    },
+    {
       "id": "book:en-ernest-thompson-seton-edition-rolf",
       "type": "book",
       "label": {
@@ -1146,14 +1165,14 @@
       },
       "author": "Daniel Carter Beard",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-shelters-shacks-shanties-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-shelters-shacks-shanties.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/",
         "en": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/"
       },
       "summary": {
         "de": "",
-        "en": "A bed of balsam boughs, a shelter beneath a fallen tree, a cabin with a wooden latch: Beard begins with what lies close at hand and works towards the construction of a log house. His drawings open roofs to reveal their frames, separate the parts of a fastening, and show how a few tools can be put to work — bark coverings, framed shanties, sod walls, raised camps and log buildings across forty-nine chapters."
+        "en": "A roof begins with a pole, a cabin with a notch, and a night in the woods with the ability to understand the materials close at hand."
       },
       "geography": {
         "location": [
@@ -1247,6 +1266,158 @@
         "region": "north-america",
         "place": "Rural Pennsylvania and the wilderness of Norwalk",
         "source": "kosmosSelection:edgar-huntly"
+      }
+    },
+    {
+      "id": "book:en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Six Years with the Texas Rangers (Illustrated)",
+        "en": "Six Years with the Texas Rangers (Illustrated)"
+      },
+      "author": "James B. Gillett",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-texas-rangers-gillett-en-20260929-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-b-gillett-six-years-with-the-texas-rangers-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-james-b-gillett-six-years-with-the-texas-rangers-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "On June 1, 1875, eighteen-year-old James Gillett enlists in Company D of the Frontier Battalion. Ahead lie days in the saddle, the pursuit of cattle thieves and murderers, fights with Kiowa, Comanche, and Apache, and later the office of city marshal of El Paso."
+      }
+    },
+    {
+      "id": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Highways of Progress (Illustrated)",
+        "en": "Highways of Progress (Illustrated)"
+      },
+      "author": "James J. Hill",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-j-hill-highways-of-progress-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-james-j-hill-highways-of-progress-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Published in 1910, Highways of Progress is the mature statement of the man remembered as the Empire Builder: a reflection on agriculture, commerce, irrigation, waterways, conservation, natural resources and the productive future of a continental nation."
+      }
+    },
+    {
+      "id": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "type": "book",
+      "label": {
+        "de": "The Epic of Mount Everest (Illustrated)",
+        "en": "The Epic of Mount Everest (Illustrated)"
+      },
+      "author": "Sir Francis Younghusband",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In 1921, Mount Everest was still a fortress of unknown ridges, glaciers and immense altitude. Britain sent an expedition not to conquer Everest, but to discover whether a way to its summit existed at all. They returned in 1922 to make the first determined assault upon the mountain, and again in 1924 for the expedition that would become inseparable from the names of George Mallory and Andrew Irvine."
+      }
+    },
+    {
+      "id": "book:en-robert-louis-stevenson-treasure-island-annotated",
+      "type": "book",
+      "label": {
+        "de": "Treasure Island (Annotated)",
+        "en": "Treasure Island (Annotated)"
+      },
+      "author": "Robert Louis Stevenson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-louis-stevenson-treasure-island-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-robert-louis-stevenson-treasure-island-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A weathered seaman arrives at the Admiral Benbow with a sea-chest, a scar and a fear of men from his past."
+      }
+    },
+    {
+      "id": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "type": "book",
+      "label": {
+        "de": "Recollections of the Kabul Campaign, 1879 & 1880",
+        "en": "Recollections of the Kabul Campaign, 1879 & 1880"
+      },
+      "author": "Joshua Duke",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/",
+        "en": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Beyond the North-West Frontier of British India lay Afghanistan: mountain kingdom, strategic barrier and one of the great contested spaces of the nineteenth-century struggle later remembered as the Great Game. Into that country went the Kabul Field Force under Sir Frederick Roberts. Joshua Duke went with it."
+      }
+    },
+    {
+      "id": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "type": "book",
+      "label": {
+        "de": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+        "en": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition"
+      },
+      "author": "Joshua Duke",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/",
+        "en": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Duke’s complete narrative in carefully modernised English, with seven restored plates, a map and a publisher’s apparatus. His preface, documents, notes and appendix retain their original wording."
+      }
+    },
+    {
+      "id": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "type": "book",
+      "label": {
+        "de": "From Korti to Khartum (Illustrated)",
+        "en": "From Korti to Khartum (Illustrated)"
+      },
+      "author": "Sir Charles William Wilson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-from-korti-to-khartum-wilson-en-20261006-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-william-wilson-from-korti-to-khartum-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-charles-william-wilson-from-korti-to-khartum-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Sudan, 1885. Khartum is besieged and time is running out. Across the Bayuda Desert the British Desert Column drives towards the Nile in a desperate attempt to reach General Gordon. Among its officers is Sir Charles William Wilson, Royal Engineer, intelligence chief and, after the mortal wounding of Sir Herbert Stewart, commander in the field."
+      }
+    },
+    {
+      "id": "book:en-grey-owl-the-men-of-the-last-frontier",
+      "type": "book",
+      "label": {
+        "de": "The Men of the Last Frontier",
+        "en": "The Men of the Last Frontier"
+      },
+      "author": "Grey Owl",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/",
+        "en": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Beyond the last road lay another Canada. It was a country of forest and muskeg, rivers and cold lakes, trap lines, winter camps and long distances travelled by canoe, snowshoe and dog team. Men who lived there depended less upon possessions than upon judgement: the ability to read weather, follow a trail, repair what had broken and endure what could not be avoided."
       }
     },
     {
@@ -1390,6 +1561,63 @@
       }
     },
     {
+      "id": "book:en-william-gilmore-simms-the-yemassee-annotated",
+      "type": "book",
+      "label": {
+        "de": "The Yemassee (Annotated)",
+        "en": "The Yemassee (Annotated)"
+      },
+      "author": "William Gilmore Simms",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-wgs001-en-v6-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-william-gilmore-simms-the-yemassee-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-william-gilmore-simms-the-yemassee-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Along the southern frontier, an old alliance is breaking apart. Trade, debt, settlement and the surrender of land have driven relations between the English colony and the Yamasee toward war. Beyond the scattered plantations and blockhouses lie forests in which rumor, diplomacy and violence move faster than authority."
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-lost-world",
+      "type": "book",
+      "label": {
+        "de": "The Lost World",
+        "en": "The Lost World"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-acd002-en-ingram-v1-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-lost-world/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-lost-world/"
+      },
+      "summary": {
+        "de": "",
+        "en": "When Professor George Edward Challenger returns from the unexplored interior of South America with an impossible claim, London answers him with ridicule. Beyond the known rivers and forests, he declares, rises an immense and inaccessible plateau—a world cut off from mankind, where forms of life thought extinct for millions of years may still endure."
+      }
+    },
+    {
+      "id": "book:en-james-fenimore-cooper-the-deerslayer",
+      "type": "book",
+      "label": {
+        "de": "The Deerslayer",
+        "en": "The Deerslayer"
+      },
+      "author": "James Fenimore Cooper",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-deerslayer/",
+        "en": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-deerslayer/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The Deerslayer was the last of the five Leatherstocking novels Cooper wrote, yet it stands first in the life of Natty Bumppo. The aged creator returned to the youth of the man whom he had first imagined in old age and placed him once more beside the waters of Otsego Lake."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -1530,6 +1758,34 @@
       }
     },
     {
+      "id": "book:atlas:shelters",
+      "type": "book",
+      "label": {
+        "de": "Shelters, Shacks, and Shanties (Illustrated)",
+        "en": "Shelters, Shacks, and Shanties (Illustrated)"
+      },
+      "author": "Daniel Carter Beard",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-shelters-shacks-shanties.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/en/authors/daniel-carter-beard/",
+        "en": "https://aeternus-verlag.de/en/authors/daniel-carter-beard/"
+      },
+      "summary": {
+        "de": "Vom Bett aus Tannenzweigen über einfache Unterstände bis zum Blockhaus: Beard erläutert in 49 Kapiteln den Bau von Lagern, Dächern, Wänden und Holzverbindungen. Die Zeichnungen zeigen Konstruktionen und Bauteile im Detail.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -75.1,
+          41.4
+        ],
+        "region": "north-america",
+        "place": "Nordamerika · Lager- und Hüttenbau",
+        "source": "kosmosSelection:shelters"
+      }
+    },
+    {
       "id": "book:atlas:texas-rangers",
       "type": "book",
       "label": {
@@ -1555,6 +1811,34 @@
         "region": "north-america",
         "place": "Zentral- und Westtexas, Rio Grande",
         "source": "kosmosSelection:texas-rangers"
+      }
+    },
+    {
+      "id": "book:atlas:treasure-island",
+      "type": "book",
+      "label": {
+        "de": "Treasure Island (Annotated)",
+        "en": "Treasure Island (Annotated)"
+      },
+      "author": "Robert Louis Stevenson",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-treasure-island-rls-en-20260930.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/en/authors/robert-louis-stevenson/",
+        "en": "https://aeternus-verlag.de/en/authors/robert-louis-stevenson/"
+      },
+      "summary": {
+        "de": "Jim Hawkins, Long John Silver und die Karte mit dem roten Kreuz: der vollständige Cassell-Text von 1883 mit Anmerkungen, Glossar, Ortsverzeichnis und neuen Tafeln.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -3.4,
+          57.01
+        ],
+        "region": "europe",
+        "place": "Braemar, Schottland – hier entstand 1881 die Karte der Insel",
+        "source": "kosmosSelection:treasure-island"
       }
     },
     {
@@ -1806,6 +2090,86 @@
       }
     },
     {
+      "id": "author:James B. Gillett",
+      "type": "author",
+      "label": {
+        "de": "James B. Gillett",
+        "en": "James B. Gillett"
+      }
+    },
+    {
+      "id": "author:James J. Hill",
+      "type": "author",
+      "label": {
+        "de": "James J. Hill",
+        "en": "James J. Hill"
+      }
+    },
+    {
+      "id": "author:Sir Francis Younghusband",
+      "type": "author",
+      "label": {
+        "de": "Sir Francis Younghusband",
+        "en": "Sir Francis Younghusband"
+      }
+    },
+    {
+      "id": "author:Robert Louis Stevenson",
+      "type": "author",
+      "label": {
+        "de": "Robert Louis Stevenson",
+        "en": "Robert Louis Stevenson"
+      }
+    },
+    {
+      "id": "author:Joshua Duke",
+      "type": "author",
+      "label": {
+        "de": "Joshua Duke",
+        "en": "Joshua Duke"
+      }
+    },
+    {
+      "id": "author:Sir Charles William Wilson",
+      "type": "author",
+      "label": {
+        "de": "Sir Charles William Wilson",
+        "en": "Sir Charles William Wilson"
+      }
+    },
+    {
+      "id": "author:Grey Owl",
+      "type": "author",
+      "label": {
+        "de": "Grey Owl",
+        "en": "Grey Owl"
+      }
+    },
+    {
+      "id": "author:William Gilmore Simms",
+      "type": "author",
+      "label": {
+        "de": "William Gilmore Simms",
+        "en": "William Gilmore Simms"
+      }
+    },
+    {
+      "id": "author:Arthur Conan Doyle",
+      "type": "author",
+      "label": {
+        "de": "Arthur Conan Doyle",
+        "en": "Arthur Conan Doyle"
+      }
+    },
+    {
+      "id": "author:James Fenimore Cooper",
+      "type": "author",
+      "label": {
+        "de": "James Fenimore Cooper",
+        "en": "James Fenimore Cooper"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -1819,14 +2183,6 @@
       "label": {
         "de": "Rudyard Kipling",
         "en": "Rudyard Kipling"
-      }
-    },
-    {
-      "id": "author:James B. Gillett",
-      "type": "author",
-      "label": {
-        "de": "James B. Gillett",
-        "en": "James B. Gillett"
       }
     }
   ],
@@ -1982,6 +2338,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-theodore-roosevelt-the-rough-riders-annotated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-ernest-thompson-seton-edition-rolf",
       "target": "series:bernstein",
       "type": "series"
@@ -2042,6 +2403,46 @@
       "type": "series"
     },
     {
+      "source": "book:en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "target": "series:blau",
+      "type": "series"
+    },
+    {
+      "source": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-robert-louis-stevenson-treasure-island-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-grey-owl-the-men-of-the-last-frontier",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
       "target": "series:bernstein",
       "type": "series"
@@ -2063,6 +2464,21 @@
     },
     {
       "source": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-william-gilmore-simms-the-yemassee-annotated",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-lost-world",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-deerslayer",
       "target": "series:bernstein",
       "type": "series"
     },
@@ -2193,7 +2609,7 @@
       }
     },
     {
-      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "source": "book:atlas:shelters",
       "target": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
       "type": "curated",
       "label": {
@@ -2202,7 +2618,7 @@
       }
     },
     {
-      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "source": "book:atlas:shelters",
       "target": "book:de:waldhandwerk",
       "type": "curated",
       "label": {
@@ -2343,6 +2759,96 @@
       "label": {
         "de": "Jungen, Wasser und selbstgebaute Ausrüstung",
         "en": "Jungen, Wasser und selbstgebaute Ausrüstung"
+      }
+    },
+    {
+      "source": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "target": "book:de:mein-leben-und-werk",
+      "type": "curated",
+      "label": {
+        "de": "Titanen der Blauen Reihe: Verkehr, Industrie und Kapital",
+        "en": "Titanen der Blauen Reihe: Verkehr, Industrie und Kapital"
+      }
+    },
+    {
+      "source": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "target": "book:de:der-oregon-trail",
+      "type": "curated",
+      "label": {
+        "de": "Der Weg nach Westen: erst der Treck, dann die Schiene",
+        "en": "Der Weg nach Westen: erst der Treck, dann die Schiene"
+      }
+    },
+    {
+      "source": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "target": "book:de:tagebuch-der-katastrophe",
+      "type": "curated",
+      "label": {
+        "de": "Grenzräume Britisch-Indiens: Afghanistan, Himalaya und Tibet",
+        "en": "Grenzräume Britisch-Indiens: Afghanistan, Himalaya und Tibet"
+      }
+    },
+    {
+      "source": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "target": "book:de:die-arktischen-praerien",
+      "type": "curated",
+      "label": {
+        "de": "Expeditionen an die Grenzen der bewohnbaren Welt",
+        "en": "Expeditionen an die Grenzen der bewohnbaren Welt"
+      }
+    },
+    {
+      "source": "book:atlas:treasure-island",
+      "target": "book:de:koenig-salomos-schatzkammer",
+      "type": "curated",
+      "label": {
+        "de": "Stevensons Schatzinsel reizte Haggard zu König Salomons Schatzkammer",
+        "en": "Stevensons Schatzinsel reizte Haggard zu König Salomons Schatzkammer"
+      }
+    },
+    {
+      "source": "book:atlas:treasure-island",
+      "target": "book:en-richard-jefferies-edition-bevis",
+      "type": "curated",
+      "label": {
+        "de": "Jungen, Boote und Abenteuer der Bernsteinreihe",
+        "en": "Jungen, Boote und Abenteuer der Bernsteinreihe"
+      }
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "target": "book:de:tagebuch-der-katastrophe",
+      "type": "curated",
+      "label": {
+        "de": "Kabul zweimal: der Rückzug von 1842 und der Feldzug von 1879–1880",
+        "en": "Kabul zweimal: der Rückzug von 1842 und der Feldzug von 1879–1880"
+      }
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "target": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "type": "curated",
+      "label": {
+        "de": "Grenzräume Britisch-Indiens: Afghanistan, Himalaya und Tibet",
+        "en": "Grenzräume Britisch-Indiens: Afghanistan, Himalaya und Tibet"
+      }
+    },
+    {
+      "source": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "target": "book:de:der-sturz-prempehs",
+      "type": "curated",
+      "label": {
+        "de": "Britische Expeditionskorps Afrikas: Nil 1885 und Aschanti 1896",
+        "en": "Britische Expeditionskorps Afrikas: Nil 1885 und Aschanti 1896"
+      }
+    },
+    {
+      "source": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "target": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "type": "curated",
+      "label": {
+        "de": "Feldzüge des späten Empire, von Teilnehmern geschrieben",
+        "en": "Feldzüge des späten Empire, von Teilnehmern geschrieben"
       }
     },
     {
@@ -2541,6 +3047,11 @@
       "type": "author"
     },
     {
+      "source": "book:en-theodore-roosevelt-the-rough-riders-annotated",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
       "source": "book:en-ernest-thompson-seton-edition-rolf",
       "target": "author:Ernest Thompson Seton",
       "type": "author"
@@ -2601,6 +3112,46 @@
       "type": "author"
     },
     {
+      "source": "book:en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "target": "author:James B. Gillett",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "target": "author:James J. Hill",
+      "type": "author"
+    },
+    {
+      "source": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "target": "author:Sir Francis Younghusband",
+      "type": "author"
+    },
+    {
+      "source": "book:en-robert-louis-stevenson-treasure-island-annotated",
+      "target": "author:Robert Louis Stevenson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "target": "author:Joshua Duke",
+      "type": "author"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "target": "author:Joshua Duke",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "target": "author:Sir Charles William Wilson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-grey-owl-the-men-of-the-last-frontier",
+      "target": "author:Grey Owl",
+      "type": "author"
+    },
+    {
       "source": "book:en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
       "target": "author:Ernest Thompson Seton",
       "type": "author"
@@ -2623,6 +3174,21 @@
     {
       "source": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
       "target": "author:Ernest Thompson Seton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-william-gilmore-simms-the-yemassee-annotated",
+      "target": "author:William Gilmore Simms",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-lost-world",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-deerslayer",
+      "target": "author:James Fenimore Cooper",
       "type": "author"
     },
     {
@@ -2651,8 +3217,18 @@
       "type": "author"
     },
     {
+      "source": "book:atlas:shelters",
+      "target": "author:Daniel Carter Beard",
+      "type": "author"
+    },
+    {
       "source": "book:atlas:texas-rangers",
       "target": "author:James B. Gillett",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:treasure-island",
+      "target": "author:Robert Louis Stevenson",
       "type": "author"
     },
     {
@@ -2702,6 +3278,15 @@
     },
     {
       "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "target": "book:en-george-washington-sears-woodcraft-illustrated",
+      "type": "curated",
+      "label": {
+        "de": "Praktischer Lager- und Hüttenbau",
+        "en": "Praktischer Lager- und Hüttenbau"
+      }
+    },
+    {
+      "source": "book:atlas:shelters",
       "target": "book:en-george-washington-sears-woodcraft-illustrated",
       "type": "curated",
       "label": {
@@ -2761,6 +3346,15 @@
       "label": {
         "de": "Birds Grenzromane: Identität, Loyalität und Vergeltung",
         "en": "Birds Grenzromane: Identität, Loyalität und Vergeltung"
+      }
+    },
+    {
+      "source": "book:atlas:treasure-island",
+      "target": "book:en-henry-rider-haggard-king-solomon-s-mines-annotated",
+      "type": "curated",
+      "label": {
+        "de": "Stevensons Schatzinsel reizte Haggard zu König Salomons Schatzkammer",
+        "en": "Stevensons Schatzinsel reizte Haggard zu König Salomons Schatzkammer"
       }
     }
   ]
