@@ -797,6 +797,27 @@
       "landingUrl": "https://aeternus-verlag.de/autoren/werner-von-siemens/#werke",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/autoren/werner-von-siemens/"
+    },
+    {
+      "id": "rough-riders",
+      "title": "Die Rough Riders",
+      "author": "Theodore Roosevelt",
+      "year": "1899",
+      "region": "north-america",
+      "location": [
+        -75.82,
+        20.02
+      ],
+      "place": "Santiago de Cuba",
+      "status": "In Vorbereitung",
+      "statusDetail": "Deutsche Ausgabe in Vorbereitung",
+      "language": "Deutsch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-rough-riders-de.webp",
+      "subtitle": "Mit dem Freiwilligenregiment nach Kuba, 1898",
+      "summary": "Roosevelts Bericht über das Freiwilligenregiment auf Kuba 1898. Vollständige deutsche Übersetzung.",
+      "landingUrl": "https://aeternus-verlag.de/buecher/die-rough-riders/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/autoren/theodore-roosevelt/"
     }
   ],
   "links": [

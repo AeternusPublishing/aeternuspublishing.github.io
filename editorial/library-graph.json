@@ -1864,6 +1864,34 @@
         "place": "Berlin-Charlottenburg",
         "source": "kosmosSelection:siemens"
       }
+    },
+    {
+      "id": "book:de:die-rough-riders",
+      "type": "book",
+      "label": {
+        "de": "Die Rough Riders",
+        "en": "Die Rough Riders (German edition)"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-rough-riders-de.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-rough-riders/",
+        "en": "https://aeternus-verlag.de/buecher/die-rough-riders/"
+      },
+      "summary": {
+        "de": "Roosevelts Bericht über das Freiwilligenregiment auf Kuba 1898. Vollständige deutsche Übersetzung.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -75.82,
+          20.02
+        ],
+        "region": "north-america",
+        "place": "Santiago de Cuba",
+        "source": "kosmosSelection:rough-riders"
+      }
     }
   ],
   "links": [
@@ -2817,6 +2845,11 @@
         "de": "Industrielle Selbstzeugnisse der Blauen Reihe",
         "en": "Industrial self-portraits of the Blue series"
       }
+    },
+    {
+      "source": "book:de:die-rough-riders",
+      "target": "series:gruen",
+      "type": "series"
     }
   ]
 }

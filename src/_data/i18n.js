@@ -515,6 +515,43 @@ module.exports = {
 },
       // Eröffnungsautorin und erste lieferbare Ausgabe der grünen Linie.
       authors: [
+          {
+            "name": "Theodore Roosevelt",
+            "slug": "theodore-roosevelt",
+            "landingUrl": {
+              "de": "/autoren/theodore-roosevelt/",
+              "en": "/autoren/theodore-roosevelt/"
+            },
+            "bio": {
+              "de": "Historiker, Naturforscher, Offizier und Staatsmann. In Die Rough Riders berichtet Roosevelt über den Feldzug auf Kuba 1898.",
+              "en": "Historian, naturalist, officer and statesman. The Rough Riders recounts the Cuban campaign of 1898."
+            },
+            "books": [
+              {
+                "cover": "cover-rough-riders-de",
+                "title": {
+                  "de": "Die Rough Riders",
+                  "en": "Die Rough Riders (German edition)"
+                },
+                "originalTitle": "The Rough Riders, New York 1899",
+                "desc": {
+                  "de": "Roosevelts Bericht über das Freiwilligenregiment auf Kuba: vollständig neu übersetzt, mit allen 44 historischen Abbildungen, vier Anhängen und der Musterungsrolle. Auslieferung in Vorbereitung.",
+                  "en": "German translation of Roosevelt’s account of the Cuban campaign. Forthcoming."
+                },
+                "status": {
+                  "de": "Auslieferung in Vorbereitung",
+                  "en": "Forthcoming German edition"
+                },
+                "pages": 376,
+                "isbn": "978-3-67605-027-2",
+                "isbns": {
+                  "paperback": "978-3-67605-027-2",
+                  "hardcover": "978-3-67605-028-9",
+                  "ebook": "978-3-67605-026-5"
+                }
+              }
+            ]
+          },
         {
           name: "Lady Florentia Sale",
           slug: "lady-florentia-sale",
