@@ -41,6 +41,27 @@ for tomo in ('I', 'II', 'III'):
                     'pixels': list(image.size)})
     tomos.append(meta)
 
+portrait_pdf = PACKAGES / 'BDD001_ES_TOMO_III_INGRAM_HC_V2_20261008/INGRAM/9783676051149_txt.pdf'
+assert hashlib.sha256(portrait_pdf.read_bytes()).hexdigest() == tomos[2]['interior_sha256']
+portrait_document = pymupdf.open(portrait_pdf)
+portrait_page = portrait_document[354]
+assert 'El cronista' in portrait_page.get_text()
+portrait_images = portrait_page.get_images()
+assert len(portrait_images) == 1
+portrait_xref = portrait_images[0][0]
+portrait_data = portrait_document.extract_image(portrait_xref)
+assert (portrait_data['width'], portrait_data['height']) == (978, 1307)
+portrait_target = ASSETS / 'bdd001-bernal-viejo-tomo-iii-20261008.webp'
+portrait_pix = pymupdf.Pixmap(portrait_document, portrait_xref)
+portrait_pix = pymupdf.Pixmap(pymupdf.csRGB, portrait_pix)
+Image.frombytes('RGB', (portrait_pix.width, portrait_pix.height), portrait_pix.samples).save(portrait_target, 'WEBP', quality=92)
+portrait_record = {'source': str(portrait_pdf),
+                   'source_sha256': tomos[2]['interior_sha256'], 'pdf_page': 355,
+                   'image_xref': portrait_xref, 'pixels': [978, 1307],
+                   'target': str(portrait_target),
+                   'sha256': hashlib.sha256(portrait_target.read_bytes()).hexdigest()}
+(EVIDENCE / 'PORTRAET_BERNAL_VIEJO_WEB_20261008.json').write_text(json.dumps(portrait_record, ensure_ascii=False, indent=2), encoding='utf-8')
+
 lines = ['---', 'layout: layout-bdd-es.njk', 'permalink: "/es/bernal-diaz/index.html"',
          'lang: es', 'ogLocale: es_ES',
          'title: "Bernal Díaz del Castillo · Historia verdadera de la conquista de la Nueva España"',
@@ -51,7 +72,7 @@ for meta in tomos:
               f'    paginas: {meta["product"]["pages"]}', f'    isbn: "{meta["product"]["isbn"]}"',
               f'    img: "/assets/images/es/bdd001-tomo-{meta["tomo"].lower()}-ingram-v2-20261008.webp"',
               '    description_html: |', '      ' + meta['description_html']]
-lines += ['---', '''<section class="shell author-note author-hero" lang="es"><div><p class="kicker">AETERNUS · Línea Roja · Edición en español</p><h1>Bernal Díaz del Castillo</h1><p class="detail-subtitle"><em>Historia verdadera de la conquista de la Nueva España</em></p><p>Muchos años después, en Santiago de los Caballeros de Guatemala, volvió a formar aquella hueste con palabras. No escribió como archivero de hazañas ajenas. Había estado allí.</p><p><em>«… me he hallado en ciento y diez y nueve batallas y reencuentros de guerra …»</em><br><small>Bernal Díaz del Castillo, cap. CCXII</small></p></div><img src="/assets/images/es/bdd001-wappen.webp" alt="Armas del emperador Carlos V con el lema PLVS VLTRA, según la xilografía de Heinrich Vogtherr (hacia 1547/48)" width="210" height="268"></section>
+lines += ['---', '''<section class="shell author-note author-hero" lang="es"><div><p class="kicker">AETERNUS · Línea Roja · Edición en español</p><h1>Bernal Díaz del Castillo</h1><p class="detail-subtitle"><em>Historia verdadera de la conquista de la Nueva España</em></p><p>Muchos años después, en Santiago de los Caballeros de Guatemala, volvió a formar aquella hueste con palabras. No escribió como archivero de hazañas ajenas. Había estado allí.</p><p><em>«… me he hallado en ciento y diez y nueve batallas y reencuentros de guerra …»</em><br><small>Bernal Díaz del Castillo, cap. CCXII</small></p></div><img src="/assets/images/es/bdd001-bernal-viejo-tomo-iii-20261008.webp" alt="Bernal Díaz del Castillo anciano, retrato del cronista incluido en el Tomo III" width="210" height="281"></section>
 
 <section class="shell international-section" lang="es"><div class="section-heading"><div><p class="kicker">Tres tomos · Tapa dura</p><h2>La edición</h2></div></div><div class="books-grid">{% for t in tomos %}<article class="book-tile"><span class="book-art"><img src="{{ t.img }}" alt="Vorderdeckel" width="1296" height="1944" loading="lazy"></span><div class="book-caption"><p class="kicker"><span class="series-dot" style="--series-color:#7c1c1c"></span>Línea Roja</p><h3 class="book-card-title">{{ t.titulo }}</h3><p class="book-author">{{ t.subtitulo }} · Tapa dura · {{ t.paginas }} páginas</p><p class="book-description">ISBN {{ t.isbn }} · 34,99 €</p><div class="book-description">{{ t.description_html | safe }}</div><p class="book-description"><strong>Próximamente.</strong></p></div></article>{% endfor %}</div></section>
 
