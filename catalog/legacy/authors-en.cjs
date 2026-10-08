@@ -1214,16 +1214,16 @@ module.exports.push({
   "facts": [
     ["Series", "Green"],
     ["Text", "English · first edition, 1926"],
-    ["Print edition", "256 pages · sixteen photographic plates · two maps"],
+    ["Print edition", "260 pages · sixteen photographic plates · two maps"],
     ["Formats", "Paperback · Hardcover · Kindle (forthcoming)"]
   ],
   "worksKicker": "The AETERNUS edition",
   "worksTitle": "The Epic of Mount Everest",
-  "worksIntro": "The complete text of the first edition of 1926, read against two copies; the sixteen photographic plates of 1926, rebuilt for legibility with AI; the two maps of the first edition, enlarged for this edition; author profile with portrait, publisher’s note and afterword. Paperback, hardcover and Kindle editions are forthcoming; ordering links will follow when available.",
+  "worksIntro": "The complete text of the first edition of 1926, read against two copies; the sixteen photographic plates of 1926, reconstructed for legibility; the two maps of the first edition, enlarged for this edition; author profile with portrait, publisher’s note and afterword. Paperback, hardcover and Kindle editions are forthcoming; ordering links will follow when available.",
   "gridClass": "single-item",
   "books": [
     {
-      "cover": { "img": "cover-epic-of-mount-everest-younghusband-en-20260930", "title": "The Epic<br>of Mount Everest" },
+      "cover": { "img": "cover-epic-of-mount-everest-younghusband-en-v13-20261008", "title": "The Epic<br>of Mount Everest" },
       "meta": "Exploration · Mountaineering · 1926",
       "title": "The Epic of Mount Everest (Illustrated)",
       "subtitle": "",
@@ -1234,7 +1234,7 @@ module.exports.push({
         {"name": "Kindle", "isbn": "978-3-67605-117-0", "price": "US list price $9.99", "links": []}
       ],
       "modal": {
-        "metadata": "AETERNUS · Green Series · 256 print pages",
+        "metadata": "AETERNUS · Green Series · 260 print pages",
         "summary": "In 1921, Mount Everest was still a fortress of unknown ridges, glaciers and immense altitude. Britain sent an expedition not to conquer Everest, but to discover whether a way to its summit existed at all. They returned in 1922 to make the first determined assault upon the mountain, and again in 1924 for the expedition that would become inseparable from the names of George Mallory and Andrew Irvine.",
         "sample": "“The mountain now stands there proud and erect and unconquered.” Drawing upon the records of all three expeditions, explorer and former Royal Geographical Society President Sir Francis Younghusband recounts the great opening campaign upon the highest mountain on Earth: reconnaissance, extreme altitude, oxygen, avalanche, endurance, and the final ascent into the clouds, from which they never returned. Published in 1926, <i>The Epic of Mount Everest</i> preserves the mountain at the moment when its summit still stood beyond certainty. Before conquest came the attempt.",
         "status": "Forthcoming · ordering links to follow"

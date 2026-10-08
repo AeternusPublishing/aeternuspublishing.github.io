@@ -3,7 +3,7 @@
     "handle": "aeternus.publishing",
     "url": "https://www.instagram.com/aeternus.publishing/",
     "language": "en",
-    "verified_utc": "2026-10-07T20:28:31.255884+00:00",
+    "verified_utc": "2026-10-08T08:29:15.695Z",
     "posts": [
       {
         "title": "Animal Heroes",
@@ -79,6 +79,11 @@
         "title": "From Korti to Khartum (Illustrated)",
         "url": "https://www.instagram.com/p/DeNN2guiNlJ/",
         "book_id": "en-charles-william-wilson-from-korti-to-khartum-illustrated"
+      },
+      {
+        "title": "The Epic of Mount Everest (Illustrated)",
+        "url": "https://www.instagram.com/p/DeOgU3bCNVi/",
+        "book_id": "en-francis-younghusband-the-epic-of-mount-everest-illustrated"
       }
     ],
     "feed_sync": {
