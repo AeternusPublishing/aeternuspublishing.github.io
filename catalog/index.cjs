@@ -46,6 +46,8 @@ Object.assign(authorsEn.find(a => a.slug === 'daniel-carter-beard'), dcb001.auth
 const dcbBook = englishBooks.find(b => b.author === 'daniel-carter-beard');
 Object.assign(dcbBook, dcb001.book);
 dcbBook.legacy = { ...dcbBook.legacy, modal: { ...dcbBook.legacy.modal, metadata: dcb001.book.metadata, summary: dcb001.book.description.long, status: 'Paperback forthcoming' } };
+// Publisher-authorized RLS_001 V4 announcement; Ingram form blocked, no retail links.
+Object.assign(englishBooks.find(b => b.id === 'en-robert-louis-stevenson-treasure-island-annotated'), require('./rls001-en-20261008.json'));
 // Publisher-authorized WGS_001 V6 announcement; register status GEBAUT, no retail links.
 const wgs001 = require('./wgs001-en-20261008.json');
 authorsEn.push(wgs001.author);
