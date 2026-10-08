@@ -810,10 +810,10 @@ module.exports = [
       "deathDate": "1919-01-06",
       "description": "Amerikanischer Historiker, Naturforscher und Staatsmann; Verfasser von The Winning of the West."
     },
-    "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze",
+    "eyebrow": "Anthrazit · Geschichte der amerikanischen Grenze / Grün · Militärgeschichte",
     "tagline": "Der Westen als historische Schule des Charakters.",
     "intro": "Historiker, Naturforscher und Staatsmann: Lange vor der Präsidentschaft schrieb Roosevelt die Geschichte jener Grenzwelt, aus der das amerikanische Gemeinwesen hervorging.",
-    "metaDescription": "Theodore Roosevelt bei AETERNUS: Die Eroberung des Westens erstmals auf Deutsch in vier Hardcover-Bänden, vom Verlag freigegeben und vor der Auslieferung.",
+    "metaDescription": "Theodore Roosevelt bei AETERNUS: Die Rough Riders, neu auf Deutsch angekündigt, und Die Eroberung des Westens in vier Bänden.",
     "ogDescription": "Der Westen als historische Schule des Charakters. Leben und Werk Theodore Roosevelts.",
     "bioKicker": "Autor & Kontext",
     "bioTitle": "Quellen lesen,<br>Bewegung erzählen",
@@ -843,31 +843,62 @@ module.exports = [
     ],
     "facts": [
       [
-        "Reihe",
-        "Anthrazitlinie · Säule I"
+        "Reihen",
+        "Anthrazit · Grüne Reihe"
       ],
       [
-        "Originalausgabe",
-        "<i>The Winning of the West</i>, New York 1889–1896"
+        "Originalausgaben",
+        "The Winning of the West, 1889–1896 · The Rough Riders, 1899"
       ],
       [
-        "Ausgabe",
-        "Hardcover · vier Bände"
+        "Ausgaben",
+        "Die Eroberung des Westens: vier Bände · Die Rough Riders: Taschenbuch, Hardcover, E-Book"
       ],
       [
-        "Stand",
-        "Vier Bände freigegeben · Auslieferung in Vorbereitung"
+        "Rough Riders",
+        "Deutsche Ausgabe · demnächst erhältlich"
       ]
     ],
-    "worksKicker": "Die Reihe",
-    "worksTitle": "Die Eroberung des Westens",
-    "worksIntro": "Vier Bände, erstmals auf Deutsch. Alle vier sind gesetzt und vom Verlag freigegeben. Die Auslieferung wird plattformweise abgeschlossen. Ein Titel öffnet Klappentext und Zitat.",
-    "gridClass": "count-4",
-    // Kaufweg haengt am Band (author-es.js): "amazon" erst eintragen, wenn die Produktseite
-    // bei Amazon gemessen live ist - Muster https://www.amazon.de/dp/<ISBN-10>.
-    // Band I: 3912883912 · Band II: 3912883920 · Band III: 3912883939 · Band IV: 3912883947.
-    // Alle vier Baende sind seit 2026-09-13 nach der Kursivreparatur hashgebunden freigegeben.
+    "worksKicker": "Die deutschen Ausgaben",
+    "worksTitle": "Frontier und Feldzug",
+    "worksIntro": "Die Rough Riders erscheint in der Grünen Reihe: Roosevelts Bericht über den Feldzug auf Kuba 1898, vollständig neu übersetzt. Dazu Die Eroberung des Westens in vier Bänden der Anthrazitlinie. Wählen Sie einen Titel für Inhalt und Ausgabenstand.",
+    "gridClass": "",
     "books": [
+      {
+        "id": "rough-riders",
+        "cover": {
+          "img": "cover-rough-riders-de"
+        },
+        "meta": "Grüne Reihe · Kuba 1898 · Deutsche Ausgabe",
+        "title": "Die Rough Riders",
+        "subtitle": "Mit dem Freiwilligenregiment nach Kuba, 1898",
+        "modal": {
+          "metadata": "376 Seiten · Taschenbuch, Hardcover und E-Book",
+          "summary": "Im Frühjahr 1898 legt Theodore Roosevelt sein Amt als stellvertretender Marineminister nieder. Gemeinsam mit Leonard Wood baut er ein Freiwilligenregiment aus Cowboys, Jägern, Ranchern, Athleten und Studenten auf. Auf Kuba kämpfen die berühmten Reiter weitgehend zu Fuß. Roosevelt schildert San Antonio, Tampa, Las Guasimas und den Angriff auf Kettle Hill aus der unmittelbaren Erinnerung des Kommandeurs. Vollständige deutsche Übersetzung nach der Erstausgabe von 1899, mit allen vier Anhängen und der Musterungsrolle mit 1.349 Einträgen. Dazu Vorwort, Autorenporträt, historisches Nachwort, Anmerkungen und Glossar. Die 43 Abbildungen nach dem Erstdruck wurden digital neu aufgebaut; feine Einzelheiten wurden rekonstruiert, wodurch Abweichungen in Konturen und Oberflächen entstanden sind. Das Roosevelt-Bildnis von Charles Dana Gibson folgt der Originalzeichnung der National Portrait Gallery, Smithsonian Institution.",
+          "sample": "Vollständige deutsche Übersetzung nach der Erstausgabe von 1899, mit allen vier Anhängen und der Musterungsrolle mit 1.349 Einträgen. Dazu Vorwort, Autorenporträt, historisches Nachwort, Anmerkungen und Glossar. Die 43 Abbildungen nach dem Erstdruck wurden digital neu aufgebaut; feine Einzelheiten wurden rekonstruiert, wodurch Abweichungen in Konturen und Oberflächen entstanden sind. Das Roosevelt-Bildnis von Charles Dana Gibson folgt der Originalzeichnung der National Portrait Gallery, Smithsonian Institution.",
+          "status": "Auslieferung in Vorbereitung · demnächst erhältlich"
+        },
+        "formats": [
+          {
+            "name": "Taschenbuch",
+            "isbn": "978-3-67605-027-2",
+            "price": "19,99 €",
+            "links": []
+          },
+          {
+            "name": "Hardcover",
+            "isbn": "978-3-67605-028-9",
+            "price": "29,99 €",
+            "links": []
+          },
+          {
+            "name": "E-Book",
+            "isbn": "978-3-67605-026-5",
+            "price": "10,99 €",
+            "links": []
+          }
+        ]
+      },
       {
         "cover": {
           "img": "cover-wotw-1"
