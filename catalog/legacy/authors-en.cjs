@@ -1586,7 +1586,8 @@ module.exports.push({
 // "About the Author" (biography, complete), "Short Author Portrait" (intro), "Back-Cover Copy"
 // (tagline, summary, sample) and "Product Description" (meta description, works intro). Portrait: the photograph
 // of the first edition, the same plate the book carries (manuscript.json author_portrait). The frontispiece made
-// for the edition is not used here. Not yet published: ISBNs and list prices only, no retailer links.
+// for the edition is not used here. Not yet published: ISBNs and list prices only, no retailer links. Publisher 08.10.2026: GBP and EUR only,
+// no USD price until US sales begin on 1 January 2027; the e-book (USD price only) shows no price line.
 module.exports.push({
   "slug": "grey-owl",
   "name": "Grey Owl",
@@ -1681,19 +1682,18 @@ module.exports.push({
         {
           "name": "Paperback",
           "isbn": "978-3-67605-141-5",
-          "price": "List price $16.99 · £13.99 · €15.99",
+          "price": "List price £13.99 · €15.99",
           "links": []
         },
         {
           "name": "Hardcover",
           "isbn": "978-3-67605-142-2",
-          "price": "List price $26.99 · £21.99 · €25.99",
+          "price": "List price £21.99 · €25.99",
           "links": []
         },
         {
           "name": "E-Book",
           "isbn": "978-3-67605-143-9",
-          "price": "List price $6.99",
           "links": []
         }
       ],
