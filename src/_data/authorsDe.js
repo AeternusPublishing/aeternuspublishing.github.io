@@ -255,13 +255,13 @@ module.exports = [
     "books": [
       {
         "cover": {
-          "img": "cover-waldteufel"
+          "img": "cover-waldteufel-v5-20261008"
         },
         "meta": "Grenzroman · Kentucky · 1837",
         "title": "Der Waldteufel",
         "subtitle": "Eine Erzählung aus Kentucky",
         "modal": {
-          "metadata": "AETERNUS Verlag · Deutsch · Illustriert · Kindle & Hardcover",
+          "metadata": "AETERNUS Verlag · Deutsch · Illustriert · Überarbeitetes Hardcover: 478 Seiten, in KDP-Prüfung · E-Book-Aktualisierung folgt",
           "summary": "Kentucky, 1782. Eine Reisegesellschaft gerät in einen Wald, in dem der Name Jibbenainosay Angst verbreitet. Ihr Führer Nathan Slaughter scheint als Quäker jeder Gewalt abzuschwören. Doch je größer die Gefahr wird, desto rätselhafter erscheint er. Bird verbindet das Grenzabenteuer mit einer Geschichte um verborgene Identität und Vergeltung.",
           "sample": "Vollständige deutsche Übersetzung mit Illustrationen und editorischem Begleitmaterial. Birds Darstellung der Grenzkriege und seine feindseligen Bilder indigener Menschen werden als Teil der historischen Perspektive des Romans lesbar gemacht.",
           "amazon": "#edition-nick"
