@@ -3,7 +3,7 @@
     "handle": "aeternus.publishing",
     "url": "https://www.instagram.com/aeternus.publishing/",
     "language": "en",
-    "verified_utc": "2026-10-08T08:29:15.695Z",
+    "verified_utc": "2026-10-08T15:59:03.762067+00:00",
     "posts": [
       {
         "title": "Animal Heroes",
@@ -84,6 +84,11 @@
         "title": "The Epic of Mount Everest (Illustrated)",
         "url": "https://www.instagram.com/p/DeOgU3bCNVi/",
         "book_id": "en-francis-younghusband-the-epic-of-mount-everest-illustrated"
+      },
+      {
+        "title": "The Lost World (Illustrated)",
+        "url": "https://www.instagram.com/p/DePTzDACCBY/",
+        "book_id": "en-arthur-conan-doyle-the-lost-world"
       }
     ],
     "feed_sync": {
