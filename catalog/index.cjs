@@ -57,6 +57,10 @@ const acd = require('./acd-en-20261008.json');
 const amberRef = englishBooks.find(b => b.series === 'bernstein');
 authorsEn.push(acd.author);
 englishBooks.push({ ...acd.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+// COO author page (QR target of The Deerslayer, Part One and Part Two); register status GEBAUT, no prices, no retail links.
+const coo001 = require('./coo001-en-20261008.json');
+authorsEn.push(coo001.author);
+englishBooks.push({ ...coo001.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
 // Explicitly authorized English announcement; no retail availability claimed.
 const tr002 = require('./tr002-en-20261008.json');
 authorsEn.push(tr002.author);
