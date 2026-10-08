@@ -1,0 +1,52 @@
+{
+  "work_id": "RLS_001",
+  "title": "Treasure Island (Annotated)",
+  "subtitle": "The Complete 1883 Text with Notes, Glossary and Gazetteer",
+  "pages": 318,
+  "original_publication_year": 1883,
+  "publisherDescriptionHTML": "<ul><li>Complete, unmodernised text of the Cassell first edition of 1883</li><li>394 explanatory notes on ships, weapons, money and sea terms</li><li>Glossary and gazetteer of the words and places of the voyage</li><li>A newly drawn chart of the island and ten new plates</li><li>Foreword, afterword, author profile and a note on the text</li></ul><p>A weathered seaman arrives at the Admiral Benbow with a sea-chest, a scar and a fear of men from his past.</p><p>From that moment Jim Hawkins is drawn into a world of hidden charts, Bristol docks, the schooner Hispaniola, mutiny and buried gold. At the centre stands Long John Silver — genial, dangerous, intelligent and impossible to forget — while the dead Captain Flint casts his shadow across the entire voyage.</p><p>Published by Cassell in 1883, Robert Louis Stevenson’s Treasure Island transformed the old materials of sea adventure into one of the defining romances of the English language. Its map, pirate crew, black spot, stockade and treasure hunt entered the permanent vocabulary of adventure, yet the novel’s enduring strength lies equally in its precision: ships, tides, weapons, distances, divided loyalties and a boy learning to judge men under pressure.</p><p>This AETERNUS annotated edition presents the complete, unmodernised text of the Cassell first edition of 1883, with a newly drawn chart of the island, ten new plates, glossary, gazetteer and explanatory notes.</p><p>AMBER SERIES · AETERNUS</p>",
+  "distribution_status": {
+    "own_shop": "NOT_CONFIGURED",
+    "amazon": "UNKNOWN",
+    "ingram": "BLOCKIERT",
+    "other": {}
+  },
+  "provenance": "RLS_001/UPLOADPAKET_V4_EN_INGRAM_20261006; decision_rls001_en_endfreigabe_ingram_v4_20261008; metadata sha256 28bfc1a6fdfb944f2fb2fb210839724b244bdf405618a9652cb3855c002c507b",
+  "cover": "/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+  "isbn": {
+    "paperback": "978-3-67605-137-8",
+    "hardcover": "978-3-67605-138-5"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback",
+      "price_display": null
+    },
+    "hardcover": {
+      "label": "Hardcover",
+      "price_display": null
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback",
+      "isbn": "978-3-67605-137-8",
+      "links": []
+    },
+    {
+      "label": "Hardcover",
+      "isbn": "978-3-67605-138-5",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "A weathered seaman arrives at the Admiral Benbow with a sea-chest, a scar and a fear of men from his past.",
+    "long": "Complete, unmodernised text of the Cassell first edition of 1883 394 explanatory notes on ships, weapons, money and sea terms Glossary and gazetteer of the words and places of the voyage A newly drawn chart of the island and ten new plates Foreword, afterword, author profile and a note on the text A weathered seaman arrives at the Admiral Benbow with a sea-chest, a scar and a fear of men from his past. From that moment Jim Hawkins is drawn into a world of hidden charts, Bristol docks, the schooner Hispaniola, mutiny and buried gold. At the centre stands Long John Silver — genial, dangerous, intelligent and impossible to forget — while the dead Captain Flint casts his shadow across the entire voyage. Published by Cassell in 1883, Robert Louis Stevenson’s Treasure Island transformed the old materials of sea adventure into one of the defining romances of the English language. Its map, pirate crew, black spot, stockade and treasure hunt entered the permanent vocabulary of adventure, yet the novel’s enduring strength lies equally in its precision: ships, tides, weapons, distances, divided loyalties and a boy learning to judge men under pressure. This AETERNUS annotated edition presents the complete, unmodernised text of the Cassell first edition of 1883, with a newly drawn chart of the island, ten new plates, glossary, gazetteer and explanatory notes. AMBER SERIES · AETERNUS"
+  },
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · Amber Series · Annotated Edition · Cassell text of 1883 · 318 pages",
+      "status": "Forthcoming · ordering links to follow"
+    }
+  }
+}
