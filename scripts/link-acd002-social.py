@@ -8,7 +8,7 @@ path = root / "catalog/social.json"
 data = json.loads(path.read_text(encoding="utf-8"))
 post = {
     "title": "The Lost World (Illustrated)",
-    "url": "https://www.instagram.com/p/DePTzDACCBY/",
+    "url": "https://www.instagram.com/p/DePV6PFCCAX/",
     "book_id": "en-arthur-conan-doyle-the-lost-world",
 }
 existing = [p for p in data["instagram"]["posts"] if p["book_id"] == post["book_id"]]
