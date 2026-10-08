@@ -40,6 +40,10 @@ const englishBooks = authorsEn.filter(a => englishAuthors.has(a.slug)).flatMap(a
   };
 }));
 require('./populate-english.cjs')(englishBooks, authorsEn, series, clean);
+// Publisher-authorized WGS_001 V6 announcement; register status GEBAUT, no retail links.
+const wgs001 = require('./wgs001-en-20261008.json');
+authorsEn.push(wgs001.author);
+englishBooks.push(wgs001.book);
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
