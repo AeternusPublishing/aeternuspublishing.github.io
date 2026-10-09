@@ -65,6 +65,10 @@ englishBooks.push({ ...coo001.book, seriesName: amberRef.seriesName, seriesColor
 const tr002 = require('./tr002-en-20261008.json');
 authorsEn.push(tr002.author);
 englishBooks.unshift(tr002.book);
+// NAJ_001 V8: publisher-approved author and book pages; print editions forthcoming.
+const naj001 = require('./naj001-en-20261009.cjs');
+authorsEn.push(naj001.author);
+englishBooks.unshift(naj001.book);
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
