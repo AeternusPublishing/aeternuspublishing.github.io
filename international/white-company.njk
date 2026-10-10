@@ -1,0 +1,53 @@
+---
+layout: layout.njk
+permalink: /books/the-white-company/index.html
+title: The White Company · Three illustrated volumes
+description: Arthur Conan Doyle's historical novel of 1891 in three illustrated English volumes from AETERNUS. Paperback and hardcover editions submitted to IngramSpark; eProofs pending.
+whiteCompanyPage: true
+---
+<div class="shell breadcrumb"><a href="/books/">Books</a><span>/</span><span>The White Company</span></div>
+
+<section class="shell book-detail">
+  <div class="detail-art">
+    <picture>
+      <source type="image/webp" srcset="/assets/images/cover-white-company-vol-i.webp">
+      <img src="/assets/images/cover-white-company-vol-i-fallback.jpg" alt="Front cover of The White Company, Volume I: Out of the Cloister" width="400" height="600">
+    </picture>
+  </div>
+  <div class="detail-copy">
+    <p class="kicker"><span class="series-dot" style="--series-color:#b7791f"></span><a href="/series/bernstein/">Amber Series</a></p>
+    <a class="detail-author" href="/authors/arthur-conan-doyle/">Arthur Conan Doyle</a>
+    <h1>The White Company</h1>
+    <p class="detail-subtitle">A historical novel in three illustrated volumes</p>
+    <p class="detail-description">From Beaulieu Abbey through France and beyond the Pyrenees, Alleyne Edricson follows the White Company into the wars of the fourteenth century. Doyle's 1891 novel is presented here in its complete English text, divided into three volumes.</p>
+    <p class="edition-note">Paperback and hardcover editions submitted to IngramSpark · eProofs pending</p>
+  </div>
+</section>
+
+<section class="shell international-section" aria-labelledby="white-company-volumes">
+  <div class="section-heading"><h2 id="white-company-volumes">The three volumes</h2></div>
+  <div class="books-grid">
+    {% for item in whiteCompany.volumes %}{% include 'book-card.njk' %}{% endfor %}
+  </div>
+</section>
+
+<section class="shell detail-section" aria-labelledby="white-company-formats">
+  <div><p class="kicker">Publication status</p><h2 id="white-company-formats">Paperback &amp; hardcover.</h2><p>The eProofs are pending. Retail availability will follow their review.</p></div>
+  <div class="format-list">
+    {% for volume in whiteCompany.volumes %}
+    <article>
+      <h3>{{ volume.title }}</h3>
+      <p>Paperback · ISBN {{ volume.isbn.paperback }}<br>Hardcover · ISBN {{ volume.isbn.hardcover }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="shell detail-section">
+  <div><p class="kicker">The edition</p><h2>Text and illustrations.</h2></div>
+  <div class="prose">
+    <p>Each volume contains a frontispiece, four plates made for this edition, and editorial material. The complete text follows the London first edition of 1891 without modernisation.</p>
+    <p>All six print formats have been submitted. The eProofs and retail release remain pending; ordering information will appear after review.</p>
+    <a class="text-link" href="{{ whiteCompany.instagramUrl }}" target="_blank" rel="noopener noreferrer">See the three covers on @aeternus.publishing ↗</a>
+  </div>
+</section>
