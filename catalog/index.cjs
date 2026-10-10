@@ -77,6 +77,8 @@ englishBooks.unshift(tr002.book);
 const naj001 = require('./naj001-en-20261009.cjs');
 authorsEn.push(naj001.author);
 englishBooks.unshift(naj001.book);
+// GRG_001 author page is the English edition's verified QR destination.
+authorsEn.push(require('./grg001-author-20261010.cjs'));
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
