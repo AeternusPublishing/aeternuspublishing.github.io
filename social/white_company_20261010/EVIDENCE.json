@@ -1,0 +1,19 @@
+{
+  "template": "C:\\AETERNUS\\04_PRODUCTION\\SOCIAL\\INSTAGRAM_COHERENCE_20260914\\build_instagram_tiles.py",
+  "template_sha256": "d57506ba50f6370086e075e8dc9966e51e5c22886537ea5465c75868605a947d",
+  "sources": {
+    "C:\\_CB\\web-acd001-intl-20261010\\src\\assets\\images\\cover-white-company-vol-i-fallback.jpg": "f59e67c8e0fa5c919f543c502df35b25c78e5aa081997b1a8f5cd784dd240341",
+    "C:\\_CB\\web-acd001-intl-20261010\\src\\assets\\images\\cover-white-company-vol-ii-fallback.jpg": "b6b26259e19cea114480e82c28f71c34ab17b0cda6fbaa30e4006bcdf5f8a0b0",
+    "C:\\_CB\\web-acd001-intl-20261010\\src\\assets\\images\\cover-white-company-vol-iii-fallback.jpg": "09fa41c26bc69da5a2ec30c65845c197ecf9b1dafab480145b253eee02ea172b"
+  },
+  "outputs": {
+    "C:\\_CB\\web-acd001-intl-20261010\\social\\white_company_20261010\\ACD001_EN_VOLUME_I_INSTAGRAM_1080.jpg": "b9079f682f9894e1a13774940f313c040871cbc0e3891a1df481edc9cda1581a",
+    "C:\\_CB\\web-acd001-intl-20261010\\social\\white_company_20261010\\ACD001_EN_VOLUME_II_INSTAGRAM_1080.jpg": "2711d99c33d389911bb3adcb29b546d00c173cb8d64712e3d0157f1b068a51fb",
+    "C:\\_CB\\web-acd001-intl-20261010\\social\\white_company_20261010\\ACD001_EN_VOLUME_III_INSTAGRAM_1080.jpg": "fb01b0dd8bab43a06ddd504aefbbe6a004adad6d2778b196864989dc51f1c567"
+  },
+  "preview": "C:\\_CB\\web-acd001-intl-20261010\\social\\white_company_20261010\\INSTAGRAM_GRID_PREVIEW_4UP.jpg",
+  "repeat_hashes_equal": true,
+  "source_hashes_equal": true,
+  "previous_post": "https://www.instagram.com/p/DeUIRIxiHlj/",
+  "replacement_post": "https://www.instagram.com/p/DeUMbwOiKc4/"
+}
