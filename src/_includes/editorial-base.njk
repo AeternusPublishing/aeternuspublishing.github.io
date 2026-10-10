@@ -6,7 +6,8 @@
   <title>{{ title }}</title>
   <meta name="description" content="{{ description }}">
 {% if historicalPage %}{% set alternates = history.alternates %}{% if theme %}{% set alternates = theme.alternates %}{% endif %}<link rel="alternate" hreflang="de" href="{{ alternates.de }}"><link rel="alternate" hreflang="en" href="{{ alternates.en }}"><link rel="alternate" hreflang="x-default" href="{{ alternates.en }}">{% endif %}
-<link rel="stylesheet" href="/assets/css/history.css?v=20260922">
+{% if timelinePage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/reihen/gruen/zeittafel/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/series/gruen/chronology/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/series/gruen/chronology/">{% endif %}
+<link rel="stylesheet" href="/assets/css/history.css?v=20261010-chronology">
   <meta name="theme-color" content="#182522">
   <link rel="canonical" href="https://aeternus-verlag.de{{ page.url }}">
   {% if hreflang %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/"><link rel="alternate" hreflang="en" href="https://aeternus-verlag.de/en/"><link rel="alternate" hreflang="x-default" href="https://aeternus-verlag.de/">{% endif %}

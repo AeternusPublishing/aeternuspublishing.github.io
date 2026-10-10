@@ -1,0 +1,46 @@
+---
+layout: editorial-base.njk
+lang: de
+timelinePage: true
+permalink: /reihen/gruen/zeittafel/index.html
+title: Britische Feldzüge im Zusammenhang · Reihe GRÜN · AETERNUS Verlag
+description: Zeittafel der britischen Feldzüge von Afghanistan bis Mesopotamien, 1839–1918. Personen, Schauplätze, Verbindungslinien und AETERNUS-Quellen.
+---
+<main id="main" class="green-chronology">
+  <header class="shell chronology-intro">
+    <a class="chronology-back" href="/reihen/gruen/">← Reihe GRÜN</a>
+    <p class="kicker">AETERNUS · Historische Orientierung</p>
+    <h1>Britische Feldzüge<br><em>im Zusammenhang.</em></h1>
+    <p>Von Kabul bis Kut: Diese Zeittafel ordnet Feldzüge und Krisenherde nach Beginn, Schauplatz und militärischem Zusammenhang. Sie dient als Leseweg durch die Quellen der Grünen Reihe.</p>
+    <p class="chronology-scope">Zeitrahmen 1838–1920 · Operationen 1839–1918 · Quellen bis 1920. Überlappende Feldzüge stehen nach ihrem Beginn.</p>
+    <a class="chronology-language" href="https://aeternuspublishing.com/series/gruen/chronology/" lang="en" hreflang="en">Read in English →</a>
+  </header>
+
+  <section class="shell chronology-orientation" aria-labelledby="chronology-threads">
+    <p class="kicker">Die Verbindungen</p>
+    <h2 id="chronology-threads">Personen, Räume und Nachschub.</h2>
+    <p>Roberts führt von den Kämpfen in Indien zum zweiten Afghanistanfeldzug. Baden-Powell erscheint zuerst in Asante, dann in Mafeking; Kitchener verbindet Sudan und Südafrika. Über alle Schauplätze hinweg entscheidet die Reichweite der Versorgung darüber, was eine Armee im Gelände halten kann.</p>
+  </section>
+
+  <section class="shell chronology-section" aria-labelledby="chronology-title">
+    <h2 id="chronology-title" class="visually-hidden">Chronologische Zeittafel</h2>
+    <ol class="chronology-list">
+      {% for item in greenChronology.entries %}
+      <li id="{{ item.id }}" class="chronology-item">
+        <div class="chronology-date"><span>{{ item.start }}–{{ item.end }}</span><small>{{ item.region }}</small></div>
+        <article aria-labelledby="title-{{ item.id }}">
+          <h3 id="title-{{ item.id }}">{{ item.title }}</h3>
+          <p class="chronology-account">{{ item.account }}</p>
+          <dl>
+            <dt>Schlüsselpersonen</dt><dd>{{ item.people }}</dd>
+            <dt>AETERNUS-Quellen</dt><dd>{% for source in item.sources %}<cite>{{ source }}</cite>{% if not loop.last %}<br>{% endif %}{% endfor %}</dd>
+            <dt>Zusammenhang</dt><dd>{{ item.connection }} <a href="#{{ item.connectionId }}">Zur verbundenen Station ↗</a></dd>
+          </dl>
+          <p class="chronology-evidence">Historischer Nachweis: <a href="{{ item.evidence.url }}" rel="noopener noreferrer">{{ item.evidence.label }} ↗</a></p>
+        </article>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  <aside class="shell chronology-note"><p>Die genannten Werke sind Quellen und Zeugnisse ihrer Verfasser. Eine AETERNUS-Ausgabe wird hier durch die Werkkennung bezeichnet; die Nennung allein sagt nichts über ihren Vertriebsstatus aus. George Arthurs Kitchener-Biografie ergänzt Augenzeugenberichte als zeitgenössische Darstellung.</p><a href="/reihen/gruen/historischer-hintergrund/">Historische Themen vertiefen →</a></aside>
+</main>
