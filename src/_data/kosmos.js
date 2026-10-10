@@ -5,9 +5,14 @@ const selection = require('./kosmosSelection.json');
 const authorsDe = require('./authorsDe');
 const authorsEn = require('./authorsEn');
 const catalogue = require('./catalogue');
+const i18n = require('./i18n');
 const plain = value => String(value || '').replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').replace(/&middot;/g, '·').replace(/\s+/g, ' ').trim();
 const coverKey = node => path.basename(new URL(node.coverImageUrl, 'https://aeternus-verlag.de').pathname, '.webp');
-const authorBooks = [...authorsDe, ...authorsEn.filter(author => !authorsDe.some(de => de.slug === author.slug))].flatMap(author => author.books.map(book => ({ author, book })));
+const authorBooks = [
+  ...[...authorsDe, ...authorsEn.filter(author => !authorsDe.some(de => de.slug === author.slug))].flatMap(author => author.books.map(book => ({ author, book }))),
+  ...i18n.seriesItems.flatMap(series => series.authors.filter(author => author.slug === 'arthur-conan-doyle').flatMap(author => author.books
+    .map(book => ({ author, book: { cover: { img: book.cover }, title: book.title.en, subtitle: '', modal: { summary: book.desc.de, status: book.status?.de } } }))))
+];
 const selectedCovers = new Set(selection.nodes.map(coverKey));
 for (const { book } of authorBooks) {
   if (!book.cover?.img || !selectedCovers.has(book.cover.img)) throw new Error(`[kosmos] Add geographical placement and an existing cover for: ${book.title}`);

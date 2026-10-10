@@ -778,6 +778,60 @@
       "sourceUrl": "https://aeternus-verlag.de/en/authors/richard-jefferies/"
     },
     {
+      "id": "white-company-i",
+      "title": "The White Company · Volume I",
+      "author": "Arthur Conan Doyle",
+      "year": "1891",
+      "region": "europe",
+      "location": [-1.6, 50.9],
+      "place": "Hampshire, England",
+      "status": "In Vorbereitung",
+      "statusDetail": "Bei IngramSpark eingereicht · eProof ausstehend",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-i.webp",
+      "subtitle": "A historical novel in three volumes",
+      "summary": "Der Auftakt von Doyles historischem Roman führt Alleyne Edricson aus dem Klosterleben in die Kriegszüge des 14. Jahrhunderts.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/"
+    },
+    {
+      "id": "white-company-ii",
+      "title": "The White Company · Volume II",
+      "author": "Arthur Conan Doyle",
+      "year": "1891",
+      "region": "europe",
+      "location": [-0.8, 43.0],
+      "place": "Südwestfrankreich",
+      "status": "In Vorbereitung",
+      "statusDetail": "Bei IngramSpark eingereicht · eProof ausstehend",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-ii.webp",
+      "subtitle": "A historical novel in three volumes",
+      "summary": "Der zweite Band folgt der Weißen Kompanie durch Frankreich und vertieft Doyles Bild des spätmittelalterlichen Kriegswesens.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/"
+    },
+    {
+      "id": "white-company-iii",
+      "title": "The White Company · Volume III",
+      "author": "Arthur Conan Doyle",
+      "year": "1891",
+      "region": "europe",
+      "location": [-5.7, 40.4],
+      "place": "Kastilien, Spanien",
+      "status": "In Vorbereitung",
+      "statusDetail": "Bei IngramSpark eingereicht · eProof ausstehend",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-iii.webp",
+      "subtitle": "A historical novel in three volumes",
+      "summary": "Der Schlussband führt die Kompanie auf den iberischen Kriegsschauplatz und beschließt Alleyne Edricsons Weg.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/"
+    },
+    {
       "id": "siemens",
       "title": "Lebenserinnerungen",
       "author": "Werner von Siemens",
@@ -980,6 +1034,16 @@
       "source": "siemens",
       "target": "ford",
       "reason": "Industrielle Selbstzeugnisse der Blauen Reihe"
+    },
+    {
+      "source": "white-company-i",
+      "target": "white-company-ii",
+      "reason": "Doyles historischer Roman: Fortgang der Weißen Kompanie"
+    },
+    {
+      "source": "white-company-ii",
+      "target": "white-company-iii",
+      "reason": "Doyles historischer Roman: Feldzug und Abschluss"
     }
   ]
 }

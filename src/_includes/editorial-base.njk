@@ -8,13 +8,14 @@
 {% if historicalPage %}{% set alternates = history.alternates %}{% if theme %}{% set alternates = theme.alternates %}{% endif %}<link rel="alternate" hreflang="de" href="{{ alternates.de }}"><link rel="alternate" hreflang="en" href="{{ alternates.en }}"><link rel="alternate" hreflang="x-default" href="{{ alternates.en }}">{% endif %}
 {% if timelinePage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/reihen/gruen/zeittafel/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/series/gruen/chronology/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/series/gruen/chronology/">{% endif %}
 <link rel="stylesheet" href="/assets/css/history.css?v=20261010-chronology">
+  {% if whiteCompanyPage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/autoren/arthur-conan-doyle/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/authors/arthur-conan-doyle/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/authors/arthur-conan-doyle/"><link rel="stylesheet" href="/assets/css/white-company.css">{% endif %}
   <meta name="theme-color" content="#182522">
-  <link rel="canonical" href="https://aeternus-verlag.de{{ page.url }}">
+  <link rel="canonical" href="{% if whiteCompanyPage and lang == 'en' %}https://aeternuspublishing.com/authors/arthur-conan-doyle/{% else %}https://aeternus-verlag.de{{ page.url }}{% endif %}">
   {% if hreflang %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/"><link rel="alternate" hreflang="en" href="https://aeternus-verlag.de/en/"><link rel="alternate" hreflang="x-default" href="https://aeternus-verlag.de/">{% endif %}
   <meta property="og:type" content="{% if book %}book{% else %}website{% endif %}">
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
-  <meta property="og:url" content="https://aeternus-verlag.de{{ page.url }}">
+  <meta property="og:url" content="{% if whiteCompanyPage and lang == 'en' %}https://aeternuspublishing.com/authors/arthur-conan-doyle/{% else %}https://aeternus-verlag.de{{ page.url }}{% endif %}">
   <meta property="og:site_name" content="AETERNUS Verlag">
   <meta property="og:image" content="https://aeternus-verlag.de/assets/images/{% if book %}{{ book.cover }}.webp{% else %}hero-library.jpg{% endif %}">
   <meta name="twitter:card" content="summary_large_image">

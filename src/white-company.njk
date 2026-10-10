@@ -1,0 +1,28 @@
+---
+layout: editorial-base.njk
+lang: de
+whiteCompanyPage: true
+permalink: /autoren/arthur-conan-doyle/index.html
+title: Arthur Conan Doyle · The White Company in drei Bänden | AETERNUS
+description: Die illustrierte englische Ausgabe von Arthur Conan Doyles The White Company in drei Bänden. Taschenbuch und Hardcover bei Ingram eingereicht; eProof ausstehend.
+---
+<main id="main" class="white-company">
+  <header class="white-company-hero"><div class="shell">
+    <p class="eyebrow">Reihe Bernstein · Historischer Roman</p>
+    <h1>The White Company</h1>
+    <p class="lead">Arthur Conan Doyles Roman von 1891 folgt einer englischen Kompanie durch das Europa des 14. Jahrhunderts: vom Kloster Beaulieu über Bordeaux bis in den kastilischen Feldzug. Die englische AETERNUS-Ausgabe gliedert den vollständigen Originaltext in drei illustrierte Bände.</p>
+    <p class="state">Alle drei Bände bei Ingram eingereicht · eProof und Handelsfreigabe ausstehend</p>
+    <p><a href="https://aeternuspublishing.com/authors/arthur-conan-doyle/" hreflang="en" lang="en">English edition information →</a></p>
+  </div></header>
+  <section class="shell volumes" aria-label="Die drei Bände">
+  {% for volume in whiteCompany.volumes %}
+    <article class="volume">
+      <picture><source type="image/avif" srcset="/assets/images/{{ volume.cover }}.avif"><source type="image/webp" srcset="/assets/images/{{ volume.cover }}.webp"><img src="/assets/images/{{ volume.cover }}-fallback.jpg" alt="Umschlag The White Company, Band {{ volume.number }}: {{ volume.subtitle }}" width="820" height="1224" loading="lazy"></picture>
+      <div><p class="eyebrow">Band {{ volume.number }} · englische Originalausgabe</p><h2>{{ volume.subtitle }}</h2><p>{{ volume.de }}</p>
+        <dl class="details"><dt>Umfang</dt><dd>{{ volume.pages }} Seiten</dd><dt>Taschenbuch</dt><dd>ISBN {{ volume.paperback }}</dd><dt>Hardcover</dt><dd>ISBN {{ volume.hardcover }}</dd><dt>Stand</dt><dd>Bei Ingram eingereicht; eProof ausstehend</dd></dl>
+      </div>
+    </article>
+  {% endfor %}
+  </section>
+  <p class="shell note">Jeder Band enthält ein Frontispiz und vier für diese Ausgabe geschaffene Bildtafeln sowie einen Verlagsapparat. Die Bücher sind noch nicht im Handel freigegeben; Bezugslinks folgen nach der Prüfung.</p>
+</main>
