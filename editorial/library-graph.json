@@ -1892,6 +1892,90 @@
         "place": "Santiago de Cuba",
         "source": "kosmosSelection:rough-riders"
       }
+    },
+    {
+      "id": "book:de:the-white-company-band-i",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band I",
+        "en": "The White Company · Volume I"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-i.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-i/",
+        "en": "https://aeternuspublishing.com/authors/arthur-conan-doyle/"
+      },
+      "summary": {
+        "de": "Illustrierte englische Ausgabe in drei Bänden. Bei IngramSpark eingereicht; eProof ausstehend.",
+        "en": "Illustrated English edition in three volumes. Submitted to IngramSpark; eProof pending."
+      },
+      "geography": {
+        "location": [
+          -1.6,
+          50.9
+        ],
+        "place": "Hampshire, England",
+        "region": "europe",
+        "source": "kosmosSelection:white-company-i"
+      }
+    },
+    {
+      "id": "book:de:the-white-company-band-ii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band II",
+        "en": "The White Company · Volume II"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-ii.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-ii/",
+        "en": "https://aeternuspublishing.com/authors/arthur-conan-doyle/"
+      },
+      "summary": {
+        "de": "Illustrierte englische Ausgabe in drei Bänden. Bei IngramSpark eingereicht; eProof ausstehend.",
+        "en": "Illustrated English edition in three volumes. Submitted to IngramSpark; eProof pending."
+      },
+      "geography": {
+        "location": [
+          -0.8,
+          43
+        ],
+        "place": "Südwestfrankreich",
+        "region": "europe",
+        "source": "kosmosSelection:white-company-ii"
+      }
+    },
+    {
+      "id": "book:de:the-white-company-band-iii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band III",
+        "en": "The White Company · Volume III"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-iii.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-iii/",
+        "en": "https://aeternuspublishing.com/authors/arthur-conan-doyle/"
+      },
+      "summary": {
+        "de": "Illustrierte englische Ausgabe in drei Bänden. Bei IngramSpark eingereicht; eProof ausstehend.",
+        "en": "Illustrated English edition in three volumes. Submitted to IngramSpark; eProof pending."
+      },
+      "geography": {
+        "location": [
+          -5.7,
+          40.4
+        ],
+        "place": "Kastilien, Spanien",
+        "region": "europe",
+        "source": "kosmosSelection:white-company-iii"
+      }
     }
   ],
   "links": [
@@ -2850,6 +2934,39 @@
       "source": "book:de:die-rough-riders",
       "target": "series:gruen",
       "type": "series"
+    },
+    {
+      "source": "book:de:the-white-company-band-i",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:the-white-company-band-ii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:the-white-company-band-i",
+      "target": "book:de:the-white-company-band-ii",
+      "type": "curated",
+      "label": {
+        "de": "Doyles historischer Roman in drei Bänden",
+        "en": "Doyle's historical novel in three volumes"
+      }
+    },
+    {
+      "source": "book:de:the-white-company-band-iii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:the-white-company-band-ii",
+      "target": "book:de:the-white-company-band-iii",
+      "type": "curated",
+      "label": {
+        "de": "Doyles historischer Roman in drei Bänden",
+        "en": "Doyle's historical novel in three volumes"
+      }
     }
   ]
 }

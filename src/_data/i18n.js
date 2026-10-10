@@ -1608,3 +1608,55 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     }
   ]
 });
+
+// The three English volumes are submitted to IngramSpark; proofs and retail release are pending.
+module.exports.seriesItems.find(series => series.slug === "bernstein").authors.push({
+  name: "Arthur Conan Doyle",
+  slug: "arthur-conan-doyle",
+  landingUrl: { de: "/autoren/arthur-conan-doyle/", en: "/en/authors/arthur-conan-doyle/" },
+  bio: {
+    de: "Arthur Conan Doyles historischer Roman The White Company führt durch England, Frankreich und Spanien des 14. Jahrhunderts. Die illustrierte englische AETERNUS-Ausgabe umfasst drei Bände.",
+    en: "Arthur Conan Doyle's historical novel The White Company follows its company through fourteenth-century England, France and Spain. The illustrated English AETERNUS edition is arranged in three volumes."
+  },
+  books: [
+    {
+      cover: "cover-white-company-vol-i",
+      isbn: "978-3-67605-144-6",
+      isbns: { paperback: "978-3-67605-144-6", hardcover: "978-3-67605-145-3" },
+      pages: 216,
+      originalTitle: "The White Company, 1891",
+      title: { de: "The White Company · Band I", en: "The White Company · Volume I" },
+      desc: {
+        de: "Out of the Cloister: Alleyne Edricson verlässt Beaulieu und begegnet seinen künftigen Gefährten. Englischer Originaltext, Frontispiz, vier Bildtafeln sowie Vor- und Nachwort. Bei Ingram eingereicht; eProof ausstehend.",
+        en: "Out of the Cloister: Alleyne Edricson leaves Beaulieu and meets the men who will become his companions. Original English text, frontispiece, four plates, foreword and afterword. Submitted to IngramSpark; eProof pending."
+      },
+      status: { de: "Bei Ingram eingereicht · eProof ausstehend", en: "Submitted to IngramSpark · eProof pending" }
+    },
+    {
+      cover: "cover-white-company-vol-ii",
+      isbn: "978-3-67605-147-7",
+      isbns: { paperback: "978-3-67605-147-7", hardcover: "978-3-67605-148-4" },
+      pages: 186,
+      originalTitle: "The White Company, 1891",
+      title: { de: "The White Company · Band II", en: "The White Company · Volume II" },
+      desc: {
+        de: "Under the Banner: Die Kompanie zieht über See nach Bordeaux und tritt in die Welt des Schwarzen Prinzen. Englischer Originaltext, Frontispiz, vier Bildtafeln sowie Verlagsapparat. Bei Ingram eingereicht; eProof ausstehend.",
+        en: "Under the Banner: the company crosses the sea to Bordeaux and enters the world of the Black Prince. Original English text, frontispiece, four plates and editorial material. Submitted to IngramSpark; eProof pending."
+      },
+      status: { de: "Bei Ingram eingereicht · eProof ausstehend", en: "Submitted to IngramSpark · eProof pending" }
+    },
+    {
+      cover: "cover-white-company-vol-iii",
+      isbn: "978-3-67605-150-7",
+      isbns: { paperback: "978-3-67605-150-7", hardcover: "978-3-67605-151-4" },
+      pages: 200,
+      originalTitle: "The White Company, 1891",
+      title: { de: "The White Company · Band III", en: "The White Company · Volume III" },
+      desc: {
+        de: "Beyond the Pyrenees: Der Weg führt in den kastilischen Feldzug und zur letzten Bewährung der Kompanie. Englischer Originaltext, Frontispiz, vier Bildtafeln und historische Essays. Bei Ingram eingereicht; eProof ausstehend.",
+        en: "Beyond the Pyrenees: the road leads to the Castilian campaign and the company's final trial. Original English text, frontispiece, four plates and historical essays. Submitted to IngramSpark; eProof pending."
+      },
+      status: { de: "Bei Ingram eingereicht · eProof ausstehend", en: "Submitted to IngramSpark · eProof pending" }
+    }
+  ]
+});
