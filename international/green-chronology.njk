@@ -1,0 +1,46 @@
+---
+layout: layout.njk
+lang: en
+timelinePage: true
+permalink: /series/gruen/chronology/index.html
+title: British Campaigns in Context
+description: A chronology of British campaigns from Afghanistan to Mesopotamia, 1839–1918. People, places, supply lines and AETERNUS sources.
+---
+<div class="green-chronology">
+  <header class="shell chronology-intro">
+    <a class="chronology-back" href="/series/gruen/">← GREEN SERIES</a>
+    <p class="kicker">AETERNUS · Historical orientation</p>
+    <h1>British campaigns<br><em>in context.</em></h1>
+    <p>From Kabul to Kut: this chronology places campaigns and crises by date, region and military connection. It offers a reading route through the sources of the GREEN SERIES.</p>
+    <p class="chronology-scope">Frame 1838–1920 · Campaigns 1839–1918 · Sources to 1920. Overlapping campaigns appear by their starting year.</p>
+    <a class="chronology-language" href="https://aeternus-verlag.de/reihen/gruen/zeittafel/" lang="de" hreflang="de">Auf Deutsch lesen →</a>
+  </header>
+
+  <section class="shell chronology-orientation" aria-labelledby="chronology-threads">
+    <p class="kicker">The connections</p>
+    <h2 id="chronology-threads">People, ground and supply.</h2>
+    <p>Roberts links the fighting in India to the second Afghan campaign. Baden-Powell appears first in Asante, then at Mafeking; Kitchener connects Sudan and South Africa. Across these theatres, the reach of supply determined what an army could hold.</p>
+  </section>
+
+  <section class="shell chronology-section" aria-labelledby="chronology-title">
+    <h2 id="chronology-title" class="visually-hidden">Chronological timeline</h2>
+    <ol class="chronology-list">
+      {% for item in greenChronology.entries %}
+      <li id="{{ item.id }}" class="chronology-item">
+        <div class="chronology-date"><span>{{ item.start }}–{{ item.end }}</span><small>{{ item.region }}</small></div>
+        <article aria-labelledby="title-{{ item.id }}">
+          <h3 id="title-{{ item.id }}">{{ item.title }}</h3>
+          <p class="chronology-account">{{ item.account }}</p>
+          <dl>
+            <dt>Key figures</dt><dd>{{ item.people }}</dd>
+            <dt>AETERNUS sources</dt><dd>{% for source in item.sources %}<cite>{{ source }}</cite>{% if not loop.last %}<br>{% endif %}{% endfor %}</dd>
+            <dt>Connection</dt><dd>{{ item.connection }} <a href="#{{ item.connectionId }}">Related campaign ↗</a></dd>
+          </dl>
+          <p class="chronology-evidence">Historical reference: <a href="{{ item.evidence.url }}" rel="noopener noreferrer">{{ item.evidence.label }} ↗</a></p>
+        </article>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  <aside class="shell chronology-note"><p>The listed works are historical sources from particular points of view. A work code identifies an AETERNUS project; its appearance here does not imply that an edition is on sale. George Arthur’s biography of Kitchener supplements eyewitness accounts as a contemporary narrative.</p><a href="/series/gruen/historical-background/">Explore the historical themes →</a></aside>
+</div>
