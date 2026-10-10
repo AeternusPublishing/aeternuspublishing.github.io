@@ -57,6 +57,14 @@ const acd = require('./acd-en-20261008.json');
 const amberRef = englishBooks.find(b => b.series === 'bernstein');
 authorsEn.push(acd.author);
 englishBooks.push({ ...acd.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+const whiteCompany = require('./acd001-en-20261010.cjs');
+englishBooks.push(...whiteCompany.map(book => ({ ...book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor })));
+const doyle = authorsEn.find(author => author.slug === 'arthur-conan-doyle');
+doyle.intro = 'Arthur Conan Doyle wrote detective stories, historical romances and tales of scientific adventure. The White Company is presented in three illustrated English volumes.';
+doyle.publisherEditionHTML = doyle.publisherEditionHTML.replace(
+  '<p>Forthcoming, in three volumes</p><p>Doyle’s historical romance of 1891, in the Amber Series.</p>',
+  '<p>Three illustrated volumes submitted to IngramSpark. Paperback and hardcover eProofs are pending; retail availability will follow after review.</p><p>Doyle’s historical romance of 1891 follows the company from Beaulieu through France to the Castilian campaign.</p>'
+);
 // COO author page (QR target of The Deerslayer, Part One and Part Two); register status GEBAUT, no prices, no retail links.
 const coo001 = require('./coo001-en-20261008.json');
 authorsEn.push(coo001.author);
