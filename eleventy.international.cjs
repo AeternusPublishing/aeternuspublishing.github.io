@@ -5,6 +5,7 @@ module.exports = function(config) {
   config.addPassthroughCopy({ 'src/assets': 'assets' });
   config.addPassthroughCopy({ 'international/assets': 'assets' });
   config.addFilter('plain', catalog.clean);
+  config.addFilter('inlineEmphasis', value => String(value).replace(/\*([^*]+)\*/g, '<em>$1</em>'));
   config.addFilter('jsonld', value => JSON.stringify(value).replace(/</g, '\\u003c'));
   config.addFilter('shopUrl', catalog.directShopUrl);
   config.addFilter('authorBooks', author => catalog.englishBooks.filter(b => b.author === author));
