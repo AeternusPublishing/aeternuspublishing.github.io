@@ -68,7 +68,7 @@
       "short": "There are moments in history when a distant name acquires the force of a summons. In the closing years of the nineteenth century, Klondike became such a name.",
       "long": "There are moments in history when a distant name acquires the force of a summons. In the closing years of the nineteenth century, Klondike became such a name. Men who had never seen the North unfolded maps of rivers whose courses they scarcely understood. Savings accumulated over years were gathered into a single stake. Shops were abandoned, professions interrupted, households left behind. Tappan Adney saw it at close quarters. He observed not merely the destination, but the road toward it: the ports swollen with men and freight; the trails over which entire livelihoods had to be carried upon human backs. Gold supplied the motive, but the North supplied the measure. The complete text of the first edition of 1900 · With 144 of its illustrations"
     },
-    "cover": "/assets/images/cover-the-klondike-stampede-adney-en-20261010.webp",
+    "cover": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
     "publication_date": null,
     "pricing": {},
     "availability": "COMING_SOON",
@@ -135,6 +135,7 @@
     },
     "first_published": "Harper & Brothers, New York, 1900",
     "illustrations": "144 illustrations of the first edition, including the frontispiece",
-    "cover_fallback": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg"
+    "cover_fallback": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+    "coverWebp": "/assets/images/cover-the-klondike-stampede-adney-en-20261010.webp"
   }
 }

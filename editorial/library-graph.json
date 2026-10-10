@@ -2184,6 +2184,90 @@
         "de": "Rudyard Kipling",
         "en": "Rudyard Kipling"
       }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band I",
+        "en": "The White Company · Volume I"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-i-fallback.jpg",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-i/"
+      },
+      "summary": {
+        "de": "Illustrierte englische Ausgabe. Bei IngramSpark eingereicht; eProof ausstehend.",
+        "en": "Illustrated English edition. Submitted to IngramSpark; eProof pending."
+      },
+      "geography": {
+        "location": [
+          -1.6,
+          50.9
+        ],
+        "region": "europe",
+        "place": "Hampshire, England",
+        "source": "kosmosSelection:white-company-i"
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band II",
+        "en": "The White Company · Volume II"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-ii-fallback.jpg",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-ii/"
+      },
+      "summary": {
+        "de": "Illustrierte englische Ausgabe. Bei IngramSpark eingereicht; eProof ausstehend.",
+        "en": "Illustrated English edition. Submitted to IngramSpark; eProof pending."
+      },
+      "geography": {
+        "location": [
+          -0.8,
+          43
+        ],
+        "region": "europe",
+        "place": "South-western France",
+        "source": "kosmosSelection:white-company-ii"
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band III",
+        "en": "The White Company · Volume III"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-iii-fallback.jpg",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/arthur-conan-doyle/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-iii/"
+      },
+      "summary": {
+        "de": "Illustrierte englische Ausgabe. Bei IngramSpark eingereicht; eProof ausstehend.",
+        "en": "Illustrated English edition. Submitted to IngramSpark; eProof pending."
+      },
+      "geography": {
+        "location": [
+          -5.7,
+          40.4
+        ],
+        "region": "europe",
+        "place": "Castile, Spain",
+        "source": "kosmosSelection:white-company-iii"
+      }
     }
   ],
   "links": [
@@ -3355,6 +3439,54 @@
       "label": {
         "de": "Stevensons Schatzinsel reizte Haggard zu König Salomons Schatzkammer",
         "en": "Stevensons Schatzinsel reizte Haggard zu König Salomons Schatzkammer"
+      }
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "target": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "type": "curated",
+      "label": {
+        "de": "Doyles historischer Roman in drei Bänden",
+        "en": "Doyle's historical novel in three volumes"
+      }
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "target": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "type": "curated",
+      "label": {
+        "de": "Doyles historischer Roman in drei Bänden",
+        "en": "Doyle's historical novel in three volumes"
       }
     }
   ]
