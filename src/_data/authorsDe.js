@@ -1847,3 +1847,180 @@ module.exports.push({
     }
   ]
 });
+
+// Publisher 12.10.2026: five English editions, bibliographic data only.
+const haggardEnglish = module.exports.find(a => a.slug === 'henry-rider-haggard');
+haggardEnglish.books = haggardEnglish.books.concat([
+  {
+    "cover": {
+      "img": "cover-hrh001-en-ingram-v5-20261012"
+    },
+    "meta": "Englische Originalausgabe · 1885 · 314 Seiten",
+    "title": "King Solomon’s Mines",
+    "subtitle": "An African Romance",
+    "status": "Live",
+    "formats": [
+      {
+        "name": "Paperback",
+        "isbn": "978-3-67605-068-5",
+        "links": []
+      },
+      {
+        "name": "Hardcover",
+        "isbn": "978-3-67605-069-2",
+        "links": []
+      },
+      {
+        "name": "E-Book",
+        "isbn": "978-3-67605-067-8",
+        "links": []
+      }
+    ],
+    "modal": {
+      "metadata": "Paperback ISBN 978-3-67605-068-5 · Hardcover ISBN 978-3-67605-069-2 · E-Book ISBN 978-3-67605-067-8",
+      "summary": "Englische Originalausgabe.",
+      "sample": "Cassell & Company, London 1887 (fifty-third thousand)",
+      "status": "Live",
+      "editionUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/"
+    }
+  },
+  {
+    "cover": {
+      "img": "cover-hrh002-en-ingram-v2-20261012"
+    },
+    "meta": "Englische Originalausgabe · 1887 · 408 Seiten",
+    "title": "Allan Quatermain",
+    "subtitle": "Being an Account of His Further Adventures and Discoveries",
+    "status": "Live",
+    "formats": [
+      {
+        "name": "Paperback",
+        "isbn": "978-3-67605-084-5",
+        "links": []
+      },
+      {
+        "name": "Hardcover",
+        "isbn": "978-3-67605-085-2",
+        "links": []
+      },
+      {
+        "name": "E-Book",
+        "isbn": "978-3-67605-083-8",
+        "links": []
+      }
+    ],
+    "modal": {
+      "metadata": "Paperback ISBN 978-3-67605-084-5 · Hardcover ISBN 978-3-67605-085-2 · E-Book ISBN 978-3-67605-083-8",
+      "summary": "Englische Originalausgabe.",
+      "sample": "",
+      "status": "Live",
+      "editionUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/"
+    }
+  },
+  {
+    "cover": {
+      "img": "cover-hrh003-en-ingram-v10-20261012"
+    },
+    "meta": "Englische Originalausgabe · 1892 · 450 Seiten",
+    "title": "Nada the Lily",
+    "subtitle": "A Zulu Saga",
+    "status": "Live",
+    "formats": [
+      {
+        "name": "Paperback",
+        "isbn": "978-3-67605-092-0",
+        "links": []
+      },
+      {
+        "name": "Hardcover",
+        "isbn": "978-3-67605-093-7",
+        "links": []
+      },
+      {
+        "name": "E-Book",
+        "isbn": "978-3-67605-082-1",
+        "links": []
+      }
+    ],
+    "modal": {
+      "metadata": "Paperback ISBN 978-3-67605-092-0 · Hardcover ISBN 978-3-67605-093-7 · E-Book ISBN 978-3-67605-082-1",
+      "summary": "Englische Originalausgabe.",
+      "sample": "",
+      "status": "Live",
+      "editionUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/"
+    }
+  },
+  {
+    "cover": {
+      "img": "cover-hrh005-en-ingram-v8-20261012"
+    },
+    "meta": "Englische Originalausgabe · 1887 · 430 Seiten",
+    "title": "She",
+    "subtitle": "A History of Adventure",
+    "status": "Live",
+    "formats": [
+      {
+        "name": "Paperback",
+        "isbn": "978-3-67605-080-7",
+        "links": []
+      },
+      {
+        "name": "Hardcover",
+        "isbn": "978-3-67605-081-4",
+        "links": []
+      },
+      {
+        "name": "E-Book",
+        "isbn": "978-3-67605-079-1",
+        "links": []
+      }
+    ],
+    "modal": {
+      "metadata": "Paperback ISBN 978-3-67605-080-7 · Hardcover ISBN 978-3-67605-081-4 · E-Book ISBN 978-3-67605-079-1",
+      "summary": "Englische Originalausgabe.",
+      "sample": "",
+      "status": "Live",
+      "editionUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/"
+    }
+  },
+  {
+    "cover": {
+      "img": "cover-hrh006-en-ingram-v5-20261012"
+    },
+    "meta": "Englische Originalausgabe · 1905 · 478 Seiten",
+    "title": "Ayesha",
+    "subtitle": "The Return of She",
+    "status": "Live",
+    "formats": [
+      {
+        "name": "Paperback",
+        "isbn": "978-3-67605-087-6",
+        "links": []
+      },
+      {
+        "name": "Hardcover",
+        "isbn": "978-3-67605-088-3",
+        "links": []
+      },
+      {
+        "name": "E-Book",
+        "isbn": "978-3-67605-086-9",
+        "links": []
+      }
+    ],
+    "modal": {
+      "metadata": "Paperback ISBN 978-3-67605-087-6 · Hardcover ISBN 978-3-67605-088-3 · E-Book ISBN 978-3-67605-086-9",
+      "summary": "Englische Originalausgabe.",
+      "sample": "",
+      "status": "Live",
+      "editionUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/"
+    }
+  }
+]);
+haggardEnglish.gridClass = 'count-6';
+haggardEnglish.worksTitle = 'Englische Originalausgaben';
+haggardEnglish.worksIntro = '';
+haggardEnglish.preview = false;
+haggardEnglish.previewStatus = '';
+haggardEnglish.sisterUrl = 'https://aeternuspublishing.com/authors/henry-rider-haggard/';
+haggardEnglish.sisterLabel = 'English editions';

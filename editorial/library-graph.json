@@ -1976,6 +1976,163 @@
         "region": "europe",
         "source": "kosmosSelection:white-company-iii"
       }
+    },
+    {
+      "id": "book:en-h-rider-haggard-king-solomons-mines",
+      "type": "book",
+      "label": {
+        "de": "King Solomon’s Mines",
+        "en": "King Solomon’s Mines"
+      },
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/"
+      },
+      "author": "henry-rider-haggard",
+      "series": "bernstein",
+      "language": "en",
+      "cover": "/assets/images/cover-hrh001-en-ingram-v5-20261012.jpg",
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning."
+      },
+      "geography": {
+        "source": "kosmosSelection:haggard-en-hrh_001",
+        "region": "africa",
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "place": "Africa"
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-allan-quatermain",
+      "type": "book",
+      "label": {
+        "de": "Allan Quatermain",
+        "en": "Allan Quatermain"
+      },
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/"
+      },
+      "author": "henry-rider-haggard",
+      "series": "bernstein",
+      "language": "en",
+      "cover": "/assets/images/cover-hrh002-en-ingram-v2-20261012.jpg",
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": "He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him."
+      },
+      "geography": {
+        "source": "kosmosSelection:haggard-en-hrh_002",
+        "region": "africa",
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "place": "Africa"
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-nada-the-lily",
+      "type": "book",
+      "label": {
+        "de": "Nada the Lily",
+        "en": "Nada the Lily"
+      },
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/"
+      },
+      "author": "henry-rider-haggard",
+      "series": "bernstein",
+      "language": "en",
+      "cover": "/assets/images/cover-hrh003-en-ingram-v10-20261012.jpg",
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": "Before the great Zulu kings passed into history, their names commanded the allegiance of armies, their warriors carried terror across the plains of southern Africa, and the fate of nations could be determined by a single word spoken beneath the royal spears."
+      },
+      "geography": {
+        "source": "kosmosSelection:haggard-en-hrh_003",
+        "region": "africa",
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "place": "Africa"
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-she",
+      "type": "book",
+      "label": {
+        "de": "She",
+        "en": "She"
+      },
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/"
+      },
+      "author": "henry-rider-haggard",
+      "series": "bernstein",
+      "language": "en",
+      "cover": "/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": "For more than two thousand years, the secret has endured."
+      },
+      "geography": {
+        "source": "kosmosSelection:haggard-en-hrh_005",
+        "region": "africa",
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "place": "Africa"
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-ayesha",
+      "type": "book",
+      "label": {
+        "de": "Ayesha",
+        "en": "Ayesha"
+      },
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/"
+      },
+      "author": "henry-rider-haggard",
+      "series": "bernstein",
+      "language": "en",
+      "cover": "/assets/images/cover-hrh006-en-ingram-v5-20261012.jpg",
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": "Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives."
+      },
+      "geography": {
+        "source": "kosmosSelection:haggard-en-hrh_006",
+        "region": "asia",
+        "location": [
+          90,
+          30
+        ],
+        "place": "Central Asia"
+      }
+    },
+    {
+      "id": "author:henry-rider-haggard",
+      "type": "author",
+      "label": {
+        "de": "H. Rider Haggard",
+        "en": "H. Rider Haggard"
+      },
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+        "en": "https://aeternuspublishing.com/authors/henry-rider-haggard/"
+      }
     }
   ],
   "links": [
@@ -2967,6 +3124,56 @@
         "de": "Doyles historischer Roman in drei Bänden",
         "en": "Doyle's historical novel in three volumes"
       }
+    },
+    {
+      "source": "series:bernstein",
+      "target": "book:en-h-rider-haggard-king-solomons-mines",
+      "type": "series"
+    },
+    {
+      "source": "author:henry-rider-haggard",
+      "target": "book:en-h-rider-haggard-king-solomons-mines",
+      "type": "author"
+    },
+    {
+      "source": "series:bernstein",
+      "target": "book:en-h-rider-haggard-allan-quatermain",
+      "type": "series"
+    },
+    {
+      "source": "author:henry-rider-haggard",
+      "target": "book:en-h-rider-haggard-allan-quatermain",
+      "type": "author"
+    },
+    {
+      "source": "series:bernstein",
+      "target": "book:en-h-rider-haggard-nada-the-lily",
+      "type": "series"
+    },
+    {
+      "source": "author:henry-rider-haggard",
+      "target": "book:en-h-rider-haggard-nada-the-lily",
+      "type": "author"
+    },
+    {
+      "source": "series:bernstein",
+      "target": "book:en-h-rider-haggard-she",
+      "type": "series"
+    },
+    {
+      "source": "author:henry-rider-haggard",
+      "target": "book:en-h-rider-haggard-she",
+      "type": "author"
+    },
+    {
+      "source": "series:bernstein",
+      "target": "book:en-h-rider-haggard-ayesha",
+      "type": "series"
+    },
+    {
+      "source": "author:henry-rider-haggard",
+      "target": "book:en-h-rider-haggard-ayesha",
+      "type": "author"
     }
   ]
 }
