@@ -104,7 +104,7 @@
     },
     "distribution_status": {
       "amazon": "GEBAUT",
-      "ingram": "GEBAUT",
+      "ingram": "EINGEREICHT",
       "own_shop": "NOT_CONFIGURED"
     },
     "commerce": {
@@ -121,7 +121,7 @@
         "sample": "In 1898 Theodore Roosevelt leaves Washington for Cuba. Cowboys, ranchmen and Eastern athletes become a volunteer regiment whose brief campaign will enter American history. The complete English text of the 1899 first edition, with a new publisher’s apparatus."
       }
     },
-    "provenance": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\TR_THEODORE_ROOSEVELT\\02_WERKE\\TR_002_THE_ROUGH_RIDERS_1899\\08_HANDEL\\UPLOADPAKET_TR002_EN_INGRAM_V1_20261008\\METADATEN\\ingram_paperback.json",
+    "provenance": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\TR_THEODORE_ROOSEVELT\\02_WERKE\\TR_002_THE_ROUGH_RIDERS_1899\\08_HANDEL\\UPLOADPAKET_TR002_EN_INGRAM_V2_20261008\\METADATEN\\ingram_paperback.json",
     "retailer_formats": [
       {
         "label": "Paperback",

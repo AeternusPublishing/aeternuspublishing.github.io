@@ -57,14 +57,39 @@ const acd = require('./acd-en-20261008.json');
 const amberRef = englishBooks.find(b => b.series === 'bernstein');
 authorsEn.push(acd.author);
 englishBooks.push({ ...acd.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+const whiteCompany = require('./acd001-en-20261010.cjs');
+englishBooks.push(...whiteCompany.map(book => ({ ...book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor })));
+const doyle = authorsEn.find(author => author.slug === 'arthur-conan-doyle');
+doyle.intro = 'Arthur Conan Doyle wrote detective stories, historical romances and tales of scientific adventure. The White Company is presented in three illustrated English volumes.';
+doyle.publisherEditionHTML = doyle.publisherEditionHTML.replace(
+  '<p>Forthcoming, in three volumes</p><p>Doyle’s historical romance of 1891, in the Amber Series.</p>',
+  '<p>Three illustrated volumes submitted to IngramSpark. Paperback and hardcover eProofs are pending; retail availability will follow after review.</p><p>Doyle’s historical romance of 1891 follows the company from Beaulieu through France to the Castilian campaign.</p>'
+);
 // COO author page (QR target of The Deerslayer, Part One and Part Two); register status GEBAUT, no prices, no retail links.
 const coo001 = require('./coo001-en-20261008.json');
 authorsEn.push(coo001.author);
 englishBooks.push({ ...coo001.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+// ETA author page (QR target of The Klondike Stampede); register status GEBAUT, no ISBN, no prices, no retail links.
+const eta001 = require('./eta001-en-20261008.json');
+authorsEn.push(eta001.author);
+englishBooks.push(eta001.book);
 // Explicitly authorized English announcement; no retail availability claimed.
 const tr002 = require('./tr002-en-20261008.json');
 authorsEn.push(tr002.author);
 englishBooks.unshift(tr002.book);
+// TR_004: approved English hardcover, submitted to Ingram; eProof pending.
+englishBooks.unshift(require('./tr004-en-20261012.json'));
+Object.assign(authorsEn.find(a => a.slug === 'theodore-roosevelt'), {
+  eyebrow: 'ANTHRACITE & GREEN SERIES · AETERNUS',
+  intro: 'The author of The Rough Riders and Through the Brazilian Wilderness: soldier, naturalist and explorer.',
+  metaDescription: 'Theodore Roosevelt: The Rough Riders and Through the Brazilian Wilderness, in annotated English AETERNUS editions.'
+});
+// NAJ_001 V8: publisher-approved author and book pages; print editions forthcoming.
+const naj001 = require('./naj001-en-20261009.cjs');
+authorsEn.push(naj001.author);
+englishBooks.unshift(naj001.book);
+// GRG_001 author page is the English edition's verified QR destination.
+authorsEn.push(require('./grg001-author-20261010.cjs'));
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
