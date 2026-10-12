@@ -1,0 +1,43 @@
+{
+  "work_id": "JJH_001",
+  "observed_utc": "2026-10-12T19:25:23Z",
+  "source": "KDP bookshelf: existing editions Live; V8 authorized by decision_jjh001_en_endfreigabe_kdp_relaunch_v8_20261008",
+  "description_html": "<ul><li>Complete text of the first edition of 1910, checked against the page</li><li>Eleven plates made for this edition</li><li>Author biography and A Life in Construction, 1838–1916</li><li>Publisher’s preface, afterword, note on the text and glossary</li><li>A guide to Hill’s figures and the census returns he used</li></ul><p><i>“Land without population is a wilderness, and population without land is a mob.” — James J. Hill</i></p><p>The first generation crossed the continent by trail. The next bound it together with steel.</p><p>James J. Hill belonged to that second great movement westward. From Saint Paul he drove the Great Northern across the northern plains, through the Rocky Mountains and onward to Puget Sound, creating one of the great transportation arteries of North America. By 1893 the line had reached the Pacific, built without the federal land grants on which earlier transcontinental systems had depended.</p><p>Yet Highways of Progress is far more than a railroad man’s book.</p><p>Published in 1910, it is the mature statement of the man remembered as the Empire Builder: a reflection on agriculture, commerce, irrigation, waterways, conservation, natural resources and the productive future of a continental nation.</p><p>Hill thought in immense spaces and exact measurements. He understood that railways, farms, towns, markets and ports formed one living economic system, and that progress required more than ambition: it required calculation, discipline, capital and the will to build before the future was certain.</p><p>His rails crossed a continent.</p><p>His subject was larger still: how a nation turns distance, land and human effort into civilization.</p><p>BLUE SERIES · TITANS OF AMERICA · AETERNUS</p>",
+  "formats": [
+    {
+      "label": "Paperback",
+      "isbn": "978-3-67605-100-2",
+      "price_display": "US list price $19.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676051009"
+        }
+      ],
+      "pages": 310
+    },
+    {
+      "label": "Hardcover",
+      "isbn": "978-3-67605-101-9",
+      "price_display": "US list price $27.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676051017"
+        }
+      ],
+      "pages": 310
+    },
+    {
+      "label": "Kindle",
+      "isbn": "978-3-67605-102-6",
+      "price_display": "US list price $9.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/B0HLRD5D9L"
+        }
+      ]
+    }
+  ]
+}
