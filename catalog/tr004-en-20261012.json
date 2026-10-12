@@ -1,0 +1,71 @@
+{
+  "id": "en-theodore-roosevelt-through-the-brazilian-wilderness-annotated",
+  "work_id": "TR_004",
+  "language": "en",
+  "title": "Through the Brazilian Wilderness (Annotated)",
+  "subtitle": "",
+  "author": "theodore-roosevelt",
+  "authorName": "Theodore Roosevelt",
+  "contributors": [],
+  "series": "anthrazit",
+  "series_number": null,
+  "original_title": "Through the Brazilian Wilderness",
+  "original_publication_year": 1914,
+  "isbn": {
+    "hardcover": "978-3-67605-171-2",
+    "paperback": null,
+    "ebook": null
+  },
+  "formats": {
+    "hardcover": {
+      "label": "Hardcover",
+      "price_display": "US$34.99"
+    }
+  },
+  "description": {
+    "short": "Roosevelt and Rondon descend the River of Doubt. The complete text of the 1914 first edition, with its plates, maps and index and an extensive new publisher’s apparatus.",
+    "long": "  Complete text of the 1914 first edition, with Roosevelt’s three appendices  The photographic plates and the index of the 1914 edition  Publisher’s foreword, final afterword and a note on the text  Profiles of Rondon, Kermit Roosevelt and George K. Cherrie  The route of the expedition and how an unknown river was measured  Glossary of persons, places, and terms   Theodore Roosevelt’s  Through the Brazilian Wilderness  is one of the great exploration narratives of the early twentieth century.  Originally published by Charles Scribner’s Sons in 1914, the book records the Roosevelt-Rondon Scientific Expedition into the Brazilian interior and, above all, the first systematic descent and survey of the River of Doubt. The journey united Roosevelt with Brazilian explorer Colonel Cândido Rondon, his son Kermit, Lieutenant João Lyra, ornithologist George K. Cherrie and a company of Brazilian paddlers and field men.  The expedition combined geography and natural history. Rondon and Lyra surveyed the river; Kermit assisted the measurements and performed essential rope and canoe work; Cherrie and other naturalists continued zoological collecting. Meanwhile the river imposed a steadily increasing cost in rapids, portages, canoe losses, hunger, fever, injury and death.  By the end of the sixty-day canoe journey, the party had established the relationship of a major river system previously unresolved on contemporary maps and carried its measurements back into the geographical record.  The AETERNUS edition restores Roosevelt’s work as both literature and expedition document, with an extensive new apparatus covering the expedition’s composition, route, surveying method, named participants, natural-history work, losses, geographical achievement and the Brazilian exploration program led by Rondon.  ANTHRACITE SERIES · AETERNUS "
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1914 first edition, with Roosevelt’s three appendices</li><li>The photographic plates and the index of the 1914 edition</li><li>Publisher’s foreword, final afterword and a note on the text</li><li>Profiles of Rondon, Kermit Roosevelt and George K. Cherrie</li><li>The route of the expedition and how an unknown river was measured</li><li>Glossary of persons, places, and terms</li></ul><p>Theodore Roosevelt’s <i>Through the Brazilian Wilderness</i> is one of the great exploration narratives of the early twentieth century.</p><p>Originally published by Charles Scribner’s Sons in 1914, the book records the Roosevelt-Rondon Scientific Expedition into the Brazilian interior and, above all, the first systematic descent and survey of the River of Doubt. The journey united Roosevelt with Brazilian explorer Colonel Cândido Rondon, his son Kermit, Lieutenant João Lyra, ornithologist George K. Cherrie and a company of Brazilian paddlers and field men.</p><p>The expedition combined geography and natural history. Rondon and Lyra surveyed the river; Kermit assisted the measurements and performed essential rope and canoe work; Cherrie and other naturalists continued zoological collecting. Meanwhile the river imposed a steadily increasing cost in rapids, portages, canoe losses, hunger, fever, injury and death.</p><p>By the end of the sixty-day canoe journey, the party had established the relationship of a major river system previously unresolved on contemporary maps and carried its measurements back into the geographical record.</p><p>The AETERNUS edition restores Roosevelt’s work as both literature and expedition document, with an extensive new apparatus covering the expedition’s composition, route, surveying method, named participants, natural-history work, losses, geographical achievement and the Brazilian exploration program led by Rondon.</p><p>ANTHRACITE SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-tr004-en-20261012.jpg",
+  "publication_date": null,
+  "pricing": {
+    "USD": 34.99,
+    "GBP": 29.99,
+    "EUR": 32.99
+  },
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "EINGEREICHT",
+    "own_shop": "NOT_CONFIGURED"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-theodore-roosevelt-through-the-brazilian-wilderness-annotated/",
+  "authorUrl": "/authors/theodore-roosevelt/",
+  "seriesName": "Anthracite Series",
+  "seriesColor": "#303236",
+  "legacy": {
+    "modal": {
+      "metadata": "544 book pages · Complete English text of the 1914 first edition · 49 plates and three maps · Hardcover forthcoming; digital proof pending",
+      "sample": "Roosevelt and Rondon descend the River of Doubt. The complete text of the 1914 first edition, with its plates, maps and index and an extensive new publisher’s apparatus."
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Hardcover",
+      "isbn": "978-3-67605-171-2",
+      "price_display": "US$34.99",
+      "links": [],
+      "status": "EINGEREICHT"
+    }
+  ],
+  "provenance": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\TR_THEODORE_ROOSEVELT\\02_WERKE\\TR_004_THROUGH_THE_BRAZILIAN_WILDERNESS_1914\\07_EXPORT\\UPLOADPAKET_INGRAM_V4_20261010\\METADATEN\\ingram_hardcover.json"
+}
