@@ -18,7 +18,17 @@
     "hardcover": "978-3-67605-167-5",
     "ebook": null
   },
-  "formats": {},
+  "formats": {
+    "paperback": {
+      "label": "Paperback",
+      "price_display": "USD 15.99 · GBP 13.99 · EUR 14.99"
+    },
+    "hardcover": {
+      "label": "Hardcover",
+      "price_display": "USD 26.99 · GBP 23.99 · EUR 25.99"
+    },
+    "ebook": null
+  },
   "retailer_formats": [
     {
       "label": "Paperback",
@@ -59,7 +69,8 @@
   "distribution_status": {
     "ingram": "EINGEREICHT",
     "amazon": "NOT_IN_SCOPE",
-    "own_shop": "NOT_CONFIGURED"
+    "own_shop": "NOT_CONFIGURED",
+    "other": {}
   },
   "commerce": {
     "shopify_product_id": null,
