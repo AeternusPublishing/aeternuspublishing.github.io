@@ -783,7 +783,10 @@
       "author": "Arthur Conan Doyle",
       "year": "1891",
       "region": "europe",
-      "location": [-1.6, 50.9],
+      "location": [
+        -1.6,
+        50.9
+      ],
       "place": "Hampshire, England",
       "status": "In Vorbereitung",
       "statusDetail": "Bei IngramSpark eingereicht · eProof ausstehend",
@@ -801,7 +804,10 @@
       "author": "Arthur Conan Doyle",
       "year": "1891",
       "region": "europe",
-      "location": [-0.8, 43.0],
+      "location": [
+        -0.8,
+        43
+      ],
       "place": "Südwestfrankreich",
       "status": "In Vorbereitung",
       "statusDetail": "Bei IngramSpark eingereicht · eProof ausstehend",
@@ -819,7 +825,10 @@
       "author": "Arthur Conan Doyle",
       "year": "1891",
       "region": "europe",
-      "location": [-5.7, 40.4],
+      "location": [
+        -5.7,
+        40.4
+      ],
       "place": "Kastilien, Spanien",
       "status": "In Vorbereitung",
       "statusDetail": "Bei IngramSpark eingereicht · eProof ausstehend",
@@ -872,6 +881,111 @@
       "landingUrl": "https://aeternus-verlag.de/buecher/die-rough-riders/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternus-verlag.de/autoren/theodore-roosevelt/"
+    },
+    {
+      "id": "haggard-en-hrh_001",
+      "title": "King Solomon’s Mines",
+      "author": "H. Rider Haggard",
+      "year": "1885",
+      "region": "africa",
+      "location": [
+        28.2,
+        -28.8
+      ],
+      "place": "Afrika · literarischer Schauplatz",
+      "status": "Im Programm",
+      "statusDetail": "Live",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-hrh001-en-ingram-v5-20261012.webp",
+      "subtitle": "An African Romance",
+      "summary": "Englische Originalausgabe.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/"
+    },
+    {
+      "id": "haggard-en-hrh_002",
+      "title": "Allan Quatermain",
+      "author": "H. Rider Haggard",
+      "year": "1887",
+      "region": "africa",
+      "location": [
+        28.2,
+        -28.8
+      ],
+      "place": "Afrika · literarischer Schauplatz",
+      "status": "Im Programm",
+      "statusDetail": "Live",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-hrh002-en-ingram-v2-20261012.webp",
+      "subtitle": "Being an Account of His Further Adventures and Discoveries",
+      "summary": "Englische Originalausgabe.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/"
+    },
+    {
+      "id": "haggard-en-hrh_003",
+      "title": "Nada the Lily",
+      "author": "H. Rider Haggard",
+      "year": "1892",
+      "region": "africa",
+      "location": [
+        28.2,
+        -28.8
+      ],
+      "place": "Afrika · literarischer Schauplatz",
+      "status": "Im Programm",
+      "statusDetail": "Live",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-hrh003-en-ingram-v10-20261012.webp",
+      "subtitle": "A Zulu Saga",
+      "summary": "Englische Originalausgabe.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/"
+    },
+    {
+      "id": "haggard-en-hrh_005",
+      "title": "She",
+      "author": "H. Rider Haggard",
+      "year": "1887",
+      "region": "africa",
+      "location": [
+        28.2,
+        -28.8
+      ],
+      "place": "Afrika · literarischer Schauplatz",
+      "status": "Im Programm",
+      "statusDetail": "Live",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-hrh005-en-ingram-v8-20261012.webp",
+      "subtitle": "A History of Adventure",
+      "summary": "Englische Originalausgabe.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/"
+    },
+    {
+      "id": "haggard-en-hrh_006",
+      "title": "Ayesha",
+      "author": "H. Rider Haggard",
+      "year": "1905",
+      "region": "asia",
+      "location": [
+        90,
+        30
+      ],
+      "place": "Zentralasien · literarischer Schauplatz",
+      "status": "Im Programm",
+      "statusDetail": "Live",
+      "language": "Englisch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-hrh006-en-ingram-v5-20261012.webp",
+      "subtitle": "The Return of She",
+      "summary": "Englische Originalausgabe.",
+      "landingUrl": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/"
     }
   ],
   "links": [
