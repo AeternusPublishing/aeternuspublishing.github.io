@@ -98,6 +98,34 @@ authorsEn.push(naj001.author);
 englishBooks.unshift(naj001.book);
 // GRG_001 author page is the English edition's verified QR destination.
 authorsEn.push(require('./grg001-author-20261010.cjs'));
+// HDH_001: approved English QR author page and forthcoming Ingram editions.
+const hdh001 = require('./hdh001-en-20261012.json');
+const greenRef = englishBooks.find(book => book.series === 'gruen');
+const escapeHdh = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const hdhHead = hdh001.author_page.kopfzeilen.map(line => `<p>${escapeHdh(line)}</p>`).join('');
+const hdhBody = hdh001.author_page.text_absaetze.map(line => `<p>${escapeHdh(line)}</p>`).join('');
+authorsEn.push({
+  slug: hdh001.author_slug,
+  name: hdh001.author_page.name,
+  dates: '1847–1924',
+  eyebrow: 'GREEN SERIES · AETERNUS',
+  tagline: hdh001.author_page.kopfzeilen[4],
+  intro: hdh001.author_page.text_absaetze[0],
+  metaDescription: hdh001.author_page.meta_description_vorschlag,
+  portrait: { modern: false },
+  brandOnly: true,
+  publisherAuthorHTML: hdhHead + hdhBody,
+  publisherAuthorSource: 'HDH_001/04_PARATEXT/PARATEXT_V8/08_ABOUT_THE_AUTHOR'
+});
+englishBooks.push({
+  ...hdh001.book,
+  coverWebp: '/assets/images/cover-hdh001-en-ingram-v4-20261012.webp',
+  seriesName: greenRef.seriesName,
+  seriesColor: greenRef.seriesColor,
+  press_quote: hdh001.press_quote,
+  cardStatus: hdh001.author_page_card.status_vor_dem_einreichen,
+  pageStatus: 'Coming soon'
+});
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
