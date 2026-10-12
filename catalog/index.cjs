@@ -129,6 +129,20 @@ englishBooks.push({
   cardStatus: 'Submitted to IngramSpark; eProof pending.',
   forthcoming_label: 'Submitted to IngramSpark; eProof pending.'
 });
+// Publisher 12 October: replace the earlier Haggard web editions and show Live.
+const haggardRecords = require('./haggard-en-20261012.json');
+for (let i = englishBooks.length - 1; i >= 0; i--) {
+  if (englishBooks[i].author === 'henry-rider-haggard') englishBooks.splice(i, 1);
+}
+englishBooks.push(...haggardRecords.map(r => ({ ...r.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor })));
+const haggardAuthor = authorsEn.find(a => a.slug === 'henry-rider-haggard');
+Object.assign(haggardAuthor, {
+  brand: 'AETERNUS', eyebrow: 'AMBER SERIES · AETERNUS', preview: false,
+  previewStatus: '', facts: [['Series', 'AMBER SERIES'], ['Editions', 'Five English editions'], ['Formats', 'Paperback · Hardcover · E-Book'], ['Status', 'Live']],
+  worksTitle: 'Five journeys beyond the known world', worksIntro: '',
+  metaDescription: 'H. Rider Haggard at AETERNUS: King Solomon’s Mines, Allan Quatermain, Nada the Lily, She and Ayesha in five English editions.',
+  publisherEditionHTML: haggardRecords.map(r => r.author_page_edition_block_html || '').join('')
+});
 // JJH_001: existing live KDP titles; publisher-approved V8 edition details.
 const hill = require('./jjh001-en-20261012.json');
 const hillBook = englishBooks.find(book => book.author === 'james-j-hill');
