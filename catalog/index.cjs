@@ -101,7 +101,7 @@ authorsEn.push(naj001.author);
 englishBooks.unshift(naj001.book);
 // GRG_001 author page is the English edition's verified QR destination.
 authorsEn.push(require('./grg001-author-20261010.cjs'));
-// HDH_001: approved English QR author page and forthcoming Ingram editions.
+// HDH_001: approved English QR author page and submitted Ingram editions.
 const hdh001 = require('./hdh001-en-20261012.json');
 const greenRef = englishBooks.find(book => book.series === 'gruen');
 const escapeHdh = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -126,8 +126,8 @@ englishBooks.push({
   seriesName: greenRef.seriesName,
   seriesColor: greenRef.seriesColor,
   press_quote: hdh001.press_quote,
-  cardStatus: hdh001.author_page_card.status_vor_dem_einreichen,
-  forthcoming_label: 'Coming soon'
+  cardStatus: 'Submitted to IngramSpark; eProof pending.',
+  forthcoming_label: 'Submitted to IngramSpark; eProof pending.'
 });
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
