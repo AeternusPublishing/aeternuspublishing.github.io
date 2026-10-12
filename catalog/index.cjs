@@ -77,6 +77,13 @@ englishBooks.push(eta001.book);
 const tr002 = require('./tr002-en-20261008.json');
 authorsEn.push(tr002.author);
 englishBooks.unshift(tr002.book);
+// TR_004: approved English hardcover, submitted to Ingram; eProof pending.
+englishBooks.unshift(require('./tr004-en-20261012.json'));
+Object.assign(authorsEn.find(a => a.slug === 'theodore-roosevelt'), {
+  eyebrow: 'ANTHRACITE & GREEN SERIES · AETERNUS',
+  intro: 'The author of The Rough Riders and Through the Brazilian Wilderness: soldier, naturalist and explorer.',
+  metaDescription: 'Theodore Roosevelt: The Rough Riders and Through the Brazilian Wilderness, in annotated English AETERNUS editions.'
+});
 // NAJ_001 V8: publisher-approved author and book pages; print editions forthcoming.
 const naj001 = require('./naj001-en-20261009.cjs');
 authorsEn.push(naj001.author);
