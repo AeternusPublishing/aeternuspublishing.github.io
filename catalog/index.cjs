@@ -129,6 +129,19 @@ englishBooks.push({
   cardStatus: 'Submitted to IngramSpark; eProof pending.',
   forthcoming_label: 'Submitted to IngramSpark; eProof pending.'
 });
+// JJH_001: existing live KDP titles; publisher-approved V8 edition details.
+const hill = require('./jjh001-en-20261012.json');
+const hillBook = englishBooks.find(book => book.author === 'james-j-hill');
+Object.assign(hillBook, {
+  work_id: hill.work_id, availability: 'AVAILABLE',
+  retailer_formats: hill.formats, publisherDescriptionHTML: hill.description_html,
+  links: { ...hillBook.links, amazon: hill.formats[0].links[0].url },
+  distribution_status: { ...hillBook.distribution_status, amazon: 'LIVE' }
+});
+hillBook.legacy = { ...hillBook.legacy, modal: { ...hillBook.legacy.modal, metadata: 'AETERNUS · Blue Series · 310 print pages', status: 'Available in paperback, hardcover and Kindle' } };
+const hillAuthor = authorsEn.find(author => author.slug === 'james-j-hill');
+hillAuthor.publisherEditionHTML = '<h2>Highways of Progress</h2><div class="actions">' + hill.formats.map(format => `<a class="button ink-button" href="${format.links[0].url}" target="_blank" rel="noopener noreferrer">${format.label} on Amazon</a>`).join('') + '</div><p>Print edition · 310 pages</p>' + hill.description_html;
+
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
