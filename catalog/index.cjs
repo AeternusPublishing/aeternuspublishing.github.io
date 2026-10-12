@@ -90,6 +90,9 @@ authorsEn.push(eta001.author);
 englishBooks.push(eta001.book);
 // Explicitly authorized English announcement; no retail availability claimed.
 const tr002 = require('./tr002-en-20261008.json');
+const cvft001 = require('./cvft001-en-20261012.json');
+authorsEn.push(cvft001.author);
+englishBooks.unshift(cvft001.book);
 authorsEn.push(tr002.author);
 englishBooks.unshift(tr002.book);
 // NAJ_001 V8: publisher-approved author and book pages; print editions forthcoming.
@@ -124,7 +127,7 @@ englishBooks.push({
   seriesColor: greenRef.seriesColor,
   press_quote: hdh001.press_quote,
   cardStatus: hdh001.author_page_card.status_vor_dem_einreichen,
-  pageStatus: 'Coming soon'
+  forthcoming_label: 'Coming soon'
 });
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
