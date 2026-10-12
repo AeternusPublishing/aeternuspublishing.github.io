@@ -1,0 +1,131 @@
+{
+ "schema": "AETERNUS_WEBSEITE_TEXTE_HDH001_EN_V1",
+ "muster": "Gruene Reihe EN im Website-Bestand: Autorenseite und Buchseite von George Robert Gleig (GRG_001)",
+ "author_slug": "henry-doveton-hutchinson",
+ "author_url": "https://aeternuspublishing.com/authors/henry-doveton-hutchinson/",
+ "author_url_note": "The slug is fixed: the QR code on the last page of the printed book points here. Do not change it and do not redirect it elsewhere.",
+ "book": {
+  "id": "en-henry-doveton-hutchinson-the-campaign-in-tirah",
+  "work_id": "HDH_001",
+  "language": "en",
+  "title": "The Campaign in Tirah, 1897–1898",
+  "subtitle": "An Account of the Expedition against the Orakzais and Afridis under General Sir William Lockhart",
+  "author": "henry-doveton-hutchinson",
+  "authorName": "Henry Doveton Hutchinson",
+  "contributors": [],
+  "series": "gruen",
+  "series_number": null,
+  "original_publication_year": 1898,
+  "isbn": {
+   "paperback": "978-3-67605-178-1",
+   "hardcover": "978-3-67605-179-8"
+  },
+  "formats": {},
+  "description": {
+   "short": "One of the great contemporary military narratives of the Victorian North-West Frontier.",
+   "long": "One of the great contemporary military narratives of the Victorian North-West Frontier.\n\nIn 1897 a major rising spread across India’s frontier. Afridi and Orakzai fighters seized positions in the Khyber and challenged British authority throughout the mountain districts.\n\nThe answer was the Tirah Expeditionary Force under General Sir William S. A. Lockhart: more than thirty thousand British and Indian troops supported by cavalry, mountain artillery, Gurkhas, Sikh regiments, Punjabi infantry, pioneers, engineers, hospitals and an immense transport organisation.\n\nTheir campaign produced one of the most celebrated infantry actions of the Victorian Army—the storming of the Dargai Heights—but Tirah was far more than Dargai. Hutchinson follows the forcing of the mountain passes, operations in the Maidan and Mastura valleys, convoy and rear-guard fighting, severe winter marches and the tactical and logistical problems of keeping a large army alive in hostile high country.\n\nAt Dargai alone four Victoria Crosses were won.\n\nOriginally written from Hutchinson’s contemporary letters to The Times, the book was praised by Nature for the author’s unusual ability to extract professional military lessons from the campaign. Hutchinson was not merely an observer: he was an Indian Army officer and Director of Military Education in India."
+  },
+  "cover": "/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg",
+  "publication_date": null,
+  "pricing": {},
+  "availability": "COMING_SOON",
+  "links": {
+   "shop": null,
+   "amazon": null,
+   "ingram": null
+  },
+  "distribution_status": {
+   "amazon": "NOT_BUILT",
+   "ingram": "FREIGEGEBEN",
+   "own_shop": "NOT_CONFIGURED"
+  },
+  "commerce": {
+   "shopify_product_id": null,
+   "shopify_handle": null
+  },
+  "url": "/books/en-henry-doveton-hutchinson-the-campaign-in-tirah/",
+  "authorUrl": "/authors/henry-doveton-hutchinson/",
+  "legacy": {
+   "modal": {
+    "sample": "One of the great contemporary military narratives of the Victorian North-West Frontier.\n\nIn 1897 a major rising spread across India’s frontier. Afridi and Orakzai fighters seized positions in the Khyber and challenged British authority throughout the mountain districts.\n\nThe answer was the Tirah Expeditionary Force under General Sir William S. A. Lockhart: more than thirty thousand British and Indian troops supported by cavalry, mountain artillery, Gurkhas, Sikh regiments, Punjabi infantry, pioneers, engineers, hospitals and an immense transport organisation.\n\nTheir campaign produced one of the most celebrated infantry actions of the Victorian Army—the storming of the Dargai Heights—but Tirah was far more than Dargai. Hutchinson follows the forcing of the mountain passes, operations in the Maidan and Mastura valleys, convoy and rear-guard fighting, severe winter marches and the tactical and logistical problems of keeping a large army alive in hostile high country.\n\nAt Dargai alone four Victoria Crosses were won.\n\nOriginally written from Hutchinson’s contemporary letters to The Times, the book was praised by Nature for the author’s unusual ability to extract professional military lessons from the campaign. Hutchinson was not merely an observer: he was an Indian Army officer and Director of Military Education in India.",
+    "metadata": "GREEN SERIES annotated edition: the complete text of the first edition (London, Macmillan and Co., 1898), word for word, with its illustrations and maps and a publisher’s apparatus."
+   }
+  },
+  "provenance": "HDH_001/04_PARATEXT/PARATEXT_V8 (Abschnitte 22, 08) + 07_EXPORT/UPLOADPAKET_INGRAM_V4_20261012",
+  "retailer_formats": [
+   {
+    "label": "Paperback",
+    "isbn": "978-3-67605-178-1",
+    "pages": 284,
+    "links": [],
+    "status": "FREIGEGEBEN"
+   },
+   {
+    "label": "Hardcover",
+    "isbn": "978-3-67605-179-8",
+    "pages": 284,
+    "links": [],
+    "status": "FREIGEGEBEN"
+   }
+  ],
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1898 first edition, word for word</li><li>Twenty illustrations, reconstructed from the plates of 1898</li><li>Seven original plans of the actions at Dargai and in the passes</li><li>Publisher’s foreword and afterword, author and commander profiles</li><li>Order of battle, the Dargai Victoria Crosses and the India Medal</li><li>Historical timeline, glossary and note on this edition</li></ul><p><i>Best qualified to gather instructive morals from the object-lessons of the campaign.</i> Nature, 2 February 1899</p><p>One of the great contemporary military narratives of the Victorian North-West Frontier.</p><p>In 1897 a major rising spread across India’s frontier. Afridi and Orakzai fighters seized positions in the Khyber and challenged British authority throughout the mountain districts.</p><p>The answer was the Tirah Expeditionary Force under General Sir William S. A. Lockhart: more than thirty thousand British and Indian troops supported by cavalry, mountain artillery, Gurkhas, Sikh regiments, Punjabi infantry, pioneers, engineers, hospitals and an immense transport organisation.</p><p>Their campaign produced one of the most celebrated infantry actions of the Victorian Army—the storming of the Dargai Heights—but Tirah was far more than Dargai. Hutchinson follows the forcing of the mountain passes, operations in the Maidan and Mastura valleys, convoy and rear-guard fighting, severe winter marches and the tactical and logistical problems of keeping a large army alive in hostile high country.</p><p>At Dargai alone four Victoria Crosses were won.</p><p>Originally written from Hutchinson’s contemporary letters to The Times, the book was praised by Nature for the author’s unusual ability to extract professional military lessons from the campaign. Hutchinson was not merely an observer: he was an Indian Army officer and Director of Military Education in India.</p><p>GREEN SERIES · AETERNUS</p>",
+  "original_title": "The Campaign in Tirah, 1897–1898"
+ },
+ "press_quote": {
+  "text": "Best qualified to gather instructive morals from the object-lessons of the campaign.",
+  "source": "Nature, 2 February 1899"
+ },
+ "author_page": {
+  "neu": true,
+  "name": "Henry Doveton Hutchinson",
+  "kopfzeilen": [
+   "LIEUTENANT-GENERAL HENRY DOVETON HUTCHINSON",
+   "Companion of the Order of the Star of India",
+   "Born 13 September 1847 · baptised at Dinapore, Bengal",
+   "Died 21 November 1924, Kensington, London",
+   "Soldier · Military Educator · Historian"
+  ],
+  "text_absaetze": [
+   "Henry Doveton Hutchinson belonged to a generation for whom soldiering and the professional study of soldiering were not separate occupations.",
+   "Born on 13 September 1847, he entered the Indian military service and developed a career that combined regimental duty, active operations, military education and writing. He served in the Sikkim operations of 1887–88, during the Relief of Chitral in 1895 and in the Tirah campaign of 1897–98. He raised the 2nd Battalion, 3rd Gurkha Rifles in 1891 and later commanded troops in Chitral. From 1896 to 1901 he served as Director of Military Education in India. His later career included duty at the India Office, appointment as Assistant Military Secretary for Indian affairs and service as Director of Staff Duties at the War Office. He eventually retired as a Lieutenant-General and was appointed Companion of the Order of the Star of India.",
+   "At the time The Campaign in Tirah appeared in 1898, Hutchinson was a Colonel.",
+   "That contemporary rank matters because the book belongs to the middle of his professional life rather than its retrospective end. He was writing not as an elderly memoirist recalling a vanished army, but as an officer still actively engaged in the business of military education.",
+   "His bibliography reveals the range of that interest. He wrote upon military sketching, field fortification, Waterloo, Corunna and other campaigns, and later produced regimental history. His concern was consistently practical: how armies understood ground, how men were instructed, how tactical lessons were extracted from experience and how military knowledge might be transmitted before another campaign forced the same lessons to be purchased again.",
+   "The Tirah volume occupies a special position within that work.",
+   "Its foundations were contemporary.",
+   "Hutchinson had contributed letters to The Times while impressions remained fresh and then enlarged the material for book publication with subsequent information. He deliberately avoided converting his introduction into a partisan treatise on frontier policy; instead he sought to provide the general reader sufficient facts to understand the origin of the conflict and then concentrated upon the conduct of the campaign itself.",
+   "That professional restraint remains one of the strengths of the book.",
+   "Hutchinson is interested in bravery, but also in why an attack succeeded.",
+   "He is interested in a regiment, but also in what stood beside it.",
+   "He sees a pass as terrain rather than scenery.",
+   "He treats transport as a fighting necessity.",
+   "The result is a campaign history written by an officer who believed that military experience was wasted unless somebody learned from it.",
+   "Hutchinson died on 21 November 1924.",
+   "By then the Army he had known had passed through the South African War and the immense transformation of 1914–18.",
+   "The lesson beneath his work nevertheless remained intact:",
+   "an army that does not study yesterday may be forced to learn it again tomorrow."
+  ],
+  "bildnis": null,
+  "bildnis_hinweis": "Kein Bildnis des Autors belegt (Verleger 11.10.2026). Seite ohne Portraet anlegen; der Ordner 03_IMAGES/EINGANG_AUS_GA001_PORTRAET_LINK_20261012 ist eine Rekonstruktion ohne Verlegerwort und wird nicht verwendet.",
+  "meta_description_vorschlag": "Henry Doveton Hutchinson (1847–1924), soldier, military educator and historian. The Campaign in Tirah, 1897–1898 in the AETERNUS Green Series."
+ },
+ "author_page_card": {
+  "series": "GREEN",
+  "author": "Henry Doveton Hutchinson",
+  "title": "The Campaign in Tirah, 1897–1898",
+  "text": "One of the great contemporary military narratives of the Victorian North-West Frontier.",
+  "status_vor_dem_einreichen": "Forthcoming",
+  "status_nach_dem_einreichen": "Submitted to IngramSpark; eProof pending.",
+  "link": "/books/en-henry-doveton-hutchinson-the-campaign-in-tirah/"
+ },
+ "regeln": [
+  "Only AETERNUS as the brand, only aeternuspublishing.com (Anglo-Marke).",
+  "No prices and no purchase links until IngramSpark reports the title live.",
+  "Status forthcoming / coming soon; after Submit the card line reads: Submitted to IngramSpark; eProof pending."
+ ],
+ "bilder": {
+  "backcover-hdh001-en-ingram-v4-20261012.jpg": "733e49317671e61ab5612cfedc5cf3b4f5962caa4f0df31a86855e0788d3932e",
+  "cover-hdh001-en-ingram-v4-20261012.jpg": "8d0fa574565a752d9c1bdc87fd0363eb02e5e2ed3923d58736aecc9097952837",
+  "cover-hdh001-en-ingram-v4-20261012.webp": "4dc08f3fe91456ccdffd9a97df02dcc04d923886656661a2c04b8dfa1970cf51"
+ }
+}
