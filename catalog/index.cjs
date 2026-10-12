@@ -101,6 +101,8 @@ authorsEn.push(naj001.author);
 englishBooks.unshift(naj001.book);
 // GRG_001 author page is the English edition's verified QR destination.
 authorsEn.push(require('./grg001-author-20261010.cjs'));
+authorsEn.find(author => author.slug === 'george-robert-gleig').hideEditions = false;
+englishBooks.unshift(require('./grg001-en-20261012.json'));
 // HDH_001: approved English QR author page and submitted Ingram editions.
 const hdh001 = require('./hdh001-en-20261012.json');
 const greenRef = englishBooks.find(book => book.series === 'gruen');
