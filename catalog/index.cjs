@@ -65,6 +65,21 @@ doyle.publisherEditionHTML = doyle.publisherEditionHTML.replace(
   '<p>Forthcoming, in three volumes</p><p>Doyle’s historical romance of 1891, in the Amber Series.</p>',
   '<p>Three illustrated volumes submitted to IngramSpark. Paperback and hardcover eProofs are pending; retail availability will follow after review.</p><p>Doyle’s historical romance of 1891 follows the company from Beaulieu through France to the Castilian campaign.</p>'
 );
+// ACD_003 English Ingram V3: submitted 12 October 2026; retail remains forthcoming.
+const sirNigel = require('./acd003-en-20261012.json');
+const nigelBook = {
+  ...sirNigel.book,
+  coverWebp: '/assets/images/cover-acd003-en-ingram-v2-20261011.webp',
+  seriesName: amberRef.seriesName,
+  seriesColor: amberRef.seriesColor,
+  distribution_status: { ...sirNigel.book.distribution_status, ingram: 'EINGEREICHT' },
+  retailer_formats: sirNigel.book.retailer_formats.map(format => ({ ...format, status: 'EINGEREICHT' })),
+  cardStatus: sirNigel.author_page_card.status_nach_dem_einreichen
+};
+englishBooks.push(nigelBook);
+doyle.intro = sirNigel.author_page_intro_vorschlag;
+doyle.metaDescription = sirNigel.author_page_meta_description_vorschlag;
+doyle.publisherEditionHTML += sirNigel.author_page_edition_block_html.replace('<p>Forthcoming</p>', '<p>Submitted to IngramSpark; eProof pending.</p>');
 // COO author page (QR target of The Deerslayer, Part One and Part Two); register status GEBAUT, no prices, no retail links.
 const coo001 = require('./coo001-en-20261008.json');
 authorsEn.push(coo001.author);
