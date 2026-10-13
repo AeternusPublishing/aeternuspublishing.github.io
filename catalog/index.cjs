@@ -7,7 +7,14 @@ const german = require('./legacy/catalogue-de.cjs');
 const commerce = require('../commerce/markets.json');
 const clean = value => String(value || '').replace(/<[^>]*>/g, '').replace(/&middot;/g, '·').replace(/&amp;/g, '&').replace(/&ndash;/g, '–').replace(/&mdash;/g, '—').replace(/&nbsp;/g, ' ').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').trim();
 const slug = value => clean(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const series = programme.seriesItems.map(s => ({ id: s.slug, name: s.colorName, label: s.label, color: s.colorHex, mood: s.mood, description: s.desc || s.description || {}, authors: s.authors.map(a => a.slug || a.landingUrl?.de?.split('/')[2]).filter(Boolean) }));
+const collectionModel = require('./collections.cjs');
+const series = programme.seriesItems.map(s => ({
+  id: s.slug,
+  name: s.colorName,
+  label: s.label,
+  color: s.colorHex, mood: s.mood, description: s.desc || s.description || {},
+  authors: s.authors.map(a => a.slug || a.landingUrl?.de?.split('/')[2]).filter(Boolean)
+}));
 // Explicit migration manifest: page language is NOT edition language. English
 // author pages also advertise German editions. Those are deliberately excluded.
 const englishAuthors = new Set(['ernest-thompson-seton', 'robert-montgomery-bird', 'george-washington-sears', 'francis-parkman', 'james-hall', 'daniel-carter-beard', 'henry-rider-haggard', 'richard-jefferies', 'charles-brockden-brown', 'james-b-gillett', 'james-j-hill', 'francis-younghusband', 'robert-louis-stevenson', 'joshua-duke', 'charles-william-wilson', 'grey-owl']);
@@ -158,9 +165,11 @@ hillBook.legacy = { ...hillBook.legacy, modal: { ...hillBook.legacy.modal, metad
 const hillAuthor = authorsEn.find(author => author.slug === 'james-j-hill');
 hillAuthor.publisherEditionHTML = '<h2>Highways of Progress</h2><div class="actions">' + hill.formats.map(format => `<a class="button ink-button" href="${format.links[0].url}" target="_blank" rel="noopener noreferrer">${format.label} on Amazon</a>`).join('') + '</div><p>Print edition · 310 pages</p>' + hill.description_html;
 
+const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
+
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
   return `https://${domain}/products/${book.commerce.shopify_handle}`;
 }
-module.exports = { programme, authorsDe, authorsEn, german, series, englishBooks, clean, directShopUrl };
+module.exports = { programme, authorsDe, authorsEn, german, series, collectionArchitecture, englishBooks, clean, directShopUrl };
