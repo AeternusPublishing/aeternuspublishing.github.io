@@ -1,0 +1,18 @@
+---
+layout: editorial-base.njk
+lang: de
+collectionPage: true
+pagination:
+  data: editionCollections.publicCollections
+  size: 1
+  alias: collection
+  addAllPagesToCollections: true
+permalink: "{{ collection.url }}index.html"
+eleventyComputed:
+  title: "{{ collection.title | safe }} · Grüne Reihe · AETERNUS Verlag"
+  description: "{{ collection.intro | safe }}"
+---
+<main id="main"><div class="collection-hero"><div class="shell collection-hero-inner"><nav class="collection-crumbs" aria-label="Brotkrumennavigation"><a href="/sammlungen/gruen/">Grüne Reihe</a><span aria-hidden="true">/</span><span>{{ collection.title }}</span></nav><p class="kicker light-kicker">AETERNUS · Die Grüne Reihe</p><h1>{{ collection.title }}</h1><p>{{ collection.intro }}</p></div></div>
+{% if collection.published.length %}<section class="shell collection-section"><div class="collection-section-head"><p class="kicker">Im Programm</p><h2>Veröffentlichte Ausgaben.</h2></div><div class="collection-edition-list">{% for item in collection.published %}{% include 'collection-edition.njk' %}{% endfor %}</div></section>{% endif %}
+{% if collection.forthcoming.length %}<section class="collection-paper"><div class="shell collection-section"><div class="collection-section-head"><p class="kicker">Vorschau</p><h2>Ausgaben in Vorbereitung.</h2><p>Diese Ausgaben sind angekündigt. Die jeweilige Buchseite nennt den Stand der verfügbaren Formate.</p></div><div class="collection-edition-list">{% for item in collection.forthcoming %}{% include 'collection-edition.njk' %}{% endfor %}</div></div></section>{% endif %}
+<nav class="shell collection-section collection-endnav" aria-label="Sammlungsnavigation"><a class="text-link" href="/sammlungen/gruen/">← Alle Sammlungen der Grünen Reihe</a><a class="text-link" href="{{ collection.englishUrl }}" lang="en">This collection in English ↗</a></nav></main>

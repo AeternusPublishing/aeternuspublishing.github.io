@@ -14,7 +14,7 @@ eleventyComputed:
 ---
 <main id="main">
   <div class="shell breadcrumb"><a href="/">Startseite</a><span>/</span><a href="/buecher/">Bücher</a><span>/</span><span>{{ book.title }}</span></div>
-  <section class="shell book-detail">
+{% set assignment = editionCollections.bookAssignments[book.id] %}{% if assignment.collectionUrl %}<p class="shell edition-note"><a class="text-link" href="{{ assignment.collectionUrl }}">{{ assignment.collectionTitle }} →</a></p>{% endif %}  <section class="shell book-detail">
     <div class="detail-art"><picture><source type="image/avif" srcset="/assets/editorial/{{ book.cover }}-720.avif"><source type="image/webp" srcset="/assets/editorial/{{ book.cover }}-720.webp"><img src="/assets/images/{{ book.cover }}-fallback.jpg" alt="Umschlag: {{ book.title }}" width="400" height="600" fetchpriority="high"></picture><p>{{ book.seriesName }} · AETERNUS</p></div>
     <div class="detail-copy"><p class="kicker"><span class="series-dot" style="--series-color:{{ book.seriesColor }}"></span><a href="/reihen/{{ book.series }}/">Reihe {{ book.seriesName }}</a></p><a class="detail-author" href="{{ book.authorUrl }}">{{ book.author }}</a><h1>{{ book.title }}</h1>{% if book.subtitle %}<p class="detail-subtitle">{{ book.subtitle }}</p>{% endif %}<p class="detail-description">{{ book.description }}</p>
       {% if book.pending %}<p class="availability">Demnächst erhältlich · Bestellmöglichkeiten folgen.</p>{% endif %}

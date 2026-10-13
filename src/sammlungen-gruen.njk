@@ -1,0 +1,18 @@
+---
+layout: editorial-base.njk
+lang: de
+collectionPage: true
+title: Sammlungen der Grünen Reihe · AETERNUS Verlag
+description: Militärgeschichte, Expeditionen und Grenzräume – die Sammlungen und Ausgaben der Grünen Reihe.
+permalink: /sammlungen/gruen/index.html
+---
+<main id="main">
+<div class="collection-hero"><div class="shell collection-hero-inner"><p class="kicker light-kicker">AETERNUS · Die Grüne Reihe</p><h1>Sammlungen der Grünen Reihe</h1><p class="collection-subtitle">Militär, Expeditionen und Grenzräume</p><p>Verwandte Werke zusammen entdecken: Feldzüge, militärische Erinnerungen, Expeditionen und das Leben in Grenzräumen. Bei jeder Ausgabe sind Sprache und Veröffentlichungsstand angegeben.</p><a class="collection-hero-link" href="/reihen/gruen/">Zum gesamten Programm der Grünen Reihe →</a></div></div>
+<section class="shell collection-section"><div class="collection-section-head"><p class="kicker">Innerhalb der Reihe</p><h2>Sammlungen entdecken</h2></div><div class="collection-grid">
+{% for collection in editionCollections.publicCollections %}<article class="collection-panel"><h3>{{ collection.title }}</h3><p>{{ collection.intro }}</p><a class="text-link" href="{{ collection.url }}">Zur Sammlung →</a></article>{% endfor %}
+</div></section>
+<section class="collection-paper"><div class="shell collection-section"><div class="collection-section-head"><p class="kicker">Bereits veröffentlicht</p><h2>Ausgaben entdecken.</h2></div><div class="collection-edition-list">
+{% for collection in editionCollections.publicCollections %}{% for item in collection.published %}{% include 'collection-edition.njk' %}{% endfor %}{% endfor %}
+</div></div></section>
+<nav class="shell collection-section collection-endnav" aria-label="Sammlungsnavigation"><a class="text-link" href="/reihen/gruen/">Alle Werke der Grünen Reihe →</a><a class="text-link" href="https://aeternuspublishing.com/collections/green-series/" lang="en">Collections in English ↗</a></nav>
+</main>
