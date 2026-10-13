@@ -1,0 +1,94 @@
+{
+  "sourceCommit": "f107342996f392b325c9bb15b0916dc8ae5a5b6e",
+  "checked": "2026-10-13",
+  "books": [
+    {
+      "id": "en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
+      "title": "Sale’s Brigade in Afghanistan (Illustrated)",
+      "author": "George Robert Gleig",
+      "url": "https://aeternuspublishing.com/books/en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated/",
+      "publicationStatus": "forthcoming",
+      "collection": "british-empire"
+    },
+    {
+      "id": "en-napoleon-augustus-jennings-a-texas-ranger-annotated",
+      "title": "A Texas Ranger",
+      "author": "Napoleon Augustus Jennings",
+      "url": "https://aeternuspublishing.com/books/en-napoleon-augustus-jennings-a-texas-ranger-annotated/",
+      "publicationStatus": "forthcoming",
+      "collection": "american-frontier-rangers"
+    },
+    {
+      "id": "en-theodore-roosevelt-the-rough-riders-annotated",
+      "title": "The Rough Riders (Annotated)",
+      "author": "Theodore Roosevelt",
+      "url": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-rough-riders-annotated/",
+      "publicationStatus": "forthcoming",
+      "collection": "american-military-history"
+    },
+    {
+      "id": "en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated",
+      "title": "My Campaign in Mesopotamia (Annotated)",
+      "author": "Charles Vere Ferrers Townshend",
+      "url": "https://aeternuspublishing.com/books/en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated/",
+      "publicationStatus": "forthcoming",
+      "collection": "british-empire"
+    },
+    {
+      "id": "en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "title": "Six Years with the Texas Rangers (Illustrated)",
+      "author": "James B. Gillett",
+      "url": "https://aeternuspublishing.com/books/en-james-b-gillett-six-years-with-the-texas-rangers-illustrated/",
+      "publicationStatus": "published",
+      "collection": "american-frontier-rangers"
+    },
+    {
+      "id": "en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "title": "The Epic of Mount Everest (Illustrated)",
+      "author": "Sir Francis Younghusband",
+      "url": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/",
+      "publicationStatus": "forthcoming",
+      "collection": "exploration-frontier-worlds"
+    },
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880",
+      "author": "Joshua Duke",
+      "url": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/",
+      "publicationStatus": "forthcoming",
+      "collection": "british-empire"
+    },
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+      "author": "Joshua Duke",
+      "url": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/",
+      "publicationStatus": "forthcoming",
+      "collection": "british-empire"
+    },
+    {
+      "id": "en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "title": "From Korti to Khartum (Illustrated)",
+      "author": "Sir Charles William Wilson",
+      "url": "https://aeternuspublishing.com/books/en-charles-william-wilson-from-korti-to-khartum-illustrated/",
+      "publicationStatus": "forthcoming",
+      "collection": "british-empire"
+    },
+    {
+      "id": "en-grey-owl-the-men-of-the-last-frontier",
+      "title": "The Men of the Last Frontier",
+      "author": "Grey Owl",
+      "url": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/",
+      "publicationStatus": "forthcoming",
+      "collection": "exploration-frontier-worlds"
+    },
+    {
+      "id": "en-henry-doveton-hutchinson-the-campaign-in-tirah",
+      "title": "The Campaign in Tirah, 1897–1898",
+      "author": "Henry Doveton Hutchinson",
+      "url": "https://aeternuspublishing.com/books/en-henry-doveton-hutchinson-the-campaign-in-tirah/",
+      "publicationStatus": "forthcoming",
+      "collection": "british-empire"
+    }
+  ]
+}

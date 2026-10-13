@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/assets/css/history.css?v=20261010-chronology">
   {% if whiteCompanyPage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/autoren/arthur-conan-doyle/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/authors/arthur-conan-doyle/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/authors/arthur-conan-doyle/"><link rel="stylesheet" href="/assets/css/white-company.css">{% endif %}
   {% if hutchinsonPage %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/autoren/henry-doveton-hutchinson/"><link rel="alternate" hreflang="en" href="https://aeternuspublishing.com/authors/henry-doveton-hutchinson/"><link rel="alternate" hreflang="x-default" href="https://aeternuspublishing.com/authors/henry-doveton-hutchinson/"><link rel="stylesheet" href="/assets/css/white-company.css">{% endif %}
-  <meta name="theme-color" content="#182522">
+{% if collectionPage %}<link rel="stylesheet" href="/assets/css/green-collections.css">{% endif %}  <meta name="theme-color" content="#182522">
   <link rel="canonical" href="{% if whiteCompanyPage and lang == 'en' %}https://aeternuspublishing.com/authors/arthur-conan-doyle/{% else %}https://aeternus-verlag.de{{ page.url }}{% endif %}">
   {% if hreflang %}<link rel="alternate" hreflang="de" href="https://aeternus-verlag.de/"><link rel="alternate" hreflang="en" href="https://aeternus-verlag.de/en/"><link rel="alternate" hreflang="x-default" href="https://aeternus-verlag.de/">{% endif %}
   <meta property="og:type" content="{% if book %}book{% else %}website{% endif %}">
