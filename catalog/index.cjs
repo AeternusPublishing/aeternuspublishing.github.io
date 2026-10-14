@@ -100,6 +100,10 @@ const tr002 = require('./tr002-en-20261008.json');
 const cvft001 = require('./cvft001-en-20261012.json');
 authorsEn.push(cvft001.author);
 englishBooks.unshift(cvft001.book);
+// GA_001: the printed author text and three unreleased hardcover volumes.
+const ga001 = require('./ga001-en-20261014.cjs');
+authorsEn.push(ga001.author);
+englishBooks.unshift(...ga001.books);
 authorsEn.push(tr002.author);
 englishBooks.unshift(tr002.book);
 // NAJ_001 V8: publisher-approved author and book pages; print editions forthcoming.
