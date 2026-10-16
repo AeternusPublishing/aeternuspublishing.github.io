@@ -7,7 +7,14 @@ const german = require('./legacy/catalogue-de.cjs');
 const commerce = require('../commerce/markets.json');
 const clean = value => String(value || '').replace(/<[^>]*>/g, '').replace(/&middot;/g, '·').replace(/&amp;/g, '&').replace(/&ndash;/g, '–').replace(/&mdash;/g, '—').replace(/&nbsp;/g, ' ').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"').trim();
 const slug = value => clean(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const series = programme.seriesItems.map(s => ({ id: s.slug, name: s.colorName, label: s.label, color: s.colorHex, mood: s.mood, description: s.desc || s.description || {}, authors: s.authors.map(a => a.slug || a.landingUrl?.de?.split('/')[2]).filter(Boolean) }));
+const collectionModel = require('./collections.cjs');
+const series = programme.seriesItems.map(s => ({
+  id: s.slug,
+  name: s.colorName,
+  label: s.label,
+  color: s.colorHex, mood: s.mood, description: s.desc || s.description || {},
+  authors: s.authors.map(a => a.slug || a.landingUrl?.de?.split('/')[2]).filter(Boolean)
+}));
 // Explicit migration manifest: page language is NOT edition language. English
 // author pages also advertise German editions. Those are deliberately excluded.
 const englishAuthors = new Set(['ernest-thompson-seton', 'robert-montgomery-bird', 'george-washington-sears', 'francis-parkman', 'james-hall', 'daniel-carter-beard', 'henry-rider-haggard', 'richard-jefferies', 'charles-brockden-brown', 'james-b-gillett', 'james-j-hill', 'francis-younghusband', 'robert-louis-stevenson', 'joshua-duke', 'charles-william-wilson', 'grey-owl']);
@@ -93,6 +100,10 @@ const tr002 = require('./tr002-en-20261008.json');
 const cvft001 = require('./cvft001-en-20261012.json');
 authorsEn.push(cvft001.author);
 englishBooks.unshift(cvft001.book);
+// GA_001: the printed author text and three unreleased hardcover volumes.
+const ga001 = require('./ga001-en-20261014.cjs');
+authorsEn.push(ga001.author);
+englishBooks.unshift(...ga001.books);
 authorsEn.push(tr002.author);
 englishBooks.unshift(tr002.book);
 // NAJ_001 V8: publisher-approved author and book pages; print editions forthcoming.
@@ -158,9 +169,18 @@ hillBook.legacy = { ...hillBook.legacy, modal: { ...hillBook.legacy.modal, metad
 const hillAuthor = authorsEn.find(author => author.slug === 'james-j-hill');
 hillAuthor.publisherEditionHTML = '<h2>Highways of Progress</h2><div class="actions">' + hill.formats.map(format => `<a class="button ink-button" href="${format.links[0].url}" target="_blank" rel="noopener noreferrer">${format.label} on Amazon</a>`).join('') + '</div><p>Print edition · 310 pages</p>' + hill.description_html;
 
+// FP_005: hash-released Ingram print editions; no retail links before LIVE.
+const fp005 = require('./fp005-en-20261016.json');
+englishBooks.push(fp005);
+const parkmanAuthor = authorsEn.find(author => author.slug === 'francis-parkman');
+parkmanAuthor.brandOnly = true;
+parkmanAuthor.publisherEditionHTML = (parkmanAuthor.publisherEditionHTML || '') + "<h2>The Discovery of the Great West</h2><p>The Text of the First Edition, 1869</p><p>France and England in North America · Part Third</p><p>ANTHRACITE SERIES · AETERNUS</p><p>Forthcoming in paperback and hardcover.</p><blockquote><p>“We should own to having found in this one the charm of a romance.”</p><cite>The Atlantic Monthly, 1870</cite></blockquote><p>Before the wagon roads, before the frontier towns and before the rails, the great western road of New France into the heart of North America ran by water.</p><p>From the St. Lawrence and Great Lakes, French explorers, missionaries, soldiers and traders pushed toward the Illinois country and the Mississippi. At the center of Francis Parkman’s narrative stands René-Robert Cavelier, Sieur de La Salle — visionary, relentless, repeatedly ruined and repeatedly beginning again.</p><p>In 1682 La Salle followed the Mississippi to the Gulf and claimed the river country for Louis XIV. Behind that act stood a still greater conception: forts, trade, alliances and a continental French axis joining Canada to the sea.</p><p>Published in 1869 as Part Third of France and England in North America, The Discovery of the Great West is Parkman at his grandest: documentary history with the breadth and movement of epic adventure.</p><p>This is WESTWARD before the Republic — the continent opening by river.</p><ul><li>Complete text of the first edition of 1869, checked against the page</li><li>Parkman’s notes, preface, introduction and both appendices</li><li>19 paintings by George Catlin of La Salle’s voyages (1847–1848)</li><li>The map of the first edition, from Franquelin’s manuscript map</li><li>Publisher’s foreword, afterword, chronology, glossary; author portrait</li></ul><p>First published: Little, Brown, and Company, Boston, 1869</p><p>Paperback · ISBN 978-3-67605-104-0 · 456 pages · US list price $18.99</p><p>Hardcover · ISBN 978-3-67605-105-7 · 456 pages · US list price $29.99</p>";
+
+const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
+
 function directShopUrl(book, language, settings = commerce) {
   if (!settings.enabled || book.availability !== 'AVAILABLE' || !book.commerce?.shopify_product_id || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(book.commerce?.shopify_handle || '')) return null;
   const domain = settings.domains[language === 'de' ? 'de' : 'en'];
   return `https://${domain}/products/${book.commerce.shopify_handle}`;
 }
-module.exports = { programme, authorsDe, authorsEn, german, series, englishBooks, clean, directShopUrl };
+module.exports = { programme, authorsDe, authorsEn, german, series, collectionArchitecture, englishBooks, clean, directShopUrl };

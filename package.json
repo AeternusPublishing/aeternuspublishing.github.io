@@ -19,6 +19,7 @@
     "build:international": "eleventy --config=eleventy.international.cjs",
     "preview:international": "eleventy --config=eleventy.international.cjs --serve --port=8092",
     "check:international": "node ./node_modules/@11ty/eleventy/cmd.cjs --output=work/de-after --quiet && node scripts/check-international.cjs",
+    "check:green-collections": "node scripts/check-green-collections.cjs",
     "build:international:production": "node scripts/build-international-production.cjs"
   },
   "keywords": [],

@@ -1,0 +1,37 @@
+---
+layout: layout.njk
+lang: en
+collectionPage: true
+pagination:
+  data: site.greenSeries.publicCollections
+  size: 1
+  alias: collection
+  addAllPagesToCollections: true
+permalink: "/collections/green-series/{{ collection.id }}/index.html"
+eleventyComputed:
+  title: "{{ collection.title | safe }}"
+  description: "{{ collection.intro }}"
+---
+<div class="collection-hero"><div class="shell collection-hero-inner">
+  <nav class="collection-crumbs" aria-label="Breadcrumb"><a href="/collections/green-series/">GREEN</a><span aria-hidden="true">/</span><span aria-current="page">{{ collection.title }}</span></nav>
+  <p class="kicker light-kicker">{{ site.greenSeries.series.label.en }}</p><h1>{{ collection.title }}</h1>
+  <p>{{ collection.intro }}</p>
+</div></div>
+{% if collection.publishedGerman.length or collection.publishedBooks.length %}
+<section class="shell international-section" aria-labelledby="collection-published">
+  <div class="collection-section-head"><p class="kicker">On the shelves</p><h2 id="collection-published">Published editions.</h2><p>The original book pages carry current format and retailer details.</p></div>
+  <div class="collection-edition-list">
+    {% for item in collection.publishedGerman %}<article><span class="collection-status">Published · German-language edition</span><h3><a href="{{ item.url }}" lang="de">{{ item.title }}</a></h3><p>{{ item.author }}</p><a class="text-link" href="{{ item.url }}" lang="de">View the edition on aeternus-verlag.de ↗</a></article>{% endfor %}
+    {% for item in collection.publishedBooks %}<article><span class="collection-status">Published · English-language edition</span><h3><a href="{{ item.url }}">{{ item.title }}</a></h3><p>{{ item.authorName }}</p><a class="text-link" href="{{ item.url }}">View the edition →</a></article>{% endfor %}
+  </div>
+</section>
+{% endif %}
+{% if collection.forthcomingBooks.length %}
+<section class="collection-paper" aria-labelledby="collection-forthcoming"><div class="shell international-section">
+  <div class="collection-section-head"><p class="kicker">The developing English list</p><h2 id="collection-forthcoming">Editions in preparation.</h2><p>These are existing edition pages, not a claim of current retail availability. Each page gives the latest status for its own formats.</p></div>
+  <div class="collection-edition-list">
+    {% for item in collection.forthcomingBooks %}<article><span class="collection-status">Forthcoming · English-language edition</span><h3><a href="{{ item.url }}">{{ item.title }}</a></h3><p>{{ item.authorName }}</p><a class="text-link" href="{{ item.url }}">View the edition and status →</a></article>{% endfor %}
+  </div>
+</div></section>
+{% endif %}
+<nav class="shell international-section collection-endnav" aria-label="Collection navigation"><a class="text-link" href="/collections/green-series/">← All Green Series collections</a><a class="text-link" href="/series/gruen/historical-background/">Historical background →</a></nav>
