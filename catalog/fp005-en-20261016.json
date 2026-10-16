@@ -1,0 +1,107 @@
+{
+  "id": "en-francis-parkman-the-discovery-of-the-great-west",
+  "work_id": "FP_005",
+  "language": "en",
+  "title": "The Discovery of the Great West",
+  "subtitle": "The Text of the First Edition, 1869",
+  "author": "francis-parkman",
+  "authorName": "Francis Parkman",
+  "contributors": [],
+  "series": "anthrazit",
+  "series_number": null,
+  "original_title": "The Discovery of the Great West",
+  "original_publication_year": 1869,
+  "isbn": {
+    "paperback": "978-3-67605-104-0",
+    "hardcover": "978-3-67605-105-7"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback",
+      "pages": 456,
+      "price_display": "US list price $18.99"
+    },
+    "hardcover": {
+      "label": "Hardcover",
+      "pages": 456,
+      "price_display": "US list price $29.99"
+    }
+  },
+  "description": {
+    "short": "Before the wagon roads, before the frontier towns and before the rails, the great western road of New France into the heart of North America ran by water.",
+    "long": "Before the wagon roads, before the frontier towns and before the rails, the great western road of New France into the heart of North America ran by water.\n\nFrom the St. Lawrence and Great Lakes, French explorers, missionaries, soldiers and traders pushed toward the Illinois country and the Mississippi. At the center of Francis Parkman’s narrative stands René-Robert Cavelier, Sieur de La Salle — visionary, relentless, repeatedly ruined and repeatedly beginning again.\n\nIn 1682 La Salle followed the Mississippi to the Gulf and claimed the river country for Louis XIV. Behind that act stood a still greater conception: forts, trade, alliances and a continental French axis joining Canada to the sea.\n\nPublished in 1869 as Part Third of France and England in North America, The Discovery of the Great West is Parkman at his grandest: documentary history with the breadth and movement of epic adventure.\n\nThis is WESTWARD before the Republic — the continent opening by river."
+  },
+  "cover": "/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+  "coverWebp": "/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016.webp",
+  "backcover": "/assets/images/back-the-discovery-of-the-great-west-parkman-en-20261016.jpg",
+  "publication_date": null,
+  "pricing": {
+    "USD": null
+  },
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "FREIGEGEBEN",
+    "amazon": "NOT_PLANNED",
+    "own_shop": "NOT_CONFIGURED"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-francis-parkman-the-discovery-of-the-great-west/",
+  "authorUrl": "/authors/francis-parkman/",
+  "seriesName": "ANTHRACITE SERIES",
+  "seriesColor": "#383838",
+  "legacy": {
+    "modal": {
+      "metadata": "France and England in North America · Part Third",
+      "sample": "",
+      "summary": "Before the wagon roads, before the frontier towns and before the rails, the great western road of New France into the heart of North America ran by water."
+    }
+  },
+  "provenance": "FP_005/09_SOCIAL_WEB_EN/WEBSITE_20261016/WEBSEITE_TEXTE.json",
+  "retailer_formats": [
+    {
+      "label": "Paperback",
+      "isbn": "978-3-67605-104-0",
+      "pages": 456,
+      "price_display": "US list price $18.99",
+      "links": []
+    },
+    {
+      "label": "Hardcover",
+      "isbn": "978-3-67605-105-7",
+      "pages": 456,
+      "price_display": "US list price $29.99",
+      "links": []
+    }
+  ],
+  "blurb": [
+    "Before the wagon roads, before the frontier towns and before the rails, the great western road of New France into the heart of North America ran by water.",
+    "From the St. Lawrence and Great Lakes, French explorers, missionaries, soldiers and traders pushed toward the Illinois country and the Mississippi. At the center of Francis Parkman’s narrative stands René-Robert Cavelier, Sieur de La Salle — visionary, relentless, repeatedly ruined and repeatedly beginning again.",
+    "In 1682 La Salle followed the Mississippi to the Gulf and claimed the river country for Louis XIV. Behind that act stood a still greater conception: forts, trade, alliances and a continental French axis joining Canada to the sea.",
+    "Published in 1869 as Part Third of France and England in North America, The Discovery of the Great West is Parkman at his grandest: documentary history with the breadth and movement of epic adventure.",
+    "This is WESTWARD before the Republic — the continent opening by river."
+  ],
+  "press_quote": {
+    "text": "“We should own to having found in this one the charm of a romance.”",
+    "source": "The Atlantic Monthly, 1870"
+  },
+  "first_published": "Little, Brown, and Company, Boston, 1869",
+  "features": [
+    "Complete text of the first edition of 1869, checked against the page",
+    "Parkman’s notes, preface, introduction and both appendices",
+    "19 paintings by George Catlin of La Salle’s voyages (1847–1848)",
+    "The map of the first edition, from Franquelin’s manuscript map",
+    "Publisher’s foreword, afterword, chronology, glossary; author portrait"
+  ],
+  "series_line": "France and England in North America · Part Third",
+  "forthcoming_label": "Forthcoming in paperback and hardcover.",
+  "cardStatus": "Forthcoming in paperback and hardcover.",
+  "brandOnly": true
+}
