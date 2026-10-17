@@ -9,6 +9,7 @@ const definitions = [
     url: `${greenBase}british-empire/`,
     intro: 'First-hand accounts of British campaigns, command and the people caught in the reach of empire.',
     bookIds: [
+      'en-william-robertson-from-private-to-field-marshal',
       'en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated',
       'en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated',
       'en-george-arthur-life-of-lord-kitchener-volume-i',

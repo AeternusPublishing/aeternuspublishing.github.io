@@ -1,0 +1,106 @@
+{
+  "web": {
+    "schema": "AETERNUS_WEBSEITE_TEXTE_WR001_EN_V1",
+    "quelle": "09_EXPORT/UPLOADPAKET_INGRAM_V11_20261017/METADATEN/ingram_paperback.json",
+    "quelle_sha256": "f01a607e59efa3f06df8276a30097622ff9958ee72acbc7399ac347afdfeb39a",
+    "author_slug": "william-robertson",
+    "author_url": "https://aeternuspublishing.com/authors/william-robertson/",
+    "author_url_note": "QR-Ziel des gedruckten Buchs (QR-Zielregister 15.10.2026); antwortete zuletzt 404 (ACC-E871): Autorenseite zuerst anlegen, Slug nicht aendern, nicht umleiten.",
+    "author_name": "William Robertson",
+    "author_name_on_book": "Field-Marshal Sir William Robertson, Bart., G.C.B., G.C.M.G., K.C.V.O., D.S.O.",
+    "author_dates": "1860–1933",
+    "author_page_text": "About the Author aus 05_PARATEXT/WR001_PARATEXT_SATZFASSUNG_V1.json (Felder AUTOR_KOPF, AUTOR)",
+    "author_portrait": {
+      "datei": "03_IMAGES/VERLEGER_20261014/ROBERTSON_PORTRAET_KOLORIERT_VERLEGER_20261014.png",
+      "credit": "Elliott & Fry, 1917; colourised",
+      "herkunft": "03_IMAGES/VERLEGER_20261014/HERKUNFT.json"
+    },
+    "book_title": "From Private to Field-Marshal",
+    "book_title_marketplace": "From Private to Field-Marshal (Annotated)",
+    "book_subtitle": null,
+    "series_line": "THE RANKS · THE STAFF · COMMAND",
+    "first_published": "Constable and Company, London, 1921",
+    "series": "GREEN SERIES",
+    "status": "forthcoming",
+    "press_quote": {
+      "text": "“Sir William Robertson’s book is necessarily unlike any other which has been written.”",
+      "source": "The Spectator, 22 October 1921"
+    },
+    "blurb": [
+      "No other title in British military autobiography can make quite the same claim.",
+      "William Robertson entered the 16th (The Queen’s) Lancers as a trooper in November 1877. Forty-two years later he became a Field-Marshal—the only British soldier to rise from the ranks to the Army’s highest rank.",
+      "His memoir carries the reader through the Victorian cavalry, commission into the 3rd (Prince of Wales’s) Dragoon Guards, intelligence service in India, the Pamirs and Chitral, Staff College, the South African War, the War Office and the reform of the British General Staff.",
+      "In August 1914 Robertson went to France as Quartermaster-General of the British Expeditionary Force. He sustained its communications during the retreat from Mons, became Chief of the General Staff in 1915 and, later that year, Chief of the Imperial General Staff.",
+      "From Whitehall he stood at the centre of Britain’s military direction during the Somme, the campaigns of 1917 and the great strategic disputes over the Western Front, manpower, coalition warfare and political control of military strategy.",
+      "His final commands included the Home Forces and the British Army of the Rhine."
+    ],
+    "features": [
+      "Complete text of the London 1921 first edition, with Preface and Dedication",
+      "Portrait frontispiece, sixteen photographic plates and the Pamirs route plan",
+      "Publisher’s Foreword and Afterword, full author profile with portrait",
+      "Career ladder from Trooper to Field-Marshal",
+      "Regiments and staff service, British and foreign honours",
+      "Essays on Intelligence, the War Office, the BEF and the High Command",
+      "Full chronology, military glossary and a note on the 1921 text"
+    ],
+    "formats": [
+      {
+        "form": "Paperback",
+        "isbn": "978-3-67605-192-7",
+        "pages": 504,
+        "price_usd": 24.99,
+        "platform": "IngramSpark"
+      },
+      {
+        "form": "Hardcover",
+        "isbn": "978-3-67605-193-4",
+        "pages": 504,
+        "price_usd": 39.99,
+        "platform": "IngramSpark"
+      },
+      {
+        "form": "E-Book (EPUB)",
+        "isbn": "978-3-67605-194-1",
+        "price_usd": 9.99,
+        "platform": "IngramSpark"
+      }
+    ],
+    "cover_image": "cover-from-private-to-field-marshal-robertson-en-20261017.webp",
+    "cover_fallback": "cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+    "back_image": "back-from-private-to-field-marshal-robertson-en-20261017.jpg",
+    "hinweise": [
+      "Status forthcoming, keine Kaufverweise, bis Ingram LIVE meldet.",
+      "Nur 'AETERNUS' als Marke, nur aeternuspublishing.com (Anglo-Marke).",
+      "Keine Wikimedia-Nennung.",
+      "Kein KDP in diesem Stand."
+    ]
+  },
+  "author_head": [
+    "Soldier",
+    "Intelligence Officer",
+    "Staff Officer",
+    "Chief of the Imperial General Staff",
+    "",
+    "Born 29 January 1860 · Welbourn, Lincolnshire",
+    "Died 12 February 1933 · London"
+  ],
+  "author_body": [
+    "William Robert Robertson entered the Army without those advantages that normally shaped an officer’s Victorian career. His father was a tailor and village postmaster. Robertson attended the local school, worked briefly as a pupil-teacher and entered domestic service before deciding to enlist. On 13 November 1877 he joined the 16th (The Queen’s) Lancers.",
+    "The regiment became his first university. He qualified in musketry, signalling and elementary intelligence work and rose through the non-commissioned ranks. In 1888 he was commissioned into the 3rd (Prince of Wales’s) Dragoon Guards, an exceptional transition at a time when movement from the ranks into the officer corps remained comparatively rare.",
+    "India broadened him from cavalry soldier into professional intelligence officer. Railway transport duties during frontier expeditions were followed by service in the Intelligence Department at Simla. Languages became part of his professional equipment. His journey through Gilgit and the Pamirs in 1894 and his service as Intelligence Officer with the Chitral Relief Force in 1895 placed him within the strategic world of the Great Game at the same time that they developed his practical knowledge of terrain and expeditionary war.",
+    "Chitral brought the D.S.O. The Staff College brought something institutionally rarer: Robertson became the first officer risen from the ranks to attend Camberley. South Africa, the War Office and foreign intelligence followed.",
+    "His career then accelerated through the machinery of the reformed Army. He became Colonel, Brigadier-General on the General Staff at Aldershot, Major-General and Commandant of the Staff College, and Director of Military Training at the War Office. On the outbreak of the Great War he became Quartermaster-General of the British Expeditionary Force. In 1915 he became Chief of its General Staff, and in December of that year Chief of the Imperial General Staff.",
+    "He became a full General in 1916 and served as CIGS until February 1918. His tenure coincided with the great strategic debates of the war: the Western Front, manpower, coalition warfare, the relationship between military and political authority and the allocation of British resources across a global conflict.",
+    "Robertson left the CIGS appointment after refusing a strategic command arrangement he believed incompatible with clear responsibility. He subsequently commanded Eastern Command and the Home Forces and in 1919 took over the British Army of the Rhine.",
+    "The Crown marked the career repeatedly. Robertson had received the D.S.O. after Chitral, followed by the C.B., C.V.O., K.C.V.O., K.C.B., G.C.B. and G.C.M.G. He was created a Baronet in 1919 and promoted Field-Marshal in March 1920. At the time this memoir appeared in 1921 his proper style was:",
+    {
+      "style": "LINES",
+      "text": "Field-Marshal Sir William Robertson, Bart., G.C.B., G.C.M.G., K.C.V.O., D.S.O."
+    },
+    "His later G.C.V.O. did not come until 1931.",
+    "Robertson later published the much more extensive _Soldiers and Statesmen, 1914–1918_. But _From Private to Field-Marshal_ remains the more personal book because its true subject is not only the Great War.",
+    "It is ascent.",
+    "Not ascent as social fantasy, but ascent through work, examination, experience, study and repeated enlargements of responsibility.",
+    "No other title in the British military memoir tradition can make the same claim quite so literally."
+  ]
+}
