@@ -23,7 +23,7 @@ for (const file of pages) {
   let ignored = 0;
   const add = message => findings.push({ route, message });
   const html = fs.readFileSync(file, 'utf8');
-  const author = html.includes('/assets/css/author-es.css');
+  const author = html.includes('/assets/css/author-es.css') || html.includes('/assets/css/authors.css');
   if (author) authorPages++;
   const parser = new Parser({
     onopentag(tag, attrs) {
