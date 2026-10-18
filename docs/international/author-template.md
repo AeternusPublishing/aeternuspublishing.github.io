@@ -37,7 +37,7 @@ Buchbeschreibungen mehr unter Autorenseiten anhängen. Preis, ISBN,
 Ausstattung und Kaufwege gehören zur jeweiligen Buchdetailseite.
 
 Gemeinsames Buchmodul: `international/_includes/author-book.njk`.
-Gestaltung: `international/assets/css/authors.css`, nur auf Autorenseiten geladen.
+Gestaltung: `src/assets/css/authors.css`, nur auf Autorenseiten geladen.
 Die bestehende Buchkarten-Vorlage für andere Seitentypen bleibt unverändert.
 
 ## Lokal bauen und ansehen
@@ -67,3 +67,35 @@ Der Standardbau trägt `noindex, nofollow` und die Vorschauleiste.
 Rückweg: Änderungen liegen ausschließlich im lokalen Zweig
 `codex/autorenvorlage-en-lokal-20261018`; Ausgangsdateien sind unter `a8ebbd1`
 versioniert. Die Live-Website wurde nicht verändert.
+
+## Erweiterung DE + EN, 18.10.2026
+
+Aktueller Umfang: 21 deutsche Autorenseiten (einschließlich Hill, Hutchinson
+und Doyle), 31 englische Seiten der Anglo-Website und 12 ältere englische
+Routen auf der deutschen Website. Die beiden Website-Stände bleiben getrennt.
+DE: `work/de-main`, Basis `982b221`, Zweig
+`codex/autorenvorlage-de-lokal-20261018`. EN: bisheriger lokaler Zweig.
+
+Gemeinsame Gestaltung in `src/assets/css/authors.css`; dieselbe Datei liegt
+im DE-Auscheck. Gemeinsamer DE/Legacy-EN-Inhalt in
+`src/_includes/author-landing.njk`, Beschriftungen in
+`src/_data/authorLabels.json`. Sonderseiten sind als Daten in
+`src/_data/authorSpecials.json` eingebunden. Buch- und Biografietexte bleiben
+über native Aufklappbereiche zugänglich, bestehende Buchseiten und Bezugswege
+bleiben erreichbar. Ein veralteter `/autoren/`-Verweis bei Sale führt nun zum
+vorhandenen Buchkatalog. Bestehende Hill-/Doyle-Porträts aus dem EN-Stand
+wurden unverändert übernommen; keine neuen Bilder erzeugt.
+
+Porträts: Desktop 250 × 310 px (vollständig sichtbar), mobil 120 px breit,
+unter 380 px Bildschirmbreite 100 px. Text unter dem Porträt nutzt mobil die
+volle Breite. Gemeinsame Gestaltung in beiden Auschecks bytegleich geprüft.
+
+Prüfung: 64 Autorenseiten × 3 Breiten (1280/390/320), keine horizontalen
+Überläufe oder fehlgeschlagenen geladenen Bilder. Lokale Links/Bildpfade und
+eine H1 je Seite geprüft. Biografie und Editionsdetails geöffnet; ISBN im
+geöffneten Detailbereich nachgewiesen. Beide Eleventy-Bauten erfolgreich.
+
+Lokale Vorschauen: EN Port 8097, DE und ältere EN-Routen Port 8098.
+DE starten: im DE-Auscheck `python -m http.server 8098 --bind 127.0.0.1
+--directory dist/preview`. Bau: `node node_modules/@11ty/eleventy/cmd.cjs
+--output=dist/preview --quiet`. Keine Veröffentlichung und kein Push.

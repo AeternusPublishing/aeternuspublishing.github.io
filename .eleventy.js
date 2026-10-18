@@ -1,4 +1,12 @@
 module.exports = function(eleventyConfig){
+    eleventyConfig.addFilter('authorImage', (name, modern, cover) => {
+        if (!name) return null;
+        const fs = require('node:fs');
+        const path = require('node:path');
+        const names = modern ? [name + '.webp', name + (cover ? '-fallback.jpg' : '.jpg'), name + '.jpg', name] : [name];
+        const found = names.find(file => fs.existsSync(path.join(__dirname, 'src/assets/images', file)));
+        return found ? '/assets/images/' + found : null;
+    });
     eleventyConfig.addFilter("bookUrl", cover => {
         const book = require("./src/_data/catalogue").books.find(b => b.cover === cover);
         return book ? book.url : "";
