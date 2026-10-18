@@ -11,8 +11,8 @@ module.exports = {
     slug: a.slug, name: a.anzeige, dates: a.lebensdaten,
     eyebrow: 'GREEN SERIES · AETERNUS', tagline: '', intro: '',
     metaDescription: b.kurzbeschreibung[0], brandOnly: true,
-    portrait: {modern: true, file: 'author-charles-edward-callwell', alt: a.portraet_legende},
-    publisherPortrait: '/assets/images/' + a.portraet,
+    portrait: {modern: true, file: 'author-charles-edward-callwell-color-20261018', alt: a.portraet_legende},
+    publisherPortrait: '/assets/images/author-charles-edward-callwell-color-20261018.jpg',
     publisherPortraitCaption: a.portraet_legende,
     publisherAuthorHTML: paras(a.bio_absaetze), publisherEditionHTML: editionHTML,
     publisherAuthorSource: 'CEC_001/08_SOCIAL_WEB_EN/WEBSITE_20261017/WEBSEITE_TEXTE.json', blocks: []
