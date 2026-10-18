@@ -180,6 +180,11 @@ const wr001 = require('./wr001-en-20261017.cjs');
 authorsEn.push(wr001.author);
 englishBooks.push(wr001.book);
 
+// CEC_001: publisher-authorized website announcement; no buying links before LIVE.
+const cec001 = require('./cec001-en-20261018.cjs');
+authorsEn.push(cec001.author);
+englishBooks.push(cec001.book);
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
