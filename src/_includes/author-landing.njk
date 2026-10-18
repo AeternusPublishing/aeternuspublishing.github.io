@@ -3,7 +3,7 @@
 <header class="masthead"><div class="shell masthead-inner">
   <a class="international-brand" href="{{ labels.home }}"><img src="/assets/images/logo.svg" alt="AETERNUS Verlag" width="832" height="50"></a>
   <nav class="main-navigation author-local-nav" aria-label="{{ labels.navigation }}">
-    <a href="/buecher/">{{ labels.catalogue }}</a><a href="#{{ labels.worksId }}">{{ labels.works }}</a><a href="#{{ labels.bioId }}">{{ labels.bio }}</a>
+    <a href="/buecher/">{{ labels.catalogue }}</a><a href="#{{ labels.worksId }}">{{ labels.works }}</a>{% if a.blocks.length or a.bioLede %}<a href="#{{ labels.bioId }}">{{ labels.bio }}</a>{% endif %}
     {% for v in authorLangs.versions(a.slug, authorLocale) %}<a href="{{ v.url }}" hreflang="{{ v.lang }}"{% if v.current %} aria-current="page"{% endif %}>{{ v.label }}</a>{% endfor %}
   </nav>
 </div></header>
