@@ -185,6 +185,10 @@ const cec001 = require('./cec001-en-20261018.cjs');
 authorsEn.push(cec001.author);
 englishBooks.push(cec001.book);
 
+const cjm001 = require('./cjm001-en-20261018.json');
+authorsEn.push(cjm001.author);
+englishBooks.push(cjm001.book);
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
