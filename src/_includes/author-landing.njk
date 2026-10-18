@@ -52,7 +52,7 @@
 {% if a.facts or a.worksIntro or a.editionsNote %}<section class="shell international-section author-edition-notes"><details><summary>{{ labels.more }}</summary><div class="prose">
   <h2>{{ a.worksTitle | safe }}</h2><p>{{ a.worksIntro | safe }}</p>
   <div class="author-facts">{% for f in a.facts %}<p>{{ f[0] }}<strong>{{ f[1] | safe }}</strong></p>{% endfor %}</div>
-  <p>{{ a.editionsNote | safe }}</p>{% if a.sisterUrl %}<a href="{{ a.sisterUrl }}">{{ a.sisterLabel }} →</a>{% endif %}
+  <p>{{ a.editionsNote | safe }}</p>{% if a.sisterUrl %}<a href="{{ "/buecher/" if a.sisterUrl == "/autoren/" else a.sisterUrl }}">{{ labels.catalogue if a.sisterUrl == "/autoren/" else a.sisterLabel }} →</a>{% endif %}
 </div></details></section>{% endif %}
 </main>
 <footer class="colophon"><div class="shell footer-bottom"><span>© AETERNUS Verlag</span><a href="/impressum/">{{ labels.legal }}</a><a href="/datenschutz/">{{ labels.privacy }}</a><a href="mailto:kontakt@aeternus-verlag.de">kontakt@aeternus-verlag.de</a></div></footer>
