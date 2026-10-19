@@ -1,0 +1,2 @@
+# Preserve the publisher-supplied, SHA-256-bound website text byte for byte.
+catalog/bp009-en-20261019.source.json -text
