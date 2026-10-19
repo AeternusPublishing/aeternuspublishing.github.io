@@ -192,6 +192,15 @@ englishBooks.push(cjm001.book);
 // BP_009: add the forthcoming book to the existing QR author page.
 englishBooks.push(require('./bp009-en-20261019.cjs'));
 authorsEn.find(author => author.slug === 'robert-baden-powell').brandOnly = true;
+Object.assign(authorsEn.find(author => author.slug === 'robert-baden-powell'), {
+  tagline: 'British general and founder of the Boy Scouts.',
+  intro: 'Robert Baden-Powell founded the Boy Scouts and became the first Chief Scout of the worldwide Scout movement. Before turning to youth education, he had made his name as a highly decorated British army officer, serving in India and Africa and rising to lieutenant-general.',
+  metaDescription: 'Robert Baden-Powell: decorated British general, founder of the Boy Scouts, and author. His military career, Scouting for Boys, and links with Seton and Beard.',
+  relatedAuthors: [
+    { name: 'Ernest Thompson Seton', slug: 'ernest-thompson-seton' },
+    { name: 'Daniel Carter Beard', slug: 'daniel-carter-beard' }
+  ]
+});
 
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
