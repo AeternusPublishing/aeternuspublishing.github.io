@@ -48,7 +48,8 @@ const definitions = [
     intro: 'Expedition and frontier narratives already present in the Green Series, distinct from its military collections.',
     bookIds: [
       'en-francis-younghusband-the-epic-of-mount-everest-illustrated',
-      'en-grey-owl-the-men-of-the-last-frontier'
+      'en-grey-owl-the-men-of-the-last-frontier',
+      'en-melliss-lion-hunting-in-somali-land-annotated'
     ]
   }
 ];
