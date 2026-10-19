@@ -1,0 +1,641 @@
+[
+  {
+    "schema": "AETERNUS_WEBSEITE_TEXTE_HRH001_EN_V1",
+    "muster": "ACD_003 ENG/09_SOCIAL_WEB_EN/WEBSITE_20261012/WEBSEITE_TEXTE.json",
+    "author_slug": "henry-rider-haggard",
+    "author_url": "https://aeternuspublishing.com/authors/henry-rider-haggard/",
+    "author_url_note": "The slug is fixed: the QR code on the last page of the printed book points here. Do not change it and do not redirect it elsewhere.",
+    "book": {
+      "id": "en-h-rider-haggard-king-solomons-mines",
+      "work_id": "HRH_001",
+      "language": "en",
+      "title": "King Solomon’s Mines",
+      "subtitle": "An African Romance",
+      "author": "henry-rider-haggard",
+      "authorName": "H. Rider Haggard",
+      "contributors": [],
+      "series": "bernstein",
+      "series_label": "AMBER SERIES",
+      "series_number": null,
+      "original_publication_year": 1885,
+      "first_edition": {
+        "publisher": "Cassell & Company",
+        "place": "London",
+        "year": 1885
+      },
+      "text_basis": "Cassell & Company, London 1887 (fifty-third thousand)",
+      "isbn": {
+        "paperback": "978-3-67605-068-5",
+        "hardcover": "978-3-67605-069-2",
+        "ebook": "978-3-67605-067-8"
+      },
+      "formats": {},
+      "description": {
+        "short": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning.",
+        "long": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning.\n\nAllan Quatermain, hunter, trader and veteran of the African wilderness, has lived too long among its perils to surrender readily to legends. Yet when Sir Henry Curtis seeks his help in finding a brother who has vanished beyond the mountains, the old hunter agrees to undertake a journey more formidable than any he has known. Accompanied by the indomitable Captain Good and the mysterious Umbopa, the expedition advances across burning deserts and snowbound heights into a country where ancient regiments march beneath the banners of rival kings, where loyalty is purchased with blood, and where the struggle for a throne will demand more of the strangers than any quest for riches.\n\nBeyond the last frontier of the known world, courage, ambition and friendship are brought to their severest trial, while beneath the mountains the legendary treasure awaits those who have survived long enough to reach it. Yet the greatest discoveries of the journey may prove to be those for which no map has prepared them.\n\nFirst published in 1885, King Solomon’s Mines stands among the founding masterpieces of lost-world adventure, establishing an imaginative tradition that would endure through generations of literature and into the great adventure films of the modern age."
+      },
+      "cover": "/assets/images/cover-hrh001-en-ingram-v5-20261012.jpg",
+      "publication_date": "2026-10-12",
+      "pricing": {},
+      "availability": "AVAILABLE",
+      "status_line": "Live",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "amazon": "NOT_BUILT",
+        "ingram": "FREIGEGEBEN",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-h-rider-haggard-king-solomons-mines/",
+      "url_note": "Slug-Vorschlag; am 12.10.2026 noch nicht angelegt (404)",
+      "authorUrl": "/authors/henry-rider-haggard/",
+      "legacy": {
+        "modal": {
+          "sample": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning.\n\nAllan Quatermain, hunter, trader and veteran of the African wilderness, has lived too long among its perils to surrender readily to legends. Yet when Sir Henry Curtis seeks his help in finding a brother who has vanished beyond the mountains, the old hunter agrees to undertake a journey more formidable than any he has known. Accompanied by the indomitable Captain Good and the mysterious Umbopa, the expedition advances across burning deserts and snowbound heights into a country where ancient regiments march beneath the banners of rival kings, where loyalty is purchased with blood, and where the struggle for a throne will demand more of the strangers than any quest for riches.\n\nBeyond the last frontier of the known world, courage, ambition and friendship are brought to their severest trial, while beneath the mountains the legendary treasure awaits those who have survived long enough to reach it. Yet the greatest discoveries of the journey may prove to be those for which no map has prepared them.\n\nFirst published in 1885, King Solomon’s Mines stands among the founding masterpieces of lost-world adventure, establishing an imaginative tradition that would endure through generations of literature and into the great adventure films of the modern age.",
+          "metadata": "AMBER SERIES annotated edition: the text of Cassell’s 1887 printing (fifty-third thousand) with publisher’s note, afterword and nine plates newly drawn after Walter Paget."
+        }
+      },
+      "provenance": "HRH_001 06_PARATEXT/EN/01_BACK_COVER_COPY_EN_V2.md (Verlegerlieferung 12.10.2026) + UPLOADPAKET_V8_EN_INGRAM_EBOOK_20261012",
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-068-5",
+          "pages": 314,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-069-2",
+          "pages": 314,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-067-8",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        }
+      ],
+      "publisherDescriptionHTML": "<ul><li>Complete text of Cassell’s 1887 printing, checked against the page images</li><li>Nine plates newly drawn after Walter Paget’s illustrations of 1887</li><li>Haggard’s dedication, publisher’s note, author profile and afterword</li><li>Every departure from the 1887 printing listed at the end of the book</li></ul><p>Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning.</p><p>Allan Quatermain, hunter, trader and veteran of the African wilderness, has lived too long among its perils to surrender readily to legends. Yet when Sir Henry Curtis seeks his help in finding a brother who has vanished beyond the mountains, the old hunter agrees to undertake a journey more formidable than any he has known. Accompanied by the indomitable Captain Good and the mysterious Umbopa, the expedition advances across burning deserts and snowbound heights into a country where ancient regiments march beneath the banners of rival kings, where loyalty is purchased with blood, and where the struggle for a throne will demand more of the strangers than any quest for riches.</p><p>Beyond the last frontier of the known world, courage, ambition and friendship are brought to their severest trial, while beneath the mountains the legendary treasure awaits those who have survived long enough to reach it. Yet the greatest discoveries of the journey may prove to be those for which no map has prepared them.</p><p>First published in 1885, <i>King Solomon’s Mines</i> stands among the founding masterpieces of lost-world adventure, establishing an imaginative tradition that would endure through generations of literature and into the great adventure films of the modern age.</p><p>This AETERNUS edition preserves the early textual state of Cassell’s 1887 printing, accompanied by nine illustrations newly drawn after Walter Paget.</p><p>AMBER SERIES · AETERNUS</p>",
+      "original_title": "King Solomon’s Mines",
+      "cardStatus": "Live",
+      "press_quote": {
+        "text": "“King Solomon’s Mines peerless above all”",
+        "source": "The Spectator, 18 December 1926",
+        "source_as_on_cover": "THE SPECTATOR, 18 DECEMBER 1926"
+      },
+      "backcover": "/assets/images/backcover-hrh001-en-ingram-v5-20261012.jpg",
+      "coverWebp": "/assets/images/cover-hrh001-en-ingram-v5-20261012.webp"
+    },
+    "press_quote": {
+      "text": "“King Solomon’s Mines peerless above all”",
+      "source": "The Spectator, 18 December 1926",
+      "source_as_on_cover": "THE SPECTATOR, 18 DECEMBER 1926"
+    },
+    "closing_line": "This AETERNUS edition preserves the early textual state of Cassell’s 1887 printing, accompanied by nine illustrations newly drawn after Walter Paget.",
+    "author_page_card": {
+      "series": "AMBER",
+      "author": "H. Rider Haggard",
+      "title": "King Solomon’s Mines",
+      "text": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning.",
+      "status_vor_dem_einreichen": "Coming soon",
+      "status_nach_dem_einreichen": "Submitted to IngramSpark; eProof pending.",
+      "link": "/books/en-h-rider-haggard-king-solomons-mines/"
+    },
+    "author_page_edition_block_html": "<h2>King Solomon’s Mines</h2><p>Live</p><blockquote><p>“King Solomon’s Mines peerless above all”</p><cite>The Spectator, 18 December 1926</cite></blockquote><p>Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning.</p><p>Allan Quatermain, hunter, trader and veteran of the African wilderness, has lived too long among its perils to surrender readily to legends. Yet when Sir Henry Curtis seeks his help in finding a brother who has vanished beyond the mountains, the old hunter agrees to undertake a journey more formidable than any he has known. Accompanied by the indomitable Captain Good and the mysterious Umbopa, the expedition advances across burning deserts and snowbound heights into a country where ancient regiments march beneath the banners of rival kings, where loyalty is purchased with blood, and where the struggle for a throne will demand more of the strangers than any quest for riches.</p><p>Beyond the last frontier of the known world, courage, ambition and friendship are brought to their severest trial, while beneath the mountains the legendary treasure awaits those who have survived long enough to reach it. Yet the greatest discoveries of the journey may prove to be those for which no map has prepared them.</p><p>First published in 1885, King Solomon’s Mines stands among the founding masterpieces of lost-world adventure, establishing an imaginative tradition that would endure through generations of literature and into the great adventure films of the modern age.</p><p>This AETERNUS edition preserves the early textual state of Cassell’s 1887 printing, accompanied by nine illustrations newly drawn after Walter Paget.</p>",
+    "regeln": [
+      "Only AETERNUS as the brand, only aeternuspublishing.com (Anglo-Marke).",
+      "No prices and no purchase links until IngramSpark reports the title live.",
+      "Status coming soon; no claim of availability.",
+      "No anticipation of the ending."
+    ],
+    "bilder": {
+      "backcover-hrh001-en-ingram-v5-20261012.jpg": "45e3422bc052c59f4b6ae2f7449bdb6ce003027b84261f44c1c2ea1ae5adbbc7",
+      "cover-hrh001-en-ingram-v5-20261012.jpg": "f91e8a1eb2f455a51cbe7f193d663ba4cddcecf51776dbee25349262bfd62fcc",
+      "cover-hrh001-en-ingram-v5-20261012.webp": "548a3f5080c537cc48e256b159d9d685d2252e2d1f6469ffe53b78f5864eaf41"
+    }
+  },
+  {
+    "schema": "AETERNUS_WEBSEITE_TEXTE_HRH002_EN_V1",
+    "muster": "ACD_003 09_SOCIAL_WEB_EN/WEBSITE_20261012/WEBSEITE_TEXTE.json",
+    "author_slug": "henry-rider-haggard",
+    "author_url": "https://aeternuspublishing.com/authors/henry-rider-haggard/",
+    "author_url_note": "The slug is fixed: the QR code on the last page of the printed book points here. Do not change it and do not redirect it elsewhere.",
+    "book": {
+      "id": "en-h-rider-haggard-allan-quatermain",
+      "work_id": "HRH_002",
+      "language": "en",
+      "title": "Allan Quatermain",
+      "subtitle": "Being an Account of His Further Adventures and Discoveries",
+      "author": "henry-rider-haggard",
+      "authorName": "H. Rider Haggard",
+      "contributors": [],
+      "series": "bernstein",
+      "series_label": "AMBER SERIES",
+      "series_number": 2,
+      "original_publication_year": 1887,
+      "first_edition": {
+        "publisher": "Longmans, Green, and Co.",
+        "place": "London",
+        "year": 1887
+      },
+      "isbn": {
+        "paperback": "978-3-67605-084-5",
+        "hardcover": "978-3-67605-085-2",
+        "ebook": "978-3-67605-083-8"
+      },
+      "formats": {},
+      "description": {
+        "short": "He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him.",
+        "long": "He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him.\n\nBereaved of his only son, and unable to find consolation in the peace which his earlier adventures have purchased, Quatermain turns once more towards the immense and mysterious interior of Africa. Sir Henry Curtis and Captain Good accompany their old companion upon a journey more perilous than the first; beside them marches Umslopogaas, the formidable Zulu warrior, scarred by a lifetime of battle and bearing the terrible axe Inkosi-kaas, whose name and deeds seem already to belong to an age of heroes.\n\nBeyond hostile country, dark waters and mountains guarding the last frontiers of exploration, the travellers discover the magnificent and isolated civilisation of the Zu-Vendi, where ancient temples rise above a mighty city, rival queens contend for sovereignty, and the fate of a kingdom is to be decided amid the splendour and devastation of war.\n\nHere, beneath a foreign sky, friendship will be tried to its utmost, courage will be measured against overwhelming odds, and men who have survived the impossible must discover what no earthly victory can secure.\n\nFirst published in 1887, Allan Quatermain is one of the great heroic romances of Victorian literature: a magnificent succession of exploration, kingship, battle and devotion, sustained to its close with extraordinary dignity and emotional power."
+      },
+      "cover": "/assets/images/cover-hrh002-en-ingram-v2-20261012.jpg",
+      "publication_date": "2026-10-12",
+      "pricing": {},
+      "availability": "AVAILABLE",
+      "status_line": "Live",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "amazon": "NOT_BUILT",
+        "ingram": "FREIGEGEBEN",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "url": "/books/en-h-rider-haggard-allan-quatermain/",
+      "authorUrl": "/authors/henry-rider-haggard/",
+      "legacy": {
+        "modal": {
+          "sample": "He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him.\n\nBereaved of his only son, and unable to find consolation in the peace which his earlier adventures have purchased, Quatermain turns once more towards the immense and mysterious interior of Africa. Sir Henry Curtis and Captain Good accompany their old companion upon a journey more perilous than the first; beside them marches Umslopogaas, the formidable Zulu warrior, scarred by a lifetime of battle and bearing the terrible axe Inkosi-kaas, whose name and deeds seem already to belong to an age of heroes.\n\nBeyond hostile country, dark waters and mountains guarding the last frontiers of exploration, the travellers discover the magnificent and isolated civilisation of the Zu-Vendi, where ancient temples rise above a mighty city, rival queens contend for sovereignty, and the fate of a kingdom is to be decided amid the splendour and devastation of war.\n\nHere, beneath a foreign sky, friendship will be tried to its utmost, courage will be measured against overwhelming odds, and men who have survived the impossible must discover what no earthly victory can secure.\n\nFirst published in 1887, Allan Quatermain is one of the great heroic romances of Victorian literature: a magnificent succession of exploration, kingship, battle and devotion, sustained to its close with extraordinary dignity and emotional power.",
+          "metadata": "This AETERNUS edition follows the first Longmans edition of 1887, with twenty plates newly drawn after the original illustrations by C. H. M. Kerr."
+        }
+      },
+      "provenance": "HRH_002 06_PARATEXT/EN/01_BACK_COVER_COPY_EN_V3.md (Verlegerlieferung 12.10.2026) im Stand des freigegebenen Taschenbuchumschlags + UPLOADPAKET_V2_EN_INGRAM_EBOOK_20261012",
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-084-5",
+          "pages": 408,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-085-2",
+          "pages": 408,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-083-8",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        }
+      ],
+      "publisherDescriptionHTML": "<ul><li>Complete text of the 1887 first edition, checked against the page images</li><li>Twenty plates newly drawn after C. H. M. Kerr’s illustrations of 1887</li><li>Publisher’s note, author profile and afterword</li><li>Every departure from the first edition listed at the end of the book</li></ul><p>He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him.</p><p>Bereaved of his only son, and unable to find consolation in the peace which his earlier adventures have purchased, Quatermain turns once more towards the immense and mysterious interior of Africa. Sir Henry Curtis and Captain Good accompany their old companion upon a journey more perilous than the first; beside them marches Umslopogaas, the formidable Zulu warrior, scarred by a lifetime of battle and bearing the terrible axe Inkosi-kaas, whose name and deeds seem already to belong to an age of heroes.</p><p>Beyond hostile country, dark waters and mountains guarding the last frontiers of exploration, the travellers discover the magnificent and isolated civilisation of the Zu-Vendi, where ancient temples rise above a mighty city, rival queens contend for sovereignty, and the fate of a kingdom is to be decided amid the splendour and devastation of war.</p><p>Here, beneath a foreign sky, friendship will be tried to its utmost, courage will be measured against overwhelming odds, and men who have survived the impossible must discover what no earthly victory can secure.</p><p>First published in 1887, Allan Quatermain is one of the great heroic romances of Victorian literature: a magnificent succession of exploration, kingship, battle and devotion, sustained to its close with extraordinary dignity and emotional power.</p><p>This AETERNUS edition follows the first Longmans edition of 1887, with twenty plates newly drawn after the original illustrations by C. H. M. Kerr.</p><p>AMBER SERIES · AETERNUS</p>",
+      "original_title": "Allan Quatermain",
+      "cardStatus": "Live",
+      "press_quote": {
+        "text": "“first-rate stories of adventure”",
+        "source_lines_as_on_cover": [
+          "THE SPECTATOR, 29 DECEMBER 1888",
+          "ON KING SOLOMON’S MINES AND ALLAN QUATERMAIN"
+        ],
+        "source": "The Spectator, 29 December 1888",
+        "reference": "In reference to King Solomon’s Mines and Allan Quatermain.",
+        "beleg": "BELEGE_SPECTATOR_20261012/BEHAUPTUNGSREGISTER_BELEGE_20261012.json (Recent Novels, S. 1855; Urteil in der Besprechung von Colonel Quaritch)"
+      },
+      "backcover": "/assets/images/backcover-hrh002-en-ingram-v2-20261012.jpg",
+      "coverWebp": "/assets/images/cover-hrh002-en-ingram-v2-20261012.webp",
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      }
+    },
+    "press_quote": {
+      "text": "“first-rate stories of adventure”",
+      "source_lines_as_on_cover": [
+        "THE SPECTATOR, 29 DECEMBER 1888",
+        "ON KING SOLOMON’S MINES AND ALLAN QUATERMAIN"
+      ],
+      "source": "The Spectator, 29 December 1888",
+      "reference": "In reference to King Solomon’s Mines and Allan Quatermain.",
+      "beleg": "BELEGE_SPECTATOR_20261012/BEHAUPTUNGSREGISTER_BELEGE_20261012.json (Recent Novels, S. 1855; Urteil in der Besprechung von Colonel Quaritch)"
+    },
+    "closing_line": "This AETERNUS edition follows the first Longmans edition of 1887, with twenty plates newly drawn after the original illustrations by C. H. M. Kerr.",
+    "author_page_card": {
+      "series": "AMBER",
+      "author": "H. Rider Haggard",
+      "title": "Allan Quatermain",
+      "text": "Bereaved of his only son, and unable to find consolation in the peace which his earlier adventures have purchased, Quatermain turns once more towards the immense and mysterious interior of Africa. Sir Henry Curtis and Captain Good accompany their old companion upon a journey more perilous than the first; beside them marches Umslopogaas, the formidable Zulu warrior, scarred by a lifetime of battle and bearing the terrible axe Inkosi-kaas, whose name and deeds seem already to belong to an age of heroes.",
+      "status_vor_dem_einreichen": "Coming soon",
+      "status_nach_dem_einreichen": "Submitted to IngramSpark; eProof pending.",
+      "link": "/books/en-h-rider-haggard-allan-quatermain/"
+    },
+    "regeln": [
+      "Only AETERNUS as the brand, only aeternuspublishing.com (Anglo-Marke).",
+      "No prices and no purchase links until IngramSpark reports the title live.",
+      "Status coming soon; no claim of availability.",
+      "No anticipation of the ending in any added text.",
+      "Press quotation only in the wording given here."
+    ],
+    "bilder": {
+      "cover-hrh002-en-ingram-v2-20261012.jpg": "0a894252b8b0913404740d5f842fd8d0023aa1d27432bae3c05d18c09f763084",
+      "cover-hrh002-en-ingram-v2-20261012.webp": "a652683242ec65b9e560bbdb596398abed2bb3caf4554e909caee5f71b761243",
+      "backcover-hrh002-en-ingram-v2-20261012.jpg": "37951e846ccbfeb0ff25f10bffb0891535316db90383472848958a1d7f2e1aae"
+    },
+    "author_page_edition_block_html": ""
+  },
+  {
+    "schema": "AETERNUS_WEBSEITE_TEXTE_HRH003_EN_V1",
+    "muster": "ACD_003 09_SOCIAL_WEB_EN/WEBSITE_20261012/WEBSEITE_TEXTE.json",
+    "gilt_fuer_paket": {
+      "name": "UPLOADPAKET_V3_EN_INGRAM_EBOOK_20261012",
+      "preflight_result_sha256": "d03ffaa8de317ed4ec12c0fdd9e5d0f0fd98f6f296b712d232e435bb73bb7fde",
+      "manifest_sha256": "32b71e26112f1b0d3cb3a576e585b5c1f29ac725ca7f2b0e13756a470e86f1af",
+      "stand": "VORBEREITET - gilt erst mit der Endfreigabe dieses Pakets"
+    },
+    "author_slug": "henry-rider-haggard",
+    "author_url": "https://aeternuspublishing.com/authors/henry-rider-haggard/",
+    "author_url_note": "The slug is fixed: the QR code on the last page of the printed book points here. Do not change it and do not redirect it elsewhere.",
+    "book": {
+      "id": "en-h-rider-haggard-nada-the-lily",
+      "work_id": "HRH_003",
+      "language": "en",
+      "title": "Nada the Lily",
+      "subtitle": "A Zulu Saga",
+      "author": "henry-rider-haggard",
+      "authorName": "H. Rider Haggard",
+      "contributors": [],
+      "series": "bernstein",
+      "series_label": "AMBER SERIES",
+      "series_number": 5,
+      "original_publication_year": 1892,
+      "first_edition": {
+        "publisher": "Longmans, Green & Co.",
+        "place": "London",
+        "year": 1892
+      },
+      "isbn": {
+        "paperback": "978-3-67605-092-0",
+        "hardcover": "978-3-67605-093-7",
+        "ebook": "978-3-67605-082-1"
+      },
+      "formats": {},
+      "description": {
+        "short": "Before the great Zulu kings passed into history, their names commanded the allegiance of armies, their warriors carried terror across the plains of southern Africa, and the fate of nations could be determined by a single word spoken beneath the royal spears.",
+        "long": "Before the great Zulu kings passed into history, their names commanded the allegiance of armies, their warriors carried terror across the plains of southern Africa, and the fate of nations could be determined by a single word spoken beneath the royal spears.\n\nNow an old man remembers.\n\nMopo has stood in the presence of Chaka, the formidable king whose genius forged a mighty military dominion, and has survived long enough to bear witness to the splendour and darkness of an age when sovereign power was absolute and a warrior’s honour might outweigh his life.\n\nFrom his recollections rises the extraordinary history of Umslopogaas, the mighty wielder of the axe, and Galazi the Wolf, whose brotherhood leads them into the haunted mountains and among the mysterious wolf-packs of ancient legend. Across their path moves Nada, the Lily, whose beauty and courage belong to a story in which love, royal ambition and the inexorable workings of destiny are drawn together.\n\nAgainst the thunder of marching regiments, the intrigues of kings and the spectral grandeur of the Ghost Mountain, H. Rider Haggard unfolds an immense historical romance of loyalty, vengeance, heroism and the fearful majesty of a vanished martial world.\n\nFirst published in 1892, Nada the Lily stands among Haggard’s most powerful achievements, uniting the historical imagination of the great chroniclers with the elemental magnificence of heroic saga. Its extraordinary wolf imagery would later contribute to the inspiration of Rudyard Kipling’s The Jungle Book."
+      },
+      "cover": "/assets/images/cover-hrh003-en-ingram-v10-20261012.jpg",
+      "publication_date": "2026-10-12",
+      "pricing": {},
+      "availability": "AVAILABLE",
+      "status_line": "Live",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "url": "/books/en-h-rider-haggard-nada-the-lily/",
+      "authorUrl": "/authors/henry-rider-haggard/",
+      "edition_note": "This AETERNUS edition follows the Longmans edition of 1892, with twenty-three illustrations newly drawn after C. H. M. Kerr.",
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-092-0",
+          "pages": 450,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-093-7",
+          "pages": 450,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-082-1",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        }
+      ],
+      "publisherDescriptionHTML": "<ul><li>Complete text of the 1892 Longmans edition, checked against the page images</li><li>Twenty-three plates newly drawn after C. H. M. Kerr’s illustrations of 1892</li><li>Publisher’s note, author profile and afterword</li><li>Every departure from the 1892 edition listed at the end of the book</li></ul><p>Before the great Zulu kings passed into history, their names commanded the allegiance of armies, their warriors carried terror across the plains of southern Africa, and the fate of nations could be determined by a single word spoken beneath the royal spears.</p><p>Now an old man remembers.</p><p>Mopo has stood in the presence of Chaka, the formidable king whose genius forged a mighty military dominion, and has survived long enough to bear witness to the splendour and darkness of an age when sovereign power was absolute and a warrior’s honour might outweigh his life.</p><p>From his recollections rises the extraordinary history of Umslopogaas, the mighty wielder of the axe, and Galazi the Wolf, whose brotherhood leads them into the haunted mountains and among the mysterious wolf-packs of ancient legend. Across their path moves Nada, the Lily, whose beauty and courage belong to a story in which love, royal ambition and the inexorable workings of destiny are drawn together.</p><p>Against the thunder of marching regiments, the intrigues of kings and the spectral grandeur of the Ghost Mountain, H. Rider Haggard unfolds an immense historical romance of loyalty, vengeance, heroism and the fearful majesty of a vanished martial world.</p><p>First published in 1892, Nada the Lily stands among Haggard’s most powerful achievements, uniting the historical imagination of the great chroniclers with the elemental magnificence of heroic saga. Its extraordinary wolf imagery would later contribute to the inspiration of Rudyard Kipling’s The Jungle Book.</p><p>First published in 1892, <i>Nada the Lily</i> is told by the old witch-doctor Mopo: the rise and fall of Chaka, the youth of Umslopogaas and the Wolf-Brethren, and Nada, the Lily of the Zulus. This AETERNUS edition follows the Longmans text of 1892, with twenty-three plates newly drawn after C. H. M. Kerr’s illustrations for that edition.</p><p>AMBER SERIES · AETERNUS</p>",
+      "original_title": "Nada the Lily",
+      "provenance": "HRH003_EN_KDP_20261008/PARATEXT_LIEFERUNG_VERLEGER_20261012/01_RUECKSEITE_WIE_GELIEFERT.md im Stand des Umschlags PB_V10 + UPLOADPAKET_V3_EN_INGRAM_EBOOK_20261012",
+      "cardStatus": "Live",
+      "press_quote": {
+        "text": "“It is admirable, the epic of a dying people”",
+        "source": "ANDREW LANG, 20 APRIL 1892",
+        "hinweis": "Quellenzeile wie auf dem Umschlag (Verleger 12.10.2026 'Wie geliefert, mit 1892'); Privatbrief, keine Zeitungsbesprechung; der Abdruck in The Days of My Life traegt nur 'April 20th.'"
+      },
+      "backcover": "/assets/images/backcover-hrh003-en-ingram-v10-20261012.jpg",
+      "coverWebp": "/assets/images/cover-hrh003-en-ingram-v10-20261012.webp",
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "distribution_status": {
+        "amazon": "NOT_BUILT",
+        "ingram": "FREIGEGEBEN",
+        "own_shop": "NOT_CONFIGURED"
+      }
+    },
+    "press_quote": {
+      "text": "“It is admirable, the epic of a dying people”",
+      "source": "ANDREW LANG, 20 APRIL 1892",
+      "hinweis": "Quellenzeile wie auf dem Umschlag (Verleger 12.10.2026 'Wie geliefert, mit 1892'); Privatbrief, keine Zeitungsbesprechung; der Abdruck in The Days of My Life traegt nur 'April 20th.'"
+    },
+    "author_page_card": {
+      "series": "AMBER",
+      "author": "H. Rider Haggard",
+      "title": "Nada the Lily",
+      "text": "Mopo has stood in the presence of Chaka, the formidable king whose genius forged a mighty military dominion, and has survived long enough to bear witness to the splendour and darkness of an age when sovereign power was absolute and a warrior’s honour might outweigh his life.",
+      "status": "Coming soon",
+      "link": "/books/en-h-rider-haggard-nada-the-lily/"
+    },
+    "regeln": [
+      "Only AETERNUS as the brand, only aeternuspublishing.com (Anglo-Marke).",
+      "No prices and no purchase links until IngramSpark reports the title live.",
+      "Status: Coming soon.",
+      "Cover artwork is generated: set the AI label on Instagram."
+    ],
+    "author_page_edition_block_html": ""
+  },
+  {
+    "schema": "AETERNUS_WEBSEITE_TEXTE_HRH005_EN_V1",
+    "muster": "ACD_003 09_SOCIAL_WEB_EN/WEBSITE_20261012/WEBSEITE_TEXTE.json",
+    "author_slug": "henry-rider-haggard",
+    "author_url": "https://aeternuspublishing.com/authors/henry-rider-haggard/",
+    "author_url_note": "The slug is fixed: the QR code on the last page of the printed book points here. Do not change it and do not redirect it elsewhere.",
+    "book": {
+      "id": "en-h-rider-haggard-she",
+      "work_id": "HRH_005",
+      "language": "en",
+      "title": "She",
+      "subtitle": "A History of Adventure",
+      "author": "henry-rider-haggard",
+      "authorName": "H. Rider Haggard",
+      "contributors": [],
+      "series": "bernstein",
+      "series_label": "AMBER SERIES",
+      "series_number": 3,
+      "series_number_note": "Zaehlung nach den Nachbarbaenden (Allan Quatermain 2, Ayesha 4, Nada 5); im Buch steht keine Bandangabe (Reihenbindung 08.10.) - auf der Website nicht als Bandnummer zeigen, wenn die anderen Baende es nicht tun.",
+      "original_publication_year": 1887,
+      "first_edition": {
+        "publisher": "Longmans, Green, and Co.",
+        "place": "London",
+        "year": 1887
+      },
+      "isbn": {
+        "paperback": "978-3-67605-080-7",
+        "hardcover": "978-3-67605-081-4",
+        "ebook": "978-3-67605-079-1"
+      },
+      "formats": {},
+      "description": {
+        "short": "For more than two thousand years, the secret has endured.",
+        "long": "For more than two thousand years, the secret has endured.\n\nA fragment of ancient pottery, inscribed with the testimony of a woman long dead, carries across the centuries a command that no generation of her descendants has dared to fulfil. When the scholar Horace Holly and his young ward, Leo Vincey, inherit this extraordinary relic, they discover the traces of a history reaching back to the forgotten kingdoms of antiquity, to a forbidden love, and to a mysterious woman whose existence appears to defy the laws of mortal life.\n\nTheir search leads them towards the remote interior of Africa, beyond treacherous waters and hostile wilderness, into the dominion of the Amahagger and the immense sepulchral ruins of Kôr, where the monuments of a vanished civilisation stand in solemn witness to the destruction of all earthly greatness.\n\nYet among these relics of a dead world there reigns a sovereign who has outlived the kingdoms of men.\n\nAyesha, She-who-must-be-obeyed, commands with an authority before which warriors tremble and learned men find their knowledge unequal to the mystery confronting them. Possessed of incomparable beauty, formidable intelligence and memories extending across the ages, she has awaited the fulfilment of an ancient destiny while generations have risen and perished beyond the boundaries of her hidden realm.\n\nAnd somewhere beneath the mountains burns the mysterious Fire of Life, before whose terrible promise the distinction between mortality and eternity itself appears uncertain.\n\nFirst published in book form in 1887, She stands among the supreme imaginative achievements of Victorian literature: a magnificent romance of lost civilisations, immortal love, sovereign power and the everlasting mysteries of antiquity."
+      },
+      "cover": "/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+      "publication_date": "2026-10-12",
+      "pricing": {},
+      "availability": "AVAILABLE",
+      "status_line": "Live",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "amazon": "NOT_BUILT",
+        "ingram": "FREIGEGEBEN",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "url": "/books/en-h-rider-haggard-she/",
+      "authorUrl": "/authors/henry-rider-haggard/",
+      "legacy": {
+        "modal": {
+          "sample": "For more than two thousand years, the secret has endured.\n\nA fragment of ancient pottery, inscribed with the testimony of a woman long dead, carries across the centuries a command that no generation of her descendants has dared to fulfil. When the scholar Horace Holly and his young ward, Leo Vincey, inherit this extraordinary relic, they discover the traces of a history reaching back to the forgotten kingdoms of antiquity, to a forbidden love, and to a mysterious woman whose existence appears to defy the laws of mortal life.\n\nTheir search leads them towards the remote interior of Africa, beyond treacherous waters and hostile wilderness, into the dominion of the Amahagger and the immense sepulchral ruins of Kôr, where the monuments of a vanished civilisation stand in solemn witness to the destruction of all earthly greatness.\n\nYet among these relics of a dead world there reigns a sovereign who has outlived the kingdoms of men.\n\nAyesha, She-who-must-be-obeyed, commands with an authority before which warriors tremble and learned men find their knowledge unequal to the mystery confronting them. Possessed of incomparable beauty, formidable intelligence and memories extending across the ages, she has awaited the fulfilment of an ancient destiny while generations have risen and perished beyond the boundaries of her hidden realm.\n\nAnd somewhere beneath the mountains burns the mysterious Fire of Life, before whose terrible promise the distinction between mortality and eternity itself appears uncertain.\n\nFirst published in book form in 1887, She stands among the supreme imaginative achievements of Victorian literature: a magnificent romance of lost civilisations, immortal love, sovereign power and the everlasting mysteries of antiquity.",
+          "metadata": "This AETERNUS edition follows the first Longmans book edition of 1887, preserving the original documentary framework and the facsimiles of the Sherd of Amenartas."
+        }
+      },
+      "provenance": "HRH_005 06_PARATEXT/EN/01_BACK_COVER_COPY_EN_V3.md (Verlegerlieferung 12.10.2026, sieben Absaetze wortgleich) im Stand des freigegebenen Taschenbuchumschlags + UPLOADPAKET_V8_EN_INGRAM_EBOOK_20261012",
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-080-7",
+          "pages": 430,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-081-4",
+          "pages": 430,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-079-1",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        }
+      ],
+      "publisherDescriptionHTML": "<ul><li>Complete 1887 Longmans first-edition text, checked against the page images</li><li>Fourteen scenes newly drawn after the Graphic serial illustrations of 1886–87</li><li>Facsimiles of the Sherd of Amenartas from the 1887 edition</li><li>Publisher’s note, author profile and afterword</li><li>Every departure from the 1887 printing listed at the end of the book</li></ul><p>For more than two thousand years, the secret has endured.</p><p>A fragment of ancient pottery, inscribed with the testimony of a woman long dead, carries across the centuries a command that no generation of her descendants has dared to fulfil. When the scholar Horace Holly and his young ward, Leo Vincey, inherit this extraordinary relic, they discover the traces of a history reaching back to the forgotten kingdoms of antiquity, to a forbidden love, and to a mysterious woman whose existence appears to defy the laws of mortal life.</p><p>Their search leads them towards the remote interior of Africa, beyond treacherous waters and hostile wilderness, into the dominion of the Amahagger and the immense sepulchral ruins of Kôr, where the monuments of a vanished civilisation stand in solemn witness to the destruction of all earthly greatness.</p><p>Yet among these relics of a dead world there reigns a sovereign who has outlived the kingdoms of men.</p><p>Ayesha, She-who-must-be-obeyed, commands with an authority before which warriors tremble and learned men find their knowledge unequal to the mystery confronting them. Possessed of incomparable beauty, formidable intelligence and memories extending across the ages, she has awaited the fulfilment of an ancient destiny while generations have risen and perished beyond the boundaries of her hidden realm.</p><p>And somewhere beneath the mountains burns the mysterious Fire of Life, before whose terrible promise the distinction between mortality and eternity itself appears uncertain.</p><p>First published in book form in 1887, <i>She</i> stands among the supreme imaginative achievements of Victorian literature: a magnificent romance of lost civilisations, immortal love, sovereign power and the everlasting mysteries of antiquity.</p><p>This AETERNUS edition follows the first Longmans book edition of 1887, preserving the original documentary framework and the facsimiles of the Sherd of Amenartas.</p><p>AMBER SERIES · AETERNUS</p>",
+      "original_title": "She: A History of Adventure",
+      "cardStatus": "Live",
+      "press_quote": {
+        "text": "“remarkable imaginative power”",
+        "source_lines_as_on_cover": [
+          "THE SPECTATOR, 15 JANUARY 1887"
+        ],
+        "source": "The Spectator, 15 January 1887, p. 78",
+        "reference": "From the Spectator’s review of She; in the same sentence the reviewer admits a dislike of the author’s method. Use the three words only, as on the cover.",
+        "beleg": "HRH005_EN_REIHE_20261008/BELEGE_PARATEXT_20261012/spectator_18870115_she_zitat.png (Seitenbild) und OCR-Auszug daneben"
+      },
+      "backcover": "/assets/images/backcover-hrh005-en-ingram-v8-20261012.jpg",
+      "coverWebp": "/assets/images/cover-hrh005-en-ingram-v8-20261012.webp",
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      }
+    },
+    "press_quote": {
+      "text": "“remarkable imaginative power”",
+      "source_lines_as_on_cover": [
+        "THE SPECTATOR, 15 JANUARY 1887"
+      ],
+      "source": "The Spectator, 15 January 1887, p. 78",
+      "reference": "From the Spectator’s review of She; in the same sentence the reviewer admits a dislike of the author’s method. Use the three words only, as on the cover.",
+      "beleg": "HRH005_EN_REIHE_20261008/BELEGE_PARATEXT_20261012/spectator_18870115_she_zitat.png (Seitenbild) und OCR-Auszug daneben"
+    },
+    "closing_line": "This AETERNUS edition follows the first Longmans book edition of 1887, preserving the original documentary framework and the facsimiles of the Sherd of Amenartas.",
+    "author_page_card": {
+      "series": "AMBER",
+      "author": "H. Rider Haggard",
+      "title": "She: A History of Adventure",
+      "text": "A fragment of ancient pottery, inscribed with the testimony of a woman long dead, carries across the centuries a command that no generation of her descendants has dared to fulfil. When the scholar Horace Holly and his young ward, Leo Vincey, inherit this extraordinary relic, they discover the traces of a history reaching back to the forgotten kingdoms of antiquity, to a forbidden love, and to a mysterious woman whose existence appears to defy the laws of mortal life.",
+      "status_vor_dem_einreichen": "Coming soon",
+      "status_nach_dem_einreichen": "Submitted to IngramSpark; eProof pending.",
+      "link": "/books/en-h-rider-haggard-she/"
+    },
+    "regeln": [
+      "Only AETERNUS as the brand, only aeternuspublishing.com (Anglo-Marke).",
+      "No prices and no purchase links until IngramSpark reports the title live.",
+      "Status coming soon; no claim of availability.",
+      "No anticipation of the ending in any added text.",
+      "Press quotation only in the wording given here."
+    ],
+    "bilder": {
+      "cover-hrh005-en-ingram-v8-20261012.jpg": "6fe18a6ac9a07bf7cd9275007494072ceae8d819c1e28a91cba29a4896384950",
+      "cover-hrh005-en-ingram-v8-20261012.webp": "33ef5d95896a10aad93ddc32df56574667126128639a6db63e41be54e1f785ee",
+      "backcover-hrh005-en-ingram-v8-20261012.jpg": "caea40070cfa92711cd87548d8821668e9d3a0bf1f08af50aa498f934261fbdd"
+    },
+    "author_page_edition_block_html": ""
+  },
+  {
+    "schema": "AETERNUS_WEBSEITE_TEXTE_HRH006_EN_V1",
+    "muster": "ACD_003 09_SOCIAL_WEB_EN/WEBSITE_20261012/WEBSEITE_TEXTE.json",
+    "author_slug": "henry-rider-haggard",
+    "author_url": "https://aeternuspublishing.com/authors/henry-rider-haggard/",
+    "author_url_note": "The slug is fixed: the QR code on the last page of the printed book points here. Do not change it and do not redirect it elsewhere.",
+    "book": {
+      "id": "en-h-rider-haggard-ayesha",
+      "work_id": "HRH_006",
+      "language": "en",
+      "title": "Ayesha",
+      "subtitle": "The Return of She",
+      "author": "henry-rider-haggard",
+      "authorName": "H. Rider Haggard",
+      "contributors": [],
+      "series": "bernstein",
+      "series_label": "AMBER SERIES",
+      "series_number": 4,
+      "original_publication_year": 1905,
+      "first_edition": {
+        "publisher": "Ward, Lock & Co., Limited",
+        "place": "London",
+        "year": 1905
+      },
+      "isbn": {
+        "paperback": "978-3-67605-087-6",
+        "hardcover": "978-3-67605-088-3",
+        "ebook": "978-3-67605-086-9"
+      },
+      "formats": {},
+      "description": {
+        "short": "Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives.",
+        "long": "Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives.\n\nGuided by a mysterious vision, the two companions abandon the security of England and set forth upon an extraordinary quest across the vast interior of Asia, enduring years of privation, perilous mountain crossings and the terrible solitude of a search whose object lies beyond the boundaries of human knowledge.\n\nAt last their wandering leads them towards a forgotten kingdom among the immense mountains of Central Asia, where ancient priesthoods preserve the mysteries of forgotten gods, a formidable queen rules amid the intrigues of her court, and high above the inhabited valleys rises a sacred mountain crowned with everlasting fire.\n\nThere, behind the veil of an unknown sovereign, awaits a mystery older than the kingdoms of men.\n\nHas Ayesha truly returned? Can the soul endure when beauty, memory and the mortal body have passed away? And what terrible powers must be confronted by those who would pursue a love beyond the appointed limits of earthly existence?"
+      },
+      "cover": "/assets/images/cover-hrh006-en-ingram-v5-20261012.jpg",
+      "publication_date": "2026-10-12",
+      "pricing": {},
+      "availability": "AVAILABLE",
+      "status_line": "Live",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "amazon": "NOT_BUILT",
+        "ingram": "FREIGEGEBEN",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "url": "/books/en-h-rider-haggard-ayesha/",
+      "authorUrl": "/authors/henry-rider-haggard/",
+      "legacy": {
+        "modal": {
+          "sample": "Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives.\n\nGuided by a mysterious vision, the two companions abandon the security of England and set forth upon an extraordinary quest across the vast interior of Asia, enduring years of privation, perilous mountain crossings and the terrible solitude of a search whose object lies beyond the boundaries of human knowledge.\n\nAt last their wandering leads them towards a forgotten kingdom among the immense mountains of Central Asia, where ancient priesthoods preserve the mysteries of forgotten gods, a formidable queen rules amid the intrigues of her court, and high above the inhabited valleys rises a sacred mountain crowned with everlasting fire.\n\nThere, behind the veil of an unknown sovereign, awaits a mystery older than the kingdoms of men.\n\nHas Ayesha truly returned? Can the soul endure when beauty, memory and the mortal body have passed away? And what terrible powers must be confronted by those who would pursue a love beyond the appointed limits of earthly existence?",
+          "metadata": "This edition follows the Ward, Lock first edition of 1905, with thirty-two plates reconstructed after Maurice Greiffenhagen."
+        }
+      },
+      "provenance": "HRH_006 06_PARATEXT/EN/01_BACK_COVER_COPY_EN_V5.md (Verlegerlieferung 12.10.2026) im Stand des freigegebenen Taschenbuchumschlags (fuenf Absaetze, Verleger 12.10.) + UPLOADPAKET_V5_EN_INGRAM_EBOOK_20261012",
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-087-6",
+          "pages": 478,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-088-3",
+          "pages": 478,
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-086-9",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        }
+      ],
+      "publisherDescriptionHTML": "<ul><li>Complete text of the 1905 first edition, checked against the page images</li><li>Thirty-two plates reconstructed after Maurice Greiffenhagen’s originals</li><li>Publisher’s note, author profile and afterword</li><li>Every departure from the first edition listed at the end of the book</li></ul><p>Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives.</p><p>Guided by a mysterious vision, the two companions abandon the security of England and set forth upon an extraordinary quest across the vast interior of Asia, enduring years of privation, perilous mountain crossings and the terrible solitude of a search whose object lies beyond the boundaries of human knowledge.</p><p>At last their wandering leads them towards a forgotten kingdom among the immense mountains of Central Asia, where ancient priesthoods preserve the mysteries of forgotten gods, a formidable queen rules amid the intrigues of her court, and high above the inhabited valleys rises a sacred mountain crowned with everlasting fire.</p><p>There, behind the veil of an unknown sovereign, awaits a mystery older than the kingdoms of men.</p><p>Has Ayesha truly returned? Can the soul endure when beauty, memory and the mortal body have passed away? And what terrible powers must be confronted by those who would pursue a love beyond the appointed limits of earthly existence?</p><p>In Ayesha: The Return of She, H. Rider Haggard resumes one of the most magnificent romances of English literature, carrying the legend of She-who-must-be-obeyed into a world of towering mountains, ancient sanctuaries, rival sovereignties and supernatural splendour. First published in 1905, this extraordinary continuation of <i>She</i> unites the heroic endurance of exploration with a profound and mysterious vision of love, destiny and eternity.</p><p>This AETERNUS edition follows the first Ward, Lock & Co. book edition of 1905, with thirty-two illustrations newly reconstructed after the original plates by Maurice Greiffenhagen.</p><p>AMBER SERIES · AETERNUS</p>",
+      "original_title": "Ayesha: The Return of She",
+      "cardStatus": "Live",
+      "press_quote": {
+        "text": "“a convincing air of reality”",
+        "source_lines_as_on_cover": [
+          "THE SPECTATOR, 18 DECEMBER 1926"
+        ],
+        "source": "The Spectator, 18 December 1926",
+        "reference": "From a retrospective notice of Haggard’s romances; the cover gives source and date only.",
+        "beleg": "02_WERKE/HRH_006_AYESHA_1905/06_PARATEXT/EN/BELEGE_20261012/BELEGE.json (mit Ausschnitt des Abdrucks)"
+      },
+      "backcover": "/assets/images/backcover-hrh006-en-ingram-v5-20261012.jpg",
+      "coverWebp": "/assets/images/cover-hrh006-en-ingram-v5-20261012.webp",
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      }
+    },
+    "press_quote": {
+      "text": "“a convincing air of reality”",
+      "source_lines_as_on_cover": [
+        "THE SPECTATOR, 18 DECEMBER 1926"
+      ],
+      "source": "The Spectator, 18 December 1926",
+      "reference": "From a retrospective notice of Haggard’s romances; the cover gives source and date only.",
+      "beleg": "02_WERKE/HRH_006_AYESHA_1905/06_PARATEXT/EN/BELEGE_20261012/BELEGE.json (mit Ausschnitt des Abdrucks)"
+    },
+    "closing_line": "This edition follows the Ward, Lock first edition of 1905, with thirty-two plates reconstructed after Maurice Greiffenhagen.",
+    "author_page_card": {
+      "series": "AMBER",
+      "author": "H. Rider Haggard",
+      "title": "Ayesha: The Return of She",
+      "text": "Guided by a mysterious vision, the two companions abandon the security of England and set forth upon an extraordinary quest across the vast interior of Asia, enduring years of privation, perilous mountain crossings and the terrible solitude of a search whose object lies beyond the boundaries of human knowledge.",
+      "status_vor_dem_einreichen": "Coming soon",
+      "status_nach_dem_einreichen": "Submitted to IngramSpark; eProof pending.",
+      "link": "/books/en-h-rider-haggard-ayesha/"
+    },
+    "regeln": [
+      "Only AETERNUS as the brand, only aeternuspublishing.com (Anglo-Marke).",
+      "No prices and no purchase links until IngramSpark reports the title live.",
+      "Status coming soon; no claim of availability.",
+      "No anticipation of the ending in any added text.",
+      "Press quotation only in the wording given here."
+    ],
+    "bilder": {
+      "cover-hrh006-en-ingram-v5-20261012.jpg": "76c0de8a3e35342326e49fefc307fbda885812ed11b9bd661527e435e8d907d2",
+      "cover-hrh006-en-ingram-v5-20261012.webp": "6e9d367cc14f7266272b846abfa556477f7b0b8e5e5ba49e2a9a299cbe39877f",
+      "backcover-hrh006-en-ingram-v5-20261012.jpg": "dcb2cc06c77468e6d058d3baabf8b380cdf1e107f3ec9115c18708f65933543c"
+    },
+    "author_page_edition_block_html": ""
+  }
+]

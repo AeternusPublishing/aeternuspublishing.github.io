@@ -1,0 +1,119 @@
+{
+  "author": {
+    "slug": "melliss",
+    "name": "Charles John Melliss",
+    "dates": "1862–1936",
+    "eyebrow": "GREEN SERIES · AETERNUS",
+    "tagline": "",
+    "intro": "",
+    "metaDescription": "Across the Gulf of Aden from Arabia lay a country of thorn, dry river-beds and waterless distance. From Berbera, Captain Charles John Melliss of the 9th Bombay Infantry went up-country towards the Haud with ten camels, twelve Somali men, two donkeys, an Abyssinian pony and provisions for two months, in search of lion; the closing chapters follow him on horseback, spear in hand, after the African wart-hog.",
+    "brandOnly": true,
+    "portrait": {
+      "modern": true,
+      "file": "author-melliss-v2-20261015",
+      "alt": "Charles John Melliss"
+    },
+    "publisherPortrait": "/assets/images/author-melliss-v2-20261015.jpg",
+    "publisherPortraitCaption": "Major-General Sir Charles John Melliss, V.C., K.C.B., K.C.M.G.\nborn 12 September 1862 at Mhow, Central India\ndied 6 June 1936 at Camberley, Surrey\nphotographed by Elliott & Fry, London, before 1904",
+    "publisherAuthorHTML": "<p>MAJOR-GENERAL SIR CHARLES JOHN MELLISS<br>V.C. · K.C.B. · K.C.M.G.</p><p><em>In 1895</em><br>CAPTAIN C. J. MELLISS<br>9TH BOMBAY INFANTRY</p><p>Charles John Melliss was born at Mhow, in Central India, on 12 September 1862, into the military world of British India. He was educated at Wellington College and the Royal Military College, Sandhurst, was commissioned into the East Yorkshire Regiment in 1882 and transferred to the Indian Army two years later.</p><p>When <em>Lion-Hunting in Somali-land</em> appeared in 1895 he was a captain in the 9th Bombay Infantry, and it is in that rank that the title page of this edition presents him; the general’s rank, the knighthoods and the Victoria Cross lay in the future. Active service followed almost at once, in East Africa during the M’Wele operations of 1895–96 and on the North-West Frontier in the Kurram Valley and Tirah operations of 1897–98.</p><p>In May 1899, bound for West Africa in the steamer <em>Sokoto</em>, he went overboard off Cape Coast Castle after a member of the crew who had fallen into water known for its sharks, and received the bronze medal of the Royal Humane Society. His diary recorded the matter with characteristic dryness: had he not had the constant idea of sharks in his mind, he wrote, he should not have minded the thing a bit.</p><p>In the Ashanti campaign of 1900 he served with the West African Frontier Force. At Obassa on 30 September, seeing the enemy gather to stand in the bush, he collected such men as were at hand and led them in a charge into the thick cover. In the hand-to-hand fighting that followed he ran one opponent through with his sword and was shot through the foot by another, but the rush broke the enemy’s position. His Victoria Cross was gazetted on 15 January 1901.</p><p>The sporting life exacted its own price in East Africa in 1903, when a lion mauled him so severely that he nearly lost an arm. Promoted lieutenant-colonel in 1906, he commanded the 53rd Sikhs (Frontier Force) until January 1910, a regiment to which he remained attached for the rest of his life and which served in the Zakka Khel operations of 1908; he afterwards held brigade command and was promoted major-general in 1912.</p><p>In October 1914 he was given the newly formed 30th Indian Brigade and took it to Mesopotamia. In April 1915 he assumed command at Shaiba, where an Ottoman attack upon the Basra position was met and driven from the field; he fought afterwards on the Euphrates at Nasiriyah and at Ctesiphon, was appointed K.C.B. in October 1915, and shared the siege of Kut-al-Amara until its surrender on 29 April 1916.</p><p>Captivity revealed the side of his character that the men remembered longest. On the road north he found British and Indian soldiers left behind by the prisoner columns, sick and starving, and did what his rank still allowed to help them; from Broussa in August 1917 he wrote to the Secretary of State for War that it was beyond his powers of description to convey what he had seen. He was appointed K.C.M.G. in August 1918 for services in Mesopotamia, came home at the end of the war, retired from the Indian Army in 1920 and was honorary colonel of the 53rd Sikhs until 1934. He died at Camberley, Surrey, on 6 June 1936.</p><p>The young captain who wrote <em>Lion-Hunting in Somali-land</em> could know none of this. The reader, who does, will find that the knowledge lends the plain confidence of these pages an unusual afterlife.</p>",
+    "publisherAuthorSource": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CJM_CHARLES_JOHN_MELLISS\\02_WERKE\\CJM_001_LION_HUNTING_IN_SOMALI_LAND_1895\\05_PARATEXT\\PARATEXT_V3_20261016\\paratext_en_v3.py",
+    "blocks": []
+  },
+  "book": {
+    "id": "en-melliss-lion-hunting-in-somali-land-annotated",
+    "work_id": "CJM_001",
+    "language": "en",
+    "title": "Lion-Hunting in Somali-land (Annotated)",
+    "subtitle": "Also an Account of “Pigsticking” the African Wart-Hog",
+    "author": "melliss",
+    "authorName": "Charles John Melliss",
+    "contributors": [],
+    "series": "gruen",
+    "series_number": null,
+    "original_title": "Lion-Hunting in Somali-land",
+    "original_publication_year": 1895,
+    "isbn": {
+      "paperback": "978-3-67605-202-3",
+      "hardcover": "978-3-67605-203-0",
+      "ebook": "978-3-67605-204-7"
+    },
+    "formats": {
+      "paperback": {
+        "label": "Paperback",
+        "isbn": "978-3-67605-202-3",
+        "price_display": "US list price $14.99",
+        "links": []
+      },
+      "hardcover": {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-203-0",
+        "price_display": "US list price $24.99",
+        "links": []
+      },
+      "ebook": {
+        "label": "E-Book",
+        "isbn": "978-3-67605-204-7",
+        "price_display": "US list price $7.99",
+        "links": []
+      }
+    },
+    "description": {
+      "short": "Across the Gulf of Aden from Arabia lay a country of thorn, dry river-beds and waterless distance. From Berbera, Captain Charles John Melliss of the 9th Bombay Infantry went up-country towards the Haud with ten camels, twelve Somali men, two donkeys, an Abyssinian pony and provisions for two months, in search of lion; the closing chapters follow him on horseback, spear in hand, after the African wart-hog.",
+      "long": "Across the Gulf of Aden from Arabia lay a country of thorn, dry river-beds and waterless distance. From Berbera, Captain Charles John Melliss of the 9th Bombay Infantry went up-country towards the Haud with ten camels, twelve Somali men, two donkeys, an Abyssinian pony and provisions for two months, in search of lion; the closing chapters follow him on horseback, spear in hand, after the African wart-hog.\n\nFive years later Melliss won the Victoria Cross in Ashanti. He went on to command the 53rd Sikhs (Frontier Force), to fight at Shaiba and to share the siege and captivity of Kut.\n\nHere he is still Captain Melliss, and somewhere ahead in the thorn the spoor is fresh."
+    },
+    "cover": "/assets/images/cover-cjm001-en-v5-20261018.jpg",
+    "coverWebp": "/assets/images/cover-cjm001-en-v5-20261018.webp",
+    "publication_date": "2026-10-22",
+    "pricing": {},
+    "availability": "COMING_SOON",
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "own_shop": "NOT_CONFIGURED",
+      "amazon": "UNKNOWN",
+      "ingram": "UNKNOWN"
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-melliss-lion-hunting-in-somali-land-annotated/",
+    "authorUrl": "/authors/melliss/",
+    "seriesName": "Green Series",
+    "seriesColor": "#2d4a22",
+    "legacy": {
+      "modal": {
+        "metadata": "GREEN SERIES · AETERNUS",
+        "sample": "Across the Gulf of Aden from Arabia lay a country of thorn, dry river-beds and waterless distance. From Berbera, Captain Charles John Melliss of the 9th Bombay Infantry went up-country towards the Haud with ten camels, twelve Somali men, two donkeys, an Abyssinian pony and provisions for two months, in search of lion; the closing chapters follow him on horseback, spear in hand, after the African wart-hog."
+      }
+    },
+    "retailer_formats": [
+      {
+        "label": "Paperback",
+        "isbn": "978-3-67605-202-3",
+        "price_display": "US list price $14.99",
+        "links": []
+      },
+      {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-203-0",
+        "price_display": "US list price $24.99",
+        "links": []
+      },
+      {
+        "label": "E-Book",
+        "isbn": "978-3-67605-204-7",
+        "price_display": "US list price $7.99",
+        "links": []
+      }
+    ],
+    "publisherDescriptionHTML": "<ul><li>Complete text of the first edition of 1895, word for word</li><li>Nine drawings by Cecil Aldin and photographs by the author</li><li>Publisher’s Foreword, Historical Introduction and Afterword</li><li>The Somali Caravan and The Country and the Game</li><li>The Soldier after the Hunter, Honours of a Soldier, Historical Note</li><li>Glossary and Note on This Edition</li></ul><p>Across the Gulf of Aden from Arabia lay a country of thorn, dry river-beds and waterless distance. From Berbera, Captain Charles John Melliss of the 9th Bombay Infantry went up-country towards the Haud with ten camels, twelve Somali men, two donkeys, an Abyssinian pony and provisions for two months, in search of lion; the closing chapters follow him on horseback, spear in hand, after the African wart-hog.</p><p>Five years later Melliss won the Victoria Cross in Ashanti. He went on to command the 53rd Sikhs (Frontier Force), to fight at Shaiba and to share the siege and captivity of Kut.</p><p>Here he is still Captain Melliss, and somewhere ahead in the thorn the spoor is fresh.</p>",
+    "forthcoming_label": "Forthcoming · 22 October 2026",
+    "cardStatus": "Forthcoming · 22 October 2026",
+    "brandOnly": true,
+    "provenance": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CJM_CHARLES_JOHN_MELLISS\\02_WERKE\\CJM_001_LION_HUNTING_IN_SOMALI_LAND_1895\\09_HANDEL\\UPLOADPAKET_CJM001_EN_KDP_V4\\METADATEN"
+  }
+}

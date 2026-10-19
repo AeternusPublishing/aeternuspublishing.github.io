@@ -1,0 +1,95 @@
+{
+  "id": "en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
+  "work_id": "GRG_001",
+  "language": "en",
+  "title": "Sale’s Brigade in Afghanistan (Illustrated)",
+  "subtitle": "With an Account of the Seizure and Defence of Jellalabad",
+  "author": "george-robert-gleig",
+  "authorName": "George Robert Gleig",
+  "series": "gruen",
+  "seriesName": "GREEN SERIES",
+  "seriesColor": "#27342D",
+  "original_title": "Sale’s Brigade in Afghanistan",
+  "original_publication_year": 1846,
+  "series_number": null,
+  "contributors": [],
+  "isbn": {
+    "paperback": "978-3-67605-166-8",
+    "hardcover": "978-3-67605-167-5",
+    "ebook": null
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback",
+      "price_display": "USD 15.99 · GBP 13.99 · EUR 14.99"
+    },
+    "hardcover": {
+      "label": "Hardcover",
+      "price_display": "USD 26.99 · GBP 23.99 · EUR 25.99"
+    },
+    "ebook": null
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback",
+      "isbn": "978-3-67605-166-8",
+      "pages": 268,
+      "price_display": "USD 15.99 · GBP 13.99 · EUR 14.99",
+      "links": [],
+      "status": "EINGEREICHT"
+    },
+    {
+      "label": "Hardcover",
+      "isbn": "978-3-67605-167-5",
+      "pages": 268,
+      "price_display": "USD 26.99 · GBP 23.99 · EUR 25.99",
+      "links": [],
+      "status": "EINGEREICHT"
+    }
+  ],
+  "description": {
+    "short": "In the winter of 1841, the British position in Afghanistan was collapsing. At Jellalabad, Sir Robert Sale and his brigade held their ground. Gleig’s complete text of the 1846 first edition in gently refreshed English, with sixteen plates and a publisher’s apparatus.",
+    "long": "  Complete text of the 1846 first edition in gently refreshed English  Sixteen plates of 1839 to 1879, with portraits of Sale and Gleig  Publisher’s foreword and afterword, author and commander profiles  Historical timeline and glossary of the First Afghan War  Note on the text listing every correction to the 1846 printing    “His operations were distinguished by the most indomitable spirit of valour, endurance, and devotedness to his country’s honour.”  — Sir Robert Peel, House of Commons, 20 February 1843  In the winter of 1841, the British position in Afghanistan was collapsing.  While revolt engulfed Kabul and the mountain passes turned against the occupying army, Major-General Sir Robert Sale fought his brigade eastward through the Ghilzai country and entered the half-ruined fortress of Jellalabad.  There, with roughly two thousand British and Indian troops, he made his stand.  The walls were broken. Supplies were short. Communications with India were uncertain. Then came the destruction of the Kabul army, the arrival of the wounded Dr William Brydon, and an earthquake that struck the fortifications themselves.  Still the garrison held.  George Robert Gleig — soldier, military historian and later Chaplain-General to the Forces — reconstructed the campaign from officers’ manuscript journals, the Orderly Books of the 13th and testimony from men connected with the operations. Published by John Murray in 1846,  Sale’s Brigade in Afghanistan  preserves one of the defining episodes of the First Afghan War.  Amid one of the Empire’s gravest disasters, Jellalabad became a name of honour.   This AETERNUS edition presents Gleig’s complete text in gently refreshed English, with the Advertisement and every document as printed.   GREEN SERIES · AETERNUS "
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1846 first edition in gently refreshed English</li><li>Sixteen plates of 1839 to 1879, with portraits of Sale and Gleig</li><li>Publisher’s foreword and afterword, author and commander profiles</li><li>Historical timeline and glossary of the First Afghan War</li><li>Note on the text listing every correction to the 1846 printing</li></ul><p><i>“His operations were distinguished by the most indomitable spirit of valour, endurance, and devotedness to his country’s honour.”</i> — Sir Robert Peel, House of Commons, 20 February 1843</p><p>In the winter of 1841, the British position in Afghanistan was collapsing.</p><p>While revolt engulfed Kabul and the mountain passes turned against the occupying army, Major-General Sir Robert Sale fought his brigade eastward through the Ghilzai country and entered the half-ruined fortress of Jellalabad.</p><p>There, with roughly two thousand British and Indian troops, he made his stand.</p><p>The walls were broken. Supplies were short. Communications with India were uncertain. Then came the destruction of the Kabul army, the arrival of the wounded Dr William Brydon, and an earthquake that struck the fortifications themselves.</p><p>Still the garrison held.</p><p>George Robert Gleig — soldier, military historian and later Chaplain-General to the Forces — reconstructed the campaign from officers’ manuscript journals, the Orderly Books of the 13th and testimony from men connected with the operations. Published by John Murray in 1846, <i>Sale’s Brigade in Afghanistan</i> preserves one of the defining episodes of the First Afghan War.</p><p>Amid one of the Empire’s gravest disasters, Jellalabad became a name of honour.</p><p><i>This AETERNUS edition presents Gleig’s complete text in gently refreshed English, with the Advertisement and every document as printed.</i></p><p>GREEN SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-grg001-en-ingram-v6-20261012.jpg",
+  "coverWebp": "/assets/images/cover-grg001-en-ingram-v6-20261012.webp",
+  "backcover": "/assets/images/backcover-grg001-en-ingram-v6-20261012.jpg",
+  "backcoverWebp": "/assets/images/backcover-grg001-en-ingram-v6-20261012.webp",
+  "publication_date": "2026-10-15",
+  "on_sale_date": "2026-10-15",
+  "availability": "COMING_SOON",
+  "cardStatus": "Forthcoming · 15 October 2026",
+  "forthcoming_label": "Paperback and hardcover forthcoming · 15 October 2026",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "EINGEREICHT",
+    "amazon": "NOT_IN_SCOPE",
+    "own_shop": "NOT_CONFIGURED",
+    "other": {}
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated/",
+  "authorUrl": "/authors/george-robert-gleig/",
+  "legacy": {
+    "modal": {
+      "metadata": "GREEN SERIES illustrated reading edition: the complete text of the first edition (London, John Murray, 1846) in gently refreshed English, with plates and a publisher’s apparatus.",
+      "sample": "In the winter of 1841, the British position in Afghanistan was collapsing. At Jellalabad, Sir Robert Sale and his brigade held their ground. Gleig’s complete text of the 1846 first edition in gently refreshed English, with sixteen plates and a publisher’s apparatus."
+    }
+  },
+  "provenance": "GRG_001_EN V6 MANIFEST 85408238c487a1c10424e3fa628a5fa8765567063ae2c8480c7c9d443279bd24; Ingram PB CSS9726799 and HC CSS9732929 submitted 12 October 2026",
+  "pricing": {
+    "USD": 15.99,
+    "GBP": 13.99,
+    "EUR": 14.99,
+    "AUD": null,
+    "CAD": null
+  }
+}

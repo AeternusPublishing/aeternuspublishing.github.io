@@ -1,0 +1,93 @@
+{
+  "author": {
+    "slug": "james-fenimore-cooper",
+    "name": "James Fenimore Cooper",
+    "dates": "1789–1851",
+    "eyebrow": "AMBER SERIES · AETERNUS",
+    "tagline": "The man who gave the American wilderness a voice",
+    "intro": "",
+    "metaDescription": "James Fenimore Cooper, creator of Natty Bumppo and The Leatherstocking Tales. The Deerslayer in two parts in the AETERNUS Amber Series.",
+    "portrait": {
+      "modern": true,
+      "file": "portrait-coo-cooper-jarvis-1822-20261008",
+      "alt": "James Fenimore Cooper, portrait by John Wesley Jarvis, 1822"
+    },
+    "blocks": [
+      {
+        "h": "About the Author",
+        "p": [
+          "James Fenimore Cooper (1789–1851) was among the first American novelists to achieve major international fame and one of the principal creators of the historical frontier romance. Raised in Cooperstown, New York, amid the living memory of early settlement, and later trained by experience at sea and service in the United States Navy, he brought to fiction an unusual command of landscape, movement, seamanship, wilderness skill and historical conflict.",
+          "His breakthrough came with The Spy in 1821. Two years later The Pioneers introduced Natty Bumppo, the hunter later known as Deerslayer, Hawkeye, Pathfinder and Leatherstocking. Cooper returned to the character across nearly two decades, ultimately creating five novels that follow Natty from youth in the forests of colonial New York to old age on the western prairie.",
+          "Few characters in American fiction have proved more durable.",
+          "Cooper’s style, plots and representation of the frontier inspired admiration, imitation, parody and fierce criticism throughout the nineteenth century and beyond. Yet the central achievement survived every quarrel. Through Leatherstocking, Chingachgook, Uncas, Magua and the immense landscapes surrounding them, Cooper helped give the American wilderness a permanent place in world literature."
+        ]
+      }
+    ],
+    "publisherEditionHTML": "<h2>The Leatherstocking Tales</h2><p>The five Leatherstocking novels are presented in the chronological order of Natty Bumppo’s life rather than in the sequence of original publication.</p><p>This arrangement reveals the complete dramatic movement of the cycle:</p><p>from youth to age,<br>from forest to settlement,<br>from initiation to memory,<br>from the first war-path to the final trail.</p><p>The reader therefore encounters Leatherstocking not as Cooper’s first readers did, but as a single life unfolding across five acts.</p><ul><li>I — The Deerslayer</li><li>II — The Last of the Mohicans</li><li>III — The Pathfinder</li><li>IV — The Pioneers</li><li>V — The Prairie</li></ul><p>Volume I, The Deerslayer, is forthcoming in two parts.</p>",
+    "publisherPortraitCaption": "Portrait by John Wesley Jarvis, 1822."
+  },
+  "book": {
+    "id": "en-james-fenimore-cooper-the-deerslayer",
+    "work_id": "COO_001",
+    "language": "en",
+    "title": "The Deerslayer",
+    "subtitle": "or, The First War-Path",
+    "author": "james-fenimore-cooper",
+    "authorName": "James Fenimore Cooper",
+    "contributors": [],
+    "series": "bernstein",
+    "series_number": null,
+    "original_title": "The Deerslayer; or, The First War-Path",
+    "original_publication_year": 1841,
+    "isbn": {
+      "hardcover": "978-3-67605-158-3"
+    },
+    "formats": {},
+    "description": {
+      "short": "The Deerslayer was the last of the five Leatherstocking novels Cooper wrote, yet it stands first in the life of Natty Bumppo. The aged creator returned to the youth of the man whom he had first imagined in old age and placed him once more beside the waters of Otsego Lake.",
+      "long": "There was a time before the roads.\n\nBefore the surveyor’s chain crossed the valley, before the axe had opened the first clearing, before the courthouse, the mill, the village street and the boundary stone had imposed their geometry upon the continent, there stood the forest.\n\nAnd through that forest walked men who belonged wholly neither to settlement nor to wilderness.\n\nOf them, one endured.\n\nHis name was Natty Bumppo.\n\nThere is a peculiar solemnity in approaching the beginning of a legend after already knowing its end.\n\nThe Deerslayer was the last of the five Leatherstocking novels Cooper wrote, yet it stands first in the life of Natty Bumppo. The aged creator returned to the youth of the man whom he had first imagined in old age and placed him once more beside the waters of Otsego Lake.\n\nNothing has yet become inevitable.\n\nThe settlement is distant.\n\nThe great inland forest remains sovereign.\n\nNatty has skill but not fame, principles but not legend, a rifle but not yet the burden of all the deaths that will follow.\n\nThe title itself marks initiation.\n\nDeerslayer is a hunter’s name.\n\nNot yet a warrior’s."
+    },
+    "cover": "/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
+    "publication_date": null,
+    "pricing": {},
+    "availability": "COMING_SOON",
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "amazon": "GEBAUT",
+      "ingram": "GEBAUT",
+      "own_shop": "NOT_CONFIGURED"
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-james-fenimore-cooper-the-deerslayer/",
+    "authorUrl": "/authors/james-fenimore-cooper/",
+    "legacy": {
+      "modal": {
+        "sample": "There was a time before the roads.\n\nBefore the surveyor’s chain crossed the valley, before the axe had opened the first clearing, before the courthouse, the mill, the village street and the boundary stone had imposed their geometry upon the continent, there stood the forest.\n\nAnd through that forest walked men who belonged wholly neither to settlement nor to wilderness.\n\nOf them, one endured.\n\nHis name was Natty Bumppo.\n\nThere is a peculiar solemnity in approaching the beginning of a legend after already knowing its end.\n\nThe Deerslayer was the last of the five Leatherstocking novels Cooper wrote, yet it stands first in the life of Natty Bumppo. The aged creator returned to the youth of the man whom he had first imagined in old age and placed him once more beside the waters of Otsego Lake.\n\nNothing has yet become inevitable.\n\nThe settlement is distant.\n\nThe great inland forest remains sovereign.\n\nNatty has skill but not fame, principles but not legend, a rifle but not yet the burden of all the deaths that will follow.\n\nThe title itself marks initiation.\n\nDeerslayer is a hunter’s name.\n\nNot yet a warrior’s.",
+        "metadata": "AMBER SERIES reading edition: the text of the Household Edition of Houghton, Mifflin (copyright 1876), in two hardcover parts, with eighteen plates reconstructed for this edition."
+      }
+    },
+    "provenance": "COO_001/EN_MASTER/05_PARATEXT/VERLEGER_PARATEXTE_LEATHERSTOCKING_EN_GELIEFERT_20261003.md (Short Author Note, Editorial Note, Series Page, Before the First War-Path) + ABOUT_THIS_EDITION_COO001_EN_V1.md + 07_EXPORT_EN/DRUCKSTAND_20261008_HC",
+    "retailer_formats": [
+      {
+        "label": "Hardcover · Part One",
+        "isbn": "978-3-67605-158-3",
+        "links": [],
+        "status": "GEBAUT"
+      },
+      {
+        "label": "Hardcover · Part Two",
+        "isbn": "978-3-67605-159-0",
+        "links": [],
+        "status": "GEBAUT"
+      }
+    ],
+    "publisherDescriptionHTML": "<ul><li>Complete text of the Household Edition (Houghton, Mifflin; copyright 1876)</li><li>Two hardcover parts: Chapters I–XVI and Chapters XVII–XXXII</li><li>Eighteen plates reconstructed for this edition, nine in each part</li><li>Susan Fenimore Cooper’s Introduction and her Notes A–P</li><li>Publisher’s foreword, author portrait and a glossary in each part</li></ul><p>There was a time before the roads.</p><p>Before the surveyor’s chain crossed the valley, before the axe had opened the first clearing, before the courthouse, the mill, the village street and the boundary stone had imposed their geometry upon the continent, there stood the forest.</p><p>And through that forest walked men who belonged wholly neither to settlement nor to wilderness.</p><p>Of them, one endured.</p><p>His name was Natty Bumppo.</p><p>There is a peculiar solemnity in approaching the beginning of a legend after already knowing its end.</p><p>The Deerslayer was the last of the five Leatherstocking novels Cooper wrote, yet it stands first in the life of Natty Bumppo. The aged creator returned to the youth of the man whom he had first imagined in old age and placed him once more beside the waters of Otsego Lake.</p><p>Nothing has yet become inevitable.</p><p>The settlement is distant.</p><p>The great inland forest remains sovereign.</p><p>Natty has skill but not fame, principles but not legend, a rifle but not yet the burden of all the deaths that will follow.</p><p>The title itself marks initiation.</p><p>Deerslayer is a hunter’s name.</p><p>Not yet a warrior’s.</p>"
+  }
+}

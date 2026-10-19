@@ -1,0 +1,104 @@
+{
+ "schema": "AETERNUS_WEBSEITE_TEXTE_ACD003_EN_V1",
+ "muster": "catalog/acd-en-20261008.json (The Lost World) im Website-Bestand",
+ "author_slug": "arthur-conan-doyle",
+ "author_url": "https://aeternuspublishing.com/authors/arthur-conan-doyle/",
+ "author_url_note": "The slug is fixed: the QR code on the last page of the printed book points here. Do not change it and do not redirect it elsewhere.",
+ "book": {
+  "id": "en-arthur-conan-doyle-sir-nigel",
+  "work_id": "ACD_003",
+  "language": "en",
+  "title": "Sir Nigel",
+  "subtitle": "",
+  "author": "arthur-conan-doyle",
+  "authorName": "Arthur Conan Doyle",
+  "contributors": [],
+  "series": "bernstein",
+  "series_number": null,
+  "original_publication_year": 1906,
+  "isbn": {
+   "paperback": "978-3-67605-169-9",
+   "hardcover": "978-3-67605-170-5"
+  },
+  "formats": {},
+  "description": {
+   "short": "England, 1349. The Black Death has passed across the land, old fortunes have fallen, and beyond the Channel the long war with France waits to begin again.",
+   "long": "Before he became a legend, he had to become a knight.\n\nEngland, 1349. The Black Death has passed across the land, old fortunes have fallen, and beyond the Channel the long war with France waits to begin again.\n\nNigel Loring is the young heir of an ancient fighting family: poor in possessions, rich in lineage and determined that the honour of his fathers shall not end with him. When he enters the service of the great Sir John Chandos and the court of Edward III, the world he has long desired finally opens before him.\n\nBefore leaving England, Nigel swears to accomplish three deeds worthy of the woman he loves.\n\nHis road leads through the martial world of the Hundred Years’ War: royal courts and outlaw roads, sea battle and siege, Brittany and France, English archers and armoured men-at-arms, Edward III, the Black Prince and the captains whose names passed into military history.\n\nWritten as the prequel to The White Company, Arthur Conan Doyle’s Sir Nigel was one of the historical novels of which its author was most proud. Doyle researched the age extensively and deliberately refused to soften its contradictions: the splendour of chivalry stands beside physical hardship, private violence and the terrible intimacy of medieval war."
+  },
+  "cover": "/assets/images/cover-acd003-en-ingram-v2-20261011.jpg",
+  "publication_date": null,
+  "pricing": {},
+  "availability": "COMING_SOON",
+  "links": {
+   "shop": null,
+   "amazon": null,
+   "ingram": null
+  },
+  "distribution_status": {
+   "amazon": "NOT_BUILT",
+   "ingram": "FREIGEGEBEN",
+   "own_shop": "NOT_CONFIGURED"
+  },
+  "commerce": {
+   "shopify_product_id": null,
+   "shopify_handle": null
+  },
+  "url": "/books/en-arthur-conan-doyle-sir-nigel/",
+  "authorUrl": "/authors/arthur-conan-doyle/",
+  "legacy": {
+   "modal": {
+    "sample": "Before he became a legend, he had to become a knight.\n\nEngland, 1349. The Black Death has passed across the land, old fortunes have fallen, and beyond the Channel the long war with France waits to begin again.\n\nNigel Loring is the young heir of an ancient fighting family: poor in possessions, rich in lineage and determined that the honour of his fathers shall not end with him. When he enters the service of the great Sir John Chandos and the court of Edward III, the world he has long desired finally opens before him.\n\nBefore leaving England, Nigel swears to accomplish three deeds worthy of the woman he loves.\n\nHis road leads through the martial world of the Hundred Years’ War: royal courts and outlaw roads, sea battle and siege, Brittany and France, English archers and armoured men-at-arms, Edward III, the Black Prince and the captains whose names passed into military history.\n\nWritten as the prequel to The White Company, Arthur Conan Doyle’s Sir Nigel was one of the historical novels of which its author was most proud. Doyle researched the age extensively and deliberately refused to soften its contradictions: the splendour of chivalry stands beside physical hardship, private violence and the terrible intimacy of medieval war.",
+    "metadata": "AMBER SERIES annotated edition: the complete text of the first British edition (Smith, Elder & Co., London, 1906), with a publisher’s historical apparatus and the eight plates by Arthur Twidle, restored."
+   }
+  },
+  "provenance": "ACD_003/ENG/02_PARATEXTE/VERLEGERPARATEXT_V3_20261011 (shop_16, pressezitat_04) + 10_UEBERGABE/UPLOADPAKET_V3_EN_INGRAM_20261011",
+  "retailer_formats": [
+   {
+    "label": "Paperback",
+    "isbn": "978-3-67605-169-9",
+    "pages": 474,
+    "links": [],
+    "status": "FREIGEGEBEN"
+   },
+   {
+    "label": "Hardcover",
+    "isbn": "978-3-67605-170-5",
+    "pages": 474,
+    "links": [],
+    "status": "FREIGEGEBEN"
+   }
+  ],
+  "publisherDescriptionHTML": "<ul><li>Complete, unmodernised text of the first British edition, London 1906</li><li>Eight plates by Arthur Twidle from that edition, restored</li><li>Publisher’s foreword, historical introduction and afterword</li><li>Dramatis personae, historical timeline and glossary</li><li>The historical Neil Loring, author profile and note on this edition</li></ul><p><i>“Not only a spirited story, but a very carefully drawn picture of the age of chivalry.” — The Outlook, 24 November 1906</i></p><p><b>Before he became a legend, he had to become a knight.</b></p><p>England, 1349. The Black Death has passed across the land, old fortunes have fallen, and beyond the Channel the long war with France waits to begin again.</p><p>Nigel Loring is the young heir of an ancient fighting family: poor in possessions, rich in lineage and determined that the honour of his fathers shall not end with him. When he enters the service of the great Sir John Chandos and the court of Edward III, the world he has long desired finally opens before him.</p><p>Before leaving England, Nigel swears to accomplish three deeds worthy of the woman he loves.</p><p>His road leads through the martial world of the Hundred Years’ War: royal courts and outlaw roads, sea battle and siege, Brittany and France, English archers and armoured men-at-arms, Edward III, the Black Prince and the captains whose names passed into military history.</p><p>Written as the prequel to The White Company, Arthur Conan Doyle’s Sir Nigel was one of the historical novels of which its author was most proud. Doyle researched the age extensively and deliberately refused to soften its contradictions: the splendour of chivalry stands beside physical hardship, private violence and the terrible intimacy of medieval war.</p><p>AMBER SERIES · AETERNUS</p>",
+  "original_title": "Sir Nigel"
+ },
+ "press_quote": {
+  "text": "“Not only a spirited story, but a very carefully drawn picture of the age of chivalry.”",
+  "source": "The Outlook, 24 November 1906"
+ },
+ "closing_lines": [
+  "A name may be inherited.",
+  "Honour must be won."
+ ],
+ "author_page_card": {
+  "series": "AMBER",
+  "author": "Arthur Conan Doyle",
+  "title": "Sir Nigel",
+  "text": "Nigel Loring is the young heir of an ancient fighting family: poor in possessions, rich in lineage and determined that the honour of his fathers shall not end with him.",
+  "status_vor_dem_einreichen": "Forthcoming",
+  "status_nach_dem_einreichen": "Submitted to IngramSpark; eProof pending.",
+  "link": "/books/en-arthur-conan-doyle-sir-nigel/"
+ },
+ "author_page_edition_block_html": "<h2>Sir Nigel</h2><p>Forthcoming</p><blockquote><p>“Not only a spirited story, but a very carefully drawn picture of the age of chivalry.”</p><cite>The Outlook, 24 November 1906</cite></blockquote><p>England, 1349. The Black Death has passed across the land, old fortunes have fallen, and beyond the Channel the long war with France waits to begin again.</p><p>Nigel Loring is the young heir of an ancient fighting family: poor in possessions, rich in lineage and determined that the honour of his fathers shall not end with him. When he enters the service of the great Sir John Chandos and the court of Edward III, the world he has long desired finally opens before him.</p><p>Before leaving England, Nigel swears to accomplish three deeds worthy of the woman he loves.</p><p>His road leads through the martial world of the Hundred Years’ War: royal courts and outlaw roads, sea battle and siege, Brittany and France, English archers and armoured men-at-arms, Edward III, the Black Prince and the captains whose names passed into military history.</p><p>Written as the prequel to The White Company, Arthur Conan Doyle’s Sir Nigel was one of the historical novels of which its author was most proud. Doyle researched the age extensively and deliberately refused to soften its contradictions: the splendour of chivalry stands beside physical hardship, private violence and the terrible intimacy of medieval war.</p>",
+ "author_page_intro_vorschlag": "Arthur Conan Doyle wrote detective stories, historical romances and tales of scientific adventure. The White Company is presented in three illustrated English volumes; Sir Nigel, its prelude, follows in one.",
+ "author_page_meta_description_vorschlag": "Arthur Conan Doyle, creator of Sherlock Holmes and Professor Challenger. The Lost World, The White Company and Sir Nigel in the AETERNUS Amber Series.",
+ "regeln": [
+  "Only AETERNUS as the brand, only aeternuspublishing.com (Anglo-Marke).",
+  "No prices and no purchase links until IngramSpark reports the title live.",
+  "Status forthcoming / coming soon; after Submit the card line reads like The White Company: Submitted to IngramSpark; eProof pending."
+ ],
+ "bilder": {
+  "backcover-acd003-en-ingram-v2-20261011.jpg": "d2f32fd06fc0ca7b3c1b11099d44fcbe6b7f83a828d9e0bd6765bb96e02a9e69",
+  "cover-acd003-en-ingram-v2-20261011.jpg": "a56d020776aafcca9f4205467ed4dc0faa66569bb8a48d643b5a8a750c468c2d",
+  "cover-acd003-en-ingram-v2-20261011.webp": "d7b76503580b08f33a3d423c77da1f7b4119c68dab34027ba81dedf7427de2c0"
+ }
+}

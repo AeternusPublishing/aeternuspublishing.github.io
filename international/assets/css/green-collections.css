@@ -1,0 +1,28 @@
+.collection-hero{background:linear-gradient(125deg,#17271e 0%,#2d4a22 62%,#17271e 100%);color:#f5f0e4;border-bottom:3px solid #bda675}
+.collection-hero-inner{padding-block:92px 86px}
+.collection-hero h1{max-width:13ch;margin:15px 0 12px;font-size:clamp(2.7rem,6vw,5.4rem)}
+.collection-hero p{color:#e8e7da;max-width:68ch}
+.collection-hero .collection-subtitle{font-family:'Fraunces',Georgia,serif;color:#d4bf8e;font-size:clamp(1.5rem,2.6vw,2.2rem);margin:0 0 28px}
+.collection-hero-link,.collection-crumbs a{color:#e2ca93;text-underline-offset:5px}
+.collection-hero-link{display:inline-block;margin-top:18px;font-size:13px}
+.collection-crumbs{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;margin-bottom:42px;color:#d9dfd1}
+.collection-section-head{max-width:770px;margin-bottom:38px}
+.collection-section-head h2{margin:10px 0 16px}
+.collection-section-head>p:last-child{color:#5a5e54}
+.collection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.collection-panel{min-width:0;min-height:320px;padding:32px;background:#f8f6ef;border:1px solid #d4d0c4;border-top:4px solid #2d4a22;display:flex;flex-direction:column}
+.collection-panel h3{font-size:clamp(1.45rem,2.25vw,2rem);margin:18px 0 5px}
+.collection-panel p{font-size:14px}
+.collection-panel .text-link{margin-top:auto;padding-top:18px}
+.collection-summary-links{display:flex;gap:18px 30px;flex-wrap:wrap;margin-top:22px}
+.collection-paper{background:#e8e7df;border-block:1px solid #d2cfc3}
+.collection-edition-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.collection-edition-list article{min-width:0;padding:25px 0;border-top:1px solid #a9a99d}
+.collection-edition-list h3{font-size:clamp(1.3rem,2vw,1.8rem);margin:13px 0 9px}
+.collection-edition-list h3 a{text-decoration:none}
+.collection-edition-list h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+.collection-edition-list p{font-size:13px;margin:0 0 16px;color:#4f574e}
+.collection-status{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#4b6447}
+.collection-endnav{display:flex;flex-wrap:wrap;gap:26px;border-top:1px solid #d7d0c2}
+@media(max-width:850px){.collection-edition-list{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.collection-hero-inner{padding-block:58px 55px}.collection-grid,.collection-edition-list{grid-template-columns:1fr}.collection-panel{min-height:auto;padding:25px}.collection-endnav{flex-direction:column;gap:14px}}

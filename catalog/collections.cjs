@@ -9,8 +9,14 @@ const definitions = [
     url: `${greenBase}british-empire/`,
     intro: 'First-hand accounts of British campaigns, command and the people caught in the reach of empire.',
     bookIds: [
+      'en-robert-baden-powell-the-matabele-campaign-1896',
+      'en-charles-edward-callwell-the-life-of-sir-stanley-maude',
+      'en-william-robertson-from-private-to-field-marshal',
       'en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated',
       'en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated',
+      'en-george-arthur-life-of-lord-kitchener-volume-i',
+      'en-george-arthur-life-of-lord-kitchener-volume-ii',
+      'en-george-arthur-life-of-lord-kitchener-volume-iii',
       'en-henry-doveton-hutchinson-the-campaign-in-tirah',
       'en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880',
       'en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition',
@@ -43,7 +49,8 @@ const definitions = [
     intro: 'Expedition and frontier narratives already present in the Green Series, distinct from its military collections.',
     bookIds: [
       'en-francis-younghusband-the-epic-of-mount-everest-illustrated',
-      'en-grey-owl-the-men-of-the-last-frontier'
+      'en-grey-owl-the-men-of-the-last-frontier',
+      'en-melliss-lion-hunting-in-somali-land-annotated'
     ]
   }
 ];

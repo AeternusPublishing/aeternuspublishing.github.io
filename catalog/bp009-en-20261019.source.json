@@ -1,0 +1,66 @@
+{
+ "schema": "AETERNUS_WEBSEITE_TEXTE_V1",
+ "work_id": "BP_009",
+ "sprache": "en",
+ "autor": {
+  "name": "Robert Baden-Powell",
+  "slug": "robert-baden-powell",
+  "url": "https://aeternuspublishing.com/authors/robert-baden-powell/",
+  "hinweis": "Autorenseite besteht (BP_002 EN); nur Buch ergaenzen, Bio und Bildnis unveraendert lassen."
+ },
+ "buch": {
+  "titel": "The Matabele Campaign, 1896",
+  "titelfeld_handel": "The Matabele Campaign, 1896 (Illustrated)",
+  "untertitel": "Being a Narrative of the Campaign in Suppressing the Native Rising in Matabeleland and Mashonaland",
+  "reihe": "GREEN SERIES · The British Empire Collection",
+  "kicker": "The Campaign That Named the Scout",
+  "zitat": "“Incidentally I came in for a good taste of the best of all arts, sciences, or sports—‘scouting.’” Robert Baden-Powell, To the Reader, 1897",
+  "blurb": [
+   "In March 1896 the Ndebele of Matabeleland rose against the British South Africa Company. Within days the outlying settlers had been killed or driven into laagers, and Buluwayo stood besieged by its own hinterland. In June the Shona of Mashonaland followed.",
+   "London sent Major-General Sir Frederick Carrington to restore the country, and with him, as Chief Staff Officer, a cavalry officer of the 13th Hussars: Robert Baden-Powell.",
+   "For eight months Baden-Powell organised supply across hundreds of miles of rinderpest-stricken veld, scouted the granite labyrinth of the Matopos alone and by night, rode with the columns against the strongholds of the rebel chiefs, and kept, for his mother, an illustrated diary of all of it.",
+   "The Matabele Campaign, 1896 is that diary: written in the field, drawn on the spot, sometimes under fire. It is also the book in which the enemy’s name for him, “Impeesa”, first appears, and in which scouting first stands as the art he would make his own."
+  ],
+  "schluss": "This AETERNUS edition reproduces the complete text of the Methuen first edition of 1897, with all of the author’s illustrations restored from the original printings.",
+  "features": [
+   "Complete text of the Methuen first edition of 1897, word for word",
+   "All 87 illustrations of the first edition, restored",
+   "The Ground beyond the Limpopo and The Scout in the Matopos",
+   "About the Author, Regimental Register and A Note on the Text"
+  ],
+  "erstausgabe": "Methuen & Co., London, 1897",
+  "umschlag": "cover-the-matabele-campaign-1896-baden-powell-en-20261018.webp",
+  "rueckseite": "back-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg"
+ },
+ "formats": [
+  {
+   "form": "Paperback",
+   "isbn": "978-3-67605-210-8",
+   "seiten": 374,
+   "preis_usd": 16.99,
+   "plattform": "Amazon KDP und IngramSpark"
+  },
+  {
+   "form": "Hardcover",
+   "isbn": "978-3-67605-211-5",
+   "seiten": 374,
+   "preis_usd": 27.99,
+   "plattform": "Amazon KDP und IngramSpark"
+  },
+  {
+   "form": "E-Book",
+   "isbn": "978-3-67605-212-2",
+   "preis_usd": 9.99,
+   "plattform": "Kindle"
+  }
+ ],
+ "erscheinen": "2026-11-04",
+ "status": "forthcoming",
+ "instagram": {
+  "motiv": "cover-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
+  "kicker": "The Campaign That Named the Scout",
+  "kurzfassung": "In March 1896 the Ndebele of Matabeleland rose against the British South Africa Company. Within days the outlying settlers had been killed or driven into laagers, and Buluwayo stood besieged by its own hinterland. In June the Shona of Mashonaland followed. For eight months Baden-Powell organised supply across hundreds of miles of rinderpest-stricken veld, scouted the granite labyrinth of the Matopos alone and by night, rode with the columns against the strongholds of the rebel chiefs, and kept, for his mother, an illustrated diary of all of it.",
+  "verweis": "aeternuspublishing.com"
+ },
+ "grenze": "Keine Kaufverweise, bis die Plattform LIVE meldet. Nur 'AETERNUS' als Marke, nur aeternuspublishing.com."
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title | escape }} · AETERNUS</title><meta name="description" content="{{ description | escape }}">
+{% if site.preview %}<meta name="robots" content="noindex, nofollow">{% endif %}<meta name="theme-color" content="#171816">
+<link rel="canonical" href="{{ site.origin }}{{ page.url }}">
+<meta property="og:type" content="website"><meta property="og:title" content="{{ title | escape }} · AETERNUS"><meta property="og:description" content="{{ description | escape }}"><meta property="og:url" content="{{ site.origin }}{{ page.url }}"><meta property="og:site_name" content="AETERNUS"><meta property="og:locale" content="es_ES"><meta property="og:image" content="{{ site.origin }}/assets/images/es/bdd001-tomo-i-ingram-v2-20261008.webp"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/fonts.css"><link rel="stylesheet" href="/assets/css/editorial.css"><link rel="stylesheet" href="/assets/css/international.css?v=20260924-series"><link rel="stylesheet" href="/assets/css/details.css?v=20260922-portraits"><script src="/assets/js/international.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"AETERNUS","url":"https://aeternuspublishing.com"}</script>
+</head><body class="editorial-site international-site">
+{% set nav = [['Libros','/books/'],['Universo de los libros','/book-universe/'],['Colecciones','/series/'],['Autores','/authors/'],['¿Por qué AETERNUS?','/why-aeternus/'],['Tienda','/shop/']] %}
+{% set footer = [['Sobre la editorial','/about/'],['Método editorial','/editorial-method/'],['Sala de lectura','/reading-room/'],['Prensa y libreros','/press/'],['Contacto','/contact/'],['Aviso legal','/legal/'],['Privacidad','/privacy/']] %}
+<a class="skip-link" href="#main">Ir al contenido</a>
+{% if site.preview %}<div class="preview-strip">VISTA PREVIA <span>·</span> Tienda en preparación</div>{% endif %}
+<header class="masthead"><div class="shell masthead-inner"><a class="international-brand" href="/es/" aria-label="AETERNUS — inicio"><img src="/assets/images/aeternus-wordmark.svg" alt="AETERNUS" width="832" height="50"></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" hidden>Menú <span aria-hidden="true">☰</span></button><nav class="main-navigation" id="main-navigation" aria-label="Navegación principal">{% for label, url in nav %}<a href="{{ url }}">{{ label }}</a>{% endfor %}</nav></div></header>
+<main id="main">{{ content | safe }}</main>
+<footer class="colophon"><div class="shell footer-top"><div><a class="international-brand" href="/es/"><img src="/assets/images/aeternus-wordmark.svg" alt="AETERNUS" width="832" height="50" loading="lazy"></a><p>Voces históricas.<br>Ediciones independientes.</p></div><div><h2>Explorar</h2>{% for label, url in nav %}<a href="{{ url }}">{{ label }}</a>{% endfor %}</div><div><h2>La editorial</h2>{% for label, url in footer %}<a href="{{ url }}">{{ label }}</a>{% endfor %}</div></div><div class="shell footer-bottom"><span>© AETERNUS</span><a href="mailto:{{ site.email }}">{{ site.email }}</a></div></footer>
+</body></html>
