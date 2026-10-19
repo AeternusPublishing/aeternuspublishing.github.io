@@ -100,7 +100,7 @@
       },
       "author": "Robert Montgomery Bird",
       "language": "de",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-waldteufel.webp",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-waldteufel-v5-20261008.webp",
       "url": {
         "de": "https://aeternus-verlag.de/buecher/der-waldteufel/",
         "en": "https://aeternus-verlag.de/buecher/der-waldteufel/"
@@ -260,6 +260,34 @@
       }
     },
     {
+      "id": "book:de:die-rough-riders",
+      "type": "book",
+      "label": {
+        "de": "Die Rough Riders",
+        "en": "Die Rough Riders"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-rough-riders-de.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-rough-riders/",
+        "en": "https://aeternus-verlag.de/buecher/die-rough-riders/"
+      },
+      "summary": {
+        "de": "Im Frühjahr 1898 legt Theodore Roosevelt sein Amt als stellvertretender Marineminister nieder. Gemeinsam mit Leonard Wood baut er ein Freiwilligenregiment aus Cowboys, Jägern, Ranchern, Athleten und Studenten auf. Auf Kuba kämpfen die berühmten Reiter weitgehend zu Fuß. Roosevelt schildert San Antonio, Tampa, Las Guasimas und den Angriff auf Kettle Hill aus der unmittelbaren Erinnerung des Kommandeurs. Vollständige deutsche Übersetzung nach der Erstausgabe von 1899, mit allen vier Anhängen und der Musterungsrolle mit 1.349 Einträgen. Dazu Vorwort, Autorenporträt, historisches Nachwort, Anmerkungen und Glossar. Die 43 Abbildungen nach dem Erstdruck wurden digital neu aufgebaut; feine Einzelheiten wurden rekonstruiert, wodurch Abweichungen in Konturen und Oberflächen entstanden sind. Das Roosevelt-Bildnis von Charles Dana Gibson folgt der Originalzeichnung der National Portrait Gallery, Smithsonian Institution.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -75.82,
+          20.02
+        ],
+        "region": "north-america",
+        "place": "Santiago de Cuba",
+        "source": "kosmosSelection:rough-riders"
+      }
+    },
+    {
       "id": "book:de:tagebuch-der-katastrophe",
       "type": "book",
       "label": {
@@ -397,6 +425,34 @@
         "region": "north-america",
         "place": "Detroit, Michigan",
         "source": "kosmosSelection:ford"
+      }
+    },
+    {
+      "id": "book:de:lebenserinnerungen",
+      "type": "book",
+      "label": {
+        "de": "Lebenserinnerungen",
+        "en": "Lebenserinnerungen"
+      },
+      "author": "Werner von Siemens",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-siemens-lebenserinnerungen.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/lebenserinnerungen/",
+        "en": "https://aeternus-verlag.de/buecher/lebenserinnerungen/"
+      },
+      "summary": {
+        "de": "Siemens erzählt von preußischer Artillerie und Festungshaft, von ersten Experimenten, Telegraphenlinien und Kabelschiffen, vom Kaukasus und vom Atlantik, von Wissenschaftlern, Brüdern und Konkurrenten und von dem Willen, eine technische Idee erst dann als vollendet anzusehen, wenn sie in der Wirklichkeit bestand.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          13.3,
+          52.52
+        ],
+        "region": "europe",
+        "place": "Berlin-Charlottenburg",
+        "source": "kosmosSelection:siemens"
       }
     },
     {
@@ -914,6 +970,223 @@
       }
     },
     {
+      "id": "book:de:the-white-company-band-i",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band I",
+        "en": "The White Company · Band I"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-i.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-i/",
+        "en": "https://aeternus-verlag.de/buecher/the-white-company-band-i/"
+      },
+      "summary": {
+        "de": "Out of the Cloister: Alleyne Edricson verlässt Beaulieu und begegnet seinen künftigen Gefährten. Englischer Originaltext, Frontispiz, vier Bildtafeln sowie Vor- und Nachwort. Bei Ingram eingereicht; eProof ausstehend.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -1.6,
+          50.9
+        ],
+        "region": "europe",
+        "place": "Hampshire, England",
+        "source": "kosmosSelection:white-company-i"
+      }
+    },
+    {
+      "id": "book:de:the-white-company-band-ii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band II",
+        "en": "The White Company · Band II"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-ii.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-ii/",
+        "en": "https://aeternus-verlag.de/buecher/the-white-company-band-ii/"
+      },
+      "summary": {
+        "de": "Under the Banner: Die Kompanie zieht über See nach Bordeaux und tritt in die Welt des Schwarzen Prinzen. Englischer Originaltext, Frontispiz, vier Bildtafeln sowie Verlagsapparat. Bei Ingram eingereicht; eProof ausstehend.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -0.8,
+          43
+        ],
+        "region": "europe",
+        "place": "Südwestfrankreich",
+        "source": "kosmosSelection:white-company-ii"
+      }
+    },
+    {
+      "id": "book:de:the-white-company-band-iii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Band III",
+        "en": "The White Company · Band III"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-iii.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-iii/",
+        "en": "https://aeternus-verlag.de/buecher/the-white-company-band-iii/"
+      },
+      "summary": {
+        "de": "Beyond the Pyrenees: Der Weg führt in den kastilischen Feldzug und zur letzten Bewährung der Kompanie. Englischer Originaltext, Frontispiz, vier Bildtafeln und historische Essays. Bei Ingram eingereicht; eProof ausstehend.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -5.7,
+          40.4
+        ],
+        "region": "europe",
+        "place": "Kastilien, Spanien",
+        "source": "kosmosSelection:white-company-iii"
+      }
+    },
+    {
+      "id": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Sale’s Brigade in Afghanistan (Illustrated)",
+        "en": "Sale’s Brigade in Afghanistan (Illustrated)"
+      },
+      "author": "George Robert Gleig",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-grg001-en-ingram-v6-20261012.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In the winter of 1841, the British position in Afghanistan was collapsing. At Jellalabad, Sir Robert Sale and his brigade held their ground. Gleig’s complete text of the 1846 first edition in gently refreshed English, with sixteen plates and a publisher’s apparatus."
+      }
+    },
+    {
+      "id": "book:en-napoleon-augustus-jennings-a-texas-ranger-annotated",
+      "type": "book",
+      "label": {
+        "de": "A Texas Ranger",
+        "en": "A Texas Ranger"
+      },
+      "author": "Napoleon Augustus Jennings",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-napoleon-augustus-jennings-a-texas-ranger-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-napoleon-augustus-jennings-a-texas-ranger-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "There was a time when the authority of Texas traveled on horseback."
+      }
+    },
+    {
+      "id": "book:en-theodore-roosevelt-the-rough-riders-annotated",
+      "type": "book",
+      "label": {
+        "de": "The Rough Riders (Annotated)",
+        "en": "The Rough Riders (Annotated)"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-tr002-en-v1-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-rough-riders-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-rough-riders-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In 1898 Theodore Roosevelt leaves Washington for Cuba. Cowboys, ranchmen and Eastern athletes become a volunteer regiment whose brief campaign will enter American history. The complete English text of the 1899 first edition, with a new publisher’s apparatus."
+      }
+    },
+    {
+      "id": "book:en-george-arthur-life-of-lord-kitchener-volume-i",
+      "type": "book",
+      "label": {
+        "de": "Life of Lord Kitchener · Volume I",
+        "en": "Life of Lord Kitchener · Volume I"
+      },
+      "author": "Sir George Arthur",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-life-of-lord-kitchener-volume-i-front.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-i/",
+        "en": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-i/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Life of Lord Kitchener, Volume I. Complete text of the first London edition of 1920, unabridged. AETERNUS Green Series hardcover."
+      }
+    },
+    {
+      "id": "book:en-george-arthur-life-of-lord-kitchener-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "Life of Lord Kitchener · Volume II",
+        "en": "Life of Lord Kitchener · Volume II"
+      },
+      "author": "Sir George Arthur",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-life-of-lord-kitchener-volume-ii-front.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Life of Lord Kitchener, Volume II. Complete text of the first London edition of 1920, unabridged. AETERNUS Green Series hardcover."
+      }
+    },
+    {
+      "id": "book:en-george-arthur-life-of-lord-kitchener-volume-iii",
+      "type": "book",
+      "label": {
+        "de": "Life of Lord Kitchener · Volume III",
+        "en": "Life of Lord Kitchener · Volume III"
+      },
+      "author": "Sir George Arthur",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-life-of-lord-kitchener-volume-iii-front.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-iii/",
+        "en": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-iii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Life of Lord Kitchener, Volume III. Complete text of the first London edition of 1920, unabridged. AETERNUS Green Series hardcover."
+      }
+    },
+    {
+      "id": "book:en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated",
+      "type": "book",
+      "label": {
+        "de": "My Campaign in Mesopotamia (Annotated)",
+        "en": "My Campaign in Mesopotamia (Annotated)"
+      },
+      "author": "Charles Vere Ferrers Townshend",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The road to Baghdad ran north through heat, marsh, dust and the winding course of the Tigris. Along it advanced the 6th (Poona) Division of the Indian Army under Major-General Sir Charles Townshend: British and Indian regiments moving farther from their bases, farther from reinforcement, and deeper into a campaign in which every mile gained lengthened the line upon which the army depended."
+      }
+    },
+    {
       "id": "book:en-ernest-thompson-seton-edition-rolf",
       "type": "book",
       "label": {
@@ -1146,14 +1419,14 @@
       },
       "author": "Daniel Carter Beard",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-shelters-shacks-shanties-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-shelters-shacks-shanties.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/",
         "en": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/"
       },
       "summary": {
         "de": "",
-        "en": "A bed of balsam boughs, a shelter beneath a fallen tree, a cabin with a wooden latch: Beard begins with what lies close at hand and works towards the construction of a log house. His drawings open roofs to reveal their frames, separate the parts of a fastening, and show how a few tools can be put to work — bark coverings, framed shanties, sod walls, raised camps and log buildings across forty-nine chapters."
+        "en": "A roof begins with a pole, a cabin with a notch, and a night in the woods with the ability to understand the materials close at hand."
       },
       "geography": {
         "location": [
@@ -1163,34 +1436,6 @@
         "region": "north-america",
         "place": "Nordamerika · Lager- und Hüttenbau",
         "source": "kosmosSelection:shelters"
-      }
-    },
-    {
-      "id": "book:en-henry-rider-haggard-king-solomon-s-mines-annotated",
-      "type": "book",
-      "label": {
-        "de": "King Solomon’s Mines (Annotated)",
-        "en": "King Solomon’s Mines (Annotated)"
-      },
-      "author": "H. Rider Haggard",
-      "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-king-solomons-mines-fallback.jpg",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-henry-rider-haggard-king-solomon-s-mines-annotated/",
-        "en": "https://aeternuspublishing.com/books/en-henry-rider-haggard-king-solomon-s-mines-annotated/"
-      },
-      "summary": {
-        "de": "",
-        "en": "A faded map, copied from the hand of a dying traveller, marks a road northward across country from which no man is known to have returned. When Sir Henry Curtis asks Allan Quatermain to guide an expedition in search of a lost brother, the old hunter agrees; with Captain Good and the enigmatic Umbopa they go north — through thirst, battle, kingship, witchcraft and the fatal seduction of buried wealth."
-      },
-      "geography": {
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "region": "africa",
-        "place": "Südliches Afrika",
-        "source": "kosmosSelection:haggard"
       }
     },
     {
@@ -1247,6 +1492,158 @@
         "region": "north-america",
         "place": "Rural Pennsylvania and the wilderness of Norwalk",
         "source": "kosmosSelection:edgar-huntly"
+      }
+    },
+    {
+      "id": "book:en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Six Years with the Texas Rangers (Illustrated)",
+        "en": "Six Years with the Texas Rangers (Illustrated)"
+      },
+      "author": "James B. Gillett",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-texas-rangers-gillett-en-20260929-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-b-gillett-six-years-with-the-texas-rangers-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-james-b-gillett-six-years-with-the-texas-rangers-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "On June 1, 1875, eighteen-year-old James Gillett enlists in Company D of the Frontier Battalion. Ahead lie days in the saddle, the pursuit of cattle thieves and murderers, fights with Kiowa, Comanche, and Apache, and later the office of city marshal of El Paso."
+      }
+    },
+    {
+      "id": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Highways of Progress (Illustrated)",
+        "en": "Highways of Progress (Illustrated)"
+      },
+      "author": "James J. Hill",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-j-hill-highways-of-progress-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-james-j-hill-highways-of-progress-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Published in 1910, Highways of Progress is the mature statement of the man remembered as the Empire Builder: a reflection on agriculture, commerce, irrigation, waterways, conservation, natural resources and the productive future of a continental nation."
+      }
+    },
+    {
+      "id": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "type": "book",
+      "label": {
+        "de": "The Epic of Mount Everest (Illustrated)",
+        "en": "The Epic of Mount Everest (Illustrated)"
+      },
+      "author": "Sir Francis Younghusband",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In 1921, Mount Everest was still a fortress of unknown ridges, glaciers and immense altitude. Britain sent an expedition not to conquer Everest, but to discover whether a way to its summit existed at all. They returned in 1922 to make the first determined assault upon the mountain, and again in 1924 for the expedition that would become inseparable from the names of George Mallory and Andrew Irvine."
+      }
+    },
+    {
+      "id": "book:en-robert-louis-stevenson-treasure-island-annotated",
+      "type": "book",
+      "label": {
+        "de": "Treasure Island (Annotated)",
+        "en": "Treasure Island (Annotated)"
+      },
+      "author": "Robert Louis Stevenson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-louis-stevenson-treasure-island-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-robert-louis-stevenson-treasure-island-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A weathered seaman arrives at the Admiral Benbow with a sea-chest, a scar and a fear of men from his past."
+      }
+    },
+    {
+      "id": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "type": "book",
+      "label": {
+        "de": "Recollections of the Kabul Campaign, 1879 & 1880",
+        "en": "Recollections of the Kabul Campaign, 1879 & 1880"
+      },
+      "author": "Joshua Duke",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/",
+        "en": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Beyond the North-West Frontier of British India lay Afghanistan: mountain kingdom, strategic barrier and one of the great contested spaces of the nineteenth-century struggle later remembered as the Great Game. Into that country went the Kabul Field Force under Sir Frederick Roberts. Joshua Duke went with it."
+      }
+    },
+    {
+      "id": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "type": "book",
+      "label": {
+        "de": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+        "en": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition"
+      },
+      "author": "Joshua Duke",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/",
+        "en": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Duke’s complete narrative in carefully modernised English, with seven restored plates, a map and a publisher’s apparatus. His preface, documents, notes and appendix retain their original wording."
+      }
+    },
+    {
+      "id": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "type": "book",
+      "label": {
+        "de": "From Korti to Khartum (Illustrated)",
+        "en": "From Korti to Khartum (Illustrated)"
+      },
+      "author": "Sir Charles William Wilson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-from-korti-to-khartum-wilson-en-20261006-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-william-wilson-from-korti-to-khartum-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-charles-william-wilson-from-korti-to-khartum-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Sudan, 1885. Khartum is besieged and time is running out. Across the Bayuda Desert the British Desert Column drives towards the Nile in a desperate attempt to reach General Gordon. Among its officers is Sir Charles William Wilson, Royal Engineer, intelligence chief and, after the mortal wounding of Sir Herbert Stewart, commander in the field."
+      }
+    },
+    {
+      "id": "book:en-grey-owl-the-men-of-the-last-frontier",
+      "type": "book",
+      "label": {
+        "de": "The Men of the Last Frontier",
+        "en": "The Men of the Last Frontier"
+      },
+      "author": "Grey Owl",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/",
+        "en": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Beyond the last road lay another Canada. It was a country of forest and muskeg, rivers and cold lakes, trap lines, winter camps and long distances travelled by canoe, snowshoe and dog team. Men who lived there depended less upon possessions than upon judgement: the ability to read weather, follow a trail, repair what had broken and endure what could not be avoided."
       }
     },
     {
@@ -1390,6 +1787,367 @@
       }
     },
     {
+      "id": "book:en-william-gilmore-simms-the-yemassee-annotated",
+      "type": "book",
+      "label": {
+        "de": "The Yemassee (Annotated)",
+        "en": "The Yemassee (Annotated)"
+      },
+      "author": "William Gilmore Simms",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-wgs001-en-v6-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-william-gilmore-simms-the-yemassee-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-william-gilmore-simms-the-yemassee-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Along the southern frontier, an old alliance is breaking apart. Trade, debt, settlement and the surrender of land have driven relations between the English colony and the Yamasee toward war. Beyond the scattered plantations and blockhouses lie forests in which rumor, diplomacy and violence move faster than authority."
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-lost-world",
+      "type": "book",
+      "label": {
+        "de": "The Lost World",
+        "en": "The Lost World"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-acd002-en-ingram-v1-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-lost-world/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-lost-world/"
+      },
+      "summary": {
+        "de": "",
+        "en": "When Professor George Edward Challenger returns from the unexplored interior of South America with an impossible claim, London answers him with ridicule. Beyond the known rivers and forests, he declares, rises an immense and inaccessible plateau—a world cut off from mankind, where forms of life thought extinct for millions of years may still endure."
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Volume I",
+        "en": "The White Company · Volume I"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-i-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-i/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-i/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Alleyne Edricson leaves Beaulieu Abbey and meets Hordle John, Samkin Aylward and Sir Nigel Loring. The company begins to form. Submitted to IngramSpark; eProof pending."
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Volume II",
+        "en": "The White Company · Volume II"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-ii-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The company crosses the sea to Bordeaux and enters the military world of the Black Prince. Reputation and fellowship are tested in the field. Submitted to IngramSpark; eProof pending."
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "type": "book",
+      "label": {
+        "de": "The White Company · Volume III",
+        "en": "The White Company · Volume III"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-iii-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-iii/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-iii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Beyond the Pyrenees, the struggle for the crown of Castile draws the company into its final campaign. Loyalty and courage face their last trial. Submitted to IngramSpark; eProof pending."
+      }
+    },
+    {
+      "id": "book:en-arthur-conan-doyle-sir-nigel",
+      "type": "book",
+      "label": {
+        "de": "Sir Nigel",
+        "en": "Sir Nigel"
+      },
+      "author": "Arthur Conan Doyle",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-acd003-en-ingram-v2-20261011.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-sir-nigel/",
+        "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-sir-nigel/"
+      },
+      "summary": {
+        "de": "",
+        "en": "England, 1349. The Black Death has passed across the land, old fortunes have fallen, and beyond the Channel the long war with France waits to begin again."
+      }
+    },
+    {
+      "id": "book:en-james-fenimore-cooper-the-deerslayer",
+      "type": "book",
+      "label": {
+        "de": "The Deerslayer",
+        "en": "The Deerslayer"
+      },
+      "author": "James Fenimore Cooper",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-deerslayer/",
+        "en": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-deerslayer/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The Deerslayer was the last of the five Leatherstocking novels Cooper wrote, yet it stands first in the life of Natty Bumppo. The aged creator returned to the youth of the man whom he had first imagined in old age and placed him once more beside the waters of Otsego Lake."
+      }
+    },
+    {
+      "id": "book:en-tappan-adney-the-klondike-stampede",
+      "type": "book",
+      "label": {
+        "de": "The Klondike Stampede",
+        "en": "The Klondike Stampede"
+      },
+      "author": "Edwin Tappan Adney",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-tappan-adney-the-klondike-stampede/",
+        "en": "https://aeternuspublishing.com/books/en-tappan-adney-the-klondike-stampede/"
+      },
+      "summary": {
+        "de": "",
+        "en": "There are moments in history when a distant name acquires the force of a summons. In the closing years of the nineteenth century, Klondike became such a name."
+      }
+    },
+    {
+      "id": "book:en-henry-doveton-hutchinson-the-campaign-in-tirah",
+      "type": "book",
+      "label": {
+        "de": "The Campaign in Tirah, 1897–1898",
+        "en": "The Campaign in Tirah, 1897–1898"
+      },
+      "author": "Henry Doveton Hutchinson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-henry-doveton-hutchinson-the-campaign-in-tirah/",
+        "en": "https://aeternuspublishing.com/books/en-henry-doveton-hutchinson-the-campaign-in-tirah/"
+      },
+      "summary": {
+        "de": "",
+        "en": "One of the great contemporary military narratives of the Victorian North-West Frontier."
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-king-solomons-mines",
+      "type": "book",
+      "label": {
+        "de": "King Solomon’s Mines",
+        "en": "King Solomon’s Mines"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-hrh001-en-ingram-v5-20261012.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning."
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-allan-quatermain",
+      "type": "book",
+      "label": {
+        "de": "Allan Quatermain",
+        "en": "Allan Quatermain"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-hrh002-en-ingram-v2-20261012.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/"
+      },
+      "summary": {
+        "de": "",
+        "en": "He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him."
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-nada-the-lily",
+      "type": "book",
+      "label": {
+        "de": "Nada the Lily",
+        "en": "Nada the Lily"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-hrh003-en-ingram-v10-20261012.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Before the great Zulu kings passed into history, their names commanded the allegiance of armies, their warriors carried terror across the plains of southern Africa, and the fate of nations could be determined by a single word spoken beneath the royal spears."
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-she",
+      "type": "book",
+      "label": {
+        "de": "She",
+        "en": "She"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/"
+      },
+      "summary": {
+        "de": "",
+        "en": "For more than two thousand years, the secret has endured."
+      }
+    },
+    {
+      "id": "book:en-h-rider-haggard-ayesha",
+      "type": "book",
+      "label": {
+        "de": "Ayesha",
+        "en": "Ayesha"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-hrh006-en-ingram-v5-20261012.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/",
+        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives."
+      }
+    },
+    {
+      "id": "book:en-francis-parkman-the-discovery-of-the-great-west",
+      "type": "book",
+      "label": {
+        "de": "The Discovery of the Great West",
+        "en": "The Discovery of the Great West"
+      },
+      "author": "Francis Parkman",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-francis-parkman-the-discovery-of-the-great-west/",
+        "en": "https://aeternuspublishing.com/books/en-francis-parkman-the-discovery-of-the-great-west/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Before the wagon roads, before the frontier towns and before the rails, the great western road of New France into the heart of North America ran by water."
+      }
+    },
+    {
+      "id": "book:en-william-robertson-from-private-to-field-marshal",
+      "type": "book",
+      "label": {
+        "de": "From Private to Field-Marshal",
+        "en": "From Private to Field-Marshal"
+      },
+      "author": "William Robertson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-william-robertson-from-private-to-field-marshal/",
+        "en": "https://aeternuspublishing.com/books/en-william-robertson-from-private-to-field-marshal/"
+      },
+      "summary": {
+        "de": "",
+        "en": "No other title in British military autobiography can make quite the same claim."
+      }
+    },
+    {
+      "id": "book:en-charles-edward-callwell-the-life-of-sir-stanley-maude",
+      "type": "book",
+      "label": {
+        "de": "The Life of Sir Stanley Maude",
+        "en": "The Life of Sir Stanley Maude"
+      },
+      "author": "Major-General Sir Charles Edward Callwell, K.C.B.",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-edward-callwell-the-life-of-sir-stanley-maude/",
+        "en": "https://aeternuspublishing.com/books/en-charles-edward-callwell-the-life-of-sir-stanley-maude/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Major-General Sir Charles Edward Callwell's 1920 biography of General Sir Stanley Maude, the British commander who rebuilt the Mesopotamian Expeditionary Force after the disaster of Kut and captured Baghdad in March 1917."
+      }
+    },
+    {
+      "id": "book:en-melliss-lion-hunting-in-somali-land-annotated",
+      "type": "book",
+      "label": {
+        "de": "Lion-Hunting in Somali-land (Annotated)",
+        "en": "Lion-Hunting in Somali-land (Annotated)"
+      },
+      "author": "Charles John Melliss",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cjm001-en-v5-20261018.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-melliss-lion-hunting-in-somali-land-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-melliss-lion-hunting-in-somali-land-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Across the Gulf of Aden from Arabia lay a country of thorn, dry river-beds and waterless distance. From Berbera, Captain Charles John Melliss of the 9th Bombay Infantry went up-country towards the Haud with ten camels, twelve Somali men, two donkeys, an Abyssinian pony and provisions for two months, in search of lion; the closing chapters follow him on horseback, spear in hand, after the African wart-hog."
+      }
+    },
+    {
+      "id": "book:en-robert-baden-powell-the-matabele-campaign-1896",
+      "type": "book",
+      "label": {
+        "de": "The Matabele Campaign, 1896",
+        "en": "The Matabele Campaign, 1896"
+      },
+      "author": "Robert Baden-Powell",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-matabele-campaign-1896/",
+        "en": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-matabele-campaign-1896/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In March 1896 the Ndebele of Matabeleland rose against the British South Africa Company. Within days the outlying settlers had been killed or driven into laagers, and Buluwayo stood besieged by its own hinterland. In June the Shona of Mashonaland followed."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -1530,6 +2288,34 @@
       }
     },
     {
+      "id": "book:atlas:shelters",
+      "type": "book",
+      "label": {
+        "de": "Shelters, Shacks, and Shanties (Illustrated)",
+        "en": "Shelters, Shacks, and Shanties (Illustrated)"
+      },
+      "author": "Daniel Carter Beard",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-shelters-shacks-shanties.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/en/authors/daniel-carter-beard/",
+        "en": "https://aeternus-verlag.de/en/authors/daniel-carter-beard/"
+      },
+      "summary": {
+        "de": "Vom Bett aus Tannenzweigen über einfache Unterstände bis zum Blockhaus: Beard erläutert in 49 Kapiteln den Bau von Lagern, Dächern, Wänden und Holzverbindungen. Die Zeichnungen zeigen Konstruktionen und Bauteile im Detail.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -75.1,
+          41.4
+        ],
+        "region": "north-america",
+        "place": "Nordamerika · Lager- und Hüttenbau",
+        "source": "kosmosSelection:shelters"
+      }
+    },
+    {
       "id": "book:atlas:texas-rangers",
       "type": "book",
       "label": {
@@ -1555,6 +2341,146 @@
         "region": "north-america",
         "place": "Zentral- und Westtexas, Rio Grande",
         "source": "kosmosSelection:texas-rangers"
+      }
+    },
+    {
+      "id": "book:atlas:haggard-en-hrh_001",
+      "type": "book",
+      "label": {
+        "de": "King Solomon’s Mines",
+        "en": "King Solomon’s Mines"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh001-en-ingram-v5-20261012.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+        "en": "https://aeternus-verlag.de/autoren/henry-rider-haggard/"
+      },
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_001"
+      }
+    },
+    {
+      "id": "book:atlas:haggard-en-hrh_002",
+      "type": "book",
+      "label": {
+        "de": "Allan Quatermain",
+        "en": "Allan Quatermain"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh002-en-ingram-v2-20261012.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+        "en": "https://aeternus-verlag.de/autoren/henry-rider-haggard/"
+      },
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_002"
+      }
+    },
+    {
+      "id": "book:atlas:haggard-en-hrh_003",
+      "type": "book",
+      "label": {
+        "de": "Nada the Lily",
+        "en": "Nada the Lily"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh003-en-ingram-v10-20261012.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+        "en": "https://aeternus-verlag.de/autoren/henry-rider-haggard/"
+      },
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_003"
+      }
+    },
+    {
+      "id": "book:atlas:haggard-en-hrh_005",
+      "type": "book",
+      "label": {
+        "de": "She",
+        "en": "She"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh005-en-ingram-v8-20261012.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+        "en": "https://aeternus-verlag.de/autoren/henry-rider-haggard/"
+      },
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_005"
+      }
+    },
+    {
+      "id": "book:atlas:haggard-en-hrh_006",
+      "type": "book",
+      "label": {
+        "de": "Ayesha",
+        "en": "Ayesha"
+      },
+      "author": "H. Rider Haggard",
+      "language": "en",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh006-en-ingram-v5-20261012.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
+        "en": "https://aeternus-verlag.de/autoren/henry-rider-haggard/"
+      },
+      "summary": {
+        "de": "Englische Originalausgabe.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          90,
+          30
+        ],
+        "region": "asia",
+        "place": "Zentralasien · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_006"
       }
     },
     {
@@ -1710,6 +2636,14 @@
       }
     },
     {
+      "id": "author:Werner von Siemens",
+      "type": "author",
+      "label": {
+        "de": "Werner von Siemens",
+        "en": "Werner von Siemens"
+      }
+    },
+    {
       "id": "author:Ernest Thompson Seton",
       "type": "author",
       "label": {
@@ -1774,6 +2708,46 @@
       }
     },
     {
+      "id": "author:Arthur Conan Doyle",
+      "type": "author",
+      "label": {
+        "de": "Arthur Conan Doyle",
+        "en": "Arthur Conan Doyle"
+      }
+    },
+    {
+      "id": "author:George Robert Gleig",
+      "type": "author",
+      "label": {
+        "de": "George Robert Gleig",
+        "en": "George Robert Gleig"
+      }
+    },
+    {
+      "id": "author:Napoleon Augustus Jennings",
+      "type": "author",
+      "label": {
+        "de": "Napoleon Augustus Jennings",
+        "en": "Napoleon Augustus Jennings"
+      }
+    },
+    {
+      "id": "author:Sir George Arthur",
+      "type": "author",
+      "label": {
+        "de": "Sir George Arthur",
+        "en": "Sir George Arthur"
+      }
+    },
+    {
+      "id": "author:Charles Vere Ferrers Townshend",
+      "type": "author",
+      "label": {
+        "de": "Charles Vere Ferrers Townshend",
+        "en": "Charles Vere Ferrers Townshend"
+      }
+    },
+    {
       "id": "author:James Hall",
       "type": "author",
       "label": {
@@ -1806,6 +2780,118 @@
       }
     },
     {
+      "id": "author:James B. Gillett",
+      "type": "author",
+      "label": {
+        "de": "James B. Gillett",
+        "en": "James B. Gillett"
+      }
+    },
+    {
+      "id": "author:James J. Hill",
+      "type": "author",
+      "label": {
+        "de": "James J. Hill",
+        "en": "James J. Hill"
+      }
+    },
+    {
+      "id": "author:Sir Francis Younghusband",
+      "type": "author",
+      "label": {
+        "de": "Sir Francis Younghusband",
+        "en": "Sir Francis Younghusband"
+      }
+    },
+    {
+      "id": "author:Robert Louis Stevenson",
+      "type": "author",
+      "label": {
+        "de": "Robert Louis Stevenson",
+        "en": "Robert Louis Stevenson"
+      }
+    },
+    {
+      "id": "author:Joshua Duke",
+      "type": "author",
+      "label": {
+        "de": "Joshua Duke",
+        "en": "Joshua Duke"
+      }
+    },
+    {
+      "id": "author:Sir Charles William Wilson",
+      "type": "author",
+      "label": {
+        "de": "Sir Charles William Wilson",
+        "en": "Sir Charles William Wilson"
+      }
+    },
+    {
+      "id": "author:Grey Owl",
+      "type": "author",
+      "label": {
+        "de": "Grey Owl",
+        "en": "Grey Owl"
+      }
+    },
+    {
+      "id": "author:William Gilmore Simms",
+      "type": "author",
+      "label": {
+        "de": "William Gilmore Simms",
+        "en": "William Gilmore Simms"
+      }
+    },
+    {
+      "id": "author:James Fenimore Cooper",
+      "type": "author",
+      "label": {
+        "de": "James Fenimore Cooper",
+        "en": "James Fenimore Cooper"
+      }
+    },
+    {
+      "id": "author:Edwin Tappan Adney",
+      "type": "author",
+      "label": {
+        "de": "Edwin Tappan Adney",
+        "en": "Edwin Tappan Adney"
+      }
+    },
+    {
+      "id": "author:Henry Doveton Hutchinson",
+      "type": "author",
+      "label": {
+        "de": "Henry Doveton Hutchinson",
+        "en": "Henry Doveton Hutchinson"
+      }
+    },
+    {
+      "id": "author:William Robertson",
+      "type": "author",
+      "label": {
+        "de": "William Robertson",
+        "en": "William Robertson"
+      }
+    },
+    {
+      "id": "author:Major-General Sir Charles Edward Callwell, K.C.B.",
+      "type": "author",
+      "label": {
+        "de": "Major-General Sir Charles Edward Callwell, K.C.B.",
+        "en": "Major-General Sir Charles Edward Callwell, K.C.B."
+      }
+    },
+    {
+      "id": "author:Charles John Melliss",
+      "type": "author",
+      "label": {
+        "de": "Charles John Melliss",
+        "en": "Charles John Melliss"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -1819,319 +2905,6 @@
       "label": {
         "de": "Rudyard Kipling",
         "en": "Rudyard Kipling"
-      }
-    },
-    {
-      "id": "author:James B. Gillett",
-      "type": "author",
-      "label": {
-        "de": "James B. Gillett",
-        "en": "James B. Gillett"
-      }
-    },
-    {
-      "id": "author:Werner von Siemens",
-      "type": "author",
-      "label": {
-        "de": "Werner von Siemens",
-        "en": "Werner von Siemens"
-      }
-    },
-    {
-      "id": "book:de:lebenserinnerungen",
-      "type": "book",
-      "label": {
-        "de": "Lebenserinnerungen",
-        "en": "Lebenserinnerungen"
-      },
-      "author": "Werner von Siemens",
-      "language": "de",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-siemens-lebenserinnerungen.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/buecher/lebenserinnerungen/",
-        "en": "https://aeternus-verlag.de/buecher/lebenserinnerungen/"
-      },
-      "summary": {
-        "de": "Siemens erzählt von preußischer Artillerie und Festungshaft, von Telegraphenlinien und Kabelschiffen, vom Kaukasus und vom Atlantik und vom Weg einer Berliner Werkstatt zum Weltunternehmen.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          13.3,
-          52.52
-        ],
-        "region": "europe",
-        "place": "Berlin-Charlottenburg",
-        "source": "kosmosSelection:siemens"
-      }
-    },
-    {
-      "id": "book:de:die-rough-riders",
-      "type": "book",
-      "label": {
-        "de": "Die Rough Riders",
-        "en": "Die Rough Riders (German edition)"
-      },
-      "author": "Theodore Roosevelt",
-      "language": "de",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-rough-riders-de.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/buecher/die-rough-riders/",
-        "en": "https://aeternus-verlag.de/buecher/die-rough-riders/"
-      },
-      "summary": {
-        "de": "Roosevelts Bericht über das Freiwilligenregiment auf Kuba 1898. Vollständige deutsche Übersetzung.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          -75.82,
-          20.02
-        ],
-        "region": "north-america",
-        "place": "Santiago de Cuba",
-        "source": "kosmosSelection:rough-riders"
-      }
-    },
-    {
-      "id": "book:de:the-white-company-band-i",
-      "type": "book",
-      "label": {
-        "de": "The White Company · Band I",
-        "en": "The White Company · Volume I"
-      },
-      "author": "Arthur Conan Doyle",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-i.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-i/",
-        "en": "https://aeternuspublishing.com/authors/arthur-conan-doyle/"
-      },
-      "summary": {
-        "de": "Illustrierte englische Ausgabe in drei Bänden. Bei IngramSpark eingereicht; eProof ausstehend.",
-        "en": "Illustrated English edition in three volumes. Submitted to IngramSpark; eProof pending."
-      },
-      "geography": {
-        "location": [
-          -1.6,
-          50.9
-        ],
-        "place": "Hampshire, England",
-        "region": "europe",
-        "source": "kosmosSelection:white-company-i"
-      }
-    },
-    {
-      "id": "book:de:the-white-company-band-ii",
-      "type": "book",
-      "label": {
-        "de": "The White Company · Band II",
-        "en": "The White Company · Volume II"
-      },
-      "author": "Arthur Conan Doyle",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-ii.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-ii/",
-        "en": "https://aeternuspublishing.com/authors/arthur-conan-doyle/"
-      },
-      "summary": {
-        "de": "Illustrierte englische Ausgabe in drei Bänden. Bei IngramSpark eingereicht; eProof ausstehend.",
-        "en": "Illustrated English edition in three volumes. Submitted to IngramSpark; eProof pending."
-      },
-      "geography": {
-        "location": [
-          -0.8,
-          43
-        ],
-        "place": "Südwestfrankreich",
-        "region": "europe",
-        "source": "kosmosSelection:white-company-ii"
-      }
-    },
-    {
-      "id": "book:de:the-white-company-band-iii",
-      "type": "book",
-      "label": {
-        "de": "The White Company · Band III",
-        "en": "The White Company · Volume III"
-      },
-      "author": "Arthur Conan Doyle",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-white-company-vol-iii.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/buecher/the-white-company-band-iii/",
-        "en": "https://aeternuspublishing.com/authors/arthur-conan-doyle/"
-      },
-      "summary": {
-        "de": "Illustrierte englische Ausgabe in drei Bänden. Bei IngramSpark eingereicht; eProof ausstehend.",
-        "en": "Illustrated English edition in three volumes. Submitted to IngramSpark; eProof pending."
-      },
-      "geography": {
-        "location": [
-          -5.7,
-          40.4
-        ],
-        "place": "Kastilien, Spanien",
-        "region": "europe",
-        "source": "kosmosSelection:white-company-iii"
-      }
-    },
-    {
-      "id": "book:en-h-rider-haggard-king-solomons-mines",
-      "type": "book",
-      "label": {
-        "de": "King Solomon’s Mines",
-        "en": "King Solomon’s Mines"
-      },
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/"
-      },
-      "author": "henry-rider-haggard",
-      "series": "bernstein",
-      "language": "en",
-      "cover": "/assets/images/cover-hrh001-en-ingram-v5-20261012.jpg",
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning."
-      },
-      "geography": {
-        "source": "kosmosSelection:haggard-en-hrh_001",
-        "region": "africa",
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "place": "Africa"
-      }
-    },
-    {
-      "id": "book:en-h-rider-haggard-allan-quatermain",
-      "type": "book",
-      "label": {
-        "de": "Allan Quatermain",
-        "en": "Allan Quatermain"
-      },
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/"
-      },
-      "author": "henry-rider-haggard",
-      "series": "bernstein",
-      "language": "en",
-      "cover": "/assets/images/cover-hrh002-en-ingram-v2-20261012.jpg",
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": "He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him."
-      },
-      "geography": {
-        "source": "kosmosSelection:haggard-en-hrh_002",
-        "region": "africa",
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "place": "Africa"
-      }
-    },
-    {
-      "id": "book:en-h-rider-haggard-nada-the-lily",
-      "type": "book",
-      "label": {
-        "de": "Nada the Lily",
-        "en": "Nada the Lily"
-      },
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/"
-      },
-      "author": "henry-rider-haggard",
-      "series": "bernstein",
-      "language": "en",
-      "cover": "/assets/images/cover-hrh003-en-ingram-v10-20261012.jpg",
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": "Before the great Zulu kings passed into history, their names commanded the allegiance of armies, their warriors carried terror across the plains of southern Africa, and the fate of nations could be determined by a single word spoken beneath the royal spears."
-      },
-      "geography": {
-        "source": "kosmosSelection:haggard-en-hrh_003",
-        "region": "africa",
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "place": "Africa"
-      }
-    },
-    {
-      "id": "book:en-h-rider-haggard-she",
-      "type": "book",
-      "label": {
-        "de": "She",
-        "en": "She"
-      },
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/"
-      },
-      "author": "henry-rider-haggard",
-      "series": "bernstein",
-      "language": "en",
-      "cover": "/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": "For more than two thousand years, the secret has endured."
-      },
-      "geography": {
-        "source": "kosmosSelection:haggard-en-hrh_005",
-        "region": "africa",
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "place": "Africa"
-      }
-    },
-    {
-      "id": "book:en-h-rider-haggard-ayesha",
-      "type": "book",
-      "label": {
-        "de": "Ayesha",
-        "en": "Ayesha"
-      },
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/"
-      },
-      "author": "henry-rider-haggard",
-      "series": "bernstein",
-      "language": "en",
-      "cover": "/assets/images/cover-hrh006-en-ingram-v5-20261012.jpg",
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": "Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives."
-      },
-      "geography": {
-        "source": "kosmosSelection:haggard-en-hrh_006",
-        "region": "asia",
-        "location": [
-          90,
-          30
-        ],
-        "place": "Central Asia"
-      }
-    },
-    {
-      "id": "author:henry-rider-haggard",
-      "type": "author",
-      "label": {
-        "de": "H. Rider Haggard",
-        "en": "H. Rider Haggard"
-      },
-      "url": {
-        "de": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
-        "en": "https://aeternuspublishing.com/authors/henry-rider-haggard/"
       }
     }
   ],
@@ -2167,6 +2940,11 @@
       "type": "series"
     },
     {
+      "source": "book:de:die-rough-riders",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:de:tagebuch-der-katastrophe",
       "target": "series:gruen",
       "type": "series"
@@ -2188,6 +2966,11 @@
     },
     {
       "source": "book:de:mein-leben-und-werk",
+      "target": "series:blau",
+      "type": "series"
+    },
+    {
+      "source": "book:de:lebenserinnerungen",
       "target": "series:blau",
       "type": "series"
     },
@@ -2287,6 +3070,56 @@
       "type": "series"
     },
     {
+      "source": "book:de:the-white-company-band-i",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:the-white-company-band-ii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:the-white-company-band-iii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-napoleon-augustus-jennings-a-texas-ranger-annotated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-theodore-roosevelt-the-rough-riders-annotated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-arthur-life-of-lord-kitchener-volume-i",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-arthur-life-of-lord-kitchener-volume-ii",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-arthur-life-of-lord-kitchener-volume-iii",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-ernest-thompson-seton-edition-rolf",
       "target": "series:bernstein",
       "type": "series"
@@ -2332,11 +3165,6 @@
       "type": "series"
     },
     {
-      "source": "book:en-henry-rider-haggard-king-solomon-s-mines-annotated",
-      "target": "series:bernstein",
-      "type": "series"
-    },
-    {
       "source": "book:en-richard-jefferies-edition-bevis",
       "target": "series:bernstein",
       "type": "series"
@@ -2344,6 +3172,46 @@
     {
       "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
       "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "target": "series:blau",
+      "type": "series"
+    },
+    {
+      "source": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-robert-louis-stevenson-treasure-island-annotated",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-grey-owl-the-men-of-the-last-frontier",
+      "target": "series:gruen",
       "type": "series"
     },
     {
@@ -2369,6 +3237,101 @@
     {
       "source": "book:en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
       "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-william-gilmore-simms-the-yemassee-annotated",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-lost-world",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-sir-nigel",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-deerslayer",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-tappan-adney-the-klondike-stampede",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-henry-doveton-hutchinson-the-campaign-in-tirah",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-h-rider-haggard-king-solomons-mines",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-h-rider-haggard-allan-quatermain",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-h-rider-haggard-nada-the-lily",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-h-rider-haggard-she",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-h-rider-haggard-ayesha",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-francis-parkman-the-discovery-of-the-great-west",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-william-robertson-from-private-to-field-marshal",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-edward-callwell-the-life-of-sir-stanley-maude",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-melliss-lion-hunting-in-somali-land-annotated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-robert-baden-powell-the-matabele-campaign-1896",
+      "target": "series:gruen",
       "type": "series"
     },
     {
@@ -2498,7 +3461,7 @@
       }
     },
     {
-      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "source": "book:atlas:shelters",
       "target": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
       "type": "curated",
       "label": {
@@ -2507,7 +3470,7 @@
       }
     },
     {
-      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "source": "book:atlas:shelters",
       "target": "book:de:waldhandwerk",
       "type": "curated",
       "label": {
@@ -2651,6 +3614,33 @@
       }
     },
     {
+      "source": "book:de:lebenserinnerungen",
+      "target": "book:de:mein-leben-und-werk",
+      "type": "curated",
+      "label": {
+        "de": "Industrielle Selbstzeugnisse der Blauen Reihe",
+        "en": "Industrielle Selbstzeugnisse der Blauen Reihe"
+      }
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "target": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "type": "curated",
+      "label": {
+        "de": "Doyles historischer Roman: Fortgang der Weißen Kompanie",
+        "en": "Doyles historischer Roman: Fortgang der Weißen Kompanie"
+      }
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "target": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "type": "curated",
+      "label": {
+        "de": "Doyles historischer Roman: Feldzug und Abschluss",
+        "en": "Doyles historischer Roman: Feldzug und Abschluss"
+      }
+    },
+    {
       "source": "theme:great-game",
       "target": "book:de:tagebuch-der-katastrophe",
       "type": "context"
@@ -2726,6 +3716,11 @@
       "type": "author"
     },
     {
+      "source": "book:de:die-rough-riders",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
       "source": "book:de:tagebuch-der-katastrophe",
       "target": "author:Lady Florentia Sale",
       "type": "author"
@@ -2748,6 +3743,11 @@
     {
       "source": "book:de:mein-leben-und-werk",
       "target": "author:Henry Ford",
+      "type": "author"
+    },
+    {
+      "source": "book:de:lebenserinnerungen",
+      "target": "author:Werner von Siemens",
       "type": "author"
     },
     {
@@ -2846,6 +3846,56 @@
       "type": "author"
     },
     {
+      "source": "book:de:the-white-company-band-i",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:de:the-white-company-band-ii",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:de:the-white-company-band-iii",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
+      "target": "author:George Robert Gleig",
+      "type": "author"
+    },
+    {
+      "source": "book:en-napoleon-augustus-jennings-a-texas-ranger-annotated",
+      "target": "author:Napoleon Augustus Jennings",
+      "type": "author"
+    },
+    {
+      "source": "book:en-theodore-roosevelt-the-rough-riders-annotated",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-arthur-life-of-lord-kitchener-volume-i",
+      "target": "author:Sir George Arthur",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-arthur-life-of-lord-kitchener-volume-ii",
+      "target": "author:Sir George Arthur",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-arthur-life-of-lord-kitchener-volume-iii",
+      "target": "author:Sir George Arthur",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated",
+      "target": "author:Charles Vere Ferrers Townshend",
+      "type": "author"
+    },
+    {
       "source": "book:en-ernest-thompson-seton-edition-rolf",
       "target": "author:Ernest Thompson Seton",
       "type": "author"
@@ -2891,11 +3941,6 @@
       "type": "author"
     },
     {
-      "source": "book:en-henry-rider-haggard-king-solomon-s-mines-annotated",
-      "target": "author:H. Rider Haggard",
-      "type": "author"
-    },
-    {
       "source": "book:en-richard-jefferies-edition-bevis",
       "target": "author:Richard Jefferies",
       "type": "author"
@@ -2903,6 +3948,46 @@
     {
       "source": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
       "target": "author:Charles Brockden Brown",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "target": "author:James B. Gillett",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-j-hill-highways-of-progress-illustrated",
+      "target": "author:James J. Hill",
+      "type": "author"
+    },
+    {
+      "source": "book:en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "target": "author:Sir Francis Younghusband",
+      "type": "author"
+    },
+    {
+      "source": "book:en-robert-louis-stevenson-treasure-island-annotated",
+      "target": "author:Robert Louis Stevenson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "target": "author:Joshua Duke",
+      "type": "author"
+    },
+    {
+      "source": "book:en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "target": "author:Joshua Duke",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "target": "author:Sir Charles William Wilson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-grey-owl-the-men-of-the-last-frontier",
+      "target": "author:Grey Owl",
       "type": "author"
     },
     {
@@ -2931,6 +4016,101 @@
       "type": "author"
     },
     {
+      "source": "book:en-william-gilmore-simms-the-yemassee-annotated",
+      "target": "author:William Gilmore Simms",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-lost-world",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-i",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-arthur-conan-doyle-sir-nigel",
+      "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-deerslayer",
+      "target": "author:James Fenimore Cooper",
+      "type": "author"
+    },
+    {
+      "source": "book:en-tappan-adney-the-klondike-stampede",
+      "target": "author:Edwin Tappan Adney",
+      "type": "author"
+    },
+    {
+      "source": "book:en-henry-doveton-hutchinson-the-campaign-in-tirah",
+      "target": "author:Henry Doveton Hutchinson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-h-rider-haggard-king-solomons-mines",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-h-rider-haggard-allan-quatermain",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-h-rider-haggard-nada-the-lily",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-h-rider-haggard-she",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-h-rider-haggard-ayesha",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-francis-parkman-the-discovery-of-the-great-west",
+      "target": "author:Francis Parkman",
+      "type": "author"
+    },
+    {
+      "source": "book:en-william-robertson-from-private-to-field-marshal",
+      "target": "author:William Robertson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-edward-callwell-the-life-of-sir-stanley-maude",
+      "target": "author:Major-General Sir Charles Edward Callwell, K.C.B.",
+      "type": "author"
+    },
+    {
+      "source": "book:en-melliss-lion-hunting-in-somali-land-annotated",
+      "target": "author:Charles John Melliss",
+      "type": "author"
+    },
+    {
+      "source": "book:en-robert-baden-powell-the-matabele-campaign-1896",
+      "target": "author:Robert Baden-Powell",
+      "type": "author"
+    },
+    {
       "source": "book:atlas:hawks",
       "target": "author:Robert Montgomery Bird",
       "type": "author"
@@ -2956,8 +4136,38 @@
       "type": "author"
     },
     {
+      "source": "book:atlas:shelters",
+      "target": "author:Daniel Carter Beard",
+      "type": "author"
+    },
+    {
       "source": "book:atlas:texas-rangers",
       "target": "author:James B. Gillett",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:haggard-en-hrh_001",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:haggard-en-hrh_002",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:haggard-en-hrh_003",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:haggard-en-hrh_005",
+      "target": "author:H. Rider Haggard",
+      "type": "author"
+    },
+    {
+      "source": "book:atlas:haggard-en-hrh_006",
+      "target": "author:H. Rider Haggard",
       "type": "author"
     },
     {
@@ -3007,6 +4217,15 @@
     },
     {
       "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "target": "book:en-george-washington-sears-woodcraft-illustrated",
+      "type": "curated",
+      "label": {
+        "de": "Praktischer Lager- und Hüttenbau",
+        "en": "Praktischer Lager- und Hüttenbau"
+      }
+    },
+    {
+      "source": "book:atlas:shelters",
       "target": "book:en-george-washington-sears-woodcraft-illustrated",
       "type": "curated",
       "label": {
@@ -3069,111 +4288,22 @@
       }
     },
     {
-      "source": "book:de:lebenserinnerungen",
-      "target": "series:blau",
-      "type": "series"
-    },
-    {
-      "source": "book:de:lebenserinnerungen",
-      "target": "author:Werner von Siemens",
-      "type": "author"
-    },
-    {
-      "source": "book:de:lebenserinnerungen",
-      "target": "book:de:mein-leben-und-werk",
-      "type": "curated",
-      "label": {
-        "de": "Industrielle Selbstzeugnisse der Blauen Reihe",
-        "en": "Industrial self-portraits of the Blue series"
-      }
-    },
-    {
-      "source": "book:de:die-rough-riders",
-      "target": "series:gruen",
-      "type": "series"
-    },
-    {
-      "source": "book:de:the-white-company-band-i",
-      "target": "series:bernstein",
-      "type": "series"
-    },
-    {
-      "source": "book:de:the-white-company-band-ii",
-      "target": "series:bernstein",
-      "type": "series"
-    },
-    {
       "source": "book:de:the-white-company-band-i",
       "target": "book:de:the-white-company-band-ii",
       "type": "curated",
       "label": {
-        "de": "Doyles historischer Roman in drei Bänden",
-        "en": "Doyle's historical novel in three volumes"
+        "de": "Doyles historischer Roman: Fortgang der Weißen Kompanie",
+        "en": "Doyles historischer Roman: Fortgang der Weißen Kompanie"
       }
-    },
-    {
-      "source": "book:de:the-white-company-band-iii",
-      "target": "series:bernstein",
-      "type": "series"
     },
     {
       "source": "book:de:the-white-company-band-ii",
       "target": "book:de:the-white-company-band-iii",
       "type": "curated",
       "label": {
-        "de": "Doyles historischer Roman in drei Bänden",
-        "en": "Doyle's historical novel in three volumes"
+        "de": "Doyles historischer Roman: Feldzug und Abschluss",
+        "en": "Doyles historischer Roman: Feldzug und Abschluss"
       }
-    },
-    {
-      "source": "series:bernstein",
-      "target": "book:en-h-rider-haggard-king-solomons-mines",
-      "type": "series"
-    },
-    {
-      "source": "author:henry-rider-haggard",
-      "target": "book:en-h-rider-haggard-king-solomons-mines",
-      "type": "author"
-    },
-    {
-      "source": "series:bernstein",
-      "target": "book:en-h-rider-haggard-allan-quatermain",
-      "type": "series"
-    },
-    {
-      "source": "author:henry-rider-haggard",
-      "target": "book:en-h-rider-haggard-allan-quatermain",
-      "type": "author"
-    },
-    {
-      "source": "series:bernstein",
-      "target": "book:en-h-rider-haggard-nada-the-lily",
-      "type": "series"
-    },
-    {
-      "source": "author:henry-rider-haggard",
-      "target": "book:en-h-rider-haggard-nada-the-lily",
-      "type": "author"
-    },
-    {
-      "source": "series:bernstein",
-      "target": "book:en-h-rider-haggard-she",
-      "type": "series"
-    },
-    {
-      "source": "author:henry-rider-haggard",
-      "target": "book:en-h-rider-haggard-she",
-      "type": "author"
-    },
-    {
-      "source": "series:bernstein",
-      "target": "book:en-h-rider-haggard-ayesha",
-      "type": "series"
-    },
-    {
-      "source": "author:henry-rider-haggard",
-      "target": "book:en-h-rider-haggard-ayesha",
-      "type": "author"
     }
   ]
 }
