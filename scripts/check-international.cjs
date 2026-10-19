@@ -32,7 +32,8 @@ check('catalogue IDs, language and series', () => {
     if(b.publication_date!==null) assert(/^\d{4}-\d{2}-\d{2}$/.test(b.publication_date)&&new Date(b.publication_date).toISOString().slice(0,10)===b.publication_date);
     assert(!ids.has(b.id),b.id);ids.add(b.id);
     assert.equal(b.language,'en');assert(catalog.series.some(s=>s.id===b.series));
-    assert(!['henry-ford','lady-florentia-sale','robert-baden-powell'].includes(b.author));
+    assert(!['henry-ford','lady-florentia-sale'].includes(b.author));
+    if (b.author === 'robert-baden-powell') assert.equal(b.work_id, 'BP_009');
     assert.equal(catalog.directShopUrl(b,'en'),null);
   }
 });

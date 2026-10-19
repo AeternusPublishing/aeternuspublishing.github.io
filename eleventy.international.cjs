@@ -2,7 +2,13 @@ const fs = require('node:fs');
 const path = require('node:path');
 const catalog = require('./catalog/index.cjs');
 module.exports = function(config) {
-  config.addPassthroughCopy({ 'src/assets': 'assets' });
+  // International assets take precedence where both sites define the same path.
+  config.addPassthroughCopy({ 'src/assets': 'assets' }, {
+    filter: relative => {
+      const override = path.join(__dirname, 'international/assets', relative);
+      return !fs.existsSync(override) || fs.statSync(override).isDirectory();
+    }
+  });
   config.addPassthroughCopy({ 'international/assets': 'assets' });
   config.addFilter('plain', catalog.clean);
   config.addFilter('inlineEmphasis', value => String(value).replace(/\*([^*]+)\*/g, '<em>$1</em>'));

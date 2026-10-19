@@ -189,6 +189,10 @@ const cjm001 = require('./cjm001-en-20261018.json');
 authorsEn.push(cjm001.author);
 englishBooks.push(cjm001.book);
 
+// BP_009: add the forthcoming book to the existing QR author page.
+englishBooks.push(require('./bp009-en-20261019.cjs'));
+authorsEn.find(author => author.slug === 'robert-baden-powell').brandOnly = true;
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
