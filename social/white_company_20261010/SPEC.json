@@ -1,0 +1,59 @@
+{
+  "schema": "AETERNUS_INSTAGRAM_TILE_SPEC_V1",
+  "canvas": {
+    "width_px": 1080,
+    "height_px": 1080,
+    "background": "#27342D"
+  },
+  "palette": {
+    "gold": "#A99B6C",
+    "ivory": "#E5E0D3",
+    "shadow": "#101713"
+  },
+  "typography": {
+    "display_font": "99_SYSTEM/BUCHSATZ/fonts/Cinzel-Regular.ttf",
+    "serif_font": "99_SYSTEM/BUCHSATZ/fonts/CormorantGaramond-Regular.ttf",
+    "header": "AETERNUS · ENGLISH EDITION",
+    "footer": "CLASSICS REDISCOVERED."
+  },
+  "geometry": {
+    "header_center_y": 58,
+    "header_font_px": 19,
+    "header_tracking_px": 5,
+    "cover_box": [
+      325,
+      116,
+      755,
+      761
+    ],
+    "cover_shadow_offset_px": 9,
+    "cover_shadow_blur_px": 16,
+    "claim_center_y": 855,
+    "claim_font_px": 42,
+    "footer_rule_y": 1001,
+    "footer_rule_width_px": 132,
+    "footer_center_y": 1038,
+    "footer_font_px": 15,
+    "footer_tracking_px": 4
+  },
+  "items": [
+    {
+      "id": "ACD001_EN_VOLUME_I",
+      "source": "C:\\_CB\\web-acd001-intl-20261010\\src\\assets\\images\\cover-white-company-vol-i-fallback.jpg",
+      "claim": "Three volumes. One campaign.",
+      "output": "ACD001_EN_VOLUME_I_INSTAGRAM_1080.jpg"
+    },
+    {
+      "id": "ACD001_EN_VOLUME_II",
+      "source": "C:\\_CB\\web-acd001-intl-20261010\\src\\assets\\images\\cover-white-company-vol-ii-fallback.jpg",
+      "claim": "Under the Black Prince's banner.",
+      "output": "ACD001_EN_VOLUME_II_INSTAGRAM_1080.jpg"
+    },
+    {
+      "id": "ACD001_EN_VOLUME_III",
+      "source": "C:\\_CB\\web-acd001-intl-20261010\\src\\assets\\images\\cover-white-company-vol-iii-fallback.jpg",
+      "claim": "Beyond the Pyrenees.",
+      "output": "ACD001_EN_VOLUME_III_INSTAGRAM_1080.jpg"
+    }
+  ]
+}

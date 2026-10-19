@@ -1,0 +1,7 @@
+{
+ "general":{"skip":"Zum Inhalt","preview":"ENTWICKLUNGSVORSCHAU · Bestellungen sind noch nicht möglich","navigation":"Hauptnavigation","books":"Bücher","publisher":"Der Verlag","language":"Sprache","country":"Land / Region","update":"Aktualisieren","forthcoming":"Der Direktshop ist in Vorbereitung.","empty":"In diesem Shop wurden noch keine Ausgaben angelegt.","home":"Zurück zum Shop","not_found":"Seite nicht gefunden"},
+ "product":{"format":"Ausgabe wählen","quantity":"Anzahl","add":"In den Warenkorb","sold_out":"Nicht verfügbar","author":"Über den Autor","series":"Zur Reihe","edition":"Über diese Ausgabe","sample":"Leseprobe"},
+ "cart":{"title":"Warenkorb","empty":"Der Warenkorb ist leer.","update":"Warenkorb aktualisieren","checkout":"Zur Kasse","remove":"Entfernen","total":"Gesamt","taxes":"Steuern und Versand werden an der Kasse berechnet."},
+ "password":{"title":"AETERNUS nimmt Gestalt an.","message":"Unser Direktshop ist in Vorbereitung.","label":"Shop-Passwort","enter":"Öffnen"},
+ "search":{"title":"Bücher suchen","submit":"Suchen","empty":"Keine Ergebnisse gefunden."}
+}

@@ -1,0 +1,98 @@
+{
+  "author": {
+    "slug": "arthur-conan-doyle",
+    "name": "Arthur Conan Doyle",
+    "dates": "1859–1930",
+    "eyebrow": "AMBER SERIES · AETERNUS",
+    "tagline": "Physician, traveller and storyteller",
+    "intro": "",
+    "metaDescription": "Arthur Conan Doyle, creator of Sherlock Holmes and Professor Challenger. The Lost World and The White Company in the AETERNUS Amber Series.",
+    "portrait": {
+      "modern": true,
+      "file": "portrait-acd-doyle-20261008",
+      "alt": "Arthur Conan Doyle at his writing desk, portrait reconstructed after a photograph"
+    },
+    "blocks": [
+      {
+        "h": "About the Author",
+        "p": [
+          "Arthur Conan Doyle achieved the rare fate of creating a character so powerful that the character threatened to obscure the man who made him. Sherlock Holmes became one of the immortal figures of world literature. Doyle, however, never regarded himself as the author of a single creation.",
+          "He was born in Edinburgh on 22 May 1859 and trained in medicine at the University of Edinburgh. The scientific habits of that education—observation, diagnosis, inference, argument from physical evidence—would remain visible throughout his fiction. As a young man he sailed as a medical officer into the Arctic aboard the whaler Hope and later served as ship’s doctor on a voyage to the West African coast. In 1882 he established a medical practice at Southsea. Medicine gave him discipline. Travel gave him distance. Literature gave him his country.",
+          "A Study in Scarlet appeared in 1887 and introduced Sherlock Holmes. The extraordinary success of the later Holmes stories in The Strand Magazine made Doyle internationally famous, but detective fiction formed only one province of his work. He wrote historical romances, tales of war, boxing, piracy and empire, plays, political essays, memoirs and works of public controversy. His historical novels—among them The White Company—were in fact among the books he valued most highly.",
+          "Nor was adventure merely literary material to him. During the South African War Doyle served with a field hospital, wrote extensively upon the conflict and was knighted in 1902. His public life repeatedly carried him beyond the quiet existence of the professional man of letters.",
+          "By 1912 he had already been famous for more than two decades. Then he created Professor Challenger. If Holmes represents mastery through intellect held under perfect control, Challenger represents intellect in eruption: learned, furious, magnificent, absurd, courageous and almost physically incapable of moderation. Doyle drew part of the figure from William Rutherford, the memorable Edinburgh professor whose massive build and Assyrian beard had impressed the young medical student decades earlier.",
+          "The Lost World introduced Challenger to the public in 1912. Further adventures followed, beginning with The Poison Belt in 1913. Yet none possessed quite the elemental completeness of the first: the assembly of the expedition, the descent into unmapped country, the inaccessible plateau and the confrontation between modern man and deep time.",
+          "Doyle lived until 1930. By then he had seen the world transformed by machinery, war, aviation, cinema and mass communication. He had also seen one of his own impossible visions enter another medium: the 1925 film of The Lost World, with the pioneering model animation of Willis O’Brien, gave moving prehistoric creatures a scale and physical presence unprecedented in feature cinema and helped establish a visual tradition that would extend far beyond Doyle’s lifetime.",
+          "Holmes made Doyle immortal. But Challenger reveals another part of him: the physician who loved evidence, the traveller who knew the seduction of distance, and the storyteller who still believed that the greatest words an explorer could utter were these: We do not know what lies beyond."
+        ]
+      }
+    ],
+    "publisherEditionHTML": "<h2>The Lost World</h2><p>Forthcoming</p><blockquote><p>“Highly interesting adventure of a sort to stir the pulse and arouse the wonder of even the jaded novel reader.”</p><cite>The New York Times, 1912</cite></blockquote><p>When Professor George Edward Challenger returns from the unexplored interior of South America with an impossible claim, London answers him with ridicule. Beyond the known rivers and forests, he declares, rises an immense and inaccessible plateau—a world cut off from mankind, where forms of life thought extinct for millions of years may still endure.</p><p>To prove it, Challenger leads a small expedition into the wilderness: the sceptical Professor Summerlee, the celebrated hunter and traveller Lord John Roxton, and the young journalist Edward Malone, who has gone in search of an adventure worthy of courage.</p><p>Upon that lost tableland, the certainties of the modern world fall away. Primeval forests conceal monstrous life; ancient struggles continue beneath an unknown sky; and four men of the twentieth century discover how thin the dominion of civilization becomes when confronted with an earth that has forgotten mankind.</p><p>First published in 1912, Arthur Conan Doyle’s The Lost World remains one of the great adventure novels of the modern age—a tale of discovery, danger, scientific audacity and the terrible grandeur of the unknown.</p><h2>The White Company</h2><p>Forthcoming, in three volumes</p><p>Doyle’s historical romance of 1891, in the Amber Series.</p>",
+    "publisherPortraitCaption": "Portrait reconstructed after a photograph."
+  },
+  "book": {
+    "id": "en-arthur-conan-doyle-the-lost-world",
+    "work_id": "ACD_002",
+    "language": "en",
+    "title": "The Lost World",
+    "subtitle": "",
+    "author": "arthur-conan-doyle",
+    "authorName": "Arthur Conan Doyle",
+    "contributors": [],
+    "series": "bernstein",
+    "series_number": null,
+    "original_publication_year": 1912,
+    "isbn": {
+      "paperback": "978-3-67605-153-8",
+      "hardcover": "978-3-67605-154-5"
+    },
+    "formats": {},
+    "description": {
+      "short": "When Professor George Edward Challenger returns from the unexplored interior of South America with an impossible claim, London answers him with ridicule. Beyond the known rivers and forests, he declares, rises an immense and inaccessible plateau—a world cut off from mankind, where forms of life thought extinct for millions of years may still endure.",
+      "long": "There are places upon the earth where time has not passed.\n\nWhen Professor George Edward Challenger returns from the unexplored interior of South America with an impossible claim, London answers him with ridicule. Beyond the known rivers and forests, he declares, rises an immense and inaccessible plateau—a world cut off from mankind, where forms of life thought extinct for millions of years may still endure.\n\nTo prove it, Challenger leads a small expedition into the wilderness: the sceptical Professor Summerlee, the celebrated hunter and traveller Lord John Roxton, and the young journalist Edward Malone, who has gone in search of an adventure worthy of courage.\n\nUpon that lost tableland, the certainties of the modern world fall away. Primeval forests conceal monstrous life; ancient struggles continue beneath an unknown sky; and four men of the twentieth century discover how thin the dominion of civilization becomes when confronted with an earth that has forgotten mankind.\n\nFirst published in 1912, Arthur Conan Doyle’s The Lost World remains one of the great adventure novels of the modern age—a tale of discovery, danger, scientific audacity and the terrible grandeur of the unknown."
+    },
+    "cover": "/assets/images/cover-acd002-en-ingram-v1-20261008.jpg",
+    "publication_date": null,
+    "pricing": {},
+    "availability": "COMING_SOON",
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "amazon": "NOT_BUILT",
+      "ingram": "GEBAUT",
+      "own_shop": "NOT_CONFIGURED"
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-arthur-conan-doyle-the-lost-world/",
+    "authorUrl": "/authors/arthur-conan-doyle/",
+    "legacy": {
+      "modal": {
+        "sample": "There are places upon the earth where time has not passed.\n\nWhen Professor George Edward Challenger returns from the unexplored interior of South America with an impossible claim, London answers him with ridicule. Beyond the known rivers and forests, he declares, rises an immense and inaccessible plateau—a world cut off from mankind, where forms of life thought extinct for millions of years may still endure.\n\nTo prove it, Challenger leads a small expedition into the wilderness: the sceptical Professor Summerlee, the celebrated hunter and traveller Lord John Roxton, and the young journalist Edward Malone, who has gone in search of an adventure worthy of courage.\n\nUpon that lost tableland, the certainties of the modern world fall away. Primeval forests conceal monstrous life; ancient struggles continue beneath an unknown sky; and four men of the twentieth century discover how thin the dominion of civilization becomes when confronted with an earth that has forgotten mankind.\n\nFirst published in 1912, Arthur Conan Doyle’s The Lost World remains one of the great adventure novels of the modern age—a tale of discovery, danger, scientific audacity and the terrible grandeur of the unknown.",
+        "metadata": "AMBER SERIES reading edition: the complete text of the London edition of Hodder and Stoughton, with a publisher’s apparatus, a frontispiece and nine plates made for this edition."
+      }
+    },
+    "provenance": "ACD_002/ENG/02_PARATEXTE/VERLEGERPAKET_20261008_V2 (E1, E3) + 05_UMSCHLAG/INGRAM_V1_20261008",
+    "retailer_formats": [
+      {
+        "label": "Paperback",
+        "isbn": "978-3-67605-153-8",
+        "links": [],
+        "status": "GEBAUT"
+      },
+      {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-154-5",
+        "links": [],
+        "status": "GEBAUT"
+      }
+    ],
+    "publisherDescriptionHTML": "<ul><li>Complete text of the London edition of Hodder and Stoughton, checked page by page</li><li>Frontispiece and nine plates made for this edition</li><li>Publisher’s foreword, dramatis personae and afterword</li><li>Historical and geographical note, chronology</li><li>Author profile and note on this edition</li></ul><p><i>“Highly interesting adventure of a sort to stir the pulse and arouse the wonder of even the jaded novel reader.” — The New York Times, 1912</i></p><p>There are places upon the earth where time has not passed.</p><p>When Professor George Edward Challenger returns from the unexplored interior of South America with an impossible claim, London answers him with ridicule. Beyond the known rivers and forests, he declares, rises an immense and inaccessible plateau—a world cut off from mankind, where forms of life thought extinct for millions of years may still endure.</p><p>To prove it, Challenger leads a small expedition into the wilderness: the sceptical Professor Summerlee, the celebrated hunter and traveller Lord John Roxton, and the young journalist Edward Malone, who has gone in search of an adventure worthy of courage.</p><p>Upon that lost tableland, the certainties of the modern world fall away. Primeval forests conceal monstrous life; ancient struggles continue beneath an unknown sky; and four men of the twentieth century discover how thin the dominion of civilization becomes when confronted with an earth that has forgotten mankind.</p><p>First published in 1912, Arthur Conan Doyle’s The Lost World remains one of the great adventure novels of the modern age—a tale of discovery, danger, scientific audacity and the terrible grandeur of the unknown.</p>",
+    "original_title": "The Lost World"
+  }
+}

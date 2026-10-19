@@ -1,0 +1,1 @@
+{% if history.byBook[book.id] %}<aside class="shell history-context" aria-label="{{ history.labels.context }}"><h2>{{ history.labels.context }}</h2><ul>{% for context in history.byBook[book.id] %}<li><a href="{{ context.url }}">{{ context.title }} →</a></li>{% endfor %}</ul></aside>{% endif %}

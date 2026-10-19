@@ -9,8 +9,13 @@ const definitions = [
     url: `${greenBase}british-empire/`,
     intro: 'First-hand accounts of British campaigns, command and the people caught in the reach of empire.',
     bookIds: [
+      'en-charles-edward-callwell-the-life-of-sir-stanley-maude',
+      'en-william-robertson-from-private-to-field-marshal',
       'en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated',
       'en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated',
+      'en-george-arthur-life-of-lord-kitchener-volume-i',
+      'en-george-arthur-life-of-lord-kitchener-volume-ii',
+      'en-george-arthur-life-of-lord-kitchener-volume-iii',
       'en-henry-doveton-hutchinson-the-campaign-in-tirah',
       'en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880',
       'en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition',

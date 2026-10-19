@@ -1,0 +1,70 @@
+{
+ "schema": "AETERNUS_WEBSEITE_TEXTE_NAJ001_EN_V1",
+ "quelle": "NAJ001_PARATEXT_EN_V5.md",
+ "quelle_sha256": "79cee43f372eca0d5a6a5ad8a8d42a231d234de7244318dbaa99619d884b2240",
+ "author_slug": "napoleon-augustus-jennings",
+ "author_url": "https://aeternuspublishing.com/authors/napoleon-augustus-jennings/",
+ "author_name": "Napoleon Augustus Jennings",
+ "author_on_book": "N. A. Jennings",
+ "author_dates": "1856–1918",
+ "author_portrait": null,
+ "author_portrait_note": "No public-domain portrait found; no generated portrait (house rule). Page without portrait.",
+ "book_title": "A Texas Ranger",
+ "first_published": "Charles Scribner’s Sons, New York, 1899",
+ "series": "GREEN SERIES",
+ "status": "forthcoming",
+ "about_the_author": [
+  "## Napoleon Augustus Jennings\n### 1856–1918\n### Ranger, Reporter and Chronicler of the Border",
+  "Napoleon Augustus Jennings began life at a considerable distance from the world that would make his name. Born in Philadelphia on 11 January 1856, the son of a prosperous merchant, he was educated at St. Paul’s School in Concord, New Hampshire. At eighteen he left the settled East for Texas and entered a country in which wealth, social position and eastern education mattered rather less than horsemanship, judgment and the ability to make oneself useful.",
+  "After early experience among cattlemen, Jennings became associated with Captain Leander McNelly’s Special Force. He remained with the organization until February 1877. The surviving evidence does not speak with one voice about his precise status: later Ranger George Durham described him chiefly as a field clerk, while Texas historical reference works record his joining McNelly’s command. Whatever his formal designation, Jennings knew the men, stories and country closely enough for his recollections to become one of the enduring early narratives of the Special Force.",
+  "Following the death of his father, Jennings returned to Philadelphia and attempted to enter the family business. Settled commercial life did not hold him. He went west again and worked at various times as prospector, miner, stagecoach driver and sign painter before discovering the profession that would give permanent form to his powers of observation.",
+  "He became a newspaperman.",
+  "Jennings worked for newspapers in Philadelphia and New York, later returned to Texas as a reporter for the *San Antonio Express*, and eventually covered the Mexican Revolution for the *New York Herald*. Journalism supplied discipline to qualities the frontier had already cultivated: rapid judgment, economy of description and the knowledge that a man may sometimes be revealed more exactly by one sentence of dialogue than by a page of analysis.",
+  "Those qualities animate *A Texas Ranger*. Published by Charles Scribner’s Sons in 1899, the book is neither a formal institutional history nor a neutral chronicle. It is a remembered world shaped by a writer who understood pace, character and anecdote. Contemporary reviewers recognized its vitality; later historians disputed portions of its accuracy. Walter Prescott Webb regarded parts of the narrative with suspicion, while J. Frank Dobie defended its standing among Ranger memoirs, and John H. Jenkins subsequently included it among his *Basic Texas Books*.",
+  "The disagreement is itself revealing. Jennings stands near that unstable boundary between experience and legend where much of the literature of the American frontier was born. He was close enough to the old border to preserve its speech and temper, yet sufficiently removed from it for memory already to have begun arranging experience into story.",
+  "He died in New York on 15 December 1918.",
+  "By then the Texas of his youth had been transformed by railways, stronger institutions and the closing of the old border conditions. Many of the men he had known were dead, and the Ranger was already passing from mounted officer into national symbol.",
+  "Jennings had done what a chronicler of a vanishing world can do.",
+  "He had written before the dust had entirely settled."
+ ],
+ "back_cover_text": [
+  "“A Texas Ranger is a book to make healthy pulses throb and well ordered veins tingle with wild delight.”\n— *The Sunny South*, 17 June 1899",
+  "There was a time when the authority of Texas traveled on horseback.",
+  "Across the Nueces Strip and along the Rio Grande, law might exist plainly enough upon paper while the man charged with enforcing it remained a hundred miles from the place where it had been broken. Stolen cattle could vanish across an international boundary before a sheriff had gathered a posse; a fugitive might have friends, horses and open country between himself and the nearest court.",
+  "Into that borderland rode Captain Leander H. McNelly and his Special Force of Texas Rangers.",
+  "Napoleon Augustus Jennings knew their world at close quarters. First published by Charles Scribner’s Sons in 1899, *A Texas Ranger* recalls McNelly’s hard company, the Sutton–Taylor feud, the cattle raids of the Rio Grande country, King Fisher, John Wesley Hardin and a frontier where outlaw and officer might know one another by name before one was ordered to arrest the other.",
+  "Jennings wrote before the Ranger had hardened completely into legend. His men are still mounted officers under long skies, carrying warrants, following trails and placing the authority of the State upon their own courage, judgment and endurance.",
+  "What survives is not the polished West of later memory, but something rougher and nearer: the border while it was still being lived.",
+  "The law might speak in Austin; on the frontier, someone still had to make it heard."
+ ],
+ "formats": [
+  {
+   "form": "Paperback",
+   "isbn": "978-3-67605-163-7",
+   "pages": 226,
+   "usd": 14.99,
+   "gbp": 12.99,
+   "eur": 13.99
+  },
+  {
+   "form": "Hardcover",
+   "isbn": "978-3-67605-164-4",
+   "pages": 226,
+   "usd": 24.99,
+   "gbp": 21.99,
+   "eur": 23.99
+  },
+  {
+   "form": "E-book",
+   "isbn": "978-3-67605-165-1",
+   "usd": 7.99,
+   "gbp": 6.99,
+   "eur": 7.99
+  }
+ ],
+ "cover_images": {
+  "cover-a-texas-ranger-jennings-en-20261009-fallback.jpg": "215aff75c4104697303a462395fe086dfc3b39eaf0c28081624b78f8dc055cb5",
+  "cover-a-texas-ranger-jennings-en-20261009.jpg": "faa88b4a7b49c774aab416c6141cab16784882f6b3a6a9fe077a0c7ce97a8306",
+  "cover-a-texas-ranger-jennings-en-20261009.webp": "5128025fd5f7c0033bfcfc481d92011671ec6e8731f74257be71a5471dc9abd5"
+ }
+}
