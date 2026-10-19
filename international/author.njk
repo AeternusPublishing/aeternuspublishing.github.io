@@ -31,6 +31,7 @@ eleventyComputed:
   {% endif %}
   </div>
 </section>
+{% if author.relatedAuthors %}<section class="shell international-section"><h2>Woodcraft and the early Scout movement</h2><p>{% for related in author.relatedAuthors %}<a class="text-link" href="/authors/{{ related.slug }}/">{{ related.name }} →</a>{% if not loop.last %} · {% endif %}{% endfor %}</p></section>{% endif %}
 {% if author.publisherPortraitCaption and not author.portrait.modern and not author.publisherPortrait %}<p class="shell edition-note">{{ author.publisherPortraitCaption }}</p>{% endif %}
 {% if author.publisherEditionHTML and not summary.editionDetailsOnBookPages %}
 <section class="shell international-section author-edition-notes"><details><summary>Further reading about the editions</summary><div class="prose">{{ author.publisherEditionHTML | safe }}</div></details></section>
