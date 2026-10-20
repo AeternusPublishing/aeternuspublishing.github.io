@@ -1,0 +1,180 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "henry-rider-haggard",
+  "name": "Henry Rider Haggard",
+  "dates": "1856–1925",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "SOCIETY",
+      "title": "Rider Haggard Society · Life and works",
+      "url": "https://www.riderhaggardsociety.org.uk/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "BIB",
+      "title": "Rider Haggard Society · Bibliography",
+      "url": "https://www.riderhaggardsociety.org.uk/bibliography",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "NORFOLK",
+      "title": "Norfolk Record Office · Haggard family papers, accessions",
+      "url": "https://www.nationalarchives.gov.uk/accessions/2000/00returns/00ac153.htm",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Haggard lived 1856–1925; worked in southern Africa before his major novels.",
+      "sources": [
+        "SOCIETY",
+        "BIB",
+        "NORFOLK"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "King Solomon’s Mines (1885) and She (1887) established his adventure-fiction reputation.",
+      "sources": [
+        "SOCIETY",
+        "BIB",
+        "NORFOLK"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "His writing also addressed agriculture and rural society.",
+      "sources": [
+        "SOCIETY",
+        "BIB",
+        "NORFOLK"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Beyond the map: adventure, memory and vanished kingdoms.",
+      "intro": "Haggard’s romances send their travellers towards places where history has become legend. The expedition promises treasure, but its deeper encounters are with power, survival and the disturbing persistence of the past.",
+      "orientation": "His African experience and the imaginative Africa of his novels must be distinguished. The first gave him places and political memories; the second reshaped them into romance.",
+      "origin": [
+        "Born in Norfolk, he worked in southern Africa as a young man. Returning to England, he made both fiction and the condition of rural life substantial parts of his work."
+      ],
+      "career": [
+        "King Solomon’s Mines brought success in 1885; She followed in 1887. The adventure writer also became an investigator of agricultural and rural questions."
+      ],
+      "literature": [
+        "The lost kingdom and the dangerous journey provide his novels with structure. Their imagined antiquities and imperial viewpoints belong to the fiction’s historical moment, even where the storytelling reaches far beyond it."
+      ],
+      "legacy": "Haggard’s power lies in giving an invented world the weight of an old memory. Reading him again restores the full scale of the romance behind its familiar plots.",
+      "bridge": "The editions follow distinct paths through his work, from the expedition narrative to the imagined worlds beyond the traveller’s knowledge.",
+      "description": "Haggard’s romances send their travellers towards places where history has become legend. The expedition promises treasure, but its deeper encounters are with power, survival and the disturbing persistence of the past.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    "de": {
+      "tagline": "Jenseits der Karte: Abenteuer und versunkene Reiche.",
+      "intro": "Haggards Reisende gelangen an Orte, an denen Geschichte zur Sage geworden ist. Die Expedition verspricht einen Schatz; ihre tieferen Begegnungen gelten Macht, Überleben und der beunruhigenden Fortdauer des Vergangenen.",
+      "orientation": "Die eigene Afrikakenntnis und das erfundene Afrika der Romane sind zu unterscheiden. Jene gab ihm Orte und politische Erinnerungen; dieses verwandelte sie in Abenteuerliteratur.",
+      "origin": [
+        "In Norfolk geboren, arbeitete Haggard als junger Mann im südlichen Afrika. Nach seiner Rückkehr nach England beschäftigten ihn neben der erzählenden Literatur auch Landwirtschaft und ländliche Gesellschaft."
+      ],
+      "career": [
+        "Mit King Solomon’s Mines gelang ihm 1885 der Durchbruch; 1887 folgte She. Der erfolgreiche Romancier blieb zugleich ein genauer Beobachter agrarischer Fragen."
+      ],
+      "literature": [
+        "Das verborgene Reich und die gefährliche Reise bilden das Gerüst seiner Romane. Ihre erfundene Vorzeit und ihr imperialer Blick gehören zum historischen Augenblick ihrer Entstehung."
+      ],
+      "legacy": "Haggards Kunst verleiht einer erfundenen Welt das Gewicht alter Erinnerung. Die erneute Lektüre erschließt die ganze Weite dieser Romane hinter ihren berühmt gewordenen Handlungsmustern.",
+      "bridge": "Die deutschen Ausgaben führen in Haggards erzählte Welten; die englischen Titel sind über die englische Verlagsseite erreichbar.",
+      "description": "Haggards Reisende gelangen an Orte, an denen Geschichte zur Sage geworden ist. Die Expedition verspricht einen Schatz; ihre tieferen Begegnungen gelten Macht, Überleben und der beunruhigenden Fortdauer des Vergangenen.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-haggard",
+          "alt": "Historisches Porträt von Henry Rider Haggard",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-haggard",
+          "alt": "Historical portrait of Henry Rider Haggard",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-haggard",
+          "alt": "Historical portrait of Henry Rider Haggard",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1885",
+      "King Solomon’s Mines",
+      "King Solomon’s Mines"
+    ],
+    [
+      "1887",
+      "She",
+      "She"
+    ]
+  ],
+  "rank": {
+    "en": "Sir Henry Rider Haggard · novelist and writer on rural affairs",
+    "de": "Sir Henry Rider Haggard · Romancier und Schriftsteller des ländlichen Lebens"
+  }
+}

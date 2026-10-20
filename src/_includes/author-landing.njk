@@ -1,3 +1,7 @@
+{% set world = a.slug | authorWorld(authorLocale) %}
+{% set worldEnglishBooks = a.slug | worldEnglishBooks(true) %}
+{% set worldWorksId = labels.worksId %}
+{% set worldBioId = labels.bioId %}
 <body class="editorial-site international-site">
 <a class="skip-link" href="#main">{{ labels.skip }}</a>
 <header class="masthead"><div class="shell masthead-inner">
@@ -9,14 +13,16 @@
 </div></header>
 {% if a.preview %}<p class="author-preview-note">{{ a.previewBanner or a.previewStatus or labels.preview }}</p>{% endif %}
 <main id="main" class="author-page">
-<section class="shell author-hero{% if not a.portrait.file %} no-portrait{% endif %}">
+{% if world %}{% include "editorial/author-worlds/components/hero.njk" %}{% else %}<section class="shell author-hero{% if not a.portrait.file %} no-portrait{% endif %}">
   <div><p class="kicker">{{ a.eyebrow | striptags }}</p><h1>{{ a.name }}</h1><p>{{ a.dates | safe }}</p><p class="detail-subtitle">{{ a.tagline }}</p><p>{{ a.intro | safe }}</p></div>
   {% set portrait = a.portrait.file | authorImage(a.portrait.modern) %}
   {% if portrait %}<figure><img src="{{ portrait }}" alt="{{ a.portrait.alt or a.name }}" width="250" height="310"></figure>{% endif %}
-</section>
+</section>{% endif %}
 <section class="shell international-section" id="{{ labels.worksId }}" aria-labelledby="works-title">
-  <div class="section-heading"><h2 id="works-title">{{ "Englischsprachige Ausgaben" if authorLocale == 'de' and a.editionLanguage == 'en' else labels.editions }}</h2></div>
-  <div class="author-books{% if a.books.length == 1 %} single-book{% endif %}">
+  <div class="section-heading"><h2 id="works-title">{% if world and authorLocale == 'en' and not worldEnglishBooks.length %}German-language editions{% else %}{{ "Englischsprachige Ausgaben" if authorLocale == 'de' and a.editionLanguage == 'en' else labels.editions }}{% endif %}</h2></div>
+  {% if world.bridge %}<p class="world-book-bridge">{{ world.bridge }}</p>{% endif %}
+  {% if world and a.sisterUrl and a.sisterUrl != '/autoren/' %}<p class="edition-note"><a href="{{ a.sisterUrl }}">{{ a.sisterLabel }} →</a></p>{% endif %}
+{% if world and authorLocale == "en" %}{% include "editorial/author-worlds/components/books-en.njk" %}{% else %}  <div class="author-books{% if a.books.length == 1 %} single-book{% endif %}">
   {% if authorLocale == 'de' and a.editionLanguage == 'en' %}
     <p>Die Ausgaben dieses Autors finden Sie auf unserer englischen Verlagsseite: <a class="text-link" href="{{ a.sisterUrl }}">Zu den englischsprachigen Ausgaben →</a></p>
   {% else %}
@@ -43,9 +49,9 @@
     </article>
   {% endfor %}
   {% endif %}
-  </div>
+  </div>{% endif %}
 </section>
-{% if a.blocks.length or a.bioLede %}<section class="shell international-section author-biography" id="{{ labels.bioId }}" aria-labelledby="bio-title">
+{% if world %}{% include "editorial/author-worlds/components/content.njk" %}{% else %}{% if a.blocks.length or a.bioLede %}<section class="shell international-section author-biography" id="{{ labels.bioId }}" aria-labelledby="bio-title">
   <div><p class="kicker">{{ labels.context }}</p><h2 id="bio-title">{{ labels.about }} {{ a.name }}</h2></div>
   <div class="biography-copy">
     {% if a.bioLede %}<p>{{ a.bioLede | safe }}</p>{% endif %}
@@ -53,7 +59,8 @@
   </div>
 </section>
 {% endif %}
-{% if a.facts or a.worksIntro or a.editionsNote %}<section class="shell international-section author-edition-notes"><details><summary>{{ labels.more }}</summary><div class="prose">
+{% endif %}
+{% if not world and (a.facts or a.worksIntro or a.editionsNote) %}<section class="shell international-section author-edition-notes"><details><summary>{{ labels.more }}</summary><div class="prose">
   <h2>{{ a.worksTitle | safe }}</h2><p>{{ a.worksIntro | safe }}</p>
   <div class="author-facts">{% for f in a.facts %}<p>{{ f[0] }}<strong>{{ f[1] | safe }}</strong></p>{% endfor %}</div>
   <p>{{ a.editionsNote | safe }}</p>{% if a.sisterUrl %}<a href="{{ "/buecher/" if a.sisterUrl == "/autoren/" else a.sisterUrl }}">{{ labels.catalogue if a.sisterUrl == "/autoren/" else a.sisterLabel }} →</a>{% endif %}

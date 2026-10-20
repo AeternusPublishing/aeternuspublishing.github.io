@@ -1,0 +1,137 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "rudyard-kipling",
+  "name": "Joseph Rudyard Kipling",
+  "dates": "1865–1936",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": false,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "NOBEL",
+      "title": "Nobel Foundation · Rudyard Kipling, biography",
+      "url": "https://www.nobelprize.org/prizes/literature/1907/kipling/biographical/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "BIB",
+      "title": "Nobel Foundation · Kipling bibliography",
+      "url": "https://www.nobelprize.org/prizes/literature/1907/kipling/bibliography/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Bombay 1865; died 1936; journalist, poet and fiction writer.",
+      "sources": [
+        "NOBEL",
+        "BIB"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Jungle Book (1894), Kim (1901); Nobel Prize in Literature 1907.",
+      "sources": [
+        "NOBEL",
+        "BIB"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Die vielen Stimmen einer imperialen Welt.",
+      "intro": "Kipling schrieb mit dem Ohr für Berufe, Milieus und wechselnde Sprechweisen. Soldaten, Kinder, Reisende und Tiere gewinnen ihre Gestalt durch die Regeln und Bindungen ihrer jeweiligen Welt.",
+      "orientation": "Seine Erzählkunst steht mitten in der Geschichte des britischen Empire. Dessen Selbstgewissheit, Arbeitsethos und Konflikte sind Stoff und Voraussetzung seiner Literatur.",
+      "origin": [
+        "1865 in Bombay geboren, verbrachte Kipling Kindheitsjahre in England und kehrte als junger Mann nach Indien zurück."
+      ],
+      "career": [
+        "Die journalistische Arbeit schulte die knappe Beobachtung und den Wechsel zwischen unterschiedlichen Lebenswelten. Gedichte und Erzählungen machten ihn international bekannt. 1907 erhielt er den Literaturnobelpreis."
+      ],
+      "literature": [
+        "Das Dschungelbuch und Kim entfalten Gemeinschaften mit eigenen Gesetzen, Wissensformen und Loyalitäten. Hinter der raschen Handlung steht eine genaue Konstruktion von Zugehörigkeit und Verantwortung."
+      ],
+      "legacy": "Kiplings Werk bewahrt die sprachliche Energie einer weitgespannten, widersprüchlichen Welt. Seine Stärke liegt im einzelnen Tonfall, in der Arbeit am Satz und in der Fähigkeit, eine Ordnung durch ihre Bewohner sichtbar zu machen.",
+      "bridge": "Die Ausgaben führen in diese erzählten Ordnungen zurück, mit ihrer Fremdheit, ihrem Witz und ihrem Ernst.",
+      "description": "Kipling schrieb mit dem Ohr für Berufe, Milieus und wechselnde Sprechweisen. Soldaten, Kinder, Reisende und Tiere gewinnen ihre Gestalt durch die Regeln und Bindungen ihrer jeweiligen Welt.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-kipling",
+          "alt": "Rudyard Kipling, historisches Autorenporträt",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "honours": [
+    {
+      "name": "Nobelpreis für Literatur",
+      "year": "1907",
+      "category": "prize",
+      "sources": [
+        "NOBEL"
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "1865",
+      "",
+      "Geburt in Bombay"
+    ],
+    [
+      "1894",
+      "",
+      "Das Dschungelbuch"
+    ],
+    [
+      "1901",
+      "",
+      "Kim"
+    ],
+    [
+      "1907",
+      "",
+      "Literaturnobelpreis"
+    ]
+  ]
+}

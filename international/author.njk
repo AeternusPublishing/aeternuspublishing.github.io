@@ -11,29 +11,18 @@ eleventyComputed:
   title: "{{ author.name | safe }}"
   description: "{{ author.metaDescription | safe }}"
 ---
-{% set summary = authorSummaries[author.slug] %}
+{% set world = author.slug | authorWorld("en") %}
+{% set worldWorksId = "works" %}
+{% set worldBioId = "biography" %}
 <div class="author-page">
-<section class="shell author-note author-hero{% if not author.publisherPortrait and not author.portrait.modern %} no-portrait{% endif %}"><div><p class="kicker">{{ author.eyebrow | plain }}</p><h1>{{ author.name }}</h1><p>{{ author.dates | plain }}</p><p class="detail-subtitle">{{ author.tagline | plain }}</p><p>{{ author.intro | plain }}</p></div>{% if author.publisherPortrait %}<figure><img src="{{ author.publisherPortrait }}" alt="Portrait of {{ author.name | escape }}" width="210" height="260"><figcaption>{{ author.publisherPortraitCaption }}</figcaption></figure>{% elif author.portrait.modern %}<figure>{% if author.slug == "tappan-adney" or author.portrait.fallback %}<picture><source type="image/webp" srcset="/assets/images/{{ author.portrait.file }}.webp"><img src="/assets/images/{{ author.portrait.file }}.jpg" alt="{{ author.portrait.alt | escape }}" width="210" height="260"></picture>{% else %}<img src="/assets/images/{{ author.portrait.file }}.webp" alt="{{ author.portrait.alt | escape }}" width="210" height="260">{% endif %}{% if author.publisherPortraitCaptionLines %}<figcaption>{% for line in author.publisherPortraitCaptionLines %}{{ line }}{% if not loop.last %}<br>{% endif %}{% endfor %}</figcaption>{% elif author.publisherPortraitCaption %}<figcaption>{{ author.publisherPortraitCaption }}</figcaption>{% endif %}</figure>{% endif %}</section>
+{% if world %}{% include "editorial/author-worlds/components/hero.njk" %}{% endif %}
 {% if author.slug == 'arthur-conan-doyle' %}<p class="shell"><a class="text-link" href="/books/the-white-company/">The White Company · Explore all three volumes →</a></p>{% endif %}
-{% if not author.hideEditions %}<section class="shell international-section"><div class="section-heading"><h2>English-language editions</h2></div>{% set books = author.slug | authorBooks %}{% if books.length %}<div class="author-books{% if books.length == 1 %} single-book{% endif %}">{% for item in books %}{% include 'author-book.njk' %}{% endfor %}</div>{% else %}<p>Explore this author’s current programme on the German publishing website.</p><a class="text-link" href="https://aeternus-verlag.de/en/authors/{{ author.slug }}/">View the existing author page →</a>{% endif %}</section>{% endif %}
-{% if author.extras %}<section class="shell detail-section author-extras" id="original-illustrations"><div><p class="kicker">{{ author.extras.kicker | plain }}</p><h2>{{ author.extras.title | plain }}</h2><p>{{ author.extras.text | plain }}</p></div><div class="format-list">{% for item in author.extras.items %}<article><h3>{{ item[0] | plain }}</h3><p>{{ item[1] | plain }}</p>{% if item[2] %}<a class="text-link" href="{{ item[2] }}" download>{{ (item[3] or "Download PDF") | plain }} ↓</a>{% else %}<p>{{ author.extras.status | plain }}</p>{% endif %}</article>{% endfor %}</div></section>{% endif %}
-<section class="shell international-section author-biography" aria-labelledby="author-biography-heading">
-  <div><p class="kicker">Life &amp; context</p><h2 id="author-biography-heading">About {{ author.name }}</h2></div>
-  <div class="biography-copy">
-  {% if summary.paragraphs %}
-    {% for paragraph in summary.paragraphs %}<p>{{ paragraph }}</p>{% endfor %}
-  {% else %}
-    <details><summary>Read the biography</summary>
-    {% if author.publisherAuthorHTML %}{{ author.publisherAuthorHTML | safe }}
-    {% elif author.aboutParagraphs %}{% for paragraph in author.aboutParagraphs %}<p>{{ paragraph | inlineEmphasis | safe }}</p>{% endfor %}
-    {% else %}{% for block in author.blocks %}<h3>{{ block.h | plain }}</h3>{% for paragraph in block.p %}<p>{{ paragraph | plain }}</p>{% endfor %}{% endfor %}{% endif %}
-    </details>
-  {% endif %}
-  </div>
+{% set worldEnglishBooks = author.slug | worldEnglishBooks %}
+<section class="shell international-section" id="works">
+  <div class="section-heading"><h2>{{ "English-language editions" if worldEnglishBooks.length else "German-language editions" }}</h2></div>
+  {% if world.bridge %}<p class="world-book-bridge">{{ world.bridge }}</p>{% endif %}
+  {% include "editorial/author-worlds/components/books-en.njk" %}
 </section>
-{% if author.relatedAuthors %}<section class="shell international-section"><h2>Woodcraft and the early Scout movement</h2><p>{% for related in author.relatedAuthors %}<a class="text-link" href="/authors/{{ related.slug }}/">{{ related.name }} →</a>{% if not loop.last %} · {% endif %}{% endfor %}</p></section>{% endif %}
-{% if author.publisherPortraitCaption and not author.portrait.modern and not author.publisherPortrait %}<p class="shell edition-note">{{ author.publisherPortraitCaption }}</p>{% endif %}
-{% if author.publisherEditionHTML and not summary.editionDetailsOnBookPages %}
-<section class="shell international-section author-edition-notes"><details><summary>Further reading about the editions</summary><div class="prose">{{ author.publisherEditionHTML | safe }}</div></details></section>
-{% endif %}
+{% if author.extras %}<section class="shell detail-section author-extras" id="original-illustrations"><div><p class="kicker">{{ author.extras.kicker | plain }}</p><h2>{{ author.extras.title | plain }}</h2><p>{{ author.extras.text | plain }}</p></div><div class="format-list">{% for item in author.extras.items %}<article><h3>{{ item[0] | plain }}</h3><p>{{ item[1] | plain }}</p>{% if item[2] %}<a class="text-link" href="{{ item[2] }}" download>{{ (item[3] or "Download PDF") | plain }} ↓</a>{% else %}<p>{{ author.extras.status | plain }}</p>{% endif %}</article>{% endfor %}</div></section>{% endif %}
+{% include "editorial/author-worlds/components/content.njk" %}
 </div>

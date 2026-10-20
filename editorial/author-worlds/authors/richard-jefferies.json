@@ -1,0 +1,124 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "richard-jefferies",
+  "name": "John Richard Jefferies",
+  "dates": "1848–1887",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "SOCIETY",
+      "title": "Richard Jefferies Society · Life and works",
+      "url": "https://richardjefferiessociety.org/life-works/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "WORKS",
+      "title": "Richard Jefferies · Works",
+      "url": "https://www.gutenberg.org/ebooks/author/489",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born at Coate in Wiltshire in 1848; died 1887.",
+      "sources": [
+        "SOCIETY",
+        "WORKS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote natural history, rural essays, Bevis (1882), The Story of My Heart (1883) and After London (1885).",
+      "sources": [
+        "SOCIETY",
+        "WORKS"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The fields of Wiltshire, and the world beyond them.",
+      "intro": "Jefferies looked closely at a country within walking distance. Fields, hedges, labour and the movement of animals became the materials of a prose that could pass from observation into speculation.",
+      "orientation": "The nature essay is only one part of his work. Bevis imagines childhood’s freedom; After London asks what might follow the collapse of a civilisation.",
+      "origin": [
+        "He grew up at Coate in Wiltshire. The farm and its surrounding countryside supplied a durable store of observation, though his writing continually outgrew a purely local subject."
+      ],
+      "career": [
+        "Journalism and essays opened into several literary forms. During his short life he wrote about agriculture and rural society as well as the inward life and imagined futures."
+      ],
+      "literature": [
+        "The Story of My Heart is an exploration of inward experience; After London transforms familiar terrain into a strange future. The observer of an English field was also an inventor of worlds."
+      ],
+      "legacy": "Jefferies offers an attentive, restless form of nature writing. His local knowledge makes the larger imaginative departures more remarkable.",
+      "bridge": "The books reveal the range between the precisely seen countryside and the landscapes the mind builds from it.",
+      "description": "Jefferies looked closely at a country within walking distance. Fields, hedges, labour and the movement of animals became the materials of a prose that could pass from observation into speculation.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-jefferies.webp",
+    "caption": {
+      "en": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888.",
+      "de": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888."
+    },
+    "provenance": "https://archive.org/details/eulogyofrichardj00besarich",
+    "rights": "1888 published portrait; anonymous historical original; source and local derivation in portrait-jefferies.source.json",
+    "processing": "non-generative reproduction"
+  },
+  "timeline": [
+    [
+      "1848",
+      "Born at Coate, Wiltshire",
+      ""
+    ],
+    [
+      "1882",
+      "Bevis",
+      ""
+    ],
+    [
+      "1883",
+      "The Story of My Heart",
+      ""
+    ],
+    [
+      "1885",
+      "After London",
+      ""
+    ]
+  ]
+}

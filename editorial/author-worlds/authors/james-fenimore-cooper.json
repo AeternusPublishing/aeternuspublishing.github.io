@@ -1,0 +1,134 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "james-fenimore-cooper",
+  "name": "James Fenimore Cooper",
+  "dates": "1789–1851",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "LOC",
+      "title": "Horace E. Scudder · American Authors, Cooper; Library of Congress copy",
+      "url": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/portraitsbiograp00scud/portraitsbiograp00scud.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "BOOK",
+      "title": "James Fenimore Cooper · The Last of the Mohicans",
+      "url": "https://www.gutenberg.org/ebooks/940",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "American novelist, 1789–1851; served in the navy before writing.",
+      "sources": [
+        "LOC",
+        "BOOK"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Leatherstocking novels include The Pioneers (1823) and The Last of the Mohicans (1826).",
+      "sources": [
+        "LOC",
+        "BOOK"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Lived in Europe 1826–33, then returned to Cooperstown.",
+      "sources": [
+        "LOC",
+        "BOOK"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The forest, the settlement and the making of an American romance.",
+      "intro": "Cooper made the changing border between settlement and forest a great subject of the novel. The landscape holds competing laws, loyalties and ways of life; the adventure carries a history of their collision.",
+      "orientation": "The Leatherstocking books arrange different moments of that changing world around the figure of Natty Bumppo. They are historical romances, not transparent records of Indian life.",
+      "origin": [
+        "Naval service preceded his literary career. Life in and around Cooperstown gave the novelist one of the landscapes from which his imagined America grew."
+      ],
+      "career": [
+        "Success came with novels of land and sea. Years in Europe widened his comparative view of the United States; his return brought public controversy as well as further fiction."
+      ],
+      "literature": [
+        "The Last of the Mohicans sets its action during the war between Britain and France in North America. Forest travel, alliance and broken protection create its narrative pressure."
+      ],
+      "legacy": "Cooper gave American fiction a geography of memory. His influence rests in the lasting structures of adventure he made from a contested national past.",
+      "bridge": "The editions invite a return to the novels’ full historical and narrative design.",
+      "description": "Cooper made the changing border between settlement and forest a great subject of the novel. The landscape holds competing laws, loyalties and ways of life; the adventure carries a history of their collision.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "file": "portrait-coo-cooper-jarvis-1822-20261008",
+          "alt": "James Fenimore Cooper, portrait by John Wesley Jarvis, 1822"
+        },
+        "caption": "Portrait by John Wesley Jarvis, 1822."
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1823",
+      "The Pioneers",
+      ""
+    ],
+    [
+      "1826",
+      "The Last of the Mohicans; departure for Europe",
+      ""
+    ],
+    [
+      "1833",
+      "Return to the United States",
+      ""
+    ]
+  ]
+}

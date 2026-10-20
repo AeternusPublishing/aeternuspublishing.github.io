@@ -1,0 +1,149 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "grey-owl",
+  "name": "Archibald Stansfeld Belaney · Grey Owl",
+  "dates": "1888–1938",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "PARKS",
+      "title": "Parks Canada · Grey Owl’s Cabin",
+      "url": "https://parks.canada.ca/~/media/pn-np/sk/princealbert/pdf/greyowl_e.ashx",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "ANAHAREO",
+      "title": "Parks Canada · Grey Owl and Anahareo",
+      "url": "https://parks.canada.ca/pn-np/sk/princealbert/culture/histoire-history",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Hastings, England, 1888; emigrated to Canada 1906; died 1938.",
+      "sources": [
+        "PARKS",
+        "ANAHAREO"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Trapper and writer; Anahareo encouraged his change towards beaver conservation.",
+      "sources": [
+        "PARKS",
+        "ANAHAREO"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Presented himself as Grey Owl while concealing his English origins.",
+      "sources": [
+        "PARKS",
+        "ANAHAREO"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Men of the Last Frontier published 1931; naturalist working with the national parks.",
+      "sources": [
+        "PARKS",
+        "ANAHAREO"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A borrowed identity, and a real argument for the living forest.",
+      "intro": "Grey Owl’s public life rested on a concealed origin. Born Archibald Belaney in England, he became a celebrated spokesman for the Canadian wilderness under an assumed indigenous identity. The deception and the conservation work both belong to his history.",
+      "orientation": "Anahareo’s place in that history is essential. Her influence helped turn a trapper towards the protection of beavers and the writing that made him widely known.",
+      "origin": [
+        "Belaney left Hastings for Canada in 1906. Life in northern Ontario brought trapping, guiding and close contact with people whose knowledge helped him inhabit the country."
+      ],
+      "career": [
+        "The national parks gave his work a new setting in 1931. Public speaking and books carried a conservation message beyond the cabin and the lake, while the Grey Owl persona obscured the author’s actual background."
+      ],
+      "literature": [
+        "Men of the Last Frontier combines knowledge of woodland life with a plea for its preservation. It is written at the crossing of an older trapping world and a growing public concern for wildlife."
+      ],
+      "legacy": "The force of the writing survives within a damaged claim to authority. Reading it with Anahareo’s contribution and Belaney’s origins in view restores the complexity of its making.",
+      "bridge": "The book belongs to the history of conservation and to the history of the persona through which that cause was presented.",
+      "description": "Grey Owl’s public life rested on a concealed origin. Born Archibald Belaney in England, he became a celebrated spokesman for the Canadian wilderness under an assumed indigenous identity. The deception and the conservation work both belong to his history.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-grey-owl",
+          "alt": "Grey Owl (Archibald Stansfeld Belaney), photograph from the first edition, 1931",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1888",
+      "Born Archibald Belaney in Hastings",
+      ""
+    ],
+    [
+      "1906",
+      "Emigrates to Canada",
+      ""
+    ],
+    [
+      "1931",
+      "National parks work; Men of the Last Frontier",
+      ""
+    ],
+    [
+      "1938",
+      "Death; English origins become public",
+      ""
+    ]
+  ]
+}

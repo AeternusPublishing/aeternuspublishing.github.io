@@ -1,0 +1,455 @@
+{
+  "status": "PASS",
+  "mode": "both-builds",
+  "authors": 39,
+  "germanPages": 21,
+  "englishPages": 32,
+  "legacyEnglishPages": 12,
+  "routes": 65,
+  "bookLinks": 335,
+  "unchangedBooks": 88,
+  "negativeFixtures": 4,
+  "depths": {
+    "compact": [
+      "charles-brockden-brown",
+      "george-arthur",
+      "george-washington-sears",
+      "johanna-spyri",
+      "joshua-duke",
+      "napoleon-augustus-jennings",
+      "tacitus"
+    ],
+    "expanded": [
+      "arthur-conan-doyle",
+      "banastre-tarleton",
+      "carlo-collodi",
+      "charles-edward-callwell",
+      "charles-william-wilson",
+      "daniel-carter-beard",
+      "felix-salten",
+      "francis-parkman",
+      "francis-younghusband",
+      "george-robert-gleig",
+      "grey-owl",
+      "henry-doveton-hutchinson",
+      "henry-ford",
+      "henry-rider-haggard",
+      "james-b-gillett",
+      "james-fenimore-cooper",
+      "james-hall",
+      "james-j-hill",
+      "lady-florentia-sale",
+      "melliss",
+      "richard-jefferies",
+      "robert-louis-stevenson",
+      "rudyard-kipling",
+      "tappan-adney",
+      "theodore-roosevelt",
+      "werner-von-siemens",
+      "william-gilmore-simms",
+      "william-robertson"
+    ],
+    "comprehensive": [
+      "charles-vere-ferrers-townshend",
+      "ernest-thompson-seton",
+      "robert-baden-powell",
+      "robert-montgomery-bird"
+    ]
+  },
+  "honours": 12,
+  "timelines": 30,
+  "connections": 12,
+  "verifiedPortraits": 7,
+  "pages": [
+    {
+      "route": "/autoren/arthur-conan-doyle/",
+      "root": "public",
+      "language": "de",
+      "sha256": "ae77d01ed218e2a5881111f5b8d11a21e878d3167c3c900574a45d4735e15082"
+    },
+    {
+      "route": "/authors/arthur-conan-doyle/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "8c80338bf3b0996b674e9d777d622f3c009722bce8970704f579ec2405926ea9"
+    },
+    {
+      "route": "/autoren/banastre-tarleton/",
+      "root": "public",
+      "language": "de",
+      "sha256": "48f08826cfb1d9779a9d9181192f99815b58ecea1811109425ae6ec6d71bbe8e"
+    },
+    {
+      "route": "/autoren/carlo-collodi/",
+      "root": "public",
+      "language": "de",
+      "sha256": "484f7e1a46c8d9c35177766caa18f72be4e645b448a092d2ab1ffe58ac75c4e7"
+    },
+    {
+      "route": "/authors/charles-brockden-brown/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "2fe6221a5378281c68e22bc17aa1f8deb5a7b0f5115d22e84aeecc0bdf53a48b"
+    },
+    {
+      "route": "/en/authors/charles-brockden-brown/",
+      "root": "public",
+      "language": "en",
+      "sha256": "e409a93135b597ed979ec5c748cf8a1e751fe65cfcb7c64105e38d20e2e7a088"
+    },
+    {
+      "route": "/authors/charles-edward-callwell/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "52edc7c292c5064bbcd61172a4d7cad17d0e9e38161bfa651cf54c8ed937f51b"
+    },
+    {
+      "route": "/authors/charles-vere-ferrers-townshend/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "9ab2ca07095a5d2b5a727d232284866befc0cbfaee3d7ab824379090bb3b73b2"
+    },
+    {
+      "route": "/authors/charles-william-wilson/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "383647b959933aec255f3e42d775aee608acd7e687bd0b851ff4caed6e78e681"
+    },
+    {
+      "route": "/authors/daniel-carter-beard/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "9a94afe1c5962988aac35f37860630c55043ea07ee84132ce5d7e39240e01e71"
+    },
+    {
+      "route": "/en/authors/daniel-carter-beard/",
+      "root": "public",
+      "language": "en",
+      "sha256": "60559754ba4c7ec608330596b0188bee9090925e0f82f8c69e946ff0675a54af"
+    },
+    {
+      "route": "/autoren/ernest-thompson-seton/",
+      "root": "public",
+      "language": "de",
+      "sha256": "7c14d3b36c6441346edf515dee2a3807dc336608be5a628fb017bd1d0a324b8f"
+    },
+    {
+      "route": "/authors/ernest-thompson-seton/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "79c25ffa445ed57f5ad3bd7b6449d8701f17d6fe06b52b8f962ba54fabea775c"
+    },
+    {
+      "route": "/en/authors/ernest-thompson-seton/",
+      "root": "public",
+      "language": "en",
+      "sha256": "2a8df23c755bcbf6d050be30d2b89072a240c8187db6ff209700f5ebf6223a22"
+    },
+    {
+      "route": "/autoren/felix-salten/",
+      "root": "public",
+      "language": "de",
+      "sha256": "f5c80de05ce0a281ddbb79fc88004cd86f0347af5efc8e01483cd823bdebb86e"
+    },
+    {
+      "route": "/autoren/francis-parkman/",
+      "root": "public",
+      "language": "de",
+      "sha256": "35031738ed684ebd60c3534234133ee90742de408136902253c5c8d5c95a1a08"
+    },
+    {
+      "route": "/authors/francis-parkman/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "8668ea92a4024dbf7da778d7d6869478867d46c1cd0d3fe7655f3ac5496013cb"
+    },
+    {
+      "route": "/en/authors/francis-parkman/",
+      "root": "public",
+      "language": "en",
+      "sha256": "7201e8186858d18f495de69f5eb34d080f6e22d2a4823511eb1e5df101cec7b5"
+    },
+    {
+      "route": "/authors/francis-younghusband/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "91eae0a4134d56e3e2b788f312c404440eee9a67d898fd01143b1d2f97d56d4b"
+    },
+    {
+      "route": "/authors/george-arthur/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "e7252d14d962577cb340a9d2e9664b66f4421ef1724bedc757e3abd3119c635a"
+    },
+    {
+      "route": "/authors/george-robert-gleig/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "3144cd7aed79b0d7045233cef39eb3e4cfbbffe0ac9d4a1d4700da5fa1d70183"
+    },
+    {
+      "route": "/autoren/george-washington-sears/",
+      "root": "public",
+      "language": "de",
+      "sha256": "a91ee51b7cfad686e0b092901cf4b79ba0a6e890cb208fed015b23862329c66d"
+    },
+    {
+      "route": "/authors/george-washington-sears/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "d76960792791a4a46dbfc1f894842392ab1fe97530544bddd70f75192d23623e"
+    },
+    {
+      "route": "/en/authors/george-washington-sears/",
+      "root": "public",
+      "language": "en",
+      "sha256": "e27af896b5ad9d32add5d6861e53294b85cdb86aaf1f271d571767331ce58c01"
+    },
+    {
+      "route": "/authors/grey-owl/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "e296e0aab1412614d761b8adeb56087c8f4e6cd4cb7843754f7fb635158e8d55"
+    },
+    {
+      "route": "/autoren/henry-doveton-hutchinson/",
+      "root": "public",
+      "language": "de",
+      "sha256": "82a6dfe9d38808c54ac9d468f4dec0c1603dcbd4c5fb1219f583d5b1ada82e5d"
+    },
+    {
+      "route": "/authors/henry-doveton-hutchinson/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "297dde4d5654803608a74208ce50bebb75c9637c3c8b15cfb9e59150e99c1ab6"
+    },
+    {
+      "route": "/autoren/henry-ford/",
+      "root": "public",
+      "language": "de",
+      "sha256": "0380a84d633da178bcb99386f47c6a51aa509a2d39124b2fb6b18c6565d02b16"
+    },
+    {
+      "route": "/authors/henry-ford/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "4b2718740f6144105dc68f148e1a4486b047673d8273c640ebe10854fce93322"
+    },
+    {
+      "route": "/en/authors/henry-ford/",
+      "root": "public",
+      "language": "en",
+      "sha256": "5a2c866ab32a7fa2f40ebbfab16cf26346e1ecb557aa258470cc3306e460a49a"
+    },
+    {
+      "route": "/autoren/henry-rider-haggard/",
+      "root": "public",
+      "language": "de",
+      "sha256": "5796b142696d69fe8ab2cdcaa336ed6002e9c6803a7327cbfdb4923956d50d67"
+    },
+    {
+      "route": "/authors/henry-rider-haggard/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "548fe49434ef1d41a1d9f9bc97b9f5fafca23fa2c6df0d805530a420abe26cea"
+    },
+    {
+      "route": "/en/authors/henry-rider-haggard/",
+      "root": "public",
+      "language": "en",
+      "sha256": "0f8d21c44da76a5f51cdcda9fcdcf30d41074d297fa92f94e680091416de0073"
+    },
+    {
+      "route": "/autoren/james-b-gillett/",
+      "root": "public",
+      "language": "de",
+      "sha256": "22b26a7b29810e5d68dbdd58109241e21e5913a352c9e1ff14b877d9938f0846"
+    },
+    {
+      "route": "/authors/james-b-gillett/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "42b1fcdaa96dd06e6035db88c0b83fe0596c20e7996acde2b8345fe4fdb80d96"
+    },
+    {
+      "route": "/authors/james-fenimore-cooper/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "1a5f6bb72206cc6d07ebcfb3f4803499986a57bdd918371a69165ac6751761f1"
+    },
+    {
+      "route": "/autoren/james-hall/",
+      "root": "public",
+      "language": "de",
+      "sha256": "716545c97e417701f7ce0d106f66e4b80b9557d9e9189dae091be039e4568596"
+    },
+    {
+      "route": "/authors/james-hall/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "b5518d78463fd9ef8d7142f1357a63134824f215a926744199718598e4c9c298"
+    },
+    {
+      "route": "/en/authors/james-hall/",
+      "root": "public",
+      "language": "en",
+      "sha256": "67a375c465d9bf77d8794fd0503ec14f0b51599ee4bf988988aff61942ff2cce"
+    },
+    {
+      "route": "/autoren/james-j-hill/",
+      "root": "public",
+      "language": "de",
+      "sha256": "9f986da8fc455f450f92c8588020e2a0a6b0779836c24418fb7c90a61cec95da"
+    },
+    {
+      "route": "/authors/james-j-hill/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "26989be123ea01126bf0b2110bdaf38f5f627e4b000a037d8b1230de08353919"
+    },
+    {
+      "route": "/autoren/johanna-spyri/",
+      "root": "public",
+      "language": "de",
+      "sha256": "820bd60f80872b56f568311e254fce9599b5f5e6094bf2925cad7d3bc6da33d7"
+    },
+    {
+      "route": "/authors/joshua-duke/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "6cac232cd1eb7cdd8ed8e35bb1296be75b9d4178f4c29a31a51fb74dbe1d6000"
+    },
+    {
+      "route": "/autoren/lady-florentia-sale/",
+      "root": "public",
+      "language": "de",
+      "sha256": "62a952ca2e28549ba64338b95d71de2d065d358d2563d3b025b090449a715899"
+    },
+    {
+      "route": "/authors/lady-florentia-sale/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "0e922de2ae6a5bc696084f46ec61fed6430caa5f53df360cc6ed2998ff564c1c"
+    },
+    {
+      "route": "/en/authors/lady-florentia-sale/",
+      "root": "public",
+      "language": "en",
+      "sha256": "40d7704c7efccbf43c3fd8f41774b753aa7d18efa3ed83ae82ae5053d195fead"
+    },
+    {
+      "route": "/authors/melliss/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "2a79cfa00dc860b1ff4e2644882c93fbcdb443be8df433258eaf277d4cd752b1"
+    },
+    {
+      "route": "/authors/napoleon-augustus-jennings/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "d9e536f44940fadfbb3e252cc835e585675fccf9fc0c7b47963d4f6f1924b6b9"
+    },
+    {
+      "route": "/authors/richard-jefferies/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "e327264660bf5e4691d8bc394024dde66fa4b09ed6121a7cd703eb5f0800575c"
+    },
+    {
+      "route": "/en/authors/richard-jefferies/",
+      "root": "public",
+      "language": "en",
+      "sha256": "5ed2712a86857e09bb2b83ae701f6e6d553a4f8a7e4ce205ce3440871205f3d4"
+    },
+    {
+      "route": "/autoren/robert-baden-powell/",
+      "root": "public",
+      "language": "de",
+      "sha256": "2211b1a6a326339e1761bee07a541a0cc08e7fbe59e5ae6c49dfcea5a87d611c"
+    },
+    {
+      "route": "/authors/robert-baden-powell/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "a219fd78c732baf5bce7eb6e6df35c506bb03f5a05b27d451188c9645041f6ac"
+    },
+    {
+      "route": "/en/authors/robert-baden-powell/",
+      "root": "public",
+      "language": "en",
+      "sha256": "7d904fc7647e439d1e4248e9b587942dc22d342110a076e356fc8a93a4da97b4"
+    },
+    {
+      "route": "/authors/robert-louis-stevenson/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "ae1019f609e5e0e962fa0419584d1ba447097d8919c3b2e15bb80a13d67dc145"
+    },
+    {
+      "route": "/autoren/robert-montgomery-bird/",
+      "root": "public",
+      "language": "de",
+      "sha256": "975c7c0d0d86332357ca1cfa0c4fe97617f341076c843f94428028e06f3f4ce7"
+    },
+    {
+      "route": "/authors/robert-montgomery-bird/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "6fe2e0d3c145baa56b87fba701300c2056e3a5abbc2c4bda83b867c36ca7b7c4"
+    },
+    {
+      "route": "/en/authors/robert-montgomery-bird/",
+      "root": "public",
+      "language": "en",
+      "sha256": "2db7fefd47e48bcf2faedb7b3a5d64df1ad76ac1c60ad642edf226d566132ef4"
+    },
+    {
+      "route": "/autoren/rudyard-kipling/",
+      "root": "public",
+      "language": "de",
+      "sha256": "ca4988807fb92380613f87ccd368d9b9c48e06992e69396ef1622bfacdeaf3a3"
+    },
+    {
+      "route": "/autoren/tacitus/",
+      "root": "public",
+      "language": "de",
+      "sha256": "175d17338d3d13d9e38cbde416afd4c7a0a35acc25f440195f51cbe2146d9f4d"
+    },
+    {
+      "route": "/authors/tappan-adney/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "0a7f1df82a15c97693a34cf0b9667b6191b887e0b0dbe2b878aa2c0db6c900f4"
+    },
+    {
+      "route": "/autoren/theodore-roosevelt/",
+      "root": "public",
+      "language": "de",
+      "sha256": "378002b0d4edb5e3f5109284a6813a5cb65aa67e3d18356e298ce1cc00900b80"
+    },
+    {
+      "route": "/authors/theodore-roosevelt/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "5689df3734ef425c637d0643e40aef7676c704b3320f4399efebfccc4c0162c8"
+    },
+    {
+      "route": "/autoren/werner-von-siemens/",
+      "root": "public",
+      "language": "de",
+      "sha256": "745a948a35b72e08cad79ec5216d4d48074e696069ba4df4d9472286304538c3"
+    },
+    {
+      "route": "/authors/william-gilmore-simms/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "265ac6c283eb314b16f2055a0da0e39a8c7c96fb2216b484c7c6f40ddb926576"
+    },
+    {
+      "route": "/authors/william-robertson/",
+      "root": "dist/release",
+      "language": "en",
+      "sha256": "dc510f75cc0188e9981aacc853d89a9f2f03a115569ea455b414064b004c14d0"
+    }
+  ]
+}

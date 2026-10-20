@@ -1,0 +1,166 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "daniel-carter-beard",
+  "name": "Daniel Carter Beard",
+  "dates": "1850–1941",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "OA",
+      "title": "Scouting America · Daniel Carter Beard",
+      "url": "https://oa-scouting.org/history/daniel-carter-beard",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "COUNCIL",
+      "title": "Dan Beard Council · History",
+      "url": "https://danbeard.org/history/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "LOC",
+      "title": "Library of Congress · Daniel Carter Beard papers",
+      "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms013036/ms013036.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Illustrator, author and youth leader, 1850–1941.",
+      "sources": [
+        "OA",
+        "COUNCIL",
+        "LOC"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Founded Sons of Daniel Boone in 1905; organisation later became Boy Pioneers.",
+      "sources": [
+        "OA",
+        "COUNCIL",
+        "LOC"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Joined the Boy Scouts of America in 1910 as a national commissioner.",
+      "sources": [
+        "OA",
+        "COUNCIL",
+        "LOC"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The workshop, the camp and the American pioneer tradition.",
+      "intro": "Beard made outdoor competence something a boy could learn by doing. Drawing and explanation worked together: a shelter, a boat or a piece of camp equipment became intelligible on the page.",
+      "orientation": "His route into Scouting grew from American frontier traditions and practical handbooks. It overlapped with Seton’s Woodcraft without being the same programme.",
+      "origin": [
+        "Born in Cincinnati in 1850, Beard became an illustrator and author. His visual craft helped turn complicated outdoor tasks into usable instruction."
+      ],
+      "career": [
+        "He founded the Sons of Daniel Boone in 1905. The organisation, later called the Boy Pioneers, entered the developing American Scout movement in 1910; Beard served as a national commissioner."
+      ],
+      "literature": [
+        "His books move between the workshop and the woods. Their diagrams make construction visible, and their prose assumes that the reader will put the lesson to use."
+      ],
+      "legacy": "Beard’s lasting contribution lies in the union of illustration, practical skill and youth education. His place beside Seton and Baden-Powell shows the several traditions from which Scouting was made.",
+      "bridge": "The handbooks retain the pleasure of understanding how something is built, and then building it.",
+      "description": "Beard made outdoor competence something a boy could learn by doing. Drawing and explanation worked together: a shelter, a boat or a piece of camp equipment became intelligible on the page.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-beard.webp",
+    "caption": {
+      "en": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress.",
+      "de": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress."
+    },
+    "provenance": "https://www.loc.gov/pictures/item/2014708970/",
+    "rights": "Library of Congress: no known restrictions on publication; src/assets/images/portrait-beard.source.json",
+    "processing": "non-generative reproduction"
+  },
+  "timeline": [
+    [
+      "1905",
+      "Sons of Daniel Boone founded",
+      ""
+    ],
+    [
+      "1910",
+      "Joins the Boy Scouts of America",
+      ""
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "ernest-thompson-seton",
+      "kind": "institutional-context",
+      "en": "Fellow pioneer of American Scouting; Woodcraft took a different educational form.",
+      "sources": [
+        "OA"
+      ]
+    },
+    {
+      "slug": "robert-baden-powell",
+      "kind": "institutional-context",
+      "en": "British Scouting met an established American tradition of practical outdoor education.",
+      "sources": [
+        "COUNCIL"
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "file": "/assets/images/author-world-scouts.webp",
+      "width": 1024,
+      "height": 745,
+      "caption": {
+        "en": "Ernest Thompson Seton (left), Robert Baden-Powell (seated) and Daniel Carter Beard (right). Bain News Service; exact date not established. This photograph documents their association; the archive’s broad date labels are not used as an exact event date.",
+        "de": "Ernest Thompson Seton (links), Robert Baden-Powell (sitzend) und Daniel Carter Beard (rechts). Bain News Service; genaues Datum nicht gesichert. Die Aufnahme belegt ihre Verbindung, jedoch kein hier genau datiertes Ereignis."
+      },
+      "source": "https://www.loc.gov/pictures/item/2014686580/",
+      "rights": "Library of Congress: no known restrictions on publication."
+    }
+  ]
+}

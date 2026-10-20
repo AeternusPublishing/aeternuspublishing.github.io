@@ -1,0 +1,212 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "william-robertson",
+  "name": "William Robert Robertson",
+  "dates": "1860–1933",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "MEMOIR",
+      "title": "William Robertson · From Private to Field-Marshal",
+      "url": "https://www.awm.gov.au/collection/LIB37112",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "KCL",
+      "title": "King’s College London · Robertson archive, Middle East collections guide",
+      "url": "https://www.kcl.ac.uk/library/assets/archives/middleeast.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "GAZETTE",
+      "title": "London Gazette · Robertson, honours style in 1918",
+      "url": "https://www.thegazette.co.uk/London/issue/30891/supplement/10645/data.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "STUDY",
+      "title": "1914–1918 Online · William Robert Robertson",
+      "url": "https://encyclopedia.1914-1918-online.net/article/robertson-william-robert/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "GCVO",
+      "title": "Edinburgh Gazette · Royal Victorian Order, 3 June 1931, published 5 June, p. 614",
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/14762/page/614/data.pdf",
+      "note": "Promotion to GCVO; the appointment notice also attests GCB, GCMG and DSO.",
+      "checked": "2026-10-20"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "British soldier, 1860–1933; enlisted 1877 and reached field marshal in 1920.",
+      "sources": [
+        "MEMOIR",
+        "KCL",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Chief of the Imperial General Staff during the First World War; differed with Lloyd George over strategy.",
+      "sources": [
+        "MEMOIR",
+        "KCL",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Memoir From Private to Field-Marshal published 1921.",
+      "sources": [
+        "MEMOIR",
+        "KCL",
+        "GAZETTE"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "OFFEN",
+      "claim": "Complete dates of final grades of British orders",
+      "decision": "The gallery distinguishes dates of attested possession from the directly documented 1931 promotion to GCVO. It does not invent the dates of earlier awards."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "From the ranks to the direction of Britain’s war.",
+      "intro": "Robertson’s rise gave his memoir an exceptional shape. The young enlisted cavalryman became the professional head of the British Army during the First World War and eventually a field marshal.",
+      "orientation": "The story is more than a sequence of promotions. It follows the acquisition of professional knowledge and the tensions between military advice and political authority.",
+      "origin": [
+        "Born in Lincolnshire in 1860, he enlisted in 1877. His progress took him from the routines of a private soldier towards commissioned and staff service."
+      ],
+      "career": [
+        "As Chief of the Imperial General Staff he argued for concentrating Britain’s principal effort against Germany on the Western Front. His disagreements with Lloyd George exposed the contested relationship between military judgement and government policy."
+      ],
+      "literature": [
+        "From Private to Field-Marshal gives that career the form of a personal account. Its reflections on study, service and advancement should be read alongside the author’s defence of his wartime position."
+      ],
+      "legacy": "Robertson’s historical distinction lies in the distance travelled through the army’s hierarchy and in the authority he exercised at its summit. The memoir retains the voice of a professional who believed hard-earned knowledge should govern decisions.",
+      "bridge": "The book follows the making of that professional outlook from its earliest military beginnings.",
+      "description": "Robertson’s rise gave his memoir an exceptional shape. The young enlisted cavalryman became the professional head of the British Army during the First World War and eventually a field marshal.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "modern": false
+        },
+        "publisherPortrait": "/assets/images/portrait-william-robertson-1917.png",
+        "caption": "Elliott & Fry, 1917; colourised",
+        "source": "WR_001/05_PARATEXT/WR001_PARATEXT_SATZFASSUNG_V1.json"
+      }
+    ]
+  },
+  "rank": {
+    "en": "Field Marshal Sir William Robert Robertson, 1st Baronet"
+  },
+  "timeline": [
+    [
+      "1877",
+      "Enlists as a private soldier",
+      ""
+    ],
+    [
+      "1915–18",
+      "Chief of the Imperial General Staff",
+      ""
+    ],
+    [
+      "1920",
+      "Field marshal",
+      ""
+    ],
+    [
+      "1921",
+      "From Private to Field-Marshal",
+      ""
+    ]
+  ],
+  "honours": [
+    {
+      "name": "Order of the Bath · Knight Grand Cross (GCB)",
+      "year": "attested 1918",
+      "category": "order",
+      "sources": [
+        "GAZETTE"
+      ],
+      "note": {
+        "en": "Contemporary official style; the date records possession, not a reconstructed award date."
+      }
+    },
+    {
+      "name": "Order of St Michael and St George · Knight Grand Cross (GCMG)",
+      "year": "attested 1931",
+      "category": "order",
+      "sources": [
+        "GCVO"
+      ],
+      "note": {
+        "en": "Recorded in the 1931 appointment notice; exact date of this earlier distinction not asserted."
+      }
+    },
+    {
+      "name": "Royal Victorian Order · Knight Grand Cross (GCVO)",
+      "year": "1931",
+      "category": "order",
+      "sources": [
+        "GCVO"
+      ]
+    },
+    {
+      "name": "Distinguished Service Order (DSO)",
+      "year": "attested 1918",
+      "category": "decoration",
+      "sources": [
+        "GAZETTE"
+      ]
+    }
+  ]
+}

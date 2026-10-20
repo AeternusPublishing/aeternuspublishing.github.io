@@ -1,0 +1,178 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "arthur-conan-doyle",
+  "name": "Arthur Ignatius Conan Doyle",
+  "dates": "1859–1930",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "BIO",
+      "title": "Arthur Conan Doyle Encyclopedia · Biography",
+      "url": "https://www.arthur-conan-doyle.com/wiki/Biography",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "ESTATE",
+      "title": "Arthur Conan Doyle · Official literary estate",
+      "url": "https://www.arthurconandoyle.com/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "CHRON",
+      "title": "Arthur Conan Doyle Encyclopedia · Chronology",
+      "url": "https://www.arthur-conan-doyle.com/index.php/Chronology",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Edinburgh 1859, died 1930; trained as a physician.",
+      "sources": [
+        "BIO",
+        "ESTATE",
+        "CHRON"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The White Company appeared 1891; knighted 1902.",
+      "sources": [
+        "BIO",
+        "ESTATE",
+        "CHRON"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote historical novels as well as Sherlock Holmes and Professor Challenger stories.",
+      "sources": [
+        "BIO",
+        "ESTATE",
+        "CHRON"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Beyond Baker Street: the historical novelist.",
+      "intro": "Conan Doyle’s fame can conceal the breadth of his ambitions. Alongside the detective story stands a writer of historical romance who sought to recover the movement, loyalties and material life of an earlier age.",
+      "orientation": "The White Company belongs to that ambition. Its medieval world is the work of a nineteenth-century novelist reading and imagining history.",
+      "origin": [
+        "Born in Edinburgh and trained in medicine, he began writing while pursuing a medical career. Literary success eventually displaced the practice."
+      ],
+      "career": [
+        "Sherlock Holmes brought international recognition, but historical fiction remained a serious claim upon his energies. The knighthood of 1902 belongs to his later public life, not to the medieval world he recreated."
+      ],
+      "literature": [
+        "The White Company, published in 1891, follows an English company through the wars of the fourteenth century. Dialogue, movement and contrasting temperaments give the historical framework a storyteller’s life."
+      ],
+      "legacy": "Conan Doyle’s historical fiction shows how fully his narrative gifts extended beyond detection. It rewards readers who know his most famous creation with a different scale of adventure.",
+      "bridge": "The three volumes of The White Company follow one continuous romance; their book pages present the respective editions and formats.",
+      "description": "Conan Doyle’s fame can conceal the breadth of his ambitions. Alongside the detective story stands a writer of historical romance who sought to recover the movement, loyalties and material life of an earlier age.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    "de": {
+      "tagline": "Jenseits der Baker Street: der historische Romancier.",
+      "intro": "Conan Doyles Ruhm verdeckt leicht die Breite seines Anspruchs. Neben dem Detektivschriftsteller steht ein Verfasser historischer Romane, der Bewegung, Bindungen und Lebensverhältnisse einer früheren Welt wieder sichtbar machen wollte.",
+      "orientation": "The White Company gehört zu diesem Vorhaben. Sein Mittelalter ist die gelehrte und erzählerische Rekonstruktion eines Schriftstellers des 19. Jahrhunderts.",
+      "origin": [
+        "In Edinburgh geboren und zum Arzt ausgebildet, begann Conan Doyle während seiner medizinischen Laufbahn zu schreiben. Der literarische Erfolg verdrängte schließlich die Praxis."
+      ],
+      "career": [
+        "Sherlock Holmes machte ihn international bekannt. Die historische Erzählung blieb dennoch ein wesentlicher Teil seines Selbstverständnisses. Der Ritterschlag von 1902 gehört zu seiner späteren öffentlichen Laufbahn."
+      ],
+      "literature": [
+        "The White Company erschien 1891 und folgt einer englischen Kompanie durch die Kriege des 14. Jahrhunderts. Gespräch, Bewegung und gegensätzliche Charaktere beleben das historische Gerüst."
+      ],
+      "legacy": "Seine historischen Romane zeigen, wie weit Conan Doyles Erzählerkunst über die Detektivgeschichte hinausreicht. Dem Leser des Sherlock Holmes erschließen sie einen anderen Maßstab des Abenteuers.",
+      "bridge": "Die drei Bände von The White Company bilden einen zusammenhängenden Roman. Die englischen Ausgaben sind auf der englischen Verlagsseite einzeln erschlossen.",
+      "description": "Conan Doyles Ruhm verdeckt leicht die Breite seines Anspruchs. Neben dem Detektivschriftsteller steht ein Verfasser historischer Romane, der Bewegung, Bindungen und Lebensverhältnisse einer früheren Welt wieder sichtbar machen wollte.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-acd-doyle-20261008",
+          "modern": true,
+          "alt": "Arthur Conan Doyle am Schreibtisch; Rekonstruktion nach einer Fotografie"
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "file": "portrait-acd-doyle-20261008",
+          "alt": "Arthur Conan Doyle at his writing desk, portrait reconstructed after a photograph"
+        },
+        "caption": "Portrait reconstructed after a photograph."
+      }
+    ]
+  },
+  "rank": {
+    "en": "Sir Arthur Conan Doyle · knighted 1902",
+    "de": "Sir Arthur Conan Doyle · Ritterschlag 1902"
+  },
+  "timeline": [
+    [
+      "1859",
+      "Born in Edinburgh",
+      "In Edinburgh geboren"
+    ],
+    [
+      "1891",
+      "The White Company",
+      "The White Company"
+    ],
+    [
+      "1902",
+      "Knighthood",
+      "Ritterschlag"
+    ]
+  ]
+}

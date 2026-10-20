@@ -1,2 +1,11 @@
 # Preserve the publisher-supplied, SHA-256-bound website text byte for byte.
 catalog/bp009-en-20261019.source.json -text
+# Keep the new author dossiers and their recorded hashes portable across hosts.
+editorial/author-worlds/**/*.json text eol=lf
+editorial/author-worlds/**/*.njk text eol=lf
+editorial/author-worlds/AGENTS.md text eol=lf
+editorial/author-worlds/originals/*.jpg binary
+docs/author-worlds/*.json text eol=lf
+docs/author-worlds/*.md text eol=lf
+docs/author-worlds/*.html text eol=lf
+docs/author-worlds/comparisons/*.png binary

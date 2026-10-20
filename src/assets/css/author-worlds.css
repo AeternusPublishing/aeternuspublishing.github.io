@@ -1,0 +1,51 @@
+/* Shared by all existing DE/EN routes. Native details need no client script. */
+.author-page .author-world-hero { padding-block: 3.8rem 2.4rem; align-items: start; }
+.author-world-hero h1 { max-width: 20ch; text-wrap: balance; }
+.author-world-hero .author-world-rank { font-size: .92rem; color: #625746; letter-spacing: .015em; max-width: 65ch; }
+.author-world-hero .author-world-dates { margin-bottom: .4rem; }
+.author-world-hero .author-world-opening { max-width: 62ch; }
+.author-world-hero figure { margin: 0; }
+.author-page .author-world-hero figure img { width: 100%; height: auto; max-height: 380px; object-fit: contain; object-position: top; }
+.author-page .author-world-hero figcaption { margin-top: .8rem; font-size: .76rem; line-height: 1.5; color: #686354; }
+.author-world-hero.no-portrait { grid-template-columns: 1fr; }
+.author-world-hero.no-portrait > div { max-width: 850px; }
+.author-world-hero.no-portrait h1 { max-width: 25ch; }
+.world-book-bridge { max-width: 72ch; margin-block: 0 1.8rem; line-height: 1.7; }
+.author-world .biography-copy { min-width: 0; }
+.author-world h3 { font-family: var(--font-heading, Georgia, serif); font-size: 1.25rem; margin: 1.9rem 0 .7rem; }
+.author-world h4 { font-size: 1.05rem; margin-block: 1.3rem .4rem; }
+.world-orientation { font-size: 1.08rem; line-height: 1.85; margin-top: 0; }
+.world-details { border-top: 1px solid #dcd6c9; margin-top: 0; padding-block: 1.05rem; }
+.world-details > summary { cursor: pointer; font-size: 1.06rem; line-height: 1.5; padding-right: .4rem; }
+.world-details > summary::marker { color: #887147; }
+.world-details[open] > summary { margin-bottom: 1rem; }
+.world-details-copy p,.author-world p { line-height: 1.8; }
+.world-details-copy section:first-child h3 { margin-top: .7rem; }
+.world-details :focus-visible,.author-world a:focus-visible { outline: 2px solid #65542c; outline-offset: 5px; }
+.honours-gallery { display: grid; grid-template-columns: repeat(auto-fit,minmax(170px,1fr)); gap: 1.3rem; padding: 0; margin: 1rem 0 1.7rem; list-style: none; }
+.honours-gallery li { padding: 1rem 0; border-top: 2px solid #b29a68; }
+.honours-gallery .kicker { display: block; font-size: .69rem; margin-bottom: .7rem; }
+.honours-gallery strong { display: block; font-weight: 500; font-size: 1rem; line-height: 1.6; }
+.honours-gallery p { font-size: .85rem; margin-bottom: 0; }
+.world-timeline { list-style: none; padding: .4rem 0 0; margin: 0 0 .5rem; }
+.world-timeline li { display: grid; grid-template-columns: 110px 1fr; gap: 1.2rem; padding: .9rem 0; border-bottom: 1px solid #e4dfd5; line-height: 1.6; }
+.world-timeline time { color: #74603c; font-variant-numeric: tabular-nums; }
+.world-connections { margin-block: 1.4rem; }
+.world-connections ul { list-style: none; padding: 0; }
+.world-connections li { padding: .6rem 0; }
+.world-connections p { margin: .35rem 0 0; font-size: .93rem; }
+.world-sources ul { padding-left: 1.15rem; font-size: .9rem; }
+.world-sources li { margin-block: .6rem; overflow-wrap: anywhere; }
+.world-gallery img { max-width: 100%; height: auto; }
+.world-gallery figure { margin: 1.4rem 0; }
+.world-gallery figcaption { font-size: .86rem; line-height: 1.65; }
+@media (max-width: 700px) {
+ .author-page .author-world-hero { display: block; padding-block: 2.4rem 1.5rem; }
+ .author-page .author-world-hero > div { display: block; }
+ .author-page .author-world-hero figure { width: 160px; max-width: 100%; margin-top: 1.6rem; }
+ .author-page .author-world-hero figure img { max-height: 230px; }
+ .author-page .author-world-hero h1 { font-size: clamp(2rem,8vw,3.4rem); overflow-wrap: normal; }
+ .world-timeline li { grid-template-columns: 90px 1fr; gap: .7rem; }
+ .honours-gallery { grid-template-columns: 1fr; gap: .2rem; }
+ .author-world .biography-copy { width: 100%; }
+}

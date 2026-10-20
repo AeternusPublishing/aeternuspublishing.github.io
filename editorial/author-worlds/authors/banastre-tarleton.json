@@ -1,0 +1,180 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "banastre-tarleton",
+  "name": "Banastre Tarleton",
+  "dates": "1754–1833",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": false,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "NAM",
+      "title": "National Army Museum · Banastre Tarleton, portrait and career",
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1987-09-22-1",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "COWPENS",
+      "title": "National Park Service · Battle of Cowpens",
+      "url": "https://www.nps.gov/cowp/learn/historyculture/the-battle-of-cowpens.htm",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "NPS",
+      "title": "National Park Service · Banastre Tarleton, life and postwar career",
+      "url": "https://www.nps.gov/people/banastre-tarleton.htm",
+      "note": "Postwar parliamentary career, defence of the slave trade, baronetcy 1815 and GCB 1820.",
+      "checked": "2026-10-20"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "British officer, 1754–1833; commanded British Legion in American War of Independence.",
+      "sources": [
+        "NAM",
+        "COWPENS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Waxhaws 1780 damaged reputation; defeated at Cowpens 1781.",
+      "sources": [
+        "NAM",
+        "COWPENS"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Published A History of the Campaigns of 1780 and 1781 in 1787.",
+      "sources": [
+        "NAM",
+        "COWPENS"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "MP for Liverpool 1790–1812 with an interruption; defended the slave trade; baronet 1815; GCB 1820.",
+      "sources": [
+        "NPS"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Kavallerieführung, umstrittener Ruhm und die Niederlage von Cowpens.",
+      "intro": "Tarleton gab dem britischen Krieg im amerikanischen Süden ein einprägsames Gesicht. Rasche Vorstöße und kühne Reiterei begründeten seinen Ruf; Gewalt und Niederlage bestimmten dessen Gegenbild.",
+      "orientation": "Sein Feldzugsbericht ist die Darstellung eines handelnden Offiziers. Er gehört zugleich in die Auseinandersetzung um Verantwortung nach dem verlorenen Krieg.",
+      "origin": [
+        "Aus Liverpool führte sein Weg in die britische Armee und 1776 nach Amerika."
+      ],
+      "career": [
+        "Seit dem späten Jahr 1778 führte er die British Legion. Nach Waxhaws 1780 verbanden die Gegner seinen Namen mit verweigerter Schonung. Bei Cowpens erlitt seine Truppe im Januar 1781 eine schwere Niederlage.",
+        "Nach der Rückkehr vertrat er Liverpool von 1790 bis 1812, mit einer Unterbrechung, im Unterhaus. Dort verteidigte er den Sklavenhandel. Die spätere Erhebung zum Baronet 1815 und der GCB von 1820 gehören zu dieser langen Nachkriegslaufbahn."
+      ],
+      "literature": [
+        "Die 1787 veröffentlichte Geschichte der Feldzüge von 1780 und 1781 verbindet Operationsbericht und eigene Rechtfertigung. Gerade diese Nähe zur Verantwortung macht den Text aufschlussreich."
+      ],
+      "legacy": "Tarletons Laufbahn zeigt die Grenzen eines Ruhms, der auf beweglicher Kriegführung beruhte. Sein Buch lässt den Leser die Darstellung eines Befehlshabers an den Folgen seiner Entscheidungen messen.",
+      "bridge": "Die Ausgabe führt in die britische Sicht auf den südlichen Kriegsschauplatz der amerikanischen Revolution.",
+      "description": "Tarleton gab dem britischen Krieg im amerikanischen Süden ein einprägsames Gesicht. Rasche Vorstöße und kühne Reiterei begründeten seinen Ruf; Gewalt und Niederlage bestimmten dessen Gegenbild.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-tarleton",
+          "alt": "Banastre Tarleton nach dem Gemälde von Joshua Reynolds, 1782",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "rank": {
+    "de": "General Sir Banastre Tarleton · Baronet (1815) · GCB (1820)"
+  },
+  "timeline": [
+    [
+      "1776",
+      "",
+      "Beginn des Dienstes in Amerika"
+    ],
+    [
+      "1780",
+      "",
+      "Waxhaws"
+    ],
+    [
+      "1781",
+      "",
+      "Niederlage bei Cowpens"
+    ],
+    [
+      "1787",
+      "",
+      "Veröffentlichung des Feldzugsberichts"
+    ]
+  ],
+  "honours": [
+    {
+      "name": "Baronet",
+      "year": "1815",
+      "category": "title",
+      "sources": [
+        "NPS"
+      ],
+      "note": {
+        "de": "Erblicher Adelstitel; kein militärischer Orden."
+      }
+    },
+    {
+      "name": "Order of the Bath · Knight Grand Cross (GCB)",
+      "year": "1820",
+      "category": "order",
+      "sources": [
+        "NPS"
+      ]
+    }
+  ]
+}

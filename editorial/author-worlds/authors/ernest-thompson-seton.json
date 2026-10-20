@@ -1,0 +1,315 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "ernest-thompson-seton",
+  "name": "Ernest Thompson Seton",
+  "dates": "1860–1946",
+  "depth": "comprehensive",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "SETON",
+      "title": "Ernest Thompson Seton Institute · Biography",
+      "url": "https://etsetoninstitute.org/about-seton/biography/biography-2/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "SCOUTING",
+      "title": "Seton Institute · Seton and Scouting America",
+      "url": "https://etsetoninstitute.org/seton-and-the-boy-scouts/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "ARCHIVE",
+      "title": "Library and Archives Canada · Seton fonds",
+      "url": "https://data2.archives.ca/pdf/pdf002/p000003951.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "AWARDS",
+      "title": "Ernest Thompson Seton Institute · Awards and honours held by Seton",
+      "url": "https://etsetoninstitute.org/awards/",
+      "checked": "2026-10-20",
+      "note": "Institutional inventory with photographs of the actual awards; Elliot year is the award year, not an asserted presentation date."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born in England in 1860; grew up in Canada; naturalist, wildlife artist and author.",
+      "sources": [
+        "SETON",
+        "SCOUTING",
+        "ARCHIVE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wild Animals I Have Known appeared in 1898; Two Little Savages in 1903.",
+      "sources": [
+        "SETON",
+        "SCOUTING",
+        "ARCHIVE"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Woodcraft articles began in 1902; met Baden-Powell in 1906.",
+      "sources": [
+        "SETON",
+        "SCOUTING",
+        "ARCHIVE"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Travelled in northern Canada with Edward Preble in 1907.",
+      "sources": [
+        "SETON",
+        "SCOUTING",
+        "ARCHIVE"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Chief Scout of the Boy Scouts of America, 1910–15; continued the Woodcraft League; later settled in New Mexico.",
+      "sources": [
+        "SETON",
+        "SCOUTING",
+        "ARCHIVE"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "John Burroughs Medal, 1927; Daniel Giraud Elliot Medal, award year 1928; honorary Master of Humanics, Springfield College, 1929.",
+      "sources": [
+        "AWARDS"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Award year and presentation date",
+      "decision": "The Elliot Medal is listed by award year 1928. No separate presentation date asserted."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A track in the snow. An animal’s life. A school of the outdoors.",
+      "intro": "Seton gave wild animals the sustained attention once reserved for human protagonists. The artist’s eye, the field naturalist’s notebook and the storyteller’s dramatic instinct meet in books that helped generations of readers imagine the North American wilderness.",
+      "orientation": "His work runs along three connected paths: the study and drawing of animals, the literary animal story, and Woodcraft as an education through outdoor practice. None alone explains the scale of his influence.",
+      "origin": [
+        "Born in England and raised in Canada, Seton learned to observe the countryside around Toronto and the landscapes of Manitoba. Artistic training enlarged his means of recording what he saw. His illustrations belong to the argument of his books as much as to their appearance."
+      ],
+      "career": [
+        "A wolf hunt in New Mexico supplied the experience behind Lobo, later included in Wild Animals I Have Known in 1898. Hunting and attention to individual animals stand uneasily together in this story. In 1907 he travelled into northern Canada with the naturalist Edward Preble; The Arctic Prairies grew from the journey. The range of his work extends from practical tracking to substantial studies of mammal life."
+      ],
+      "literature": [
+        "Two Little Savages turns outdoor instruction into the adventures of boys learning to see and act for themselves. The Birch Bark Roll gave Woodcraft its organised form. Seton drew on his understanding of American Indian traditions, selecting and reshaping them for his own educational project. That distinction matters: Woodcraft expresses Seton’s design, rather than a single undifferentiated indigenous tradition."
+      ],
+      "legacy": "His meeting with Baden-Powell in 1906 forms a documented link in the origins of Scouting. Seton became Chief Scout of the Boy Scouts of America in 1910; after the position ended in 1915 he continued Woodcraft on his own terms. His lasting gift to readers is a habit of attention: the woodland becomes legible through tracks, patient observation and the recognition of lives other than one’s own.",
+      "bridge": "Animal stories, journey books and outdoor handbooks reveal different sides of the same enterprise. The editions invite readers to follow an individual animal, a trail through the landscape or the making of a young observer.",
+      "description": "Seton gave wild animals the sustained attention once reserved for human protagonists. The artist’s eye, the field naturalist’s notebook and the storyteller’s dramatic instinct meet in books that helped generations of readers imagine the North American wilderness.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    },
+    "de": {
+      "tagline": "Eine Spur im Schnee. Ein Tierleben. Die Wildnis als Schule.",
+      "intro": "Seton betrachtete wilde Tiere mit einer Ausdauer, die Erzähler sonst ihren menschlichen Gestalten vorbehalten. Der Blick des Zeichners, das Notizbuch des Naturforschers und der dramatische Sinn des Schriftstellers finden in seinen Büchern zusammen.",
+      "orientation": "Drei Wege durchziehen sein Werk: Tierbeobachtung und Tierzeichnung, die literarische Tiergeschichte und Woodcraft als Erziehung durch das Leben im Freien. Erst zusammen erklären sie seine weitreichende Wirkung.",
+      "origin": [
+        "In England geboren und in Kanada aufgewachsen, lernte Seton die Landschaften um Toronto und in Manitoba kennen. Die künstlerische Ausbildung gab seinen Beobachtungen eine zweite Sprache. Seine Zeichnungen erläutern Bewegung, Haltung und Spur; sie sind Teil des Wissens, das seine Bücher vermitteln."
+      ],
+      "career": [
+        "Die Jagd auf einen Wolf in New Mexico lieferte den Stoff für Lobo, später eine der Erzählungen in Wild Animals I Have Known von 1898. Jagd und Aufmerksamkeit für das einzelne Tier geraten hier in eine Spannung, die der Text selbst austrägt. 1907 reiste Seton mit dem Naturforscher Edward Preble durch den kanadischen Norden; aus dieser Fahrt ging The Arctic Prairies hervor. Neben solchen Erzählungen und Reisebüchern stehen umfangreiche naturkundliche Arbeiten."
+      ],
+      "literature": [
+        "Zwei kleine Wilde verwandelt die praktische Unterweisung in die Geschichte von Jungen, die sich ihre Kenntnisse selbst erarbeiten. Die Birch Bark Roll gab Woodcraft eine organisierte Form. Dabei griff Seton auf seine Vorstellung indianischer Überlieferungen zurück und gestaltete sie für einen eigenen pädagogischen Entwurf um. Woodcraft ist deshalb als Setons Schöpfung zu lesen; es bildet keine einheitliche indianische Tradition ab."
+      ],
+      "legacy": "Die Begegnung mit Baden-Powell 1906 gehört zur belegten Vorgeschichte der Pfadfinderbewegung. 1910 wurde Seton Chief Scout der Boy Scouts of America. Nach dem Ende dieses Amtes 1915 führte er Woodcraft eigenständig weiter. Sein literarisches Vermächtnis liegt in einer Schule der Aufmerksamkeit: Spuren werden lesbar, Landschaften gewinnen Zusammenhang, Tiere treten als einzelne Lebewesen hervor.",
+      "bridge": "Tiergeschichten, Reiseberichte und Wildnishandbücher erschließen verschiedene Seiten desselben Werks. Die Ausgaben führen zum einzelnen Tier, auf die Fährte durch den Wald und zu den Anfängen selbstständiger Naturbeobachtung.",
+      "description": "Seton betrachtete wilde Tiere mit einer Ausdauer, die Erzähler sonst ihren menschlichen Gestalten vorbehalten. Der Blick des Zeichners, das Notizbuch des Naturforschers und der dramatische Sinn des Schriftstellers finden in seinen Büchern zusammen.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    }
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/author-world-seton-detail.webp",
+    "caption": {
+      "en": "Seton, detail from a photograph with Baden-Powell and Beard. Bain News Service; date not established. Library of Congress.",
+      "de": "Seton, Ausschnitt aus der Aufnahme mit Baden-Powell und Beard. Bain News Service; Datum nicht gesichert. Library of Congress."
+    },
+    "provenance": "https://www.loc.gov/pictures/item/2014686580/",
+    "rights": "Library of Congress: no known restrictions on publication.",
+    "processing": "Documentary crop; no generative processing"
+  },
+  "timeline": [
+    [
+      "1860",
+      "Born in England; raised in Canada",
+      "In England geboren; in Kanada aufgewachsen"
+    ],
+    [
+      "1898",
+      "Wild Animals I Have Known",
+      "Wild Animals I Have Known erscheint"
+    ],
+    [
+      "1902",
+      "Woodcraft articles begin",
+      "Beginn der Woodcraft-Artikel"
+    ],
+    [
+      "1903",
+      "Two Little Savages",
+      "Two Little Savages erscheint"
+    ],
+    [
+      "1906",
+      "Meeting with Baden-Powell",
+      "Begegnung mit Baden-Powell"
+    ],
+    [
+      "1907",
+      "Northern Canadian journey with Edward Preble",
+      "Reise mit Edward Preble durch Nordkanada"
+    ],
+    [
+      "1910–15",
+      "Chief Scout, Boy Scouts of America",
+      "Chief Scout der Boy Scouts of America"
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "robert-baden-powell",
+      "kind": "documented-meeting",
+      "en": "Their 1906 meeting connects Woodcraft with the formation of Scouting.",
+      "de": "Ihre Begegnung 1906 verbindet Woodcraft mit der Entstehung der Pfadfinderbewegung.",
+      "sources": [
+        "SCOUTING"
+      ]
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "kind": "institutional-context",
+      "en": "A fellow pioneer of American Scouting with a different outdoor programme.",
+      "de": "Ein weiterer Wegbereiter der amerikanischen Pfadfinder mit eigenem Freiluftprogramm.",
+      "sources": [
+        "SCOUTING"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "en": [
+        "Northern Canada, 1907",
+        "The journey with Edward Preble joined travel, animal observation and the mapping of a northern landscape; it became The Arctic Prairies."
+      ],
+      "de": [
+        "Nordkanada, 1907",
+        "Die Reise mit Edward Preble verband Tierbeobachtung und Erkundung einer nördlichen Landschaft. Aus ihr entstand The Arctic Prairies."
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "file": "/assets/images/author-world-scouts.webp",
+      "width": 1024,
+      "height": 745,
+      "caption": {
+        "en": "Ernest Thompson Seton (left), Robert Baden-Powell (seated) and Daniel Carter Beard (right). Bain News Service; exact date not established. This photograph documents their association; the archive’s broad date labels are not used as an exact event date.",
+        "de": "Ernest Thompson Seton (links), Robert Baden-Powell (sitzend) und Daniel Carter Beard (rechts). Bain News Service; genaues Datum nicht gesichert. Die Aufnahme belegt ihre Verbindung, jedoch kein hier genau datiertes Ereignis."
+      },
+      "source": "https://www.loc.gov/pictures/item/2014686580/",
+      "rights": "Library of Congress: no known restrictions on publication."
+    }
+  ],
+  "honours": [
+    {
+      "name": "John Burroughs Medal",
+      "year": "1927",
+      "category": "prize",
+      "sources": [
+        "AWARDS"
+      ]
+    },
+    {
+      "name": "Daniel Giraud Elliot Medal",
+      "year": "1928",
+      "category": "prize",
+      "sources": [
+        "AWARDS"
+      ],
+      "note": {
+        "en": "National Academy of Sciences; award year.",
+        "de": "National Academy of Sciences; Auszeichnungsjahr."
+      }
+    },
+    {
+      "name": "Master of Humanics · Springfield College",
+      "year": "1929",
+      "category": "academic",
+      "sources": [
+        "AWARDS"
+      ],
+      "note": {
+        "en": "Honorary degree.",
+        "de": "Ehrengrad."
+      },
+      "localName": {
+        "en": "Master of Humanics · International YMCA College (now Springfield College)",
+        "de": "Master of Humanics · International YMCA College (heute Springfield College)"
+      }
+    }
+  ]
+}

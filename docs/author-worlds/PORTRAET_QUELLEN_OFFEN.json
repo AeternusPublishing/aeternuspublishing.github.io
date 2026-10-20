@@ -1,0 +1,619 @@
+{
+  "schema": "AETERNUS_WEBSITE_PORTRAIT_EVIDENCE_REQUEST_V1",
+  "created": "2026-10-20",
+  "scope": "Website author portraits only; no book relaunch, paid call or publication authority.",
+  "request": "Please identify existing source originals, rights records and processing records in the respective book/author windows. Do not generate substitute portraits. Proposed evidence can be reconciled into the development branch after review.",
+  "items": [
+    {
+      "slug": "arthur-conan-doyle",
+      "name": "Arthur Ignatius Conan Doyle",
+      "dossier": "editorial/author-worlds/authors/arthur-conan-doyle.json",
+      "dossier_sha256": "4a10df09af48397d9c74cb4b625c07d7d60c89ec6f344daacee1453b50b22db5",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-acd-doyle-20261008",
+            "modern": true,
+            "alt": "Arthur Conan Doyle am Schreibtisch; Rekonstruktion nach einer Fotografie"
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "file": "portrait-acd-doyle-20261008",
+            "alt": "Arthur Conan Doyle at his writing desk, portrait reconstructed after a photograph"
+          },
+          "caption": "Portrait reconstructed after a photograph."
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "banastre-tarleton",
+      "name": "Banastre Tarleton",
+      "dossier": "editorial/author-worlds/authors/banastre-tarleton.json",
+      "dossier_sha256": "5aefa83993c5a37dc87b7b1895de06642922e0c768d1453b4327850cda825b15",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-tarleton",
+            "alt": "Banastre Tarleton nach dem Gemälde von Joshua Reynolds, 1782",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "carlo-collodi",
+      "name": "Carlo Lorenzini · Carlo Collodi",
+      "dossier": "editorial/author-worlds/authors/carlo-collodi.json",
+      "dossier_sha256": "8a3fce193d98a238786a1a0828b8e423b1a1187cc68ce4e0383578cb74c5ff34",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-collodi.jpg",
+            "alt": "Carlo Collodi, historischer Stich nach einer Fotografie von Montabone, 1890",
+            "modern": false
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "charles-brockden-brown",
+      "name": "Charles Brockden Brown",
+      "dossier": "editorial/author-worlds/authors/charles-brockden-brown.json",
+      "dossier_sha256": "abcf4d1767ab8942bc17f116009f52fe384fb0abf0e9eab38ba99bf31c6211f5",
+      "existing": [
+        {
+          "site": "legacy",
+          "portrait": {
+            "file": "portrait-charles-brockden-brown",
+            "alt": "Charles Brockden Brown, pastel by James Sharples, about 1798",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-charles-brockden-brown",
+            "alt": "Charles Brockden Brown, pastel by James Sharples, about 1798",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "charles-edward-callwell",
+      "name": "Charles Edward Callwell",
+      "dossier": "editorial/author-worlds/authors/charles-edward-callwell.json",
+      "dossier_sha256": "cf31a96fa286c41bffd6b535aca2920ab24fb69bdc6109b25d44ec1885bb66cd",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "file": "author-charles-edward-callwell-color-20261018",
+            "alt": "Major-General Sir Charles Edward Callwell, K.C.B., 1859–1928"
+          },
+          "publisherPortrait": "/assets/images/author-charles-edward-callwell-color-20261018.jpg",
+          "caption": "Major-General Sir Charles Edward Callwell, K.C.B., 1859–1928",
+          "source": "CEC_001/08_SOCIAL_WEB_EN/WEBSITE_20261017/WEBSEITE_TEXTE.json"
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "charles-william-wilson",
+      "name": "Charles William Wilson",
+      "dossier": "editorial/author-worlds/authors/charles-william-wilson.json",
+      "dossier_sha256": "c16eff6b1ae5002c0945897277466e9edd26a0d7b0e7f579df4ee017ec584a64",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-wilson",
+            "alt": "Sir Charles William Wilson, photograph by Lafayette of Dublin, from Watson's Life of 1909",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "felix-salten",
+      "name": "Felix Salten · Siegmund Salzmann",
+      "dossier": "editorial/author-worlds/authors/felix-salten.json",
+      "dossier_sha256": "a4ba78201c902d9d2a4a000944aa20b8d028039223580b06f3d82796ffc80dc0",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-salten",
+            "alt": "Felix Salten, historische Fotografie von Ferdinand Schmutzer, um 1910",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "francis-parkman",
+      "name": "Francis Parkman",
+      "dossier": "editorial/author-worlds/authors/francis-parkman.json",
+      "dossier_sha256": "501bc89c3160feb24203b1d89f526999f29623be6d5fba068f05392b185c28a5",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-parkman",
+            "alt": "Francis Parkman, historische Fotografie, digital restauriert",
+            "modern": true
+          }
+        },
+        {
+          "site": "legacy",
+          "portrait": {
+            "file": "portrait-parkman",
+            "alt": "Historical portrait of Francis Parkman",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-parkman",
+            "alt": "Historical portrait of Francis Parkman",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "francis-younghusband",
+      "name": "Francis Edward Younghusband",
+      "dossier": "editorial/author-worlds/authors/francis-younghusband.json",
+      "dossier_sha256": "49f970e417e76a54694d25d9e92bb8c7070df62bb3d2c6665f82c045a3d26b61",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-younghusband",
+            "alt": "Sir Francis Younghusband, historical photographic portrait",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "george-arthur",
+      "name": "George Arthur",
+      "dossier": "editorial/author-worlds/authors/george-arthur.json",
+      "dossier_sha256": "433574a68525556b8cfa74a533c40cd2aca16a7b14c4d629bcf0dc1c50b0c69b",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "fallback": true,
+            "file": "portrait-george-arthur-bassano-1920",
+            "alt": "Photographic portrait of Sir George Arthur"
+          },
+          "caption": "Photograph by Bassano. The Illustrated London News, 24 April 1920, p. 704.",
+          "source": "GA_001/00_ADMIN/AUTORENTEXT_ARTHUR_WIE_GEDRUCKT_V63_20261014.txt"
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "george-washington-sears",
+      "name": "George Washington Sears",
+      "dossier": "editorial/author-worlds/authors/george-washington-sears.json",
+      "dossier_sha256": "063c99a1439c3641e25f66adc0d539557063d900e99e1a8d9019f11600ed466e",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-sears",
+            "alt": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",
+            "modern": true
+          }
+        },
+        {
+          "site": "legacy",
+          "portrait": {
+            "file": "portrait-sears",
+            "alt": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-sears",
+            "alt": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "grey-owl",
+      "name": "Archibald Stansfeld Belaney · Grey Owl",
+      "dossier": "editorial/author-worlds/authors/grey-owl.json",
+      "dossier_sha256": "9369d0d1694f45f9d4673eb2b3ee7ce986ae9620dc8e6dac53830b067c73a462",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-grey-owl",
+            "alt": "Grey Owl (Archibald Stansfeld Belaney), photograph from the first edition, 1931",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "henry-ford",
+      "name": "Henry Ford",
+      "dossier": "editorial/author-worlds/authors/henry-ford.json",
+      "dossier_sha256": "2bcfdb8be13b0c0f2736b5f1eb5219ccd4bfce844428914a1c3a0ea22e2bb0ab",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-ford",
+            "alt": "Henry Ford am Schreibtisch, fotografische Aufnahme",
+            "modern": true
+          }
+        },
+        {
+          "site": "legacy",
+          "portrait": {
+            "file": "portrait-ford",
+            "alt": "Henry Ford at his desk, photographic portrait",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-ford",
+            "alt": "Henry Ford at his desk, photographic portrait",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "henry-rider-haggard",
+      "name": "Henry Rider Haggard",
+      "dossier": "editorial/author-worlds/authors/henry-rider-haggard.json",
+      "dossier_sha256": "6fe87b2fdc289ab89f683d6dc604990a000823866ada88e9be2d1ed821d2e204",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-haggard",
+            "alt": "Historisches Porträt von Henry Rider Haggard",
+            "modern": true
+          }
+        },
+        {
+          "site": "legacy",
+          "portrait": {
+            "file": "portrait-haggard",
+            "alt": "Historical portrait of Henry Rider Haggard",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-haggard",
+            "alt": "Historical portrait of Henry Rider Haggard",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "james-b-gillett",
+      "name": "James Buchanan Gillett",
+      "dossier": "editorial/author-worlds/authors/james-b-gillett.json",
+      "dossier_sha256": "8e367c3bc85ebec4b7d8e17acf4b4680f0f6cb247a3e4b1b5db1e74f1ceb88fd",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-gillett",
+            "alt": "James B. Gillett als Texas Ranger, historisches Autorenporträt",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-gillett",
+            "alt": "James B. Gillett as a Texas Ranger, historical author portrait",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "james-fenimore-cooper",
+      "name": "James Fenimore Cooper",
+      "dossier": "editorial/author-worlds/authors/james-fenimore-cooper.json",
+      "dossier_sha256": "6d3a45c29c53916da29c008ad69dd7e22b432ff01987f2b778cd1c0466193487",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "file": "portrait-coo-cooper-jarvis-1822-20261008",
+            "alt": "James Fenimore Cooper, portrait by John Wesley Jarvis, 1822"
+          },
+          "caption": "Portrait by John Wesley Jarvis, 1822."
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "james-j-hill",
+      "name": "James Jerome Hill",
+      "dossier": "editorial/author-worlds/authors/james-j-hill.json",
+      "dossier_sha256": "1ccda9ec1cab5ee3c46d56f5d7dffc6f3a0b83f4e4dccc2e58627dd6346e5d68",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-hill",
+            "modern": true,
+            "alt": "James J. Hill, historisches fotografisches Porträt"
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-hill",
+            "alt": "James J. Hill, photographic portrait from Famous Living Americans, 1914",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "johanna-spyri",
+      "name": "Johanna Spyri",
+      "dossier": "editorial/author-worlds/authors/johanna-spyri.json",
+      "dossier_sha256": "92728c7bba3bd934ab9c6c01808d12dd25950cb2db475bf52b4e020d1db78a54",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-spyri",
+            "alt": "Johanna Spyri, historische Fotografie um 1890",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "lady-florentia-sale",
+      "name": "Florentia Sale",
+      "dossier": "editorial/author-worlds/authors/lady-florentia-sale.json",
+      "dossier_sha256": "619fbba64bff65fff6823837bfb4a047040dca7fa6ba96b25db770a74f67de4b",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-sale",
+            "alt": "Porträt von Lady Florentia Sale",
+            "modern": true
+          }
+        },
+        {
+          "site": "legacy",
+          "portrait": {
+            "file": "portrait-sale",
+            "alt": "Portrait of Lady Florentia Sale",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-sale",
+            "alt": "Portrait of Lady Florentia Sale",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "melliss",
+      "name": "Charles John Melliss",
+      "dossier": "editorial/author-worlds/authors/melliss.json",
+      "dossier_sha256": "cb536c764a76f288497c9246a9d567e7e60b9915590477eb10cf2803d83b23d9",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "file": "author-melliss-v2-20261015",
+            "alt": "Charles John Melliss"
+          },
+          "publisherPortrait": "/assets/images/author-melliss-v2-20261015.jpg",
+          "caption": "Major-General Sir Charles John Melliss, V.C., K.C.B., K.C.M.G.\nborn 12 September 1862 at Mhow, Central India\ndied 6 June 1936 at Camberley, Surrey\nphotographed by Elliott & Fry, London, before 1904",
+          "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CJM_CHARLES_JOHN_MELLISS\\02_WERKE\\CJM_001_LION_HUNTING_IN_SOMALI_LAND_1895\\05_PARATEXT\\PARATEXT_V3_20261016\\paratext_en_v3.py"
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "robert-louis-stevenson",
+      "name": "Robert Louis Stevenson",
+      "dossier": "editorial/author-worlds/authors/robert-louis-stevenson.json",
+      "dossier_sha256": "6e028dd3e33e2e91583686e6ec5c996411d5e9172b477acf86b19e4f915c1472",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "file": "portrait-stevenson",
+            "alt": "Robert Louis Stevenson at his writing desk, portrait reconstructed after the photogravure frontispiece of his Letters, 1899",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "rudyard-kipling",
+      "name": "Joseph Rudyard Kipling",
+      "dossier": "editorial/author-worlds/authors/rudyard-kipling.json",
+      "dossier_sha256": "c506c6d06e3a0600876d465a7accc2da90264e1976e4a43827953f63db2d7bcf",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-kipling",
+            "alt": "Rudyard Kipling, historisches Autorenporträt",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "tacitus",
+      "name": "Cornelius Tacitus",
+      "dossier": "editorial/author-worlds/authors/tacitus.json",
+      "dossier_sha256": "855d8551950c6a6327da226db94237b11ceec3fc07455941205ff63c7a6597b3",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-tacitus-umschlag",
+            "alt": "Tacitus im roten Senatorenmantel, Umschlagmotiv der Aeternus-Ausgabe der Annalen",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "tappan-adney",
+      "name": "Edwin Tappan Adney",
+      "dossier": "editorial/author-worlds/authors/tappan-adney.json",
+      "dossier_sha256": "48ca0bc51a29289747e87b37d9facff3595df37881a2f041f6d4544e9019b401",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "file": "portrait-edwin-tappan-adney",
+            "alt": "Portrait of Edwin Tappan Adney"
+          },
+          "caption": "Edwin Tappan Adney, born 1868 at Athens, Ohio, United States, died 1950 at Upper Woodstock, New Brunswick, Canada."
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "theodore-roosevelt",
+      "name": "Theodore Roosevelt",
+      "dossier": "editorial/author-worlds/authors/theodore-roosevelt.json",
+      "dossier_sha256": "1fc175e27ca6e6d59562ecd76db8cb2fb9be85e86a0856402223a7fa89b8ba7f",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-roosevelt",
+            "alt": "Theodore Roosevelt nach dem Gemälde von Philip Alexius de László, 1908",
+            "modern": true
+          }
+        },
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "file": "portrait-roosevelt",
+            "alt": "Theodore Roosevelt, after the portrait by Philip Alexius de László, 1908"
+          },
+          "caption": "After the portrait by Philip Alexius de László, 1908."
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "werner-von-siemens",
+      "name": "Ernst Werner von Siemens",
+      "dossier": "editorial/author-worlds/authors/werner-von-siemens.json",
+      "dossier_sha256": "c4e02286635fd4e42f0122ea84f24678ca223c6e686b0ecfb73656b69920b9c6",
+      "existing": [
+        {
+          "site": "de",
+          "portrait": {
+            "file": "portrait-siemens",
+            "alt": "Werner von Siemens, Heliogravüre aus der Erstausgabe der Lebenserinnerungen, 1892",
+            "modern": true
+          }
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "william-gilmore-simms",
+      "name": "William Gilmore Simms",
+      "dossier": "editorial/author-worlds/authors/william-gilmore-simms.json",
+      "dossier_sha256": "a4857a9d3d725cd14b7b252ffc6b944c84e99e25233240ae53a9b2a52c472aca",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "modern": true,
+            "file": "portrait-wgs001-npg-95-20-20261008",
+            "alt": "William Gilmore Simms. Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
+          },
+          "caption": "Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    },
+    {
+      "slug": "william-robertson",
+      "name": "William Robert Robertson",
+      "dossier": "editorial/author-worlds/authors/william-robertson.json",
+      "dossier_sha256": "cc9748fb2ae5a904ac498adc6a41675190cc8ab1dcbe6fbd73a640b1700d8e46",
+      "existing": [
+        {
+          "site": "en",
+          "portrait": {
+            "modern": false
+          },
+          "publisherPortrait": "/assets/images/portrait-william-robertson-1917.png",
+          "caption": "Elliott & Fry, 1917; colourised",
+          "source": "WR_001/05_PARATEXT/WR001_PARATEXT_SATZFASSUNG_V1.json"
+        }
+      ],
+      "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
+    }
+  ]
+}

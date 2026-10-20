@@ -2,6 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const catalog = require('./catalog/index.cjs');
 module.exports = function(config) {
+  config.addPlugin(require('./catalog/author-worlds.cjs').plugin);
   // International assets take precedence where both sites define the same path.
   config.addPassthroughCopy({ 'src/assets': 'assets' }, {
     filter: relative => {

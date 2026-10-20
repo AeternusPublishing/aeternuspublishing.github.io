@@ -1,0 +1,151 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "francis-younghusband",
+  "name": "Francis Edward Younghusband",
+  "dates": "1863–1942",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "WARWICK",
+      "title": "University of Warwick · Younghusband diaries, people",
+      "url": "https://warwick.ac.uk/services/library/mrc/collections/digital/younghusband/people/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "RGS",
+      "title": "Royal Geographical Society · Gold medallists",
+      "url": "https://www.rgs.org/media/glmb2es0/gold-medalists-1832-2026.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "RSGS",
+      "title": "Royal Scottish Geographical Society · Gold Medal recipients",
+      "url": "https://www.rsgs.org/scottish-geographical-medal",
+      "note": "Younghusband received the Gold Medal in 1905; this was the contemporary name, before the 1933 change to Scottish Geographical Medal.",
+      "checked": "2026-10-20"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Officer and traveller, 1863–1942; travelled through central Asia.",
+      "sources": [
+        "WARWICK",
+        "RGS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Led the British mission to Tibet in 1903–04; later RGS president, 1919–22.",
+      "sources": [
+        "WARWICK",
+        "RGS"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Across Asian frontiers, between exploration and imperial policy.",
+      "intro": "Younghusband travelled through Asia as an officer and observer in a world where a route could be a geographical discovery and a strategic question at once. His books carry both kinds of attention.",
+      "orientation": "The traveller, imperial representative and later religious thinker belong to one complicated career. Its changes should not efface the force used during the British advance into Tibet.",
+      "origin": [
+        "Born into a military family in British India, he entered the army and travelled through central Asia."
+      ],
+      "career": [
+        "The mission to Tibet in 1903–04 made his name inseparable from armed imperial intervention. He later served as president of the Royal Geographical Society and wrote increasingly about spiritual and international questions."
+      ],
+      "literature": [
+        "His travel writing combines landscape, routes and political judgement. It gives access to the concerns of a British officer moving through territories whose futures were being contested."
+      ],
+      "legacy": "Younghusband’s life shows how geographical curiosity could accompany imperial power, and how a career could subsequently turn towards wider religious aspirations. The earlier and later phases both require attention.",
+      "bridge": "The travel accounts restore the terrain and strategic concerns behind the better-known public career.",
+      "description": "Younghusband travelled through Asia as an officer and observer in a world where a route could be a geographical discovery and a strategic question at once. His books carry both kinds of attention.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-younghusband",
+          "alt": "Sir Francis Younghusband, historical photographic portrait",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "rank": {
+    "en": "Lieutenant-Colonel Sir Francis Edward Younghusband"
+  },
+  "timeline": [
+    [
+      "1903–04",
+      "British mission to Tibet",
+      ""
+    ],
+    [
+      "1919–22",
+      "President, Royal Geographical Society",
+      ""
+    ]
+  ],
+  "honours": [
+    {
+      "name": "Royal Geographical Society · Patron’s Medal",
+      "year": "1890",
+      "category": "prize",
+      "sources": [
+        "RGS"
+      ],
+      "note": {
+        "en": "For the journey from Manchuria and Beijing to Kashmir, including route surveys and topographical observations."
+      }
+    },
+    {
+      "name": "Royal Scottish Geographical Society · Gold Medal",
+      "year": "1905",
+      "category": "prize",
+      "sources": [
+        "RSGS"
+      ],
+      "note": {
+        "en": "Contemporary award name; renamed the Scottish Geographical Medal in 1933."
+      }
+    }
+  ]
+}

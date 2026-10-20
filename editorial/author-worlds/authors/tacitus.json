@@ -1,0 +1,120 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "tacitus",
+  "name": "Cornelius Tacitus",
+  "dates": "um 56 – nach 117 n. Chr.",
+  "depth": "compact",
+  "scope": {
+    "de": true,
+    "en": false,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "PERSEUS",
+      "title": "Perseus, Tufts University · Germania editions",
+      "url": "https://catalog.perseus.tufts.edu/catalog/urn%3Acts%3AlatinLit%3Aphi1351.phi002",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "ANCIENT",
+      "title": "Tacitus · Agricola, opening chapters",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.%20Ag.%201",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Roman senator and historian; consul in AD 97; Germania conventionally dated AD 98.",
+      "sources": [
+        "PERSEUS",
+        "ANCIENT"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Authored Agricola, Germania, Histories and Annals.",
+      "sources": [
+        "PERSEUS",
+        "ANCIENT"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Precise birth and death dates are not established.",
+      "sources": [
+        "PERSEUS",
+        "ANCIENT"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Praenomen and exact life dates",
+      "decision": "Publius is conventional; Gaius also transmitted. Dates remain approximate. Existing cover reconstruction is not used as a contemporary likeness."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Römische Macht, gesehen mit der Schärfe des Historikers.",
+      "intro": "Tacitus schrieb aus der Führungsschicht des Reiches über die Bedingungen römischer Herrschaft. Sein Werk misst Macht an ihren Folgen für Urteil, Sprache und Handlungsfreiheit.",
+      "orientation": "Die Nachrichten über sein eigenes Leben bleiben lückenhaft. Sicherer fassbar ist der Senator und Geschichtsschreiber, dessen Texte eine politische Erfahrung verdichten.",
+      "origin": [
+        "Seine genaue Herkunft ist nicht gesichert. Die senatorische Laufbahn führte ihn bis zum Konsulat im Jahr 97 n. Chr.; private Lebensdaten lassen sich nur annähernd bestimmen."
+      ],
+      "career": [],
+      "literature": [
+        "Agricola, Germania, Historien und Annalen erschließen unterschiedliche Räume der römischen Welt. Die Germania ordnet fremde Völker aus römischer Perspektive; die großen Geschichtswerke verfolgen die Machtkämpfe im Inneren des Reiches."
+      ],
+      "legacy": "Tacitus bewahrt keine unbeteiligte Chronik. Auswahl, Verdichtung und scharfes Urteil machen seine Geschichtsschreibung zu einem Werk politischer Erkenntnis. Darin liegt ihre fortdauernde Herausforderung.",
+      "bridge": "Die Ausgaben führen zur Sprache und Gedankenführung eines Autors, der Herrschaft aus der Nähe ihrer Institutionen kannte.",
+      "description": "Tacitus schrieb aus der Führungsschicht des Reiches über die Bedingungen römischer Herrschaft. Sein Werk misst Macht an ihren Folgen für Urteil, Sprache und Handlungsfreiheit.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-tacitus-umschlag",
+          "alt": "Tacitus im roten Senatorenmantel, Umschlagmotiv der Aeternus-Ausgabe der Annalen",
+          "modern": true
+        }
+      }
+    ]
+  }
+}

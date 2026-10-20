@@ -1,0 +1,182 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "theodore-roosevelt",
+  "name": "Theodore Roosevelt",
+  "dates": "1858–1919",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "NOBEL",
+      "title": "Nobel Foundation · Theodore Roosevelt, 1906",
+      "url": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/facts/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "BIO",
+      "title": "Nobel Foundation · Theodore Roosevelt, biographical",
+      "url": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/biographical/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "United States president 1901–09; lived 1858–1919.",
+      "sources": [
+        "NOBEL",
+        "BIO"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote history, autobiography, hunting and travel books.",
+      "sources": [
+        "NOBEL",
+        "BIO"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Nobel Peace Prize 1906 for mediation ending the Russo-Japanese War.",
+      "sources": [
+        "NOBEL",
+        "BIO"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Public action, wilderness and the strenuous life.",
+      "intro": "Roosevelt made authorship part of an unusually active public career. History, politics and outdoor experience became different expressions of a life lived in argument with the world around it.",
+      "orientation": "The president and the writer should be read together. His books disclose the habits of judgement, competition and public purpose that animated his political persona.",
+      "origin": [
+        "Born in New York in 1858, he entered public life while developing a substantial literary career. Western ranching and outdoor pursuits widened the experiences on which he drew."
+      ],
+      "career": [
+        "President from 1901 to 1909, he joined energetic domestic leadership to an assertive international role. Mediation in the Russo-Japanese War brought the Nobel Peace Prize in 1906."
+      ],
+      "literature": [
+        "His historical and outdoor writings organise experience into lessons about character, nation and action. They are strongly voiced arguments, even where the subject is a landscape or an animal."
+      ],
+      "legacy": "Roosevelt’s range gives his work unusual historical density. The outdoorsman’s attention, the historian’s narrative and the statesman’s conviction are continually in conversation.",
+      "bridge": "The editions open particular parts of that wide literary and public life.",
+      "description": "Roosevelt made authorship part of an unusually active public career. History, politics and outdoor experience became different expressions of a life lived in argument with the world around it.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    "de": {
+      "tagline": "Öffentliches Handeln, Wildnis und tätiges Leben.",
+      "intro": "Roosevelt machte das Schreiben zum Bestandteil einer ungewöhnlich bewegten öffentlichen Laufbahn. Geschichte, Politik und Naturerfahrung wurden zu verschiedenen Ausdrucksformen eines Lebens, das seine Überzeugungen im Handeln erprobte.",
+      "orientation": "Präsident und Schriftsteller gehören zusammen. Seine Bücher erschließen jene Vorstellungen von Urteil, Wettbewerb und öffentlicher Aufgabe, die auch seinen politischen Auftritt bestimmten.",
+      "origin": [
+        "1858 in New York geboren, trat er ins öffentliche Leben und entwickelte zugleich eine umfangreiche schriftstellerische Tätigkeit. Ranchleben und Freiluftunternehmungen erweiterten seinen Erfahrungshorizont."
+      ],
+      "career": [
+        "Von 1901 bis 1909 Präsident der Vereinigten Staaten, verband er innenpolitischen Gestaltungswillen mit einem entschiedenen internationalen Auftreten. Die Vermittlung im Russisch-Japanischen Krieg brachte ihm 1906 den Friedensnobelpreis."
+      ],
+      "literature": [
+        "Seine historischen und naturkundlichen Schriften formen Erfahrung zu Aussagen über Charakter, Nation und Tat. Auch die Landschaftsschilderung trägt häufig den Nachdruck eines Arguments."
+      ],
+      "legacy": "Roosevelts Vielseitigkeit gibt seinem Werk besondere historische Dichte. Der Naturbeobachter, der Geschichtserzähler und der Staatsmann sprechen immer wieder miteinander.",
+      "bridge": "Die Ausgaben erschließen einzelne Teile dieses weitgespannten literarischen und öffentlichen Lebens.",
+      "description": "Roosevelt machte das Schreiben zum Bestandteil einer ungewöhnlich bewegten öffentlichen Laufbahn. Geschichte, Politik und Naturerfahrung wurden zu verschiedenen Ausdrucksformen eines Lebens, das seine Überzeugungen im Handeln erprobte.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "withheld",
+    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-roosevelt",
+          "alt": "Theodore Roosevelt nach dem Gemälde von Philip Alexius de László, 1908",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "file": "portrait-roosevelt",
+          "alt": "Theodore Roosevelt, after the portrait by Philip Alexius de László, 1908"
+        },
+        "caption": "After the portrait by Philip Alexius de László, 1908."
+      }
+    ]
+  },
+  "rank": {
+    "en": "26th President of the United States · Nobel Peace Prize 1906",
+    "de": "26. Präsident der Vereinigten Staaten · Friedensnobelpreis 1906"
+  },
+  "honours": [
+    {
+      "name": "Nobel Peace Prize / Friedensnobelpreis",
+      "year": "1906",
+      "category": "prize",
+      "sources": [
+        "NOBEL"
+      ],
+      "localName": {
+        "de": "Friedensnobelpreis",
+        "en": "Nobel Peace Prize"
+      }
+    }
+  ],
+  "timeline": [
+    [
+      "1901",
+      "Becomes President",
+      "Amtsantritt als Präsident"
+    ],
+    [
+      "1906",
+      "Nobel Peace Prize",
+      "Friedensnobelpreis"
+    ],
+    [
+      "1909",
+      "End of presidency",
+      "Ende der Präsidentschaft"
+    ]
+  ]
+}
