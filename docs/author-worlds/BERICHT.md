@@ -150,9 +150,7 @@ Militärischer Werdegang und Gründung werden zusammenhängend erklärt. Vier Or
 
 ### Charles Vere Ferrers Townshend
 
-Vorher, biografische Eröffnung:
-
-> 
+Vorher: Der Autorenkopf enthielt keine biografische Eröffnung; die vorhandene ausführliche Biografie stand im Aufklappbereich. Der Bildvergleich zeigt auch diesen bisherigen Text geöffnet.
 
 Nachher:
 
