@@ -202,6 +202,8 @@ Object.assign(authorsEn.find(author => author.slug === 'robert-baden-powell'), {
   ]
 });
 
+englishBooks.push(require('./bp002-en-20261020.cjs'));
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {

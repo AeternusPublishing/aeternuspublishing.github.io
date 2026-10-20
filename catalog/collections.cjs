@@ -10,6 +10,7 @@ const definitions = [
     intro: 'First-hand accounts of British campaigns, command and the people caught in the reach of empire.',
     bookIds: [
       'en-robert-baden-powell-the-matabele-campaign-1896',
+      'en-robert-baden-powell-aids-to-scouting',
       'en-charles-edward-callwell-the-life-of-sir-stanley-maude',
       'en-william-robertson-from-private-to-field-marshal',
       'en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated',

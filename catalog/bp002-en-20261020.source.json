@@ -1,0 +1,60 @@
+{
+ "schema": "AETERNUS_WEBSEITE_TEXTE_V1",
+ "work_id": "BP_002",
+ "sprache": "en",
+ "autor": {
+  "name": "Robert Baden-Powell",
+  "slug": "robert-baden-powell",
+  "url": "https://aeternuspublishing.com/authors/robert-baden-powell/",
+  "hinweis": "Autorenseite besteht (QR-Ziel 200, 18.10.2026); nur Buch ergaenzen, Bio und Bildnis unveraendert lassen."
+ },
+ "buch": {
+  "titel": "Aids to Scouting for N.-C.Os. & Men",
+  "titelfeld_handel": "Aids to Scouting for N.-C.Os. & Men (Annotated)",
+  "untertitel": null,
+  "slug_vorschlag": "en-robert-baden-powell-aids-to-scouting",
+  "reihe": "GREEN SERIES · The British Empire Collection",
+  "kicker": "Before an army can strike, it must first see.",
+  "zitat": "“It should be in the hands of every officer and soldier.” The Broad Arrow",
+  "blurb": [
+   "First published in 1899, Aids to Scouting brought together Robert Baden-Powell’s experience of military reconnaissance in India, Afghanistan and Africa, presenting the art of observation, concealment, tracking, fieldcraft and independent action in a compact manual written expressly for the non-commissioned officers and men of the British Army.",
+   "Its publication coincided with the outbreak of the South African War. As Boer forces closed upon Mafeking, Baden-Powell corrected the final proofs, which departed with the last despatches to pass through the enemy lines. The author remained to command the defence; his handbook travelled to England.",
+   "The principles set down in these pages would subsequently find application far beyond military service, contributing to the foundations of the worldwide Scout Movement. Yet their original purpose remained unmistakably martial: to train the soldier sent ahead of the main body, entrusted with observing the enemy, judging the ground and reporting accurately upon what he had discovered."
+  ],
+  "schluss": "This AETERNUS edition reproduces the revised and enlarged military handbook of 1915, preserving Baden-Powell’s practical instruction at the meeting point of two great periods of British military history.",
+  "features": [
+   "Complete text of the revised and enlarged edition of 1915, word for word",
+   "Four new full-page plates; the original text figures redrawn",
+   "The Eyes of the Army and The Book That Left Mafeking",
+   "About the Author and A Note on the Text"
+  ],
+  "erstausgabe": "Gale & Polden, London and Aldershot, 1899; text of the revised and enlarged edition, 1915",
+  "umschlag": "cover-aids-to-scouting-baden-powell-en-20261020.webp",
+  "rueckseite": "back-aids-to-scouting-baden-powell-en-20261020-fallback.jpg"
+ },
+ "formats": [
+  {
+   "form": "Paperback",
+   "isbn": "978-3-67605-205-4",
+   "seiten": 142,
+   "preis_usd": 14.99,
+   "plattform": "Amazon KDP und IngramSpark"
+  },
+  {
+   "form": "E-Book",
+   "isbn": "978-3-67605-206-1",
+   "preis_usd": 7.99,
+   "plattform": "Kindle und IngramSpark"
+  }
+ ],
+ "erscheinen": "2026-10-28",
+ "status": "forthcoming",
+ "instagram": {
+  "motiv": "cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+  "rueckseite": "back-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+  "kicker": "Before an army can strike, it must first see.",
+  "kurzfassung": "First published in 1899, Aids to Scouting brought together Robert Baden-Powell’s experience of military reconnaissance in India, Afghanistan and Africa, presenting the art of observation, concealment, tracking, fieldcraft and independent action in a compact manual written expressly for the non-commissioned officers and men of the British Army. Its publication coincided with the outbreak of the South African War. As Boer forces closed upon Mafeking, Baden-Powell corrected the final proofs, which departed with the last despatches to pass through the enemy lines. The author remained to command the defence; his handbook travelled to England.",
+  "verweis": "aeternuspublishing.com"
+ },
+ "grenze": "Keine Kaufverweise, bis die Plattform LIVE meldet. Nur 'AETERNUS' als Marke, nur aeternuspublishing.com."
+}
