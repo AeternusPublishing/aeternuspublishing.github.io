@@ -9,6 +9,8 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
   const authorData = authors.find(a => author.landingUrl.de === `/autoren/${a.slug}/`);
   const detail = authorData?.books.find(b => b.cover.img === book.cover) || authorData?.books.find(b => clean(b.title) === book.title.de);
   const id = slug(book.title.de);
+  const language = book.language || 'de';
+  if (!['de', 'en'].includes(language)) throw new Error('Unknown edition language: ' + id);
   const pending = /eingereicht|ausstehend|vorbereitung|folgen nach/i.test([book.status?.de, book.desc.de, detail?.modal?.status].join(" "));
   const amazon = !pending ? book.amazonUrl || "" : "";
   const description = book.desc.de.replace(/\s*Bei KDP eingereicht; Veröffentlichung ausstehend\.?/g, "").trim();
@@ -24,6 +26,7 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
   const linkedFormat = formats.find(f => amazon.includes(f.isbn?.replace(/-/g, "")));
   return {
     id, url: `/buecher/${id}/`, title: book.title.de, author: author.name,
+    language, languageLabel: language === 'en' ? 'Englisch' : 'Deutsch',
     authorUrl: author.landingUrl.de, authorSlug: authorData?.slug,
     portrait: authorData?.portrait, authorIntro: clean(authorData?.intro) || clean(author.bio?.de),
     cover: book.cover, description, summary: clean(detail?.modal?.summary) || description,
@@ -38,7 +41,7 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
       url: `https://aeternus-verlag.de/buecher/${id}/`,
       author: { "@type": "Person", name: author.name },
       publisher: { "@type": "Organization", name: "AETERNUS Verlag" },
-      inLanguage: "de", description,
+      inLanguage: language, description,
       image: `https://aeternus-verlag.de/assets/images/${book.cover}.webp`
     }
   };

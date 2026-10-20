@@ -15,8 +15,11 @@
   {% if portrait %}<figure><img src="{{ portrait }}" alt="{{ a.portrait.alt or a.name }}" width="250" height="310"></figure>{% endif %}
 </section>
 <section class="shell international-section" id="{{ labels.worksId }}" aria-labelledby="works-title">
-  <div class="section-heading"><h2 id="works-title">{{ labels.editions }}</h2></div>
+  <div class="section-heading"><h2 id="works-title">{{ "Englischsprachige Ausgaben" if authorLocale == 'de' and a.editionLanguage == 'en' else labels.editions }}</h2></div>
   <div class="author-books{% if a.books.length == 1 %} single-book{% endif %}">
+  {% if authorLocale == 'de' and a.editionLanguage == 'en' %}
+    <p>Die Ausgaben dieses Autors finden Sie auf unserer englischen Verlagsseite: <a class="text-link" href="{{ a.sisterUrl }}">Zu den englischsprachigen Ausgaben →</a></p>
+  {% else %}
   {% for bk in a.books %}
     {% set directBookUrl = bk.url or (bk.cover.img | bookUrl) if authorLocale == 'de' else bk.url %}
     {% set cover = bk.cover.img | authorImage(true, true) %}
@@ -39,6 +42,7 @@
       </div></details>
     </article>
   {% endfor %}
+  {% endif %}
   </div>
 </section>
 {% if a.blocks.length or a.bioLede %}<section class="shell international-section author-biography" id="{{ labels.bioId }}" aria-labelledby="bio-title">

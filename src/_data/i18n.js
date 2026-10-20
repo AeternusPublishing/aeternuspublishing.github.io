@@ -1621,6 +1621,7 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
   books: [
     {
       cover: "cover-white-company-vol-i",
+      language: "en",
       isbn: "978-3-67605-144-6",
       isbns: { paperback: "978-3-67605-144-6", hardcover: "978-3-67605-145-3" },
       pages: 216,
@@ -1634,6 +1635,7 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     },
     {
       cover: "cover-white-company-vol-ii",
+      language: "en",
       isbn: "978-3-67605-147-7",
       isbns: { paperback: "978-3-67605-147-7", hardcover: "978-3-67605-148-4" },
       pages: 186,
@@ -1647,6 +1649,7 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     },
     {
       cover: "cover-white-company-vol-iii",
+      language: "en",
       isbn: "978-3-67605-150-7",
       isbns: { paperback: "978-3-67605-150-7", hardcover: "978-3-67605-151-4" },
       pages: 200,

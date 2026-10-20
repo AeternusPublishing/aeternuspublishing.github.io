@@ -19,6 +19,11 @@ for (const node of payload.nodes) {
   assert(node.location.length === 2 && Math.abs(node.location[0])<=180 && Math.abs(node.location[1])<=90);
   assert(fs.existsSync(path.join(root,node.coverImageUrl)), 'Missing cover: '+node.title);
   const url = new URL(node.landingUrl,'https://aeternus-verlag.de');
+  if (url.origin === 'https://aeternuspublishing.com') {
+    assert(require('../catalog/index.cjs').englishBooks.some(b => b.url === url.pathname), 'Unknown English edition target: ' + node.title);
+    assert.equal(node.language, 'Englisch');
+    continue;
+  }
   const destination = read(url.pathname);
   if (url.hash) assert(destination.includes('id="'+url.hash.slice(1)+'"'), 'Missing landing fragment: '+node.title);
   if (node.status === 'In Vorbereitung') assert(!node.amazonUrl, 'Pending title cannot have a buy link');
