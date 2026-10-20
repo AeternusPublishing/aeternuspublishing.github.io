@@ -23,7 +23,8 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
       url: !pending && book.asin?.[key] ? `https://www.amazon.de/dp/${book.asin[key]}` : ""
     }));
   // An ISBN-specific search can belong to a different binding than the cover.
-  const linkedFormat = formats.find(f => amazon.includes(f.isbn?.replace(/-/g, "")));
+  const linkedFormat = formats.find(f => f.url && f.url === amazon) ||
+    formats.find(f => f.isbn && amazon.includes(f.isbn.replace(/-/g, "")));
   return {
     id, url: `/buecher/${id}/`, title: book.title.de, author: author.name,
     language, languageLabel: language === 'en' ? 'Englisch' : 'Deutsch',
@@ -33,7 +34,7 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
     subtitle: clean(detail?.subtitle), original: book.originalTitle || "",
     series: series.slug, seriesName: series.colorName.de, seriesColor: series.colorHex,
     isbn: book.isbn, searchIsbns: [book.isbn, ...formats.map(f => f.isbn)].filter(Boolean).join(" "), pages: book.pages, formats, amazon,
-    amazonLabel: linkedFormat ? `${linkedFormat.name} bei Amazon suchen` : amazon.includes("/s?") ? "Bei Amazon suchen" : "Bei Amazon ansehen",
+    amazonLabel: linkedFormat ? `${linkedFormat.name} bei Amazon ${amazon.includes('/s?') ? 'suchen' : 'ansehen'}` : amazon.includes("/s?") ? "Bei Amazon suchen" : "Bei Amazon ansehen",
     pending, status: pending ? "Demnächst erhältlich" : "Im Programm",
     metadata: pending ? "" : clean(detail?.modal?.metadata),
     schema: {

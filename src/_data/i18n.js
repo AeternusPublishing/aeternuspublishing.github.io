@@ -978,7 +978,7 @@ module.exports = {
               pages: 121,
               pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "24,99" },
               asin: { ebook: "B0HGFK9NXM", paperback: "391288336X", hardcover: "3912883378" },
-              amazonUrl: "https://www.amazon.de/dp/391288336X",
+              amazonUrl: "https://www.amazon.de/dp/3912883378",
               originalTitle: "Monarch, the Big Bear of Tallac, 1904",
               title: { de: "Monarch", en: "Monarch" },
               desc: {
