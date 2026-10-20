@@ -1,0 +1,5937 @@
+{
+  "schema": "AETERNUS_WEBSITE_EDITION_IDENTITY_AUDIT_V1",
+  "captured_utc": "2026-10-20T09:13:14.935687+00:00",
+  "source": "aeternus.py buchregister abfrage SELECT ... FROM zeilen (read-only)",
+  "register_projection_sha256": "24d9ae36a1162a9aa6221a4667fd31c36a07ecee79ac79826f033cb95fbfb784",
+  "scope": "Website verification evidence only; no new or changed ISBN assignments, book production or release decisions.",
+  "visual_review": "85 front covers and 11 back covers: title, author, language and volume checked; JPEG/WebP variants compared. Back-cover ISBNs checked against format records.",
+  "amazon_observations": {
+    "B0HDRJVR7N": {
+      "language": "de",
+      "isbn13": "9783912883138",
+      "work_id": "RMB_001",
+      "productform": "ebook",
+      "url": "https://www.amazon.de/dp/B0HDRJVR7N",
+      "observed_utc": "2026-10-20T09:13:14.837523+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HJ2S6J8Q": {
+      "language": "en",
+      "isbn13": "9783912883640",
+      "work_id": "ETS_005",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HJ2S6J8Q",
+      "observed_utc": "2026-10-20T09:13:14.837536+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HJ2PRS9G": {
+      "language": "en",
+      "isbn13": "9783912883626",
+      "work_id": "ETS_008",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HJ2PRS9G",
+      "observed_utc": "2026-10-20T09:13:14.837538+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HFG6QCY5": {
+      "language": "en",
+      "isbn13": "9783912883145",
+      "work_id": "RMB_001",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HFG6QCY5",
+      "observed_utc": "2026-10-20T09:13:14.837540+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HJXVW262": {
+      "language": "en",
+      "isbn13": "9783676050296",
+      "work_id": "FP_002",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HJXVW262",
+      "observed_utc": "2026-10-20T09:13:14.837542+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HJ6M56RG": {
+      "language": "en",
+      "isbn13": "9783912883978",
+      "work_id": "RJE_001",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HJ6M56RG",
+      "observed_utc": "2026-10-20T09:13:14.837543+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HJXX6366": {
+      "language": "en",
+      "isbn13": null,
+      "work_id": "JBG_001",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HJXX6366",
+      "observed_utc": "2026-10-20T09:13:14.837544+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HKMYVBGK": {
+      "language": "en",
+      "isbn13": "9783912883787",
+      "work_id": "ETS_001",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HKMYVBGK",
+      "observed_utc": "2026-10-20T09:13:14.837546+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HKNFSSQB": {
+      "language": "en",
+      "isbn13": "9783912883817",
+      "work_id": "ETS_002",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HKNFSSQB",
+      "observed_utc": "2026-10-20T09:13:14.837547+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HKJXW3KV": {
+      "language": "en",
+      "isbn13": "9783912883879",
+      "work_id": "ETS_004",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HKJXW3KV",
+      "observed_utc": "2026-10-20T09:13:14.837549+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "B0HKNBL4CV": {
+      "language": "en",
+      "isbn13": "9783912883756",
+      "work_id": "ETS_007",
+      "productform": "ebook",
+      "url": "https://www.amazon.com/dp/B0HKNBL4CV",
+      "observed_utc": "2026-10-20T09:13:14.837550+00:00",
+      "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    }
+  },
+  "pages": [
+    {
+      "site": "de",
+      "id": "der-waldteufel",
+      "url": "/buecher/der-waldteufel/",
+      "title": "Der Waldteufel",
+      "language": "de",
+      "primary_isbn13": "9783912883107",
+      "front_url": "/assets/images/cover-waldteufel-v5-20261008-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-waldteufel-v5-20261008.webp",
+          "sha256": "d3a85f8ce82e1cff0d88bbb7248565d8ec2fcf4e32f41e3c6089edfbe9edae30"
+        },
+        {
+          "path": "src/assets/images/cover-waldteufel-v5-20261008-fallback.jpg",
+          "sha256": "a4b70a0330eacdb5b06a96cfef549d154f9f21739ea2bd4c371ef6e467b32352"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883138",
+          "productform": "ebook",
+          "tokens": [
+            "B0HDRJVR7N"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Der Waldteufel (Übersetzt)",
+              "isbn13": "978-3-912883-13-8",
+              "isbn10": "3912883130",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883107",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883106"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Der Waldteufel",
+              "isbn13": "9783912883107",
+              "isbn10": "3912883106",
+              "asin": "3912883106"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-eroberung-des-westens-band-i",
+      "url": "/buecher/die-eroberung-des-westens-band-i/",
+      "title": "Die Eroberung des Westens · Band I",
+      "language": "de",
+      "primary_isbn13": "9783912883916",
+      "front_url": "/assets/images/cover-wotw-1-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-wotw-1.webp",
+          "sha256": "d1c1fbbce065301a476b14d0b63d6a2c030bfa6a4c8290049320d2c1ed85a4cd"
+        },
+        {
+          "path": "src/assets/images/cover-wotw-1-fallback.jpg",
+          "sha256": "f818c72a0a852caffa0cbe73399cae031c6503c5592d45c6ce161e1ffa1c1204"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883916",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883912"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "WOTW_BAND_I",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die Eroberung des Westens (Uebersetzt): Band I",
+              "isbn13": "978-3-912883-91-6",
+              "isbn10": "3912883912",
+              "asin": "3912883912"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-eroberung-des-westens-band-ii",
+      "url": "/buecher/die-eroberung-des-westens-band-ii/",
+      "title": "Die Eroberung des Westens · Band II",
+      "language": "de",
+      "primary_isbn13": "9783912883923",
+      "front_url": "/assets/images/cover-wotw-2-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-wotw-2.webp",
+          "sha256": "6aaf69bfed4bfdaf943dd489fe45df6c6a98ba87bb581cab2e6df0a5bb98337e"
+        },
+        {
+          "path": "src/assets/images/cover-wotw-2-fallback.jpg",
+          "sha256": "25da8d474b27b94c307ccecb185ef28a4b125e1ad3d63d1b3c1d16b778da8075"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883923",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883920"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "WOTW_BAND_II",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die Eroberung des Westens (Uebersetzt): Band II",
+              "isbn13": "978-3-912883-92-3",
+              "isbn10": "3912883920",
+              "asin": "3912883920"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-eroberung-des-westens-band-iii",
+      "url": "/buecher/die-eroberung-des-westens-band-iii/",
+      "title": "Die Eroberung des Westens · Band III",
+      "language": "de",
+      "primary_isbn13": "9783912883930",
+      "front_url": "/assets/images/cover-wotw-3-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-wotw-3.webp",
+          "sha256": "0e6cac388dd701b9e421e44e1cb7e604c422e3346dc4ca70041bc32a90fa1cbb"
+        },
+        {
+          "path": "src/assets/images/cover-wotw-3-fallback.jpg",
+          "sha256": "e320856d8211df876416d3c66e1319654cfff85d4bd6a280160e0a2202ac3d43"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883930",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883939"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "WOTW_BAND_III",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die Eroberung des Westens (Uebersetzt): Band III",
+              "isbn13": "978-3-912883-93-0",
+              "isbn10": "3912883939",
+              "asin": "3912883939"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-eroberung-des-westens-band-iv",
+      "url": "/buecher/die-eroberung-des-westens-band-iv/",
+      "title": "Die Eroberung des Westens · Band IV",
+      "language": "de",
+      "primary_isbn13": "9783912883947",
+      "front_url": "/assets/images/cover-wotw-4-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-wotw-4.webp",
+          "sha256": "0f639b6af864f8c073ad6326385f878638f010d3683e9fba3fdcdee72aef81c7"
+        },
+        {
+          "path": "src/assets/images/cover-wotw-4-fallback.jpg",
+          "sha256": "cb1145634b76b61449551048954966762a4fe99581d8745859bd9cd2455c88e9"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883947",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883947"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "WOTW_BAND_IV",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die Eroberung des Westens (Uebersetzt): Band IV",
+              "isbn13": "978-3-912883-94-7",
+              "isbn10": "3912883947",
+              "asin": "3912883947"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "der-oregon-trail",
+      "url": "/buecher/der-oregon-trail/",
+      "title": "Der Oregon Trail",
+      "language": "de",
+      "primary_isbn13": "9783676050241",
+      "front_url": "/assets/images/cover-der-oregon-trail-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-der-oregon-trail.webp",
+          "sha256": "e841bf78796855d86d382c507f3f4b6ec9ba54e99febfb0017627833b7e62af2"
+        },
+        {
+          "path": "src/assets/images/cover-der-oregon-trail-fallback.jpg",
+          "sha256": "57bfd1a6fb69913e80f45c90ec062bbf2319b4302a208a5f0edcf1a5412ed279"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050234",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJRF4X59"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_002",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Der Oregon Trail (Illustriert)",
+              "isbn13": "978-3-67605-023-4",
+              "isbn10": "3676050231",
+              "asin": "B0HJRF4X59"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050241",
+          "productform": "taschenbuch",
+          "tokens": [
+            "367605024X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_002",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Der Oregon Trail (Illustriert)",
+              "isbn13": "978-3-67605-024-1",
+              "isbn10": "367605024X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050258",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050258"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_002",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Der Oregon Trail (Illustriert)",
+              "isbn13": "978-3-67605-025-8",
+              "isbn10": "3676050258",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-rough-riders",
+      "url": "/buecher/die-rough-riders/",
+      "title": "Die Rough Riders",
+      "language": "de",
+      "primary_isbn13": "9783676050272",
+      "front_url": "/assets/images/cover-rough-riders-de-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rough-riders-de.webp",
+          "sha256": "a02ee1c3e0ebbe48f798b2162f94ab8226d60c262358ecc28a80fa15ed9c0155"
+        },
+        {
+          "path": "src/assets/images/cover-rough-riders-de-fallback.jpg",
+          "sha256": "760dac8252dbb24b1c2d91b8dd132bde3dc04d9680e3077271712e9f8ce173a4"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050272",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "TR_002",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Die Rough Riders (Übersetzt)",
+              "isbn13": "978-3-67605-027-2",
+              "isbn10": "3676050274",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050289",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "TR_002",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die Rough Riders (Übersetzt)",
+              "isbn13": "978-3-67605-028-9",
+              "isbn10": "3676050282",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050265",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "TR_002",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Die Rough Riders (Übersetzt)",
+              "isbn13": "978-3-67605-026-5",
+              "isbn10": "3676050266",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "tagebuch-der-katastrophe",
+      "url": "/buecher/tagebuch-der-katastrophe/",
+      "title": "Tagebuch der Katastrophe",
+      "language": "de",
+      "primary_isbn13": "9783912883428",
+      "front_url": "/assets/images/cover-sale-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-sale.webp",
+          "sha256": "6f161813a53e9b6d40d99a059884e784ac5add507360c4c65e23e4d2a02b365a"
+        },
+        {
+          "path": "src/assets/images/cover-sale-fallback.jpg",
+          "sha256": "7bc4e3d3f61f2f153eb946302e473f4b95632f6f7425778b1f2675db44b400b8"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HGNNN9BS"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Tagebuch der Katastrophe in Afghanistan 1841-1842",
+              "isbn13": "978-3-912883-43-5",
+              "isbn10": "3912883432",
+              "asin": "B0HGNNN9BS"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883428",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883424"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Tagebuch der Katastrophe in Afghanistan 1841-1842",
+              "isbn13": "978-3-912883-42-8",
+              "isbn10": "3912883424",
+              "asin": "3912883424"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "der-sturz-prempehs",
+      "url": "/buecher/der-sturz-prempehs/",
+      "title": "Der Sturz Prempehs",
+      "language": "de",
+      "primary_isbn13": "9783912883480",
+      "front_url": "/assets/images/cover-der-sturz-prempehs-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-der-sturz-prempehs.webp",
+          "sha256": "145a965e83d1576edb500244212c37b3f231ec0e6c1ff5ff8e2c06c2c757ccf4"
+        },
+        {
+          "path": "src/assets/images/cover-der-sturz-prempehs-fallback.jpg",
+          "sha256": "00f2f71364dacd80030e7f88116fe3e53c13794675df499b32a74082fdb3b88b"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HHBS3WL4"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Der Sturz Prempehs: Tagebuch des Aschanti-Feldzugs 1895-96",
+              "isbn13": "978-3-912883-50-3",
+              "isbn10": "3912883505",
+              "asin": "B0HHBS3WL4"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883480",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883483"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Der Sturz Prempehs",
+              "isbn13": "978-3-912883-48-0",
+              "isbn10": "3912883483",
+              "asin": null
+            },
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Der Sturz Prempehs: Tagebuch des Aschanti-Feldzugs 1895-96",
+              "isbn13": "978-3-912883-48-0",
+              "isbn10": "3912883483",
+              "asin": "3912883483"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883497",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883491"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Der Sturz Prempehs",
+              "isbn13": "978-3-912883-49-7",
+              "isbn10": "3912883491",
+              "asin": null
+            },
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Der Sturz Prempehs: Tagebuch des Aschanti-Feldzugs 1895-96",
+              "isbn13": "978-3-912883-49-7",
+              "isbn10": "3912883491",
+              "asin": "3912883491"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "scouting-for-boys-uebersetzt",
+      "url": "/buecher/scouting-for-boys-uebersetzt/",
+      "title": "Scouting for Boys (Übersetzt)",
+      "language": "de",
+      "primary_isbn13": "9783676050074",
+      "front_url": "/assets/images/cover-scouting-for-boys-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-scouting-for-boys.webp",
+          "sha256": "be7a0e26a2b41f30cb8fdd1a400a87a58ac8625ba057c0ae70be492d8ff57720"
+        },
+        {
+          "path": "src/assets/images/cover-scouting-for-boys-fallback.jpg",
+          "sha256": "c693684f05ebbaca108735fece4364b36c576a6e9ba32784bc10fced5fc031fc"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050074",
+          "productform": "taschenbuch",
+          "tokens": [
+            "367605007X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Scouting for Boys (Uebersetzt)",
+              "isbn13": "978-3-67605-007-4",
+              "isbn10": "367605007X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050081",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050088"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Scouting for Boys (Uebersetzt)",
+              "isbn13": "978-3-67605-008-1",
+              "isbn10": "3676050088",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "geschichte-der-feldzuege-von-1780-und-1781",
+      "url": "/buecher/geschichte-der-feldzuege-von-1780-und-1781/",
+      "title": "Geschichte der Feldzüge von 1780 und 1781",
+      "language": "de",
+      "primary_isbn13": "9783912883701",
+      "front_url": "/assets/images/cover-tarleton-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-tarleton.webp",
+          "sha256": "e90725315e736ec543047b32e422a8f42e97bc3bba5852a9e79307e413db46d3"
+        },
+        {
+          "path": "src/assets/images/cover-tarleton-fallback.jpg",
+          "sha256": "25f8bb44a06e7900a0f3f392571bb3a071279bf473156caf75645bd70dda3a78"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HJRS6S2D"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "TAR_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Geschichte der Feldzuege von 1780 und 1781 (Uebersetzt) - Taschenbuch-Eintrag",
+              "isbn13": "978-3-912883-72-5",
+              "isbn10": "3912883726",
+              "asin": "B0HJRS6S2D"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883701",
+          "productform": "taschenbuch",
+          "tokens": [
+            "391288370X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "TAR_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Geschichte der Feldzuege von 1780 und 1781 (Uebersetzt) - Taschenbuch-Eintrag",
+              "isbn13": "978-3-912883-70-1",
+              "isbn10": "391288370X",
+              "asin": "391288370X"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883718",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883718"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "TAR_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Geschichte der Feldzuege von 1780 und 1781: in den suedlichen Provinzen Nordamerikas",
+              "isbn13": "978-3-912883-71-8",
+              "isbn10": "3912883718",
+              "asin": null
+            },
+            {
+              "werk_kanon": "TAR_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Geschichte der Feldzuege von 1780 und 1781 (Uebersetzt) - Hardcover-Eintrag",
+              "isbn13": "978-3-912883-71-8",
+              "isbn10": "3912883718",
+              "asin": "3912883718"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "mein-leben-und-werk",
+      "url": "/buecher/mein-leben-und-werk/",
+      "title": "Mein Leben und Werk",
+      "language": "de",
+      "primary_isbn13": "9783912883398",
+      "front_url": "/assets/images/cover-ford-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ford.webp",
+          "sha256": "3557c8f23e558195d79b0ae0b55084b9811a02f351d035c6ad1b5f022d388ec2"
+        },
+        {
+          "path": "src/assets/images/cover-ford-fallback.jpg",
+          "sha256": "c1b5fd4b9b3b3319f471202d63a4dc6f773999a4dee764cd04eb2b6651e09fa5"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HGMCF8NC"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "HF_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Mein Leben und Werk: Die Autobiographie",
+              "isbn13": "978-3-912883-41-1",
+              "isbn10": "3912883416",
+              "asin": "B0HGMCF8NC"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883398",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883394"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "HF_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Mein Leben und Werk: Die Autobiographie",
+              "isbn13": "978-3-912883-39-8",
+              "isbn10": "3912883394",
+              "asin": "3912883394"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883404",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883408"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "HF_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Mein Leben und Werk: Die Autobiographie",
+              "isbn13": "978-3-912883-40-4",
+              "isbn10": "3912883408",
+              "asin": "3912883408"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "lebenserinnerungen",
+      "url": "/buecher/lebenserinnerungen/",
+      "title": "Lebenserinnerungen",
+      "language": "de",
+      "primary_isbn13": "9783676051095",
+      "front_url": "/assets/images/cover-siemens-lebenserinnerungen-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-siemens-lebenserinnerungen.webp",
+          "sha256": "5d25f1c5637d8a80b9eee0d2988fcc8470cf36ea278b44ce9d9f1a13b5e592ab"
+        },
+        {
+          "path": "src/assets/images/cover-siemens-lebenserinnerungen-fallback.jpg",
+          "sha256": "abcfd98db738b5c0fee3c9cf385baa765dcd4dfdd5de6b4b6475cc106ae693a9"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783676051118",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WVS_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Lebenserinnerungen (Kommentiert)",
+              "isbn13": "978-3-67605-111-8",
+              "isbn10": "3676051114",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676051095",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WVS_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Lebenserinnerungen (Kommentiert)",
+              "isbn13": "978-3-67605-109-5",
+              "isbn10": "3676051092",
+              "asin": null
+            },
+            {
+              "werk_kanon": "WVS_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Lebenserinnerungen (Kommentiert)",
+              "isbn13": "978-3-67605-109-5",
+              "isbn10": "3676051092",
+              "asin": "3676051092"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051101",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WVS_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Lebenserinnerungen (Kommentiert)",
+              "isbn13": "978-3-67605-110-1",
+              "isbn10": "3676051106",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "wilde-tiere-die-ich-kannte",
+      "url": "/buecher/wilde-tiere-die-ich-kannte/",
+      "title": "Wilde Tiere, die ich kannte",
+      "language": "de",
+      "primary_isbn13": "9783912883008",
+      "front_url": "/assets/images/cover-wilde-tiere-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-wilde-tiere.webp",
+          "sha256": "4f5504ec56edbd1df0e0c638dbc5b77c119021182ff8aeaff2e97c0dffc723cf"
+        },
+        {
+          "path": "src/assets/images/cover-wilde-tiere-fallback.jpg",
+          "sha256": "11e28806bcf96e3697a22a75c1e5c7cbbccb32c3d9454a9507365f37a53d8b6d"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883084",
+          "productform": "ebook",
+          "tokens": [
+            "B0HDTYK2Y6"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Wilde Tiere, die ich kannte",
+              "isbn13": "978-3-912883-08-4",
+              "isbn10": "3912883084",
+              "asin": "B0HDTYK2Y6"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883206",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883203"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Wilde Tiere, die ich kannte",
+              "isbn13": "978-3-912883-20-6",
+              "isbn10": "3912883203",
+              "asin": "3912883203"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883008",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883009"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Wilde Tiere, die ich kannte",
+              "isbn13": "978-3-912883-00-8",
+              "isbn10": "3912883009",
+              "asin": "3912883009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "wahb-lebensgeschichte-eines-grizzlybaeren",
+      "url": "/buecher/wahb-lebensgeschichte-eines-grizzlybaeren/",
+      "title": "Wahb. Lebensgeschichte eines Grizzlybären",
+      "language": "de",
+      "primary_isbn13": "9783912883015",
+      "front_url": "/assets/images/cover-wahb-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-wahb.webp",
+          "sha256": "7eb1c3498e6efcbb70cb55ffa18460b898ba740fa819be62e2e0331da9738911"
+        },
+        {
+          "path": "src/assets/images/cover-wahb-fallback.jpg",
+          "sha256": "c8c274c1961c4e034bdf1537b2cee1eec51ed0f6d6771c9bf47f5af450879674"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HDSSK196"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_002",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Wahb: Lebensgeschichte eines Grizzlybaeren",
+              "isbn13": "978-3-912883-09-1",
+              "isbn10": "3912883092",
+              "asin": "B0HDSSK196"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883268",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883262"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_002",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Wahb: Lebensgeschichte eines Grizzlybaeren",
+              "isbn13": "978-3-912883-26-8",
+              "isbn10": "3912883262",
+              "asin": "3912883262"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883015",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883017"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_002",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Wahb: Lebensgeschichte eines Grizzlybaeren",
+              "isbn13": "978-3-912883-01-5",
+              "isbn10": "3912883017",
+              "asin": "3912883017"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "leben-der-gejagten",
+      "url": "/buecher/leben-der-gejagten/",
+      "title": "Leben der Gejagten",
+      "language": "de",
+      "primary_isbn13": "9783912883169",
+      "front_url": "/assets/images/cover-leben-der-gejagten-r3-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-leben-der-gejagten-r3.webp",
+          "sha256": "246658298f42bebab2ec05bca7cc0909b10c1d043379f1b3cdad57694908eb30"
+        },
+        {
+          "path": "src/assets/images/cover-leben-der-gejagten-r3-fallback.jpg",
+          "sha256": "f4c2484d5732851c843e82f490e69b7e7f09d4a1a750f0e8814e069596834af7"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883183",
+          "productform": "ebook",
+          "tokens": [
+            "B0HFD2K7L2"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Leben der Gejagten",
+              "isbn13": "978-3-912883-18-3",
+              "isbn10": "3912883181",
+              "asin": "B0HFD2K7L2"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883176",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883173"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Leben der Gejagten",
+              "isbn13": "978-3-912883-17-6",
+              "isbn10": "3912883173",
+              "asin": "3912883173"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883169",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883165"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Leben der Gejagten",
+              "isbn13": "978-3-912883-16-9",
+              "isbn10": "3912883165",
+              "asin": "3912883165"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "tierhelden-portraits-aus-der-wildnis",
+      "url": "/buecher/tierhelden-portraits-aus-der-wildnis/",
+      "title": "Tierhelden. Portraits aus der Wildnis",
+      "language": "de",
+      "primary_isbn13": "9783912883213",
+      "front_url": "/assets/images/cover-tierhelden-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-tierhelden.webp",
+          "sha256": "0aa2ca643597e5182241c5cc038e691a8a14a817449cfb8bab0eca4a185d11fe"
+        },
+        {
+          "path": "src/assets/images/cover-tierhelden-fallback.jpg",
+          "sha256": "412eb7220c43cfa76022f652b88b80f0ca5392af3ecc9953daea16a7b3c2ab66"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HFDJS2L6"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_004",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Tierhelden: Portraits aus der Wildnis",
+              "isbn13": "978-3-912883-23-7",
+              "isbn10": "3912883238",
+              "asin": "B0HFDJS2L6"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883213",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883211"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_004",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Tierhelden: Portraits aus der Wildnis",
+              "isbn13": "978-3-912883-21-3",
+              "isbn10": "3912883211",
+              "asin": "3912883211"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883220",
+          "productform": "hardcover",
+          "tokens": [
+            "391288322X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_004",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Tierhelden: Portraits aus der Wildnis",
+              "isbn13": "978-3-912883-22-0",
+              "isbn10": "391288322X",
+              "asin": "391288322X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "zwei-kleine-wilde",
+      "url": "/buecher/zwei-kleine-wilde/",
+      "title": "Zwei kleine Wilde",
+      "language": "de",
+      "primary_isbn13": "9783912883282",
+      "front_url": "/assets/images/cover-zwei-kleine-wilde-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-zwei-kleine-wilde.webp",
+          "sha256": "acfa69ffe9c98259680a84597588cc8118338865abb03d4edd425214c6228f12"
+        },
+        {
+          "path": "src/assets/images/cover-zwei-kleine-wilde-fallback.jpg",
+          "sha256": "8b775848f74959af621a6ba9594463c4560921d722e9c4262c7d81362207ac4d"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883299",
+          "productform": "ebook",
+          "tokens": [
+            "B0HHZ3YXK4"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_008",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Zwei kleine Wilde",
+              "isbn13": "978-3-912883-29-9",
+              "isbn10": "3912883297",
+              "asin": "B0HHZ3YXK4"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883275",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883270"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_008",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Zwei kleine Wilde",
+              "isbn13": "978-3-912883-27-5",
+              "isbn10": "3912883270",
+              "asin": "3912883270"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883282",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883289"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_008",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Zwei kleine Wilde",
+              "isbn13": "978-3-912883-28-2",
+              "isbn10": "3912883289",
+              "asin": "3912883289"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "rolf-in-der-wildnis",
+      "url": "/buecher/rolf-in-der-wildnis/",
+      "title": "Rolf in der Wildnis",
+      "language": "de",
+      "primary_isbn13": "9783912883305",
+      "front_url": "/assets/images/cover-rolf-in-der-wildnis-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rolf-in-der-wildnis.webp",
+          "sha256": "21a6b192e4748cb44bebaa402cabbe6157ccf45deb29e0f21a40b51b9f949cb1"
+        },
+        {
+          "path": "src/assets/images/cover-rolf-in-der-wildnis-fallback.jpg",
+          "sha256": "6c771892c9e9d89589024bcdde551da01c4e4d7e8b7b12135266deda865e6ebd"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883329",
+          "productform": "ebook",
+          "tokens": [
+            "B0HGB7B1XX"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_005",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Rolf in der Wildnis",
+              "isbn13": "978-3-912883-32-9",
+              "isbn10": "3912883327",
+              "asin": "B0HGB7B1XX"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883305",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883300"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_005",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Rolf in der Wildnis",
+              "isbn13": "978-3-912883-30-5",
+              "isbn10": "3912883300",
+              "asin": "3912883300"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883312",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883319"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_005",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Rolf in der Wildnis",
+              "isbn13": "978-3-912883-31-2",
+              "isbn10": "3912883319",
+              "asin": "3912883319"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-arktischen-praerien",
+      "url": "/buecher/die-arktischen-praerien/",
+      "title": "Die arktischen Prärien",
+      "language": "de",
+      "primary_isbn13": "9783912883336",
+      "front_url": "/assets/images/cover-die-arktischen-praerien-r1-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-die-arktischen-praerien-r1.webp",
+          "sha256": "538575901362086506da7836dd199a2fbdf15547b10d3497f09caeaca6911056"
+        },
+        {
+          "path": "src/assets/images/cover-die-arktischen-praerien-r1-fallback.jpg",
+          "sha256": "9d7ed33a84ebdff8d390ad07ba309bf1679707452a34da657a57e5e7c3f0b2a5"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883350",
+          "productform": "ebook",
+          "tokens": [
+            "B0HGBBG94N"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Die arktischen Praerien",
+              "isbn13": "978-3-912883-35-0",
+              "isbn10": "3912883351",
+              "asin": "B0HGBBG94N"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883336",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883335"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Die arktischen Praerien",
+              "isbn13": "978-3-912883-33-6",
+              "isbn10": "3912883335",
+              "asin": "3912883335"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883343",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883343"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die arktischen Praerien",
+              "isbn13": "978-3-912883-34-3",
+              "isbn10": "3912883343",
+              "asin": "3912883343"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "monarch",
+      "url": "/buecher/monarch/",
+      "title": "Monarch",
+      "language": "de",
+      "primary_isbn13": "9783912883374",
+      "front_url": "/assets/images/cover-monarch-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-monarch.webp",
+          "sha256": "c10333acde01745db81cc8b25af7d880266d76de38fbc80fcd6b0df3eeb3205c"
+        },
+        {
+          "path": "src/assets/images/cover-monarch-fallback.jpg",
+          "sha256": "9e57139d9f8d1985de3ddda15e26ab874599204a11084f4c8d88544486057488"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883381",
+          "productform": "ebook",
+          "tokens": [
+            "B0HGFK9NXM"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Monarch: Der grosse Baer vom Tallac",
+              "isbn13": "978-3-912883-38-1",
+              "isbn10": "3912883386",
+              "asin": "B0HGFK9NXM"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883367",
+          "productform": "taschenbuch",
+          "tokens": [
+            "391288336X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Monarch: Der grosse Baer vom Tallac",
+              "isbn13": "978-3-912883-36-7",
+              "isbn10": "391288336X",
+              "asin": "391288336X"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883374",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883378"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Monarch: Der grosse Baer vom Tallac",
+              "isbn13": "978-3-912883-37-4",
+              "isbn10": "3912883378",
+              "asin": "3912883378"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+      "url": "/buecher/das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i/",
+      "title": "Das Buch des Waldhandwerks und der Indianerweisheit · Band I",
+      "language": "de",
+      "primary_isbn13": "9783676050098",
+      "front_url": "/assets/images/cover-waldhandwerk-band-i-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-waldhandwerk-band-i.webp",
+          "sha256": "65968717e4f193a52cbf12b01db4a8a4f85aed414f0f8145ae3279ebdad6de49"
+        },
+        {
+          "path": "src/assets/images/cover-waldhandwerk-band-i-fallback.jpg",
+          "sha256": "8082b12c9e231cfa9aeab2566c81d3695312815d803b4b2ac7393cbf957a0253"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HJR7X4W2"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_011_BAND_I",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Das Buch des Waldhandwerks und der Indianerweisheit: Band I",
+              "isbn13": null,
+              "isbn10": null,
+              "asin": "B0HJR7X4W2"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050098",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050096"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_011_BAND_I",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Das Buch des Waldhandwerks und der Indianerweisheit: Band I",
+              "isbn13": "978-3-67605-009-8",
+              "isbn10": "3676050096",
+              "asin": "3676050096"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050104",
+          "productform": "hardcover",
+          "tokens": [
+            "367605010X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_011_BAND_I",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Das Buch des Waldhandwerks und der Indianerweisheit: Band I",
+              "isbn13": "978-3-67605-010-4",
+              "isbn10": "367605010X",
+              "asin": "367605010X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+      "url": "/buecher/das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii/",
+      "title": "Das Buch des Waldhandwerks und der Indianerweisheit · Band II",
+      "language": "de",
+      "primary_isbn13": "9783676050128",
+      "front_url": "/assets/images/cover-waldhandwerk-band-ii-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-waldhandwerk-band-ii.webp",
+          "sha256": "669f03d3725bd33ce5c242d3e5c348ed7c0a83bdfe90800d2c633a56d0cb02e2"
+        },
+        {
+          "path": "src/assets/images/cover-waldhandwerk-band-ii-fallback.jpg",
+          "sha256": "f70a0ad62d363b38125963edbb663cbdc2bf4f9cf7d1caf95d1f703451ae1aba"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HJQNKYB1"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_011_BAND_II",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Das Buch des Waldhandwerks und der Indianerweisheit: Band II",
+              "isbn13": null,
+              "isbn10": null,
+              "asin": "B0HJQNKYB1"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050128",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050126"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_011_BAND_II",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Das Buch des Waldhandwerks und der Indianerweisheit: Band II",
+              "isbn13": "978-3-67605-012-8",
+              "isbn10": "3676050126",
+              "asin": "3676050126"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050135",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050134"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_011_BAND_II",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Das Buch des Waldhandwerks und der Indianerweisheit: Band II",
+              "isbn13": "978-3-67605-013-5",
+              "isbn10": "3676050134",
+              "asin": "3676050134"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "koenig-salomos-schatzkammer",
+      "url": "/buecher/koenig-salomos-schatzkammer/",
+      "title": "König Salomos Schatzkammer",
+      "language": "de",
+      "primary_isbn13": "9783912883541",
+      "front_url": "/assets/images/cover-koenig-salomos-schatzkammer-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-koenig-salomos-schatzkammer.webp",
+          "sha256": "2151be50af2b74a2605f6a85c4704b30f060c95e821b040f76f93a69922adb8d"
+        },
+        {
+          "path": "src/assets/images/cover-koenig-salomos-schatzkammer-fallback.jpg",
+          "sha256": "576c1f53525fea8cb29b1e3367b66bbb3035564ae8bd997e8fcb94c5124ed628"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HHYSSKRW"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Koenig Salomos Schatzkammer",
+              "isbn13": "978-3-912883-56-5",
+              "isbn10": "3912883564",
+              "asin": "B0HHYSSKRW"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883541",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883548"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Koenig Salomos Schatzkammer",
+              "isbn13": "978-3-912883-54-1",
+              "isbn10": "3912883548",
+              "asin": "3912883548"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883558",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883556"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Koenig Salomos Schatzkammer",
+              "isbn13": "978-3-912883-55-8",
+              "isbn10": "3912883556",
+              "asin": "3912883556"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "waldhandwerk",
+      "url": "/buecher/waldhandwerk/",
+      "title": "Waldhandwerk",
+      "language": "de",
+      "primary_isbn13": "9783912883572",
+      "front_url": "/assets/images/cover-waldhandwerk-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-waldhandwerk.webp",
+          "sha256": "1ea052e79d4e6ee3d2f3f3d5102670b6ffe085bbb2a34e965d1ffcbc6da58b81"
+        },
+        {
+          "path": "src/assets/images/cover-waldhandwerk-fallback.jpg",
+          "sha256": "f6d80b83736553ef19772a4a4c556eb3bf60075e666f757f9029f0f710298327"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883589",
+          "productform": "ebook",
+          "tokens": [
+            "B0HHTG8QRH"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "GWS_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Waldhandwerk: Die Kunst, mit wenig im Wald zu leben",
+              "isbn13": "978-3-912883-58-9",
+              "isbn10": "3912883580",
+              "asin": "B0HHTG8QRH"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883572",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883572"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "GWS_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Waldhandwerk: Die Kunst, mit wenig im Wald zu leben",
+              "isbn13": "978-3-912883-57-2",
+              "isbn10": "3912883572",
+              "asin": "3912883572"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "heidi",
+      "url": "/buecher/heidi/",
+      "title": "Heidi",
+      "language": "de",
+      "primary_isbn13": "9783676050364",
+      "front_url": "/assets/images/cover-heidi-spyri-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-heidi-spyri.webp",
+          "sha256": "2b47fb467383dd0ef3182bbafe4a5f51eb4f1bf82134d8443c3a68cb9332ea20"
+        },
+        {
+          "path": "src/assets/images/cover-heidi-spyri-fallback.jpg",
+          "sha256": "cc27323911bd9693e343367bac82ef98a476e484ded31bf54fa6f96fe85a9834"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050357",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJTRVJ17"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "JSP_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Heidi (Illustriert): Ungekuerzte Gesamtausgabe beider Teile",
+              "isbn13": "978-3-67605-035-7",
+              "isbn10": "3676050355",
+              "asin": "B0HJTRVJ17"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050364",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050363"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "JSP_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Heidi (Illustriert): Ungekuerzte Gesamtausgabe beider Teile",
+              "isbn13": "978-3-67605-036-4",
+              "isbn10": "3676050363",
+              "asin": "3676050363"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050371",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050371"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "JSP_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Heidi (Illustriert): Ungekuerzte Gesamtausgabe beider Teile",
+              "isbn13": "978-3-67605-037-1",
+              "isbn10": "3676050371",
+              "asin": "3676050371"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-schreckensmaerchen-der-brueder-grimm-band-i",
+      "url": "/buecher/die-schreckensmaerchen-der-brueder-grimm-band-i/",
+      "title": "Die Schreckensmärchen der Brüder Grimm · Band I",
+      "language": "de",
+      "primary_isbn13": "9783912883442",
+      "front_url": "/assets/images/cover-grimm-band-i-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-grimm-band-i.webp",
+          "sha256": "b6db3d0d62ce50533516dae956517c6350d7fb90a1b7419d3aa16c82227774ca"
+        },
+        {
+          "path": "src/assets/images/cover-grimm-band-i-fallback.jpg",
+          "sha256": "48b9a0d2f741c57efd92f88322e978858e634967907a8c492f0eb3fac6c64062"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783912883459",
+          "productform": "ebook",
+          "tokens": [
+            "B0HH8L3GRH"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BRG_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Die Schreckensmaerchen der Brueder Grimm: Band I",
+              "isbn13": "978-3-912883-45-9",
+              "isbn10": "3912883459",
+              "asin": "B0HH8L3GRH"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883442",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883440"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BRG_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Die Schreckensmaerchen der Brueder Grimm: Band I",
+              "isbn13": "978-3-912883-44-2",
+              "isbn10": "3912883440",
+              "asin": "3912883440"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883466",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883467"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BRG_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die Schreckensmaerchen der Brueder Grimm: Band I",
+              "isbn13": "978-3-912883-46-6",
+              "isbn10": "3912883467",
+              "asin": "3912883467"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-schreckensmaerchen-der-brueder-grimm-band-ii",
+      "url": "/buecher/die-schreckensmaerchen-der-brueder-grimm-band-ii/",
+      "title": "Die Schreckensmärchen der Brüder Grimm · Band II",
+      "language": "de",
+      "primary_isbn13": "9783676050333",
+      "front_url": "/assets/images/cover-grimm-band-ii-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-grimm-band-ii.webp",
+          "sha256": "a84ed5f088ef52c0dc8015ad0226e8fb40b455644c56efa13ff3f05dfa66ba09"
+        },
+        {
+          "path": "src/assets/images/cover-grimm-band-ii-fallback.jpg",
+          "sha256": "031d4f9eb9d078284c3f7705a48f26a7058153931f0aa3916e7fdd48e4bad8c5"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050326",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJPB9WDP"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BRG_002",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Die Schreckensmaerchen der Brueder Grimm (Illustriert): Band II",
+              "isbn13": "978-3-67605-032-6",
+              "isbn10": "3676050320",
+              "asin": "B0HJPB9WDP"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050333",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050339"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BRG_002",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Die Schreckensmaerchen der Brueder Grimm (Illustriert): Band II",
+              "isbn13": "978-3-67605-033-3",
+              "isbn10": "3676050339",
+              "asin": "3676050339"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050340",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050347"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BRG_002",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die Schreckensmaerchen der Brueder Grimm (Illustriert): Band II",
+              "isbn13": "978-3-67605-034-0",
+              "isbn10": "3676050347",
+              "asin": "3676050347"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "die-slawischen-schreckensmaerchen-band-iii",
+      "url": "/buecher/die-slawischen-schreckensmaerchen-band-iii/",
+      "title": "Die slawischen Schreckensmärchen · Band III",
+      "language": "de",
+      "primary_isbn13": "9783676050395",
+      "front_url": "/assets/images/cover-slawische-schreckensmaerchen-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-slawische-schreckensmaerchen.webp",
+          "sha256": "1e5cc9dd0dbb2de0ab034a0f0e084699c969ad0fd4e4468b644925c9def29fde"
+        },
+        {
+          "path": "src/assets/images/cover-slawische-schreckensmaerchen-fallback.jpg",
+          "sha256": "b78d9e592ce3423a9d129d97e5dfc25d850f037d5f6efe14d995f2d32baa3a14"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050395",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050398"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "SLM_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Die slawischen Schreckensmaerchen (Uebersetzt): Band III",
+              "isbn13": "978-3-67605-039-5",
+              "isbn10": "3676050398",
+              "asin": "3676050398"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050401",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050401"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "SLM_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Die slawischen Schreckensmaerchen (Uebersetzt): Band III",
+              "isbn13": "978-3-67605-040-1",
+              "isbn10": "3676050401",
+              "asin": "3676050401"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "bambi",
+      "url": "/buecher/bambi/",
+      "title": "Bambi",
+      "language": "de",
+      "primary_isbn13": "9783912883985",
+      "front_url": "/assets/images/cover-bambi-salten-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-bambi-salten.webp",
+          "sha256": "3ac5bdb1853243fb13ede16cb78b6cbabb2c2f1907003183c8afaf4fc1196344"
+        },
+        {
+          "path": "src/assets/images/cover-bambi-salten-fallback.jpg",
+          "sha256": "a2d98a84b1f8cad3a92b5c4ec4bc1f9cd37b90ca3cf73337fdd4f77738473dea"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783912883985",
+          "productform": "taschenbuch",
+          "tokens": [
+            "391288398X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Bambi (illustriert)",
+              "isbn13": "978-3-912883-98-5",
+              "isbn10": "391288398X",
+              "asin": "391288398X"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883992",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883998"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Bambi (illustriert)",
+              "isbn13": "978-3-912883-99-2",
+              "isbn10": "3912883998",
+              "asin": "3912883998"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "bambis-kinder",
+      "url": "/buecher/bambis-kinder/",
+      "title": "Bambis Kinder",
+      "language": "de",
+      "primary_isbn13": "9783676050043",
+      "front_url": "/assets/images/cover-bambis-kinder-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-bambis-kinder.webp",
+          "sha256": "197dd77cd1e21e54ff422838a8b400a8574453f9f5bd0810b3de4d362ed496c8"
+        },
+        {
+          "path": "src/assets/images/cover-bambis-kinder-fallback.jpg",
+          "sha256": "ea98bcc43cc3f365d76dbaac0b9216f6222a02b9fffc043001431fcb82c98ca9"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050036",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJ6MS5LT"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_002",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Bambis Kinder (Kommentiert)",
+              "isbn13": "978-3-67605-003-6",
+              "isbn10": "3676050037",
+              "asin": "B0HJ6MS5LT"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050043",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050045"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_002",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Bambis Kinder (Kommentiert)",
+              "isbn13": "978-3-67605-004-3",
+              "isbn10": "3676050045",
+              "asin": "3676050045"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050050",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050053"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_002",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Bambis Kinder (Kommentiert)",
+              "isbn13": "978-3-67605-005-0",
+              "isbn10": "3676050053",
+              "asin": "3676050053"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "pinocchio",
+      "url": "/buecher/pinocchio/",
+      "title": "Pinocchio",
+      "language": "de",
+      "primary_isbn13": "9783676050012",
+      "front_url": "/assets/images/cover-pinocchio-collodi-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-pinocchio-collodi.webp",
+          "sha256": "4b3d3b7d7b421d76d26d8d3266986de2886ddcc064bb3eccc768e1742d9f4aea"
+        },
+        {
+          "path": "src/assets/images/cover-pinocchio-collodi-fallback.jpg",
+          "sha256": "5c921be3c6c308f6b9102713fa7f58856ea1666ac9ba347564659d53f74075e2"
+        }
+      ],
+      "formats": [
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050005",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJ6QJPYQ"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "CC_001",
+              "sprache": "de",
+              "produktform": "ebook",
+              "titel": "Pinocchio (Illustriert)",
+              "isbn13": "978-3-67605-000-5",
+              "isbn10": "3676050002",
+              "asin": "B0HJ6QJPYQ"
+            }
+          ]
+        },
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676050012",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050010"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "CC_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "titel": "Pinocchio (Illustriert)",
+              "isbn13": "978-3-67605-001-2",
+              "isbn10": "3676050010",
+              "asin": "3676050010"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050029",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050029"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "CC_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "titel": "Pinocchio (Illustriert)",
+              "isbn13": "978-3-67605-002-9",
+              "isbn10": "3676050029",
+              "asin": "3676050029"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "the-white-company-band-i",
+      "url": "/buecher/the-white-company-band-i/",
+      "title": "The White Company · Band I",
+      "language": "en",
+      "primary_isbn13": "9783676051446",
+      "front_url": "/assets/images/cover-white-company-vol-i-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-white-company-vol-i.webp",
+          "sha256": "5ca3607456ef7a572635d87b4815cbe3ca8952ad25de2e90d00e5d2bc3e2bd6b"
+        },
+        {
+          "path": "src/assets/images/cover-white-company-vol-i-fallback.jpg",
+          "sha256": "f59e67c8e0fa5c919f543c502df35b25c78e5aa081997b1a8f5cd784dd240341"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676051446",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-144-6",
+              "isbn10": "3676051440",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ACD_001_BAND_I",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-144-6",
+              "isbn10": "3676051440",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051453",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-145-3",
+              "isbn10": "3676051459",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ACD_001_BAND_I",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-145-3",
+              "isbn10": "3676051459",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "the-white-company-band-ii",
+      "url": "/buecher/the-white-company-band-ii/",
+      "title": "The White Company · Band II",
+      "language": "en",
+      "primary_isbn13": "9783676051477",
+      "front_url": "/assets/images/cover-white-company-vol-ii-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-white-company-vol-ii.webp",
+          "sha256": "ad4077a54952c981a56340c99fd5f47ba3bb204add33513f7380faecd7befb23"
+        },
+        {
+          "path": "src/assets/images/cover-white-company-vol-ii-fallback.jpg",
+          "sha256": "b6b26259e19cea114480e82c28f71c34ab17b0cda6fbaa30e4006bcdf5f8a0b0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676051477",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001_BAND_II",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-147-7",
+              "isbn10": "3676051475",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051484",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001_BAND_II",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-148-4",
+              "isbn10": "3676051483",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "de",
+      "id": "the-white-company-band-iii",
+      "url": "/buecher/the-white-company-band-iii/",
+      "title": "The White Company · Band III",
+      "language": "en",
+      "primary_isbn13": "9783676051507",
+      "front_url": "/assets/images/cover-white-company-vol-iii-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-white-company-vol-iii.webp",
+          "sha256": "f9fe25a3a61e60030681dec7d37de086fd5e89c44ef9f8755758fe9101ff802d"
+        },
+        {
+          "path": "src/assets/images/cover-white-company-vol-iii-fallback.jpg",
+          "sha256": "09fa41c26bc69da5a2ec30c65845c197ecf9b1dafab480145b253eee02ea172b"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676051507",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company, Volume III",
+              "isbn13": "978-3-67605-150-7",
+              "isbn10": "3676051505",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ACD_001_BAND_III",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-150-7",
+              "isbn10": "3676051505",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051514",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001_BAND_III",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-151-4",
+              "isbn10": "3676051513",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
+      "url": "/books/en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated/",
+      "title": "Sale’s Brigade in Afghanistan (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-grg001-en-ingram-v6-20261012.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-grg001-en-ingram-v6-20261012.jpg",
+          "sha256": "80bc5471fc447b05082476b5d88fcc6554965ce6d2525d1a3264a236ddb97aaa"
+        },
+        {
+          "path": "src/assets/images/cover-grg001-en-ingram-v6-20261012.webp",
+          "sha256": "78842b45f690237f5ed3664e0f3af454f16c5a297a3b59ef0786b71901254569"
+        },
+        {
+          "path": "src/assets/images/backcover-grg001-en-ingram-v6-20261012.jpg",
+          "sha256": "083735f7b21591666f82915631161e267df8ac5b7ccdbc3f2f2da53af71aae06"
+        },
+        {
+          "path": "src/assets/images/backcover-grg001-en-ingram-v6-20261012.webp",
+          "sha256": "1484d91cf4636b22709cde5a906bec19a0f3fe89f6fc52706e8d50968c0de775"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051668",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GRG_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Sale’s Brigade in Afghanistan (Illustrated)",
+              "isbn13": "978-3-67605-166-8",
+              "isbn10": "3676051661",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051675",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GRG_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Sale’s Brigade in Afghanistan (Illustrated)",
+              "isbn13": "978-3-67605-167-5",
+              "isbn10": "367605167X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-napoleon-augustus-jennings-a-texas-ranger-annotated",
+      "url": "/books/en-napoleon-augustus-jennings-a-texas-ranger-annotated/",
+      "title": "A Texas Ranger",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+          "sha256": "215aff75c4104697303a462395fe086dfc3b39eaf0c28081624b78f8dc055cb5"
+        },
+        {
+          "path": "src/assets/images/cover-a-texas-ranger-jennings-en-20261009.webp",
+          "sha256": "5128025fd5f7c0033bfcfc481d92011671ec6e8731f74257be71a5471dc9abd5"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051637",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "NAJ_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "A Texas Ranger (Annotated)",
+              "isbn13": "978-3-67605-163-7",
+              "isbn10": "3676051637",
+              "asin": null
+            },
+            {
+              "werk_kanon": "NAJ_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "A Texas Ranger",
+              "isbn13": "978-3-67605-163-7",
+              "isbn10": "3676051637",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051644",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "NAJ_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "A Texas Ranger (Annotated)",
+              "isbn13": "978-3-67605-164-4",
+              "isbn10": "3676051645",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-theodore-roosevelt-the-rough-riders-annotated",
+      "url": "/books/en-theodore-roosevelt-the-rough-riders-annotated/",
+      "title": "The Rough Riders (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-tr002-en-v1-20261008.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-tr002-en-v1-20261008.jpg",
+          "sha256": "8b9c1dd332560f40e8399e9986f7c58cc3e7d45b78f4a87874f38831a8d6e522"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051552",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "TR_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Rough Riders (Annotated)",
+              "isbn13": "978-3-67605-155-2",
+              "isbn10": "3676051556",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051569",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "TR_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Rough Riders (Annotated)",
+              "isbn13": "978-3-67605-156-9",
+              "isbn10": "3676051564",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676051576",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "TR_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Rough Riders (Annotated)",
+              "isbn13": "978-3-67605-157-6",
+              "isbn10": "3676051572",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-george-arthur-life-of-lord-kitchener-volume-i",
+      "url": "/books/en-george-arthur-life-of-lord-kitchener-volume-i/",
+      "title": "Life of Lord Kitchener · Volume I",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-life-of-lord-kitchener-volume-i-front.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-i-front.jpg",
+          "sha256": "c040a271eb88c743feb378c0ae7768c11d0a6163cec3edb79563063a498afe43"
+        },
+        {
+          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-i-front.webp",
+          "sha256": "ec2e1ff217f29035ef73e82da33fcafa2bd9aa5ffb48254507cc55c5260c2acf"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051750",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GA_001_VOL_1",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Life of Lord Kitchener, Volume I",
+              "isbn13": "978-3-67605-175-0",
+              "isbn10": "3676051750",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-george-arthur-life-of-lord-kitchener-volume-ii",
+      "url": "/books/en-george-arthur-life-of-lord-kitchener-volume-ii/",
+      "title": "Life of Lord Kitchener · Volume II",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-life-of-lord-kitchener-volume-ii-front.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-ii-front.jpg",
+          "sha256": "f5f8c52c9c0ea77786aa3a4aec5679c26c1fef049e1b1fbdcb0b87df41179ee1"
+        },
+        {
+          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-ii-front.webp",
+          "sha256": "15afbf075617ba68c6b1d80deda67c76b350ebd048100fd34a5733bd8d398dcd"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051767",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GA_001_VOL_2",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Life of Lord Kitchener, Volume II",
+              "isbn13": "978-3-67605-176-7",
+              "isbn10": "3676051769",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-george-arthur-life-of-lord-kitchener-volume-iii",
+      "url": "/books/en-george-arthur-life-of-lord-kitchener-volume-iii/",
+      "title": "Life of Lord Kitchener · Volume III",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-life-of-lord-kitchener-volume-iii-front.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-iii-front.jpg",
+          "sha256": "9c4d7333385aa01d795a0ddb073c9b368d32034f1de68a76e19c0641636a8d4e"
+        },
+        {
+          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-iii-front.webp",
+          "sha256": "38914dcfaa9d70cc8b432fd92a3f540eb5532dde5cf38fcf7c52753a0e934807"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051774",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GA_001_VOL_3",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Life of Lord Kitchener, Volume III",
+              "isbn13": "978-3-67605-177-4",
+              "isbn10": "3676051777",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated",
+      "url": "/books/en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated/",
+      "title": "My Campaign in Mesopotamia (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
+          "sha256": "a5ecce0816e8a06335bae7b2905320f0ad2554292c75d6d6c3b689c6e5c7447b"
+        },
+        {
+          "path": "src/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.webp",
+          "sha256": "858613e7cb6beea49d6855b1529ad23f934c01aab7025b78de11da76f93e89d5"
+        },
+        {
+          "path": "src/assets/images/cover-back-my-campaign-in-mesopotamia-townshend-en.jpg",
+          "sha256": "3f74363bc8e2cb7e0ce2c589746a680d195420a4c9e65cb5c78e46c5b5093780"
+        },
+        {
+          "path": "src/assets/images/cover-back-my-campaign-in-mesopotamia-townshend-en.webp",
+          "sha256": "665edec616f8c16ade561b3b440f0f9b1aab442d72df6c004510c86536a4dfe8"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051736",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CVFT_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "My Campaign in Mesopotamia (Annotated)",
+              "isbn13": "978-3-67605-173-6",
+              "isbn10": "3676051734",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051743",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CVFT_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "My Campaign in Mesopotamia (Annotated)",
+              "isbn13": "978-3-67605-174-3",
+              "isbn10": "3676051742",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-edition-rolf",
+      "url": "/books/en-ernest-thompson-seton-edition-rolf/",
+      "title": "Rolf in the Woods (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+          "sha256": "094785461b52b1e2fa25b79fc8a4a5064d574da98cc0d526a118660433521e77"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883640",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJ2S6J8Q"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_005",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Rolf in the Woods (Illustrated)",
+              "isbn13": "978-3-912883-64-0",
+              "isbn10": "3912883645",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883633",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883637"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Rolf in the Woods (Illustrated)",
+              "isbn13": "978-3-912883-63-3",
+              "isbn10": "3912883637",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883688",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883688"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Rolf in the Woods (Illustrated)",
+              "isbn13": "978-3-912883-68-8",
+              "isbn10": "3912883688",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-edition-two-little-savages",
+      "url": "/books/en-ernest-thompson-seton-edition-two-little-savages/",
+      "title": "Two Little Savages (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-two-little-savages-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-two-little-savages-en-fallback.jpg",
+          "sha256": "3640b171bb6b87f448b28bcc8f045fabef48b05c4c0571ef9e093090c923c6a7"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883626",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJ2PRS9G"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_008",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Two Little Savages (Illustrated)",
+              "isbn13": "978-3-912883-62-6",
+              "isbn10": "3912883629",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883619",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883610"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_008",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Two Little Savages (Illustrated)",
+              "isbn13": "978-3-912883-61-9",
+              "isbn10": "3912883610",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883671",
+          "productform": "hardcover",
+          "tokens": [
+            "391288367X"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_008",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Two Little Savages (Illustrated)",
+              "isbn13": "978-3-912883-67-1",
+              "isbn10": "391288367X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-edition-arctic-prairies",
+      "url": "/books/en-ernest-thompson-seton-edition-arctic-prairies/",
+      "title": "The Arctic Prairies (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-arctic-prairies-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-arctic-prairies-en-fallback.jpg",
+          "sha256": "86b4c4ee8acb9ab6da8e591f3240385fa28111872c5a747743b3157f7f155ccf"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883664",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJ2P7ZD9"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Arctic Prairies (Illustrated)",
+              "isbn13": "978-3-912883-66-4",
+              "isbn10": "3912883661",
+              "asin": "B0HJ2P7ZD9"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883657",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883653"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Arctic Prairies (Illustrated)",
+              "isbn13": "978-3-912883-65-7",
+              "isbn10": "3912883653",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Arctic Prairies (Illustrated)",
+              "isbn13": "978-3-912883-65-7",
+              "isbn10": "3912883653",
+              "asin": "3912883653"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883695",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883696"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Arctic Prairies (Illustrated)",
+              "isbn13": "978-3-912883-69-5",
+              "isbn10": "3912883696",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_006",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Arctic Prairies (Illustrated)",
+              "isbn13": "978-3-912883-69-5",
+              "isbn10": "3912883696",
+              "asin": "3912883696"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-robert-montgomery-bird-edition-nick",
+      "url": "/books/en-robert-montgomery-bird-edition-nick/",
+      "title": "Nick of the Woods",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-nick-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-nick-en-fallback.jpg",
+          "sha256": "afe1b0d64eee45a02fb0e5147e2a8c8dd437e282f9017ba739ed32a48ad779ff"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883145",
+          "productform": "ebook",
+          "tokens": [
+            "B0HFG6QCY5"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Nick of the Woods",
+              "isbn13": "978-3-912883-14-5",
+              "isbn10": "3912883149",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883251",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883254"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Nick of the Woods",
+              "isbn13": "978-3-912883-25-1",
+              "isbn10": "3912883254",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883114",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883114"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Nick of the Woods",
+              "isbn13": "978-3-912883-11-4",
+              "isbn10": "3912883114",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-robert-montgomery-bird-edition-hawks",
+      "url": "/books/en-robert-montgomery-bird-edition-hawks/",
+      "title": "The Hawks of Hawk-Hollow",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-hawks-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hawks-en-fallback.jpg",
+          "sha256": "d2f311ceb86cb4151b2a0fc99f0a103ad301f5e4157d753546ba32caab853c58"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883909",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJ2HX6CD"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Hawks of Hawk-Hollow (Illustrated)",
+              "isbn13": "978-3-912883-90-9",
+              "isbn10": "3912883904",
+              "asin": "B0HJ2HX6CD"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883886",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883882"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Hawks of Hawk-Hollow (Illustrated)",
+              "isbn13": "978-3-912883-88-6",
+              "isbn10": "3912883882",
+              "asin": "3912883882"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883893",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883890"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RMB_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Hawks of Hawk-Hollow (Illustrated)",
+              "isbn13": "978-3-912883-89-3",
+              "isbn10": "3912883890",
+              "asin": "3912883890"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-george-washington-sears-woodcraft-illustrated",
+      "url": "/books/en-george-washington-sears-woodcraft-illustrated/",
+      "title": "Woodcraft (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-woodcraft-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-woodcraft-en-fallback.jpg",
+          "sha256": "2a185a5b94479d4d1daa0b48508096e2ddfa1cab740c923b788ca4daa3379e8f"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HHXSJLX1"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "GWS_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Woodcraft (Illustrated): The 1884 Classic of Going Light",
+              "isbn13": "978-3-912883-60-2",
+              "isbn10": "3912883602",
+              "asin": "B0HHXSJLX1"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883596",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883599"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "GWS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Woodcraft (Illustrated): The 1884 Classic of Going Light",
+              "isbn13": "978-3-912883-59-6",
+              "isbn10": "3912883599",
+              "asin": "3912883599"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-francis-parkman-edition-oregon-trail",
+      "url": "/books/en-francis-parkman-edition-oregon-trail/",
+      "title": "The Oregon Trail (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-oregon-trail-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-oregon-trail-en-fallback.jpg",
+          "sha256": "63d49e6ecb0d66868f426494949e007b380adc1b48ea612b263bd58168ec84b8"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783676050296",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJXVW262"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Oregon Trail (Illustrated)",
+              "isbn13": "978-3-67605-029-6",
+              "isbn10": "3676050290",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050302",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050304"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Oregon Trail (Illustrated)",
+              "isbn13": "978-3-67605-030-2",
+              "isbn10": "3676050304",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050319",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050312"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Oregon Trail (Illustrated)",
+              "isbn13": "978-3-67605-031-9",
+              "isbn10": "3676050312",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-hall-the-harpe-s-head-illustrated",
+      "url": "/books/en-james-hall-the-harpe-s-head-illustrated/",
+      "title": "The Harpe’s Head (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+          "sha256": "20c878189a1b695231f70615df0b75e5d43144f9b1f4955f654d2540067559b0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050609",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JH_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Harpe's Head (Illustrated): A Legend of Kentucky",
+              "isbn13": "978-3-67605-060-9",
+              "isbn10": "3676050606",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "url": "/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/",
+      "title": "Shelters, Shacks, and Shanties (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-shelters-shacks-shanties.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-shelters-shacks-shanties.jpg",
+          "sha256": "6b349b1f2396a119309a6cb13b24a2ed9434d945664d3ae71424610de3100a0f"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050722",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "DCB_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Shelters, Shacks, and Shanties (Illustrated)",
+              "isbn13": "978-3-67605-072-2",
+              "isbn10": "367605072X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-richard-jefferies-edition-bevis",
+      "url": "/books/en-richard-jefferies-edition-bevis/",
+      "title": "Bevis (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-bevis-en-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-bevis-en-fallback.jpg",
+          "sha256": "625ea262400f8ff3d56284d2066b0bc6488d6324a3377a528c3d5b2426f8757a"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883978",
+          "productform": "ebook",
+          "tokens": [
+            "B0HJ6M56RG"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Bevis (Annotated): The Story of a Boy",
+              "isbn13": "978-3-912883-97-8",
+              "isbn10": "3912883971",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883954",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883955"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Bevis (Annotated): The Story of a Boy",
+              "isbn13": "978-3-912883-95-4",
+              "isbn10": "3912883955",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-charles-brockden-brown-edgar-huntly-illustrated",
+      "url": "/books/en-charles-brockden-brown-edgar-huntly-illustrated/",
+      "title": "Edgar Huntly (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-edgar-huntly-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-edgar-huntly-fallback.jpg",
+          "sha256": "a2288e517006fb1f2f6720f5c37ecde36245bd25c4adaffaae9a0c822932cff2"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": "9783676050975",
+          "productform": "ebook",
+          "tokens": [
+            "B0HKMTDRHJ"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Edgar Huntly (Illustrated)",
+              "isbn13": "978-3-67605-097-5",
+              "isbn10": "3676050975",
+              "asin": "B0HKMTDRHJ"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050999",
+          "productform": "hardcover",
+          "tokens": [
+            "3676050991"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Edgar Huntly (Illustrated)",
+              "isbn13": "978-3-67605-099-9",
+              "isbn10": "3676050991",
+              "asin": "3676050991"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050982",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050983"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Edgar Huntly (Illustrated)",
+              "isbn13": "978-3-67605-098-2",
+              "isbn10": "3676050983",
+              "asin": "3676050983"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "url": "/books/en-james-b-gillett-six-years-with-the-texas-rangers-illustrated/",
+      "title": "Six Years with the Texas Rangers (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-texas-rangers-gillett-en-20260929-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-texas-rangers-gillett-en-20260929-fallback.jpg",
+          "sha256": "a39d52f91244baaae93884fc4c1065761f4a73ac1d62a5e02725a0150d40e485"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn13": null,
+          "productform": "ebook",
+          "tokens": [
+            "B0HJXX6366"
+          ],
+          "register_evidence": []
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-j-hill-highways-of-progress-illustrated",
+      "url": "/books/en-james-j-hill-highways-of-progress-illustrated/",
+      "title": "Highways of Progress (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+          "sha256": "26f39866f35144f4a77fb50004660d082eff2f043e215239e8cab88be04f0604"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051002",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676051009"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "JJH_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Highways of Progress (Illustrated)",
+              "isbn13": "978-3-67605-100-2",
+              "isbn10": "3676051009",
+              "asin": null
+            },
+            {
+              "werk_kanon": "JJH_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Highways of Progress (Illustrated)",
+              "isbn13": "978-3-67605-100-2",
+              "isbn10": "3676051009",
+              "asin": "3676051009"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051019",
+          "productform": "hardcover",
+          "tokens": [
+            "3676051017"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "JJH_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Highways of Progress (Illustrated)",
+              "isbn13": "978-3-67605-101-9",
+              "isbn10": "3676051017",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783676051026",
+          "productform": "ebook",
+          "tokens": [
+            "B0HLRD5D9L"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "JJH_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Highways of Progress (Illustrated)",
+              "isbn13": "978-3-67605-102-6",
+              "isbn10": "3676051025",
+              "asin": "B0HLRD5D9L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "url": "/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/",
+      "title": "The Epic of Mount Everest (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+          "sha256": "16530939b6c53a36a70f193831e7a1884f91e825b7b8e25d2ceabac5ed347041"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051156",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FEY_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Epic of Mount Everest (Illustrated)",
+              "isbn13": "978-3-67605-115-6",
+              "isbn10": "3676051157",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051163",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FEY_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Epic of Mount Everest (Illustrated)",
+              "isbn13": "978-3-67605-116-3",
+              "isbn10": "3676051165",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783676051170",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FEY_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Epic of Mount Everest (Illustrated)",
+              "isbn13": "978-3-67605-117-0",
+              "isbn10": "3676051173",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-robert-louis-stevenson-treasure-island-annotated",
+      "url": "/books/en-robert-louis-stevenson-treasure-island-annotated/",
+      "title": "Treasure Island (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+          "sha256": "dc980a2a0fb11b7ce439edb92773f1d073a083ce645f29ab4cffbd45e8a4aec4"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051378",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RLS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Treasure Island (Annotated)",
+              "isbn13": "978-3-67605-137-8",
+              "isbn10": "3676051378",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051385",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RLS_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Treasure Island (Annotated)",
+              "isbn13": "978-3-67605-138-5",
+              "isbn10": "3676051386",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "url": "/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+          "sha256": "54e609921ddb1cd05c6aaac0e239b8ef1ad599274b918efe28acbcaa6e219d35"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051255",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Recollections of the Kabul Campaign (Annotated)",
+              "isbn13": "9783676051255",
+              "isbn10": "3676051254",
+              "asin": null
+            },
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "978-3-67605-125-5",
+              "isbn10": "3676051254",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051262",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Recollections of the Kabul Campaign (Annotated)",
+              "isbn13": "978-3-67605-126-2",
+              "isbn10": "3676051262",
+              "asin": null
+            },
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Recollections of the Kabul Campaign (Annotated)",
+              "isbn13": "9783676051262",
+              "isbn10": "3676051262",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783676051279",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Recollections of the Kabul Campaign (Annotated)",
+              "isbn13": "9783676051279",
+              "isbn10": "3676051270",
+              "asin": null
+            },
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "978-3-67605-127-9",
+              "isbn10": "3676051270",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "url": "/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+          "sha256": "9c1711ffed9dce6800001ae6b43a8a94dfef3b77fd32806e7b39601c543e911f"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051286",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "978-3-67605-128-6",
+              "isbn10": "3676051289",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051293",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "978-3-67605-129-3",
+              "isbn10": "3676051297",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783676051309",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "978-3-67605-130-9",
+              "isbn10": "3676051300",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "url": "/books/en-charles-william-wilson-from-korti-to-khartum-illustrated/",
+      "title": "From Korti to Khartum (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-from-korti-to-khartum-wilson-en-20261006-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-from-korti-to-khartum-wilson-en-20261006-fallback.jpg",
+          "sha256": "e9be0aff4c8a0bf70025a4403a0505f2cf71e8079aca38ac329cf340c7529fee"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051347",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CWW_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "From Korti to Khartum (Illustrated)",
+              "isbn13": "978-3-67605-134-7",
+              "isbn10": "3676051343",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051354",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CWW_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "From Korti to Khartum (Illustrated)",
+              "isbn13": "978-3-67605-135-4",
+              "isbn10": "3676051351",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783676051361",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CWW_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "From Korti to Khartum (Illustrated)",
+              "isbn13": "978-3-67605-136-1",
+              "isbn10": "367605136X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-grey-owl-the-men-of-the-last-frontier",
+      "url": "/books/en-grey-owl-the-men-of-the-last-frontier/",
+      "title": "The Men of the Last Frontier",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+          "sha256": "1e48c161c4b43bdda709621fada9bd1e3fb35e66fa428704d4beda2ecfb7dd7f"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051415",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "AB_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Men of the Last Frontier (Annotated)",
+              "isbn13": "978-3-67605-141-5",
+              "isbn10": "3676051416",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051422",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "AB_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Men of the Last Frontier (Annotated)",
+              "isbn13": "978-3-67605-142-2",
+              "isbn10": "3676051424",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676051439",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "AB_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Men of the Last Frontier (Annotated)",
+              "isbn13": "978-3-67605-143-9",
+              "isbn10": "3676051432",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "url": "/books/en-ernest-thompson-seton-wild-animals-i-have-known-annotated/",
+      "title": "Wild Animals I Have Known (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-ets001-en-20260923.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ets001-en-20260923.jpg",
+          "sha256": "bc72affbe3e78c92beabdfe15552a8c0abc82828c6244ad6993a957cf2412a4c"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883770",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883777"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Wild Animals I Have Known (Annotated)",
+              "isbn13": "978-3-912883-77-0",
+              "isbn10": "3912883777",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883763",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883769"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wild Animals I Have Known (Annotated)",
+              "isbn13": "978-3-912883-76-3",
+              "isbn10": "3912883769",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883787",
+          "productform": "ebook",
+          "tokens": [
+            "B0HKMYVBGK"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Wild Animals I Have Known (Annotated)",
+              "isbn13": "978-3-912883-78-7",
+              "isbn10": "3912883785",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "url": "/books/en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated/",
+      "title": "The Biography of a Grizzly (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-ets002-en-20260923.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ets002-en-20260923.jpg",
+          "sha256": "6cc7ccb2e5e36bc31ec4b2929ac868537bbf9fb96fc6a6ee99ff56b13a94772d"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883800",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883807"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Biography of a Grizzly (Annotated)",
+              "isbn13": "978-3-912883-80-0",
+              "isbn10": "3912883807",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883794",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883793"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Biography of a Grizzly (Annotated)",
+              "isbn13": "978-3-912883-79-4",
+              "isbn10": "3912883793",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883817",
+          "productform": "ebook",
+          "tokens": [
+            "B0HKNFSSQB"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Biography of a Grizzly (Annotated)",
+              "isbn13": "978-3-912883-81-7",
+              "isbn10": "3912883815",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "url": "/books/en-ernest-thompson-seton-lives-of-the-hunted-annotated/",
+      "title": "Lives of the Hunted (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-ets003-en-20260923.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ets003-en-20260923.jpg",
+          "sha256": "640b4ee085f4c9ae238d7149b775da42924017586041c9d69f54458afb22b486"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883831",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883831"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Lives of the Hunted (Annotated)",
+              "isbn13": "9783912883831",
+              "isbn10": "3912883831",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Lives of the Hunted",
+              "isbn13": "978-3-912883-83-1",
+              "isbn10": "3912883831",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883824",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883823"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Lives of the Hunted (Annotated)",
+              "isbn13": "9783912883824",
+              "isbn10": "3912883823",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Lives of the Hunted",
+              "isbn13": "978-3-912883-82-4",
+              "isbn10": "3912883823",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883848",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Lives of the Hunted (Annotated)",
+              "isbn13": "9783912883848",
+              "isbn10": "391288384X",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_003",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Lives of the Hunted",
+              "isbn13": "978-3-912883-84-8",
+              "isbn10": "391288384X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-animal-heroes-annotated",
+      "url": "/books/en-ernest-thompson-seton-animal-heroes-annotated/",
+      "title": "Animal Heroes (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-ets004-en-20260923.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ets004-en-20260923.jpg",
+          "sha256": "97a233e2ece039dccf8a205fd4fef408b8c5b79a216eea637531bb91c50642ef"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883862",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883866"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_004",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Animal Heroes (Annotated)",
+              "isbn13": "978-3-912883-86-2",
+              "isbn10": "3912883866",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883855",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883858"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_004",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Animal Heroes (Annotated)",
+              "isbn13": "978-3-912883-85-5",
+              "isbn10": "3912883858",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883879",
+          "productform": "ebook",
+          "tokens": [
+            "B0HKJXW3KV"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_004",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Animal Heroes (Annotated)",
+              "isbn13": "978-3-912883-87-9",
+              "isbn10": "3912883874",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "url": "/books/en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated/",
+      "title": "Monarch, the Big Bear of Tallac (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-ets007-en-20260923.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ets007-en-20260923.jpg",
+          "sha256": "bf85e5e6092336b4cbb0c05902f297711d1954dd70f4a279a0c31f8cefcad682"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783912883749",
+          "productform": "hardcover",
+          "tokens": [
+            "3912883742"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Monarch, the Big Bear of Tallac (Annotated)",
+              "isbn13": "9783912883749",
+              "isbn10": "3912883742",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Monarch, the Big Bear of Tallac",
+              "isbn13": "978-3-912883-74-9",
+              "isbn10": "3912883742",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn13": "9783912883732",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3912883734"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Monarch, the Big Bear of Tallac (Annotated)",
+              "isbn13": "9783912883732",
+              "isbn10": "3912883734",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Monarch, the Big Bear of Tallac",
+              "isbn13": "978-3-912883-73-2",
+              "isbn10": "3912883734",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn13": "9783912883756",
+          "productform": "ebook",
+          "tokens": [
+            "B0HKNBL4CV"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Monarch, the Big Bear of Tallac (Annotated)",
+              "isbn13": "9783912883756",
+              "isbn10": "3912883750",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ETS_007",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Monarch, the Big Bear of Tallac",
+              "isbn13": "978-3-912883-75-6",
+              "isbn10": "3912883750",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-william-gilmore-simms-the-yemassee-annotated",
+      "url": "/books/en-william-gilmore-simms-the-yemassee-annotated/",
+      "title": "The Yemassee (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-wgs001-en-v6-20261008.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-wgs001-en-v6-20261008.jpg",
+          "sha256": "66f063210bdb3cfba150e7e508a1c2488ef04dae56d31e9c185f184cec0455bb"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051316",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WGS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Yemassee (Annotated)",
+              "isbn13": "978-3-67605-131-6",
+              "isbn10": "3676051319",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051323",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WGS_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Yemassee (Annotated)",
+              "isbn13": "978-3-67605-132-3",
+              "isbn10": "3676051327",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676051330",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WGS_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Yemassee (Annotated)",
+              "isbn13": "978-3-67605-133-0",
+              "isbn10": "3676051335",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-arthur-conan-doyle-the-lost-world",
+      "url": "/books/en-arthur-conan-doyle-the-lost-world/",
+      "title": "The Lost World",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-acd002-en-ingram-v1-20261008.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-acd002-en-ingram-v1-20261008.jpg",
+          "sha256": "af74cdc5b54de996eae99515a05c12868d13b946ac3570e0899aac9b85f7cfa3"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051538",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Lost World (Illustrated)",
+              "isbn13": "978-3-67605-153-8",
+              "isbn10": "367605153X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051545",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Lost World (Illustrated)",
+              "isbn13": "978-3-67605-154-5",
+              "isbn10": "3676051548",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-arthur-conan-doyle-the-white-company-volume-i",
+      "url": "/books/en-arthur-conan-doyle-the-white-company-volume-i/",
+      "title": "The White Company · Volume I",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-white-company-vol-i-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-white-company-vol-i-fallback.jpg",
+          "sha256": "f59e67c8e0fa5c919f543c502df35b25c78e5aa081997b1a8f5cd784dd240341"
+        },
+        {
+          "path": "src/assets/images/cover-white-company-vol-i.webp",
+          "sha256": "5ca3607456ef7a572635d87b4815cbe3ca8952ad25de2e90d00e5d2bc3e2bd6b"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051446",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-144-6",
+              "isbn10": "3676051440",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ACD_001_BAND_I",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-144-6",
+              "isbn10": "3676051440",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051453",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-145-3",
+              "isbn10": "3676051459",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ACD_001_BAND_I",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-145-3",
+              "isbn10": "3676051459",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-arthur-conan-doyle-the-white-company-volume-ii",
+      "url": "/books/en-arthur-conan-doyle-the-white-company-volume-ii/",
+      "title": "The White Company · Volume II",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-white-company-vol-ii-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-white-company-vol-ii-fallback.jpg",
+          "sha256": "b6b26259e19cea114480e82c28f71c34ab17b0cda6fbaa30e4006bcdf5f8a0b0"
+        },
+        {
+          "path": "src/assets/images/cover-white-company-vol-ii.webp",
+          "sha256": "ad4077a54952c981a56340c99fd5f47ba3bb204add33513f7380faecd7befb23"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051477",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001_BAND_II",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-147-7",
+              "isbn10": "3676051475",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051484",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001_BAND_II",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-148-4",
+              "isbn10": "3676051483",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-arthur-conan-doyle-the-white-company-volume-iii",
+      "url": "/books/en-arthur-conan-doyle-the-white-company-volume-iii/",
+      "title": "The White Company · Volume III",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-white-company-vol-iii-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-white-company-vol-iii-fallback.jpg",
+          "sha256": "09fa41c26bc69da5a2ec30c65845c197ecf9b1dafab480145b253eee02ea172b"
+        },
+        {
+          "path": "src/assets/images/cover-white-company-vol-iii.webp",
+          "sha256": "f9fe25a3a61e60030681dec7d37de086fd5e89c44ef9f8755758fe9101ff802d"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051507",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company, Volume III",
+              "isbn13": "978-3-67605-150-7",
+              "isbn10": "3676051505",
+              "asin": null
+            },
+            {
+              "werk_kanon": "ACD_001_BAND_III",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-150-7",
+              "isbn10": "3676051505",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051514",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_001_BAND_III",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The White Company (Illustrated)",
+              "isbn13": "978-3-67605-151-4",
+              "isbn10": "3676051513",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-arthur-conan-doyle-sir-nigel",
+      "url": "/books/en-arthur-conan-doyle-sir-nigel/",
+      "title": "Sir Nigel",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-acd003-en-ingram-v2-20261011.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-acd003-en-ingram-v2-20261011.jpg",
+          "sha256": "a56d020776aafcca9f4205467ed4dc0faa66569bb8a48d643b5a8a750c468c2d"
+        },
+        {
+          "path": "src/assets/images/cover-acd003-en-ingram-v2-20261011.webp",
+          "sha256": "d7b76503580b08f33a3d423c77da1f7b4119c68dab34027ba81dedf7427de2c0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051699",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Sir Nigel (Annotated)",
+              "isbn13": "978-3-67605-169-9",
+              "isbn10": "3676051696",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051705",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ACD_003",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Sir Nigel (Annotated)",
+              "isbn13": "978-3-67605-170-5",
+              "isbn10": "367605170X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-fenimore-cooper-the-deerslayer",
+      "url": "/books/en-james-fenimore-cooper-the-deerslayer/",
+      "title": "The Deerslayer",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
+          "sha256": "e702cd9b4b9b69edadebe04192df13187437c593d24b49b44a91e6948fa84779"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover · Part One",
+          "isbn13": "9783676051583",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "COO_001_PART_ONE",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Deerslayer (Annotated) · Part One",
+              "isbn13": "978-3-67605-158-3",
+              "isbn10": "3676051580",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · Part Two",
+          "isbn13": "9783676051590",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "COO_001_PART_TWO",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Deerslayer (Annotated) · Part Two",
+              "isbn13": "978-3-67605-159-0",
+              "isbn10": "3676051599",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-tappan-adney-the-klondike-stampede",
+      "url": "/books/en-tappan-adney-the-klondike-stampede/",
+      "title": "The Klondike Stampede",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+          "sha256": "72006e22d896f7e44bc245e6f605503cda0464f23d313a2ba90c31eb898a8c6a"
+        },
+        {
+          "path": "src/assets/images/cover-the-klondike-stampede-adney-en-20261010.webp",
+          "sha256": "dda4a3e2541d9484ee3a339fbfdbf20bebb343154baf3ec60522bf239e4861d9"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051606",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETA_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Klondike Stampede (Annotated)",
+              "isbn13": "978-3-67605-160-6",
+              "isbn10": "3676051602",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051613",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETA_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Klondike Stampede (Annotated)",
+              "isbn13": "978-3-67605-161-3",
+              "isbn10": "3676051610",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-book",
+          "isbn13": "9783676051620",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ETA_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Klondike Stampede",
+              "isbn13": "978-3-67605-162-0",
+              "isbn10": "3676051629",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-henry-doveton-hutchinson-the-campaign-in-tirah",
+      "url": "/books/en-henry-doveton-hutchinson-the-campaign-in-tirah/",
+      "title": "The Campaign in Tirah, 1897–1898",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg",
+          "sha256": "8d0fa574565a752d9c1bdc87fd0363eb02e5e2ed3923d58736aecc9097952837"
+        },
+        {
+          "path": "src/assets/images/cover-hdh001-en-ingram-v4-20261012.webp",
+          "sha256": "4dc08f3fe91456ccdffd9a97df02dcc04d923886656661a2c04b8dfa1970cf51"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051781",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HDH_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Campaign in Tirah, 1897–1898 (Annotated)",
+              "isbn13": "978-3-67605-178-1",
+              "isbn10": "3676051785",
+              "asin": null
+            },
+            {
+              "werk_kanon": "HDH_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Campaign in Tirah 1897–1898",
+              "isbn13": "978-3-67605-178-1",
+              "isbn10": "3676051785",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051798",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HDH_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Campaign in Tirah, 1897–1898 (Annotated)",
+              "isbn13": "978-3-67605-179-8",
+              "isbn10": "3676051793",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-h-rider-haggard-king-solomons-mines",
+      "url": "/books/en-h-rider-haggard-king-solomons-mines/",
+      "title": "King Solomon’s Mines",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-hrh001-en-ingram-v5-20261012.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hrh001-en-ingram-v5-20261012.jpg",
+          "sha256": "f91e8a1eb2f455a51cbe7f193d663ba4cddcecf51776dbee25349262bfd62fcc"
+        },
+        {
+          "path": "src/assets/images/cover-hrh001-en-ingram-v5-20261012.webp",
+          "sha256": "548a3f5080c537cc48e256b159d9d685d2252e2d1f6469ffe53b78f5864eaf41"
+        },
+        {
+          "path": "src/assets/images/backcover-hrh001-en-ingram-v5-20261012.jpg",
+          "sha256": "45e3422bc052c59f4b6ae2f7449bdb6ce003027b84261f44c1c2ea1ae5adbbc7"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050685",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "King Solomon’s Mines (Annotated)",
+              "isbn13": "978-3-67605-068-5",
+              "isbn10": "3676050681",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050692",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "King Solomon’s Mines",
+              "isbn13": "978-3-67605-069-2",
+              "isbn10": "367605069X",
+              "asin": null
+            },
+            {
+              "werk_kanon": "HRH_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "King Solomon’s Mines (Annotated)",
+              "isbn13": "978-3-67605-069-2",
+              "isbn10": "367605069X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050678",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "King Solomon’s Mines (Annotated)",
+              "isbn13": "978-3-67605-067-8",
+              "isbn10": "3676050673",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-h-rider-haggard-allan-quatermain",
+      "url": "/books/en-h-rider-haggard-allan-quatermain/",
+      "title": "Allan Quatermain",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-hrh002-en-ingram-v2-20261012.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hrh002-en-ingram-v2-20261012.jpg",
+          "sha256": "0a894252b8b0913404740d5f842fd8d0023aa1d27432bae3c05d18c09f763084"
+        },
+        {
+          "path": "src/assets/images/cover-hrh002-en-ingram-v2-20261012.webp",
+          "sha256": "a652683242ec65b9e560bbdb596398abed2bb3caf4554e909caee5f71b761243"
+        },
+        {
+          "path": "src/assets/images/backcover-hrh002-en-ingram-v2-20261012.jpg",
+          "sha256": "37951e846ccbfeb0ff25f10bffb0891535316db90383472848958a1d7f2e1aae"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050845",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Allan Quatermain",
+              "isbn13": "978-3-67605-084-5",
+              "isbn10": "3676050843",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050852",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Allan Quatermain",
+              "isbn13": "978-3-67605-085-2",
+              "isbn10": "3676050851",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050838",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Allan Quatermain (Annotated)",
+              "isbn13": "978-3-67605-083-8",
+              "isbn10": "3676050835",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-h-rider-haggard-nada-the-lily",
+      "url": "/books/en-h-rider-haggard-nada-the-lily/",
+      "title": "Nada the Lily",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-hrh003-en-ingram-v10-20261012.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hrh003-en-ingram-v10-20261012.jpg",
+          "sha256": "14b4a6526d1a0828679c4670495e8e1a63b02d63d35394553edffc5e11ee3ea4"
+        },
+        {
+          "path": "src/assets/images/cover-hrh003-en-ingram-v10-20261012.webp",
+          "sha256": "d9b0ca9220dcbbda866bc3067b66be507d3c451285604ecf9c9f03ef36a40a1d"
+        },
+        {
+          "path": "src/assets/images/backcover-hrh003-en-ingram-v10-20261012.jpg",
+          "sha256": "6bdab2f05cd2759e7e06921f3d3d71a15612df2fdc91c07a4ebb0c53f93ebc8a"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050920",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Nada the Lily",
+              "isbn13": "978-3-67605-092-0",
+              "isbn10": "3676050924",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050937",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_003",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Nada the Lily",
+              "isbn13": "978-3-67605-093-7",
+              "isbn10": "3676050932",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050821",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_003",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Nada the Lily (Annotated)",
+              "isbn13": "978-3-67605-082-1",
+              "isbn10": "3676050827",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-h-rider-haggard-she",
+      "url": "/books/en-h-rider-haggard-she/",
+      "title": "She",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+          "sha256": "6fe18a6ac9a07bf7cd9275007494072ceae8d819c1e28a91cba29a4896384950"
+        },
+        {
+          "path": "src/assets/images/cover-hrh005-en-ingram-v8-20261012.webp",
+          "sha256": "33ef5d95896a10aad93ddc32df56574667126128639a6db63e41be54e1f785ee"
+        },
+        {
+          "path": "src/assets/images/backcover-hrh005-en-ingram-v8-20261012.jpg",
+          "sha256": "caea40070cfa92711cd87548d8821668e9d3a0bf1f08af50aa498f934261fbdd"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050807",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "She",
+              "isbn13": "978-3-67605-080-7",
+              "isbn10": "3676050800",
+              "asin": null
+            },
+            {
+              "werk_kanon": "HRH_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "She (Illustrated)",
+              "isbn13": "978-3-67605-080-7",
+              "isbn10": "3676050800",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050814",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "She",
+              "isbn13": "978-3-67605-081-4",
+              "isbn10": "3676050819",
+              "asin": null
+            },
+            {
+              "werk_kanon": "HRH_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "She (Illustrated)",
+              "isbn13": "978-3-67605-081-4",
+              "isbn10": "3676050819",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050791",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_005",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "She (Illustrated)",
+              "isbn13": "978-3-67605-079-1",
+              "isbn10": "3676050797",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-h-rider-haggard-ayesha",
+      "url": "/books/en-h-rider-haggard-ayesha/",
+      "title": "Ayesha",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-hrh006-en-ingram-v5-20261012.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hrh006-en-ingram-v5-20261012.jpg",
+          "sha256": "76c0de8a3e35342326e49fefc307fbda885812ed11b9bd661527e435e8d907d2"
+        },
+        {
+          "path": "src/assets/images/cover-hrh006-en-ingram-v5-20261012.webp",
+          "sha256": "6e9d367cc14f7266272b846abfa556477f7b0b8e5e5ba49e2a9a299cbe39877f"
+        },
+        {
+          "path": "src/assets/images/backcover-hrh006-en-ingram-v5-20261012.jpg",
+          "sha256": "dcb2cc06c77468e6d058d3baabf8b380cdf1e107f3ec9115c18708f65933543c"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050876",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_006",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Ayesha",
+              "isbn13": "978-3-67605-087-6",
+              "isbn10": "3676050878",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676050883",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_006",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Ayesha",
+              "isbn13": "978-3-67605-088-3",
+              "isbn10": "3676050886",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676050869",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "HRH_006",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Ayesha (Annotated)",
+              "isbn13": "978-3-67605-086-9",
+              "isbn10": "367605086X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-francis-parkman-the-discovery-of-the-great-west",
+      "url": "/books/en-francis-parkman-the-discovery-of-the-great-west/",
+      "title": "The Discovery of the Great West",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+          "sha256": "16d9868e68a7d861371fc1b0958944074a0d722fed64d95498d2817838592671"
+        },
+        {
+          "path": "src/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016.webp",
+          "sha256": "eaa060b136e49e161d62570f0c866bf78bf672284410318566ecaca30a00af2b"
+        },
+        {
+          "path": "src/assets/images/back-the-discovery-of-the-great-west-parkman-en-20261016.jpg",
+          "sha256": "a8c047aead2fa4874e696005ea3472bcf5dd0dc460dfa38473f8cb650828e79e"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051040",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Discovery of the Great West (Illustrated)",
+              "isbn13": "978-3-67605-104-0",
+              "isbn10": "3676051041",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051057",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Discovery of the Great West (Illustrated)",
+              "isbn13": "978-3-67605-105-7",
+              "isbn10": "367605105X",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-william-robertson-from-private-to-field-marshal",
+      "url": "/books/en-william-robertson-from-private-to-field-marshal/",
+      "title": "From Private to Field-Marshal",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+          "sha256": "f8567dc3f664aa850d1c81759101a5db0ded9f0fe3f01f3333ab988615ed492c"
+        },
+        {
+          "path": "src/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017.webp",
+          "sha256": "237c1da33a948c765e9420b9375c3c7cabc0d3536400ea928477a1487e858eeb"
+        },
+        {
+          "path": "src/assets/images/back-from-private-to-field-marshal-robertson-en-20261017.jpg",
+          "sha256": "a168c67e3b1da20eaa01fc2add7d446708d158f12a646b189b4ecc68c28dc6cd"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051927",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WR_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "From Private to Field-Marshal (Annotated)",
+              "isbn13": "978-3-67605-192-7",
+              "isbn10": "3676051920",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051934",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WR_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "From Private to Field-Marshal (Annotated)",
+              "isbn13": "978-3-67605-193-4",
+              "isbn10": "3676051939",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book (EPUB)",
+          "isbn13": "9783676051941",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WR_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "From Private to Field-Marshal (Annotated)",
+              "isbn13": "978-3-67605-194-1",
+              "isbn10": "3676051947",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-charles-edward-callwell-the-life-of-sir-stanley-maude",
+      "url": "/books/en-charles-edward-callwell-the-life-of-sir-stanley-maude/",
+      "title": "The Life of Sir Stanley Maude",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg",
+          "sha256": "a4faf26bfb3df23fa55365a9b6f166bb225d7822135da9a168466f6001fd72d0"
+        },
+        {
+          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261017.webp",
+          "sha256": "9ea20bf52095f37a89bf67e43b802d13f51f6c6fa6037a2824bbc200599ba1af"
+        },
+        {
+          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg",
+          "sha256": "f08a8486fe3582423eac401550922e84c17d9453232ae5d4b4eb5d3becbe9019"
+        },
+        {
+          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261017.webp",
+          "sha256": "c5c4c3436211836932e6e92bac2ce4d288883daf940f8ac2bafa4fb97be84c5f"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051897",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CEC_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Life of Sir Stanley Maude (Annotated)",
+              "isbn13": "978-3-67605-189-7",
+              "isbn10": "3676051890",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051903",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CEC_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Life of Sir Stanley Maude (Annotated)",
+              "isbn13": "978-3-67605-190-3",
+              "isbn10": "3676051904",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676051910",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CEC_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Life of Sir Stanley Maude (Annotated)",
+              "isbn13": "978-3-67605-191-0",
+              "isbn10": "3676051912",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-melliss-lion-hunting-in-somali-land-annotated",
+      "url": "/books/en-melliss-lion-hunting-in-somali-land-annotated/",
+      "title": "Lion-Hunting in Somali-land (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-cjm001-en-v5-20261018.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cjm001-en-v5-20261018.jpg",
+          "sha256": "3a0fd69cb1130c04075d8a500b01bd4d82828cc049cf83b0ef93cc121d2737ac"
+        },
+        {
+          "path": "src/assets/images/cover-cjm001-en-v5-20261018.webp",
+          "sha256": "bed65667d0f0a932681806db2b7f0291171620408b5e1dfa1664f1e6bd7c592e"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052023",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CJM_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Lion-Hunting in Somali-land (Annotated)",
+              "isbn13": "978-3-67605-202-3",
+              "isbn10": "3676052021",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052030",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CJM_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Lion-Hunting in Somali-land (Annotated)",
+              "isbn13": "978-3-67605-203-0",
+              "isbn10": "367605203X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676052047",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CJM_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Lion-Hunting in Somali-land (Annotated)",
+              "isbn13": "978-3-67605-204-7",
+              "isbn10": "3676052048",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-robert-baden-powell-the-matabele-campaign-1896",
+      "url": "/books/en-robert-baden-powell-the-matabele-campaign-1896/",
+      "title": "The Matabele Campaign, 1896",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
+          "sha256": "e712ce480439075b8576b1ade439469aa9abb89bac9e5ef10b33c358b8356bc8"
+        },
+        {
+          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261018.webp",
+          "sha256": "6cf96e8a8a7157e55607c4ba4b216f92e83a19a8008b750959dc1363967fbb27"
+        },
+        {
+          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
+          "sha256": "35871b67692438fa09c5028bc265b917090aa4e6a7854f6728932e3d6c00d052"
+        },
+        {
+          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261018.webp",
+          "sha256": "5f6ca0fef15600e3e9c47fe98918df2fc00b691062149a0860f3b1ff93809ee0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052108",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-210-8",
+              "isbn10": "3676052102",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052115",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-211-5",
+              "isbn10": "3676052110",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676052122",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-212-2",
+              "isbn10": "3676052129",
+              "asin": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "additional_pages": [
+    {
+      "site": "de",
+      "url": "/anthrazit/der-waldteufel/",
+      "book_ids": [
+        "der-waldteufel"
+      ]
+    },
+    {
+      "site": "en",
+      "url": "/books/the-white-company/",
+      "book_ids": [
+        "en-arthur-conan-doyle-the-white-company-volume-i",
+        "en-arthur-conan-doyle-the-white-company-volume-ii",
+        "en-arthur-conan-doyle-the-white-company-volume-iii"
+      ]
+    }
+  ]
+}

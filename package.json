@@ -16,6 +16,7 @@
     "check:text": "node ./scripts/check-text.cjs",
     "check:author-order": "node ./scripts/check-author-order.cjs",
     "check:edition-languages": "node ./scripts/check-edition-languages.cjs",
+    "check:book-identities": "node ./scripts/check-book-identities.cjs",
     "check:qr": "node ./scripts/check-qr-targets.js",
     "check:kosmos": "node ./scripts/check-kosmos.cjs",
     "prebuild:international": "node scripts/build-library-graph.cjs",
