@@ -35,6 +35,7 @@
     "editionsNote": "Deutsche Ausgabe in Vorbereitung · Taschenbuch und Hardcover"
   },
   "henry-doveton-hutchinson": {
+    "editionLanguage": "en",
     "slug": "henry-doveton-hutchinson",
     "name": "Henry Doveton Hutchinson",
     "eyebrow": "Grüne Reihe · Englische Originalausgabe",
@@ -66,6 +67,7 @@
     "editionsNote": "Englische Originalausgabe · Taschenbuch und Hardcover in Vorbereitung"
   },
   "arthur-conan-doyle": {
+    "editionLanguage": "en",
     "slug": "arthur-conan-doyle",
     "name": "Arthur Conan Doyle",
     "eyebrow": "Reihe Bernstein · Historischer Roman",
