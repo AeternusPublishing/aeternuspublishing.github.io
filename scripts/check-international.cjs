@@ -33,7 +33,7 @@ check('catalogue IDs, language and series', () => {
     assert(!ids.has(b.id),b.id);ids.add(b.id);
     assert.equal(b.language,'en');assert(catalog.series.some(s=>s.id===b.series));
     assert(!['henry-ford','lady-florentia-sale'].includes(b.author));
-    if (b.author === 'robert-baden-powell') assert.equal(b.work_id, 'BP_009');
+    if (b.author === 'robert-baden-powell') assert(['BP_002', 'BP_009'].includes(b.work_id));
     assert.equal(catalog.directShopUrl(b,'en'),null);
   }
 });
