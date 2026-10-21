@@ -23,6 +23,7 @@ function validate(p){
  for(const h of p.honours||[]){assert(['order','decoration','title','prize','academic'].includes(h.category));assert(h.name&&h.year&&h.sources.length);for(const id of h.sources)assert(ids.has(id));}
  for(const c of p.connections||[]){assert(profiles.some(t=>t.slug===c.slug));assert(['documented-meeting','institutional-context','shared-campaign','thematic-comparison'].includes(c.kind));for(const id of c.sources)assert(ids.has(id),p.slug+': connection source '+id);}
  if(p.image.status==='verified'){assert(p.image.rights&&p.image.provenance&&p.image.processing);assert(fs.existsSync(path.join('src',p.image.file)));}
+ else if(p.image.status==='publisher-approved'){assert(p.image.approval?.authority);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join('src',p.image.file))).digest('hex'),p.image.approval.sha256);assert(p.image.caption.de&&p.image.caption.en);}
  else assert(p.image.reason,p.slug+': image omission needs a reason');
 }
 assert.equal(profiles.length,39);assert.equal(new Set(profiles.map(p=>p.slug)).size,39);
@@ -56,7 +57,8 @@ for(const p of profiles){
    if(n.name==='a'&&/^\/(?:books|buecher)\//.test(href||'')){assert(fs.existsSync(path.join(root,href,'index.html')),route+': book route '+href);bookLinks++;}
   }
   const portrait=nodes.find(n=>n.name==='img'&&n.attribs?.alt===p.name);
-  assert.equal(Boolean(portrait),Boolean(world.portrait),route+': unverified image rendered');
+  assert.equal(Boolean(portrait),Boolean(world.portrait),route+': portrait visibility mismatch');
+  if(world.portrait){assert.equal(portrait.attribs.src,p.image.file);assert(textContent(doc).includes(p.image.caption[lang]),route+': portrait caption missing');}
   for(const l of world.connections)assert(html.includes(l.url),route+': connection missing');
   if(lang==='en'){
    const expected=require('../catalog/index.cjs').englishBooks.filter(b=>b.author===p.slug);
@@ -90,6 +92,6 @@ for(const [oldRoot,newRoot,folder] of [['work/before-de','public','buecher'],['w
 for(const row of baseline.authors){const p=profiles.find(p=>p.slug===row.slug);assert.deepEqual(p.scope,row.scope,p.slug+': route scope changed');}
 const result={status:'PASS',mode:deOnly?'de-build':'both-builds',authors:39,germanPages:21,englishPages:deOnly?0:32,legacyEnglishPages:12,routes,bookLinks,unchangedBooks,negativeFixtures:4,
  depths:Object.fromEntries(['compact','expanded','comprehensive'].map(d=>[d,profiles.filter(p=>p.depth===d).map(p=>p.slug)])),
- honours:profiles.filter(p=>p.honours?.length).length,timelines:profiles.filter(p=>p.timeline?.length).length,connections:profiles.reduce((n,p)=>n+(p.connections?.length||0),0),verifiedPortraits:profiles.filter(p=>p.image.status==='verified').length,pages:pageRecords};
+ honours:profiles.filter(p=>p.honours?.length).length,timelines:profiles.filter(p=>p.timeline?.length).length,connections:profiles.reduce((n,p)=>n+(p.connections?.length||0),0),approvedPortraits:profiles.filter(p=>p.image.status==='publisher-approved').length,verifiedPortraits:profiles.filter(p=>p.image.status==='verified').length,pages:pageRecords};
 if(process.argv.includes('--record'))fs.writeFileSync('docs/author-worlds/validation.json',JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({...result,pages:undefined,depths:Object.fromEntries(Object.entries(result.depths).map(([d,a])=>[d,a.length]))}));

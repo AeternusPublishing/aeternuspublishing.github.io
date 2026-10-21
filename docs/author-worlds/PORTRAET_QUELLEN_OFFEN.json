@@ -615,5 +615,7 @@
       ],
       "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version."
     }
-  ]
+  ],
+  "status": "NON_BLOCKING_DOCUMENTATION",
+  "publisherDecision": "2026-10-21: All existing portraits are approved and must remain visible. Outstanding provenance documentation does not block display."
 }

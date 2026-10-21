@@ -93,8 +93,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-george-arthur-bassano-1920.webp",
+    "caption": {
+      "de": "George Arthur",
+      "en": "Photographic portrait of Sir George Arthur"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "44c8254796f122fa64017d55a517c14c5314243f1fc4d6fb7ec63814aea0bb18"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "en",

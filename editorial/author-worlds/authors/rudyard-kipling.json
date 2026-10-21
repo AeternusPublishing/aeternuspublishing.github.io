@@ -89,8 +89,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-kipling.webp",
+    "caption": {
+      "de": "Rudyard Kipling, historisches Autorenporträt",
+      "en": "Joseph Rudyard Kipling"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "1521cdd50380e89bc7ff5256d6a48125d291159524ea64b6044d1cd342cf9fa9"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "de",

@@ -122,8 +122,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-gillett.webp",
+    "caption": {
+      "de": "James B. Gillett als Texas Ranger, historisches Autorenporträt",
+      "en": "James B. Gillett as a Texas Ranger, historical author portrait"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "9fc163b88dbac5579347c7092a31a586d85e3c4d0824598a5c2df527b12027d2"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "de",

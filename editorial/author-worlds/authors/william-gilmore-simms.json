@@ -89,8 +89,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-wgs001-npg-95-20-20261008.webp",
+    "caption": {
+      "de": "William Gilmore Simms",
+      "en": "William Gilmore Simms. Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "7659950d052711bc52e481f9b32cc3b4990902b89ae02a9e212c2d4e25021f43"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "en",

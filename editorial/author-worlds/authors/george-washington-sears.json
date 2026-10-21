@@ -106,8 +106,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-sears.webp",
+    "caption": {
+      "de": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",
+      "en": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "fa3283ea8a2f49c0d8f1e655dca64de0621bbd0ca1b26df71cdaaa6813f6df42"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "de",

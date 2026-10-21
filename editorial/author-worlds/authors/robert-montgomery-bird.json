@@ -152,15 +152,44 @@
     }
   },
   "image": {
-    "status": "verified",
-    "file": "/assets/images/author-world-bird.webp",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-bird.webp",
     "caption": {
-      "en": "Robert Montgomery Bird. Undated historical portrait reproduction; Harvard Theatre Collection, TCS 1.2515.",
-      "de": "Robert Montgomery Bird. Undatierte historische Porträtwiedergabe; Harvard Theatre Collection, TCS 1.2515."
+      "de": "Historisches Porträt von Robert Montgomery Bird",
+      "en": "Historical portrait of Robert Montgomery Bird"
     },
-    "provenance": "https://commons.wikimedia.org/wiki/File:Harvard_Theatre_Collection_-_R_M_Bird_TCS_1.2515_-_cropped.jpg",
-    "rights": "Commons PD-old; historical sitter died 1854; attribution of photographer not established.",
-    "processing": "Web size reduction only; no generative processing"
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "6fccb2a20d8b8506be034caacdba290c555718e427388a117cfe64bbfe87b47b"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-bird",
+          "alt": "Historisches Porträt von Robert Montgomery Bird",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-bird",
+          "alt": "Historical portrait of Robert Montgomery Bird",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-bird",
+          "alt": "Historical portrait of Robert Montgomery Bird",
+          "modern": true
+        }
+      }
+    ]
   },
   "timeline": [
     [

@@ -100,8 +100,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-stevenson.webp",
+    "caption": {
+      "de": "Porträt am Schreibtisch; Rekonstruktion nach dem Fotogravüre-Frontispiz seiner Briefe von 1899.",
+      "en": "Portrait at his writing desk; reconstructed after the photogravure frontispiece of his Letters, 1899."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "2ea691bc3333890a6907061bd304009a64b560a2db57b2af14901a3020aee4b1"
+    },
+    "processing": "Portrait at his writing desk; reconstructed after the photogravure frontispiece of his Letters, 1899.",
     "existing": [
       {
         "site": "en",

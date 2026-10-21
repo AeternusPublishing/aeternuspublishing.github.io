@@ -132,8 +132,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-acd-doyle-20261008.webp",
+    "caption": {
+      "de": "Porträt am Schreibtisch; Rekonstruktion nach einer Fotografie.",
+      "en": "Portrait at his writing desk; reconstructed after a photograph."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "fb177092dad3d8961cc7e3d3447d88676b76b24785deb4f688e098e004640ae4"
+    },
+    "processing": "Portrait at his writing desk; reconstructed after a photograph.",
     "existing": [
       {
         "site": "de",

@@ -118,8 +118,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-tarleton.webp",
+    "caption": {
+      "de": "Banastre Tarleton nach dem Gemälde von Joshua Reynolds, 1782",
+      "en": "Banastre Tarleton"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "850ed037310dfd036819e04fb97e3e84b69de60ed6dd8b963abe4930a86b94f2"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "de",

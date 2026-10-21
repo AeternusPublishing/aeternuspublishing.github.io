@@ -8,7 +8,7 @@ Das Dossier ist die einzige Quelle der neuen biografischen Texte. Gemeinsame his
 
 Gesicherte Tatsache, offene Angabe, historische Interpretation und redaktionelle Würdigung getrennt halten. Eine Quellenkennung oder ein bestandener Test beweist keine historische Richtigkeit. Die Quelle tatsächlich lesen; genaue Fundstelle und Einschränkungen nachtragen. Keine Ehrung ohne belegte Stufe und korrekt behandelte Datierung. Dienstgrad, Orden, Medaille, akademische Ehrung und Adelstitel unterscheiden.
 
-Bilder nur mit Identität, Herkunft, Nutzungsgrundlage und dokumentierter Bearbeitung. Kolorierung oder Rekonstruktion sichtbar beschriften. Bei offener Provenienz Bild auslassen und die Entscheidung im Dossier festhalten. Kein Fantasieporträt als zeitgenössisches Bild. Originale erhalten; keine bezahlte Bildbearbeitung ohne eigene Autorisierung.
+Bilder nur mit Identität, Herkunft, Nutzungsgrundlage und dokumentierter Bearbeitung. Kolorierung oder Rekonstruktion sichtbar beschriften. Freigegebene Bestandsbilder bleiben sichtbar (Verlegerwort vom 21.10.2026). Offene Herkunftsangaben intern dokumentieren; sie rechtfertigen kein eigenmächtiges Ausblenden oder Ersetzen. Kein Fantasieporträt als zeitgenössisches Bild. Originale erhalten; keine bezahlte Bildbearbeitung ohne eigene Autorisierung.
 
 Bei Verbindungen die Art ausdrücklich erfassen: persönliche Begegnung, institutioneller Zusammenhang, gemeinsamer Feldzug oder Werkvergleich. Aus einem Thema keine Bekanntschaft oder Beeinflussung ableiten.
 

@@ -122,15 +122,46 @@
     }
   },
   "image": {
-    "status": "verified",
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-hall.webp",
     "caption": {
-      "en": "James Hall. J. C. Buttre after J. O. Eaton, frontispiece, 1857.",
-      "de": "James Hall. J. C. Buttre nach J. O. Eaton, Frontispiz, 1857."
+      "de": "James Hall. J. C. Buttre nach J. O. Eaton, Frontispiz, 1857.",
+      "en": "James Hall. J. C. Buttre after J. O. Eaton, frontispiece, 1857."
     },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "ddf62792c9883c1b05f014ac946a3ed2f8a42ba3cd567cba3278f1583ceb2bd2"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-hall",
+          "alt": "James Hall, Stich von J. C. Buttre nach einem Gemälde von J. O. Eaton",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-hall",
+          "alt": "James Hall, steel engraving by J. C. Buttre after a painting by J. O. Eaton",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-hall",
+          "alt": "James Hall, steel engraving by J. C. Buttre after a painting by J. O. Eaton",
+          "modern": true
+        }
+      }
+    ],
     "provenance": "https://commons.wikimedia.org/wiki/File:James_Hall,_judge_and_writer.png",
-    "rights": "1857 engraving; Eaton died 1867, Buttre died 1893; copyright terms expired; source and derivation in portrait-hall.source.json",
-    "processing": "non-generative reproduction"
+    "rights": "1857 engraving; Eaton died 1867, Buttre died 1893; copyright terms expired; source and derivation in portrait-hall.source.json"
   },
   "timeline": [
     [

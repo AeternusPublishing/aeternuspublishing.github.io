@@ -80,8 +80,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-charles-brockden-brown.webp",
+    "caption": {
+      "de": "Charles Brockden Brown",
+      "en": "Charles Brockden Brown, pastel by James Sharples, about 1798"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "cb83b4ce41134cce2f0b4a3bd10b5ff49ffa8bae87558a10c40a62e18a9ac943"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "legacy",

@@ -96,8 +96,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-salten.webp",
+    "caption": {
+      "de": "Felix Salten, historische Fotografie von Ferdinand Schmutzer, um 1910",
+      "en": "Felix Salten · Siegmund Salzmann"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "c35bf294bcbc41a3c1f146eef8edb82dace3d7d753f3b76271d2a24a077f1c47"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "de",

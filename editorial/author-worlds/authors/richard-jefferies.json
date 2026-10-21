@@ -89,15 +89,38 @@
     }
   },
   "image": {
-    "status": "verified",
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-jefferies.webp",
     "caption": {
-      "en": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888.",
-      "de": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888."
+      "de": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888.",
+      "en": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888."
     },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "efa7f6fe0c09112ebf99dec1e19e41ee8ed18e0f1871aec60c21b40911c2b5a5"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-jefferies",
+          "alt": "Richard Jefferies, frontispiece portrait from Walter Besant, The Eulogy of Richard Jefferies (1888)",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-jefferies",
+          "alt": "Richard Jefferies, frontispiece portrait from Walter Besant, The Eulogy of Richard Jefferies (1888)",
+          "modern": true
+        }
+      }
+    ],
     "provenance": "https://archive.org/details/eulogyofrichardj00besarich",
-    "rights": "1888 published portrait; anonymous historical original; source and local derivation in portrait-jefferies.source.json",
-    "processing": "non-generative reproduction"
+    "rights": "1888 published portrait; anonymous historical original; source and local derivation in portrait-jefferies.source.json"
   },
   "timeline": [
     [

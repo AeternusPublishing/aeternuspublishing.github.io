@@ -100,8 +100,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-edwin-tappan-adney.webp",
+    "caption": {
+      "de": "Edwin Tappan Adney",
+      "en": "Portrait of Edwin Tappan Adney"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "8b7cfc224de9d592f547879747447e705f158299628d9679e43300e21f5fe39c"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "en",

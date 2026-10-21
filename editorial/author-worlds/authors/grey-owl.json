@@ -111,8 +111,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-grey-owl.webp",
+    "caption": {
+      "de": "Archibald Stansfeld Belaney · Grey Owl",
+      "en": "Grey Owl (Archibald Stansfeld Belaney), photograph from the first edition, 1931"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "465f9fde34dc3acd3e4b6ceaf8ee48a0d3b4eb4cdd36a992619340d9549b343d"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "en",

@@ -166,15 +166,34 @@
     }
   },
   "image": {
-    "status": "verified",
-    "file": "/assets/images/author-world-townshend.webp",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-charles-vere-ferrers-townshend.webp",
     "caption": {
-      "en": "Townshend in May 1920. Agence Rol, negative 59158; Bibliothèque nationale de France.",
-      "de": "Townshend in May 1920. Agence Rol, negative 59158; Bibliothèque nationale de France."
+      "de": "Rekonstruktion nach dem Porträtfrontispiz der Ausgabe von 1920.",
+      "en": "Reconstructed after the portrait frontispiece of the 1920 edition."
     },
-    "provenance": "https://gallica.bnf.fr/ark:/12148/btv1b530370406",
-    "rights": "Agence Rol collective press photograph 1920; PD-France, PD-anon-expired; scan via Commons.",
-    "processing": "Web size reduction only; no generative processing"
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "44f5925e9f9f865c7d08cbb03885a818da44613de4188318fa5ab8f1bb2b130e"
+    },
+    "processing": "Reconstructed after the portrait frontispiece of the 1920 edition.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "fallback": true,
+          "file": "portrait-charles-vere-ferrers-townshend",
+          "alt": "Major-General Sir Charles Vere Ferrers Townshend, K.C.B., D.S.O."
+        },
+        "captionLines": [
+          "Major-General Sir Charles Vere Ferrers Townshend, K.C.B., D.S.O.",
+          "Born 1861 in London, died 1924 in Paris",
+          "Portrait frontispiece of the edition of 1920, reconstructed"
+        ]
+      }
+    ]
   },
   "rank": {
     "en": "Major-General Sir Charles Vere Ferrers Townshend · KCB (1917), DSO (1898)"

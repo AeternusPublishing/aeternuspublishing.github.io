@@ -17,7 +17,7 @@ function get(slug,lang) {
     const targetLang=target.scope[lang]?lang:'en';
     return {...c,name:target.name,text:c[lang]||c.en,url:targetLang==='de'?`https://aeternus-verlag.de/autoren/${c.slug}/`:`https://aeternuspublishing.com/authors/${c.slug}/`,languageNote:targetLang!==lang?labels[lang].otherLanguage:null};
   });
-  return {...p,...p.locales[lang],lang,labels:labels[lang],rankLine:p.rank?.[lang],portrait:p.image.status==='verified'?{file:p.image.file,caption:p.image.caption[lang],source:p.image.provenance}:null,
+  return {...p,...p.locales[lang],lang,labels:labels[lang],rankLine:p.rank?.[lang],portrait:['verified','publisher-approved'].includes(p.image.status)?{file:p.image.file,caption:p.image.caption[lang],source:p.image.provenance}:null,
     timeline:(p.timeline||[]).filter(row=>row[lang==='de'?2:1]).map(row=>({date:row[0],text:row[lang==='de'?2:1]})),
     places:(p.places||[]).filter(item=>item[lang]).map(item=>({title:item[lang][0],text:item[lang][1]})),connections,
     honours:(p.honours||[]).map(h=>({...h,name:h.localName?.[lang]||h.name,categoryLabel:labels[lang][h.category],note:h.note?.[lang]})),

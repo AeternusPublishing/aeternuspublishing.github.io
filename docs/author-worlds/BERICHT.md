@@ -1,3 +1,7 @@
+## Nachtrag 21. Oktober 2026: freigegebene Porträts
+
+Auf ausdrücklichen Verlegerwunsch sind alle 35 bisherigen Porträts wieder sichtbar, einschließlich der vier zwischenzeitlich ersetzten Motive. Bekannte Kolorierungen und Rekonstruktionen stehen direkt in der Bildlegende. Die Freigabe ist je Datei mit SHA-256 in `portrait-restoration.json` gebunden. Die frühere Ausblendung und die folgenden Angaben zum Bildbestand beschreiben den überholten Stand vom 20. Oktober. Herkunftsfragen bleiben interne Dokumentation und blockieren die Anzeige nicht.
+
 # Historische Autorenwelten · Änderungs- und Prüfbericht
 
 Stand: 20. Oktober 2026. Entwicklungszweig `codex/autorenwelten-20261020`. **Keine Produktivseite verändert, kein Merge und kein Deployment.** Ausgangspunkt: `6db4ab414e231a6183d28ec306a8f0b394115338`.

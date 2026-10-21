@@ -182,15 +182,44 @@
     }
   },
   "image": {
-    "status": "verified",
-    "file": "/assets/images/author-world-seton-detail.webp",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-seton-clean-20260923.webp",
     "caption": {
-      "en": "Seton, detail from a photograph with Baden-Powell and Beard. Bain News Service; date not established. Library of Congress.",
-      "de": "Seton, Ausschnitt aus der Aufnahme mit Baden-Powell und Beard. Bain News Service; Datum nicht gesichert. Library of Congress."
+      "de": "Historisches Porträt von Ernest Thompson Seton",
+      "en": "Historical portrait of Ernest Thompson Seton"
     },
-    "provenance": "https://www.loc.gov/pictures/item/2014686580/",
-    "rights": "Library of Congress: no known restrictions on publication.",
-    "processing": "Documentary crop; no generative processing"
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "fb9e1ac3fc5c2f7070f302350642c1d5c0a9a880049f429146f7ea59b3bdf90f"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-seton-clean-20260923",
+          "alt": "Historisches Porträt von Ernest Thompson Seton",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-seton-clean-20260923",
+          "alt": "Historical portrait of Ernest Thompson Seton",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-seton-clean-20260923",
+          "alt": "Historical portrait of Ernest Thompson Seton",
+          "modern": true
+        }
+      }
+    ]
   },
   "timeline": [
     [

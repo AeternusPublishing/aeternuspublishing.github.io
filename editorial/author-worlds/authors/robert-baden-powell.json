@@ -184,15 +184,44 @@
     }
   },
   "image": {
-    "status": "verified",
-    "file": "/assets/images/author-world-bp.webp",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-baden-powell.webp",
     "caption": {
-      "en": "Baden-Powell in uniform. Bain News Service; date not recorded. Library of Congress, LC-DIG-ggbain-05069.",
-      "de": "Baden-Powell in Uniform. Bain News Service; undatiert. Library of Congress, LC-DIG-ggbain-05069."
+      "de": "Koloriertes Porträt.",
+      "en": "Colourised portrait."
     },
-    "provenance": "https://www.loc.gov/pictures/item/2014685063/",
-    "rights": "Library of Congress: no known restrictions on publication.",
-    "processing": "Web size reduction only; no generative processing"
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "8cbef384b48b233702bd44623290cdd038e2be05714502a1ac5c1bdd7a1f28d9"
+    },
+    "processing": "Colourised portrait.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-baden-powell",
+          "alt": "Robert Baden-Powell im Profil, mit Pfadfinderhut",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-baden-powell",
+          "alt": "Robert Baden-Powell in profile, wearing the Scout hat",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-baden-powell",
+          "alt": "Robert Baden-Powell in profile, wearing the Scout hat",
+          "modern": true
+        }
+      }
+    ]
   },
   "rank": {
     "en": "Lieutenant-General · 1st Baron Baden-Powell (1929) · OM",

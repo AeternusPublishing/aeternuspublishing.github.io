@@ -129,8 +129,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/author-melliss-v2-20261015.jpg",
+    "caption": {
+      "de": "Charles John Melliss",
+      "en": "Charles John Melliss"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "7296bc6d7e377dccfbf0a44eb8e0dccdac48e56f4907629f64969549939f5c98"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "en",

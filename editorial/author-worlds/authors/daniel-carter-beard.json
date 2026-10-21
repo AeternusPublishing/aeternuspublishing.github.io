@@ -110,15 +110,39 @@
     }
   },
   "image": {
-    "status": "verified",
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-beard.webp",
     "caption": {
-      "en": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress.",
-      "de": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress."
+      "de": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress.",
+      "en": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress."
     },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "c2a5b71f43f8f98922bac1ad5b90770a3799191f3c936697abfd8a262619d38e"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-beard",
+          "alt": "Daniel Carter Beard in Scout uniform, photographed by Bain News Service",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-beard",
+          "alt": "Daniel Carter Beard in Scout uniform, photographed by Bain News Service",
+          "modern": true
+        },
+        "caption": "Daniel Carter Beard · born 21 June 1850 at Cincinnati, Ohio · died 11 June 1941 at Suffern, New York · Photograph by Bain News Service, date unknown."
+      }
+    ],
     "provenance": "https://www.loc.gov/pictures/item/2014708970/",
-    "rights": "Library of Congress: no known restrictions on publication; src/assets/images/portrait-beard.source.json",
-    "processing": "non-generative reproduction"
+    "rights": "Library of Congress: no known restrictions on publication; src/assets/images/portrait-beard.source.json"
   },
   "timeline": [
     [

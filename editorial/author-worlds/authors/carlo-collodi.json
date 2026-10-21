@@ -89,8 +89,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-collodi.jpg",
+    "caption": {
+      "de": "Carlo Collodi, historischer Stich nach einer Fotografie von Montabone, 1890",
+      "en": "Carlo Lorenzini · Carlo Collodi"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "a455120720daeb4affe88c3b6e215c2b52a442b4087d9b56f1eeb41d24367c9e"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "de",

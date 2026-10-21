@@ -28,7 +28,7 @@ Kompakt: gezielte Biografie und Werkdeutung, ohne künstlich vermehrte Module. E
 
 Jedes neue Bild erhält Originaldatei, Quellenadresse, Identität, Rechtebegründung, Bearbeitung, Abmessungen und SHA-256. Dokumentarische Ausschnitte als Ausschnitte benennen. Der Inhalt eines gemeinsamen Fotos belegt die gemeinsame Aufnahme, nicht ohne weitere Quelle deren genaues Datum oder eine behauptete besondere Zusammenarbeit. Unsichere Archivetiketten nicht präziser darstellen, als die Aufnahme sie trägt.
 
-Vorhandene Bilder ohne ausreichenden Herkunftsnachweis bleiben im Inventar erhalten. Ihre Auslassung ist einem unzutreffenden Authentizitätsversprechen vorzuziehen. Historische Kolorierung, moderne Kolorierung, Restaurierung und generative Rekonstruktion müssen auseinandergehalten werden. Neue Bildgenerierung gehört nicht zum Regelablauf dieser Autorenwelten.
+Die bisherigen Porträts sind laut Verlegerwort vom 21.10.2026 bereits freigegeben und bleiben sichtbar. Offene Herkunftsangaben intern dokumentieren, nicht eigenmächtig ausblenden oder ersetzen. Die Freigabe am konkreten Asset-Hash festhalten. Historische Kolorierung, moderne Kolorierung, Restaurierung und generative Rekonstruktion müssen auseinandergehalten werden. Neue Bildgenerierung gehört nicht zum Regelablauf dieser Autorenwelten.
 
 Verweise müssen einen konkreten Erkenntnisgewinn bieten. `kind` unterscheidet dokumentierte Begegnung, institutionellen Zusammenhang, gemeinsamen Feldzug und thematischen Vergleich. Für den Vergleich keine persönliche Beziehung behaupten. Ziele auf bestehende Sprachfassungen beschränken und einen Sprachwechsel benennen.
 

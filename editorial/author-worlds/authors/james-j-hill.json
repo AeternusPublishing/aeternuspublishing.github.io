@@ -122,8 +122,18 @@
     }
   },
   "image": {
-    "status": "withheld",
-    "reason": "Existing portrait retained in inventory; original identity and rights must be established before use in this development version.",
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-hill.webp",
+    "caption": {
+      "de": "James J. Hill, historisches fotografisches Porträt",
+      "en": "James J. Hill, photographic portrait from Famous Living Americans, 1914"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "1779242c41e143d8d4d5bfa4d442536ebd3c81ba480354820de4d7213094587e"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
     "existing": [
       {
         "site": "de",
