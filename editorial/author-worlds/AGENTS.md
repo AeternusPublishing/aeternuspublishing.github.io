@@ -1,6 +1,6 @@
 # Autorenwelten · redaktionelle Projektanweisung
 
-Geltung: dieses Verzeichnis und seine Quellen. Diese Anweisung ist Bestandteil der Entwicklungsfassung vom 20.10.2026; sie erteilt keine Publikationsfreigabe und ändert keine Buchpipeline.
+Geltung: dieses Verzeichnis und seine Quellen. Verbindlicher Standard für künftige Autorenseiten seit Verlegerauftrag vom 21.10.2026; keine pauschale Publikationsfreigabe und keine Änderung der Buchpipeline.
 
 Vor Änderungen `docs/author-worlds/REDAKTION.md` und das vollständige JSON-Dossier des betroffenen Autors lesen. Autoren und Sprachfassungen nur auf ausdrücklichen Auftrag erweitern. Eine neue DE/EN-Seite ohne Dossier stoppt den Bau.
 
@@ -19,3 +19,5 @@ Vor Übergabe beide Websites lokal bauen; `node scripts/check-author-worlds.cjs`
 Änderungen gesammelt in einem Entwicklungszweig vorlegen. Kein Merge, Live-Umbau oder Deployment aus dieser Anweisung ableiten.
 
 Verlegerwort 21.10.2026: Schwerpunkt sind Biografie, Orden, militärische Verdienste und lebendige historische Texte. Handverlesene Bestandsbilder nicht verändern. Keine neuen Schwarzweißbilder ergänzen; neue Bilder ausschließlich in Farbe und nur nach ausdrücklichem Auftrag.
+
+Freigegebene Porträts unverändert erhalten: kein Austausch, neuer Beschnitt, Bearbeitung, Nachkolorierung oder Ausblenden ohne ausdrücklichen Verlegerauftrag für das betreffende Bild. Ein historischer Einzelauftrag gilt nicht für weitere Bilder.

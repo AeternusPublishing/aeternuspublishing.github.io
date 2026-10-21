@@ -1,6 +1,6 @@
 # Historische Autorenwelten · Redaktionsrichtlinie
 
-Entwicklungsstand 20. Oktober 2026. Grundlage ist der vollständige Verlegerauftrag „Die historischen Autorenwelten“. Die öffentliche Einführung steht unter dem gesonderten Sicht- und Freigabevorbehalt des Auftrags.
+Verbindlicher Standard seit 21. Oktober 2026 auf ausdrücklichen Verlegerauftrag. Referenz ist die veröffentlichte Autorenwelten-Fassung (PR #152).
 
 ## Auftrag und Stimme
 
@@ -40,10 +40,10 @@ Buchidentitäten bleiben Eigentum der bestehenden Katalogdaten. Keine ISBN, Form
 
 Vor Übergabe: beide Builds, Dossier- und Routenprüfung, Ausgabezuordnung, Text- und Bildprüfung, Desktop und Mobilansicht sowie Tastaturbedienung. Lokal arbeiten und Ergebnisse bündeln. Die Prüfergebnisse sind technische Evidenz; Endredaktion und Veröffentlichung bleiben eigene Freigabeschritte.
 
-## Einbindung in künftige Buchaufträge
+## Verbindlichkeit für künftige Aufträge
 
-Die verschachtelte `editorial/author-worlds/AGENTS.md` bindet diese Regeln an künftige Arbeit am Websitebestand. Für die zentrale Buchproduktion ist nach Freigabe folgende Ergänzung der kanonischen `C:\AETERNUS\CLAUDE.md` vorgesehen; sie wird hier nur vorbereitet, nicht eigenmächtig eingetragen:
+Dieser Standard gilt für alle künftig beauftragten neuen und überarbeiteten Autorenseiten. Er ist zentral in `C:\AETERNUS\CLAUDE.md`, der daraus erzeugten `AGENTS.md` und `DOKTRIN/REGISTER.md` verankert. Er ändert keine freigegebenen Buchtexte und erteilt keine pauschale Veröffentlichungsfreigabe.
 
-> Vor einer neuen oder geänderten Autoren-Landingpage das vorhandene Faktendossier und die Redaktionsrichtlinie `docs/author-worlds/REDAKTION.md` im Website-Repository lesen. Aus einem neuen Buch keine zusätzliche Autorensprache ableiten. Neue Werkdaten aus dem Buchregister beziehungsweise dem freigegebenen Katalog übernehmen; biografische Ergänzungen mit Quellen in das Autorendossier eintragen. Buchfreigabe und Websitefreigabe getrennt behandeln.
+### Schutz freigegebener Porträts
 
-Die zentrale Regeldatei wird ausschließlich an ihrer kanonischen Quelle und mit dem vorgesehenen Synchronisationsverfahren geändert. Dieser Websitezweig baut keine zweite Buchpipeline.
+Freigegebene, handverlesene Porträts bleiben unverändert. Austausch, Bearbeitung, neuer Beschnitt, Nachkolorierung oder Ausblendung nur auf ausdrücklichen Verlegerauftrag für das betreffende Bild. Fehlende Herkunftsunterlagen intern dokumentieren; sie sind kein Grund, eine bestehende Freigabe eigenmächtig aufzuheben. Neue Bilder nur auf Auftrag und in Farbe. Bestehende Schwarzweißporträts bleiben erhalten; die Townshend-Kolorierung vom 21.10.2026 ist ein Einzelauftrag.
