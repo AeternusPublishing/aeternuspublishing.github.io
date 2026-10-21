@@ -2167,6 +2167,25 @@
       }
     },
     {
+      "id": "book:en-younghusband-the-relief-of-chitral",
+      "type": "book",
+      "label": {
+        "de": "The Relief of Chitral",
+        "en": "The Relief of Chitral"
+      },
+      "author": "George John Younghusband & Francis Edward Younghusband",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-the-relief-of-chitral-younghusband-en-20261021.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+        "en": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The first-hand history of the siege and relief of Chitral, 1895, in the complete text of the first edition, with its map, frontispiece and twenty-two plates."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -2911,6 +2930,14 @@
       }
     },
     {
+      "id": "author:George John Younghusband & Francis Edward Younghusband",
+      "type": "author",
+      "label": {
+        "de": "George John Younghusband & Francis Edward Younghusband",
+        "en": "George John Younghusband & Francis Edward Younghusband"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3355,6 +3382,11 @@
     },
     {
       "source": "book:en-robert-baden-powell-aids-to-scouting",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-younghusband-the-relief-of-chitral",
       "target": "series:gruen",
       "type": "series"
     },
@@ -4137,6 +4169,11 @@
     {
       "source": "book:en-robert-baden-powell-aids-to-scouting",
       "target": "author:Robert Baden-Powell",
+      "type": "author"
+    },
+    {
+      "source": "book:en-younghusband-the-relief-of-chitral",
+      "target": "author:George John Younghusband & Francis Edward Younghusband",
       "type": "author"
     },
     {

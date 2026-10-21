@@ -30,6 +30,15 @@
       "url": "https://www.rsgs.org/scottish-geographical-medal",
       "note": "Younghusband received the Gold Medal in 1905; this was the contemporary name, before the 1933 change to Scottish Geographical Medal.",
       "checked": "2026-10-20"
+    },
+    {
+      "id": "APPROVED_AUTHORS",
+      "title": "The Relief of Chitral · Publisher-approved authors and edition",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "checked": "2026-10-21",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V16\\07_about_the_authors.md",
+      "sha256": "df4894ce221fe46308404d93a02510c9b180ee2ace1845bfc8cc5d63e7c385b3",
+      "note": "Verbatim excerpts of the publisher-approved author section DRUCKENTWURF_V16; no additional biographical claims. Local source read in full."
     }
   ],
   "facts": [
@@ -156,6 +165,16 @@
       "note": {
         "en": "Contemporary award name; renamed the Scottish Geographical Medal in 1933."
       }
+    }
+  ],
+  "connections": [
+    {
+      "slug": "younghusband",
+      "kind": "shared-campaign",
+      "en": "With his brother George John: The Relief of Chitral, the joint account of the campaign of 1895.",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ]
     }
   ]
 }
