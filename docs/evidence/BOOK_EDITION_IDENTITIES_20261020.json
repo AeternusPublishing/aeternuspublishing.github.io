@@ -5987,6 +5987,94 @@
         "decision_id": "decision_bp002_en_endfreigabe_kdp_v2_ingram_v2_upload_website_instagram_20261020",
         "review": "Front and back JPEG/WebP pairs visually inspected: English Aids to Scouting, Robert Baden-Powell, paperback142 pages, back-cover ISBN9783676052054. All four files byte-identical to canonical web originals. Both format ISBNs independently checked against registered English BP_002 forms. Forthcoming remains; no buying links or LIVE claim."
       }
+    },
+    {
+      "site": "en",
+      "id": "en-younghusband-the-relief-of-chitral",
+      "url": "/books/en-younghusband-the-relief-of-chitral/",
+      "title": "The Relief of Chitral",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-the-relief-of-chitral-younghusband-en-20261021.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-the-relief-of-chitral-younghusband-en-20261021.jpg",
+          "sha256": "236fa97602ccd12744358a3e5774fb80e9697bf5b90c811b3b0ad40195700a39"
+        },
+        {
+          "path": "src/assets/images/cover-the-relief-of-chitral-younghusband-en-20261021.webp",
+          "sha256": "64e42fac399559d9ea63139a47ef8fbd68da32e6ec60ea2378131f875a00706a"
+        },
+        {
+          "path": "src/assets/images/back-the-relief-of-chitral-younghusband-en-20261021.jpg",
+          "sha256": "ed2fd614fec0a1cb7375a802989de816355c05b07375085a897307f68f5ad05f"
+        },
+        {
+          "path": "src/assets/images/back-the-relief-of-chitral-younghusband-en-20261021.webp",
+          "sha256": "398c19521f30d54725079afef3ea16fa59d94a5df56200c5650c4092a374563b"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051958",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GJY_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Relief of Chitral (Annotated)",
+              "isbn13": "978-3-67605-195-8",
+              "isbn10": "3676051955",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051965",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GJY_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Relief of Chitral (Annotated)",
+              "isbn13": "978-3-67605-196-5",
+              "isbn10": "3676051963",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676051972",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GJY_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Relief of Chitral (Annotated)",
+              "isbn13": "978-3-67605-197-2",
+              "isbn10": "3676051971",
+              "asin": null
+            }
+          ]
+        }
+      ],
+      "independent_verification": {
+        "reviewed_utc": "2026-10-21T19:35:05.596445+00:00",
+        "register_query": "aeternus.py buchregister isbn GJY_001",
+        "register_projection_sha256": "cf1dc633b18b5fed35b3ad9c4fccbfdd74246f132b57985e64cdacc3c6fceb45",
+        "decision_id": "decision_gjy001_en_endfreigabe_paket_v6b_20261021",
+        "source_manifest_sha256": "b7d164c95e7d4710ff7a9018f4d587015c5a2cf2fb8e89795f2d05711d40fd0e",
+        "review": "ISBNs match released English GJY_001 forms. PB V4 front/back and format-only web derivatives reviewed. Forthcoming 26 October 2026; no buying links."
+      }
     }
   ],
   "additional_pages": [

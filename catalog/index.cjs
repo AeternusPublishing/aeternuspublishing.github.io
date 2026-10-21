@@ -204,6 +204,10 @@ Object.assign(authorsEn.find(author => author.slug === 'robert-baden-powell'), {
 
 englishBooks.push(require('./bp002-en-20261020.cjs'));
 
+const gjy001 = require('./gjy001-en-20261021.json');
+authorsEn.push(gjy001.author);
+englishBooks.push(gjy001.book);
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {

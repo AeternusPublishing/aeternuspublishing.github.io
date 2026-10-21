@@ -1,0 +1,155 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "younghusband",
+  "name": "George John Younghusband & Francis Edward Younghusband",
+  "dates": "George John: 1859–1944 · Francis Edward: 1863–1942",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "APPROVED_AUTHORS",
+      "title": "The Relief of Chitral · Publisher-approved authors and edition",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "checked": "2026-10-21",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V16\\07_about_the_authors.md",
+      "sha256": "df4894ce221fe46308404d93a02510c9b180ee2ace1845bfc8cc5d63e7c385b3",
+      "note": "Verbatim excerpts of the publisher-approved author section DRUCKENTWURF_V16; no additional biographical claims. Local source read in full."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "The Relief of Chitral is the joint work of two brothers, “constantly being mistaken for one another”, as their Preface says, who were present together in the same campaign and both served in it as correspondents of The Times. George wrote the chapters on Sir Robert Low’s advance; Francis wrote the rest.",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "The eldest son of Major-General John William Younghusband, C.S.I., George John Younghusband entered a career that crossed much of the military geography of the late Empire: the Afghan War of 1878–80, the Sudan in 1885, the North-West Frontier in 1886, the Burma War of 1886–87, the campaign in the Philippines in 1898, and South Africa in 1899–1902, where he was severely wounded, received the brevet of Lieutenant-Colonel and was made Companion of the Bath. He rose to Major-General in 1911, was appointed Knight Commander of the Indian Empire in 1913 while commanding the Derajat Brigade, and in the Great War, serving at Aden and in Mesopotamia, was created Knight Commander of St Michael and St George in 1915 for distinguished service in the field. From 1917 he was Keeper of the Jewel House at the Tower of London.",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "The second son of the same house, Francis Edward Younghusband was commissioned in the 1st (King’s) Dragoon Guards in 1882 and passed into the Indian Staff Corps and the political service. Before Chitral he had already made journeys of the first geographical importance in Manchuria, across the Gobi and Chinese Turkestan and over the Mustagh Pass into India; in August 1891, in the Pamirs, he was met at Bozai Gumbaz by the Russian Colonel Yonoff and escorted out of territory which Russian maps already claimed. In 1891 he was appointed Companion of the Indian Empire; in 1892 he was political officer in Hunza.",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "note": "Verbatim approved author text; no new interpretation."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "note": "Verbatim approved author text; no new appraisal."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The Relief of Chitral",
+      "intro": "The Relief of Chitral is the joint work of two brothers, “constantly being mistaken for one another”, as their Preface says, who were present together in the same campaign and both served in it as correspondents of The Times. George wrote the chapters on Sir Robert Low’s advance; Francis wrote the rest.",
+      "orientation": "The division of labour gives the book its breadth. George writes as the staff officer advancing with Low; Francis as the political officer who had known Chitral, its rulers and its roads before the siege began.",
+      "origin": [
+        "The eldest son of Major-General John William Younghusband, C.S.I., George John Younghusband entered a career that crossed much of the military geography of the late Empire: the Afghan War of 1878–80, the Sudan in 1885, the North-West Frontier in 1886, the Burma War of 1886–87, the campaign in the Philippines in 1898, and South Africa in 1899–1902, where he was severely wounded, received the brevet of Lieutenant-Colonel and was made Companion of the Bath. He rose to Major-General in 1911, was appointed Knight Commander of the Indian Empire in 1913 while commanding the Derajat Brigade, and in the Great War, serving at Aden and in Mesopotamia, was created Knight Commander of St Michael and St George in 1915 for distinguished service in the field. From 1917 he was Keeper of the Jewel House at the Tower of London.",
+        "Before Chitral he had already written of soldiering and travel in Eighteen Hundred Miles on a Burmese Tat, Frays and Forays and The Queen’s Commission, the titles named beneath his own on the title-page of 1895.",
+        "In the Chitral campaign he served throughout on Sir Robert Low’s staff as Brigade-Major, and the despatches named him “a most smart, energetic, and promising staff officer”. He wrote the chapters on the mobilisation, the Malakand, the Swat, the Panjkora and the advance through Dir. After the relief it fell to him to escort Sher Afzul to India as a prisoner of war. The London Gazette of 21 January 1896 promoted him brevet Major for the campaign.",
+        "His chapters show the eye of the staff officer: the weight of a blanket against a baggage allowance, the gradient of a pass, the expenditure of ammunition, the time a regiment needs to climb a spur, and the difference between a pass on a map and a pass that an army must cross."
+      ],
+      "career": [
+        "The second son of the same house, Francis Edward Younghusband was commissioned in the 1st (King’s) Dragoon Guards in 1882 and passed into the Indian Staff Corps and the political service. Before Chitral he had already made journeys of the first geographical importance in Manchuria, across the Gobi and Chinese Turkestan and over the Mustagh Pass into India; in August 1891, in the Pamirs, he was met at Bozai Gumbaz by the Russian Colonel Yonoff and escorted out of territory which Russian maps already claimed. In 1891 he was appointed Companion of the Indian Empire; in 1892 he was political officer in Hunza.",
+        "He knew Chitral as few Englishmen did. In January 1893 he crossed the Shandur with the mission of Surgeon-Major Robertson, remained in Chitral with the escort of Sikhs, then held the political charge at Mastuj, and in the autumn of 1894 rode down to the Mehtar’s capital with the Honourable George Curzon. He handed over the political charge of Chitral to Lieutenant Gurdon only a few weeks before Nizam-ul-Mulk was killed.",
+        "In the campaign of 1895 he was correspondent of The Times. He rode into Chitral on 27 April with Major “Roddy” Owen, ahead of Low’s advanced parties, and heard the defenders’ account of the siege within days of its end. His chapters on the causes of the war, the disasters to Ross and Edwardes, the defence of the fort and Kelly’s march are written from that knowledge.",
+        "His later fame belongs to another chapter of the same frontier history. As British Commissioner he led the Tibet Mission of 1903–04 to Lhasa and was created Knight Commander of the Indian Empire in 1904; he retired as Lieutenant-Colonel from the Indian Political Department and was created Knight Commander of the Star of India in 1917."
+      ],
+      "literature": [
+        "The Relief of Chitral is the joint work of two brothers, “constantly being mistaken for one another”, as their Preface says, who were present together in the same campaign and both served in it as correspondents of The Times. George wrote the chapters on Sir Robert Low’s advance; Francis wrote the rest."
+      ],
+      "legacy": "The division of labour gives the book its breadth. George writes as the staff officer advancing with Low; Francis as the political officer who had known Chitral, its rulers and its roads before the siege began.",
+      "bridge": "The first-hand history of the siege and relief of Chitral, 1895, in the complete text of the first edition, with its map, frontispiece and twenty-two plates.",
+      "description": "The Relief of Chitral is the joint work of two brothers, “constantly being mistaken for one another”, as their Preface says, who were present together in the same campaign and both served in it as correspondents of The Times. George wrote the chapters on Sir Robert Low’s advance; Francis wrote the rest.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ],
+      "originHeading": "George John Younghusband",
+      "careerHeading": "Francis Edward Younghusband"
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-george-john-younghusband-stoneman-1917.png",
+    "personName": "George John Younghusband",
+    "caption": {
+      "de": "Walter Stoneman, 1917",
+      "en": "Walter Stoneman, 1917"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "decision_gjy001_en_autorenseite_zwei_portraets_20261021; explicit named portrait in CODEX_AUFTRAG_GJY001_EN_INGRAM_WEBSITE_V6B_20261021",
+      "sha256": "60e3b9f8ef784e2cf3ff8a6c346eb00dffe4f2598aeffca8682847dfbf9f208e"
+    },
+    "processing": "Original approved PNG copied byte-for-byte, no processing."
+  },
+  "coauthorPortrait": {
+    "file": "/assets/images/portrait-francis-edward-younghusband-1895.png",
+    "name": "Francis Edward Younghusband",
+    "caption": "London Stereoscopic and Photographic Company, 26 June 1895",
+    "sha256": "9b0d42ea95d677ed722566364de38652eb3283379a12948806e123c08fa8e235"
+  },
+  "rank": {
+    "en": "Major-General Sir George John Younghusband · Lieutenant-Colonel Sir Francis Edward Younghusband"
+  },
+  "timeline": [
+    [
+      "1859",
+      "George John: born Dharamsala, India, 9 July",
+      ""
+    ],
+    [
+      "1863",
+      "Francis Edward: born Murree, Punjab, 31 May",
+      ""
+    ],
+    [
+      "1895",
+      "The Chitral campaign and the first edition",
+      ""
+    ],
+    [
+      "1942",
+      "Francis Edward: died Lytchett Minster, Dorset, 31 July",
+      ""
+    ],
+    [
+      "1944",
+      "George John: died Crickhowell, Wales, 30 September",
+      ""
+    ]
+  ],
+  "honours": [],
+  "connections": [
+    {
+      "slug": "francis-younghusband",
+      "kind": "shared-campaign",
+      "en": "Francis Edward Younghusband: his separate author page and The Epic of Mount Everest.",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ]
+    }
+  ]
+}

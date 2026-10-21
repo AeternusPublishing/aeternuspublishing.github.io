@@ -1,4 +1,6 @@
 <section class="shell author-hero{% if not world.portrait %} no-portrait{% endif %} author-world-hero" data-author-world="{{ world.slug }}" data-depth="{{ world.depth }}">
   <div><p class="kicker">{{ world.labels.context }}</p><h1>{{ world.name }}</h1><p class="author-world-dates">{{ world.dates }}</p>{% if world.rankLine %}<p class="author-world-rank">{{ world.rankLine }}</p>{% endif %}<p class="detail-subtitle">{{ world.tagline }}</p><p class="author-world-opening">{{ world.intro }}</p><a class="text-link" href="#{{ worldWorksId }}">{{ world.labels.works }} ↓</a></div>
-  {% if world.portrait %}<figure><img src="{{ world.portrait.file }}" alt="{{ world.name }}" width="320" height="420"><figcaption>{{ world.portrait.caption }} {% if world.portrait.source %}<a href="{{ world.portrait.source }}" aria-label="{{ world.labels.sources }}">↗</a>{% endif %}</figcaption></figure>{% endif %}
+  {% if world.coauthorPortrait %}<div class="author-world-portrait-pair">{% endif %}
+  {% if world.portrait %}<figure><img src="{{ world.portrait.file }}" alt="{{ world.image.personName or world.name }}" width="320" height="420"><figcaption>{{ world.portrait.caption }} {% if world.portrait.source %}<a href="{{ world.portrait.source }}" aria-label="{{ world.labels.sources }}">↗</a>{% endif %}</figcaption></figure>{% endif %}
+  {% if world.coauthorPortrait %}<figure><img src="{{ world.coauthorPortrait.file }}" alt="{{ world.coauthorPortrait.name }}" width="320" height="420"><figcaption>{{ world.coauthorPortrait.caption }}</figcaption></figure></div>{% endif %}
 </section>
