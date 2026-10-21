@@ -6,8 +6,8 @@
   "englishPages": 32,
   "legacyEnglishPages": 12,
   "routes": 65,
-  "bookLinks": 335,
-  "unchangedBooks": 88,
+  "bookLinks": 338,
+  "unchangedBooks": 86,
   "negativeFixtures": 4,
   "depths": {
     "compact": [
@@ -108,7 +108,7 @@
       "route": "/authors/charles-vere-ferrers-townshend/",
       "root": "dist/release",
       "language": "en",
-      "sha256": "a3e64b05c32c0fe2df52eca7500304d9946da23490b384e83d7e0e579d881239"
+      "sha256": "a2308bfbf9f5336b135fb185be5a250729a08702af80ec8f061a8f8572e360fa"
     },
     {
       "route": "/authors/charles-william-wilson/",
@@ -120,31 +120,31 @@
       "route": "/authors/daniel-carter-beard/",
       "root": "dist/release",
       "language": "en",
-      "sha256": "9a94afe1c5962988aac35f37860630c55043ea07ee84132ce5d7e39240e01e71"
+      "sha256": "639b1a39d4603e3288c49d23d12d13d93c7d97128b8aaf1f7b580df68d97e835"
     },
     {
       "route": "/en/authors/daniel-carter-beard/",
       "root": "public",
       "language": "en",
-      "sha256": "60559754ba4c7ec608330596b0188bee9090925e0f82f8c69e946ff0675a54af"
+      "sha256": "927842f9873e6f01e3c9c2dc2491953103f5776cf9408c5a255640c7b6ac776d"
     },
     {
       "route": "/autoren/ernest-thompson-seton/",
       "root": "public",
       "language": "de",
-      "sha256": "20b95689ed7a80d4962b126632ec3a2eda115166408289f6dc01908e9334bb8a"
+      "sha256": "e4b1486f40cc6ac7f32b8ac5fa569d662d9edaa386d6edab296d0f6786b6a7b3"
     },
     {
       "route": "/authors/ernest-thompson-seton/",
       "root": "dist/release",
       "language": "en",
-      "sha256": "c7cbb9a2c0f5bd1670d7275854b34a9b9e2d9096e460eb3adea0896aa39fd5ba"
+      "sha256": "0cad210e860a8037c54a6c23cdffca582400f5e984692a607645e2e7e74d2239"
     },
     {
       "route": "/en/authors/ernest-thompson-seton/",
       "root": "public",
       "language": "en",
-      "sha256": "1004be8893dc2422f000c2c65703abb31b7c5e7615740df270df1be5203aa858"
+      "sha256": "415a8e94cf523b9a739e126842d9f8efe666d50e5784a3fda3d23c927d6f247d"
     },
     {
       "route": "/autoren/felix-salten/",
@@ -366,19 +366,19 @@
       "route": "/autoren/robert-baden-powell/",
       "root": "public",
       "language": "de",
-      "sha256": "2fb00b2be099623c62264d922979db3f07a969ce31f34d0ab09091de398669a8"
+      "sha256": "9432dfa8589af7ef90ef5c6e3b1505ceaaeeff923a794a2ca22a882accc7f48d"
     },
     {
       "route": "/authors/robert-baden-powell/",
       "root": "dist/release",
       "language": "en",
-      "sha256": "5d076c3a9984d412ac47215d2646c58c1c6aaa45496b9cfe254b4398db98dc76"
+      "sha256": "e043c21bbd0bcf73e47459c26a21c573af8e5ff115103f3a0f247fcffb00691c"
     },
     {
       "route": "/en/authors/robert-baden-powell/",
       "root": "public",
       "language": "en",
-      "sha256": "637b344e3f8f1e596466daa5c37d4534b311e4d3c41b3d92e546a0b6ba14f90e"
+      "sha256": "a14879506f581bd4020bb53d5c18f0cb372a6b97ae7eefb26e98ab25173a65aa"
     },
     {
       "route": "/authors/robert-louis-stevenson/",

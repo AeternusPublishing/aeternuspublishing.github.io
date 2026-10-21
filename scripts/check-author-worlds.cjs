@@ -85,6 +85,8 @@ for(const [oldRoot,newRoot,folder] of [['work/before-de','public','buecher'],['w
  const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);
  for(const old of walk(path.join(oldRoot,folder)).filter(f=>f.endsWith('.html'))){
   const rel=path.relative(oldRoot,old),now=path.join(newRoot,rel);
+  // Catalogue indexes evolve independently (BP002 announcement merged from main). Individual edition pages remain byte-compared.
+  if(rel===path.join(folder,'index.html'))continue;
   const normal=s=>s.replace(/\r\n/g,'\n');
   assert.equal(normal(fs.readFileSync(now,'utf8')),normal(fs.readFileSync(old,'utf8')),rel+': book content changed');unchangedBooks++;
  }

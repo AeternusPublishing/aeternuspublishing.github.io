@@ -167,17 +167,17 @@
   },
   "image": {
     "status": "publisher-approved",
-    "file": "/assets/images/portrait-charles-vere-ferrers-townshend.webp",
+    "file": "/assets/images/portrait-townshend-colour-20261021.webp",
     "caption": {
-      "de": "Rekonstruktion nach dem Porträtfrontispiz der Ausgabe von 1920.",
-      "en": "Reconstructed after the portrait frontispiece of the 1920 edition."
+      "de": "Porträtfrontispiz der Ausgabe von 1920; rekonstruiert und nachträglich koloriert.",
+      "en": "Portrait frontispiece of the 1920 edition; reconstructed and subsequently colourised."
     },
     "approval": {
       "date": "2026-10-21",
-      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
-      "sha256": "44f5925e9f9f865c7d08cbb03885a818da44613de4188318fa5ab8f1bb2b130e"
+      "authority": "Verleger Chat 21.10.2026: aktualisierte Seite veröffentlichen; Seton bleibt so, Townshend kolorieren.",
+      "sha256": "23b2b8fb75c3666dbe79b0ac68ea1598b10b105096512b58c09c0948ad73c880"
     },
-    "processing": "Reconstructed after the portrait frontispiece of the 1920 edition.",
+    "processing": "Built-in imagegen colourisation on publisher instruction, 21 October 2026. Original preserved; modern interpretive colours.",
     "existing": [
       {
         "site": "en",
@@ -193,7 +193,8 @@
           "Portrait frontispiece of the edition of 1920, reconstructed"
         ]
       }
-    ]
+    ],
+    "original": "/assets/images/portrait-charles-vere-ferrers-townshend.webp"
   },
   "rank": {
     "en": "Major-General Sir Charles Vere Ferrers Townshend · KCB (1917), DSO (1898)"
