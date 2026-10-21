@@ -1,0 +1,18 @@
+<section class="shell international-section author-biography author-world" id="{{ worldBioId }}" aria-labelledby="world-title">
+  <div><p class="kicker">{{ world.labels.context }}</p><h2 id="world-title">{{ world.labels.about }}</h2></div>
+  <div class="biography-copy">
+    <p class="world-orientation">{{ world.orientation }}</p>
+    {% if world.honours.length %}<section class="world-honours" aria-labelledby="honours-title"><h3 id="honours-title">{{ world.labels.honours }}</h3><ul class="honours-gallery">{% for h in world.honours.slice(0,5) %}<li><span class="kicker">{{ h.categoryLabel }} · {{ h.year }}</span><strong>{{ h.name }}</strong>{% if h.note %}<p>{{ h.note }}</p>{% endif %}</li>{% endfor %}</ul>{% if world.honours.length > 5 %}<details><summary>{{ world.labels.moreHonours }}</summary><ul>{% for h in world.honours.slice(5) %}<li>{{ h.year }} · {{ h.name }}</li>{% endfor %}</ul></details>{% endif %}</section>{% endif %}
+    <details class="world-details"><summary>{{ world.labels.read }}</summary><div class="world-details-copy">
+      {% if world.origin.length %}<section><h3>{{ world.labels.origin }}</h3>{% for paragraph in world.origin %}<p>{{ paragraph }}</p>{% endfor %}</section>{% endif %}
+      {% if world.career.length %}<section><h3>{{ world.labels.career }}</h3>{% for paragraph in world.career %}<p>{{ paragraph }}</p>{% endfor %}</section>{% endif %}
+      {% if world.literature.length %}<section><h3>{{ world.labels.literature }}</h3>{% for paragraph in world.literature %}<p>{{ paragraph }}</p>{% endfor %}</section>{% endif %}
+      {% if world.places.length %}<section><h3>{{ world.labels.places }}</h3>{% for place in world.places %}<h4>{{ place.title }}</h4><p>{{ place.text }}</p>{% endfor %}</section>{% endif %}
+      {% if world.legacy %}<section><h3>{{ world.labels.legacy }}</h3><p>{{ world.legacy }}</p></section>{% endif %}
+    </div></details>
+    {% if world.timeline.length %}<details class="world-details"><summary>{{ world.labels.timeline }}</summary><ol class="world-timeline">{% for event in world.timeline %}<li><time>{{ event.date }}</time><span>{{ event.text }}</span></li>{% endfor %}</ol></details>{% endif %}
+    {% if world.gallery.length %}<details class="world-details"><summary>{{ world.labels.gallery }}</summary><div class="world-gallery">{% for item in world.gallery %}<figure><img src="{{ item.file }}" alt="{{ item.caption }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy"><figcaption>{{ item.caption }} <a href="{{ item.source }}">{{ world.labels.sources }} ↗</a></figcaption></figure>{% endfor %}</div></details>{% endif %}
+    {% if world.connections.length %}<section class="world-connections"><h3>{{ world.labels.connections }}</h3><ul>{% for c in world.connections %}<li><a href="{{ c.url }}">{{ c.name }}</a><p>{{ c.text }}{% if c.languageNote %} <span class="edition-note">({{ c.languageNote }})</span>{% endif %}</p></li>{% endfor %}</ul></section>{% endif %}
+    <details class="world-details world-sources"><summary>{{ world.labels.sources }}</summary><ul>{% for s in world.sources %}<li><a href="{{ s.url }}">{{ s.title }} ↗</a></li>{% endfor %}</ul></details>
+  </div>
+</section>

@@ -1,0 +1,132 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "carlo-collodi",
+  "name": "Carlo Lorenzini · Carlo Collodi",
+  "dates": "1826–1890",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": false,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "TRECCANI",
+      "title": "Treccani · Carlo Lorenzini",
+      "url": "https://www.treccani.it/enciclopedia/carlo-lorenzini/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "RAI",
+      "title": "Rai Cultura · Collodi and Pinocchio",
+      "url": "https://www.raicultura.it/speciali/pinocchio",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Florence 1826, died 1890; wrote under the name Carlo Collodi.",
+      "sources": [
+        "TRECCANI",
+        "RAI"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Journalist and satirist; Pinocchio serialised 1881–83 and published as a book 1883.",
+      "sources": [
+        "TRECCANI",
+        "RAI"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Eine Holzfigur gerät in die wirkliche Welt.",
+      "intro": "Collodis Pinocchio begegnet Hunger, Verführung, Betrug und der Schwierigkeit, aus einer guten Absicht eine Handlung zu machen. Der Witz des Buches bleibt an eine sehr konkrete Welt gebunden.",
+      "orientation": "Hinter dem Kinderbuch steht ein Florentiner Journalist und Satiriker. Die Schnelligkeit seiner Sprache und der scharfe Sinn für gesellschaftliche Rollen prägen auch die Geschichte der Holzpuppe.",
+      "origin": [
+        "Carlo Lorenzini wurde 1826 in Florenz geboren. Den Namen Collodi entlehnte er dem Ort, mit dem die Herkunft seiner Mutter verbunden war."
+      ],
+      "career": [
+        "Zeitungen und politische Satire bildeten einen wesentlichen Teil seiner Arbeit, bevor die Erzählung für Kinder in den Vordergrund trat. Pinocchio erschien zunächst 1881–83 in Fortsetzungen."
+      ],
+      "literature": [
+        "Die Buchausgabe von 1883 bündelte eine Abenteuerfolge, deren phantastische Gestalten in einer Welt alltäglicher Nöte handeln. Das Wunderbare schärft den Blick auf diese Wirklichkeit."
+      ],
+      "legacy": "Collodis Kunst hält Strenge und Komik in einer beweglichen Spannung. Pinocchios Irrwege lassen sich wiederlesen, weil sie nie ganz in einer einzelnen Lehre aufgehen.",
+      "bridge": "Die Ausgabe erschließt die rasche, eigensinnige Erzählung hinter dem weltweit vertrauten Namen.",
+      "description": "Collodis Pinocchio begegnet Hunger, Verführung, Betrug und der Schwierigkeit, aus einer guten Absicht eine Handlung zu machen. Der Witz des Buches bleibt an eine sehr konkrete Welt gebunden.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-collodi.jpg",
+    "caption": {
+      "de": "Carlo Collodi, historischer Stich nach einer Fotografie von Montabone, 1890",
+      "en": "Carlo Lorenzini · Carlo Collodi"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "a455120720daeb4affe88c3b6e215c2b52a442b4087d9b56f1eeb41d24367c9e"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-collodi.jpg",
+          "alt": "Carlo Collodi, historischer Stich nach einer Fotografie von Montabone, 1890",
+          "modern": false
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1826",
+      "",
+      "Geburt in Florenz"
+    ],
+    [
+      "1881–83",
+      "",
+      "Pinocchio als Fortsetzungsgeschichte"
+    ],
+    [
+      "1883",
+      "",
+      "Pinocchio als Buch"
+    ]
+  ]
+}

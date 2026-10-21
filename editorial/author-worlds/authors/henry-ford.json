@@ -1,0 +1,201 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "henry-ford",
+  "name": "Henry Ford",
+  "dates": "1863–1947",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "MUSEUM",
+      "title": "The Henry Ford · Ford Methods and the Ford Shops",
+      "url": "https://www.thehenryford.org/collections/explore/articles/ford-methods-and-the-ford-shops",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "LINE",
+      "title": "The Henry Ford · Henry Ford: Assembly Line",
+      "url": "https://www.thehenryford.org/collections/explore/sets/detail/henry-ford-assembly-line",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "ANTISEMITISM",
+      "title": "The Henry Ford · Henry Ford and Anti-Semitism",
+      "url": "https://www.thehenryford.org/collections/explore/popular-research-topics/henry-ford-and-anti-semitism",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Ford Motor Company made the Model T from 1908.",
+      "sources": [
+        "MUSEUM",
+        "LINE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Moving assembly-line production developed at Ford in 1913.",
+      "sources": [
+        "MUSEUM",
+        "LINE"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "My Life and Work (1922) was written with Samuel Crowther.",
+      "sources": [
+        "MUSEUM",
+        "LINE"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Ford supported antisemitic publishing through the Dearborn Independent; repudiation in 1927 did not erase its international influence.",
+      "sources": [
+        "ANTISEMITISM"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Industry remade as a system.",
+      "intro": "Ford’s historical importance lies in the joining of product, factory and market. A motor car became the centre of a system in which standard parts, moving work and falling costs reinforced one another.",
+      "orientation": "The memoir is an industrialist’s statement of purpose. It explains how Ford wished his enterprise to be understood; the workers’ experience and the company’s later history extend beyond that account.",
+      "origin": [
+        "Ford came from rural Michigan into the machine shops and motor industry of Detroit. The distance between farm and factory remained an important part of the story he told about useful work."
+      ],
+      "career": [
+        "The Model T and the moving assembly line transformed the scale of manufacture. The system depended on the organisation of many people’s labour as well as on engineering. Its economy came with exacting control of pace and process.",
+        "The public record also includes the antisemitic campaign published through Ford’s Dearborn Independent. His repudiation in 1927 did not undo the circulation and influence of that material. The industrial achievement and this political conduct belong to the same biography."
+      ],
+      "literature": [
+        "My Life and Work, written with Samuel Crowther, turns business experience into an argument about production, wages and service. Its assertions invite examination against the industrial arrangements they describe."
+      ],
+      "legacy": "Ford remains a powerful witness to the ambitions of mass production. His account is most revealing when its practical observations and its claims of social purpose are read together.",
+      "bridge": "These writings take the reader inside the reasoning of a manufacturer seeking to organise an entire productive world.",
+      "description": "Ford’s historical importance lies in the joining of product, factory and market. A motor car became the centre of a system in which standard parts, moving work and falling costs reinforced one another.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ]
+    },
+    "de": {
+      "tagline": "Industrie als zusammenhängendes System.",
+      "intro": "Fords historische Bedeutung liegt im Zusammenspiel von Erzeugnis, Fabrik und Markt. Das Automobil wurde zum Mittelpunkt eines Systems, in dem genormte Teile, bewegte Werkstücke und sinkende Kosten einander verstärkten.",
+      "orientation": "Die Lebenserinnerungen sind die Selbstdeutung eines Unternehmers. Sie zeigen, wie Ford seine Arbeit verstanden wissen wollte. Die Erfahrungen der Arbeiter und die weitere Unternehmensgeschichte reichen über diese Darstellung hinaus.",
+      "origin": [
+        "Aus dem ländlichen Michigan führte Fords Weg in die Werkstätten und die entstehende Automobilindustrie Detroits. Der Abstand zwischen Bauernhof und Fabrik blieb ein Grundmotiv seiner Vorstellung nützlicher Arbeit."
+      ],
+      "career": [
+        "Mit dem Model T und der 1913 entwickelten Fließfertigung veränderte sich der Maßstab industrieller Produktion. Das Verfahren beruhte auf der Organisation vieler Arbeitskräfte ebenso wie auf technischen Erfindungen. Es verlangte eine genaue Kontrolle von Tempo und Arbeitsablauf.",
+        "Zu seiner öffentlichen Wirkung gehört auch die antisemitische Kampagne des von ihm getragenen Dearborn Independent. Die Distanzierung von 1927 machte die Verbreitung und Wirkung dieser Texte nicht rückgängig. Industrielle Leistung und dieses politische Handeln gehören in dieselbe Biografie."
+      ],
+      "literature": [
+        "Mein Leben und Werk entstand mit Samuel Crowther. Das Buch formt Geschäftserfahrung zu einem Argument über Produktion, Lohn und gesellschaftlichen Nutzen. Seine Behauptungen lassen sich an den Arbeitsverhältnissen messen, die es beschreibt."
+      ],
+      "legacy": "Ford bleibt ein bedeutender Zeuge der Massenproduktion. Besonders aufschlussreich ist die Spannung zwischen präziser Werkstattbeobachtung und dem weitreichenden gesellschaftlichen Anspruch seines Systems.",
+      "bridge": "Die Schriften erschließen das Denken eines Herstellers, der eine ganze Produktionswelt ordnen wollte.",
+      "description": "Fords historische Bedeutung liegt im Zusammenspiel von Erzeugnis, Fabrik und Markt. Das Automobil wurde zum Mittelpunkt eines Systems, in dem genormte Teile, bewegte Werkstücke und sinkende Kosten einander verstärkten.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-ford.webp",
+    "caption": {
+      "de": "Henry Ford am Schreibtisch, fotografische Aufnahme",
+      "en": "Henry Ford at his desk, photographic portrait"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "e3d4626c837dc92fce5d90fd4fa03fda5883861f231e695c60968be34518da3d"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-ford",
+          "alt": "Henry Ford am Schreibtisch, fotografische Aufnahme",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-ford",
+          "alt": "Henry Ford at his desk, photographic portrait",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-ford",
+          "alt": "Henry Ford at his desk, photographic portrait",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1908",
+      "Model T introduced",
+      "Einführung des Model T"
+    ],
+    [
+      "1913",
+      "Moving assembly line",
+      "Entwicklung der Fließfertigung"
+    ],
+    [
+      "1922",
+      "My Life and Work",
+      "My Life and Work erscheint"
+    ]
+  ]
+}

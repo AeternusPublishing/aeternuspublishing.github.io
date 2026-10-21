@@ -1,0 +1,116 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "william-gilmore-simms",
+  "name": "William Gilmore Simms",
+  "dates": "1806–1870",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "SC",
+      "title": "University of South Carolina · William Gilmore Simms research",
+      "url": "https://visitorcenter.sc.edu/about/offices_and_divisions/university_libraries/about/employment_opportunities/research_opportunities/index.php",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "ARCHIVE",
+      "title": "University of South Carolina · Simms Initiatives",
+      "url": "https://simms.library.sc.edu/biography.php",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "South Carolina author, 1806–1870; novelist, poet, historian and editor.",
+      "sources": [
+        "SC",
+        "ARCHIVE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote extensively on the American South and the Revolution; supported the Confederate cause.",
+      "sources": [
+        "SC",
+        "ARCHIVE"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The South’s historical imagination, before and through civil war.",
+      "intro": "Simms built a large literary world from the history, landscape and political loyalties of the American South. Romance, public argument and historical narrative were parts of a single working life.",
+      "orientation": "His regional attachment was also a political commitment. The fiction must be read alongside his defence of slavery and support for the Confederacy.",
+      "origin": [
+        "Born in Charleston, Simms made South Carolina the centre of an unusually extensive writing career."
+      ],
+      "career": [
+        "He worked across novels, poetry, criticism, history and biography. The Civil War and its destruction divided the world in which his reputation had been formed."
+      ],
+      "literature": [
+        "His Revolutionary romances turn the South’s earlier conflicts into stories of contested loyalty and collective identity. Their historical design is inseparable from the region’s later self-understanding."
+      ],
+      "legacy": "Simms remains significant for the scale of his literary construction of the South. His work preserves an energetic narrative art and the partisan historical imagination that sustained it.",
+      "bridge": "The editions reopen individual novels within that larger landscape of memory, conflict and regional allegiance.",
+      "description": "Simms built a large literary world from the history, landscape and political loyalties of the American South. Romance, public argument and historical narrative were parts of a single working life.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-wgs001-npg-95-20-20261008.webp",
+    "caption": {
+      "de": "William Gilmore Simms",
+      "en": "William Gilmore Simms. Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "7659950d052711bc52e481f9b32cc3b4990902b89ae02a9e212c2d4e25021f43"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "file": "portrait-wgs001-npg-95-20-20261008",
+          "alt": "William Gilmore Simms. Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
+        },
+        "caption": "Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "francis-parkman",
+  "name": "Francis Parkman",
+  "dates": "1823–1893",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "TRAIL",
+      "title": "National Park Service · Historic Resource Study bibliography",
+      "url": "https://www.nps.gov/oreg/learn/historyculture/upload/NPS-HRS-Biblio-Update2015-web.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "TEXT",
+      "title": "Francis Parkman · The Oregon Trail",
+      "url": "https://www.gutenberg.org/ebooks/1015",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Parkman travelled west in 1846; The California and Oregon Trail appeared in book form in 1849.",
+      "sources": [
+        "TRAIL",
+        "TEXT"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "His historical work includes France and England in North America.",
+      "sources": [
+        "TRAIL",
+        "TEXT"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "From the western trail to the contest for a continent.",
+      "intro": "Parkman carried a historian’s questions into the American West and returned with the experience behind The Oregon Trail. Movement across the plains gave physical substance to a literary imagination already occupied by the struggle for North America.",
+      "orientation": "The traveller of 1846 and the later historian are closely related. Landscape becomes setting, remembered encounter becomes narrative, and the author’s own assumptions shape both.",
+      "origin": [
+        "A Boston education placed him in the literary culture of New England. His western journey took him beyond its libraries into the terrain and communities he wished to describe."
+      ],
+      "career": [
+        "The journey of 1846 furnished a book published in 1849. His much larger historical undertaking, France and England in North America, turned to the long conflict of European powers and their Indian allies."
+      ],
+      "literature": [
+        "The Oregon Trail is a shaped account of travel, not an unfiltered record of the West. Its portraits of Indians and emigrants reveal Parkman’s standpoint as well as his considerable descriptive powers."
+      ],
+      "legacy": "His achievement joins historical narrative to a strong sense of place. Reading him closely means attending both to what he saw and to the ordering intelligence that gave it form.",
+      "bridge": "The travel narrative shows the encounter between a young eastern observer and the country beyond his accustomed world.",
+      "description": "Parkman carried a historian’s questions into the American West and returned with the experience behind The Oregon Trail. Movement across the plains gave physical substance to a literary imagination already occupied by the struggle for North America.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    },
+    "de": {
+      "tagline": "Vom westlichen Pfad zum Kampf um einen Kontinent.",
+      "intro": "Parkman nahm die Fragen eines Historikers mit in den amerikanischen Westen. Aus der Reise entstand Der Oregon Trail. Die Ebenen und ihre Bewohner gaben einer literarischen Vorstellungskraft Gestalt, die sich mit der Geschichte Nordamerikas beschäftigte.",
+      "orientation": "Der Reisende von 1846 und der spätere Geschichtsschreiber gehören zusammen. Landschaft wird Schauplatz, Erinnerung wird Erzählung; die Voraussetzungen des Autors prägen beides.",
+      "origin": [
+        "Seine Herkunft aus Boston verband ihn mit der literarischen Kultur Neuenglands. Die Reise nach Westen führte ihn aus deren Bibliotheken in die Landschaften und Gemeinschaften, die er beschreiben wollte."
+      ],
+      "career": [
+        "Die Fahrt von 1846 lieferte den Stoff für das 1849 erschienene Buch. Das weit größere Geschichtswerk France and England in North America galt dem langen Ringen europäischer Mächte und ihrer indianischen Verbündeten."
+      ],
+      "literature": [
+        "Der Oregon Trail ist eine gestaltete Reiseerzählung. Die Bilder von Indianern und Auswanderern bezeugen Parkmans Standort ebenso wie seine erhebliche Beschreibungskraft."
+      ],
+      "legacy": "Seine Leistung verbindet historische Erzählung und räumliche Anschauung. Eine genaue Lektüre fragt nach dem Gesehenen und nach dem ordnenden Blick, der ihm Form gab.",
+      "bridge": "Der Reisebericht zeigt die Begegnung eines jungen Beobachters von der Ostküste mit einer ihm noch fremden Welt.",
+      "description": "Parkman nahm die Fragen eines Historikers mit in den amerikanischen Westen. Aus der Reise entstand Der Oregon Trail. Die Ebenen und ihre Bewohner gaben einer literarischen Vorstellungskraft Gestalt, die sich mit der Geschichte Nordamerikas beschäftigte.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-parkman.webp",
+    "caption": {
+      "de": "Historische Fotografie; digital restauriert, teilweise rekonstruiert und vergrößert.",
+      "en": "Historical photograph; digitally restored, partly reconstructed and enlarged."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "b74f66d22feaee2cfae605e4ce43008108ce2cc2a0151d1693b2dc04f312fb0b"
+    },
+    "processing": "Historical photograph; digitally restored, partly reconstructed and enlarged.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-parkman",
+          "alt": "Francis Parkman, historische Fotografie, digital restauriert",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-parkman",
+          "alt": "Historical portrait of Francis Parkman",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-parkman",
+          "alt": "Historical portrait of Francis Parkman",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1846",
+      "Journey to the western plains",
+      "Reise in die westlichen Ebenen"
+    ],
+    [
+      "1849",
+      "The Oregon Trail in book form",
+      "Der Oregon Trail erscheint als Buch"
+    ]
+  ]
+}

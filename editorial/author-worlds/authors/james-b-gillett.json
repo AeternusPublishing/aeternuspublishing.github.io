@@ -1,0 +1,173 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "james-b-gillett",
+  "name": "James Buchanan Gillett",
+  "dates": "1856–1937",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "TSHA",
+      "title": "Texas State Historical Association · Gillett",
+      "url": "https://www.tshaonline.org/handbook/entries/gillett-james-buchanan",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "MUSEUM",
+      "title": "Texas Ranger Hall of Fame and Museum · James B. Gillett",
+      "url": "https://www.texasranger.org/texas-ranger-museum/hall-of-fame/james-b-gillett/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Austin 1856, died 1937; Texas Ranger 1875–81.",
+      "sources": [
+        "TSHA",
+        "MUSEUM"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Later El Paso marshal and rancher; published Six Years with the Texas Rangers in 1921.",
+      "sources": [
+        "TSHA",
+        "MUSEUM"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Ranger career involved conflicts with Indians, policing and unlawful cross-border seizure of a suspect.",
+      "sources": [
+        "TSHA",
+        "MUSEUM"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A Ranger’s six years, remembered after the frontier changed.",
+      "intro": "Gillett wrote from service rather than from an imagined West. His recollections follow a young Ranger through patrols, pursuit and the violence of the Texas borderlands.",
+      "orientation": "The memoir is a veteran’s later reconstruction. Its immediacy should be read beside the distance between the events of 1875–81 and their publication in 1921.",
+      "origin": [
+        "Born in Austin in 1856, he worked with cattle before joining the Frontier Battalion in 1875."
+      ],
+      "career": [
+        "Six years with the Rangers led to policing in El Paso and a later life in ranching. His record includes both the pursuit of outlaws and actions whose legality was disputed."
+      ],
+      "literature": [
+        "The book organises a working life into memorable episodes. It preserves the Ranger’s understanding of duty, danger and the boundary between pursuit and retribution."
+      ],
+      "legacy": "Gillett’s value as a witness comes with his standpoint. The Texas he describes is a contested borderland seen through the service of one armed institution.",
+      "bridge": "The memoir connects the familiar figure of the Texas Ranger with the practical and contested business of frontier policing.",
+      "description": "Gillett wrote from service rather than from an imagined West. His recollections follow a young Ranger through patrols, pursuit and the violence of the Texas borderlands.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    "de": {
+      "tagline": "Sechs Rangerjahre, erinnert nach dem Wandel des Grenzlands.",
+      "intro": "Gillett schrieb aus eigenem Dienst. Seine Erinnerungen folgen einem jungen Ranger auf Patrouillen, bei Verfolgungen und durch die Gewalt des texanischen Grenzlands.",
+      "orientation": "Das Buch ist die spätere Rückschau eines Veteranen. Zwischen den Ereignissen von 1875–81 und ihrer Veröffentlichung 1921 liegt ein beträchtlicher Abstand.",
+      "origin": [
+        "1856 in Austin geboren, arbeitete Gillett zunächst mit Vieh, bevor er 1875 dem Frontier Battalion beitrat."
+      ],
+      "career": [
+        "Auf sechs Rangerjahre folgten Polizeidienst in El Paso und ein Leben als Rancher. Seine Laufbahn umfasst die Verfolgung von Gesetzlosen ebenso wie Unternehmungen, deren Rechtmäßigkeit umstritten war."
+      ],
+      "literature": [
+        "Der Bericht ordnet ein Berufsleben in einprägsame Episoden. Er bewahrt die Vorstellung eines Rangers von Pflicht, Gefahr und der Grenze zwischen Verfolgung und Vergeltung."
+      ],
+      "legacy": "Gilletts Zeugnis hat einen bestimmten Standort. Das Texas seiner Erinnerungen ist ein umkämpftes Grenzland, gesehen aus dem Dienst einer bewaffneten Institution.",
+      "bridge": "Die Erinnerungen verbinden die bekannte Gestalt des Texas Rangers mit dem konkreten und umstrittenen Geschäft der Grenzlandpolizei.",
+      "description": "Gillett schrieb aus eigenem Dienst. Seine Erinnerungen folgen einem jungen Ranger auf Patrouillen, bei Verfolgungen und durch die Gewalt des texanischen Grenzlands.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-gillett.webp",
+    "caption": {
+      "de": "James B. Gillett als Texas Ranger, historisches Autorenporträt",
+      "en": "James B. Gillett as a Texas Ranger, historical author portrait"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "9fc163b88dbac5579347c7092a31a586d85e3c4d0824598a5c2df527b12027d2"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-gillett",
+          "alt": "James B. Gillett als Texas Ranger, historisches Autorenporträt",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-gillett",
+          "alt": "James B. Gillett as a Texas Ranger, historical author portrait",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1875",
+      "Joins the Texas Rangers",
+      "Eintritt bei den Texas Rangers"
+    ],
+    [
+      "1881",
+      "Leaves the Rangers; El Paso police work",
+      "Ende des Rangerdienstes; Polizei in El Paso"
+    ],
+    [
+      "1921",
+      "Memoir published",
+      "Veröffentlichung der Erinnerungen"
+    ]
+  ]
+}

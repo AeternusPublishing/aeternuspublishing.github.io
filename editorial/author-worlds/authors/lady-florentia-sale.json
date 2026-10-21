@@ -1,0 +1,185 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "lady-florentia-sale",
+  "name": "Florentia Sale",
+  "dates": "1790–1853",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "NAM",
+      "title": "National Army Museum · Lady Florentia Sale, 1842",
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1950-11-55-21",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "DIARY",
+      "title": "National Army Museum · Lady Sale, 9 January 1842",
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1998-06-71--1",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born 1790, died 1853; wife of Sir Robert Henry Sale.",
+      "sources": [
+        "NAM",
+        "DIARY"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Accompanied the retreat from Kabul in January 1842; held captive until September.",
+      "sources": [
+        "NAM",
+        "DIARY"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Her journal was published in 1843.",
+      "sources": [
+        "NAM",
+        "DIARY"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The Kabul retreat, recorded from within.",
+      "intro": "Florentia Sale’s journal follows the collapse of a British position in Afghanistan through the eyes of a woman caught in its consequences. Marching, wounds, rumours and captivity give the campaign the scale of lived days.",
+      "orientation": "She was the wife of Major-General Sir Robert Sale, not a commanding officer. Her authority on the page comes from presence, close observation and the determination to keep a record.",
+      "origin": [
+        "An army marriage brought her into the mobile households of British service in India. In Afghanistan that world of officers and families was drawn into the First Anglo-Afghan War."
+      ],
+      "career": [
+        "She accompanied the retreat from Kabul in January 1842, witnessed deaths and cared for the wounded. Captivity followed; she was released in September. Her journal reached readers in 1843, while the disaster was still recent."
+      ],
+      "literature": [
+        "The book’s power lies in its changing horizon of knowledge: what could be seen, what was reported and what could only be feared. It should be read as testimony from a particular position within the expedition."
+      ],
+      "legacy": "Sale preserved a civilian witness to a military catastrophe. Her attention to daily necessity gives the grand narrative of imperial policy a human chronology.",
+      "bridge": "The diary restores the uncertain succession of days behind the familiar outline of the Kabul retreat.",
+      "description": "Florentia Sale’s journal follows the collapse of a British position in Afghanistan through the eyes of a woman caught in its consequences. Marching, wounds, rumours and captivity give the campaign the scale of lived days.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    "de": {
+      "tagline": "Der Rückzug aus Kabul, von innen aufgezeichnet.",
+      "intro": "Florentia Sales Tagebuch verfolgt den Zusammenbruch einer britischen Stellung in Afghanistan aus der Nähe einer unmittelbar Betroffenen. Marsch, Verwundung, Gerüchte und Gefangenschaft geben dem Feldzug das Maß gelebter Tage.",
+      "orientation": "Sie war die Frau des Generalmajors Sir Robert Sale, keine Truppenführerin. Die Autorität ihres Berichts beruht auf Anwesenheit, genauer Beobachtung und dem Willen, das Geschehen festzuhalten.",
+      "origin": [
+        "Die Ehe mit einem Berufsoffizier führte sie in die bewegliche Welt britischer Militärhaushalte in Indien. In Afghanistan gerieten die Offiziere und ihre Familien mitten in den Ersten Anglo-Afghanischen Krieg."
+      ],
+      "career": [
+        "Im Januar 1842 begleitete sie den Rückzug aus Kabul, erlebte das Sterben und versorgte Verwundete. Es folgten Monate der Gefangenschaft bis zur Befreiung im September. 1843 erschien ihr Tagebuch."
+      ],
+      "literature": [
+        "Seine Kraft liegt im wechselnden Horizont des Wissens: Was war zu sehen, was nur berichtet, was lediglich zu befürchten? Das Buch bewahrt die Wahrnehmung einer bestimmten Zeugin innerhalb des britischen Unternehmens."
+      ],
+      "legacy": "Sale überlieferte eine zivile Stimme aus einer militärischen Katastrophe. Ihre Aufmerksamkeit für die täglichen Erfordernisse gibt der Geschichte imperialer Politik eine menschliche Zeitfolge.",
+      "bridge": "Das Tagebuch führt hinter den bekannten Ausgang zurück in die ungewisse Folge der Tage.",
+      "description": "Florentia Sales Tagebuch verfolgt den Zusammenbruch einer britischen Stellung in Afghanistan aus der Nähe einer unmittelbar Betroffenen. Marsch, Verwundung, Gerüchte und Gefangenschaft geben dem Feldzug das Maß gelebter Tage.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-sale.webp",
+    "caption": {
+      "de": "Porträt von Lady Florentia Sale",
+      "en": "Portrait of Lady Florentia Sale"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "b879618531407d2ce7fd50c3f122bec791475420d143c1cc48de7128beeaf92c"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-sale",
+          "alt": "Porträt von Lady Florentia Sale",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-sale",
+          "alt": "Portrait of Lady Florentia Sale",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-sale",
+          "alt": "Portrait of Lady Florentia Sale",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "rank": {
+    "en": "Lady Sale · diarist and witness of the First Anglo-Afghan War",
+    "de": "Lady Sale · Tagebuchautorin und Zeugin des Ersten Anglo-Afghanischen Krieges"
+  },
+  "timeline": [
+    [
+      "January 1842",
+      "Retreat from Kabul",
+      "Rückzug aus Kabul"
+    ],
+    [
+      "September 1842",
+      "Released from captivity",
+      "Befreiung aus der Gefangenschaft"
+    ],
+    [
+      "1843",
+      "Journal published",
+      "Veröffentlichung des Tagebuchs"
+    ]
+  ]
+}

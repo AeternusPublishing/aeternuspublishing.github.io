@@ -1,0 +1,178 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "james-hall",
+  "name": "James Hall",
+  "dates": "1793–1868",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "AUTO",
+      "title": "Ohio History · The Autobiography of James Hall",
+      "url": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0056&display%5B%5D=295&display%5B%5D=304",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "OHIO",
+      "title": "Ohio History · Judge James Hall",
+      "url": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0018&display%5B%5D=468&display%5B%5D=483",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Hall served in the War of 1812 and later worked as lawyer, judge, editor and banker.",
+      "sources": [
+        "AUTO",
+        "OHIO"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "He lived in Illinois and then Cincinnati; wrote on the history and life of the American West.",
+      "sources": [
+        "AUTO",
+        "OHIO"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Romance of Western History appeared in 1857.",
+      "sources": [
+        "AUTO",
+        "OHIO"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The Ohio Valley finds a literary spokesman.",
+      "intro": "Soldier, judge and editor, Hall wrote from a West that was becoming a country of towns, courts, river traffic and print. The frontier in his books is a remembered world already being gathered into history.",
+      "orientation": "His career connects public institutions with literary culture. He helped give western experience a place on the page while taking part in the civic and commercial life around him.",
+      "origin": [
+        "Military service in the War of 1812 preceded his legal and public career in Illinois. Cincinnati later became the centre of his work."
+      ],
+      "career": [
+        "Editing and historical writing accompanied the work of a lawyer, judge and banker. Such a life placed Hall among the institutions through which the region understood and promoted itself."
+      ],
+      "literature": [
+        "Romance of Western History brings anecdote, memory and historical narration together. The title names a method as well as a subject: a past made vivid by the selection and shaping of a storyteller."
+      ],
+      "legacy": "Hall preserves the voice of an expanding regional culture. His books show how a frontier became a remembered historical landscape.",
+      "bridge": "The edition opens the Ohio Valley through the stories by which one of its early literary advocates sought to explain it.",
+      "description": "Soldier, judge and editor, Hall wrote from a West that was becoming a country of towns, courts, river traffic and print. The frontier in his books is a remembered world already being gathered into history.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    "de": {
+      "tagline": "Das Ohio-Tal gewinnt eine literarische Stimme.",
+      "intro": "Soldat, Richter und Herausgeber: Hall schrieb aus einem Westen, der zum Land der Städte, Gerichte, Dampfschiffe und Druckereien wurde. Das Grenzland seiner Bücher war bereits eine Welt der Erinnerung.",
+      "orientation": "Seine Laufbahn verbindet öffentliche Einrichtungen und literarische Kultur. Er gab westlichen Erfahrungen eine Stimme und wirkte zugleich am bürgerlichen und wirtschaftlichen Leben der Region mit.",
+      "origin": [
+        "Auf den Kriegsdienst von 1812 folgten juristische und öffentliche Ämter in Illinois. Später wurde Cincinnati zum Mittelpunkt seiner Tätigkeit."
+      ],
+      "career": [
+        "Herausgeberschaft und Geschichtsschreibung begleiteten die Arbeit als Jurist, Richter und Bankier. Hall gehörte zu jenen Einrichtungen, durch die die Region ihr Selbstverständnis ausbildete."
+      ],
+      "literature": [
+        "Romance of Western History verbindet Anekdote, Erinnerung und historische Erzählung. Der Titel bezeichnet auch das Verfahren: Die Vergangenheit wird durch Auswahl und Gestaltung eines Erzählers anschaulich."
+      ],
+      "legacy": "Hall bewahrt die Stimme einer aufstrebenden regionalen Kultur. Seine Bücher zeigen, wie aus Grenzlanderfahrung eine erinnerte Geschichtslandschaft wurde.",
+      "bridge": "Die Ausgabe erschließt das Ohio-Tal durch die Geschichten eines seiner frühen literarischen Fürsprecher.",
+      "description": "Soldat, Richter und Herausgeber: Hall schrieb aus einem Westen, der zum Land der Städte, Gerichte, Dampfschiffe und Druckereien wurde. Das Grenzland seiner Bücher war bereits eine Welt der Erinnerung.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-hall.webp",
+    "caption": {
+      "de": "James Hall. J. C. Buttre nach J. O. Eaton, Frontispiz, 1857.",
+      "en": "James Hall. J. C. Buttre after J. O. Eaton, frontispiece, 1857."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "ddf62792c9883c1b05f014ac946a3ed2f8a42ba3cd567cba3278f1583ceb2bd2"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-hall",
+          "alt": "James Hall, Stich von J. C. Buttre nach einem Gemälde von J. O. Eaton",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-hall",
+          "alt": "James Hall, steel engraving by J. C. Buttre after a painting by J. O. Eaton",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-hall",
+          "alt": "James Hall, steel engraving by J. C. Buttre after a painting by J. O. Eaton",
+          "modern": true
+        }
+      }
+    ],
+    "provenance": "https://commons.wikimedia.org/wiki/File:James_Hall,_judge_and_writer.png",
+    "rights": "1857 engraving; Eaton died 1867, Buttre died 1893; copyright terms expired; source and derivation in portrait-hall.source.json"
+  },
+  "timeline": [
+    [
+      "1812–15",
+      "Military service during the War of 1812",
+      "Militärdienst im Krieg von 1812"
+    ],
+    [
+      "1857",
+      "Romance of Western History",
+      "Romance of Western History"
+    ]
+  ]
+}

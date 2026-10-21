@@ -1,0 +1,114 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "charles-brockden-brown",
+  "name": "Charles Brockden Brown",
+  "dates": "1771–1810",
+  "depth": "compact",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "LIBRARY",
+      "title": "Library Company of Philadelphia · Charles Brockden Brown",
+      "url": "https://www.librarycompany.org/gothic/brown.htm",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Philadelphia writer, 1771–1810; trained for law before writing and editing.",
+      "sources": [
+        "LIBRARY"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Published Wieland (1798), Ormond (1799), Arthur Mervyn (1799–1800) and Edgar Huntly (1799).",
+      "sources": [
+        "LIBRARY"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The American republic discovers its Gothic shadows.",
+      "intro": "Brown brought the Gothic novel into the houses, cities and unsettled spaces of the young United States. Fear arises from the failure to know another person, to trust a voice or to reconstruct an event.",
+      "orientation": "His fiction takes American settings seriously as places of intellectual and moral uncertainty. The disturbance comes from within the new society.",
+      "origin": [
+        "Born in Philadelphia, Brown first prepared for law. Writing and magazine editing became his principal occupation."
+      ],
+      "career": [
+        "An extraordinary concentration of novels at the end of the 1790s established his place in early American fiction. Editorial and political writing continued alongside the works now most often remembered."
+      ],
+      "literature": [
+        "Wieland and Edgar Huntly build their plots around uncertain knowledge. Explanations arrive through witnesses who may themselves misunderstand what they report."
+      ],
+      "legacy": "Brown made the instability of perception a subject for American fiction. His novels ask readers to weigh a narrative while being drawn into it.",
+      "bridge": "The editions recover the unease and intellectual pressure of the early American Gothic.",
+      "description": "Brown brought the Gothic novel into the houses, cities and unsettled spaces of the young United States. Fear arises from the failure to know another person, to trust a voice or to reconstruct an event.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-charles-brockden-brown.webp",
+    "caption": {
+      "de": "Charles Brockden Brown",
+      "en": "Charles Brockden Brown, pastel by James Sharples, about 1798"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "cb83b4ce41134cce2f0b4a3bd10b5ff49ffa8bae87558a10c40a62e18a9ac943"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-charles-brockden-brown",
+          "alt": "Charles Brockden Brown, pastel by James Sharples, about 1798",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-charles-brockden-brown",
+          "alt": "Charles Brockden Brown, pastel by James Sharples, about 1798",
+          "modern": true
+        }
+      }
+    ]
+  }
+}

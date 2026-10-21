@@ -1,4 +1,5 @@
 module.exports = function(eleventyConfig){
+    eleventyConfig.addPlugin(require('./catalog/author-worlds.cjs').plugin);
     eleventyConfig.addFilter('authorImage', (name, modern, cover) => {
         if (!name) return null;
         const fs = require('node:fs');

@@ -1,0 +1,102 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "napoleon-augustus-jennings",
+  "name": "Napoleon Augustus Jennings",
+  "dates": "1856–1918",
+  "depth": "compact",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "TSHA",
+      "title": "Texas State Historical Association · Jennings",
+      "url": "https://www.tshaonline.org/handbook/entries/jennings-napoleon-augustus",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Philadelphia 1856; died 1918; journalist.",
+      "sources": [
+        "TSHA"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Joined McNelly’s force in Texas in 1874, but George Durham disputed his status as a regular Ranger.",
+      "sources": [
+        "TSHA"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "A Texas Ranger appeared in 1899.",
+      "sources": [
+        "TSHA"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The border remembered by a newspaper man.",
+      "intro": "Jennings carried a journalist’s sense of incident into his account of the Texas Rangers. A Texas Ranger is vigorous recollection, but the narrator’s exact position in the force has itself been contested.",
+      "orientation": "The distinction matters. George Durham described him as a field clerk rather than a regular Ranger; the memoir’s claim to experience must be read with that disagreement in view.",
+      "origin": [
+        "Born in Philadelphia, Jennings went to Texas as a young man. He later worked for newspapers in several American cities."
+      ],
+      "career": [
+        "His association with McNelly’s force in the 1870s supplied material for a book published in 1899. Reporting and the retrospective shaping of adventure meet in its pages."
+      ],
+      "literature": [
+        "The narrative offers a particular version of border service. Its energetic scenes are evidence of a memory being made public, as well as of the events remembered."
+      ],
+      "legacy": "Jennings is worth reading as a participant in the making of Ranger legend. The question of his service sharpens the distinction between witness, narrator and public image.",
+      "bridge": "The edition presents the complete account for readers who wish to examine the border story behind the legend.",
+      "description": "Jennings carried a journalist’s sense of incident into his account of the Texas Rangers. A Texas Ranger is vigorous recollection, but the narrator’s exact position in the force has itself been contested.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "not-available",
+    "reason": "No portrait in the existing website inventory; no unverified new likeness added.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": null
+      }
+    ]
+  }
+}

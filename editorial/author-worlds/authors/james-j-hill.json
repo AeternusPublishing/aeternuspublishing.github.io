@@ -1,0 +1,173 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "james-j-hill",
+  "name": "James Jerome Hill",
+  "dates": "1838–1916",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "MNHS",
+      "title": "Minnesota Historical Society · James J. Hill research guide",
+      "url": "https://libguides.mnhs.org/jjhill",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "HOUSE",
+      "title": "Minnesota Historical Society · James J. Hill House",
+      "url": "https://www.mnhs.org/hillhouse",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Canada 1838, died 1916; moved to St Paul at seventeen.",
+      "sources": [
+        "MNHS",
+        "HOUSE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Transportation and fuel businesses preceded his railway career.",
+      "sources": [
+        "MNHS",
+        "HOUSE"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Great Northern transcontinental line completed in 1893; Highways of Progress published 1910.",
+      "sources": [
+        "MNHS",
+        "HOUSE"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A railway as the framework of a region.",
+      "intro": "Hill’s subject was movement on a continental scale: freight, settlers, crops and the markets that could sustain a railway. His writing treats transport as the foundation of economic development.",
+      "orientation": "The railway builder’s view gives coherence to the account and also defines its limits. The country appears through the productive future he believed it could support.",
+      "origin": [
+        "Born in Canada in 1838, Hill moved to St Paul at seventeen. Work in river transport and trade preceded his rise in railways."
+      ],
+      "career": [
+        "The Great Northern’s transcontinental line was completed in 1893. Hill’s business joined the construction of routes to the cultivation of traffic along them."
+      ],
+      "literature": [
+        "Highways of Progress sets out the mature industrialist’s arguments about land, agriculture, transport and national resources. It is a programme as well as a record of experience."
+      ],
+      "legacy": "Hill’s writing reveals how a builder of infrastructure imagined the territory his enterprise crossed. Its practical detail makes that ambition tangible.",
+      "bridge": "The book opens the economic reasoning behind the railway map.",
+      "description": "Hill’s subject was movement on a continental scale: freight, settlers, crops and the markets that could sustain a railway. His writing treats transport as the foundation of economic development.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    "de": {
+      "tagline": "Die Eisenbahn als Gerüst einer Region.",
+      "intro": "Hill dachte in kontinentalen Verkehrsströmen: Fracht, Siedler, Ernten und die Märkte, die eine Bahn dauerhaft tragen konnten. Seine Schriften behandeln Verkehr als Grundlage wirtschaftlicher Entwicklung.",
+      "orientation": "Der Blick des Eisenbahnbauers gibt der Darstellung ihren Zusammenhang und ihre Grenzen. Das Land erscheint im Horizont der produktiven Zukunft, die Hill ihm zutraute.",
+      "origin": [
+        "1838 in Kanada geboren, kam Hill mit siebzehn Jahren nach St. Paul. Flussschifffahrt und Handel gingen seinem Aufstieg im Eisenbahnwesen voraus."
+      ],
+      "career": [
+        "1893 war die transkontinentale Verbindung der Great Northern vollendet. Zum Streckenbau gehörte für Hill die Entwicklung des Verkehrs entlang der neuen Linien."
+      ],
+      "literature": [
+        "Highways of Progress entfaltet die Überlegungen des erfahrenen Unternehmers zu Boden, Landwirtschaft, Verkehr und nationalen Ressourcen. Das Buch ist Programm und Erfahrungsbericht zugleich."
+      ],
+      "legacy": "Hills Schriften zeigen, wie ein Erbauer von Verkehrswegen das durchquerte Land entwarf. Ihre praktischen Einzelheiten machen diesen Anspruch anschaulich.",
+      "bridge": "Das Buch erschließt die wirtschaftlichen Überlegungen hinter der Eisenbahnkarte.",
+      "description": "Hill dachte in kontinentalen Verkehrsströmen: Fracht, Siedler, Ernten und die Märkte, die eine Bahn dauerhaft tragen konnten. Seine Schriften behandeln Verkehr als Grundlage wirtschaftlicher Entwicklung.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-hill.webp",
+    "caption": {
+      "de": "James J. Hill, historisches fotografisches Porträt",
+      "en": "James J. Hill, photographic portrait from Famous Living Americans, 1914"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "1779242c41e143d8d4d5bfa4d442536ebd3c81ba480354820de4d7213094587e"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-hill",
+          "modern": true,
+          "alt": "James J. Hill, historisches fotografisches Porträt"
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-hill",
+          "alt": "James J. Hill, photographic portrait from Famous Living Americans, 1914",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1838",
+      "Born in Canada",
+      "In Kanada geboren"
+    ],
+    [
+      "1893",
+      "Great Northern transcontinental route completed",
+      "Transkontinentale Verbindung der Great Northern vollendet"
+    ],
+    [
+      "1910",
+      "Highways of Progress",
+      "Highways of Progress"
+    ]
+  ]
+}

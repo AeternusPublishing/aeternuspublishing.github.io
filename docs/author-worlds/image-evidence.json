@@ -1,0 +1,437 @@
+[
+  {
+    "id": "bird",
+    "original": "editorial/author-worlds/originals/bird.jpg",
+    "original_sha256": "1949f16694fc47e83b3f50f8b4cdbc35962cb80f2d9773d29d6177b33221d548",
+    "file": "/assets/images/author-world-bird.webp",
+    "sha256": "0810ec88075f74c10d78e60593cf32a0f43c48d4d70cee8769ff998cadad22cc",
+    "width": 636,
+    "height": 862,
+    "processing": "WebP conversion and size reduction only; no generative processing",
+    "metadata": {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "33195655": {
+            "pageid": 33195655,
+            "ns": 6,
+            "title": "File:Harvard Theatre Collection - R M Bird TCS 1.2515 - cropped.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Harvard_Theatre_Collection_-_R_M_Bird_TCS_1.2515_-_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Harvard_Theatre_Collection_-_R_M_Bird_TCS_1.2515_-_cropped.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=33195655",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2014-06-04 18:21:32",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Harvard Theatre Collection - R M Bird TCS 1.2515 - cropped",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Robert Montgomery Bird|Artworks without Wikidata item|PD Old|CC-PD-Mark|Harvard Theatre Collection",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Artist": {
+                    "value": "<div class=\"fn value\">\nPhotographer unidentified</div>",
+                    "source": "commons-desc-page"
+                  },
+                  "ImageDescription": {
+                    "value": "Cabinet card image of American author and playwright Robert Montgomery Bird (1805-1854). <a rel=\"nofollow\" class=\"external text\" href=\"http://via.lib.harvard.edu:80/via/deliver/deepLinkItem?recordId=olvwork615417&amp;componentId=FHCL.Hough:5140419\">TCS 1.2515, Harvard Theatre Collection</a>, Harvard University",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "before 1854<div style=\"display: none;\">date QS:P571,+1854-00-00T00:00:00Z/7,P1326,+1854-00-00T00:00:00Z/9</div>",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<a rel=\"nofollow\" class=\"external text\" href=\"http://via.lib.harvard.edu:80/via/deliver/deepLinkItem?recordId=olvwork615417&amp;componentId=FHCL.Hough:5140419\">TCS 1.2515, Harvard Theatre Collection</a>, Harvard University",
+                    "source": "commons-desc-page"
+                  },
+                  "Permission": {
+                    "value": "<table class=\"licensetpl\" style=\"display:none\">\n<tbody><tr>\n<td><span class=\"licensetpl_short\">Public domain</span><span class=\"licensetpl_long\">Public domain</span><span class=\"licensetpl_link_req\">false</span><span class=\"licensetpl_attr_req\">false</span>\n</td></tr></tbody></table>\n<table style=\"width: 100%; clear: both; margin: 0.5em auto; background-color: var(--background-color-progressive-subtle, #f7f8ff); color: var(--color-base, #202122); border: var(--border-subtle, 2px solid #8888aa); border-spacing: 8px; padding: 0px;\" dir=\"ltr\" class=\"layouttemplate\" lang=\"en\">\n<tbody><tr>\n<td rowspan=\"2\"><span typeof=\"mw:File\"><span title=\"Public domain\"><img alt=\"Public domain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"64\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/250px-PD-icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"196\" data-file-height=\"196\"></span></span>\n</td>\n<td>\n<p>This work is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"en:public domain\">public domain</a></b> in its country of origin and other countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright term</a> is the author's <b>life plus 70 years or fewer</b>.\n</p>\n<hr>\n<span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/40px-Dialog-warning.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/60px-Dialog-warning.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"48\" data-file-height=\"48\"></span></span> <small>You must also include a <a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_tags/Country-specific_tags#United_States_of_America\" title=\"Commons:Copyright tags/Country-specific tags\">United States public domain tag</a> to indicate why this work is in the public domain in the United States.<div class=\"navigation-not-searchable\"> Note that a few countries have copyright terms longer than 70 years: Mexico has 100 years, Jamaica has 95 years, Colombia has 80 years, and Guatemala and Samoa have 75 years. This image may <i>not</i> be in the public domain in these countries, which moreover do <i>not</i> implement the <a href=\"https://en.wikipedia.org/wiki/rule_of_the_shorter_term\" class=\"extiw\" title=\"w:rule of the shorter term\">rule of the shorter term</a>. Honduras has a general copyright term of 75 years, but it <i>does</i> implement the rule of the shorter term. Copyright may extend on works created by French who died for France in <a href=\"https://en.wikipedia.org/wiki/World_War_II\" class=\"extiw\" title=\"w:World War II\">World War II</a> (<a href=\"//commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/France\" title=\"Commons:Copyright rules by territory/France\">more information</a>), Russians who served in <a href=\"https://en.wikipedia.org/wiki/Eastern_Front_(World_War_II)\" class=\"extiw\" title=\"w:Eastern Front (World War II)\">the Eastern Front of World War II</a> (known as the Great Patriotic War in Russia) and posthumously <a href=\"https://en.wikipedia.org/wiki/Rehabilitation_(Soviet)\" class=\"extiw\" title=\"w:Rehabilitation (Soviet)\">rehabilitated</a> victims of Soviet repressions (<a href=\"//commons.wikimedia.org/wiki/Template:PD-Russia\" title=\"Template:PD-Russia\">more information</a>).</div></small>\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;font-size:x-small;line-height:140%;\"><a href=\"https://creativecommons.org/publicdomain/mark/1.0/deed.en\" class=\"extiw\" title=\"ccorg:publicdomain/mark/1.0/deed.en\">This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.</a>\n</td></tr></tbody></table><span class=\"licensetpl_link\" style=\"display:none;\">https://creativecommons.org/publicdomain/mark/1.0/</span><span class=\"licensetpl_short\" style=\"display:none;\">PDM</span><span class=\"licensetpl_long\" style=\"display:none;\">Creative Commons Public Domain Mark 1.0</span><span class=\"licensetpl_link_req\" style=\"display:none;\">false</span><span class=\"licensetpl_attr_req\" style=\"display:none;\">false</span>",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseShortName": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "false",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Copyrighted": {
+                    "value": "False",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "pd",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "townshend",
+    "original": "editorial/author-worlds/originals/townshend.jpg",
+    "original_sha256": "23b2387704fb593854ae58a89e5089e2c4445426e5282ee5bc50cadfa83916e7",
+    "file": "/assets/images/author-world-townshend.webp",
+    "sha256": "d615295abd68856b6289361721c9fa0227770b316180540720deb55a11dad0a5",
+    "width": 640,
+    "height": 885,
+    "processing": "WebP conversion and size reduction only; no generative processing",
+    "metadata": {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "154329846": {
+            "pageid": 154329846,
+            "ns": 6,
+            "title": "File:(Portrait du) Major General (Charles Vere Ferrers) Townshend - btv1b530370406.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%28Portrait_du%29_Major_General_%28Charles_Vere_Ferrers%29_Townshend_-_btv1b530370406.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:(Portrait_du)_Major_General_(Charles_Vere_Ferrers)_Townshend_-_btv1b530370406.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=154329846",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2024-10-26 04:37:19",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "<div class=\"fn\">\nPortrait du Major General Charles Vere Ferrers Townshend : photographie de presse / Agence Rol</div>",
+                    "source": "commons-desc-page"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Artworks without Wikidata item|Large images|PD-scan (PD-France)|PD-anon-expired|PD France|Files from Gallica|Images from Gallica (Bibliothèque nationale de France) uploaded by Gzen92Bot|Photographs by Agence Rol in the Bibliothèque nationale de France|1920 photographs by Agence Rol|Portrait photographs by Agence Rol|Files from Gallica needing categories (images of 1920)|Charles Vere Ferrers Townshend|Black and white photographs from Gallica",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Artist": {
+                    "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18507700\" class=\"extiw\" title=\"d:Q18507700\"><span title=\"French photo agency\">Agence Rol</span></a></bdi>",
+                    "source": "commons-desc-page"
+                  },
+                  "ImageDescription": {
+                    "value": "Sujet : Townshend, Charles Vere Ferrers (1861-1924) -- Portraits\n<p>Portraits -- 1914-1945\nRéférence bibliographique : Rol, 59158\nAppartient à l’ensemble documentaire : Pho20Rol\nImage de presse\nCouverture : .. mai 1920\n</p>\nLangue : français",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "1920<div style=\"display: none;\">date QS:P571,+1920-00-00T00:00:00Z/9</div>",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "Bibliothèque nationale de France",
+                    "source": "commons-desc-page"
+                  },
+                  "Permission": {
+                    "value": "This work was published before January 1, 1931 and it is anonymous or pseudonymous due to unknown authorship. It is in the <b><a href=\"https://en.wikipedia.org/wiki/public_domain\" class=\"extiw\" title=\"w:public domain\">public domain</a></b> in the United States as well as countries and areas where the <a href=\"https://en.wikipedia.org/wiki/List_of_countries%27_copyright_lengths\" class=\"extiw\" title=\"w:List of countries' copyright lengths\">copyright terms of anonymous or pseudonymous works</a> are <b>95 years or fewer since publication</b>.",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseShortName": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "false",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Copyrighted": {
+                    "value": "False",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "pd",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "bp",
+    "original": "editorial/author-worlds/originals/bp.jpg",
+    "original_sha256": "adaecad455e1e9e1809e0d23157c15896947a46a07a45493487f0622b779a873",
+    "file": "/assets/images/author-world-bp.webp",
+    "sha256": "0d98c857506119e97692267e3e84079ec4009f8d7329e91a716b06e5c3a4b57b",
+    "width": 640,
+    "height": 884,
+    "processing": "WebP conversion and size reduction only; no generative processing",
+    "metadata": {
+      "continue": {
+        "iistart": "2018-02-28T02:55:22Z",
+        "continue": "||"
+      },
+      "query": {
+        "pages": {
+          "66881528": {
+            "pageid": 66881528,
+            "ns": 6,
+            "title": "File:Gen. Baden Powell in uniform LCCN2014685063.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Gen._Baden_Powell_in_uniform_LCCN2014685063.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Gen._Baden_Powell_in_uniform_LCCN2014685063.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66881528",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2018-06-04 01:11:28",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Gen. Baden Powell in uniform LCCN2014685063",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Images from the Library of Congress|PD-Bain|George Grantham Bain Collection|Images uploaded by Fæ|PD US no notice|Library of Congress-no known copyright restrictions|Robert Baden-Powell, 1st Baron Baden-Powell",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "<i>Title:</i> Gen. Baden Powell in uniform\n<i>Abstract/medium:</i> 1 negative : glass ; 5 x 7 in. or smaller.",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/2014685063\">https://lccn.loc.gov/2014685063</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/service/pnp/ggbain/05000/05069v.jpg\">https://cdn.loc.gov/service/pnp/ggbain/05000/05069v.jpg</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2014685063/\">https://www.loc.gov/pictures/item/2014685063/</a></li></ul>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "Bain News Service, publisher",
+                    "source": "commons-desc-page"
+                  },
+                  "Permission": {
+                    "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/ggbain.05069\">ggbain.05069</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseShortName": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "false",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Copyrighted": {
+                    "value": "False",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "pd",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "scouts",
+    "original": "editorial/author-worlds/originals/scouts.jpg",
+    "original_sha256": "e467044749df000a4f335dcfe6d8e7a8eec251ded6c36f3a0e591ee5d25860f3",
+    "file": "/assets/images/author-world-scouts.webp",
+    "sha256": "e5a36c20fafec7bde0c061264cc4f39f604bc6fd5d874143ae9f2556bb8834f7",
+    "width": 1024,
+    "height": 745,
+    "processing": "WebP conversion and size reduction only; no generative processing",
+    "metadata": {
+      "continue": {
+        "iistart": "2018-03-01T03:41:29Z",
+        "continue": "||"
+      },
+      "query": {
+        "pages": {
+          "66921642": {
+            "pageid": 66921642,
+            "ns": 6,
+            "title": "File:E.T. Seton, Baden-Powell, and D.C. Beard LCCN2014686580.jpg",
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/E.T._Seton%2C_Baden-Powell%2C_and_D.C._Beard_LCCN2014686580.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:E.T._Seton,_Baden-Powell,_and_D.C._Beard_LCCN2014686580.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=66921642",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2018-04-07 00:58:22",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "E.T. Seton, Baden-Powell, and D.C. Beard LCCN2014686580",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Images from the Library of Congress|PD-Bain|George Grantham Bain Collection|PD-old-70-expired|Images uploaded by Fæ|CC-PD-Mark|Library of Congress-no known copyright restrictions|Robert Baden-Powell, 1st Baron Baden-Powell|PD-old missing SDC copyright status",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "<i>Title:</i> E.T. Seton, Baden-Powell, and D.C. Beard\n<i>Abstract/medium:</i> 1 negative : glass ; 5 x 7 in. or smaller.",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "1900",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<p>Library of Congress\n</p>\n<ul><li><i>Catalog:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://lccn.loc.gov/2014686580\">https://lccn.loc.gov/2014686580</a></li>\n<li><i>Image download:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://cdn.loc.gov/service/pnp/ggbain/06500/06588v.jpg\">https://cdn.loc.gov/service/pnp/ggbain/06500/06588v.jpg</a></li>\n<li><i>Original url:</i> <a rel=\"nofollow\" class=\"external free\" href=\"https://www.loc.gov/pictures/item/2014686580/\">https://www.loc.gov/pictures/item/2014686580/</a></li></ul>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "Bain News Service, publisher",
+                    "source": "commons-desc-page"
+                  },
+                  "Permission": {
+                    "value": "This image  is available from the United States <a href=\"//commons.wikimedia.org/wiki/Library_of_Congress\" title=\"Library of Congress\">Library of Congress</a>'s <a rel=\"nofollow\" class=\"external text\" href=\"//www.loc.gov/rr/print/\">Prints and Photographs division</a><br> under the digital ID <a rel=\"nofollow\" class=\"external text\" href=\"https://hdl.loc.gov/loc.pnp/ggbain.06588\">ggbain.06588</a>.<br><small>This tag does not indicate the copyright status of the attached work. <span style=\"white-space:nowrap\">A normal <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Copyright_tags\" title=\"Special:MyLanguage/Commons:Copyright tags\">copyright tag</a> is still required.</span> <span style=\"white-space:nowrap\">See <a href=\"//commons.wikimedia.org/wiki/Special:MyLanguage/Commons:Licensing\" title=\"Special:MyLanguage/Commons:Licensing\">Commons:Licensing</a>.</span></small>",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseShortName": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Public domain",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "false",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Copyrighted": {
+                    "value": "False",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "pd",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "seton-detail",
+    "parent": "scouts",
+    "file": "/assets/images/author-world-seton-detail.webp",
+    "sha256": "3b982f509529d50f967968aeefdc1f28d634ddf553258178acbff041b3b8a676",
+    "width": 235,
+    "height": 385,
+    "processing": "Documentary crop of Seton at left of group, x240 y120 w235 h385. No reconstruction or interpolation."
+  }
+]

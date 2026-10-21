@@ -1,0 +1,128 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "joshua-duke",
+  "name": "Joshua Duke",
+  "dates": "1847–1920",
+  "depth": "compact",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "LOC",
+      "title": "Library of Congress · Recollections of the Kabul Campaign",
+      "url": "https://www.loc.gov/item/23001604/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "BL",
+      "title": "British Library · Joshua Duke papers, Mss Eur C405",
+      "url": "https://searcharchives.bl.uk/catalog/032-002266026",
+      "checked": "2026-10-20",
+      "note": "Dates 1847–1920; service 1868–1902 and 1914–17; private printing 1882, commercial edition 1883."
+    },
+    {
+      "id": "RETIREMENT",
+      "title": "London Gazette · Indian Medical Service, 16 January 1903, p. 314",
+      "url": "https://www.thegazette.co.uk/London/issue/27516/page/314/data.pdf",
+      "checked": "2026-10-20",
+      "note": "Retirement of Lieutenant-Colonel Joshua Duke effective 1 November 1902."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Officer of the Bengal Medical Service; participant in the Second Anglo-Afghan War.",
+      "sources": [
+        "LOC"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Recollections of the Kabul Campaign, 1879 & 1880 published 1883.",
+      "sources": [
+        "LOC"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Life dates 1847–1920; Bengal Medical Service 1868–1902 and 1914–17; retired as lieutenant-colonel in 1902.",
+      "sources": [
+        "BL",
+        "RETIREMENT"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "OFFEN",
+      "claim": "Detailed family history, full promotion sequence and individual honours",
+      "decision": "Family details and decorations omitted; life dates and retirement rank now independently supported by the BL papers and official notice."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A medical officer’s Afghan campaign.",
+      "intro": "Duke writes from the moving army’s daily world: camps, marches, illness and the effort to keep men fit for service. The campaign becomes visible through the concerns of a medical officer.",
+      "orientation": "His account belongs to the Second Anglo-Afghan War of 1878–80. It describes the renewed fighting around Kabul after the destruction of the British residency in 1879.",
+      "origin": [],
+      "career": [
+        "Service in the Bengal Medical Service placed him within the British Indian military establishment. His recollections follow operations in which he took part, rather than assembling a later general history."
+      ],
+      "literature": [
+        "Published in 1883, the book preserves a participant’s sequence of movement and observation. The medical standpoint gives particular weight to physical endurance and the conditions of campaigning."
+      ],
+      "legacy": "Duke widens the field of military remembrance. Battles depend on bodies, transport and care as well as on orders.",
+      "bridge": "The edition brings forward the daily material of the Kabul campaign, recorded by a serving medical officer.",
+      "description": "Duke writes from the moving army’s daily world: camps, marches, illness and the effort to keep men fit for service. The campaign becomes visible through the concerns of a medical officer.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "not-available",
+    "reason": "No portrait in the existing website inventory; no unverified new likeness added.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "file": "",
+          "alt": "",
+          "modern": false
+        }
+      }
+    ]
+  },
+  "rank": {
+    "en": "Lieutenant-Colonel (retired 1902) · Bengal Medical Service"
+  }
+}

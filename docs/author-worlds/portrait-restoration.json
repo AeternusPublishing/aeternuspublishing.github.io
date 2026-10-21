@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-21",
+  "status": "restored",
+  "authority": "Direct publisher instruction in chat",
+  "portraits": [
+    {
+      "slug": "robert-baden-powell",
+      "file": "/assets/images/portrait-baden-powell.webp",
+      "sha256": "8cbef384b48b233702bd44623290cdd038e2be05714502a1ac5c1bdd7a1f28d9",
+      "caption": {
+        "de": "Koloriertes Porträt.",
+        "en": "Colourised portrait."
+      }
+    },
+    {
+      "slug": "ernest-thompson-seton",
+      "file": "/assets/images/portrait-seton-clean-20260923.webp",
+      "sha256": "fb9e1ac3fc5c2f7070f302350642c1d5c0a9a880049f429146f7ea59b3bdf90f",
+      "caption": {
+        "de": "Historisches Porträt von Ernest Thompson Seton",
+        "en": "Historical portrait of Ernest Thompson Seton"
+      }
+    },
+    {
+      "slug": "robert-montgomery-bird",
+      "file": "/assets/images/portrait-bird.webp",
+      "sha256": "6fccb2a20d8b8506be034caacdba290c555718e427388a117cfe64bbfe87b47b",
+      "caption": {
+        "de": "Historisches Porträt von Robert Montgomery Bird",
+        "en": "Historical portrait of Robert Montgomery Bird"
+      }
+    },
+    {
+      "slug": "charles-vere-ferrers-townshend",
+      "file": "/assets/images/portrait-charles-vere-ferrers-townshend.webp",
+      "sha256": "44f5925e9f9f865c7d08cbb03885a818da44613de4188318fa5ab8f1bb2b130e",
+      "caption": {
+        "de": "Rekonstruktion nach dem Porträtfrontispiz der Ausgabe von 1920.",
+        "en": "Reconstructed after the portrait frontispiece of the 1920 edition."
+      }
+    },
+    {
+      "slug": "henry-ford",
+      "file": "/assets/images/portrait-ford.webp",
+      "sha256": "e3d4626c837dc92fce5d90fd4fa03fda5883861f231e695c60968be34518da3d",
+      "caption": {
+        "de": "Henry Ford am Schreibtisch, fotografische Aufnahme",
+        "en": "Henry Ford at his desk, photographic portrait"
+      }
+    },
+    {
+      "slug": "lady-florentia-sale",
+      "file": "/assets/images/portrait-sale.webp",
+      "sha256": "b879618531407d2ce7fd50c3f122bec791475420d143c1cc48de7128beeaf92c",
+      "caption": {
+        "de": "Porträt von Lady Florentia Sale",
+        "en": "Portrait of Lady Florentia Sale"
+      }
+    },
+    {
+      "slug": "george-washington-sears",
+      "file": "/assets/images/portrait-sears.webp",
+      "sha256": "fa3283ea8a2f49c0d8f1e655dca64de0621bbd0ca1b26df71cdaaa6813f6df42",
+      "caption": {
+        "de": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",
+        "en": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887"
+      }
+    },
+    {
+      "slug": "francis-parkman",
+      "file": "/assets/images/portrait-parkman.webp",
+      "sha256": "b74f66d22feaee2cfae605e4ce43008108ce2cc2a0151d1693b2dc04f312fb0b",
+      "caption": {
+        "de": "Historische Fotografie; digital restauriert, teilweise rekonstruiert und vergrößert.",
+        "en": "Historical photograph; digitally restored, partly reconstructed and enlarged."
+      }
+    },
+    {
+      "slug": "james-hall",
+      "file": "/assets/images/portrait-hall.webp",
+      "sha256": "ddf62792c9883c1b05f014ac946a3ed2f8a42ba3cd567cba3278f1583ceb2bd2",
+      "caption": {
+        "de": "James Hall. J. C. Buttre nach J. O. Eaton, Frontispiz, 1857.",
+        "en": "James Hall. J. C. Buttre after J. O. Eaton, frontispiece, 1857."
+      }
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "file": "/assets/images/portrait-beard.webp",
+      "sha256": "c2a5b71f43f8f98922bac1ad5b90770a3799191f3c936697abfd8a262619d38e",
+      "caption": {
+        "de": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress.",
+        "en": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress."
+      }
+    },
+    {
+      "slug": "henry-rider-haggard",
+      "file": "/assets/images/portrait-haggard.webp",
+      "sha256": "366c2dfe56a9d288865dfb16423a8c1bc69e938b5ac8437e9121e81c972e5c27",
+      "caption": {
+        "de": "Historisches Porträt von Henry Rider Haggard",
+        "en": "Historical portrait of Henry Rider Haggard"
+      }
+    },
+    {
+      "slug": "richard-jefferies",
+      "file": "/assets/images/portrait-jefferies.webp",
+      "sha256": "efa7f6fe0c09112ebf99dec1e19e41ee8ed18e0f1871aec60c21b40911c2b5a5",
+      "caption": {
+        "de": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888.",
+        "en": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888."
+      }
+    },
+    {
+      "slug": "charles-brockden-brown",
+      "file": "/assets/images/portrait-charles-brockden-brown.webp",
+      "sha256": "cb83b4ce41134cce2f0b4a3bd10b5ff49ffa8bae87558a10c40a62e18a9ac943",
+      "caption": {
+        "de": "Charles Brockden Brown",
+        "en": "Charles Brockden Brown, pastel by James Sharples, about 1798"
+      }
+    },
+    {
+      "slug": "james-b-gillett",
+      "file": "/assets/images/portrait-gillett.webp",
+      "sha256": "9fc163b88dbac5579347c7092a31a586d85e3c4d0824598a5c2df527b12027d2",
+      "caption": {
+        "de": "James B. Gillett als Texas Ranger, historisches Autorenporträt",
+        "en": "James B. Gillett as a Texas Ranger, historical author portrait"
+      }
+    },
+    {
+      "slug": "james-j-hill",
+      "file": "/assets/images/portrait-hill.webp",
+      "sha256": "1779242c41e143d8d4d5bfa4d442536ebd3c81ba480354820de4d7213094587e",
+      "caption": {
+        "de": "James J. Hill, historisches fotografisches Porträt",
+        "en": "James J. Hill, photographic portrait from Famous Living Americans, 1914"
+      }
+    },
+    {
+      "slug": "francis-younghusband",
+      "file": "/assets/images/portrait-younghusband.webp",
+      "sha256": "f34842692dd5d3b44ec0338cb1beb27a7b555af618bc4358b7a06e61dd876e1d",
+      "caption": {
+        "de": "Francis Edward Younghusband",
+        "en": "Sir Francis Younghusband, historical photographic portrait"
+      }
+    },
+    {
+      "slug": "robert-louis-stevenson",
+      "file": "/assets/images/portrait-stevenson.webp",
+      "sha256": "2ea691bc3333890a6907061bd304009a64b560a2db57b2af14901a3020aee4b1",
+      "caption": {
+        "de": "Porträt am Schreibtisch; Rekonstruktion nach dem Fotogravüre-Frontispiz seiner Briefe von 1899.",
+        "en": "Portrait at his writing desk; reconstructed after the photogravure frontispiece of his Letters, 1899."
+      }
+    },
+    {
+      "slug": "charles-william-wilson",
+      "file": "/assets/images/portrait-wilson.webp",
+      "sha256": "a55544207d26ec01ea271bc02ddd5f4eabbbd8c47367a9b6c1886619d15768f8",
+      "caption": {
+        "de": "Charles William Wilson",
+        "en": "Sir Charles William Wilson, photograph by Lafayette of Dublin, from Watson's Life of 1909"
+      }
+    },
+    {
+      "slug": "grey-owl",
+      "file": "/assets/images/portrait-grey-owl.webp",
+      "sha256": "465f9fde34dc3acd3e4b6ceaf8ee48a0d3b4eb4cdd36a992619340d9549b343d",
+      "caption": {
+        "de": "Archibald Stansfeld Belaney · Grey Owl",
+        "en": "Grey Owl (Archibald Stansfeld Belaney), photograph from the first edition, 1931"
+      }
+    },
+    {
+      "slug": "william-gilmore-simms",
+      "file": "/assets/images/portrait-wgs001-npg-95-20-20261008.webp",
+      "sha256": "7659950d052711bc52e481f9b32cc3b4990902b89ae02a9e212c2d4e25021f43",
+      "caption": {
+        "de": "William Gilmore Simms",
+        "en": "William Gilmore Simms. Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
+      }
+    },
+    {
+      "slug": "arthur-conan-doyle",
+      "file": "/assets/images/portrait-acd-doyle-20261008.webp",
+      "sha256": "fb177092dad3d8961cc7e3d3447d88676b76b24785deb4f688e098e004640ae4",
+      "caption": {
+        "de": "Porträt am Schreibtisch; Rekonstruktion nach einer Fotografie.",
+        "en": "Portrait at his writing desk; reconstructed after a photograph."
+      }
+    },
+    {
+      "slug": "james-fenimore-cooper",
+      "file": "/assets/images/portrait-coo-cooper-jarvis-1822-20261008.webp",
+      "sha256": "c3ccacb3a61873a1f8ee934935079967717a87c8007ff518299e4bbc357aca53",
+      "caption": {
+        "de": "James Fenimore Cooper",
+        "en": "James Fenimore Cooper, portrait by John Wesley Jarvis, 1822"
+      }
+    },
+    {
+      "slug": "tappan-adney",
+      "file": "/assets/images/portrait-edwin-tappan-adney.webp",
+      "sha256": "8b7cfc224de9d592f547879747447e705f158299628d9679e43300e21f5fe39c",
+      "caption": {
+        "de": "Edwin Tappan Adney",
+        "en": "Portrait of Edwin Tappan Adney"
+      }
+    },
+    {
+      "slug": "george-arthur",
+      "file": "/assets/images/portrait-george-arthur-bassano-1920.webp",
+      "sha256": "44c8254796f122fa64017d55a517c14c5314243f1fc4d6fb7ec63814aea0bb18",
+      "caption": {
+        "de": "George Arthur",
+        "en": "Photographic portrait of Sir George Arthur"
+      }
+    },
+    {
+      "slug": "william-robertson",
+      "file": "/assets/images/portrait-william-robertson-1917.png",
+      "sha256": "47878c6d731e93b0b370e465fc64370de694a6c05b3a4ad7a155cc2b859ba5ac",
+      "caption": {
+        "de": "Elliott & Fry, 1917; koloriert.",
+        "en": "Elliott & Fry, 1917; colourised."
+      }
+    },
+    {
+      "slug": "charles-edward-callwell",
+      "file": "/assets/images/author-charles-edward-callwell-color-20261018.jpg",
+      "sha256": "148bb7cd023f1d91c2cd14a1f84b82d3743a4383fff76c8e0c66ef562960fb58",
+      "caption": {
+        "de": "Koloriertes Porträt.",
+        "en": "Colourised portrait."
+      }
+    },
+    {
+      "slug": "melliss",
+      "file": "/assets/images/author-melliss-v2-20261015.jpg",
+      "sha256": "7296bc6d7e377dccfbf0a44eb8e0dccdac48e56f4907629f64969549939f5c98",
+      "caption": {
+        "de": "Charles John Melliss",
+        "en": "Charles John Melliss"
+      }
+    },
+    {
+      "slug": "theodore-roosevelt",
+      "file": "/assets/images/portrait-roosevelt.webp",
+      "sha256": "90e0c12d04b1a570a24b2dce88173234cf8616f8ad1eba15672af70015968678",
+      "caption": {
+        "de": "Theodore Roosevelt nach dem Gemälde von Philip Alexius de László, 1908",
+        "en": "Theodore Roosevelt, after the portrait by Philip Alexius de László, 1908"
+      }
+    },
+    {
+      "slug": "tacitus",
+      "file": "/assets/images/portrait-tacitus-umschlag.webp",
+      "sha256": "6bfb7c33c6231787ba94853c960e8771ec2495562afae297dfe926bb344c691a",
+      "caption": {
+        "de": "Künstlerische Rekonstruktion; Umschlagmotiv der AETERNUS-Ausgabe.",
+        "en": "Artistic reconstruction; cover artwork of the AETERNUS edition."
+      }
+    },
+    {
+      "slug": "felix-salten",
+      "file": "/assets/images/portrait-salten.webp",
+      "sha256": "c35bf294bcbc41a3c1f146eef8edb82dace3d7d753f3b76271d2a24a077f1c47",
+      "caption": {
+        "de": "Felix Salten, historische Fotografie von Ferdinand Schmutzer, um 1910",
+        "en": "Felix Salten · Siegmund Salzmann"
+      }
+    },
+    {
+      "slug": "carlo-collodi",
+      "file": "/assets/images/portrait-collodi.jpg",
+      "sha256": "a455120720daeb4affe88c3b6e215c2b52a442b4087d9b56f1eeb41d24367c9e",
+      "caption": {
+        "de": "Carlo Collodi, historischer Stich nach einer Fotografie von Montabone, 1890",
+        "en": "Carlo Lorenzini · Carlo Collodi"
+      }
+    },
+    {
+      "slug": "banastre-tarleton",
+      "file": "/assets/images/portrait-tarleton.webp",
+      "sha256": "850ed037310dfd036819e04fb97e3e84b69de60ed6dd8b963abe4930a86b94f2",
+      "caption": {
+        "de": "Banastre Tarleton nach dem Gemälde von Joshua Reynolds, 1782",
+        "en": "Banastre Tarleton"
+      }
+    },
+    {
+      "slug": "johanna-spyri",
+      "file": "/assets/images/portrait-spyri.webp",
+      "sha256": "8010f98e9c54dc53e5e65e99aa61a6cbc68325bc1d991b01659e9070677ce3cc",
+      "caption": {
+        "de": "Johanna Spyri, historische Fotografie um 1890",
+        "en": "Johanna Spyri"
+      }
+    },
+    {
+      "slug": "rudyard-kipling",
+      "file": "/assets/images/portrait-kipling.webp",
+      "sha256": "1521cdd50380e89bc7ff5256d6a48125d291159524ea64b6044d1cd342cf9fa9",
+      "caption": {
+        "de": "Rudyard Kipling, historisches Autorenporträt",
+        "en": "Joseph Rudyard Kipling"
+      }
+    },
+    {
+      "slug": "werner-von-siemens",
+      "file": "/assets/images/portrait-siemens.webp",
+      "sha256": "8550e95870cd5784fac7241b8fdbf70acd1b28f2a4627d63347cea959600d565",
+      "caption": {
+        "de": "Werner von Siemens, Heliogravüre aus der Erstausgabe der Lebenserinnerungen, 1892",
+        "en": "Ernst Werner von Siemens"
+      }
+    }
+  ]
+}

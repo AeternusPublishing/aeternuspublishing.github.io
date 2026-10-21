@@ -1,0 +1,148 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "george-washington-sears",
+  "name": "George Washington Sears",
+  "dates": "1821–1890",
+  "depth": "compact",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "WOODCRAFT",
+      "title": "George W. Sears · Woodcraft (1884)",
+      "url": "https://www.gutenberg.org/ebooks/24579",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "LOCAL",
+      "title": "Nessmuk · Biographical outline",
+      "url": "https://www.nessmuksltd.com/who-is-nessmuk",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Sears wrote as Nessmuk; lived 1821–1890.",
+      "sources": [
+        "WOODCRAFT",
+        "LOCAL"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Woodcraft (1884) treats lightweight equipment, camping, cooking and travel.",
+      "sources": [
+        "WOODCRAFT",
+        "LOCAL"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Travel light enough to notice the country.",
+      "intro": "Writing as Nessmuk, Sears made a case for going into the woods with less. His subject was the practical freedom won by a light pack, a manageable boat and knowledge that could take the place of equipment.",
+      "orientation": "Woodcraft belongs to the nineteenth-century world of American sporting journals and woodland travel. Its small scale is deliberate: a camp, a fire, a meal and the judgement of one traveller.",
+      "origin": [],
+      "career": [
+        "His journeys and outdoor journalism supplied material for a handbook built around use rather than display. The experienced camper speaks through preferences tested in the field."
+      ],
+      "literature": [
+        "Woodcraft organises shelter, tools, food and movement into a readable art of living outdoors. Particular recommendations belong to their period; the larger argument concerns proportion between means and purpose."
+      ],
+      "legacy": "Nessmuk’s enduring appeal is the independence of his practical judgement. He makes room for the landscape by reducing the burden carried through it.",
+      "bridge": "The handbook leads directly from the author’s experience to the work of making a camp.",
+      "description": "Writing as Nessmuk, Sears made a case for going into the woods with less. His subject was the practical freedom won by a light pack, a manageable boat and knowledge that could take the place of equipment.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    },
+    "de": {
+      "tagline": "Leicht genug reisen, um die Landschaft wahrzunehmen.",
+      "intro": "Unter dem Namen Nessmuk warb Sears für den Weg in den Wald mit geringer Last. Ein leichtes Gepäck, ein handliches Boot und erworbene Kenntnisse sollten die Bewegungsfreiheit des Reisenden sichern.",
+      "orientation": "Woodcraft gehört in die Welt amerikanischer Jagd- und Freiluftzeitschriften des 19. Jahrhunderts. Der kleine Maßstab ist Absicht: ein Lager, ein Feuer, eine Mahlzeit und das Urteil eines einzelnen Reisenden.",
+      "origin": [],
+      "career": [
+        "Reisen und Freiluftjournalismus lieferten den Stoff für ein Handbuch, das den Gebrauch über die Schaustellung stellt. Hinter seinen Vorlieben steht die erprobte Erfahrung des Lagerlebens."
+      ],
+      "literature": [
+        "Woodcraft ordnet Unterkunft, Werkzeug, Nahrung und Fortbewegung zu einer lesbaren Kunst des Lebens im Freien. Einzelne Empfehlungen sind ihrer Zeit verpflichtet; der größere Gedanke betrifft das Verhältnis zwischen Aufwand und Zweck."
+      ],
+      "legacy": "Nessmuks bleibender Reiz liegt in der Unabhängigkeit seines praktischen Urteils. Wer die Last verringert, gewinnt Aufmerksamkeit für das Land, durch das er zieht.",
+      "bridge": "Das Handbuch verbindet die Erfahrung des Autors unmittelbar mit der Arbeit am eigenen Lager.",
+      "description": "Unter dem Namen Nessmuk warb Sears für den Weg in den Wald mit geringer Last. Ein leichtes Gepäck, ein handliches Boot und erworbene Kenntnisse sollten die Bewegungsfreiheit des Reisenden sichern.",
+      "claimRefs": [
+        "F01",
+        "F02"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-sears.webp",
+    "caption": {
+      "de": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",
+      "en": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "fa3283ea8a2f49c0d8f1e655dca64de0621bbd0ca1b26df71cdaaa6813f6df42"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-sears",
+          "alt": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-sears",
+          "alt": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-sears",
+          "alt": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887",
+          "modern": true
+        }
+      }
+    ]
+  }
+}

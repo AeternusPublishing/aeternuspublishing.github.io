@@ -1,0 +1,127 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "tappan-adney",
+  "name": "Edwin Tappan Adney",
+  "dates": "1868–1950",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "DCB",
+      "title": "Dictionary of Canadian Biography · Minnie Bell Sharp (Adney)",
+      "url": "https://www.biographi.ca/en/bio/9168?revision_id=30559",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "CANOES",
+      "title": "Smithsonian Institution · The Bark Canoes and Skin Boats of North America (1964), introductory biography",
+      "url": "https://www.gutenberg.org/cache/epub/50828/pg50828-images.html",
+      "checked": "2026-10-20",
+      "note": "Smithsonian bulletin; biographical introduction and Adney’s documented canoe-building work."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Artist, reporter and student of birchbark canoes, 1868–1950.",
+      "sources": [
+        "DCB",
+        "CANOES"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Reported the Klondike gold rush; The Klondike Stampede published 1900.",
+      "sources": [
+        "DCB",
+        "CANOES"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Worked in New Brunswick and documented indigenous canoe-building traditions.",
+      "sources": [
+        "DCB",
+        "CANOES"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A gold rush observed with the eye of a draughtsman.",
+      "intro": "Adney brought drawing, reporting and close description to the Klondike. In a movement crowded with rumours of sudden wealth, he attended to the routes, work and makeshift arrangements by which people actually reached the diggings.",
+      "orientation": "His life extended well beyond gold-rush reporting. The study of birchbark canoes and their builders gave his visual precision another, lasting field.",
+      "origin": [
+        "Born in the United States, he developed strong ties to New Brunswick. Art and natural history formed the background to his work as an observer."
+      ],
+      "career": [
+        "The Yukon journey placed him inside the gold rush as a reporter. Later work preserved detailed knowledge of canoe construction and indigenous technical traditions."
+      ],
+      "literature": [
+        "The Klondike Stampede combines the eyewitness narrative with the illustrator’s power to make a process visible. Equipment and labour keep the story close to the ground."
+      ],
+      "legacy": "Adney’s value lies in his resistance to the vague picture. A route, a boat or a method of working becomes something that can be understood in detail.",
+      "bridge": "The book follows the gold rush through the material experience of travel and labour.",
+      "description": "Adney brought drawing, reporting and close description to the Klondike. In a movement crowded with rumours of sudden wealth, he attended to the routes, work and makeshift arrangements by which people actually reached the diggings.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-edwin-tappan-adney.webp",
+    "caption": {
+      "de": "Edwin Tappan Adney",
+      "en": "Portrait of Edwin Tappan Adney"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "8b7cfc224de9d592f547879747447e705f158299628d9679e43300e21f5fe39c"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "file": "portrait-edwin-tappan-adney",
+          "alt": "Portrait of Edwin Tappan Adney"
+        },
+        "caption": "Edwin Tappan Adney, born 1868 at Athens, Ohio, United States, died 1950 at Upper Woodstock, New Brunswick, Canada."
+      }
+    ]
+  }
+}

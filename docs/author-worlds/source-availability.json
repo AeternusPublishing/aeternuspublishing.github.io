@@ -1,0 +1,1192 @@
+{
+  "checked": "2026-10-20",
+  "method": "One bounded public GET per distinct reference, 4 workers, 12-second timeout, first 160kB only. Availability probe; not a truth assessment or full source preservation. Search-index or web-tool readings are separately described in each source note.",
+  "sources": [
+    {
+      "url": "https://www.arthur-conan-doyle.com/wiki/Biography",
+      "authors": [
+        "arthur-conan-doyle"
+      ],
+      "status": 200,
+      "resolved": "https://www.arthur-conan-doyle.com/wiki/Biography",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Biography - The Arthur Conan Doyle Encyclopedia",
+      "sample_sha256": "64a3f5d5ea4e1a342499c4b396b650d2c859524fae0cbab6f458c70350808f2c",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.arthurconandoyle.com/",
+      "authors": [
+        "arthur-conan-doyle"
+      ],
+      "status": 200,
+      "resolved": "https://www.arthurconandoyle.com/",
+      "content_type": "text/html",
+      "title": "Arthur Conan Doyle Characters ...",
+      "sample_sha256": "06b4e5085667d3c3e8fafc5963187c1dd47e92a12bf97af443945eaef649d620",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.arthur-conan-doyle.com/index.php/Chronology",
+      "authors": [
+        "arthur-conan-doyle"
+      ],
+      "status": 200,
+      "resolved": "https://www.arthur-conan-doyle.com/wiki/Chronology",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Chronology - The Arthur Conan Doyle Encyclopedia",
+      "sample_sha256": "1ac0d11d0921a36051332c34d8f79110316aa6756671ce78a715a27b022a57b8",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1987-09-22-1",
+      "authors": [
+        "banastre-tarleton"
+      ],
+      "error": "ReadTimeout",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nps.gov/cowp/learn/historyculture/the-battle-of-cowpens.htm",
+      "authors": [
+        "banastre-tarleton"
+      ],
+      "status": 200,
+      "resolved": "https://www.nps.gov/cowp/learn/historyculture/the-battle-of-cowpens.htm",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "The Battle of Cowpens - Cowpens National Battlefield (U.S. National Park Service)",
+      "sample_sha256": "f3f7aaebbe8da81a7383b66445aecbace570113919dcbf93010ec10c3127ae0e",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.treccani.it/enciclopedia/carlo-lorenzini/",
+      "authors": [
+        "carlo-collodi"
+      ],
+      "status": 200,
+      "resolved": "https://www.treccani.it/enciclopedia/carlo-lorenzini/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Lorenzini, Carlo - Enciclopedia - Treccani",
+      "sample_sha256": "49b5d0c6f99c59ba28768617a84dc8a7626ec7225c4bb11ea70fc736d83dc96c",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.raicultura.it/speciali/pinocchio",
+      "authors": [
+        "carlo-collodi"
+      ],
+      "status": 200,
+      "resolved": "https://www.raicultura.it/speciali/pinocchio",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Pinocchio - Rai Cultura",
+      "sample_sha256": "44de09b0582f21a3ecc0686e04c18e50e5971ad167fd4498fd7ab9efd9344e31",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.librarycompany.org/gothic/brown.htm",
+      "authors": [
+        "charles-brockden-brown"
+      ],
+      "status": 403,
+      "resolved": "https://www.librarycompany.org/gothic/brown.htm",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "sample_sha256": "db9b8bb1652b8b1f8ff5ebd8a680572b8fc2639eff36aae9b07ce3afc1c8ed25",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://www.ibiblio.org/hyperwar/NHC/small_wars/small_wars.htm",
+      "authors": [
+        "charles-edward-callwell"
+      ],
+      "status": 200,
+      "resolved": "https://www.ibiblio.org/hyperwar/NHC/small_wars/small_wars.htm",
+      "content_type": "text/html; charset=ISO-8859-1",
+      "title": "Small Wars",
+      "sample_sha256": "4b02372c6c255dfc824c1cde9d5fd78daf4409dc78c92ccd109fd754b4f6f720",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/abs/charles-e-callwell-and-the-british-way-in-warfare/an-art-by-itself-charles-callwell-and-small-wars/4797A5F6D289F817B3038811114EC6A1",
+      "authors": [
+        "charles-edward-callwell"
+      ],
+      "status": 200,
+      "resolved": "https://www.cambridge.org/core/books/abs/charles-e-callwell-and-the-british-way-in-warfare/an-art-by-itself-charles-callwell-and-small-wars/4797A5F6D289F817B3038811114EC6A1",
+      "content_type": "text/html; charset=utf-8",
+      "title": "‘An Art by Itself’: Charles Callwell and Small Wars (Chapter 2) - Charles E. Callwell and the British Way in Warfare",
+      "sample_sha256": "4d8eef8512bacb157fcd50d10376325ab7e40c0ea030dc01722724d307303a2d",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thegazette.co.uk/London/issue/30891/supplement/10645/data.pdf",
+      "authors": [
+        "charles-edward-callwell",
+        "william-robertson"
+      ],
+      "status": 200,
+      "resolved": "https://www.thegazette.co.uk/London/issue/30891/supplement/10645/data.pdf",
+      "content_type": "application/pdf;charset=UTF-8",
+      "title": null,
+      "sample_sha256": "228dc104ad5b5dd9319033dbc9f418c81c897c525ee692e3e0dc743a2817b598",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://atom.aim25.com/index.php/townshend-maj-gen-sir-charles-vere-ferrers-1861-1924-2",
+      "authors": [
+        "charles-vere-ferrers-townshend"
+      ],
+      "status": 200,
+      "resolved": "https://atom.aim25.com/index.php/townshend-maj-gen-sir-charles-vere-ferrers-1861-1924-2",
+      "content_type": "text/html; charset=utf-8",
+      "title": "TOWNSHEND, Maj Gen Sir Charles Vere Ferrers (1861- 1924) - AIM25 - AtoM 2.8.2",
+      "sample_sha256": "8aa08b9dbc493b70f7d2b7f212be748535a2088e8a8e21c9879054edd3d51c76",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nam.ac.uk/explore/mesopotamia-campaign",
+      "authors": [
+        "charles-vere-ferrers-townshend"
+      ],
+      "status": 200,
+      "resolved": "https://www.nam.ac.uk/explore/mesopotamia-campaign",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Mesopotamia campaign | National Army Museum",
+      "sample_sha256": "08000b0f207908929cedc8c161834fde8912182b6ef8545d25c05eaffc4ae90d",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nam.ac.uk/explore/their-own-words-major-general-sir-charles-melliss",
+      "authors": [
+        "charles-vere-ferrers-townshend",
+        "melliss"
+      ],
+      "status": 200,
+      "resolved": "https://www.nam.ac.uk/explore/their-own-words-major-general-sir-charles-melliss",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "In Their Own Words: Major General Sir Charles Melliss VC | National Army Museum",
+      "sample_sha256": "fde8884bfc2a25d915478780247051ddf0e93ca5144d1d875d56b0faccef9a4c",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thegazette.co.uk/London/issue/26644/page/4021/data.pdf",
+      "authors": [
+        "charles-vere-ferrers-townshend"
+      ],
+      "status": 200,
+      "resolved": "https://www.thegazette.co.uk/London/issue/26644/page/4021/data.pdf",
+      "content_type": "application/pdf;charset=UTF-8",
+      "title": null,
+      "sample_sha256": "8ec228e3a0cc2fbad0335969fbb1f4724e06cc1d7ec566fe8e918d0c71421c93",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dictionary_of_Indian_biography%3B_%28IA_dictionaryofindi00buck%29.pdf",
+      "authors": [
+        "charles-vere-ferrers-townshend",
+        "henry-doveton-hutchinson"
+      ],
+      "status": 429,
+      "resolved": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dictionary_of_Indian_biography%3B_%28IA_dictionaryofindi00buck%29.pdf",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Wikimedia Error",
+      "sample_sha256": "19e575f4ddc14191bf155a305923a633a7fb9739c894c38d3093e5aa18009785",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Wilson,_Charles_William",
+      "authors": [
+        "charles-william-wilson"
+      ],
+      "status": 200,
+      "resolved": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Wilson,_Charles_William",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Dictionary of National Biography, 1912 supplement/Wilson, Charles William - Wikisource, the free online library",
+      "sample_sha256": "b87bd00a805678d1347361b4bd148089133d32fb4d5168cdb66220178aefdd3d",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://archive.org/details/fromkortitokhart00wilsrich",
+      "authors": [
+        "charles-william-wilson"
+      ],
+      "status": 200,
+      "resolved": "https://archive.org/details/fromkortitokhart00wilsrich",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "From Korti to Khartum ; a journal of the desert march from Korti to Gubat and of the ascent of the Nile in General Gordon's steamers : Wilson, Charles W : Free Download, Borrow, and Streaming : Internet Archive",
+      "sample_sha256": "7d7e83d323cfdc15974c8ffab2f4b4fa8f97b40fa486b2125f72cf9a48dfa272",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://oa-scouting.org/history/daniel-carter-beard",
+      "authors": [
+        "daniel-carter-beard"
+      ],
+      "status": 200,
+      "resolved": "https://oa-scouting.org/history/daniel-carter-beard",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Daniel Carter Beard | Order of the Arrow, Scouting America",
+      "sample_sha256": "f507bb2f402090d243a5125497c3e75d2f0cbda554d809fb8b3f4fe6b125adb3",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://danbeard.org/history/",
+      "authors": [
+        "daniel-carter-beard"
+      ],
+      "status": 200,
+      "resolved": "https://danbeard.org/history/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "History - Dan Beard Council, Scouting America",
+      "sample_sha256": "9f172ed5df4369a86416695b5b0cc50b7b2cf2857ff615425192dd5ee1c45e63",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms013036/ms013036.pdf",
+      "authors": [
+        "daniel-carter-beard"
+      ],
+      "status": 200,
+      "resolved": "https://tile.loc.gov/storage-services/service/gdc/gdcfindingaidpdfs/ms013036/ms013036.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "c0a160d9646f290d513f6e9460ce51f12ad5ad7cbee3d5436de777046177274b",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://etsetoninstitute.org/about-seton/biography/biography-2/",
+      "authors": [
+        "ernest-thompson-seton"
+      ],
+      "status": 200,
+      "resolved": "https://etsetoninstitute.org/about-seton/biography/biography-2/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Biography - Ernest Thompson Seton Institute",
+      "sample_sha256": "5c29ef6a966ddd386b6bb1599cd006bcadfee629414074ecaf001ded9cf4fe3b",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://etsetoninstitute.org/seton-and-the-boy-scouts/",
+      "authors": [
+        "ernest-thompson-seton"
+      ],
+      "status": 200,
+      "resolved": "https://etsetoninstitute.org/seton-and-the-boy-scouts/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Seton and Scouting America (aka Boy Scouts of America) - Ernest Thompson Seton Institute",
+      "sample_sha256": "12287acb39744db4e8d4a56f18d467cc81ecd87e637d1b891adbc27b9dd25169",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://data2.archives.ca/pdf/pdf002/p000003951.pdf",
+      "authors": [
+        "ernest-thompson-seton"
+      ],
+      "status": 200,
+      "resolved": "https://data2.archives.ca/pdf/pdf002/p000003951.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "8eb668b72f27f23900915fe507bb1caf3f37036f0826f3134ad833d665b8653e",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://etsetoninstitute.org/awards/",
+      "authors": [
+        "ernest-thompson-seton"
+      ],
+      "status": 200,
+      "resolved": "https://etsetoninstitute.org/awards/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Awards and Honors Held by Seton - Ernest Thompson Seton Institute",
+      "sample_sha256": "7be98a2c93fe656b2c3e472a7f66f31f91ccbfdb1c89b5c27159b8a69b2b948b",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.wienbibliothek.at/sites/default/files/files/Presseinformation_Salten_wienbibliothek.pdf",
+      "authors": [
+        "felix-salten"
+      ],
+      "status": 404,
+      "resolved": "https://www.wienbibliothek.at/sites/default/files/files/Presseinformation_Salten_wienbibliothek.pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Seite nicht gefunden | Wienbibliothek im Rathaus",
+      "sample_sha256": "14b2e2f7e7160737ef0e32b027384096f179f476f2b57659359ddcbc329b4dab",
+      "active_reference": false,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nps.gov/oreg/learn/historyculture/upload/NPS-HRS-Biblio-Update2015-web.pdf",
+      "authors": [
+        "francis-parkman"
+      ],
+      "status": 200,
+      "resolved": "https://www.nps.gov/oreg/learn/historyculture/upload/NPS-HRS-Biblio-Update2015-web.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "50177480227c05718f8276ad709637ce555d675353737b3c2824ce181b7fed5c",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/1015",
+      "authors": [
+        "francis-parkman"
+      ],
+      "status": 200,
+      "resolved": "https://www.gutenberg.org/ebooks/1015",
+      "content_type": "text/html;charset=utf-8",
+      "title": null,
+      "sample_sha256": "11ec95724aa05342c040959bca873b3cbdd9a9b0ca6e3b4741f0e1feef08dbbe",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://warwick.ac.uk/services/library/mrc/collections/digital/younghusband/people/",
+      "authors": [
+        "francis-younghusband"
+      ],
+      "status": 200,
+      "resolved": "https://warwick.ac.uk/services/library/mrc/collections/digital/younghusband/people/",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Who's Who in the Younghusband diaries",
+      "sample_sha256": "b53aea2f1f236aac8eb23521b7d36c6ec45239d0be9c46a7807f751963764d09",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.rgs.org/media/glmb2es0/gold-medalists-1832-2026.pdf",
+      "authors": [
+        "francis-younghusband"
+      ],
+      "status": 200,
+      "resolved": "https://www.rgs.org/media/glmb2es0/gold-medalists-1832-2026.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "dbc42d869560e7437ded24182a67b85d4fb71b2e35315aec057b7de83b4bc630",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/LIB27106",
+      "authors": [
+        "george-arthur"
+      ],
+      "status": 200,
+      "resolved": "https://www.awm.gov.au/collection/LIB27106",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Life of Lord Kitchener / by Sir George Arthur. | Australian War Memorial",
+      "sample_sha256": "afb1bba311a8934cc55fd50869e2e71e39b76a626dbc96e4632b13e758a60aaf",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://archive.org/details/lifeoflordkitche02arth",
+      "authors": [
+        "george-arthur"
+      ],
+      "status": 200,
+      "resolved": "https://archive.org/details/lifeoflordkitche02arth",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Life of Lord Kitchener : Arthur, George, Sir, 1860-1946 : Free Download, Borrow, and Streaming : Internet Archive",
+      "sample_sha256": "31524e65d42254f90748d5b184260694ede0ee5742fe05b402cf013e5b694bf8",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gleig,_George_Robert",
+      "authors": [
+        "george-robert-gleig"
+      ],
+      "status": 200,
+      "resolved": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gleig,_George_Robert",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Dictionary of National Biography, 1885-1900/Gleig, George Robert - Wikisource, the free online library",
+      "sample_sha256": "b3338373de42976ca4bcb3b285c4ac8e6a6a301e11ffa491bc4633487f9b79df",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/24579",
+      "authors": [
+        "george-washington-sears"
+      ],
+      "status": 200,
+      "resolved": "https://www.gutenberg.org/ebooks/24579",
+      "content_type": "text/html;charset=utf-8",
+      "title": "Woodcraft by George Washington Sears | Project Gutenberg",
+      "sample_sha256": "5356c3a8b6bbde9f91849f91c0f7b83330451d152a245ed16ec32b4cc8f74752",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nessmuksltd.com/who-is-nessmuk",
+      "authors": [
+        "george-washington-sears"
+      ],
+      "status": 200,
+      "resolved": "https://www.nessmuksltd.com/who-is-nessmuk",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Who Is Nessmuk? | Nessmuk's Sporting Goods",
+      "sample_sha256": "af75236f8fed0a84907e210b33d7b0c2e2dbbe39ec2723545f33845d48c2fedb",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://parks.canada.ca/~/media/pn-np/sk/princealbert/pdf/greyowl_e.ashx",
+      "authors": [
+        "grey-owl"
+      ],
+      "status": 200,
+      "resolved": "https://parks.canada.ca/~/media/pn-np/sk/princealbert/pdf/greyowl_e.ashx",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "71843c73d256a3af6d55d913e795899ec15160fda91690f39bf1d90f152dc2af",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://parks.canada.ca/pn-np/sk/princealbert/culture/histoire-history",
+      "authors": [
+        "grey-owl"
+      ],
+      "status": 200,
+      "resolved": "https://parks.canada.ca/pn-np/sk/princealbert/culture/histoire-history",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Archibald Belaney and Gertrude Bernard (Grey Owl and Anahareo) - Prince Albert National Park",
+      "sample_sha256": "4a9feb9f022f035ad26f771b236aca01b70d06686f77e3ff4cfd8e752664359a",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_campaign_in_Tirah,_1897-1898;_an_account_of_the_expedition_against_the_Orakzais_and_Afridis_under_General_Sir_William_Lockhart,_based_(by_permission)_on_letters_contributed_to_%CA%BBThe_Times%CA%BE_(IA_cu31924028659575).pdf",
+      "authors": [
+        "henry-doveton-hutchinson"
+      ],
+      "status": 200,
+      "resolved": "https://commons.wikimedia.org/wiki/File:The_campaign_in_Tirah,_1897-1898;_an_account_of_the_expedition_against_the_Orakzais_and_Afridis_under_General_Sir_William_Lockhart,_based_(by_permission)_on_letters_contributed_to_%CA%BBThe_Times%CA%BE_(IA_cu31924028659575).pdf",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "File:The campaign in Tirah, 1897-1898; an account of the expedition against the Orakzais and Afridis under General Sir William Lockhart, based (by permission) on letters contributed to ʻThe Timesʾ (IA cu31924028659575).pdf - Wikimedia Commons",
+      "sample_sha256": "75ba66b713b87df9f229c70ff349e87400d40d947319497faba2b0872aaefa73",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thehenryford.org/collections/explore/articles/ford-methods-and-the-ford-shops",
+      "authors": [
+        "henry-ford"
+      ],
+      "status": 200,
+      "resolved": "https://www.thehenryford.org/collections/explore/articles/ford-methods-and-the-ford-shops",
+      "content_type": "text/html; charset=utf-8",
+      "title": null,
+      "sample_sha256": "88b8cbc2a8121cc20c999cc60ca47d5cbaa7de72192b03ee12a87c4d1de744db",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thehenryford.org/collections/explore/sets/detail/henry-ford-assembly-line",
+      "authors": [
+        "henry-ford"
+      ],
+      "status": 200,
+      "resolved": "https://www.thehenryford.org/collections/explore/sets/detail/henry-ford-assembly-line",
+      "content_type": "text/html; charset=utf-8",
+      "title": null,
+      "sample_sha256": "88b8cbc2a8121cc20c999cc60ca47d5cbaa7de72192b03ee12a87c4d1de744db",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thehenryford.org/collections/explore/popular-research-topics/henry-ford-and-anti-semitism",
+      "authors": [
+        "henry-ford"
+      ],
+      "status": 200,
+      "resolved": "https://www.thehenryford.org/collections/explore/popular-research-topics/henry-ford-and-anti-semitism",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Henry Ford&#x27;s Anti-Semitism History | The Henry Ford",
+      "sample_sha256": "8e1a14d6563572a72f93f20d0783f641aeaf7ab1e3a6dfbbbdb2c5c088cbe9fc",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.riderhaggardsociety.org.uk/",
+      "authors": [
+        "henry-rider-haggard"
+      ],
+      "status": 200,
+      "resolved": "https://www.riderhaggardsociety.org.uk/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Rider Haggard Society",
+      "sample_sha256": "9844687a88ec16f7713b329f5fc352fcf7a01d75827c3ae6b07d3852a4bb0d5d",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.riderhaggardsociety.org.uk/bibliography",
+      "authors": [
+        "henry-rider-haggard"
+      ],
+      "status": 200,
+      "resolved": "https://www.riderhaggardsociety.org.uk/bibliography",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Bibliography | Rider Haggard Society",
+      "sample_sha256": "840d0d291114e1d995bbe43cd37ff5dc09367f27494c7a1018028f2d6083d181",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/accessions/2000/00returns/00ac153.htm",
+      "authors": [
+        "henry-rider-haggard"
+      ],
+      "status": 200,
+      "resolved": "https://www.nationalarchives.gov.uk/accessions/2000/00returns/00ac153.htm",
+      "content_type": "text/html",
+      "title": "The National Archives | Search other Archives | Accessions to Repositories | Major Accessions to Norfolk Record Office, 2000",
+      "sample_sha256": "3e3010c23c41c7a270f64c74914f57fbe142914edfd5515f00c79767c0c6f289",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.tshaonline.org/handbook/entries/gillett-james-buchanan",
+      "authors": [
+        "james-b-gillett"
+      ],
+      "status": 200,
+      "resolved": "https://www.tshaonline.org/handbook/entries/gillett-james-buchanan",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Gillett, James Buchanan",
+      "sample_sha256": "449463644d337a2b3256c3a867e77fedfa6f843677be6c03d48800ed415a5aea",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.texasranger.org/texas-ranger-museum/hall-of-fame/james-b-gillett/",
+      "authors": [
+        "james-b-gillett"
+      ],
+      "status": 403,
+      "resolved": "https://www.texasranger.org/texas-ranger-museum/hall-of-fame/james-b-gillett/",
+      "content_type": "text/html",
+      "title": "Access Denied",
+      "sample_sha256": "8a78a55c5dbac6c48a88c8c53e5d2f627774c9f89175dea617a73a6bb5461267",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/portraitsbiograp00scud/portraitsbiograp00scud.pdf",
+      "authors": [
+        "james-fenimore-cooper"
+      ],
+      "status": 200,
+      "resolved": "https://tile.loc.gov/storage-services/public/gdcmassbookdig/portraitsbiograp00scud/portraitsbiograp00scud.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "a051b8fe8db60965e92399548a91ef4b2b3232e5639e08018a7106ee2bfcd2f1",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/940",
+      "authors": [
+        "james-fenimore-cooper"
+      ],
+      "status": 200,
+      "resolved": "https://www.gutenberg.org/ebooks/940",
+      "content_type": "text/html;charset=utf-8",
+      "title": null,
+      "sample_sha256": "7d5e9dbc47b409a0ad123468443aecc39748895b7fa2904d76492bc139398377",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0056&display%5B%5D=295&display%5B%5D=304",
+      "authors": [
+        "james-hall"
+      ],
+      "status": 403,
+      "resolved": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0056&display%5B%5D=295&display%5B%5D=304",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "sample_sha256": "532dfdfe4add5e31e881499c9ab1c828e4f4e7322002fdef9beb823d937d92d8",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0018&display%5B%5D=468&display%5B%5D=483",
+      "authors": [
+        "james-hall"
+      ],
+      "status": 403,
+      "resolved": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0018&display%5B%5D=468&display%5B%5D=483",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "sample_sha256": "f8c9b2e39f1c9aa08b651e24abe0a3d9c8a75407e13a6117e8017b893f00ba42",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://libguides.mnhs.org/jjhill",
+      "authors": [
+        "james-j-hill"
+      ],
+      "status": 200,
+      "resolved": "https://libguides.mnhs.org/jjhill",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Overview - James J. Hill: Railroad Baron - LibGuides at Minnesota Historical Society Library",
+      "sample_sha256": "56be5f4ecb9c2aa5aa5b30a289b6ee289357b8710941799d8a623540540ae2bf",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.mnhs.org/hillhouse",
+      "authors": [
+        "james-j-hill"
+      ],
+      "status": 200,
+      "resolved": "https://www.mnhs.org/hillhouse",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "James J. Hill House | Minnesota Historical Society",
+      "sample_sha256": "ea50a481fb9cf15be3245b66935399f7ea97554ec35ac01d5634e9abbbb3b6ca",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://hls-dhs-dss.ch/de/articles/012304/2013-01-10/",
+      "authors": [
+        "johanna-spyri"
+      ],
+      "status": 403,
+      "resolved": "https://hls-dhs-dss.ch/de/articles/012304/2013-01-10/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "sample_sha256": "0dc971fc319335d14f41736d3db0416f889c709f0599df49e61f2457fce02b4e",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://www.loc.gov/item/23001604/",
+      "authors": [
+        "joshua-duke"
+      ],
+      "status": 403,
+      "resolved": "https://www.loc.gov/item/23001604/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "sample_sha256": "6dcdc84c4364b04546c8ee26213fd89e7097b4df49be992baac006db01faec67",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1950-11-55-21",
+      "authors": [
+        "lady-florentia-sale"
+      ],
+      "error": "ReadTimeout",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1998-06-71--1",
+      "authors": [
+        "lady-florentia-sale"
+      ],
+      "error": "ReadTimeout",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thegazette.co.uk/London/issue/29536/supplement/3660/data.pdf",
+      "authors": [
+        "melliss"
+      ],
+      "status": 200,
+      "resolved": "https://www.thegazette.co.uk/London/issue/29536/supplement/3660/data.pdf",
+      "content_type": "application/pdf;charset=UTF-8",
+      "title": null,
+      "sample_sha256": "a4b07feb9b1156afd976163319df7ec9ddffd448aeb0b565b6c3e43cf5321a98",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thegazette.co.uk/London/issue/27266/page/307/data.pdf",
+      "authors": [
+        "melliss"
+      ],
+      "status": 200,
+      "resolved": "https://www.thegazette.co.uk/London/issue/27266/page/307/data.pdf",
+      "content_type": "application/pdf;charset=UTF-8",
+      "title": null,
+      "sample_sha256": "944e1aa3f60dfeeecd23869077e90e6e370ee80408c2fa22fe2482f0f90873b6",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.tshaonline.org/handbook/entries/jennings-napoleon-augustus",
+      "authors": [
+        "napoleon-augustus-jennings"
+      ],
+      "status": 200,
+      "resolved": "https://www.tshaonline.org/handbook/entries/jennings-napoleon-augustus",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Jennings, Napoleon Augustus",
+      "sample_sha256": "cdbc18050dece5e8de11e2ee89f878ce736b0e45196af25b5a2e14b89df361e8",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://richardjefferiessociety.org/life-works/",
+      "authors": [
+        "richard-jefferies"
+      ],
+      "status": 200,
+      "resolved": "https://richardjefferiessociety.org/life-works/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Life &amp; Works - The Richard Jefferies Society",
+      "sample_sha256": "f37690996a65384ac705f8b41f2b4e6fccb7e45ba495186f93a599c6b56ceb20",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/author/489",
+      "authors": [
+        "richard-jefferies"
+      ],
+      "status": 200,
+      "resolved": "https://www.gutenberg.org/ebooks/author/489",
+      "content_type": "text/html;charset=utf-8",
+      "title": null,
+      "sample_sha256": "089f19e9fca1ab4688e386b7e0fbc5ca17f2ac541de65210435556e8fda9dc7a",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/",
+      "authors": [
+        "robert-baden-powell"
+      ],
+      "status": 403,
+      "resolved": "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Attention Required! | Cloudflare",
+      "sample_sha256": "3475314f7f5532744c77d31535ef23df79e74d96ec9357d86949620a32fa6519",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://www.scouts.org.uk/about-us/our-history/our-online-exhibitions/the-early-days-of-scouting/brownsea-island-trialling-scouting/",
+      "authors": [
+        "robert-baden-powell"
+      ],
+      "status": 403,
+      "resolved": "https://www.scouts.org.uk/about-us/our-history/our-online-exhibitions/the-early-days-of-scouting/brownsea-island-trialling-scouting/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Attention Required! | Cloudflare",
+      "sample_sha256": "7b33e5a0fd2d8d2591edf0675700a845800b51ffb265914753c18852423508f2",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://southlondonscouts.org.uk/sites/default/files/fields/attachment/bp1939.pdf",
+      "authors": [
+        "robert-baden-powell"
+      ],
+      "status": 200,
+      "resolved": "https://southlondonscouts.org.uk/sites/default/files/fields/attachment/bp1939.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "a4fec306ce1c695313853698b2c7d421378cc8190e562ddf2051b75f2163af76",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scouting%20Heritage.pdf",
+      "authors": [
+        "robert-baden-powell"
+      ],
+      "status": 200,
+      "resolved": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scouting%20Heritage.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "cfd871a1c9aa9f2b7ccde4465646c2ccd3a9165520c4425206fbf5c51ae439d7",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://robert-louis-stevenson.org/life/",
+      "authors": [
+        "robert-louis-stevenson"
+      ],
+      "status": 200,
+      "resolved": "https://robert-louis-stevenson.org/life/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Life | Robert Louis Stevenson",
+      "sample_sha256": "d3a734ba88e78cb0b03a4c2c112393a7cb2323265cb89c67ff429da26b0f952a",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://robert-louis-stevenson.org/rlsworks/",
+      "authors": [
+        "robert-louis-stevenson"
+      ],
+      "status": 200,
+      "resolved": "https://robert-louis-stevenson.org/rlsworks/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Works | Robert Louis Stevenson",
+      "sample_sha256": "538743b5281c1bbb8c3b20cc877c5ccde5ea2ffe6ebded765550bd8cf472fb72",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://findingaids.library.upenn.edu/records/UPENN_RBML_PUSP.MS.COLL.108",
+      "authors": [
+        "robert-montgomery-bird"
+      ],
+      "status": 200,
+      "resolved": "https://findingaids.library.upenn.edu/records/UPENN_RBML_PUSP.MS.COLL.108",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Robert Montgomery Bird papers - Philadelphia Area Archives",
+      "sample_sha256": "347e71205137ee1d6c16e8488048c32d5c714ba6129b6748c4c11d4d7df8abdf",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://web.english.upenn.edu/~traister/bird/rmb.html",
+      "authors": [
+        "robert-montgomery-bird"
+      ],
+      "error": "SSLError",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1907/kipling/biographical/",
+      "authors": [
+        "rudyard-kipling"
+      ],
+      "status": 200,
+      "resolved": "https://www.nobelprize.org/prizes/literature/1907/kipling/biographical/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Rudyard Kipling &#8211; Biographical - NobelPrize.org",
+      "sample_sha256": "279f2eb341f0625f112b55b29b0390ef16fec52211d769cb6bb4b329b5af9aa2",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1907/kipling/bibliography/",
+      "authors": [
+        "rudyard-kipling"
+      ],
+      "status": 200,
+      "resolved": "https://www.nobelprize.org/prizes/literature/1907/kipling/bibliography/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Rudyard Kipling &#8211; Bibliography - NobelPrize.org",
+      "sample_sha256": "23d6207794c49bb58d5086eab0ba725e6985789a6688bfacefa33f520e2b9d23",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://catalog.perseus.tufts.edu/catalog/urn%3Acts%3AlatinLit%3Aphi1351.phi002",
+      "authors": [
+        "tacitus"
+      ],
+      "error": "SSLError",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.%20Ag.%201",
+      "authors": [
+        "tacitus"
+      ],
+      "status": 200,
+      "resolved": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.%20Ag.%201",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Cornelius Tacitus, The Life of Cn&#230;us Julius Agricola, chapter 1",
+      "sample_sha256": "34fd0d8ba5bf9c184ab18a6924af993e4a3b755c5d8d1930ec61d874a5644696",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.biographi.ca/en/bio/9168?revision_id=30559",
+      "authors": [
+        "tappan-adney"
+      ],
+      "status": 200,
+      "resolved": "https://www.biographi.ca/en/bio/9168?revision_id=30559",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "SHARP, MINNIE BELL (Adney) &ndash; Dictionary of Canadian Biography",
+      "sample_sha256": "80620bfab858d4a99379005a26b9ccfa3ba9fcef045f75c40fa8b2ec95623cd8",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/50828/pg50828-images.html",
+      "authors": [
+        "tappan-adney"
+      ],
+      "status": 200,
+      "resolved": "https://www.gutenberg.org/cache/epub/50828/pg50828-images.html",
+      "content_type": "text/html; charset=utf-8",
+      "title": "The Project Gutenberg eBook of The Bark Canoes and Skin Boats of North America, by Edwin Tappan Adney and Howard Irving Chapelle",
+      "sample_sha256": "d6b817db07e5409b53757995821fcb37d0e18f5b6f8e69cd71eabdd20efc75d4",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/facts/",
+      "authors": [
+        "theodore-roosevelt"
+      ],
+      "status": 200,
+      "resolved": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/facts/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": null,
+      "sample_sha256": "59c5e3f46474cafebf45adebe54578cbf6f9c38633357468f8739635cd67f885",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/biographical/",
+      "authors": [
+        "theodore-roosevelt"
+      ],
+      "status": 200,
+      "resolved": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/biographical/",
+      "content_type": "text/html; charset=UTF-8",
+      "title": null,
+      "sample_sha256": "cd8eb9152c9a49ad2c8e3f40d3bf35ad08d3d3dbf63f4f5d512fbbbfd4779012",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.siemens.com/de-de/company/history-heritage/personalities/",
+      "authors": [
+        "werner-von-siemens"
+      ],
+      "status": 200,
+      "resolved": "https://www.siemens.com/de-de/company/history-heritage/personalities/",
+      "content_type": "text/html",
+      "title": "Gründer &amp; Persönlichkeiten | Siemens",
+      "sample_sha256": "a3adef685955b926aa17ff19a47a6d901c19b93f420e6be0064f11fa6d8379b8",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://vlp.mpiwg-berlin.mpg.de/people/data?id=per306",
+      "authors": [
+        "werner-von-siemens"
+      ],
+      "status": 200,
+      "resolved": "https://vlp.mpiwg-berlin.mpg.de/people/data?id=per306",
+      "content_type": "text/html; charset=utf-8",
+      "title": "VL People [per306]",
+      "sample_sha256": "35b84d07e09be511e4d2339c7616bca627b14d5b7dd492081f2f6b83ebb0ba9f",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://visitorcenter.sc.edu/about/offices_and_divisions/university_libraries/about/employment_opportunities/research_opportunities/index.php",
+      "authors": [
+        "william-gilmore-simms"
+      ],
+      "status": 200,
+      "resolved": "https://visitorcenter.sc.edu/about/offices_and_divisions/university_libraries/about/employment_opportunities/research_opportunities/index.php",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Research Opportunities - University Libraries | University of South Carolina",
+      "sample_sha256": "8ca9df2a790342b8664fec9d5985f96e7ae70a971a4853f08f3ddf4d9a33db76",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://simms.library.sc.edu/biography.php",
+      "authors": [
+        "william-gilmore-simms"
+      ],
+      "status": 403,
+      "resolved": "https://digital.library.sc.edu/collections/william-gilmore-simms-digital-edition/",
+      "content_type": "text/html",
+      "title": "403 Forbidden",
+      "sample_sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://www.awm.gov.au/collection/LIB37112",
+      "authors": [
+        "william-robertson"
+      ],
+      "status": 200,
+      "resolved": "https://www.awm.gov.au/collection/LIB37112",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "From private to field-marshal / Sir William Robertson. | Australian War Memorial",
+      "sample_sha256": "40526e8174868e74a25e56269624f70c889024f50f59272934c3eba7f1a17c53",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.kcl.ac.uk/library/assets/archives/middleeast.pdf",
+      "authors": [
+        "william-robertson"
+      ],
+      "status": 200,
+      "resolved": "https://www.kcl.ac.uk/library/assets/archives/middleeast.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "928356e61827f9864dfbf6d1918abaa4107c831284dafafd5f72ab0bf01bdb72",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://encyclopedia.1914-1918-online.net/article/robertson-william-robert/",
+      "authors": [
+        "william-robertson"
+      ],
+      "status": 200,
+      "resolved": "https://encyclopedia.1914-1918-online.net/article/robertson-william-robert/",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Making sure you&#39;re not a bot!",
+      "sample_sha256": "af329527d74355f39faca5c7a2e07df37997f274af8e4884f2e960ef5d3f16b1",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://www.wienmuseum.at/fileadmin/user_upload/Presse_Neu/Ausstellungen/2020/Felix_Salten/Presseinformation_Felix_Salten_D.pdf",
+      "authors": [
+        "felix-salten"
+      ],
+      "status": 200,
+      "resolved": "https://www.wienmuseum.at/fileadmin/user_upload/Presse_Neu/Ausstellungen/2020/Felix_Salten/Presseinformation_Felix_Salten_D.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "c61bfb846a27ac86098002d60840d9906e92292fa8047d8be989041c45edcd4f",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.npg.org.uk/collections/search/person/mp02341/henry-doveton-hutchinson",
+      "authors": [
+        "henry-doveton-hutchinson"
+      ],
+      "status": 403,
+      "resolved": "https://www.npg.org.uk/collections/search/person/mp02341/henry-doveton-hutchinson",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "sample_sha256": "43cd462c15be9f94058f8441813b42d47c3a0828e6b409ac81ffd4371bc53e95",
+      "active_reference": true,
+      "challenge_page": true
+    },
+    {
+      "url": "https://bsi.gov.in/uploads/userfiles/file/Rare%20Books/The%20India%20Office%20List%20For%201923.pdf",
+      "authors": [
+        "henry-doveton-hutchinson"
+      ],
+      "status": 200,
+      "resolved": "https://bsi.gov.in/uploads/userfiles/file/Rare%20Books/The%20India%20Office%20List%20For%201923.pdf",
+      "content_type": "application/pdf",
+      "title": null,
+      "sample_sha256": "cf5de57f9a84da165a1d0611d07616cf73b55a34639d2788eafa482c41013a65",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://searcharchives.bl.uk/catalog/032-002266026",
+      "authors": [
+        "joshua-duke"
+      ],
+      "status": 200,
+      "resolved": "https://searcharchives.bl.uk/catalog/032-002266026",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Mss Eur C405 - British Library Archives and Manuscripts Catalogue",
+      "sample_sha256": "5bf61d6428adc76ad90ac8ed93343f6979113b02079bbf49c79b39bad00c90b7",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thegazette.co.uk/London/issue/27516/page/314/data.pdf",
+      "authors": [
+        "joshua-duke"
+      ],
+      "status": 200,
+      "resolved": "https://www.thegazette.co.uk/London/issue/27516/page/314/data.pdf",
+      "content_type": "application/pdf;charset=UTF-8",
+      "title": null,
+      "sample_sha256": "9a09cf4e69e4364c76c03ef03171611a7457ac7fe2de7272eaa74e5073d50bbb",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.nps.gov/people/banastre-tarleton.htm",
+      "authors": [
+        "banastre-tarleton"
+      ],
+      "status": 200,
+      "resolved": "https://www.nps.gov/people/banastre-tarleton.htm",
+      "content_type": "text/html;charset=UTF-8",
+      "title": "Banastre Tarleton (U.S. National Park Service)",
+      "sample_sha256": "9a5799470a08eba7d5099496b7e9658266fb3837b5deec81633ee83f16e3fd05",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.rsgs.org/scottish-geographical-medal",
+      "authors": [
+        "francis-younghusband"
+      ],
+      "status": 200,
+      "resolved": "https://www.rsgs.org/scottish-geographical-medal",
+      "content_type": "text/html; charset=utf-8",
+      "title": "Scottish Geographical Medal | The Royal Scottish Geographical Society",
+      "sample_sha256": "386633aff838e340f2931344dad5c43caeb11ffcf6c910f9421173618a5aee77",
+      "active_reference": true,
+      "challenge_page": false
+    },
+    {
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/14762/page/614/data.pdf",
+      "authors": [
+        "william-robertson"
+      ],
+      "status": 200,
+      "resolved": "https://www.thegazette.co.uk/Edinburgh/issue/14762/page/614/data.pdf",
+      "content_type": "application/pdf;charset=UTF-8",
+      "title": null,
+      "sample_sha256": "9ed53025b64f11fbce46aed5fe301d263f7d2d976b55b41bb35a11f89cff5d22",
+      "active_reference": true,
+      "challenge_page": false
+    }
+  ],
+  "replacements": [
+    {
+      "old": "https://www.wienbibliothek.at/sites/default/files/files/Presseinformation_Salten_wienbibliothek.pdf",
+      "new": "https://www.wienmuseum.at/fileadmin/user_upload/Presse_Neu/Ausstellungen/2020/Felix_Salten/Presseinformation_Felix_Salten_D.pdf",
+      "reason": "404 at former library URL; working copy from the institutional co-organiser."
+    }
+  ]
+}

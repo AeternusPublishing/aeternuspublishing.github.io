@@ -1,0 +1,360 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "robert-baden-powell",
+  "name": "Robert Stephenson Smyth Baden-Powell",
+  "dates": "1857–1941",
+  "depth": "comprehensive",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "SCOUTS",
+      "title": "The Scouts · How Scouting grew",
+      "url": "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "BROWNSEA",
+      "title": "The Scouts · Brownsea Island",
+      "url": "https://www.scouts.org.uk/about-us/our-history/our-online-exhibitions/the-early-days-of-scouting/brownsea-island-trialling-scouting/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "KIERNAN",
+      "title": "R. H. Kiernan · Baden-Powell (1939), chronology and honours",
+      "url": "https://southlondonscouts.org.uk/sites/default/files/fields/attachment/bp1939.pdf",
+      "checked": "2026-10-20",
+      "note": "Contemporary biography; chronology pp. 5–6 and honours list. Distinguish contemporary praise from independently dated appointments."
+    },
+    {
+      "id": "HERITAGE",
+      "title": "Scouting America · Scouting Heritage",
+      "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scouting%20Heritage.pdf",
+      "checked": "2026-10-20",
+      "note": "Official institutional history, Baden-Powell, Seton, Beard and Burnham, pp. 8–12."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born in London in 1857; commissioned into the 13th Hussars in 1876.",
+      "sources": [
+        "SCOUTS",
+        "BROWNSEA",
+        "KIERNAN",
+        "HERITAGE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Served in the Ashanti expedition of 1895–96 and the Matabele campaign of 1896; commanded the defence of Mafeking, 1899–1900.",
+      "sources": [
+        "SCOUTS",
+        "BROWNSEA",
+        "KIERNAN",
+        "HERITAGE"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Retired from the Army as a lieutenant-general in 1910.",
+      "sources": [
+        "SCOUTS",
+        "BROWNSEA",
+        "KIERNAN",
+        "HERITAGE"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Brownsea experimental camp, 1907; Scouting for Boys, 1908; founder of the Boy Scout movement.",
+      "sources": [
+        "SCOUTS",
+        "BROWNSEA",
+        "KIERNAN",
+        "HERITAGE"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Met Seton in 1906; Burnham influenced his fieldcraft; Beard helped shape the American movement.",
+      "sources": [
+        "SCOUTS",
+        "BROWNSEA",
+        "KIERNAN",
+        "HERITAGE"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "GCVO 1923; GCMG 1927; barony 1929; Order of Merit 1937.",
+      "sources": [
+        "SCOUTS",
+        "BROWNSEA",
+        "KIERNAN",
+        "HERITAGE"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The defence of Mafeking. The founding of a world movement.",
+      "intro": "Before boys knew him as the founder of Scouting, Baden-Powell was a cavalry officer whose career had carried him through India and Africa. Mafeking made him famous; Scouting gave that fame a life beyond the army.",
+      "orientation": "His two careers belong together. Observation, resourcefulness and responsibility passed from the soldier’s handbook into a programme of outdoor education. Yet a youth movement cannot be reduced to the campaigns from which some of its methods emerged.",
+      "origin": [
+        "Born in London in 1857, Baden-Powell attended Charterhouse before entering the 13th Hussars in 1876. Service in India made reconnaissance and the training of young soldiers practical concerns long before he began writing for boys."
+      ],
+      "career": [
+        "The Ashanti expedition and the Matabele campaign brought staff work, scouting and the demands of campaigning in Africa. At Mafeking in 1899–1900 he commanded a garrison under prolonged siege during the South African War. The defence brought public acclaim and promotion. He later helped organise the South African Constabulary and served as Inspector-General of Cavalry. He left the army in 1910 with the rank of lieutenant-general."
+      ],
+      "literature": [
+        "The Matabele Campaign belongs to the serving officer’s world: an account of operations, terrain and reconnaissance written by a participant. Scouting for Boys, published in 1908 after the Brownsea experiment of 1907, redirected practical instruction towards young people. Seton’s Woodcraft supplied an important parallel and influence; their meeting in 1906 preceded the new movement. Frederick Russell Burnham’s fieldcraft and Daniel Carter Beard’s American outdoor tradition belong to the wider story, each in a different role."
+      ],
+      "legacy": "Baden-Powell founded the Boy Scout movement and lived to see it cross national boundaries. His later barony and Order of Merit mark the reach of that achievement. Reading the military books alongside the educational writings reveals the distance between an imperial officer’s original purposes and the international institution that outlasted him.",
+      "bridge": "The military narratives restore the experience behind a familiar name. Their sketches, observations and accounts of command open the earlier chapter of the Scout founder’s life.",
+      "description": "Before boys knew him as the founder of Scouting, Baden-Powell was a cavalry officer whose career had carried him through India and Africa. Mafeking made him famous; Scouting gave that fame a life beyond the army.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    },
+    "de": {
+      "tagline": "Der Verteidiger von Mafeking. Der Begründer einer Weltbewegung.",
+      "intro": "Bevor Jungen in aller Welt seinen Namen kannten, hatte Baden-Powell als britischer Kavallerieoffizier in Indien und Afrika gedient. Mafeking machte ihn berühmt. Mit der Gründung der Boy Scouts gab er seinem Namen eine Wirkung, die weit über die Armee hinausreichte.",
+      "orientation": "Seine beiden Lebenswerke haben gemeinsame Wurzeln: Beobachtungsgabe, Findigkeit und übernommene Verantwortung. Aus der Schule des Kundschafters wurde ein pädagogischer Entwurf. Der Weg zwischen beiden verdient einen genaueren Blick.",
+      "origin": [
+        "1857 in London geboren, besuchte Baden-Powell die Schule von Charterhouse und trat 1876 in das 13. Husarenregiment ein. In Indien beschäftigte ihn die Ausbildung junger Soldaten: Gelände lesen, Spuren deuten, sich orientieren und selbstständig handeln."
+      ],
+      "career": [
+        "Die Ashanti-Expedition von 1895–96 und der Matabele-Feldzug von 1896 führten ihn in die afrikanischen Kriege des Empire. Während des Südafrikanischen Krieges leitete er 1899–1900 die Verteidigung des belagerten Mafeking. Der Erfolg brachte ihm öffentliche Berühmtheit und die Beförderung zum Generalmajor. Es folgten der Aufbau der South African Constabulary und das Amt des Generalinspekteurs der Kavallerie. 1910 schied er als Generalleutnant aus dem aktiven Dienst."
+      ],
+      "literature": [
+        "The Matabele Campaign ist das Buch eines beteiligten Offiziers: Gelände, Aufklärung und militärische Entscheidungen stehen im Mittelpunkt. Scouting for Boys erschien 1908, nach dem Versuchslager auf Brownsea Island im Sommer 1907. Hier richtete sich die praktische Unterweisung an die Jugend. Ernest Thompson Setons Woodcraft war ein wesentlicher Anstoß; beide Männer trafen sich 1906. Auch Frederick Russell Burnhams Kundschafterwissen und Daniel Carter Beards amerikanische Freilufttradition gehören in dieses Umfeld, jeweils mit eigenem Anteil."
+      ],
+      "legacy": "Baden-Powell begründete die Boy Scouts und erlebte ihre Ausbreitung über Ländergrenzen hinweg. Seine Erhebung zum Baron und die Aufnahme in den Order of Merit bezeugen die Anerkennung dieses zweiten Lebenswerks. Die militärischen Schriften erschließen den früheren Erfahrungshorizont eines Mannes, dessen pädagogische Gründung ihn weltweit überdauerte.",
+      "bridge": "Die Feldzugsberichte führen hinter den Namen des Pfadfindergründers zurück: zu seinen Beobachtungen im Gelände, zur Arbeit des Kundschafters und zu den Entscheidungen eines britischen Offiziers.",
+      "description": "Bevor Jungen in aller Welt seinen Namen kannten, hatte Baden-Powell als britischer Kavallerieoffizier in Indien und Afrika gedient. Mafeking machte ihn berühmt. Mit der Gründung der Boy Scouts gab er seinem Namen eine Wirkung, die weit über die Armee hinausreichte.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-baden-powell.webp",
+    "caption": {
+      "de": "Koloriertes Porträt.",
+      "en": "Colourised portrait."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "8cbef384b48b233702bd44623290cdd038e2be05714502a1ac5c1bdd7a1f28d9"
+    },
+    "processing": "Colourised portrait.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-baden-powell",
+          "alt": "Robert Baden-Powell im Profil, mit Pfadfinderhut",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-baden-powell",
+          "alt": "Robert Baden-Powell in profile, wearing the Scout hat",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-baden-powell",
+          "alt": "Robert Baden-Powell in profile, wearing the Scout hat",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "rank": {
+    "en": "Lieutenant-General · 1st Baron Baden-Powell (1929) · OM",
+    "de": "Generalleutnant · 1. Baron Baden-Powell (1929) · Order of Merit"
+  },
+  "timeline": [
+    [
+      "1876",
+      "Commission in the 13th Hussars",
+      "Eintritt in das 13. Husarenregiment"
+    ],
+    [
+      "1896",
+      "Matabele campaign",
+      "Matabele-Feldzug"
+    ],
+    [
+      "1899–1900",
+      "Defence of Mafeking",
+      "Verteidigung von Mafeking"
+    ],
+    [
+      "1907",
+      "Brownsea experimental camp",
+      "Versuchslager auf Brownsea Island"
+    ],
+    [
+      "1908",
+      "Scouting for Boys",
+      "Scouting for Boys erscheint"
+    ],
+    [
+      "1910",
+      "Retirement from the army",
+      "Abschied aus der Armee"
+    ],
+    [
+      "1929",
+      "Created Baron Baden-Powell",
+      "Erhebung zum Baron"
+    ]
+  ],
+  "honours": [
+    {
+      "name": "Order of the Bath · Knight Commander (KCB)",
+      "year": "1909",
+      "category": "order",
+      "sources": [
+        "KIERNAN"
+      ],
+      "note": {
+        "en": "Advanced from Companion (CB, 1901); an order, distinct from his military rank and later peerage.",
+        "de": "Zuvor Companion (CB, 1901); ein Orden, zu unterscheiden von Dienstgrad und späterem Adelstitel."
+      }
+    },
+    {
+      "name": "Royal Victorian Order · Knight Grand Cross (GCVO)",
+      "year": "1923",
+      "category": "order",
+      "sources": [
+        "KIERNAN"
+      ]
+    },
+    {
+      "name": "Order of St Michael and St George · Knight Grand Cross (GCMG)",
+      "year": "1927",
+      "category": "order",
+      "sources": [
+        "KIERNAN"
+      ]
+    },
+    {
+      "name": "Order of Merit (OM)",
+      "year": "1937",
+      "category": "order",
+      "sources": [
+        "KIERNAN"
+      ]
+    },
+    {
+      "name": "Baron Baden-Powell, of Gilwell",
+      "year": "1929",
+      "category": "title",
+      "sources": [
+        "KIERNAN"
+      ],
+      "note": {
+        "en": "Peerage, not a military decoration.",
+        "de": "Adelstitel; keine militärische Auszeichnung."
+      }
+    }
+  ],
+  "places": [
+    {
+      "en": [
+        "Ashanti and Matabeleland",
+        "Campaigning in 1895–96 and 1896 shaped the officer’s accounts of marching, reconnaissance and command. These were British imperial operations, fought to impose or extend British authority."
+      ],
+      "de": [
+        "Ashanti und Matabeleland",
+        "Die Feldzüge von 1895–96 und 1896 prägten seine Berichte über Marsch, Aufklärung und Führung. Es waren Unternehmungen zur Durchsetzung und Ausweitung britischer Herrschaft."
+      ]
+    },
+    {
+      "en": [
+        "Mafeking",
+        "A besieged town in the South African War became the centre of his military reputation."
+      ],
+      "de": [
+        "Mafeking",
+        "Die belagerte Stadt im Südafrikanischen Krieg wurde zum Mittelpunkt seines militärischen Ruhms."
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "slug": "ernest-thompson-seton",
+      "kind": "documented-meeting",
+      "en": "Met in 1906; Woodcraft and the beginnings of Scouting.",
+      "de": "Begegnung 1906; Woodcraft und die Anfänge der Pfadfinderbewegung.",
+      "sources": [
+        "HERITAGE"
+      ]
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "kind": "institutional-context",
+      "en": "An architect of American Scouting, drawing on a distinct frontier tradition.",
+      "de": "Ein Wegbereiter der amerikanischen Pfadfinder mit eigener Grenzlandtradition.",
+      "sources": [
+        "HERITAGE"
+      ]
+    }
+  ],
+  "gallery": []
+}

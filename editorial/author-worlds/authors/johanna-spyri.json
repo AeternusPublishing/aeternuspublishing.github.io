@@ -1,0 +1,116 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "johanna-spyri",
+  "name": "Johanna Spyri",
+  "dates": "1827–1901",
+  "depth": "compact",
+  "scope": {
+    "de": true,
+    "en": false,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "HLS",
+      "title": "Historisches Lexikon der Schweiz · Johanna Spyri",
+      "url": "https://hls-dhs-dss.ch/de/articles/012304/2013-01-10/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Hirzel 1827; died Zurich 1901.",
+      "sources": [
+        "HLS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "First published narrative 1871; Heidi volumes 1880 and 1881.",
+      "sources": [
+        "HLS"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote a broader body of religious narratives and children’s fiction.",
+      "sources": [
+        "HLS"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Heimat wird zur Frage des Kindes.",
+      "intro": "Spyris Bergwelt ist ein Ort der Zugehörigkeit, aber auch der Trennung. Ihre Geschichten gewinnen ihre Bewegung aus dem Abstand zwischen dem Platz, den Erwachsene einem Kind geben, und dem Ort, an dem es leben kann.",
+      "orientation": "Die beiden Heidi-Bände gehören zu einem größeren Werk für Kinder und Erwachsene. Religiöse Zuversicht und genaue Kenntnis seelischer Bedrängnis durchziehen diese Erzählungen.",
+      "origin": [
+        "1827 in Hirzel geboren, wuchs Spyri in einem religiös geprägten Elternhaus auf. Später lebte sie in Zürich."
+      ],
+      "career": [
+        "1871 erschien ihre erste Erzählung. Die Heidi-Bände von 1880 und 1881 machten einen Teil ihres Werks international bekannt."
+      ],
+      "literature": [
+        "Die Geschichten führen zwischen Berg und Stadt, Geborgenheit und Fremde. Der Wechsel des Ortes verändert die Möglichkeiten der Figuren und die Beziehungen, von denen sie abhängig sind."
+      ],
+      "legacy": "Spyri gab kindlicher Sehnsucht nach Zugehörigkeit eine dauerhafte literarische Gestalt. Die Kraft ihrer Bücher liegt in den konkreten Bindungen, durch die Heilung und Selbstvertrauen möglich werden.",
+      "bridge": "Die Ausgabe kehrt zur Erzählung zurück, deren Figuren längst zum gemeinsamen Bildgedächtnis gehören.",
+      "description": "Spyris Bergwelt ist ein Ort der Zugehörigkeit, aber auch der Trennung. Ihre Geschichten gewinnen ihre Bewegung aus dem Abstand zwischen dem Platz, den Erwachsene einem Kind geben, und dem Ort, an dem es leben kann.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-spyri.webp",
+    "caption": {
+      "de": "Johanna Spyri, historische Fotografie um 1890",
+      "en": "Johanna Spyri"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "8010f98e9c54dc53e5e65e99aa61a6cbc68325bc1d991b01659e9070677ce3cc"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-spyri",
+          "alt": "Johanna Spyri, historische Fotografie um 1890",
+          "modern": true
+        }
+      }
+    ]
+  }
+}

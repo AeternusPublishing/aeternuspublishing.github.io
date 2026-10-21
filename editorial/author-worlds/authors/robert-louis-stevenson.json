@@ -1,0 +1,148 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "robert-louis-stevenson",
+  "name": "Robert Louis Stevenson",
+  "dates": "1850–1894",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "LIFE",
+      "title": "Robert Louis Stevenson · Life, scholarly resource",
+      "url": "https://robert-louis-stevenson.org/life/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "WORKS",
+      "title": "Robert Louis Stevenson · Works",
+      "url": "https://robert-louis-stevenson.org/rlsworks/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Edinburgh 1850; died Samoa 1894.",
+      "sources": [
+        "LIFE",
+        "WORKS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote travel, essays, poetry and fiction; Treasure Island 1883 and Dr Jekyll and Mr Hyde 1886.",
+      "sources": [
+        "LIFE",
+        "WORKS"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Settled at Vailima in Samoa in his later years.",
+      "sources": [
+        "LIFE",
+        "WORKS"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The traveller’s eye and the storyteller’s moral imagination.",
+      "intro": "Stevenson’s adventures begin in the movement of a distinctive voice: observant, companionable and alert to danger. The road, the sea and the divided self gave him different ways of testing a story.",
+      "orientation": "The famous romances belong beside the essays, journeys and Pacific writings. Together they reveal a writer whose geographical range was matched by a range of forms.",
+      "origin": [
+        "Born in Edinburgh into a family associated with lighthouse engineering, he turned from the expected professional path towards literature."
+      ],
+      "career": [
+        "European journeys and transatlantic travel preceded the Pacific years. At Vailima in Samoa he wrote from within a society exposed to competing foreign ambitions."
+      ],
+      "literature": [
+        "Treasure Island and Jekyll and Hyde achieved different kinds of narrative concentration. The travel books preserve another Stevenson: a writer attentive to the pace, discomfort and encounters of a journey."
+      ],
+      "legacy": "His work keeps adventure intellectually alive. A clear surface can carry questions about allegiance, identity and the price of a chosen life.",
+      "bridge": "The editions follow the individual book back into the wider art of a writer whose journeys were also experiments in prose.",
+      "description": "Stevenson’s adventures begin in the movement of a distinctive voice: observant, companionable and alert to danger. The road, the sea and the divided self gave him different ways of testing a story.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-stevenson.webp",
+    "caption": {
+      "de": "Porträt am Schreibtisch; Rekonstruktion nach dem Fotogravüre-Frontispiz seiner Briefe von 1899.",
+      "en": "Portrait at his writing desk; reconstructed after the photogravure frontispiece of his Letters, 1899."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "2ea691bc3333890a6907061bd304009a64b560a2db57b2af14901a3020aee4b1"
+    },
+    "processing": "Portrait at his writing desk; reconstructed after the photogravure frontispiece of his Letters, 1899.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-stevenson",
+          "alt": "Robert Louis Stevenson at his writing desk, portrait reconstructed after the photogravure frontispiece of his Letters, 1899",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1850",
+      "Born in Edinburgh",
+      ""
+    ],
+    [
+      "1883",
+      "Treasure Island in book form",
+      ""
+    ],
+    [
+      "1886",
+      "Dr Jekyll and Mr Hyde",
+      ""
+    ],
+    [
+      "1894",
+      "Death in Samoa",
+      ""
+    ]
+  ]
+}

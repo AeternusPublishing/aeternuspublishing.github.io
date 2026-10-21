@@ -1,0 +1,146 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "charles-william-wilson",
+  "name": "Charles William Wilson",
+  "dates": "1836–1905",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "DNB",
+      "title": "Dictionary of National Biography, 1912 supplement · C. W. Wilson",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Wilson,_Charles_William",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "GORDON",
+      "title": "Charles W. Wilson · From Korti to Khartum",
+      "url": "https://archive.org/details/fromkortitokhart00wilsrich",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Royal Engineer, surveyor and officer, 1836–1905.",
+      "sources": [
+        "DNB",
+        "GORDON"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Surveyed Jerusalem in 1864–65; later associated with the Palestine Exploration Fund.",
+      "sources": [
+        "DNB",
+        "GORDON"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Took part in the Nile expedition to relieve Gordon, 1884–85; wrote From Korti to Khartum.",
+      "sources": [
+        "DNB",
+        "GORDON"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Surveying a city; navigating towards a besieged capital.",
+      "intro": "Wilson’s career joined the measured work of the Royal Engineer to the uncertainty of an expedition. Jerusalem’s survey and the attempt to reach Gordon at Khartoum belong to very different kinds of historical terrain.",
+      "orientation": "His books carry an officer-surveyor’s concern with routes, distances and evidence. In the Nile narrative those habits encounter decisions made under pressure.",
+      "origin": [
+        "Training and service in the Royal Engineers led to surveying and geographical work. The Jerusalem survey became an important part of his association with the exploration of Palestine."
+      ],
+      "career": [
+        "In the Nile expedition of 1884–85 he went forward by river towards Khartoum. The city had fallen before the relief could reach Gordon. His account became part of the dispute over the expedition’s timing and failure."
+      ],
+      "literature": [
+        "From Korti to Khartum records a journey whose destination gave it tragic urgency. It is both operational testimony and an explanation by a participant."
+      ],
+      "legacy": "Wilson’s writing reveals the limit of exact information in events governed by time, supply and incomplete knowledge. His maps and his narrative represent complementary efforts to understand a difficult country.",
+      "bridge": "The expedition account returns the reader to the distances and decisions concealed within the phrase “relief of Gordon”.",
+      "description": "Wilson’s career joined the measured work of the Royal Engineer to the uncertainty of an expedition. Jerusalem’s survey and the attempt to reach Gordon at Khartoum belong to very different kinds of historical terrain.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-wilson.webp",
+    "caption": {
+      "de": "Charles William Wilson",
+      "en": "Sir Charles William Wilson, photograph by Lafayette of Dublin, from Watson's Life of 1909"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "a55544207d26ec01ea271bc02ddd5f4eabbbd8c47367a9b6c1886619d15768f8"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-wilson",
+          "alt": "Sir Charles William Wilson, photograph by Lafayette of Dublin, from Watson's Life of 1909",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "rank": {
+    "en": "Major-General Sir Charles William Wilson"
+  },
+  "timeline": [
+    [
+      "1864–65",
+      "Ordnance Survey of Jerusalem",
+      ""
+    ],
+    [
+      "1884–85",
+      "Nile relief expedition",
+      ""
+    ],
+    [
+      "1905",
+      "Death",
+      ""
+    ]
+  ]
+}

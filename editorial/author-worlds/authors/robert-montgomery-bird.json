@@ -1,0 +1,232 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "robert-montgomery-bird",
+  "name": "Robert Montgomery Bird",
+  "dates": "1806–1854",
+  "depth": "comprehensive",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": true
+  },
+  "sources": [
+    {
+      "id": "PAPERS",
+      "title": "University of Pennsylvania · Robert Montgomery Bird papers",
+      "url": "https://findingaids.library.upenn.edu/records/UPENN_RBML_PUSP.MS.COLL.108",
+      "checked": "2026-10-20",
+      "note": "Archival finding aid, biographical note and contents; search-index text retrieved; direct web renderer failed."
+    },
+    {
+      "id": "EXHIBIT",
+      "title": "Penn Libraries · Robert Montgomery Bird, writer and artist",
+      "url": "https://web.english.upenn.edu/~traister/bird/rmb.html",
+      "checked": "2026-10-20",
+      "note": "Curatorial exhibition text; notes birth-year uncertainty 1805/1806."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born in New Castle, Delaware; Penn archive uses 1806, an older Penn exhibition gives 1805/1806.",
+      "sources": [
+        "PAPERS",
+        "EXHIBIT"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Graduated from Penn in 1827; briefly practised medicine before literary work.",
+      "sources": [
+        "PAPERS",
+        "EXHIBIT"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote prize-winning plays for Edwin Forrest, including The Gladiator (1831).",
+      "sources": [
+        "PAPERS",
+        "EXHIBIT"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Calavar (1834), The Infidel and The Hawks of Hawk-Hollow (1835), Nick of the Woods (1837), Adventures of Robin Day (1839).",
+      "sources": [
+        "PAPERS",
+        "EXHIBIT"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Worked in medicine, journalism and photography; died in Philadelphia in 1854.",
+      "sources": [
+        "PAPERS",
+        "EXHIBIT"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Birth year",
+      "decision": "Display follows archival authority 1806; older Penn exhibition gives 1805/1806. No exact birth date asserted in new prose."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The frontier romance seen from its darker side.",
+      "intro": "A Philadelphia physician became a dramatist for Edwin Forrest and then a novelist of threatened settlements, hidden identities and violent reckonings. Robert Montgomery Bird brought the historical romance into an American landscape where fear could be as powerful as courage.",
+      "orientation": "He wrote about the frontier from the literary world of the eastern cities. The distinction is essential: his novels imagine earlier conflicts; they are not the field journals of a man recording his own frontier campaigns.",
+      "origin": [
+        "Born in New Castle, Delaware, Bird trained in medicine at the University of Pennsylvania and graduated in 1827. He soon left regular practice to pursue writing. Drawing, music and, later, photography accompanied his literary work. The surviving papers preserve the breadth of those interests."
+      ],
+      "career": [
+        "The actor Edwin Forrest’s competitions offered an opening for ambitious American drama. Bird supplied The Gladiator and other plays, but the partnership eventually broke down. In the 1830s his attention moved towards fiction: Mexican historical romances, the Pennsylvania setting of The Hawks of Hawk-Hollow and the Kentucky violence of Nick of the Woods. Later years brought teaching, farming and newspaper work rather than a steady continuation of the early novel-writing career."
+      ],
+      "literature": [
+        "The Hawks of Hawk-Hollow draws the divisions of the Revolutionary era into a story of inheritance, allegiance and outlawry. Nick of the Woods, published in 1837, makes the violence of the Kentucky border its central machinery. Its portrayal of Indians belongs to the settler romance and its hostilities; the novel’s force rests partly on the disquieting transformation of a seemingly peaceful figure into an agent of revenge."
+      ],
+      "legacy": "Bird’s importance lies in the possibilities he exposed within American historical fiction: divided loyalties, concealed histories and the proximity of domestic security to terror. His novels reward renewed reading because their narrative energy and their partial view of the frontier remain inseparable.",
+      "bridge": "The AETERNUS editions return to the novels themselves: their divided communities, threatened households and tangled claims of justice. Their historical setting gives the adventure its weight.",
+      "description": "A Philadelphia physician became a dramatist for Edwin Forrest and then a novelist of threatened settlements, hidden identities and violent reckonings. Robert Montgomery Bird brought the historical romance into an American landscape where fear could be as powerful as courage.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ]
+    },
+    "de": {
+      "tagline": "Die dunkle Seite des amerikanischen Grenzlandromans.",
+      "intro": "Ein Arzt aus Philadelphia wurde zum Dramatiker für Edwin Forrest und danach zum Romancier bedrohter Siedlungen, verborgener Identitäten und gewaltsamer Vergeltung. Robert Montgomery Bird führte den historischen Roman in eine amerikanische Landschaft, in der die Furcht ebenso mächtig sein konnte wie der Mut.",
+      "orientation": "Bird schrieb aus der literarischen Welt der Ostküstenstädte über das Grenzland. Seine Romane gestalten frühere Konflikte. Sie sind keine Feldtagebücher eigener Grenzlandkämpfe. Diese Unterscheidung schärft den Blick für ihre besondere Leistung.",
+      "origin": [
+        "In New Castle im Staat Delaware geboren, studierte Bird Medizin an der University of Pennsylvania und schloss 1827 ab. Nach kurzer ärztlicher Tätigkeit wandte er sich dem Schreiben zu. Zeichnung, Musik und später die Fotografie begleiteten seine literarische Arbeit; der erhaltene Nachlass zeigt die Breite seiner Interessen."
+      ],
+      "career": [
+        "Die Wettbewerbe des Schauspielers Edwin Forrest eröffneten ihm den Weg zur Bühne. Bird schrieb The Gladiator und weitere Dramen, bis die Zusammenarbeit zerbrach. In den 1830er Jahren trat der Roman in den Vordergrund: historische Stoffe aus Mexiko, das Pennsylvania der Falken von Falkenhorst und das gewaltsame Kentucky von Nick of the Woods. Später folgten medizinische Lehre, Landwirtschaft und Zeitungsarbeit."
+      ],
+      "literature": [
+        "Die Falken von Falkenhorst führen die Spaltungen der Revolutionszeit in einen Roman über Erbe, Zugehörigkeit und Gesetzlosigkeit. Nick of the Woods von 1837 macht die Gewalt an der Grenze Kentuckys zum Motor der Handlung. Das Indianerbild gehört zur parteilichen Welt des Siedlerromans. Die Verwandlung eines scheinbar friedfertigen Mannes zum Rächer verleiht dem Buch seine verstörende Spannung."
+      ],
+      "legacy": "Bird erschloss dem amerikanischen historischen Roman zerrissene Gemeinschaften, verdeckte Lebensgeschichten und die Nähe häuslicher Sicherheit zum Schrecken. Seine erzählerische Kraft und sein begrenzter Blick auf das Grenzland lassen sich nicht voneinander lösen. Gerade darin liegt ein Grund, seine Romane erneut zu lesen.",
+      "bridge": "Die Ausgaben erschließen die Romane als Geschichten gespaltener Gemeinschaften, bedrohter Häuser und widerstreitender Rechtsansprüche. Ihr historischer Schauplatz gibt dem Abenteuer sein Gewicht.",
+      "description": "Ein Arzt aus Philadelphia wurde zum Dramatiker für Edwin Forrest und danach zum Romancier bedrohter Siedlungen, verborgener Identitäten und gewaltsamer Vergeltung. Robert Montgomery Bird führte den historischen Roman in eine amerikanische Landschaft, in der die Furcht ebenso mächtig sein konnte wie der Mut.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-bird.webp",
+    "caption": {
+      "de": "Historisches Porträt von Robert Montgomery Bird",
+      "en": "Historical portrait of Robert Montgomery Bird"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "6fccb2a20d8b8506be034caacdba290c555718e427388a117cfe64bbfe87b47b"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-bird",
+          "alt": "Historisches Porträt von Robert Montgomery Bird",
+          "modern": true
+        }
+      },
+      {
+        "site": "legacy",
+        "portrait": {
+          "file": "portrait-bird",
+          "alt": "Historical portrait of Robert Montgomery Bird",
+          "modern": true
+        }
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "file": "portrait-bird",
+          "alt": "Historical portrait of Robert Montgomery Bird",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1827",
+      "Medical graduation at Penn",
+      "Medizinischer Abschluss in Pennsylvania"
+    ],
+    [
+      "1831",
+      "The Gladiator",
+      "The Gladiator"
+    ],
+    [
+      "1835",
+      "The Hawks of Hawk-Hollow",
+      "The Hawks of Hawk-Hollow"
+    ],
+    [
+      "1837",
+      "Nick of the Woods",
+      "Nick of the Woods"
+    ],
+    [
+      "1854",
+      "Death in Philadelphia",
+      "Tod in Philadelphia"
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "james-fenimore-cooper",
+      "kind": "thematic-comparison",
+      "en": "Two distinct forms of the American frontier romance; this is a literary comparison, not a claim of personal influence.",
+      "de": "Zwei unterschiedliche Formen des amerikanischen Grenzlandromans; ein Werkvergleich, kein behaupteter persönlicher Einfluss.",
+      "sources": [
+        "PAPERS"
+      ]
+    }
+  ]
+}

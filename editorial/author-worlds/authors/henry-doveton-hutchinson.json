@@ -1,0 +1,225 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "henry-doveton-hutchinson",
+  "name": "Henry Doveton Hutchinson",
+  "dates": "1847–1924",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "BIO",
+      "title": "C. E. Buckland · Dictionary of Indian Biography (1906), Hutchinson",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dictionary_of_Indian_biography%3B_%28IA_dictionaryofindi00buck%29.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "TIRAH",
+      "title": "The Campaign in Tirah · original edition catalogue",
+      "url": "https://commons.wikimedia.org/wiki/File:The_campaign_in_Tirah,_1897-1898;_an_account_of_the_expedition_against_the_Orakzais_and_Afridis_under_General_Sir_William_Lockhart,_based_(by_permission)_on_letters_contributed_to_%CA%BBThe_Times%CA%BE_(IA_cu31924028659575).pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "NPG",
+      "title": "National Portrait Gallery · Henry Doveton Hutchinson",
+      "url": "https://www.npg.org.uk/collections/search/person/mp02341/henry-doveton-hutchinson",
+      "checked": "2026-10-20",
+      "note": "Sitter authority: 1847–1924, lieutenant-general."
+    },
+    {
+      "id": "OFFICE",
+      "title": "The India Office List for 1923 · Order of the Star of India, companions",
+      "url": "https://bsi.gov.in/uploads/userfiles/file/Rare%20Books/The%20India%20Office%20List%20For%201923.pdf",
+      "checked": "2026-10-20",
+      "note": "Official roll: Hutchinson, 1 January 1903. Supersedes Buckland’s 1902 date."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Indian Army officer, born 1847; served in Sikkim, the Chitral relief and Tirah.",
+      "sources": [
+        "BIO",
+        "TIRAH"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Director of Military Education in India, 1896–1901.",
+      "sources": [
+        "BIO",
+        "TIRAH"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Campaign in Tirah, 1897–1898 draws on letters contributed to The Times.",
+      "sources": [
+        "BIO",
+        "TIRAH"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Companion of the Order of the Star of India from 1 January 1903; the official 1923 India Office roll takes precedence over Buckland’s 1902 date.",
+      "sources": [
+        "OFFICE"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Lived 1847–1924; final rank lieutenant-general, as recorded by the National Portrait Gallery.",
+      "sources": [
+        "NPG"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Buckland lists CSI 1902; official roll dates it 1 January 1903.",
+      "decision": "Use 1903 in public presentation; retain this discrepancy in the dossier."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A frontier campaign examined by a military educator.",
+      "intro": "Hutchinson’s account of Tirah joins the participant’s knowledge to the habits of an instructor. Routes, mountain positions and the handling of troops become the substance of military explanation.",
+      "orientation": "The expedition of 1897–98 belonged to Britain’s struggle to enforce authority along the North-West Frontier of India. Its terrain imposed demands that a map alone could not explain.",
+      "origin": [
+        "An Indian Army career brought service in Sikkim and the relief of Chitral before Tirah."
+      ],
+      "career": [
+        "He directed military education in India from 1896 to 1901 and wrote instructional works as well as campaign history. Experience and teaching informed one another."
+      ],
+      "literature": [
+        "The Campaign in Tirah developed from letters contributed to The Times. That origin gives the book a double character: reporting close to events and a more sustained account of the expedition."
+      ],
+      "legacy": "Hutchinson is valuable where the detail of operations becomes intelligible. His work preserves the professional reasoning of an army learning from a difficult frontier war.",
+      "bridge": "The edition connects the mountain campaign with the practical questions of command, movement and supply.",
+      "description": "Hutchinson’s account of Tirah joins the participant’s knowledge to the habits of an instructor. Routes, mountain positions and the handling of troops become the substance of military explanation.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ]
+    },
+    "de": {
+      "tagline": "Ein Grenzfeldzug im Blick eines militärischen Lehrers.",
+      "intro": "Hutchinson verbindet im Bericht über Tirah die Kenntnis des Beteiligten mit dem Blick des Ausbilders. Marschwege, Gebirgsstellungen und Truppenführung werden zum Gegenstand genauer militärischer Erklärung.",
+      "orientation": "Die Expedition von 1897–98 gehörte zum britischen Versuch, die Herrschaft an Indiens Nordwestgrenze durchzusetzen. Das Gelände stellte Anforderungen, die eine Karte allein nicht verständlich machte.",
+      "origin": [
+        "Die Laufbahn in der indischen Armee führte ihn nach Sikkim und zum Entsatz von Chitral, bevor er am Tirah-Feldzug teilnahm."
+      ],
+      "career": [
+        "Von 1896 bis 1901 leitete er die militärische Ausbildung in Indien. Neben Feldzugsgeschichte schrieb er Lehrwerke; praktische Erfahrung und Unterricht wirkten aufeinander zurück."
+      ],
+      "literature": [
+        "The Campaign in Tirah ging aus Briefen an The Times hervor. Das verleiht dem Buch einen doppelten Charakter: zeitnahe Berichterstattung und zusammenhängende Darstellung der Expedition."
+      ],
+      "legacy": "Hutchinsons Stärke liegt in der Erklärung konkreter Operationen. Sein Werk bewahrt das berufliche Denken einer Armee, die aus einem schwierigen Gebirgskrieg Lehren zog.",
+      "bridge": "Die englische Ausgabe erschließt den Feldzug über die Fragen von Führung, Bewegung und Versorgung. Sie ist auf der englischen Verlagsseite verzeichnet.",
+      "description": "Hutchinson verbindet im Bericht über Tirah die Kenntnis des Beteiligten mit dem Blick des Ausbilders. Marschwege, Gebirgsstellungen und Truppenführung werden zum Gegenstand genauer militärischer Erklärung.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ]
+    }
+  },
+  "image": {
+    "status": "not-available",
+    "reason": "No portrait in the existing website inventory; no unverified new likeness added.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {}
+      },
+      {
+        "site": "en",
+        "portrait": {
+          "modern": false
+        },
+        "source": "HDH_001/04_PARATEXT/PARATEXT_V8/08_ABOUT_THE_AUTHOR"
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1895",
+      "Relief of Chitral",
+      "Entsatz von Chitral"
+    ],
+    [
+      "1896–1901",
+      "Director of Military Education in India",
+      "Leitung der militärischen Ausbildung in Indien"
+    ],
+    [
+      "1897–98",
+      "Tirah campaign",
+      "Tirah-Feldzug"
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "charles-vere-ferrers-townshend",
+      "kind": "shared-campaign",
+      "en": "The Chitral relief and the besieged garrison were two sides of the same operation.",
+      "de": "Entsatzheer und belagerte Garnison von Chitral: zwei Seiten derselben Operation.",
+      "sources": [
+        "BIO"
+      ]
+    }
+  ],
+  "rank": {
+    "en": "Lieutenant-General Henry Doveton Hutchinson · CSI (1903)",
+    "de": "Generalleutnant Henry Doveton Hutchinson · CSI (1903)"
+  },
+  "honours": [
+    {
+      "name": "Order of the Star of India · Companion (CSI)",
+      "year": "1903",
+      "category": "order",
+      "sources": [
+        "OFFICE"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+{% set world = a.slug | authorWorld("de") %}
 
 {%- set authorStatus = (a.previewStatus | default("In Vorbereitung · Termin offen")) if a.preview else "" %}
 <!doctype html>
@@ -5,13 +6,14 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>{{ a.name }} | Aeternus Verlag</title>
-  <meta name="description" content="{{ a.metaDescription }}">
+  <meta name="description" content="{{ world.description or a.metaDescription }}">
   <meta name="theme-color" content="#0e0d0b"><link rel="canonical" href="https://aeternus-verlag.de/autoren/{{ a.slug }}/">{%- for v in authorLangs.versions(a.slug, "de") %}<link rel="alternate" hreflang="{{ v.lang }}" href="https://aeternus-verlag.de{{ v.url }}">{%- endfor %}<link rel="alternate" hreflang="x-default" href="https://aeternus-verlag.de/autoren/{{ a.slug }}/">
-  <meta property="og:type" content="profile"><meta property="og:locale" content="de_DE"><meta property="og:site_name" content="Aeternus Verlag"><meta property="og:title" content="{{ a.name }} | Aeternus Verlag"><meta property="og:description" content="{{ a.ogDescription }}"><meta property="og:url" content="https://aeternus-verlag.de/autoren/{{ a.slug }}/"><meta property="og:image" content="https://aeternus-verlag.de{{ (a.portrait.file | authorImage(a.portrait.modern)) or "/assets/images/hero-library.jpg" }}">
-  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ a.name }} | Aeternus Verlag"><meta name="twitter:description" content="{{ a.ogDescription }}"><meta name="twitter:image" content="https://aeternus-verlag.de{{ (a.portrait.file | authorImage(a.portrait.modern)) or "/assets/images/hero-library.jpg" }}">
+  <meta property="og:type" content="profile"><meta property="og:locale" content="de_DE"><meta property="og:site_name" content="Aeternus Verlag"><meta property="og:title" content="{{ a.name }} | Aeternus Verlag"><meta property="og:description" content="{{ world.tagline or a.ogDescription }}"><meta property="og:url" content="https://aeternus-verlag.de/autoren/{{ a.slug }}/"><meta property="og:image" content="https://aeternus-verlag.de{{ world.portrait.file or "/assets/images/hero-library.jpg" }}">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{{ a.name }} | Aeternus Verlag"><meta name="twitter:description" content="{{ world.tagline or a.ogDescription }}"><meta name="twitter:image" content="https://aeternus-verlag.de{{ world.portrait.file or "/assets/images/hero-library.jpg" }}">
   <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","name":"{{ a.name }}","url":"https://aeternus-verlag.de/autoren/{{ a.slug }}/","inLanguage":"de","mainEntity":{"@type":"Person","name":"{{ a.name }}","birthDate":"{{ a.schema.birthDate }}","deathDate":"{{ a.schema.deathDate }}","description":"{{ a.schema.description }}"},"publisher":{"@type":"Organization","name":"Aeternus Verlag","url":"https://aeternus-verlag.de/"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","name":"{{ a.name }}","url":"https://aeternus-verlag.de/autoren/{{ a.slug }}/","inLanguage":"de","mainEntity":{"@type":"Person","name":"{{ a.name }}",{% if a.slug != "tacitus" and a.slug != "robert-montgomery-bird" %}"birthDate":"{{ a.schema.birthDate }}","deathDate":"{{ a.schema.deathDate }}",{% endif %}"description":"{{ a.schema.description }}"},"publisher":{"@type":"Organization","name":"Aeternus Verlag","url":"https://aeternus-verlag.de/"}}</script>
 <link rel="stylesheet" href="/assets/css/fonts.css"><link rel="stylesheet" href="/assets/css/editorial.css"><link rel="stylesheet" href="/assets/css/author-layout-base.css"><link rel="stylesheet" href="/assets/css/authors.css?v=20261018">
+<link rel="stylesheet" href="/assets/css/author-worlds.css?v=20261020">
 </head>
 {% set authorLocale = "de" %}
 {% set labels = authorLabels[authorLocale] %}

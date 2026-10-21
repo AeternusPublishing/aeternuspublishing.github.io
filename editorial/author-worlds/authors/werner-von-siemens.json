@@ -1,0 +1,169 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "werner-von-siemens",
+  "name": "Ernst Werner von Siemens",
+  "dates": "1816–1892",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": false,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "SIEMENS",
+      "title": "Siemens Historical Institute · Werner von Siemens",
+      "url": "https://www.siemens.com/de-de/company/history-heritage/personalities/",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "MPI",
+      "title": "Max Planck Institute for the History of Science · Werner Siemens",
+      "url": "https://vlp.mpiwg-berlin.mpg.de/people/data?id=per306",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born 1816, died 1892; officer, inventor and entrepreneur.",
+      "sources": [
+        "SIEMENS",
+        "MPI"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Founded Siemens & Halske with Johann Georg Halske in 1847.",
+      "sources": [
+        "SIEMENS",
+        "MPI"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Developed dynamoelectric principle in 1866; ennobled 1888.",
+      "sources": [
+        "SIEMENS",
+        "MPI"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Lebenserinnerungen appeared 1892.",
+      "sources": [
+        "SIEMENS",
+        "MPI"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Von der Werkstatt zur elektrischen Welt.",
+      "intro": "Siemens erzählt den technischen Fortschritt aus der Nähe des Versuchs. Hinter dem späteren Unternehmen stehen Werkstattarbeit, ungelöste Aufgaben und die Verbindung wissenschaftlicher Einsicht mit unternehmerischem Wagnis.",
+      "orientation": "Die Lebenserinnerungen führen in jene Jahrzehnte, in denen Telegraphie und elektrische Energie neue Verbindungen und neue Industrien ermöglichten.",
+      "origin": [
+        "Die preußische Artillerie- und Ingenieurausbildung eröffnete ihm den Zugang zu Mathematik, Physik und technischen Versuchen. Der Offiziersberuf ging dem Unternehmer voraus."
+      ],
+      "career": [
+        "1847 gründete er mit Johann Georg Halske die Telegraphen-Bauanstalt. Internationale Leitungsprojekte erweiterten das Geschäft. 1866 erschloss das dynamoelektrische Prinzip neue Möglichkeiten der Stromerzeugung. Die Erhebung in den Adelsstand folgte 1888."
+      ],
+      "literature": [
+        "Die 1892 erschienenen Lebenserinnerungen verbinden Familiengeschichte, technische Erklärung und Geschäftsbericht. Der Autor macht Entscheidungen nachvollziehbar, ohne seine eigene Rolle aus dem Mittelpunkt zu nehmen."
+      ],
+      "legacy": "Siemens bewahrt die Perspektive eines Erfinders, für den eine Erkenntnis erst in der brauchbaren Anwendung ihre volle Wirkung entfaltete. Seine Erinnerungen erschließen die Entstehung einer Industrie aus einzelnen Problemen und Entscheidungen.",
+      "bridge": "Die Ausgabe führt hinter den vertrauten Firmennamen zum experimentierenden Ingenieur und zum Aufbau eines Unternehmens.",
+      "description": "Siemens erzählt den technischen Fortschritt aus der Nähe des Versuchs. Hinter dem späteren Unternehmen stehen Werkstattarbeit, ungelöste Aufgaben und die Verbindung wissenschaftlicher Einsicht mit unternehmerischem Wagnis.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-siemens.webp",
+    "caption": {
+      "de": "Werner von Siemens, Heliogravüre aus der Erstausgabe der Lebenserinnerungen, 1892",
+      "en": "Ernst Werner von Siemens"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "8550e95870cd5784fac7241b8fdbf70acd1b28f2a4627d63347cea959600d565"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-siemens",
+          "alt": "Werner von Siemens, Heliogravüre aus der Erstausgabe der Lebenserinnerungen, 1892",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1847",
+      "",
+      "Gründung von Siemens & Halske"
+    ],
+    [
+      "1866",
+      "",
+      "Dynamoelektrisches Prinzip"
+    ],
+    [
+      "1888",
+      "",
+      "Erhebung in den Adelsstand"
+    ],
+    [
+      "1892",
+      "",
+      "Lebenserinnerungen"
+    ]
+  ],
+  "honours": [
+    {
+      "name": "Erhebung in den preußischen Adelsstand",
+      "year": "1888",
+      "category": "title",
+      "sources": [
+        "SIEMENS"
+      ]
+    }
+  ]
+}

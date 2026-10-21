@@ -1,0 +1,202 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "charles-edward-callwell",
+  "name": "Charles Edward Callwell",
+  "dates": "1859–1928",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "ORIGINAL",
+      "title": "Charles E. Callwell · Small Wars, third edition (1906)",
+      "url": "https://www.ibiblio.org/hyperwar/NHC/small_wars/small_wars.htm",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "STUDY",
+      "title": "Daniel Whittingham · Charles E. Callwell and the British Way in Warfare, chapter 2",
+      "url": "https://www.cambridge.org/core/books/abs/charles-e-callwell-and-the-british-way-in-warfare/an-art-by-itself-charles-callwell-and-small-wars/4797A5F6D289F817B3038811114EC6A1",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "GAZETTE",
+      "title": "London Gazette · Callwell, honours style and Serbian award, 1918",
+      "url": "https://www.thegazette.co.uk/London/issue/30891/supplement/10645/data.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "British artillery and staff officer, 1859–1928; major-general.",
+      "sources": [
+        "ORIGINAL",
+        "STUDY",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Small Wars first appeared 1896 and reached a third edition 1906.",
+      "sources": [
+        "ORIGINAL",
+        "STUDY",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Served as Director of Military Operations in the First World War.",
+      "sources": [
+        "ORIGINAL",
+        "STUDY",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Attested as KCB in the Gazette of 9 September 1918.",
+      "sources": [
+        "ORIGINAL",
+        "STUDY",
+        "GAZETTE"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Colonial campaigning made into a body of military argument.",
+      "intro": "Callwell asked what happened when a regular army fought opponents whose organisation, aims and methods differed from its own. Small Wars gathers the campaigns of empire into an attempt at practical theory.",
+      "orientation": "The book’s classifications belong to an imperial officer’s world. Its operational insight and its assumptions about conquest have to be read in the same passage.",
+      "origin": [
+        "Artillery and staff service provided the professional setting of his writing. Experience and the comparative study of campaigns both fed the analysis."
+      ],
+      "career": [
+        "His career extended into the First World War as Director of Military Operations. The contrast between colonial campaigns and industrial war gives the earlier work an additional historical perspective."
+      ],
+      "literature": [
+        "Small Wars proceeds through examples rather than a single narrative. Supply, terrain, intelligence, movement and the enemy’s purposes repeatedly unsettle an apparently simple balance of forces."
+      ],
+      "legacy": "Callwell remains a revealing military thinker because he treated difference as an operational problem. His work also records the coercive ends to which that professional intelligence was directed.",
+      "bridge": "The edition restores the argument in its full historical setting, beyond the isolated maxims for which it is often remembered.",
+      "description": "Callwell asked what happened when a regular army fought opponents whose organisation, aims and methods differed from its own. Small Wars gathers the campaigns of empire into an attempt at practical theory.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/author-charles-edward-callwell-color-20261018.jpg",
+    "caption": {
+      "de": "Koloriertes Porträt.",
+      "en": "Colourised portrait."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "148bb7cd023f1d91c2cd14a1f84b82d3743a4383fff76c8e0c66ef562960fb58"
+    },
+    "processing": "Colourised portrait.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "file": "author-charles-edward-callwell-color-20261018",
+          "alt": "Major-General Sir Charles Edward Callwell, K.C.B., 1859–1928"
+        },
+        "publisherPortrait": "/assets/images/author-charles-edward-callwell-color-20261018.jpg",
+        "caption": "Major-General Sir Charles Edward Callwell, K.C.B., 1859–1928",
+        "source": "CEC_001/08_SOCIAL_WEB_EN/WEBSITE_20261017/WEBSEITE_TEXTE.json"
+      }
+    ]
+  },
+  "rank": {
+    "en": "Major-General Sir Charles Edward Callwell · KCB"
+  },
+  "timeline": [
+    [
+      "1896",
+      "First edition of Small Wars",
+      ""
+    ],
+    [
+      "1906",
+      "Third edition of Small Wars",
+      ""
+    ],
+    [
+      "1914",
+      "Director of Military Operations",
+      ""
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "robert-baden-powell",
+      "kind": "thematic-comparison",
+      "en": "Participant narrative and comparative theory offer different views of British campaigning in Africa; no personal influence is asserted.",
+      "sources": [
+        "ORIGINAL"
+      ]
+    }
+  ],
+  "honours": [
+    {
+      "name": "Order of the Bath · Knight Commander (KCB)",
+      "year": "attested 1918",
+      "category": "order",
+      "sources": [
+        "GAZETTE"
+      ],
+      "note": {
+        "en": "Official style in the 1918 notice; no earlier award date inferred."
+      }
+    },
+    {
+      "name": "Serbian Order of the White Eagle · Second Class",
+      "year": "1918",
+      "category": "order",
+      "sources": [
+        "GAZETTE"
+      ]
+    }
+  ]
+}

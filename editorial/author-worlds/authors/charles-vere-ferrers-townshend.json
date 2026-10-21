@@ -1,0 +1,303 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "charles-vere-ferrers-townshend",
+  "name": "Charles Vere Ferrers Townshend",
+  "dates": "1861–1924",
+  "depth": "comprehensive",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "KINGS",
+      "title": "King’s College London / AIM25 · Townshend papers",
+      "url": "https://atom.aim25.com/index.php/townshend-maj-gen-sir-charles-vere-ferrers-1861-1924-2",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "NAM",
+      "title": "National Army Museum · Mesopotamia campaign",
+      "url": "https://www.nam.ac.uk/explore/mesopotamia-campaign",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "MELLISS",
+      "title": "National Army Museum · Charles Melliss, letters and captivity",
+      "url": "https://www.nam.ac.uk/explore/their-own-words-major-general-sir-charles-melliss",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "GAZETTE",
+      "title": "London Gazette · Chitral honours, 16 July 1895, p. 4021",
+      "url": "https://www.thegazette.co.uk/London/issue/26644/page/4021/data.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "BIO",
+      "title": "C. E. Buckland · Dictionary of Indian Biography (1906), Hutchinson",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dictionary_of_Indian_biography%3B_%28IA_dictionaryofindi00buck%29.pdf",
+      "checked": "2026-10-20",
+      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born 1861; commissioned into Royal Marine Light Infantry 1881; transferred to Indian Army 1886.",
+      "sources": [
+        "KINGS",
+        "NAM",
+        "MELLISS",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Chitral garrison commander 1895; CB 1895; Sudan service; DSO 1898.",
+      "sources": [
+        "KINGS",
+        "NAM",
+        "MELLISS",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Major-general 1911; commanded 6th (Poona) Division in Mesopotamia 1915–16.",
+      "sources": [
+        "KINGS",
+        "NAM",
+        "MELLISS",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Advance to Amara and Kut 1915; Ctesiphon setback; surrender at Kut 29 April 1916.",
+      "sources": [
+        "KINGS",
+        "NAM",
+        "MELLISS",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Prisoner 1916–18 with preferential treatment; troops suffered catastrophic captivity.",
+      "sources": [
+        "KINGS",
+        "NAM",
+        "MELLISS",
+        "GAZETTE"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "KCB 1917 according to King’s archival catalogue; MP 1920–22; died 1924.",
+      "sources": [
+        "KINGS",
+        "NAM",
+        "MELLISS",
+        "GAZETTE"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Chitral made his name. Kut transformed its meaning.",
+      "intro": "Townshend’s career passed from the celebrated defence of a frontier fort to the surrender of a division on the Tigris. His story holds tactical success, imperial ambition and the terrible consequences of a campaign pushed beyond its means.",
+      "orientation": "Chitral and Kut were both sieges, but they cannot bear the same heroic conclusion. Relief reached the garrison of 1895. In 1916 the attempts to relieve Kut failed, and the men went into captivity.",
+      "origin": [
+        "Educated at Cranleigh and Sandhurst, Townshend entered the Royal Marine Light Infantry in 1881 and transferred to the Indian Army in 1886. Service on the frontiers of empire provided the experience from which he built his reputation."
+      ],
+      "career": [
+        "He commanded the besieged garrison at Chitral in 1895 and received the CB. Service with the Egyptian Army followed, including the Sudan campaign of 1898, for which he received the DSO. He reached major-general in 1911. In 1915 he led the 6th (Poona) Division up the Tigris, taking Amara and Kut before the advance towards Baghdad stalled at Ctesiphon."
+      ],
+      "literature": [
+        "My Campaign in Mesopotamia is a commander’s retrospective account of decisions for which he was himself responsible. Its value lies in that proximity, and so does its limitation. Claims made in self-defence must be read against the wider record of transport, medical provision, supply and the orders of higher command."
+      ],
+      "legacy": "After the surrender on 29 April 1916, Townshend received markedly better treatment than his soldiers. Thousands of the captured men died during the marches and imprisonment that followed. His later account cannot close that disparity. To read him beside Melliss is to encounter two senior officers from the same disaster whose conduct towards their men left very different memories.",
+      "bridge": "The book brings the reader close to the mind of a divisional commander. The author’s argument is part of the historical evidence; the outcome at Kut remains the measure against which it must be read.",
+      "description": "Townshend’s career passed from the celebrated defence of a frontier fort to the surrender of a division on the Tigris. His story holds tactical success, imperial ambition and the terrible consequences of a campaign pushed beyond its means.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-townshend-colour-20261021.webp",
+    "caption": {
+      "de": "Porträtfrontispiz der Ausgabe von 1920; rekonstruiert und nachträglich koloriert.",
+      "en": "Portrait frontispiece of the 1920 edition; reconstructed and subsequently colourised."
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger Chat 21.10.2026: aktualisierte Seite veröffentlichen; Seton bleibt so, Townshend kolorieren.",
+      "sha256": "23b2b8fb75c3666dbe79b0ac68ea1598b10b105096512b58c09c0948ad73c880"
+    },
+    "processing": "Built-in imagegen colourisation on publisher instruction, 21 October 2026. Original preserved; modern interpretive colours.",
+    "existing": [
+      {
+        "site": "en",
+        "portrait": {
+          "modern": true,
+          "fallback": true,
+          "file": "portrait-charles-vere-ferrers-townshend",
+          "alt": "Major-General Sir Charles Vere Ferrers Townshend, K.C.B., D.S.O."
+        },
+        "captionLines": [
+          "Major-General Sir Charles Vere Ferrers Townshend, K.C.B., D.S.O.",
+          "Born 1861 in London, died 1924 in Paris",
+          "Portrait frontispiece of the edition of 1920, reconstructed"
+        ]
+      }
+    ],
+    "original": "/assets/images/portrait-charles-vere-ferrers-townshend.webp"
+  },
+  "rank": {
+    "en": "Major-General Sir Charles Vere Ferrers Townshend · KCB (1917), DSO (1898)"
+  },
+  "timeline": [
+    [
+      "1881",
+      "Commissioned into the Royal Marine Light Infantry",
+      ""
+    ],
+    [
+      "1895",
+      "Defence of Chitral; CB",
+      ""
+    ],
+    [
+      "1898",
+      "Sudan campaign; DSO",
+      ""
+    ],
+    [
+      "1911",
+      "Promoted major-general",
+      ""
+    ],
+    [
+      "1915",
+      "Command of 6th (Poona) Division in Mesopotamia",
+      ""
+    ],
+    [
+      "29 April 1916",
+      "Surrender at Kut",
+      ""
+    ],
+    [
+      "1917",
+      "KCB, during captivity",
+      ""
+    ],
+    [
+      "1920",
+      "My Campaign in Mesopotamia; elected MP",
+      ""
+    ]
+  ],
+  "honours": [
+    {
+      "name": "Order of the Bath · Companion (CB)",
+      "year": "1895",
+      "category": "order",
+      "sources": [
+        "GAZETTE"
+      ]
+    },
+    {
+      "name": "Distinguished Service Order (DSO)",
+      "year": "1898",
+      "category": "decoration",
+      "sources": [
+        "KINGS"
+      ]
+    },
+    {
+      "name": "Order of the Bath · Knight Commander (KCB)",
+      "year": "1917",
+      "category": "order",
+      "sources": [
+        "KINGS"
+      ]
+    }
+  ],
+  "places": [
+    {
+      "en": [
+        "Chitral, 1895",
+        "A frontier garrison held out until relief. The defence established Townshend’s public reputation."
+      ]
+    },
+    {
+      "en": [
+        "The Tigris, 1915–16",
+        "British operations began to secure the approaches to the Persian Gulf and oil supplies; the advance towards Baghdad outgrew its logistical strength. Kut became a trap after the retreat from Ctesiphon."
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "slug": "melliss",
+      "kind": "shared-campaign",
+      "en": "A senior commander at Kut whose letters document the siege and the fate of the prisoners.",
+      "sources": [
+        "MELLISS"
+      ]
+    },
+    {
+      "slug": "henry-doveton-hutchinson",
+      "kind": "shared-campaign",
+      "en": "Hutchinson took part in the Chitral relief; Townshend commanded the besieged garrison.",
+      "sources": [
+        "KINGS",
+        "BIO"
+      ]
+    }
+  ]
+}

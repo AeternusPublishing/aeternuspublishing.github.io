@@ -1,0 +1,144 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "felix-salten",
+  "name": "Felix Salten · Siegmund Salzmann",
+  "dates": "1869–1945",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": false,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "VIENNA",
+      "title": "Wien Museum / Wienbibliothek · Im Schatten von Bambi, exhibition dossier",
+      "url": "https://www.wienmuseum.at/fileadmin/user_upload/Presse_Neu/Ausstellungen/2020/Felix_Salten/Presseinformation_Felix_Salten_D.pdf",
+      "checked": "2026-10-20",
+      "note": "Joint institutional exhibition dossier; working replacement for the former Wienbibliothek URL (404). States actual publication in late 1922."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born Budapest 1869 as Siegmund Salzmann; grew up in Vienna; died Zurich 1945.",
+      "sources": [
+        "VIENNA"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Journalist, theatre critic and novelist; Bambi appeared at the end of 1922, commonly catalogued under the edition year 1923.",
+      "sources": [
+        "VIENNA"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Fled to Switzerland in 1939.",
+      "sources": [
+        "VIENNA"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Bambi: actual publication and bibliographic edition year",
+      "decision": "Distinguish late 1922 publication from the familiar 1923 edition year. Existing book edition records are not reassigned."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Hinter Bambi steht ein ganzes Wiener Schriftstellerleben.",
+      "intro": "Felix Salten gehörte zur literarischen und journalistischen Welt Wiens, lange bevor sein Name mit einem Reh verbunden wurde. Kritik, Feuilleton und Erzählung schulten den Blick, der auch seine Tiergeschichten trägt.",
+      "orientation": "Bambi erschließt eine Waldwelt aus der Nähe ihrer Bewohner. Das Buch ist dichter und härter, als es die spätere Vertrautheit seiner Hauptfigur vermuten lässt.",
+      "origin": [
+        "1869 in Budapest als Siegmund Salzmann geboren, wuchs Salten in Wien auf. Frühe Erwerbsarbeit begleitete den Beginn seiner schriftstellerischen Tätigkeit."
+      ],
+      "career": [
+        "Journalismus und Theaterkritik bildeten die Grundlage seiner Laufbahn. Nach dem nationalsozialistischen Machtantritt in Österreich musste der jüdische Schriftsteller 1939 in die Schweiz fliehen. Dort verbrachte er seine letzten Jahre."
+      ],
+      "literature": [
+        "Bambi, Ende 1922 erschienen und gewöhnlich unter dem Ausgabenjahr 1923 geführt, verbindet genaue Wahrnehmung mit einer Erzählung über Schutz, Gefahr und das Erwachsenwerden. Die Tiere erhalten eigene Erfahrungshorizonte; der Mensch bleibt eine Macht von außerhalb ihrer Welt."
+      ],
+      "legacy": "Saltens Wald gewinnt seine Kraft aus dem Ernst des Überlebens. Die Rückkehr zum Buch macht die Eigenart eines Autors sichtbar, dessen übriges Werk hinter einer weltberühmten Gestalt zurücktrat.",
+      "bridge": "Die Ausgabe führt zur literarischen Waldgeschichte und zu ihrer eigenen, unverkürzten Tonlage.",
+      "description": "Felix Salten gehörte zur literarischen und journalistischen Welt Wiens, lange bevor sein Name mit einem Reh verbunden wurde. Kritik, Feuilleton und Erzählung schulten den Blick, der auch seine Tiergeschichten trägt.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-salten.webp",
+    "caption": {
+      "de": "Felix Salten, historische Fotografie von Ferdinand Schmutzer, um 1910",
+      "en": "Felix Salten · Siegmund Salzmann"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "Verleger im Chat: bisherige Porträts wieder einblenden; bereits freigegeben; kolorierte oder rekonstruierte Bilder kennzeichnen.",
+      "sha256": "c35bf294bcbc41a3c1f146eef8edb82dace3d7d753f3b76271d2a24a077f1c47"
+    },
+    "processing": "Existing approved asset; no image processing in this revision.",
+    "existing": [
+      {
+        "site": "de",
+        "portrait": {
+          "file": "portrait-salten",
+          "alt": "Felix Salten, historische Fotografie von Ferdinand Schmutzer, um 1910",
+          "modern": true
+        }
+      }
+    ]
+  },
+  "timeline": [
+    [
+      "1869",
+      "",
+      "Geburt in Budapest"
+    ],
+    [
+      "1922/23",
+      "",
+      "Bambi erscheint"
+    ],
+    [
+      "1939",
+      "",
+      "Flucht in die Schweiz"
+    ],
+    [
+      "1945",
+      "",
+      "Tod in Zürich"
+    ]
+  ]
+}
