@@ -2148,6 +2148,25 @@
       }
     },
     {
+      "id": "book:en-robert-baden-powell-aids-to-scouting",
+      "type": "book",
+      "label": {
+        "de": "Aids to Scouting for N.-C.Os. & Men",
+        "en": "Aids to Scouting for N.-C.Os. & Men"
+      },
+      "author": "Robert Baden-Powell",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-baden-powell-aids-to-scouting/",
+        "en": "https://aeternuspublishing.com/books/en-robert-baden-powell-aids-to-scouting/"
+      },
+      "summary": {
+        "de": "",
+        "en": "First published in 1899, Aids to Scouting brought together Robert Baden-Powell’s experience of military reconnaissance in India, Afghanistan and Africa, presenting the art of observation, concealment, tracking, fieldcraft and independent action in a compact manual written expressly for the non-commissioned officers and men of the British Army."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3335,6 +3354,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-robert-baden-powell-aids-to-scouting",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:de:scouting-for-boys-uebersetzt",
       "target": "book:de:waldhandwerk",
       "type": "curated",
@@ -4107,6 +4131,11 @@
     },
     {
       "source": "book:en-robert-baden-powell-the-matabele-campaign-1896",
+      "target": "author:Robert Baden-Powell",
+      "type": "author"
+    },
+    {
+      "source": "book:en-robert-baden-powell-aids-to-scouting",
       "target": "author:Robert Baden-Powell",
       "type": "author"
     },

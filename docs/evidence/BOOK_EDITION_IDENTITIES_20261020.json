@@ -5914,6 +5914,79 @@
           ]
         }
       ]
+    },
+    {
+      "site": "en",
+      "id": "en-robert-baden-powell-aids-to-scouting",
+      "url": "/books/en-robert-baden-powell-aids-to-scouting/",
+      "title": "Aids to Scouting for N.-C.Os. & Men",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+          "sha256": "2074ffbde5a68d720348a08552d46f11510837e4b27d2c680c79532a765bc2f0"
+        },
+        {
+          "path": "src/assets/images/cover-aids-to-scouting-baden-powell-en-20261020.webp",
+          "sha256": "3182c454f735a80f4c8c27f2968f7cb97d26912473184c661cd0b536b8968c2f"
+        },
+        {
+          "path": "src/assets/images/back-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+          "sha256": "68bde09c61478341b79172c9530416050eebb759d2a430529cf985afa8511ef4"
+        },
+        {
+          "path": "src/assets/images/back-aids-to-scouting-baden-powell-en-20261020.webp",
+          "sha256": "46341ff286b7ad9c09a7124fd95ddf68aa4fbfb82f0f06f36067d18d7546d9dc"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052054",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Aids to Scouting for N.-C.Os. & Men (Annotated)",
+              "isbn13": "978-3-67605-205-4",
+              "isbn10": "3676052056",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676052061",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Aids to Scouting for N.-C.Os. & Men (Annotated)",
+              "isbn13": "978-3-67605-206-1",
+              "isbn10": "3676052064",
+              "asin": null
+            }
+          ]
+        }
+      ],
+      "independent_verification": {
+        "reviewed_utc": "2026-10-20T20:05:32.010989+00:00",
+        "register_query": "aeternus.py buchregister isbn BP_002 (read-only)",
+        "register_projection_sha256": "b490453be216ebd18c47ab75c5628654efac1432b93335545f5515371b7e479b",
+        "source": "BP_002/EN_EDITION_20260924/10_SOCIAL_WEB_EN/WEBSITE_20261020",
+        "source_manifest_sha256": "4d921238c5c925905dce53b227586d30bec36a2d7204af7b7e25dc6204d5eb58",
+        "source_text_sha256": "bbcfc28077c317ecc10dd62f9d09d9b910b5cc3b520486c374a5db4b2e1da8b7",
+        "decision_id": "decision_bp002_en_endfreigabe_kdp_v2_ingram_v2_upload_website_instagram_20261020",
+        "review": "Front and back JPEG/WebP pairs visually inspected: English Aids to Scouting, Robert Baden-Powell, paperback142 pages, back-cover ISBN9783676052054. All four files byte-identical to canonical web originals. Both format ISBNs independently checked against registered English BP_002 forms. Forthcoming remains; no buying links or LIVE claim."
+      }
     }
   ],
   "additional_pages": [
