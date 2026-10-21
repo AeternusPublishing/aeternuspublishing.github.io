@@ -356,17 +356,5 @@
       ]
     }
   ],
-  "gallery": [
-    {
-      "file": "/assets/images/author-world-scouts.webp",
-      "width": 1024,
-      "height": 745,
-      "caption": {
-        "en": "Ernest Thompson Seton (left), Robert Baden-Powell (seated) and Daniel Carter Beard (right). Bain News Service; exact date not established. This photograph documents their association; the archive’s broad date labels are not used as an exact event date.",
-        "de": "Ernest Thompson Seton (links), Robert Baden-Powell (sitzend) und Daniel Carter Beard (rechts). Bain News Service; genaues Datum nicht gesichert. Die Aufnahme belegt ihre Verbindung, jedoch kein hier genau datiertes Ereignis."
-      },
-      "source": "https://www.loc.gov/pictures/item/2014686580/",
-      "rights": "Library of Congress: no known restrictions on publication."
-    }
-  ]
+  "gallery": []
 }

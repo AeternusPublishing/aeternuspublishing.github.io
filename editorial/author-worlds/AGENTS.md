@@ -17,3 +17,5 @@ Bestehende Buchdaten, ISBN, Cover und Kaufwege aus dem jeweiligen Katalog bezieh
 Vor Übergabe beide Websites lokal bauen; `node scripts/check-author-worlds.cjs`, `node scripts/check-edition-languages.cjs`, `node scripts/check-book-identities.cjs --international`, `node scripts/check-text.cjs` und `node scripts/check-author-order.cjs` ausführen. Alle geänderten Ansichten auf Desktop und Mobilgerät lesen, Aufklappbereiche per Tastatur prüfen. Nicht aus einem PASS eine redaktionelle Freigabe machen.
 
 Änderungen gesammelt in einem Entwicklungszweig vorlegen. Kein Merge, Live-Umbau oder Deployment aus dieser Anweisung ableiten.
+
+Verlegerwort 21.10.2026: Schwerpunkt sind Biografie, Orden, militärische Verdienste und lebendige historische Texte. Handverlesene Bestandsbilder nicht verändern. Keine neuen Schwarzweißbilder ergänzen; neue Bilder ausschließlich in Farbe und nur nach ausdrücklichem Auftrag.
