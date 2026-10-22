@@ -1771,7 +1771,7 @@ module.exports.push({
 });
 
 // Werner von Siemens: Blaue Reihe, Lebenserinnerungen (WVS_001), Verleger 30.09.2026.
-// Ausgaben gebaut, Upload ausstehend: kein Kaufknopf (amazon "/"), Status traegt den Stand.
+// Taschenbuch-Angebot am 22.10.2026 auf Amazon.de gemessen; weitere Formen ohne Kaufknopf.
 module.exports.push({
   "slug": "werner-von-siemens",
   "name": "Werner von Siemens",
@@ -1841,8 +1841,8 @@ module.exports.push({
         "metadata": "Aeternus Verlag · Blaue Reihe · Taschenbuch ISBN 978-3-67605-109-5 · 19,99 € · Hardcover ISBN 978-3-67605-110-1 · 27,99 € · E-Book 10,99 €",
         "summary": "Siemens erzählt von preußischer Artillerie und Festungshaft, von ersten Experimenten, Telegraphenlinien und Kabelschiffen, vom Kaukasus und vom Atlantik, von Wissenschaftlern, Brüdern und Konkurrenten und von dem Willen, eine technische Idee erst dann als vollendet anzusehen, wenn sie in der Wirklichkeit bestand.",
         "sample": "Die Ausgabe folgt Seite für Seite der Erstausgabe von 1892. Der Text ist ungekürzt; der Brief an Gordon mit seinen Figuren und der Anhang über die wissenschaftlichen Arbeiten stehen an ihrem Ort.",
-        "amazon": "/",
-        "status": "In Vorbereitung · Taschenbuch, Hardcover und E-Book erscheinen in Kürze"
+        "amazon": "https://www.amazon.de/dp/3676051092",
+        "status": "Taschenbuch erhältlich · Hardcover und E-Book folgen"
       }
     }
   ]
