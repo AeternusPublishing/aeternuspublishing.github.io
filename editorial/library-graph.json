@@ -2186,6 +2186,44 @@
       }
     },
     {
+      "id": "book:en-ian-hamilton-gallipoli-diary-volume-i",
+      "type": "book",
+      "label": {
+        "de": "Gallipoli Diary, Volume I (Annotated)",
+        "en": "Gallipoli Diary, Volume I (Annotated)"
+      },
+      "author": "Ian Hamilton",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-gallipoli-diary-volume-i-en-20261022.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ian-hamilton-gallipoli-diary-volume-i/",
+        "en": "https://aeternuspublishing.com/books/en-ian-hamilton-gallipoli-diary-volume-i/"
+      },
+      "summary": {
+        "de": "",
+        "en": "General Sir Ian Hamilton’s own record of the Dardanelles expedition, March to July 1915: Volume I of the complete text of 1920, with its plates and a publisher’s apparatus."
+      }
+    },
+    {
+      "id": "book:en-ian-hamilton-gallipoli-diary-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "Gallipoli Diary, Volume II (Annotated)",
+        "en": "Gallipoli Diary, Volume II (Annotated)"
+      },
+      "author": "Ian Hamilton",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-gallipoli-diary-volume-ii-en-20261022.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-ian-hamilton-gallipoli-diary-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-ian-hamilton-gallipoli-diary-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "General Sir Ian Hamilton’s own record of the last months at Gallipoli, Sari Bair, Suvla and his recall in October 1915: Volume II of the complete text of 1920, with appendices and a publisher’s apparatus."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -2938,6 +2976,14 @@
       }
     },
     {
+      "id": "author:Ian Hamilton",
+      "type": "author",
+      "label": {
+        "de": "Ian Hamilton",
+        "en": "Ian Hamilton"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3387,6 +3433,16 @@
     },
     {
       "source": "book:en-younghusband-the-relief-of-chitral",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ian-hamilton-gallipoli-diary-volume-i",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-ian-hamilton-gallipoli-diary-volume-ii",
       "target": "series:gruen",
       "type": "series"
     },
@@ -4174,6 +4230,16 @@
     {
       "source": "book:en-younghusband-the-relief-of-chitral",
       "target": "author:George John Younghusband & Francis Edward Younghusband",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ian-hamilton-gallipoli-diary-volume-i",
+      "target": "author:Ian Hamilton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-ian-hamilton-gallipoli-diary-volume-ii",
+      "target": "author:Ian Hamilton",
       "type": "author"
     },
     {
