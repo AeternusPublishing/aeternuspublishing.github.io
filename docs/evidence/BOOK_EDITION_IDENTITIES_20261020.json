@@ -6167,7 +6167,7 @@
         }
       ],
       "independent_verification": {
-        "reviewed_utc": "2026-10-22T19:30:00Z",
+        "reviewed_utc": "2026-10-22T19:20:16.144710+00:00",
         "register_query": "aeternus.py uebergabe pruefe C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\09_EXPORT\\UPLOADPAKET_IH001_EN_B1_INGRAM_V2",
         "decision_id": "decision_ih001_en_b1_ingram_v2_endfreigabe_20261022",
         "source_manifest_sha256": "119a1424b0273c0ad9b8ac946455aad6f0526adfb04edb62e4c1694576749e6d",
@@ -6254,7 +6254,7 @@
         }
       ],
       "independent_verification": {
-        "reviewed_utc": "2026-10-22T19:30:00Z",
+        "reviewed_utc": "2026-10-22T19:20:16.144710+00:00",
         "register_query": "aeternus.py uebergabe pruefe C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\09_EXPORT\\UPLOADPAKET_IH001_EN_B2_INGRAM_V2",
         "decision_id": "decision_ih001_en_b2_ingram_v2_endfreigabe_20261022",
         "source_manifest_sha256": "74b48d87c65ca98faeda88eadbd577799b9ca874379ac550c7390c82edc008c8",
