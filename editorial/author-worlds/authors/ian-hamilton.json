@@ -1,0 +1,214 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "ian-hamilton",
+  "name": "General Sir Ian Hamilton",
+  "dates": "16 January 1853 – 12 October 1947",
+  "depth": "compact",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "APPROVED_PARATEXT",
+      "title": "Gallipoli Diary · II. The Commander and the Witness",
+      "url": "https://aeternuspublishing.com/books/en-ian-hamilton-gallipoli-diary-volume-i/",
+      "checked": "2026-10-22",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\04_PARATEXT\\IH001_PARATEXT_SATZFASSUNG_V3_20261017.md",
+      "sha256": "896dab024b4a665a0e6a92211fa32a54db8e5df52246b90edf60b6783cc92bec",
+      "note": "Section II read in full. Website prose consists of verbatim selected paragraphs. The paratext gives years 1853–1947; precise dates in the heading follow the explicit publisher instruction of 22 October 2026."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "Sir Ian Standish Monteith Hamilton belonged to the generation of British soldiers whose professional lives extended across the final decades of Victorian expansion and into the industrial warfare of the twentieth century. His career was formed in the British Army of India and the imperial expeditionary service, tested upon widely separated fields and distinguished by a familiarity with war which few officers of his seniority in 1914 could rival.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "He had served in the Afghan War, encountered the reverses and dangers of the early South African fighting, taken part in campaigns upon the Indian frontier and returned to South Africa during the great war against the Boer republics. He knew the responsibilities of command in action and the intricate relations between field officers, staffs and the higher military administration. During the Russo-Japanese War of 1904–1905 he observed the Japanese Army in Manchuria, gaining direct acquaintance with the enormous demands of warfare between modern armies.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "His published account of that experience, A Staff Officer's Scrap-Book, had already established him as a soldier capable of literary observation as well as professional analysis.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "Hamilton's temperament was not identical with that of the severe, centralising administrator who occupied so conspicuous a place in the British military world of his age. He possessed imagination, literary sensibility and a considerable capacity for personal attachment. In his writing there appears a mind attracted by great conceptions, conscious of the theatrical and historic dimensions of warfare, yet also acutely alive to the character of individuals and the changing spirit of an army.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "These qualities contributed to the remarkable interest of his Gallipoli record. They also invite scrutiny. The commander capable of perceiving a grand strategic opportunity must be judged equally by his capacity to obtain the means required for its execution, to select and direct subordinates and to distinguish hope from practicable military calculation.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "In March 1915 Hamilton was appointed to command the Mediterranean Expeditionary Force. The assignment placed him at the centre of an enterprise in which the British Government sought to turn the course of the Great War by striking at the Ottoman Empire.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "The forces under his authority represented several nations and military traditions. Their operations depended upon cooperation with an Allied fleet, upon difficult lines of communication through Mediterranean bases and upon decisions made in London while events moved with greater urgency upon the peninsula.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "Hamilton maintained his belief in the possibility of success long after the difficulties had become formidable. When the August offensive failed to secure the desired decision, the conflict between his expectations and the judgement forming in London deepened. He was recalled in October 1915 and received no subsequent field command.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "His military career was thus brought to its public conclusion under the shadow of an expedition whose courage and losses were unquestioned, but whose command and conception remained matters of controversy.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "The Gallipoli Diary was his answer to that controversy.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F11",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "Written from the perspective of the supreme commander and published while many of the principal participants were still alive, it is both a historical source and a personal defence. Its pages preserve the movement of military thought under pressure: anticipation, confidence, fatigue, indignation, friendship, uncertainty and the repeated effort to restore an opportunity which seemed always within reach and never securely attained.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F12",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "Hamilton should be read neither as the final authority upon his own vindication nor as a witness whose failure deprives him of value.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    },
+    {
+      "id": "F13",
+      "kind": "historical-fact",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "statement": "He was the man who bore the command. His account belongs among the indispensable documents through which the history of Gallipoli must be understood.",
+      "sources": [
+        "APPROVED_PARATEXT"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "note": "The approved paratext gives life years only. Day and month are supplied explicitly by the publisher; no further honours or award dates are inferred."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "note": "Selection from the approved paratext; no additional interpretation."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "note": "Literary appraisal reproduced from the approved paratext."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The commander and the witness",
+      "intro": "Sir Ian Standish Monteith Hamilton belonged to the generation of British soldiers whose professional lives extended across the final decades of Victorian expansion and into the industrial warfare of the twentieth century. His career was formed in the British Army of India and the imperial expeditionary service, tested upon widely separated fields and distinguished by a familiarity with war which few officers of his seniority in 1914 could rival.",
+      "orientation": "In March 1915 Hamilton was appointed to command the Mediterranean Expeditionary Force. The assignment placed him at the centre of an enterprise in which the British Government sought to turn the course of the Great War by striking at the Ottoman Empire.",
+      "origin": [
+        "He had served in the Afghan War, encountered the reverses and dangers of the early South African fighting, taken part in campaigns upon the Indian frontier and returned to South Africa during the great war against the Boer republics. He knew the responsibilities of command in action and the intricate relations between field officers, staffs and the higher military administration. During the Russo-Japanese War of 1904–1905 he observed the Japanese Army in Manchuria, gaining direct acquaintance with the enormous demands of warfare between modern armies.",
+        "His published account of that experience, A Staff Officer's Scrap-Book, had already established him as a soldier capable of literary observation as well as professional analysis."
+      ],
+      "career": [
+        "The forces under his authority represented several nations and military traditions. Their operations depended upon cooperation with an Allied fleet, upon difficult lines of communication through Mediterranean bases and upon decisions made in London while events moved with greater urgency upon the peninsula.",
+        "Hamilton maintained his belief in the possibility of success long after the difficulties had become formidable. When the August offensive failed to secure the desired decision, the conflict between his expectations and the judgement forming in London deepened. He was recalled in October 1915 and received no subsequent field command.",
+        "His military career was thus brought to its public conclusion under the shadow of an expedition whose courage and losses were unquestioned, but whose command and conception remained matters of controversy.",
+        "The Gallipoli Diary was his answer to that controversy."
+      ],
+      "literature": [
+        "Hamilton should be read neither as the final authority upon his own vindication nor as a witness whose failure deprives him of value."
+      ],
+      "legacy": "He was the man who bore the command. His account belongs among the indispensable documents through which the history of Gallipoli must be understood.",
+      "bridge": "Gallipoli Diary, in two annotated English volumes. First published by Edward Arnold, London, 1920.",
+      "description": "General Sir Ian Hamilton and Gallipoli Diary: the commander’s account of the Dardanelles expedition, in two annotated English volumes.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "originHeading": "A soldier and an observer",
+      "careerHeading": "The Dardanelles command"
+    }
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-ian-hamilton-sargent-v1.png",
+    "caption": {
+      "de": "After John Singer Sargent, c. 1898",
+      "en": "After John Singer Sargent, c. 1898"
+    },
+    "approval": {
+      "date": "2026-10-22",
+      "authority": "CODEX_PROMPT_IH001_EN_UPLOAD_WEB_INSTA_20261022.md, explicit publisher-named portrait",
+      "sha256": "267dc2c1fc072509fd74a79c4b451ea5c9551ced55cdd7fc71e5b2ba1db2a211"
+    },
+    "processing": "Original approved PNG copied byte-for-byte; no processing.",
+    "rights": "Publisher-approved historical portrait after John Singer Sargent; original retained in AUTORENPORTRAET_V1."
+  },
+  "honours": [],
+  "timeline": [],
+  "connections": []
+}

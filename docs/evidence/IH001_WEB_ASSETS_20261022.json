@@ -1,0 +1,130 @@
+[
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B1_PB\\BUILD\\4ba3c161531ade10df61bf7b570e775cd6b93738d45ecef40e99244d059d63e3\\cover.pdf",
+    "source_sha256": "c67f51dd6b3fcf2ec1d4a4d741a2664a7a117cc2b5194f7bddfa5162c61cfd52",
+    "output": "src\\assets\\images\\cover-gallipoli-diary-volume-i-en-20261022.jpg",
+    "sha256": "71412549c54d2c4692d9520405b7c51bde11a13a3a3a62f125f61bff39db1c97",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      8.875042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B1_PB\\BUILD\\4ba3c161531ade10df61bf7b570e775cd6b93738d45ecef40e99244d059d63e3\\cover.pdf",
+    "source_sha256": "c67f51dd6b3fcf2ec1d4a4d741a2664a7a117cc2b5194f7bddfa5162c61cfd52",
+    "output": "src\\assets\\images\\cover-gallipoli-diary-volume-i-en-20261022.webp",
+    "sha256": "e4ea5d22f9a19ade0b498510f1ad83930eceb917b4909edd4e64b9748e162bdc",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      8.875042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B1_PB\\BUILD\\4ba3c161531ade10df61bf7b570e775cd6b93738d45ecef40e99244d059d63e3\\cover.pdf",
+    "source_sha256": "c67f51dd6b3fcf2ec1d4a4d741a2664a7a117cc2b5194f7bddfa5162c61cfd52",
+    "output": "src\\assets\\images\\back-gallipoli-diary-volume-i-en-20261022.jpg",
+    "sha256": "6ab2849f5b067cb735e2bacb7aa7f13cd522c1c584517b070c48d1ed007716c6",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      2.107042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B1_PB\\BUILD\\4ba3c161531ade10df61bf7b570e775cd6b93738d45ecef40e99244d059d63e3\\cover.pdf",
+    "source_sha256": "c67f51dd6b3fcf2ec1d4a4d741a2664a7a117cc2b5194f7bddfa5162c61cfd52",
+    "output": "src\\assets\\images\\back-gallipoli-diary-volume-i-en-20261022.webp",
+    "sha256": "f5a15f3df30bb7693ba02511fb98ea84844a4b168ebc1b6610d5244d6ab6878b",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      2.107042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B2_PB\\BUILD\\10a7130171a2fe7d19c8d3188417c17d78b5392fb3bdb0d5dc4b89cf4ff75db1\\cover.pdf",
+    "source_sha256": "0f24eae12e191399aae175e9b7ccd173beb47354396ab75eed27e2b579cae009",
+    "output": "src\\assets\\images\\cover-gallipoli-diary-volume-ii-en-20261022.jpg",
+    "sha256": "144b473520878f71bec6782e98c85d2da0e012711f5278e04189b87ca703effa",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      8.875042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B2_PB\\BUILD\\10a7130171a2fe7d19c8d3188417c17d78b5392fb3bdb0d5dc4b89cf4ff75db1\\cover.pdf",
+    "source_sha256": "0f24eae12e191399aae175e9b7ccd173beb47354396ab75eed27e2b579cae009",
+    "output": "src\\assets\\images\\cover-gallipoli-diary-volume-ii-en-20261022.webp",
+    "sha256": "0401cf24212c810483bd898ae43bce5d7c2cba4f104c11d5b2aec2fefd7555e9",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      8.875042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B2_PB\\BUILD\\10a7130171a2fe7d19c8d3188417c17d78b5392fb3bdb0d5dc4b89cf4ff75db1\\cover.pdf",
+    "source_sha256": "0f24eae12e191399aae175e9b7ccd173beb47354396ab75eed27e2b579cae009",
+    "output": "src\\assets\\images\\back-gallipoli-diary-volume-ii-en-20261022.jpg",
+    "sha256": "f53d4aba52e0057b84956c20de6f2e19852e737265e37fce3b47e484cc565e53",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      2.124042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  },
+  {
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\07_UMSCHLAG\\BAU_INGRAM_V3_20261022\\B2_PB\\BUILD\\10a7130171a2fe7d19c8d3188417c17d78b5392fb3bdb0d5dc4b89cf4ff75db1\\cover.pdf",
+    "source_sha256": "0f24eae12e191399aae175e9b7ccd173beb47354396ab75eed27e2b579cae009",
+    "output": "src\\assets\\images\\back-gallipoli-diary-volume-ii-en-20261022.webp",
+    "sha256": "37bb7110e62f5fac2394124085a3fe3e0a104b767df8c15e0ca30c36b5a84269",
+    "size": [
+      1201,
+      1801
+    ],
+    "clip_in": [
+      2.124042,
+      0.125056,
+      6.0,
+      9.0
+    ]
+  }
+]

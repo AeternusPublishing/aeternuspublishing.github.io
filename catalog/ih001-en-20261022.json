@@ -1,0 +1,224 @@
+{
+  "author": {
+    "slug": "ian-hamilton",
+    "name": "General Sir Ian Hamilton",
+    "dates": "16 January 1853 – 12 October 1947",
+    "eyebrow": "GREEN SERIES · AETERNUS",
+    "tagline": "The commander and the witness",
+    "intro": "Sir Ian Standish Monteith Hamilton belonged to the generation of British soldiers whose professional lives extended across the final decades of Victorian expansion and into the industrial warfare of the twentieth century. His career was formed in the British Army of India and the imperial expeditionary service, tested upon widely separated fields and distinguished by a familiarity with war which few officers of his seniority in 1914 could rival.",
+    "metaDescription": "General Sir Ian Hamilton and Gallipoli Diary: the commander’s account of the Dardanelles expedition, in two annotated English volumes.",
+    "portrait": {
+      "modern": false
+    },
+    "brandOnly": true,
+    "blocks": []
+  },
+  "books": [
+    {
+      "id": "en-ian-hamilton-gallipoli-diary-volume-i",
+      "work_id": "IH_001",
+      "language": "en",
+      "title": "Gallipoli Diary, Volume I (Annotated)",
+      "subtitle": "",
+      "author": "ian-hamilton",
+      "authorName": "Ian Hamilton",
+      "contributors": [],
+      "series": "gruen",
+      "series_number": null,
+      "original_title": "Gallipoli Diary, Volume I",
+      "original_publication_year": 1920,
+      "isbn": {
+        "paperback": "978-3-67605-183-5",
+        "hardcover": "978-3-67605-184-2",
+        "ebook": "978-3-67605-185-9"
+      },
+      "formats": {
+        "paperback": {
+          "label": "Paperback",
+          "isbn": "978-3-67605-183-5",
+          "price_display": "US list price $22.99",
+          "links": [],
+          "pages": 344
+        },
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-184-2",
+          "price_display": "US list price $29.00",
+          "links": [],
+          "pages": 344
+        },
+        "ebook": {
+          "label": "E-Book",
+          "isbn": "978-3-67605-185-9",
+          "price_display": "US list price $9.99",
+          "links": []
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-183-5",
+          "price_display": "US list price $22.99",
+          "links": [],
+          "pages": 344
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-184-2",
+          "price_display": "US list price $29.00",
+          "links": [],
+          "pages": 344
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-185-9",
+          "price_display": "US list price $9.99",
+          "links": []
+        }
+      ],
+      "description": {
+        "short": "General Sir Ian Hamilton’s own record of the Dardanelles expedition, March to July 1915: Volume I of the complete text of 1920, with its plates and a publisher’s apparatus.",
+        "long": "<ul><li>The complete text of the edition of 1920, Volume I</li><li>Hamilton’s Preface and General d’Amade’s letter of 1920</li><li>Original Chapters I–XII, March to July 1915</li><li>All plates of 1920 in their original places, restored</li><li>Publisher’s foreword: the Straits and the fate of empires</li><li>The Commander and the Witness: Hamilton’s life and career</li><li>The Eastern Question and the Straits</li><li>A note on the original edition and on the two volumes</li><li>Foreword and afterword to Volume I</li><li>Editorial note with the sources of every illustration</li></ul><p>General Sir Ian Hamilton's firsthand account of the Dardanelles expedition, from his appointment in March 1915 to the bitter struggle for the Allied footholds in July.</p><p>First published by Edward Arnold in London in 1920, <i>Gallipoli Diary</i> is one of the principal personal records of the Gallipoli campaign. Hamilton commanded the Mediterranean Expeditionary Force and wrote from the vantage point of supreme military responsibility.</p><p>The first volume contains Chapters I–XII, covering the original strategic conception, the naval effort against the Dardanelles, the landings of 25 April and the subsequent operations at Cape Helles and Anzac.</p><p>This AETERNUS edition preserves the historical English text and the author's original preface and presents the work with new editorial essays on the geopolitical importance of the Straits, the military problem of amphibious operations, the origins of the campaign and the burdens of high command.</p><p>A major primary source for the history of the British Empire, the First World War and the Gallipoli expedition.</p><p>THE GREEN SERIES · THE BRITISH EMPIRE COLLECTION · AETERNUS</p>"
+      },
+      "publisherDescriptionHTML": "<ul><li>The complete text of the edition of 1920, Volume I</li><li>Hamilton’s Preface and General d’Amade’s letter of 1920</li><li>Original Chapters I–XII, March to July 1915</li><li>All plates of 1920 in their original places, restored</li><li>Publisher’s foreword: the Straits and the fate of empires</li><li>The Commander and the Witness: Hamilton’s life and career</li><li>The Eastern Question and the Straits</li><li>A note on the original edition and on the two volumes</li><li>Foreword and afterword to Volume I</li><li>Editorial note with the sources of every illustration</li></ul><p>General Sir Ian Hamilton's firsthand account of the Dardanelles expedition, from his appointment in March 1915 to the bitter struggle for the Allied footholds in July.</p><p>First published by Edward Arnold in London in 1920, <i>Gallipoli Diary</i> is one of the principal personal records of the Gallipoli campaign. Hamilton commanded the Mediterranean Expeditionary Force and wrote from the vantage point of supreme military responsibility.</p><p>The first volume contains Chapters I–XII, covering the original strategic conception, the naval effort against the Dardanelles, the landings of 25 April and the subsequent operations at Cape Helles and Anzac.</p><p>This AETERNUS edition preserves the historical English text and the author's original preface and presents the work with new editorial essays on the geopolitical importance of the Straits, the military problem of amphibious operations, the origins of the campaign and the burdens of high command.</p><p>A major primary source for the history of the British Empire, the First World War and the Gallipoli expedition.</p><p>THE GREEN SERIES · THE BRITISH EMPIRE COLLECTION · AETERNUS</p><p>First published: Edward Arnold, London, 1920.</p>",
+      "cover": "/assets/images/cover-gallipoli-diary-volume-i-en-20261022.jpg",
+      "coverWebp": "/assets/images/cover-gallipoli-diary-volume-i-en-20261022.webp",
+      "backcover": "/assets/images/back-gallipoli-diary-volume-i-en-20261022.jpg",
+      "backcoverWebp": "/assets/images/back-gallipoli-diary-volume-i-en-20261022.webp",
+      "publication_date": "2026-11-02",
+      "pricing": {},
+      "availability": "COMING_SOON",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "FREIGEGEBEN"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-ian-hamilton-gallipoli-diary-volume-i/",
+      "authorUrl": "/authors/ian-hamilton/",
+      "seriesName": "Green Series",
+      "seriesColor": "#2d4a22",
+      "legacy": {
+        "modal": {
+          "metadata": "GREEN SERIES · THE BRITISH EMPIRE COLLECTION",
+          "sample": "General Sir Ian Hamilton’s own record of the Dardanelles expedition, March to July 1915: Volume I of the complete text of 1920, with its plates and a publisher’s apparatus."
+        }
+      },
+      "first_published": "Edward Arnold, London, 1920",
+      "series_line": "GREEN SERIES · THE BRITISH EMPIRE COLLECTION",
+      "forthcoming_label": "Forthcoming · 2 November 2026",
+      "cardStatus": "Forthcoming · 2 November 2026",
+      "brandOnly": true,
+      "provenance": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\09_EXPORT\\UPLOADPAKET_IH001_EN_B1_INGRAM_V2\\METADATEN\\ingram_paperback.json"
+    },
+    {
+      "id": "en-ian-hamilton-gallipoli-diary-volume-ii",
+      "work_id": "IH_001",
+      "language": "en",
+      "title": "Gallipoli Diary, Volume II (Annotated)",
+      "subtitle": "",
+      "author": "ian-hamilton",
+      "authorName": "Ian Hamilton",
+      "contributors": [],
+      "series": "gruen",
+      "series_number": null,
+      "original_title": "Gallipoli Diary, Volume II",
+      "original_publication_year": 1920,
+      "isbn": {
+        "paperback": "978-3-67605-186-6",
+        "hardcover": "978-3-67605-187-3",
+        "ebook": "978-3-67605-188-0"
+      },
+      "formats": {
+        "paperback": {
+          "label": "Paperback",
+          "isbn": "978-3-67605-186-6",
+          "price_display": "US list price $22.99",
+          "links": [],
+          "pages": 336
+        },
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-187-3",
+          "price_display": "US list price $29.00",
+          "links": [],
+          "pages": 336
+        },
+        "ebook": {
+          "label": "E-Book",
+          "isbn": "978-3-67605-188-0",
+          "price_display": "US list price $9.99",
+          "links": []
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-186-6",
+          "price_display": "US list price $22.99",
+          "links": [],
+          "pages": 336
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-187-3",
+          "price_display": "US list price $29.00",
+          "links": [],
+          "pages": 336
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-188-0",
+          "price_display": "US list price $9.99",
+          "links": []
+        }
+      ],
+      "description": {
+        "short": "General Sir Ian Hamilton’s own record of the last months at Gallipoli, Sari Bair, Suvla and his recall in October 1915: Volume II of the complete text of 1920, with appendices and a publisher’s apparatus.",
+        "long": "<ul><li>The complete text of the edition of 1920, Volume II</li><li>Original Chapters XIII–XXI, July to October 1915</li><li>Four documentary appendices on artillery and orders</li><li>All plates of 1920 in their original places, restored</li><li>Foreword and afterword to Volume II</li><li>The Army and the Fleet: combined operations</li><li>The Armies at the Narrows: both sides at Gallipoli</li><li>The Strategic Reckoning and a final coda on command</li><li>Editorial note with the sources of every illustration</li></ul><p>The final months of Sir Ian Hamilton's command at Gallipoli, including the August offensive, the struggle for Sari Bair and Suvla, the widening controversy over the conduct of operations and his recall in October 1915.</p><p>Originally published in 1920, this second volume contains Chapters XIII–XXI and four documentary appendices preserving important evidence concerning artillery and military orders.</p><p>The AETERNUS edition retains Hamilton's historical testimony and adds new concluding studies of combined naval and military operations, the armies which fought upon the peninsula, the Ottoman defence and the greater strategic consequences of the campaign.</p><p>The result is both a firsthand command narrative and a historically framed record of one of the most consequential failures of British arms in the First World War.</p><p>THE GREEN SERIES · THE BRITISH EMPIRE COLLECTION · AETERNUS</p>"
+      },
+      "publisherDescriptionHTML": "<ul><li>The complete text of the edition of 1920, Volume II</li><li>Original Chapters XIII–XXI, July to October 1915</li><li>Four documentary appendices on artillery and orders</li><li>All plates of 1920 in their original places, restored</li><li>Foreword and afterword to Volume II</li><li>The Army and the Fleet: combined operations</li><li>The Armies at the Narrows: both sides at Gallipoli</li><li>The Strategic Reckoning and a final coda on command</li><li>Editorial note with the sources of every illustration</li></ul><p>The final months of Sir Ian Hamilton's command at Gallipoli, including the August offensive, the struggle for Sari Bair and Suvla, the widening controversy over the conduct of operations and his recall in October 1915.</p><p>Originally published in 1920, this second volume contains Chapters XIII–XXI and four documentary appendices preserving important evidence concerning artillery and military orders.</p><p>The AETERNUS edition retains Hamilton's historical testimony and adds new concluding studies of combined naval and military operations, the armies which fought upon the peninsula, the Ottoman defence and the greater strategic consequences of the campaign.</p><p>The result is both a firsthand command narrative and a historically framed record of one of the most consequential failures of British arms in the First World War.</p><p>THE GREEN SERIES · THE BRITISH EMPIRE COLLECTION · AETERNUS</p><p>First published: Edward Arnold, London, 1920.</p>",
+      "cover": "/assets/images/cover-gallipoli-diary-volume-ii-en-20261022.jpg",
+      "coverWebp": "/assets/images/cover-gallipoli-diary-volume-ii-en-20261022.webp",
+      "backcover": "/assets/images/back-gallipoli-diary-volume-ii-en-20261022.jpg",
+      "backcoverWebp": "/assets/images/back-gallipoli-diary-volume-ii-en-20261022.webp",
+      "publication_date": "2026-11-02",
+      "pricing": {},
+      "availability": "COMING_SOON",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "FREIGEGEBEN"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-ian-hamilton-gallipoli-diary-volume-ii/",
+      "authorUrl": "/authors/ian-hamilton/",
+      "seriesName": "Green Series",
+      "seriesColor": "#2d4a22",
+      "legacy": {
+        "modal": {
+          "metadata": "GREEN SERIES · THE BRITISH EMPIRE COLLECTION",
+          "sample": "General Sir Ian Hamilton’s own record of the last months at Gallipoli, Sari Bair, Suvla and his recall in October 1915: Volume II of the complete text of 1920, with appendices and a publisher’s apparatus."
+        }
+      },
+      "first_published": "Edward Arnold, London, 1920",
+      "series_line": "GREEN SERIES · THE BRITISH EMPIRE COLLECTION",
+      "forthcoming_label": "Forthcoming · 2 November 2026",
+      "cardStatus": "Forthcoming · 2 November 2026",
+      "brandOnly": true,
+      "provenance": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\09_EXPORT\\UPLOADPAKET_IH001_EN_B2_INGRAM_V2\\METADATEN\\ingram_paperback.json"
+    }
+  ]
+}

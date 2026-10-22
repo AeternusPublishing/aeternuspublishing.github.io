@@ -208,6 +208,10 @@ const gjy001 = require('./gjy001-en-20261021.json');
 authorsEn.push(gjy001.author);
 englishBooks.push(gjy001.book);
 
+const ih001 = require('./ih001-en-20261022.json');
+authorsEn.push(ih001.author);
+englishBooks.push(...ih001.books);
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
