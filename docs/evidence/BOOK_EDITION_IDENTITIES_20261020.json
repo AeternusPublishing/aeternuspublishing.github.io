@@ -104,6 +104,15 @@
       "url": "https://www.amazon.com/dp/B0HKNBL4CV",
       "observed_utc": "2026-10-20T09:13:14.837550+00:00",
       "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "3676051092": {
+      "language": "de",
+      "isbn13": "9783676051095",
+      "work_id": "WVS_001",
+      "productform": "taschenbuch",
+      "url": "https://www.amazon.de/dp/3676051092",
+      "observed_utc": "2026-10-22T13:35:41.191244+00:00",
+      "evidence": "Amazon product page read in browser: Lebenserinnerungen (Kommentiert), Werner von Siemens, Deutsch, 408 pages, ISBN9783676051095, available paperback. Existing sale; no claim that the pending V5 file revision is live."
     }
   },
   "pages": [
@@ -895,7 +904,9 @@
           "label": "Taschenbuch",
           "isbn13": "9783676051095",
           "productform": "taschenbuch",
-          "tokens": [],
+          "tokens": [
+            "3676051092"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "WVS_001",
