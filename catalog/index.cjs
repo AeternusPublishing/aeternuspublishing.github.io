@@ -217,6 +217,16 @@ const eap001 = require('./eap001-en-20261022.json');
 authorsEn.push(eap001.author);
 englishBooks.push(eap001.book);
 
+// RMB_001: publisher-requested web sync while the END_V5 update is in review.
+const rmb001 = englishBooks.find(book => book.id === 'en-robert-montgomery-bird-edition-nick');
+Object.assign(rmb001, require('./rmb001-en-20261023.json'));
+rmb001.legacy = { ...rmb001.legacy, modal: { ...rmb001.legacy.modal, metadata: 'AETERNUS · English · 440 print pages · Kindle, paperback & hardcover', sample: rmb001.blurb.at(-1) } };
+for (const format of rmb001.retailer_formats) {
+  if (format.label !== 'Kindle') format.pages = 440;
+  if (format.label === 'Paperback') format.price_display = 'US list price $19.99';
+}
+rmb001.formats.paperback.price_display = 'US list price $19.99';
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {

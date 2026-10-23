@@ -3180,14 +3180,14 @@
       "site": "en",
       "id": "en-robert-montgomery-bird-edition-nick",
       "url": "/books/en-robert-montgomery-bird-edition-nick/",
-      "title": "Nick of the Woods",
+      "title": "Nick of the Woods (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-nick-en-fallback.jpg",
+      "front_url": "/assets/images/cover-rmb001-en-end-v5-20261023.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-nick-en-fallback.jpg",
-          "sha256": "afe1b0d64eee45a02fb0e5147e2a8c8dd437e282f9017ba739ed32a48ad779ff"
+          "path": "src/assets/images/cover-rmb001-en-end-v5-20261023.jpg",
+          "sha256": "8b73931311654d2ced37296ba9a44685267f712dbb1c828b2aea5774f1bb24a0"
         }
       ],
       "formats": [
@@ -3248,7 +3248,13 @@
             }
           ]
         }
-      ]
+      ],
+      "relaunch_evidence": {
+        "manifest_sha256": "7a12199d42fcc60c689253362056130678e64c3da2bb2cdaa6234e2d7be88d0e",
+        "decision": "decision_rmb001_en_relaunch_paket_end_v5_endfreigabe_20261023",
+        "status": "EINGEREICHT",
+        "website_authority": "Verlegerchat 23.10.2026: website und instagram sync"
+      }
     },
     {
       "site": "en",
