@@ -1,0 +1,115 @@
+{
+  "author": {
+    "slug": "edgar-allan-poe",
+    "name": "Edgar Allan Poe",
+    "dates": "19 January 1809 – 7 October 1849",
+    "eyebrow": "ANTHRACITE SERIES · AETERNUS",
+    "tagline": "Poet · Critic · Editor · Author of Tales",
+    "intro": "",
+    "metaDescription": "Edgar Allan Poe and Tales, the twelve-story collection of 1845. The AETERNUS English edition is coming 4 November 2026.",
+    "portrait": {
+      "modern": false
+    },
+    "brandOnly": true,
+    "blocks": []
+  },
+  "book": {
+    "id": "en-edgar-allan-poe-tales",
+    "work_id": "EAP_001",
+    "language": "en",
+    "title": "Tales",
+    "subtitle": "The Text of the First Edition, 1845",
+    "author": "edgar-allan-poe",
+    "authorName": "Edgar Allan Poe",
+    "contributors": [],
+    "series": "anthrazit",
+    "series_number": null,
+    "original_title": "Tales",
+    "original_publication_year": 1845,
+    "isbn": {
+      "paperback": "978-3-67605-207-8",
+      "hardcover": "978-3-67605-208-5",
+      "ebook": "978-3-67605-209-2"
+    },
+    "formats": {
+      "paperback": {
+        "label": "Paperback",
+        "isbn": "978-3-67605-207-8",
+        "links": []
+      },
+      "hardcover": {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-208-5",
+        "links": []
+      },
+      "ebook": {
+        "label": "E-Book",
+        "isbn": "978-3-67605-209-2",
+        "links": []
+      }
+    },
+    "retailer_formats": [
+      {
+        "label": "Paperback",
+        "isbn": "978-3-67605-207-8",
+        "links": []
+      },
+      {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-208-5",
+        "links": []
+      },
+      {
+        "label": "E-Book",
+        "isbn": "978-3-67605-209-2",
+        "links": []
+      }
+    ],
+    "description": {
+      "short": "There are mysteries which the keenest intellect may unravel, and others which lie buried so deeply within the human soul that reason itself recoils before them.",
+      "long": "There are mysteries which the keenest intellect may unravel, and others which lie buried so deeply within the human soul that reason itself recoils before them.\n\nIn these twelve extraordinary tales, Edgar Allan Poe leads the reader from the shadowed chambers of a decaying ancestral mansion to the crowded streets of Paris, from the lonely shores of an island haunted by rumors of buried treasure to the terrible waters of the Norwegian Maelström. Murder, obsession, hidden manuscripts, secret ciphers and the mysteries of existence beyond death become the instruments of an imagination whose powers of invention and psychological penetration transformed the literature of the nineteenth century.\n\nHere the incomparable C. Auguste Dupin brings the resources of analytical genius to bear upon crimes that have defeated the authorities. Elsewhere, the darkest impulses of the human heart emerge beneath the outward appearances of ordinary life, while ancient houses, strange confessions and visionary encounters open passages into regions where the boundaries of knowledge and terror become uncertain.\n\nPublished by Wiley & Putnam in New York in 1845, Tales united twelve of Poe’s most remarkable prose works, including *The Gold-Bug*, *The Black Cat*, *The Fall of the House of Usher*, *A Descent into the Maelström* and the complete original trilogy of Dupin mysteries.\n\nWithin these pages stand the foundations of modern detective fiction, some of the supreme achievements of Gothic literature, and a body of imaginative writing whose influence would extend through the works of Arthur Conan Doyle, Robert Louis Stevenson and generations of masters of the mysterious and the macabre.\n\nThis AETERNUS edition restores the original twelve-tale collection of 1845, preserving the historical arrangement through which Poe’s contemporaries encountered one of the most singular literary minds of the American nineteenth century."
+    },
+    "blurb": [
+      "There are mysteries which the keenest intellect may unravel, and others which lie buried so deeply within the human soul that reason itself recoils before them.",
+      "In these twelve extraordinary tales, Edgar Allan Poe leads the reader from the shadowed chambers of a decaying ancestral mansion to the crowded streets of Paris, from the lonely shores of an island haunted by rumors of buried treasure to the terrible waters of the Norwegian Maelström. Murder, obsession, hidden manuscripts, secret ciphers and the mysteries of existence beyond death become the instruments of an imagination whose powers of invention and psychological penetration transformed the literature of the nineteenth century.",
+      "Here the incomparable C. Auguste Dupin brings the resources of analytical genius to bear upon crimes that have defeated the authorities. Elsewhere, the darkest impulses of the human heart emerge beneath the outward appearances of ordinary life, while ancient houses, strange confessions and visionary encounters open passages into regions where the boundaries of knowledge and terror become uncertain.",
+      "Published by Wiley & Putnam in New York in 1845, Tales united twelve of Poe’s most remarkable prose works, including <em>The Gold-Bug</em>, <em>The Black Cat</em>, <em>The Fall of the House of Usher</em>, <em>A Descent into the Maelström</em> and the complete original trilogy of Dupin mysteries.",
+      "Within these pages stand the foundations of modern detective fiction, some of the supreme achievements of Gothic literature, and a body of imaginative writing whose influence would extend through the works of Arthur Conan Doyle, Robert Louis Stevenson and generations of masters of the mysterious and the macabre.",
+      "This AETERNUS edition restores the original twelve-tale collection of 1845, preserving the historical arrangement through which Poe’s contemporaries encountered one of the most singular literary minds of the American nineteenth century."
+    ],
+    "cover": "/assets/images/cover-eap001-en-v6-20261022.jpg",
+    "publication_date": "2026-11-04",
+    "availability": "COMING_SOON",
+    "pricing": {},
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "amazon": "FREIGEGEBEN",
+      "ingram": "FREIGEGEBEN"
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-edgar-allan-poe-tales/",
+    "authorUrl": "/authors/edgar-allan-poe/",
+    "seriesName": "ANTHRACITE SERIES",
+    "seriesColor": "#343638",
+    "brandOnly": true,
+    "forthcoming_label": "Coming 4 November 2026",
+    "cardStatus": "Coming 4 November 2026",
+    "first_published": "Wiley & Putnam, New York, 1845",
+    "legacy": {
+      "modal": {
+        "metadata": "ANTHRACITE SERIES · Coming 4 November 2026",
+        "sample": "There are mysteries which the keenest intellect may unravel, and others which lie buried so deeply within the human soul that reason itself recoils before them."
+      }
+    },
+    "provenance": "EAP_001_TALES_1845/EN_MASTER/05_APPARAT/VERLEGERLIEFERUNG_20261017/KLAPPENTEXT_EN_US.md",
+    "source_sha256": "45ee50539da1756a93e74da762faf5f5ac6a991af713233458dcd8e196815637",
+    "cover_sha256": "845191a6f63dc589225829e16dd9955a36fda467145ebdb0a74914c1d3b34cdd"
+  }
+}
