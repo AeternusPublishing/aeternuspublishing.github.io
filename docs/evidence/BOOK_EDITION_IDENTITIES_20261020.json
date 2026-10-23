@@ -6260,6 +6260,100 @@
         "source_manifest_sha256": "74b48d87c65ca98faeda88eadbd577799b9ca874379ac550c7390c82edc008c8",
         "review": "ISBN, price and dates checked against hash-released package metadata. Two bands under IH_001 distinguished by ISBN. Forthcoming; no buying links."
       }
+    },
+    {
+      "site": "en",
+      "id": "en-edgar-allan-poe-tales",
+      "url": "/books/en-edgar-allan-poe-tales/",
+      "title": "Tales",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-eap001-en-v6-20261022.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-eap001-en-v6-20261022.jpg",
+          "sha256": "845191a6f63dc589225829e16dd9955a36fda467145ebdb0a74914c1d3b34cdd"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052078",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "EAP_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Tales (Annotated)",
+              "isbn13": "978-3-67605-207-8",
+              "isbn10": "3676052072",
+              "asin": null
+            },
+            {
+              "werk_kanon": "EAP_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Tales (Annotated)",
+              "isbn13": "978-3-67605-207-8",
+              "isbn10": "3676052072",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052085",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "EAP_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Tales (Annotated)",
+              "isbn13": "978-3-67605-208-5",
+              "isbn10": "3676052080",
+              "asin": null
+            },
+            {
+              "werk_kanon": "EAP_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Tales (Annotated)",
+              "isbn13": "978-3-67605-208-5",
+              "isbn10": "3676052080",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676052092",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "EAP_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Tales (Annotated)",
+              "isbn13": "978-3-67605-209-2",
+              "isbn10": "3676052099",
+              "asin": null
+            }
+          ]
+        }
+      ],
+      "independent_verification": {
+        "reviewed_utc": "2026-10-22T20:39:26.285173+00:00",
+        "register_query": "aeternus.py buchregister isbn EAP_001",
+        "register_projection_sha256": "82a9ac82fc93f7557a12cf99c82701e20d2b609590491cd8fb739d19a56f926b",
+        "decision_id": "decision_eap001_en_endfreigabe_pakete_v2_kdp_ingram_20261022",
+        "source_manifest_sha256": "1bcb7af53c6b0cd1d30a090ec12cdd78c9972942dfdbcd98fa7dac128621d471",
+        "review": "ISBNs match released English EAP_001 forms (KDP V2 and Ingram V2, status FREIGEGEBEN). Front cover is byte-identical to the released KDP e-book cover in UPLOADPAKET_EAP001_EN_KDP_V2. Forthcoming 4 November 2026; no buying links."
+      }
     }
   ],
   "additional_pages": [

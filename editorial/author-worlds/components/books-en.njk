@@ -2,7 +2,7 @@
 {% for item in worldEnglishBooks %}
   <article class="author-book">
     <a class="book-art" href="{{ item.url }}">{% if item.cover %}<picture>{% if item.coverWebp %}<source type="image/webp" srcset="{{ item.coverWebp }}">{% endif %}<img src="{{ item.cover }}" alt="{{ item.title }}" width="400" height="600" loading="lazy"></picture>{% else %}<span class="type-cover"><small>AETERNUS</small><strong>{{ item.title }}</strong><span>{{ item.authorName }}</span></span>{% endif %}</a>
-    <div class="author-book-copy"><p class="kicker">{{ item.seriesName }}</p><h3><a href="{{ item.url }}">{{ item.title }}</a></h3><p>{{ item.description.short }}</p>{% if item.cardStatus %}<p class="edition-note">{{ item.cardStatus }}</p>{% endif %}<a class="text-link" href="{{ item.url }}">Explore the edition →</a></div>
+    <div class="author-book-copy"><p class="kicker">{{ item.seriesName }}</p><h3><a href="{{ item.url }}">{{ item.title }}</a></h3>{% if item.work_id == "EAP_001" %}<p class="detail-subtitle">{{ item.subtitle }}</p>{% endif %}<p>{{ item.description.short }}</p>{% if item.work_id == "EAP_001" %}<ul>{% for format in item.retailer_formats %}<li>{{ format.label }} · ISBN {{ format.isbn }}</li>{% endfor %}</ul>{% endif %}{% if item.cardStatus %}<p class="edition-note">{{ item.cardStatus }}</p>{% endif %}<a class="text-link" href="{{ item.url }}">Explore the edition →</a></div>
   </article>
 {% else %}<p>The current AETERNUS editions of this author are in German. <a class="text-link" href="https://aeternus-verlag.de/autoren/{{ world.slug }}/">Explore the German editions →</a></p>{% endfor %}
 </div>

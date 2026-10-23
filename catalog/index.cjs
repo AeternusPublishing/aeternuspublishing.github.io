@@ -212,6 +212,11 @@ const ih001 = require('./ih001-en-20261022.json');
 authorsEn.push(ih001.author);
 englishBooks.push(...ih001.books);
 
+// EAP_001: commissioned English author world; buying links await observed LIVE.
+const eap001 = require('./eap001-en-20261022.json');
+authorsEn.push(eap001.author);
+englishBooks.push(eap001.book);
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {

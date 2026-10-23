@@ -1,0 +1,210 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "edgar-allan-poe",
+  "name": "Edgar Allan Poe",
+  "dates": "19 January 1809 – 7 October 1849",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "NPS",
+      "title": "National Park Service · Edgar Allan Poe",
+      "url": "https://www.nps.gov/people/edgarallanpoe.htm",
+      "checked": "2026-10-22",
+      "note": "Quick Facts; Early Life; From University of Virginia to West Point; Editor and Author; Professional and Personal Loss; Death. Read in full. The historical death certificate wording is not treated as a conclusive medical diagnosis."
+    },
+    {
+      "id": "TIMELINE",
+      "title": "National Park Service · The Life and Times of Edgar Allan Poe",
+      "url": "https://www.nps.gov/edal/learn/historyculture/timelines-lifeandtimespoe.htm",
+      "checked": "2026-10-22",
+      "note": "Poe entries for 1827, 1830–1831, 1835, 1839–1841 and 1845–1849; unrelated world-event entries are not used."
+    },
+    {
+      "id": "TALES1845",
+      "title": "Edgar Allan Poe Society of Baltimore · Tales (1845), title and contents",
+      "url": "https://www.eapoe.org/works/editions/talesc.htm",
+      "checked": "2026-10-22",
+      "note": "Title page and twelve-item contents, pages v–vi; source transcription of the 1845 edition. Literary observations refer to these tales, not to a conjectured personal motive."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born in Boston on 19 January 1809; died in Baltimore on 7 October 1849.",
+      "sources": [
+        "NPS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "His parents were actors; after his mother's death in 1811 he grew up with John and Frances Allan in Richmond and spent part of his childhood in Britain.",
+      "sources": [
+        "NPS"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Attended the University of Virginia in 1826; published Tamerlane and Other Poems and enlisted in the Army in 1827; became sergeant major; attended West Point in 1830–1831 and was court-martialed.",
+      "sources": [
+        "NPS",
+        "TIMELINE"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Worked for the Southern Literary Messenger, Burton's Gentleman's Magazine, Graham's Magazine and the Broadway Journal; the last briefly belonged to him.",
+      "sources": [
+        "NPS",
+        "TIMELINE"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Raven appeared in 1845; Wiley and Putnam published the twelve-story Tales in New York that year, including the three Dupin tales and The Fall of the House of Usher.",
+      "sources": [
+        "NPS",
+        "TALES1845"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Virginia Poe died in 1847; Eureka appeared in 1848.",
+      "sources": [
+        "TIMELINE"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "OFFEN",
+      "statement": "The precise medical cause of Poe's death is not conclusively established; no diagnosis is asserted here."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "statement": "No military decoration is claimed. West Point attendance and enlisted rank are career facts, not honours."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "statement": "Portrait is a publisher-approved generative reconstruction, not an unaltered historical photograph. The supplied provenance dates the underlying daguerreotype only to about 1849; its original online discovery URL is not supplied. No photographer or exact sitting is inferred."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Reading of the documented career and the twelve tales; no invented psychological motive or personal connection."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "intro",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Independent AETERNUS prose; not a historical quotation or a reproduction of the approved book biography."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The calculating mind and the haunted imagination.",
+      "intro": "A cipher on a scrap of parchment, an ancestral house on the edge of collapse, a letter hidden in plain sight: Poe makes the smallest detail carry the weight of a whole story. His tales lead reason and terror into the same room.",
+      "orientation": "Poe's working world was the American magazine: a place for stories, reviews and argument, and a precarious source of income. The poet of The Raven was also an exacting editor. His fiction brings that discipline to extremes of fear, speculation and analytical pursuit.",
+      "origin": [
+        "Born in Boston to actors, Poe lost his mother in early childhood. John and Frances Allan brought him up in Richmond; schooling in Britain and a brief period at the University of Virginia widened the geography of his youth."
+      ],
+      "career": [
+        "In 1827, the year of Tamerlane and Other Poems, he enlisted in the United States Army. He rose to sergeant major before leaving for a different course. West Point followed in 1830; court-martial ended his time there in 1831.",
+        "Editing took him through the Southern Literary Messenger, Burton's Gentleman's Magazine and Graham's Magazine. In New York he briefly owned the Broadway Journal. The Raven brought fame in 1845; the business of literature remained insecure. Virginia died in 1847, and Eureka appeared the following year."
+      ],
+      "literature": [
+        "The twelve tales collected in 1845 hold several kinds of invention together. Dupin follows the relations between facts; the narrator of The Black Cat attempts to account for his own violence; the house of Usher binds landscape, sound and apprehension into a single pressure. The methods differ, but every selected detail matters.",
+        "Read in their original order, the stories move between ciphers, catastrophe, speculative dialogue and the crowded city. This is a more various Poe than a gallery of Gothic horrors alone can suggest."
+      ],
+      "legacy": "Poe's stories make reading an active contest with appearances. We listen to a voice, weigh its evidence and discover how readily attention can be directed elsewhere. The attraction lies as much in that controlled movement as in the revelation at the end.",
+      "bridge": "The twelve stories of Tales recover the shape of the 1845 collection, with its mysteries, speculative encounters and Gothic interiors.",
+      "description": "Edgar Allan Poe (1809–1849): poet, critic, editor and author of Tales. Explore his life and the AETERNUS English edition, coming 4 November 2026.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    }
+  },
+  "timeline": [
+    [
+      "1809",
+      "Born in Boston on 19 January."
+    ],
+    [
+      "1827",
+      "Tamerlane and Other Poems; enlistment in the United States Army."
+    ],
+    [
+      "1830–1831",
+      "Cadet at West Point; court-martial ends his attendance."
+    ],
+    [
+      "1845",
+      "The Raven and the twelve-story collection Tales."
+    ],
+    [
+      "1848",
+      "Eureka: A Prose Poem."
+    ],
+    [
+      "1849",
+      "Dies in Baltimore on 7 October."
+    ]
+  ],
+  "honours": [],
+  "connections": [],
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-edgar-allan-poe-eap001.png",
+    "caption": {
+      "de": "Edgar Allan Poe, Rekonstruktion nach einer Daguerreotypie, um 1849",
+      "en": "Edgar Allan Poe, reconstructed from a daguerreotype of about 1849"
+    },
+    "approval": {
+      "date": "2026-10-21",
+      "authority": "W_EAP001_AUTORENSEITE_POE_AUFTRAG_20261021.md: publisher-approved book portrait, unchanged reuse expressly commissioned; upload brief renewed 22 October 2026.",
+      "sha256": "566d3b7b35f802fc09effe1636c3f6be120e0039e8f39247bc6cc7dd76955a27"
+    },
+    "processing": "Generative GPT reconstruction supplied by the publisher, subsequently prepared as grayscale for the book; copied unchanged for this website. Not generated, cropped, recolored or resampled in this task.",
+    "identity": "Edgar Allan Poe; publisher-supplied reconstruction after a daguerreotype of about 1849",
+    "rights": "Publisher expressly authorized reuse of this supplied book asset for the author page. No broader clearance of an unidentified online source is inferred.",
+    "dimensions": [
+      1086,
+      1448
+    ],
+    "source_file": "EAP_001_TALES_1845/03_IMAGES/05_PORTRAET/EAP001_AUTORENPORTRAET_POE_SW.png",
+    "source_evidence": [
+      "03_IMAGES/05_PORTRAET/PORTRAET_BAU.json",
+      "03_IMAGES/05_PORTRAET/EINGANG.json"
+    ],
+    "reconstruction_input_sha256": "73292afb8d3c775c729e54d89ac7e74cc24b754dd94f0f60df20e7eb455a8750"
+  },
+  "editorial_basis": "EAP_001_TALES_1845/EN_MASTER/05_APPARAT/VERLEGERLIEFERUNG_20261017/ABOUT_THE_AUTHOR_EN_US.md; independently composed website prose, checked against the sources above. Edition identities remain solely in catalog/eap001-en-20261022.json."
+}

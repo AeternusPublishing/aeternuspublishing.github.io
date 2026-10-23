@@ -2224,6 +2224,25 @@
       }
     },
     {
+      "id": "book:en-edgar-allan-poe-tales",
+      "type": "book",
+      "label": {
+        "de": "Tales",
+        "en": "Tales"
+      },
+      "author": "Edgar Allan Poe",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-eap001-en-v6-20261022.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-edgar-allan-poe-tales/",
+        "en": "https://aeternuspublishing.com/books/en-edgar-allan-poe-tales/"
+      },
+      "summary": {
+        "de": "",
+        "en": "There are mysteries which the keenest intellect may unravel, and others which lie buried so deeply within the human soul that reason itself recoils before them."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -2984,6 +3003,14 @@
       }
     },
     {
+      "id": "author:Edgar Allan Poe",
+      "type": "author",
+      "label": {
+        "de": "Edgar Allan Poe",
+        "en": "Edgar Allan Poe"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3444,6 +3471,11 @@
     {
       "source": "book:en-ian-hamilton-gallipoli-diary-volume-ii",
       "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-edgar-allan-poe-tales",
+      "target": "series:anthrazit",
       "type": "series"
     },
     {
@@ -4240,6 +4272,11 @@
     {
       "source": "book:en-ian-hamilton-gallipoli-diary-volume-ii",
       "target": "author:Ian Hamilton",
+      "type": "author"
+    },
+    {
+      "source": "book:en-edgar-allan-poe-tales",
+      "target": "author:Edgar Allan Poe",
       "type": "author"
     },
     {
