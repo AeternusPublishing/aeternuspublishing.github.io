@@ -3,8 +3,13 @@
     "handle": "aeternus.publishing",
     "url": "https://www.instagram.com/aeternus.publishing/",
     "language": "en",
-    "verified_utc": "2026-10-24T15:18:26.945277Z",
+    "verified_utc": "2026-10-24T19:48:20.217855+00:00",
     "posts": [
+      {
+        "book_id": "en-edgar-allan-poe-tales",
+        "url": "https://www.instagram.com/p/De46zi8vNtS/",
+        "title": "Tales (Annotated)"
+      },
       {
         "book_id": "en-francis-parkman-the-conspiracy-of-pontiac",
         "url": "https://www.instagram.com/p/De4ZT0sFxLs/",

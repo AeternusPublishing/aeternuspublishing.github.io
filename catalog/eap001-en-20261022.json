@@ -29,40 +29,39 @@
     "isbn": {
       "paperback": "978-3-67605-207-8",
       "hardcover": "978-3-67605-208-5",
-      "ebook": "978-3-67605-209-2"
+      "ebook": null
     },
     "formats": {
       "paperback": {
         "label": "Paperback",
         "isbn": "978-3-67605-207-8",
-        "links": []
+        "links": [],
+        "pages": 298,
+        "platform": "IngramSpark"
       },
       "hardcover": {
         "label": "Hardcover",
         "isbn": "978-3-67605-208-5",
-        "links": []
+        "links": [],
+        "pages": 298,
+        "platform": "IngramSpark"
       },
-      "ebook": {
-        "label": "E-Book",
-        "isbn": "978-3-67605-209-2",
-        "links": []
-      }
+      "ebook": null
     },
     "retailer_formats": [
       {
         "label": "Paperback",
         "isbn": "978-3-67605-207-8",
-        "links": []
+        "links": [],
+        "pages": 298,
+        "platform": "IngramSpark"
       },
       {
         "label": "Hardcover",
         "isbn": "978-3-67605-208-5",
-        "links": []
-      },
-      {
-        "label": "E-Book",
-        "isbn": "978-3-67605-209-2",
-        "links": []
+        "links": [],
+        "pages": 298,
+        "platform": "IngramSpark"
       }
     ],
     "description": {
@@ -77,7 +76,7 @@
       "Within these pages stand the foundations of modern detective fiction, some of the supreme achievements of Gothic literature, and a body of imaginative writing whose influence would extend through the works of Arthur Conan Doyle, Robert Louis Stevenson and generations of masters of the mysterious and the macabre.",
       "This AETERNUS edition restores the original twelve-tale collection of 1845, preserving the historical arrangement through which Poe’s contemporaries encountered one of the most singular literary minds of the American nineteenth century."
     ],
-    "cover": "/assets/images/cover-eap001-en-v6-20261022.jpg",
+    "cover": "/assets/images/cover-eap001-en-ingram-v3-20261024.jpg",
     "publication_date": "2026-11-04",
     "availability": "COMING_SOON",
     "pricing": {},
@@ -87,8 +86,8 @@
       "ingram": null
     },
     "distribution_status": {
-      "amazon": "FREIGEGEBEN",
-      "ingram": "FREIGEGEBEN"
+      "amazon": "NOT_SUBMITTED",
+      "ingram": "EINGEREICHT"
     },
     "commerce": {
       "shopify_product_id": null,
@@ -110,6 +109,13 @@
     },
     "provenance": "EAP_001_TALES_1845/EN_MASTER/05_APPARAT/VERLEGERLIEFERUNG_20261017/KLAPPENTEXT_EN_US.md",
     "source_sha256": "45ee50539da1756a93e74da762faf5f5ac6a991af713233458dcd8e196815637",
-    "cover_sha256": "845191a6f63dc589225829e16dd9955a36fda467145ebdb0a74914c1d3b34cdd"
+    "cover_sha256": "324ad3bba7bc0e0ebbf8b7e97fda355f1a2c0f8c34f251cd25491b77722aa160",
+    "upload_package": {
+      "name": "UPLOADPAKET_EAP001_EN_INGRAM_V3",
+      "preflight_sha256": "5f7941ba9b580425fe3e584db5329cff35bd5e81f583210d317911fdf6a680c8",
+      "paperback_platform_id": "CSS9767876",
+      "hardcover_platform_id": "CSS9769574",
+      "availability_rule": "COMING_SOON until LIVE observed per format"
+    }
   }
 }

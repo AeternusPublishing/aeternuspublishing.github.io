@@ -6274,11 +6274,11 @@
       "title": "Tales",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-eap001-en-v6-20261022.jpg",
+      "front_url": "/assets/images/cover-eap001-en-ingram-v3-20261024.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-eap001-en-v6-20261022.jpg",
-          "sha256": "845191a6f63dc589225829e16dd9955a36fda467145ebdb0a74914c1d3b34cdd"
+          "path": "src/assets/images/cover-eap001-en-ingram-v3-20261024.jpg",
+          "sha256": "324ad3bba7bc0e0ebbf8b7e97fda355f1a2c0f8c34f251cd25491b77722aa160"
         }
       ],
       "formats": [
@@ -6333,32 +6333,16 @@
               "asin": null
             }
           ]
-        },
-        {
-          "label": "E-Book",
-          "isbn13": "9783676052092",
-          "productform": "ebook",
-          "tokens": [],
-          "register_evidence": [
-            {
-              "werk_kanon": "EAP_001",
-              "sprache": "en",
-              "produktform": "ebook",
-              "titel": "Tales (Annotated)",
-              "isbn13": "978-3-67605-209-2",
-              "isbn10": "3676052099",
-              "asin": null
-            }
-          ]
         }
       ],
       "independent_verification": {
-        "reviewed_utc": "2026-10-22T20:39:26.285173+00:00",
+        "reviewed_utc": "2026-10-24T19:46:35.560757+00:00",
         "register_query": "aeternus.py buchregister isbn EAP_001",
         "register_projection_sha256": "82a9ac82fc93f7557a12cf99c82701e20d2b609590491cd8fb739d19a56f926b",
-        "decision_id": "decision_eap001_en_endfreigabe_pakete_v2_kdp_ingram_20261022",
-        "source_manifest_sha256": "1bcb7af53c6b0cd1d30a090ec12cdd78c9972942dfdbcd98fa7dac128621d471",
-        "review": "ISBNs match released English EAP_001 forms (KDP V2 and Ingram V2, status FREIGEGEBEN). Front cover is byte-identical to the released KDP e-book cover in UPLOADPAKET_EAP001_EN_KDP_V2. Forthcoming 4 November 2026; no buying links."
+        "decision_id": "decision_eap001_en_ingram_v3_codex_upload_einreichen_instagram_website_20261024",
+        "source_manifest_sha256": "5f7941ba9b580425fe3e584db5329cff35bd5e81f583210d317911fdf6a680c8",
+        "review": "Ingram V3 print editions submitted: CSS9767876 paperback and CSS9769574 hardcover. Register EINGEREICHT F2/F5, 2026-10-24. Front rendered from approved V3 paperback cover; see docs/evidence/EAP001_INGRAM_V3_COVER_EXPORT_20261024.json. Only two print forms shown, forthcoming until observed LIVE; QR target unchanged.",
+        "register_projection_reviewed_utc": "2026-10-22T20:39:26.285173+00:00"
       }
     },
     {

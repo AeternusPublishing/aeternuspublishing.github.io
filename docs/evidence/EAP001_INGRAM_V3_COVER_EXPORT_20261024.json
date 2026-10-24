@@ -1,0 +1,16 @@
+{
+  "source_pdf": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\EAP_EDGAR_ALLAN_POE\\02_WERKE\\EAP_001_TALES_1845\\09_HANDEL\\UPLOADPAKET_EAP001_EN_INGRAM_V3\\INGRAM\\9783676052078_cov.pdf",
+  "source_sha256": "e82181eb80324488db931bf34abb0da9ea23f2a31820a2fcdbba5142cae43eb7",
+  "front_rect_in": [
+    8.875042,
+    0.125056,
+    6.0,
+    9.0
+  ],
+  "geometry_report_sha256": "2578e3cdbbdae86c86eab43c5073636ad3a85d3fac313066de727cbc829a4d91",
+  "method": "Render compiler-bound front rectangle, preserve complete front, black side padding for Instagram",
+  "outputs": {
+    "EAP001_V3_FRONT.jpg": "324ad3bba7bc0e0ebbf8b7e97fda355f1a2c0f8c34f251cd25491b77722aa160",
+    "EAP001_V3_INSTAGRAM_1080x1350.jpg": "d7abd1e6a550685105ab41a8af6c3aaa67d212363c2067e746115bf6ecbde365"
+  }
+}
