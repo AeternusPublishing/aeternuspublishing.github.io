@@ -99,17 +99,17 @@
   },
   "image": {
     "status": "publisher-approved",
-    "file": "/assets/images/portrait-frederick-sleigh-roberts-sargent-1906.jpg",
+    "file": "/assets/images/portrait-frederick-sleigh-roberts-russell-1897-color-v1.jpg",
     "caption": {
-      "en": "Frederick Sleigh Roberts. Portrait by John Singer Sargent, 1906.",
-      "de": "Frederick Sleigh Roberts. Portraet von John Singer Sargent, 1906."
+      "en": "Frederick Sleigh Roberts. Photograph by Russell & Sons, 1897. Modern colourisation.",
+      "de": "Frederick Sleigh Roberts. Fotografie von Russell & Sons, 1897. Moderne Kolorierung."
     },
-    "rights": "John Singer Sargent died in 1925; painting of 1906 is public domain. Publisher-approved source supplied in the commissioned website brief of 15 October 2026.",
-    "processing": "Unchanged byte-for-byte copy of Roberts_Sargent_1906_original.jpg, supplied and approved by the publisher. Source and SHA-256 recorded alongside the asset.",
+    "rights": "Historical photograph from 1897, supplied by the publisher for the frontispiece of Volume I; source provenance in FRONTISPIZ_RUSSELL_1897_EINGANG_20261016/HERKUNFT.md. Modern colourisation commissioned by the publisher on 24 October 2026.",
+    "processing": "Built-in GPT image editing: modern interpretive colourisation of the exact portrait used in Volume I, with source identity, pose, uniform and composition as authority. Native output and source preserved separately. JPEG web derivative. Evidence: editorial/author-worlds/evidence/fsr001-website-images-20261024.json. The previous Sargent asset remains unchanged.",
     "approval": {
-      "date": "2026-10-15",
-      "authority": "Verlegerauftrag, dokumentiert in CLAUDE_TO_CODEX/20261015T184711Z__msg_claude_fsr001_en_autorenseite_roberts_bauen_und_ausliefern_20261015.json; erneuert durch Vorschauseitenauftrag 24.10.2026",
-      "sha256": "2495aaa9bc1052f8064323bf5e300f9e706c6b3f4d8d35fd1f2eb7ec760c6f48"
+      "date": "2026-10-24",
+      "authority": "Explicit publisher instruction in the Roberts website correction chat: use the portrait from Volume I as the author portrait, colourise it first. Supersedes the previous Sargent portrait selection for this page.",
+      "sha256": "77cf5620c0fde043e64663b81b6ec8f7b5706ddcf9d8c269dd2c98a2d3e206a3"
     }
   }
 }

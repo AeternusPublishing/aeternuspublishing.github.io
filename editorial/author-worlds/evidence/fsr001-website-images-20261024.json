@@ -1,0 +1,76 @@
+{
+  "utc": "2026-10-24T14:26:12.164041+00:00",
+  "authority": "Publisher chat 24 October 2026; cover placeholders replaced and Volume I portrait colorized for this author page.",
+  "portrait": {
+    "role": "portrait",
+    "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\03_IMAGES\\FRONTISPIZ_RUSSELL_1897_EINGANG_20261016\\ROBERTS_RUSSELL_1897_FRONTISPIZ_ZUSCHNITT.png",
+    "source_sha256": "a213fa0cc768326aec9d25df65ead0a5daf216f5d19123c5736f8976ee487060",
+    "source_binding": "SATZ_V19_20261023/BAND_1/manuscript.json frontispiece",
+    "native_output": "C:\\_CB\\fsr001-web-evidence-20261024\\ROBERTS_RUSSELL_1897_COLOR_GPT_V1_NATIVE.png",
+    "native_sha256": "50bfc83d950bdec7e499275010716f39449b1c653e6da2c06e99daadc296b7ad",
+    "dimensions": [
+      1145,
+      1374
+    ],
+    "output": "src\\assets\\images\\portrait-frederick-sleigh-roberts-russell-1897-color-v1.jpg",
+    "output_sha256": "77cf5620c0fde043e64663b81b6ec8f7b5706ddcf9d8c269dd2c98a2d3e206a3",
+    "processing": "Modern interpretive colorization and generative photographic restoration with built-in image_gen.imagegen; full source composition retained; web JPEG derived locally",
+    "authority": "Publisher chat 24 October 2026: use the portrait from Volume I, colorize it first; explicitly replaces the website Sargent portrait. Original Sargent asset remains unchanged."
+  },
+  "covers": [
+    {
+      "role": "cover",
+      "band": 1,
+      "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\07_EXPORT\\UPLOADPAKET_BD1_V5_20261023\\FSR001_EN_BD1_UMSCHLAG_TASCHENBUCH_480S.pdf",
+      "source_sha256": "2bde022d6047b1ac85b84c781775ec9f4eef444d1f1f22f56bc91bc3423db228",
+      "compiler_front_rect_in": [
+        7.325,
+        0.125,
+        6.0,
+        9.0
+      ],
+      "outputs": [
+        {
+          "path": "src\\assets\\images\\cover-forty-one-years-in-india-volume-1-v5.jpg",
+          "sha256": "8bca83216d5a8834bbed3ad292cf4517b1c25c666c6bb1b238f480b099f0f791"
+        },
+        {
+          "path": "src\\assets\\images\\cover-forty-one-years-in-india-volume-1-v5.webp",
+          "sha256": "ad69c80de69fb39835b26abb06d85e4842691ce098a31ca612a5f9bac20fb93c"
+        }
+      ],
+      "dimensions": [
+        865,
+        1296
+      ],
+      "method": "Read-only rendering of approved PDF front with compiler geometry; no print PDF changed"
+    },
+    {
+      "role": "cover",
+      "band": 2,
+      "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\07_EXPORT\\UPLOADPAKET_BD2_V5_20261023\\FSR001_EN_BD2_UMSCHLAG_TASCHENBUCH_512S.pdf",
+      "source_sha256": "7e2c47684bd86e153a42de320c1070e9f9462af251da24050f227faebd126745",
+      "compiler_front_rect_in": [
+        7.405,
+        0.125,
+        6.0,
+        9.0
+      ],
+      "outputs": [
+        {
+          "path": "src\\assets\\images\\cover-forty-one-years-in-india-volume-2-v5.jpg",
+          "sha256": "e4256ffdce09db31dc0bd5a393ccd07f521bfb1a52303b153ea90df0635ab039"
+        },
+        {
+          "path": "src\\assets\\images\\cover-forty-one-years-in-india-volume-2-v5.webp",
+          "sha256": "abd8d2015a589d8677b61060b01b25f77b0eb3e33234b4c1fb26c7c60b3c02d6"
+        }
+      ],
+      "dimensions": [
+        865,
+        1296
+      ],
+      "method": "Read-only rendering of approved PDF front with compiler geometry; no print PDF changed"
+    }
+  ]
+}
