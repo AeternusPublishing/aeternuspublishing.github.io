@@ -1,0 +1,416 @@
+{
+  "author": {
+    "slug": "james-fenimore-cooper",
+    "name": "James Fenimore Cooper",
+    "dates": "1789–1851",
+    "eyebrow": "AMBER SERIES · AETERNUS",
+    "tagline": "The man who gave the American wilderness a voice",
+    "intro": "",
+    "metaDescription": "James Fenimore Cooper and The Leatherstocking Tales: five complete English AETERNUS hardcover volumes, from The Deerslayer to The Prairie.",
+    "portrait": {
+      "modern": true,
+      "file": "portrait-coo-cooper-jarvis-1822-20261008",
+      "alt": "James Fenimore Cooper, portrait by John Wesley Jarvis, 1822"
+    },
+    "blocks": [
+      {
+        "h": "About the Author",
+        "p": [
+          "James Fenimore Cooper (1789–1851) was among the first American novelists to achieve major international fame and one of the principal creators of the historical frontier romance. Raised in Cooperstown, New York, amid the living memory of early settlement, and later trained by experience at sea and service in the United States Navy, he brought to fiction an unusual command of landscape, movement, seamanship, wilderness skill and historical conflict.",
+          "His breakthrough came with The Spy in 1821. Two years later The Pioneers introduced Natty Bumppo, the hunter later known as Deerslayer, Hawkeye, Pathfinder and Leatherstocking. Cooper returned to the character across nearly two decades, ultimately creating five novels that follow Natty from youth in the forests of colonial New York to old age on the western prairie.",
+          "Few characters in American fiction have proved more durable.",
+          "Cooper’s style, plots and representation of the frontier inspired admiration, imitation, parody and fierce criticism throughout the nineteenth century and beyond. Yet the central achievement survived every quarrel. Through Leatherstocking, Chingachgook, Uncas, Magua and the immense landscapes surrounding them, Cooper helped give the American wilderness a permanent place in world literature."
+        ]
+      }
+    ],
+    "publisherEditionHTML": "<h2>The Leatherstocking Tales</h2><p>The five novels follow Natty Bumppo from youth to old age: The Deerslayer, The Last of the Mohicans, The Pathfinder, The Pioneers and The Prairie.</p><p>Five complete English hardcover volumes, arranged in the chronological order of his life. Submitted to IngramSpark; retail availability will follow after review.</p>",
+    "publisherPortraitCaption": "Portrait by John Wesley Jarvis, 1822."
+  },
+  "books": [
+    {
+      "id": "en-james-fenimore-cooper-the-deerslayer",
+      "work_id": "COO_001",
+      "language": "en",
+      "title": "The Deerslayer",
+      "subtitle": "or, The First War-Path",
+      "author": "james-fenimore-cooper",
+      "authorName": "James Fenimore Cooper",
+      "contributors": [],
+      "series": "bernstein",
+      "series_number": null,
+      "original_title": "The Deerslayer: or, The First War-Path",
+      "original_publication_year": 1841,
+      "isbn": {
+        "hardcover": "978-3-67605-158-3",
+        "paperback": null,
+        "ebook": null
+      },
+      "formats": {
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-158-3",
+          "pages": 652
+        }
+      },
+      "description": {
+        "short": "Before he was known as Hawkeye, Natty Bumppo was Deerslayer, a young hunter entering the unbroken forests around Glimmerglass Lake. Beside his Mohican friend Chingachgook, he is drawn into the dangers surrounding a lonely dwelling upon the water, where settlers and rival warriors live beneath the threat of sudden violence.",
+        "long": "Before he was known as Hawkeye, Natty Bumppo was Deerslayer, a young hunter entering the unbroken forests around Glimmerglass Lake. Beside his Mohican friend Chingachgook, he is drawn into the dangers surrounding a lonely dwelling upon the water, where settlers and rival warriors live beneath the threat of sudden violence.\n\nHere courage demands more than skill with a rifle, and a man's honor is measured by the word he keeps when his life is at stake.\n\nAmid the splendor of an ancient wilderness, James Fenimore Cooper opens the life of his most enduring hero and the great American saga of Leatherstocking.\n\nAMBER SERIES · AETERNUS"
+      },
+      "publisherDescriptionHTML": "<ul><li>Complete text of the Household Edition, word for word</li><li>Text read against the page images of the 1876 printing</li><li>18 plates made for this edition</li><li>Susan Fenimore Cooper’s Introduction and her Notes A–P</li><li>Publisher’s foreword and afterword, dramatis personae, glossary</li><li>The Leatherstocking Tales, Volume I</li></ul><p>Before he was known as Hawkeye, Natty Bumppo was Deerslayer, a young hunter entering the unbroken forests around Glimmerglass Lake. Beside his Mohican friend Chingachgook, he is drawn into the dangers surrounding a lonely dwelling upon the water, where settlers and rival warriors live beneath the threat of sudden violence.</p><p>Here courage demands more than skill with a rifle, and a man's honor is measured by the word he keeps when his life is at stake.</p><p>Amid the splendor of an ancient wilderness, James Fenimore Cooper opens the life of his most enduring hero and the great American saga of Leatherstocking.</p><p>AMBER SERIES · AETERNUS</p>",
+      "cover": "/assets/images/cover-coo001-en-ingram-hc-r6-20261024.jpg",
+      "coverWebp": "/assets/images/cover-coo001-en-ingram-hc-r6-20261024.webp",
+      "publication_date": null,
+      "pricing": {},
+      "availability": "COMING_SOON",
+      "forthcoming_label": "Hardcover forthcoming",
+      "cardStatus": "Hardcover forthcoming",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "EINGEREICHT",
+        "amazon": "NOT_CONFIGURED",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-james-fenimore-cooper-the-deerslayer/",
+      "authorUrl": "/authors/james-fenimore-cooper/",
+      "legacy": {
+        "modal": {
+          "metadata": "The Leatherstocking Tales · Volume I · Complete English text · Hardcover · 652 pages",
+          "sample": "Before he was known as Hawkeye, Natty Bumppo was Deerslayer, a young hunter entering the unbroken forests around Glimmerglass Lake. Beside his Mohican friend Chingachgook, he is drawn into the dangers surrounding a lonely dwelling upon the water, where settlers and rival warriors live beneath the threat of sudden violence."
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-158-3",
+          "pages": 652,
+          "links": [],
+          "status": "EINGEREICHT"
+        }
+      ],
+      "provenance": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\JFC_JAMES_FENIMORE_COOPER\\04_PRODUCTION\\COOPER_LEITSTAND_20261022\\PRODUKTION_R6_20261024\\UPLOADPAKET_COO_001_EN_INGRAM_HC_R6_20261024\\METADATEN\\ingram_hardcover.json",
+      "platform_evidence": {
+        "title_id": "CSS9769364",
+        "status": "EINGEREICHT",
+        "observed_date": "2026-10-24",
+        "metadata_sha256": "2ea6bff01c456cbd51f7380f94b09cb270e0357d0cd52e074f591bb2d6575a4d",
+        "cover_sha256": "9772439419478e53a708270c2d20c48f128727a83846178353a43020e96f6ac9"
+      }
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-last-of-the-mohicans",
+      "work_id": "COO_002",
+      "language": "en",
+      "title": "The Last of the Mohicans",
+      "subtitle": "A Narrative of 1757",
+      "author": "james-fenimore-cooper",
+      "authorName": "James Fenimore Cooper",
+      "contributors": [],
+      "series": "bernstein",
+      "series_number": null,
+      "original_title": "The Last of the Mohicans: A Narrative of 1757",
+      "original_publication_year": 1826,
+      "isbn": {
+        "hardcover": "978-3-67605-213-9",
+        "paperback": null,
+        "ebook": null
+      },
+      "formats": {
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-213-9",
+          "pages": 492
+        }
+      },
+      "description": {
+        "short": "1757. The armies of Britain and France contend for mastery of the northern American frontier. As the daughters of Colonel Munro seek the safety of Fort William Henry, the forests around Lake George become a deadly labyrinth of pursuit, divided loyalties, and ambush.",
+        "long": "1757. The armies of Britain and France contend for mastery of the northern American frontier. As the daughters of Colonel Munro seek the safety of Fort William Henry, the forests around Lake George become a deadly labyrinth of pursuit, divided loyalties, and ambush.\n\nTheir hope rests with Hawkeye, the seasoned scout, and his Mohican companions Chingachgook and Uncas, whose knowledge of the wilderness may prove more valuable than the strength of an army.\n\nAgainst the thunder of imperial war, Cooper unfolds a magnificent romance of courage, devotion and honor, in which the destiny of a handful of travelers becomes inseparable from the fortunes of nations.\n\nAMBER SERIES · AETERNUS"
+      },
+      "publisherDescriptionHTML": "<ul><li>Complete text of the Household Edition, word for word</li><li>Text read against the page images of the 1876 printing</li><li>8 plates made for this edition</li><li>Cooper’s Introduction, Susan Fenimore Cooper’s Introduction and Notes</li><li>Publisher’s foreword and afterword, dramatis personae, glossary</li><li>The Leatherstocking Tales, Volume II</li></ul><p>1757. The armies of Britain and France contend for mastery of the northern American frontier. As the daughters of Colonel Munro seek the safety of Fort William Henry, the forests around Lake George become a deadly labyrinth of pursuit, divided loyalties, and ambush.</p><p>Their hope rests with Hawkeye, the seasoned scout, and his Mohican companions Chingachgook and Uncas, whose knowledge of the wilderness may prove more valuable than the strength of an army.</p><p>Against the thunder of imperial war, Cooper unfolds a magnificent romance of courage, devotion and honor, in which the destiny of a handful of travelers becomes inseparable from the fortunes of nations.</p><p>AMBER SERIES · AETERNUS</p>",
+      "cover": "/assets/images/cover-coo002-en-ingram-hc-r6-20261024.jpg",
+      "coverWebp": "/assets/images/cover-coo002-en-ingram-hc-r6-20261024.webp",
+      "publication_date": null,
+      "pricing": {},
+      "availability": "COMING_SOON",
+      "forthcoming_label": "Hardcover forthcoming",
+      "cardStatus": "Hardcover forthcoming",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "EINGEREICHT",
+        "amazon": "NOT_CONFIGURED",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-james-fenimore-cooper-the-last-of-the-mohicans/",
+      "authorUrl": "/authors/james-fenimore-cooper/",
+      "legacy": {
+        "modal": {
+          "metadata": "The Leatherstocking Tales · Volume II · Complete English text · Hardcover · 492 pages",
+          "sample": "1757. The armies of Britain and France contend for mastery of the northern American frontier. As the daughters of Colonel Munro seek the safety of Fort William Henry, the forests around Lake George become a deadly labyrinth of pursuit, divided loyalties, and ambush."
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-213-9",
+          "pages": 492,
+          "links": [],
+          "status": "EINGEREICHT"
+        }
+      ],
+      "provenance": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\JFC_JAMES_FENIMORE_COOPER\\04_PRODUCTION\\COOPER_LEITSTAND_20261022\\PRODUKTION_R6_20261024\\UPLOADPAKET_COO_002_EN_INGRAM_HC_R6_20261024\\METADATEN\\ingram_hardcover.json",
+      "platform_evidence": {
+        "title_id": "CSS9769557",
+        "status": "EINGEREICHT",
+        "observed_date": "2026-10-24",
+        "metadata_sha256": "eb0ceb2450fd74e714ab0d8b5cf870e64db7119c60d7bf9f46879a1d5f8a3563",
+        "cover_sha256": "125fa284f14d298f29eca072d0a8c26188879e34ca3994bd71a36423b55f1d63"
+      }
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-pathfinder",
+      "work_id": "COO_003",
+      "language": "en",
+      "title": "The Pathfinder",
+      "subtitle": "or, The Inland Sea",
+      "author": "james-fenimore-cooper",
+      "authorName": "James Fenimore Cooper",
+      "contributors": [],
+      "series": "bernstein",
+      "series_number": null,
+      "original_title": "The Pathfinder: or, The Inland Sea",
+      "original_publication_year": 1840,
+      "isbn": {
+        "hardcover": "978-3-67605-214-6",
+        "paperback": null,
+        "ebook": null
+      },
+      "formats": {
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-214-6",
+          "pages": 556
+        }
+      },
+      "description": {
+        "short": "During the great struggle between Britain and France, the vast waters of Lake Ontario have become a frontier of concealed movements, contested outposts and dangerous loyalties.",
+        "long": "During the great struggle between Britain and France, the vast waters of Lake Ontario have become a frontier of concealed movements, contested outposts and dangerous loyalties.\n\nEntrusted with guiding Mabel Dunham to her father's military station, Pathfinder joins the young sailor Jasper Western upon a journey in which the practiced arts of the woodland scout must answer the unfamiliar demands of the inland sea.\n\nWith treachery gathering among the islands and the claims of affection testing even the surest judgment, Cooper brings his celebrated hero into a world where courage, honor and fidelity must withstand trials no wilderness knowledge alone can overcome.\n\nAMBER SERIES · AETERNUS"
+      },
+      "publisherDescriptionHTML": "<ul><li>Complete text of the Household Edition, word for word</li><li>Text read against the page images of the 1876 printing</li><li>9 plates made for this edition</li><li>Cooper’s Preface, Susan Fenimore Cooper’s Introduction and Notes</li><li>Publisher’s foreword and afterword, dramatis personae, glossary</li><li>The Leatherstocking Tales, Volume III</li></ul><p>During the great struggle between Britain and France, the vast waters of Lake Ontario have become a frontier of concealed movements, contested outposts and dangerous loyalties.</p><p>Entrusted with guiding Mabel Dunham to her father's military station, Pathfinder joins the young sailor Jasper Western upon a journey in which the practiced arts of the woodland scout must answer the unfamiliar demands of the inland sea.</p><p>With treachery gathering among the islands and the claims of affection testing even the surest judgment, Cooper brings his celebrated hero into a world where courage, honor and fidelity must withstand trials no wilderness knowledge alone can overcome.</p><p>AMBER SERIES · AETERNUS</p>",
+      "cover": "/assets/images/cover-coo003-en-ingram-hc-r6-20261024.jpg",
+      "coverWebp": "/assets/images/cover-coo003-en-ingram-hc-r6-20261024.webp",
+      "publication_date": null,
+      "pricing": {},
+      "availability": "COMING_SOON",
+      "forthcoming_label": "Hardcover forthcoming",
+      "cardStatus": "Hardcover forthcoming",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "EINGEREICHT",
+        "amazon": "NOT_CONFIGURED",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-james-fenimore-cooper-the-pathfinder/",
+      "authorUrl": "/authors/james-fenimore-cooper/",
+      "legacy": {
+        "modal": {
+          "metadata": "The Leatherstocking Tales · Volume III · Complete English text · Hardcover · 556 pages",
+          "sample": "During the great struggle between Britain and France, the vast waters of Lake Ontario have become a frontier of concealed movements, contested outposts and dangerous loyalties."
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-214-6",
+          "pages": 556,
+          "links": [],
+          "status": "EINGEREICHT"
+        }
+      ],
+      "provenance": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\JFC_JAMES_FENIMORE_COOPER\\04_PRODUCTION\\COOPER_LEITSTAND_20261022\\PRODUKTION_R6_20261024\\UPLOADPAKET_COO_003_EN_INGRAM_HC_R6_20261024\\METADATEN\\ingram_hardcover.json",
+      "platform_evidence": {
+        "title_id": "CSS9769846",
+        "status": "EINGEREICHT",
+        "observed_date": "2026-10-24",
+        "metadata_sha256": "7a6237fc8e879a2d3b9b1f4155da55cec1e175a4d9b801a792eedc3cf4bdbc57",
+        "cover_sha256": "87b31bcb917c157df175e7cb028ea73fb720c606f7dd0fa36487a2de88dfb4d0"
+      }
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-pioneers",
+      "work_id": "COO_004",
+      "language": "en",
+      "title": "The Pioneers",
+      "subtitle": "or, The Sources of the Susquehanna",
+      "author": "james-fenimore-cooper",
+      "authorName": "James Fenimore Cooper",
+      "contributors": [],
+      "series": "bernstein",
+      "series_number": null,
+      "original_title": "The Pioneers: or, The Sources of the Susquehanna",
+      "original_publication_year": 1823,
+      "isbn": {
+        "hardcover": "978-3-67605-215-3",
+        "paperback": null,
+        "ebook": null
+      },
+      "formats": {
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-215-3",
+          "pages": 542
+        }
+      },
+      "description": {
+        "short": "1793. Around the sources of the Susquehanna, the ancient forest is yielding to fields, roads and the rising settlement of Templeton. Judge Marmaduke Temple presides over a new order of property and law, while Leatherstocking, the aging hunter of the old frontier, remains faithful to the customs of a wilderness he has known all his life.",
+        "long": "1793. Around the sources of the Susquehanna, the ancient forest is yielding to fields, roads and the rising settlement of Templeton. Judge Marmaduke Temple presides over a new order of property and law, while Leatherstocking, the aging hunter of the old frontier, remains faithful to the customs of a wilderness he has known all his life.\n\nBeside his Mohican companion Chingachgook, Natty Bumppo confronts a world in which the land he once roamed in freedom is increasingly measured, claimed and governed.\n\nIn this rich portrait of the young American republic, Cooper brings the freedom of the wilderness into conflict with the ambitions of a new civilization.\n\nAMBER SERIES · AETERNUS"
+      },
+      "publisherDescriptionHTML": "<ul><li>Complete text of the Household Edition, word for word</li><li>Text read against the page images of the 1876 printing</li><li>9 plates made for this edition</li><li>Cooper’s Introduction, Susan Fenimore Cooper’s Introduction and Notes</li><li>Publisher’s foreword and afterword, dramatis personae, glossary</li><li>The Leatherstocking Tales, Volume IV</li></ul><p>1793. Around the sources of the Susquehanna, the ancient forest is yielding to fields, roads and the rising settlement of Templeton. Judge Marmaduke Temple presides over a new order of property and law, while Leatherstocking, the aging hunter of the old frontier, remains faithful to the customs of a wilderness he has known all his life.</p><p>Beside his Mohican companion Chingachgook, Natty Bumppo confronts a world in which the land he once roamed in freedom is increasingly measured, claimed and governed.</p><p>In this rich portrait of the young American republic, Cooper brings the freedom of the wilderness into conflict with the ambitions of a new civilization.</p><p>AMBER SERIES · AETERNUS</p>",
+      "cover": "/assets/images/cover-coo004-en-ingram-hc-r6-20261024.jpg",
+      "coverWebp": "/assets/images/cover-coo004-en-ingram-hc-r6-20261024.webp",
+      "publication_date": null,
+      "pricing": {},
+      "availability": "COMING_SOON",
+      "forthcoming_label": "Hardcover forthcoming",
+      "cardStatus": "Hardcover forthcoming",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "EINGEREICHT",
+        "amazon": "NOT_CONFIGURED",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-james-fenimore-cooper-the-pioneers/",
+      "authorUrl": "/authors/james-fenimore-cooper/",
+      "legacy": {
+        "modal": {
+          "metadata": "The Leatherstocking Tales · Volume IV · Complete English text · Hardcover · 542 pages",
+          "sample": "1793. Around the sources of the Susquehanna, the ancient forest is yielding to fields, roads and the rising settlement of Templeton. Judge Marmaduke Temple presides over a new order of property and law, while Leatherstocking, the aging hunter of the old frontier, remains faithful to the customs of a wilderness he has known all his life."
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-215-3",
+          "pages": 542,
+          "links": [],
+          "status": "EINGEREICHT"
+        }
+      ],
+      "provenance": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\JFC_JAMES_FENIMORE_COOPER\\04_PRODUCTION\\COOPER_LEITSTAND_20261022\\PRODUKTION_R6_20261024\\UPLOADPAKET_COO_004_EN_INGRAM_HC_R6_20261024\\METADATEN\\ingram_hardcover.json",
+      "platform_evidence": {
+        "title_id": "CSS9770115",
+        "status": "EINGEREICHT",
+        "observed_date": "2026-10-24",
+        "metadata_sha256": "af334aeac9573c0bc6631ebb1d54319ef2c0f4fcec57522d7292341555480bfb",
+        "cover_sha256": "ec4f816161765235e0d736bdfe8e92018a4d0519a1ba6c11863a4611e3b1e160"
+      }
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-prairie",
+      "work_id": "COO_005",
+      "language": "en",
+      "title": "The Prairie",
+      "subtitle": "A Tale",
+      "author": "james-fenimore-cooper",
+      "authorName": "James Fenimore Cooper",
+      "contributors": [],
+      "series": "bernstein",
+      "series_number": null,
+      "original_title": "The Prairie: A Tale",
+      "original_publication_year": 1827,
+      "isbn": {
+        "hardcover": "978-3-67605-216-0",
+        "paperback": null,
+        "ebook": null
+      },
+      "formats": {
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-216-0",
+          "pages": 540
+        }
+      },
+      "description": {
+        "short": "Beyond the Mississippi stretches a country of immense grasslands and boundless skies, where an old hunter has sought refuge from the advancing settlements of the East.",
+        "long": "Beyond the Mississippi stretches a country of immense grasslands and boundless skies, where an old hunter has sought refuge from the advancing settlements of the East.\n\nNatty Bumppo, now known simply as the Trapper, encounters the wandering family of Ishmael Bush and the Pawnee warrior Hard-Heart as rivalry, pursuit and human ambition disturb the solitude of the plains. The wilderness has changed, but the principles by which he has lived remain unshaken.\n\nIn the final movement of the Leatherstocking saga, Cooper gives the American frontier its widest horizon and one of its noblest literary figures: a man grown old beneath the open heavens, faithful to the freedom that shaped his life.\n\nAMBER SERIES · AETERNUS"
+      },
+      "publisherDescriptionHTML": "<ul><li>Complete text of the Household Edition, word for word</li><li>Text read against the page images of the 1876 printing</li><li>8 plates made for this edition</li><li>Cooper’s Introduction, Susan Fenimore Cooper’s Introduction and Notes</li><li>Publisher’s foreword and afterword, dramatis personae, glossary</li><li>The Leatherstocking Tales, Volume V</li></ul><p>Beyond the Mississippi stretches a country of immense grasslands and boundless skies, where an old hunter has sought refuge from the advancing settlements of the East.</p><p>Natty Bumppo, now known simply as the Trapper, encounters the wandering family of Ishmael Bush and the Pawnee warrior Hard-Heart as rivalry, pursuit and human ambition disturb the solitude of the plains. The wilderness has changed, but the principles by which he has lived remain unshaken.</p><p>In the final movement of the Leatherstocking saga, Cooper gives the American frontier its widest horizon and one of its noblest literary figures: a man grown old beneath the open heavens, faithful to the freedom that shaped his life.</p><p>AMBER SERIES · AETERNUS</p>",
+      "cover": "/assets/images/cover-coo005-en-ingram-hc-r6-20261024.jpg",
+      "coverWebp": "/assets/images/cover-coo005-en-ingram-hc-r6-20261024.webp",
+      "publication_date": null,
+      "pricing": {},
+      "availability": "COMING_SOON",
+      "forthcoming_label": "Hardcover forthcoming",
+      "cardStatus": "Hardcover forthcoming",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "EINGEREICHT",
+        "amazon": "NOT_CONFIGURED",
+        "own_shop": "NOT_CONFIGURED"
+      },
+      "commerce": {
+        "shopify_product_id": null,
+        "shopify_handle": null
+      },
+      "url": "/books/en-james-fenimore-cooper-the-prairie/",
+      "authorUrl": "/authors/james-fenimore-cooper/",
+      "legacy": {
+        "modal": {
+          "metadata": "The Leatherstocking Tales · Volume V · Complete English text · Hardcover · 540 pages",
+          "sample": "Beyond the Mississippi stretches a country of immense grasslands and boundless skies, where an old hunter has sought refuge from the advancing settlements of the East."
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-216-0",
+          "pages": 540,
+          "links": [],
+          "status": "EINGEREICHT"
+        }
+      ],
+      "provenance": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\JFC_JAMES_FENIMORE_COOPER\\04_PRODUCTION\\COOPER_LEITSTAND_20261022\\PRODUKTION_R6_20261024\\UPLOADPAKET_COO_005_EN_INGRAM_HC_R6_20261024\\METADATEN\\ingram_hardcover.json",
+      "platform_evidence": {
+        "title_id": "CSS9770132",
+        "status": "EINGEREICHT",
+        "observed_date": "2026-10-24",
+        "metadata_sha256": "a8935b3126d3bf044ee5824db2fdba708257665839a854fc6abb1c255c6a73de",
+        "cover_sha256": "a4bc168cc13719982837b85ea71dce659c02c0c30c23040e971d58acf315f9d5"
+      }
+    }
+  ]
+}
