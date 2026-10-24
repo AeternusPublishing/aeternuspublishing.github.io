@@ -2,6 +2,7 @@
 // V9 released 24 October 2026; retail availability awaits observation.
 const fs = require('node:fs');
 const path = require('node:path');
+const releasedVolumes = require('./ga001-v9-20261024.json');
 
 const source = fs.readFileSync(path.join(__dirname, 'ga001-author-v63-20261014.txt'), 'utf8').trim();
 if (!/^SIR GEORGE ARTHUR\r?\n\r?\n/.test(source)) throw new Error('GA_001 author source heading changed');
@@ -50,6 +51,8 @@ const volumes = [
   ['III', '978-3-67605-177-4']
 ];
 const books = volumes.map(([volume, isbn]) => {
+  const released = releasedVolumes[volume];
+  if (released.isbn !== isbn) throw new Error(`GA_001 Volume ${volume}: released ISBN mismatch`);
   const slug = volume.toLowerCase();
   const id = `en-george-arthur-life-of-lord-kitchener-volume-${slug}`;
   const description = `Life of Lord Kitchener, Volume ${volume}. Complete text of the first London edition of 1920, unabridged. AETERNUS Green Series hardcover.`;
@@ -60,21 +63,21 @@ const books = volumes.map(([volume, isbn]) => {
     series: 'gruen', series_number: null,
     original_title: 'Life of Lord Kitchener', original_publication_year: 1920,
     isbn: { paperback: null, hardcover: isbn, ebook: null },
-    formats: { hardcover: { label: 'Hardcover' } },
+    formats: { hardcover: { label: 'Hardcover', isbn, pages: released.book_pages } },
     description: { short: description, long: description },
-    publisherDescriptionHTML: '<p>First published in London in 1920. Complete and unabridged in three hardcover volumes.</p><p>GREEN SERIES · AETERNUS</p>',
+    publisherDescriptionHTML: released.description_html,
     cover: `/assets/images/cover-life-of-lord-kitchener-volume-${slug}-front.jpg`,
     coverWebp: `/assets/images/cover-life-of-lord-kitchener-volume-${slug}-front.webp`,
-    publication_date: null, pricing: {}, availability: 'COMING_SOON',
-    forthcoming_label: 'Forthcoming', cardStatus: 'Forthcoming · date open',
+    publication_date: released.publication_date, pricing: {}, availability: 'COMING_SOON',
+    forthcoming_label: 'Planned publication · 21 November 2026', cardStatus: 'Forthcoming · 21 November 2026',
     links: { shop: null, amazon: null, ingram: null },
     distribution_status: { ingram: 'GEBAUT', own_shop: 'NOT_CONFIGURED' },
     commerce: { shopify_product_id: null, shopify_handle: null },
     url: `/books/${id}/`, authorUrl: `/authors/${author.slug}/`,
     seriesName: 'Green Series', seriesColor: '#2d4a22', brandOnly: true,
-    legacy: { modal: { metadata: 'Hardcover · forthcoming', sample: description } },
-    retailer_formats: [{ label: 'Hardcover', isbn, links: [], status: 'GEBAUT' }],
-    provenance: 'GA_001/00_ADMIN/CODEX_AUFTRAG_GA001_AUTORENSEITE_V2_20261014.txt'
+    legacy: { modal: { metadata: `Hardcover · ${released.book_pages} pages · forthcoming`, sample: description } },
+    retailer_formats: [{ label: 'Hardcover', isbn, pages: released.book_pages, links: [], status: 'GEBAUT' }],
+    provenance: `GA_001/07_EXPORT/UPLOADPAKETE_INGRAM_V9_20261024/${released.source_package}/METADATEN/ingram_hardcover.json`
   };
 });
 
