@@ -1,5 +1,5 @@
 // GA_001 author copy is copied byte-for-byte from the printed V63 source.
-// No edition has publisher release authority or a retail route yet.
+// V9 released 24 October 2026; retail availability awaits observation.
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -27,6 +27,20 @@ const author = {
   publisherAuthorHTML,
   publisherAuthorSource: 'GA_001/00_ADMIN/AUTORENTEXT_ARTHUR_WIE_GEDRUCKT_V63_20261014.txt',
   brandOnly: true,
+  extras: {
+    kicker: 'MAPS AND PLANS',
+    title: 'Maps and plans in full resolution',
+    text: 'Download the maps and plans from all three volumes of Life of Lord Kitchener. These are the full-resolution images used in the AETERNUS edition.',
+    items: [
+      ['Volume I · The Sudan, 1883–1899', 'Full-resolution PNG.', '/assets/downloads/george-arthur/v70/GA001_V1_MAP_SUDAN_1883_1899.png', 'Download PNG'],
+      ['Volume I · Omdurman', 'Full-resolution PNG.', '/assets/downloads/george-arthur/v70/GA001_V1_MAP_OMDURMAN.png', 'Download PNG'],
+      ['Volume I · Paardeberg, plan A', 'Full-resolution PNG.', '/assets/downloads/george-arthur/v70/GA001_V1_PLAN_PAARDEBERG_A.png', 'Download PNG'],
+      ['Volume I · Paardeberg, plan B', 'Full-resolution PNG.', '/assets/downloads/george-arthur/v70/GA001_V1_PLAN_PAARDEBERG_B.png', 'Download PNG'],
+      ['Volume II · The armies in India', 'Full-resolution PNG.', '/assets/downloads/george-arthur/v70/GA001_V2_MAP_INDIA_ARMIES.png', 'Download PNG'],
+      ['Volume II · Strategic railways', 'Full-resolution PNG.', '/assets/downloads/george-arthur/v70/GA001_V2_MAP_STRATEGIC_RAILWAYS_B.png', 'Download PNG'],
+      ['Volume III · Gallipoli and the Dardanelles', 'Full-resolution PNG.', '/assets/downloads/george-arthur/v70/GA001_V3_MAP_GALLIPOLI_DARDANELLES.png', 'Download PNG']
+    ]
+  },
   blocks: []
 };
 
