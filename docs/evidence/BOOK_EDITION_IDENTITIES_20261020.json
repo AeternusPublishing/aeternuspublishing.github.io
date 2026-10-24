@@ -6366,8 +6366,17 @@
       "id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i",
       "language": "en",
       "url": "/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i/",
-      "front_url": null,
-      "assets": [],
+      "front_url": "/assets/images/cover-forty-one-years-in-india-volume-1-v5.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-forty-one-years-in-india-volume-1-v5.jpg",
+          "sha256": "8bca83216d5a8834bbed3ad292cf4517b1c25c666c6bb1b238f480b099f0f791"
+        },
+        {
+          "path": "src/assets/images/cover-forty-one-years-in-india-volume-1-v5.webp",
+          "sha256": "ad69c80de69fb39835b26abb06d85e4842691ce098a31ca612a5f9bac20fb93c"
+        }
+      ],
       "formats": [],
       "independent_verification": {
         "reviewed_utc": "2026-10-24T12:32:36.400Z",
@@ -6382,8 +6391,17 @@
       "id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
       "language": "en",
       "url": "/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii/",
-      "front_url": null,
-      "assets": [],
+      "front_url": "/assets/images/cover-forty-one-years-in-india-volume-2-v5.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-forty-one-years-in-india-volume-2-v5.jpg",
+          "sha256": "e4256ffdce09db31dc0bd5a393ccd07f521bfb1a52303b153ea90df0635ab039"
+        },
+        {
+          "path": "src/assets/images/cover-forty-one-years-in-india-volume-2-v5.webp",
+          "sha256": "abd8d2015a589d8677b61060b01b25f77b0eb3e33234b4c1fb26c7c60b3c02d6"
+        }
+      ],
       "formats": [],
       "independent_verification": {
         "reviewed_utc": "2026-10-24T12:32:36.402Z",
