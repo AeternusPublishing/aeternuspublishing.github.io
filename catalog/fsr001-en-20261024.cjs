@@ -27,7 +27,7 @@ const books = subtitles.map((subtitle, i) => {
     cover: `/assets/images/cover-forty-one-years-in-india-volume-${i + 1}-v5.jpg`,
     coverWebp: `/assets/images/cover-forty-one-years-in-india-volume-${i + 1}-v5.webp`,
     publication_date: '2026-10-31', pricing: {}, availability: 'COMING_SOON',
-    links: { shop: null, amazon: null, ingram: null }, distribution_status: { ingram: 'FREIGEGEBEN', amazon: 'NOT_SUBMITTED' },
+    links: { shop: null, amazon: null, ingram: null }, distribution_status: { ingram: 'EINGEREICHT', amazon: 'NOT_SUBMITTED' },
     commerce: { shopify_product_id: null, shopify_handle: null },
     url: `/books/${id}/`, authorUrl: `/authors/${slug}/`, seriesName: 'GREEN SERIES', seriesColor: '#2d4a22',
     brandOnly: true, forthcoming_label: 'Forthcoming · planned publication 31 October 2026',

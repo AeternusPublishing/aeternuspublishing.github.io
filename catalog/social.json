@@ -3,7 +3,7 @@
     "handle": "aeternus.publishing",
     "url": "https://www.instagram.com/aeternus.publishing/",
     "language": "en",
-    "verified_utc": "2026-10-24T12:58:53Z",
+    "verified_utc": "2026-10-24T15:18:26.945277Z",
     "posts": [
       {
         "book_id": "en-francis-parkman-the-conspiracy-of-pontiac",
@@ -194,6 +194,16 @@
         "title": "Life of Lord Kitchener, Volume III",
         "url": "https://www.instagram.com/p/De4L3MSF4Dl/",
         "book_id": "en-george-arthur-life-of-lord-kitchener-volume-iii"
+      },
+      {
+        "title": "Forty-One Years in India, Volume I",
+        "url": "https://www.instagram.com/p/De4b4qflwsE/",
+        "book_id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i"
+      },
+      {
+        "title": "Forty-One Years in India, Volume II",
+        "url": "https://www.instagram.com/p/De4b4qflwsE/",
+        "book_id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii"
       }
     ],
     "feed_sync": {
