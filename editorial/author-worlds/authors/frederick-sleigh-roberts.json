@@ -99,17 +99,17 @@
   },
   "image": {
     "status": "publisher-approved",
-    "file": "/assets/images/portrait-frederick-sleigh-roberts-russell-1897-color-v1.jpg",
+    "file": "/assets/images/portrait-frederick-sleigh-roberts-russell-1897-color-v2.jpg",
     "caption": {
       "en": "Frederick Sleigh Roberts. Photograph by Russell & Sons, 1897. Modern colourisation.",
       "de": "Frederick Sleigh Roberts. Fotografie von Russell & Sons, 1897. Moderne Kolorierung."
     },
     "rights": "Historical photograph from 1897, supplied by the publisher for the frontispiece of Volume I; source provenance in FRONTISPIZ_RUSSELL_1897_EINGANG_20261016/HERKUNFT.md. Modern colourisation commissioned by the publisher on 24 October 2026.",
-    "processing": "Built-in GPT image editing: modern interpretive colourisation of the exact portrait used in Volume I, with source identity, pose, uniform and composition as authority. Native output and source preserved separately. JPEG web derivative. Evidence: editorial/author-worlds/evidence/fsr001-website-images-20261024.json. The previous Sargent asset remains unchanged.",
+    "processing": "Generative correction of the tunic body and sleeves from erroneous navy blue to scarlet. Dark blue collar, cuffs and trousers retained; pale blue sash with white borders retained. Local RGB JPEG conversion, quality 94, subsampling 0. Original and V1 assets preserved. Evidence: editorial/author-worlds/evidence/fsr001-portrait-uniform-correction-20261024.json. Modern colourisation remains explicitly captioned.",
     "approval": {
       "date": "2026-10-24",
-      "authority": "Explicit publisher instruction in the Roberts website correction chat: use the portrait from Volume I as the author portrait, colourise it first. Supersedes the previous Sargent portrait selection for this page.",
-      "sha256": "77cf5620c0fde043e64663b81b6ec8f7b5706ddcf9d8c269dd2c98a2d3e206a3"
+      "authority": "Publisher in side conversation 24 October 2026: ist die uniform nicht rot? / erledige in diesem fenster. Correct the Roberts website portrait; no book or upload changes.",
+      "sha256": "11817736ed507ca6e15677e69d6e23f7f6c56007a1cc9f0e79cdb1883513b0d6"
     }
   }
 }
