@@ -1,0 +1,42 @@
+{
+  "schema": "AETERNUS_PORTRAIT_COLOUR_CORRECTION_V1",
+  "utc": "2026-10-24T14:46:34.784069+00:00",
+  "authority": "Publisher in side conversation 24 October 2026: ist die uniform nicht rot? / erledige in diesem fenster. Correct the Roberts website portrait; no book or upload changes.",
+  "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\03_IMAGES\\FRONTISPIZ_RUSSELL_1897_EINGANG_20261016\\ROBERTS_RUSSELL_1897_FRONTISPIZ_ZUSCHNITT.png",
+  "source_sha256": "a213fa0cc768326aec9d25df65ead0a5daf216f5d19123c5736f8976ee487060",
+  "previous": "src\\assets\\images\\portrait-frederick-sleigh-roberts-russell-1897-color-v1.jpg",
+  "previous_sha256": "77cf5620c0fde043e64663b81b6ec8f7b5706ddcf9d8c269dd2c98a2d3e206a3",
+  "native_output": "C:\\_CB\\fsr001-portrait-red-evidence-20261024\\ROBERTS_RUSSELL_1897_COLOR_RED_V2_NATIVE.png",
+  "native_sha256": "d105040bbcabb9876f9491a0a7eb5e90abbce29068dd24af5efe3e9b29c1600c",
+  "dimensions": [
+    1145,
+    1374
+  ],
+  "output": "src/assets/images/portrait-frederick-sleigh-roberts-russell-1897-color-v2.jpg",
+  "output_sha256": "11817736ed507ca6e15677e69d6e23f7f6c56007a1cc9f0e79cdb1883513b0d6",
+  "tool": "Built-in image_gen.imagegen",
+  "prompt": "Use case: identity-preserve. Asset: historical author portrait for AETERNUS website. Image 1 is the edit target, the existing colourised seated portrait of Frederick Sleigh Roberts; Image 2 is the original 1897 Russell & Sons photograph and is the authority for identity, expression, pose, clothing shapes, medals and composition; Image 3 is only a colour reference of Roberts' surviving full-dress tunic held at the National Army Museum, NOT a replacement garment. Correct ONLY the erroneous navy-blue body and sleeves of the TUNIC in Image 1 to historically appropriate rich scarlet-red wool, with natural period photographic tones and preserved shadows, highlights and cloth texture. Keep the gold-embroidered standing collar and cuff ground dark navy blue, white piping ivory-white, and the TROUSERS dark navy. Keep every other aspect of Image 1 as unchanged as possible: exact face, age, hair, moustache, hands, seated pose, pale-blue sash with white borders, medals and their layout, gold shoulder cords, embroidery, buttons, belt, sword, bicorne with white feathers, chair, background, crop, aspect ratio and photographic clarity. Do not add or remove any decoration. Do not transfer the museum object's shape, lighting or background. No text, frame or watermark. Match the existing photo quality, make only the tunic red.",
+  "processing": "Generative correction of the tunic body and sleeves from erroneous navy blue to scarlet. Dark blue collar, cuffs and trousers retained; pale blue sash with white borders retained. Local RGB JPEG conversion, quality 94, subsampling 0. Original and V1 assets preserved.",
+  "references": [
+    {
+      "url": "https://www.nam.ac.uk/whats-on/embroidery-course-ceremonial-goldwork",
+      "evidence": "National Army Museum caption identifies its illustrated surviving tunic as worn by Field Marshal Lord Roberts VC, c1910. Museum object photograph shows scarlet cloth and a dark gold-embroidered collar with pale piping.",
+      "image_url": "https://www.nam.ac.uk/sites/default/files/2024-05/1076971_teaser.jpg",
+      "image_sha256": "df6ee2bec843aed0ed44c8f0b3898422aa249cd2c5d8b9226f63e2a32d6fb75c"
+    },
+    {
+      "url": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/626107/2017-03109.pdf",
+      "section": "Field Marshal Full Dress 04.23",
+      "evidence": "Official dress regulations specify scarlet cloth tunic with blue cloth collar and cuffs. Modern corroboration, not proof of every 1897 detail."
+    }
+  ],
+  "limitations": "Modern interpretive colourisation; source photograph is monochrome. Surviving museum tunic is dated c1910, so exact dye shade in 1897 is not independently established. Generative details are not claimed pixel-identical. No PRINT_READY claim.",
+  "visual_review": {
+    "scarlet_tunic": true,
+    "dark_collar_cuffs_trousers": true,
+    "sash_retained": true,
+    "face_pose_composition_consistent": true
+  },
+  "separate_paid_cost_usd": 0,
+  "builtin_image_calls": 1
+}
