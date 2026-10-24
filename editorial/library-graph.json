@@ -2243,6 +2243,44 @@
       }
     },
     {
+      "id": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i",
+      "type": "book",
+      "label": {
+        "de": "Forty-One Years in India (Annotated)",
+        "en": "Forty-One Years in India (Annotated)"
+      },
+      "author": "Frederick Sleigh Roberts",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i/",
+        "en": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Volume I follows Roberts from the Bengal Artillery through Delhi, Cawnpore, Lucknow and the campaigns of 1857–58."
+      }
+    },
+    {
+      "id": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "Forty-One Years in India (Annotated)",
+        "en": "Forty-One Years in India (Annotated)"
+      },
+      "author": "Frederick Sleigh Roberts",
+      "language": "en",
+      "cover": null,
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Volume II follows Roberts through frontier warfare, Abyssinia and the Second Afghan War, the march from Kabul to Kandahar and command in India."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3011,6 +3049,14 @@
       }
     },
     {
+      "id": "author:Frederick Sleigh Roberts",
+      "type": "author",
+      "label": {
+        "de": "Frederick Sleigh Roberts",
+        "en": "Frederick Sleigh Roberts"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3476,6 +3522,16 @@
     {
       "source": "book:en-edgar-allan-poe-tales",
       "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
+      "target": "series:gruen",
       "type": "series"
     },
     {
@@ -4277,6 +4333,16 @@
     {
       "source": "book:en-edgar-allan-poe-tales",
       "target": "author:Edgar Allan Poe",
+      "type": "author"
+    },
+    {
+      "source": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i",
+      "target": "author:Frederick Sleigh Roberts",
+      "type": "author"
+    },
+    {
+      "source": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
+      "target": "author:Frederick Sleigh Roberts",
       "type": "author"
     },
     {

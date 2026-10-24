@@ -6,6 +6,15 @@
   "scope": "Website verification evidence only; no new or changed ISBN assignments, book production or release decisions.",
   "visual_review": "85 front covers and 11 back covers: title, author, language and volume checked; JPEG/WebP variants compared. Back-cover ISBNs checked against format records.",
   "amazon_observations": {
+    "3676051092": {
+      "language": "de",
+      "isbn13": "9783676051095",
+      "work_id": "WVS_001",
+      "productform": "taschenbuch",
+      "url": "https://www.amazon.de/dp/3676051092",
+      "observed_utc": "2026-10-22T13:35:41.191244+00:00",
+      "evidence": "Amazon product page read in browser: Lebenserinnerungen (Kommentiert), Werner von Siemens, Deutsch, 408 pages, ISBN9783676051095, available paperback. Existing sale; no claim that the pending V5 file revision is live."
+    },
     "B0HDRJVR7N": {
       "language": "de",
       "isbn13": "9783912883138",
@@ -104,15 +113,6 @@
       "url": "https://www.amazon.com/dp/B0HKNBL4CV",
       "observed_utc": "2026-10-20T09:13:14.837550+00:00",
       "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
-    },
-    "3676051092": {
-      "language": "de",
-      "isbn13": "9783676051095",
-      "work_id": "WVS_001",
-      "productform": "taschenbuch",
-      "url": "https://www.amazon.de/dp/3676051092",
-      "observed_utc": "2026-10-22T13:35:41.191244+00:00",
-      "evidence": "Amazon product page read in browser: Lebenserinnerungen (Kommentiert), Werner von Siemens, Deutsch, 408 pages, ISBN9783676051095, available paperback. Existing sale; no claim that the pending V5 file revision is live."
     }
   },
   "pages": [
@@ -6359,6 +6359,38 @@
         "decision_id": "decision_eap001_en_endfreigabe_pakete_v2_kdp_ingram_20261022",
         "source_manifest_sha256": "1bcb7af53c6b0cd1d30a090ec12cdd78c9972942dfdbcd98fa7dac128621d471",
         "review": "ISBNs match released English EAP_001 forms (KDP V2 and Ingram V2, status FREIGEGEBEN). Front cover is byte-identical to the released KDP e-book cover in UPLOADPAKET_EAP001_EN_KDP_V2. Forthcoming 4 November 2026; no buying links."
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i",
+      "language": "en",
+      "url": "/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i/",
+      "front_url": null,
+      "assets": [],
+      "formats": [],
+      "independent_verification": {
+        "reviewed_utc": "2026-10-24T12:32:36.400Z",
+        "source_metadata": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\07_EXPORT\\UPLOADPAKET_BD1_V5_20261023\\METADATEN\\ingram_paperback.json",
+        "source_metadata_sha256": "406bdb05bbc879d06d879627f1cad2dcef3b7e6aa3b5e601d0360f37e3604a3e",
+        "decision_id": "decision_fsr001_en_bd1_paket_v5_endfreigabe_20261024",
+        "review": "Publisher-authorized forthcoming preview only. Title and volume checked against released V5 metadata. Typographic title card, no claimed cover asset, ISBN, price, buying link or LIVE state."
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
+      "language": "en",
+      "url": "/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii/",
+      "front_url": null,
+      "assets": [],
+      "formats": [],
+      "independent_verification": {
+        "reviewed_utc": "2026-10-24T12:32:36.402Z",
+        "source_metadata": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\07_EXPORT\\UPLOADPAKET_BD2_V5_20261023\\METADATEN\\ingram_paperback.json",
+        "source_metadata_sha256": "a404d1b908c9ee57c733882d9a416fc7aaa48de5e46fb7cb931d8b02b60faef8",
+        "decision_id": "decision_fsr001_en_bd2_paket_v5_endfreigabe_20261024",
+        "review": "Publisher-authorized forthcoming preview only. Title and volume checked against released V5 metadata. Typographic title card, no claimed cover asset, ISBN, price, buying link or LIVE state."
       }
     }
   ],

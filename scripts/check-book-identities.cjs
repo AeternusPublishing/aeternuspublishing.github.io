@@ -94,6 +94,10 @@ function validateRendered(site, route, boundPages) {
   const art = html.match(/<(?:div|figure) class="detail-art">([\s\S]*?)<\/(?:div|figure)>/);
   if (art && boundPages.length === 1) {
     const expected = boundPages[0];
+    if (!expected.front_url) {
+      assert(art[1].includes('type-cover') && !art[1].includes('<img'), route + ': preview must use its typographic cover');
+      return;
+    }
     assert(art[1].includes('src="' + expected.front_url + '"'), route + ': wrong rendered front cover');
     const stem = path.basename(expected.front_url).replace(/(?:-fallback)?\.[^.]+$/, '');
     for (const srcset of art[1].matchAll(/srcset="([^"]+)"/g)) assert(srcset[1].includes('/' + stem), route + ': wrong responsive cover');

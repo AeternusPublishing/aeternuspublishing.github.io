@@ -227,6 +227,10 @@ for (const format of rmb001.retailer_formats) {
 }
 rmb001.formats.paperback.price_display = 'US list price $19.99';
 
+const fsr001 = require('./fsr001-en-20261024.cjs');
+authorsEn.push(fsr001.author);
+englishBooks.push(...fsr001.books);
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
