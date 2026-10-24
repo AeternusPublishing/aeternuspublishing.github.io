@@ -6410,6 +6410,61 @@
         "decision_id": "decision_fsr001_en_bd2_paket_v5_endfreigabe_20261024",
         "review": "Publisher-authorized forthcoming preview only. Title and volume checked against released V5 metadata. Typographic title card, no claimed cover asset, ISBN, price, buying link or LIVE state."
       }
+    },
+    {
+      "site": "en",
+      "id": "en-francis-parkman-the-conspiracy-of-pontiac",
+      "url": "/books/en-francis-parkman-the-conspiracy-of-pontiac/",
+      "title": "The Conspiracy of Pontiac (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/fp001-pontiac-v7-20261024.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/fp001-pontiac-v7-20261024.jpg",
+          "sha256": "cb2a4fc337d51c6f5a18b8d6841aa1e8c86c84c27bfffbe0c49ebd633fb87fac"
+        },
+        {
+          "path": "src/assets/images/fp001-pontiac-v7-20261024.webp",
+          "sha256": "1973d2b1e7888823ea38f206f960fba2b3e99e3ebcdecdda955127a0ebcf86ca"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052177",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Conspiracy of Pontiac (Annotated)",
+              "isbn13": "978-3-67605-217-7",
+              "isbn10": "367605217X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052184",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FP_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Conspiracy of Pontiac (Annotated)",
+              "isbn13": "978-3-67605-218-4",
+              "isbn10": "3676052188",
+              "asin": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "additional_pages": [
