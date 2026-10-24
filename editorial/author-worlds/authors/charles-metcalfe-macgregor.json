@@ -1,0 +1,221 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "charles-metcalfe-macgregor",
+  "name": "Charles Metcalfe MacGregor",
+  "dates": "1840–1887",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "rank": {
+    "en": "Major-General Sir Charles Metcalfe MacGregor"
+  },
+  "sources": [
+    {
+      "id": "LIFE",
+      "title": "Record of Services, signed Mark S. Bell, Life and Opinions, volume II (1888), p. 419",
+      "url": "https://archive.org/details/lifeandopinions00macggoog/page/n441/mode/1up",
+      "checked": "2026-10-24",
+      "note": "Printed page419, PDF442. Source image read again; exact appointments and CSI/CIE dates. KCB day differs from narrative p293, so only1881 is stated."
+    },
+    {
+      "id": "NAM",
+      "title": "National Army Museum — Sir Charles Metcalfe MacGregor",
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1952-03-1-1",
+      "checked": "2026-10-22",
+      "note": "Existing claim registry B01. Current fetch timed out; no newer historical claim added."
+    },
+    {
+      "id": "USI",
+      "title": "United Service Institution of India — institutional history",
+      "url": "https://usiofindia.org/papers.php",
+      "checked": "2026-10-22",
+      "note": "Existing source and claimB04, founded1870."
+    },
+    {
+      "id": "WIB",
+      "title": "Wanderings in Balochistan — London, W. H. Allen, 1882",
+      "url": "https://archive.org/details/wanderingsinbal01macggoog",
+      "checked": "2026-10-22",
+      "note": "Existing source-edition identity and title-page evidence, claimH01."
+    }
+  ],
+  "facts": [
+    {
+      "id": "H01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Publication London, W. H. Allen, 1882; narrative and route appendices.",
+      "sources": [
+        "WIB"
+      ]
+    },
+    {
+      "id": "B01",
+      "status": "EINGESCHRAENKT",
+      "kind": "historical-fact",
+      "statement": "Agra1840; military service1856; Lucknow, China, Bhutan, Abyssinia, Kandahar.",
+      "sources": [
+        "NAM"
+      ]
+    },
+    {
+      "id": "B02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Quartermaster-General19 November1880–27 November1885; Frontier Force28 November1885.",
+      "sources": [
+        "LIFE"
+      ]
+    },
+    {
+      "id": "B03",
+      "status": "EINGESCHRAENKT",
+      "kind": "historical-fact",
+      "statement": "CSI31 December1875; CIE1 January1878; KCB1881.",
+      "sources": [
+        "LIFE"
+      ]
+    },
+    {
+      "id": "B04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "United Service Institution founded1870.",
+      "sources": [
+        "USI"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRAENKT",
+      "field": "KCB day",
+      "reason": "Signed service record p419:17January1881; narrative p293:1March1881. Reader text states year1881 only."
+    }
+  ],
+  "interpretation": {
+    "kind": "editorial-interpretation",
+    "text": "For MacGregor, geography was inseparable from responsibility in the field. The author who records a landscape's appearance also asks what its tracks, wells and grazing would mean to those required to traverse it. That combination gives his writing its particular place between travel literature and the study of India's frontiers.",
+    "basis": [
+      "WIB"
+    ]
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "text": "For MacGregor, geography was inseparable from responsibility in the field. The author who records a landscape's appearance also asks what its tracks, wells and grazing would mean to those required to traverse it. That combination gives his writing its particular place between travel literature and the study of India's frontiers.",
+    "note": "Existing AETERNUS draft interpretation; not a historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Soldier, explorer and military geographer.",
+      "intro": "For MacGregor, geography was inseparable from responsibility in the field. The author who records a landscape's appearance also asks what its tracks, wells and grazing would mean to those required to traverse it.",
+      "orientation": "Major-General Sir Charles Metcalfe MacGregor (1840–1887) combined active campaigning with the collection of geographical and military intelligence. Born at Agra and educated at Marlborough, he entered the Indian Army in 1856. His service included the fighting at Lucknow, followed by campaigns in China, Bhutan and Abyssinia. The range of that experience is reflected in his concern with the practical conditions under which men and animals could move and be supplied.",
+      "origin": [],
+      "career": [
+        "During the Second Afghan War he served on the communications of the field forces and subsequently as Chief of the Staff of the Northern Afghanistan Field Force. From 6 August 1880 he commanded the 3rd Infantry Brigade of the Kabul–Kandahar Field Force. He became Quartermaster-General in India on 19 November 1880 and held the appointment until 27 November 1885, taking command of the Punjab Frontier Force the following day."
+      ],
+      "literature": [
+        "MacGregor helped establish the United Service Institution of India in 1870. His work as an explorer and compiler belonged to the same professional undertaking: gathering information, testing it against experience and making it available for military study. Wanderings in Balochistan presents that habit of observation in the form of a travel narrative, alongside the route material collected in its appendices."
+      ],
+      "legacy": "That combination gives his writing its particular place between travel literature and the study of India's frontiers.",
+      "bridge": "Wanderings in Balochistan follows the routes through Makran and the desert towards the Helmand. An English AETERNUS edition is in preparation.",
+      "description": "Charles Metcalfe MacGregor (1840–1887): his military career, geographical work and Wanderings in Balochistan.",
+      "claimRefs": [
+        "H01",
+        "B01",
+        "B02",
+        "B03",
+        "B04"
+      ]
+    }
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/MACGREGOR_HAUSPORTRAET_V4.png",
+    "rights": "Underlying photograph in Life and Opinions,volumeI,Blackwood1888; historical source, public domain. Source-bound deterministic restoration already prepared under A7. No new image or edit.",
+    "provenance": "https://archive.org/details/lifeopinionsofm01macg",
+    "processing": "ExistingV4 source-bound grayscale restoration, copied byte-identically. No crop, colour change or generative replacement.",
+    "sha256": "e1f7111e1a0255e1648136f7356df69e1c5e164eabfce5e31f1696f8d80b73be",
+    "caption": {
+      "en": "Major-General Sir Charles Metcalfe MacGregor, ca. 1880s."
+    }
+  },
+  "honours": [
+    {
+      "category": "order",
+      "name": "Companion of the Order of the Star of India",
+      "year": "1875",
+      "sources": [
+        "LIFE"
+      ],
+      "note": {
+        "en": "Gazetted 31 December 1875."
+      }
+    },
+    {
+      "category": "order",
+      "name": "Companion of the Order of the Indian Empire",
+      "year": "1878",
+      "sources": [
+        "LIFE"
+      ],
+      "note": {
+        "en": "Appointed 1 January 1878."
+      }
+    },
+    {
+      "category": "order",
+      "name": "Knight Commander of the Order of the Bath",
+      "year": "1881",
+      "sources": [
+        "LIFE"
+      ],
+      "note": {
+        "en": "Appointed in 1881."
+      }
+    }
+  ],
+  "timeline": [
+    [
+      "1856",
+      "Entered the Indian Army."
+    ],
+    [
+      "1870",
+      "Helped establish the United Service Institution of India."
+    ],
+    [
+      "1880",
+      "Commanded the 3rd Infantry Brigade of the Kabul–Kandahar Field Force from 6 August."
+    ],
+    [
+      "1880–1885",
+      "Quartermaster-General in India, 19 November 1880–27 November 1885."
+    ],
+    [
+      "1885",
+      "Command of the Punjab Frontier Force from 28 November."
+    ]
+  ],
+  "places": [],
+  "connections": [],
+  "gallery": [],
+  "draft_authority": {
+    "publication": false,
+    "status": "EDITORIAL_DRAFT_ONLY",
+    "scope": "English author destination only; no new language, price, ISBN, sale or release",
+    "source_draft": {
+      "path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CMM_CHARLES_METCALFE_MACGREGOR\\00_ADMIN\\AUTORENWELT_ENTWURF_CMM002_V1_20261022\\index.html",
+      "sha256": "1226f6bd22f26cc80742f6bbccb6bb52299c98e1561740f18f1845b9b0886c0c"
+    },
+    "claim_registry": {
+      "path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CMM_CHARLES_METCALFE_MACGREGOR\\00_ADMIN\\AUTORENWELT_ENTWURF_CMM002_V1_20261022\\BEHAUPTUNGSREGISTER.json",
+      "sha256": "8d520f9c8e09dc4060824fff8a0688f2602e993e049246705bbc32042e593b4d"
+    }
+  },
+  "editionStatus": "IN_PREPARATION",
+  "editorialDraft": false
+}
