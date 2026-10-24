@@ -4973,57 +4973,6 @@
     },
     {
       "site": "en",
-      "id": "en-james-fenimore-cooper-the-deerslayer",
-      "url": "/books/en-james-fenimore-cooper-the-deerslayer/",
-      "title": "The Deerslayer",
-      "language": "en",
-      "primary_isbn13": null,
-      "front_url": "/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
-      "assets": [
-        {
-          "path": "src/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
-          "sha256": "e702cd9b4b9b69edadebe04192df13187437c593d24b49b44a91e6948fa84779"
-        }
-      ],
-      "formats": [
-        {
-          "label": "Hardcover · Part One",
-          "isbn13": "9783676051583",
-          "productform": "hardcover",
-          "tokens": [],
-          "register_evidence": [
-            {
-              "werk_kanon": "COO_001_PART_ONE",
-              "sprache": "en",
-              "produktform": "hardcover",
-              "titel": "The Deerslayer (Annotated) · Part One",
-              "isbn13": "978-3-67605-158-3",
-              "isbn10": "3676051580",
-              "asin": null
-            }
-          ]
-        },
-        {
-          "label": "Hardcover · Part Two",
-          "isbn13": "9783676051590",
-          "productform": "hardcover",
-          "tokens": [],
-          "register_evidence": [
-            {
-              "werk_kanon": "COO_001_PART_TWO",
-              "sprache": "en",
-              "produktform": "hardcover",
-              "titel": "The Deerslayer (Annotated) · Part Two",
-              "isbn13": "978-3-67605-159-0",
-              "isbn10": "3676051599",
-              "asin": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "site": "en",
       "id": "en-tappan-adney-the-klondike-stampede",
       "url": "/books/en-tappan-adney-the-klondike-stampede/",
       "title": "The Klondike Stampede",
@@ -6445,6 +6394,316 @@
               "isbn13": "978-3-67605-218-4",
               "isbn10": "3676052188",
               "asin": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-fenimore-cooper-the-deerslayer",
+      "url": "/books/en-james-fenimore-cooper-the-deerslayer/",
+      "title": "The Deerslayer",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-coo001-en-ingram-hc-r6-20261024.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-coo001-en-ingram-hc-r6-20261024.jpg",
+          "sha256": "c1472a7c0d20eb91a9f9207625903364895a46991f3bfc77ccdcb62d2c4dd743"
+        },
+        {
+          "path": "src/assets/images/cover-coo001-en-ingram-hc-r6-20261024.webp",
+          "sha256": "0f2bfc13ad5547bacc9af9550e56dc73dfde8e5d71079d091e168f784d0e951b"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051583",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "COO_001|en|ingram_hardcover",
+              "produkt_id": "COO_001|en|hardcover",
+              "ausgabe_id": "COO_001|en",
+              "werk_id": "COO_001",
+              "werk_kanon": "COO_001",
+              "werk_namensraum": null,
+              "sprache": "en",
+              "titel": "The Deerslayer (Annotated)",
+              "autor": "James Fenimore Cooper",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "R6_INGRAM_HC_EINGEREICHT_20261024T171247Z",
+              "isbn13": "978-3-67605-158-3",
+              "isbn13_ziffern": "9783676051583",
+              "isbn10": "3676051580",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "COO_001",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-10-08",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": 652,
+              "stand_utc": "2026-10-24T17:12:47Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-fenimore-cooper-the-last-of-the-mohicans",
+      "url": "/books/en-james-fenimore-cooper-the-last-of-the-mohicans/",
+      "title": "The Last of the Mohicans",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-coo002-en-ingram-hc-r6-20261024.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-coo002-en-ingram-hc-r6-20261024.jpg",
+          "sha256": "8df2b9452f17969f288c54bef67eaf319ace91c957a0a2ac7100539fe0e13ab7"
+        },
+        {
+          "path": "src/assets/images/cover-coo002-en-ingram-hc-r6-20261024.webp",
+          "sha256": "39dcf674795f30e650c5a9b13cc4d625945eb8f7e0e3b974b2132cdc48a48889"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052139",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "COO_002|en|ingram_hardcover",
+              "produkt_id": "COO_002|en|hardcover",
+              "ausgabe_id": "COO_002|en",
+              "werk_id": "COO_002",
+              "werk_kanon": "COO_002",
+              "werk_namensraum": null,
+              "sprache": "en",
+              "titel": "The Last of the Mohicans (Annotated)",
+              "autor": "James Fenimore Cooper",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "R6_INGRAM_HC_EINGEREICHT_KORR_20261024T171733Z",
+              "isbn13": "978-3-67605-213-9",
+              "isbn13_ziffern": "9783676052139",
+              "isbn10": "3676052137",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "COO_002",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-10-22",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": 492,
+              "stand_utc": "2026-10-24T17:17:33Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-fenimore-cooper-the-pathfinder",
+      "url": "/books/en-james-fenimore-cooper-the-pathfinder/",
+      "title": "The Pathfinder",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-coo003-en-ingram-hc-r6-20261024.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-coo003-en-ingram-hc-r6-20261024.jpg",
+          "sha256": "917657d80436a62a641ae54a376223f72842087eb1bdeba0e901d5f2d5fd33cc"
+        },
+        {
+          "path": "src/assets/images/cover-coo003-en-ingram-hc-r6-20261024.webp",
+          "sha256": "fa0be5db8fb769720260aa306f6476753de62aef1a26bcc7aa352451fa86466a"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052146",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "COO_003|en|ingram_hardcover",
+              "produkt_id": "COO_003|en|hardcover",
+              "ausgabe_id": "COO_003|en",
+              "werk_id": "COO_003",
+              "werk_kanon": "COO_003",
+              "werk_namensraum": null,
+              "sprache": "en",
+              "titel": "The Pathfinder (Annotated)",
+              "autor": "James Fenimore Cooper",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "R6_INGRAM_HC_EINGEREICHT_20261024T195119Z",
+              "isbn13": "978-3-67605-214-6",
+              "isbn13_ziffern": "9783676052146",
+              "isbn10": "3676052145",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "COO_003",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-10-22",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": 556,
+              "stand_utc": "2026-10-24T19:51:19Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-fenimore-cooper-the-pioneers",
+      "url": "/books/en-james-fenimore-cooper-the-pioneers/",
+      "title": "The Pioneers",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-coo004-en-ingram-hc-r6-20261024.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-coo004-en-ingram-hc-r6-20261024.jpg",
+          "sha256": "4f9648cbf7ad5786b9e6622e2bf896173416af1fd900e22e8903e6fdd8d3df18"
+        },
+        {
+          "path": "src/assets/images/cover-coo004-en-ingram-hc-r6-20261024.webp",
+          "sha256": "f0cc78f64a2a76cf7630b125d3895ff6f337d27d099c6cc6ed2e7fa9fcf69384"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052153",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "COO_004|en|ingram_hardcover",
+              "produkt_id": "COO_004|en|hardcover",
+              "ausgabe_id": "COO_004|en",
+              "werk_id": "COO_004",
+              "werk_kanon": "COO_004",
+              "werk_namensraum": null,
+              "sprache": "en",
+              "titel": "The Pioneers (Annotated)",
+              "autor": "James Fenimore Cooper",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "R6_INGRAM_HC_EINGEREICHT_20261024T200304Z",
+              "isbn13": "978-3-67605-215-3",
+              "isbn13_ziffern": "9783676052153",
+              "isbn10": "3676052153",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "COO_004",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-10-22",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": 542,
+              "stand_utc": "2026-10-24T20:03:04Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-james-fenimore-cooper-the-prairie",
+      "url": "/books/en-james-fenimore-cooper-the-prairie/",
+      "title": "The Prairie",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-coo005-en-ingram-hc-r6-20261024.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-coo005-en-ingram-hc-r6-20261024.jpg",
+          "sha256": "099e8f7e8574c6ded28b34db7d9251bfef5e91d9de25633d874f179e807694be"
+        },
+        {
+          "path": "src/assets/images/cover-coo005-en-ingram-hc-r6-20261024.webp",
+          "sha256": "9a1024b2a4ac3bcf07d12dbc849f505fd4baa5f569d2edc6f3017daf958b3834"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052160",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "COO_005|en|ingram_hardcover",
+              "produkt_id": "COO_005|en|hardcover",
+              "ausgabe_id": "COO_005|en",
+              "werk_id": "COO_005",
+              "werk_kanon": "COO_005",
+              "werk_namensraum": null,
+              "sprache": "en",
+              "titel": "The Prairie (Annotated)",
+              "autor": "James Fenimore Cooper",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "R6_INGRAM_HC_EINGEREICHT_20261024T201522Z",
+              "isbn13": "978-3-67605-216-0",
+              "isbn13_ziffern": "9783676052160",
+              "isbn10": "3676052161",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "COO_005",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-10-22",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": 540,
+              "stand_utc": "2026-10-24T20:15:22Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
             }
           ]
         }

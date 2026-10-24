@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const file = 'catalog/social.json';
+const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+const books = require('../catalog/cooper-r6-20261024.json').books;
+const url = 'https://www.instagram.com/p/De4_zIRl2bt/';
+const ids = new Set(books.map(book => book.id));
+data.instagram.posts = data.instagram.posts.filter(post => !ids.has(post.book_id));
+data.instagram.posts.unshift(...books.map(book => ({book_id: book.id, url, title: book.title})));
+data.instagram.verified_utc = new Date().toISOString();
+fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n');

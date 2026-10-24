@@ -1909,14 +1909,90 @@
       },
       "author": "James Fenimore Cooper",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-coo001-en-part-one-kdp-hc-20261008.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-coo001-en-ingram-hc-r6-20261024.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-deerslayer/",
         "en": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-deerslayer/"
       },
       "summary": {
         "de": "",
-        "en": "The Deerslayer was the last of the five Leatherstocking novels Cooper wrote, yet it stands first in the life of Natty Bumppo. The aged creator returned to the youth of the man whom he had first imagined in old age and placed him once more beside the waters of Otsego Lake."
+        "en": "Before he was known as Hawkeye, Natty Bumppo was Deerslayer, a young hunter entering the unbroken forests around Glimmerglass Lake. Beside his Mohican friend Chingachgook, he is drawn into the dangers surrounding a lonely dwelling upon the water, where settlers and rival warriors live beneath the threat of sudden violence."
+      }
+    },
+    {
+      "id": "book:en-james-fenimore-cooper-the-last-of-the-mohicans",
+      "type": "book",
+      "label": {
+        "de": "The Last of the Mohicans",
+        "en": "The Last of the Mohicans"
+      },
+      "author": "James Fenimore Cooper",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-coo002-en-ingram-hc-r6-20261024.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-last-of-the-mohicans/",
+        "en": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-last-of-the-mohicans/"
+      },
+      "summary": {
+        "de": "",
+        "en": "1757. The armies of Britain and France contend for mastery of the northern American frontier. As the daughters of Colonel Munro seek the safety of Fort William Henry, the forests around Lake George become a deadly labyrinth of pursuit, divided loyalties, and ambush."
+      }
+    },
+    {
+      "id": "book:en-james-fenimore-cooper-the-pathfinder",
+      "type": "book",
+      "label": {
+        "de": "The Pathfinder",
+        "en": "The Pathfinder"
+      },
+      "author": "James Fenimore Cooper",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-coo003-en-ingram-hc-r6-20261024.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-pathfinder/",
+        "en": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-pathfinder/"
+      },
+      "summary": {
+        "de": "",
+        "en": "During the great struggle between Britain and France, the vast waters of Lake Ontario have become a frontier of concealed movements, contested outposts and dangerous loyalties."
+      }
+    },
+    {
+      "id": "book:en-james-fenimore-cooper-the-pioneers",
+      "type": "book",
+      "label": {
+        "de": "The Pioneers",
+        "en": "The Pioneers"
+      },
+      "author": "James Fenimore Cooper",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-coo004-en-ingram-hc-r6-20261024.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-pioneers/",
+        "en": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-pioneers/"
+      },
+      "summary": {
+        "de": "",
+        "en": "1793. Around the sources of the Susquehanna, the ancient forest is yielding to fields, roads and the rising settlement of Templeton. Judge Marmaduke Temple presides over a new order of property and law, while Leatherstocking, the aging hunter of the old frontier, remains faithful to the customs of a wilderness he has known all his life."
+      }
+    },
+    {
+      "id": "book:en-james-fenimore-cooper-the-prairie",
+      "type": "book",
+      "label": {
+        "de": "The Prairie",
+        "en": "The Prairie"
+      },
+      "author": "James Fenimore Cooper",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-coo005-en-ingram-hc-r6-20261024.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-prairie/",
+        "en": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-prairie/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Beyond the Mississippi stretches a country of immense grasslands and boundless skies, where an old hunter has sought refuge from the advancing settlements of the East."
       }
     },
     {
@@ -2069,6 +2145,25 @@
       "summary": {
         "de": "",
         "en": "Before the wagon roads, before the frontier towns and before the rails, the great western road of New France into the heart of North America ran by water."
+      }
+    },
+    {
+      "id": "book:en-francis-parkman-the-conspiracy-of-pontiac",
+      "type": "book",
+      "label": {
+        "de": "The Conspiracy of Pontiac (Annotated)",
+        "en": "The Conspiracy of Pontiac (Annotated)"
+      },
+      "author": "Francis Parkman",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/fp001-pontiac-v7-20261024.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-francis-parkman-the-conspiracy-of-pontiac/",
+        "en": "https://aeternuspublishing.com/books/en-francis-parkman-the-conspiracy-of-pontiac/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Parkman’s history of Pontiac’s war of 1763 against the British posts of the Great Lakes and the Ohio, in the complete text of the first edition of 1851."
       }
     },
     {
@@ -2232,7 +2327,7 @@
       },
       "author": "Edgar Allan Poe",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-eap001-en-v6-20261022.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-eap001-en-ingram-v3-20261024.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-edgar-allan-poe-tales/",
         "en": "https://aeternuspublishing.com/books/en-edgar-allan-poe-tales/"
@@ -2251,7 +2346,7 @@
       },
       "author": "Frederick Sleigh Roberts",
       "language": "en",
-      "cover": null,
+      "cover": "https://aeternuspublishing.com/assets/images/cover-forty-one-years-in-india-volume-1-v5.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i/",
         "en": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i/"
@@ -2270,7 +2365,7 @@
       },
       "author": "Frederick Sleigh Roberts",
       "language": "en",
-      "cover": null,
+      "cover": "https://aeternuspublishing.com/assets/images/cover-forty-one-years-in-india-volume-2-v5.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii/",
         "en": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii/"
@@ -3440,6 +3535,26 @@
       "type": "series"
     },
     {
+      "source": "book:en-james-fenimore-cooper-the-last-of-the-mohicans",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-pathfinder",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-pioneers",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-prairie",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
       "source": "book:en-tappan-adney-the-klondike-stampede",
       "target": "series:anthrazit",
       "type": "series"
@@ -3476,6 +3591,11 @@
     },
     {
       "source": "book:en-francis-parkman-the-discovery-of-the-great-west",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-francis-parkman-the-conspiracy-of-pontiac",
       "target": "series:anthrazit",
       "type": "series"
     },
@@ -4251,6 +4371,26 @@
       "type": "author"
     },
     {
+      "source": "book:en-james-fenimore-cooper-the-last-of-the-mohicans",
+      "target": "author:James Fenimore Cooper",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-pathfinder",
+      "target": "author:James Fenimore Cooper",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-pioneers",
+      "target": "author:James Fenimore Cooper",
+      "type": "author"
+    },
+    {
+      "source": "book:en-james-fenimore-cooper-the-prairie",
+      "target": "author:James Fenimore Cooper",
+      "type": "author"
+    },
+    {
       "source": "book:en-tappan-adney-the-klondike-stampede",
       "target": "author:Edwin Tappan Adney",
       "type": "author"
@@ -4287,6 +4427,11 @@
     },
     {
       "source": "book:en-francis-parkman-the-discovery-of-the-great-west",
+      "target": "author:Francis Parkman",
+      "type": "author"
+    },
+    {
+      "source": "book:en-francis-parkman-the-conspiracy-of-pontiac",
       "target": "author:Francis Parkman",
       "type": "author"
     },

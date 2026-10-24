@@ -87,10 +87,10 @@ englishBooks.push(nigelBook);
 doyle.intro = sirNigel.author_page_intro_vorschlag;
 doyle.metaDescription = sirNigel.author_page_meta_description_vorschlag;
 doyle.publisherEditionHTML += sirNigel.author_page_edition_block_html.replace('<p>Forthcoming</p>', '<p>Submitted to IngramSpark; eProof pending.</p>');
-// COO author page (QR target of The Deerslayer, Part One and Part Two); register status GEBAUT, no prices, no retail links.
-const coo001 = require('./coo001-en-20261008.json');
-authorsEn.push(coo001.author);
-englishBooks.push({ ...coo001.book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+// Cooper R6: five complete hardcover volumes submitted to Ingram, retail pending.
+const cooper = require('./cooper-r6-20261024.json');
+authorsEn.push(cooper.author);
+englishBooks.push(...cooper.books.map(book => ({ ...book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor })));
 // ETA author page (QR target of The Klondike Stampede); register status GEBAUT, no ISBN, no prices, no retail links.
 const eta001 = require('./eta001-en-20261008.json');
 authorsEn.push(eta001.author);
