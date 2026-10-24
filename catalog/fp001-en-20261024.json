@@ -1,0 +1,108 @@
+{
+  "id": "en-francis-parkman-the-conspiracy-of-pontiac",
+  "work_id": "FP_001",
+  "language": "en",
+  "title": "The Conspiracy of Pontiac (Annotated)",
+  "subtitle": "The Text of the First Edition, 1851",
+  "author": "francis-parkman",
+  "authorName": "Francis Parkman",
+  "contributors": [],
+  "series": "anthrazit",
+  "series_number": null,
+  "original_title": "The Conspiracy of Pontiac",
+  "original_publication_year": 1851,
+  "isbn": {
+    "paperback": "978-3-67605-217-7",
+    "hardcover": "978-3-67605-218-4",
+    "ebook": null
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback",
+      "pages": 700,
+      "price_display": "US list price $24.99"
+    },
+    "hardcover": {
+      "label": "Hardcover",
+      "pages": 700,
+      "price_display": "US list price $39.99"
+    },
+    "ebook": null
+  },
+  "description": {
+    "short": "Parkman’s history of Pontiac’s war of 1763 against the British posts of the Great Lakes and the Ohio, in the complete text of the first edition of 1851.",
+    "long": "“He puts on an air of majesty and princely grandeur, and is greatly honored and revered by his subjects.” — Major Robert Rogers on Pontiac, quoted by Francis Parkman\n\nIn 1760 Canada fell, and the flag of France came down over the forts of the Great Lakes. Britain had won the interior of North America. The nations of the forest had not been asked.\n\nWithin three years the war belts were moving from village to village. Pontiac, war chief of the Ottawas, became the leading spirit of a design that drew in the tribes of the Lakes and the Ohio: to strike the British posts beyond the mountains at once, and to break the chain before help could come.\n\nThe forts fell one after another. Detroit was besieged. The frontiers of Pennsylvania and Virginia burned, and Highlanders and Royal Americans marched into the forest toward Bushy Run.\n\nFrancis Parkman gathered some 3,400 manuscript pages from the archives of London, Paris and the American states, walked the ground and collected the traditions of the old French families of Detroit. Unable for three years to read or write, he dictated the narrative. It was his first history, published in Boston in 1851, and the opening of a lifelong work on the struggle for North America.\n\nThis edition presents Parkman’s text of 1851 entire, with his notes and appendices.\n\nThe forest war, from both sides of the stockade.\n\nANTHRACITE SERIES · AETERNUS"
+  },
+  "cover": "/assets/images/fp001-pontiac-v7-20261024.jpg",
+  "coverWebp": "/assets/images/fp001-pontiac-v7-20261024.webp",
+  "publication_date": null,
+  "pricing": {
+    "EUR": null,
+    "USD": null,
+    "GBP": null,
+    "CAD": null,
+    "AUD": null
+  },
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "own_shop": "NOT_CONFIGURED",
+    "amazon": "CREATION_LIMIT",
+    "ingram": "EINGEREICHT",
+    "other": "UNKNOWN"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-francis-parkman-the-conspiracy-of-pontiac/",
+  "authorUrl": "/authors/francis-parkman/",
+  "seriesName": "ANTHRACITE SERIES",
+  "seriesColor": "#383838",
+  "brandOnly": true,
+  "blurb": [
+    "In 1760 Canada fell, and the flag of France came down over the forts of the Great Lakes. Britain had won the interior of North America. The nations of the forest had not been asked.",
+    "Within three years the war belts were moving from village to village. Pontiac, war chief of the Ottawas, became the leading spirit of a design that drew in the tribes of the Lakes and the Ohio: to strike the British posts beyond the mountains at once, and to break the chain before help could come.",
+    "The forts fell one after another. Detroit was besieged. The frontiers of Pennsylvania and Virginia burned, and Highlanders and Royal Americans marched into the forest toward Bushy Run.",
+    "Francis Parkman gathered some 3,400 manuscript pages from the archives of London, Paris and the American states, walked the ground and collected the traditions of the old French families of Detroit. Unable for three years to read or write, he dictated the narrative. It was his first history, published in Boston in 1851, and the opening of a lifelong work on the struggle for North America.",
+    "This edition presents Parkman’s text of 1851 entire, with his notes and appendices.",
+    "The forest war, from both sides of the stockade."
+  ],
+  "features": [
+    "Complete text of the first edition of 1851, checked against the page",
+    "Parkman’s notes, preface and all six appendices",
+    "The four maps of 1851, two of them across facing pages",
+    "Four plates made for this edition; author portrait",
+    "Publisher’s foreword, afterword, chronology, glossary"
+  ],
+  "first_published": "Boston, 1851",
+  "forthcoming_label": "Forthcoming in paperback and hardcover.",
+  "cardStatus": "Forthcoming in paperback and hardcover.",
+  "retailer_formats": [
+    {
+      "label": "Paperback",
+      "isbn": "978-3-67605-217-7",
+      "pages": 700,
+      "price_display": "US list price $24.99",
+      "links": []
+    },
+    {
+      "label": "Hardcover",
+      "isbn": "978-3-67605-218-4",
+      "pages": 700,
+      "price_display": "US list price $39.99",
+      "links": []
+    }
+  ],
+  "provenance": {
+    "package": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\FP_FRANCIS_PARKMAN\\02_WERKE\\CONSPIRACY_OF_PONTIAC\\09_EXPORT\\UPLOADPAKET_V7_20261024",
+    "preflight_sha256": "6989e79c6fd804201b4d84727c18c37f58b1aef948aaf5c27ebc5845609b01f5",
+    "metadata_sha256": "10ace8f294f68a65c1b8db194f5fed4e42a2c3804e0e495fdf28a20167c495bc",
+    "cover_pdf_sha256": "d5942a11787ffd806756d3e6f531ede79bc220de84fbb501fc43a9c3470e479f",
+    "cover_preview": "Read-only rendering of front trim: 6x9in, 180ppi; print source unchanged"
+  }
+}
