@@ -71,12 +71,12 @@ const books = volumes.map(([volume, isbn]) => {
     publication_date: released.publication_date, pricing: {}, availability: 'COMING_SOON',
     forthcoming_label: 'Planned publication · 21 November 2026', cardStatus: 'Forthcoming · 21 November 2026',
     links: { shop: null, amazon: null, ingram: null },
-    distribution_status: { ingram: 'GEBAUT', own_shop: 'NOT_CONFIGURED' },
+    distribution_status: { ingram: 'EINGEREICHT', own_shop: 'NOT_CONFIGURED' },
     commerce: { shopify_product_id: null, shopify_handle: null },
     url: `/books/${id}/`, authorUrl: `/authors/${author.slug}/`,
     seriesName: 'Green Series', seriesColor: '#2d4a22', brandOnly: true,
     legacy: { modal: { metadata: `Hardcover · ${released.book_pages} pages · forthcoming`, sample: description } },
-    retailer_formats: [{ label: 'Hardcover', isbn, pages: released.book_pages, links: [], status: 'GEBAUT' }],
+    retailer_formats: [{ label: 'Hardcover', isbn, pages: released.book_pages, links: [], status: 'EINGEREICHT' }],
     provenance: `GA_001/07_EXPORT/UPLOADPAKETE_INGRAM_V9_20261024/${released.source_package}/METADATEN/ingram_hardcover.json`
   };
 });
