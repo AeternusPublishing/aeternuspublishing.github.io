@@ -1,0 +1,115 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "frederick-sleigh-roberts",
+  "name": "Frederick Sleigh Roberts",
+  "dates": "1832–1914",
+  "depth": "compact",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "NAM",
+      "title": "National Army Museum · Frederick Roberts: Bobs",
+      "url": "https://www.nam.ac.uk/explore/frederick-roberts-bobs",
+      "checked": "2026-10-24",
+      "note": "Read Early career, Afghanistan, India and Britain. Supports commission, VC, field commands, Commander-in-Chief in India 1885–1893, field marshal 1895 and death in France visiting Indian troops. Museum mileage differs from the book: no mileage repeated here."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Roberts lived 1832–1914 and was commissioned in the Bengal Artillery in 1851.",
+      "sources": [
+        "NAM"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He received the Victoria Cross and commanded the Kuram and Kabul field forces in the Second Afghan War.",
+      "sources": [
+        "NAM"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Commander-in-Chief in India 1885–1893; field marshal 1895; died visiting Indian troops in France in 1914.",
+      "sources": [
+        "NAM"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "March mileage",
+      "decision": "Museum and memoir differ; no numerical march distance on this preview page."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "The memoir is presented as its commander's account, not as an independent campaign history."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Short edition-oriented framing; no invented historical quotation."
+  },
+  "locales": {
+    "en": {
+      "tagline": "From the Bengal Artillery to command in India.",
+      "intro": "Field-Marshal Frederick Sleigh Roberts, Lord Roberts of Kandahar, V.C. (1832–1914), spent the greater part of his professional life in India.",
+      "orientation": "His memoir follows military service from a junior officer’s duties to the responsibilities of command.",
+      "origin": [],
+      "career": [
+        "Roberts entered the Bengal Artillery in 1851. He won the Victoria Cross for gallantry at Khudaganj during the Indian Mutiny, commanded the Kuram and Kabul field forces during the Second Afghan War and became famous for the march from Kabul to Kandahar in 1880.",
+        "Roberts served as Commander-in-Chief in India from 1885 to 1893 and became Field Marshal in 1895. His later career included supreme command in South Africa and service as the final Commander-in-Chief of the Forces. He died in France in November 1914 while visiting Indian troops serving on the Western Front."
+      ],
+      "literature": [
+        "Forty-One Years in India is the commander’s account of his own service. The two volumes move from the campaigns of 1857–58 to Afghanistan and the higher commands in India."
+      ],
+      "legacy": "The memoir preserves a soldier’s view of the institutions, campaigns and decisions that shaped his career.",
+      "bridge": "Two volumes, with the original text and a publisher’s apparatus. Both editions are forthcoming.",
+      "description": "Frederick Sleigh Roberts (1832–1914), soldier and author of Forty-One Years in India. Two forthcoming AETERNUS volumes.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  },
+  "rank": {
+    "en": "Field-Marshal Lord Roberts of Kandahar, V.C."
+  },
+  "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-frederick-sleigh-roberts-sargent-1906.jpg",
+    "caption": {
+      "en": "Frederick Sleigh Roberts. Portrait by John Singer Sargent, 1906.",
+      "de": "Frederick Sleigh Roberts. Portraet von John Singer Sargent, 1906."
+    },
+    "rights": "John Singer Sargent died in 1925; painting of 1906 is public domain. Publisher-approved source supplied in the commissioned website brief of 15 October 2026.",
+    "processing": "Unchanged byte-for-byte copy of Roberts_Sargent_1906_original.jpg, supplied and approved by the publisher. Source and SHA-256 recorded alongside the asset.",
+    "approval": {
+      "date": "2026-10-15",
+      "authority": "Verlegerauftrag, dokumentiert in CLAUDE_TO_CODEX/20261015T184711Z__msg_claude_fsr001_en_autorenseite_roberts_bauen_und_ausliefern_20261015.json; erneuert durch Vorschauseitenauftrag 24.10.2026",
+      "sha256": "2495aaa9bc1052f8064323bf5e300f9e706c6b3f4d8d35fd1f2eb7ec760c6f48"
+    }
+  }
+}
