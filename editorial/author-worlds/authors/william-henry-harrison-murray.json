@@ -1,0 +1,245 @@
+{
+  "slug": "william-henry-harrison-murray",
+  "name": "William Henry Harrison Murray",
+  "dates": "1840–1904",
+  "depth": "expanded",
+  "sources": [
+    {
+      "id": "LOC_BOOK",
+      "title": "Library of Congress · Adventures in the Wilderness, 1869",
+      "url": "https://www.loc.gov/item/01014021/",
+      "checked": "2026-10-25",
+      "note": "Title, expanded author name, life dates; Boston, Fields, Osgood & Co., 1869."
+    },
+    {
+      "id": "NEH",
+      "title": "National Endowment for the Humanities · Roughing It (with Servants, of Course)",
+      "url": "https://www.neh.gov/article/roughing-it-servants-course",
+      "checked": "2026-10-25",
+      "note": "Randi Storch and Kevin B. Sheets, 17 August 2020; paragraphs on Murray, Park Street Church, 1864 trip, 1869 book and its reception."
+    },
+    {
+      "id": "ARCHIVES",
+      "title": "New York Archives · William H. H. Murray",
+      "url": "https://www.nysarchivestrust.org/download_file/view/430/481",
+      "checked": "2026-10-25",
+      "note": "Summer 2018, pp. 11–15, especially p. 12: theological studies, annual visits, publication and reception."
+    },
+    {
+      "id": "WORLD_ERNEST_THOMPSON_SETON",
+      "title": "Ernest Thompson Seton Institute · Biography",
+      "url": "https://etsetoninstitute.org/about-seton/biography/biography-2/",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_ROBERT_BADEN_POWELL",
+      "title": "The Scouts · How Scouting grew",
+      "url": "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_HORACE_KEPHART",
+      "title": "Western Carolina University · Horace Kephart: Biography",
+      "url": "https://www.wcu.edu/library/digitalcollections/kephart/biography/biography.htm",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_DANIEL_CARTER_BEARD",
+      "title": "Scouting America · Daniel Carter Beard",
+      "url": "https://oa-scouting.org/history/daniel-carter-beard",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_RICHARD_JEFFERIES",
+      "title": "Richard Jefferies Society · Life and works",
+      "url": "https://richardjefferiessociety.org/life-works/",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "TITLEPAGE",
+      "title": "Digitised title page · adventuresinwild00murr",
+      "url": "https://archive.org/details/adventuresinwild00murr",
+      "checked": "2026-10-25",
+      "note": "Title leaf 9, visually checked from IIIF original; Horace Kephart (1917, Vol. II) or William H. H. Murray (1869). Full name expanded from the institutional authority cited separately."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "William Henry Harrison Murray, 1840–1904; author of Adventures in the Wilderness; or, Camp-Life in the Adirondacks, Boston, 1869.",
+      "sources": [
+        "LOC_BOOK",
+        "TITLEPAGE"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born in Guilford, Connecticut; studied at Yale and East Windsor Theological Seminary.",
+      "sources": [
+        "NEH",
+        "ARCHIVES"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Pastor of Park Street Church, Boston, 1868–74; first Adirondack camping visit in 1864.",
+      "sources": [
+        "NEH"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The 1869 book drew visitors to the Adirondacks; some arrived poorly prepared; the book discussed travel and hiring guides.",
+      "sources": [
+        "NEH",
+        "ARCHIVES"
+      ]
+    }
+  ],
+  "timeline": [
+    [
+      "1840",
+      "Born in Guilford, Connecticut",
+      ""
+    ],
+    [
+      "1864",
+      "First Adirondack camping visit",
+      ""
+    ],
+    [
+      "1868–74",
+      "Pastor, Park Street Church, Boston",
+      ""
+    ],
+    [
+      "1869",
+      "Adventures in the Wilderness published",
+      ""
+    ],
+    [
+      "1904",
+      "Dies",
+      ""
+    ]
+  ],
+  "uncertainties": [],
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "wilderness": true,
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "intro",
+      "orientation",
+      "literature",
+      "legacy",
+      "connections"
+    ],
+    "note": "Thematic readings of the named works, not claims of meetings or influence. The shared 1869–1917 frame uses Murray LOC_BOOK (1869), Miller BOOK (1915), Kephart LOC_BOOK (1916–17) and existing author dossiers. No invented service, rank or decoration."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "bridge",
+      "legacy"
+    ],
+    "note": "Independent editorial reading, not a historical quotation or measurable assertion about present-day popularity."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The Adirondacks within reach of a city reader.",
+      "intro": "Murray asked his readers to leave the city and take a holiday in the woods. The invitation had a timetable: railways, steamers, roads and guides stood between a Boston desk and an Adirondack camp.",
+      "orientation": "His 1869 Adventures in the Wilderness belongs near the beginning of the recreational camping tradition later represented by Kephart, Miller and Beard. Its distinctive subject is the journey from ordinary working life into the open air.",
+      "origin": [
+        "William Henry Harrison Murray was born in Guilford, Connecticut, in 1840. Yale and theological study led him into the ministry; from 1868 to 1874 he was pastor of Boston’s Park Street Church."
+      ],
+      "career": [
+        "He first camped in the Adirondacks in 1864. When Adventures in the Wilderness appeared in 1869, it sent a new public northward. Some visitors were poorly equipped for the country they hoped would restore them."
+      ],
+      "literature": [
+        "The book joins the traveler’s account to practical guidance on reaching the region and engaging a guide. Murray makes distance manageable on the page; the promise of recovery is accompanied by arrangements for getting there.",
+        "Read beside Kephart’s later manuals, the difference is instructive. Murray draws the reader toward the camp; Kephart dwells on the work of living in it. This is a comparison of books, not a claim that the authors met."
+      ],
+      "legacy": "The appeal Murray helped articulate remains familiar: a journey away from routine, followed by the need to learn how to live comfortably outdoors. His book records an early moment when that wish became a holiday plan.",
+      "bridge": "Adventures in the Wilderness combines an Adirondack journey with the practical arrangements of a camping holiday.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "description": "Murray asked his readers to leave the city and take a holiday in the woods. The invitation had a timetable: railways, steamers, roads and guides stood between a Boston desk and an Adirondack camp."
+    }
+  },
+  "image": {
+    "status": "omitted",
+    "reason": "No fully cleared historical colour portrait found; no new monochrome assets under the author-world standard, no colourisation or AI face restoration. See PORTRAET_QUELLEN_OFFEN.json."
+  },
+  "connections": [
+    {
+      "slug": "ernest-thompson-seton",
+      "kind": "thematic-comparison",
+      "en": "Animal observation and Woodcraft offer a comparison with this author’s treatment of outdoor life.",
+      "sources": [
+        "LOC_BOOK",
+        "WORLD_ERNEST_THOMPSON_SETON"
+      ]
+    },
+    {
+      "slug": "robert-baden-powell",
+      "kind": "thematic-comparison",
+      "en": "Scouting gives the outdoor skill discussed here a different educational setting.",
+      "sources": [
+        "LOC_BOOK",
+        "WORLD_ROBERT_BADEN_POWELL"
+      ]
+    },
+    {
+      "slug": "horace-kephart",
+      "kind": "thematic-comparison",
+      "en": "Camping and Woodcraft develops the practical skills of living and traveling outdoors.",
+      "sources": [
+        "LOC_BOOK",
+        "WORLD_HORACE_KEPHART"
+      ]
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "kind": "thematic-comparison",
+      "en": "Building shelters and learning by doing connect the workshop to the camp.",
+      "sources": [
+        "LOC_BOOK",
+        "WORLD_DANIEL_CARTER_BEARD"
+      ]
+    },
+    {
+      "slug": "richard-jefferies",
+      "kind": "thematic-comparison",
+      "en": "The close observation of an English landscape offers a literary comparison with North American outdoor writing.",
+      "sources": [
+        "LOC_BOOK",
+        "WORLD_RICHARD_JEFFERIES"
+      ]
+    }
+  ],
+  "gallery": []
+}

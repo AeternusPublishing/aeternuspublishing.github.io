@@ -205,3 +205,55 @@ Lokale Vorschau nach einem Neustart: `npm run build`, dann mit `AETERNUS_SITE_MO
 Die Sprachvermischung der älteren englischen Buchkarten ist durch die gemeinsame Kataloganbindung behoben und im Prüfer verankert. Unsichere Daten, der abweichende CSI-Jahrgang und die verschobene Salten-Quelle sind im jeweiligen Dossier klassifiziert. Für die 28 offenen Bestandsporträts ist eine gebündelte Aktenfrage mit Dateihashes in `00_BETRIEBSDATEN/COORDINATION/CODEX_TO_CLAUDE/20261020__WEBSITE_AUTORENWELTEN_PORTRAET_PROVENIENZ.md` abgelegt; eine Empfangsbestätigung liegt nicht vor. Die Prüfliste ist [PORTRAET_QUELLEN_OFFEN.json](PORTRAET_QUELLEN_OFFEN.json).
 
 Buchregister: keine Ausgabe, ISBN oder Plattformstufe geändert. Die neuen Prüfungen betreffen ausschließlich den Websitebestand; es wurde keine zusätzliche Buchpipeline oder globale Gate-Härtung angelegt.
+
+## Wildnis 25.10.2026 · Englische Autorenseiten
+
+Auftrag: vier neue englische Autorenwelten für Kephart, Murray, Miller und Stewart; auf Jefferies und Beard ausschließlich den Block „Further editions“ ergänzen. Basis ist `origin/main` mit Commit `feabb94`, Zweig `codex/wildnis-web-en-20261025`. Keine deutsche oder zusätzliche ältere englische Autorenroute wurde angelegt. Die vier Kurzwege unter `/qr/kephart/`, `/qr/murray/`, `/qr/miller/` und `/qr/stewart/` führen ohne Sprachweiche auf die englische Domain; es sind Website-Dateien, keine Einträge im zentralen QR-Register.
+
+| Autor | Route auf aeternuspublishing.com | Dossier | Bildstatus |
+|---|---|---|---|
+| Horace Sowers Kephart | `/authors/horace-kephart/` | `editorial/author-worlds/authors/horace-kephart.json` | Kein neues Porträt; monochromer Kandidat dokumentiert |
+| William Henry Harrison Murray | `/authors/william-henry-harrison-murray/` | `editorial/author-worlds/authors/william-henry-harrison-murray.json` | Kein vollständig geklärtes historisches Farbporträt |
+| Warren Hastings Miller | `/authors/warren-hastings-miller/` | `editorial/author-worlds/authors/warren-hastings-miller.json` | Identität und Rechte eines neuen Porträts offen |
+| Elihu Stewart | `/authors/elihu-stewart/` | `editorial/author-worlds/authors/elihu-stewart.json` | Verleger liefert; ohne Bild gebaut |
+| John Richard Jefferies | `/authors/richard-jefferies/` | Bestehendes Dossier unverändert | Freigegebenes Porträt unverändert |
+| Daniel Carter Beard | `/authors/daniel-carter-beard/` | Bestehendes Dossier unverändert | Freigegebenes Porträt unverändert |
+
+### Quellen, Namen und Einordnung
+
+Kepharts Titelblatt nennt „Horace Kephart“; die institutionelle Zeittafel der Western Carolina University belegt den vollständigen Namen **Horace Sowers Kephart**. Deshalb wurde der Kopf erweitert; der beauftragte, erkennbare Slug bleibt bestehen. Murray steht auf dem gesichteten Titelblatt von 1869 als „William H. H. Murray“; die Library of Congress löst den Namen auf. Miller steht auf dem gesichteten Titelblatt eines **1916er Drucks** als „Warren H. Miller“, mit seiner Redaktionstätigkeit bei Field and Stream und Setons Einleitung. Dieser Druck wird ausdrücklich nicht zum 1915er Zeugen erklärt. Der bibliografische Datensatz zur Ausgabe 1915 und die LoC-Namensautorität ergänzen ihn. Bei Stewart nennt das zugängliche Titelblatt „Elihu Stewart“; der zugängliche Text ist ausdrücklich die **zweite Ausgabe von 1913**.
+
+Die neuen Dossiers trennen Tatsachen mit Quellenkennungen, Unsicherheiten, historische Deutung und literarische Würdigung. WCU und Cornell tragen Kepharts Lebensweg und Nachwirkung; Library of Congress, New York Archives und NEH Murrays Namen und Campinggeschichte; das Originalbuch, die LoC-Autorität und das ausdrücklich als Familienerinnerung behandelte Interview Millers Tätigkeit; Buchvorrede, Autoritätsdatensatz und Alberta Forest Service Stewarts Lebensdaten und Amt. Beziehungen zu anderen Autoren sind als `thematic-comparison` markiert. Aus Ähnlichkeiten wird keine Begegnung abgeleitet; Setons Einleitung bei Miller ist unmittelbar am Titelblatt belegt. Die bestehenden Dossiers und Quellen zu Beard, Seton, Baden-Powell und Jefferies bleiben erhalten.
+
+Miller wird vorsichtig mit **c. 1876–1960** geführt: Die LoC-Autorität und SFE nennen 1876, die Notizen des Familieninterviews 1875; weitere Entdeckungsdatensätze weichen ebenfalls ab. Es werden weder ein ungesichertes genaues Geburtsdatum noch militärische Ränge oder Orden ergänzt. Amerikanische Schreibung gilt bei den drei neuen US-Autoren und im neuen Beard-Block, britische bei Jefferies, kanadische bei Stewart. Zeitgenössische Namen und Werktitel bleiben erhalten.
+
+### Katalog und LIVE-Filter
+
+`catalog/wilderness.cjs` verbindet bestehende englische und deutsche Katalogprodukte mit dem Registerexport nach Werkkennung und Ausgabensprache, ersatzweise nach exakter ISBN. Titel, Autor und Link stammen aus dem Katalog, nicht aus dem Dossier. Das Vorlagenjahr kommt vorrangig aus vorhandenen Katalogfeldern, sonst aus dem belegten bibliografischen Kontext. Der Block hat aktuell **14 Einträge pro Seite**, insgesamt **84**; Sprachwechsel zu deutschen Ausgaben sind ausdrücklich bezeichnet. Englische Gegenstücke ohne englischen LIVE-Stand werden nicht aus deutschen Ausgaben abgeleitet.
+
+`scripts/export-wilderness-register.cjs` fragt vor jedem lokalen Build die Archivtafel ausschließlich über `aeternus.py buchregister abfrage` ab. Es schreibt nur den Websiteexport `catalog/wilderness-register.snapshot.json`, keine Ausgabe oder Registerstufe. Ein verfügbarer Hausregisterzugang, der fehlschlägt, stoppt den Bau. Auf anderen Rechnern und in CI wird der versionierte Export verwendet; eine dortige Änderung des Hausregisters erfordert den nächsten lokalen Export und PR. Eine vorhandene Katalogausgabe erscheint beim nächsten aktualisierten Build automatisch, sobald ihr Registerstand LIVE ist. Ohne Katalogprodukt wird keine Buchidentität erfunden.
+
+Die aktuelle Abfrage enthält **148 Registerzeilen**, davon **43 LIVE-Zeilen** über alle Sprachen und Produktformen des abgefragten Bereichs. Sie bestätigt für Bevis aktuell FREIGEGEBEN, für Beard GEBAUT/EINGEREICHT, jeweils keinen LIVE-Stand. Beide fehlen deshalb im neuen Empfehlungsblock. Ihre **bestehenden** Buchkarten und Texte bleiben gemäß dem engen Änderungsauftrag unverändert. Dieser Widerspruch zwischen historischer Handelsbeobachtung und aktuellem Register ist intern zu klären; das Websitefenster schreibt keine Registerkorrektur.
+
+Die Verbindungssätze in `catalog/wilderness-context.json` sind **Entwürfe**, höchstens 25 Wörter, als thematische Vergleiche belegt. Sie warten auf die jeweilige `QR_SEITE_VERWEISE_EN_V1.json` der Buchfenster. Die automatischen Prüfungen belegen den Übergang durch sechs Registerzustände: erst LIVE lässt den Titel erscheinen; falsche Sprache, unbekannte Identität und Selbstverweis werden abgefangen.
+
+### Porträts und offene Belege
+
+Es wurden keine KI-Bilder erzeugt oder Gesichter bearbeitet. Die Kandidaten für Kephart und Murray sind monochrom; der Standard lässt neue Bilder nur in Farbe zu. Für Miller liegt zudem keine vollständige Rechtekette vor. Deshalb bleiben die drei neuen Seiten vorerst ohne Porträt. Stewart bleibt ausdrücklich bis zur Lieferung des Verlegers ohne Bild. Die vier Fälle wurden unter `wildnis_20261025` an `PORTRAET_QUELLEN_OFFEN.json` angefügt; die älteren Herkunftsfälle blieben erhalten. Quellenblätter im Evidenzordner sind bibliografische Prüfbilder, keine neuen Websiteporträts.
+
+Unveränderte freigegebene Asset-Hashes (SHA-256):
+
+- Jefferies: `efa7f6fe0c09112ebf99dec1e19e41ee8ed18e0f1871aec60c21b40911c2b5a5`
+- Beard: `c2a5b71f43f8f98922bac1ad5b90770a3799191f3c936697abfd8a262619d38e`
+
+### Prüfung und Vergleich
+
+Beide Builds bestanden: Hauswebsite **150** geschriebene Seiten, internationale Produktionsfassung **145**. Sieben lokale Prüfungen bestanden: Dossier/Routen (**48** Autoren, **74** Routen), Wildnis-Auswahl (**6** Seiten), Ausgabezuordnung (**35** Katalogausgaben), Buchidentitäten (**97** Bücher, **230** Produktformen, **189** geprüfte Assets), Text/Bilder (**148** HTML-Seiten, **0** Befunde), Autorenreihenfolge (**36** Seiten) und der unverändernde Bildplan (**109** Größen). Der Dossierprüfer verglich außerdem **98** vorhandene Buchseiten unverändert mit den vor der Bearbeitung lokal gebauten Fassungen. Prüfzahlen mit „geschrieben“ und „geprüft“ zählen unterschiedliche Mengen; Weiterleitungen und alte Ausgabedateien sind darin verschieden behandelt.
+
+Der lokale Vorher-Nachher-Vergleich für Jefferies und Beard entfernt ausschließlich den neu hinzugefügten Abschnitt und vergleicht anschließend das normalisierte vollständige HTML-Dokument: **2/2 unverändert**. Dossierdateien und Porträtdateien blieben bytegleich. Die gemeinsame CSS-Ergänzung ist ausschließlich auf `.wilderness-editions` beschränkt.
+
+Playwright prüfte **12 Ansichten** (1440 und 390 Pixel), **64** native Tastatur-Umschaltungen, **12** Erreichbarkeitsprüfungen mit Tabulator sowie **56** Bilddekodierungen: **0 Befunde**, kein horizontaler Überlauf und korrekte Reihenfolge Kopf → Bücher → Biografie → weitere Ausgaben. Desktop- und Mobilaufnahmen aller sechs Seiten liegen in `comparisons/wildnis-20261025/`; die Biografie ist zur Sichtprüfung aufgeklappt. Alle zwölf Aufnahmen wurden zusätzlich visuell geprüft. Die Automatisierung ersetzt keine spätere redaktionelle Abnahme.
+
+Maschinelle Nachweise: `wildnis-checks.json`, `wildnis-validation.json`, `wildnis-browser-validation.json`, `wildnis-evidence.json`. Werkzeuge: Git, lokales Python, Node/Eleventy, projektgebundenes Sharp im bestehenden Build, Playwright CLI. Abhängigkeiten aus dem vorhandenen npm-Zwischenspeicher installiert; keine neuen Abhängigkeiten. Externe Zugriffe: öffentliche historische und institutionelle Quellen, später Git-Push und GitHub-PR. Kostenpflichtige Anbieteraufrufe: **0**, Kosten **0 USD**.
+
+Die Übergabe ist ein PR ohne `arbiter-approved`. Kein Merge, Deployment, Buchdatei-, ISBN-, QR-Register- oder Plattformschritt gehört zu diesem Auftrag. Die JSON-Meldung an Claude enthält PR, Zweig, konkrete Prüfzahlen, offene Belege und zwölf absolute Bildpfade.

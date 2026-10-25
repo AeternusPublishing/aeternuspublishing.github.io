@@ -1,0 +1,9 @@
+{% set furtherEditions = world.slug | wildernessFurtherEditions %}
+{% if furtherEditions.length %}
+<section class="shell international-section wilderness-further" aria-labelledby="further-editions-title">
+  <div class="section-heading"><h2 id="further-editions-title">Further editions</h2></div>
+  <ul class="wilderness-editions">
+  {% for item in furtherEditions %}<li data-work="{{ item.work_id }}"><h3><a href="{{ item.url }}"{% if item.language != 'en' %} hreflang="{{ item.language }}"{% endif %}>{{ item.title }}</a></h3><p>{{ item.authorName }} · {{ item.year }}{% if item.language != 'en' %} · German-language edition{% endif %}</p><p>{{ item.text }}</p></li>{% endfor %}
+  </ul>
+</section>
+{% endif %}

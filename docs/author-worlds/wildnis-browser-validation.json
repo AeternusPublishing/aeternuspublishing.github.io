@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "pages": 6,
+  "views": 12,
+  "keyboardToggles": 64,
+  "tabChecks": 12,
+  "images": 56,
+  "findings": [],
+  "screenshots": [
+    {
+      "slug": "horace-kephart",
+      "width": 1440,
+      "path": "output/playwright/horace-kephart-desktop.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/horace-kephart-desktop.png",
+      "sha256": "5e3b5f1e5705e921f17f30d6ee667da00dc9db2314c94582212059baf53c3186"
+    },
+    {
+      "slug": "william-henry-harrison-murray",
+      "width": 1440,
+      "path": "output/playwright/william-henry-harrison-murray-desktop.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/william-henry-harrison-murray-desktop.png",
+      "sha256": "2fe37b9d4c8a157a24806021805a4ca6e82d900fce21baf53e520053ebcddc4a"
+    },
+    {
+      "slug": "warren-hastings-miller",
+      "width": 1440,
+      "path": "output/playwright/warren-hastings-miller-desktop.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/warren-hastings-miller-desktop.png",
+      "sha256": "e483b4bbf346f2301a6d1557c9081865d408e02cafaff5c8e7af60bd2c0a3589"
+    },
+    {
+      "slug": "elihu-stewart",
+      "width": 1440,
+      "path": "output/playwright/elihu-stewart-desktop.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/elihu-stewart-desktop.png",
+      "sha256": "5f14b10e8f31986b0721d4c598e4a7d75d32cc928587af47d757f9cb5e58c784"
+    },
+    {
+      "slug": "richard-jefferies",
+      "width": 1440,
+      "path": "output/playwright/richard-jefferies-desktop.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/richard-jefferies-desktop.png",
+      "sha256": "59522821461916e331cd81925e4c5e55d58e3211944b18be68997887dfbe0a9d"
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "width": 1440,
+      "path": "output/playwright/daniel-carter-beard-desktop.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/daniel-carter-beard-desktop.png",
+      "sha256": "53224718f7052b532377969e95ee54912aa55f52cb9140e2c6fb56dc077a603f"
+    },
+    {
+      "slug": "horace-kephart",
+      "width": 390,
+      "path": "output/playwright/horace-kephart-mobile.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/horace-kephart-mobile.png",
+      "sha256": "bee78f2153e62df3f58096dbff5e8d37010ecb71757cc6e32a2a530f5c22f722"
+    },
+    {
+      "slug": "william-henry-harrison-murray",
+      "width": 390,
+      "path": "output/playwright/william-henry-harrison-murray-mobile.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/william-henry-harrison-murray-mobile.png",
+      "sha256": "0eaaa902afdad009a77e3d0eeb13b427b99f0b088663dd0cb7f7bf087c9dd155"
+    },
+    {
+      "slug": "warren-hastings-miller",
+      "width": 390,
+      "path": "output/playwright/warren-hastings-miller-mobile.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/warren-hastings-miller-mobile.png",
+      "sha256": "eedd8a70dc58b2ba408b39f0e4c18f85c8bc5aff300876ee04e8b33d41a761fa"
+    },
+    {
+      "slug": "elihu-stewart",
+      "width": 390,
+      "path": "output/playwright/elihu-stewart-mobile.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/elihu-stewart-mobile.png",
+      "sha256": "5a034e39a01b19312c9005c73e4a9ef8e9cde86bbea8a650993845c5d6eb5f4c"
+    },
+    {
+      "slug": "richard-jefferies",
+      "width": 390,
+      "path": "output/playwright/richard-jefferies-mobile.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/richard-jefferies-mobile.png",
+      "sha256": "526a5ddd52977b5b2a9eedbd13184cdbe94c2fdd2b3021b6b4ced0b3cefaffde"
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "width": 390,
+      "path": "output/playwright/daniel-carter-beard-mobile.png",
+      "repository_path": "docs/author-worlds/comparisons/wildnis-20261025/daniel-carter-beard-mobile.png",
+      "sha256": "745be6396bcf8285b40b2f223170c1722fafee041b207ae0a6eb3c2365482cdf"
+    }
+  ],
+  "inspections": [
+    {
+      "slug": "horace-kephart",
+      "width": 1440,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "william-henry-harrison-murray",
+      "width": 1440,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "warren-hastings-miller",
+      "width": 1440,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "elihu-stewart",
+      "width": 1440,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "richard-jefferies",
+      "width": 1440,
+      "broken": [],
+      "imageCount": 6,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "width": 1440,
+      "broken": [],
+      "imageCount": 6,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "horace-kephart",
+      "width": 390,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "william-henry-harrison-murray",
+      "width": 390,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "warren-hastings-miller",
+      "width": 390,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "elihu-stewart",
+      "width": 390,
+      "broken": [],
+      "imageCount": 4,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "richard-jefferies",
+      "width": 390,
+      "broken": [],
+      "imageCount": 6,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "width": 390,
+      "broken": [],
+      "imageCount": 6,
+      "horizontal": false,
+      "order": true,
+      "clipped": []
+    }
+  ]
+}

@@ -19,10 +19,11 @@ eleventyComputed:
 {% if author.slug == 'arthur-conan-doyle' %}<p class="shell"><a class="text-link" href="/books/the-white-company/">The White Company · Explore all three volumes →</a></p>{% endif %}
 {% set worldEnglishBooks = author.slug | worldEnglishBooks %}
 <section class="shell international-section" id="works">
-  <div class="section-heading"><h2>{{ "English editions in preparation" if author.editionStatus == "IN_PREPARATION" else ("English-language editions" if worldEnglishBooks.length else "German-language editions") }}</h2></div>
+  <div class="section-heading"><h2>{{ "English-language editions" if world.wilderness else ("English editions in preparation" if author.editionStatus == "IN_PREPARATION" else ("English-language editions" if worldEnglishBooks.length else "German-language editions")) }}</h2></div>
   {% if world.bridge %}<p class="world-book-bridge">{{ world.bridge }}</p>{% endif %}
   {% if author.editionStatus == "IN_PREPARATION" and not worldEnglishBooks.length %}<div class="author-books author-books-preparation"><p>Publication details will follow after approval.</p></div>{% else %}{% include "editorial/author-worlds/components/books-en.njk" %}{% endif %}
 </section>
 {% if author.extras %}<section class="shell detail-section author-extras" id="original-illustrations"><div><p class="kicker">{{ author.extras.kicker | plain }}</p><h2>{{ author.extras.title | plain }}</h2><p>{{ author.extras.text | plain }}</p></div><div class="format-list">{% for item in author.extras.items %}<article><h3>{{ item[0] | plain }}</h3><p>{{ item[1] | plain }}</p>{% if item[2] %}<a class="text-link" href="{{ item[2] }}" download>{{ (item[3] or "Download PDF") | plain }} ↓</a>{% else %}<p>{{ author.extras.status | plain }}</p>{% endif %}</article>{% endfor %}</div></section>{% endif %}
 {% include "editorial/author-worlds/components/content.njk" %}
+{% include "editorial/author-worlds/components/further-editions.njk" %}
 </div>

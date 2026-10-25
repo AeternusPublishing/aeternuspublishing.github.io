@@ -236,6 +236,8 @@ englishBooks.push(...fsr001.books);
 // Publisher-authorized author page only; no book products.
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
 
+authorsEn.push(...require('./wilderness-authors.cjs'));
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {

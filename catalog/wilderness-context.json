@@ -1,0 +1,296 @@
+{
+  "schema": "AETERNUS_WILDERNESS_CONTEXT_V1",
+  "note": "Draft connections, each at most 25 words; production year from catalogue takes precedence. Future catalogue products join by register work identity or exact ISBN, never title guessing.",
+  "works": {
+    "ETS_001": {
+      "year": 1898,
+      "sentence": "Seton makes the individual animal the centre of a story, extending outdoor observation into narrative.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_002": {
+      "year": 1900,
+      "sentence": "The life of a grizzly gives animal observation the sustained shape of a biography.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_003": {
+      "year": 1901,
+      "sentence": "Seton follows hunted animals through stories that join the field observer’s attention to the storyteller’s craft.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_004": {
+      "year": 1905,
+      "sentence": "These animal stories develop the close attention to character and behaviour found across Seton’s outdoor writing.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_005": {
+      "year": 1911,
+      "sentence": "Rolf’s education in the woods brings practical outdoor learning into an adventure story.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_006": {
+      "year": 1911,
+      "sentence": "Seton’s northern journey connects travel, natural history and the patient observation of animals.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_007": {
+      "year": 1904,
+      "sentence": "A California grizzly supplies another meeting point between the animal story and the history of a landscape.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_008": {
+      "year": 1903,
+      "sentence": "Boys learning outdoor skills give Woodcraft a narrative form beside the practical camping handbooks.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_011_BAND_I": {
+      "year": 1912,
+      "sentence": "Seton gathers Woodcraft instruction into an educational scheme of outdoor skills and observation.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ETS_011_BAND_II": {
+      "year": 1912,
+      "sentence": "Seton gathers Woodcraft instruction into an educational scheme of outdoor skills and observation.",
+      "sources": [
+        "https://etsetoninstitute.org/books-by-seton-chronological-listing/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "BP_002": {
+      "year": 1899,
+      "sentence": "Baden-Powell’s military scouting manual offers a comparison with the observation and practical judgment of the camp and trail.",
+      "sources": [
+        "https://nationaalmuseum.scouting.nl/bibliotheek/16-publicaties-lord-baden-powell/38-oorspronkelijke-titels"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "BP_005": {
+      "year": 1896,
+      "sentence": "This campaign narrative places travel, field observation and camp life within a military expedition.",
+      "sources": [
+        "https://nationaalmuseum.scouting.nl/bibliotheek/16-publicaties-lord-baden-powell/38-oorspronkelijke-titels"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "BP_009": {
+      "year": 1897,
+      "sentence": "The Matabele campaign narrative connects movement through difficult country with military scouting and field observation.",
+      "sources": [
+        "https://nationaalmuseum.scouting.nl/bibliotheek/16-publicaties-lord-baden-powell/38-oorspronkelijke-titels"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "RJE_001": {
+      "year": 1882,
+      "sentence": "Bevis turns the English countryside into a world of boats, improvised equipment and boyhood exploration.",
+      "sources": [
+        "https://richardjefferiessociety.org/life-works/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "RJE_002": {
+      "year": 1878,
+      "sentence": "The gamekeeper’s working knowledge offers an English comparison with the practical attention of the wilderness handbooks.",
+      "sources": [
+        "https://richardjefferiessociety.org/life-works/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "RJE_003": {
+      "year": 1881,
+      "sentence": "Wood Magic imagines the lives and conflicts of animals within a familiar English landscape.",
+      "sources": [
+        "https://richardjefferiessociety.org/life-works/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "DCB_001": {
+      "year": 1914,
+      "sentence": "Beard’s shelters connect outdoor competence with the pleasure of understanding and building a structure.",
+      "sources": [
+        "https://www.loc.gov/item/14015383/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "DCB_002": {
+      "year": 1882,
+      "sentence": "Beard joins workshop ingenuity to outdoor play through projects that readers can make for themselves.",
+      "sources": [
+        "https://openlibrary.org/works/OL15496201W/What_to_do_and_how_to_do_it"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "KEP_001": {
+      "year": 1921,
+      "sentence": "Kephart follows the practical decisions that connect a travelling load, a camp and the skills of the woods.",
+      "sources": [
+        "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/leaflet35.pdf"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "KEP_001_I": {
+      "year": 1921,
+      "sentence": "Kephart follows the practical decisions that connect a travelling load, a camp and the skills of the woods.",
+      "sources": [
+        "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/leaflet35.pdf"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "KEP_001_II": {
+      "year": 1921,
+      "sentence": "Kephart follows the practical decisions that connect a travelling load, a camp and the skills of the woods.",
+      "sources": [
+        "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/leaflet35.pdf"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "WHM_001": {
+      "year": 1869,
+      "sentence": "Murray invites city readers into the Adirondacks and explains the arrangements that make a camping holiday possible.",
+      "sources": [
+        "https://www.loc.gov/item/01014021/"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "WHMILL_001": {
+      "year": 1915,
+      "sentence": "Miller treats the camp as a practical design, testing equipment against the demands of outdoor comfort.",
+      "sources": [
+        "https://books.google.com/books?id=uRhDAAAAIAAJ"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "ESW_001": {
+      "year": 1913,
+      "sentence": "Stewart’s northern river journey brings forestry, transport and settlements into the world of outdoor travel.",
+      "sources": [
+        "https://www.gutenberg.org/ebooks/69836"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
+    }
+  },
+  "authors": {
+    "horace-kephart": {
+      "sentence": "Kephart’s writing brings practical skill into conversation with the life and landscape of the woods.",
+      "sources": [
+        "https://www.wcu.edu/library/digitalcollections/kephart/biography/biography.htm",
+        "https://www.wcu.edu/library/digitalcollections/kephart/biography/timeline.htm"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    },
+    "william-henry-harrison-murray": {
+      "sentence": "Murray connects the journey out of the city with the pleasures and arrangements of outdoor life.",
+      "sources": [
+        "https://www.loc.gov/item/01014021/",
+        "https://www.neh.gov/article/roughing-it-servants-course"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    },
+    "warren-hastings-miller": {
+      "sentence": "Miller connects outdoor adventure with the practical demands of a camp and its equipment.",
+      "sources": [
+        "https://books.google.com/books?id=uRhDAAAAIAAJ",
+        "https://sf-encyclopedia.com/entry/miller_warren_h"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    },
+    "elihu-stewart": {
+      "sentence": "Stewart adds a northern traveller’s attention to rivers, land and resources to the world of outdoor writing.",
+      "sources": [
+        "https://www.gutenberg.org/cache/epub/69836/pg69836-images.html",
+        "https://www.gutenberg.org/ebooks/69836"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    },
+    "richard-jefferies": {
+      "sentence": "Jefferies brings close observation of the English countryside into comparison with the North American outdoor tradition.",
+      "sources": [
+        "https://richardjefferiessociety.org/life-works/",
+        "https://www.gutenberg.org/ebooks/author/489"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    },
+    "daniel-carter-beard": {
+      "sentence": "Beard connects the workshop and the woods through practical projects and outdoor learning.",
+      "sources": [
+        "https://oa-scouting.org/history/daniel-carter-beard",
+        "https://danbeard.org/history/"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    },
+    "ernest-thompson-seton": {
+      "sentence": "Seton’s writing joins outdoor observation to the narrative and educational possibilities of life beyond the town.",
+      "sources": [
+        "https://etsetoninstitute.org/about-seton/biography/biography-2/",
+        "https://etsetoninstitute.org/seton-and-the-boy-scouts/"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    },
+    "robert-baden-powell": {
+      "sentence": "Baden-Powell’s writing offers another perspective on observation, fieldcraft and the uses of outdoor training.",
+      "sources": [
+        "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/",
+        "https://www.scouts.org.uk/about-us/our-history/our-online-exhibitions/the-early-days-of-scouting/brownsea-island-trialling-scouting/"
+      ],
+      "status": "DRAFT_PENDING_BOOK_WINDOW",
+      "kind": "thematic-comparison"
+    }
+  }
+}
