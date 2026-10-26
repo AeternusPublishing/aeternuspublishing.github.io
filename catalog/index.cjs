@@ -236,6 +236,9 @@ englishBooks.push(...fsr001.books);
 // Publisher-authorized author page only; no book products.
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
 
+// R9-05: commissioned Dickens author world; book products remain unlisted.
+authorsEn.push(require('./cd001-author-r9-20261026.cjs').en);
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
