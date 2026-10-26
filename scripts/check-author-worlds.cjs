@@ -27,7 +27,7 @@ function validate(p){
  else assert(p.image.reason,p.slug+': image omission needs a reason');
  if(p.coauthorPortrait){assert(p.coauthorPortrait.name&&p.coauthorPortrait.caption);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join('src',p.coauthorPortrait.file))).digest('hex'),p.coauthorPortrait.sha256,p.slug+': coauthor portrait changed');}
 }
-assert.equal(profiles.length,44);assert.equal(new Set(profiles.map(p=>p.slug)).size,44);
+assert.equal(profiles.length,45);assert.equal(new Set(profiles.map(p=>p.slug)).size,45);
 assert.throws(()=>get('uncommissioned-author','en'));
 for(const p of profiles)validate(p);
 // Mutated examples establish that missing evidence and accidental language expansion fail.
@@ -76,8 +76,8 @@ for(const p of profiles){
   pageRecords.push({route,root,language:lang,sha256:crypto.createHash('sha256').update(html).digest('hex')});routes++;
  }
 }
-assert.equal(routes,deOnly?33:70);
-assert.equal(profiles.filter(p=>p.scope.de).length,21);assert.equal(profiles.filter(p=>p.scope.en).length,37);
+assert.equal(routes,deOnly?34:72);
+assert.equal(profiles.filter(p=>p.scope.de).length,22);assert.equal(profiles.filter(p=>p.scope.en).length,38);
 // The original catalogue data are retained verbatim; all generated book-page text is compared locally.
 let unchangedBooks=0;
 for(const [oldRoot,newRoot,folder] of [['work/before-de','public','buecher'],['work/before-en','dist/release','books']]){
@@ -93,7 +93,7 @@ for(const [oldRoot,newRoot,folder] of [['work/before-de','public','buecher'],['w
  }
 }
 for(const row of baseline.authors){const p=profiles.find(p=>p.slug===row.slug);assert.deepEqual(p.scope,row.scope,p.slug+': route scope changed');}
-const result={status:'PASS',mode:deOnly?'de-build':'both-builds',authors:44,germanPages:21,englishPages:deOnly?0:37,legacyEnglishPages:12,routes,bookLinks,unchangedBooks,negativeFixtures:4,
+const result={status:'PASS',mode:deOnly?'de-build':'both-builds',authors:45,germanPages:22,englishPages:deOnly?0:38,legacyEnglishPages:12,routes,bookLinks,unchangedBooks,negativeFixtures:4,
  depths:Object.fromEntries(['compact','expanded','comprehensive'].map(d=>[d,profiles.filter(p=>p.depth===d).map(p=>p.slug)])),
  honours:profiles.filter(p=>p.honours?.length).length,timelines:profiles.filter(p=>p.timeline?.length).length,connections:profiles.reduce((n,p)=>n+(p.connections?.length||0),0),approvedPortraits:profiles.filter(p=>p.image.status==='publisher-approved').length,verifiedPortraits:profiles.filter(p=>p.image.status==='verified').length,pages:pageRecords};
 if(process.argv.includes('--record'))fs.writeFileSync('docs/author-worlds/validation.json',JSON.stringify(result,null,2)+'\n');
