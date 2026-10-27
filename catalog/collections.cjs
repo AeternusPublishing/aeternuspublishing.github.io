@@ -56,6 +56,7 @@ const definitions = [
     bookIds: [
       'en-francis-younghusband-the-epic-of-mount-everest-illustrated',
       'en-grey-owl-the-men-of-the-last-frontier',
+      'en-charles-metcalfe-macgregor-wanderings-in-balochistan',
       'en-melliss-lion-hunting-in-somali-land-annotated'
     ]
   }

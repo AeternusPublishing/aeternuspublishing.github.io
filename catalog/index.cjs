@@ -233,8 +233,9 @@ const fsr001 = require('./fsr001-en-20261024.cjs');
 authorsEn.push(fsr001.author);
 englishBooks.push(...fsr001.books);
 
-// Publisher-authorized author page only; no book products.
+// CMM_002 V12: publisher-authorized edition announcement; buying links await observed LIVE.
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
+englishBooks.push(require('./cmm002-en-20261027.json'));
 
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
