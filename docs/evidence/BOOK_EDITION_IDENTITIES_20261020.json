@@ -6708,6 +6708,107 @@
           ]
         }
       ]
+    },
+    {
+      "site": "en",
+      "id": "en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+      "url": "/books/en-charles-metcalfe-macgregor-wanderings-in-balochistan/",
+      "title": "Wanderings in Balochistan (Annotated)",
+      "language": "en",
+      "primary_isbn13": "9783676052221",
+      "front_url": "/assets/images/cover-cmm002-en-v12-20261027.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cmm002-en-v12-20261027.jpg",
+          "sha256": "d6ec387e3d6460c8e4de6649f4c0289ee43f38cf84bc325cc6ca181e95912951"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn13": "9783676052221",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052221",
+              "isbn10": "3676052226",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052221",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052221",
+              "isbn10": "3676052226",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "HOCHGELADEN"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052238",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052238",
+              "isbn10": "3676052234",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052245",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052245",
+              "isbn10": "3676052242",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-10-27",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='CMM_002' AND sprache='en'",
+        "projection_sha256": "dab239fbd657353a1add18b8534a64d666b7b73fd98f1a5557cb1b061085b109",
+        "package_preflight_sha256": "7d49b2384485977ec535a9b5bdec8453ca43e65298292b9577d44d4ce40235fc",
+        "availability": "COMING_SOON",
+        "retail_links": "None; no LIVE observation"
+      }
     }
   ],
   "additional_pages": [
@@ -6725,6 +6826,13 @@
         "en-arthur-conan-doyle-the-white-company-volume-i",
         "en-arthur-conan-doyle-the-white-company-volume-ii",
         "en-arthur-conan-doyle-the-white-company-volume-iii"
+      ]
+    },
+    {
+      "site": "en",
+      "url": "/authors/charles-metcalfe-macgregor/",
+      "book_ids": [
+        "en-charles-metcalfe-macgregor-wanderings-in-balochistan"
       ]
     }
   ]
