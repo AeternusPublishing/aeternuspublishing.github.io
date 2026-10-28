@@ -1,0 +1,59 @@
+{
+  "title_pages": [
+    {
+      "file": "docs/author-worlds/evidence/wildnis-20261025/adventuresinwild00murr.jpg",
+      "source": "https://iiif.archive.org/iiif/adventuresinwild00murr$9/full/1000,/0/default.jpg",
+      "identity": "William H. H. Murray",
+      "title_page_year": 1869,
+      "processing": "Unaltered response from archive IIIF service, width 1000; research evidence only, not a website portrait.",
+      "rights_basis": "Historical printed title page published before 1931; no modern portrait rights claimed.",
+      "width": 1000,
+      "height": 1753,
+      "sha256": "3a9e40059d63daccf46d5bb45e79190a320556c987fc615c11a88e6cc742ac3b"
+    },
+    {
+      "file": "docs/author-worlds/evidence/wildnis-20261025/campingwoodcraft02keph.jpg",
+      "source": "https://iiif.archive.org/iiif/campingwoodcraft02keph$7/full/1000,/0/default.jpg",
+      "identity": "Horace Kephart",
+      "title_page_year": 1917,
+      "processing": "Unaltered response from archive IIIF service, width 1000; research evidence only, not a website portrait.",
+      "rights_basis": "Historical printed title page published before 1931; no modern portrait rights claimed.",
+      "width": 1000,
+      "height": 1705,
+      "sha256": "ce15894929d0534bf3790ed86c9cc20ed9c271bf84568b0d405c9159f9e0f9f0"
+    },
+    {
+      "file": "docs/author-worlds/evidence/wildnis-20261025/campcraftmodern01millgoog.jpg",
+      "source": "https://iiif.archive.org/iiif/campcraftmodern01millgoog$9/full/1000,/0/default.jpg",
+      "identity": "Warren H. Miller",
+      "title_page_year": 1916,
+      "processing": "Unaltered response from archive IIIF service, width 1000; research evidence only, not a website portrait.",
+      "rights_basis": "Historical printed title page published before 1931; no modern portrait rights claimed.",
+      "width": 1000,
+      "height": 1481,
+      "sha256": "c6696f383050bc9fc1f76ac3c0ced4e69edeca07e03d4a55d0058de18973d680"
+    }
+  ],
+  "existing_pages": [
+    {
+      "slug": "richard-jefferies",
+      "before_sha256": "df03f2e0ae1088c08a10921abb3e51591e1be4f9d99074631d91a161c4f3fcde",
+      "after_sha256": "c7eb76dd73554868810de456c64a3757083e18a0f93c84baff4f87c97eab671e",
+      "normalized_before_sha256": "847902b3a170b2ea60ee62ed75a09668ed61fe3e385f4ea7ac59b88c802cb246",
+      "without_further_editions_sha256": "847902b3a170b2ea60ee62ed75a09668ed61fe3e385f4ea7ac59b88c802cb246",
+      "preserved": true,
+      "portrait_sha256": "efa7f6fe0c09112ebf99dec1e19e41ee8ed18e0f1871aec60c21b40911c2b5a5",
+      "dossier_sha256": "a14a7a8cf2f72a114d8d50a76a84ed0ddca5119dfc6fa00827ba8245a6039bf7"
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "before_sha256": "c661113d800cd0a6b81e229883cc681af72d0a5af7bb105e7161e07cacd6bb2f",
+      "after_sha256": "3d3049aa6f23750b4cb1301b3917b0acd12449dc5f9c49beb13fff13af58d7dd",
+      "normalized_before_sha256": "26491ada1690ad6872e3799683ae39459d7572f1fa98ee89ab68d62fa8957a5d",
+      "without_further_editions_sha256": "26491ada1690ad6872e3799683ae39459d7572f1fa98ee89ab68d62fa8957a5d",
+      "preserved": true,
+      "portrait_sha256": "c2a5b71f43f8f98922bac1ad5b90770a3799191f3c936697abfd8a262619d38e",
+      "dossier_sha256": "04cb996c12ee8a6c7152d1516dfe5d2f669c3f69ddaf416e8d299063041426c6"
+    }
+  ]
+}

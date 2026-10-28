@@ -617,5 +617,44 @@
     }
   ],
   "status": "NON_BLOCKING_DOCUMENTATION",
-  "publisherDecision": "2026-10-21: All existing portraits are approved and must remain visible. Outstanding provenance documentation does not block display."
+  "publisherDecision": "2026-10-21: All existing portraits are approved and must remain visible. Outstanding provenance documentation does not block display.",
+  "wildnis_20261025": {
+    "checked": "2026-10-25",
+    "items": [
+      {
+        "slug": "horace-kephart",
+        "status": "OFFEN",
+        "candidate": "https://www.dncr.nc.gov/blog/2016/04/02/great-smokies-advocate-horace-kephart",
+        "identity": "Horace Kephart, 1906; WCU Hunter Library",
+        "rights": "Institutional page labels the historical photograph Public Domain; no cleared colour original found.",
+        "reason": "Monochrome candidate; standard permits only new colour images. No alteration or download."
+      },
+      {
+        "slug": "william-henry-harrison-murray",
+        "status": "OFFEN",
+        "candidate": "https://commons.wikimedia.org/wiki/File:William_Henry_Harrison_Murray.jpg",
+        "original": "https://archive.org/stream/nationalmagazine21brayrich#page/n125/mode/1up",
+        "identity": "William Henry Harrison Murray; National Magazine, c. 1905 (posthumous publication, not a verified exposure date)",
+        "rights": "Discovery record says PD-US. Worldwide author/photographer evidence and colour original unresolved.",
+        "candidate_dimensions": [
+          811,
+          1235
+        ],
+        "reason": "Monochrome candidate; not acquired, no generated or restored face."
+      },
+      {
+        "slug": "warren-hastings-miller",
+        "status": "OFFEN",
+        "candidate": "https://campandtrailblog.blogspot.com/2012/12/0-0-1-1829-10427-backtracks-86-24-12232.html",
+        "identity": "Publicity portrait identified by son; other camping photographs explicitly misidentified in earlier publication.",
+        "rights": "Courtesy credit alone does not establish reuse rights; date/photographer/colour original unresolved.",
+        "reason": "No fully cleared portrait. No download or face generation."
+      },
+      {
+        "slug": "elihu-stewart",
+        "status": "VERLEGER_LIEFERT",
+        "reason": "Explicit publisher instruction: no portrait until supplied."
+      }
+    ]
+  }
 }

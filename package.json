@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "prebuild": "node scripts/build-library-graph.cjs",
+    "prebuild": "node scripts/export-wilderness-register.cjs && node scripts/build-library-graph.cjs",
     "build": "node ./node_modules/@11ty/eleventy/cmd.cjs && node scripts/editorial-images.cjs --write",
     "optimize:images": "node scripts/optimize-images.js",
     "icons": "node scripts/make-icons.js",
@@ -20,13 +20,14 @@
     "check:book-identities": "node ./scripts/check-book-identities.cjs",
     "check:qr": "node ./scripts/check-qr-targets.js",
     "check:kosmos": "node ./scripts/check-kosmos.cjs",
-    "prebuild:international": "node scripts/build-library-graph.cjs",
+    "prebuild:international": "node scripts/export-wilderness-register.cjs && node scripts/build-library-graph.cjs",
     "build:international": "eleventy --config=eleventy.international.cjs",
     "preview:international": "eleventy --config=eleventy.international.cjs --serve --port=8092",
     "check:international": "node ./node_modules/@11ty/eleventy/cmd.cjs --output=work/de-after --quiet && node scripts/check-international.cjs",
     "check:green-collections": "node scripts/check-green-collections.cjs",
-    "prebuild:international:production": "node scripts/build-library-graph.cjs",
-    "build:international:production": "node scripts/build-international-production.cjs"
+    "prebuild:international:production": "node scripts/export-wilderness-register.cjs && node scripts/build-library-graph.cjs",
+    "build:international:production": "node scripts/build-international-production.cjs",
+    "check:wilderness": "node scripts/check-wilderness.cjs"
   },
   "keywords": [],
   "author": "",

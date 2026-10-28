@@ -237,6 +237,8 @@ englishBooks.push(...fsr001.books);
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
 englishBooks.push(require('./cmm002-en-20261027.json'));
 
+authorsEn.push(...require('./wilderness-authors.cjs'));
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
