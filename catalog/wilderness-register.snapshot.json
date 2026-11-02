@@ -2,9 +2,18 @@
   "schema": "AETERNUS_WILDERNESS_REGISTER_EXPORT_V1",
   "source": "aeternus.py buchregister abfrage / ARCHIVTAFEL.sqlite zeilen",
   "query": "SELECT werk_kanon,sprache,produktform,isbn13,status,plattform,stand_utc FROM zeilen WHERE werk_kanon LIKE 'ETS_%' OR werk_kanon LIKE 'BP_%' OR werk_kanon LIKE 'RJE_%' OR werk_kanon LIKE 'DCB_%' OR werk_kanon LIKE 'KEP_%' OR werk_kanon LIKE 'WHM%' OR werk_kanon LIKE 'ESW_%' ORDER BY werk_kanon,sprache,produktform,plattform",
-  "captured_utc": "2026-10-25T11:24:33.866Z",
-  "records_sha256": "1d6066e6ccd2f9127fb75789e87902b9f7bd62e47cb2aab0e46212fbb056570d",
+  "captured_utc": "2026-11-02T17:30:39.378Z",
+  "records_sha256": "d07258b8e86022cff6e1b8b59409cc67f6d403aa63f0032a8b9cbc085a8ff2de",
   "records": [
+    {
+      "werk_kanon": "BP_001",
+      "sprache": "de",
+      "produktform": "druck_unbestimmt",
+      "isbn13": null,
+      "status": "ENTWURF",
+      "plattform": "KEINE",
+      "stand_utc": "2026-10-27T13:07:37.737792+00:00"
+    },
     {
       "werk_kanon": "BP_001",
       "sprache": "de",
@@ -109,9 +118,9 @@
       "sprache": "de",
       "produktform": "hardcover",
       "isbn13": "9783912883497",
-      "status": "EINGEREICHT",
+      "status": "LIVE",
       "plattform": "INGRAM",
-      "stand_utc": "2026-10-22T16:33:55Z"
+      "stand_utc": "2026-10-30T16:30:00Z"
     },
     {
       "werk_kanon": "BP_005",
@@ -136,9 +145,9 @@
       "sprache": "de",
       "produktform": "taschenbuch",
       "isbn13": "9783912883480",
-      "status": "EINGEREICHT",
+      "status": "LIVE",
       "plattform": "INGRAM",
-      "stand_utc": "2026-10-22T18:21:34Z"
+      "stand_utc": "2026-10-30T16:30:00Z"
     },
     {
       "werk_kanon": "BP_005",
@@ -336,7 +345,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T10:09:17.475198+00:00"
+      "stand_utc": "2026-11-01T23:48:31.707001+00:00"
     },
     {
       "werk_kanon": "DCB_001",
@@ -372,7 +381,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T10:19:27.108678+00:00"
+      "stand_utc": "2026-11-01T22:43:52.465525+00:00"
     },
     {
       "werk_kanon": "ESW_001",
@@ -381,7 +390,34 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": null,
-      "stand_utc": "2026-10-25T11:23:41.259315Z"
+      "stand_utc": "2026-10-28T11:57:13.263703+00:00"
+    },
+    {
+      "werk_kanon": "ESW_001",
+      "sprache": "en",
+      "produktform": "taschenbuch",
+      "isbn13": "978-3-67605-243-6",
+      "status": "ENTWURF",
+      "plattform": null,
+      "stand_utc": "2026-10-28T19:18:01.037974+00:00"
+    },
+    {
+      "werk_kanon": "ESW_001",
+      "sprache": "en",
+      "produktform": "taschenbuch",
+      "isbn13": "978-3-67605-243-6",
+      "status": "ENTWURF",
+      "plattform": "INGRAM",
+      "stand_utc": "2026-10-30T20:51:21.339650+00:00"
+    },
+    {
+      "werk_kanon": "ETS_001",
+      "sprache": "de",
+      "produktform": "druck_unbestimmt",
+      "isbn13": null,
+      "status": "ENTWURF",
+      "plattform": "KEINE",
+      "stand_utc": "2026-10-27T18:46:24.016989+00:00"
     },
     {
       "werk_kanon": "ETS_001",
@@ -454,6 +490,15 @@
       "status": "FREIGEGEBEN",
       "plattform": "KDP",
       "stand_utc": "2026-10-01T07:23:16Z"
+    },
+    {
+      "werk_kanon": "ETS_002",
+      "sprache": "de",
+      "produktform": "druck_unbestimmt",
+      "isbn13": null,
+      "status": "ENTWURF",
+      "plattform": "KEINE",
+      "stand_utc": "2026-10-27T12:11:44.095870+00:00"
     },
     {
       "werk_kanon": "ETS_002",
@@ -679,6 +724,15 @@
       "status": "LIVE",
       "plattform": "KDP",
       "stand_utc": "2026-09-20T13:45:00Z"
+    },
+    {
+      "werk_kanon": "ETS_004",
+      "sprache": "en",
+      "produktform": "druck_unbestimmt",
+      "isbn13": null,
+      "status": "ENTWURF",
+      "plattform": "KEINE",
+      "stand_utc": "2026-10-26T20:41:30.951342+00:00"
     },
     {
       "werk_kanon": "ETS_004",
@@ -1029,7 +1083,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-23T21:25:10.240684+00:00"
+      "stand_utc": "2026-10-28T19:06:48.030336+00:00"
     },
     {
       "werk_kanon": "ETS_008",
@@ -1221,13 +1275,22 @@
       "stand_utc": "2026-10-06T07:02:20.096701+00:00"
     },
     {
+      "werk_kanon": "KEP_001",
+      "sprache": "en",
+      "produktform": "druck_unbestimmt",
+      "isbn13": null,
+      "status": "ENTWURF",
+      "plattform": "KEINE",
+      "stand_utc": "2026-11-01T22:10:01.356471+00:00"
+    },
+    {
       "werk_kanon": "KEP_001_I",
       "sprache": "en",
       "produktform": "druck_unbestimmt",
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T11:07:48.402266+00:00"
+      "stand_utc": "2026-10-30T17:02:40.906784+00:00"
     },
     {
       "werk_kanon": "KEP_001_II",
@@ -1236,7 +1299,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T10:30:11.623182+00:00"
+      "stand_utc": "2026-10-30T17:30:30.710841+00:00"
     },
     {
       "werk_kanon": "RJE_001",
@@ -1245,7 +1308,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T10:21:53.001010+00:00"
+      "stand_utc": "2026-11-01T23:21:35.784184+00:00"
     },
     {
       "werk_kanon": "RJE_001",
@@ -1281,7 +1344,25 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-24T20:12:57Z"
+      "stand_utc": "2026-11-01T23:21:35.790566+00:00"
+    },
+    {
+      "werk_kanon": "RJE_002",
+      "sprache": "en",
+      "produktform": "ebook",
+      "isbn13": "978-3-67605-066-1",
+      "status": "ENTWURF",
+      "plattform": "KDP",
+      "stand_utc": "2026-10-30T14:59:37.336095+00:00"
+    },
+    {
+      "werk_kanon": "RJE_002",
+      "sprache": "en",
+      "produktform": "taschenbuch",
+      "isbn13": "978-3-67605-074-6",
+      "status": "ENTWURF",
+      "plattform": "KDP",
+      "stand_utc": "2026-10-30T21:16:40.764993+00:00"
     },
     {
       "werk_kanon": "RJE_003",
@@ -1290,7 +1371,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T10:31:15.150531+00:00"
+      "stand_utc": "2026-11-02T02:37:09.568042+00:00"
     },
     {
       "werk_kanon": "WHMILL_001",
@@ -1299,7 +1380,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T11:13:27Z"
+      "stand_utc": "2026-11-01T20:02:31.700630+00:00"
     },
     {
       "werk_kanon": "WHM_001",
@@ -1308,7 +1389,7 @@
       "isbn13": null,
       "status": "ENTWURF",
       "plattform": "KEINE",
-      "stand_utc": "2026-10-25T10:32:25.424322+00:00"
+      "stand_utc": "2026-11-01T23:21:35.790258+00:00"
     },
     {
       "werk_kanon": "WHM_001",

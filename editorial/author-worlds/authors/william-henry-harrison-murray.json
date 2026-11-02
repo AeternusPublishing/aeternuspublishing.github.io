@@ -191,8 +191,20 @@
     }
   },
   "image": {
-    "status": "omitted",
-    "reason": "No fully cleared historical colour portrait found; no new monochrome assets under the author-world standard, no colourisation or AI face restoration. See PORTRAET_QUELLEN_OFFEN.json."
+    "status": "verified",
+    "file": "/assets/images/portrait-murray-national-web-20261102.jpg",
+    "rights": "Photograph reproduced in the National Magazine (Boston), catalogued c. 1905; photographer not identified. Public domain in the United States (publication before 1931).",
+    "provenance": "https://commons.wikimedia.org/wiki/File:William_Henry_Harrison_Murray.jpg",
+    "processing": "Book-folder original MURRAY_PORTRAIT_UNDATED_NATIONAL_ORIGINAL.jpg (SHA-256 b3e5b8f3…, 811 x 1235 px). Web copy: greyscale, Lanczos resize to 1000 px height, JPEG. No crop, colouring, retouching or generative change. Exposure date not established.",
+    "sha256": "6445192fdf89080fa3e3ce9c807548677beef4032c6de0f1e37534009fccb4aa",
+    "caption": {
+      "en": "William Henry Harrison Murray, published c. 1905."
+    },
+    "approval": {
+      "date": "2026-11-02",
+      "authority": "Verleger im Chat 02.11.2026: gemeinfreie Schwarzweissfotos aus den Buchordnern einsetzen; Codex bearbeitet sie spaeter nach."
+    },
+    "followUp": "Codex post-processing announced by the publisher; replace only on explicit order."
   },
   "connections": [
     {

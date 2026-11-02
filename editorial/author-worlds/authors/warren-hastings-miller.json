@@ -183,8 +183,20 @@
     }
   },
   "image": {
-    "status": "omitted",
-    "reason": "No fully cleared historical colour portrait found; no new monochrome assets under the author-world standard, no colourisation or AI face restoration. See PORTRAET_QUELLEN_OFFEN.json."
+    "status": "verified",
+    "file": "/assets/images/portrait-miller-1918-web-20261102.jpg",
+    "rights": "Photograph in Warren H. Miller, Camping Out, George H. Doran, New York, 1918, facing p. 74; photographer unidentified. Public domain in the United States (publication before 1931). Identification of the sitter by Warren Miller Jr. (David Wescott interview, 2012).",
+    "provenance": "https://archive.org/details/campingout00mill",
+    "processing": "Book-folder derivative MILLER_PORTRAIT_CAMPING_OUT_1918_DERIVED.png (SHA-256 bd6eeaed…): documented crop of the upper photograph on leaf 87, greyscale, mild descreening. Web copy: Lanczos resize to 1000 px height, JPEG. No colouring, retouching or generative change.",
+    "sha256": "d0b21c320f030d0c037b1273af0944fb6a5b543294e5170aa41649ec71514c2f",
+    "caption": {
+      "en": "Warren Hastings Miller beside a stretcher-bed tent, before 1918."
+    },
+    "approval": {
+      "date": "2026-11-02",
+      "authority": "Verleger im Chat 02.11.2026: gemeinfreie Schwarzweissfotos aus den Buchordnern einsetzen; Codex bearbeitet sie spaeter nach."
+    },
+    "followUp": "Codex post-processing announced by the publisher; replace only on explicit order."
   },
   "connections": [
     {

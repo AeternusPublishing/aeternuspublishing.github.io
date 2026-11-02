@@ -228,8 +228,20 @@
     }
   },
   "image": {
-    "status": "omitted",
-    "reason": "No fully cleared historical colour portrait found; no new monochrome assets under the author-world standard, no colourisation or AI face restoration. See PORTRAET_QUELLEN_OFFEN.json."
+    "status": "verified",
+    "file": "/assets/images/portrait-kephart-1913-web-20261102.jpg",
+    "rights": "Photograph published in Horace Kephart, Our Southern Highlanders, Outing Publishing, New York, 1913; photographer unknown. Public domain in the United States (publication before 1931).",
+    "provenance": "https://archive.org/details/oursouthernhighl00keph",
+    "processing": "Book-folder original KEPHART_PORTRAIT_BEFORE_1913_ORIGINAL.jpg (SHA-256 d205d5de…, 1532 x 2062 px), via Wikimedia Commons File:Horace_Kephart_cooking.jpg. Web copy: greyscale, Lanczos resize to 1000 px height, JPEG. No crop, colouring, retouching or generative change.",
+    "sha256": "903e4d1504f11138a182c497a8d0b231dcba985215593ccf57dffb297605e9a9",
+    "caption": {
+      "en": "Horace Kephart cooking in camp, before 1913."
+    },
+    "approval": {
+      "date": "2026-11-02",
+      "authority": "Verleger im Chat 02.11.2026: gemeinfreie Schwarzweissfotos aus den Buchordnern einsetzen; Codex bearbeitet sie spaeter nach."
+    },
+    "followUp": "Codex post-processing announced by the publisher; replace only on explicit order."
   },
   "connections": [
     {

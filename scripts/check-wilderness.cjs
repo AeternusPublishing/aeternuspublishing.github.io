@@ -37,7 +37,9 @@ for(const slug of wilderness.pages) {
     assert(!profile.scope.de&&!profile.scope.legacyEn);
     assert.equal(nodes.filter(n=>n.name==='article'&&n.attribs.class==='author-book').length,0);
     assert(!html.includes('/autoren/'+slug+'/'));
-    assert(!nodes.some(n=>n.name==='img'&&n.attribs.alt===profile.name));
+    const portrait=['verified','publisher-approved'].includes(profile.image.status);
+    assert.equal(nodes.some(n=>n.name==='img'&&n.attribs.alt===profile.name&&n.attribs.src===profile.image.file),portrait,slug+': portrait visibility');
+    if(portrait)assert.equal(hash(fs.readFileSync('src'+profile.image.file)),profile.image.sha256,slug+': portrait changed');
     emptyCards++;
   }
 }
