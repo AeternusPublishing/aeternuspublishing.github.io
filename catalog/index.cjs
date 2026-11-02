@@ -237,6 +237,8 @@ englishBooks.push(...fsr001.books);
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
 englishBooks.push(require('./cmm002-en-20261027.json'));
 
+authorsEn.push(...require('./wilderness-authors.cjs'));
+
 // SBS_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./sbs001-author-20261102.cjs'));
 

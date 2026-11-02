@@ -1,0 +1,215 @@
+{
+  "slug": "elihu-stewart",
+  "name": "Elihu Stewart",
+  "dates": "1844–1935",
+  "depth": "compact",
+  "sources": [
+    {
+      "id": "BOOK",
+      "title": "Elihu Stewart · Down the Mackenzie and Up the Yukon in 1906",
+      "url": "https://www.gutenberg.org/cache/epub/69836/pg69836-images.html",
+      "checked": "2026-10-25",
+      "note": "Title page: Elihu Stewart, formerly Superintendent of Forestry for Canada, MCMXIII; this accessible text is explicitly SECOND EDITION. Preface pp. 7–8; contents; publisher’s note pp. 9–11. Not evidence for the book-production witness."
+    },
+    {
+      "id": "AUTHORITY",
+      "title": "Project Gutenberg · Elihu Stewart, author record",
+      "url": "https://www.gutenberg.org/ebooks/69836",
+      "checked": "2026-10-25",
+      "note": "Author authority: Stewart, Elihu, 1844–1935. Bibliographic record, not the automatically generated summary."
+    },
+    {
+      "id": "FORESTRY",
+      "title": "Alberta Forest Service · Directors of Forestry and Division Heads, 1930–2005",
+      "url": "https://www1.agric.gov.ab.ca/%24department/deptdocs.nsf/ba3468a2a8681f69872569d60073fde1/b1f9738904dbef1387257f7e0077c77f/%24FILE/DirectorsDivisionHeads-AFS-2007.pdf",
+      "checked": "2026-10-25",
+      "note": "Historical table: Department of the Interior Director of Forestry Elihu Stewart, 1899–1907; supports institutional office, not a decoration."
+    },
+    {
+      "id": "WORLD_ERNEST_THOMPSON_SETON",
+      "title": "Ernest Thompson Seton Institute · Biography",
+      "url": "https://etsetoninstitute.org/about-seton/biography/biography-2/",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_ROBERT_BADEN_POWELL",
+      "title": "The Scouts · How Scouting grew",
+      "url": "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_HORACE_KEPHART",
+      "title": "Western Carolina University · Horace Kephart: Biography",
+      "url": "https://www.wcu.edu/library/digitalcollections/kephart/biography/biography.htm",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_DANIEL_CARTER_BEARD",
+      "title": "Scouting America · Daniel Carter Beard",
+      "url": "https://oa-scouting.org/history/daniel-carter-beard",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    },
+    {
+      "id": "WORLD_RICHARD_JEFFERIES",
+      "title": "Richard Jefferies Society · Life and works",
+      "url": "https://richardjefferiessociety.org/life-works/",
+      "checked": "2026-10-25",
+      "note": "Read alongside the existing sourced author-world dossier; thematic comparison only."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Elihu Stewart, 1844–1935.",
+      "sources": [
+        "AUTHORITY"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Held the Canadian federal forestry office in the period 1899–1907.",
+      "sources": [
+        "FORESTRY"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Down the Mackenzie and Up the Yukon in 1906 bears the author’s name and former forestry title; accessible second-edition title page is dated 1913.",
+      "sources": [
+        "BOOK"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Preface states the narrative grew from a government report dated 16 November 1906; includes photographs, many taken by Stewart from steamers.",
+      "sources": [
+        "BOOK"
+      ]
+    }
+  ],
+  "timeline": [],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Edition evidence",
+      "decision": "Accessible Gutenberg witness is a 1913 second edition; cited as such. No assertion that it is the first-edition witness used in production."
+    }
+  ],
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "wilderness": true,
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "intro",
+      "orientation",
+      "literature",
+      "legacy",
+      "connections"
+    ],
+    "note": "Thematic readings of the named works, not claims of meetings or influence. The shared 1869–1917 frame uses Murray LOC_BOOK (1869), Miller BOOK (1915), Kephart LOC_BOOK (1916–17) and existing author dossiers. No invented service, rank or decoration."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "bridge",
+      "legacy"
+    ],
+    "note": "Independent editorial reading, not a historical quotation or measurable assertion about present-day popularity."
+  },
+  "locales": {
+    "en": {
+      "tagline": "Northern rivers seen from the deck of a steamer.",
+      "intro": "A river journey reveals a country in succession: a landing, a settlement, a reach of water, another departure. Stewart follows that changing view through northern Canada, with a forester’s attention to land and resources.",
+      "orientation": "Stewart belongs beside the camping writers through his subject rather than a documented membership of their circle. His northern journey adds transport, forestry and settlement to the world of camp and trail.",
+      "origin": [
+        "Elihu Stewart lived from 1844 to 1935. He held Canada’s federal forestry office in the years 1899–1907; his book identifies him as formerly Superintendent of Forestry for Canada."
+      ],
+      "career": [
+        "In the preface to Down the Mackenzie and Up the Yukon in 1906, Stewart explains that the narrative grew from a report submitted to the Canadian government on 16 November 1906. The book allowed room for experiences beyond an official report."
+      ],
+      "literature": [
+        "The accessible 1913 second edition joins the river narrative to photographs and a map. Stewart notes that many photographs were taken from steamers. The moving viewpoint is part of the book’s character: places emerge along a route rather than as isolated scenes.",
+        "Read beside Seton’s The Arctic Prairies, it offers a different northern journey: an account shaped by waterways and a forestry official’s interests. This is a thematic comparison, not evidence of an encounter."
+      ],
+      "legacy": "The book preserves a way of travelling in which rivers joined distant communities. Reading the route today brings attention back to connections between transport, land and the practical knowledge of a journey.",
+      "bridge": "Down the Mackenzie and Up the Yukon in 1906 follows a northern route by its rivers, landings and settlements.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "description": "A river journey reveals a country in succession: a landing, a settlement, a reach of water, another departure. Stewart follows that changing view through northern Canada, with a forester’s attention to land and resources."
+    }
+  },
+  "image": {
+    "status": "omitted",
+    "reason": "Publisher supplies the Stewart portrait."
+  },
+  "connections": [
+    {
+      "slug": "ernest-thompson-seton",
+      "kind": "thematic-comparison",
+      "en": "Animal observation and Woodcraft offer a comparison with this author’s treatment of outdoor life.",
+      "sources": [
+        "BOOK",
+        "WORLD_ERNEST_THOMPSON_SETON"
+      ]
+    },
+    {
+      "slug": "robert-baden-powell",
+      "kind": "thematic-comparison",
+      "en": "Scouting gives the outdoor skill discussed here a different educational setting.",
+      "sources": [
+        "BOOK",
+        "WORLD_ROBERT_BADEN_POWELL"
+      ]
+    },
+    {
+      "slug": "horace-kephart",
+      "kind": "thematic-comparison",
+      "en": "Camping and Woodcraft develops the practical skills of living and travelling outdoors.",
+      "sources": [
+        "BOOK",
+        "WORLD_HORACE_KEPHART"
+      ]
+    },
+    {
+      "slug": "daniel-carter-beard",
+      "kind": "thematic-comparison",
+      "en": "Building shelters and learning by doing connect the workshop to the camp.",
+      "sources": [
+        "BOOK",
+        "WORLD_DANIEL_CARTER_BEARD"
+      ]
+    },
+    {
+      "slug": "richard-jefferies",
+      "kind": "thematic-comparison",
+      "en": "The close observation of an English landscape offers a literary comparison with North American outdoor writing.",
+      "sources": [
+        "BOOK",
+        "WORLD_RICHARD_JEFFERIES"
+      ]
+    }
+  ],
+  "gallery": []
+}

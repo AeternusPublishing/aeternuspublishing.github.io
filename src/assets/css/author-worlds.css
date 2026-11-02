@@ -54,3 +54,4 @@
 .author-page .author-world-portrait-pair figure { width:100%; margin:0; grid-column:auto; grid-row:auto; }
 .author-page .author-world-portrait-pair figure img { width:100%; height:auto; max-height:none; object-fit:contain; }
 @media (min-width: 701px) { .author-page .author-world-hero:has(> .author-world-portrait-pair) { grid-template-columns:minmax(0,1fr) minmax(280px,360px); } }
+.wilderness-editions{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr));gap:2rem 3rem}.wilderness-editions li{border-top:1px solid currentColor;padding-top:1rem}.wilderness-editions h3{margin-top:0}.wilderness-editions p{max-width:62ch}
