@@ -1,0 +1,247 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "samuel-benfield-steele",
+  "name": "Samuel Benfield Steele",
+  "dates": "1848–1919",
+  "depth": "compact",
+  "editionStatus": "IN_PREPARATION",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "DCB",
+      "title": "Dictionary of Canadian Biography · Steele, Sir Samuel Benfield (R. C. Macleod, vol. 14, 1998, revised 2021)",
+      "url": "https://www.biographi.ca/en/bio/steele_samuel_benfield_14E.html",
+      "checked": "2026-11-02",
+      "note": "Read in full. Supports birth 5 January 1848 in Medonte Township (birth year long disputed), Red River 1870, NWMP 1873, Alberta Field Force scouts and superintendent 1885, Yukon February 1898 to September 1899, Lord Strathcona's Horse 1900, South African Constabulary 1901, MVO and CB during the regiment's return in 1901, major-general December 1914, 2nd Canadian Division and South-Eastern District 1915, KCMG 1 January 1918, death at Putney 30 January 1919, and Forty Years in Canada (Toronto and London, 1915, edited by M. G. Niblett). The entry does not use the epithet 'Lion of the Yukon'."
+    },
+    {
+      "id": "IA1915",
+      "title": "Internet Archive · Forty Years in Canada (London and Toronto, 1915), scan fortyyearsincana00steerich",
+      "url": "https://archive.org/details/fortyyearsincana00steerich",
+      "checked": "2026-11-02",
+      "note": "Source copy of the AETERNUS edition SBS_001. Leaf 8 carries the frontispiece photograph captioned 'Colonel S. B. Steele', the witness for the portrait used here."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Steele was born on 5 January 1848 in Medonte Township, Upper Canada, and died at Putney, London, on 30 January 1919.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1870 he served as a volunteer in the Red River expedition under Colonel Garnet Wolseley.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He joined the North-West Mounted Police in 1873 and went west with its first contingent.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1885 he led the mounted scouts of the Alberta Field Force in the pursuit of Big Bear and was promoted superintendent in August 1885.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He commanded the police in the Yukon during the Klondike Gold Rush from February 1898, first on the passes and from September 1898 at Dawson, until his transfer in September 1899.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1900 he commanded Lord Strathcona's Horse in South Africa and from 1901 held a divisional command in the South African Constabulary.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was promoted major-general in December 1914, commanded the 2nd Canadian Division in 1915 and then the South-Eastern District of England.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was made MVO and CB in 1901 and KCMG on 1 January 1918.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Forty Years in Canada was published in London and Toronto in 1915.",
+      "sources": [
+        "DCB",
+        "IA1915"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Year of birth",
+      "decision": "The Dictionary of Canadian Biography gives 5 January 1848 and notes that the year was long disputed; 1849 appears in older references. The page follows the DCB and the approved SBS_001 About the Author."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Years of the CB and MVO",
+      "decision": "The DCB places both honours during the return of Lord Strathcona's Horse (from January 1901) and before Steele's departure for the South African Constabulary in June 1901, without a gazette date. The year 1901 is shown; no day or gazette date is claimed."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Epithet 'Lion of the Yukon'",
+      "decision": "Carried by the publisher-approved About the Author of SBS_001 as the name by which the Yukon remembers him. Not used in the DCB; Robert Stewart's biography uses 'Lion of the Frontier'. A contemporary attribution to the Yukon Sun was seen only in a secondary photo caption and is not repeated. The page presents the epithet as remembrance, not as a dated contemporary title."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Date of the frontispiece photograph",
+      "decision": "The 1915 frontispiece is captioned 'Colonel S. B. Steele'; the photograph's own date is unknown. Caption states only that it is the frontispiece of the 1915 edition."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "The memoir is presented as Steele's own account of the police and military frontier, not as an independent history of the North-West or the Klondike."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Prose follows the publisher-approved About the Author of SBS_001 (SATZ_V17E manuscript, chapter about-author); dates and honours checked against the DCB. No invented quotation."
+  },
+  "honours": [
+    {
+      "name": "Order of St Michael and St George · Knight Commander (K.C.M.G.)",
+      "year": "1918",
+      "category": "order",
+      "sources": [
+        "DCB"
+      ],
+      "note": {
+        "en": "Created 1 January 1918, during his command in England."
+      }
+    },
+    {
+      "name": "Order of the Bath · Companion (C.B.)",
+      "year": "1901",
+      "category": "order",
+      "sources": [
+        "DCB"
+      ],
+      "note": {
+        "en": "After the South African service of Lord Strathcona's Horse."
+      }
+    },
+    {
+      "name": "Royal Victorian Order · Member (M.V.O.)",
+      "year": "1901",
+      "category": "order",
+      "sources": [
+        "DCB"
+      ],
+      "note": {
+        "en": "Received in England on the regiment's journey home."
+      }
+    }
+  ],
+  "timeline": [
+    ["1848", "Born on 5 January in Medonte Township, Upper Canada", ""],
+    ["1870", "Volunteer in the Red River expedition under Colonel Garnet Wolseley", ""],
+    ["1873", "Joins the North-West Mounted Police; goes west with the first contingent", ""],
+    ["1885", "Leads the mounted scouts of the Alberta Field Force; superintendent", ""],
+    ["1898–1899", "Commands the police in the Yukon during the Klondike Gold Rush", ""],
+    ["1900", "Commands Lord Strathcona's Horse in South Africa", ""],
+    ["1901", "Divisional command in the South African Constabulary; C.B. and M.V.O.", ""],
+    ["1915", "Forty Years in Canada published; commands the 2nd Canadian Division", ""],
+    ["1918", "K.C.M.G.", ""],
+    ["1919", "Dies at Putney, London, on 30 January", ""]
+  ],
+  "locales": {
+    "en": {
+      "tagline": "Mounted Police officer, soldier and the Lion of the Yukon.",
+      "intro": "Major-General Sir Samuel Benfield Steele, K.C.M.G., C.B., M.V.O. (1848–1919), served on the Canadian frontier for more than four decades, from the first march of the North-West Mounted Police to the gold rush on the Klondike.",
+      "orientation": "His memoir follows a policeman and soldier from the Red River and the prairies to the Yukon and South Africa, at the posts where the authority of the young Dominion had to be established in person.",
+      "originHeading": "Upper Canada and the Red River",
+      "careerHeading": "Police, Klondike and war",
+      "origin": [
+        "Steele was born on 5 January 1848 in Medonte Township, Upper Canada, the son of a former Royal Navy officer, Elmes Yelverton Steele. He entered the militia as a young man and in 1870 volunteered for the expedition under Colonel Garnet Wolseley to the Red River, where he first met the political and military questions of the Canadian West."
+      ],
+      "career": [
+        "In 1873 he joined the newly formed North-West Mounted Police and went west with its first contingent. He kept order along the construction of the Canadian Pacific Railway and in 1885 led the mounted scouts of the Alberta Field Force in the pursuit of Big Bear; in August of that year he became superintendent.",
+        "In February 1898 he was sent to the Yukon at the height of the Klondike Gold Rush. On the passes and from September 1898 in Dawson he enforced customs, safety and order among prospectors, merchants and adventurers. The name by which the Yukon still remembers him, the Lion of the Yukon, comes from these months. He left the territory in September 1899.",
+        "In 1900 Steele commanded Lord Strathcona's Horse in South Africa and from 1901 held a divisional command in the South African Constabulary. Promoted major-general in December 1914, he commanded the 2nd Canadian Division in 1915 and then the South-Eastern District of England. He was created K.C.M.G. in 1918 and died at Putney on 30 January 1919."
+      ],
+      "literature": [
+        "Forty Years in Canada (1915) is Steele's own account of the Great North-West, with a closing account of his service in South Africa. It is written from the marches, the isolated police posts and the head of a column, not from a distance."
+      ],
+      "legacy": "The memoir preserves the experience of a man who met Canadian history on arduous marches, in isolated posts, among the people of the frontier and at the head of his men.",
+      "bridge": "Forty Years in Canada: Reminiscences of the Great North-West, with Some Account of His Service in South Africa. An English AETERNUS edition in the Green Series is in preparation.",
+      "description": "Samuel Benfield Steele (1848–1919), North-West Mounted Police officer, the Lion of the Yukon, and author of Forty Years in Canada. An English AETERNUS edition is in preparation.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09"
+      ]
+    }
+  },
+  "rank": {
+    "en": "Major-General Sir Samuel Benfield Steele, K.C.M.G., C.B., M.V.O."
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-samuel-benfield-steele-1915-restored-v1.png",
+    "caption": {
+      "en": "Samuel Benfield Steele. Frontispiece of Forty Years in Canada, 1915. Modern restoration."
+    },
+    "rights": "Frontispiece photograph of Forty Years in Canada (London and Toronto, 1915); historical source, public domain. Same image as the author portrait of the AETERNUS edition SBS_001 (manuscript SATZ_V17E, author_portrait).",
+    "provenance": "https://archive.org/details/fortyyearsincana00steerich (leaf 8, caption 'Colonel S. B. Steele'); source JP2 SHA-256 59cead6d9af8f57ded85a3c002be244d62337b94b97edad36eab419294b75672.",
+    "processing": "Generative restoration of the 1915 frontispiece, made for the book on 22 October 2026 (SBS_001/03_BILDSATZ_DRUCK/GPT_RESTAURIERUNG_17_V1_20261022, P01 selection, greyscale). Fine facial and textile detail is partly inferred. Copied byte-identically for the website: no crop, colour change or new generation.",
+    "sha256": "744fe449443577102e1b86cebec525caf37a40b4e564390875e8b9afb5391cd2"
+  }
+}
