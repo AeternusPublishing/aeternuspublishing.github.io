@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "author-worlds",
+      "command": "node scripts/check-author-worlds.cjs",
+      "exit_code": 0,
+      "output": "{\"status\":\"PASS\",\"mode\":\"both-builds\",\"authors\":48,\"germanPages\":21,\"englishPages\":41,\"legacyEnglishPages\":12,\"routes\":74,\"bookLinks\":389,\"unchangedBooks\":98,\"negativeFixtures\":4,\"depths\":{\"compact\":11,\"expanded\":33,\"comprehensive\":4},\"honours\":13,\"timelines\":35,\"connections\":36,\"approvedPortraits\":39,\"verifiedPortraits\":1}",
+      "stderr": ""
+    },
+    {
+      "name": "wilderness",
+      "command": "node scripts/check-wilderness.cjs",
+      "exit_code": 0,
+      "output": "{\"status\":\"PASS\",\"pages\":6,\"newEnglishPages\":4,\"furtherLinks\":84,\"emptyNewAuthorCards\":4,\"lifecycleStates\":6,\"negativeCases\":4,\"futureCatalogueCases\":1,\"preservedExistingPages\":2,\"portraitsUnchanged\":2,\"qrShortcuts\":4,\"registerRecords\":148}",
+      "stderr": ""
+    },
+    {
+      "name": "edition-languages",
+      "command": "node scripts/check-edition-languages.cjs",
+      "exit_code": 0,
+      "output": "{\"status\":\"PASS\",\"germanAuthorPages\":21,\"catalogueEditions\":35,\"englishReferrals\":2}",
+      "stderr": ""
+    },
+    {
+      "name": "book-identities",
+      "command": "node scripts/check-book-identities.cjs --international",
+      "exit_code": 0,
+      "output": "{\"status\":\"PASS\",\"books\":97,\"formats\":230,\"reviewedAssets\":189,\"renderedPages\":99,\"negativeCases\":4}",
+      "stderr": ""
+    },
+    {
+      "name": "text-images",
+      "command": "node scripts/check-text.cjs",
+      "exit_code": 0,
+      "output": "{\n  \"pages\": 148,\n  \"authorPages\": 36,\n  \"findings\": []\n}",
+      "stderr": ""
+    },
+    {
+      "name": "author-order",
+      "command": "node scripts/check-author-order.cjs",
+      "exit_code": 0,
+      "output": "PASS: books first, biography last, matching navigation on 36 author pages",
+      "stderr": ""
+    },
+    {
+      "name": "image-plan",
+      "command": "node scripts/editorial-images.cjs",
+      "exit_code": 0,
+      "output": "CHECK: 109 responsive image sizes; originals found; no files changed.",
+      "stderr": ""
+    }
+  ]
+}

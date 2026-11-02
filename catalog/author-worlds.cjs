@@ -23,7 +23,8 @@ function get(slug,lang) {
     honours:(p.honours||[]).map(h=>({...h,name:h.localName?.[lang]||h.name,categoryLabel:labels[lang][h.category],note:h.note?.[lang]})),
     gallery:(p.gallery||[]).filter(g=>g.caption[lang]).map(g=>({...g,caption:g.caption[lang]}))};
 }
-function englishBooks(slug,absolute=false){return require('./index.cjs').englishBooks.filter(b=>b.author===slug).map(b=>({...b,url:absolute?'https://aeternuspublishing.com'+b.url:b.url}));}
+function englishBooks(slug,absolute=false){const wilderness=require('./wilderness.cjs');return require('./index.cjs').englishBooks.filter(b=>b.author===slug&&(!wilderness.commissioned.includes(slug)||wilderness.live(b))).map(b=>({...b,url:absolute?'https://aeternuspublishing.com'+b.url:b.url}));}
+function furtherEditions(slug){const catalog=require('./index.cjs');return require('./wilderness.cjs').further(slug,catalog.englishBooks,catalog.german.books);}
 function profileSchema(world,origin,route){return {'@context':'https://schema.org','@type':'ProfilePage',name:world.name,inLanguage:world.lang,url:origin+route,mainEntity:{'@type':'Person',name:world.name,description:world.intro}};}
-function plugin(config){config.addFilter('authorWorld',get);config.addFilter('worldEnglishBooks',englishBooks);config.addFilter('authorWorldSchema',profileSchema);}
+function plugin(config){config.addFilter('authorWorld',get);config.addFilter('worldEnglishBooks',englishBooks);config.addFilter('authorWorldSchema',profileSchema);config.addFilter('wildernessFurtherEditions',furtherEditions);}
 module.exports={profiles,get,plugin};

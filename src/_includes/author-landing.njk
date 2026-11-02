@@ -65,6 +65,7 @@
   <div class="author-facts">{% for f in a.facts %}<p>{{ f[0] }}<strong>{{ f[1] | safe }}</strong></p>{% endfor %}</div>
   <p>{{ a.editionsNote | safe }}</p>{% if a.sisterUrl %}<a href="{{ "/buecher/" if a.sisterUrl == "/autoren/" else a.sisterUrl }}">{{ labels.catalogue if a.sisterUrl == "/autoren/" else a.sisterLabel }} →</a>{% endif %}
 </div></details></section>{% endif %}
+{% if world and authorLocale == 'en' %}{% include "editorial/author-worlds/components/further-editions.njk" %}{% endif %}
 </main>
 <footer class="colophon"><div class="shell footer-bottom"><span>© AETERNUS Verlag</span><a href="/impressum/">{{ labels.legal }}</a><a href="/datenschutz/">{{ labels.privacy }}</a><a href="mailto:kontakt@aeternus-verlag.de">kontakt@aeternus-verlag.de</a></div></footer>
 <script>document.addEventListener('click',function(event){var link=event.target.closest('a[href^="#details-"]');if(link){var detail=document.getElementById(link.getAttribute('href').slice(1));if(detail)detail.open=true;}});</script>
