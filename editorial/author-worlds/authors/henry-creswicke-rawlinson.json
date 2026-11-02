@@ -1,0 +1,321 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "henry-creswicke-rawlinson",
+  "name": "Henry Creswicke Rawlinson",
+  "dates": "1810–1895",
+  "depth": "expanded",
+  "editionStatus": "IN_PREPARATION",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "MEMOIR1898",
+      "title": "George Rawlinson, A Memoir of Major-General Sir Henry Creswicke Rawlinson (London: Longmans, Green, and Co., 1898), with an introduction by Field-Marshal Lord Roberts; Internet Archive scan memoirofmajorgen00rawlrich (University of California Libraries)",
+      "url": "https://archive.org/details/memoirofmajorgen00rawlrich",
+      "checked": "2026-11-03",
+      "note": "Read in the full text for the facts used here: birth 11 April 1810 at Chadlington; landing at Bombay 27 October 1827; Persia 1833–1839 and Kermanshah; Behistun copying 1835–1837; Political Agent at Kandahar 1839–1842; Baghdad 1844–1849 and 1851–1855; civil K.C.B. 4 February 1856; East India Company director, Reigate and first Council of India; Tehran November 1859 to May 1860; marriage 2 September 1862; Frome 1865; Council of India for life 1868; President of the Royal Geographical Society 1871; baronetcy 1891; death on 5 March 1895. Leaf 8 carries the frontispiece used here. Written by the subject's brother; read as a family memoir."
+    },
+    {
+      "id": "IA1875",
+      "title": "Internet Archive · England and Russia in the East (London: John Murray, 1875), Cornell University Library scan cu31924023001039",
+      "url": "https://archive.org/details/cu31924023001039",
+      "checked": "2026-11-03",
+      "note": "First-edition witness of the AETERNUS edition HCR_001 (sixteen preliminary pages, 393 numbered pages, folding map)."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Rawlinson was born at Chadlington, Oxfordshire, on 11 April 1810 and died in London on 5 March 1895, aged eighty-four.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He landed at Bombay as a cadet of the East India Company on 27 October 1827, at the age of seventeen.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "From 1833 he was one of the Indian Army officers sent to reorganise the Shah's troops in Persia, where he remained until 1839 and held civil and military duties in the province of Kermanshah.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In Persia he began copying the rock inscriptions of Hamadan and Behistun (1835–1837); his edition and translation of the Persian inscription at Behistun established his reputation among European scholars.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "During the Afghan War of 1839–1842 he served as Political Agent at Kandahar, in daily contact with General Nott.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He served as Political Agent in Turkish Arabia at Baghdad from 1844 to 1849 and again from 1851 to 1855, continuing cuneiform research and taking over the Nineveh explorations.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was created a civil K.C.B. on 4 February 1856, became a Crown director of the East India Company, was elected Member of Parliament for Reigate and sat on the first Council of India in 1858.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was Her Majesty's Envoy and Minister at Tehran from November 1859 to May 1860 and resigned the post.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He married Louisa Caroline Harcourt Seymour on 2 September 1862; she died in 1889.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was elected Member of Parliament for Frome in 1865, was reappointed to the Council of India as a life member in 1868 and was elected President of the Royal Geographical Society in 1871.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    },
+    {
+      "id": "F11",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "England and Russia in the East was published by John Murray in London in 1875.",
+      "sources": [
+        "MEMOIR1898",
+        "IA1875"
+      ]
+    },
+    {
+      "id": "F12",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was created a baronet in 1891.",
+      "sources": [
+        "MEMOIR1898"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Date of the Holl portrait",
+      "decision": "The 1898 caption gives Rawlinson's age as seventy-five, which places the painting about 1885. The painting's own date has not been independently established; the caption on the page says c. 1885."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Character of the main source",
+      "decision": "The 1898 Memoir was written by his brother George Rawlinson and is a family account. It is used for dates, offices and honours it states expressly; its judgements of character are not adopted as facts."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Later honours and later presidencies",
+      "decision": "Honours and offices not stated in the Memoir passages read for this page (for example a later grade of the Order of the Bath or the exact terms of later presidencies) are not shown until checked against dated official records."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "England and Russia in the East is presented as the argument of a soldier-political officer and member of the Council of India in the public controversy over the Russian advance, not as an impartial history of Central Asia."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Prose follows the HCR_001 publisher's paratext V1.2 of 2 November 2026 (preface and coda) in substance; dates and offices checked against the 1898 Memoir. No invented quotation."
+  },
+  "honours": [
+    {
+      "name": "Order of the Bath · Knight Commander (K.C.B., civil division)",
+      "year": "1856",
+      "category": "order",
+      "sources": [
+        "MEMOIR1898"
+      ],
+      "note": {
+        "en": "Conferred on 4 February 1856, after his return from Baghdad."
+      }
+    },
+    {
+      "name": "Baronet of the United Kingdom",
+      "year": "1891",
+      "category": "title",
+      "sources": [
+        "MEMOIR1898"
+      ],
+      "note": {
+        "en": "Among the last honours conferred on him by the Crown."
+      }
+    }
+  ],
+  "timeline": [
+    [
+      "1810",
+      "Born on 11 April at Chadlington, Oxfordshire",
+      ""
+    ],
+    [
+      "1827",
+      "Lands at Bombay as a cadet of the East India Company",
+      ""
+    ],
+    [
+      "1833–1839",
+      "Persia: reorganising the Shah's troops; Kermanshah; copying the Behistun inscription",
+      ""
+    ],
+    [
+      "1839–1842",
+      "Political Agent at Kandahar during the Afghan War",
+      ""
+    ],
+    [
+      "1844–1855",
+      "Political Agent at Baghdad, with leave in England 1849–1851",
+      ""
+    ],
+    [
+      "1856",
+      "Civil K.C.B.",
+      ""
+    ],
+    [
+      "1858",
+      "Member for Reigate; member of the first Council of India",
+      ""
+    ],
+    [
+      "1859–1860",
+      "Envoy and Minister at Tehran",
+      ""
+    ],
+    [
+      "1865",
+      "Member for Frome",
+      ""
+    ],
+    [
+      "1868",
+      "Council of India for life",
+      ""
+    ],
+    [
+      "1871",
+      "President of the Royal Geographical Society",
+      ""
+    ],
+    [
+      "1875",
+      "England and Russia in the East published by John Murray",
+      ""
+    ],
+    [
+      "1891",
+      "Created a baronet",
+      ""
+    ],
+    [
+      "1895",
+      "Dies in London on 5 March",
+      ""
+    ]
+  ],
+  "locales": {
+    "en": {
+      "tagline": "Soldier, envoy and decipherer of Behistun, who warned of the Russian advance on India.",
+      "intro": "Major-General Sir Henry Creswicke Rawlinson, Bart., K.C.B. (1810–1895), served in Persia and Afghanistan, copied the trilingual inscription of Darius on the rock of Behistun and, as a member of the Council of India, argued in 1875 that the security of India was being decided far beyond its frontier.",
+      "orientation": "His book collects the papers in which a soldier-political officer, scholar and member of the Council of India set out the Russian advance across Central Asia, the position of Persia and Afghanistan, and the measures he thought Britain would have to take.",
+      "originHeading": "Oxfordshire, Bombay and Persia",
+      "careerHeading": "Kandahar, Baghdad, Tehran and the India Council",
+      "origin": [
+        "Rawlinson was born at Chadlington, Oxfordshire, on 11 April 1810. At seventeen he sailed for India as a cadet of the East India Company and landed at Bombay on 27 October 1827. He learned Persian well enough to be chosen in 1833 for the small body of Indian Army officers sent to reorganise the Shah's troops.",
+        "In Persia he commanded bodies of Persian troops, carried civil duties in the province of Kermanshah and began copying the rock inscriptions of Hamadan and Behistun. The great inscription of Darius, cut high on a cliff face, became the work of his life."
+      ],
+      "career": [
+        "When relations with Persia were broken off over Herat he returned to India, and in the Afghan War of 1839–1842 he served as Political Agent at Kandahar beside General Nott. He then declined more lucrative offices and asked for the political agency at Baghdad, where he worked from 1844 to 1849 and again from 1851 to 1855 on the cuneiform records and the excavations of Assyria.",
+        "Back in England he was created a civil K.C.B. in 1856, became a director of the East India Company, entered Parliament for Reigate and sat on the first Council of India in 1858. In 1859 and 1860 he served as Envoy and Minister at Tehran, resigning when control of the mission passed from the India Office to the Foreign Office. He sat for Frome from 1865, returned to the Council of India for life in 1868 and was elected President of the Royal Geographical Society in 1871. He was created a baronet in 1891 and died in London on 5 March 1895."
+      ],
+      "literature": [
+        "England and Russia in the East (1875) gathers papers from the Calcutta Review and the Quarterly Review with chapters prepared for the volume. Rawlinson describes the Russian advance from the Caspian towards the Oxus, the position of Persia and Afghanistan, and the measures he thought necessary for the defence of India, including the possible occupation of Herat and Kandahar and a share of the cost for the Imperial Treasury. The folding map of Central Asia, coloured under his own responsibility, belongs to the argument."
+      ],
+      "legacy": "Rawlinson insisted that an empire could lose the security of its frontiers long before an enemy crossed them, and he brought the knowledge of the frontier into the councils where its fate was decided.",
+      "bridge": "England and Russia in the East: A Series of Papers on the Political and Geographical Condition of Central Asia. An English AETERNUS edition of the first printing of 1875 is in preparation in the Green Series.",
+      "description": "Sir Henry Creswicke Rawlinson (1810–1895), soldier, envoy, decipherer of Behistun and author of England and Russia in the East (1875). An English AETERNUS edition is in preparation.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ]
+    }
+  },
+  "rank": {
+    "en": "Major-General Sir Henry Creswicke Rawlinson, Bart., K.C.B."
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-henry-creswicke-rawlinson-1898-holl.jpg",
+    "caption": {
+      "en": "Sir Henry Creswicke Rawlinson at the age of seventy-five, c. 1885. After the oil painting by Frank Holl."
+    },
+    "rights": "Photomechanical reproduction (Walker & Boutall) of an oil painting by Frank Holl (1845–1888), published as the frontispiece of George Rawlinson, A Memoir of Major-General Sir Henry Creswicke Rawlinson (London, 1898); painter and publication in the public domain.",
+    "provenance": "https://archive.org/details/memoirofmajorgen00rawlrich (leaf 8, caption 'Sir Henry C. Rawlinson at the age of 75 from an oil painting by Frank Holl R.A.'); source PNG SHA-256 fdfb4466d60db1e85198dd3b07381c843ee5e912f07c480101ad35783bb7528b.",
+    "processing": "Cropped to the printed image field (6 px inside the plate edge) and saved as JPEG; no retouching, colour change, upscaling or generative restoration. The sepia tone is that of the scan.",
+    "sha256": "9e6b0297a8f67af93a2be5afe45880e919875086ace4b481b9f52f6260b74919"
+  }
+}
