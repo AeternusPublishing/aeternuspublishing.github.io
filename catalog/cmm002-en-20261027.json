@@ -1,0 +1,133 @@
+{
+  "id": "en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+  "work_id": "CMM_002",
+  "language": "en",
+  "title": "Wanderings in Balochistan (Annotated)",
+  "subtitle": "",
+  "author": "charles-metcalfe-macgregor",
+  "authorName": "Charles Metcalfe MacGregor",
+  "contributors": [],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "Wanderings in Balochistan",
+  "original_publication_year": 1882,
+  "isbn": {
+    "paperback": "9783676052221",
+    "hardcover": "9783676052238",
+    "ebook": "9783676052245"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · Amazon",
+      "isbn": "9783676052221",
+      "pages": 348,
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052238",
+      "pages": 350,
+      "platform": "IngramSpark",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "9783676052245",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · Amazon",
+      "isbn": "9783676052221",
+      "pages": 348,
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    },
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052221",
+      "pages": 350,
+      "platform": "IngramSpark",
+      "status": "HOCHGELADEN",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052238",
+      "pages": 350,
+      "platform": "IngramSpark",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "9783676052245",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "Across Balochistan, the next well can matter more than the next frontier.",
+    "long": "Across Balochistan, the next well can matter more than the next frontier.\n\nCharles Metcalfe MacGregor follows the tracks inland from the coast, through ravines, stony plains and mountain passes. Camels, grazing, local guides and the uncertain supply of water give his journey its daily measure. His eye moves between the appearance of the landscape and the practical question of how it can be crossed.\n\nFirst published in 1882, Wanderings in Balochistan joins a soldier-geographer's travel narrative to detailed descriptions of routes. Behind its particulars lies the frontier world of the Great Game: Persia, Afghanistan and British India, and the growing strategic importance of geographical knowledge.\n\nMacGregor's observations restore human scale to that wide map. The country emerges one march, one ridge and one negotiation at a time."
+  },
+  "blurb": [
+    "Across Balochistan, the next well can matter more than the next frontier.",
+    "Charles Metcalfe MacGregor follows the tracks inland from the coast, through ravines, stony plains and mountain passes. Camels, grazing, local guides and the uncertain supply of water give his journey its daily measure. His eye moves between the appearance of the landscape and the practical question of how it can be crossed.",
+    "First published in 1882, Wanderings in Balochistan joins a soldier-geographer&#x27;s travel narrative to detailed descriptions of routes. Behind its particulars lies the frontier world of the Great Game: Persia, Afghanistan and British India, and the growing strategic importance of geographical knowledge.",
+    "MacGregor&#x27;s observations restore human scale to that wide map. The country emerges one march, one ridge and one negotiation at a time."
+  ],
+  "features": [
+    "New introduction on the purpose of the 1877 reconnaissance",
+    "Author biography and a tribute to Captain Lockwood",
+    "New overview map of the routes, January–March 1877",
+    "Selected original illustrations and views then and now",
+    "Glossary and place-name concordance"
+  ],
+  "cover": "/assets/images/cover-cmm002-en-v12-20261027.jpg",
+  "first_published": "W. H. Allen & Co., London, 1882",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "NOT_SUBMITTED",
+    "ingram": "HOCHGELADEN"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-charles-metcalfe-macgregor-wanderings-in-balochistan/",
+  "authorUrl": "/authors/charles-metcalfe-macgregor/",
+  "seriesName": "GREEN SERIES",
+  "seriesColor": "#334d3b",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback, hardcover and Kindle.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · GREEN SERIES · English-language edition",
+      "sample": "Across Balochistan, the next well can matter more than the next frontier."
+    }
+  },
+  "provenance": "CMM_002/07_PAKETE/FINAL_V12_20261027/METADATEN/KDP_PAPERBACK.json",
+  "cover_sha256": "d6ec387e3d6460c8e4de6649f4c0289ee43f38cf84bc325cc6ca181e95912951",
+  "upload_package": {
+    "name": "FINAL_V12_20261027",
+    "preflight_sha256": "7d49b2384485977ec535a9b5bdec8453ca43e65298292b9577d44d4ce40235fc",
+    "paperback_platform_id": "CSS9776495",
+    "availability_rule": "COMING_SOON until LIVE observed per platform; Ingram paperback upload blocked by font validation."
+  }
+}

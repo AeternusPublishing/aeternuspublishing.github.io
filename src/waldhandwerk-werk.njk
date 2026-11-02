@@ -1,0 +1,26 @@
+---
+layout: editorial-base.njk
+lang: de
+section: books
+title: Das Buch des Waldhandwerks und der Indianerweisheit · AETERNUS Verlag
+description: Die beiden Bände von Ernest Thompson Setons Buch des Waldhandwerks und der Indianerweisheit bei AETERNUS.
+permalink: /buecher/waldhandwerk-und-indianerweisheit/index.html
+---
+<main id="main">
+  <div class="shell breadcrumb"><a href="/">Startseite</a><span>/</span><a href="/buecher/">Bücher</a><span>/</span><span>Waldhandwerk und Indianerweisheit</span></div>
+  <section class="shell paper-section">
+    <p class="kicker">Ernest Thompson Seton · Bernstein</p>
+    <h1>Das Buch des Waldhandwerks und der Indianerweisheit</h1>
+    <p>Das Werk in zwei Bänden. Hier finden Sie beide Bände und die verfügbaren Ausgaben.</p>
+    <a class="text-link" href="/autoren/ernest-thompson-seton/">Leben und Werk des Autors →</a>
+  </section>
+  {% for book in setonWorkQr.waldhandwerk.editions %}
+  <section class="shell book-detail" aria-labelledby="band-{{ loop.index }}">
+    <div class="detail-art"><a href="{{ book.url }}"><picture><source type="image/avif" srcset="/assets/editorial/{{ book.cover }}-720.avif"><source type="image/webp" srcset="/assets/editorial/{{ book.cover }}-720.webp"><img src="/assets/images/{{ book.cover }}-fallback.jpg" alt="Umschlag: {{ book.title }}" width="400" height="600" loading="lazy"></picture></a></div>
+    <div class="detail-copy"><p class="kicker">Band {{ loop.index }}</p><h2 id="band-{{ loop.index }}">{{ book.title }}</h2><a class="text-link" href="{{ book.url }}">Den Band kennenlernen →</a>
+      <div class="formats">{% for format in book.formats %}<div class="format-row"><div><strong>{{ format.name }}</strong>{% if format.isbn %}<span>ISBN {{ format.isbn }}</span>{% elif format.asin %}<span>ASIN {{ format.asin }}</span>{% endif %}</div><div>{% if format.price %}<strong>{{ format.price }}</strong>{% endif %}{% if format.url %}<a href="{{ format.url }}" target="_blank" rel="noopener noreferrer">Bei Amazon ↗</a>{% endif %}</div></div>{% endfor %}</div>
+    </div>
+  </section>
+  {% endfor %}
+  <section class="shell related-section"><div class="section-heading"><div><p class="kicker">Weiterlesen</p><h2>Weitere Bücher von Seton.</h2></div><a class="text-link" href="/autoren/ernest-thompson-seton/">Alle Bücher des Autors →</a></div><div class="book-grid">{% for work in setonWorkQr.works %}{% if work.id != 'ets011' %}{% set item = work.editions[0] %}{% include 'book-card.njk' %}{% endif %}{% endfor %}</div></section>
+</main>

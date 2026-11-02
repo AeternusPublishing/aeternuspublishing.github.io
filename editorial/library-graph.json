@@ -2376,6 +2376,25 @@
       }
     },
     {
+      "id": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+      "type": "book",
+      "label": {
+        "de": "Wanderings in Balochistan (Annotated)",
+        "en": "Wanderings in Balochistan (Annotated)"
+      },
+      "author": "Charles Metcalfe MacGregor",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm002-en-v12-20261027.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-wanderings-in-balochistan/",
+        "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-wanderings-in-balochistan/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Across Balochistan, the next well can matter more than the next frontier."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3152,6 +3171,14 @@
       }
     },
     {
+      "id": "author:Charles Metcalfe MacGregor",
+      "type": "author",
+      "label": {
+        "de": "Charles Metcalfe MacGregor",
+        "en": "Charles Metcalfe MacGregor"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3651,6 +3678,11 @@
     },
     {
       "source": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
       "target": "series:gruen",
       "type": "series"
     },
@@ -4488,6 +4520,11 @@
     {
       "source": "book:en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
       "target": "author:Frederick Sleigh Roberts",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+      "target": "author:Charles Metcalfe MacGregor",
       "type": "author"
     },
     {
