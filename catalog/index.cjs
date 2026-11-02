@@ -242,6 +242,9 @@ authorsEn.push(...require('./wilderness-authors.cjs'));
 // SBS_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./sbs001-author-20261102.cjs'));
 
+// HCR_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
+authorsEn.push(require('./hcr001-author-20261103.cjs'));
+
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
