@@ -46,7 +46,7 @@
       "label": "Paperback · IngramSpark",
       "isbn": "978-3-67605-251-1",
       "platform": "IngramSpark",
-      "status": "FREIGEGEBEN",
+      "status": "EINGEREICHT",
       "links": [],
       "pages": 352
     },
@@ -87,7 +87,7 @@
   },
   "distribution_status": {
     "amazon": "FREIGEGEBEN",
-    "ingram": "FREIGEGEBEN"
+    "ingram": "EINGEREICHT"
   },
   "commerce": {
     "shopify_product_id": null,
@@ -110,6 +110,7 @@
     "name": "UPLOADPAKET_EN_KDP_V4_20261103",
     "preflight_sha256": "3264d10387c27159ab31083380016d0d2c110484f82c40035eaa8e581c3150bf",
     "ingram_preflight_sha256": "a58cab14e7ccdd52869d4600bc5b71c11d465662d5dd18cf2c95c6e79fcb5f5d",
-    "availability_rule": "Retailer links and AVAILABLE require observed LIVE for each platform."
+    "availability_rule": "Retailer links and AVAILABLE require observed LIVE for each platform.",
+    "ingram_title_id": "CSS9794147"
   }
 }
