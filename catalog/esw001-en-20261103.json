@@ -1,0 +1,113 @@
+{
+  "id": "en-elihu-stewart-down-the-mackenzie",
+  "work_id": "ESW_001",
+  "language": "en",
+  "title": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)",
+  "subtitle": "",
+  "author": "elihu-stewart",
+  "authorName": "Elihu Stewart",
+  "contributors": [],
+  "series": "bernstein",
+  "series_number": null,
+  "original_title": "Down the Mackenzie and Up the Yukon in 1906",
+  "original_publication_year": 1913,
+  "isbn": {
+    "paperback": "978-3-67605-243-6",
+    "hardcover": null,
+    "ebook": "978-3-67605-254-2"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-243-6",
+      "platform": "KDP",
+      "status": "HOCHGELADEN",
+      "links": [],
+      "pages": 204
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-254-2",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-243-6",
+      "platform": "KDP",
+      "status": "HOCHGELADEN",
+      "links": [],
+      "pages": 204
+    },
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-243-6",
+      "platform": "IngramSpark",
+      "status": "FREIGEGEBEN",
+      "links": [],
+      "pages": 206
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-254-2",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast.",
+    "long": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast.\n\nA surveyor and forester, Stewart watched the means by which people moved, worked and made their homes along the route. Timber, soil and the depth of a channel belonged to the same landscape as a trading post, a conversation or an evening camp. His narrative draws the reader into these immediate circumstances, then gathers his observations into chapters on the country and its resources.\n\nBased on the report he submitted after his return, this is an account of northern travel shaped by a working observer's attention. The edition presents the 1913 text with recorded corrections, the original photographs and route map, and explanatory editorial material."
+  },
+  "blurb": [
+    "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast.",
+    "A surveyor and forester, Stewart watched the means by which people moved, worked and made their homes along the route. Timber, soil and the depth of a channel belonged to the same landscape as a trading post, a conversation or an evening camp. His narrative draws the reader into these immediate circumstances, then gathers his observations into chapters on the country and its resources.",
+    "Based on the report he submitted after his return, this is an account of northern travel shaped by a working observer's attention. The edition presents the 1913 text with recorded corrections, the original photographs and route map, and explanatory editorial material."
+  ],
+  "features": [
+    "Complete text of the 1913 first edition",
+    "Original photographs and route map",
+    "Glossary, author profile and afterword"
+  ],
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1913 first edition</li><li>Original photographs and route map</li><li>Glossary, author profile and afterword</li></ul><p>In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast.</p><p>A surveyor and forester, Stewart watched the means by which people moved, worked and made their homes along the route. Timber, soil and the depth of a channel belonged to the same landscape as a trading post, a conversation or an evening camp. His narrative draws the reader into these immediate circumstances, then gathers his observations into chapters on the country and its resources.</p><p>Based on the report he submitted after his return, this is an account of northern travel shaped by a working observer&#x27;s attention. The edition presents the 1913 text with recorded corrections, the original photographs and route map, and explanatory editorial material.</p>",
+  "cover": "/assets/images/cover-esw001-en-v6-20261103.jpg",
+  "first_published": "1913",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "HOCHGELADEN",
+    "ingram": "FREIGEGEBEN"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-elihu-stewart-down-the-mackenzie/",
+  "authorUrl": "/authors/elihu-stewart/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback and Kindle.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · AMBER SERIES · English-language edition",
+      "sample": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast."
+    }
+  },
+  "provenance": "ESW_001/UPLOADPAKET_EN_V6/METADATEN/KDP_TASCHENBUCH.json",
+  "cover_sha256": "10bcd58349a00f3d58f18237130a98069cbfeadd8183530b46371a716f990589",
+  "upload_package": {
+    "name": "UPLOADPAKET_EN_V6",
+    "preflight_sha256": "4f678b5139ad4d67acca20394a29066d928ea889cd86902915d5feedfc8e118b",
+    "paperback_platform_id": "82C4BWM20ZQ",
+    "availability_rule": "Retailer links and AVAILABLE require observed LIVE for each platform."
+  }
+}

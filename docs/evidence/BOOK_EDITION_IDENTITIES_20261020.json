@@ -6809,6 +6809,86 @@
         "availability": "COMING_SOON",
         "retail_links": "None; no LIVE observation"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-elihu-stewart-down-the-mackenzie",
+      "language": "en",
+      "url": "/books/en-elihu-stewart-down-the-mackenzie/",
+      "front_url": "/assets/images/cover-esw001-en-v6-20261103.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-esw001-en-v6-20261103.jpg",
+          "sha256": "10bcd58349a00f3d58f18237130a98069cbfeadd8183530b46371a716f990589"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn13": "9783676052436",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ESW_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)",
+              "isbn13": "978-3-67605-243-6",
+              "isbn10": "3676052439",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "HOCHGELADEN"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052436",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ESW_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Down the Mackenzie and Up the Yukon in 1906",
+              "isbn13": "978-3-67605-243-6",
+              "isbn10": "3676052439",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052542",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "ESW_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Down the Mackenzie and Up the Yukon in 1906",
+              "isbn13": "978-3-67605-254-2",
+              "isbn10": "3676052544",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-03",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='ESW_001' AND sprache='en'",
+        "projection_sha256": "bbe27e5c407689a1f7abc3eff431a33439f558242aef0a9bad55af6748843fb6",
+        "package_preflight_sha256": "4f678b5139ad4d67acca20394a29066d928ea889cd86902915d5feedfc8e118b",
+        "availability": "COMING_SOON",
+        "retail_links": "None; no LIVE observation"
+      }
     }
   ],
   "additional_pages": [

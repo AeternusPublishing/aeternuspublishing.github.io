@@ -237,6 +237,9 @@ englishBooks.push(...fsr001.books);
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
 englishBooks.push(require('./cmm002-en-20261027.json'));
 
+// ESW_001 V6: released edition announcement; retailer links await observed LIVE.
+englishBooks.push({ ...require('./esw001-en-20261103.json'), seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+
 authorsEn.push(...require('./wilderness-authors.cjs'));
 
 // SBS_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
