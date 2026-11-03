@@ -4612,10 +4612,10 @@
       "title": "The Yemassee (Annotated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-wgs001-en-v6-20261008.jpg",
+      "front_url": "/assets/images/cover-wgs001-en-v8-20261103.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-wgs001-en-v6-20261008.jpg",
+          "path": "src/assets/images/cover-wgs001-en-v8-20261103.jpg",
           "sha256": "66f063210bdb3cfba150e7e508a1c2488ef04dae56d31e9c185f184cec0455bb"
         }
       ],
@@ -4671,7 +4671,15 @@
             }
           ]
         }
-      ]
+      ],
+      "verification": {
+        "utc": "2026-11-03",
+        "source": "decision_wgs001_en_endfreigabe_kdp_v8_ingram_v4_kern_v23_20261103; hash recheck against both generated upload orders",
+        "package_preflight_sha256": "e6d21518a1345ad85a1da86c10f4898fbf16899d15b8a625aec1a1d5df3321bf",
+        "availability": "COMING_SOON",
+        "retail_links": "None; no LIVE observation",
+        "cover_source": "UPLOADPAKET_V8_20261103/WGS001_EN_EBOOK_DECKEL_1600x2400.jpg"
+      }
     },
     {
       "site": "en",
