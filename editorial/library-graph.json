@@ -2395,6 +2395,25 @@
       }
     },
     {
+      "id": "book:en-elihu-stewart-down-the-mackenzie",
+      "type": "book",
+      "label": {
+        "de": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)",
+        "en": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)"
+      },
+      "author": "Elihu Stewart",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-esw001-en-v6-20261103.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-elihu-stewart-down-the-mackenzie/",
+        "en": "https://aeternuspublishing.com/books/en-elihu-stewart-down-the-mackenzie/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3179,6 +3198,14 @@
       }
     },
     {
+      "id": "author:Elihu Stewart",
+      "type": "author",
+      "label": {
+        "de": "Elihu Stewart",
+        "en": "Elihu Stewart"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3684,6 +3711,11 @@
     {
       "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
       "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-elihu-stewart-down-the-mackenzie",
+      "target": "series:bernstein",
       "type": "series"
     },
     {
@@ -4525,6 +4557,11 @@
     {
       "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
       "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-elihu-stewart-down-the-mackenzie",
+      "target": "author:Elihu Stewart",
       "type": "author"
     },
     {
