@@ -2395,6 +2395,25 @@
       }
     },
     {
+      "id": "book:en-richard-jefferies-wood-magic",
+      "type": "book",
+      "label": {
+        "de": "Wood Magic (Annotated)",
+        "en": "Wood Magic (Annotated)"
+      },
+      "author": "Richard Jefferies",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-rje003-en-v4-20261103.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-richard-jefferies-wood-magic/",
+        "en": "https://aeternuspublishing.com/books/en-richard-jefferies-wood-magic/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Bevis has questions to ask the creatures in the garden, and the creatures have a great deal to tell him. A magpie rules a kingdom, birds dispute their rank, and the affairs of the countryside extend far beyond the business visible from the farmhouse door. The boy listens, wanders, interrupts, and discovers how much can happen within the reach of a short expedition."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3687,6 +3706,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-richard-jefferies-wood-magic",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
       "source": "book:de:scouting-for-boys-uebersetzt",
       "target": "book:de:waldhandwerk",
       "type": "curated",
@@ -4525,6 +4549,11 @@
     {
       "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
       "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-richard-jefferies-wood-magic",
+      "target": "author:Richard Jefferies",
       "type": "author"
     },
     {

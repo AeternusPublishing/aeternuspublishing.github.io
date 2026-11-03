@@ -1,0 +1,115 @@
+{
+  "id": "en-richard-jefferies-wood-magic",
+  "work_id": "RJE_003",
+  "language": "en",
+  "title": "Wood Magic (Annotated)",
+  "subtitle": "A Fable",
+  "author": "richard-jefferies",
+  "authorName": "Richard Jefferies",
+  "contributors": [],
+  "series": "bernstein",
+  "series_number": null,
+  "original_title": "Wood Magic: A Fable",
+  "original_publication_year": 1881,
+  "isbn": {
+    "paperback": "978-3-67605-251-1",
+    "hardcover": null,
+    "ebook": "978-3-67605-252-8"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-251-1",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": [],
+      "pages": 351
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-252-8",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-251-1",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": [],
+      "pages": 351
+    },
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-251-1",
+      "platform": "IngramSpark",
+      "status": "FREIGEGEBEN",
+      "links": [],
+      "pages": 352
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-252-8",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "Bevis has questions to ask the creatures in the garden, and the creatures have a great deal to tell him. A magpie rules a kingdom, birds dispute their rank, and the affairs of the countryside extend far beyond the business visible from the farmhouse door. The boy listens, wanders, interrupts, and discovers how much can happen within the reach of a short expedition.",
+    "long": "Bevis has questions to ask the creatures in the garden, and the creatures have a great deal to tell him. A magpie rules a kingdom, birds dispute their rank, and the affairs of the countryside extend far beyond the business visible from the farmhouse door. The boy listens, wanders, interrupts, and discovers how much can happen within the reach of a short expedition.\n\nIn Wood Magic, Richard Jefferies gives familiar birds and beasts voices shaped by their habits and by a lively sense of their own importance. Country observation meets the comedy of government; a hedge or a tree can become the centre of an absorbing dispute. Bevis moves through this populous landscape with the curiosity of a child for whom the brook and the next field still promise discovery.\n\nFirst published in 1881, this fable precedes Jefferies’s Bevis. This edition brings its two original volumes together, retaining their divisions and chapter numbering, with an account of the author, an afterword, and a glossary.\n\nAMBER SERIES · AETERNUS"
+  },
+  "blurb": [
+    "Bevis has questions to ask the creatures in the garden, and the creatures have a great deal to tell him. A magpie rules a kingdom, birds dispute their rank, and the affairs of the countryside extend far beyond the business visible from the farmhouse door. The boy listens, wanders, interrupts, and discovers how much can happen within the reach of a short expedition.",
+    "In Wood Magic, Richard Jefferies gives familiar birds and beasts voices shaped by their habits and by a lively sense of their own importance. Country observation meets the comedy of government; a hedge or a tree can become the centre of an absorbing dispute. Bevis moves through this populous landscape with the curiosity of a child for whom the brook and the next field still promise discovery.",
+    "First published in 1881, this fable precedes Jefferies’s Bevis. This edition brings its two original volumes together, retaining their divisions and chapter numbering, with an account of the author, an afterword, and a glossary.",
+    "AMBER SERIES · AETERNUS"
+  ],
+  "features": [
+    "Complete text of the 1881 first edition, checked against the printed page",
+    "Both original volumes in one book, divisions and chapters retained",
+    "New publisher’s note, author profile and afterword",
+    "Glossary of country words, birds and beasts"
+  ],
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1881 first edition, checked against the printed page</li><li>Both original volumes in one book, divisions and chapters retained</li><li>New publisher’s note, author profile and afterword</li><li>Glossary of country words, birds and beasts</li></ul><p>Bevis has questions to ask the creatures in the garden, and the creatures have a great deal to tell him. A magpie rules a kingdom, birds dispute their rank, and the affairs of the countryside extend far beyond the business visible from the farmhouse door. The boy listens, wanders, interrupts, and discovers how much can happen within the reach of a short expedition.</p><p>In <i>Wood Magic</i>, Richard Jefferies gives familiar birds and beasts voices shaped by their habits and by a lively sense of their own importance. Country observation meets the comedy of government; a hedge or a tree can become the centre of an absorbing dispute. Bevis moves through this populous landscape with the curiosity of a child for whom the brook and the next field still promise discovery.</p><p>First published in 1881, this fable precedes Jefferies’s <i>Bevis</i>. This edition brings its two original volumes together, retaining their divisions and chapter numbering, with an account of the author, an afterword, and a glossary.</p><p>AMBER SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-rje003-en-v4-20261103.jpg",
+  "first_published": "Cassell, Petter, Galpin & Co., London, 1881 · two volumes",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "FREIGEGEBEN",
+    "ingram": "FREIGEGEBEN"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-richard-jefferies-wood-magic/",
+  "authorUrl": "/authors/richard-jefferies/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback and Kindle.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · AMBER SERIES · English-language edition",
+      "sample": "Bevis has questions to ask the creatures in the garden, and the creatures have a great deal to tell him. A magpie rules a kingdom, birds dispute their rank, and the affairs of the countryside extend far beyond the business visible from the farmhouse door. The boy listens, wanders, interrupts, and discovers how much can happen within the reach of a short expedition."
+    }
+  },
+  "provenance": "RJE_003/UPLOADPAKET_EN_KDP_V4_20261103/METADATEN/KDP_METADATA_RJE003_EN_PAPERBACK.json",
+  "cover_sha256": "334595e9f042c98e9ef79e5ddf603f3cabc6bae979e57467793a34c774643441",
+  "upload_package": {
+    "name": "UPLOADPAKET_EN_KDP_V4_20261103",
+    "preflight_sha256": "3264d10387c27159ab31083380016d0d2c110484f82c40035eaa8e581c3150bf",
+    "ingram_preflight_sha256": "a58cab14e7ccdd52869d4600bc5b71c11d465662d5dd18cf2c95c6e79fcb5f5d",
+    "availability_rule": "Retailer links and AVAILABLE require observed LIVE for each platform."
+  }
+}

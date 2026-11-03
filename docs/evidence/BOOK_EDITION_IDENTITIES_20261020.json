@@ -6809,6 +6809,86 @@
         "availability": "COMING_SOON",
         "retail_links": "None; no LIVE observation"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-richard-jefferies-wood-magic",
+      "language": "en",
+      "url": "/books/en-richard-jefferies-wood-magic/",
+      "front_url": "/assets/images/cover-rje003-en-v4-20261103.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rje003-en-v4-20261103.jpg",
+          "sha256": "334595e9f042c98e9ef79e5ddf603f3cabc6bae979e57467793a34c774643441"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn13": "9783676052511",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "9783676052511",
+              "isbn10": "367605251X",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052511",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "9783676052511",
+              "isbn10": "367605251X",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052528",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "9783676052528",
+              "isbn10": "3676052528",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-03",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='RJE_003' AND sprache='en'",
+        "projection_sha256": "c59e4f72dd196f984f26dbc5f3e0bb99b29f28d94a705432388fe86fb2088681",
+        "package_preflight_sha256": "3264d10387c27159ab31083380016d0d2c110484f82c40035eaa8e581c3150bf",
+        "availability": "COMING_SOON",
+        "retail_links": "None; no LIVE observation"
+      }
     }
   ],
   "additional_pages": [
@@ -6833,6 +6913,14 @@
       "url": "/authors/charles-metcalfe-macgregor/",
       "book_ids": [
         "en-charles-metcalfe-macgregor-wanderings-in-balochistan"
+      ]
+    },
+    {
+      "site": "en",
+      "url": "/authors/richard-jefferies/",
+      "book_ids": [
+        "en-richard-jefferies-edition-bevis",
+        "en-richard-jefferies-wood-magic"
       ]
     }
   ]
