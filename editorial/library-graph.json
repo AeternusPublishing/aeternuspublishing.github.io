@@ -2395,6 +2395,25 @@
       }
     },
     {
+      "id": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "type": "book",
+      "label": {
+        "de": "The Defence of India (Annotated)",
+        "en": "The Defence of India (Annotated)"
+      },
+      "author": "Charles Metcalfe MacGregor",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+        "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/"
+      },
+      "summary": {
+        "de": "",
+        "en": "SIMLA, 1884. A British general examines the strategic defence of India during the Great Game."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3687,6 +3706,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:de:scouting-for-boys-uebersetzt",
       "target": "book:de:waldhandwerk",
       "type": "curated",
@@ -4524,6 +4548,11 @@
     },
     {
       "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+      "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
       "target": "author:Charles Metcalfe MacGregor",
       "type": "author"
     },
