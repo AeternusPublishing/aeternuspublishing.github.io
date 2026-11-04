@@ -6938,6 +6938,116 @@
         "availability": "COMING_SOON",
         "retail_links": "None: both Ingram forms submitted, processing, audience correction pending."
       }
+    },
+    {
+      "site": "de",
+      "id": "der-abenteuerliche-simplicissimus",
+      "language": "de",
+      "url": "/buecher/der-abenteuerliche-simplicissimus/",
+      "front_url": "/assets/images/cover-hjg001-de-ingram-v3-20261104-fallback.jpg",
+      "primary_isbn13": "9783676052399",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hjg001-de-ingram-v3-20261104.webp",
+          "sha256": "940439c3075b57897fca20705341de329ef09520685c42fe6985af3d5099ca3d"
+        },
+        {
+          "path": "src/assets/images/cover-hjg001-de-ingram-v3-20261104-fallback.jpg",
+          "sha256": "947c76345a753a75f77ce54d9232ac6a6a1f20d69ee3c3bf3a81d9cfdd9faa34"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676052399",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "HJG_001|de|ingram_paperback",
+              "produkt_id": "HJG_001|de|taschenbuch",
+              "ausgabe_id": "HJG_001|de",
+              "werk_id": "HJG_001",
+              "werk_kanon": "HJG_001",
+              "werk_namensraum": null,
+              "sprache": "de",
+              "titel": "Der abenteuerliche Simplicissimus (Kommentiert)",
+              "autor": "Hans Jakob Christoffel von Grimmelshausen",
+              "produktform": "taschenbuch",
+              "manifestation": "ingram_paperback",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "V3_EINGEREICHT_20261104_CSS9795020",
+              "isbn13": "978-3-67605-239-9",
+              "isbn13_ziffern": "9783676052399",
+              "isbn10": "3676052390",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "HJG_001",
+              "isbn_register_manifestation": "kdp_paperback_6x9",
+              "isbn_zuweisungsdatum": "2026-10-28",
+              "asin": null,
+              "preis_betrag": 24.99,
+              "preis_waehrung": "EUR",
+              "seitenzahl": 684,
+              "stand_utc": "2026-11-04T19:37:08Z",
+              "befund_stufe": "ROT",
+              "befund_codes": [
+                "BRA-R06"
+              ],
+              "befund_text": "dieselbe Nummer auf verschiedenen Ausgaben: 978-3-67605-239-9: HJG_001|de|ingram_paperback, HJG_HANS_JAKOB_CHRISTOFFEL_VON_GRIMMELSHAUSEN/HJG_001|de|kdp_paperback",
+              "befunde": [
+                {
+                  "code": "BRA-R06",
+                  "stufe": "ROT",
+                  "text": "dieselbe Nummer auf verschiedenen Ausgaben: 978-3-67605-239-9: HJG_001|de|ingram_paperback, HJG_HANS_JAKOB_CHRISTOFFEL_VON_GRIMMELSHAUSEN/HJG_001|de|kdp_paperback"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052610",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "HJG_001|de|ingram_hardcover",
+              "produkt_id": "HJG_001|de|hardcover",
+              "ausgabe_id": "HJG_001|de",
+              "werk_id": "HJG_001",
+              "werk_kanon": "HJG_001",
+              "werk_namensraum": null,
+              "sprache": "de",
+              "titel": "Der abenteuerliche Simplicissimus (Kommentiert)",
+              "autor": "Hans Jakob Christoffel von Grimmelshausen",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "V3_EINGEREICHT_20261104_CSS9797791",
+              "isbn13": "978-3-67605-261-0",
+              "isbn13_ziffern": "9783676052610",
+              "isbn10": "3676052617",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "HJG_001",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-11-03",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "EUR",
+              "seitenzahl": 684,
+              "stand_utc": "2026-11-04T20:13:03Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "additional_pages": [

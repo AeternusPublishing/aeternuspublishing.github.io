@@ -1054,6 +1054,25 @@
       }
     },
     {
+      "id": "book:de:der-abenteuerliche-simplicissimus",
+      "type": "book",
+      "label": {
+        "de": "Der abenteuerliche Simplicissimus (Kommentiert)",
+        "en": "Der abenteuerliche Simplicissimus (Kommentiert)"
+      },
+      "author": "Hans Jakob Christoffel von Grimmelshausen",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hjg001-de-ingram-v3-20261104.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/der-abenteuerliche-simplicissimus/",
+        "en": "https://aeternus-verlag.de/buecher/der-abenteuerliche-simplicissimus/"
+      },
+      "summary": {
+        "de": "Diese AETERNUS-Ausgabe erschließt das monumentale Werk in einer behutsam modernisierten, klangvollen Lesefassung, begleitet von einer eigens geschaffenen Folge historisch fundierter Bildtafeln.",
+        "en": ""
+      }
+    },
+    {
       "id": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "type": "book",
       "label": {
@@ -3001,6 +3020,14 @@
       }
     },
     {
+      "id": "author:Hans Jakob Christoffel von Grimmelshausen",
+      "type": "author",
+      "label": {
+        "de": "Hans Jakob Christoffel von Grimmelshausen",
+        "en": "Hans Jakob Christoffel von Grimmelshausen"
+      }
+    },
+    {
       "id": "author:George Robert Gleig",
       "type": "author",
       "label": {
@@ -3407,6 +3434,11 @@
     {
       "source": "book:de:the-white-company-band-iii",
       "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:der-abenteuerliche-simplicissimus",
+      "target": "series:anthrazit",
       "type": "series"
     },
     {
@@ -4258,6 +4290,11 @@
     {
       "source": "book:de:the-white-company-band-iii",
       "target": "author:Arthur Conan Doyle",
+      "type": "author"
+    },
+    {
+      "source": "book:de:der-abenteuerliche-simplicissimus",
+      "target": "author:Hans Jakob Christoffel von Grimmelshausen",
       "type": "author"
     },
     {
