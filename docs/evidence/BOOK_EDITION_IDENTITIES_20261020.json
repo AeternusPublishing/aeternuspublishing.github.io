@@ -6809,6 +6809,73 @@
         "availability": "COMING_SOON",
         "retail_links": "None; no LIVE observation"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-charles-metcalfe-macgregor-the-defence-of-india",
+      "url": "/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+      "title": "The Defence of India (Annotated)",
+      "language": "en",
+      "primary_isbn13": "9783676052375",
+      "front_url": "/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cmm001-en-v6-20261104.jpg",
+          "sha256": "3b349aba4c78b7ccd3928cae0387455456fc65148d379d8839da26ca0fe65c63"
+        },
+        {
+          "path": "src/assets/images/back-cmm001-en-v6-20261104.jpg",
+          "sha256": "c721e96c77b605334fb16b65ff71dcc992fba9560919f1691b5d940adcf3e6d0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052375",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-237-5",
+              "isbn10": "3676052374",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052382",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-238-2",
+              "isbn10": "3676052382",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "EINGEREICHT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-04",
+        "source": "aeternus.py buchregister abfrage; CMM001_UPLOAD_20261104/REGISTER_WEB_QUELLE.json",
+        "projection_sha256": "4df3d5df92a5dfa1b61e99a9615ee27aa3043b07ee7cdb1552ade07ad3d9ac5a",
+        "package_preflight_sha256": "24a5f384d76c25b5d39b40c274b1a8873080458d518b39b6f5380dcd1dadae20",
+        "availability": "COMING_SOON",
+        "retail_links": "None; hardcover EINGEREICHT, paperback BLOCKIERT. No LIVE observation."
+      }
     }
   ],
   "additional_pages": [
@@ -6832,7 +6899,8 @@
       "site": "en",
       "url": "/authors/charles-metcalfe-macgregor/",
       "book_ids": [
-        "en-charles-metcalfe-macgregor-wanderings-in-balochistan"
+        "en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+        "en-charles-metcalfe-macgregor-the-defence-of-india"
       ]
     }
   ]

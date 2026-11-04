@@ -9,6 +9,7 @@ const definitions = [
     url: `${greenBase}british-empire/`,
     intro: 'First-hand accounts of British campaigns, command and the people caught in the reach of empire.',
     bookIds: [
+      'en-charles-metcalfe-macgregor-the-defence-of-india',
       'en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i',
       'en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii',
       'en-ian-hamilton-gallipoli-diary-volume-i',
