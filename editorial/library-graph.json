@@ -2414,6 +2414,25 @@
       }
     },
     {
+      "id": "book:en-charles-brockden-brown-wieland-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Wieland (Illustrated)",
+        "en": "Wieland (Illustrated)"
+      },
+      "author": "Charles Brockden Brown",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cbb002-en-v2-20261104.png",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-brockden-brown-wieland-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-charles-brockden-brown-wieland-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "On a quiet estate above the Schuylkill, a brother and sister live among books, music and friends. Then a voice begins to speak where no speaker can be seen."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3711,6 +3730,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-charles-brockden-brown-wieland-illustrated",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
       "source": "book:de:scouting-for-boys-uebersetzt",
       "target": "book:de:waldhandwerk",
       "type": "curated",
@@ -4554,6 +4578,11 @@
     {
       "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
       "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-brockden-brown-wieland-illustrated",
+      "target": "author:Charles Brockden Brown",
       "type": "author"
     },
     {

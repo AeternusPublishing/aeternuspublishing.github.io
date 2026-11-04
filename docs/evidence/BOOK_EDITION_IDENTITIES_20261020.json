@@ -6876,6 +6876,68 @@
         "availability": "COMING_SOON",
         "retail_links": "None; hardcover EINGEREICHT, paperback BLOCKIERT. No LIVE observation."
       }
+    },
+    {
+      "site": "en",
+      "id": "en-charles-brockden-brown-wieland-illustrated",
+      "url": "/books/en-charles-brockden-brown-wieland-illustrated/",
+      "title": "Wieland (Illustrated)",
+      "language": "en",
+      "primary_isbn13": "9783676052191",
+      "front_url": "/assets/images/cover-cbb002-en-v2-20261104.png",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cbb002-en-v2-20261104.png",
+          "sha256": "5a7ce92a836a375cf69db1b5cc64d81c3ae16f815ab9abc28e27a7648762cb22"
+        },
+        {
+          "path": "src/assets/images/back-cbb002-en-v2-20261104.png",
+          "sha256": "46cec293fb2fc68e7438cbdc6d593abd4bc8537b44124d4ccc38edbe4e6e5740"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052191",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052191",
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052207",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052207",
+              "manifestation": "ingram_hardcover",
+              "status": "BLOCKIERT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-04",
+        "source": "aeternus.py buchregister isbn CBB_002; package metadata and platform account read directly",
+        "package_preflight_sha256": "c7cbd184467d0664e318b22115065f973695bc68f03c2a9e0364aecf11e1a0dc",
+        "availability": "COMING_SOON",
+        "retail_links": "None: both Ingram forms submitted, processing, audience correction pending."
+      }
     }
   ],
   "additional_pages": [

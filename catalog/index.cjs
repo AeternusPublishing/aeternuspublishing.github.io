@@ -237,6 +237,8 @@ englishBooks.push(...fsr001.books);
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
 englishBooks.push(require('./cmm002-en-20261027.json'));
 englishBooks.push(require('./cmm001-en-20261104.json'));
+// Wieland: approved V2 edition submitted; retail pending and no buying links.
+englishBooks.push(require('./cbb002-en-20261104.json'));
 
 authorsEn.push(...require('./wilderness-authors.cjs'));
 
