@@ -21,8 +21,13 @@
       "label": "Paperback · Amazon",
       "isbn": "978-3-67605-243-6",
       "platform": "KDP",
-      "status": "HOCHGELADEN",
-      "links": [],
+      "status": "LIVE",
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com/dp/3676052439"
+        }
+      ],
       "pages": 204
     },
     "ebook": {
@@ -38,15 +43,20 @@
       "label": "Paperback · Amazon",
       "isbn": "978-3-67605-243-6",
       "platform": "KDP",
-      "status": "HOCHGELADEN",
-      "links": [],
+      "status": "LIVE",
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.com/dp/3676052439"
+        }
+      ],
       "pages": 204
     },
     {
       "label": "Paperback · IngramSpark",
       "isbn": "978-3-67605-243-6",
       "platform": "IngramSpark",
-      "status": "FREIGEGEBEN",
+      "status": "EINGEREICHT",
       "links": [],
       "pages": 206
     },
@@ -76,16 +86,16 @@
   "cover": "/assets/images/cover-esw001-en-v6-20261103.jpg",
   "first_published": "1913",
   "publication_date": null,
-  "availability": "COMING_SOON",
+  "availability": "AVAILABLE",
   "pricing": {},
   "links": {
     "shop": null,
-    "amazon": null,
+    "amazon": "https://www.amazon.com/dp/3676052439",
     "ingram": null
   },
   "distribution_status": {
-    "amazon": "HOCHGELADEN",
-    "ingram": "FREIGEGEBEN"
+    "amazon": "LIVE",
+    "ingram": "EINGEREICHT"
   },
   "commerce": {
     "shopify_product_id": null,
@@ -94,8 +104,8 @@
   "url": "/books/en-elihu-stewart-down-the-mackenzie/",
   "authorUrl": "/authors/elihu-stewart/",
   "brandOnly": true,
-  "forthcoming_label": "Forthcoming in paperback and Kindle.",
-  "cardStatus": "Forthcoming",
+  "forthcoming_label": "Kindle forthcoming.",
+  "cardStatus": "Available in paperback",
   "legacy": {
     "modal": {
       "metadata": "AETERNUS · AMBER SERIES · English-language edition",
