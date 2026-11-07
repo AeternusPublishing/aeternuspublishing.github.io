@@ -3500,32 +3500,149 @@
       "title": "Shelters, Shacks, and Shanties (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-shelters-shacks-shanties.jpg",
+      "front_url": "/assets/images/cover-dcb001-en-v31-20261103.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-shelters-shacks-shanties.jpg",
-          "sha256": "6b349b1f2396a119309a6cb13b24a2ed9434d945664d3ae71424610de3100a0f"
+          "path": "src/assets/images/cover-dcb001-en-v31-20261103.jpg",
+          "sha256": "eeee1747d34165c21d0e1926a7e6b2af4f2c983f003f9690f5fbd64291be4f14"
+        },
+        {
+          "path": "src/assets/images/cover-dcb001-en-v31-20261103.webp",
+          "sha256": "142b8ddd7f0a4b5fcabc9e9db6c9adfabe3fe3647c2439242bc6d10b1eb1aa7a"
         }
       ],
       "formats": [
         {
-          "label": "Paperback",
+          "label": "Paperback · KDP",
           "isbn13": "9783676050722",
           "productform": "taschenbuch",
           "tokens": [],
           "register_evidence": [
             {
+              "zeile_id": "DCB_001|en|kdp_paperback",
+              "produkt_id": "DCB_001|en|taschenbuch",
+              "ausgabe_id": "DCB_001|en",
+              "werk_id": "DCB_001",
               "werk_kanon": "DCB_001",
+              "werk_namensraum": null,
               "sprache": "en",
-              "produktform": "taschenbuch",
               "titel": "Shelters, Shacks, and Shanties (Illustrated)",
+              "autor": "Daniel Carter Beard",
+              "produktform": "taschenbuch",
+              "manifestation": "kdp_paperback",
+              "plattform": "KDP",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_UPLOADPAKET_V31_20261103",
               "isbn13": "978-3-67605-072-2",
+              "isbn13_ziffern": "9783676050722",
               "isbn10": "367605072X",
-              "asin": null
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "DCB_001",
+              "isbn_register_manifestation": "kdp_paperback_6x9",
+              "isbn_zuweisungsdatum": "2026-09-17",
+              "asin": null,
+              "preis_betrag": 19.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": 246,
+              "stand_utc": "2026-11-03T16:39:40Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676050722",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "DCB_001|en|ingram_paperback",
+              "produkt_id": "DCB_001|en|taschenbuch",
+              "ausgabe_id": "DCB_001|en",
+              "werk_id": "DCB_001",
+              "werk_kanon": "DCB_001",
+              "werk_namensraum": null,
+              "sprache": "en",
+              "titel": "Shelters, Shacks, and Shanties (Illustrated)",
+              "autor": "Daniel Carter Beard",
+              "produktform": "taschenbuch",
+              "manifestation": "ingram_paperback",
+              "plattform": "INGRAM",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_UPLOADPAKET_EN_INGRAM_V6_20261103",
+              "isbn13": "978-3-67605-072-2",
+              "isbn13_ziffern": "9783676050722",
+              "isbn10": "367605072X",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "DCB_001",
+              "isbn_register_manifestation": "kdp_paperback_6x9",
+              "isbn_zuweisungsdatum": "2026-09-17",
+              "asin": null,
+              "preis_betrag": 19.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": 248,
+              "stand_utc": "2026-11-03T16:40:11Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        },
+        {
+          "label": "E-book",
+          "isbn13": "9783676050715",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "DCB_001|en|kdp_ebook",
+              "produkt_id": "DCB_001|en|ebook",
+              "ausgabe_id": "DCB_001|en",
+              "werk_id": "DCB_001",
+              "werk_kanon": "DCB_001",
+              "werk_namensraum": null,
+              "sprache": "en",
+              "titel": "Shelters, Shacks, and Shanties (Illustrated)",
+              "autor": "Daniel Carter Beard",
+              "produktform": "ebook",
+              "manifestation": "kdp_ebook",
+              "plattform": "KDP",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_UPLOADPAKET_V31_20261103",
+              "isbn13": "978-3-67605-071-5",
+              "isbn13_ziffern": "9783676050715",
+              "isbn10": "3676050711",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "DCB_001",
+              "isbn_register_manifestation": "epub3",
+              "isbn_zuweisungsdatum": "2026-09-17",
+              "asin": null,
+              "preis_betrag": 11.99,
+              "preis_waehrung": "USD",
+              "seitenzahl": null,
+              "stand_utc": "2026-11-03T16:39:40Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
             }
           ]
         }
-      ]
+      ],
+      "review": {
+        "utc": "2026-11-03T19:17:47.468Z",
+        "authority": "decision_dcb001_paket_v31_freigabe_upload_instagram_website_20261103",
+        "source_cover_sha256": "eeee1747d34165c21d0e1926a7e6b2af4f2c983f003f9690f5fbd64291be4f14",
+        "register_projection_sha256": "fa32bd4e893a0a021f2a90fe6c2e1625426dc133f4cf68712c08c6fa9dae3b06",
+        "observed_live": false
+      }
     },
     {
       "site": "en",

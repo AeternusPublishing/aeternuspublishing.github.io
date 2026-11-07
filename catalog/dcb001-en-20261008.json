@@ -1,5 +1,12 @@
 {
-  "provenance": "C:\\AETERNUS\\_STAGING_OUTDOOR_CLASSICS_PILLAR_PENDING\\BEARD\\02_WERKE\\DCB_001_SHELTERS_SHACKS_SHANTIES_1914\\06_PARATEXT\\EN\\PARATEXT_PAKET_EN_V1.md",
+  "provenance": {
+    "authority": "decision_dcb001_paket_v31_freigabe_upload_instagram_website_20261103",
+    "package": "UPLOADPAKET_V31_20261103",
+    "preflight_sha256": "9418bc654f8ad6164170ebc59a45682d2f530384ba02d9555fc66f5bdbf0003e",
+    "cover_sha256": "25030c6b9938ab969e1569c6b10ab8be7f1fa5932be9eb5fd7f8e9910dda36af",
+    "ebook_cover_sha256": "eeee1747d34165c21d0e1926a7e6b2af4f2c983f003f9690f5fbd64291be4f14",
+    "publication_gate": "No deployment before publisher word; availability only after observed LIVE for each platform."
+  },
   "author": {
     "blocks": [
       {
@@ -18,7 +25,7 @@
       }
     ],
     "publisherPortraitCaption": "Daniel Carter Beard · born 21 June 1850 at Cincinnati, Ohio · died 11 June 1941 at Suffern, New York · Photograph by Bain News Service, date unknown.",
-    "previewStatus": "Paperback forthcoming",
+    "previewStatus": "Paperback and e-book forthcoming",
     "facts": [
       [
         "Series",
@@ -30,13 +37,14 @@
       ],
       [
         "Print edition",
-        "272 pages · 63 plates"
+        "246 pages (KDP) · 248 pages (Ingram) · 63 plates"
       ],
       [
         "Format",
         "Paperback · 6 × 9 in"
       ]
-    ]
+    ],
+    "brandOnly": true
   },
   "book": {
     "work_id": "DCB_001",
@@ -44,13 +52,13 @@
       "short": "A roof begins with a pole, a cabin with a notch, and a night in the woods with the ability to understand the materials close at hand.",
       "long": "A roof begins with a pole, a cabin with a notch, and a night in the woods with the ability to understand the materials close at hand.\n\nIn Shelters, Shacks, and Shanties, Daniel Carter Beard leads the reader from simple temporary shelters to substantial log buildings, explaining how bark, poles, joints, frames, doors and latches work together. His celebrated line drawings expose the structure beneath the finished form and make frontier craft intelligible through the eye as well as the written word.\n\nPublished in 1914, the book stands between the practical inheritance of the old American woodsman and the organized outdoor education of the Boy Scouts of America, which Beard helped to found and shape. What had once been learned from necessity became a deliberate school of observation, resourcefulness and workmanship.\n\nThis AETERNUS edition preserves the complete first-edition text and Beard’s original numbered illustrations, restored for clear reproduction, with an expanded author portrait, historical afterword, editorial note and glossary of period woodcraft.\n\nA classic of American woodcraft and practical self-reliance."
     },
-    "publisherDescriptionHTML": "<p>A roof begins with a pole, a cabin with a notch, and a night in the woods with the ability to understand the materials close at hand.</p><p>In <em>Shelters, Shacks, and Shanties</em>, Daniel Carter Beard leads the reader from simple temporary shelters to substantial log buildings, explaining how bark, poles, joints, frames, doors and latches work together. His celebrated line drawings expose the structure beneath the finished form and make frontier craft intelligible through the eye as well as the written word.</p><p>Published in 1914, the book stands between the practical inheritance of the old American woodsman and the organized outdoor education of the Boy Scouts of America, which Beard helped to found and shape. What had once been learned from necessity became a deliberate school of observation, resourcefulness and workmanship.</p><p>This AETERNUS edition preserves the complete first-edition text and Beard’s original numbered illustrations, restored for clear reproduction, with an expanded author portrait, historical afterword, editorial note and glossary of period woodcraft.</p><p>A classic of American woodcraft and practical self-reliance.</p>",
-    "cover": "/assets/images/cover-shelters-shacks-shanties.jpg",
+    "publisherDescriptionHTML": "<ul><li>Complete text of the 1914 first edition, checked against the printed page</li><li>63 plates of the author’s own drawings, rebuilt for sharp reproduction</li><li>New publisher’s note, author profile and afterword</li><li>Glossary of period building terms</li></ul><p>A roof begins with a pole, a cabin with a notch, and a night in the woods with the ability to understand the materials close at hand.</p><p>In <i>Shelters, Shacks, and Shanties</i>, Daniel Carter Beard leads the reader from simple temporary shelters to substantial log buildings, explaining how bark, poles, joints, frames, doors and latches work together. His celebrated line drawings expose the structure beneath the finished form and make frontier craft intelligible through the eye as well as the written word.</p><p>Published in 1914, the book stands between the practical inheritance of the old American woodsman and the organized outdoor education of the Boy Scouts of America, which Beard helped to found and shape. What had once been learned from necessity became a deliberate school of observation, resourcefulness and workmanship.</p><p>This AETERNUS edition preserves the complete first-edition text and Beard’s original numbered illustrations, restored for clear reproduction, with an expanded author portrait, historical afterword, editorial note and glossary of period woodcraft.</p><p>A classic of American woodcraft and practical self-reliance.</p><p>AMBER SERIES · AETERNUS</p>",
+    "cover": "/assets/images/cover-dcb001-en-v31-20261103.jpg",
     "availability": "COMING_SOON",
     "distribution_status": {
       "own_shop": "NOT_CONFIGURED",
-      "amazon": "UNKNOWN",
-      "ingram": "PENDING",
+      "amazon": "FREIGEGEBEN",
+      "ingram": "FREIGEGEBEN",
       "other": {}
     },
     "links": {
@@ -60,11 +68,25 @@
     },
     "retailer_formats": [
       {
-        "label": "Paperback",
+        "label": "Paperback · KDP",
+        "isbn": "978-3-67605-072-2",
+        "price_display": "$19.99",
+        "links": [],
+        "status": "FREIGEGEBEN"
+      },
+      {
+        "label": "Paperback · IngramSpark",
         "isbn": "978-3-67605-072-2",
         "price_display": "$19.99 · £15.99 · €19.99",
         "links": [],
-        "status": "HOCHGELADEN"
+        "status": "FREIGEGEBEN"
+      },
+      {
+        "label": "E-book",
+        "isbn": "978-3-67605-071-5",
+        "price_display": "$11.99",
+        "links": [],
+        "status": "FREIGEGEBEN"
       }
     ],
     "formats": {
@@ -74,13 +96,21 @@
         "price_display": "$19.99 · £15.99 · €19.99",
         "availability": "COMING_SOON"
       },
-      "ebook": null
+      "ebook": {
+        "label": "E-book",
+        "price_display": "$11.99",
+        "availability": "COMING_SOON"
+      }
     },
     "isbn": {
       "hardcover": null,
       "paperback": "978-3-67605-072-2",
-      "ebook": null
+      "ebook": "978-3-67605-071-5"
     },
-    "metadata": "AETERNUS · AMBER SERIES · Paperback · 272 pages · 6 × 9 in · 63 plates · ISBN 978-3-67605-072-2"
+    "metadata": "AETERNUS · AMBER SERIES · Paperback · 246 pages (KDP) / 248 pages (Ingram) · 6 × 9 in · 63 plates · ISBN 978-3-67605-072-2 · E-book ISBN 978-3-67605-071-5",
+    "brandOnly": true,
+    "coverWebp": "/assets/images/cover-dcb001-en-v31-20261103.webp",
+    "forthcoming_label": "Paperback and e-book forthcoming",
+    "cardStatus": "Forthcoming"
   }
 }
