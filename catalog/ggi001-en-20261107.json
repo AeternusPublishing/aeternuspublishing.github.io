@@ -1,0 +1,103 @@
+{
+  "author": {
+    "slug": "george-rutledge-gibson",
+    "name": "George Rutledge Gibson",
+    "dates": "1853–1907",
+    "eyebrow": "BLUE SERIES · AETERNUS",
+    "tagline": "A Wall Street broker reads the markets of three capitals.",
+    "intro": "A share could travel farther than the railway it financed. Gibson followed the trade itself, from the brokers who struck a bargain to the rules that governed its settlement. London, Paris and New York gave him three ways of organizing the same business.",
+    "metaDescription": "In his 1889 comparison, the New York broker George Rutledge Gibson follows a securities trade through three markets, each with its own brokers, rules and customs.",
+    "portrait": {
+      "modern": false
+    },
+    "brandOnly": true,
+    "books": []
+  },
+  "book": {
+    "id": "en-george-rutledge-gibson-stock-exchanges",
+    "work_id": "GGI_001",
+    "language": "en",
+    "title": "The Stock Exchanges of London, Paris, and New York (Annotated)",
+    "subtitle": "A Comparison",
+    "author": "george-rutledge-gibson",
+    "authorName": "George Rutledge Gibson",
+    "contributors": [],
+    "series": "blau",
+    "series_number": null,
+    "original_title": "The Stock Exchanges of London, Paris, and New York",
+    "original_publication_year": 1889,
+    "isbn": {
+      "paperback": "978-3-67605-282-5",
+      "hardcover": "978-3-67605-283-2"
+    },
+    "formats": {
+      "paperback": {
+        "label": "Paperback",
+        "isbn": "978-3-67605-282-5",
+        "pages": 148,
+        "price_display": "US list price $16.99",
+        "links": []
+      },
+      "hardcover": {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-283-2",
+        "pages": 148,
+        "price_display": "US list price $27.99",
+        "links": []
+      }
+    },
+    "description": {
+      "short": "In his 1889 comparison, the New York broker George Rutledge Gibson follows a securities trade through three markets, each with its own brokers, rules and customs.",
+      "long": "In his 1889 comparison, the New York broker George Rutledge Gibson follows a securities trade through three markets, each with its own brokers, rules and customs."
+    },
+    "publisherDescriptionHTML": "<ul><li>Complete text of the first edition of 1889</li><li>Publisher&#x27;s Foreword and Publisher&#x27;s Afterword</li><li>About the Author and a historical portrait</li><li>Glossary, Chronology and Select Authorities</li><li>Seven original plates and four contemporary engravings</li></ul><h2>The Three Capitals of Finance — A World Governed by Credit</h2><p>In the closing decades of the nineteenth century, the great stock exchanges of London, Paris and New York stood at the center of an extraordinary transformation. Across oceans and continents, capital moved to finance railways, industries, mines, government obligations and the vast undertakings of an expanding commercial civilization. Behind the prosperity of nations operated institutions whose influence extended far beyond the crowded halls in which securities were bought and sold.</p><p>In 1889, the American financial writer George Rutledge Gibson undertook a remarkable comparative examination of these three commanding centers of international finance.</p><p>His inquiry revealed three distinct financial worlds: London&#x27;s powerful traditions of private enterprise and institutional self-government; the Paris Bourse, shaped by the authority of the French state and its privileged brokers; and New York&#x27;s dynamic securities markets, propelled by the immense industrial expansion of the United States.</p><p>Gibson examined their origins, regulations, trading practices, clearing arrangements and speculative operations. He defended the productive functions of organized markets while exposing the dangers of fraudulent dealing and the predatory practices of the notorious bucket-shops.</p><p>Most strikingly, his observations anticipated an enduring question of financial economics: how effectively does the market price embody the knowledge and judgment of those who participate in it?</p><p>Published at the height of the Victorian commercial age, The Stock Exchanges of London, Paris, and New York remains a revealing testimony to the institutions through which modern financial capitalism acquired its international character.</p><p>An examination of the machinery of wealth, written when the great financial capitals were learning to operate as parts of a single world market.</p>",
+    "cover": "/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+    "publication_date": null,
+    "pricing": {},
+    "availability": "COMING_SOON",
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "own_shop": "NOT_CONFIGURED",
+      "amazon": "UNKNOWN",
+      "ingram": "FREIGEGEBEN"
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-george-rutledge-gibson-stock-exchanges/",
+    "authorUrl": "/authors/george-rutledge-gibson/",
+    "seriesName": "Blue Series",
+    "seriesColor": "#1c3d5a",
+    "legacy": {
+      "modal": {
+        "metadata": "BLUE SERIES · AETERNUS"
+      }
+    },
+    "retailer_formats": [
+      {
+        "label": "Paperback",
+        "isbn": "978-3-67605-282-5",
+        "pages": 148,
+        "price_display": "US list price $16.99",
+        "links": []
+      },
+      {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-283-2",
+        "pages": 148,
+        "price_display": "US list price $27.99",
+        "links": []
+      }
+    ],
+    "forthcoming_label": "Forthcoming in paperback and hardcover.",
+    "cardStatus": "Forthcoming in paperback and hardcover.",
+    "brandOnly": true,
+    "provenance": "GGI_001 · HANDELSPAKET_13_148_U3 · 3088496fba3109814964c7dbf49be6fdf416a47317b9c38f9121be672b3a10f5",
+    "coverWebp": "/assets/images/cover-ggi001-en-u3-20261107.webp"
+  }
+}
