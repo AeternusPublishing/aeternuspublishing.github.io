@@ -1,0 +1,101 @@
+{
+  "author": {
+    "slug": "robert-mcclure",
+    "name": "Sir Robert John Le Mesurier McClure",
+    "dates": "1807–1873",
+    "tagline": "From the Bering Strait to Mercy Bay.",
+    "metaDescription": "Sir Robert McClure, HMS Investigator and the first recorded traverse of a North-West Passage.",
+    "brandOnly": true,
+    "blocks": [],
+    "extras": {
+      "kicker": "EXPEDITION CHART",
+      "title": "The folding chart in full resolution",
+      "text": "Follow the route of HMS Investigator on the chart accompanying the 1856 narrative.",
+      "items": [
+        [
+          "Map illustrative of the Narrative (1856)",
+          "Full-resolution 600 ppi PNG.",
+          "/assets/downloads/robert-mcclure/RMC001_Map_illustrative_of_the_Narrative_1856_600ppi.png",
+          "Download PNG"
+        ]
+      ]
+    }
+  },
+  "books": [
+    {
+      "id": "en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "work_id": "RMC_001",
+      "workGroupId": "RMC_001",
+      "language": "en",
+      "title": "The Discovery of the North-West Passage (Annotated)",
+      "subtitle": "By H.M.S. Investigator, 1850–1854",
+      "author": "robert-mcclure",
+      "authorName": "Robert Le Mesurier McClure",
+      "series": "gruen",
+      "seriesName": "Green Series",
+      "seriesColor": "#2d4a22",
+      "original_publication_year": 1856,
+      "first_published": "1856",
+      "isbn": {
+        "paperback": "9783676052801",
+        "hardcover": "9783676052818"
+      },
+      "formats": {
+        "paperback": {
+          "label": "Paperback",
+          "isbn": "9783676052801",
+          "pages": 330,
+          "platform": "IngramSpark",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        "hardcover": {
+          "label": "Hardcover",
+          "isbn": "9783676052818",
+          "pages": 330,
+          "platform": "IngramSpark",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        }
+      },
+      "retailer_formats": [
+        {
+          "label": "Paperback",
+          "isbn": "9783676052801",
+          "pages": 330,
+          "platform": "IngramSpark",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "9783676052818",
+          "pages": 330,
+          "platform": "IngramSpark",
+          "links": [],
+          "status": "FREIGEGEBEN"
+        }
+      ],
+      "description": {
+        "short": "The 1856 account of HMS Investigator and the first recorded traverse of a North-West Passage, with historical illustrations and a folding chart.",
+        "long": "The 1856 account of HMS Investigator and the first recorded traverse of a North-West Passage, with historical illustrations and a folding chart."
+      },
+      "publisherDescriptionHTML": "<ul><li>Text of the first London edition of 1856, word for word</li><li>Illustrations and folding chart after Samuel Gurney Cresswell</li><li>About the Commander, Foreword, Afterword, Chronology, Glossary, Editorial Note</li></ul><p>In the year 1850, a vessel of the Royal Navy entered the frozen seas beyond Bering Strait, carrying the hopes of a maritime empire and the burden of an unfinished quest. Her mission was to search for Sir John Franklin's vanished expedition and to explore the last great geographical mystery of the northern oceans: the passage connecting the Pacific and Atlantic through the Arctic wilderness of America.</p><p>Her name was <b>H.M.S. Investigator</b>. Her commander was Captain Robert Le Mesurier McClure.</p><p>What followed became one of the most extraordinary enterprises in the annals of British naval exploration.</p><p>Advancing through dangerous and imperfectly charted waters, McClure discovered Prince of Wales Strait and established the geographical connection with the eastern Arctic seas explored by William Edward Parry. The North-West Passage, sought for centuries by navigators and statesmen, had at last been traced.</p><p>But the triumph came at a terrible price.</p><p>Driven by the ice around the northern shores of Banks Island, the <i>Investigator</i> became imprisoned in Mercy Bay. There, beyond the reach of ordinary assistance, her company endured three Arctic winters. Provisions diminished, sickness spread, and the struggle for survival gradually overshadowed the glory of discovery. Only the extraordinary arrival of a relief party across the frozen sea prevented the expedition from ending in catastrophe.</p><p>The vessel was abandoned. Her men survived. Their long return to Britain completed, by ship and over the ice, the first recognised traverse of a North-West Passage.</p><p>Published in 1856, <b>The Discovery of the North-West Passage</b> was fashioned by the distinguished naval officer Sherard Osborn from McClure's journals and official records. Enriched with historical illustrations and a chart of the expedition, it preserves the epic contest between human determination and the immensity of the polar world.</p><p><b>A story of discovery, endurance and deliverance — of a ship surrendered to the Arctic, and of men who returned bearing the distinction of an achievement for which generations had searched.</b></p>",
+      "cover": "/assets/images/cover-rmc001-ingram-paperback.jpg",
+      "availability": "COMING_SOON",
+      "links": {
+        "shop": null,
+        "amazon": null,
+        "ingram": null
+      },
+      "distribution_status": {
+        "ingram": "FREIGEGEBEN"
+      },
+      "url": "/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/",
+      "authorUrl": "/authors/robert-mcclure/",
+      "cardStatus": "Forthcoming",
+      "forthcoming_label": "Forthcoming in paperback and hardcover.",
+      "brandOnly": true
+    }
+  ]
+}
