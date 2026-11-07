@@ -15,7 +15,7 @@ const greenSeriesPage = html('series/gruen/index.html');
 assert.equal(catalog.series.length, 7);
 assert.equal(green.series.name.en, 'GREEN');
 assert.equal(green.series.label.en, 'Military, Expeditions, and Frontier Regions');
-assert.equal(green.publicCollections.length, 4);
+assert.equal(green.publicCollections.length, 5);
 assert(overview.includes('Explore the Collections'));
 assert(greenSeriesPage.includes('Explore the Collections'));
 for (const book of catalog.englishBooks) {

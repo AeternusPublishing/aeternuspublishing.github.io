@@ -1054,6 +1054,25 @@
       }
     },
     {
+      "id": "book:de:der-abenteuerliche-simplicissimus",
+      "type": "book",
+      "label": {
+        "de": "Der abenteuerliche Simplicissimus (Kommentiert)",
+        "en": "Der abenteuerliche Simplicissimus (Kommentiert)"
+      },
+      "author": "Hans Jakob Christoffel von Grimmelshausen",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hjg001-de-ingram-v3-20261104.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/der-abenteuerliche-simplicissimus/",
+        "en": "https://aeternus-verlag.de/buecher/der-abenteuerliche-simplicissimus/"
+      },
+      "summary": {
+        "de": "Diese AETERNUS-Ausgabe erschließt das monumentale Werk in einer behutsam modernisierten, klangvollen Lesefassung, begleitet von einer eigens geschaffenen Folge historisch fundierter Bildtafeln.",
+        "en": ""
+      }
+    },
+    {
       "id": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "type": "book",
       "label": {
@@ -2395,6 +2414,82 @@
       }
     },
     {
+      "id": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "type": "book",
+      "label": {
+        "de": "The Defence of India (Annotated)",
+        "en": "The Defence of India (Annotated)"
+      },
+      "author": "Charles Metcalfe MacGregor",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+        "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/"
+      },
+      "summary": {
+        "de": "",
+        "en": "SIMLA, 1884. A British general examines the strategic defence of India during the Great Game."
+      }
+    },
+    {
+      "id": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II (Annotated)",
+        "en": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II (Annotated)"
+      },
+      "author": "Charles Metcalfe MacGregor",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "From Kabul to Kandahar, the second volume follows MacGregor from reconnaissance on the frontiers of India to the organisation of military intelligence."
+      }
+    },
+    {
+      "id": "book:en-charles-brockden-brown-wieland-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Wieland (Illustrated)",
+        "en": "Wieland (Illustrated)"
+      },
+      "author": "Charles Brockden Brown",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cbb002-en-v2-20261104.png",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-brockden-brown-wieland-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-charles-brockden-brown-wieland-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "On a quiet estate above the Schuylkill, a brother and sister live among books, music and friends. Then a voice begins to speak where no speaker can be seen."
+      }
+    },
+    {
+      "id": "book:en-richard-jefferies-wood-magic",
+      "type": "book",
+      "label": {
+        "de": "Wood Magic (Annotated)",
+        "en": "Wood Magic (Annotated)"
+      },
+      "author": "Richard Jefferies",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-rje003-en-v4-20261103.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-richard-jefferies-wood-magic/",
+        "en": "https://aeternuspublishing.com/books/en-richard-jefferies-wood-magic/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Bevis has questions to ask the creatures in the garden, and the creatures have a great deal to tell him. A magpie rules a kingdom, birds dispute their rank, and the affairs of the countryside extend far beyond the business visible from the farmhouse door. The boy listens, wanders, interrupts, and discovers how much can happen within the reach of a short expedition."
+      }
+    },
+    {
       "id": "book:en-elihu-stewart-down-the-mackenzie",
       "type": "book",
       "label": {
@@ -2411,6 +2506,63 @@
       "summary": {
         "de": "",
         "en": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast."
+      }
+    },
+    {
+      "id": "book:en-george-rutledge-gibson-stock-exchanges",
+      "type": "book",
+      "label": {
+        "de": "The Stock Exchanges of London, Paris, and New York (Annotated)",
+        "en": "The Stock Exchanges of London, Paris, and New York (Annotated)"
+      },
+      "author": "George Rutledge Gibson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-rutledge-gibson-stock-exchanges/",
+        "en": "https://aeternuspublishing.com/books/en-george-rutledge-gibson-stock-exchanges/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In his 1889 comparison, the New York broker George Rutledge Gibson follows a securities trade through three markets, each with its own brokers, rules and customs."
+      }
+    },
+    {
+      "id": "book:en-winfield-scott-memoirs-volume-i",
+      "type": "book",
+      "label": {
+        "de": "Memoirs of Lieutenant-General Scott (Annotated)",
+        "en": "Memoirs of Lieutenant-General Scott (Annotated)"
+      },
+      "author": "Winfield Scott",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-ws001-volume-i.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-i/",
+        "en": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-i/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Scott recalls the War of 1812 and his formation as an American general."
+      }
+    },
+    {
+      "id": "book:en-winfield-scott-memoirs-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "Memoirs of Lieutenant-General Scott (Annotated)",
+        "en": "Memoirs of Lieutenant-General Scott (Annotated)"
+      },
+      "author": "Winfield Scott",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-ws001-volume-ii.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Scott recounts his campaign in Mexico and his later years in the United States Army."
       }
     },
     {
@@ -2982,6 +3134,14 @@
       }
     },
     {
+      "id": "author:Hans Jakob Christoffel von Grimmelshausen",
+      "type": "author",
+      "label": {
+        "de": "Hans Jakob Christoffel von Grimmelshausen",
+        "en": "Hans Jakob Christoffel von Grimmelshausen"
+      }
+    },
+    {
       "id": "author:George Robert Gleig",
       "type": "author",
       "label": {
@@ -3206,6 +3366,22 @@
       }
     },
     {
+      "id": "author:George Rutledge Gibson",
+      "type": "author",
+      "label": {
+        "de": "George Rutledge Gibson",
+        "en": "George Rutledge Gibson"
+      }
+    },
+    {
+      "id": "author:Winfield Scott",
+      "type": "author",
+      "label": {
+        "de": "Winfield Scott",
+        "en": "Winfield Scott"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3396,6 +3572,11 @@
     {
       "source": "book:de:the-white-company-band-iii",
       "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:de:der-abenteuerliche-simplicissimus",
+      "target": "series:anthrazit",
       "type": "series"
     },
     {
@@ -3714,8 +3895,43 @@
       "type": "series"
     },
     {
+      "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-brockden-brown-wieland-illustrated",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-richard-jefferies-wood-magic",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
       "source": "book:en-elihu-stewart-down-the-mackenzie",
       "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-rutledge-gibson-stock-exchanges",
+      "target": "series:blau",
+      "type": "series"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-i",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-ii",
+      "target": "series:gruen",
       "type": "series"
     },
     {
@@ -4245,6 +4461,11 @@
       "type": "author"
     },
     {
+      "source": "book:de:der-abenteuerliche-simplicissimus",
+      "target": "author:Hans Jakob Christoffel von Grimmelshausen",
+      "type": "author"
+    },
+    {
       "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "target": "author:George Robert Gleig",
       "type": "author"
@@ -4560,8 +4781,43 @@
       "type": "author"
     },
     {
+      "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-brockden-brown-wieland-illustrated",
+      "target": "author:Charles Brockden Brown",
+      "type": "author"
+    },
+    {
+      "source": "book:en-richard-jefferies-wood-magic",
+      "target": "author:Richard Jefferies",
+      "type": "author"
+    },
+    {
       "source": "book:en-elihu-stewart-down-the-mackenzie",
       "target": "author:Elihu Stewart",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-rutledge-gibson-stock-exchanges",
+      "target": "author:George Rutledge Gibson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-i",
+      "target": "author:Winfield Scott",
+      "type": "author"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-ii",
+      "target": "author:Winfield Scott",
       "type": "author"
     },
     {

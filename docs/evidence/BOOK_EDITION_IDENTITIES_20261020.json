@@ -3538,7 +3538,7 @@
       "assets": [
         {
           "path": "src/assets/images/cover-bevis-en-fallback.jpg",
-          "sha256": "625ea262400f8ff3d56284d2066b0bc6488d6324a3377a528c3d5b2426f8757a"
+          "sha256": "2263c6c908b7e3e5d2a8f786fa20caf4ce8d17e3df11ec2e9bf9613e5e1622d9"
         }
       ],
       "formats": [
@@ -6812,6 +6812,642 @@
     },
     {
       "site": "en",
+      "id": "en-charles-metcalfe-macgregor-the-defence-of-india",
+      "url": "/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+      "title": "The Defence of India (Annotated)",
+      "language": "en",
+      "primary_isbn13": "9783676052375",
+      "front_url": "/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cmm001-en-v6-20261104.jpg",
+          "sha256": "3b349aba4c78b7ccd3928cae0387455456fc65148d379d8839da26ca0fe65c63"
+        },
+        {
+          "path": "src/assets/images/back-cmm001-en-v6-20261104.jpg",
+          "sha256": "c721e96c77b605334fb16b65ff71dcc992fba9560919f1691b5d940adcf3e6d0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052375",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-237-5",
+              "isbn10": "3676052374",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052382",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-238-2",
+              "isbn10": "3676052382",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "EINGEREICHT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-04",
+        "source": "aeternus.py buchregister abfrage; CMM001_UPLOAD_20261104/REGISTER_WEB_QUELLE.json",
+        "projection_sha256": "4df3d5df92a5dfa1b61e99a9615ee27aa3043b07ee7cdb1552ade07ad3d9ac5a",
+        "package_preflight_sha256": "24a5f384d76c25b5d39b40c274b1a8873080458d518b39b6f5380dcd1dadae20",
+        "availability": "COMING_SOON",
+        "retail_links": "None; hardcover EINGEREICHT, paperback BLOCKIERT. No LIVE observation."
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-charles-brockden-brown-wieland-illustrated",
+      "url": "/books/en-charles-brockden-brown-wieland-illustrated/",
+      "title": "Wieland (Illustrated)",
+      "language": "en",
+      "primary_isbn13": "9783676052191",
+      "front_url": "/assets/images/cover-cbb002-en-v2-20261104.png",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cbb002-en-v2-20261104.png",
+          "sha256": "5a7ce92a836a375cf69db1b5cc64d81c3ae16f815ab9abc28e27a7648762cb22"
+        },
+        {
+          "path": "src/assets/images/back-cbb002-en-v2-20261104.png",
+          "sha256": "46cec293fb2fc68e7438cbdc6d593abd4bc8537b44124d4ccc38edbe4e6e5740"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052191",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052191",
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052207",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052207",
+              "manifestation": "ingram_hardcover",
+              "status": "BLOCKIERT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-04",
+        "source": "aeternus.py buchregister isbn CBB_002; package metadata and platform account read directly",
+        "package_preflight_sha256": "c7cbd184467d0664e318b22115065f973695bc68f03c2a9e0364aecf11e1a0dc",
+        "availability": "COMING_SOON",
+        "retail_links": "None: both Ingram forms submitted, processing, audience correction pending."
+      }
+    },
+    {
+      "site": "de",
+      "id": "der-abenteuerliche-simplicissimus",
+      "language": "de",
+      "url": "/buecher/der-abenteuerliche-simplicissimus/",
+      "front_url": "/assets/images/cover-hjg001-de-ingram-v3-20261104-fallback.jpg",
+      "primary_isbn13": "9783676052399",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hjg001-de-ingram-v3-20261104.webp",
+          "sha256": "940439c3075b57897fca20705341de329ef09520685c42fe6985af3d5099ca3d"
+        },
+        {
+          "path": "src/assets/images/cover-hjg001-de-ingram-v3-20261104-fallback.jpg",
+          "sha256": "947c76345a753a75f77ce54d9232ac6a6a1f20d69ee3c3bf3a81d9cfdd9faa34"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676052399",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "HJG_001|de|ingram_paperback",
+              "produkt_id": "HJG_001|de|taschenbuch",
+              "ausgabe_id": "HJG_001|de",
+              "werk_id": "HJG_001",
+              "werk_kanon": "HJG_001",
+              "werk_namensraum": null,
+              "sprache": "de",
+              "titel": "Der abenteuerliche Simplicissimus (Kommentiert)",
+              "autor": "Hans Jakob Christoffel von Grimmelshausen",
+              "produktform": "taschenbuch",
+              "manifestation": "ingram_paperback",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "V3_EINGEREICHT_20261104_CSS9795020",
+              "isbn13": "978-3-67605-239-9",
+              "isbn13_ziffern": "9783676052399",
+              "isbn10": "3676052390",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "HJG_001",
+              "isbn_register_manifestation": "kdp_paperback_6x9",
+              "isbn_zuweisungsdatum": "2026-10-28",
+              "asin": null,
+              "preis_betrag": 24.99,
+              "preis_waehrung": "EUR",
+              "seitenzahl": 684,
+              "stand_utc": "2026-11-04T19:37:08Z",
+              "befund_stufe": "ROT",
+              "befund_codes": [
+                "BRA-R06"
+              ],
+              "befund_text": "dieselbe Nummer auf verschiedenen Ausgaben: 978-3-67605-239-9: HJG_001|de|ingram_paperback, HJG_HANS_JAKOB_CHRISTOFFEL_VON_GRIMMELSHAUSEN/HJG_001|de|kdp_paperback",
+              "befunde": [
+                {
+                  "code": "BRA-R06",
+                  "stufe": "ROT",
+                  "text": "dieselbe Nummer auf verschiedenen Ausgaben: 978-3-67605-239-9: HJG_001|de|ingram_paperback, HJG_HANS_JAKOB_CHRISTOFFEL_VON_GRIMMELSHAUSEN/HJG_001|de|kdp_paperback"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052610",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "HJG_001|de|ingram_hardcover",
+              "produkt_id": "HJG_001|de|hardcover",
+              "ausgabe_id": "HJG_001|de",
+              "werk_id": "HJG_001",
+              "werk_kanon": "HJG_001",
+              "werk_namensraum": null,
+              "sprache": "de",
+              "titel": "Der abenteuerliche Simplicissimus (Kommentiert)",
+              "autor": "Hans Jakob Christoffel von Grimmelshausen",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "V3_EINGEREICHT_20261104_CSS9797791",
+              "isbn13": "978-3-67605-261-0",
+              "isbn13_ziffern": "9783676052610",
+              "isbn10": "3676052617",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "HJG_001",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-11-03",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "EUR",
+              "seitenzahl": 684,
+              "stand_utc": "2026-11-04T20:13:03Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
+      "id": "en-george-rutledge-gibson-stock-exchanges",
+      "language": "en",
+      "url": "/books/en-george-rutledge-gibson-stock-exchanges/",
+      "front_url": "/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+          "sha256": "48a852e6cdb7d9c7bb61fca2690e9cd56fa7d72d49d2861646459c11014b6be9"
+        },
+        {
+          "path": "src/assets/images/cover-ggi001-en-u3-20261107.webp",
+          "sha256": "5169c5cdc8cd67c51557dcf523622d80cc52671406a623941ab94c56e37c070e"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052825",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "GGI_001|en|ingram_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "GGI_001",
+              "status": "FREIGEGEBEN",
+              "isbn13": "978-3-67605-282-5",
+              "isbn10": "367605282X",
+              "version": "FREIGABE_HANDELSPAKET_13_148_U3",
+              "stand_utc": "2026-11-07T12:00:02Z"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "productform": "hardcover",
+          "isbn13": "9783676052832",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "GGI_001|en|ingram_hardcover",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "GGI_001",
+              "status": "FREIGEGEBEN",
+              "isbn13": "978-3-67605-283-2",
+              "isbn10": "3676052838",
+              "version": "FREIGABE_HANDELSPAKET_13_148_U3",
+              "stand_utc": "2026-11-07T12:00:02Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "HANDELSPAKET_13_148_U3",
+        "file": "INGRAM/9783676052825_cov.pdf",
+        "sha256": "5b5899280ae60fe31f8014afa6d68c844ae582613ef57d0d6d577cb98967bfe1",
+        "compiler_build_id": "97c392ea29e776a8cab15f1000cd9afbc38cef2b043166ddd6d1771948b2d154",
+        "front_rect_pt": [
+          639.025128,
+          8.982216000000001,
+          432,
+          648
+        ],
+        "output_pixel_size": [
+          800,
+          1200
+        ],
+        "rect_origin": "top-left, Cover Compiler front_rect_in"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-richard-jefferies-wood-magic",
+      "language": "en",
+      "url": "/books/en-richard-jefferies-wood-magic/",
+      "front_url": "/assets/images/cover-rje003-en-v4-20261103.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rje003-en-v4-20261103.jpg",
+          "sha256": "334595e9f042c98e9ef79e5ddf603f3cabc6bae979e57467793a34c774643441"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn13": "9783676052511",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "9783676052511",
+              "isbn10": "367605251X",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052511",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "978-3-67605-251-1",
+              "isbn10": "367605251X",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "EINGEREICHT"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052528",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "9783676052528",
+              "isbn10": "3676052528",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-03",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='RJE_003' AND sprache='en'",
+        "projection_sha256": "7c3c933522835af9d913d09b55a80048a517a9a0506068b504769d6689cde371",
+        "package_preflight_sha256": "3264d10387c27159ab31083380016d0d2c110484f82c40035eaa8e581c3150bf",
+        "availability": "COMING_SOON",
+        "retail_links": "None; no LIVE observation"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-winfield-scott-memoirs-volume-i",
+      "language": "en",
+      "url": "/books/en-winfield-scott-memoirs-volume-i/",
+      "front_url": "/assets/images/cover-ws001-volume-i.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ws001-volume-i.jpg",
+          "sha256": "4f9532e56e6626d95175109abba546d91c56ae92a87934857181769d9fcd2138"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052443",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052450",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": []
+        },
+        {
+          "label": "Cloth hardcover with dust jacket",
+          "isbn13": "9783676052764",
+          "productform": "leinen",
+          "tokens": [],
+          "register_evidence": []
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-07",
+        "source": "F1 metadata and official uebergabe pruefe (exit 0, hash-bound FREIGEGEBEN); matching Archivtafel rows where projected",
+        "package_preflight_sha256": "bbaf24fbb69d75846a400cf7033bb2e0a0dc753815bd051ec12d0940bb681ca5",
+        "availability": "COMING_SOON"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-winfield-scott-memoirs-volume-ii",
+      "language": "en",
+      "url": "/books/en-winfield-scott-memoirs-volume-ii/",
+      "front_url": "/assets/images/cover-ws001-volume-ii.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ws001-volume-ii.jpg",
+          "sha256": "0afd80d73e66185328c945da498df197b0c45d033cf9874d40a7d51a57b07916"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052467",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Memoirs of Lieutenant-General Scott (Annotated)",
+              "isbn13": "9783676052467",
+              "isbn10": "3676052463",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052474",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WS_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Memoirs of Lieutenant-General Scott (Annotated)",
+              "isbn13": "9783676052474",
+              "isbn10": "3676052471",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Cloth hardcover with dust jacket",
+          "isbn13": "9783676052771",
+          "productform": "leinen",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WS_001",
+              "sprache": "en",
+              "produktform": "leinen",
+              "titel": "Memoirs of Lieutenant-General Scott (Annotated)",
+              "isbn13": "9783676052771",
+              "isbn10": "3676052773",
+              "asin": null,
+              "manifestation": "ingram_hardcover_leinen",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-07",
+        "source": "F1 metadata and official uebergabe pruefe (exit 0, hash-bound FREIGEGEBEN); matching Archivtafel rows where projected",
+        "package_preflight_sha256": [
+          "03335a12db036d3b077831127a3a453dfa786dd386e11667218a7f137ffd5beb",
+          "cb728e89bb762fcc0dde30f94e0cb3e2068f29d133aebf1898c38c8f6a4256bd"
+        ],
+        "availability": "COMING_SOON"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "language": "en",
+      "url": "/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/",
+      "front_url": "/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+          "sha256": "f88792017465c0459fc880514aa08dee35969a890bd4a9da8d7323daa2479494"
+        },
+        {
+          "path": "src/assets/images/back-cmm003-en-b2-v7-20261107.jpg",
+          "sha256": "31e575d5a4887c1512e58469698f8807fd7d724f7531e8f769a4c273d834ad32"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052580",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|kdp_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052580",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052580",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|ingram_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052580",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "productform": "hardcover",
+          "isbn13": "9783676052597",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|ingram_hardcover",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052597",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "productform": "ebook",
+          "isbn13": "9783676052603",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|kdp_ebook",
+              "sprache": "en",
+              "produktform": "ebook",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052603",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "FINAL_B2_V7_20261107",
+        "file": "INGRAM/9783676052580_cov.pdf",
+        "sha256": "a98636ee9e487065813579cdbf62903715f0952ad749c66c086ed32d9e48dfb9",
+        "panels": [
+          {
+            "side": "front",
+            "file": "CMM003_EN_B2_FRONT_1080.jpg",
+            "sha256": "d5fd80ae02b063f5b28ce1c7265db424c7e3469b8f9ffa3fd188292b30274518",
+            "rect_in": [
+              10.375001,
+              0.125001,
+              7,
+              10
+            ]
+          },
+          {
+            "side": "back",
+            "file": "CMM003_EN_B2_BACK_1080.jpg",
+            "sha256": "24c7070f3e749f2bfc2d831b13f30d46001519734037ceab4b22b53c8f9618ae",
+            "rect_in": [
+              2.565,
+              0.125001,
+              7,
+              10
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "site": "en",
       "id": "en-elihu-stewart-down-the-mackenzie",
       "language": "en",
       "url": "/books/en-elihu-stewart-down-the-mackenzie/",
@@ -6827,18 +7463,19 @@
           "label": "Paperback · Amazon",
           "isbn13": "9783676052436",
           "productform": "taschenbuch",
-          "tokens": [],
+          "tokens": [
+            "3676052439"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "ESW_001",
               "sprache": "en",
               "produktform": "taschenbuch",
-              "titel": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)",
               "isbn13": "978-3-67605-243-6",
               "isbn10": "3676052439",
               "asin": null,
               "manifestation": "kdp_paperback",
-              "status": "HOCHGELADEN"
+              "status": "LIVE"
             }
           ]
         },
@@ -6912,7 +7549,16 @@
       "site": "en",
       "url": "/authors/charles-metcalfe-macgregor/",
       "book_ids": [
-        "en-charles-metcalfe-macgregor-wanderings-in-balochistan"
+        "en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+        "en-charles-metcalfe-macgregor-the-defence-of-india"
+      ]
+    },
+    {
+      "site": "en",
+      "url": "/authors/richard-jefferies/",
+      "book_ids": [
+        "en-richard-jefferies-edition-bevis",
+        "en-richard-jefferies-wood-magic"
       ]
     }
   ]

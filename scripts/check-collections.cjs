@@ -5,7 +5,7 @@ const data = require('../src/_data/editionCollections');
 const root = path.resolve(__dirname, '../public');
 const sitemap = fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8');
 const overview = fs.readFileSync(path.join(root, 'sammlungen/gruen/index.html'), 'utf8');
-assert.equal(data.publicCollections.length, 4);
+assert.equal(data.publicCollections.length, 5);
 for (const c of data.collections) {
   const file = path.join(root, c.url.slice(1), 'index.html');
   assert.equal(fs.existsSync(file), c.public, c.id);

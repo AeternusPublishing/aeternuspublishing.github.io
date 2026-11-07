@@ -1,0 +1,114 @@
+{
+  "id": "en-charles-metcalfe-macgregor-the-defence-of-india",
+  "work_id": "CMM_001",
+  "language": "en",
+  "title": "The Defence of India (Annotated)",
+  "subtitle": "A Strategical Study",
+  "author": "charles-metcalfe-macgregor",
+  "authorName": "Charles Metcalfe MacGregor",
+  "contributors": [],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "The Defence of India",
+  "original_publication_year": 1884,
+  "isbn": {
+    "paperback": "9783676052375",
+    "hardcover": "9783676052382"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052375",
+      "pages": 800,
+      "platform": "IngramSpark",
+      "status": "BLOCKIERT",
+      "price_display": "US list price $34.99",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052382",
+      "pages": 800,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $49.99",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052375",
+      "pages": 800,
+      "platform": "IngramSpark",
+      "status": "BLOCKIERT",
+      "price_display": "US list price $34.99",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052382",
+      "pages": 800,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $49.99",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "SIMLA, 1884. A British general examines the strategic defence of India during the Great Game.",
+    "long": "SIMLA, 1884\n\nAcross Central Asia, the Russian Empire had advanced towards the northern approaches of British India. Tashkent, Samarkand and Khiva had marked successive stages of its expansion; the incorporation of Merv brought the question of Afghanistan into sharper and more immediate focus. Beyond the deserts and the mountain passes lay Herat, Kabul and Kandahar, and beyond them the empire which British statesmen were resolved to preserve.\n\nSir Charles Metcalfe MacGregor, Quartermaster-General in India and a veteran of the Afghan campaigns, subjected the prospect of invasion to the methods of a professional military staff. He examined the forces Russia might assemble, the roads by which they could advance, the time needed to move them, and the provisions without which no army could remain in the field. He then turned the same scrutiny upon the available strength and preparations of British India.\n\nPrinted confidentially at Simla in 1884, The Defence of India challenged the assumptions of imperial security and provoked intervention at the highest levels of government. Its circulation was halted, but the study could not be contained. In 1891 a Russian translation appeared in a military-scientific publication of the Tsar's General Staff.\n\nAETERNUS restores one of the most formidable strategic documents of the Great Game: a British general's examination of the war his government feared, the preparations he considered indispensable, and the continental struggle he believed might ultimately determine the security of India."
+  },
+  "blurb": [
+    "SIMLA, 1884",
+    "Across Central Asia, the Russian Empire had advanced towards the northern approaches of British India. Tashkent, Samarkand and Khiva had marked successive stages of its expansion; the incorporation of Merv brought the question of Afghanistan into sharper and more immediate focus. Beyond the deserts and the mountain passes lay Herat, Kabul and Kandahar, and beyond them the empire which British statesmen were resolved to preserve.",
+    "Sir Charles Metcalfe MacGregor, Quartermaster-General in India and a veteran of the Afghan campaigns, subjected the prospect of invasion to the methods of a professional military staff. He examined the forces Russia might assemble, the roads by which they could advance, the time needed to move them, and the provisions without which no army could remain in the field. He then turned the same scrutiny upon the available strength and preparations of British India.",
+    "Printed confidentially at Simla in 1884, The Defence of India challenged the assumptions of imperial security and provoked intervention at the highest levels of government. Its circulation was halted, but the study could not be contained. In 1891 a Russian translation appeared in a military-scientific publication of the Tsar&#x27;s General Staff.",
+    "AETERNUS restores one of the most formidable strategic documents of the Great Game: a British general&#x27;s examination of the war his government feared, the preparations he considered indispensable, and the continental struggle he believed might ultimately determine the security of India."
+  ],
+  "features": [
+    "Historical introduction and extended afterword",
+    "Glossary concordance and editorial note",
+    "Documented author biography"
+  ],
+  "cover": "/assets/images/cover-cmm001-en-v6-20261104.jpg",
+  "first_published": "Confidential printing, Simla, 1884",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "NOT_SUBMITTED",
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+  "authorUrl": "/authors/charles-metcalfe-macgregor/",
+  "seriesName": "GREEN SERIES",
+  "seriesColor": "#334d3b",
+  "brandOnly": true,
+  "forthcoming_label": "Hardcover submitted to IngramSpark · retail availability forthcoming.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · GREEN SERIES · English-language edition",
+      "sample": "Across Central Asia, the Russian Empire had advanced towards the northern approaches of British India. Tashkent, Samarkand and Khiva had marked successive stages of its expansion; the incorporation of Merv brought the question of Afghanistan into sharper and more immediate focus. Beyond the deserts and the mountain passes lay Herat, Kabul and Kandahar, and beyond them the empire which British statesmen were resolved to preserve."
+    }
+  },
+  "provenance": "UPLOADPAKET_INGRAM_V6_20261104; decision_cmm001_en_endfreigabe_ingram_tb_hc_paket_v6_20261104; platform observations 4 November 2026",
+  "upload_package": {
+    "name": "UPLOADPAKET_INGRAM_V6_20261104",
+    "preflight_sha256": "24a5f384d76c25b5d39b40c274b1a8873080458d518b39b6f5380dcd1dadae20",
+    "paperback_platform_id": "CSS9797535",
+    "hardcover_platform_id": "CSS9797563",
+    "availability_rule": "COMING_SOON until LIVE observed per platform; paperback pricing blocked, hardcover submitted."
+  },
+  "backcover": "/assets/images/back-cmm001-en-v6-20261104.jpg"
+}

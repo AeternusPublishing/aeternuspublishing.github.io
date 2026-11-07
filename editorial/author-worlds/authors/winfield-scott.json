@@ -1,0 +1,43 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "winfield-scott",
+  "name": "Winfield Scott",
+  "dates": "1786–1866",
+  "depth": "compact",
+  "scope": { "de": false, "en": true, "legacyEn": false },
+  "rank": { "en": "Brevet Lieutenant General, United States Army" },
+  "sources": [
+    { "id": "NPS", "title": "National Park Service: Winfield Scott", "url": "https://home.nps.gov/people/winfield-scott.htm" },
+    { "id": "MET", "title": "The Metropolitan Museum of Art: General Winfield Scott", "url": "https://www.metmuseum.org/art/collection/search/13187" }
+  ],
+  "facts": [
+    { "id": "F01", "kind": "historical-fact", "status": "BELEGT", "statement": "Scott served in the War of 1812, commanded the 1847 campaign from Veracruz to Mexico City and advised the Union at the opening of the Civil War.", "sources": ["NPS"] },
+    { "id": "F02", "kind": "historical-fact", "status": "BELEGT", "statement": "Robert Walter Weir painted Scott around 1855.", "sources": ["MET"] }
+  ],
+  "uncertainties": [],
+  "interpretation": { "kind": "historical-interpretation", "fields": ["literature"] },
+  "appraisal": { "kind": "editorial-appraisal", "fields": ["legacy"] },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-winfield-scott-weir.jpg",
+    "caption": { "en": "Robert Walter Weir, General Winfield Scott, ca. 1855. The Metropolitan Museum of Art." },
+    "rights": "The Met Open Access, public domain",
+    "provenance": "https://www.metmuseum.org/art/collection/search/13187",
+    "processing": "Unaltered museum JPEG",
+    "source_url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap10.54.jpg",
+    "sha256": "56b6ab23c30e341d51774d4996da7a4154b0ebf49aef0edc0df109b96f42e1bd"
+  },
+  "locales": {
+    "en": {
+      "tagline": "From the Niagara frontier to Mexico City.",
+      "intro": "Winfield Scott entered the army of a young republic and lived to advise its government at the opening of the Civil War. His memoirs trace the campaigns in which he learned to command and the decisions he later had to defend.",
+      "orientation": "The Niagara frontier and the road from Veracruz to Mexico City put different demands on the armies Scott led.",
+      "origin": ["Scott was born in Virginia in 1786 and served as a young officer in the war against Britain."],
+      "career": ["In 1847 he led his army from Veracruz to Mexico City. At the opening of the Civil War he proposed a blockade and control of the Mississippi."],
+      "literature": ["The memoirs reconstruct operations from the perspective of the man who directed them. They also show which decisions Scott thought needed explaining."],
+      "legacy": "Scott gives readers a commander's view of how the United States Army learned to campaign across a continent.",
+      "bridge": "Volume I follows Scott's formation as an officer. Volume II turns to Mexico and his later years of command.",
+      "claimRefs": ["F01", "F02"]
+    }
+  }
+}

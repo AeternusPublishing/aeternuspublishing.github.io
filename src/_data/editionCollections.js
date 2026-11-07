@@ -1,7 +1,9 @@
 const { definitions } = require('../../catalog/collections.cjs');
 const catalogue = require('./catalogue');
 const english = require('../../catalog/collection-editions-en.json');
+const scott = require('../../catalog/ws001-en.cjs');
 const labels = {
+  'north-american-theatre': ['Nordamerikanischer Kriegsschauplatz', 'Augenzeugenberichte über militärische Führung und Feldzüge in Nordamerika.'],
   'british-empire': ['Britisches Empire', 'Augenzeugenberichte über britische Feldzüge, militärische Führung und die Menschen im Machtbereich des Empire.'],
   'american-military-history': ['Amerikanische Militärgeschichte', 'Militärische Erinnerungen und Berichte aus der Geschichte der Vereinigten Staaten.'],
   'american-frontier-rangers': ['Amerikanischer Grenzraum & Rangers', 'Erinnerungen an das Leben im amerikanischen Grenzraum und den Dienst der Texas Rangers.'],
@@ -16,6 +18,10 @@ const views = definitions.filter(c => c.series === 'gruen').map(c => {
     return { id: b.id, title: b.title, author: b.author, url: b.url, language: 'de', publicationStatus: b.pending ? 'forthcoming' : 'published' };
   });
   for (const b of english.books.filter(b => b.collection === c.id)) books.push({ ...b, language: 'en' });
+  if (c.id === 'north-american-theatre') {
+    for (const book of scott.books) books.push({ id: book.id, title: book.title + ' · ' + book.subtitle,
+      author: book.authorName, url: 'https://aeternuspublishing.com' + book.url, language: 'en', publicationStatus: 'forthcoming' });
+  }
   if (c.public && !books.length) throw new Error(`Empty public collection: ${c.id}`);
   return { id: c.id, series: c.series, title: labels[c.id][0], intro: labels[c.id][1], public: c.public,
     url: `/sammlungen/gruen/${c.id}/`, englishUrl: `https://aeternuspublishing.com${c.url}`, books,

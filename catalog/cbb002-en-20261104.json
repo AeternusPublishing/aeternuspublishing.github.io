@@ -1,0 +1,101 @@
+{
+  "id": "en-charles-brockden-brown-wieland-illustrated",
+  "work_id": "CBB_002",
+  "language": "en",
+  "title": "Wieland (Illustrated)",
+  "subtitle": "Or, The Transformation: An American Tale",
+  "author": "charles-brockden-brown",
+  "authorName": "Charles Brockden Brown",
+  "contributors": [],
+  "series": "anthrazit",
+  "series_number": null,
+  "original_title": "Wieland; or, The Transformation",
+  "original_publication_year": 1798,
+  "isbn": {
+    "paperback": "9783676052191",
+    "hardcover": "9783676052207"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052191",
+      "pages": 350,
+      "platform": "IngramSpark",
+      "status": "BLOCKIERT",
+      "price_display": "US list price $21.99",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052207",
+      "pages": 350,
+      "platform": "IngramSpark",
+      "status": "BLOCKIERT",
+      "price_display": "US list price $32.99",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052191",
+      "pages": 350,
+      "platform": "IngramSpark",
+      "status": "BLOCKIERT",
+      "price_display": "US list price $21.99",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052207",
+      "pages": 350,
+      "platform": "IngramSpark",
+      "status": "BLOCKIERT",
+      "price_display": "US list price $32.99",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "On a quiet estate above the Schuylkill, a brother and sister live among books, music and friends. Then a voice begins to speak where no speaker can be seen.",
+    "long": "  Complete text in modernized English, checked against the edition of 1798  With Brown’s unfinished Memoirs of Carwin the Biloquist  Ten full-page plates made for this edition  Publisher’s preface, afterword, author biography and glossary  Editorial note on the text and the illustrations    “… a novelist by far our first in point of genius and instruction as to the soul of things.” — Margaret Fuller, 1846   First published in 1798, Charles Brockden Brown's Wieland; or, The Transformation is one of the founding works of American Gothic fiction.  On a quiet estate above the Schuylkill, a brother and sister live among books, music and friends. Then a voice begins to speak where no speaker can be seen. It warns, forbids and commands. A stranger named Carwin arrives. And Theodore Wieland, gentle, pious and serious, begins to believe that he is being called to prove his faith.  Drawing on a true case of religious delusion, Wieland turns the Age of Reason against itself: its characters reason carefully, and they reason from evidence that has been corrupted.  This AETERNUS edition presents the complete text in carefully modernized English, checked sentence by sentence against the first edition of 1798, together with Brown's unfinished Memoirs of Carwin the Biloquist: easier to read, with nothing shortened and nothing softened.  ANTHRACITE SERIES · AETERNUS "
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text in modernized English, checked against the edition of 1798</li><li>With Brown’s unfinished Memoirs of Carwin the Biloquist</li><li>Ten full-page plates made for this edition</li><li>Publisher’s preface, afterword, author biography and glossary</li><li>Editorial note on the text and the illustrations</li></ul><p><i>“… a novelist by far our first in point of genius and instruction as to the soul of things.” — Margaret Fuller, 1846</i></p><p>First published in 1798, Charles Brockden Brown's Wieland; or, The Transformation is one of the founding works of American Gothic fiction.</p><p>On a quiet estate above the Schuylkill, a brother and sister live among books, music and friends. Then a voice begins to speak where no speaker can be seen. It warns, forbids and commands. A stranger named Carwin arrives. And Theodore Wieland, gentle, pious and serious, begins to believe that he is being called to prove his faith.</p><p>Drawing on a true case of religious delusion, Wieland turns the Age of Reason against itself: its characters reason carefully, and they reason from evidence that has been corrupted.</p><p>This AETERNUS edition presents the complete text in carefully modernized English, checked sentence by sentence against the first edition of 1798, together with Brown's unfinished Memoirs of Carwin the Biloquist: easier to read, with nothing shortened and nothing softened.</p><p>ANTHRACITE SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-cbb002-en-v2-20261104.png",
+  "backcover": "/assets/images/back-cbb002-en-v2-20261104.png",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "BLOCKIERT",
+    "amazon": "PENDING"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-charles-brockden-brown-wieland-illustrated/",
+  "authorUrl": "/authors/charles-brockden-brown/",
+  "seriesName": "ANTHRACITE SERIES",
+  "seriesColor": "#333333",
+  "brandOnly": true,
+  "forthcoming_label": "Paperback and hardcover submitted to IngramSpark · retail availability forthcoming.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "ANTHRACITE SERIES reading edition: the complete text of the first edition (New York, 1798) in carefully modernized English, checked sentence by sentence, with Brown’s Memoirs of Carwin the Biloquist, a publisher’s apparatus, a frontispiece and nine plates made for this edition.",
+      "sample": ""
+    }
+  },
+  "provenance": "UPLOADPAKET_V2_20261104 / METADATEN/ingram_paperback.json; decision_cbb002_en_endfreigabe_kdp_ingram_paket_v2_20261104",
+  "upload_package": {
+    "preflight_sha256": "c7cbd184467d0664e318b22115065f973695bc68f03c2a9e0364aecf11e1a0dc",
+    "paperback_platform_id": "CSS9797918",
+    "hardcover_platform_id": "CSS9797962",
+    "availability_rule": "COMING_SOON until LIVE observed; metadata audience correction pending. No retail links."
+  }
+}

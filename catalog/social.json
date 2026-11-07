@@ -6,9 +6,19 @@
     "verified_utc": "2026-10-24T20:32:14.967Z",
     "posts": [
       {
-        "book_id": "en-elihu-stewart-down-the-mackenzie",
-        "url": "https://www.instagram.com/p/DfcMJ7avoHf/",
-        "title": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)"
+        "book_id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+        "url": "https://www.instagram.com/p/DfcWMt0lzd9/",
+        "title": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II (Annotated)"
+      },
+      {
+        "book_id": "en-george-rutledge-gibson-stock-exchanges",
+        "url": "https://www.instagram.com/p/DfcNFz-lybO/",
+        "title": "The Stock Exchanges of London, Paris, and New York (Annotated)"
+      },
+      {
+        "book_id": "en-richard-jefferies-wood-magic",
+        "url": "https://www.instagram.com/p/DfSUI6Kv0Tb/",
+        "title": "Wood Magic: A Fable"
       },
       {
         "book_id": "en-james-fenimore-cooper-the-deerslayer",
@@ -107,7 +117,7 @@
       },
       {
         "title": "Bevis",
-        "url": "https://www.instagram.com/p/DdCRsu9l_4S/",
+        "url": "https://www.instagram.com/p/DfcLNSyv1XQ/",
         "book_id": "en-richard-jefferies-edition-bevis"
       },
       {
@@ -239,6 +249,21 @@
         "title": "Forty-One Years in India, Volume II",
         "url": "https://www.instagram.com/p/De4b4qflwsE/",
         "book_id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii"
+      },
+      {
+        "book_id": "en-charles-metcalfe-macgregor-the-defence-of-india",
+        "url": "https://www.instagram.com/p/DfVIoQ_l18A/",
+        "title": "The Defence of India (Annotated)"
+      },
+      {
+        "book_id": "en-charles-brockden-brown-wieland-illustrated",
+        "url": "https://www.instagram.com/p/DfVUw_ZFh8o/",
+        "title": "Wieland (Illustrated)"
+      },
+      {
+        "book_id": "en-elihu-stewart-down-the-mackenzie",
+        "url": "https://www.instagram.com/p/DfcMJ7avoHf/",
+        "title": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)"
       }
     ],
     "feed_sync": {
