@@ -7445,6 +7445,41 @@
           }
         ]
       }
+    },
+    {
+      "site": "en",
+      "id": "en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "language": "en",
+      "url": "/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/",
+      "front_url": "/assets/images/cover-rmc001-ingram-paperback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rmc001-ingram-paperback.jpg",
+          "sha256": "6c47d5b26ce88e2d293ba61080affc6d8ae852d015eb344801dab17698eaa572"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052801",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052818",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": []
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-07",
+        "source": "RMC_001 F1, hash-bound FREIGEGEBEN and official uebergabe pruefe exit 0.",
+        "package_preflight_sha256": "74cb2c8cd9e417779d836b75a40321e79ffaed45c9b3669836c871fc77667e63",
+        "availability": "COMING_SOON"
+      }
     }
   ],
   "additional_pages": [
