@@ -6812,6 +6812,245 @@
     },
     {
       "site": "en",
+      "id": "en-charles-metcalfe-macgregor-the-defence-of-india",
+      "url": "/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+      "title": "The Defence of India (Annotated)",
+      "language": "en",
+      "primary_isbn13": "9783676052375",
+      "front_url": "/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cmm001-en-v6-20261104.jpg",
+          "sha256": "3b349aba4c78b7ccd3928cae0387455456fc65148d379d8839da26ca0fe65c63"
+        },
+        {
+          "path": "src/assets/images/back-cmm001-en-v6-20261104.jpg",
+          "sha256": "c721e96c77b605334fb16b65ff71dcc992fba9560919f1691b5d940adcf3e6d0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052375",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-237-5",
+              "isbn10": "3676052374",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052382",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-238-2",
+              "isbn10": "3676052382",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "EINGEREICHT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-04",
+        "source": "aeternus.py buchregister abfrage; CMM001_UPLOAD_20261104/REGISTER_WEB_QUELLE.json",
+        "projection_sha256": "4df3d5df92a5dfa1b61e99a9615ee27aa3043b07ee7cdb1552ade07ad3d9ac5a",
+        "package_preflight_sha256": "24a5f384d76c25b5d39b40c274b1a8873080458d518b39b6f5380dcd1dadae20",
+        "availability": "COMING_SOON",
+        "retail_links": "None; hardcover EINGEREICHT, paperback BLOCKIERT. No LIVE observation."
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-charles-brockden-brown-wieland-illustrated",
+      "url": "/books/en-charles-brockden-brown-wieland-illustrated/",
+      "title": "Wieland (Illustrated)",
+      "language": "en",
+      "primary_isbn13": "9783676052191",
+      "front_url": "/assets/images/cover-cbb002-en-v2-20261104.png",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cbb002-en-v2-20261104.png",
+          "sha256": "5a7ce92a836a375cf69db1b5cc64d81c3ae16f815ab9abc28e27a7648762cb22"
+        },
+        {
+          "path": "src/assets/images/back-cbb002-en-v2-20261104.png",
+          "sha256": "46cec293fb2fc68e7438cbdc6d593abd4bc8537b44124d4ccc38edbe4e6e5740"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052191",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052191",
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052207",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052207",
+              "manifestation": "ingram_hardcover",
+              "status": "BLOCKIERT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-04",
+        "source": "aeternus.py buchregister isbn CBB_002; package metadata and platform account read directly",
+        "package_preflight_sha256": "c7cbd184467d0664e318b22115065f973695bc68f03c2a9e0364aecf11e1a0dc",
+        "availability": "COMING_SOON",
+        "retail_links": "None: both Ingram forms submitted, processing, audience correction pending."
+      }
+    },
+    {
+      "site": "de",
+      "id": "der-abenteuerliche-simplicissimus",
+      "language": "de",
+      "url": "/buecher/der-abenteuerliche-simplicissimus/",
+      "front_url": "/assets/images/cover-hjg001-de-ingram-v3-20261104-fallback.jpg",
+      "primary_isbn13": "9783676052399",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-hjg001-de-ingram-v3-20261104.webp",
+          "sha256": "940439c3075b57897fca20705341de329ef09520685c42fe6985af3d5099ca3d"
+        },
+        {
+          "path": "src/assets/images/cover-hjg001-de-ingram-v3-20261104-fallback.jpg",
+          "sha256": "947c76345a753a75f77ce54d9232ac6a6a1f20d69ee3c3bf3a81d9cfdd9faa34"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "isbn13": "9783676052399",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "HJG_001|de|ingram_paperback",
+              "produkt_id": "HJG_001|de|taschenbuch",
+              "ausgabe_id": "HJG_001|de",
+              "werk_id": "HJG_001",
+              "werk_kanon": "HJG_001",
+              "werk_namensraum": null,
+              "sprache": "de",
+              "titel": "Der abenteuerliche Simplicissimus (Kommentiert)",
+              "autor": "Hans Jakob Christoffel von Grimmelshausen",
+              "produktform": "taschenbuch",
+              "manifestation": "ingram_paperback",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "V3_EINGEREICHT_20261104_CSS9795020",
+              "isbn13": "978-3-67605-239-9",
+              "isbn13_ziffern": "9783676052399",
+              "isbn10": "3676052390",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "HJG_001",
+              "isbn_register_manifestation": "kdp_paperback_6x9",
+              "isbn_zuweisungsdatum": "2026-10-28",
+              "asin": null,
+              "preis_betrag": 24.99,
+              "preis_waehrung": "EUR",
+              "seitenzahl": 684,
+              "stand_utc": "2026-11-04T19:37:08Z",
+              "befund_stufe": "ROT",
+              "befund_codes": [
+                "BRA-R06"
+              ],
+              "befund_text": "dieselbe Nummer auf verschiedenen Ausgaben: 978-3-67605-239-9: HJG_001|de|ingram_paperback, HJG_HANS_JAKOB_CHRISTOFFEL_VON_GRIMMELSHAUSEN/HJG_001|de|kdp_paperback",
+              "befunde": [
+                {
+                  "code": "BRA-R06",
+                  "stufe": "ROT",
+                  "text": "dieselbe Nummer auf verschiedenen Ausgaben: 978-3-67605-239-9: HJG_001|de|ingram_paperback, HJG_HANS_JAKOB_CHRISTOFFEL_VON_GRIMMELSHAUSEN/HJG_001|de|kdp_paperback"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052610",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "HJG_001|de|ingram_hardcover",
+              "produkt_id": "HJG_001|de|hardcover",
+              "ausgabe_id": "HJG_001|de",
+              "werk_id": "HJG_001",
+              "werk_kanon": "HJG_001",
+              "werk_namensraum": null,
+              "sprache": "de",
+              "titel": "Der abenteuerliche Simplicissimus (Kommentiert)",
+              "autor": "Hans Jakob Christoffel von Grimmelshausen",
+              "produktform": "hardcover",
+              "manifestation": "ingram_hardcover",
+              "plattform": "INGRAM",
+              "status": "EINGEREICHT",
+              "version": "V3_EINGEREICHT_20261104_CSS9797791",
+              "isbn13": "978-3-67605-261-0",
+              "isbn13_ziffern": "9783676052610",
+              "isbn10": "3676052617",
+              "isbn_herkunft": "beide",
+              "isbn_register_status": "assigned",
+              "isbn_register_werk": "HJG_001",
+              "isbn_register_manifestation": "ingram_hardcover_6x9",
+              "isbn_zuweisungsdatum": "2026-11-03",
+              "asin": null,
+              "preis_betrag": 34.99,
+              "preis_waehrung": "EUR",
+              "seitenzahl": 684,
+              "stand_utc": "2026-11-04T20:13:03Z",
+              "befund_stufe": null,
+              "befund_codes": [],
+              "befund_text": null,
+              "befunde": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
       "id": "en-richard-jefferies-wood-magic",
       "language": "en",
       "url": "/books/en-richard-jefferies-wood-magic/",
@@ -6912,7 +7151,8 @@
       "site": "en",
       "url": "/authors/charles-metcalfe-macgregor/",
       "book_ids": [
-        "en-charles-metcalfe-macgregor-wanderings-in-balochistan"
+        "en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+        "en-charles-metcalfe-macgregor-the-defence-of-india"
       ]
     },
     {

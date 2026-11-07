@@ -1,0 +1,65 @@
+{
+  "id": "der-abenteuerliche-simplicissimus",
+  "work_id": "HJG_001",
+  "url": "/buecher/der-abenteuerliche-simplicissimus/",
+  "title": "Der abenteuerliche Simplicissimus (Kommentiert)",
+  "author": "Hans Jakob Christoffel von Grimmelshausen",
+  "authorUrl": "/qr/grimmelshausen/",
+  "authorIntro": "Hans Jakob Christoffel von Grimmelshausen, selbst Kriegsteilnehmer und scharfsinniger Beobachter seiner Zeit, schuf mit dem Simplicissimus das epochale Meisterwerk der deutschen Barockliteratur. Hinter grimmigem Spott, schelmischer Maskerade und abenteuerlichen Wendungen steht die existenzielle Frage, was aus dem Menschen wird, wenn Recht, Glaube und jede zivile Ordnung zerfallen.",
+  "cover": "cover-hjg001-de-ingram-v3-20261104",
+  "description": "1618–1648. Drei Jahrzehnte Krieg verwüsten die Länder des Reiches. Mitten in diesem Untergang wächst ein Knabe im Spessart auf, der von der Welt nichts weiß. Als marodierende Reiter den Hof seiner Eltern überfallen, endet seine Kindheit mit einem Schlag. Es beginnt eine Irrfahrt durch die Abgründe einer entfesselten Epoche: vom schutzlosen Flüchtling zum Narren, vom Narren zum gefürchteten Soldaten, vom Gejagten zum gezeichneten Überlebenden.",
+  "summary": "Diese AETERNUS-Ausgabe erschließt das monumentale Werk in einer behutsam modernisierten, klangvollen Lesefassung, begleitet von einer eigens geschaffenen Folge historisch fundierter Bildtafeln.",
+  "subtitle": "Die Beschreibung des Lebens eines seltsamen Vaganten",
+  "publisherDescriptionHTML": "<ul><li>Alle fünf Bücher nach dem Erstdruck von 1669, ungekürzt</li><li>Behutsam modernisierte Lesefassung in heutigem Deutsch</li><li>Mit Vorwort, Einführung, Nachwort, Zeittafel und Editorischer Notiz</li><li>Glossar mit 430 Einträgen zu Wörtern, Sachen und Personen</li><li>Acht eigens geschaffene Bildtafeln und der Titelkupfer des Erstdrucks</li></ul><p><b>Dreissig Jahre Krieg. Eine Zerbrochene Welt.</b></p><p>1618–1648. Drei Jahrzehnte Krieg verwüsten die Länder des Reiches.</p><p>Armeen durchziehen die Provinzen. Höfe werden geplündert, Städte eingeäschert, ganze Landstriche entvölkert. Hunger, Seuchen und rohe Gewalt zerstören die Fundamente einer jahrhundertealten Ordnung.</p><p>Mitten in diesem Untergang wächst ein Knabe im Spessart auf, der von der Welt nichts weiß. Als marodierende Reiter den Hof seiner Eltern überfallen, endet seine Kindheit mit einem Schlag. Es beginnt eine Irrfahrt durch die Abgründe einer entfesselten Epoche: vom schutzlosen Flüchtling zum Narren, vom Narren zum gefürchteten Soldaten, vom Gejagten zum gezeichneten Überlebenden.</p><p>Hans Jakob Christoffel von Grimmelshausen, selbst Kriegsteilnehmer und scharfsinniger Beobachter seiner Zeit, schuf mit dem <i>Simplicissimus</i> das epochale Meisterwerk der deutschen Barockliteratur. Hinter grimmigem Spott, schelmischer Maskerade und abenteuerlichen Wendungen steht die existenzielle Frage, was aus dem Menschen wird, wenn Recht, Glaube und jede zivile Ordnung zerfallen.</p><p>Diese AETERNUS-Ausgabe erschließt das monumentale Werk in einer behutsam modernisierten, klangvollen Lesefassung, begleitet von einer eigens geschaffenen Folge historisch fundierter Bildtafeln.</p><p><i>Keine verharmlosende Schelmengeschichte — sondern ein Epos von ursprünglicher menschlicher Wucht.</i></p><p>ANTHRAZIT-REIHE · AETERNUS Verlag</p>",
+  "original": "Erstdruck 1669 · Bücher I–V",
+  "series": "anthrazit",
+  "seriesName": "Anthrazit",
+  "seriesColor": "#333333",
+  "language": "de",
+  "languageLabel": "Deutsch",
+  "isbn": "978-3-67605-239-9",
+  "searchIsbns": "978-3-67605-239-9 978-3-67605-261-0",
+  "pages": 684,
+  "formats": [
+    {
+      "name": "Taschenbuch",
+      "isbn": "978-3-67605-239-9",
+      "price": "24,99 €",
+      "url": ""
+    },
+    {
+      "name": "Hardcover",
+      "isbn": "978-3-67605-261-0",
+      "price": "34,99 €",
+      "url": ""
+    }
+  ],
+  "amazon": "",
+  "amazonLabel": "",
+  "pending": true,
+  "status": "Demnächst erhältlich",
+  "availability": "COMING_SOON",
+  "distribution_status": {
+    "ingram_paperback": "EINGEREICHT",
+    "ingram_hardcover": "EINGEREICHT"
+  },
+  "metadata": "Ingram-Ausgaben · 682 Buchseiten und 2 Leerseiten · 6 × 9 Zoll",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Der abenteuerliche Simplicissimus (Kommentiert)",
+    "url": "https://aeternus-verlag.de/buecher/der-abenteuerliche-simplicissimus/",
+    "author": {
+      "@type": "Person",
+      "name": "Hans Jakob Christoffel von Grimmelshausen"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AETERNUS Verlag"
+    },
+    "inLanguage": "de",
+    "description": "Diese AETERNUS-Ausgabe erschließt das monumentale Werk in einer behutsam modernisierten, klangvollen Lesefassung, begleitet von einer eigens geschaffenen Folge historisch fundierter Bildtafeln.",
+    "image": "https://aeternus-verlag.de/assets/images/cover-hjg001-de-ingram-v3-20261104.webp"
+  },
+  "instagramUrl": "https://www.instagram.com/p/DfVinbXjmSi/"
+}

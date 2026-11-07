@@ -236,6 +236,9 @@ englishBooks.push(...fsr001.books);
 // CMM_002 V12: publisher-authorized edition announcement; buying links await observed LIVE.
 authorsEn.push(require('./cmm-author-draft-20261024.cjs'));
 englishBooks.push(require('./cmm002-en-20261027.json'));
+englishBooks.push(require('./cmm001-en-20261104.json'));
+// Wieland: approved V2 edition submitted; retail pending and no buying links.
+englishBooks.push(require('./cbb002-en-20261104.json'));
 
 // RJE_003 V4: released Wood Magic edition; retailer links await observed LIVE.
 englishBooks.push({ ...require('./rje003-en-20261103.json'), seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });

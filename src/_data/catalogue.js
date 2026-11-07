@@ -47,6 +47,8 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
     }
   };
 })));
+// Hash-released Ingram edition; no retail availability before observed LIVE.
+books.push(require('../../catalog/hjg001-de-20261104.json'));
 if (new Set(books.map(b => b.id)).size !== books.length) throw new Error("Duplicate book URL");
 module.exports = {
   books,

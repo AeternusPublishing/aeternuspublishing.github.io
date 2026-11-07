@@ -1054,6 +1054,25 @@
       }
     },
     {
+      "id": "book:de:der-abenteuerliche-simplicissimus",
+      "type": "book",
+      "label": {
+        "de": "Der abenteuerliche Simplicissimus (Kommentiert)",
+        "en": "Der abenteuerliche Simplicissimus (Kommentiert)"
+      },
+      "author": "Hans Jakob Christoffel von Grimmelshausen",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-hjg001-de-ingram-v3-20261104.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/der-abenteuerliche-simplicissimus/",
+        "en": "https://aeternus-verlag.de/buecher/der-abenteuerliche-simplicissimus/"
+      },
+      "summary": {
+        "de": "Diese AETERNUS-Ausgabe erschließt das monumentale Werk in einer behutsam modernisierten, klangvollen Lesefassung, begleitet von einer eigens geschaffenen Folge historisch fundierter Bildtafeln.",
+        "en": ""
+      }
+    },
+    {
       "id": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "type": "book",
       "label": {
@@ -2395,6 +2414,44 @@
       }
     },
     {
+      "id": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "type": "book",
+      "label": {
+        "de": "The Defence of India (Annotated)",
+        "en": "The Defence of India (Annotated)"
+      },
+      "author": "Charles Metcalfe MacGregor",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+        "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/"
+      },
+      "summary": {
+        "de": "",
+        "en": "SIMLA, 1884. A British general examines the strategic defence of India during the Great Game."
+      }
+    },
+    {
+      "id": "book:en-charles-brockden-brown-wieland-illustrated",
+      "type": "book",
+      "label": {
+        "de": "Wieland (Illustrated)",
+        "en": "Wieland (Illustrated)"
+      },
+      "author": "Charles Brockden Brown",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cbb002-en-v2-20261104.png",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-brockden-brown-wieland-illustrated/",
+        "en": "https://aeternuspublishing.com/books/en-charles-brockden-brown-wieland-illustrated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "On a quiet estate above the Schuylkill, a brother and sister live among books, music and friends. Then a voice begins to speak where no speaker can be seen."
+      }
+    },
+    {
       "id": "book:en-richard-jefferies-wood-magic",
       "type": "book",
       "label": {
@@ -2982,6 +3039,14 @@
       }
     },
     {
+      "id": "author:Hans Jakob Christoffel von Grimmelshausen",
+      "type": "author",
+      "label": {
+        "de": "Hans Jakob Christoffel von Grimmelshausen",
+        "en": "Hans Jakob Christoffel von Grimmelshausen"
+      }
+    },
+    {
       "id": "author:George Robert Gleig",
       "type": "author",
       "label": {
@@ -3391,6 +3456,11 @@
       "type": "series"
     },
     {
+      "source": "book:de:der-abenteuerliche-simplicissimus",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
       "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "target": "series:gruen",
       "type": "series"
@@ -3703,6 +3773,16 @@
     {
       "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
       "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-brockden-brown-wieland-illustrated",
+      "target": "series:anthrazit",
       "type": "series"
     },
     {
@@ -4237,6 +4317,11 @@
       "type": "author"
     },
     {
+      "source": "book:de:der-abenteuerliche-simplicissimus",
+      "target": "author:Hans Jakob Christoffel von Grimmelshausen",
+      "type": "author"
+    },
+    {
       "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "target": "author:George Robert Gleig",
       "type": "author"
@@ -4549,6 +4634,16 @@
     {
       "source": "book:en-charles-metcalfe-macgregor-wanderings-in-balochistan",
       "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-brockden-brown-wieland-illustrated",
+      "target": "author:Charles Brockden Brown",
       "type": "author"
     },
     {
