@@ -1,0 +1,120 @@
+{
+  "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+  "work_id": "CMM_003_VOL_2",
+  "language": "en",
+  "title": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II (Annotated)",
+  "subtitle": "The Sword and the Frontier",
+  "author": "charles-metcalfe-macgregor",
+  "authorName": "Charles Metcalfe MacGregor",
+  "contributors": [
+    {
+      "role": "EDITOR",
+      "name": "Lady MacGregor",
+      "note": "Editor of the 1888 edition"
+    }
+  ],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II",
+  "original_publication_year": 1888,
+  "isbn": {
+    "paperback": "9783676052580",
+    "hardcover": "9783676052597",
+    "ebook": "9783676052603"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · Amazon",
+      "isbn": "9783676052580",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 392
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052597",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 394
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "9783676052603",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · Amazon",
+      "isbn": "9783676052580",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 392
+    },
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052580",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 394
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052597",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 394
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "9783676052603",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "From Kabul to Kandahar, the second volume follows MacGregor from reconnaissance on the frontiers of India to the organisation of military intelligence.",
+    "long": "From Kabul to Kandahar, the second volume follows MacGregor from reconnaissance on the frontiers of India to the organisation of military intelligence."
+  },
+  "publisherDescriptionHTML": "<ul><li>The 1888 text of Volume II, with its maps, a portrait and five photographs</li><li>Foreword and afterword on the Great Game and military intelligence</li><li>Studies of the Afghan diary, the Simla warning and the frontier today</li><li>Select glossary and a record of MacGregor&#x27;s ranks and honours</li><li>Editorial note listing the corrections made to the 1888 text</li></ul><p>Edited by Lady MacGregor. First published by William Blackwood and Sons, Edinburgh and London, 1888.</p><p>The second volume records MacGregor&#x27;s mature career as military explorer, commander and strategist, including his travels through Persia, Khorassan and Balochistan, his service in the Second Anglo-Afghan War, the march to Kandahar and his work as Quartermaster-General in India.</p><p>Drawing upon journals, memoranda and military correspondence selected by his widow, the historical work reveals the growth of a professional intelligence system and the strategic concerns which culminated in his confidential study The Defence of India in 1884.</p><p>The AETERNUS edition adds new studies of the Anglo-Russian Great Game, the military geography of Afghanistan, the organisation of intelligence, the suppression and subsequent Russian translation of MacGregor&#x27;s strategic study, and the independent publication of his Afghan diary by William Trousdale in 1985.</p>",
+  "cover": "/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+  "backcover": "/assets/images/back-cmm003-en-b2-v7-20261107.jpg",
+  "publication_date": null,
+  "pricing": {},
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "NOT_SUBMITTED",
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/",
+  "authorUrl": "/authors/charles-metcalfe-macgregor/",
+  "seriesName": "Green Series",
+  "seriesColor": "#334d3b",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback, hardcover and Kindle.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · GREEN SERIES · English-language edition",
+      "sample": "From Kabul to Kandahar, the second volume follows MacGregor from reconnaissance on the frontiers of India to the organisation of military intelligence."
+    }
+  },
+  "provenance": "FINAL_B2_V7_20261107 · 6507ed7bf119051ddc95ecbd7eedb288c792c8d5ad9ee74e1b1b35125bfd9521"
+}

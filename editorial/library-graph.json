@@ -2433,6 +2433,25 @@
       }
     },
     {
+      "id": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II (Annotated)",
+        "en": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II (Annotated)"
+      },
+      "author": "Charles Metcalfe MacGregor",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "From Kabul to Kandahar, the second volume follows MacGregor from reconnaissance on the frontiers of India to the organisation of military intelligence."
+      }
+    },
+    {
       "id": "book:en-charles-brockden-brown-wieland-illustrated",
       "type": "book",
       "label": {
@@ -2487,6 +2506,44 @@
       "summary": {
         "de": "",
         "en": "In his 1889 comparison, the New York broker George Rutledge Gibson follows a securities trade through three markets, each with its own brokers, rules and customs."
+      }
+    },
+    {
+      "id": "book:en-winfield-scott-memoirs-volume-i",
+      "type": "book",
+      "label": {
+        "de": "Memoirs of Lieutenant-General Scott (Annotated)",
+        "en": "Memoirs of Lieutenant-General Scott (Annotated)"
+      },
+      "author": "Winfield Scott",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-ws001-volume-i.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-i/",
+        "en": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-i/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Scott recalls the War of 1812 and his formation as an American general."
+      }
+    },
+    {
+      "id": "book:en-winfield-scott-memoirs-volume-ii",
+      "type": "book",
+      "label": {
+        "de": "Memoirs of Lieutenant-General Scott (Annotated)",
+        "en": "Memoirs of Lieutenant-General Scott (Annotated)"
+      },
+      "author": "Winfield Scott",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-ws001-volume-ii.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-ii/",
+        "en": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-ii/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Scott recounts his campaign in Mexico and his later years in the United States Army."
       }
     },
     {
@@ -3290,6 +3347,14 @@
       }
     },
     {
+      "id": "author:Winfield Scott",
+      "type": "author",
+      "label": {
+        "de": "Winfield Scott",
+        "en": "Winfield Scott"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3808,6 +3873,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-charles-brockden-brown-wieland-illustrated",
       "target": "series:anthrazit",
       "type": "series"
@@ -3820,6 +3890,16 @@
     {
       "source": "book:en-george-rutledge-gibson-stock-exchanges",
       "target": "series:blau",
+      "type": "series"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-i",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-ii",
+      "target": "series:gruen",
       "type": "series"
     },
     {
@@ -4674,6 +4754,11 @@
       "type": "author"
     },
     {
+      "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
       "source": "book:en-charles-brockden-brown-wieland-illustrated",
       "target": "author:Charles Brockden Brown",
       "type": "author"
@@ -4686,6 +4771,16 @@
     {
       "source": "book:en-george-rutledge-gibson-stock-exchanges",
       "target": "author:George Rutledge Gibson",
+      "type": "author"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-i",
+      "target": "author:Winfield Scott",
+      "type": "author"
+    },
+    {
+      "source": "book:en-winfield-scott-memoirs-volume-ii",
+      "target": "author:Winfield Scott",
       "type": "author"
     },
     {
