@@ -27,7 +27,7 @@ function validate(p){
  else assert(p.image.reason,p.slug+': image omission needs a reason');
  if(p.coauthorPortrait){assert(p.coauthorPortrait.name&&p.coauthorPortrait.caption);assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join('src',p.coauthorPortrait.file))).digest('hex'),p.coauthorPortrait.sha256,p.slug+': coauthor portrait changed');}
 }
-assert.equal(profiles.length,51);assert.equal(new Set(profiles.map(p=>p.slug)).size,51);
+assert.equal(profiles.length,52);assert.equal(new Set(profiles.map(p=>p.slug)).size,52);
 assert.throws(()=>get('uncommissioned-author','en'));
 for(const p of profiles)validate(p);
 // Mutated examples establish that missing evidence and accidental language expansion fail.
@@ -77,8 +77,8 @@ for(const p of profiles){
   pageRecords.push({route,root,language:lang,sha256:crypto.createHash('sha256').update(html).digest('hex')});routes++;
  }
 }
-assert.equal(routes,deOnly?33:77);
-assert.equal(profiles.filter(p=>p.scope.de).length,21);assert.equal(profiles.filter(p=>p.scope.en).length,44);
+assert.equal(routes,deOnly?33:78);
+assert.equal(profiles.filter(p=>p.scope.de).length,21);assert.equal(profiles.filter(p=>p.scope.en).length,45);
 // The original catalogue data are retained verbatim; all generated book-page text is compared locally.
 let unchangedBooks=0;
 for(const [oldRoot,newRoot,folder] of [['work/before-de','public','buecher'],['work/before-en','dist/release','books']]){

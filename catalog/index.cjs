@@ -255,6 +255,9 @@ const ggi001 = require('./ggi001-en-20261107.json');
 authorsEn.push(ggi001.author);
 englishBooks.push(ggi001.book);
 
+const scott = require('./ws001-en.cjs');
+authorsEn.push(scott.author);
+englishBooks.push(...scott.books);
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {

@@ -5,6 +5,12 @@ const green = 'gruen';
 const greenBase = '/collections/green-series/';
 const definitions = [
   {
+    series: green, id: 'north-american-theatre', title: 'North American Theatre', public: true,
+    url: greenBase + 'north-american-theatre/',
+    intro: 'First-hand accounts of military command and campaigns across North America, beginning with Winfield Scott’s two-volume memoir.',
+    bookIds: ['en-winfield-scott-memoirs-volume-i', 'en-winfield-scott-memoirs-volume-ii']
+  },
+  {
     series: green, id: 'british-empire', title: 'British Empire Collection', public: true,
     url: `${greenBase}british-empire/`,
     intro: 'First-hand accounts of British campaigns, command and the people caught in the reach of empire.',
