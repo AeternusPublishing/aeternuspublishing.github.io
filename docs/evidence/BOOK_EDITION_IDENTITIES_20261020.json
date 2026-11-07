@@ -7051,6 +7051,80 @@
     },
     {
       "site": "en",
+      "id": "en-george-rutledge-gibson-stock-exchanges",
+      "language": "en",
+      "url": "/books/en-george-rutledge-gibson-stock-exchanges/",
+      "front_url": "/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+          "sha256": "48a852e6cdb7d9c7bb61fca2690e9cd56fa7d72d49d2861646459c11014b6be9"
+        },
+        {
+          "path": "src/assets/images/cover-ggi001-en-u3-20261107.webp",
+          "sha256": "5169c5cdc8cd67c51557dcf523622d80cc52671406a623941ab94c56e37c070e"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052825",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "GGI_001|en|ingram_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "GGI_001",
+              "status": "FREIGEGEBEN",
+              "isbn13": "978-3-67605-282-5",
+              "isbn10": "367605282X",
+              "version": "FREIGABE_HANDELSPAKET_13_148_U3",
+              "stand_utc": "2026-11-07T12:00:02Z"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "productform": "hardcover",
+          "isbn13": "9783676052832",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "GGI_001|en|ingram_hardcover",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "GGI_001",
+              "status": "FREIGEGEBEN",
+              "isbn13": "978-3-67605-283-2",
+              "isbn10": "3676052838",
+              "version": "FREIGABE_HANDELSPAKET_13_148_U3",
+              "stand_utc": "2026-11-07T12:00:02Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "HANDELSPAKET_13_148_U3",
+        "file": "INGRAM/9783676052825_cov.pdf",
+        "sha256": "5b5899280ae60fe31f8014afa6d68c844ae582613ef57d0d6d577cb98967bfe1",
+        "compiler_build_id": "97c392ea29e776a8cab15f1000cd9afbc38cef2b043166ddd6d1771948b2d154",
+        "front_rect_pt": [
+          639.025128,
+          8.982216000000001,
+          432.0,
+          648.0
+        ],
+        "output_pixel_size": [
+          800,
+          1200
+        ],
+        "rect_origin": "top-left, Cover Compiler front_rect_in"
+      }
+    },
+    {
+      "site": "en",
       "id": "en-richard-jefferies-wood-magic",
       "language": "en",
       "url": "/books/en-richard-jefferies-wood-magic/",
