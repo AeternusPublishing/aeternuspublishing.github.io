@@ -7113,8 +7113,8 @@
         "front_rect_pt": [
           639.025128,
           8.982216000000001,
-          432.0,
-          648.0
+          432,
+          648
         ],
         "output_pixel_size": [
           800,
@@ -7201,6 +7201,129 @@
         "package_preflight_sha256": "3264d10387c27159ab31083380016d0d2c110484f82c40035eaa8e581c3150bf",
         "availability": "COMING_SOON",
         "retail_links": "None; no LIVE observation"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-winfield-scott-memoirs-volume-i",
+      "language": "en",
+      "url": "/books/en-winfield-scott-memoirs-volume-i/",
+      "front_url": "/assets/images/cover-ws001-volume-i.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ws001-volume-i.jpg",
+          "sha256": "4f9532e56e6626d95175109abba546d91c56ae92a87934857181769d9fcd2138"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052443",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052450",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": []
+        },
+        {
+          "label": "Cloth hardcover with dust jacket",
+          "isbn13": "9783676052764",
+          "productform": "leinen",
+          "tokens": [],
+          "register_evidence": []
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-07",
+        "source": "F1 metadata and official uebergabe pruefe (exit 0, hash-bound FREIGEGEBEN); matching Archivtafel rows where projected",
+        "package_preflight_sha256": "bbaf24fbb69d75846a400cf7033bb2e0a0dc753815bd051ec12d0940bb681ca5",
+        "availability": "COMING_SOON"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-winfield-scott-memoirs-volume-ii",
+      "language": "en",
+      "url": "/books/en-winfield-scott-memoirs-volume-ii/",
+      "front_url": "/assets/images/cover-ws001-volume-ii.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-ws001-volume-ii.jpg",
+          "sha256": "0afd80d73e66185328c945da498df197b0c45d033cf9874d40a7d51a57b07916"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052467",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Memoirs of Lieutenant-General Scott (Annotated)",
+              "isbn13": "9783676052467",
+              "isbn10": "3676052463",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052474",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WS_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Memoirs of Lieutenant-General Scott (Annotated)",
+              "isbn13": "9783676052474",
+              "isbn10": "3676052471",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Cloth hardcover with dust jacket",
+          "isbn13": "9783676052771",
+          "productform": "leinen",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "WS_001",
+              "sprache": "en",
+              "produktform": "leinen",
+              "titel": "Memoirs of Lieutenant-General Scott (Annotated)",
+              "isbn13": "9783676052771",
+              "isbn10": "3676052773",
+              "asin": null,
+              "manifestation": "ingram_hardcover_leinen",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-07",
+        "source": "F1 metadata and official uebergabe pruefe (exit 0, hash-bound FREIGEGEBEN); matching Archivtafel rows where projected",
+        "package_preflight_sha256": [
+          "03335a12db036d3b077831127a3a453dfa786dd386e11667218a7f137ffd5beb",
+          "cb728e89bb762fcc0dde30f94e0cb3e2068f29d133aebf1898c38c8f6a4256bd"
+        ],
+        "availability": "COMING_SOON"
       }
     }
   ],
