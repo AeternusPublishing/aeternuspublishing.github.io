@@ -781,7 +781,7 @@ module.exports.push({
     {
       "h": "The edition",
       "p": [
-        "AETERNUS gives the complete text of the first edition of 1882 in one volume, with five reconstructions, a glossary of thirty terms, an author profile, and an afterword."
+        "AETERNUS gives the complete text of the 1882 first edition, checked against the printed page, with all three original volumes in one book and their divisions and chapters retained. A new publisher’s note, an author profile, an afterword and a glossary of country, boating and period words complete the edition."
       ]
     }
   ],
@@ -800,7 +800,7 @@ module.exports.push({
     ],
     [
       "Print edition",
-      "678 pages"
+      "710 pages"
     ],
     [
       "Formats",
@@ -822,9 +822,9 @@ module.exports.push({
       "subtitle": "The Story of a Boy",
       "status": "Available now",
       "modal": {
-        "metadata": "AETERNUS · English · Annotated · 678 print pages · Kindle & paperback",
+        "metadata": "AETERNUS · English · Annotated · 710 print pages · Kindle & paperback",
         "summary": "A packing-case becomes the beginning of a project. A brook becomes the Mississippi. Bevis and Mark give the countryside new names, build and equip their craft, and set out for islands whose remoteness grows with every plan.",
-        "sample": "Complete text of the first edition of 1882 with five reconstructions, a glossary of 30 terms, an author profile and an afterword.",
+        "sample": "Complete text of the 1882 first edition, checked against the printed page. All three original volumes in one book, divisions and chapters retained. New publisher’s note, author profile and afterword; glossary of country, boating and period words.",
         "amazon": "#edition-bevis"
       },
       "formats": [
@@ -880,7 +880,7 @@ module.exports.push({
   "editionSection": true,
   "editionsTitle": "Choose your edition",
   "modalActionLabel": "Formats & availability",
-  "editionsNote": "Prices and delivery depend on your Amazon store; the applicable local taxes are handled by Amazon. Availability checked 21 September 2026.",
+  "editionsNote": "Prices and delivery depend on your Amazon store; the applicable local taxes are handled by Amazon. Availability checked 7 November 2026.",
   "sisterUrl": "/en/",
   "sisterLabel": "More AETERNUS editions in English"
 });
