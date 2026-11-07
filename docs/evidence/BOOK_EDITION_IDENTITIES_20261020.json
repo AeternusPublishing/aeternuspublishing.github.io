@@ -7325,6 +7325,126 @@
         ],
         "availability": "COMING_SOON"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "language": "en",
+      "url": "/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/",
+      "front_url": "/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+          "sha256": "f88792017465c0459fc880514aa08dee35969a890bd4a9da8d7323daa2479494"
+        },
+        {
+          "path": "src/assets/images/back-cmm003-en-b2-v7-20261107.jpg",
+          "sha256": "31e575d5a4887c1512e58469698f8807fd7d724f7531e8f769a4c273d834ad32"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052580",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|kdp_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052580",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052580",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|ingram_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052580",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "productform": "hardcover",
+          "isbn13": "9783676052597",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|ingram_hardcover",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052597",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "productform": "ebook",
+          "isbn13": "9783676052603",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|kdp_ebook",
+              "sprache": "en",
+              "produktform": "ebook",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052603",
+              "version": "FREIGABE_FINAL_B2_V7_20261107",
+              "stand_utc": "2026-11-07T13:40:23Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "FINAL_B2_V7_20261107",
+        "file": "INGRAM/9783676052580_cov.pdf",
+        "sha256": "a98636ee9e487065813579cdbf62903715f0952ad749c66c086ed32d9e48dfb9",
+        "panels": [
+          {
+            "side": "front",
+            "file": "CMM003_EN_B2_FRONT_1080.jpg",
+            "sha256": "d5fd80ae02b063f5b28ce1c7265db424c7e3469b8f9ffa3fd188292b30274518",
+            "rect_in": [
+              10.375001,
+              0.125001,
+              7.0,
+              10.0
+            ]
+          },
+          {
+            "side": "back",
+            "file": "CMM003_EN_B2_BACK_1080.jpg",
+            "sha256": "24c7070f3e749f2bfc2d831b13f30d46001519734037ceab4b22b53c8f9618ae",
+            "rect_in": [
+              2.565,
+              0.125001,
+              7.0,
+              10.0
+            ]
+          }
+        ]
+      }
     }
   ],
   "additional_pages": [
