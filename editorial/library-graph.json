@@ -2452,6 +2452,25 @@
       }
     },
     {
+      "id": "book:en-george-rutledge-gibson-stock-exchanges",
+      "type": "book",
+      "label": {
+        "de": "The Stock Exchanges of London, Paris, and New York (Annotated)",
+        "en": "The Stock Exchanges of London, Paris, and New York (Annotated)"
+      },
+      "author": "George Rutledge Gibson",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-rutledge-gibson-stock-exchanges/",
+        "en": "https://aeternuspublishing.com/books/en-george-rutledge-gibson-stock-exchanges/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In his 1889 comparison, the New York broker George Rutledge Gibson follows a securities trade through three markets, each with its own brokers, rules and customs."
+      }
+    },
+    {
       "id": "book:atlas:hawks",
       "type": "book",
       "label": {
@@ -3244,6 +3263,14 @@
       }
     },
     {
+      "id": "author:George Rutledge Gibson",
+      "type": "author",
+      "label": {
+        "de": "George Rutledge Gibson",
+        "en": "George Rutledge Gibson"
+      }
+    },
+    {
       "id": "author:Tacitus",
       "type": "author",
       "label": {
@@ -3764,6 +3791,11 @@
     {
       "source": "book:en-charles-brockden-brown-wieland-illustrated",
       "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-rutledge-gibson-stock-exchanges",
+      "target": "series:blau",
       "type": "series"
     },
     {
@@ -4620,6 +4652,11 @@
     {
       "source": "book:en-charles-brockden-brown-wieland-illustrated",
       "target": "author:Charles Brockden Brown",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-rutledge-gibson-stock-exchanges",
+      "target": "author:George Rutledge Gibson",
       "type": "author"
     },
     {
