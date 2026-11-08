@@ -11,18 +11,25 @@
   },
   "sources": [
     {
-      "id": "SC",
-      "title": "University of South Carolina · William Gilmore Simms research",
-      "url": "https://visitorcenter.sc.edu/about/offices_and_divisions/university_libraries/about/employment_opportunities/research_opportunities/index.php",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "id": "SCE",
+      "title": "John M. McCardell, Jr. · Simms, William Gilmore · South Carolina Encyclopedia",
+      "url": "https://www.scencyclopedia.org/sce/entries/simms-william-gilmore/",
+      "checked": "2026-11-03",
+      "note": "Institutional encyclopedia, University of South Carolina. Paragraphs on childhood, the 1833–1835 novels, Revolutionary romances and final years. Dates and literary chronology; no military distinctions inferred."
     },
     {
-      "id": "ARCHIVE",
-      "title": "University of South Carolina · Simms Initiatives",
-      "url": "https://simms.library.sc.edu/biography.php",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "id": "USC",
+      "title": "David Moltke-Hansen · William Gilmore Simms: A Biographical Overview",
+      "url": "https://manifold.sc.edu/read/honorable-and-brilliant-labors-orations-of-william-gilmore-simms/section/df9dcc48-3c6e-4c11-ad6e-cb7208034f4a",
+      "checked": "2026-11-03",
+      "note": "University of South Carolina Press, pp. ix–x and sections Background, Personal Life and Career. Frontier journeys, New York literary ties, slavery and Confederate allegiance. This source dates bar admission to 1827, unlike the encyclopedia; no exact admission year stated."
+    },
+    {
+      "id": "SCDAH",
+      "title": "South Carolina Department of Archives and History · Woodlands, Bamberg County",
+      "url": "https://www.nationalregister.sc.gov/bamberg/S10817705010/index.htm",
+      "checked": "2026-11-03",
+      "note": "National Register property description: marriage and residence 1836, library extension 1859, fires 1862 and 1865, renewed habitation 1868. Retrieved from indexed institutional description."
     }
   ],
   "facts": [
@@ -30,24 +37,55 @@
       "id": "F01",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "South Carolina author, 1806–1870; novelist, poet, historian and editor.",
+      "statement": "Born Charleston 17 April 1806, died there 11 June 1870; raised by his maternal grandmother; law, journalism and professional authorship.",
       "sources": [
-        "SC",
-        "ARCHIVE"
+        "SCE",
+        "USC"
       ]
     },
     {
       "id": "F02",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Wrote extensively on the American South and the Revolution; supported the Confederate cause.",
+      "statement": "Mississippi journeys supplied literary material; New York friendships supported his career while his home remained in South Carolina.",
       "sources": [
-        "SC",
-        "ARCHIVE"
+        "USC"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Martin Faber (1833), Guy Rivers (1834), The Yemassee and The Partisan (1835); historical romances cover colonial Carolina and the Revolution.",
+      "sources": [
+        "SCE"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Woodlands became his home in 1836; library wing added in 1859; the house burned in 1862 and again in 1865, destroying much of his library.",
+      "sources": [
+        "SCDAH"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Defended slavery and supported the Confederacy; later scholarly recovery includes letters and the 2011 digital Simms edition.",
+      "sources": [
+        "USC"
       ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "statement": "Sources disagree on the year of admission to the bar (1826/1827); the page gives no year. No military service, rank or order is asserted; none is established by the sources used here."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -67,24 +105,29 @@
   },
   "locales": {
     "en": {
-      "tagline": "The South’s historical imagination, before and through civil war.",
-      "intro": "Simms built a large literary world from the history, landscape and political loyalties of the American South. Romance, public argument and historical narrative were parts of a single working life.",
-      "orientation": "His regional attachment was also a political commitment. The fiction must be read alongside his defence of slavery and support for the Confederacy.",
+      "tagline": "Carolina’s forests, frontier wars and historical romance.",
+      "intro": "A Charleston writer made the Carolina forest a world of war, divided loyalties and family tragedy. In The Yemassee, the threatened colony and the household of Sanutee meet inside the same historical storm.",
+      "orientation": "Simms wrote from South Carolina while maintaining literary friendships in New York. His regional commitments developed into a defence of slavery and support for the Confederacy; the war then shattered the society in which he had worked.",
       "origin": [
-        "Born in Charleston, Simms made South Carolina the centre of an unusually extensive writing career."
+        "Born in Charleston on April 17, 1806, Simms grew up with his maternal grandmother after his mother’s death and his father’s departure west. Her Revolutionary stories joined the books he read. He studied law and entered journalism, but writing became his profession.",
+        "Journeys to Mississippi in the 1820s and 1831 carried him through a frontier still undergoing settlement. Rivers, roads, encounters and remembered stories supplied material long after those journeys ended."
       ],
       "career": [
-        "He worked across novels, poetry, criticism, history and biography. The Civil War and its destruction divided the world in which his reputation had been formed."
+        "New York offered publishers and lasting friendships, not a permanent departure from Carolina. Martin Faber appeared in 1833, Guy Rivers in 1834, and The Yemassee and The Partisan in 1835. Fiction joined poetry, editing, history and biography in his working life.",
+        "From 1836, Woodlands on the Edisto River was his home. He enlarged it with a library wing in 1859. Fire struck in 1862; the house burned again in 1865, with much of his library. Rebuilding followed, but the loss reached into the materials of his profession. He died in Charleston on June 11, 1870."
       ],
       "literature": [
-        "His Revolutionary romances turn the South’s earlier conflicts into stories of contested loyalty and collective identity. Their historical design is inseparable from the region’s later self-understanding."
+        "The Yemassee sets its colonial conflict in 1715; The Partisan begins a cycle of Revolutionary romances. Across these books, historical events become the pressure under which allegiance, courage and family obligations are tested."
       ],
-      "legacy": "Simms remains significant for the scale of his literary construction of the South. His work preserves an energetic narrative art and the partisan historical imagination that sustained it.",
-      "bridge": "The editions reopen individual novels within that larger landscape of memory, conflict and regional allegiance.",
-      "description": "Simms built a large literary world from the history, landscape and political loyalties of the American South. Romance, public argument and historical narrative were parts of a single working life.",
+      "legacy": "His reputation outlived him unevenly. The publication of his letters and renewed editions brought readers back; the South Caroliniana Library’s digital edition, launched in 2011, opened his separately published works to a wider public.",
+      "bridge": "Begin with The Yemassee: the Carolina landscape, the approaching war and Sanutee’s divided household concentrate the larger ambitions of Simms’s historical fiction.",
+      "description": "A Charleston writer made the Carolina forest a world of war, divided loyalties and family tragedy. In The Yemassee, the threatened colony and the household of Sanutee meet inside the same historical storm.",
       "claimRefs": [
         "F01",
-        "F02"
+        "F02",
+        "F03",
+        "F04",
+        "F05"
       ]
     }
   },
@@ -112,5 +155,45 @@
         "caption": "Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution."
       }
     ]
-  }
+  },
+  "timeline": [
+    [
+      "1806",
+      "Born in Charleston."
+    ],
+    [
+      "1833–1835",
+      "Martin Faber, Guy Rivers, The Yemassee and The Partisan appear."
+    ],
+    [
+      "1836",
+      "Woodlands becomes his home."
+    ],
+    [
+      "1865",
+      "Woodlands and much of the library burn."
+    ],
+    [
+      "1870",
+      "Dies in Charleston."
+    ],
+    [
+      "2011",
+      "The digital Simms edition launches at the University of South Carolina."
+    ]
+  ],
+  "places": [
+    {
+      "en": [
+        "Charleston",
+        "Birthplace, newspaper city and the centre of his South Carolina literary life."
+      ]
+    },
+    {
+      "en": [
+        "Woodlands on the Edisto River",
+        "His home from 1836, repeatedly damaged by fire and rebuilt."
+      ]
+    }
+  ]
 }
