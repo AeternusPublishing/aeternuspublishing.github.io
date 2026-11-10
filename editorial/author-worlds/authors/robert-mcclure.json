@@ -1,0 +1,115 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "robert-mcclure",
+  "name": "Sir Robert John Le Mesurier McClure",
+  "dates": "1807–1873",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "rank": {
+    "en": "Vice-Admiral, Royal Navy (1873)"
+  },
+  "sources": [
+    {
+      "id": "PC",
+      "title": "Parks Canada: McClure, Sir Robert John (national historic person and plaque)",
+      "url": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1544"
+    },
+    {
+      "id": "DIB",
+      "title": "Royal Irish Academy: Dictionary of Irish Biography, Sir Robert John Le Mesurier McClure",
+      "url": "https://www.dib.ie/index.php/biography/mcclure-sir-robert-john-le-mesurier-a5601"
+    },
+    {
+      "id": "NPG",
+      "title": "National Portrait Gallery: Sir Robert McClure",
+      "url": "https://www.npg.org.uk/collections/search/person/mp02865/sir-robert-mcclure"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Born in Wexford in 1807, McClure entered the Royal Navy in 1824 and served on HMS Terror in the Arctic in 1836–37.",
+      "sources": [
+        "DIB",
+        "NPG"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "McClure approached the Arctic from the Pacific aboard HMS Investigator while searching for Franklin. His party was relieved after the ship was trapped at Mercy Bay and completed the traverse aboard other ships and over ice.",
+      "sources": [
+        "PC",
+        "DIB"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Sherard Osborn edited McClure’s expedition journals for the 1856 account. McClure was made a Companion of the Order of the Bath in 1859 and promoted to vice-admiral in 1873.",
+      "sources": [
+        "DIB",
+        "NPG"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "literature"
+    ]
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "legacy"
+    ]
+  },
+  "image": {
+    "status": "omitted",
+    "reason": "No colour portrait with documented reuse authority was commissioned for this page."
+  },
+  "honours": [
+    {
+      "category": "order",
+      "name": "Companion of the Order of the Bath",
+      "year": "1859",
+      "sources": [
+        "DIB"
+      ]
+    }
+  ],
+  "locales": {
+    "en": {
+      "tagline": "From the Bering Strait to Mercy Bay.",
+      "intro": "Robert McClure took HMS Investigator into the Arctic from the Pacific in search of Franklin. The ice held his ship at Mercy Bay. To finish the crossing, his men left the ship and went on over the ice.",
+      "orientation": "The voyage began as a search for missing men. It became a test of whether a crew could survive long enough to pass from one ocean to the other.",
+      "origin": [
+        "Born in Wexford in 1807, McClure entered the Royal Navy in 1824. He first sailed into Arctic waters aboard HMS Terror in 1836."
+      ],
+      "career": [
+        "In 1850 he sailed westward in HMS Investigator. From Prince of Wales Strait, he established the connection with waters already charted from the east. The ship later became trapped at Mercy Bay. A party from HMS Resolute reached the crew in 1853, and the men returned to Britain in 1854.",
+        "McClure later served in China. He was made a Companion of the Order of the Bath in 1859 and became a vice-admiral on the retired list in 1873."
+      ],
+      "literature": [
+        "Sherard Osborn shaped McClure’s journals into the account published in 1856. Its changes of pace follow the work of the expedition, from sounding and charting new waters to rationing supplies while the ship lay still."
+      ],
+      "legacy": "The expedition completed the first recorded traverse of a North-West Passage. Its course is best followed in stages, from the Pacific approach to the journey across the ice and the return through eastern Arctic waters.",
+      "bridge": "The AETERNUS edition presents the 1856 text with historical illustrations and the folding chart. The full-resolution chart is available below.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  }
+}
