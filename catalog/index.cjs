@@ -244,6 +244,9 @@ englishBooks.push(require('./cbb002-en-20261104.json'));
 // RJE_003 V4: released Wood Magic edition; retailer links await observed LIVE.
 englishBooks.push({ ...require('./rje003-en-20261103.json'), seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
 
+// ESW_001 V6: released edition announcement; retailer links await observed LIVE.
+englishBooks.push({ ...require('./esw001-en-20261103.json'), seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+
 authorsEn.push(...require('./wilderness-authors.cjs'));
 
 // SBS_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
