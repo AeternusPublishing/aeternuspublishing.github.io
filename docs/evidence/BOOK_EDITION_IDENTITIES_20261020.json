@@ -7205,6 +7205,91 @@
     },
     {
       "site": "en",
+      "id": "en-richard-jefferies-the-gamekeeper-at-home",
+      "language": "en",
+      "url": "/books/en-richard-jefferies-the-gamekeeper-at-home/",
+      "front_url": "/assets/images/cover-rje002-en-v2-20261104.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rje002-en-v2-20261104.jpg",
+          "sha256": "e5c44d189b4e16f205b2022384815bd9493d4e4f8a04b3243b99165f48d6af9d"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn13": "9783676050746",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050746"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Gamekeeper at Home (Annotated)",
+              "isbn13": "978-3-67605-074-6",
+              "isbn10": "3676050746",
+              "asin": "3676050746",
+              "manifestation": "kdp_paperback",
+              "status": "LIVE"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676050746",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Gamekeeper at Home (Annotated)",
+              "isbn13": "978-3-67605-074-6",
+              "isbn10": "3676050746",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "EINGEREICHT"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676050661",
+          "productform": "ebook",
+          "tokens": [
+            "B0HQWFHV8W"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Gamekeeper at Home (Annotated)",
+              "isbn13": "978-3-67605-066-1",
+              "isbn10": "3676050665",
+              "asin": "B0HQWFHV8W",
+              "manifestation": "kdp_ebook",
+              "status": "LIVE"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-11",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='RJE_002' AND sprache='en'",
+        "projection_sha256": "339a335a69668dac6d11468806e3c1d0abb54d418524c5d9cb73c435bbb90551",
+        "projection_rule": "sha256 of json.dumps(rows, sort_keys=True, ensure_ascii=False)",
+        "package_preflight_sha256": "b63f0e475ea8b9ffba9475e3a6535e41a7e8357d76033d9c865083d07de383e8",
+        "availability": "AVAILABLE",
+        "retail_links": "KDP paperback and Kindle LIVE observed 2026-11-08 on the KDP bookshelf; Ingram submitted, no link"
+      }
+    },
+    {
+      "site": "en",
       "id": "en-winfield-scott-memoirs-volume-i",
       "language": "en",
       "url": "/books/en-winfield-scott-memoirs-volume-i/",

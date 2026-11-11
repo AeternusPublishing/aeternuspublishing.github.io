@@ -2490,6 +2490,25 @@
       }
     },
     {
+      "id": "book:en-richard-jefferies-the-gamekeeper-at-home",
+      "type": "book",
+      "label": {
+        "de": "The Gamekeeper at Home (Annotated)",
+        "en": "The Gamekeeper at Home (Annotated)"
+      },
+      "author": "Richard Jefferies",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-rje002-en-v2-20261104.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-richard-jefferies-the-gamekeeper-at-home/",
+        "en": "https://aeternuspublishing.com/books/en-richard-jefferies-the-gamekeeper-at-home/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news."
+      }
+    },
+    {
       "id": "book:en-george-rutledge-gibson-stock-exchanges",
       "type": "book",
       "label": {
@@ -3888,6 +3907,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-richard-jefferies-the-gamekeeper-at-home",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
       "source": "book:en-george-rutledge-gibson-stock-exchanges",
       "target": "series:blau",
       "type": "series"
@@ -4765,6 +4789,11 @@
     },
     {
       "source": "book:en-richard-jefferies-wood-magic",
+      "target": "author:Richard Jefferies",
+      "type": "author"
+    },
+    {
+      "source": "book:en-richard-jefferies-the-gamekeeper-at-home",
       "target": "author:Richard Jefferies",
       "type": "author"
     },
