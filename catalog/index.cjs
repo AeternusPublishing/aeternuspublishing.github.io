@@ -265,6 +265,7 @@ authorsEn.push(scott.author);
 englishBooks.push(...scott.books);
 // Franklin author page only; no edition card before observed LIVE.
 authorsEn.push(require('./jf001-author-20261111.cjs'));
+authorsEn.push(require('./wi001-author.cjs'));
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
