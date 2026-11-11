@@ -1,0 +1,142 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "washington-irving",
+  "name": "Washington Irving",
+  "dates": "1783–1859",
+  "depth": "compact",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "editionStatus": "IN_PREPARATION",
+  "sources": [
+    {
+      "id": "NYPL",
+      "title": "New York Public Library, Washington Irving papers",
+      "url": "https://old-digitalcollections.nypl.org/collections/washington-irving-papers",
+      "locator": "Biographical and historical note, MssCol 1524."
+    },
+    {
+      "id": "NPS",
+      "title": "National Park Service, Washington Irving’s Sunnyside",
+      "url": "https://npgallery.nps.gov/GetAsset/d4d6aa7f-f70f-435a-8ac0-8ff812ad1d73",
+      "locator": "Section 8, Statement of Significance and Biography."
+    },
+    {
+      "id": "IRVING",
+      "title": "Washington Irving, Old Christmas",
+      "url": "https://www.gutenberg.org/files/20656/20656-h/20656-h.htm",
+      "locator": "1886 fifth edition, title page and contents. See ‘The Stage Coach’, ‘Christmas Eve’ and ‘The Christmas Dinner’."
+    },
+    {
+      "id": "HARVARD",
+      "title": "Houghton Library, Randolph Caldecott drawings",
+      "url": "https://hollisarchives.lib.harvard.edu/download_collection_pdf/hou00319.pdf",
+      "locator": "MS Typ 690–690.9, Box 1, item 4, preliminary drawings for Old Christmas."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Irving was born in New York in 1783 and died in 1859.",
+      "sources": [
+        "NYPL",
+        "NPS"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "A History of New York appeared in 1809 under the name Diedrich Knickerbocker.",
+      "sources": [
+        "NPS",
+        "NYPL"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The Sketch Book appeared in 1819–20. Irving returned to the United States in 1832 and bought the Hudson River cottage that became Sunnyside in 1835.",
+      "sources": [
+        "NPS"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Irving served as United States minister in Madrid from 1842 and became the first president of New York’s Astor Library in 1849.",
+      "sources": [
+        "NYPL"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Old Christmas gathers five Christmas sketches. Houghton Library records Caldecott drawings for the Macmillan edition dated 1876.",
+      "sources": [
+        "IRVING",
+        "HARVARD"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "OFFEN",
+      "statement": "No portrait has been cleared for this website page."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "statement": "The account of Christmas hospitality is a reading of Irving’s sketches at Bracebridge Hall."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "intro",
+      "legacy"
+    ],
+    "statement": "The assessment of the narrative and drawings is the publisher’s reading."
+  },
+  "image": {
+    "status": "omitted",
+    "reason": "No portrait cleared for this page."
+  },
+  "locales": {
+    "en": {
+      "description": "Washington Irving, from Knickerbocker’s New York to the English Christmas sketches of Bracebridge Hall.",
+      "tagline": "From the Hudson River to Christmas at Bracebridge Hall",
+      "intro": "Schoolboys bound for the holidays crowd Irving’s stagecoach. Beyond the coach road lies Bracebridge Hall, where the squire keeps Christmas with the customs he has read about and remembers. The American traveller watches the household gather around its old songs, games and supper table.",
+      "orientation": "Irving gave his traveller’s attention to places on both sides of the Atlantic. In New York he turned the Dutch colonial past into satire. In the English Christmas sketches he watched a household put its own version of the past into practice.",
+      "bridge": "AETERNUS is preparing an English edition of Old Christmas, based on the illustrated Macmillan edition dated 1876.",
+      "origin": [
+        "Washington Irving was born in New York in 1783. In 1809 he published A History of New York under the name Diedrich Knickerbocker, the fictitious historian through whom he told his satire of the city’s Dutch past."
+      ],
+      "career": [
+        "The Sketch Book appeared in 1819–20 while Irving was living in Europe. He returned to the United States in 1832 and bought a cottage on the Hudson near Tarrytown in 1835. There he made his home at Sunnyside. In 1842 he returned to Madrid as United States minister. In 1849 he became the first president of the Astor Library in New York, a position he held until his death in 1859."
+      ],
+      "literature": [
+        "Five sketches carry the visitor from the winter road to the Christmas dinner. The squire can prescribe the old observances. It takes the children, servants, guests and musicians to make a holiday of them. Randolph Caldecott’s drawings pick out these small parts of the occasion, from the schoolboys in the coach to the company at the table."
+      ],
+      "legacy": "At Bracebridge Hall the old customs are kept by people who can still laugh at the trouble of keeping them. That humour gives Irving’s Christmas its warmth.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05"
+      ]
+    }
+  }
+}
