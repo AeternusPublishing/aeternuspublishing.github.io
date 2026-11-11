@@ -1073,25 +1073,6 @@
       }
     },
     {
-      "id": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
-      "type": "book",
-      "label": {
-        "de": "The Discovery of the North-West Passage (Annotated)",
-        "en": "The Discovery of the North-West Passage (Annotated)"
-      },
-      "author": "Robert Le Mesurier McClure",
-      "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-rmc001-ingram-paperback.jpg",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/",
-        "en": "https://aeternuspublishing.com/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/"
-      },
-      "summary": {
-        "de": "",
-        "en": "The 1856 account of HMS Investigator and the first recorded traverse of a North-West Passage, with historical illustrations and a folding chart."
-      }
-    },
-    {
       "id": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "type": "book",
       "label": {
@@ -3161,14 +3142,6 @@
       }
     },
     {
-      "id": "author:Robert Le Mesurier McClure",
-      "type": "author",
-      "label": {
-        "de": "Robert Le Mesurier McClure",
-        "en": "Robert Le Mesurier McClure"
-      }
-    },
-    {
       "id": "author:George Robert Gleig",
       "type": "author",
       "label": {
@@ -3596,11 +3569,6 @@
     {
       "source": "book:de:der-abenteuerliche-simplicissimus",
       "target": "series:anthrazit",
-      "type": "series"
-    },
-    {
-      "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
-      "target": "series:gruen",
       "type": "series"
     },
     {
@@ -4487,11 +4455,6 @@
     {
       "source": "book:de:der-abenteuerliche-simplicissimus",
       "target": "author:Hans Jakob Christoffel von Grimmelshausen",
-      "type": "author"
-    },
-    {
-      "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
-      "target": "author:Robert Le Mesurier McClure",
       "type": "author"
     },
     {
