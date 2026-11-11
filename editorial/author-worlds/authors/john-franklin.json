@@ -1,0 +1,244 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "john-franklin",
+  "name": "Sir John Franklin",
+  "dates": "1786–1847",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "editionStatus": "IN_PREPARATION",
+  "rank": {
+    "en": "Royal Navy officer · Lieutenant-Governor of Van Diemen’s Land, 1837–1843"
+  },
+  "sources": [
+    {
+      "id": "DCB",
+      "title": "Janice Cavell, Dictionary of Canadian Biography: Sir John Franklin",
+      "url": "https://www.biographi.ca/en/bio/3394",
+      "locator": "Early service; first and second overland expeditions; fur-company supply networks."
+    },
+    {
+      "id": "RMG",
+      "title": "Royal Museums Greenwich: Sir John Franklin (1786–1847)",
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-14169",
+      "locator": "Biographical catalogue note: Investigator, Trafalgar, Arctic journeys."
+    },
+    {
+      "id": "PRINCETON",
+      "title": "Princeton University Library: Franklin’s first expedition",
+      "url": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/northwest-passage/franklin-first.htm",
+      "locator": "1823 volume; expedition narrative and quotations, pp. xi, 468, 470–471, 494."
+    },
+    {
+      "id": "ADB",
+      "title": "Kathleen Fitzpatrick, Australian Dictionary of Biography: Sir John Franklin",
+      "url": "https://adb.anu.edu.au/biography/franklin-sir-john-2066",
+      "locator": "Naval career; second land expedition; administration of Van Diemen’s Land."
+    },
+    {
+      "id": "RS",
+      "title": "Royal Society archive: Franklin, Sir John, NA7486",
+      "url": "https://catalogues.royalsociety.org/CalmView/Record.aspx?id=NA7486&src=CalmView.Persons",
+      "locator": "Activity and dates: New Orleans 1814–15; knighthood 1829; death 11 June 1847."
+    },
+    {
+      "id": "DERBY",
+      "title": "Derbyshire Record Office: Sir John Franklin, person record DS/UK/1246",
+      "url": "https://calmview.derbyshire.gov.uk/CalmView/Record.aspx?id=DS%2FUK%2F1246&src=CalmView.Persons",
+      "locator": "Knighthood, 29 April 1829; Rainbow and Van Diemen’s Land."
+    },
+    {
+      "id": "PC",
+      "title": "Parks Canada: The Wrecks of HMS Erebus and HMS Terror",
+      "url": "https://www.canada.ca/en/parks-canada/news/2017/09/the_wrecks_of_hmserebusandhmsterror.html",
+      "locator": "1845 departure; 1859 message; Inuit testimony and wreck discoveries in 2014 and 2016."
+    },
+    {
+      "id": "ECCC",
+      "title": "Environment and Climate Change Canada: Sea ice in Canada",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/sea-ice.html",
+      "locator": "Northwest Passage: routes, changing sea ice and navigation hazards."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Born at Spilsby in 1786; joined the navy in 1800; served with Flinders in Investigator and at Trafalgar in Bellerophon.",
+      "sources": [
+        "RMG",
+        "RS"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Served in the New Orleans campaign of 1814–15.",
+      "sources": [
+        "RS",
+        "DCB"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The 1819–22 expedition reached the Coppermine coast in 1821; retreat brought starvation, Hood’s death and Richardson’s killing of Michel; Back sought relief and local hunters brought food.",
+      "sources": [
+        "PRINCETON"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Admiralty coastal mapping depended on rival Hudson’s Bay Company and North West Company supply systems, whose capacity fell short of assurances.",
+      "sources": [
+        "DCB"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The second land expedition, 1825–27, surveyed the coast from the Mackenzie delta, Franklin westwards and Richardson eastwards.",
+      "sources": [
+        "DCB",
+        "ADB"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Franklin governed Van Diemen’s Land in 1837–43 amid conflict with colonial officials.",
+      "sources": [
+        "ADB",
+        "DERBY"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Erebus and Terror sailed in 1845; Franklin died on 11 June 1847; the 1859 discovery of the message and Inuit accounts informed the searches; wrecks found in 2014 and 2016.",
+      "sources": [
+        "RS",
+        "PC"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Knighted on 29 April 1829.",
+      "sources": [
+        "DERBY",
+        "RS"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The first expedition account appeared in London in 1823 with scientific and natural-history material.",
+      "sources": [
+        "PRINCETON"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The Northwest Passage connects Atlantic and Pacific waters; shrinking summer ice does not remove navigation hazards.",
+      "sources": [
+        "ECCC"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "statement": "The complete sequence of the last expedition’s retreat and deaths remains unresolved; the page makes no claim to reconstruct it."
+    },
+    {
+      "status": "OFFEN",
+      "statement": "No fully documented colour portrait secured; no image published. Order grades and award dates beyond the knighthood are omitted pending dated official evidence."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "statement": "The relationship between naval mapping and inland supply networks is an editorial interpretation grounded in the expedition history."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "intro",
+      "legacy"
+    ],
+    "statement": "Literary assessment belongs to the publisher; it is not attributed to Franklin."
+  },
+  "image": {
+    "status": "omitted",
+    "reason": "No historically secure colour portrait with complete source, rights, original dimensions and SHA-256 evidence has been secured. See PORTRAET_QUELLEN_OFFEN.json."
+  },
+  "honours": [
+    {
+      "category": "title",
+      "name": "Knighthood",
+      "year": "1829",
+      "sources": [
+        "DERBY",
+        "RS"
+      ],
+      "note": {
+        "en": "Knighted on 29 April 1829."
+      }
+    }
+  ],
+  "locales": {
+    "en": {
+      "description": "Sir John Franklin: naval service, the Coppermine journey, Arctic exploration and the search for Erebus and Terror.",
+      "tagline": "From the quarterdeck to the shores of the Polar Sea.",
+      "intro": "At Fort Enterprise in 1821, Franklin’s exhausted party found an empty store. The coast had been surveyed; the journey home had become a struggle for food. Long before Erebus and Terror disappeared, his first Arctic narrative had brought that ordeal before readers.",
+      "orientation": "The Admiralty sought a North-West Passage by sea and a clearer outline of the continent from land. Franklin’s journeys joined those ambitions to the rivers, trading posts and uncertain stores of the fur country. A line on the chart depended on people able to carry a canoe, find game and bring provisions across immense distances.",
+      "bridge": "The AETERNUS edition of Narrative of a Journey to the Shores of the Polar Sea (1823) is in preparation.",
+      "origin": [
+        "John Franklin was born at Spilsby in Lincolnshire in 1786 and entered the Royal Navy in 1800. In Matthew Flinders’ Investigator he learnt surveying along the Australian coast. He later served in Bellerophon at Trafalgar and in the New Orleans campaign of 1814–15. War and hydrography formed the two sides of his early service."
+      ],
+      "career": [
+        "The first land expedition left England in 1819. Surgeon-naturalist John Richardson, George Back, Robert Hood and seaman John Hepburn accompanied Franklin into a country whose waterways linked Hudson Bay to the northern interior. The Hudson’s Bay Company and the North West Company were expected to supply the enterprise while competing fiercely for the fur trade. Promised assistance exceeded what their distant posts could reliably deliver.",
+        "In 1821 the party descended the Coppermine and followed the coast eastwards. Turning back as the season closed, the men abandoned the sea route for a punishing inland retreat. Hunger reduced them to lichen and scraps of leather. Hood was killed; Richardson reported shooting Michel, whom he held responsible. Back went ahead for help. Hunters sent to the survivors brought food and nursed them through the first stages of recovery. Eleven of the coastal party’s twenty men died.",
+        "Franklin returned to the Arctic in 1825–27 with a better supplied expedition. From the Mackenzie delta he explored westwards while Richardson surveyed eastwards. The result extended the known outline of the northern coast without repeating the catastrophe of the first journey.",
+        "As Lieutenant-Governor of Van Diemen’s Land from 1837 to 1843, Franklin entered another kind of difficult terrain. A penal colony required sustained administrative control; disputes with established officials weakened his government. Jane Franklin took an active interest in the colony’s cultural life. The appointment ended in recall.",
+        "In 1845 Franklin sailed in Erebus with Terror under Francis Crozier to seek the passage through the Arctic archipelago. Neither ship returned. A message recovered in 1859 recorded Franklin’s death on 11 June 1847 and the later abandonment of the icebound ships. Jane Franklin supported the searches. Inuit accounts preserved evidence of the men and ships; that knowledge also helped guide the modern searches which located Erebus in 2014 and Terror in 2016."
+      ],
+      "literature": [
+        "The 1823 Narrative combines a travelling record with the work of a scientific expedition: positions, weather, natural history and the practical business of moving stores. Its scale contracts as provisions fail. A river crossing or a meal becomes an event on which the next day depends. Richardson’s account of the retreat also reminds the reader that the book contains testimony from more than one participant."
+      ],
+      "legacy": "Franklin’s missing ships drew generations of searchers into the archipelago. His earlier book opens a different Arctic: rivers, inland posts and a coast reached by canoe. The passage remains a concern of shipping and northern strategy. Reduced summer ice offers longer opportunities for navigation, while moving ice and narrow channels continue to impose hazards; the distance on a map still tells only part of the journey.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10"
+      ]
+    }
+  }
+}
