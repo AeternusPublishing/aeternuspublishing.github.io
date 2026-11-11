@@ -1,0 +1,13 @@
+{
+  "john-franklin": {
+    "status": "OFFEN",
+    "published": "ohne Bild",
+    "reason": "No historically secure colour portrait with complete source, rights, original dimensions and SHA-256 evidence has been secured. See PORTRAET_QUELLEN_OFFEN.json.",
+    "candidates": [
+      {
+        "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-14169",
+        "note": "Historical print after Thomas Phillips; no complete original-download and colour/right evidence secured. Not used."
+      }
+    ]
+  }
+}
