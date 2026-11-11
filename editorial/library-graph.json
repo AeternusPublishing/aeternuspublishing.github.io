@@ -1073,6 +1073,25 @@
       }
     },
     {
+      "id": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "type": "book",
+      "label": {
+        "de": "The Discovery of the North-West Passage (Annotated)",
+        "en": "The Discovery of the North-West Passage (Annotated)"
+      },
+      "author": "Robert Le Mesurier McClure",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-rmc001-ingram-paperback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/",
+        "en": "https://aeternuspublishing.com/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The 1856 account of HMS Investigator and the first recorded traverse of a North-West Passage, with historical illustrations and a folding chart."
+      }
+    },
+    {
       "id": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "type": "book",
       "label": {
@@ -2490,6 +2509,25 @@
       }
     },
     {
+      "id": "book:en-richard-jefferies-the-gamekeeper-at-home",
+      "type": "book",
+      "label": {
+        "de": "The Gamekeeper at Home (Annotated)",
+        "en": "The Gamekeeper at Home (Annotated)"
+      },
+      "author": "Richard Jefferies",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-rje002-en-v2-20261104.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-richard-jefferies-the-gamekeeper-at-home/",
+        "en": "https://aeternuspublishing.com/books/en-richard-jefferies-the-gamekeeper-at-home/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news."
+      }
+    },
+    {
       "id": "book:en-george-rutledge-gibson-stock-exchanges",
       "type": "book",
       "label": {
@@ -3123,6 +3161,14 @@
       }
     },
     {
+      "id": "author:Robert Le Mesurier McClure",
+      "type": "author",
+      "label": {
+        "de": "Robert Le Mesurier McClure",
+        "en": "Robert Le Mesurier McClure"
+      }
+    },
+    {
       "id": "author:George Robert Gleig",
       "type": "author",
       "label": {
@@ -3553,6 +3599,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "target": "series:gruen",
       "type": "series"
@@ -3884,6 +3935,11 @@
     },
     {
       "source": "book:en-richard-jefferies-wood-magic",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-richard-jefferies-the-gamekeeper-at-home",
       "target": "series:bernstein",
       "type": "series"
     },
@@ -4434,6 +4490,11 @@
       "type": "author"
     },
     {
+      "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "target": "author:Robert Le Mesurier McClure",
+      "type": "author"
+    },
+    {
       "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "target": "author:George Robert Gleig",
       "type": "author"
@@ -4765,6 +4826,11 @@
     },
     {
       "source": "book:en-richard-jefferies-wood-magic",
+      "target": "author:Richard Jefferies",
+      "type": "author"
+    },
+    {
+      "source": "book:en-richard-jefferies-the-gamekeeper-at-home",
       "target": "author:Richard Jefferies",
       "type": "author"
     },

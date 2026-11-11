@@ -1,0 +1,195 @@
+{
+  "id": "en-richard-jefferies-the-gamekeeper-at-home",
+  "work_id": "RJE_002",
+  "language": "en",
+  "title": "The Gamekeeper at Home (Annotated)",
+  "subtitle": "Sketches of Natural History and Rural Life",
+  "author": "richard-jefferies",
+  "authorName": "Richard Jefferies",
+  "contributors": [
+    {
+      "role": "Illustrator",
+      "name": "Charles Whymper"
+    }
+  ],
+  "series": "bernstein",
+  "series_number": null,
+  "original_title": "The Gamekeeper at Home: Sketches of Natural History and Rural Life",
+  "original_publication_year": 1878,
+  "isbn": {
+    "paperback": "978-3-67605-074-6",
+    "hardcover": null,
+    "ebook": "978-3-67605-066-1"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-074-6",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $17.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676050746"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/3676050746"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/3676050746"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/3676050746"
+        }
+      ],
+      "pages": 220
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-066-1",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $10.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/B0HQWFHV8W"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/B0HQWFHV8W"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/B0HQWFHV8W"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/B0HQWFHV8W"
+        }
+      ]
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-074-6",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $17.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676050746"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/3676050746"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/3676050746"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/3676050746"
+        }
+      ],
+      "pages": 220
+    },
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-074-6",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 222
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-066-1",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $10.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/B0HQWFHV8W"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/B0HQWFHV8W"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/B0HQWFHV8W"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/B0HQWFHV8W"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "short": "A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news.",
+    "long": "A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news.\n\nThe Gamekeeper at Home brings natural history into the daily business of an estate. Birds must be reared, dogs trained, trees watched and household resources put to use. The keeper knows his ground through repeated attention, while the writer beside him finds time to listen at a burrow or follow an animal beyond the demands of the day’s work. Employment, family life and the knowledge passed between generations give these country sketches their human setting.\n\nThe English text of 1878 is accompanied by Charles Whymper’s drawings from the illustrated edition of 1880, with an account of the author, an afterword and a glossary.\n\nAMBER SERIES · AETERNUS"
+  },
+  "blurb": [
+    "A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news.",
+    "The Gamekeeper at Home brings natural history into the daily business of an estate. Birds must be reared, dogs trained, trees watched and household resources put to use. The keeper knows his ground through repeated attention, while the writer beside him finds time to listen at a burrow or follow an animal beyond the demands of the day’s work. Employment, family life and the knowledge passed between generations give these country sketches their human setting.",
+    "The English text of 1878 is accompanied by Charles Whymper’s drawings from the illustrated edition of 1880, with an account of the author, an afterword and a glossary.",
+    "AMBER SERIES · AETERNUS"
+  ],
+  "features": [
+    "Publisher’s Note, About the Author, afterword and Editorial Note",
+    "Glossary with 29 entries",
+    "41 Charles Whymper drawings from the illustrated edition of 1880"
+  ],
+  "publisherDescriptionHTML": "<ul><li>Publisher’s Note, About the Author, afterword and Editorial Note</li><li>Glossary with 29 entries</li><li>41 Charles Whymper drawings from the illustrated edition of 1880</li></ul><p>A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news.</p><p><i>The Gamekeeper at Home</i> brings natural history into the daily business of an estate. Birds must be reared, dogs trained, trees watched and household resources put to use. The keeper knows his ground through repeated attention, while the writer beside him finds time to listen at a burrow or follow an animal beyond the demands of the day’s work. Employment, family life and the knowledge passed between generations give these country sketches their human setting.</p><p>The English text of 1878 is accompanied by Charles Whymper’s drawings from the illustrated edition of 1880, with an account of the author, an afterword and a glossary.</p><p>AMBER SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-rje002-en-v2-20261104.jpg",
+  "first_published": "Smith, Elder, & Co., London, 1878",
+  "publication_date": "2026-11-08",
+  "availability": "AVAILABLE",
+  "status_line": "Live",
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": "https://www.amazon.com/dp/3676050746",
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "LIVE",
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-richard-jefferies-the-gamekeeper-at-home/",
+  "authorUrl": "/authors/richard-jefferies/",
+  "brandOnly": true,
+  "cardStatus": "Live",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · AMBER SERIES · English-language edition",
+      "sample": "A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news."
+    }
+  },
+  "provenance": "RJE_002/UPLOADPAKET_EN_KDP_V2_20261104/METADATEN/KDP_METADATA_RJE002_EN_PAPERBACK.json",
+  "cover_sha256": "e5c44d189b4e16f205b2022384815bd9493d4e4f8a04b3243b99165f48d6af9d",
+  "upload_package": {
+    "name": "UPLOADPAKET_EN_KDP_V2_20261104",
+    "preflight_sha256": "b63f0e475ea8b9ffba9475e3a6535e41a7e8357d76033d9c865083d07de383e8",
+    "ingram_preflight_sha256": "26557f9f406c3ea3e329dfd9513baa3a5603b1d851013d6bf6043df6f3e748fb",
+    "availability_rule": "Retailer links and AVAILABLE require observed LIVE for each platform.",
+    "ingram_title_id": "CSS9808208",
+    "live_observed": "KDP bookshelf 2026-11-08 (Kindle 07:37 UTC, paperback 08:14 UTC); decision_rje002_en_kdp_live_ebook_taschenbuch_20261108",
+    "release_decision": "decision_rje002_en_v2_freigabe_kdp_ingram_20261107",
+    "website_decision": "Verleger 11.11.2026 via Leitfenster: Jetzt fuer KDP (Empfohlen)"
+  }
+}
