@@ -70,7 +70,8 @@ const definitions = [
     ]
   }
 ];
-const seriesIds = ['anthrazit', green, 'rot', 'blau', 'bernstein', 'weiss', 'purpur'];
+const { OFFLINE_SERIES } = require('./offline-series.cjs');
+const seriesIds = ['anthrazit', green, 'rot', 'blau', 'bernstein', 'weiss', 'purpur'].filter(id => !OFFLINE_SERIES.includes(id));
 for (const id of seriesIds.filter(id => id !== green)) {
   definitions.push({ series: id, id: 'editorial-review', title: 'Editorial review', public: false,
     url: `/collections/${id}/editorial-review/`, bookIds: [] });
