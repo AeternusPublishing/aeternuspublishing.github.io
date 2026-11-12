@@ -1073,6 +1073,25 @@
       }
     },
     {
+      "id": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "type": "book",
+      "label": {
+        "de": "The Discovery of the North-West Passage (Annotated)",
+        "en": "The Discovery of the North-West Passage (Annotated)"
+      },
+      "author": "Robert Le Mesurier McClure",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-rmc001-ingram-paperback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/",
+        "en": "https://aeternuspublishing.com/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/"
+      },
+      "summary": {
+        "de": "",
+        "en": "The 1856 account of HMS Investigator and the first recorded traverse of a North-West Passage, with historical illustrations and a folding chart."
+      }
+    },
+    {
       "id": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "type": "book",
       "label": {
@@ -2433,6 +2452,25 @@
       }
     },
     {
+      "id": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-i",
+      "type": "book",
+      "label": {
+        "de": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume I (Annotated)",
+        "en": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume I (Annotated)"
+      },
+      "author": "Charles Metcalfe MacGregor",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm003-en-b1-v4-20261112.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-i/",
+        "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-i/"
+      },
+      "summary": {
+        "de": "",
+        "en": "From the Indian rising to the Abyssinian expedition, the first volume follows MacGregor’s early military service through letters written on campaign."
+      }
+    },
+    {
       "id": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
       "type": "book",
       "label": {
@@ -3142,6 +3180,14 @@
       }
     },
     {
+      "id": "author:Robert Le Mesurier McClure",
+      "type": "author",
+      "label": {
+        "de": "Robert Le Mesurier McClure",
+        "en": "Robert Le Mesurier McClure"
+      }
+    },
+    {
       "id": "author:George Robert Gleig",
       "type": "author",
       "label": {
@@ -3572,6 +3618,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "target": "series:gruen",
       "type": "series"
@@ -3888,6 +3939,11 @@
     },
     {
       "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-i",
       "target": "series:gruen",
       "type": "series"
     },
@@ -4458,6 +4514,11 @@
       "type": "author"
     },
     {
+      "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "target": "author:Robert Le Mesurier McClure",
+      "type": "author"
+    },
+    {
       "source": "book:en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
       "target": "author:George Robert Gleig",
       "type": "author"
@@ -4774,6 +4835,11 @@
     },
     {
       "source": "book:en-charles-metcalfe-macgregor-the-defence-of-india",
+      "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-i",
       "target": "author:Charles Metcalfe MacGregor",
       "type": "author"
     },

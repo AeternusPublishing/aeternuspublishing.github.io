@@ -7413,6 +7413,98 @@
     },
     {
       "site": "en",
+      "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-i",
+      "language": "en",
+      "url": "/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-i/",
+      "front_url": "/assets/images/cover-cmm003-en-b1-v4-20261112.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cmm003-en-b1-v4-20261112.jpg",
+          "sha256": "7492cd8e86d23d952b3fb7743ca8cf662d7e6e3bdbf29815a742df7dcc5fbfb3"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052559",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003|en|kdp_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052559",
+              "version": "FREIGABE_FINAL_B1_V4_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052559",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003|en|ingram_paperback|B1_V4_EINGEREICHT_20261112T165351Z",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052559",
+              "version": "B1_V4_EINGEREICHT_20261112T165351Z",
+              "stand_utc": "2026-11-12T16:53:51.3998818+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "productform": "hardcover",
+          "isbn13": "9783676052566",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003|en|ingram_hardcover|B1_V4_EINGEREICHT_20261112T165401Z",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "CMM_003",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052566",
+              "version": "B1_V4_EINGEREICHT_20261112T165401Z",
+              "stand_utc": "2026-11-12T16:54:01.5778775+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "productform": "ebook",
+          "isbn13": "9783676052573",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003|en|kdp_ebook",
+              "sprache": "en",
+              "produktform": "ebook",
+              "werk_id": "CMM_003",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052573",
+              "version": "FREIGABE_FINAL_B1_V4_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "FINAL_B1_V4_20261112",
+        "file": "kdp_ebook/EBOOK_COVER.jpg",
+        "sha256": "7492cd8e86d23d952b3fb7743ca8cf662d7e6e3bdbf29815a742df7dcc5fbfb3"
+      }
+    },
+    {
+      "site": "en",
       "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
       "language": "en",
       "url": "/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/",
@@ -7441,8 +7533,8 @@
               "werk_id": "CMM_003_VOL_2",
               "status": "FREIGEGEBEN",
               "isbn13": "9783676052580",
-              "version": "FREIGABE_FINAL_B2_V7_20261107",
-              "stand_utc": "2026-11-07T13:40:23Z"
+              "version": "FREIGABE_FINAL_B2_V8_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
             }
           ]
         },
@@ -7453,14 +7545,14 @@
           "tokens": [],
           "register_evidence": [
             {
-              "zeile_id": "CMM_003_VOL_2|en|ingram_paperback",
+              "zeile_id": "CMM_003_VOL_2|en|ingram_paperback|B2_V8_EINGEREICHT_20261112T165413Z",
               "sprache": "en",
               "produktform": "taschenbuch",
               "werk_id": "CMM_003_VOL_2",
-              "status": "FREIGEGEBEN",
+              "status": "EINGEREICHT",
               "isbn13": "9783676052580",
-              "version": "FREIGABE_FINAL_B2_V7_20261107",
-              "stand_utc": "2026-11-07T13:40:23Z"
+              "version": "B2_V8_EINGEREICHT_20261112T165413Z",
+              "stand_utc": "2026-11-12T16:54:13.4435608+00:00"
             }
           ]
         },
@@ -7471,14 +7563,14 @@
           "tokens": [],
           "register_evidence": [
             {
-              "zeile_id": "CMM_003_VOL_2|en|ingram_hardcover",
+              "zeile_id": "CMM_003_VOL_2|en|ingram_hardcover|B2_V8_EINGEREICHT_20261112T165423Z",
               "sprache": "en",
               "produktform": "hardcover",
               "werk_id": "CMM_003_VOL_2",
-              "status": "FREIGEGEBEN",
+              "status": "EINGEREICHT",
               "isbn13": "9783676052597",
-              "version": "FREIGABE_FINAL_B2_V7_20261107",
-              "stand_utc": "2026-11-07T13:40:23Z"
+              "version": "B2_V8_EINGEREICHT_20261112T165423Z",
+              "stand_utc": "2026-11-12T16:54:23.5689275+00:00"
             }
           ]
         },
@@ -7495,8 +7587,8 @@
               "werk_id": "CMM_003_VOL_2",
               "status": "FREIGEGEBEN",
               "isbn13": "9783676052603",
-              "version": "FREIGABE_FINAL_B2_V7_20261107",
-              "stand_utc": "2026-11-07T13:40:23Z"
+              "version": "FREIGABE_FINAL_B2_V8_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
             }
           ]
         }
@@ -7513,8 +7605,8 @@
             "rect_in": [
               10.375001,
               0.125001,
-              7.0,
-              10.0
+              7,
+              10
             ]
           },
           {
@@ -7524,8 +7616,8 @@
             "rect_in": [
               2.565,
               0.125001,
-              7.0,
-              10.0
+              7,
+              10
             ]
           }
         ]
