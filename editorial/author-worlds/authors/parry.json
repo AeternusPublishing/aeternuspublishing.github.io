@@ -1,0 +1,110 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "parry",
+  "name": "William Edward Parry",
+  "dates": "1790–1855",
+  "depth": "compact",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "editionStatus": "IN_PREPARATION",
+  "sources": [
+    {
+      "id": "PARRY",
+      "title": "William Edward Parry, Journal of a Voyage, 1821",
+      "url": "https://archive.org/details/journalofvoyagef00parr",
+      "locator": "Title page, the account of Winter Harbour and the scientific appendix."
+    },
+    {
+      "id": "PAPERS",
+      "title": "University of London Archives, Sir William Edward Parry papers",
+      "url": "https://archives.libraries.london.ac.uk/Details/archive/110025185",
+      "locator": "Fonds 110025185, biographical history."
+    },
+    {
+      "id": "HECLA",
+      "title": "National Maritime Museum, Parry’s meteorological journal",
+      "url": "https://www.rmg.co.uk/collections/archive/rmgc-object-548193",
+      "locator": "Catalogue entry for observations aboard HMS Hecla, 1819–20."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Parry lived from 1790 to 1855, entered the Royal Navy in 1803 and served under John Ross in 1818.",
+      "sources": [
+        "PAPERS"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1819 Parry led the expedition in Hecla and Griper. The ships wintered at Melville Island, and the journal appeared in 1821.",
+      "sources": [
+        "PARRY",
+        "PAPERS"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Parry kept meteorological records on Hecla. He became Hydrographer to the Admiralty in 1825 and led a polar expedition in 1827.",
+      "sources": [
+        "HECLA",
+        "PAPERS"
+      ]
+    }
+  ],
+  "uncertainties": [],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "statement": "The contrast between sailing and wintering is a reading of the structure of the 1821 journal."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "intro",
+      "legacy"
+    ],
+    "statement": "The assessment of the journal’s account of life in the ice is the publisher’s reading."
+  },
+  "image": {
+    "status": "omitted",
+    "reason": "No portrait has been cleared for this website page."
+  },
+  "locales": {
+    "en": {
+      "description": "William Edward Parry’s voyage in Hecla and Griper, his winter at Melville Island, and the journal he published in 1821.",
+      "tagline": "A winter in the ice at Melville Island",
+      "intro": "In 1819 William Edward Parry took Hecla and Griper through Lancaster Sound in search of a passage to the Pacific. When the ice closed around Melville Island, the crews cut their way into Winter Harbour and prepared to stay.",
+      "orientation": "The voyage changed pace when the ships stopped. Parry’s journal turns from the distance made under sail to the work of keeping a crew healthy and occupied through an Arctic winter.",
+      "bridge": "The AETERNUS edition follows the text of 1821 and includes twenty plates and charts, a chronology and a glossary.",
+      "origin": [
+        "Parry entered the Royal Navy in 1803. In 1818 he commanded Alexander on John Ross’s Arctic expedition. The Admiralty gave him command of a new expedition the following year."
+      ],
+      "career": [
+        "Parry led further Arctic voyages and became Hydrographer to the Admiralty in 1825. In 1827 he set out on an expedition towards the North Pole."
+      ],
+      "literature": [
+        "The journal records the search for a sea route alongside the weather, the condition of the ice and the daily life of the crews. Parry’s meteorological notes from Hecla survive in the National Maritime Museum."
+      ],
+      "legacy": "The account of Winter Harbour shows what an expedition had to do when the next stage of the voyage was beyond its control.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    }
+  }
+}
