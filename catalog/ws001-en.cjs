@@ -9,13 +9,25 @@ const author = {
 };
 
 const volumes = [
-  ['I', 'The Making of an American General', 278, ['9783676052443', '9783676052450', '9783676052764'],
-    'Scott recalls the War of 1812 and his formation as an American general.'],
-  ['II', 'The Conquest of Mexico and the Fate of the Union', 294, ['9783676052467', '9783676052474', '9783676052771'],
-    'Scott recounts his campaign in Mexico and his later years in the United States Army.']
+  ['I', 'The Making of an American General', 348, ['9783676052443', '9783676052450', '9783676052764'],
+    'Scott recalls the War of 1812 and his formation as an American general.',
+    ['Complete text of the New York 1864 first edition, Volume I',
+      'Historical Introduction, Afterword and Publisher’s Note',
+      'Biographical record: commissions, honors, titles',
+      'Dramatis Personae of over 400 persons with life dates',
+      'Glossary of 387 entries with page references',
+      'Chronology, 1786–1866, and Note on the Text']],
+  ['II', 'The Conquest of Mexico and the Fate of the Union', 328, ['9783676052467', '9783676052474', '9783676052771'],
+    'Scott recounts his campaign in Mexico and his later years in the United States Army.',
+    ['Complete text of the New York 1864 first edition, Volume II',
+      'Historical Introduction, Afterword and Publisher’s Note',
+      'Dramatis Personae of some 340 persons with life dates',
+      'Glossary of 340 entries with page references',
+      'Index of the first edition for both volumes, page references reset',
+      'Chronology, 1786–1866, and Note on the Text']]
 ];
 
-const books = volumes.map(([volume, subtitle, pages, numbers, summary]) => {
+const books = volumes.map(([volume, subtitle, pages, numbers, summary, features]) => {
   const id = 'en-winfield-scott-memoirs-volume-' + volume.toLowerCase();
   const formats = numbers.map((isbn, index) => ({
     label: ['Paperback', 'Hardcover', 'Cloth hardcover with dust jacket'][index],
@@ -30,6 +42,7 @@ const books = volumes.map(([volume, subtitle, pages, numbers, summary]) => {
     isbn: { paperback: numbers[0], hardcover: numbers[1] },
     formats: { paperback: formats[0], hardcover: formats[1] }, retailer_formats: formats,
     description: { short: summary, long: summary },
+    blurb: [summary], features,
     cover: '/assets/images/cover-ws001-volume-' + volume.toLowerCase() + '.jpg',
     availability: 'COMING_SOON', links: { shop: null, amazon: null, ingram: null },
     distribution_status: { ingram: 'FREIGEGEBEN' },
