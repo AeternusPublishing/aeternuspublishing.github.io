@@ -1,0 +1,99 @@
+{
+  "id": "en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea",
+  "work_id": "JF_001",
+  "language": "en",
+  "title": "Narrative of a Journey to the Shores of the Polar Sea (Annotated)",
+  "subtitle": "In the Years 1819, 20, 21, and 22",
+  "author": "john-franklin",
+  "authorName": "John Franklin",
+  "contributors": [
+    {
+      "role": "ILLUSTRATOR",
+      "name": "George Back"
+    },
+    {
+      "role": "ILLUSTRATOR",
+      "name": "Robert Hood"
+    }
+  ],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "Narrative of a Journey to the Shores of the Polar Sea",
+  "original_publication_year": 1823,
+  "isbn": {
+    "paperback": "9783676052788",
+    "hardcover": "9783676052795"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052788",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 774
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052795",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 774
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052788",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 774
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052795",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 774
+    }
+  ],
+  "description": {
+    "short": "Franklin’s account of the overland expedition from Hudson Bay to the mouth of the Coppermine River and along the coast of the Polar Sea.",
+    "long": "Franklin’s account of the overland expedition from Hudson Bay to the mouth of the Coppermine River and along the coast of the Polar Sea."
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete 1823 Text</li><li>30 Plates</li><li>4 Maps</li><li>Glossary</li><li>Chronology</li></ul><p>In May 1819 a lieutenant of the Royal Navy, a surgeon-naturalist, two midshipmen and a seaman sailed from the Thames for Hudson Bay. Their orders were to cross the northern interior of America to the mouth of the Coppermine River and to chart the unknown shore of the Polar Sea to the east, the coast along which any Northwest Passage would have to run.</p><p>They reached it in July 1821 with Canadian voyageurs, two Inuit interpreters and an Iroquois hunter, and followed it for five hundred and fifty-five geographic miles in two canoes, as far as Point Turnagain. The return across the Barren Grounds became one of the hardest marches in the record of British exploration: lichen and boiled leather for food, a fort found empty, a midshipman shot dead, and rescue by the Yellowknife hunters of Akaitcho.</p><p>John Franklin’s account, published by John Murray in 1823, made his name twenty-two years before his last voyage. This edition presents the whole of the first edition: the narrative with the journals of Richardson and Back, the scientific Appendix on rocks, aurora, magnetism, stars, animals, fishes and plants, the thirty plates after George Back and Robert Hood, and the four folding maps. A Publisher’s Note, a biography with the full record of Franklin’s service and honours, a register of the men of the expedition, a chronology, a glossary and an afterword accompany the text.</p>",
+  "cover": "/assets/images/cover-jf001-en-v8-20261112.jpg",
+  "publication_date": null,
+  "pricing": {},
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "NOT_SUBMITTED",
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea/",
+  "authorUrl": "/authors/john-franklin/",
+  "seriesName": "Green Series",
+  "seriesColor": "#334d3b",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback and hardcover.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · GREEN SERIES · English-language edition",
+      "sample": "Franklin’s account of the overland expedition from Hudson Bay to the mouth of the Coppermine River and along the coast of the Polar Sea."
+    }
+  },
+  "provenance": "UPLOADPAKET_JF001_EN_INGRAM_V8 · e9cb4871d65cf08f3e14fe10f027b5f4da8f482eaf63d11ec95f0a915c170114"
+}

@@ -2490,6 +2490,25 @@
       }
     },
     {
+      "id": "book:en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea",
+      "type": "book",
+      "label": {
+        "de": "Narrative of a Journey to the Shores of the Polar Sea (Annotated)",
+        "en": "Narrative of a Journey to the Shores of the Polar Sea (Annotated)"
+      },
+      "author": "John Franklin",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-jf001-en-v8-20261112.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea/",
+        "en": "https://aeternuspublishing.com/books/en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Franklin’s account of the overland expedition from Hudson Bay to the mouth of the Coppermine River and along the coast of the Polar Sea."
+      }
+    },
+    {
       "id": "book:en-charles-brockden-brown-wieland-illustrated",
       "type": "book",
       "label": {
@@ -3404,6 +3423,14 @@
       }
     },
     {
+      "id": "author:John Franklin",
+      "type": "author",
+      "label": {
+        "de": "John Franklin",
+        "en": "John Franklin"
+      }
+    },
+    {
       "id": "author:George Rutledge Gibson",
       "type": "author",
       "label": {
@@ -3949,6 +3976,11 @@
     },
     {
       "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea",
       "target": "series:gruen",
       "type": "series"
     },
@@ -4846,6 +4878,11 @@
     {
       "source": "book:en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
       "target": "author:Charles Metcalfe MacGregor",
+      "type": "author"
+    },
+    {
+      "source": "book:en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea",
+      "target": "author:John Franklin",
       "type": "author"
     },
     {

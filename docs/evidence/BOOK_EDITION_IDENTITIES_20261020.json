@@ -7657,6 +7657,62 @@
         "package_preflight_sha256": "74cb2c8cd9e417779d836b75a40321e79ffaed45c9b3669836c871fc77667e63",
         "availability": "COMING_SOON"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea",
+      "url": "/books/en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea/",
+      "language": "en",
+      "front_url": "/assets/images/cover-jf001-en-v8-20261112.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-jf001-en-v8-20261112.jpg",
+          "sha256": "7701f3b317ddfdccb18922ba661482b6a1d7b9221ae4bf178765dcab47bb0c8e"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052788",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "JF_001|en|ingram_paperback|V8_EINGEREICHT_20261112T174903Z",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "JF_001",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052788",
+              "version": "V8_EINGEREICHT_20261112T174903Z",
+              "stand_utc": "2026-11-12T17:49:03.1449009+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "productform": "hardcover",
+          "isbn13": "9783676052795",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "JF_001|en|ingram_hardcover|V8_EINGEREICHT_20261112T174918Z",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "JF_001",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052795",
+              "version": "V8_EINGEREICHT_20261112T174918Z",
+              "stand_utc": "2026-11-12T17:49:18.5336274+00:00"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "UPLOADPAKET_JF001_EN_KDP_V8",
+        "file": "JF001_EN_EBOOK_DECKEL.jpg",
+        "sha256": "7701f3b317ddfdccb18922ba661482b6a1d7b9221ae4bf178765dcab47bb0c8e"
+      }
     }
   ],
   "additional_pages": [

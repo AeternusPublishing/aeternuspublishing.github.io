@@ -239,6 +239,7 @@ englishBooks.push(require('./cmm002-en-20261027.json'));
 englishBooks.push(require('./cmm001-en-20261104.json'));
 englishBooks.push(require('./cmm003-b1-en-20261112.json'));
 englishBooks.push(require('./cmm003-b2-en-20261107.json'));
+englishBooks.push(require('./jf001-en-20261112.json'));
 // Wieland: approved V2 edition submitted; retail pending and no buying links.
 englishBooks.push(require('./cbb002-en-20261104.json'));
 

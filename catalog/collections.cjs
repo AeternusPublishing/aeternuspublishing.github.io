@@ -66,6 +66,7 @@ const definitions = [
       'en-francis-younghusband-the-epic-of-mount-everest-illustrated',
       'en-grey-owl-the-men-of-the-last-frontier',
       'en-robert-mcclure-the-discovery-of-the-north-west-passage',
+      'en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea',
       'en-charles-metcalfe-macgregor-wanderings-in-balochistan',
       'en-melliss-lion-hunting-in-somali-land-annotated'
     ]
