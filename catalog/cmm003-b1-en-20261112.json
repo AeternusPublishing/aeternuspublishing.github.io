@@ -1,0 +1,119 @@
+{
+  "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-i",
+  "work_id": "CMM_003",
+  "language": "en",
+  "title": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume I (Annotated)",
+  "subtitle": "The Making of a Warrior",
+  "author": "charles-metcalfe-macgregor",
+  "authorName": "Charles Metcalfe MacGregor",
+  "contributors": [
+    {
+      "role": "EDITOR",
+      "name": "Lady MacGregor",
+      "note": "Editor of the 1888 edition"
+    }
+  ],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume I",
+  "original_publication_year": 1888,
+  "isbn": {
+    "paperback": "9783676052559",
+    "hardcover": "9783676052566",
+    "ebook": "9783676052573"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · Amazon",
+      "isbn": "9783676052559",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 366
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052566",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 368
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "9783676052573",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · Amazon",
+      "isbn": "9783676052559",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 366
+    },
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052559",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 368
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052566",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 368
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "9783676052573",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "From the Indian rising to the Abyssinian expedition, the first volume follows MacGregor’s early military service through letters written on campaign.",
+    "long": "From the Indian rising to the Abyssinian expedition, the first volume follows MacGregor’s early military service through letters written on campaign."
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete 1888 text of Volume I, with its maps and five added photographs</li><li>New forewords on MacGregor, Lady MacGregor and the Great Game</li><li>Foreword and afterword on the young officer in the field</li><li>Select glossary of Indian and Persian terms, with Persian script</li><li>Editorial note listing the corrections made to the 1888 text</li></ul><p>Edited by Lady MacGregor. First published by William Blackwood and Sons, Edinburgh and London, 1888.</p><p>The first volume follows the formation and early military service of Sir Charles Metcalfe MacGregor (1840–1887), one of the most energetic and distinguished officers of the Victorian Indian Army.</p><p>Drawing largely upon letters written during his campaigns, it records his service in the Indian rising of 1857–1859, the fighting around Lucknow, cavalry action at Daryabad, the war in China, the Bhutan campaigns and the Abyssinian expedition.</p><p>The AETERNUS edition preserves the original historical text, maps and illustrations, accompanied by new editorial material examining the character of the young soldier, the demands of expeditionary service and the professional formation which led towards his later work in military intelligence.</p>",
+  "cover": "/assets/images/cover-cmm003-en-b1-v4-20261112.jpg",
+  "publication_date": null,
+  "pricing": {},
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "NOT_SUBMITTED",
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-i/",
+  "authorUrl": "/authors/charles-metcalfe-macgregor/",
+  "seriesName": "Green Series",
+  "seriesColor": "#334d3b",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback, hardcover and Kindle.",
+  "cardStatus": "Forthcoming",
+  "legacy": {
+    "modal": {
+      "metadata": "AETERNUS · GREEN SERIES · English-language edition",
+      "sample": "From the Indian rising to the Abyssinian expedition, the first volume follows MacGregor’s early military service through letters written on campaign."
+    }
+  },
+  "provenance": "FINAL_B1_V4_20261112 · 5fff587d1efdb030f86ae619e352f4d80947d4c46a22897d07a87e389150ecf8"
+}
