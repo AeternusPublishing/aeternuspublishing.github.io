@@ -7676,14 +7676,36 @@
           "productform": "taschenbuch",
           "isbn13": "9783676052788",
           "tokens": [],
-          "register_evidence": []
+          "register_evidence": [
+            {
+              "zeile_id": "JF_001|en|ingram_paperback|V8_EINGEREICHT_20261112T174903Z",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "JF_001",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052788",
+              "version": "V8_EINGEREICHT_20261112T174903Z",
+              "stand_utc": "2026-11-12T17:49:03.1449009+00:00"
+            }
+          ]
         },
         {
           "label": "Hardcover · IngramSpark",
           "productform": "hardcover",
           "isbn13": "9783676052795",
           "tokens": [],
-          "register_evidence": []
+          "register_evidence": [
+            {
+              "zeile_id": "JF_001|en|ingram_hardcover|V8_EINGEREICHT_20261112T174918Z",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "JF_001",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052795",
+              "version": "V8_EINGEREICHT_20261112T174918Z",
+              "stand_utc": "2026-11-12T17:49:18.5336274+00:00"
+            }
+          ]
         }
       ],
       "cover_source": {
