@@ -1852,3 +1852,5 @@ module.exports.push({
 const haggard = module.exports.find(a => a.slug === 'henry-rider-haggard');
 haggard.sisterUrl = 'https://aeternuspublishing.com/authors/henry-rider-haggard/';
 haggard.sisterLabel = 'Zu den englischsprachigen Ausgaben';
+
+module.exports.push(require('../../catalog/cd001-author-r9-20261026.cjs').de);

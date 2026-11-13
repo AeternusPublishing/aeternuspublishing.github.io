@@ -5,7 +5,7 @@
   "dates": "7.2.1812 – 9.6.1870",
   "depth": "expanded",
   "scope": {
-    "de": false,
+    "de": true,
     "en": true,
     "legacyEn": false
   },
@@ -156,6 +156,33 @@
       "legacy": "The force of these scenes lies in their particularity: a repeated phrase, a baby too heavy for the child carrying it, a seat beside the fire. Dickens makes an argument through the people who must live with its consequences.",
       "bridge": "The Haunted Man and the Ghost’s Bargain, the last of the Christmas books, is in preparation at AETERNUS. Publication details will follow.",
       "description": "Charles Dickens: his life, journalism and Christmas books, with The Haunted Man and the Ghost’s Bargain in preparation at AETERNUS.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    },
+    "de": {
+      "tagline": "Die volle Stadt und das einsame Zimmer.",
+      "intro": "Ein Schuldgefängnis, eine Zeitungsredaktion, ein winterliches Zimmer am Feuer: Dickens gibt jedem Ort seine eigenen Stimmen und Bewegungen. Komik, Unruhe und menschliche Not stehen bei ihm dicht beieinander. Im Heimgesuchten setzt ein höchst persönlicher Wunsch eine ganze kleine Welt in Bewegung.",
+      "orientation": "In Dickens’ London leben Menschen, die kaum dieselbe Stadt zu bewohnen scheinen: die Gesicherten und die Bedrängten, der Gelehrte allein mit seinen Büchern und die Familie, die für ein weiteres Kind Platz schafft. Seine Erzählungen suchen die Berührungspunkte dieser Leben.",
+      "origin": [
+        "Charles John Huffam Dickens wurde 1812 in Portsmouth geboren. 1824 kam sein Vater wegen Schulden ins Gefängnis; Charles arbeitete in einer Fabrik für Schuhwichse. Das sind belegte Umstände seiner Kindheit. Sie erklären nicht jede Gestalt, die er später schuf."
+      ],
+      "career": [
+        "Auf die Arbeit in einer Anwaltskanzlei folgten Stenografie und Journalismus. Die unter dem Namen Boz veröffentlichten Skizzen und der Vertrag für die Pickwick Papers von 1836 eröffneten ihm einen zweiten Weg als Erzähler. Später trat er selbst vor seine Leser; 1858 begannen die bezahlten öffentlichen Lesungen.",
+        "Dickens starb 1870 in Gad’s Hill Place und wurde in der Westminster Abbey beigesetzt."
+      ],
+      "literature": [
+        "Die Weihnachtsbücher lassen das Übernatürliche in alltägliche Zimmer und Straßen eindringen. Auf A Christmas Carol von 1843 folgte 1848 als letztes Buch dieser Reihe The Haunted Man: die Geschichte des Chemikers Redlaw und einer Gabe, deren Folgen weit über ihren Empfänger hinausreichen.",
+        "Die drei Kapitel führen von Redlaws Einsamkeit in die dicht besetzte Wohnung der Tetterbys und zu Milly Swidgers Besuchen bei Kranken und Einsamen. Aus dem Wechsel ihrer Stimmen gewinnt die Erzählung ihren Maßstab. Die Frage nach der Erinnerung wird zur Frage nach der Aufmerksamkeit, die ein Mensch einem anderen schenken kann."
+      ],
+      "legacy": "Die Kraft dieser Szenen liegt im Einzelnen: in einer wiederkehrenden Wendung, einem Säugling, der für das Kind, das ihn trägt, zu schwer ist, einem Platz am Feuer. Dickens entwickelt einen Gedanken durch die Menschen, die mit seinen Folgen leben müssen.",
+      "bridge": "Der Heimgesuchte – Der Pakt mit dem Geist. Eine Weihnachtsphantasie. Die deutsche Ausgabe wird bei AETERNUS vorbereitet. Angaben zur Veröffentlichung folgen.",
+      "description": "Charles Dickens: Leben, Journalismus und Weihnachtsbücher. Der Heimgesuchte wird bei AETERNUS vorbereitet.",
       "claimRefs": [
         "F01",
         "F02",
