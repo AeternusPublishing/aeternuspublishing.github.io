@@ -39,9 +39,10 @@
   "pending": true,
   "status": "Demnächst erhältlich",
   "availability": "COMING_SOON",
+  "availability_note": "Bei Ingram eingereicht. Bestellmöglichkeiten folgen.",
   "distribution_status": {
-    "ingram_paperback": "FREIGEGEBEN",
-    "ingram_hardcover": "FREIGEGEBEN"
+    "ingram_paperback": "EINGEREICHT",
+    "ingram_hardcover": "EINGEREICHT"
   },
   "metadata": "Ingram-Ausgaben · je 160 Seiten · 6 × 9 Zoll",
   "instagramUrl": "https://www.instagram.com/p/DfsWccGo7WO/",
