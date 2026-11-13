@@ -23,8 +23,8 @@
       <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#rot">{{ i18n["footer.linkRed"][lang] }}</a></li>
       <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#blau">{{ i18n["footer.linkBlue"][lang] }}</a></li>
         <li><a href="{% if lang == 'de' %}/reihen/{% else %}/en/series/{% endif %}#bernstein">{{ i18n["footer.linkAmber"][lang] }}</a></li>
-        <li><a href="{% if lang == 'de' %}/reihen/weiss/{% else %}/en/series/weiss/{% endif %}">{% if lang == 'de' %}Weiß{% else %}White{% endif %}</a></li>
-        <li><a href="{% if lang == 'de' %}/reihen/purpur/{% else %}/en/series/purpur/{% endif %}">{{ i18n["footer.linkPurple"][lang] }}</a></li>
+{# offline seit 12.11.2026 (Verlegerwort), Rueckweg catalog/offline-series.cjs: <li><a href="{% if lang == 'de' %}/reihen/weiss/{% else %}/en/series/weiss/{% endif %}">{% if lang == 'de' %}Weiß{% else %}White{% endif %}</a></li> #}
+{# offline seit 12.11.2026 (Verlegerwort), Rueckweg catalog/offline-series.cjs: <li><a href="{% if lang == 'de' %}/reihen/purpur/{% else %}/en/series/purpur/{% endif %}">{{ i18n["footer.linkPurple"][lang] }}</a></li> #}
       </ul></div>
       <div class="foot-col">
       <h4>{{ i18n["footer.colHouse"][lang] }}</h4>

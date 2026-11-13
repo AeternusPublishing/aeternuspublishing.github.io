@@ -1,8 +1,8 @@
 ---
 layout: editorial-base.njk
-title: "Sieben Reihen · AETERNUS Verlag"
-description: "Sieben Reihen, sieben Zugänge zur Literatur: Das thematisch geordnete Verlagsprogramm von AETERNUS."
+title: "Fünf Reihen · AETERNUS Verlag"
+description: "Fünf Reihen, fünf Zugänge zur Literatur: Das thematisch geordnete Verlagsprogramm von AETERNUS."
 lang: de
 permalink: /reihen/index.html
 ---
-<main id="main" class="shell catalogue-page"><div class="catalogue-heading"><p class="kicker">Das Verlagsprogramm</p><h1>Sieben Reihen.<br><em>Viele Welten.</em></h1><p>{{ i18n["series.intro"].de }}</p></div><div class="series-directory">{% for s in i18n.seriesItems %}<a class="series-entry" href="/reihen/{{ s.slug }}/" id="{{ s.slug }}"><span class="series-entry-number">{{ s.num }}</span><div><p class="kicker"><span class="series-dot" style="--series-color:{{ s.colorHex }}"></span>{{ s.colorName.de }}</p><h2>{{ s.label.de }}</h2><p>{{ s.desc.de }}</p></div><span aria-hidden="true">↗</span></a>{% endfor %}</div><a class="button ink-button" href="/buecher/">Zum vollständigen Buchprogramm →</a></main>
+<main id="main" class="shell catalogue-page"><div class="catalogue-heading"><p class="kicker">Das Verlagsprogramm</p><h1>Fünf Reihen.<br><em>Viele Welten.</em></h1><p>{{ i18n["series.intro"].de }}</p></div><div class="series-directory">{% for s in i18n.seriesItems %}<a class="series-entry" href="/reihen/{{ s.slug }}/" id="{{ s.slug }}"><span class="series-entry-number">{{ s.num }}</span><div><p class="kicker"><span class="series-dot" style="--series-color:{{ s.colorHex }}"></span>{{ s.colorName.de }}</p><h2>{{ s.label.de }}</h2><p>{{ s.desc.de }}</p></div><span aria-hidden="true">↗</span></a>{% endfor %}</div><a class="button ink-button" href="/buecher/">Zum vollständigen Buchprogramm →</a></main>

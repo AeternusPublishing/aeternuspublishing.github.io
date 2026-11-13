@@ -35,7 +35,7 @@ module.exports = {
         "metrics.info3.1st": { de: "ÜBERSETZUNG", en: "TRANSLATION" },
           "metrics.info3.2nd": { de: "Kern unserer Arbeit", en: "Core of our work " },
           "metrics.info4.1st": { de: "7 REIHEN", en: "7 SERIES" },
-          "metrics.info4.2nd": { de: "Sieben thematisch abgegrenzte Reihen", en: "Clearly ordered programme pillars " },
+          "metrics.info4.2nd": { de: "Fünf thematisch abgegrenzte Reihen", en: "Clearly ordered programme pillars " },
           "metrics.info5.1st": { de: "DE / EN ", en: "DE / EN" },
           "metrics.info5.2nd": { de: "Deutsche Ausgaben; englische Verlagsinformationen ergänzend", en: "German first, English accompanying  " },
 
@@ -278,9 +278,9 @@ module.exports = {
 
   // --- SERIES SECTION ---
   "series.eyebrow": { de: "✦ REIHEN", en: "✦ SERIES" },
-  "series.title": { de: "Sieben Reihen des Verlagsprogramms", en: "Seven series, one measure." },
+  "series.title": { de: "Fünf Reihen des Verlagsprogramms", en: "Five series, one measure." },
   "series.intro": {
-    de: "Das Verlagsprogramm ist in sieben thematisch abgegrenzte Reihen gegliedert. Jede Reihe folgt einem klar abgegrenzten thematischen Schwerpunkt und einer eigenen gestalterischen Farbe.",
+    de: "Das Verlagsprogramm ist in fünf thematisch abgegrenzte Reihen gegliedert. Jede Reihe folgt einem klar abgegrenzten thematischen Schwerpunkt und einer eigenen gestalterischen Farbe.",
     en: "AETERNUS VERLAG does not order its publications according to passing market moods, but according to enduring fields of substance. Each series follows a clear intellectual focus and a distinct visual colour."
   },
   "series.button": { de: "Reihen entdecken", en: "Explore the Series" },
@@ -1268,7 +1268,7 @@ module.exports = {
     de: "AETERNUS VERLAG arbeitet nach einfachen, strengen Grundsätzen. Ein Werk wird weder ideologisch umgedeutet noch nachträglich an gegenwärtige Wertvorstellungen angepasst. Es wird geprüft, geordnet, übersetzt, sprachlich erschlossen und mit Achtung vor seiner Herkunft neu vorgelegt.",
     en: "AETERNUS VERLAG works according to simple and rigorous principles. A work is not appropriated, ideologically rewritten, or sacrificed to the taste of the moment. It is examined, ordered, translated, linguistically recovered, and presented anew with respect for its origin."
   },
-  "pillars.closing": { de: "Sieben Reihen für Literatur, Geschichte, Natur, Staat, Wirtschaft, den Norden und die großen menschlichen Leidenschaften.", en: "Seven series. One measure. Books against oblivion." },
+  "pillars.closing": { de: "Fünf Reihen für Literatur, Geschichte, Natur, Staat und Wirtschaft.", en: "Five series. One measure. Books against oblivion." },
 
   // Matrix array for your dynamic Pillars generation loop
   "pillarsItems": [
@@ -1538,3 +1538,6 @@ module.exports.seriesItems.find(series => series.slug === "bernstein").authors.p
     }
   ]
 });
+
+// Reihen VI Weiss und VII Purpur vorerst offline (Verlegerwort 12.11.2026); Rueckweg in catalog/offline-series.cjs.
+require("../offline-series.cjs").hideOfflineSeries(module.exports);
