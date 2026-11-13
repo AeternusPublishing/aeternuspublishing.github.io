@@ -7934,6 +7934,63 @@
         "file": "INGRAM/9783676052290_cov.pdf",
         "sha256": "15da70d98976d0f20a874ea76c6b00eab2e66a0213146b94095effd33412bb3a"
       }
+    },
+    {
+      "site": "de",
+      "id": "der-heimgesuchte",
+      "url": "/buecher/der-heimgesuchte/",
+      "language": "de",
+      "front_url": "/assets/images/cover-cd001-de-v105-20261113-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cd001-de-v105-20261113.webp",
+          "sha256": "60163649250934568298f9e525f13335918620d02cc2e33680fc8f5751afa365"
+        },
+        {
+          "path": "src/assets/images/cover-cd001-de-v105-20261113-fallback.jpg",
+          "sha256": "fec54fec3c27dfa56426f76a87c57be793bfb5da82e10017f741aafcb55d326b"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052313",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "CD_001",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "isbn13": "978-3-67605-231-3",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CD001_DE_INGRAM_PB_V105_20261113"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "productform": "hardcover",
+          "isbn13": "9783676052320",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "CD_001",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "isbn13": "978-3-67605-232-0",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CD001_DE_INGRAM_HC_V106_20261113"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "CD001_DE_INGRAM_PB_V105_20261113",
+        "file": "INGRAM/9783676052313_cov.pdf",
+        "sha256": "fddb1f7ed272385370cbb3e1964c4a6dfc0cc4f74b1ac32dfe60495034e8e7ea"
+      },
+      "primary_isbn13": "9783676052313"
     }
   ],
   "additional_pages": [

@@ -10,4 +10,12 @@ function author(lang) {
     schema: {birthDate: '1812-02-07', deathDate: '1870-06-09', description: text.description},
   };
 }
-module.exports = {de: author('de'), en: author('en')};
+const de = author('de');
+const book = require('./cd001-de-20261113.json');
+de.books.push({
+  id: book.id, title: book.title, subtitle: book.subtitle, url: book.url,
+  cover: {img: book.cover}, meta: 'Deutsche Ausgabe · Anthrazit',
+  status: book.status, modal: {summary: book.summary, metadata: book.metadata},
+  formats: book.formats.map(format => ({...format, links: []})),
+});
+module.exports = {de, en: author('en')};

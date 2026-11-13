@@ -986,6 +986,27 @@
       "landingUrl": "https://aeternus-verlag.de/autoren/henry-rider-haggard/",
       "amazonUrl": "",
       "sourceUrl": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/"
+    },
+    {
+      "id": "der-heimgesuchte",
+      "title": "Der Heimgesuchte",
+      "author": "Charles Dickens",
+      "year": "1848",
+      "region": "europe",
+      "location": [
+        -0.1276,
+        51.5072
+      ],
+      "place": "London (Erstausgabe, 1848)",
+      "status": "In Vorbereitung",
+      "statusDetail": "Demnächst erhältlich",
+      "language": "Deutsch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-cd001-de-v105-20261113.webp",
+      "subtitle": "Der Pakt mit dem Geist. Eine Weihnachtsphantasie.",
+      "summary": "Ein Fremder mit Redlaws eigenem Gesicht bietet ihm an, die Erinnerung an Leid und Unrecht auszulöschen.",
+      "landingUrl": "https://aeternus-verlag.de/buecher/der-heimgesuchte/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/autoren/charles-dickens/"
     }
   ],
   "links": [
