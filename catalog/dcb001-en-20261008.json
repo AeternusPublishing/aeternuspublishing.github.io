@@ -50,7 +50,7 @@
     "distribution_status": {
       "own_shop": "NOT_CONFIGURED",
       "amazon": "UNKNOWN",
-      "ingram": "PENDING",
+      "ingram": "EINGEREICHT",
       "other": {}
     },
     "links": {
@@ -60,11 +60,13 @@
     },
     "retailer_formats": [
       {
-        "label": "Paperback",
+        "label": "Paperback · IngramSpark",
         "isbn": "978-3-67605-072-2",
         "price_display": "$19.99 · £15.99 · €19.99",
         "links": [],
-        "status": "HOCHGELADEN"
+        "status": "EINGEREICHT",
+        "platform": "IngramSpark",
+        "pages": 274
       }
     ],
     "formats": {

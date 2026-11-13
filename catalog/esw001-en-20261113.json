@@ -1,0 +1,64 @@
+{
+  "id": "en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
+  "work_id": "ESW_001",
+  "language": "en",
+  "title": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)",
+  "subtitle": null,
+  "author": "elihu-stewart",
+  "authorName": "Elihu Stewart",
+  "contributors": [],
+  "series": "bernstein",
+  "series_number": null,
+  "original_publication_year": 1913,
+  "isbn": {
+    "paperback": "978-3-67605-243-6",
+    "hardcover": null,
+    "ebook": null
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-243-6",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 218
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-243-6",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 218
+    }
+  ],
+  "description": {
+    "short": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast.",
+    "long": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast.\n\nA surveyor and forester, Stewart watched the means by which people moved, worked and made their homes along the route. Timber, soil and the depth of a channel belonged to the same landscape as a trading post, a conversation or an evening camp. His narrative draws the reader into these immediate circumstances, then gathers his observations into chapters on the country and its resources.\n\nBased on the report he submitted after his return, this is an account of northern travel shaped by a working observer&#x27;s attention. The edition presents the 1913 text with recorded corrections, the original photographs and route map, and explanatory editorial material."
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1913 first edition</li><li>Original photographs and route map</li><li>Glossary, author profile and afterword</li></ul><p>In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast.</p><p>A surveyor and forester, Stewart watched the means by which people moved, worked and made their homes along the route. Timber, soil and the depth of a channel belonged to the same landscape as a trading post, a conversation or an evening camp. His narrative draws the reader into these immediate circumstances, then gathers his observations into chapters on the country and its resources.</p><p>Based on the report he submitted after his return, this is an account of northern travel shaped by a working observer&#x27;s attention. The edition presents the 1913 text with recorded corrections, the original photographs and route map, and explanatory editorial material.</p>",
+  "cover": "/assets/images/cover-esw001-en-20261113.jpg",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906/",
+  "authorUrl": "/authors/elihu-stewart/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback.",
+  "cardStatus": "Forthcoming",
+  "provenance": "UPLOADPAKET_EN_V7 · 38c70c3b0e0c251d6173471a4dd5f02ed4a5ed1cecaa48e2a0fb40319b7acbbf"
+}

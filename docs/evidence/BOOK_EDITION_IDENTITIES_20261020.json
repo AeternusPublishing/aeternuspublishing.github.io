@@ -3509,7 +3509,7 @@
       ],
       "formats": [
         {
-          "label": "Paperback",
+          "label": "Paperback · IngramSpark",
           "isbn13": "9783676050722",
           "productform": "taschenbuch",
           "tokens": [],
@@ -7712,6 +7712,123 @@
         "package": "UPLOADPAKET_JF001_EN_KDP_V8",
         "file": "JF001_EN_EBOOK_DECKEL.jpg",
         "sha256": "7701f3b317ddfdccb18922ba661482b6a1d7b9221ae4bf178765dcab47bb0c8e"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-daniel-carter-beard-the-american-boys-handy-book",
+      "url": "/books/en-daniel-carter-beard-the-american-boys-handy-book/",
+      "language": "en",
+      "front_url": "/assets/images/cover-dcb002-en-20261113.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-dcb002-en-20261113.jpg",
+          "sha256": "54ea0df60f8efc95719319a971ae7991366f7821bb43f526466fbcb108fcdcc3"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052627",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "DCB_002|en|ingram_paperback|V4_EINGEREICHT_20261112T145000Z",
+              "werk_id": "DCB_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "978-3-67605-262-7",
+              "status": "EINGEREICHT",
+              "version": "V4_EINGEREICHT_20261112T145000Z",
+              "stand_utc": "2026-11-12T14:50:00.2219311+00:00"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "UPLOADPAKET_EN_INGRAM_V4_20261112",
+        "file": "INGRAM/9783676052627_cov.pdf",
+        "sha256": "b6eed994a379d7653e533c6b8ec763dc8a2973765deb64789969aff9fa14e615",
+        "derivative": "Front panel from the Ingram PDF TrimBox"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
+      "url": "/books/en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906/",
+      "language": "en",
+      "front_url": "/assets/images/cover-esw001-en-20261113.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-esw001-en-20261113.jpg",
+          "sha256": "61983a86ea7b1f9b01f6b9ab9e6d623087bd7aa2f08abc8d53db54a708db5e01"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052436",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "ESW_001|en|ingram_paperback|V7_EINGEREICHT_20261112T142927Z",
+              "werk_id": "ESW_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "9783676052436",
+              "status": "EINGEREICHT",
+              "version": "V7_EINGEREICHT_20261112T142927Z",
+              "stand_utc": "2026-11-12T14:29:27.4739574+00:00"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "UPLOADPAKET_EN_V7",
+        "file": "INGRAM/9783676052436_cov.pdf",
+        "sha256": "21b137850efe155a46fc5574aa49d34c38986113feea23d8657a17ffe273ba5f",
+        "derivative": "Front panel from the Ingram PDF TrimBox"
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-william-henry-harrison-murray-adventures-in-the-wilderness",
+      "url": "/books/en-william-henry-harrison-murray-adventures-in-the-wilderness/",
+      "language": "en",
+      "front_url": "/assets/images/cover-whm001-en-20261113.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-whm001-en-20261113.jpg",
+          "sha256": "057da19c0b4e16db82c488c4db6624d0a3cc0680fb6d6832a56577b1b3abc9e7"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676050760",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "WHM_001|en|ingram_paperback|V20_EINGEREICHT_20261112T144856Z",
+              "werk_id": "WHM_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "9783676050760",
+              "status": "EINGEREICHT",
+              "version": "V20_EINGEREICHT_20261112T144856Z",
+              "stand_utc": "2026-11-12T14:48:56.9058713+00:00"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "UPLOADPAKET_EN_V20_20261112",
+        "file": "INGRAM/9783676050760_cov.pdf",
+        "sha256": "1a32d3f109d4a889ad3c200852345dd29a1aa0573b02de248dd42e97b57af9fb",
+        "derivative": "Front panel from the Ingram PDF TrimBox"
       }
     }
   ],

@@ -1,0 +1,64 @@
+{
+  "id": "en-daniel-carter-beard-the-american-boys-handy-book",
+  "work_id": "DCB_002",
+  "language": "en",
+  "title": "The American Boy’s Handy Book (Illustrated)",
+  "subtitle": "What to Do and How to Do It",
+  "author": "daniel-carter-beard",
+  "authorName": "Daniel Carter Beard",
+  "contributors": [],
+  "series": "bernstein",
+  "series_number": null,
+  "original_publication_year": 1882,
+  "isbn": {
+    "paperback": "978-3-67605-262-7",
+    "hardcover": null,
+    "ebook": null
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-262-7",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 624
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-262-7",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 624
+    }
+  ],
+  "description": {
+    "short": "A kite frame, a homemade boat, an aquarium and a puppet theatre: Daniel Carter Beard’s forty-two chapters carry their reader through a year of making and experimenting. The materials change with the seasons, from sticks and paper to snow and ice, while drawings expose the joints, folds and fastenings beneath the finished objects. Indoor amusements take their place beside fishing, boating and a camp made without a tent.",
+    "long": "A kite frame, a homemade boat, an aquarium and a puppet theatre: Daniel Carter Beard’s forty-two chapters carry their reader through a year of making and experimenting. The materials change with the seasons, from sticks and paper to snow and ice, while drawings expose the joints, folds and fastenings beneath the finished objects. Indoor amusements take their place beside fishing, boating and a camp made without a tent.\n\nPublished in 1882, The American Boy’s Handy Book asks what a practical book should provide. Beard offers directions detailed enough to begin an experiment, then leaves room for the reader’s judgment and ingenuity. His concern with tools, modest materials and the pleasure of making connects the varied activities.\n\nBased on the English text issued by Charles Scribner’s Sons in 1882, this edition accompanies Beard’s seasonal collection with an author introduction, afterword, editorial note and period glossary, placing it within the wider literature of outdoor recreation and practical education.\n\nA classic of American handicraft and outdoor play through the seasons.\n\nAMBER SERIES · AETERNUS"
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1882 first edition, checked against the printed page</li><li>311 of Beard’s drawings and the illustrated title page, sharply reproduced</li><li>Publisher’s Note, About the Author, afterword and Editorial Note</li><li>Glossary with 81 entries</li></ul><p>A kite frame, a homemade boat, an aquarium and a puppet theatre: Daniel Carter Beard’s forty-two chapters carry their reader through a year of making and experimenting. The materials change with the seasons, from sticks and paper to snow and ice, while drawings expose the joints, folds and fastenings beneath the finished objects. Indoor amusements take their place beside fishing, boating and a camp made without a tent.</p><p>Published in 1882, <i>The American Boy’s Handy Book</i> asks what a practical book should provide. Beard offers directions detailed enough to begin an experiment, then leaves room for the reader’s judgment and ingenuity. His concern with tools, modest materials and the pleasure of making connects the varied activities.</p><p>Based on the English text issued by Charles Scribner’s Sons in 1882, this edition accompanies Beard’s seasonal collection with an author introduction, afterword, editorial note and period glossary, placing it within the wider literature of outdoor recreation and practical education.</p><p>A classic of American handicraft and outdoor play through the seasons.</p><p>AMBER SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-dcb002-en-20261113.jpg",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-daniel-carter-beard-the-american-boys-handy-book/",
+  "authorUrl": "/authors/daniel-carter-beard/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback.",
+  "cardStatus": "Forthcoming",
+  "provenance": "UPLOADPAKET_EN_INGRAM_V4_20261112 · 9b2d450faf07018e45ab9459c8bdc73ecd719e03dde5ac38220602cf076d2913"
+}
