@@ -250,6 +250,7 @@ englishBooks.push({ ...require('./rje003-en-20261103.json'), seriesName: amberRe
 englishBooks.push({ ...require('./rje002-en-20261104.json'), seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
 
 authorsEn.push(...require('./wilderness-authors.cjs'));
+authorsEn.push(require('./cd001-author-r9-20261026.cjs').en);
 
 englishBooks.push(...[
   require('./dcb002-en-20261113.json'),

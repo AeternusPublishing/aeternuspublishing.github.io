@@ -1,0 +1,236 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "charles-dickens",
+  "name": "Charles John Huffam Dickens",
+  "dates": "7.2.1812 – 9.6.1870",
+  "depth": "expanded",
+  "scope": {
+    "de": true,
+    "en": true,
+    "legacyEn": false
+  },
+  "editionStatus": "IN_PREPARATION",
+  "sources": [
+    {
+      "id": "NPS",
+      "title": "National Park Service · Charles Dickens",
+      "url": "https://home.nps.gov/people/charles-dickens.htm",
+      "checked": "2026-10-26",
+      "note": "Quick Facts and opening biographical paragraph: full name, birth, death and burial. The page’s inconsistent American Notes publication year is not used."
+    },
+    {
+      "id": "FATHER",
+      "title": "Charles Dickens Museum · Dickens’s Father",
+      "url": "https://www.collections.dickensmuseum.com/pro885",
+      "checked": "2026-10-26",
+      "note": "Opening paragraph: John Dickens imprisoned for debt in1824; Charles worked in a blacking factory. No exact factory start age or single-cause theory of the novels inferred."
+    },
+    {
+      "id": "UML",
+      "title": "University of Massachusetts Lowell · Dickens Chronology",
+      "url": "https://www.uml.edu/conferences/dickens-in-lowell/fast-facts/about-charles-dickens.aspx",
+      "checked": "2026-10-26",
+      "note": "Entries1827–1836,1843,1858: legal office, shorthand and journalism, Boz, Pickwick contract, A Christmas Carol and paid readings. Full name uses NPS rather than this page’s Huffham spelling."
+    },
+    {
+      "id": "HAUNTED",
+      "title": "Charles Dickens Museum · The Haunted Man Synopsis",
+      "url": "https://dickensmuseum.com/en-de/blogs/explore/the-haunted-man-synopsis",
+      "checked": "2026-10-26",
+      "note": "Publication1848 and final instalment of the Christmas books. Sales totals and biographical motive are not used."
+    },
+    {
+      "id": "TEXT1848",
+      "title": "Charles Dickens · The Haunted Man and the Ghost’s Bargain (1848), Oxford copy",
+      "url": "https://books.google.com/books?id=riMEAAAAQAAJ",
+      "checked": "2026-10-26",
+      "note": "Title and three chapters; CD001 frozen EN core63141f2e01c1e5d5ff4a1d3d16c256adc0e839b1490a291b1d44d0b0018d6b02. Plot observations were checked against the fully read book. Public-domain original, not a modern synopsis."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Charles John Huffam Dickens was born in Portsmouth on 7 February 1812 and died at Gad’s Hill Place on 9 June 1870.",
+      "sources": [
+        "NPS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "John Dickens was imprisoned for debt in 1824; Charles worked in a blacking factory.",
+      "sources": [
+        "FATHER"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Dickens moved from legal-office work to journalism, published as Boz and secured the Pickwick contract in 1836.",
+      "sources": [
+        "UML"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "A Christmas Carol appeared in 1843; The Haunted Man followed in 1848 as the last Christmas book.",
+      "sources": [
+        "UML",
+        "HAUNTED"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Paid public readings began in 1858; Dickens is buried in Westminster Abbey.",
+      "sources": [
+        "UML",
+        "NPS"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Haunted Man follows the chemist Redlaw, a bargain concerning painful memories, the Tetterbys and Milly Swidger across three chapters.",
+      "sources": [
+        "TEXT1848"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "statement": "No military service, rank or decoration is asserted. No direct causal explanation of a fictional character from a childhood event is claimed."
+    },
+    {
+      "status": "OFFEN",
+      "statement": "The book portrait remains a separate candidate pending approval. No new portrait is supplied by this website PR; no existing approved asset is removed or changed."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "statement": "CD001 is an unreleased draft. No product, ISBN, price, publication date, finished cover, download or purchase route is added."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Reading of the1848story and its contrasting settings; not a biographical diagnosis."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "intro",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Independent website prose, not a Dickens quotation or a change to a frozen book text."
+  },
+  "locales": {
+    "de": {
+      "tagline": "Die volle Stadt und das einsame Zimmer.",
+      "intro": "Ein Schuldgefängnis, eine Zeitungsredaktion, ein winterliches Zimmer am Feuer: Dickens gibt jedem Ort seine eigenen Stimmen und Bewegungen. Komik, Unruhe und menschliche Not stehen bei ihm dicht beieinander. Im Heimgesuchten setzt ein höchst persönlicher Wunsch eine ganze kleine Welt in Bewegung.",
+      "orientation": "In Dickens’ London leben Menschen, die kaum dieselbe Stadt zu bewohnen scheinen: die Gesicherten und die Bedrängten, der Gelehrte allein mit seinen Büchern und die Familie, die für ein weiteres Kind Platz schafft. Seine Erzählungen suchen die Berührungspunkte dieser Leben.",
+      "origin": [
+        "Charles John Huffam Dickens wurde 1812 in Portsmouth geboren. 1824 kam sein Vater wegen Schulden ins Gefängnis; Charles arbeitete in einer Fabrik für Schuhwichse. Das sind belegte Umstände seiner Kindheit. Sie erklären nicht jede Gestalt, die er später schuf."
+      ],
+      "career": [
+        "Auf die Arbeit in einer Anwaltskanzlei folgten Stenografie und Journalismus. Die unter dem Namen Boz veröffentlichten Skizzen und der Vertrag für die Pickwick Papers von 1836 eröffneten ihm einen zweiten Weg als Erzähler. Später trat er selbst vor seine Leser; 1858 begannen die bezahlten öffentlichen Lesungen.",
+        "Dickens starb 1870 in Gad’s Hill Place und wurde in der Westminster Abbey beigesetzt."
+      ],
+      "literature": [
+        "Die Weihnachtsbücher lassen das Übernatürliche in alltägliche Zimmer und Straßen eindringen. Auf A Christmas Carol von 1843 folgte 1848 als letztes Buch dieser Reihe The Haunted Man: die Geschichte des Chemikers Redlaw und einer Gabe, deren Folgen weit über ihren Empfänger hinausreichen.",
+        "Die drei Kapitel führen von Redlaws Einsamkeit in die dicht besetzte Wohnung der Tetterbys und zu Milly Swidgers Besuchen bei Kranken und Einsamen. Aus dem Wechsel ihrer Stimmen gewinnt die Erzählung ihren Maßstab. Die Frage nach der Erinnerung wird zur Frage nach der Aufmerksamkeit, die ein Mensch einem anderen schenken kann."
+      ],
+      "legacy": "Die Kraft dieser Szenen liegt im Einzelnen: in einer wiederkehrenden Wendung, einem Säugling, der für das Kind, das ihn trägt, zu schwer ist, einem Platz am Feuer. Dickens entwickelt einen Gedanken durch die Menschen, die mit seinen Folgen leben müssen.",
+      "bridge": "Der Heimgesuchte – Der Pakt mit dem Geist. Eine Weihnachtsphantasie. Die deutsche Ausgabe wird bei AETERNUS vorbereitet. Angaben zur Veröffentlichung folgen.",
+      "description": "Charles Dickens: Leben, Journalismus und Weihnachtsbücher. Der Heimgesuchte wird bei AETERNUS vorbereitet.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    },
+    "en": {
+      "tagline": "The crowded city and the solitary room.",
+      "intro": "A debtor’s prison, a newspaper office, a winter room lit by the fire: Dickens gives a place its own voices and movements. His fiction brings comedy, apprehension and human need into close company. In The Haunted Man, the most private wish sets a whole small world in motion.",
+      "orientation": "Dickens’s London contains people who scarcely seem to inhabit the same city: the secure and the precarious, the learned man alone with his books and the family making room for another child. His stories find the points at which those lives touch.",
+      "origin": [
+        "Charles John Huffam Dickens was born in Portsmouth in 1812. In 1824 his father was imprisoned for debt and Charles worked in a blacking factory. These are documented circumstances of his childhood; they do not explain every character he later created."
+      ],
+      "career": [
+        "Legal-office work led to shorthand reporting and journalism. The sketches published under the name Boz and the Pickwick contract of 1836 opened another career in fiction. Public readings later made the author a performer before his readers; paid tours began in 1858.",
+        "Dickens died at Gad’s Hill Place in 1870 and was buried in Westminster Abbey."
+      ],
+      "literature": [
+        "The Christmas books bring a supernatural disturbance into everyday rooms and streets. A Christmas Carol appeared in 1843. The Haunted Man, published in 1848, closes that sequence with the chemist Redlaw and a gift whose consequences spread beyond its recipient.",
+        "The three chapters move between Redlaw’s isolation, the crowded Tetterby household and Milly Swidger’s visits to the sick and lonely. Their contrasting voices give the story its scale. The question of memory becomes a question about the attention one person can give another."
+      ],
+      "legacy": "The force of these scenes lies in their particularity: a repeated phrase, a baby too heavy for the child carrying it, a seat beside the fire. Dickens makes an argument through the people who must live with its consequences.",
+      "bridge": "The Haunted Man and the Ghost’s Bargain, the last of the Christmas books, is in preparation at AETERNUS. Publication details will follow.",
+      "description": "Charles Dickens: his life, journalism and Christmas books, with The Haunted Man and the Ghost’s Bargain in preparation at AETERNUS.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ]
+    }
+  },
+  "timeline": [
+    [
+      "1812",
+      "Born in Portsmouth.",
+      "Geburt in Portsmouth."
+    ],
+    [
+      "1824",
+      "Father imprisoned for debt; work in a blacking factory.",
+      "Schuldhaft des Vaters; Arbeit in einer Schuhwichsfabrik."
+    ],
+    [
+      "1836",
+      "Pickwick contract.",
+      "Vertrag für die Pickwick Papers."
+    ],
+    [
+      "1848",
+      "The Haunted Man closes the Christmas books.",
+      "The Haunted Man beschließt die Weihnachtsbücher."
+    ],
+    [
+      "1858",
+      "Paid public readings begin.",
+      "Beginn der bezahlten öffentlichen Lesungen."
+    ],
+    [
+      "1870",
+      "Dies at Gad’s Hill Place.",
+      "Tod in Gad’s Hill Place."
+    ]
+  ],
+  "honours": [],
+  "connections": [],
+  "places": [],
+  "image": {
+    "status": "not-supplied",
+    "reason": "No approved Dickens website portrait exists yet; the separate book reconstruction is not silently reused."
+  },
+  "editorial_basis": "R9-05: EN author-world QR destination and DE QR landing via its canonical German author page; existing house redirect pattern. CD001 H1 title decision remains authoritative; no title or price newly fixed."
+}
