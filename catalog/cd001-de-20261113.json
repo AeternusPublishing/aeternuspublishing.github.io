@@ -1,0 +1,65 @@
+{
+  "id": "der-heimgesuchte",
+  "work_id": "CD_001",
+  "url": "/buecher/der-heimgesuchte/",
+  "title": "Der Heimgesuchte",
+  "subtitle": "Der Pakt mit dem Geist. Eine Weihnachtsphantasie.",
+  "author": "Charles Dickens",
+  "authorUrl": "/autoren/charles-dickens/",
+  "authorSlug": "charles-dickens",
+  "cover": "cover-cd001-de-v105-20261113",
+  "description": "Ein Fremder mit Redlaws eigenem Gesicht bietet ihm an, die Erinnerung an Leid und Unrecht auszulöschen.",
+  "summary": "Ein Fremder mit Redlaws eigenem Gesicht bietet ihm an, die Erinnerung an Leid und Unrecht auszulöschen.",
+  "publisherDescriptionHTML": "<ul><li>Neue deutsche Übersetzung</li><li>Vorwort, Nachwort und historische Erläuterungen</li><li>Illustrationen der Ausgabe von 1848</li></ul><p>Redlaw besitzt Wissen, Ansehen und ein eigenes Zimmer am winterlichen Feuer. Was er nicht loswird, sind die Erinnerungen an Leid und Unrecht. Da bietet ihm eine Gestalt mit seinem eigenen Gesicht an, sie fortzunehmen. Das Versprechen scheint bis an die Quelle seines Unglücks zu reichen.</p><p>Vor seiner Tür führt Weihnachten andere Leben zusammen, in der alten Lehranstalt und den überfüllten Räumen eines kleinen Zeitungsladens. Ein betagter Hüter wiederholt die Geschichten seiner Jugend. Die Tetterbys mühen sich, die Teller ihrer Kinder zu füllen. Milly geht zwischen Kranken und Einsamen umher; ein namenloser Junge trägt die Spuren einer Kindheit ohne Schutz. Der Wunsch des Gelehrten bringt eine beunruhigende Frage in ihre Gesellschaft: Was hängt noch an dem Schmerz, den ein Mensch so gern verlieren würde?</p><p>1848 erschien Der Heimgesuchte als fünftes und letztes der eigenständigen Weihnachtsbücher von Charles Dickens. Doppelgänger, winterliche Schatten und lebendige häusliche Stimmen geben dem Pakt eine eigene Welt. Diese Ausgabe verbindet eine neue deutsche Übersetzung mit den ursprünglichen Illustrationen, Vorwort, Nachwort, Autorenbiografie und einem Glossar der historischen Anspielungen. Durch die Erzählung geht die leise Bitte: „Herr! Halte mein Andenken wach!“</p>",
+  "original": "The Haunted Man and the Ghost’s Bargain (1848)",
+  "series": "anthrazit",
+  "seriesName": "Anthrazit",
+  "seriesColor": "#333333",
+  "language": "de",
+  "languageLabel": "Deutsch",
+  "isbn": "978-3-67605-231-3",
+  "searchIsbns": "978-3-67605-231-3 978-3-67605-232-0",
+  "pages": 160,
+  "formats": [
+    {
+      "name": "Taschenbuch",
+      "isbn": "978-3-67605-231-3",
+      "price": "16,99 €",
+      "url": ""
+    },
+    {
+      "name": "Hardcover",
+      "isbn": "978-3-67605-232-0",
+      "price": "27,99 €",
+      "url": ""
+    }
+  ],
+  "amazon": "",
+  "amazonLabel": "",
+  "pending": true,
+  "status": "Demnächst erhältlich",
+  "availability": "COMING_SOON",
+  "distribution_status": {
+    "ingram_paperback": "FREIGEGEBEN",
+    "ingram_hardcover": "FREIGEGEBEN"
+  },
+  "metadata": "Ingram-Ausgaben · je 160 Seiten · 6 × 9 Zoll",
+  "instagramUrl": "https://www.instagram.com/p/DfsWccGo7WO/",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Der Heimgesuchte",
+    "url": "https://aeternus-verlag.de/buecher/der-heimgesuchte/",
+    "author": {
+      "@type": "Person",
+      "name": "Charles Dickens"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AETERNUS Verlag"
+    },
+    "inLanguage": "de",
+    "description": "Ein Fremder mit Redlaws eigenem Gesicht bietet ihm an, die Erinnerung an Leid und Unrecht auszulöschen.",
+    "image": "https://aeternus-verlag.de/assets/images/cover-cd001-de-v105-20261113.webp"
+  }
+}

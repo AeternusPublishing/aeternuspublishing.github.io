@@ -1073,6 +1073,34 @@
       }
     },
     {
+      "id": "book:de:der-heimgesuchte",
+      "type": "book",
+      "label": {
+        "de": "Der Heimgesuchte",
+        "en": "Der Heimgesuchte"
+      },
+      "author": "Charles Dickens",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-cd001-de-v105-20261113.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/der-heimgesuchte/",
+        "en": "https://aeternus-verlag.de/buecher/der-heimgesuchte/"
+      },
+      "summary": {
+        "de": "Ein Fremder mit Redlaws eigenem Gesicht bietet ihm an, die Erinnerung an Leid und Unrecht auszulöschen.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          -0.1276,
+          51.5072
+        ],
+        "region": "europe",
+        "place": "London (Erstausgabe, 1848)",
+        "source": "kosmosSelection:der-heimgesuchte"
+      }
+    },
+    {
       "id": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
       "type": "book",
       "label": {
@@ -2053,6 +2081,25 @@
       }
     },
     {
+      "id": "book:en-theodore-roosevelt-the-naval-war-of-1812",
+      "type": "book",
+      "label": {
+        "de": "The Naval War of 1812 (Annotated)",
+        "en": "The Naval War of 1812 (Annotated)"
+      },
+      "author": "Theodore Roosevelt",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-tr005-en-v6-20261113.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-naval-war-of-1812/",
+        "en": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-naval-war-of-1812/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Roosevelt compares American and British accounts of the War of 1812, from frigate actions at sea to the battles for control of Lakes Erie and Champlain."
+      }
+    },
+    {
       "id": "book:en-henry-doveton-hutchinson-the-campaign-in-tirah",
       "type": "book",
       "label": {
@@ -2563,6 +2610,82 @@
       "summary": {
         "de": "",
         "en": "A keeper’s cottage stands above a stream crossed by a fallen willow. Behind it are kennels; inside hang the tools of a living learnt through years of walking, watching and handling animals. Richard Jefferies follows that work into woods, fields and neighbouring villages, where a broken twig or a disturbed rabbit hole may carry news."
+      }
+    },
+    {
+      "id": "book:en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
+      "type": "book",
+      "label": {
+        "de": "The Haunted Man and the Ghost's Bargain (Annotated)",
+        "en": "The Haunted Man and the Ghost's Bargain (Annotated)"
+      },
+      "author": "Charles Dickens",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cd001-en-v16-20261113.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-charles-dickens-the-haunted-man-and-the-ghosts-bargain/",
+        "en": "https://aeternuspublishing.com/books/en-charles-dickens-the-haunted-man-and-the-ghosts-bargain/"
+      },
+      "summary": {
+        "de": "",
+        "en": "On a winter evening, a figure with Redlaw’s own face offers to take away his memories of sorrow and wrong."
+      }
+    },
+    {
+      "id": "book:en-daniel-carter-beard-the-american-boys-handy-book",
+      "type": "book",
+      "label": {
+        "de": "The American Boy’s Handy Book (Illustrated)",
+        "en": "The American Boy’s Handy Book (Illustrated)"
+      },
+      "author": "Daniel Carter Beard",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-dcb002-en-20261113.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-daniel-carter-beard-the-american-boys-handy-book/",
+        "en": "https://aeternuspublishing.com/books/en-daniel-carter-beard-the-american-boys-handy-book/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A kite frame, a homemade boat, an aquarium and a puppet theatre: Daniel Carter Beard’s forty-two chapters carry their reader through a year of making and experimenting. The materials change with the seasons, from sticks and paper to snow and ice, while drawings expose the joints, folds and fastenings beneath the finished objects. Indoor amusements take their place beside fishing, boating and a camp made without a tent."
+      }
+    },
+    {
+      "id": "book:en-william-henry-harrison-murray-adventures-in-the-wilderness",
+      "type": "book",
+      "label": {
+        "de": "Adventures in the Wilderness (Illustrated)",
+        "en": "Adventures in the Wilderness (Illustrated)"
+      },
+      "author": "William Henry Harrison Murray",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-whm001-en-20261113.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-william-henry-harrison-murray-adventures-in-the-wilderness/",
+        "en": "https://aeternuspublishing.com/books/en-william-henry-harrison-murray-adventures-in-the-wilderness/"
+      },
+      "summary": {
+        "de": "",
+        "en": "A bag of clothing, a boat that can be carried between lakes and a guide who knows the water: Murray gives his reader the arrangements before the adventure. Then a trout tests the rod, a carry tests the traveler, and a quiet evening becomes a story to be remembered at home."
+      }
+    },
+    {
+      "id": "book:en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
+      "type": "book",
+      "label": {
+        "de": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)",
+        "en": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)"
+      },
+      "author": "Elihu Stewart",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-esw001-en-20261113.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906/",
+        "en": "https://aeternuspublishing.com/books/en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906/"
+      },
+      "summary": {
+        "de": "",
+        "en": "In 1906 Elihu Stewart travelled north from Edmonton into a country whose rivers determined the course and pace of a journey. Scows, canoes and steamers carried him through the Athabaska and Mackenzie systems; beyond Fort McPherson he crossed the mountains towards the Porcupine and Yukon, returning through the Klondike country and the Pacific coast."
       }
     },
     {
@@ -3199,6 +3322,14 @@
       }
     },
     {
+      "id": "author:Charles Dickens",
+      "type": "author",
+      "label": {
+        "de": "Charles Dickens",
+        "en": "Charles Dickens"
+      }
+    },
+    {
       "id": "author:Robert Le Mesurier McClure",
       "type": "author",
       "label": {
@@ -3431,6 +3562,22 @@
       }
     },
     {
+      "id": "author:William Henry Harrison Murray",
+      "type": "author",
+      "label": {
+        "de": "William Henry Harrison Murray",
+        "en": "William Henry Harrison Murray"
+      }
+    },
+    {
+      "id": "author:Elihu Stewart",
+      "type": "author",
+      "label": {
+        "de": "Elihu Stewart",
+        "en": "Elihu Stewart"
+      }
+    },
+    {
       "id": "author:George Rutledge Gibson",
       "type": "author",
       "label": {
@@ -3641,6 +3788,11 @@
     },
     {
       "source": "book:de:der-abenteuerliche-simplicissimus",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:der-heimgesuchte",
       "target": "series:anthrazit",
       "type": "series"
     },
@@ -3865,6 +4017,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-theodore-roosevelt-the-naval-war-of-1812",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-henry-doveton-hutchinson-the-campaign-in-tirah",
       "target": "series:gruen",
       "type": "series"
@@ -3996,6 +4153,26 @@
     },
     {
       "source": "book:en-richard-jefferies-the-gamekeeper-at-home",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-daniel-carter-beard-the-american-boys-handy-book",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-william-henry-harrison-murray-adventures-in-the-wilderness",
+      "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
       "target": "series:bernstein",
       "type": "series"
     },
@@ -4546,6 +4723,11 @@
       "type": "author"
     },
     {
+      "source": "book:de:der-heimgesuchte",
+      "target": "author:Charles Dickens",
+      "type": "author"
+    },
+    {
       "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
       "target": "author:Robert Le Mesurier McClure",
       "type": "author"
@@ -4766,6 +4948,11 @@
       "type": "author"
     },
     {
+      "source": "book:en-theodore-roosevelt-the-naval-war-of-1812",
+      "target": "author:Theodore Roosevelt",
+      "type": "author"
+    },
+    {
       "source": "book:en-henry-doveton-hutchinson-the-campaign-in-tirah",
       "target": "author:Henry Doveton Hutchinson",
       "type": "author"
@@ -4898,6 +5085,26 @@
     {
       "source": "book:en-richard-jefferies-the-gamekeeper-at-home",
       "target": "author:Richard Jefferies",
+      "type": "author"
+    },
+    {
+      "source": "book:en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
+      "target": "author:Charles Dickens",
+      "type": "author"
+    },
+    {
+      "source": "book:en-daniel-carter-beard-the-american-boys-handy-book",
+      "target": "author:Daniel Carter Beard",
+      "type": "author"
+    },
+    {
+      "source": "book:en-william-henry-harrison-murray-adventures-in-the-wilderness",
+      "target": "author:William Henry Harrison Murray",
+      "type": "author"
+    },
+    {
+      "source": "book:en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
+      "target": "author:Elihu Stewart",
       "type": "author"
     },
     {
