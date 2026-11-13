@@ -1,0 +1,64 @@
+{
+  "id": "en-william-henry-harrison-murray-adventures-in-the-wilderness",
+  "work_id": "WHM_001",
+  "language": "en",
+  "title": "Adventures in the Wilderness (Illustrated)",
+  "subtitle": "or, Camp-Life in the Adirondacks",
+  "author": "william-henry-harrison-murray",
+  "authorName": "William Henry Harrison Murray",
+  "contributors": [],
+  "series": "bernstein",
+  "series_number": null,
+  "original_publication_year": 1869,
+  "isbn": {
+    "paperback": "978-3-67605-076-0",
+    "hardcover": null,
+    "ebook": null
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-076-0",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 246
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-076-0",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": [],
+      "pages": 246
+    }
+  ],
+  "description": {
+    "short": "A bag of clothing, a boat that can be carried between lakes and a guide who knows the water: Murray gives his reader the arrangements before the adventure. Then a trout tests the rod, a carry tests the traveler, and a quiet evening becomes a story to be remembered at home.",
+    "long": "A bag of clothing, a boat that can be carried between lakes and a guide who knows the water: Murray gives his reader the arrangements before the adventure. Then a trout tests the rod, a carry tests the traveler, and a quiet evening becomes a story to be remembered at home.\n\nPublished in 1869, Adventures in the Wilderness combines an introduction to Adirondack travel with accounts of fishing, camping and unexpected encounters. Its forceful advice meets the movement and humor of the stories. The visitor's confidence depends on preparation, but also on another person's skill, a well-timed reply and the ability to laugh when the day takes an unplanned turn.\n\nThe original English text is accompanied by historical illustrations, equipment drawings, a facsimile travel supplement and railway map. An author study, afterword and glossary explore the practical and imaginative life of a journey that continues after the boat has been put away."
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1869 first edition</li><li>Historical illustrations, facsimile supplement and railway map</li><li>Glossary, author profile and afterword</li></ul><p>A bag of clothing, a boat that can be carried between lakes and a guide who knows the water: Murray gives his reader the arrangements before the adventure. Then a trout tests the rod, a carry tests the traveler, and a quiet evening becomes a story to be remembered at home.</p><p>Published in 1869, Adventures in the Wilderness combines an introduction to Adirondack travel with accounts of fishing, camping and unexpected encounters. Its forceful advice meets the movement and humor of the stories. The visitor's confidence depends on preparation, but also on another person's skill, a well-timed reply and the ability to laugh when the day takes an unplanned turn.</p><p>The original English text is accompanied by historical illustrations, equipment drawings, a facsimile travel supplement and railway map. An author study, afterword and glossary explore the practical and imaginative life of a journey that continues after the boat has been put away.</p>",
+  "cover": "/assets/images/cover-whm001-en-20261113.jpg",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "EINGEREICHT"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-william-henry-harrison-murray-adventures-in-the-wilderness/",
+  "authorUrl": "/authors/william-henry-harrison-murray/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback.",
+  "cardStatus": "Forthcoming",
+  "provenance": "UPLOADPAKET_EN_V20_20261112 · 6190d4d4bc078aee1c246356f413cf945a67a9c610ba83a52f2064a76332cf47"
+}

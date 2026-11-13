@@ -250,6 +250,12 @@ englishBooks.push({ ...require('./rje002-en-20261104.json'), seriesName: amberRe
 
 authorsEn.push(...require('./wilderness-authors.cjs'));
 
+englishBooks.push(...[
+  require('./dcb002-en-20261113.json'),
+  require('./whm001-en-20261113.json'),
+  require('./esw001-en-20261113.json'),
+].map(book => ({ ...book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor })));
+
 // SBS_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./sbs001-author-20261102.cjs'));
 
