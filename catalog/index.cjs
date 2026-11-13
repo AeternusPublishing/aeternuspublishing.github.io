@@ -106,6 +106,7 @@ authorsEn.push(ga001.author);
 englishBooks.unshift(...ga001.books);
 authorsEn.push(tr002.author);
 englishBooks.unshift(tr002.book);
+englishBooks.push(require('./tr005-en-20261113.json'));
 // NAJ_001 V8: publisher-approved author and book pages; print editions forthcoming.
 const naj001 = require('./naj001-en-20261009.cjs');
 authorsEn.push(naj001.author);

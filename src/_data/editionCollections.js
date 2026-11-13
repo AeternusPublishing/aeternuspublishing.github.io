@@ -8,6 +8,7 @@ const labels = {
   'american-military-history': ['Amerikanische Militärgeschichte', 'Militärische Erinnerungen und Berichte aus der Geschichte der Vereinigten Staaten.'],
   'american-frontier-rangers': ['Amerikanischer Grenzraum & Rangers', 'Erinnerungen an das Leben im amerikanischen Grenzraum und den Dienst der Texas Rangers.'],
   'exploration-frontier-worlds': ['Expeditionen & Grenzräume', 'Expeditionsberichte und Erzählungen aus Grenzräumen innerhalb der Grünen Reihe.'],
+  'editorial-review': ['Redaktionelle Zuordnung', ''],
   'european-military-history': ['Europäische Militärgeschichte', '']
 };
 const views = definitions.filter(c => c.series === 'gruen').map(c => {

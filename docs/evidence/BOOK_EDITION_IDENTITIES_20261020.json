@@ -7830,6 +7830,58 @@
         "sha256": "1a32d3f109d4a889ad3c200852345dd29a1aa0573b02de248dd42e97b57af9fb",
         "derivative": "Front panel from the Ingram PDF TrimBox"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-theodore-roosevelt-the-naval-war-of-1812",
+      "language": "en",
+      "url": "/books/en-theodore-roosevelt-the-naval-war-of-1812/",
+      "front_url": "/assets/images/cover-tr005-en-v6-20261113.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-tr005-en-v6-20261113.jpg",
+          "sha256": "f8b49a6da2ddc53bcabde8e16da92ca91b634684b4b89b3780768103f03603eb"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052870",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "TR_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "978-3-67605-287-0",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CHECKOUT_PROBE_TR005_20261113_V6"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "productform": "hardcover",
+          "isbn13": "9783676052887",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "TR_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "isbn13": "978-3-67605-288-7",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CHECKOUT_PROBE_TR005_20261113_V6"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "CHECKOUT_PROBE_TR005_20261113_V6",
+        "file": "INGRAM/9783676052870_cov.pdf",
+        "sha256": "bbb3e847b2a88919a9cc6dfae4f80ca65aab344281366c83268291b6fbdf68c1"
+      }
     }
   ],
   "additional_pages": [

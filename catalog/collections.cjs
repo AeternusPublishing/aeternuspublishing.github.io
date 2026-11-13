@@ -73,7 +73,7 @@ const definitions = [
   }
 ];
 const seriesIds = ['anthrazit', green, 'rot', 'blau', 'bernstein', 'weiss', 'purpur'];
-for (const id of seriesIds.filter(id => id !== green)) {
+for (const id of seriesIds) {
   definitions.push({ series: id, id: 'editorial-review', title: 'Editorial review', public: false,
     url: `/collections/${id}/editorial-review/`, bookIds: [] });
 }
@@ -105,7 +105,7 @@ function bind(englishBooks, germanBooks, series) {
     const collection = collections.find(item => item.books.includes(book)) ||
       collections.find(item => item.series === book.series && item.id === 'editorial-review');
     if (!collection) throw new Error(`No collection for ${book.id}`);
-    if (book.series === green && collection.id === 'editorial-review') throw new Error(`Unclassified Green Series book: ${book.id}`);
+    if (book.series === green && collection.id === 'editorial-review' && !book.collectionReviewPending) throw new Error(`Unclassified Green Series book: ${book.id}`);
     Object.assign(book, {
       primaryEditionLine: book.series,
       primaryCollection: collection.id,

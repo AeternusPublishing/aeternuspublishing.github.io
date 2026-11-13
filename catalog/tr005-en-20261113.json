@@ -1,0 +1,77 @@
+{
+  "id": "en-theodore-roosevelt-the-naval-war-of-1812",
+  "work_id": "TR_005",
+  "language": "en",
+  "title": "The Naval War of 1812 (Annotated)",
+  "subtitle": "Or the History of the United States Navy during the Last War with Great Britain",
+  "author": "theodore-roosevelt",
+  "authorName": "Theodore Roosevelt",
+  "contributors": [],
+  "series": "gruen",
+  "collectionReviewPending": true,
+  "seriesName": "Green Series",
+  "seriesColor": "#334d3b",
+  "original_publication_year": 1882,
+  "isbn": {
+    "paperback": "978-3-67605-287-0",
+    "hardcover": "978-3-67605-288-7"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-287-0",
+      "pages": 502,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "978-3-67605-288-7",
+      "pages": 502,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-287-0",
+      "pages": 502,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "978-3-67605-288-7",
+      "pages": 502,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "Roosevelt compares American and British accounts of the War of 1812, from frigate actions at sea to the battles for control of Lakes Erie and Champlain.",
+    "long": "Roosevelt compares American and British accounts of the War of 1812, from frigate actions at sea to the battles for control of Lakes Erie and Champlain."
+  },
+  "publisherDescriptionHTML": "<ul><li>About the Author</li><li>A glossary of naval terms</li></ul><p>In 1882, twenty-three-year-old Theodore Roosevelt published the historical study that first established his reputation as a serious writer on naval affairs.</p><p>The Naval War of 1812 examines the conflict between the United States Navy and the Royal Navy during the war fought from 1812 to 1815. Roosevelt reconstructs engagements through ship classifications, armament, crew strength, official reports and detailed tactical analysis.</p><p>The narrative covers the victories of Constitution and United States, the capture of Chesapeake by Shannon, the operations of American cruisers and privateers, the campaigns upon the Great Lakes, and the battles which determined control of Lakes Erie and Champlain.</p><p>Rather than accept national claims unexamined, Roosevelt compares British and American accounts and considers the material advantages under which individual actions were fought.</p><p>The result is both an operational history of sailing warfare and an early argument for disciplined naval preparation.</p><p>This AETERNUS presentation is accompanied by a biographical study of Roosevelt, a record of his public and military appointments, a register of principal ships and squadrons, an account of documented honors, a glossary of naval terms and a historical afterword examining the continuing relationship between maritime communications and national power.</p><p>Originally published in one volume by G. P. Putnam&#x27;s Sons, New York, 1882.</p>",
+  "cover": "/assets/images/cover-tr005-en-v6-20261113.jpg",
+  "publication_date": null,
+  "availability": "COMING_SOON",
+  "distribution_status": {
+    "ingram": "EINGEREICHT"
+  },
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "url": "/books/en-theodore-roosevelt-the-naval-war-of-1812/",
+  "authorUrl": "/authors/theodore-roosevelt/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback and hardcover.",
+  "cardStatus": "Forthcoming",
+  "provenance": "CHECKOUT_PROBE_TR005_20261113_V6 · 530cd58a18a56fe34b8c609f1a2e72594a6318a0b62f2b938549d7213d3e2c9b"
+}
