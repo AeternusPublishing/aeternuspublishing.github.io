@@ -7882,6 +7882,58 @@
         "file": "INGRAM/9783676052870_cov.pdf",
         "sha256": "bbb3e847b2a88919a9cc6dfae4f80ca65aab344281366c83268291b6fbdf68c1"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
+      "url": "/books/en-charles-dickens-the-haunted-man-and-the-ghosts-bargain/",
+      "language": "en",
+      "front_url": "/assets/images/cover-cd001-en-v16-20261113.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-cd001-en-v16-20261113.jpg",
+          "sha256": "a0cb88c7b651c4a6bbee41387a24c4b39e6bf8c88fa38c0e210d7b163323715e"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052290",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "CD_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "978-3-67605-229-0",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CD001_EN_INGRAM_PB_V16_20261112"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "productform": "hardcover",
+          "isbn13": "9783676052306",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "CD_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "isbn13": "978-3-67605-230-6",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CD001_EN_INGRAM_HC_V16_20261112"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "CD001_EN_INGRAM_PB_V16_20261112",
+        "file": "INGRAM/9783676052290_cov.pdf",
+        "sha256": "15da70d98976d0f20a874ea76c6b00eab2e66a0213146b94095effd33412bb3a"
+      }
     }
   ],
   "additional_pages": [

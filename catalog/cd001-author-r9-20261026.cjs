@@ -10,4 +10,4 @@ function author(lang) {
     schema: {birthDate: '1812-02-07', deathDate: '1870-06-09', description: text.description},
   };
 }
-module.exports = {de: author('de'), en: author('en')};
+module.exports = {en: author('en')};

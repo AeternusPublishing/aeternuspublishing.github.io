@@ -1,0 +1,76 @@
+{
+  "id": "en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
+  "work_id": "CD_001",
+  "language": "en",
+  "title": "The Haunted Man and the Ghost's Bargain (Annotated)",
+  "subtitle": "A Fancy for Christmas-Time",
+  "author": "charles-dickens",
+  "authorName": "Charles Dickens",
+  "series": "anthrazit",
+  "seriesName": "Anthracite Series",
+  "seriesColor": "#303238",
+  "contributors": [],
+  "original_publication_year": 1848,
+  "isbn": {
+    "paperback": "978-3-67605-229-0",
+    "hardcover": "978-3-67605-230-6"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "platform": "IngramSpark",
+      "isbn": "978-3-67605-229-0",
+      "pages": 150,
+      "status": "EINGEREICHT",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "platform": "IngramSpark",
+      "isbn": "978-3-67605-230-6",
+      "pages": 150,
+      "status": "EINGEREICHT",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "platform": "IngramSpark",
+      "isbn": "978-3-67605-229-0",
+      "pages": 150,
+      "status": "EINGEREICHT",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "platform": "IngramSpark",
+      "isbn": "978-3-67605-230-6",
+      "pages": 150,
+      "status": "EINGEREICHT",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "On a winter evening, a figure with Redlaw’s own face offers to take away his memories of sorrow and wrong.",
+    "long": "On a winter evening, a figure with Redlaw’s own face offers to take away his memories of sorrow and wrong."
+  },
+  "publisherDescriptionHTML": "<ul><li>New foreword and afterword</li><li>Author biography and historical glossary</li><li>Illustrations from the 1848 edition</li></ul><p>Redlaw has learning, respect and a room of his own beside a winter fire. What he cannot dismiss are the memories of sorrow and wrong. When a figure bearing his own face offers to take them away, the promise seems to reach the very source of his unhappiness.</p><p>Beyond his door, Christmas gathers other lives into the old college and the crowded rooms of a little newsman’s shop. An aged keeper repeats the stories of his youth. The Tetterbys struggle to fill their children’s plates. Milly moves between the sick and the lonely, while a nameless boy carries the marks of a childhood without protection. The scholar’s wish brings a disturbing question into their company: what else is bound to the pain a man would gladly lose?</p><p>Published in 1848, The Haunted Man is the fifth and final volume of Dickens’s separate Christmas Books. Its double, its wintry shadows and its lively household voices give the bargain a world of its own. This edition presents the story with the original illustrations, an introduction, an afterword, an author biography and a glossary of its historical references. A quiet prayer runs through it: “Lord keep my memory green!”</p>",
+  "cover": "/assets/images/cover-cd001-en-v16-20261113.jpg",
+  "publication_date": "2026-11-20",
+  "availability": "COMING_SOON",
+  "distribution_status": {
+    "ingram": "EINGEREICHT"
+  },
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "url": "/books/en-charles-dickens-the-haunted-man-and-the-ghosts-bargain/",
+  "authorUrl": "/authors/charles-dickens/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback and hardcover.",
+  "cardStatus": "Forthcoming",
+  "provenance": "CD001_EN_INGRAM_PB_V16_20261112 and CD001_EN_INGRAM_HC_V16_20261112"
+}
