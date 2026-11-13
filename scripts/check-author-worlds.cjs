@@ -77,8 +77,8 @@ for(const p of profiles){
   pageRecords.push({route,root,language:lang,sha256:crypto.createHash('sha256').update(html).digest('hex')});routes++;
  }
 }
-assert.equal(routes,deOnly?33:83);
-assert.equal(profiles.filter(p=>p.scope.de).length,21);assert.equal(profiles.filter(p=>p.scope.en).length,50);
+assert.equal(routes,deOnly?34:84);
+assert.equal(profiles.filter(p=>p.scope.de).length,22);assert.equal(profiles.filter(p=>p.scope.en).length,50);
 // The original catalogue data are retained verbatim; all generated book-page text is compared locally.
 let unchangedBooks=0;
 for(const [oldRoot,newRoot,folder] of [['work/before-de','public','buecher'],['work/before-en','dist/release','books']]){
@@ -94,7 +94,7 @@ for(const [oldRoot,newRoot,folder] of [['work/before-de','public','buecher'],['w
  }
 }
 for(const row of baseline.authors){const p=profiles.find(p=>p.slug===row.slug);assert.deepEqual(p.scope,row.scope,p.slug+': route scope changed');}
-const result={status:'PASS',mode:deOnly?'de-build':'both-builds',authors:57,germanPages:21,englishPages:deOnly?0:50,legacyEnglishPages:12,routes,bookLinks,unchangedBooks,negativeFixtures:4,
+const result={status:'PASS',mode:deOnly?'de-build':'both-builds',authors:57,germanPages:22,englishPages:deOnly?0:50,legacyEnglishPages:12,routes,bookLinks,unchangedBooks,negativeFixtures:4,
  depths:Object.fromEntries(['compact','expanded','comprehensive'].map(d=>[d,profiles.filter(p=>p.depth===d).map(p=>p.slug)])),
  honours:profiles.filter(p=>p.honours?.length).length,timelines:profiles.filter(p=>p.timeline?.length).length,connections:profiles.reduce((n,p)=>n+(p.connections?.length||0),0),approvedPortraits:profiles.filter(p=>p.image.status==='publisher-approved').length,verifiedPortraits:profiles.filter(p=>p.image.status==='verified').length,pages:pageRecords};
 if(process.argv.includes('--record'))fs.writeFileSync('docs/author-worlds/validation.json',JSON.stringify(result,null,2)+'\n');
