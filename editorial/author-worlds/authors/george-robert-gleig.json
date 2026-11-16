@@ -12,10 +12,31 @@
   "sources": [
     {
       "id": "DNB",
-      "title": "Dictionary of National Biography · George Robert Gleig",
+      "title": "Dictionary of National Biography (1890) · Gleig, George Robert",
       "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Gleig,_George_Robert",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "checked": "2026-11-16",
+      "note": "Biographical article written shortly after his death; dates of birth, service, offices and death; retrieved 16 November 2026"
+    },
+    {
+      "id": "ARMYLIST",
+      "title": "Hart’s Army List 1868 · Chaplain-General to the Forces, p. 438",
+      "url": "https://rnzaoc.com/wp-content/uploads/2018/08/army-list-1868.pdf",
+      "checked": "2026-11-16",
+      "note": "Official service entry; War Medal with three clasps, clasps not named; retrieved 16 November 2026"
+    },
+    {
+      "id": "ODNB",
+      "title": "Oxford Dictionary of National Biography · Gleig, George Robert (abstract)",
+      "url": "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/580500988",
+      "checked": "2026-11-16",
+      "note": "Freely accessible abstract; parentage; retrieved 16 November 2026"
+    },
+    {
+      "id": "TITLE1846",
+      "title": "G. R. Gleig · Sale’s Brigade in Afghanistan (London: John Murray, 1846), title page and Advertisement",
+      "url": "https://archive.org/details/salesbrigadeinaf00gleirich",
+      "checked": "2026-11-16",
+      "note": "First edition, witness of the AETERNUS edition; Advertisement dated Chelsea, June 1846"
     }
   ],
   "facts": [
@@ -23,16 +44,17 @@
       "id": "F01",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Born Stirling 1796, died 1888; army service in the Peninsula and America.",
+      "statement": "Born at Stirling on 20 April 1796, son of George Gleig, later Bishop of Brechin; died at Stratfield Turgis on 9 July 1888.",
       "sources": [
-        "DNB"
+        "DNB",
+        "ODNB"
       ]
     },
     {
       "id": "F02",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Ordained after military service; Chaplain-General of the Forces, 1844–75.",
+      "statement": "Left Glasgow and a Snell exhibition at Balliol for an ensigncy in the 85th Foot; served in the Peninsula 1813–14 (San Sebastian, the Bidassoa, the Nivelle, the Nive, before Bayonne) and in North America (Bladensburg, Washington, Baltimore, New Orleans, Fort Bowyer), wounded several times.",
       "sources": [
         "DNB"
       ]
@@ -41,13 +63,58 @@
       "id": "F03",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Wrote The Subaltern and accounts of British campaigns in America.",
+      "statement": "Oxford B.A. 1818 and M.A. 1821; ordained 1820; curate of Westwell, perpetual curate of Ash 1821, rector of Ivychurch 1822.",
       "sources": [
         "DNB"
       ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Chaplain of Chelsea Hospital 1834; Chaplain-General of the Forces until 1875; Inspector-General of Military Schools 1846–57; prebendary of Willesden in St Paul’s from 1848.",
+      "sources": [
+        "DNB",
+        "ARMYLIST"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Army List of 1868 records a War Medal with three clasps against his name, without naming the clasps.",
+      "sources": [
+        "ARMYLIST"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Wrote The Subaltern, Campaigns of the British Army at Washington and New Orleans, a History of India, lives of Munro, Clive, Warren Hastings and Wellington, and Sale’s Brigade in Afghanistan (1846), compiled from officers’ journals and the Orderly Books of the 13th.",
+      "sources": [
+        "DNB",
+        "TITLE1846"
+      ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Year of appointment as Chaplain-General",
+      "decision": "The DNB gives 1844; the 1868 Army List dates the office from 2 July 1846. The page names both and fixes neither."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Names of the three clasps",
+      "decision": "No individual medal-roll entry has been seen. The battles named by the DNB are not presented as clasps."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Portrait",
+      "decision": "The portrait plate of the book carries a commercial-use hold in its image ledger; no likeness is shown on this page until it is cleared."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -67,26 +134,35 @@
   },
   "locales": {
     "en": {
-      "tagline": "The soldier who became the army’s chaplain and historian.",
-      "intro": "Gleig wrote with the memory of a young officer and the later vocation of a clergyman. His long career brought campaigning, religious service and historical authorship into one life.",
-      "orientation": "The books of personal military experience have a different standing from his later historical compilations. The witness’s closeness is strongest where he writes of service he knew.",
+      "tagline": "Subaltern of Wellington’s army, Chaplain-General of the Forces, historian of Jellalabad.",
+      "intro": "George Robert Gleig went to war at seventeen and spent the rest of a long life writing about soldiers. He carried the memory of the Nivelle and New Orleans into the pulpit, into Chelsea Hospital and into the office of Chaplain-General of the Forces.",
+      "orientation": "Gleig’s writing falls into two kinds. Where he writes of service he knew, in the Peninsula and America, he writes as a witness. Where he writes of Afghanistan, India or Wellington’s campaigns as a whole, he writes as a compiler who names his sources; Sale’s Brigade states its method in the Advertisement.",
       "origin": [
-        "Born in Stirling, he left his early university course for the army. Service in the Peninsula and America preceded his return to study and ordination."
+        "The son of George Gleig, later Bishop of Brechin, and of Janet Hamilton, he was schooled at Stirling and Leith and went on to Glasgow. A Snell exhibition took him to Balliol in 1811, and he gave it up within months for a commission in the 85th."
       ],
       "career": [
-        "He later became Chaplain-General of the Forces, holding the office from 1844 to 1875. Writing accompanied this institutional career across many years."
+        "Promoted lieutenant, he joined the army in Spain in 1813 and was present at San Sebastian, the Bidassoa, the Nivelle, the Nive and the investment of Bayonne. In America the 85th fought at Bladensburg, entered Washington, stood before Baltimore and New Orleans and took Fort Bowyer. Placed on half-pay after the war, he took his Oxford degrees, married in 1819 and was ordained in 1820.",
+        "He held the livings of Ash and Ivychurch in Kent before Lord John Russell appointed him chaplain of Chelsea Hospital in 1834. As Chaplain-General he led the Army’s chaplaincy for three decades and, as Inspector-General of Military Schools from 1846 to 1857, its schooling. St Paul’s made him prebendary of Willesden in 1848."
       ],
       "literature": [
-        "The Subaltern and the American campaign narratives draw the reader towards marching, fighting and the perceptions of a junior officer. Their perspective is necessarily narrower than that of a later strategic history."
+        "The Subaltern first appeared in Blackwood’s and was followed by Campaigns of the British Army at Washington and New Orleans, The Chelsea Pensioners, a History of India, and lives of Sir Thomas Munro, Warren Hastings, Clive and the Duke of Wellington. Sale’s Brigade in Afghanistan, published by John Murray in 1846, was written within months of the last act: Sale had fallen at Moodkee in December 1845, and Gleig finished the book knowing that Sale could no longer read it."
       ],
-      "legacy": "Gleig preserves the voice of service across a remarkable change of vocation. His works show how military experience could be carried into the religious and literary institutions of nineteenth-century Britain.",
-      "bridge": "The narratives restore the campaign at the scale of the serving officer’s day.",
-      "description": "Gleig wrote with the memory of a young officer and the later vocation of a clergyman. His long career brought campaigning, religious service and historical authorship into one life.",
+      "legacy": "Gleig kept the voice of the regimental officer alive in an institution that rarely listened to it. His books record what campaigns looked like from the line of march, and his Jellalabad narrative preserves the journals of men who held a broken fortress through a winter of disaster.",
+      "bridge": "Sale’s Brigade in Afghanistan follows Sale’s brigade from the Khoord Kabul to the walls of Jellalabad, written from the journals of the officers who held them.",
+      "description": "The Reverend George Robert Gleig (1796–1888): officer of the 85th Foot in the Peninsula and America, Chaplain-General of the Forces, author of The Subaltern and Sale’s Brigade in Afghanistan.",
       "claimRefs": [
         "F01",
         "F02",
-        "F03"
-      ]
+        "F03",
+        "F04",
+        "F05",
+        "F06"
+      ],
+      "overview": [
+        "Born at Stirling in 1796, the son of a future Bishop of Brechin, Gleig gave up a Snell exhibition at Balliol for an ensigncy in the 85th Foot. He fought in the Pyrenees and before Bayonne in 1813–14, then crossed to America, where the 85th marched on Washington and attacked the lines before New Orleans. He was wounded in both theatres, and out of those years came The Subaltern, the book that made his name.",
+        "Peace returned him to Oxford and to holy orders. He served Kentish parishes, became chaplain of Chelsea Hospital in 1834 and then Chaplain-General of the Forces, an office he held until 1875; from 1846 he was also Inspector-General of Military Schools. In the autumn of 1845 he met the officers of the 13th Light Infantry at Walmer and wrote, from their journals and the regiment’s Orderly Books, Sale’s Brigade in Afghanistan. He died in 1888 in his ninety-third year."
+      ],
+      "careerHeading": "From the 85th Foot to the Chaplain-General’s office"
     }
   },
   "image": {
@@ -103,23 +179,81 @@
     ]
   },
   "rank": {
-    "en": "The Reverend George Robert Gleig · Chaplain-General of the Forces, 1844–75"
+    "en": "The Reverend George Robert Gleig, M.A. · Chaplain-General of the Forces"
   },
   "timeline": [
     [
-      "1812",
-      "Enters the army",
-      ""
+      "20 April 1796",
+      "Born at Stirling"
+    ],
+    [
+      "1811",
+      "Snell exhibition at Balliol; commission in the 85th Foot"
+    ],
+    [
+      "1813–1814",
+      "Peninsula: San Sebastian, the Bidassoa, the Nivelle, the Nive, Bayonne"
+    ],
+    [
+      "1814–1815",
+      "America: Bladensburg, Washington, Baltimore, New Orleans, Fort Bowyer"
+    ],
+    [
+      "1818 · 1821",
+      "Oxford B.A. and M.A."
     ],
     [
       "1820",
-      "Ordained",
-      ""
+      "Ordained; curate of Westwell"
     ],
     [
-      "1844–75",
-      "Chaplain-General of the Forces",
-      ""
+      "1834",
+      "Chaplain of Chelsea Hospital"
+    ],
+    [
+      "1844 or 1846",
+      "Chaplain-General of the Forces (DNB 1844, Army List 2 July 1846)"
+    ],
+    [
+      "1846",
+      "Sale’s Brigade in Afghanistan; Inspector-General of Military Schools"
+    ],
+    [
+      "1848",
+      "Prebendary of Willesden, St Paul’s"
+    ],
+    [
+      "1875",
+      "Resigns as Chaplain-General"
+    ],
+    [
+      "9 July 1888",
+      "Dies at Stratfield Turgis"
     ]
+  ],
+  "honours": [
+    {
+      "name": "War Medal with three clasps",
+      "year": "attested 1868",
+      "category": "decoration",
+      "sources": [
+        "ARMYLIST",
+        "DNB"
+      ],
+      "note": {
+        "en": "Recorded in the Army List of 1868 and by the DNB for his Peninsular service. The medal was instituted only in 1847; neither source names the three clasps. Open: the individual medal-roll entry."
+      }
+    },
+    {
+      "name": "Master of Arts, University of Oxford",
+      "year": "1821",
+      "category": "academic",
+      "sources": [
+        "DNB"
+      ],
+      "note": {
+        "en": "B.A. 1818 from Magdalen Hall, M.A. 1821."
+      }
+    }
   ]
 }

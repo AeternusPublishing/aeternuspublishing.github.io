@@ -16,58 +16,68 @@
   "isbn": {
     "paperback": "978-3-67605-166-8",
     "hardcover": "978-3-67605-167-5",
-    "ebook": null
+    "ebook": "978-3-67605-168-2"
   },
   "formats": {
     "paperback": {
       "label": "Paperback",
-      "price_display": "USD 15.99 · GBP 13.99 · EUR 14.99"
+      "price_display": "USD 17.99 · GBP 14.99 · EUR 16.99"
     },
     "hardcover": {
       "label": "Hardcover",
-      "price_display": "USD 26.99 · GBP 23.99 · EUR 25.99"
+      "price_display": "USD 27.99 · GBP 21.99 · EUR 26.99"
     },
-    "ebook": null
+    "ebook": {
+      "label": "E-Book",
+      "price_display": "USD 8.99 · GBP 7.99 · EUR 8.99"
+    }
   },
   "retailer_formats": [
     {
       "label": "Paperback",
       "isbn": "978-3-67605-166-8",
-      "pages": 268,
-      "price_display": "USD 15.99 · GBP 13.99 · EUR 14.99",
+      "pages": 266,
+      "price_display": "USD 17.99 · GBP 14.99 · EUR 16.99",
       "links": [],
       "status": "EINGEREICHT"
     },
     {
       "label": "Hardcover",
       "isbn": "978-3-67605-167-5",
-      "pages": 268,
-      "price_display": "USD 26.99 · GBP 23.99 · EUR 25.99",
+      "pages": 266,
+      "price_display": "USD 27.99 · GBP 21.99 · EUR 26.99",
+      "links": [],
+      "status": "EINGEREICHT"
+    },
+    {
+      "label": "E-Book",
+      "isbn": "978-3-67605-168-2",
+      "price_display": "USD 8.99 · GBP 7.99 · EUR 8.99",
       "links": [],
       "status": "EINGEREICHT"
     }
   ],
   "description": {
-    "short": "In the winter of 1841, the British position in Afghanistan was collapsing. At Jellalabad, Sir Robert Sale and his brigade held their ground. Gleig’s complete text of the 1846 first edition in gently refreshed English, with sixteen plates and a publisher’s apparatus.",
-    "long": "  Complete text of the 1846 first edition in gently refreshed English  Sixteen plates of 1839 to 1879, with portraits of Sale and Gleig  Publisher’s foreword and afterword, author and commander profiles  Historical timeline and glossary of the First Afghan War  Note on the text listing every correction to the 1846 printing    “His operations were distinguished by the most indomitable spirit of valour, endurance, and devotedness to his country’s honour.”  — Sir Robert Peel, House of Commons, 20 February 1843  In the winter of 1841, the British position in Afghanistan was collapsing.  While revolt engulfed Kabul and the mountain passes turned against the occupying army, Major-General Sir Robert Sale fought his brigade eastward through the Ghilzai country and entered the half-ruined fortress of Jellalabad.  There, with roughly two thousand British and Indian troops, he made his stand.  The walls were broken. Supplies were short. Communications with India were uncertain. Then came the destruction of the Kabul army, the arrival of the wounded Dr William Brydon, and an earthquake that struck the fortifications themselves.  Still the garrison held.  George Robert Gleig — soldier, military historian and later Chaplain-General to the Forces — reconstructed the campaign from officers’ manuscript journals, the Orderly Books of the 13th and testimony from men connected with the operations. Published by John Murray in 1846,  Sale’s Brigade in Afghanistan  preserves one of the defining episodes of the First Afghan War.  Amid one of the Empire’s gravest disasters, Jellalabad became a name of honour.   This AETERNUS edition presents Gleig’s complete text in gently refreshed English, with the Advertisement and every document as printed.   GREEN SERIES · AETERNUS "
+    "short": "In October 1841 a single brigade marched east from Kabul under orders for India. It forced the Khoord Cabul pass with its commander wounded in the ankle, fought rear-guard actions through Tezeen and Gundamuck, and in November occupied the broken walls of Jellalabad. Behind it the British army at Kabul was destroyed on its retreat. The 13th Light Infantry, the 35th Bengal Native Infantry, Broadfoot's sappers, Abbott's guns, a squadron of Bengal cavalry and a rassalah of Shah Shuja's horse rebuilt the town's defences, lost them to an earthquake on 19 February 1842, rebuilt them again, and on 7 April marched out and broke Akbar Khan's besieging army in the open field, nine days before the relief arrived.",
+    "long": "Complete text of the 1846 first edition in gently refreshed English Sixteen plates of 1839 to 1879, with portraits of Sale and Gleig Publisher’s note and afterword, author and commander profiles Timeline, glossary, dramatis personae and order of battle Note on this edition listing every correction to the 1846 printing In October 1841 a single brigade marched east from Kabul under orders for India. It forced the Khoord Cabul pass with its commander wounded in the ankle, fought rear-guard actions through Tezeen and Gundamuck, and in November occupied the broken walls of Jellalabad. Behind it the British army at Kabul was destroyed on its retreat. The 13th Light Infantry, the 35th Bengal Native Infantry, Broadfoot's sappers, Abbott's guns, a squadron of Bengal cavalry and a rassalah of Shah Shuja's horse rebuilt the town's defences, lost them to an earthquake on 19 February 1842, rebuilt them again, and on 7 April marched out and broke Akbar Khan's besieging army in the open field, nine days before the relief arrived. George Robert Gleig, a Peninsula officer turned clergyman, wrote the brigade's history in 1846 from its officers' journals and the Orderly Books of the 13th. His judgement on the war is severe. His account of the garrison is exact. This AETERNUS edition follows the first edition of John Murray, London, 1846, in gently modernised English: long sentences divided, punctuation brought into present use, Gleig's spellings of names kept. Eighteen images have been added, among them the 1845 mezzotint of Sir Robert Sale and the engraved portrait of Gleig; the first edition had none. A Publisher's Note, an Afterword, an account of the author and a Glossary complete the volume. GREEN SERIES · AETERNUS"
   },
-  "publisherDescriptionHTML": "<ul><li>Complete text of the 1846 first edition in gently refreshed English</li><li>Sixteen plates of 1839 to 1879, with portraits of Sale and Gleig</li><li>Publisher’s foreword and afterword, author and commander profiles</li><li>Historical timeline and glossary of the First Afghan War</li><li>Note on the text listing every correction to the 1846 printing</li></ul><p><i>“His operations were distinguished by the most indomitable spirit of valour, endurance, and devotedness to his country’s honour.”</i> — Sir Robert Peel, House of Commons, 20 February 1843</p><p>In the winter of 1841, the British position in Afghanistan was collapsing.</p><p>While revolt engulfed Kabul and the mountain passes turned against the occupying army, Major-General Sir Robert Sale fought his brigade eastward through the Ghilzai country and entered the half-ruined fortress of Jellalabad.</p><p>There, with roughly two thousand British and Indian troops, he made his stand.</p><p>The walls were broken. Supplies were short. Communications with India were uncertain. Then came the destruction of the Kabul army, the arrival of the wounded Dr William Brydon, and an earthquake that struck the fortifications themselves.</p><p>Still the garrison held.</p><p>George Robert Gleig — soldier, military historian and later Chaplain-General to the Forces — reconstructed the campaign from officers’ manuscript journals, the Orderly Books of the 13th and testimony from men connected with the operations. Published by John Murray in 1846, <i>Sale’s Brigade in Afghanistan</i> preserves one of the defining episodes of the First Afghan War.</p><p>Amid one of the Empire’s gravest disasters, Jellalabad became a name of honour.</p><p><i>This AETERNUS edition presents Gleig’s complete text in gently refreshed English, with the Advertisement and every document as printed.</i></p><p>GREEN SERIES · AETERNUS</p>",
-  "cover": "/assets/images/cover-grg001-en-ingram-v6-20261012.jpg",
-  "coverWebp": "/assets/images/cover-grg001-en-ingram-v6-20261012.webp",
-  "backcover": "/assets/images/backcover-grg001-en-ingram-v6-20261012.jpg",
-  "backcoverWebp": "/assets/images/backcover-grg001-en-ingram-v6-20261012.webp",
+  "publisherDescriptionHTML": "<ul><li>Complete text of the 1846 first edition in gently refreshed English</li><li>Sixteen plates of 1839 to 1879, with portraits of Sale and Gleig</li><li>Publisher’s note and afterword, author and commander profiles</li><li>Timeline, glossary, dramatis personae and order of battle</li><li>Note on this edition listing every correction to the 1846 printing</li></ul><p>In October 1841 a single brigade marched east from Kabul under orders for India. It forced the Khoord Cabul pass with its commander wounded in the ankle, fought rear-guard actions through Tezeen and Gundamuck, and in November occupied the broken walls of Jellalabad. Behind it the British army at Kabul was destroyed on its retreat. The 13th Light Infantry, the 35th Bengal Native Infantry, Broadfoot's sappers, Abbott's guns, a squadron of Bengal cavalry and a rassalah of Shah Shuja's horse rebuilt the town's defences, lost them to an earthquake on 19 February 1842, rebuilt them again, and on 7 April marched out and broke Akbar Khan's besieging army in the open field, nine days before the relief arrived.</p><p>George Robert Gleig, a Peninsula officer turned clergyman, wrote the brigade's history in 1846 from its officers' journals and the Orderly Books of the 13th. His judgement on the war is severe. His account of the garrison is exact.</p><p>This AETERNUS edition follows the first edition of John Murray, London, 1846, in gently modernised English: long sentences divided, punctuation brought into present use, Gleig's spellings of names kept. Eighteen images have been added, among them the 1845 mezzotint of Sir Robert Sale and the engraved portrait of Gleig; the first edition had none. A Publisher's Note, an Afterword, an account of the author and a Glossary complete the volume.</p><p>GREEN SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-grg001-en-ingram-v18-20261116.jpg",
+  "coverWebp": "/assets/images/cover-grg001-en-ingram-v18-20261116.webp",
+  "backcover": "/assets/images/backcover-grg001-en-ingram-v18-20261116.jpg",
+  "backcoverWebp": "/assets/images/backcover-grg001-en-ingram-v18-20261116.webp",
   "publication_date": "2026-10-15",
   "on_sale_date": "2026-10-15",
-  "availability": "COMING_SOON",
-  "cardStatus": "Forthcoming · 15 October 2026",
-  "forthcoming_label": "Paperback and hardcover forthcoming · 15 October 2026",
+  "availability": "AVAILABLE",
+  "cardStatus": "Paperback and hardcover available · new edition 16 November 2026",
+  "forthcoming_label": null,
   "links": {
     "shop": null,
     "amazon": null,
     "ingram": null
   },
   "distribution_status": {
-    "ingram": "EINGEREICHT",
+    "ingram": "LIVE",
     "amazon": "NOT_IN_SCOPE",
     "own_shop": "NOT_CONFIGURED",
     "other": {}
@@ -81,14 +91,14 @@
   "legacy": {
     "modal": {
       "metadata": "GREEN SERIES illustrated reading edition: the complete text of the first edition (London, John Murray, 1846) in gently refreshed English, with plates and a publisher’s apparatus.",
-      "sample": "In the winter of 1841, the British position in Afghanistan was collapsing. At Jellalabad, Sir Robert Sale and his brigade held their ground. Gleig’s complete text of the 1846 first edition in gently refreshed English, with sixteen plates and a publisher’s apparatus."
+      "sample": "In October 1841 a single brigade marched east from Kabul under orders for India. It forced the Khoord Cabul pass with its commander wounded in the ankle, fought rear-guard actions through Tezeen and Gundamuck, and in November occupied the broken walls of Jellalabad. Behind it the British army at Kabul was destroyed on its retreat. The 13th Light Infantry, the 35th Bengal Native Infantry, Broadfoot's sappers, Abbott's guns, a squadron of Bengal cavalry and a rassalah of Shah Shuja's horse rebuilt the town's defences, lost them to an earthquake on 19 February 1842, rebuilt them again, and on 7 April marched out and broke Akbar Khan's besieging army in the open field, nine days before the relief arrived."
     }
   },
-  "provenance": "GRG_001_EN V6 MANIFEST 85408238c487a1c10424e3fa628a5fa8765567063ae2c8480c7c9d443279bd24; Ingram PB CSS9726799 and HC CSS9732929 submitted 12 October 2026",
+  "provenance": "GRG_001_EN Ingram V18 package, MANIFEST cbf38753615b119cf466ae372121210b5a1ac18af7b13df59a3da390fed353db; Ingram PB revision CSS9726799, HC revision CSS9732929, e-book CSS9838893 submitted 16 November 2026",
   "pricing": {
-    "USD": 15.99,
-    "GBP": 13.99,
-    "EUR": 14.99,
+    "USD": 17.99,
+    "GBP": 14.99,
+    "EUR": 16.99,
     "AUD": null,
     "CAD": null
   }
