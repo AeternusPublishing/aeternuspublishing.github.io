@@ -14,22 +14,89 @@
       "id": "NAM",
       "title": "National Army Museum · Charles Melliss, diaries and letters",
       "url": "https://www.nam.ac.uk/explore/their-own-words-major-general-sir-charles-melliss",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
-    },
-    {
-      "id": "GAZETTE",
-      "title": "London Gazette · Melliss, attested as VC, KCB, 1916",
-      "url": "https://www.thegazette.co.uk/London/issue/29536/supplement/3660/data.pdf",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "checked": "2026-11-16",
+      "note": "Institutional account of the collection: Mhow, commission 1882, Indian Army 1884, Royal Humane Society medal, Kut and captivity, retirement 1920, Colonel of the 53rd Sikhs until 1934."
     },
     {
       "id": "VC",
-      "title": "London Gazette · Victoria Cross citation, 15 January 1901, p. 307",
+      "title": "London Gazette 27266, 15 January 1901, p. 307 · Victoria Cross",
       "url": "https://www.thegazette.co.uk/London/issue/27266/page/307/data.pdf",
-      "checked": "2026-10-20",
-      "note": "Official citation; action 30 September 1900, gazetted 15 January 1901."
+      "checked": "2026-11-16",
+      "note": "Official citation; Obassa, 30 September 1900, and gallantry on three previous occasions in the Ashanti campaign."
+    },
+    {
+      "id": "MID1900",
+      "title": "London Gazette 27253, 4 December 1900, p. 8210 · Ashanti despatch",
+      "url": "https://www.thegazette.co.uk/London/issue/27253/page/8210/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Melliss named in Willcocks's favourable notices."
+    },
+    {
+      "id": "CB",
+      "title": "London Gazette supplement 28505, 19 June 1911, p. 4590 · Order of the Bath",
+      "url": "https://www.thegazette.co.uk/London/issue/28505/supplement/4590/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Military Division, Companion; date of the notice. Also Edinburgh Gazette 12365, 23 June 1911, p. 628."
+    },
+    {
+      "id": "KCB",
+      "title": "Edinburgh Gazette 12867, 2 November 1915, p. 1629 · Order of the Bath",
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/12867/page/1629/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Military Division, Knight Commander, dated 29 October 1915, for distinguished service in the field."
+    },
+    {
+      "id": "GAZETTE",
+      "title": "London Gazette supplement 29536, 5 April 1916, p. 3668 · Mesopotamia despatch",
+      "url": "https://www.thegazette.co.uk/London/issue/29536/supplement/3668/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Names Major-General Sir C. J. Melliss, V.C., K.C.B., among those mentioned for operations in Mesopotamia to 14 April 1915."
+    },
+    {
+      "id": "KUT",
+      "title": "London Gazette supplement 29789, 19 October 1916, p. 10059 · Defence of Kut",
+      "url": "https://www.thegazette.co.uk/London/issue/29789/supplement/10059/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Townshend's recommendation of Melliss for distinguished service in the defence of Kut."
+    },
+    {
+      "id": "KCMG",
+      "title": "London Gazette supplement 30859, 23 August 1918, p. 9817 · Order of St Michael and St George",
+      "url": "https://www.thegazette.co.uk/London/issue/30859/supplement/9817/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Knight Commander, for services in connection with military operations in Mesopotamia; conferred while he was a prisoner."
+    },
+    {
+      "id": "COLONEL",
+      "title": "London Gazette 32339, 31 May 1921, p. 4302 · Colonel of the 53rd Sikhs",
+      "url": "https://www.thegazette.co.uk/London/issue/32339/page/4302/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Appointment as Colonel of the 53rd Sikhs (Frontier Force); gives his style V.C., K.C.B., K.C.M.G."
+    },
+    {
+      "id": "CROIX",
+      "title": "Edinburgh Gazette 13786, 10 February 1922, p. 265 · Croix de Guerre",
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/13786/page/265/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Melliss named among British officers with the French Croix de Guerre; award date and device are not stated."
+    },
+    {
+      "id": "RECORD",
+      "title": "Lion-Hunting in Somali-land · About the Author and The Author's Record (printed paratext V4)",
+      "url": "https://aeternuspublishing.com/books/en-melliss-lion-hunting-in-somali-land-annotated/",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CJM_CHARLES_JOHN_MELLISS\\02_WERKE\\CJM_001_LION_HUNTING_IN_SOMALI_LAND_1895\\05_PARATEXT\\PARATEXT_V4_20261116\\paratext_en_v4.py",
+      "sha256": "16ad9e6f987599cc17c5f1f8dfe179821c3e64524c36390ddebb92c11b368b60",
+      "note": "Publisher's apparatus of the 2026 edition; read in full. Army List of 1905 cited there for the Brilliant Star of Zanzibar and the campaign medals."
+    },
+    {
+      "id": "FACTS",
+      "title": "Lion-Hunting in Somali-land · Biographical fact base (research file, 16 November 2026)",
+      "url": "https://aeternuspublishing.com/books/en-melliss-lion-hunting-in-somali-land-annotated/",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CJM_CHARLES_JOHN_MELLISS\\02_WERKE\\CJM_001_LION_HUNTING_IN_SOMALI_LAND_1895\\05_PARATEXT\\ZULIEFERUNG_CODEX_FAKTEN_20261116\\CJM_001_20261116T114701Z_R5\\03_BIOGRAPHICAL_APPARATUS.md",
+      "sha256": "4c363cbefadac1f1ae4f55dc70f9c43bcce7e5e26c804c0238fac4c7d2cf5c2d",
+      "note": "Gazette references with open points for each entry; read in full."
     }
   ],
   "facts": [
@@ -37,54 +104,110 @@
       "id": "F01",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Born Mhow 1862, died 1936; commissioned 1882, transferred to Indian Army 1884.",
+      "statement": "Born at Mhow, Central India, on 12 September 1862, son of Lieutenant-General George Melliss; educated at Wellington College and Sandhurst; commissioned into the East Yorkshire Regiment in 1882 and transferred to the Indian Army in 1884.",
       "sources": [
         "NAM",
-        "GAZETTE"
+        "RECORD"
       ]
     },
     {
       "id": "F02",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Lion-Hunting in Somali-land published 1895.",
+      "statement": "Lion-Hunting in Somali-land appeared in London in 1895; its title page names Captain C. J. Melliss, 9th Bombay Infantry.",
       "sources": [
-        "NAM",
-        "GAZETTE"
+        "RECORD"
       ]
     },
     {
       "id": "F03",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Received Victoria Cross for actions during the Ashanti War of 1900.",
+      "statement": "The Victoria Cross was gazetted on 15 January 1901 for the charge at Obassa on 30 September 1900 and for gallantry on three previous occasions in the Ashanti campaign.",
       "sources": [
-        "NAM",
-        "GAZETTE"
+        "VC"
       ]
     },
     {
       "id": "F04",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Commanded in Mesopotamia and endured captivity after Kut; tried to assist other prisoners.",
+      "statement": "Companion of the Bath (Military Division) in the Gazette of 19 June 1911; Knight Commander of the Bath dated 29 October 1915.",
       "sources": [
-        "NAM",
-        "GAZETTE"
+        "CB",
+        "KCB"
       ]
     },
     {
       "id": "F05",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "KCMG granted following repatriation at the end of 1918; the NAM account does not establish the precise award date. Retired 1920.",
+      "statement": "Commanded at Shaiba in April 1915, served at Nasiriyah and Ctesiphon and shared the siege of Kut until its surrender on 29 April 1916; afterwards an Ottoman prisoner.",
       "sources": [
+        "GAZETTE",
+        "KUT",
         "NAM",
-        "GAZETTE"
+        "RECORD"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Knight Commander of St Michael and St George, 23 August 1918, for services in connection with military operations in Mesopotamia, conferred while he was a prisoner.",
+      "sources": [
+        "KCMG"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Retired from the Indian Army in 1920; Colonel of the 53rd Sikhs (Frontier Force) from 31 May 1921 until 1934; died at Camberley, Surrey, on 6 June 1936.",
+      "sources": [
+        "COLONEL",
+        "NAM",
+        "RECORD"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "The printed account records the bronze medal of the Royal Humane Society for the rescue from the Sokoto off Cape Coast Castle in May 1899, and a mauling by a lion in East Africa in 1903.",
+      "sources": [
+        "RECORD",
+        "NAM"
       ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "OFFEN",
+      "claim": "Brilliant Star of Zanzibar, Second Class",
+      "decision": "Rests on the Army List of 1905 as cited in the printed account. The Gazette entry for conferral and permission to wear has not been examined; no award date is given."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Croix de Guerre",
+      "decision": "The Edinburgh Gazette of 10 February 1922 names Melliss. Underlying award date, device and the wording of the permission remain open; the year shown is that of the Gazette."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Royal Humane Society bronze medal",
+      "decision": "Confirmed by the National Army Museum and the printed account; the Society's roll and the date of award have not been checked."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Campaign medals and clasps",
+      "decision": "Given as the Army List of 1905 records them, through the printed account. Medal rolls for individual entitlement have not been examined."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Presentation of the Victoria Cross",
+      "decision": "A memorial database names Edward VII at St James's Palace on 12 October 1901; no contemporary record has been examined, so the page does not state it."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -104,27 +227,38 @@
   },
   "locales": {
     "en": {
-      "tagline": "The hunter, the decorated officer and the prisoners of Kut.",
-      "intro": "Melliss’s early book belongs to the dangerous pursuit of big game. His later papers tell a different story of danger: command in Mesopotamia, the surrender at Kut and efforts to keep fellow prisoners alive.",
-      "orientation": "The sporting author and the senior officer must be kept in chronological proportion. Lion-Hunting in Somali-land appeared in 1895, before the Victoria Cross and the commands of the First World War.",
+      "tagline": "From the thorn country behind Berbera to the surrender at Kut.",
+      "intro": "In 1895 Captain Melliss of the 9th Bombay Infantry published the record of a lion hunt behind Berbera. Five years later he led a charge into the bush at Obassa and won the Victoria Cross; in 1916 he went into captivity with the garrison of Kut.",
+      "orientation": "Charles John Melliss was born at Mhow in 1862 into the military world of British India, the son of a general of the Indian Army. He was commissioned in 1882, passed into the Indian Army two years later, and was a captain of the 9th Bombay Infantry when Lion-Hunting in Somali-land appeared. Service followed in East Africa, on the North-West Frontier and with the West African Frontier Force in Ashanti, where the charge at Obassa on 30 September 1900 brought him the Victoria Cross.",
       "origin": [
-        "Born at Mhow into a military family, he received a commission in 1882 and transferred to the Indian Army in 1884."
+        "Born at Mhow, in Central India, on 12 September 1862, the son of Lieutenant-General George Melliss of the Indian Army, he was educated at Wellington College and the Royal Military College, Sandhurst. He was commissioned into the East Yorkshire Regiment in 1882 and transferred to the Indian Army in 1884."
       ],
       "career": [
-        "African and Indian service included the Ashanti War of 1900, in which his actions won the Victoria Cross. At Kut he shared defeat and captivity; his letters record determined efforts to secure help for the men who suffered most."
+        "Active service began almost as soon as the book appeared: East Africa in the M’wele operations of 1895–96, then the Kurram Valley and Tirah on the North-West Frontier in 1897–98. In May 1899, outward bound in the steamer Sokoto, he went overboard off Cape Coast Castle after a member of the crew in water known for its sharks and received the bronze medal of the Royal Humane Society.",
+        "With the 1st Battalion of the West African Frontier Force in the Ashanti campaign of 1900 he saw the enemy gather to stand in the bush at Obassa, collected the men at hand and led them into the cover. He ran one opponent through with his sword and was shot through the foot by another. The Gazette of 15 January 1901 published the Victoria Cross for that charge and for three earlier occasions in the same campaign.",
+        "A lion mauled him in East Africa in 1903 and nearly cost him an arm. He commanded the 53rd Sikhs (Frontier Force) from 1906 to 1910, was made a Companion of the Bath in 1911 while commanding the Fyzabad Brigade and became major-general in 1912.",
+        "In October 1914 he sailed from Karachi with the 30th Indian Infantry Brigade, which served on the Suez Canal before going on to Mesopotamia. In April 1915 he commanded at Shaiba, where the Ottoman attack on the Basra position was driven off. He fought on the Euphrates at Nasiriyah and at Ctesiphon, was appointed K.C.B. in October 1915 and shared the siege of Kut until the surrender of 29 April 1916.",
+        "In captivity he found sick and starving soldiers left behind by the prisoner columns and did what his rank still allowed for them. In August 1917 he wrote that it was beyond his powers of description to convey what he had seen. The K.C.M.G. followed in August 1918 for services in Mesopotamia. He retired in 1920, was Colonel of the 53rd Sikhs from 1921 to 1934 and died at Camberley, Surrey, on 6 June 1936."
       ],
       "literature": [
-        "Lion-Hunting in Somali-land preserves the outlook and practice of a nineteenth-century military sportsman. The diaries and letters of the later campaigns belong to another phase of the same life."
+        "Lion-Hunting in Somali-land is the book of a young officer: a caravan of camels and Somali men from Berbera towards the Haud, the reading of spoor and the night watches in a zareba, and in the closing chapters the pursuit of the wart-hog with the spear. It was written before the Victoria Cross and the commands of the Great War and is to be read in that order.",
+        "His diaries and letters from Mesopotamia and captivity, held by the National Army Museum, belong to another phase of the same life."
       ],
-      "legacy": "Melliss’s reputation cannot be contained by the hunting narrative. The care he attempted for prisoners after Kut gives his military biography a weight quite different from sporting adventure.",
-      "bridge": "The early book opens one part of a life whose later service and captivity cast a longer historical shadow.",
-      "description": "Melliss’s early book belongs to the dangerous pursuit of big game. His later papers tell a different story of danger: command in Mesopotamia, the surrender at Kut and efforts to keep fellow prisoners alive.",
+      "legacy": "The hunting book and the later record should be kept in their chronological proportion. Melliss is remembered for Obassa and for Kut; the care he tried to give to the prisoners after the surrender belongs to his military reputation as much as the Victoria Cross.",
+      "bridge": "The complete text of 1895 with Cecil Aldin’s drawings and the author’s photographs, his record of service and honours, a register of the caravan and a glossary.",
+      "description": "In 1895 Captain Melliss of the 9th Bombay Infantry published the record of a lion hunt behind Berbera. Five years later he led a charge into the bush at Obassa and won the Victoria Cross; in 1916 he went into captivity with the garrison of Kut.",
       "claimRefs": [
         "F01",
         "F02",
         "F03",
         "F04",
-        "F05"
+        "F05",
+        "F06",
+        "F07",
+        "F08"
+      ],
+      "overview": [
+        "He commanded the 53rd Sikhs (Frontier Force) until 1910, became major-general in 1912 and in 1914 took the 30th Indian Infantry Brigade to Egypt and Mesopotamia. He held Shaiba against the Ottoman attack of April 1915, fought at Nasiriyah and Ctesiphon and went into captivity after Kut. On the road north he tried to help the British and Indian soldiers left behind by the prisoner columns; the K.C.M.G. was conferred while he was still a prisoner. He retired in 1920 and was Colonel of the 53rd Sikhs until 1934."
       ]
     }
   },
@@ -156,78 +290,208 @@
     ]
   },
   "rank": {
-    "en": "Major-General Sir Charles John Melliss · VC, KCB, KCMG"
+    "en": "Major-General Sir Charles John Melliss · V.C., K.C.B., K.C.M.G."
   },
   "timeline": [
     [
+      "12 September 1862",
+      "Born at Mhow, Central India",
+      ""
+    ],
+    [
       "1882",
-      "Army commission",
+      "Commissioned into the East Yorkshire Regiment",
+      ""
+    ],
+    [
+      "1884",
+      "Transferred to the Indian Army",
       ""
     ],
     [
       "1895",
-      "Lion-Hunting in Somali-land",
+      "Lion-Hunting in Somali-land; captain, 9th Bombay Infantry",
       ""
     ],
     [
-      "1900",
-      "Ashanti War; action leading to the Victoria Cross",
+      "1895–96",
+      "East Africa, M’wele operations",
       ""
     ],
     [
-      "1916",
-      "Surrender at Kut and captivity",
+      "1897–98",
+      "North-West Frontier, Kurram Valley and Tirah",
       ""
     ],
     [
-      "1918",
-      "Repatriation after captivity",
+      "May 1899",
+      "Rescue from the sea off Cape Coast Castle; Royal Humane Society bronze medal",
+      ""
+    ],
+    [
+      "30 September 1900",
+      "Charge at Obassa, Ashanti",
+      ""
+    ],
+    [
+      "15 January 1901",
+      "Victoria Cross gazetted",
+      ""
+    ],
+    [
+      "1903",
+      "Mauled by a lion in East Africa",
+      ""
+    ],
+    [
+      "1906–10",
+      "Commands the 53rd Sikhs (Frontier Force)",
+      ""
+    ],
+    [
+      "1911",
+      "Companion of the Bath; Fyzabad Brigade",
+      ""
+    ],
+    [
+      "1912",
+      "Major-general",
+      ""
+    ],
+    [
+      "April 1915",
+      "Shaiba",
+      ""
+    ],
+    [
+      "29 October 1915",
+      "Knight Commander of the Bath",
+      ""
+    ],
+    [
+      "29 April 1916",
+      "Surrender at Kut; captivity",
+      ""
+    ],
+    [
+      "23 August 1918",
+      "Knight Commander of St Michael and St George",
       ""
     ],
     [
       "1920",
-      "Retirement",
+      "Retires from the Indian Army",
+      ""
+    ],
+    [
+      "1921–34",
+      "Colonel of the 53rd Sikhs (Frontier Force)",
+      ""
+    ],
+    [
+      "6 June 1936",
+      "Dies at Camberley, Surrey",
       ""
     ]
   ],
   "honours": [
     {
-      "name": "Victoria Cross (VC)",
+      "name": "Victoria Cross (V.C.)",
       "year": "1901",
       "category": "decoration",
       "sources": [
         "VC"
       ],
       "note": {
-        "en": "Gazetted 15 January 1901 for action at Obassa on 30 September 1900 and other gallantry in the Ashanti campaign."
+        "en": "Gazetted 15 January 1901 for the charge at Obassa on 30 September 1900 and for gallantry on three previous occasions in the Ashanti campaign."
       }
     },
     {
-      "name": "Order of the Bath · Knight Commander (KCB)",
-      "year": "attested 1916",
+      "name": "Order of the Bath · Knight Commander (K.C.B.), Military Division",
+      "year": "1915",
       "category": "order",
       "sources": [
-        "GAZETTE"
+        "KCB"
       ],
       "note": {
-        "en": "Contemporary Gazette style establishes possession by this date; no award date inferred."
+        "en": "Dated 29 October 1915, for distinguished service in the field in Mesopotamia."
       }
     },
     {
-      "name": "Order of St Michael and St George · Knight Commander (KCMG)",
-      "year": "after 1918",
+      "name": "Order of St Michael and St George · Knight Commander (K.C.M.G.)",
+      "year": "1918",
       "category": "order",
       "sources": [
-        "NAM"
-      ]
+        "KCMG"
+      ],
+      "note": {
+        "en": "23 August 1918, for services in connection with military operations in Mesopotamia; conferred while he was a prisoner."
+      }
+    },
+    {
+      "name": "Order of the Bath · Companion (C.B.), Military Division",
+      "year": "1911",
+      "category": "order",
+      "sources": [
+        "CB"
+      ],
+      "note": {
+        "en": "London Gazette, 19 June 1911, while commanding the Fyzabad Brigade. The year is that of the notice."
+      }
+    },
+    {
+      "name": "Croix de Guerre (France)",
+      "year": "1922",
+      "category": "decoration",
+      "sources": [
+        "CROIX"
+      ],
+      "note": {
+        "en": "Named in the Edinburgh Gazette of 10 February 1922; the year is that of the Gazette, the date of award and the device remain open."
+      }
+    },
+    {
+      "name": "Order of the Brilliant Star of Zanzibar · Second Class",
+      "year": "1895–96",
+      "category": "order",
+      "sources": [
+        "RECORD"
+      ],
+      "note": {
+        "en": "For East Africa, 1895–96, as recorded in the Army List of 1905. The conferral in the Gazette has not been examined."
+      }
+    },
+    {
+      "name": "Royal Humane Society · Bronze Medal",
+      "year": "1899",
+      "category": "decoration",
+      "sources": [
+        "NAM",
+        "RECORD"
+      ],
+      "note": {
+        "en": "For the rescue from the sea off Cape Coast Castle, steamer Sokoto, May 1899. The Society's roll has not been examined."
+      }
+    },
+    {
+      "name": "Campaign medals",
+      "year": "1895–1904",
+      "category": "decoration",
+      "sources": [
+        "RECORD"
+      ],
+      "note": {
+        "en": "As recorded in the Army List of 1905: East Africa 1895–96; India Medal with clasps for the North-West Frontier 1897–98 and Tirah; Ashanti Medal with clasp; the medal with clasp for Somaliland."
+      }
     }
   ],
   "connections": [
     {
       "slug": "charles-vere-ferrers-townshend",
       "kind": "shared-campaign",
-      "en": "The siege of Kut and sharply contrasting experiences of captivity.",
+      "en": "Townshend commanded at Kut, where Melliss served under him until the surrender; Townshend's despatch commended Melliss for the defence. Their captivity took very different courses.",
       "sources": [
+        "KUT",
         "NAM"
       ]
     }
