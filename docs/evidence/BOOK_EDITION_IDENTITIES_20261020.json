@@ -5656,23 +5656,23 @@
       "title": "The Life of Sir Stanley Maude",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg",
+      "front_url": "/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg",
-          "sha256": "a4faf26bfb3df23fa55365a9b6f166bb225d7822135da9a168466f6001fd72d0"
+          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+          "sha256": "2fcd0ac280e4d6534d8a101bda5827f4389c59961e0063b0e7c66e052094c8cb"
         },
         {
-          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261017.webp",
-          "sha256": "9ea20bf52095f37a89bf67e43b802d13f51f6c6fa6037a2824bbc200599ba1af"
+          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
+          "sha256": "cd783e572a354a4aa0389ea4b6a5d550831d90a06705a842f8554ce3d00bc337"
         },
         {
-          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg",
-          "sha256": "f08a8486fe3582423eac401550922e84c17d9453232ae5d4b4eb5d3becbe9019"
+          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+          "sha256": "e5effab0bc77480b8276545b242152ba4bd6eb20f10ca48399c8c2bbef54c9d5"
         },
         {
-          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261017.webp",
-          "sha256": "c5c4c3436211836932e6e92bac2ce4d288883daf940f8ac2bafa4fb97be84c5f"
+          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
+          "sha256": "67cb1896d24453cd3fc50d86bf2b52ecfdeb60a7c6908fffdc2f0fe7e46937e4"
         }
       ],
       "formats": [

@@ -30,6 +30,13 @@
       "url": "https://www.thegazette.co.uk/London/issue/30891/supplement/10645/data.pdf",
       "checked": "2026-10-20",
       "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "CAMBIB",
+      "title": "Daniel Whittingham · Charles E. Callwell and the British Way in Warfare, bibliography",
+      "url": "https://www.cambridge.org/core/books/abs/charles-e-callwell-and-the-british-way-in-warfare/bibliography/DC9407F696CD71ECA47F2E9026D23EDD",
+      "checked": "2026-11-16",
+      "note": "Bibliography of the study, including the Gazette notice of his temporary rank of major-general; retrieved 16 November 2026"
     }
   ],
   "facts": [
@@ -76,6 +83,34 @@
         "STUDY",
         "GAZETTE"
       ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Commissioned into the Royal Artillery in 1878; served in the Intelligence Branch of the War Office from 1887 to 1892.",
+      "sources": [
+        "STUDY"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Retired as a colonel in 1909 and recalled in August 1914 with the temporary rank of major-general.",
+      "sources": [
+        "STUDY",
+        "CAMBIB"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Published The Life of Sir Stanley Maude in 1920 and Field-Marshal Sir Henry Wilson: His Life and Diaries in 1927.",
+      "sources": [
+        "STUDY"
+      ]
     }
   ],
   "uncertainties": [],
@@ -98,27 +133,35 @@
   },
   "locales": {
     "en": {
-      "tagline": "Colonial campaigning made into a body of military argument.",
-      "intro": "Callwell asked what happened when a regular army fought opponents whose organisation, aims and methods differed from its own. Small Wars gathers the campaigns of empire into an attempt at practical theory.",
-      "orientation": "The book’s classifications belong to an imperial officer’s world. Its operational insight and its assumptions about conquest have to be read in the same passage.",
+      "tagline": "The theorist of small wars who sat at the centre of a great one.",
+      "intro": "Charles Callwell made his name not in the field but in the files. From the Intelligence Branch he read his way through a century of colonial campaigns and in 1896 published Small Wars, the British Army’s handbook of expeditionary war.",
+      "orientation": "Born in London in 1859, Callwell went from Haileybury and Woolwich into the Royal Artillery in 1878. He served in the Second Afghan War and in Natal, and from 1887 to 1892 worked in the Intelligence Branch of the War Office. Small Wars set out how a regular force fights an enemy who will not stand in line: by supply, by movement, by seizing what the adversary cannot afford to lose.",
       "origin": [
-        "Artillery and staff service provided the professional setting of his writing. Experience and the comparative study of campaigns both fed the analysis."
+        "The Royal Artillery took him to India and into the Second Afghan War of 1880; in 1881 he was in Natal at the close of the first war with the Transvaal Boers. The Intelligence Branch then gave him the comparative material from which his theory grew, from the Cape frontier to the Indian borderlands."
       ],
       "career": [
-        "His career extended into the First World War as Director of Military Operations. The contrast between colonial campaigns and industrial war gives the earlier work an additional historical perspective."
+        "Small Wars was revised in 1899 and 1906; Military Operations and Maritime Preponderance followed in 1905, an inquiry into what command of the sea gives and denies to an army ashore. He served through the South African War and retired in 1909 without a general’s rank.",
+        "In August 1914 he returned to the War Office as Director of Military Operations and Intelligence. There he weighed the claims of several theatres against the means of a single army, and in 1916 he travelled to Russia on a mission concerned with munitions."
       ],
       "literature": [
-        "Small Wars proceeds through examples rather than a single narrative. Supply, terrain, intelligence, movement and the enemy’s purposes repeatedly unsettle an apparently simple balance of forces."
+        "After 1918 he wrote The Dardanelles, the sardonic Experiences of a Dug-Out, The Life of Sir Stanley Maude, Stray Recollections and, in 1927, the life and diaries of Field-Marshal Sir Henry Wilson, whose candour caused a public storm. The Maude biography rests on the general’s diaries and letters and on the written estimates of officers who served with him; its admiration is open, and so is its criticism."
       ],
-      "legacy": "Callwell remains a revealing military thinker because he treated difference as an operational problem. His work also records the coercive ends to which that professional intelligence was directed.",
-      "bridge": "The edition restores the argument in its full historical setting, beyond the isolated maxims for which it is often remembered.",
-      "description": "Callwell asked what happened when a regular army fought opponents whose organisation, aims and methods differed from its own. Small Wars gathers the campaigns of empire into an attempt at practical theory.",
+      "legacy": "Callwell remains a revealing military thinker because he treated difference as an operational problem. His work also records the coercive ends to which that professional intelligence was directed. As a biographer he wrote with the knowledge of the War Office side of the campaigns he described.",
+      "bridge": "The Life of Sir Stanley Maude follows Maude from the Coldstream Guards to Baghdad, written by the officer who had directed military operations at the War Office.",
+      "description": "Charles Edward Callwell, artillery and intelligence officer, author of Small Wars, Director of Military Operations in 1914–15 and biographer of Sir Stanley Maude.",
       "claimRefs": [
         "F01",
         "F02",
         "F03",
-        "F04"
-      ]
+        "F04",
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "overview": [
+        "He left the Army as a colonel in 1909. The war of 1914 recalled him as Director of Military Operations and Intelligence, with the temporary rank of major-general. For eighteen months the demands of France, the Dardanelles, Salonika and Mesopotamia met at his desk. After the war he wrote quickly and from the inside, among other books a life of Sir Stanley Maude, the general who took Baghdad."
+      ],
+      "careerHeading": "From the Intelligence Branch to the War Office in war"
     }
   },
   "image": {
@@ -153,19 +196,52 @@
   },
   "timeline": [
     [
+      "2 April 1859",
+      "Born in London"
+    ],
+    [
+      "1878",
+      "Commission in the Royal Artillery"
+    ],
+    [
+      "1880",
+      "Second Afghan War"
+    ],
+    [
+      "1887–1892",
+      "Intelligence Branch of the War Office"
+    ],
+    [
       "1896",
-      "First edition of Small Wars",
-      ""
+      "First edition of Small Wars"
     ],
     [
-      "1906",
-      "Third edition of Small Wars",
-      ""
+      "1905",
+      "Military Operations and Maritime Preponderance"
     ],
     [
-      "1914",
-      "Director of Military Operations",
-      ""
+      "1909",
+      "Retires as a colonel"
+    ],
+    [
+      "August 1914",
+      "Director of Military Operations and Intelligence, temporary major-general"
+    ],
+    [
+      "1916",
+      "Mission to Russia on munitions"
+    ],
+    [
+      "1920",
+      "The Life of Sir Stanley Maude"
+    ],
+    [
+      "1927",
+      "Field-Marshal Sir Henry Wilson: His Life and Diaries"
+    ],
+    [
+      "16 May 1928",
+      "Dies in London"
     ]
   ],
   "connections": [
@@ -196,7 +272,10 @@
       "category": "order",
       "sources": [
         "GAZETTE"
-      ]
+      ],
+      "note": {
+        "en": "Second Class of the Serbian order, notified in the London Gazette in 1918."
+      }
     }
   ]
 }
