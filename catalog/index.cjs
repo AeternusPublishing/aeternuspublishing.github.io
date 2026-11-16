@@ -192,8 +192,8 @@ const cjm001 = require('./cjm001-en-20261018.json');
 authorsEn.push(cjm001.author);
 englishBooks.push(cjm001.book);
 
-// BP_009: add the forthcoming book to the existing QR author page.
-englishBooks.push(require('./bp009-en-20261019.cjs'));
+// BP_009 V8 Relaunch 16.11.: Matabele Campaign EN, KDP hardcover and Ingram LIVE; paperback and Kindle submitted, links await LIVE.
+englishBooks.push({ ...require('./bp009-en-20261116.json'), seriesName: greenRef.seriesName, seriesColor: greenRef.seriesColor });
 authorsEn.find(author => author.slug === 'robert-baden-powell').brandOnly = true;
 Object.assign(authorsEn.find(author => author.slug === 'robert-baden-powell'), {
   tagline: 'British general and founder of the Boy Scouts.',
