@@ -2571,23 +2571,23 @@
       "title": "Sale’s Brigade in Afghanistan (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-grg001-en-ingram-v6-20261012.jpg",
+      "front_url": "/assets/images/cover-grg001-en-ingram-v18-20261116.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-grg001-en-ingram-v6-20261012.jpg",
-          "sha256": "80bc5471fc447b05082476b5d88fcc6554965ce6d2525d1a3264a236ddb97aaa"
+          "path": "src/assets/images/cover-grg001-en-ingram-v18-20261116.jpg",
+          "sha256": "2fe50894828a0d1cd56dd696dcb2af4e748ad5db9293cd8a63e39391e5020c6d"
         },
         {
-          "path": "src/assets/images/cover-grg001-en-ingram-v6-20261012.webp",
-          "sha256": "78842b45f690237f5ed3664e0f3af454f16c5a297a3b59ef0786b71901254569"
+          "path": "src/assets/images/cover-grg001-en-ingram-v18-20261116.webp",
+          "sha256": "5a4200d8d2605b147c750acb0bcb5c99bdff545bd059a8efda1e3981a8a038ff"
         },
         {
-          "path": "src/assets/images/backcover-grg001-en-ingram-v6-20261012.jpg",
-          "sha256": "083735f7b21591666f82915631161e267df8ac5b7ccdbc3f2f2da53af71aae06"
+          "path": "src/assets/images/backcover-grg001-en-ingram-v18-20261116.jpg",
+          "sha256": "631c734e02991e5944c66f1e858817f122a6f858bf7b5aec6d1fba302ee7684d"
         },
         {
-          "path": "src/assets/images/backcover-grg001-en-ingram-v6-20261012.webp",
-          "sha256": "1484d91cf4636b22709cde5a906bec19a0f3fe89f6fc52706e8d50968c0de775"
+          "path": "src/assets/images/backcover-grg001-en-ingram-v18-20261116.webp",
+          "sha256": "cd728b4434c9545f7c3ac4eded6f5d14951a39391601f5cea72e35db07d21e61"
         }
       ],
       "formats": [
@@ -2621,6 +2621,23 @@
               "titel": "Sale’s Brigade in Afghanistan (Illustrated)",
               "isbn13": "978-3-67605-167-5",
               "isbn10": "367605167X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "isbn13": "9783676051682",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "GRG_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Sale’s Brigade in Afghanistan (Illustrated)",
+              "isbn13": "978-3-67605-168-2",
+              "isbn10": "3676051682",
               "asin": null
             }
           ]
