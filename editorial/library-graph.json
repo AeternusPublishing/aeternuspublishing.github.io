@@ -2613,6 +2613,25 @@
       }
     },
     {
+      "id": "book:en-robert-baden-powell-the-downfall-of-prempeh",
+      "type": "book",
+      "label": {
+        "de": "The Downfall of Prempeh (Illustrated)",
+        "en": "The Downfall of Prempeh (Illustrated)"
+      },
+      "author": "Robert Baden-Powell",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-downfall-of-prempeh/",
+        "en": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-downfall-of-prempeh/"
+      },
+      "summary": {
+        "de": "",
+        "en": "There are campaigns remembered for the violence of their battles."
+      }
+    },
+    {
       "id": "book:en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
       "type": "book",
       "label": {
@@ -4157,6 +4176,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-robert-baden-powell-the-downfall-of-prempeh",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
       "target": "series:anthrazit",
       "type": "series"
@@ -5085,6 +5109,11 @@
     {
       "source": "book:en-richard-jefferies-the-gamekeeper-at-home",
       "target": "author:Richard Jefferies",
+      "type": "author"
+    },
+    {
+      "source": "book:en-robert-baden-powell-the-downfall-of-prempeh",
+      "target": "author:Robert Baden-Powell",
       "type": "author"
     },
     {

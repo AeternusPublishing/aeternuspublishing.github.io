@@ -7991,6 +7991,124 @@
         "sha256": "fddb1f7ed272385370cbb3e1964c4a6dfc0cc4f74b1ac32dfe60495034e8e7ea"
       },
       "primary_isbn13": "9783676052313"
+    },
+    {
+      "site": "en",
+      "id": "en-robert-baden-powell-the-downfall-of-prempeh",
+      "url": "/books/en-robert-baden-powell-the-downfall-of-prempeh/",
+      "title": "The Downfall of Prempeh (Illustrated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+          "sha256": "9526e41ed1122d8638faf0bc50b115cdce4ce62e68e100feedeffe67490c1219"
+        },
+        {
+          "path": "src/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116.webp",
+          "sha256": "7ff8067ca90477764f8aed1f648f995a0d6d08ed1ed1a622bfb69606fbf40420"
+        },
+        {
+          "path": "src/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+          "sha256": "7a658996b1345e00eaf26af4689f1b8b8fff4beae6e827d7cd3d37ea66a98356"
+        },
+        {
+          "path": "src/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116.webp",
+          "sha256": "d94175273f6aff711d96b1be655783df0065041d4fdac40898967eaa0b78dc09"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn13": "9783676051071",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-107-1",
+              "isbn10": "3676051076",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676051071",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-107-1",
+              "isbn10": "3676051076",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · Amazon",
+          "isbn13": "9783676051088",
+          "productform": "hardcover",
+          "tokens": [
+            "3676051084"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-108-8",
+              "isbn10": "3676051084",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676051088",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-108-8",
+              "isbn10": "3676051084",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676051064",
+          "productform": "ebook",
+          "tokens": [
+            "B0HLPHV413"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-106-4",
+              "isbn10": "3676051068",
+              "asin": "B0HLPHV413"
+            }
+          ]
+        }
+      ]
     }
   ],
   "additional_pages": [

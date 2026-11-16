@@ -1,0 +1,238 @@
+{
+  "id": "en-robert-baden-powell-the-downfall-of-prempeh",
+  "work_id": "BP_005",
+  "language": "en",
+  "title": "The Downfall of Prempeh (Illustrated)",
+  "subtitle": "A Diary of Life with the Native Levy in Ashanti, 1895–96",
+  "author": "robert-baden-powell",
+  "authorName": "Robert Baden-Powell",
+  "contributors": [],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "The Downfall of Prempeh: A Diary of Life with the Native Levy in Ashanti, 1895–96",
+  "original_publication_year": 1896,
+  "isbn": {
+    "paperback": "978-3-67605-107-1",
+    "hardcover": "978-3-67605-108-8",
+    "ebook": "978-3-67605-106-4"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-107-1",
+      "platform": "KDP",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $14.99",
+      "links": [],
+      "pages": 194
+    },
+    "hardcover": {
+      "label": "Hardcover · Amazon",
+      "isbn": "978-3-67605-108-8",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $24.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676051084"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/3676051084"
+        },
+        {
+          "label": "Germany",
+          "url": "https://www.amazon.de/dp/3676051084"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/3676051084"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/3676051084"
+        }
+      ],
+      "pages": 194
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-106-4",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $9.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/B0HLPHV413"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/B0HLPHV413"
+        },
+        {
+          "label": "Germany",
+          "url": "https://www.amazon.de/dp/B0HLPHV413"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/B0HLPHV413"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/B0HLPHV413"
+        }
+      ]
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · Amazon",
+      "isbn": "978-3-67605-107-1",
+      "platform": "KDP",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $14.99",
+      "links": [],
+      "pages": 194
+    },
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "978-3-67605-107-1",
+      "platform": "IngramSpark",
+      "status": "LIVE",
+      "links": [],
+      "pages": 196
+    },
+    {
+      "label": "Hardcover · Amazon",
+      "isbn": "978-3-67605-108-8",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $24.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676051084"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/3676051084"
+        },
+        {
+          "label": "Germany",
+          "url": "https://www.amazon.de/dp/3676051084"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/3676051084"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/3676051084"
+        }
+      ],
+      "pages": 194
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "978-3-67605-108-8",
+      "platform": "IngramSpark",
+      "status": "LIVE",
+      "links": [],
+      "pages": 196
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "978-3-67605-106-4",
+      "platform": "KDP",
+      "status": "LIVE",
+      "price_display": "US list price $9.99",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/B0HLPHV413"
+        },
+        {
+          "label": "United Kingdom",
+          "url": "https://www.amazon.co.uk/dp/B0HLPHV413"
+        },
+        {
+          "label": "Germany",
+          "url": "https://www.amazon.de/dp/B0HLPHV413"
+        },
+        {
+          "label": "Canada",
+          "url": "https://www.amazon.ca/dp/B0HLPHV413"
+        },
+        {
+          "label": "Australia",
+          "url": "https://www.amazon.com.au/dp/B0HLPHV413"
+        }
+      ]
+    }
+  ],
+  "description": {
+    "short": "There are campaigns remembered for the violence of their battles.",
+    "long": "There are campaigns remembered for the violence of their battles.\n\nThe Ashanti Expedition of 1895–96 belongs to another order.\n\nBefore the British column could reach Kumasi, a road had to be made through the forest, bridges thrown across streams, supply stations established, thousands of carriers organised and an advance protected through country in which climate and disease could destroy an expedition more certainly than battle.\n\nMajor Robert Baden-Powell of the 13th Hussars was sent to the Gold Coast to command the Native Levy and pioneer force supporting Sir Francis Scott’s advance. Scouts, Houssas, local levies, British regulars, West Indian soldiers, engineers and carriers together formed the moving structure by which the expedition penetrated the Ashanti interior.\n\nKumasi was eventually occupied without the great battle many had expected. King Prempeh submitted and was removed from power. But the apparent quietness of the conclusion should not obscure what had preceded it: weeks of labour through dense forest, tropical sickness, uncertain roads and a military problem in which organisation itself became the decisive weapon.\n\nBaden-Powell recorded that world while still close to it.\n\nHere are the scouts, the roads, the camps, the levies, the carriers, the jungle and the slow advance of a force whose greatest victory was that it arrived where it had been ordered to go.\n\nNot the thunder of conquest, but the measured arrival of power."
+  },
+  "blurb": [
+    "There are campaigns remembered for the violence of their battles.",
+    "The Ashanti Expedition of 1895–96 belongs to another order.",
+    "Before the British column could reach Kumasi, a road had to be made through the forest, bridges thrown across streams, supply stations established, thousands of carriers organised and an advance protected through country in which climate and disease could destroy an expedition more certainly than battle.",
+    "Major Robert Baden-Powell of the 13th Hussars was sent to the Gold Coast to command the Native Levy and pioneer force supporting Sir Francis Scott’s advance. Scouts, Houssas, local levies, British regulars, West Indian soldiers, engineers and carriers together formed the moving structure by which the expedition penetrated the Ashanti interior.",
+    "Kumasi was eventually occupied without the great battle many had expected. King Prempeh submitted and was removed from power. But the apparent quietness of the conclusion should not obscure what had preceded it: weeks of labour through dense forest, tropical sickness, uncertain roads and a military problem in which organisation itself became the decisive weapon.",
+    "Baden-Powell recorded that world while still close to it.",
+    "Here are the scouts, the roads, the camps, the levies, the carriers, the jungle and the slow advance of a force whose greatest victory was that it arrived where it had been ordered to go."
+  ],
+  "features": [
+    "Complete text of the Methuen first edition of 1896, checked against the page",
+    "All 22 plates of the first edition, drawn by the author, and the march diagram",
+    "Sir George Baden-Powell’s chapter “Policy and Wealth in Ashanti, 1895”",
+    "Preface, afterword, author profile with orders and decorations",
+    "Order of battle, dramatis personae, note on the text and glossary"
+  ],
+  "publisherDescriptionHTML": "<ul><li>Complete text of the Methuen first edition of 1896, checked against the page</li><li>All 22 plates of the first edition, drawn by the author, and the march diagram</li><li>Sir George Baden-Powell’s chapter “Policy and Wealth in Ashanti, 1895”</li><li>Preface, afterword, author profile with orders and decorations</li><li>Order of battle, dramatis personae, note on the text and glossary</li></ul><p>There are campaigns remembered for the violence of their battles.</p><p>The Ashanti Expedition of 1895–96 belongs to another order.</p><p>Before the British column could reach Kumasi, a road had to be made through the forest, bridges thrown across streams, supply stations established, thousands of carriers organised and an advance protected through country in which climate and disease could destroy an expedition more certainly than battle.</p><p>Major Robert Baden-Powell of the 13th Hussars was sent to the Gold Coast to command the Native Levy and pioneer force supporting Sir Francis Scott’s advance. Scouts, Houssas, local levies, British regulars, West Indian soldiers, engineers and carriers together formed the moving structure by which the expedition penetrated the Ashanti interior.</p><p>Kumasi was eventually occupied without the great battle many had expected. King Prempeh submitted and was removed from power. But the apparent quietness of the conclusion should not obscure what had preceded it: weeks of labour through dense forest, tropical sickness, uncertain roads and a military problem in which organisation itself became the decisive weapon.</p><p>Baden-Powell recorded that world while still close to it.</p><p>Here are the scouts, the roads, the camps, the levies, the carriers, the jungle and the slow advance of a force whose greatest victory was that it arrived where it had been ordered to go.</p><p><strong>Not the thunder of conquest, but the measured arrival of power.</strong></p><p>First published: Methuen &amp; Co., London, 1896</p>",
+  "cover": "/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+  "coverWebp": "/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116.webp",
+  "backcover": "/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+  "backcoverWebp": "/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116.webp",
+  "first_published": "Methuen & Co., London, 1896",
+  "publication_date": "2026-10-23",
+  "availability": "AVAILABLE",
+  "status_line": "GREEN SERIES · AETERNUS",
+  "pricing": {
+    "USD": {
+      "paperback": 14.99,
+      "hardcover": 24.99,
+      "ebook": 9.99
+    }
+  },
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "own_shop": "NOT_CONFIGURED",
+    "amazon": "LIVE",
+    "ingram": "LIVE"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-robert-baden-powell-the-downfall-of-prempeh/",
+  "authorUrl": "/authors/robert-baden-powell/",
+  "brandOnly": true,
+  "cardStatus": "Available now",
+  "legacy": {
+    "modal": {
+      "metadata": "GREEN SERIES · AETERNUS",
+      "sample": "There are campaigns remembered for the violence of their battles."
+    }
+  },
+  "provenance": "BP_005/VERTRIEB_KDP_INGRAM_20260929/UPLOADPAKET_V9_EN_RELAUNCH_V21_20261116 (METADATEN, Freigabe decision_bp_005_en_freigabe_uploadpaket_v9_en_relaunch_v21_20261116_ec0951f06017)",
+  "cover_sha256": "fde88aee8e01ddc014cfffefdab1fb28adb3b655729b558633851e73757b5b63",
+  "upload_package": "UPLOADPAKET_V9_EN_RELAUNCH_V21_20261116"
+}

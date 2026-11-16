@@ -248,6 +248,8 @@ englishBooks.push(require('./cbb002-en-20261104.json'));
 englishBooks.push({ ...require('./rje003-en-20261103.json'), seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
 // RJE_002 V2: Gamekeeper KDP paperback and Kindle observed LIVE 08.11.; Ingram submitted, links await LIVE.
 englishBooks.push({ ...require('./rje002-en-20261104.json'), seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor });
+// BP_005 V9 Relaunch 16.11.: Downfall of Prempeh EN, KDP hardcover and Kindle observed LIVE; paperback links await LIVE.
+englishBooks.push({ ...require('./bp005-en-20261116.json'), seriesName: greenRef.seriesName, seriesColor: greenRef.seriesColor });
 
 authorsEn.push(...require('./wilderness-authors.cjs'));
 authorsEn.push(require('./cd001-author-r9-20261026.cjs').en);
