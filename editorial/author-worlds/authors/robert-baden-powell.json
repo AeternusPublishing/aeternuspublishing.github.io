@@ -37,6 +37,90 @@
       "url": "https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scouting%20Heritage.pdf",
       "checked": "2026-10-20",
       "note": "Official institutional history, Baden-Powell, Seton, Beard and Burnham, pp. 8–12."
+    },
+    {
+      "id": "MATABELE",
+      "title": "Baden-Powell · The Matabele Campaign, 1896",
+      "url": "https://www.gutenberg.org/cache/epub/47158/pg47158-images.html",
+      "checked": "2026-11-16",
+      "note": "1897 title page, preface and chapters on reconnaissance. A serving British officer’s narrative."
+    },
+    {
+      "id": "BOYS",
+      "title": "Baden-Powell · Scouting for Boys (1908)",
+      "url": "https://www.gutenberg.org/cache/epub/65993/pg65993-images.html",
+      "checked": "2026-11-16",
+      "note": "Original part-issue text, especially Camp Fire Yarns on observation, tracking and patrols."
+    },
+    {
+      "id": "BATH",
+      "title": "The Gazette · Order of the Bath, South African War appointments",
+      "url": "https://www.thegazette.co.uk/all-notices/content/104383",
+      "checked": "2026-11-16",
+      "note": "South African War section identifies Baden-Powell’s CB with Mafeking. For the KCB year see Kiernan."
+    },
+    {
+      "id": "CHRIST",
+      "title": "London Gazette · Portuguese Order of Christ, p. 12415",
+      "url": "https://www.thegazette.co.uk/London/issue/31586/supplement/12415/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Notice of 7 October 1919, Portugal, Order of Christ, Grand Officer. Also styles Baden-Powell KCB and KCVO."
+    },
+    {
+      "id": "LEGION",
+      "title": "London Gazette · Légion d’honneur, p. 2810",
+      "url": "https://www.thegazette.co.uk/London/issue/32815/page/2810/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Whitehall notice dated 14 April, published 17 April 1923. Royal licence to wear the already conferred insignia of Commander. Styles him GCVO and Baronet."
+    },
+    {
+      "id": "GCMG",
+      "title": "London Gazette · Order of St Michael and St George, p. 3606",
+      "url": "https://www.thegazette.co.uk/London/issue/33280/supplement/3606/data.pdf",
+      "checked": "2026-11-16",
+      "note": "3 June 1927 birthday honours, first class. Also records existing GCVO and KCB."
+    },
+    {
+      "id": "OM",
+      "title": "London Gazette · Order of Merit, p. 3080",
+      "url": "https://www.thegazette.co.uk/London/issue/34396/supplement/3080/data.pdf",
+      "checked": "2026-11-16",
+      "note": "11 May 1937 coronation honours. Entry names the baron and his existing GCVO, GCMG and KCB."
+    },
+    {
+      "id": "ABBEY",
+      "title": "Westminster Abbey · Robert and Olave Baden-Powell",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/robert-olave-baden-powell",
+      "checked": "2026-11-16",
+      "note": "Memorial biography, service and later life."
+    },
+    {
+      "id": "CB1901",
+      "title": "London Gazette · Order of the Bath, Companions, p. 2696",
+      "url": "https://www.thegazette.co.uk/London/issue/27306/page/2696/data.pdf",
+      "checked": "2026-11-16",
+      "note": "War Office, 19 April 1901: Military Division, Third Class, Companions, in recognition of services in South Africa. Names Major-General Robert Stephenson Smyth Baden-Powell."
+    },
+    {
+      "id": "STJOHN",
+      "title": "London Gazette · Order of St John, p. 3791",
+      "url": "https://www.thegazette.co.uk/London/issue/28611/page/3791/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Chancery, St John’s Gate, 23 May 1912, published 24 May 1912: Knights of Grace. Styles him K.C.B., K.C.V.O."
+    },
+    {
+      "id": "REDEEMER",
+      "title": "London Gazette · Greek Order of the Redeemer, p. 10197",
+      "url": "https://www.thegazette.co.uk/London/issue/32095/page/10197/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Published 22 October 1920: decoration conferred by the King of the Hellenes, Insignia of Grand Commander."
+    },
+    {
+      "id": "DANNEBROG",
+      "title": "London Gazette · Danish Order of the Dannebrog, p. 7974",
+      "url": "https://www.thegazette.co.uk/London/issue/32483/page/7974/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Whitehall, 11 October 1921: royal permission to wear the Grand Cross. The notice misprints his first name as Hubert; surname, middle names and K.C.B., K.C.V.O. identify him."
     }
   ],
   "facts": [
@@ -44,59 +128,49 @@
       "id": "F01",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Born in London in 1857; commissioned into the 13th Hussars in 1876.",
+      "statement": "Born in London in 1857, educated at Charterhouse and commissioned into the 13th Hussars in 1876; served in India.",
       "sources": [
-        "SCOUTS",
-        "BROWNSEA",
         "KIERNAN",
-        "HERITAGE"
+        "ABBEY"
       ]
     },
     {
       "id": "F02",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Served in the Ashanti expedition of 1895–96 and the Matabele campaign of 1896; commanded the defence of Mafeking, 1899–1900.",
+      "statement": "Ashanti expedition of 1895–96; Matabele campaign of 1896; his campaign narrative appeared in 1897.",
       "sources": [
-        "SCOUTS",
-        "BROWNSEA",
         "KIERNAN",
-        "HERITAGE"
+        "MATABELE"
       ]
     },
     {
       "id": "F03",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Retired from the Army as a lieutenant-general in 1910.",
+      "statement": "Aids to Scouting was a military manual of 1899. Commanded at Mafeking in the South African War; achieved promotion, organised the South African Constabulary, became Inspector-General of Cavalry and retired as lieutenant-general in 1910.",
       "sources": [
         "SCOUTS",
-        "BROWNSEA",
-        "KIERNAN",
-        "HERITAGE"
+        "KIERNAN"
       ]
     },
     {
       "id": "F04",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Brownsea experimental camp, 1907; Scouting for Boys, 1908; founder of the Boy Scout movement.",
+      "statement": "Experimental camp on Brownsea in 1907; Scouting for Boys issued in 1908, adapting observation and fieldcraft to youth education and patrols.",
       "sources": [
-        "SCOUTS",
         "BROWNSEA",
-        "KIERNAN",
-        "HERITAGE"
+        "BOYS",
+        "SCOUTS"
       ]
     },
     {
       "id": "F05",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Met Seton in 1906; Burnham influenced his fieldcraft; Beard helped shape the American movement.",
+      "statement": "Met Seton in 1906; the institutional history also distinguishes Burnham’s influence on Baden-Powell’s fieldcraft and Beard’s role in American Scouting.",
       "sources": [
-        "SCOUTS",
-        "BROWNSEA",
-        "KIERNAN",
         "HERITAGE"
       ]
     },
@@ -104,16 +178,40 @@
       "id": "F06",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "GCVO 1923; GCMG 1927; barony 1929; Order of Merit 1937.",
+      "statement": "CB then KCB; KCVO then GCVO; GCMG; created Baron in 1929; appointed to the Order of Merit in 1937. Official British notices record the Portuguese Order of Christ and permission to wear the French Légion d’honneur.",
       "sources": [
-        "SCOUTS",
-        "BROWNSEA",
         "KIERNAN",
-        "HERITAGE"
+        "BATH",
+        "CHRIST",
+        "LEGION",
+        "GCMG",
+        "OM"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Died in Kenya in 1941 and was buried in Nyeri.",
+      "sources": [
+        "ABBEY",
+        "KIERNAN",
+        "SCOUTS"
       ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "French award date",
+      "decision": "The 1923 Gazette notice dates permission to wear the cross. The French act of conferral has not been located."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Campaign-medal clasps and complete foreign honours",
+      "decision": "Personal medal roll or documented group and period insignia photographs still required for a complete illustrated list."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -132,54 +230,62 @@
     "note": "AETERNUS editorial judgement; not presented as a historical quotation."
   },
   "locales": {
-    "en": {
-      "tagline": "The defence of Mafeking. The founding of a world movement.",
-      "intro": "Before boys knew him as the founder of Scouting, Baden-Powell was a cavalry officer whose career had carried him through India and Africa. Mafeking made him famous; Scouting gave that fame a life beyond the army.",
-      "orientation": "His two careers belong together. Observation, resourcefulness and responsibility passed from the soldier’s handbook into a programme of outdoor education. Yet a youth movement cannot be reduced to the campaigns from which some of its methods emerged.",
+    "de": {
+      "tagline": "Ein Kavallerieoffizier macht das Beobachten zur Schule.",
+      "intro": "Als die Buren Mafeking einschlossen, wurde der Befehlshaber der britischen Garnison in England berühmt. Robert Baden-Powell hatte in Indien gelernt, aus Gelände und Spuren Schlüsse zu ziehen. Auf Brownsea Island schickte er Jahre später Jungen auf Erkundung. Jetzt sollten sie selber entdecken, was ein Kundschafter aus den Zeichen am Weg lesen konnte.",
+      "orientation": "Der Londoner Charterhouse-Schüler trat 1876 in das 13. Husarenregiment ein. Der Dienst in Indien und die Feldzüge in Ashanti und Matabeleland gaben seiner Arbeit als Kundschafter ihren Stoff. Während des Zweiten Burenkriegs führte er 1899 und 1900 die Verteidigung von Mafeking. Danach organisierte er die South African Constabulary und wurde Generalinspekteur der Kavallerie. 1910 verabschiedete er sich als Generalleutnant aus der Armee.",
+      "overview": [
+        "Sein militärisches Handbuch Aids to Scouting erschien 1899. Das Versuchslager auf Brownsea von 1907 und Scouting for Boys von 1908 zeigen, wie er die Unterweisung neu anlegte. Eine kleine Gruppe, die sich im Gelände zurechtfinden und ihre Aufgaben gemeinsam lösen musste, wurde zum Kern seiner Pädagogik."
+      ],
       "origin": [
-        "Born in London in 1857, Baden-Powell attended Charterhouse before entering the 13th Hussars in 1876. Service in India made reconnaissance and the training of young soldiers practical concerns long before he began writing for boys."
+        "Baden-Powells Weg führte von der englischen Schule in die Kavallerie des Empire. Wer einen Erkundungstrupp führte, musste Bewegungen im Gelände beobachten, aus wenigen Zeichen urteilen und den eigenen Standort kenntlich machen können. Diese Arbeit gab seiner späteren Unterweisung ihre praktische Form."
       ],
       "career": [
-        "The Ashanti expedition and the Matabele campaign brought staff work, scouting and the demands of campaigning in Africa. At Mafeking in 1899–1900 he commanded a garrison under prolonged siege during the South African War. The defence brought public acclaim and promotion. He later helped organise the South African Constabulary and served as Inspector-General of Cavalry. He left the army in 1910 with the rank of lieutenant-general."
+        "Die Expedition gegen das Königreich Ashanti 1895–96 und der Feldzug von 1896 gegen die Erhebung in Matabeleland gehörten zur Ausdehnung und Sicherung britischer Herrschaft in Afrika. Baden-Powell schilderte den zweiten Feldzug aus der Nähe des beteiligten Offiziers. Die Belagerung von Mafeking, diesmal durch die Buren, führte ihn wenige Jahre später in die öffentliche Rolle des Garnisonskommandanten. Mit dem Entsatz im Mai 1900 ging sein militärischer Ruhm in die britische Öffentlichkeit ein."
       ],
       "literature": [
-        "The Matabele Campaign belongs to the serving officer’s world: an account of operations, terrain and reconnaissance written by a participant. Scouting for Boys, published in 1908 after the Brownsea experiment of 1907, redirected practical instruction towards young people. Seton’s Woodcraft supplied an important parallel and influence; their meeting in 1906 preceded the new movement. Frederick Russell Burnham’s fieldcraft and Daniel Carter Beard’s American outdoor tradition belong to the wider story, each in a different role."
+        "In The Matabele Campaign wechseln Beobachtungen des Geländes mit Berichten über Aufklärung und Marsch. Aids to Scouting löst solche Aufgaben aus dem einzelnen Feldzug und ordnet sie für die Ausbildung. In Scouting for Boys kommen Spiel, Lagerleben und Verantwortung in der Patrouille hinzu. Die Begegnung mit Ernest Thompson Seton 1906 gehört in diese Vorgeschichte. Seton hatte mit Woodcraft bereits eine eigene Form der Freilufterziehung entwickelt."
       ],
-      "legacy": "Baden-Powell founded the Boy Scout movement and lived to see it cross national boundaries. His later barony and Order of Merit mark the reach of that achievement. Reading the military books alongside the educational writings reveals the distance between an imperial officer’s original purposes and the international institution that outlasted him.",
-      "bridge": "The military narratives restore the experience behind a familiar name. Their sketches, observations and accounts of command open the earlier chapter of the Scout founder’s life.",
-      "description": "Before boys knew him as the founder of Scouting, Baden-Powell was a cavalry officer whose career had carried him through India and Africa. Mafeking made him famous; Scouting gave that fame a life beyond the army.",
+      "legacy": "Die Pfadfinderbewegung wuchs über die britische Armee und das Empire hinaus. Ihr Gründer, den die Krone 1929 zum Baron erhob und 1937 in den Order of Merit aufnahm, starb 1941 in Kenia. Seine Bücher lassen noch erkennen, welche Arbeit an der Wahrnehmung hinter der öffentlichen Gestalt des Chief Scout stand.",
+      "bridge": "Der Sturz Prempehs führt nach Ashanti, Scouting for Boys in das Lager. Zwischen den Büchern liegt der Wandel vom Bericht eines Offiziers zur Unterweisung einer Jugendbewegung.",
+      "description": "Robert Baden-Powell im 13. Husarenregiment, bei Mafeking und auf Brownsea Island. Wie militärische Aufklärung in seine Pfadfinderbücher einging.",
       "claimRefs": [
         "F01",
         "F02",
         "F03",
         "F04",
         "F05",
-        "F06"
+        "F06",
+        "F07"
       ]
     },
-    "de": {
-      "tagline": "Der Verteidiger von Mafeking. Der Begründer einer Weltbewegung.",
-      "intro": "Bevor Jungen in aller Welt seinen Namen kannten, hatte Baden-Powell als britischer Kavallerieoffizier in Indien und Afrika gedient. Mafeking machte ihn berühmt. Mit der Gründung der Boy Scouts gab er seinem Namen eine Wirkung, die weit über die Armee hinausreichte.",
-      "orientation": "Seine beiden Lebenswerke haben gemeinsame Wurzeln: Beobachtungsgabe, Findigkeit und übernommene Verantwortung. Aus der Schule des Kundschafters wurde ein pädagogischer Entwurf. Der Weg zwischen beiden verdient einen genaueren Blick.",
+    "en": {
+      "tagline": "The cavalry officer who taught a generation to read the ground.",
+      "intro": "A handbook for soldiers found its way into the hands of schoolboys. Its author had served with the 13th Hussars in India, campaigned in Africa and won public fame defending Mafeking. On Brownsea Island, Baden-Powell set the boys exercises in observation and tracking. The camp showed how much a patrol could learn when its members had to find things out for themselves.",
+      "orientation": "Baden-Powell went from Charterhouse into the 13th Hussars in 1876. Service in India and campaigning in Ashanti and Matabeleland made reconnaissance a working discipline. His command at Mafeking in 1899–1900 brought him to public notice during the South African War. The South African Constabulary and the inspector-generalship of cavalry followed before he left the army as a lieutenant-general in 1910.",
+      "overview": [
+        "Aids to Scouting appeared in 1899 as a manual for the ranks. At Brownsea in 1907, boys had to make decisions for themselves in small parties. Scouting for Boys followed in 1908, putting the patrol, the camp and the exercise within reach of readers well outside the army."
+      ],
       "origin": [
-        "1857 in London geboren, besuchte Baden-Powell die Schule von Charterhouse und trat 1876 in das 13. Husarenregiment ein. In Indien beschäftigte ihn die Ausbildung junger Soldaten: Gelände lesen, Spuren deuten, sich orientieren und selbstständig handeln."
+        "Born in London, he learned his profession in a regiment posted to India. Cavalry had to find its way over unfamiliar ground, notice what an opponent had left behind and report clearly enough for another man to act. The value he placed on small observations grew out of those demands."
       ],
       "career": [
-        "Die Ashanti-Expedition von 1895–96 und der Matabele-Feldzug von 1896 führten ihn in die afrikanischen Kriege des Empire. Während des Südafrikanischen Krieges leitete er 1899–1900 die Verteidigung des belagerten Mafeking. Der Erfolg brachte ihm öffentliche Berühmtheit und die Beförderung zum Generalmajor. Es folgten der Aufbau der South African Constabulary und das Amt des Generalinspekteurs der Kavallerie. 1910 schied er als Generalleutnant aus dem aktiven Dienst."
+        "The Ashanti expedition of 1895–96 and the Matabele campaign of 1896 advanced or secured British rule in Africa. In his account of the latter, the writer is close to the scouting, the marches and the decisions he describes. In the South African War he had charge of the besieged garrison at Mafeking until its relief in May 1900. He returned from that war with a reputation far beyond his regiment."
       ],
       "literature": [
-        "The Matabele Campaign ist das Buch eines beteiligten Offiziers: Gelände, Aufklärung und militärische Entscheidungen stehen im Mittelpunkt. Scouting for Boys erschien 1908, nach dem Versuchslager auf Brownsea Island im Sommer 1907. Hier richtete sich die praktische Unterweisung an die Jugend. Ernest Thompson Setons Woodcraft war ein wesentlicher Anstoß; beide Männer trafen sich 1906. Auch Frederick Russell Burnhams Kundschafterwissen und Daniel Carter Beards amerikanische Freilufttradition gehören in dieses Umfeld, jeweils mit eigenem Anteil."
+        "Read in sequence, The Matabele Campaign, Aids to Scouting and Scouting for Boys show him writing first for the reader of a campaign, then for the soldier under instruction, and finally for boys who could practise in their own patrols. His meeting with Ernest Thompson Seton in 1906 brought him into contact with an outdoor education that already had a name and a practice of its own, Woodcraft."
       ],
-      "legacy": "Baden-Powell begründete die Boy Scouts und erlebte ihre Ausbreitung über Ländergrenzen hinweg. Seine Erhebung zum Baron und die Aufnahme in den Order of Merit bezeugen die Anerkennung dieses zweiten Lebenswerks. Die militärischen Schriften erschließen den früheren Erfahrungshorizont eines Mannes, dessen pädagogische Gründung ihn weltweit überdauerte.",
-      "bridge": "Die Feldzugsberichte führen hinter den Namen des Pfadfindergründers zurück: zu seinen Beobachtungen im Gelände, zur Arbeit des Kundschafters und zu den Entscheidungen eines britischen Offiziers.",
-      "description": "Bevor Jungen in aller Welt seinen Namen kannten, hatte Baden-Powell als britischer Kavallerieoffizier in Indien und Afrika gedient. Mafeking machte ihn berühmt. Mit der Gründung der Boy Scouts gab er seinem Namen eine Wirkung, die weit über die Armee hinausreichte.",
+      "legacy": "Scouting outgrew the society in which its founder had won his first public fame. Baden-Powell was created a baron in 1929, received the Order of Merit in 1937 and died in Kenya in 1941. In the books, his public standing matters less than the practical business of finding out what happened on a patch of ground.",
+      "bridge": "In The Matabele Campaign the officer records a particular war. In Aids to Scouting those habits of looking and reporting become exercises another soldier can learn.",
+      "description": "Robert Baden-Powell from cavalry service and the siege of Mafeking to Brownsea Island, Aids to Scouting and Scouting for Boys.",
       "claimRefs": [
         "F01",
         "F02",
         "F03",
         "F04",
         "F05",
-        "F06"
+        "F06",
+        "F07"
       ]
     }
   },
@@ -239,6 +345,16 @@
       "Matabele-Feldzug"
     ],
     [
+      "1897",
+      "Publication of The Matabele Campaign",
+      "The Matabele Campaign erscheint"
+    ],
+    [
+      "1899",
+      "Aids to Scouting, written for soldiers",
+      "Aids to Scouting erscheint als militärisches Handbuch"
+    ],
+    [
       "1899–1900",
       "Defence of Mafeking",
       "Verteidigung von Mafeking"
@@ -262,6 +378,16 @@
       "1929",
       "Created Baron Baden-Powell",
       "Erhebung zum Baron"
+    ],
+    [
+      "1937",
+      "Appointment to the Order of Merit",
+      "Aufnahme in den Order of Merit"
+    ],
+    [
+      "1941",
+      "Dies in Kenya",
+      "Tod in Kenia"
     ]
   ],
   "honours": [
@@ -270,11 +396,26 @@
       "year": "1909",
       "category": "order",
       "sources": [
-        "KIERNAN"
+        "KIERNAN",
+        "CB1901",
+        "BATH",
+        "CHRIST"
       ],
       "note": {
-        "en": "Advanced from Companion (CB, 1901); an order, distinct from his military rank and later peerage.",
-        "de": "Zuvor Companion (CB, 1901); ein Orden, zu unterscheiden von Dienstgrad und späterem Adelstitel."
+        "en": "Promoted from Companion (CB, 1901), an appointment made after the defence of Mafeking.",
+        "de": "Aufstieg vom Companion (CB, 1901), der ihm nach der Verteidigung von Mafeking verliehen worden war."
+      }
+    },
+    {
+      "name": "Order of St John · Knight of Grace (KStJ)",
+      "year": "1912",
+      "category": "order",
+      "sources": [
+        "STJOHN"
+      ],
+      "note": {
+        "en": "Knight of Grace of the Order of the Hospital of St John of Jerusalem in England.",
+        "de": "Ritter der Gnade des Johanniterordens in England (Order of St John)."
       }
     },
     {
@@ -282,35 +423,98 @@
       "year": "1923",
       "category": "order",
       "sources": [
-        "KIERNAN"
-      ]
+        "KIERNAN",
+        "CHRIST",
+        "LEGION"
+      ],
+      "note": {
+        "en": "Previously Knight Commander (KCVO, 1909).",
+        "de": "Zuvor Knight Commander (KCVO, 1909)."
+      }
     },
     {
       "name": "Order of St Michael and St George · Knight Grand Cross (GCMG)",
       "year": "1927",
       "category": "order",
       "sources": [
-        "KIERNAN"
-      ]
-    },
-    {
-      "name": "Order of Merit (OM)",
-      "year": "1937",
-      "category": "order",
-      "sources": [
-        "KIERNAN"
-      ]
+        "GCMG"
+      ],
+      "note": {
+        "en": "First class of the order, announced in the King’s Birthday Honours.",
+        "de": "Erste Klasse des Ordens, bekanntgegeben zum Geburtstag Georgs V."
+      }
     },
     {
       "name": "Baron Baden-Powell, of Gilwell",
       "year": "1929",
       "category": "title",
       "sources": [
-        "KIERNAN"
+        "KIERNAN",
+        "OM"
       ],
       "note": {
-        "en": "Peerage, not a military decoration.",
-        "de": "Adelstitel; keine militärische Auszeichnung."
+        "en": "Peerage. Earlier styled Baronet in the official notices.",
+        "de": "Adelstitel. Die amtlichen Bekanntmachungen führten ihn zuvor als Baronet."
+      }
+    },
+    {
+      "name": "Order of Merit (OM)",
+      "year": "1937",
+      "category": "order",
+      "sources": [
+        "OM"
+      ],
+      "note": {
+        "en": "Appointment announced on the occasion of the coronation of George VI.",
+        "de": "Aufnahme in den Orden anlässlich der Krönung Georgs VI."
+      }
+    },
+    {
+      "name": "Portuguese Order of Christ · Grand Officer",
+      "year": "1919",
+      "category": "order",
+      "sources": [
+        "CHRIST"
+      ],
+      "note": {
+        "en": "Portuguese distinction listed in the London Gazette.",
+        "de": "Portugiesische Auszeichnung, 1919 in der London Gazette verzeichnet."
+      }
+    },
+    {
+      "name": "Greek Order of the Redeemer · Grand Commander",
+      "year": "1920",
+      "category": "order",
+      "sources": [
+        "REDEEMER"
+      ],
+      "note": {
+        "en": "Conferred by the King of the Hellenes and listed in the London Gazette.",
+        "de": "Vom König der Hellenen verliehen, 1920 in der London Gazette verzeichnet."
+      }
+    },
+    {
+      "name": "Danish Order of the Dannebrog · Grand Cross",
+      "year": "1921",
+      "category": "order",
+      "sources": [
+        "DANNEBROG"
+      ],
+      "note": {
+        "en": "The date records British permission to wear the insignia.",
+        "de": "Das Jahr bezeichnet die britische Erlaubnis zum Tragen der Insignien."
+      }
+    },
+    {
+      "name": "Légion d’honneur · Commandeur",
+      "year": "1923",
+      "category": "order",
+      "sources": [
+        "LEGION"
+      ],
+      "note": {
+        "en": "The date records British permission to wear the insignia.",
+        "de": "Das Jahr bezeichnet die britische Erlaubnis zum Tragen der Insignien."
       }
     }
   ],

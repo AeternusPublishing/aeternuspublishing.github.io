@@ -25,6 +25,7 @@ const definitions = [
       'en-younghusband-the-relief-of-chitral',
       'en-robert-baden-powell-the-matabele-campaign-1896',
       'en-robert-baden-powell-aids-to-scouting',
+      'en-robert-baden-powell-the-downfall-of-prempeh',
       'en-charles-edward-callwell-the-life-of-sir-stanley-maude',
       'en-william-robertson-from-private-to-field-marshal',
       'en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated',
