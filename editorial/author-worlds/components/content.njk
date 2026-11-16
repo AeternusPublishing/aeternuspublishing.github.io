@@ -2,7 +2,27 @@
   <div><p class="kicker">{{ world.labels.context }}</p><h2 id="world-title">{{ world.labels.about }}</h2></div>
   <div class="biography-copy">
     <p class="world-orientation">{{ world.orientation }}</p>
-    {% if world.honours.length %}<section class="world-honours" aria-labelledby="honours-title"><h3 id="honours-title">{{ world.labels.honours }}</h3><ul class="honours-gallery">{% for h in world.honours.slice(0,5) %}<li><span class="kicker">{{ h.categoryLabel }} · {{ h.year }}</span><strong>{{ h.name }}</strong>{% if h.note %}<p>{{ h.note }}</p>{% endif %}</li>{% endfor %}</ul>{% if world.honours.length > 5 %}<details><summary>{{ world.labels.moreHonours }}</summary><ul>{% for h in world.honours.slice(5) %}<li>{{ h.year }} · {{ h.name }}</li>{% endfor %}</ul></details>{% endif %}</section>{% endif %}
+    {% for paragraph in world.overview %}<p class="world-orientation">{{ paragraph }}</p>{% endfor %}
+    {% if world.honours.length %}
+      <section class="world-honours" aria-labelledby="honours-title">
+        <h3 id="honours-title">{{ world.labels.honours }}</h3>
+        <ul class="honours-gallery">
+          {% for h in world.honours.slice(0,5) %}
+            <li><span class="kicker">{{ h.categoryLabel }} · {{ h.year }}</span><strong>{{ h.name }}</strong>{% if h.note %}<p>{{ h.note }}</p>{% endif %}</li>
+          {% endfor %}
+        </ul>
+        {% if world.honours.length > 5 %}
+          <details class="world-details">
+            <summary>{{ world.labels.moreHonours }}</summary>
+            <ul class="honours-gallery">
+              {% for h in world.honours.slice(5) %}
+                <li><span class="kicker">{{ h.categoryLabel }} · {{ h.year }}</span><strong>{{ h.name }}</strong>{% if h.note %}<p>{{ h.note }}</p>{% endif %}</li>
+              {% endfor %}
+            </ul>
+          </details>
+        {% endif %}
+      </section>
+    {% endif %}
     <details class="world-details"><summary>{{ world.labels.read }}</summary><div class="world-details-copy">
       {% if world.origin.length %}<section><h3>{{ world.originHeading or world.labels.origin }}</h3>{% for paragraph in world.origin %}<p>{{ paragraph }}</p>{% endfor %}</section>{% endif %}
       {% if world.career.length %}<section><h3>{{ world.careerHeading or world.labels.career }}</h3>{% for paragraph in world.career %}<p>{{ paragraph }}</p>{% endfor %}</section>{% endif %}

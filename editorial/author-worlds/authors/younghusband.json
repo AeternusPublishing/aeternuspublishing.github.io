@@ -12,12 +12,57 @@
   "sources": [
     {
       "id": "APPROVED_AUTHORS",
-      "title": "The Relief of Chitral · Publisher-approved authors and edition",
+      "title": "The Relief of Chitral · The Authors (printed paratext V18)",
       "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
-      "checked": "2026-10-21",
-      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V16\\07_about_the_authors.md",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V18\\07_about_the_authors.md",
       "sha256": "df4894ce221fe46308404d93a02510c9b180ee2ace1845bfc8cc5d63e7c385b3",
-      "note": "Verbatim excerpts of the publisher-approved author section DRUCKENTWURF_V16; no additional biographical claims. Local source read in full."
+      "note": "Publisher-approved author section of DRUCKENTWURF_V18; local source read in full. Supersedes the V16 file cited on 21 October 2026; the biographical text is unchanged."
+    },
+    {
+      "id": "HONOURS",
+      "title": "The Relief of Chitral · Honours of Chitral (printed paratext V18)",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V18\\13_honours.md",
+      "sha256": "741674bd076aa88f251d110b2d4048a9917c1273a4c08c28acf8e468e622015b",
+      "note": "Honours after The London Gazette of 16 July 1895 and 21 January 1896; local source read in full."
+    },
+    {
+      "id": "INDIA_MEDAL",
+      "title": "The Relief of Chitral · India Medal, 1895 (printed paratext V18)",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V18\\14_india_medal.md",
+      "sha256": "6c5c0496eb3a3f2bab92447f9d2aea06453a3bed6e512bc24364325f93b0f333",
+      "note": "Defines the clasps Defence of Chitral 1895 and Relief of Chitral 1895 by command and date; names no individual recipients. Local source read in full."
+    },
+    {
+      "id": "CHRONOLOGY",
+      "title": "The Relief of Chitral · Chronology (printed paratext V18)",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V18\\16_timeline.md",
+      "sha256": "a91778ed6a877c7508f966afc90e355ad42cab6751e0f4c1135de12a87db18f0",
+      "note": "Dated events of the Chitral campaign and publication; local source read in full."
+    },
+    {
+      "id": "COMMANDERS",
+      "title": "The Relief of Chitral · Principal commanders (printed paratext V18)",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V18\\12_commanders.md",
+      "sha256": "3752adc30af6293d4a4d75e0fc4be6d3d940ddad10a37b104a11f4e6900a1863",
+      "note": "Read in full; used for the escort of Sher Afzul only."
+    },
+    {
+      "id": "NOTE_ON_TEXT",
+      "title": "The Relief of Chitral · Note on this edition (printed paratext V18)",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "checked": "2026-11-16",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V18\\19_note_on_text.md",
+      "sha256": "863673fc1f042fe6a5270d55d84facb4ab49c5dc1b0c72dbda13a5cb36609ed3",
+      "note": "Edition history, chapter attribution, sources of the authors; local source read in full."
     }
   ],
   "facts": [
@@ -47,9 +92,88 @@
       "sources": [
         "APPROVED_AUTHORS"
       ]
+    },
+    {
+      "id": "F04",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "The London Gazette of 21 January 1896 promoted Captain George John Younghusband, Queen’s Own Corps of Guides, brevet Major for the Chitral campaign.",
+      "sources": [
+        "APPROVED_AUTHORS",
+        "HONOURS"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "The printed account of the authors gives for George John the C.B. and the brevet of Lieutenant-Colonel (South Africa, 1899–1902), the K.C.I.E. (1913) and the K.C.M.G. (1915), and for Francis Edward the C.I.E. (1891), the K.C.I.E. (1904) and the K.C.S.I. (1917). It names no Gazette for these awards.",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "On 27 April 1895 Francis Younghusband and Major “Roddy” Owen rode into Chitral ahead of the advanced parties of Low’s force. Kelly’s column had entered the place on 20 April.",
+      "sources": [
+        "CHRONOLOGY",
+        "APPROVED_AUTHORS"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "Macmillan and Co. published the first edition in October 1895; it was reprinted in October and December 1895, April 1896 and 1897. The Shilling Edition of 1910, with “a few verbal corrections and some slight additions”, omits the eighth chapter, “The Present Situation”.",
+      "sources": [
+        "CHRONOLOGY",
+        "NOTE_ON_TEXT"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "The authors’ Preface of 1895 assigns the chapters on Sir Robert Low’s advance, Chapters III to V, to George and the remaining chapters to Francis; the authors state that their record rests on the official despatches in the Gazette of India, the Blue Book on Chitral affairs and their own letters to The Times.",
+      "sources": [
+        "NOTE_ON_TEXT"
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "PUBLISHER_APPROVED_TEXT",
+      "kind": "historical-fact",
+      "statement": "After the relief, George Younghusband escorted Sher Afzul to India as a prisoner of war.",
+      "sources": [
+        "APPROVED_AUTHORS",
+        "COMMANDERS"
+      ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "OFFEN",
+      "claim": "London Gazette references for the C.I.E. (1891), brevet Lieutenant-Colonel and C.B. (South Africa, 1899–1902), K.C.I.E. (1904 and 1913), K.C.M.G. (1915) and K.C.S.I. (1917)",
+      "decision": "The printed paratext V18 names the years and occasions but cites The London Gazette only for 16 July 1895 and 21 January 1896. The gallery marks every other entry as open and asserts no date of award."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Source quality of the honours",
+      "decision": "Entries other than the brevet of 1896 rest on the publisher’s printed account of the authors, a compilation without per-item references. Contemporary Gazette notices or an official record should replace it before the dates are cited as award dates."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Personal entitlement to the India Medal 1895, clasp Relief of Chitral 1895",
+      "decision": "The paratext defines the clasp by command and dates and lists no recipients. George served on Low’s staff; Francis served as correspondent. No medal is asserted for either brother."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Date of the escort of Sher Afzul",
+      "decision": "The paratext says only that it followed the relief. The timeline places it in 1895 without a day."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "note": "Verbatim approved author text; no new interpretation."
@@ -62,7 +186,7 @@
     "en": {
       "tagline": "The Relief of Chitral",
       "intro": "The Relief of Chitral is the joint work of two brothers, “constantly being mistaken for one another”, as their Preface says, who were present together in the same campaign and both served in it as correspondents of The Times. George wrote the chapters on Sir Robert Low’s advance; Francis wrote the rest.",
-      "orientation": "The division of labour gives the book its breadth. George writes as the staff officer advancing with Low; Francis as the political officer who had known Chitral, its rulers and its roads before the siege began.",
+      "orientation": "The two brothers reached the frontier by different roads. George John, eldest son of Major-General John William Younghusband, served in the Afghan War of 1878–80, the Sudan, the Burma War, the Philippines and South Africa. Francis Edward, commissioned in the 1st (King’s) Dragoon Guards in 1882, passed into the Indian Staff Corps and the political service and made journeys through Manchuria, across the Gobi and Chinese Turkestan and over the Mustagh Pass before Chitral.",
       "origin": [
         "The eldest son of Major-General John William Younghusband, C.S.I., George John Younghusband entered a career that crossed much of the military geography of the late Empire: the Afghan War of 1878–80, the Sudan in 1885, the North-West Frontier in 1886, the Burma War of 1886–87, the campaign in the Philippines in 1898, and South Africa in 1899–1902, where he was severely wounded, received the brevet of Lieutenant-Colonel and was made Companion of the Bath. He rose to Major-General in 1911, was appointed Knight Commander of the Indian Empire in 1913 while commanding the Derajat Brigade, and in the Great War, serving at Aden and in Mesopotamia, was created Knight Commander of St Michael and St George in 1915 for distinguished service in the field. From 1917 he was Keeper of the Jewel House at the Tower of London.",
         "Before Chitral he had already written of soldiering and travel in Eighteen Hundred Miles on a Burmese Tat, Frays and Forays and The Queen’s Commission, the titles named beneath his own on the title-page of 1895.",
@@ -76,18 +200,28 @@
         "His later fame belongs to another chapter of the same frontier history. As British Commissioner he led the Tibet Mission of 1903–04 to Lhasa and was created Knight Commander of the Indian Empire in 1904; he retired as Lieutenant-Colonel from the Indian Political Department and was created Knight Commander of the Star of India in 1917."
       ],
       "literature": [
-        "The Relief of Chitral is the joint work of two brothers, “constantly being mistaken for one another”, as their Preface says, who were present together in the same campaign and both served in it as correspondents of The Times. George wrote the chapters on Sir Robert Low’s advance; Francis wrote the rest."
+        "Macmillan and Co. published The Relief of Chitral in October 1895; the book was reprinted in October and December 1895, April 1896 and 1897. By their own statement the authors drew on the official despatches in the Gazette of India, the Blue Book on Chitral affairs presented to Parliament and their own letters to The Times. The Preface of 1895 assigns Chapters III to V, on Sir Robert Low’s advance, to George and the other chapters to Francis.",
+        "The Shilling Edition of 1910 carries “a few verbal corrections and some slight additions” and omits the eighth chapter, “The Present Situation”. In it the authors discuss the settlement after the relief, the future position of Chitral, the suzerainty of Kashmir and the strategic object of maintaining influence on the northern frontier. This edition restores it with the text of 1895."
       ],
-      "legacy": "The division of labour gives the book its breadth. George writes as the staff officer advancing with Low; Francis as the political officer who had known Chitral, its rulers and its roads before the siege began.",
+      "legacy": "The weight of the book lies in its position: a staff officer’s account of Low’s march and a former political officer’s account of Chitral, written within months and from first-hand knowledge. The title-page of this edition gives the authors’ ranks and appointments as printed in 1895; their later ranks and honours appear only in the account of the authors, and the honours above are given as that account states them.",
       "bridge": "The first-hand history of the siege and relief of Chitral, 1895, in the complete text of the first edition, with its map, frontispiece and twenty-two plates.",
       "description": "The Relief of Chitral is the joint work of two brothers, “constantly being mistaken for one another”, as their Preface says, who were present together in the same campaign and both served in it as correspondents of The Times. George wrote the chapters on Sir Robert Low’s advance; Francis wrote the rest.",
       "claimRefs": [
         "F01",
         "F02",
-        "F03"
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09"
       ],
       "originHeading": "George John Younghusband",
-      "careerHeading": "Francis Edward Younghusband"
+      "careerHeading": "Francis Edward Younghusband",
+      "overview": [
+        "In 1895 George served throughout as Brigade-Major on Sir Robert Low’s staff and wrote the chapters on the mobilisation, the Malakand, the Swat, the Panjkora and the advance through Dir; after the relief he escorted Sher Afzul to India as a prisoner of war. Francis, who had held the political charge in Chitral and Mastuj until the autumn of 1894, went to the campaign as correspondent of The Times, rode into Chitral on 27 April and wrote the remaining chapters. Their later careers diverged: George became Major-General in 1911 and Keeper of the Jewel House at the Tower of London in 1917; Francis led the Tibet Mission of 1903–04."
+      ]
     }
   },
   "image": {
@@ -126,8 +260,103 @@
       ""
     ],
     [
+      "1878–80",
+      "George John serves in the Afghan War",
+      ""
+    ],
+    [
+      "1882",
+      "Francis Edward: commissioned in the 1st (King’s) Dragoon Guards",
+      ""
+    ],
+    [
+      "1885–87",
+      "George John: the Sudan (1885), the North-West Frontier (1886) and the Burma War (1886–87)",
+      ""
+    ],
+    [
+      "1891",
+      "Francis Edward: Companion of the Indian Empire; in August, at Bozai Gumbaz in the Pamirs, he is met by the Russian Colonel Yonoff and escorted out of territory claimed by Russian maps",
+      ""
+    ],
+    [
+      "1892",
+      "Francis Edward: political officer in Hunza",
+      ""
+    ],
+    [
+      "25 January 1893",
+      "The mission under Surgeon-Major Robertson, with Francis Edward, reaches Chitral after crossing the Shandur Pass",
+      ""
+    ],
+    [
+      "11 October 1894",
+      "Francis Edward and the Honourable George Curzon leave Chitral after their visit to the Mehtar",
+      ""
+    ],
+    [
       "1895",
       "The Chitral campaign and the first edition",
+      ""
+    ],
+    [
+      "27 April 1895",
+      "Francis Edward rides into Chitral with Major “Roddy” Owen, ahead of the advanced parties of Low’s force",
+      ""
+    ],
+    [
+      "1895",
+      "George John escorts Sher Afzul to India as a prisoner of war after the relief",
+      ""
+    ],
+    [
+      "October 1895",
+      "Macmillan and Co. publish the first edition",
+      ""
+    ],
+    [
+      "21 January 1896",
+      "The London Gazette promotes George John brevet Major for the Chitral campaign",
+      ""
+    ],
+    [
+      "1898",
+      "George John: the campaign in the Philippines",
+      ""
+    ],
+    [
+      "1899–1902",
+      "George John serves in South Africa, is severely wounded and receives the brevet of Lieutenant-Colonel",
+      ""
+    ],
+    [
+      "1903–04",
+      "Francis Edward leads the Tibet Mission to Lhasa as British Commissioner",
+      ""
+    ],
+    [
+      "1910",
+      "Macmillan issue the Shilling Edition, omitting the eighth chapter",
+      ""
+    ],
+    [
+      "1911",
+      "George John: Major-General",
+      ""
+    ],
+    [
+      "1913",
+      "George John: K.C.I.E., while commanding the Derajat Brigade",
+      ""
+    ],
+    [
+      "1915",
+      "George John: K.C.M.G., for service in the field",
+      ""
+    ],
+    [
+      "1917",
+      "George John becomes Keeper of the Jewel House at the Tower of London; Francis Edward is created K.C.S.I.",
       ""
     ],
     [
@@ -141,7 +370,86 @@
       ""
     ]
   ],
-  "honours": [],
+  "honours": [
+    {
+      "name": "Companion of the Order of the Indian Empire (C.I.E.) · Francis Edward Younghusband",
+      "year": "1891",
+      "category": "order",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ],
+      "note": {
+        "en": "Appointed in the year of his Pamir journey. Gazette reference open: the printed account gives the year only."
+      }
+    },
+    {
+      "name": "Brevet Major · George John Younghusband",
+      "year": "1896",
+      "category": "title",
+      "sources": [
+        "APPROVED_AUTHORS",
+        "HONOURS"
+      ],
+      "note": {
+        "en": "Promoted for the Chitral campaign in The London Gazette of 21 January 1896, as Captain, Queen’s Own Corps of Guides. Documented in the Gazette."
+      }
+    },
+    {
+      "name": "Brevet Lieutenant-Colonel and Companion of the Order of the Bath (C.B.) · George John Younghusband",
+      "year": "1899–1902",
+      "category": "order",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ],
+      "note": {
+        "en": "Received in South Africa, where he was severely wounded. The printed account gives the campaign, not the date of award. Gazette reference open."
+      }
+    },
+    {
+      "name": "Knight Commander of the Order of the Indian Empire (K.C.I.E.) · Francis Edward Younghusband",
+      "year": "1904",
+      "category": "order",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ],
+      "note": {
+        "en": "Stated together with the Tibet Mission of 1903–04, which he led as British Commissioner. Gazette reference open: the printed account gives the year only."
+      }
+    },
+    {
+      "name": "Knight Commander of the Order of the Indian Empire (K.C.I.E.) · George John Younghusband",
+      "year": "1913",
+      "category": "order",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ],
+      "note": {
+        "en": "Appointed while commanding the Derajat Brigade. Gazette reference open: the printed account gives the year only."
+      }
+    },
+    {
+      "name": "Knight Commander of the Order of St Michael and St George (K.C.M.G.) · George John Younghusband",
+      "year": "1915",
+      "category": "order",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ],
+      "note": {
+        "en": "Created for distinguished service in the field, at Aden and in Mesopotamia. Gazette reference open: the printed account gives the year only."
+      }
+    },
+    {
+      "name": "Knight Commander of the Order of the Star of India (K.C.S.I.) · Francis Edward Younghusband",
+      "year": "1917",
+      "category": "order",
+      "sources": [
+        "APPROVED_AUTHORS"
+      ],
+      "note": {
+        "en": "Stated together with his retirement from the Indian Political Department as Lieutenant-Colonel. Gazette reference open: the printed account gives the year only."
+      }
+    }
+  ],
   "connections": [
     {
       "slug": "francis-younghusband",
