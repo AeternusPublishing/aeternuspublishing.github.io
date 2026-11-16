@@ -5961,23 +5961,23 @@
       "title": "The Relief of Chitral",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-the-relief-of-chitral-younghusband-en-20261021.jpg",
+      "front_url": "/assets/images/cover-the-relief-of-chitral-younghusband-en-20261116.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-the-relief-of-chitral-younghusband-en-20261021.jpg",
-          "sha256": "236fa97602ccd12744358a3e5774fb80e9697bf5b90c811b3b0ad40195700a39"
+          "path": "src/assets/images/cover-the-relief-of-chitral-younghusband-en-20261116.jpg",
+          "sha256": "cffb91d81ada504a292d218b149f61feba0b23b07aac024126559c1a4f308318"
         },
         {
-          "path": "src/assets/images/cover-the-relief-of-chitral-younghusband-en-20261021.webp",
-          "sha256": "64e42fac399559d9ea63139a47ef8fbd68da32e6ec60ea2378131f875a00706a"
+          "path": "src/assets/images/cover-the-relief-of-chitral-younghusband-en-20261116.webp",
+          "sha256": "b21735a603fc0e1d33162155a71e67fcdf708c73f4c05273792544aeb62edb8c"
         },
         {
-          "path": "src/assets/images/back-the-relief-of-chitral-younghusband-en-20261021.jpg",
-          "sha256": "ed2fd614fec0a1cb7375a802989de816355c05b07375085a897307f68f5ad05f"
+          "path": "src/assets/images/back-the-relief-of-chitral-younghusband-en-20261116.jpg",
+          "sha256": "a211bc723ed3a5b221fb77243420beb4ebddee686e04931619dcc31915107268"
         },
         {
-          "path": "src/assets/images/back-the-relief-of-chitral-younghusband-en-20261021.webp",
-          "sha256": "398c19521f30d54725079afef3ea16fa59d94a5df56200c5650c4092a374563b"
+          "path": "src/assets/images/back-the-relief-of-chitral-younghusband-en-20261116.webp",
+          "sha256": "8630f32accfadd6f2833904f6d0ce278d64e5615ec4b66e5c80b127847c5a11c"
         }
       ],
       "formats": [
@@ -6039,7 +6039,7 @@
         "register_projection_sha256": "cf1dc633b18b5fed35b3ad9c4fccbfdd74246f132b57985e64cdacc3c6fceb45",
         "decision_id": "decision_gjy001_en_endfreigabe_paket_v6b_20261021",
         "source_manifest_sha256": "b7d164c95e7d4710ff7a9018f4d587015c5a2cf2fb8e89795f2d05711d40fd0e",
-        "review": "ISBNs match released English GJY_001 forms. PB V4 front/back and format-only web derivatives reviewed. Forthcoming 26 October 2026; no buying links."
+        "review": "ISBNs match released English GJY_001 forms. PB V4 front/back and format-only web derivatives reviewed. Forthcoming 26 October 2026; no buying links. Cover assets replaced on 2026-11-16 by the V5 cover (UMSCHLAG_V5_BILDFENSTER_20261116); ISBNs and forms unchanged; renewed visual review of the new front and back pending."
       }
     },
     {
