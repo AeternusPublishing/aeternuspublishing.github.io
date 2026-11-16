@@ -1,0 +1,420 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "richard-hartley-kennedy",
+  "name": "Richard Hartley Kennedy",
+  "dates": "d. 1865",
+  "depth": "expanded",
+  "editionStatus": "IN_PREPARATION",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "NARRATIVE1",
+      "title": "Richard Hartley Kennedy, Narrative of the Campaign of the Army of the Indus, in Sind and Kaubool, in 1838–9, vol. I (London: Richard Bentley, 1840); Internet Archive scan in.ernet.dli.2015.82752",
+      "url": "https://archive.org/details/in.ernet.dli.2015.82752",
+      "checked": "2026-11-16",
+      "note": "Second witness of volume I of the AETERNUS edition RHK_001 (decision_rhk001_w1_wellcome_w2_dli_20261103). Statements drawn from the author's own text follow the publisher's paratext RHK_001 PARATEXT_EN_MASTER V2.6, sections II and II-A (SHA-256 92b3fe1c5ba4f19526539ee33fabca6f8a30e17d4ef404ed8c4f760527179fe3): appointment notice at Mahabuleishwer, 28 October 1838; report at Bombay, 3 November 1838; embarkation in the Tapty, 21 November 1838; eighteen of his Indian years in Guzerat. Page references remain to be added."
+    },
+    {
+      "id": "NARRATIVE2",
+      "title": "Richard Hartley Kennedy, Narrative of the Campaign of the Army of the Indus, in Sind and Kaubool, in 1838–9, vol. II (London: Richard Bentley, 1840); Internet Archive scan in.ernet.dli.2015.82727",
+      "url": "https://archive.org/details/in.ernet.dli.2015.82727",
+      "checked": "2026-11-16",
+      "note": "Volume II as read for the publisher's paratext V2.6, section II-A: the bean-field and the dale of Clyde in 1810; thanks in orders by Major-General Willshire at Sukkur, 10 January 1840; hand-over to Field-surgeon Pinhey, 13 January 1840; Medical Board by seniority from 15 January 1840; precedence of Superintending Surgeon and Member of the Medical Board; closing circular of January 1840. Page references remain to be added."
+    },
+    {
+      "id": "BOASE",
+      "title": "Frederic Boase, Modern English Biography, vol. II (Truro, 1897), p. 200, entry Kennedy, Richard Hartley; Project Gutenberg eBook 71046",
+      "url": "https://www.gutenberg.org/files/71046/71046-h/71046-h.htm",
+      "checked": "2026-11-12",
+      "note": "Assistant surgeon Bombay army 30 June 1811, surgeon 1822; physician-general 1842, retired 1 May 1843; director and deputy governor of the Royal British Bank; alderman of Cheap 1853–58; sheriff 1855; sentenced to nine months' imprisonment and released July 1858; died at the Great Western Hotel, Paddington, 24 July 1865. Read through the publisher's fact lane BELEGE_APPARAT.json of 12 November 2026."
+    },
+    {
+      "id": "ALMANACK1856",
+      "title": "The Illustrated London Almanack for 1856, City Officers, Aldermen and Sheriffs",
+      "url": "https://www.victorianvoices.net/ARTICLES/ILA/Officers/1856-Officers.pdf",
+      "checked": "2026-11-12",
+      "note": "Lists 'Kennedy, Richard H., Esq.' as alderman of Cheap with the year 1851 and 'Alderman Richard Hartley Kennedy' among the sheriffs."
+    },
+    {
+      "id": "PRIZEROLL",
+      "title": "Ghuznee Prize Money, transcription of India Office Record L/MIL/5/259, Staff Officers, Camp near Cabool, 17 August 1839",
+      "url": "https://www.limerick.ie/sites/default/files/media/documents/2019-05/Ghuznee%20Prize%20Money.pdf",
+      "checked": "2026-11-12",
+      "note": "Names 'R.H. Kennedy, Superintending Surgeon' on the roll of staff officers entitled to prize money. A prize-money roll is not evidence of a medal or an order."
+    },
+    {
+      "id": "BLADD54550",
+      "title": "British Library, Add MS 54550, ff. 13, 43, 132",
+      "url": "https://searcharchives.bl.uk/catalog/040-001960110",
+      "checked": "2026-11-12",
+      "note": "Catalogue name entry 'Richard Hartley-Kennedy, MD; member of the Medical Board, Bombay Army'. The style is not evidence of the university or the year of the degree."
+    },
+    {
+      "id": "CHOLERA1827",
+      "title": "Wellcome Collection, Notes on the Epidemic Cholera (Calcutta: Baptist Mission Press, 1827), catalogue record",
+      "url": "https://content.www.wellcomecollection.org/works/j8x3cd4n",
+      "checked": "2026-11-12"
+    },
+    {
+      "id": "CHOLERA1846",
+      "title": "Wellcome Collection, Notes on the Epidemic Cholera, second edition (London: Smith, Elder and Co., 1846), catalogue record",
+      "url": "https://wellcomecollection.org/works/em8fbq34",
+      "checked": "2026-11-12",
+      "note": "The preface of the second edition says the first was published in Calcutta in 1826."
+    },
+    {
+      "id": "HOLDSWORTH",
+      "title": "T. W. E. Holdsworth, The Campaign of the Indus (London, 1840), letter IV, journal entry for 23 January 1839; Project Gutenberg eBook 12863",
+      "url": "https://www.gutenberg.org/cache/epub/12863/pg12863-images.html",
+      "checked": "2026-11-12",
+      "note": "Order of march of the Bombay column: Cutch Auxiliary Horse in advance; 4th Light Dragoons, artillery and 1st Bombay Light Cavalry; first brigade Queen's Royals, 5th and 1st (Grenadier) Native Infantry; second brigade 17th Foot, 19th and 23rd Native Infantry."
+    },
+    {
+      "id": "RAWLINSON1875",
+      "title": "Henry Creswicke Rawlinson, England and Russia in the East (London: John Murray, 1875); Internet Archive scan cu31924023001039",
+      "url": "https://archive.org/details/cu31924023001039",
+      "checked": "2026-11-16"
+    },
+    {
+      "id": "MACGREGOR1882",
+      "title": "Charles Metcalfe MacGregor, Wanderings in Balochistan (London: W. H. Allen & Co., 1882); Internet Archive scan wanderingsinbal01macggoog",
+      "url": "https://archive.org/details/wanderingsinbal01macggoog",
+      "checked": "2026-11-16"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was appointed assistant surgeon in the Bombay army on 30 June 1811 and became surgeon in 1822.",
+      "sources": [
+        "BOASE"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Notes on the Epidemic Cholera appeared at Calcutta from the Baptist Mission Press (catalogued under 1827) and in a second, revised edition in London from Smith, Elder and Co. in 1846.",
+      "sources": [
+        "CHOLERA1827",
+        "CHOLERA1846"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was notified at Mahabuleishwer on 28 October 1838 of his appointment as Chief of the Medical Staff of the Bombay Division, reported at Bombay on 3 November and embarked in the Tapty on 21 November 1838.",
+      "sources": [
+        "NARRATIVE1"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1839 he went with the Bombay column through Sind and the Bolan to Kandahar, Ghazni and Kabul and returned by Khelat; on the prize roll of staff officers of 17 August 1839 he appears as Superintending Surgeon.",
+      "sources": [
+        "NARRATIVE1",
+        "NARRATIVE2",
+        "PRIZEROLL"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The Bombay column marched in January 1839 with the 4th Light Dragoons, the Queen's Royals, the 17th Foot, the 1st Bombay Light Cavalry, the 1st (Grenadier), 5th, 19th and 23rd Bombay Native Infantry and artillery.",
+      "sources": [
+        "HOLDSWORTH"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Major-General Thomas Willshire thanked him in orders at Sukkur on 10 January 1840; he handed over his charge to Field-surgeon Pinhey on 13 January and became a Member of the Medical Board at Bombay by seniority from 15 January 1840.",
+      "sources": [
+        "NARRATIVE2"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The Narrative of the Campaign of the Army of the Indus was published in two volumes by Richard Bentley in London in 1840, written as letters to two near relatives whom the author does not name.",
+      "sources": [
+        "NARRATIVE1",
+        "NARRATIVE2"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He became Physician-General on the Bombay establishment in 1842 and retired from the Company's service in 1842 or 1843.",
+      "sources": [
+        "BOASE"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was alderman of the Ward of Cheap until 1858 and Sheriff of London in 1855–1856.",
+      "sources": [
+        "ALMANACK1856",
+        "BOASE"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was a director of the Royal British Bank from about 1849 and its deputy governor from November 1849 to January 1850 and in 1854–1855; tried with the directors in February 1858, he was sentenced to nine months' imprisonment and released in July 1858.",
+      "sources": [
+        "BOASE"
+      ]
+    },
+    {
+      "id": "F11",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He died at the Great Western Hotel, Paddington, on 24 July 1865.",
+      "sources": [
+        "BOASE"
+      ]
+    },
+    {
+      "id": "F12",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The degree of Doctor of Medicine is attested in his contemporary style.",
+      "sources": [
+        "BLADD54550"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "OFFEN",
+      "claim": "Date and place of birth, parents",
+      "decision": "Not known. The dates line names only the year of death. His memory of a bean-field in the dale of Clyde in the summer of 1810 is quoted as his own recollection and not used to fix a birthplace."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "University and year of the M.D.",
+      "decision": "The degree is attested in his style; the university that granted it and the year are not."
+    },
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Entry into the Bombay service",
+      "decision": "Kennedy dates his joining to 1810; Boase gives his appointment as assistant surgeon as 30 June 1811. Arrival and commission may differ. The page names both."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "First edition of Notes on the Epidemic Cholera",
+      "decision": "The surviving Calcutta copy is catalogued under 1827; the preface of the 1846 edition names 1826. No contemporary title page has been seen; the page says 1826 or 1827."
+    },
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Year of election as alderman of Cheap",
+      "decision": "The Illustrated London Almanack for 1856 gives 1851; Boase gives 1853–58. The page gives no starting year."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Retirement from the Company's service",
+      "decision": "Boase gives 1 May 1843; another biographical appendix gives 1842. The page says 1842 or 1843."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Sentence and time served",
+      "decision": "Nine months' imprisonment is the sentence passed; Boase records his release in July 1858. The sentence is not presented as time served."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Date and place of death",
+      "decision": "Rests on Boase. No death certificate or contemporary notice has been seen."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Orders and medals",
+      "decision": "No order of chivalry and no campaign medal is recorded in his name. His entitlement on the Ghuznee prize roll is not evidence of a medal; no honours gallery is shown."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Page references in the Narrative",
+      "decision": "Statements from the author's own text are taken from the publisher's paratext V2.6, which was written from the two volumes; exact page references remain to be added."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "The Narrative is read as the testimony of a medical officer written before the retreat from Kabul in 1842, not as an assessment of the policy that sent the army; no personal connection is claimed from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Prose follows the RHK_001 publisher's paratext V2.6 of November 2026 (sections II, II-A and the back covers) in substance. AETERNUS editorial judgement; no invented quotation."
+  },
+  "timeline": [
+    [
+      "1810",
+      "Joins the Bombay establishment, by his own date",
+      ""
+    ],
+    [
+      "1811",
+      "Assistant surgeon in the Bombay army, 30 June",
+      ""
+    ],
+    [
+      "1822",
+      "Surgeon",
+      ""
+    ],
+    [
+      "1826 or 1827",
+      "Notes on the Epidemic Cholera, Calcutta",
+      ""
+    ],
+    [
+      "1838",
+      "Chief of the Medical Staff, Bombay Division of the Army of the Indus; embarks in the Tapty, 21 November",
+      ""
+    ],
+    [
+      "1839",
+      "With the Bombay column through Sind and the Bolan to Kandahar, Ghazni and Kabul; return by Khelat",
+      ""
+    ],
+    [
+      "1840",
+      "Thanked in orders at Sukkur, 10 January; Member of the Medical Board, Bombay, 15 January",
+      ""
+    ],
+    [
+      "1840",
+      "Narrative of the Campaign of the Army of the Indus, two volumes, London: Bentley",
+      ""
+    ],
+    [
+      "1842",
+      "Physician-General, Bombay establishment",
+      ""
+    ],
+    [
+      "1842 or 1843",
+      "Retires from the Company's service",
+      ""
+    ],
+    [
+      "1846",
+      "Notes on the Epidemic Cholera, second edition, London",
+      ""
+    ],
+    [
+      "c. 1849",
+      "Director of the Royal British Bank",
+      ""
+    ],
+    [
+      "1855–1856",
+      "Sheriff of London",
+      ""
+    ],
+    [
+      "1858",
+      "Tried with the directors of the Royal British Bank; released in July",
+      ""
+    ],
+    [
+      "1865",
+      "Dies at the Great Western Hotel, Paddington, 24 July",
+      ""
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "henry-creswicke-rawlinson",
+      "kind": "thematic-comparison",
+      "sources": [
+        "NARRATIVE1",
+        "RAWLINSON1875"
+      ],
+      "en": "Thematic comparison: Kennedy records an army crossing the approaches to Afghanistan in 1839; Rawlinson later set out the political geography of Persia and Afghanistan in England and Russia in the East (1875). No personal connection is claimed."
+    },
+    {
+      "slug": "charles-metcalfe-macgregor",
+      "kind": "thematic-comparison",
+      "sources": [
+        "NARRATIVE1",
+        "MACGREGOR1882"
+      ],
+      "en": "Thematic comparison: the Bombay column reached Kandahar through Baluchistan; MacGregor described the same country in Wanderings in Balochistan (1882). No personal connection is claimed."
+    }
+  ],
+  "rank": {
+    "en": "Richard Hartley Kennedy, M.D., late Physician-General, Bombay Establishment"
+  },
+  "image": {
+    "status": "not-available",
+    "reason": "No portrait of Kennedy has been cleared for this page; no likeness has been generated or substituted."
+  },
+  "locales": {
+    "en": {
+      "tagline": "The physician who kept the Bombay column alive on the road to Kabul, and wrote it down before the victory turned.",
+      "intro": "Richard Hartley Kennedy, M.D., ran the medical department of the Bombay column of the Army of the Indus from Sind through the Bolan to Kandahar, Ghazni and Kabul in 1838 and 1839. He wrote the march as letters home, and Richard Bentley published them in London in 1840, before the retreat from Kabul changed what the campaign meant.",
+      "orientation": "Kennedy saw the army as a living body. Water, shelter, transport, provisions and the condition of men already weakened by disease decided its strength long before it met an enemy, and his Narrative sets them beside the landscape, the camps and the political encounters of the march.",
+      "overview": [
+        "He served the Honourable East India Company as a physician of the Bombay medical establishment for more than three decades, and wrote on cholera before he wrote on war. In the second volume he notes that the Indian appointments of Superintending Surgeon and Member of the Medical Board ranked, for precedence, with lieutenant-colonel and brigadier-general.",
+        "His later life ran through the City of London, the failure of the Royal British Bank and a criminal trial in 1858. These events belong to his biography; they do not change the evidence of the book he wrote in 1840."
+      ],
+      "originHeading": "Bombay, Guzerat and the cholera",
+      "careerHeading": "The Army of the Indus, the Medical Board and the City",
+      "origin": [
+        "Kennedy dated his joining of the Bombay establishment to 1810; the record gives his appointment as assistant surgeon in the Bombay army on 30 June 1811 and his promotion to surgeon in 1822. Marching down into the valley of the Cabool river in 1839, he saw beans in flower and remembered that he had last seen a bean-field in blossom in the summer of 1810, in the dale of Clyde. His date of birth, his parents and the university that granted his doctorate are not known.",
+        "By his own count eighteen of his Indian years were spent in Guzerat. His first book dealt with the disease that weighed most heavily on the armies and peoples of the East: Notes on the Epidemic Cholera appeared at Calcutta from the Baptist Mission Press in 1826 or 1827, and in a revised second edition in London in 1846."
+      ],
+      "career": [
+        "On 28 October 1838, at Mahabuleishwer, he received notice of his appointment as Chief of the Medical Staff of the Bombay Division. He reported at Bombay on 3 November to raise the medical department and embarked in the Tapty on 21 November. The column marched with the 4th Light Dragoons, the Queen's Royals and the 17th Foot, the 1st Bombay Light Cavalry, four regiments of Bombay Native Infantry and the Bombay artillery; its medical department was his charge through Sind and the Bolan to Kandahar, Ghazni and Kabul, and on the return by Khelat.",
+        "At Sukkur on 10 January 1840 Major-General Thomas Willshire thanked him in orders for his conduct of the medical department. Three days later he handed over to Field-surgeon Pinhey, and from 15 January he sat on the Medical Board at Bombay by seniority. His last circular closed with the names of the medical officers the department had lost. He became Physician-General in 1842 and retired from the Company's service in 1842 or 1843. No order of chivalry and no campaign medal is recorded in his name.",
+        "In London he entered the City. He was a director of the Royal British Bank from about 1849 and twice its deputy governor, alderman of the Ward of Cheap and Sheriff of London in 1855–1856. When the bank failed he was tried with its directors in February 1858 over misleading statements of its affairs, sentenced to nine months' imprisonment and released in July 1858. He died at the Great Western Hotel, Paddington, on 24 July 1865."
+      ],
+      "literature": [
+        "Kennedy wrote the Narrative as letters to two near relatives, whose names he does not give, and Bentley published it in two volumes in 1840. The first follows the forming of the expedition, the difficulties in Sind, the crossing of the Indus and the approach through Baluchistan to Kandahar and Ghazni. The second records the storming of Ghazni on 23 July 1839, the entry into Kabul and the restoration of Shah Shuja, and includes a large collection of official documents.",
+        "The letters keep what a dispatch leaves out: three officers of the Queen's Royals lost when the hunting-forest near Jerruk took fire; the festival dinner of the 23rd Bombay Native Infantry for one of its Indian officers admitted to the Order of British India; Shah Shuja struggling to fix the Douranee order on Sir John Keane's too-tight coat."
+      ],
+      "legacy": "Kennedy's book is the voice of the Army of the Indus at the moment its officers believed the undertaking had succeeded. It shows what it cost to carry an army across the mountains, and it stands at the beginning of the British writing on that frontier which runs on to Rawlinson and MacGregor.",
+      "bridge": "Narrative of the Campaign of the Army of the Indus, in Sind and Kaubool, in 1838–9. An English AETERNUS edition in two volumes, following Bentley's text of 1840 with a new historical apparatus, is in preparation in the Green Series.",
+      "description": "Richard Hartley Kennedy, M.D. (d. 1865), chief of the medical staff of the Bombay Division of the Army of the Indus and author of the Narrative of the Campaign of the Army of the Indus (1840). An English AETERNUS edition is in preparation.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ]
+    }
+  }
+}
