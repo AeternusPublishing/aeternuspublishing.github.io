@@ -93,6 +93,34 @@
       "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/robert-olave-baden-powell",
       "checked": "2026-11-16",
       "note": "Memorial biography, service and later life."
+    },
+    {
+      "id": "CB1901",
+      "title": "London Gazette · Order of the Bath, Companions, p. 2696",
+      "url": "https://www.thegazette.co.uk/London/issue/27306/page/2696/data.pdf",
+      "checked": "2026-11-16",
+      "note": "War Office, 19 April 1901: Military Division, Third Class, Companions, in recognition of services in South Africa. Names Major-General Robert Stephenson Smyth Baden-Powell."
+    },
+    {
+      "id": "STJOHN",
+      "title": "London Gazette · Order of St John, p. 3791",
+      "url": "https://www.thegazette.co.uk/London/issue/28611/page/3791/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Chancery, St John’s Gate, 23 May 1912, published 24 May 1912: Knights of Grace. Styles him K.C.B., K.C.V.O."
+    },
+    {
+      "id": "REDEEMER",
+      "title": "London Gazette · Greek Order of the Redeemer, p. 10197",
+      "url": "https://www.thegazette.co.uk/London/issue/32095/page/10197/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Published 22 October 1920: decoration conferred by the King of the Hellenes, Insignia of Grand Commander."
+    },
+    {
+      "id": "DANNEBROG",
+      "title": "London Gazette · Danish Order of the Dannebrog, p. 7974",
+      "url": "https://www.thegazette.co.uk/London/issue/32483/page/7974/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Whitehall, 11 October 1921: royal permission to wear the Grand Cross. The notice misprints his first name as Hubert; surname, middle names and K.C.B., K.C.V.O. identify him."
     }
   ],
   "facts": [
@@ -369,12 +397,25 @@
       "category": "order",
       "sources": [
         "KIERNAN",
+        "CB1901",
         "BATH",
         "CHRIST"
       ],
       "note": {
         "en": "Promoted from Companion (CB, 1901), an appointment made after the defence of Mafeking.",
         "de": "Aufstieg vom Companion (CB, 1901), der ihm nach der Verteidigung von Mafeking verliehen worden war."
+      }
+    },
+    {
+      "name": "Order of St John · Knight of Grace (KStJ)",
+      "year": "1912",
+      "category": "order",
+      "sources": [
+        "STJOHN"
+      ],
+      "note": {
+        "en": "Knight of Grace of the Order of the Hospital of St John of Jerusalem in England.",
+        "de": "Ritter der Gnade des Johanniterordens in England (Order of St John)."
       }
     },
     {
@@ -438,6 +479,30 @@
       "note": {
         "en": "Portuguese distinction listed in the London Gazette.",
         "de": "Portugiesische Auszeichnung, 1919 in der London Gazette verzeichnet."
+      }
+    },
+    {
+      "name": "Greek Order of the Redeemer · Grand Commander",
+      "year": "1920",
+      "category": "order",
+      "sources": [
+        "REDEEMER"
+      ],
+      "note": {
+        "en": "Conferred by the King of the Hellenes and listed in the London Gazette.",
+        "de": "Vom König der Hellenen verliehen, 1920 in der London Gazette verzeichnet."
+      }
+    },
+    {
+      "name": "Danish Order of the Dannebrog · Grand Cross",
+      "year": "1921",
+      "category": "order",
+      "sources": [
+        "DANNEBROG"
+      ],
+      "note": {
+        "en": "The date records British permission to wear the insignia.",
+        "de": "Das Jahr bezeichnet die britische Erlaubnis zum Tragen der Insignien."
       }
     },
     {
