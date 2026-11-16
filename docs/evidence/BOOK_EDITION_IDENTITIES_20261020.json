@@ -5808,28 +5808,28 @@
       "title": "The Matabele Campaign, 1896",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
+      "front_url": "/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
-          "sha256": "e712ce480439075b8576b1ade439469aa9abb89bac9e5ef10b33c358b8356bc8"
+          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+          "sha256": "fcfd735580a83e20e150a53b0daad11256a955b56ac9c0d1ef4156a37eaec24b"
         },
         {
-          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261018.webp",
-          "sha256": "6cf96e8a8a7157e55607c4ba4b216f92e83a19a8008b750959dc1363967fbb27"
+          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116.webp",
+          "sha256": "8f18bf5a76b48a9f086dbd1e96853c654f250aac0313a0d94b2181b91a169842"
         },
         {
-          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261018-fallback.jpg",
-          "sha256": "35871b67692438fa09c5028bc265b917090aa4e6a7854f6728932e3d6c00d052"
+          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+          "sha256": "091e047b675241054cd7acaf0ed83f2fd5b56326988fa600a8cdcb9ee14ba476"
         },
         {
-          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261018.webp",
-          "sha256": "5f6ca0fef15600e3e9c47fe98918df2fc00b691062149a0860f3b1ff93809ee0"
+          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261116.webp",
+          "sha256": "0cc4141cf2f792eff427ae0717be85afe93de295049979fc80c9f0bc8e566853"
         }
       ],
       "formats": [
         {
-          "label": "Paperback",
+          "label": "Paperback · Amazon",
           "isbn13": "9783676052108",
           "productform": "taschenbuch",
           "tokens": [],
@@ -5846,7 +5846,43 @@
           ]
         },
         {
-          "label": "Hardcover",
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052108",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-210-8",
+              "isbn10": "3676052102",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · Amazon",
+          "isbn13": "9783676052115",
+          "productform": "hardcover",
+          "tokens": [
+            "3676052110"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-211-5",
+              "isbn10": "3676052110",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
           "isbn13": "9783676052115",
           "productform": "hardcover",
           "tokens": [],
@@ -5863,7 +5899,7 @@
           ]
         },
         {
-          "label": "E-Book",
+          "label": "Kindle eBook",
           "isbn13": "9783676052122",
           "productform": "ebook",
           "tokens": [],
