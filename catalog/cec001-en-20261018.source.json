@@ -49,14 +49,14 @@
   {
    "form": "Paperback",
    "isbn": "978-3-67605-189-7",
-   "seiten": 504,
+   "seiten": 502,
    "preis_usd": 24.99,
    "plattform": "IngramSpark"
   },
   {
    "form": "Hardcover",
    "isbn": "978-3-67605-190-3",
-   "seiten": 504,
+   "seiten": 502,
    "preis_usd": 39.99,
    "plattform": "IngramSpark"
   },
@@ -73,6 +73,6 @@
  "relaunch": {
   "datum": "2026-11-16",
   "entscheidung": "decision_cec001_bestand_vollausbau_nur_ingram_untertitel_20261116",
-  "grund": "Ingram-Revision TB/HC 504 Seiten, Paratext V1.5, neuer Untertitel"
+  "grund": "Ingram-Revision TB/HC 502 Seiten, Paratext V1.5, neuer Untertitel"
  }
 }
