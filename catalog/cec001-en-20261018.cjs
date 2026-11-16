@@ -3,9 +3,9 @@ const a = source.autor, b = source.buch;
 const esc = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const paras = values => values.map(value => `<p>${esc(value)}</p>`).join('');
 const id = 'en-charles-edward-callwell-the-life-of-sir-stanley-maude';
-const status = 'Forthcoming · 27 October 2026';
+const status = 'Available now';
 const formats = source.formats.map(f => ({label: f.form, isbn: f.isbn, ...(f.seiten ? {pages: f.seiten} : {}), price_display: `US list price $${f.preis_usd.toFixed(2)}`, links: []}));
-const editionHTML = `<h2>${esc(b.titel)}</h2><p>${esc(b.untertitel)}</p><p>${esc(b.reihe)}</p><p>${status}</p><h3>${esc(b.kicker)}</h3>${paras([...b.blurb, b.schluss])}<ul>${b.features.map(f => `<li>${esc(f)}</li>`).join('')}</ul><p>First published: ${esc(b.erstausgabe)}</p>${formats.map(f => `<p>${esc(f.label)} · ISBN ${esc(f.isbn)}${f.pages ? ` · ${f.pages} pages` : ''} · ${esc(f.price_display)}</p>`).join('')}`;
+const editionHTML = `<h2>${esc(b.titel)}</h2><p>${esc(b.untertitel)}</p><p>${esc(b.reihe)}</p><h3>${esc(b.kicker)}</h3>${paras([...b.blurb, b.schluss])}<ul>${b.features.map(f => `<li>${esc(f)}</li>`).join('')}</ul><p>First published: ${esc(b.erstausgabe)}</p>${formats.map(f => `<p>${esc(f.label)} · ISBN ${esc(f.isbn)}${f.pages ? ` · ${f.pages} pages` : ''} · ${esc(f.price_display)}</p>`).join('')}`;
 module.exports = {
   author: {
     slug: a.slug, name: a.anzeige, dates: a.lebensdaten,
@@ -28,16 +28,16 @@ module.exports = {
     coverWebp: '/assets/images/' + b.umschlag,
     backcover: '/assets/images/' + b.rueckseite,
     backcoverWebp: '/assets/images/' + b.rueckseite.replace('-fallback.jpg', '.webp'),
-    publication_date: source.erscheinen, pricing: {}, availability: 'COMING_SOON',
+    publication_date: source.erscheinen, pricing: {}, availability: 'AVAILABLE',
     links: {shop: null, amazon: null, ingram: null},
-    distribution_status: {own_shop: 'NOT_CONFIGURED', amazon: 'UNKNOWN', ingram: 'UNKNOWN'},
+    distribution_status: {own_shop: 'NOT_CONFIGURED', amazon: 'PENDING', ingram: 'LIVE'},
     commerce: {shopify_product_id: null, shopify_handle: null},
     url: `/books/${id}/`, authorUrl: `/authors/${a.slug}/`,
     seriesName: 'Green Series', seriesColor: '#2d4a22', series_line: b.reihe,
     legacy: {modal: {metadata: b.reihe, sample: b.kurzbeschreibung[0]}},
     retailer_formats: formats,
     publisherDescriptionHTML: `<h3>${esc(b.kicker)}</h3>${paras([...b.blurb, b.schluss])}<ul>${b.features.map(f => `<li>${esc(f)}</li>`).join('')}</ul><p>First published: ${esc(b.erstausgabe)}</p>`,
-    forthcoming_label: status, cardStatus: status, brandOnly: true,
+    status_line: 'Live', cardStatus: status, brandOnly: true,
     provenance: 'CEC_001/08_SOCIAL_WEB_EN/WEBSITE_20261017/WEBSEITE_TEXTE.json'
   }
 };

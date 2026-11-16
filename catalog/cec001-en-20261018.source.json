@@ -20,48 +20,43 @@
  },
  "buch": {
   "titel": "The Life of Sir Stanley Maude",
-  "untertitel": "Lieutenant-General, K.C.B., C.M.G., D.S.O.",
+  "untertitel": "The General Who Restored British Arms in Mesopotamia",
   "reihe": "GREEN SERIES · The British Empire Collection",
-  "kicker": "The General Who Restored British Arms in Mesopotamia",
+  "kicker": "Lieutenant-General Sir Stanley Maude, K.C.B., C.M.G., D.S.O.",
   "blurb": [
-   "In April 1916 a British-led army surrendered at Kut. The defeat cast a long shadow over the Mesopotamian campaign and revealed the terrible consequences of an advance undertaken without adequate reserves, transport and supplies.",
-   "Eight months later another British and Indian army moved forward along the Tigris.",
-   "Its commander was Lieutenant-General Sir Stanley Maude.",
-   "A soldier of the Coldstream Guards, a veteran of imperial campaigns and a commander who had served in France and at Gallipoli, Maude possessed the rare faculty of transforming organisation into military power. In Mesopotamia he rebuilt an army whose prestige had been broken, restored its offensive capacity and led it through a deliberate campaign against determined Ottoman resistance.",
-   "Kut was recovered. The advance continued. On 11 March 1917 his troops entered Baghdad.",
-   "Written by Major-General Sir Charles Edward Callwell, distinguished military theorist and author of Small Wars: Their Principles and Practice, this biography follows Maude from his early regimental service to the achievement which established his enduring place in British military history.",
-   "The AETERNUS edition preserves Callwell's original work and frames it with new studies of the Persian Gulf, imperial strategy, the Mesopotamian campaign and the military principles underlying Maude's victory."
+   "Sir Stanley Maude is remembered for one city. Callwell’s life of him, written in 1920 by the general who had been Director of Military Operations at the War Office, shows what stood behind it: a Coldstream officer under fire at Suakin in 1885, a brigade-major of Guards on the march to Pretoria, Military Secretary at Ottawa, a staff officer on the Aisne, wounded at St. Eloi, and the commander who took the 13th Division off Helles on the last night of the evacuation.",
+   "In Mesopotamia he inherited an army that had lost Kut and the men sent to relieve it. He would not advance until the wharves, the river craft, the railway and the hospitals could carry an advance; then, between December 1916 and March 1917, he took the Turkish lines below Kut one by one, crossed the Tigris at Shumran, forced the Diyala and entered Baghdad. Eight months later he was dead of cholera in the city he had taken.",
+   "This edition prints the complete text of 1920 with its photographs and maps, and adds Maude’s appointments and honours from the Gazette, the Order of Battle of the Baghdad campaign, a register of the persons of the book, a glossary and an afterword on the war for the Gulf and the two rivers."
   ],
-  "schluss": "A career formed by duty. An army restored by method. A victory won upon the Tigris.",
+  "schluss": "GREEN SERIES · AETERNUS",
   "kurzbeschreibung": [
-   "Major-General Sir Charles Edward Callwell's 1920 biography of General Sir Stanley Maude, the British commander who rebuilt the Mesopotamian Expeditionary Force after the disaster of Kut and captured Baghdad in March 1917.",
+   "Major-General Sir Charles Edward Callwell’s 1920 life of Sir Stanley Maude, the general who rebuilt the army in Mesopotamia after Kut and entered Baghdad in March 1917.",
    "From his early service in the Coldstream Guards to his final command upon the Tigris, Maude's career is presented by one of the foremost British military writers of his generation.",
    "The AETERNUS edition preserves the original historical work and adds new studies of the Persian Gulf, imperial strategy, the Indian Army, the operations of 1916–1917 and the enduring military significance of Maude's achievements."
   ],
   "features": [
    "Complete text of the London edition of 1920, word for word",
-   "Photographs and plates of the original London edition",
-   "General Publisher’s Foreword and Foreword to This Edition",
-   "The Strategic Theatre and The Soldier Before Baghdad",
-   "The Tigris as an Instrument of War and The Army of India",
-   "Baghdad and the Political Object, Editorial Afterword and Editorial Note"
+   "Six photographs and eleven maps of the 1920 edition",
+   "About the Author and The Record of a Soldier",
+   "Publisher’s Note and Afterword",
+   "Note on the Text, Glossary, Dramatis Personae and Order of Battle"
   ],
   "erstausgabe": "Constable and Company Limited, London, 1920",
-  "umschlag": "cover-the-life-of-sir-stanley-maude-callwell-en-20261017.webp",
-  "rueckseite": "back-the-life-of-sir-stanley-maude-callwell-en-20261017-fallback.jpg"
+  "umschlag": "cover-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
+  "rueckseite": "back-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg"
  },
  "formats": [
   {
    "form": "Paperback",
    "isbn": "978-3-67605-189-7",
-   "seiten": 506,
+   "seiten": 502,
    "preis_usd": 24.99,
    "plattform": "IngramSpark"
   },
   {
    "form": "Hardcover",
    "isbn": "978-3-67605-190-3",
-   "seiten": 506,
+   "seiten": 502,
    "preis_usd": 39.99,
    "plattform": "IngramSpark"
   },
@@ -73,6 +68,11 @@
   }
  ],
  "erscheinen": "2026-10-27",
- "status": "forthcoming",
- "grenze": "Keine Kaufverweise, bis die Plattform LIVE meldet. Nur 'AETERNUS' als Marke, nur aeternuspublishing.com."
+ "status": "available",
+ "grenze": "Keine Kaufverweise, bis die Plattform LIVE meldet. Nur 'AETERNUS' als Marke, nur aeternuspublishing.com.",
+ "relaunch": {
+  "datum": "2026-11-16",
+  "entscheidung": "decision_cec001_bestand_vollausbau_nur_ingram_untertitel_20261116",
+  "grund": "Ingram-Revision TB/HC 502 Seiten, Paratext V1.5, neuer Untertitel"
+ }
 }
