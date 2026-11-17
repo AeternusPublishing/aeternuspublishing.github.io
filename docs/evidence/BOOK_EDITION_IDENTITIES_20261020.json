@@ -4071,11 +4071,15 @@
       "title": "From Korti to Khartum (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-from-korti-to-khartum-wilson-en-20261006-fallback.jpg",
+      "front_url": "/assets/images/cover-cww001-en-r3g-20261111.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-from-korti-to-khartum-wilson-en-20261006-fallback.jpg",
-          "sha256": "e9be0aff4c8a0bf70025a4403a0505f2cf71e8079aca38ac329cf340c7529fee"
+          "path": "src/assets/images/cover-cww001-en-r3g-20261111.jpg",
+          "sha256": "2ea946f6ee498eedff51b3171cd006b757b45023d12fc946f77f4b0dcc9c3386"
+        },
+        {
+          "path": "src/assets/images/cover-cww001-en-r3g-20261111.webp",
+          "sha256": "4eceddefb1d2eb5bcba8d482188273f812f59c27fce5d4efb006715cd520080f"
         }
       ],
       "formats": [
@@ -4083,7 +4087,9 @@
           "label": "Paperback",
           "isbn13": "9783676051347",
           "productform": "taschenbuch",
-          "tokens": [],
+          "tokens": [
+            "3676051343"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "CWW_001",
@@ -4092,7 +4098,7 @@
               "titel": "From Korti to Khartum (Illustrated)",
               "isbn13": "978-3-67605-134-7",
               "isbn10": "3676051343",
-              "asin": null
+              "asin": "3676051343"
             }
           ]
         },
@@ -4100,7 +4106,9 @@
           "label": "Hardcover",
           "isbn13": "9783676051354",
           "productform": "hardcover",
-          "tokens": [],
+          "tokens": [
+            "3676051351"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "CWW_001",
@@ -4109,7 +4117,7 @@
               "titel": "From Korti to Khartum (Illustrated)",
               "isbn13": "978-3-67605-135-4",
               "isbn10": "3676051351",
-              "asin": null
+              "asin": "3676051351"
             }
           ]
         },
@@ -4126,7 +4134,7 @@
               "titel": "From Korti to Khartum (Illustrated)",
               "isbn13": "978-3-67605-136-1",
               "isbn10": "367605136X",
-              "asin": null
+              "asin": "B0HRDZQR93"
             }
           ]
         }
