@@ -1,0 +1,6 @@
+{% if supplement %}
+<section class="shell detail-section" id="{{ supplement.id }}">
+  <div><p class="kicker">{{ supplement.kicker }}</p><h2>{{ supplement.title }}</h2><p>{{ supplement.description }}</p><a class="text-link" href="{{ supplement.download }}" download>{{ supplement.downloadLabel }} ↓</a></div>
+  <figure class="edition-supplement"><a href="{{ supplement.download }}" aria-label="Open the full companion map PDF"><img src="{{ supplement.preview }}" alt="{{ supplement.alt | escape }}" width="{{ supplement.width }}" height="{{ supplement.height }}" loading="lazy"></a><figcaption>{{ supplement.credit }} <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">Map data licence ↗</a></figcaption></figure>
+</section>
+{% endif %}

@@ -170,6 +170,17 @@ hillBook.legacy = { ...hillBook.legacy, modal: { ...hillBook.legacy.modal, metad
 const hillAuthor = authorsEn.find(author => author.slug === 'james-j-hill');
 hillAuthor.publisherEditionHTML = '<h2>Highways of Progress</h2><div class="actions">' + hill.formats.map(format => `<a class="button ink-button" href="${format.links[0].url}" target="_blank" rel="noopener noreferrer">${format.label} on Amazon</a>`).join('') + '</div><p>Print edition · 310 pages</p>' + hill.description_html;
 
+// Wilson R3G: released cover and KDP LIVE observations supersede the October announcement.
+const wilson = require('./cww001-en-20261117.json');
+Object.assign(authorsEn.find(author => author.slug === 'charles-william-wilson'), wilson.author);
+const wilsonBook = englishBooks.find(book => book.author === 'charles-william-wilson');
+Object.assign(wilsonBook, wilson.book);
+authorsEn.find(author => author.slug === 'charles-william-wilson').supplement = wilsonBook.supplement;
+for (const format of wilsonBook.retailer_formats) {
+  const key = { Paperback: 'paperback', Hardcover: 'hardcover', Kindle: 'ebook' }[format.label];
+  wilsonBook.formats[key] = { ...format, availability: 'AVAILABLE' };
+}
+
 // FP_005: hash-released Ingram print editions; no retail links before LIVE.
 const fp005 = require('./fp005-en-20261016.json');
 englishBooks.push(fp005);

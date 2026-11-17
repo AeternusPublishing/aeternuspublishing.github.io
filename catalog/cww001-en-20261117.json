@@ -1,0 +1,126 @@
+{
+  "author": {
+    "preview": false,
+    "previewStatus": "",
+    "facts": [
+      [
+        "Series",
+        "Green"
+      ],
+      [
+        "Text",
+        "English · first edition, Edinburgh and London 1885"
+      ],
+      [
+        "Print edition",
+        "244 pages · thirteen redrawn sketch plans · two Admiralty plates"
+      ],
+      [
+        "Formats",
+        "Paperback · Hardcover · Kindle · Available now"
+      ]
+    ],
+    "worksIntro": "The text of the first edition of 1885, with thirteen redrawn sketch plans, historical plates, a biography of Wilson, glossary, dramatis personae and order of battle. Paperback and hardcover are available now; the Kindle retailer link is under verification."
+  },
+  "book": {
+    "work_id": "CWW_001",
+    "subtitle": "The Diary of the Desert Column and the Last March to Khartoum, 1884-1885",
+    "cover": "/assets/images/cover-cww001-en-r3g-20261111.jpg",
+    "coverWebp": "/assets/images/cover-cww001-en-r3g-20261111.webp",
+    "availability": "AVAILABLE",
+    "cardStatus": "Available now · Paperback and hardcover",
+    "status_line": "Available now",
+    "availabilityNote": "Available now in paperback and hardcover.",
+    "description": {
+      "short": "Wilson’s first-hand journal of the Desert Column and the final voyage towards Gordon’s Khartoum in 1885, with thirteen redrawn sketch plans, historical plates and an expanded biographical and military apparatus.",
+      "long": "Wilson’s first-hand journal of the Desert Column and the final voyage towards Gordon’s Khartoum in 1885, with thirteen redrawn sketch plans, historical plates and an expanded biographical and military apparatus."
+    },
+    "publisherDescriptionHTML": "<ul><li>Glossary</li><li>Dramatis Personae</li><li>Order of Battle</li><li>Biographical Apparatus</li></ul><p>This is the journal of the Desert March of 1885 and of the last voyage up the Nile to Khartoum, written by Sir Charles William Wilson, head of intelligence of the Nile Expedition. He wrote it up from his daily notes and published it in 1885.</p><p>Wilson records the crossing of the Bayuda stage by stage: the wells, the dura, the overloaded camels. He was in the square at Abu Klea and in command at Abu Kru, and he describes both actions with an officer's exactness. He gives the Mahdist Ansar their full due for discipline and courage. In Gordon's own steamers, crewed by Sudanese soldiers, he then forced the river to the junction of the two Niles. He arrived two days after the city had fallen and turned back under fire, through cataracts that wrecked both vessels.</p><p>This AETERNUS edition prints the text of the first edition, published by William Blackwood and Sons in Edinburgh and London. It adds a biography of Wilson across his whole life, from the survey of Jerusalem to the Ordnance Survey and the War Office. It also gives his final style and honours, an order of battle drawn from the book's own returns, a dramatis personae of the men who appear in it, a glossary of Sudanese and military terms, and an afterword that sets the campaign on its ground: water, distance and time.</p>",
+    "retailer_formats": [
+      {
+        "label": "Paperback",
+        "isbn": "978-3-67605-134-7",
+        "pages": 244,
+        "price_display": "US list price $17.99",
+        "status": "LIVE",
+        "links": [
+          {
+            "label": "United States",
+            "url": "https://www.amazon.com/dp/3676051343"
+          }
+        ]
+      },
+      {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-135-4",
+        "pages": 244,
+        "price_display": "US list price $27.99",
+        "status": "LIVE",
+        "links": [
+          {
+            "label": "United States",
+            "url": "https://www.amazon.com/dp/3676051351"
+          }
+        ]
+      },
+      {
+        "label": "Kindle",
+        "isbn": "978-3-67605-136-1",
+        "pages": null,
+        "price_display": "US list price $9.99",
+        "status": "LIVE",
+        "links": [],
+        "availability_note": "Kindle edition · retailer link under verification."
+      }
+    ],
+    "links": {
+      "shop": null,
+      "amazon": "https://www.amazon.com/dp/3676051343",
+      "ingram": null
+    },
+    "distribution_status": {
+      "own_shop": "NOT_CONFIGURED",
+      "amazon": "LIVE",
+      "ingram": "UNKNOWN",
+      "other": {}
+    },
+    "illustrationPreviews": [
+      {
+        "src": "/assets/images/cww001-en-r3g-sketch-page-76.jpg",
+        "width": 900,
+        "height": 1350,
+        "caption": "One of the thirteen redrawn sketch plans · page 76 of this edition.",
+        "alt": "Redrawn sketch plan from From Korti to Khartum, page 76"
+      },
+      {
+        "src": "/assets/images/cww001-en-r3g-gardner-page-51.jpg",
+        "width": 900,
+        "height": 1350,
+        "caption": "The 0.45-inch Gardner gun, two-barrel naval pattern, 1886 · page 51 of this edition.",
+        "alt": "Gardner gun historical technical plate reproduced on page 51 of From Korti to Khartum"
+      }
+    ],
+    "supplement": {
+      "id": "companion-map",
+      "kicker": "Free companion map",
+      "title": "The campaign on the map.",
+      "description": "Follow the Desert Column from Korti through Abu Klea to the Nile, then trace Wilson’s steamer voyage towards Khartum. This separately downloadable map includes a campaign chronology and a detailed river inset.",
+      "download": "/assets/downloads/wilson-korti-to-khartum-companion-map-a2.pdf",
+      "downloadLabel": "Download the free A2 map (PDF · 1.2 MB)",
+      "preview": "/assets/images/cww001-companion-map-a2-preview.jpg",
+      "width": 900,
+      "height": 1273,
+      "alt": "Companion map of the Desert Column route from Korti to Gubat and the steamer voyage to Khartum, 1885",
+      "credit": "Drawn for AETERNUS from Wilson’s journal and the 1885 sketch map. Desert positions are approximate. Relief: SRTM (NASA) via AWS Terrain Tiles. River: © OpenStreetMap contributors, ODbL."
+    },
+    "provenance": "CWW_001/09_EXPORT/UPLOADPAKET_EN_R3G_20261111; KDP LIVE observations 12–13 November 2026; docs/evidence/CWW001_WEB_SYNC_20261117.json",
+    "legacy": {
+      "modal": {
+        "metadata": "AETERNUS · Green Series · 244 print pages · Thirteen redrawn sketch plans · Two Admiralty plates",
+        "summary": "Wilson’s first-hand journal of the Desert Column and the final voyage towards Gordon’s Khartoum in 1885, with thirteen redrawn sketch plans, historical plates and an expanded biographical and military apparatus.",
+        "sample": "Wilson’s first-hand journal of the Desert Column and the final voyage towards Gordon’s Khartoum in 1885, with thirteen redrawn sketch plans, historical plates and an expanded biographical and military apparatus.",
+        "status": "Available in paperback and hardcover"
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "schema": "AETERNUS_WEBSITE_ASSET_SYNC_V1",
+  "date": "2026-11-17",
+  "work_id": "CWW_001",
+  "authority": "Publisher request in this chat to correct Wilson book webpage, dead links, missing imagery, stale availability and cover; previous released package decision_cww001_en_relaunch_r3g_endfreigabe_20261111.",
+  "package": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CWW_CHARLES_WILLIAM_WILSON\\02_WERKE\\CWW_001_FROM_KORTI_TO_KHARTUM_1885\\09_EXPORT\\UPLOADPAKET_EN_R3G_20261111",
+  "package_preflight_sha256": "17bb081cec35e31331583c330f9f0677fb9c968ff13834a4af6735cff273bc89",
+  "sources": [
+    {
+      "path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CWW_CHARLES_WILLIAM_WILSON\\02_WERKE\\CWW_001_FROM_KORTI_TO_KHARTUM_1885\\09_EXPORT\\UPLOADPAKET_EN_R3G_20261111\\CWW001_EN_EBOOK_DECKEL_1600x2400.jpg",
+      "sha256": "30449c174252a25d3c4f17939155849d33ebff2b3a905ac3e52919921fd7dd24"
+    },
+    {
+      "path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CWW_CHARLES_WILLIAM_WILSON\\02_WERKE\\CWW_001_FROM_KORTI_TO_KHARTUM_1885\\09_EXPORT\\UPLOADPAKET_EN_R3G_20261111\\CWW001_EN_INNENTEIL_6x9_244.pdf",
+      "sha256": "19909733381bbc752fb31cd61e48842fea04f57548b3ca5a77fa6ed7569f347f"
+    },
+    {
+      "path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CWW_CHARLES_WILLIAM_WILSON\\02_WERKE\\CWW_001_FROM_KORTI_TO_KHARTUM_1885\\08_KARTE\\ausgabe\\wilson_karte_A2.pdf",
+      "sha256": "5eb1d535abd73db061292b07f55b7ecb7cbddc73925c6899476737038235812e"
+    },
+    {
+      "path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CWW_CHARLES_WILLIAM_WILSON\\02_WERKE\\CWW_001_FROM_KORTI_TO_KHARTUM_1885\\09_EXPORT\\UPLOADPAKET_EN_R3G_20261111\\METADATEN\\KDP_METADATA_CWW001_EN_PAPERBACK.json",
+      "sha256": "b672004e3d532ff4530410dc8372911c869fedde412c30855828eaa5d0745452"
+    }
+  ],
+  "derived_assets": [
+    {
+      "path": "src/assets/images/cover-cww001-en-r3g-20261111.jpg",
+      "sha256": "2ea946f6ee498eedff51b3171cd006b757b45023d12fc946f77f4b0dcc9c3386",
+      "source_sha256": "30449c174252a25d3c4f17939155849d33ebff2b3a905ac3e52919921fd7dd24",
+      "dimensions": [
+        900,
+        1350
+      ],
+      "operation": "whole approved ebook front cover, proportional web derivative"
+    },
+    {
+      "path": "src/assets/images/cover-cww001-en-r3g-20261111.webp",
+      "sha256": "4eceddefb1d2eb5bcba8d482188273f812f59c27fce5d4efb006715cd520080f",
+      "source_sha256": "30449c174252a25d3c4f17939155849d33ebff2b3a905ac3e52919921fd7dd24",
+      "dimensions": [
+        900,
+        1350
+      ],
+      "operation": "whole approved ebook front cover, proportional web derivative"
+    },
+    {
+      "path": "src/assets/images/cww001-en-r3g-sketch-page-76.jpg",
+      "sha256": "b5b09b818ffc2d447fe3e8549bb39a35d7bf87c5c8ffc18791128afebdca2cbd",
+      "source_sha256": "19909733381bbc752fb31cd61e48842fea04f57548b3ca5a77fa6ed7569f347f",
+      "pdf_page": 76,
+      "dimensions": [
+        900,
+        1350
+      ],
+      "operation": "uncropped full-page render from released 244-page print interior"
+    },
+    {
+      "path": "src/assets/images/cww001-en-r3g-gardner-page-51.jpg",
+      "sha256": "2f5b5e7e3daad92b54d6b3ebc07f25ab4938662ddb8340601f6a3c1e5ee3ebd6",
+      "source_sha256": "19909733381bbc752fb31cd61e48842fea04f57548b3ca5a77fa6ed7569f347f",
+      "pdf_page": 51,
+      "dimensions": [
+        900,
+        1350
+      ],
+      "operation": "uncropped full-page render from released 244-page print interior"
+    },
+    {
+      "path": "src/assets/downloads/wilson-korti-to-khartum-companion-map-a2.pdf",
+      "sha256": "5eb1d535abd73db061292b07f55b7ecb7cbddc73925c6899476737038235812e",
+      "source_sha256": "5eb1d535abd73db061292b07f55b7ecb7cbddc73925c6899476737038235812e",
+      "operation": "byte-identical companion map PDF; original cartographic attribution retained"
+    },
+    {
+      "path": "src/assets/images/cww001-companion-map-a2-preview.jpg",
+      "sha256": "0ee8d88358dcdb693fb7a7be3370143e3a307d8233f70e82b77ff9c69887dbbb",
+      "source_sha256": "5eb1d535abd73db061292b07f55b7ecb7cbddc73925c6899476737038235812e",
+      "dimensions": [
+        900,
+        1273
+      ],
+      "operation": "uncropped full-page preview of existing A2 map"
+    }
+  ],
+  "live_formats": [
+    {
+      "label": "Paperback",
+      "isbn": "978-3-67605-134-7",
+      "pages": 244,
+      "price_display": "US list price $17.99",
+      "status": "LIVE",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676051343"
+        }
+      ]
+    },
+    {
+      "label": "Hardcover",
+      "isbn": "978-3-67605-135-4",
+      "pages": 244,
+      "price_display": "US list price $27.99",
+      "status": "LIVE",
+      "links": [
+        {
+          "label": "United States",
+          "url": "https://www.amazon.com/dp/3676051351"
+        }
+      ]
+    },
+    {
+      "label": "Kindle",
+      "isbn": "978-3-67605-136-1",
+      "pages": null,
+      "price_display": "US list price $9.99",
+      "status": "LIVE",
+      "links": [],
+      "availability_note": "Kindle edition · retailer link under verification."
+    }
+  ],
+  "live_evidence": "aeternus.py buchregister isbn CWW_001, queried 17 November 2026. KDP paperback and hardcover R3G LIVE 12 November, Kindle LIVE 13 November. Ingram not claimed LIVE.",
+  "public_retailer_observations": [
+    {
+      "observed_utc": "2026-11-17T19:00:35Z",
+      "url": "https://www.amazon.com/dp/3676051343",
+      "result": "Product page loaded, exact title and ISBN 9783676051347 verified in browser"
+    },
+    {
+      "observed_utc": "2026-11-17T19:00:39Z",
+      "url": "https://www.amazon.com/dp/3676051351",
+      "result": "Product page loaded, exact title and ISBN 9783676051354 verified in browser"
+    },
+    {
+      "observed_utc": "2026-11-17T19:00:21Z",
+      "url": "https://www.amazon.com/dp/B0HRDZQR93",
+      "http_status": 404,
+      "result": "Amazon product page not found; link withheld despite KDP LIVE register"
+    },
+    {
+      "observed_utc": "2026-11-17T19:00:57Z",
+      "url": "https://www.amazon.de/dp/B0HRDZQR93",
+      "http_status": 404,
+      "result": "Amazon product page not found; confirms public listing discrepancy"
+    }
+  ],
+  "pending_cover_relaunch": "The title-and-honours cover preview of 17 November is a separate compiler typesetting request, explicitly not a released trade file. This sync uses the released R3G cover and preserves original assets.",
+  "cost_usd": 0
+}
