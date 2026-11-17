@@ -41,7 +41,8 @@ for (const collection of architecture.collections) {
   assert.equal(sitemap.includes(collection.url), collection.public, `${collection.id} sitemap`);
   if (collection.series !== 'gruen') assert.equal(collection.public, false);
   if (collection.public) {
-    assert(collection.books.length || collection.publishedGerman.length, collection.id);
+    assert(collection.books.length, collection.id);
+    assert(collection.books.every(book => book.language === 'en'), `${collection.id}: English collection contains another edition language`);
     assert(overview.includes(escaped(collection.title)) && overview.includes(`href="${collection.url}"`), collection.id);
     const page = html(`${collection.url.slice(1)}index.html`);
     for (const book of collection.books) {
@@ -49,9 +50,10 @@ for (const collection of architecture.collections) {
       assert(html(`${book.url.slice(1)}index.html`).includes(collection.url), book.id);
     }
     for (const book of collection.publishedGerman) {
-      assert(overview.includes(book.url) && page.includes(book.url), book.id);
+      assert(!overview.includes(book.url) && !page.includes(book.url), `${book.id}: German edition leaked into English collections`);
     }
-    if (!collection.publishedBooks.length && !collection.publishedGerman.length) assert(!page.includes('Published editions.'), collection.id);
+    assert(!page.includes('German-language edition') && !overview.includes('German-language edition'), `${collection.id}: English collections advertise German editions`);
+    if (!collection.publishedBooks.length) assert(!page.includes('Published editions.'), collection.id);
   } else {
     assert(!overview.includes(collection.url) && !greenSeriesPage.includes(collection.url), collection.id);
   }
