@@ -5677,7 +5677,7 @@
       "assets": [
         {
           "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
-          "sha256": "2fcd0ac280e4d6534d8a101bda5827f4389c59961e0063b0e7c66e052094c8cb"
+          "sha256": "2a4f69a1a97e5389e70fd54773d10b2957d936bb63ff462e54dd4ac467535163"
         },
         {
           "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
@@ -5685,11 +5685,11 @@
         },
         {
           "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
-          "sha256": "e5effab0bc77480b8276545b242152ba4bd6eb20f10ca48399c8c2bbef54c9d5"
+          "sha256": "56a4ace1466309b2b5e08e174e7b6afc12bce5e1a9e9e794e7c19ca08821e961"
         },
         {
           "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
-          "sha256": "67cb1896d24453cd3fc50d86bf2b52ecfdeb60a7c6908fffdc2f0fe7e46937e4"
+          "sha256": "2823911d19b621e1aa664b1d1849acba2c437c1d88844956d50d75be5ce5f19d"
         }
       ],
       "formats": [
@@ -7681,11 +7681,11 @@
       "id": "en-robert-mcclure-the-discovery-of-the-north-west-passage",
       "language": "en",
       "url": "/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/",
-      "front_url": "/assets/images/cover-rmc001-ingram-paperback.jpg",
+      "front_url": "/assets/images/cover-rmc001-front.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-rmc001-ingram-paperback.jpg",
-          "sha256": "6c47d5b26ce88e2d293ba61080affc6d8ae852d015eb344801dab17698eaa572"
+          "path": "src/assets/images/cover-rmc001-front.jpg",
+          "sha256": "97c81e25c18dd081c79a748e9ca8a80a31681713373605c8b823759066ae3617"
         }
       ],
       "formats": [
