@@ -69,15 +69,15 @@
       "short": "The road to Baghdad ran north through heat, marsh, dust and the winding course of the Tigris. Along it advanced the 6th (Poona) Division of the Indian Army under Major-General Sir Charles Townshend: British and Indian regiments moving farther from their bases, farther from reinforcement, and deeper into a campaign in which every mile gained lengthened the line upon which the army depended.",
       "long": "MESOPOTAMIA, 1915–1916.\n\nThe road to Baghdad ran north through heat, marsh, dust and the winding course of the Tigris. Along it advanced the 6th (Poona) Division of the Indian Army under Major-General Sir Charles Townshend: British and Indian regiments moving farther from their bases, farther from reinforcement, and deeper into a campaign in which every mile gained lengthened the line upon which the army depended.\n\nThere were victories at Kurna, Amara and Kut. Then came the advance upon Baghdad, the savage battle of Ctesiphon, the retreat down the Tigris and the decision that would define Townshend’s name forever: to stand at Kut-al-Amara.\n\nFor nearly five months the garrison endured bombardment, assault, hunger and the repeated failure of the relief columns fighting their way north. When surrender came on 29 April 1916, it ended one of the most formidable sieges in the history of the British and Indian Armies—and began one of the most bitter controversies over command in the Great War.\n\nFirst published in London in 1920, My Campaign in Mesopotamia is Townshend’s own account of that march from confidence to extremity: a commander’s record of operations, orders, calculations, battles and decisions, written by a man determined that judgment should be passed with the facts of command before it.\n\nIt is not a story of uncomplicated victory. It is a book about what remains when victory recedes and duty, honour and command must bear the whole weight of events.\n\nGREEN SERIES · AETERNUS"
     },
-    "publisherDescriptionHTML": "<ul><li>Complete text of the first London edition of 1920, word for word</li><li>All fifteen campaign charts and battle plans of the 1920 edition</li><li>Seven further plates: photographs of 1915 and 1916, two official charts</li><li>Publisher’s foreword, historical introduction and afterword</li><li>Chronology, principal commanders and forces, select glossary</li></ul><blockquote><p>A book of extraordinary fascination.</p><cite>The Dial, New York, October 1920</cite></blockquote><p>MESOPOTAMIA, 1915–1916.</p><p>The road to Baghdad ran north through heat, marsh, dust and the winding course of the Tigris. Along it advanced the 6th (Poona) Division of the Indian Army under Major-General Sir Charles Townshend: British and Indian regiments moving farther from their bases, farther from reinforcement, and deeper into a campaign in which every mile gained lengthened the line upon which the army depended.</p><p>There were victories at Kurna, Amara and Kut. Then came the advance upon Baghdad, the savage battle of Ctesiphon, the retreat down the Tigris and the decision that would define Townshend’s name forever: to stand at Kut-al-Amara.</p><p>For nearly five months the garrison endured bombardment, assault, hunger and the repeated failure of the relief columns fighting their way north. When surrender came on 29 April 1916, it ended one of the most formidable sieges in the history of the British and Indian Armies—and began one of the most bitter controversies over command in the Great War.</p><p>First published in London in 1920, My Campaign in Mesopotamia is Townshend’s own account of that march from confidence to extremity: a commander’s record of operations, orders, calculations, battles and decisions, written by a man determined that judgment should be passed with the facts of command before it.</p><p>It is not a story of uncomplicated victory. It is a book about what remains when victory recedes and duty, honour and command must bear the whole weight of events.</p><p>GREEN SERIES · AETERNUS</p><p>First published: Thornton Butterworth, London, 1920</p>",
+    "publisherDescriptionHTML": "<ul><li>Complete text of the first London edition of 1920, word for word</li><li>All fifteen campaign charts and battle plans of the 1920 edition</li><li>Seven further plates: photographs of 1915 and 1916, two official charts</li><li>Publisher’s foreword, historical introduction and afterword</li><li>Author’s record, chronology, glossary, dramatis personae, order of battle</li></ul><blockquote><p>A book of extraordinary fascination.</p><cite>The Dial, New York, October 1920</cite></blockquote><p>MESOPOTAMIA, 1915–1916.</p><p>The road to Baghdad ran north through heat, marsh, dust and the winding course of the Tigris. Along it advanced the 6th (Poona) Division of the Indian Army under Major-General Sir Charles Townshend: British and Indian regiments moving farther from their bases, farther from reinforcement, and deeper into a campaign in which every mile gained lengthened the line upon which the army depended.</p><p>There were victories at Kurna, Amara and Kut. Then came the advance upon Baghdad, the savage battle of Ctesiphon, the retreat down the Tigris and the decision that would define Townshend’s name forever: to stand at Kut-al-Amara.</p><p>For nearly five months the garrison endured bombardment, assault, hunger and the repeated failure of the relief columns fighting their way north. When surrender came on 29 April 1916, it ended one of the most formidable sieges in the history of the British and Indian Armies—and began one of the most bitter controversies over command in the Great War.</p><p>First published in London in 1920, My Campaign in Mesopotamia is Townshend’s own account of that march from confidence to extremity: a commander’s record of operations, orders, calculations, battles and decisions, written by a man determined that judgment should be passed with the facts of command before it.</p><p>It is not a story of uncomplicated victory. It is a book about what remains when victory recedes and duty, honour and command must bear the whole weight of events.</p><p>GREEN SERIES · AETERNUS</p><p>First published: Thornton Butterworth, London, 1920</p>",
     "cover": "/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
     "coverWebp": "/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.webp",
     "backcover": "/assets/images/cover-back-my-campaign-in-mesopotamia-townshend-en.jpg",
     "backcoverWebp": "/assets/images/cover-back-my-campaign-in-mesopotamia-townshend-en.webp",
     "publication_date": "2026-10-20",
     "pricing": {},
-    "availability": "COMING_SOON",
-    "forthcoming_label": "Forthcoming · 20 October 2026",
+    "availability": "AVAILABLE",
+    "status_line": "Live",
     "links": {
       "shop": null,
       "amazon": null,
@@ -97,7 +97,7 @@
     "seriesColor": "#2d4a22",
     "legacy": {
       "modal": {
-        "metadata": "628 book pages · 630 pages in the Ingram editions · Paperback and hardcover forthcoming, 20 October 2026",
+        "metadata": "624 book pages · 626 pages in the Ingram editions · Paperback and hardcover",
         "sample": "The road to Baghdad ran north through heat, marsh, dust and the winding course of the Tigris. Along it advanced the 6th (Poona) Division of the Indian Army under Major-General Sir Charles Townshend: British and Indian regiments moving farther from their bases, farther from reinforcement, and deeper into a campaign in which every mile gained lengthened the line upon which the army depended."
       }
     },
@@ -105,7 +105,7 @@
       {
         "label": "Paperback",
         "isbn": "978-3-67605-173-6",
-        "pages": 630,
+        "pages": 626,
         "price_display": "US$27.99",
         "links": [],
         "status": "FREIGEGEBEN"
@@ -113,7 +113,7 @@
       {
         "label": "Hardcover",
         "isbn": "978-3-67605-174-3",
-        "pages": 630,
+        "pages": 626,
         "price_display": "US$44.99",
         "links": [],
         "status": "FREIGEGEBEN"

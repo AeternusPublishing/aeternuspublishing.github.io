@@ -44,6 +44,34 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dictionary_of_Indian_biography%3B_%28IA_dictionaryofindi00buck%29.pdf",
       "checked": "2026-10-20",
       "note": "Institutional biography or collection description; retrieved 20 October 2026"
+    },
+    {
+      "id": "ODNB",
+      "title": "Oxford Dictionary of National Biography · Charles Vere Ferrers Townshend",
+      "url": "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/582917303",
+      "checked": "2026-11-16",
+      "note": "Opening biographical notice: family in Southwark and command of the Raga Pertab battalion at Gilgit."
+    },
+    {
+      "id": "KUT",
+      "title": "British Library / Qatar Digital Library · Defence of Kut, IOR/L/MIL/17/15/105",
+      "url": "https://www.qdl.qa/en/archive/81055/vdc_100000000239.0x0001ad",
+      "checked": "2026-11-16",
+      "note": "India Office printed file, 1916. Includes Townshend’s 10 March despatch, ff. 2v–8r, and its appendices, ff. 8v–21."
+    },
+    {
+      "id": "CAMPAIGN",
+      "title": "National Library of Ireland · My Campaign in Mesopotamia (1920)",
+      "url": "https://catalogue.nli.ie/Record/vtls000395231",
+      "checked": "2026-11-16",
+      "note": "Bibliographic record of Townshend’s retrospective account. Compare with the contemporaneous reports in KUT."
+    },
+    {
+      "id": "WARNEWS",
+      "title": "The Illustrated War News · Townshend at Kut and Chitral, 1 March 1916",
+      "url": "https://wartimecanada.ca/sites/default/files/2023-06/The%20Illustrated%20War%20News%20March%201%2C%201916.pdf",
+      "checked": "2026-11-16",
+      "note": "Contemporary profile before the surrender. Records a Chitral medal with two clasps and the brevet, and styles Townshend CB and DSO."
     }
   ],
   "facts": [
@@ -51,76 +79,78 @@
       "id": "F01",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Born 1861; commissioned into Royal Marine Light Infantry 1881; transferred to Indian Army 1886.",
+      "statement": "Born in Southwark in 1861, the son of a railway clerk; educated at Cranleigh and Sandhurst, commissioned in Royal Marine Light Infantry in 1881 and transferred to Indian service in 1886.",
       "sources": [
-        "KINGS",
-        "NAM",
-        "MELLISS",
-        "GAZETTE"
+        "ODNB",
+        "KINGS"
       ]
     },
     {
       "id": "F02",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Chitral garrison commander 1895; CB 1895; Sudan service; DSO 1898.",
+      "statement": "Commanded a battalion of the Kashmir contingent at Gilgit and commanded the garrison at Chitral in 1895. CB and brevet major for Chitral, and a medal with two clasps in a contemporary account.",
       "sources": [
+        "ODNB",
         "KINGS",
-        "NAM",
-        "MELLISS",
-        "GAZETTE"
+        "GAZETTE",
+        "WARNEWS"
       ]
     },
     {
       "id": "F03",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Major-general 1911; commanded 6th (Poona) Division in Mesopotamia 1915–16.",
+      "statement": "Commanded the 12th Sudanese Battalion in Egyptian service; fought at the Atbara and Khartoum in 1898, the year of his DSO. Major-general in 1911.",
       "sources": [
-        "KINGS",
-        "NAM",
-        "MELLISS",
-        "GAZETTE"
+        "KINGS"
       ]
     },
     {
       "id": "F04",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Advance to Amara and Kut 1915; Ctesiphon setback; surrender at Kut 29 April 1916.",
+      "statement": "The British expedition protected the oil interests around the Persian Gulf. Townshend led the 6th (Poona) Division along the Tigris in 1915, took Amara and Kut, failed to break through at Ctesiphon and surrendered at Kut on 29 April 1916 after relief failed.",
       "sources": [
         "KINGS",
         "NAM",
-        "MELLISS",
-        "GAZETTE"
+        "KUT"
       ]
     },
     {
       "id": "F05",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Prisoner 1916–18 with preferential treatment; troops suffered catastrophic captivity.",
+      "statement": "Townshend was a prisoner between 1916 and 1918. His captivity differed from the forced marches and deaths suffered by many men of the garrison.",
       "sources": [
         "KINGS",
         "NAM",
-        "MELLISS",
-        "GAZETTE"
+        "MELLISS"
       ]
     },
     {
       "id": "F06",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "KCB 1917 according to King’s archival catalogue; MP 1920–22; died 1924.",
+      "statement": "KCB dated 1917 by the King’s College archive catalogue. After the war published My Campaign in Mesopotamia (1920) and represented the Wrekin, 1920–22. Died in 1924.",
       "sources": [
         "KINGS",
-        "NAM",
-        "MELLISS",
-        "GAZETTE"
+        "CAMPAIGN"
       ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "KCB, recorded as 1917",
+      "decision": "The Liddell Hart Centre catalogue gives 1917. The original appointment notice and exact date have not been located. The 1916 defence report still styles him CB and DSO."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Chitral medal clasps",
+      "decision": "The contemporary Illustrated War News records two clasps. The named clasp combination needs a personal roll; none is asserted."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -140,21 +170,26 @@
   },
   "locales": {
     "en": {
-      "tagline": "Chitral made his name. Kut transformed its meaning.",
-      "intro": "Townshend’s career passed from the celebrated defence of a frontier fort to the surrender of a division on the Tigris. His story holds tactical success, imperial ambition and the terrible consequences of a campaign pushed beyond its means.",
-      "orientation": "Chitral and Kut were both sieges, but they cannot bear the same heroic conclusion. Relief reached the garrison of 1895. In 1916 the attempts to relieve Kut failed, and the men went into captivity.",
+      "tagline": "From the frontier fort at Chitral to the surrender on the Tigris.",
+      "intro": "After Ctesiphon, Charles Townshend brought his depleted division back down the Tigris and stood at Kut. Twenty years earlier, a relief column had reached the fort he held at Chitral. At Kut, month after month, the force sent to relieve him failed to reach the town. By April 1916, surrender was all that remained to the commander.",
+      "orientation": "Townshend, the son of a Southwark railway clerk, began in the Royal Marine Light Infantry and made his reputation in Indian service. Chitral brought the CB in 1895. He commanded Sudanese troops in the Egyptian Army, received the DSO in 1898 and rose to major-general in 1911. The 6th (Poona) Division put him at the head of the advance up the Tigris in 1915.",
+      "overview": [
+        "The Mesopotamian expedition had begun around the Persian Gulf, where Britain sought to protect its oil supplies. From Amara and Kut the advance was carried towards Baghdad. After the fighting at Ctesiphon, it ended in retreat and a siege. On 29 April 1916 the British and Indian garrison surrendered. Townshend later published his account of the campaign."
+      ],
       "origin": [
-        "Educated at Cranleigh and Sandhurst, Townshend entered the Royal Marine Light Infantry in 1881 and transferred to the Indian Army in 1886. Service on the frontiers of empire provided the experience from which he built his reputation."
+        "From Cranleigh and Sandhurst he went into the Royal Marine Light Infantry in 1881. He transferred to Indian service in 1886. At Gilgit he commanded the Raga Pertab battalion of the Kashmir contingent. His experience on the frontier preceded the six-week defence of Chitral in 1895."
       ],
       "career": [
-        "He commanded the besieged garrison at Chitral in 1895 and received the CB. Service with the Egyptian Army followed, including the Sudan campaign of 1898, for which he received the DSO. He reached major-general in 1911. In 1915 he led the 6th (Poona) Division up the Tigris, taking Amara and Kut before the advance towards Baghdad stalled at Ctesiphon."
+        "In the Egyptian Army he commanded the 12th Sudanese Battalion and served in the fighting at the Atbara and Khartoum. Those were years in which British officers could make their careers across several armies of the Empire. Townshend’s wartime command of the 6th (Poona) Division, itself a formation of the Indian Army, belonged to that system.",
+        "The Tigris was the route of the advance and the line on which troops and supplies had to reach it. After Ctesiphon, the division went back to Kut. Hunger wore down the garrison while relief attempts failed. Townshend spent his captivity in conditions far removed from the forced marches and privations that killed many of the men he had commanded."
       ],
       "literature": [
-        "My Campaign in Mesopotamia is a commander’s retrospective account of decisions for which he was himself responsible. Its value lies in that proximity, and so does its limitation. Claims made in self-defence must be read against the wider record of transport, medical provision, supply and the orders of higher command."
+        "My Campaign in Mesopotamia appeared in 1920. Townshend reconstructs what he knew, what he ordered and what he expected his superiors to do. His account stands beside the despatches he wrote during the siege and the letters of fellow prisoners. Read together, they give the decisions at headquarters and the price paid for them their different weight."
       ],
-      "legacy": "After the surrender on 29 April 1916, Townshend received markedly better treatment than his soldiers. Thousands of the captured men died during the marches and imprisonment that followed. His later account cannot close that disparity. To read him beside Melliss is to encounter two senior officers from the same disaster whose conduct towards their men left very different memories.",
-      "bridge": "The book brings the reader close to the mind of a divisional commander. The author’s argument is part of the historical evidence; the outcome at Kut remains the measure against which it must be read.",
-      "description": "Townshend’s career passed from the celebrated defence of a frontier fort to the surrender of a division on the Tigris. His story holds tactical success, imperial ambition and the terrible consequences of a campaign pushed beyond its means.",
+      "legacy": "After the war he sat in Parliament for the Wrekin from 1920 to 1922. His account of the expedition remains a source for the predicament of a divisional commander. Its sharpest questions concern the further advance towards Baghdad, the means allotted to it and the decision to stand at Kut.",
+      "bridge": "My Campaign in Mesopotamia follows the advance and siege through Townshend’s dispatches, recollections and judgments as the commanding officer.",
+      "description": "Charles Townshend’s career from Chitral and the Sudan to the advance on Baghdad, surrender at Kut and My Campaign in Mesopotamia.",
+      "careerHeading": "Commands in India, Sudan and Mesopotamia",
       "claimRefs": [
         "F01",
         "F02",
@@ -202,43 +237,43 @@
   "timeline": [
     [
       "1881",
-      "Commissioned into the Royal Marine Light Infantry",
-      ""
+      "Commission in the Royal Marine Light Infantry"
+    ],
+    [
+      "1886",
+      "Transfer to Indian service"
     ],
     [
       "1895",
-      "Defence of Chitral; CB",
-      ""
+      "Defence of Chitral, appointment as CB and promotion to brevet major"
     ],
     [
       "1898",
-      "Sudan campaign; DSO",
-      ""
+      "Atbara and Khartoum; Distinguished Service Order"
     ],
     [
       "1911",
-      "Promoted major-general",
-      ""
+      "Promoted major-general"
     ],
     [
       "1915",
-      "Command of 6th (Poona) Division in Mesopotamia",
-      ""
+      "6th (Poona) Division advances to Kut and Ctesiphon"
     ],
     [
       "29 April 1916",
-      "Surrender at Kut",
-      ""
+      "Surrender at Kut"
     ],
     [
-      "1917",
-      "KCB, during captivity",
-      ""
+      "1916–18",
+      "Prisoner of the Ottoman Empire"
     ],
     [
       "1920",
-      "My Campaign in Mesopotamia; elected MP",
-      ""
+      "My Campaign in Mesopotamia appears"
+    ],
+    [
+      "1920–22",
+      "Member of Parliament for the Wrekin"
     ]
   ],
   "honours": [
@@ -248,36 +283,58 @@
       "category": "order",
       "sources": [
         "GAZETTE"
-      ]
+      ],
+      "note": {
+        "en": "Military Division. Announced on 16 July for Chitral. The same notice records his separate promotion to brevet major, dated 10 July."
+      }
     },
     {
       "name": "Distinguished Service Order (DSO)",
       "year": "1898",
-      "category": "decoration",
+      "category": "order",
       "sources": [
-        "KINGS"
-      ]
+        "KINGS",
+        "WARNEWS"
+      ],
+      "note": {
+        "en": "Awarded after the Sudan campaign. Contemporary notices still styled him CB and DSO at the time of the siege of Kut."
+      }
     },
     {
       "name": "Order of the Bath · Knight Commander (KCB)",
       "year": "1917",
       "category": "order",
       "sources": [
-        "KINGS"
-      ]
+        "KINGS",
+        "KUT"
+      ],
+      "note": {
+        "en": "The King’s College archive catalogue gives 1917 for this higher grade of the Bath."
+      }
+    },
+    {
+      "name": "Chitral campaign medal",
+      "year": "1895 campaign",
+      "category": "decoration",
+      "sources": [
+        "WARNEWS"
+      ],
+      "note": {
+        "en": "A contemporary account records a medal with two clasps for the campaign."
+      }
     }
   ],
   "places": [
     {
       "en": [
-        "Chitral, 1895",
-        "A frontier garrison held out until relief. The defence established Townshend’s public reputation."
+        "Chitral",
+        "The frontier garrison held for about six weeks in 1895 before relief reached the fort."
       ]
     },
     {
       "en": [
-        "The Tigris, 1915–16",
-        "British operations began to secure the approaches to the Persian Gulf and oil supplies; the advance towards Baghdad outgrew its logistical strength. Kut became a trap after the retreat from Ctesiphon."
+        "Kut al-Amara",
+        "The town lies in a bend of the Tigris. The river was the artery of the campaign, and successive attempts to force a passage to the garrison failed."
       ]
     }
   ],
