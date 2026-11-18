@@ -39,6 +39,57 @@
       "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GJY_GEORGE_JOHN_YOUNGHUSBAND\\02_WERKE\\GJY_001_THE_RELIEF_OF_CHITRAL_1910\\04_PARATEXT_EN\\DRUCKENTWURF_V16\\07_about_the_authors.md",
       "sha256": "df4894ce221fe46308404d93a02510c9b180ee2ace1845bfc8cc5d63e7c385b3",
       "note": "Verbatim excerpts of the publisher-approved author section DRUCKENTWURF_V16; no additional biographical claims. Local source read in full."
+    },
+    {
+      "id": "APPARATUS",
+      "title": "The Epic of Mount Everest · The Life and Honours of Sir Francis Edward Younghusband (printed paratext, FEY_001 delivery of 16 November 2026)",
+      "url": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/",
+      "checked": "2026-11-16",
+      "note": "Biographical apparatus of the edition: service and appointments, orders and honours; local source read in full.",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FEY_FRANCIS_EDWARD_YOUNGHUSBAND\\02_WERKE\\FEY_001_THE_EPIC_OF_MOUNT_EVEREST_1926\\04_PARATEXT\\ZULIEFERUNG_CODEX_FAKTEN_20261116\\FEY_001_LIEFERUNG_20261116T184413Z\\03_BIOGRAPHICAL_APPARATUS.md",
+      "sha256": "36c617f6a189826459cbb763a34c25f8aeeb74b8ddddaef2e1dd686164ab5c71"
+    },
+    {
+      "id": "OBIT",
+      "title": "Geographical Journal 100 (1942) · Obituary of Sir Francis Younghusband",
+      "url": "https://pahar.in/pahar/Books%20and%20Articles/Indian%20Subcontinent/1942%20Sir%20Francis%20Younghusband%20Obituary%20from%20Geographical%20Jour%20v100%20s.pdf",
+      "checked": "2026-11-16",
+      "note": "Birth and schooling (p. 131), transfer to the Indian Political Department (p. 135), presidency of the Royal Geographical Society (head of the obituary)."
+    },
+    {
+      "id": "IBD1915",
+      "title": "Indian Biographical Dictionary 1915 · Younghusband entry (p. 470)",
+      "url": "https://dspace.gipe.ac.in/xmlui/bitstream/handle/10973/22716/GIPE-018511.pdf?sequence=3",
+      "checked": "2026-11-16",
+      "note": "Captain 1889, C.I.E. 1891, Major 1900, Lieutenant-Colonel 1908."
+    },
+    {
+      "id": "GAZ1882",
+      "title": "London Gazette no. 25105, 9 May 1882, p. 2157",
+      "url": "https://www.thegazette.co.uk/London/issue/25105/page/2157/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Commission as lieutenant, 1st Dragoon Guards. The family name is garbled in the machine-read text; the page scan is still to be checked."
+    },
+    {
+      "id": "GAZ1904",
+      "title": "London Gazette no. 27744, p. 8634 (16 December 1904)",
+      "url": "https://www.thegazette.co.uk/London/issue/27744/page/8634/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Knight Commander of the Order of the Indian Empire."
+    },
+    {
+      "id": "GAZ1917",
+      "title": "London Gazette supplement no. 29886, p. 3 (1 January 1917)",
+      "url": "https://www.thegazette.co.uk/London/issue/29886/supplement/3/data.pdf",
+      "checked": "2026-11-16",
+      "note": "Knight Commander of the Order of the Star of India."
+    },
+    {
+      "id": "RGSLIST",
+      "title": "Royal Geographical Society · Medallists list 1832–2024",
+      "url": "https://www.rgs.org/media/a3whs0mj/gold-medalists-1832-2024.pdf",
+      "checked": "2026-11-16",
+      "note": "Lists the Founder’s Medal for 1890."
     }
   ],
   "facts": [
@@ -59,11 +110,138 @@
       "statement": "Led the British mission to Tibet in 1903–04; later RGS president, 1919–22.",
       "sources": [
         "WARWICK",
-        "RGS"
+        "RGS",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Born at Murree on 31 May 1863 and educated at Clifton College and Sandhurst.",
+      "sources": [
+        "OBIT",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Commissioned lieutenant in the 1st Dragoon Guards in 1882; captain in 1889, major in the Indian Staff Corps in 1900, lieutenant-colonel in 1908.",
+      "sources": [
+        "GAZ1882",
+        "IBD1915",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Transferred to the Indian Political Department in 1890; Political Officer at Hunza in 1892 and Political Adviser at Chitral in 1893–94.",
+      "sources": [
+        "OBIT",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Received the MacGregor Memorial Medal of the United Service Institution of India and the Founder’s Medal of the Royal Geographical Society, both in 1890; the year of the Founder’s Medal is disputed between sources (see uncertainties).",
+      "sources": [
+        "APPARATUS",
+        "RGSLIST",
+        "OBIT"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Companion of the Order of the Indian Empire (C.I.E.) in 1891; Kaisar-i-Hind Medal, First Class, in 1901.",
+      "sources": [
+        "IBD1915",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Knight Commander of the Order of the Indian Empire (K.C.I.E.), announced in the London Gazette of 16 December 1904; Knight Commander of the Order of the Star of India (K.C.S.I.), announced in the Gazette of 1 January 1917.",
+      "sources": [
+        "GAZ1904",
+        "GAZ1917",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Received the Gold Medal of the Royal Scottish Geographical Society in 1905 and the Charles P. Daly Medal of the American Geographical Society in 1922.",
+      "sources": [
+        "RSGS",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F10",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Resident at Indore from 1902, British Commissioner of the Tibet Mission in 1903–04, Resident in Kashmir from 1906 to 1909; retired from the Indian Service in 1909.",
+      "sources": [
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F11",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "First chairman of the Mount Everest Committee in 1921; his account of the expeditions of 1921, 1922 and 1924 appeared in 1926.",
+      "sources": [
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F12",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Founded the World Congress of Faiths in 1936; died at Lytchett Minster, Dorset, on 31 July 1942.",
+      "sources": [
+        "APPARATUS"
       ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Year of the Founder’s Medal of the Royal Geographical Society",
+      "decision": "The RGS medallists list gives 1890; the head of the obituary in the Geographical Journal gives 1891. The page follows the RGS list, names both and fixes neither."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Gazette notice of the C.I.E. of 1891",
+      "decision": "The Gazette page has not been retrieved; the date rests on the Indian Biographical Dictionary of 1915."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Date of the K.C.I.E.",
+      "decision": "The Gazette of 16 December 1904 published the award; the India Office List gives 1 January 1905. The two dates are kept apart."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Commission of 1882",
+      "decision": "The Gazette page of 1882 is read only through machine-read text in which the family name is garbled; the page scan is still to be checked."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Tibet Medal and clasp",
+      "decision": "An individual award of the Tibet Medal and clasp is not securely documented and is therefore not claimed."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -85,23 +263,39 @@
     "en": {
       "tagline": "Across Asian frontiers, between exploration and imperial policy.",
       "intro": "Younghusband travelled through Asia as an officer and observer in a world where a route could be a geographical discovery and a strategic question at once. His books carry both kinds of attention.",
-      "orientation": "The traveller, imperial representative and later religious thinker belong to one complicated career. Its changes should not efface the force used during the British advance into Tibet.",
+      "orientation": "Francis Edward Younghusband was born at Murree on 31 May 1863, the son of Major-General John William Younghusband, and was educated at Clifton College and the Royal Military College, Sandhurst. He was commissioned into the 1st Dragoon Guards in 1882. In the 1880s he travelled through Manchuria, crossed the Gobi and made his way from Chinese Turkestan to India over the Old Muztagh Pass; later journeys took him into the Pamirs and the borderlands north of India.",
       "origin": [
-        "Born into a military family in British India, he entered the army and travelled through central Asia."
+        "In 1890 he received the MacGregor Memorial Medal of the United Service Institution of India and the Founder’s Medal of the Royal Geographical Society, the latter for his journey from Manchuria and Peking to Kashmir and his route surveys. He moved to the Indian Political Department in the same year and was made C.I.E. in 1891."
       ],
       "career": [
-        "The mission to Tibet in 1903–04 made his name inseparable from armed imperial intervention. He later served as president of the Royal Geographical Society and wrote increasingly about spiritual and international questions."
+        "The mission to Tibet in 1903–04 made his name inseparable from armed imperial intervention. He later served as president of the Royal Geographical Society and wrote increasingly about spiritual and international questions.",
+        "He was Political Officer at Hunza in 1892, Political Adviser at Chitral in 1893–94, Resident at Indore from 1902 and, after Tibet, Resident in Kashmir from 1906 to 1909. The K.C.I.E. followed in 1904 for services connected with the mission, and the K.C.S.I. in 1917."
       ],
       "literature": [
-        "His travel writing combines landscape, routes and political judgement. It gives access to the concerns of a British officer moving through territories whose futures were being contested."
+        "His travel writing combines landscape, routes and political judgement. It gives access to the concerns of a British officer moving through territories whose futures were being contested.",
+        "<i>The Epic of Mount Everest</i> (1926) gathers the expeditions of 1921, 1922 and 1924 into one narrative, by the man who had been first chairman of the committee that sent them."
       ],
       "legacy": "Younghusband’s life shows how geographical curiosity could accompany imperial power, and how a career could subsequently turn towards wider religious aspirations. The earlier and later phases both require attention.",
-      "bridge": "The travel accounts restore the terrain and strategic concerns behind the better-known public career.",
+      "bridge": "The Epic of Mount Everest tells the three early expeditions as the first chairman of the Mount Everest Committee came to know them.",
       "description": "Younghusband travelled through Asia as an officer and observer in a world where a route could be a geographical discovery and a strategic question at once. His books carry both kinds of attention.",
       "claimRefs": [
         "F01",
-        "F02"
-      ]
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ],
+      "overview": [
+        "After service at Hunza and Chitral he was appointed British Commissioner to Tibet; the mission reached Lhasa in 1904. He was Resident in Kashmir until he retired from the Indian Service in 1909. As President of the Royal Geographical Society from 1919 to 1922 and first chairman of the Mount Everest Committee, he helped organise the reconnaissance of 1921 and the expeditions that followed, and in 1926 he published his account of the three. He founded the World Congress of Faiths in 1936 and died at Lytchett Minster, Dorset, on 31 July 1942."
+      ],
+      "careerHeading": "From the frontier to the Mount Everest Committee"
     }
   },
   "image": {
@@ -129,30 +323,136 @@
     ]
   },
   "rank": {
-    "en": "Lieutenant-Colonel Sir Francis Edward Younghusband"
+    "en": "Lieutenant-Colonel Sir Francis Edward Younghusband · KCSI, KCIE"
   },
   "timeline": [
     [
-      "1903–04",
-      "British mission to Tibet",
-      ""
+      "31 May 1863",
+      "Born at Murree"
     ],
     [
-      "1919–22",
-      "President, Royal Geographical Society",
-      ""
+      "1882",
+      "Lieutenant, 1st Dragoon Guards"
+    ],
+    [
+      "1880s",
+      "Journeys through Manchuria, the Gobi, Chinese Turkestan and the Pamirs"
+    ],
+    [
+      "1890",
+      "Indian Political Department; MacGregor Memorial Medal; Founder’s Medal (year disputed)"
+    ],
+    [
+      "1891",
+      "C.I.E."
+    ],
+    [
+      "1892–1894",
+      "Political Officer, Hunza; Political Adviser, Chitral"
+    ],
+    [
+      "1901",
+      "Kaisar-i-Hind Medal, First Class"
+    ],
+    [
+      "1903–1904",
+      "British Commissioner, Tibet Mission; K.C.I.E. announced 16 December 1904"
+    ],
+    [
+      "1905",
+      "Gold Medal, Royal Scottish Geographical Society"
+    ],
+    [
+      "1906–1909",
+      "Resident in Kashmir; retires from the Indian Service in 1909"
+    ],
+    [
+      "1917",
+      "K.C.S.I."
+    ],
+    [
+      "1919–1922",
+      "President, Royal Geographical Society"
+    ],
+    [
+      "1921",
+      "First chairman, Mount Everest Committee"
+    ],
+    [
+      "1922",
+      "Charles P. Daly Medal"
+    ],
+    [
+      "1926",
+      "The Epic of Mount Everest"
+    ],
+    [
+      "1936",
+      "Founds the World Congress of Faiths"
+    ],
+    [
+      "31 July 1942",
+      "Dies at Lytchett Minster, Dorset"
     ]
   ],
   "honours": [
     {
-      "name": "Royal Geographical Society · Patron’s Medal",
+      "name": "MacGregor Memorial Medal",
       "year": "1890",
       "category": "prize",
       "sources": [
-        "RGS"
+        "APPARATUS"
       ],
       "note": {
-        "en": "For the journey from Manchuria and Beijing to Kashmir, including route surveys and topographical observations."
+        "en": "Prize of the United Service Institution of India."
+      }
+    },
+    {
+      "name": "Royal Geographical Society · Founder’s Medal",
+      "year": "1890",
+      "category": "prize",
+      "sources": [
+        "RGSLIST",
+        "APPARATUS",
+        "OBIT"
+      ],
+      "note": {
+        "en": "For the journey from Manchuria and Peking to Kashmir and his route surveys. Source conflict, open: the RGS list gives 1890, the obituary head 1891."
+      }
+    },
+    {
+      "name": "Order of the Indian Empire · Companion (C.I.E.)",
+      "year": "1891",
+      "category": "order",
+      "sources": [
+        "IBD1915",
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Open: the Gazette notice has not been retrieved."
+      }
+    },
+    {
+      "name": "Kaisar-i-Hind Medal · First Class",
+      "year": "1901",
+      "category": "decoration",
+      "sources": [
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "For public service in India."
+      }
+    },
+    {
+      "name": "Order of the Indian Empire · Knight Commander (K.C.I.E.)",
+      "year": "1904",
+      "category": "order",
+      "sources": [
+        "GAZ1904",
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Announced in the London Gazette of 16 December 1904 for services connected with the Tibet Mission; the India Office List gives 1 January 1905."
       }
     },
     {
@@ -160,10 +460,34 @@
       "year": "1905",
       "category": "prize",
       "sources": [
-        "RSGS"
+        "RSGS",
+        "APPARATUS"
       ],
       "note": {
         "en": "Contemporary award name; renamed the Scottish Geographical Medal in 1933."
+      }
+    },
+    {
+      "name": "Order of the Star of India · Knight Commander (K.C.S.I.)",
+      "year": "1917",
+      "category": "order",
+      "sources": [
+        "GAZ1917",
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Announced in the London Gazette of 1 January 1917."
+      }
+    },
+    {
+      "name": "Charles P. Daly Medal",
+      "year": "1922",
+      "category": "prize",
+      "sources": [
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Awarded by the American Geographical Society."
       }
     }
   ],
