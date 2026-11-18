@@ -97,7 +97,7 @@
     "seriesColor": "#2d4a22",
     "legacy": {
       "modal": {
-        "metadata": "626 book pages · 628 pages in the Ingram editions · Paperback and hardcover",
+        "metadata": "624 book pages · 626 pages in the Ingram editions · Paperback and hardcover",
         "sample": "The road to Baghdad ran north through heat, marsh, dust and the winding course of the Tigris. Along it advanced the 6th (Poona) Division of the Indian Army under Major-General Sir Charles Townshend: British and Indian regiments moving farther from their bases, farther from reinforcement, and deeper into a campaign in which every mile gained lengthened the line upon which the army depended."
       }
     },
@@ -105,7 +105,7 @@
       {
         "label": "Paperback",
         "isbn": "978-3-67605-173-6",
-        "pages": 628,
+        "pages": 626,
         "price_display": "US$27.99",
         "links": [],
         "status": "FREIGEGEBEN"
@@ -113,7 +113,7 @@
       {
         "label": "Hardcover",
         "isbn": "978-3-67605-174-3",
-        "pages": 628,
+        "pages": 626,
         "price_display": "US$44.99",
         "links": [],
         "status": "FREIGEGEBEN"
