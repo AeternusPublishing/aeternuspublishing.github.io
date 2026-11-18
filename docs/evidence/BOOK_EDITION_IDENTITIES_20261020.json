@@ -496,11 +496,11 @@
       "assets": [
         {
           "path": "src/assets/images/cover-sale.webp",
-          "sha256": "6f161813a53e9b6d40d99a059884e784ac5add507360c4c65e23e4d2a02b365a"
+          "sha256": "b57d723702112f73f8aa2718de1b4002d14cdc1a63d97dee5ffb93c225264f7f"
         },
         {
           "path": "src/assets/images/cover-sale-fallback.jpg",
-          "sha256": "7bc4e3d3f61f2f153eb946302e473f4b95632f6f7425778b1f2675db44b400b8"
+          "sha256": "c469c696e300016fdb8680d0c6355dfb1706fd28ea5e4c201d3383d6d3de7179"
         }
       ],
       "formats": [
