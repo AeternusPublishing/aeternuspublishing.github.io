@@ -2901,19 +2901,19 @@
       "assets": [
         {
           "path": "src/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
-          "sha256": "a5ecce0816e8a06335bae7b2905320f0ad2554292c75d6d6c3b689c6e5c7447b"
+          "sha256": "fc8e2c63d4481a0712b5df7403fb3724f0e6acf3d6e109548a8af884ecda3a55"
         },
         {
           "path": "src/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.webp",
-          "sha256": "858613e7cb6beea49d6855b1529ad23f934c01aab7025b78de11da76f93e89d5"
+          "sha256": "2147d1e7965a6d0ea7cf33d8cb6f8db1e4809fd725b3687c64c42054a2f97cab"
         },
         {
           "path": "src/assets/images/cover-back-my-campaign-in-mesopotamia-townshend-en.jpg",
-          "sha256": "3f74363bc8e2cb7e0ce2c589746a680d195420a4c9e65cb5c78e46c5b5093780"
+          "sha256": "491410582a534fd39a660a14296b7884e40aaff2dbfdc24955eebf2687f17451"
         },
         {
           "path": "src/assets/images/cover-back-my-campaign-in-mesopotamia-townshend-en.webp",
-          "sha256": "665edec616f8c16ade561b3b440f0f9b1aab442d72df6c004510c86536a4dfe8"
+          "sha256": "5028d95e99744f89d8628c0398dc01def67f9280a38b360dd080277b2e810638"
         }
       ],
       "formats": [
