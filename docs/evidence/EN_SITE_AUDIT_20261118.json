@@ -1,0 +1,4444 @@
+{
+  "schema": "AETERNUS_FULL_EN_WEBSITE_AUDIT_V1",
+  "date": "2026-11-18",
+  "scope": {
+    "public_routes": 169,
+    "catalogue_editions": 80,
+    "author_pages": 50,
+    "basis_commit": "cde95875f7ca5a89e1e3799799d3d8021d442a28"
+  },
+  "changes": {
+    "availability_changes": 24,
+    "status_labels_refreshed": 36,
+    "cover_updates": 5,
+    "new_verified_amazon_links": 5,
+    "source_url_repairs": 7,
+    "portrait_directory_corrections": 15
+  },
+  "verification": {
+    "local_browser_views": 338,
+    "visible_image_checks": 2243,
+    "local_missing_assets": 0,
+    "local_missing_internal_targets": 0,
+    "local_internal_targets_with_css_and_meta": 420,
+    "trade_cover_source_comparisons": 31,
+    "all_80_covers_visually_inventoried": true,
+    "unmodified_approved_portrait_hashes": true,
+    "regression_gate": "scripts/check-english-site.cjs runs at the end of every production English build",
+    "negative_cases": [
+      "Former German default library shelf",
+      "Live titles with stale eProof announcements",
+      "Wilson 404 retailer ASIN",
+      "Scott volume-key collapse",
+      "Future publication date must not become available now",
+      "Portrait provenance prose must not become a hyperlink"
+    ]
+  },
+  "limitations": {
+    "no_approved_web_portrait": [
+      "joshua-duke",
+      "napoleon-augustus-jennings",
+      "george-robert-gleig",
+      "henry-doveton-hutchinson",
+      "elihu-stewart",
+      "charles-dickens",
+      "george-rutledge-gibson",
+      "robert-mcclure",
+      "john-franklin",
+      "washington-irving",
+      "parry"
+    ],
+    "external_access_unconfirmed": [
+      {
+        "url": "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/",
+        "status": 403,
+        "title": "Attention Required! | Cloudflare",
+        "final": "https://www.scouts.org.uk/about-us/our-history/how-scouting-grew/"
+      },
+      {
+        "url": "https://www.scouts.org.uk/about-us/our-history/our-online-exhibitions/the-early-days-of-scouting/brownsea-island-trialling-scouting/",
+        "status": 403,
+        "title": "Attention Required! | Cloudflare",
+        "final": "https://www.scouts.org.uk/about-us/our-history/our-online-exhibitions/the-early-days-of-scouting/brownsea-island-trialling-scouting/"
+      },
+      {
+        "url": "https://www.gutenberg.org/cache/epub/47158/pg47158-images.html",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/cache/epub/47158/pg47158-images.html"
+      },
+      {
+        "url": "https://www.gutenberg.org/cache/epub/65993/pg65993-images.html",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/cache/epub/65993/pg65993-images.html"
+      },
+      {
+        "url": "https://www.gutenberg.org/ebooks/24579",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/ebooks/24579"
+      },
+      {
+        "url": "https://www.gutenberg.org/ebooks/1015",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/ebooks/1015"
+      },
+      {
+        "url": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0056&display%5B%5D=295&display%5B%5D=304",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0056&display%5B%5D=295&display%5B%5D=304&__cf_chl_rt_tk=gwG2js1zM8CuyyagR2o7ry3fPeyxRUWKvXDEJGaW1a4-1794992361-1.0.1.1-yOvRl4W4jxCyv_kBZgcfnuyyGKdwZso0M6vTaoQHjCw"
+      },
+      {
+        "url": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0018&display%5B%5D=468&display%5B%5D=483",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://resources.ohiohistory.org/ohj/browse/displaypages.php?display%5B%5D=0018&display%5B%5D=468&display%5B%5D=483&__cf_chl_rt_tk=zDeHiF0Ya7sw1WcEYJNB4_eyBcPF1.FZOFrsiCBgHdc-1794992361-1.0.1.1-fN1czHL3BOP1qOYBgSuuwjYhPgH32CfrfT8wviF.oqM"
+      },
+      {
+        "url": "https://www.loc.gov/pictures/item/2014708970/",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.loc.gov/pictures/item/2014708970/?__cf_chl_rt_tk=rr99D8pfrxMQywSB4NLrEGQ1AjJDoy.upRiTAqSW700-1794992361-1.0.1.1-wqmShr7RwStsuZHcHbR3S_OiHmjhBTfGJqsp1lBD9PU"
+      },
+      {
+        "url": "https://www.gutenberg.org/ebooks/author/489",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/ebooks/author/489"
+      },
+      {
+        "url": "https://www.librarycompany.org/gothic/brown.htm",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.librarycompany.org/gothic/brown.htm?__cf_chl_rt_tk=.yiQsTpEnqY2sv5Sx0zV_YA_0VoOZFMH6jcYe72FWy8-1794992361-1.0.1.1-VF8LfH9MV84OulqeRiABwPN.s5eTDQPwueIipJnY_Vk"
+      },
+      {
+        "url": "https://www.loc.gov/item/23001604/",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.loc.gov/item/23001604/?__cf_chl_rt_tk=Oa1TzKEz.7a6P3RZbcyCKaATO2EOFTeUabhEFluj1uI-1794992361-1.0.1.1-3UPoJNA6BnMZh4WG3oQAKKsy4ohzBcUY95vWvadxTMs"
+      },
+      {
+        "url": "https://www.gutenberg.org/ebooks/940",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/ebooks/940"
+      },
+      {
+        "url": "https://www.gutenberg.org/cache/epub/50828/pg50828-images.html",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/cache/epub/50828/pg50828-images.html"
+      },
+      {
+        "url": "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/580500988",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://academic.oup.com/oxford-dictionary-of-national-biography/reference/63486/reference-article-abstract/580500988?__cf_chl_rt_tk=9jg0Fh0al7RX1Q7.GXelMeICclKlza_z1Hu2ttarmIU-1794992362-1.0.1.1-eMl.AF9pcllCyDhZkN4WU1Rl3jYCROwGucV2gZhaiO4"
+      },
+      {
+        "url": "https://www.npg.org.uk/collections/search/person/mp02341/henry-doveton-hutchinson",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.npg.org.uk/collections/search/person/mp02341/henry-doveton-hutchinson?__cf_chl_rt_tk=YgL0NaOmtIZwO4yCaPyYS98IMTU2j34ZJKC8C_rHuOY-1794992362-1.0.1.1-Wc0l2hmdbkGuJtNGohqdR.IlVctIN_Qu1q3FSN4o1A4"
+      },
+      {
+        "url": "https://www.loc.gov/item/16016134/",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.loc.gov/item/16016134/?__cf_chl_rt_tk=8SOFB6bD7fALy1cF6cycdNTJnDeJAtnHKwgNC5eQAiA-1794992362-1.0.1.1-EUMMDfj1x.eUA28g4vPaof8VAip5R83PFC8V_nGeqCs"
+      },
+      {
+        "url": "https://www.loc.gov/item/01014021/",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.loc.gov/item/01014021/?__cf_chl_rt_tk=Dn0Ip7x8r4xgy4jJlZjgmFlEQd1pNtwFcGGX_SEgL2Q-1794992362-1.0.1.1-4nGGAUYlRZhNMOhMQYT3U4ZzMhcMH4l5ly0KhqPcta0"
+      },
+      {
+        "url": "https://www.gutenberg.org/cache/epub/69836/pg69836-images.html",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/cache/epub/69836/pg69836-images.html"
+      },
+      {
+        "url": "https://www.loc.gov/item/21017549/",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.loc.gov/item/21017549/?__cf_chl_rt_tk=Ki1ZAIRjmYd7FromiTvIC64LcV2G8ZzDsSpyAMsMt84-1794992363-1.0.1.1-GhNNXo4j95ITJEvOzvs4ZBnxC2TLQG8.DsVHKZ1FmJA"
+      },
+      {
+        "url": "https://www.gutenberg.org/ebooks/69836",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/ebooks/69836"
+      },
+      {
+        "url": "https://www.dib.ie/index.php/biography/mcclure-sir-robert-john-le-mesurier-a5601",
+        "status": 307,
+        "title": "McClure, Sir Robert John Le Mesurier | Dictionary of Irish Biography",
+        "final": "https://www.dib.ie/index.php/biography/mcclure-sir-robert-john-le-mesurier-a5601"
+      },
+      {
+        "url": "https://www.npg.org.uk/collections/search/person/mp02865/sir-robert-mcclure",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.npg.org.uk/collections/search/person/mp02865/sir-robert-mcclure?__cf_chl_rt_tk=Qf94vt5lZGUePgaaMsaTKD4p83u0g7ICkNBHos5RsrA-1794992367-1.0.1.1-LRrCk5e8h_f1gC6AossAa74kuTKvCI5lAxzqTH_eeCc"
+      },
+      {
+        "url": "https://www.gutenberg.org/files/20656/20656-h/20656-h.htm",
+        "status": 503,
+        "title": "Temporarily Down for Maintenance",
+        "final": "https://www.gutenberg.org/files/20656/20656-h/20656-h.htm"
+      },
+      {
+        "url": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/asante-gold-regalia",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/asante-gold-regalia?__cf_chl_rt_tk=gwsQtGBlDkA7pdL.xnTyjThLFE3s33FjJ1wcRt2ht04-1794992367-1.0.1.1-chyPVv.uzBfpJhEK9kktctYP8oqax8AteuQMA9NQ0bU"
+      },
+      {
+        "url": "https://www.loc.gov/item/05003440/",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://www.loc.gov/item/05003440/?__cf_chl_rt_tk=UROD1couC94UEqh4O6OCk_hFTu0s1kPi7xf1aNYE6sY-1794992367-1.0.1.1-sdZYZ0oLrnXFbmgBDGU_Ric.8kYdINZSTOPkndZuCN8"
+      },
+      {
+        "url": "https://findingaids.loc.gov/repositories/19/resources/5437",
+        "status": 403,
+        "title": "Just a moment...",
+        "final": "https://findingaids.loc.gov/repositories/19/resources/5437?__cf_chl_rt_tk=.7DFUQARva.ZTRMw.vvH5jwReeDB3HOsrX.wSLHt0mw-1794992367-1.0.1.1-6uPlCGvykZm18qqHLCtETjieSbRInkY.i6D9VV2Zz3g"
+      }
+    ],
+    "known_unavailable_retailer": {
+      "asin": "B0HRDZQR93",
+      "marketplace_status": 404,
+      "action": "Purchase link withheld; exact discrepancy handed to Wilson book window, not reclassified as forthcoming"
+    },
+    "trade_cover_comparison_limits": "31 titles compared with SHA-256-bound LIVE source files. All 80 web fronts visually inventoried and bound to website identity evidence. For other titles no newly releasable trade-source replacement was established; retained current site assets. New draft/relaunch covers are not treated as released."
+  },
+  "portrait_changes": [
+    {
+      "author": "charles-vere-ferrers-townshend",
+      "before": "/assets/images/portrait-charles-vere-ferrers-townshend.webp",
+      "after": "/assets/images/portrait-townshend-colour-20261021.webp"
+    },
+    {
+      "author": "william-robertson",
+      "before": null,
+      "after": "/assets/images/portrait-william-robertson-1917.png"
+    },
+    {
+      "author": "charles-edward-callwell",
+      "before": "/assets/images/author-charles-edward-callwell-color-20261018.webp",
+      "after": "/assets/images/author-charles-edward-callwell-color-20261018.jpg"
+    },
+    {
+      "author": "melliss",
+      "before": "/assets/images/author-melliss-v2-20261015.webp",
+      "after": "/assets/images/author-melliss-v2-20261015.jpg"
+    },
+    {
+      "author": "younghusband",
+      "before": null,
+      "after": "/assets/images/portrait-george-john-younghusband-stoneman-1917.png"
+    },
+    {
+      "author": "ian-hamilton",
+      "before": null,
+      "after": "/assets/images/portrait-ian-hamilton-sargent-v1.png"
+    },
+    {
+      "author": "edgar-allan-poe",
+      "before": null,
+      "after": "/assets/images/portrait-edgar-allan-poe-eap001.png"
+    },
+    {
+      "author": "frederick-sleigh-roberts",
+      "before": null,
+      "after": "/assets/images/portrait-frederick-sleigh-roberts-russell-1897-color-v2.jpg"
+    },
+    {
+      "author": "charles-metcalfe-macgregor",
+      "before": null,
+      "after": "/assets/images/MACGREGOR_HAUSPORTRAET_V4.png"
+    },
+    {
+      "author": "horace-kephart",
+      "before": null,
+      "after": "/assets/images/portrait-kephart-1913-web-20261102.jpg"
+    },
+    {
+      "author": "william-henry-harrison-murray",
+      "before": null,
+      "after": "/assets/images/portrait-murray-national-web-20261102.jpg"
+    },
+    {
+      "author": "warren-hastings-miller",
+      "before": null,
+      "after": "/assets/images/portrait-miller-1918-web-20261102.jpg"
+    },
+    {
+      "author": "samuel-benfield-steele",
+      "before": null,
+      "after": "/assets/images/portrait-samuel-benfield-steele-1915-restored-v1.png"
+    },
+    {
+      "author": "henry-creswicke-rawlinson",
+      "before": null,
+      "after": "/assets/images/portrait-henry-creswicke-rawlinson-1898-holl.jpg"
+    },
+    {
+      "author": "winfield-scott",
+      "before": null,
+      "after": "/assets/images/portrait-winfield-scott-weir.jpg"
+    }
+  ],
+  "books": [
+    {
+      "id": "en-robert-mcclure-the-discovery-of-the-north-west-passage",
+      "work_id": "RMC_001",
+      "title": "The Discovery of the North-West Passage (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-robert-mcclure-the-discovery-of-the-north-west-passage/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052801",
+        "hardcover": "9783676052818"
+      },
+      "cover": "/assets/images/cover-rmc001-front.jpg",
+      "cover_sha256": "97c81e25c18dd081c79a748e9ca8a80a31681713373605c8b823759066ae3617",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "9783676052801",
+          "pages": 330,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "9783676052818",
+          "pages": 330,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated",
+      "work_id": "GRG_001",
+      "title": "Sale’s Brigade in Afghanistan (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-george-robert-gleig-sales-brigade-in-afghanistan-illustrated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Paperback and hardcover available · new edition 16 November 2026",
+      "publication_date": "2026-10-15",
+      "isbn": {
+        "paperback": "978-3-67605-166-8",
+        "hardcover": "978-3-67605-167-5",
+        "ebook": "978-3-67605-168-2"
+      },
+      "cover": "/assets/images/cover-grg001-en-ingram-v18-20261116.jpg",
+      "cover_sha256": "2fe50894828a0d1cd56dd696dcb2af4e748ad5db9293cd8a63e39391e5020c6d",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\GRG_GEORGE_ROBERT_GLEIG\\02_WERKE\\GRG_001_SALES_BRIGADE_AFGHANISTAN_1846\\07_EXPORT\\UPLOADPAKET_INGRAM_V6_20261012\\INGRAM\\9783676051675_cov.pdf",
+        "source_sha256": "3c0c254b4220a2a9d16b6b20334fe7df7f856f6f897f3122c1ac28343e072adc",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-166-8",
+          "pages": 266,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-167-5",
+          "pages": 266,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-168-2",
+          "pages": null,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-napoleon-augustus-jennings-a-texas-ranger-annotated",
+      "work_id": "NAJ_001",
+      "title": "A Texas Ranger",
+      "url": "https://aeternuspublishing.com/books/en-napoleon-augustus-jennings-a-texas-ranger-annotated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-163-7",
+        "hardcover": "978-3-67605-164-4",
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+      "cover_sha256": "215aff75c4104697303a462395fe086dfc3b39eaf0c28081624b78f8dc055cb5",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\NAJ_NAPOLEON_AUGUSTUS_JENNINGS\\02_WERKE\\NAJ_001_A_TEXAS_RANGER_1899\\07_EXPORT\\UPLOADPAKET_INGRAM_V8_20261009\\INGRAM\\9783676051644_cov.pdf",
+        "source_sha256": "efee762d1e9f8aaa151358733e30eeefd0e3da5ff29481e2ddf822c82880ba25",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-163-7",
+          "pages": 226,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-164-4",
+          "pages": 226,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-theodore-roosevelt-the-rough-riders-annotated",
+      "work_id": "TR_002",
+      "title": "The Rough Riders (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-rough-riders-annotated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-155-2",
+        "hardcover": "978-3-67605-156-9",
+        "ebook": "978-3-67605-157-6"
+      },
+      "cover": "/assets/images/cover-tr002-en-v1-20261008.jpg",
+      "cover_sha256": "8b9c1dd332560f40e8399e9986f7c58cc3e7d45b78f4a87874f38831a8d6e522",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-155-2",
+          "pages": null,
+          "status": "GEBAUT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-156-9",
+          "pages": null,
+          "status": "GEBAUT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-157-6",
+          "pages": null,
+          "status": "GEBAUT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-george-arthur-life-of-lord-kitchener-volume-i",
+      "work_id": "GA_001",
+      "title": "Life of Lord Kitchener · Volume I",
+      "url": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-i/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming · 21 November 2026",
+      "publication_date": "2026-11-21",
+      "isbn": {
+        "paperback": null,
+        "hardcover": "978-3-67605-175-0",
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-life-of-lord-kitchener-volume-i-front.jpg",
+      "cover_sha256": "c040a271eb88c743feb378c0ae7768c11d0a6163cec3edb79563063a498afe43",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-175-0",
+          "pages": 354,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-george-arthur-life-of-lord-kitchener-volume-ii",
+      "work_id": "GA_001",
+      "title": "Life of Lord Kitchener · Volume II",
+      "url": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-ii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming · 21 November 2026",
+      "publication_date": "2026-11-21",
+      "isbn": {
+        "paperback": null,
+        "hardcover": "978-3-67605-176-7",
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-life-of-lord-kitchener-volume-ii-front.jpg",
+      "cover_sha256": "f5f8c52c9c0ea77786aa3a4aec5679c26c1fef049e1b1fbdcb0b87df41179ee1",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-176-7",
+          "pages": 334,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-george-arthur-life-of-lord-kitchener-volume-iii",
+      "work_id": "GA_001",
+      "title": "Life of Lord Kitchener · Volume III",
+      "url": "https://aeternuspublishing.com/books/en-george-arthur-life-of-lord-kitchener-volume-iii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming · 21 November 2026",
+      "publication_date": "2026-11-21",
+      "isbn": {
+        "paperback": null,
+        "hardcover": "978-3-67605-177-4",
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-life-of-lord-kitchener-volume-iii-front.jpg",
+      "cover_sha256": "9c4d7333385aa01d795a0ddb073c9b368d32034f1de68a76e19c0641636a8d4e",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-177-4",
+          "pages": 372,
+          "status": "LIVE",
+          "availability_note": "Publication scheduled for 21 November 2026.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated",
+      "work_id": "CVFT_001",
+      "title": "My Campaign in Mesopotamia (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-vere-ferrers-townshend-my-campaign-in-mesopotamia-annotated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": "2026-10-20",
+      "isbn": {
+        "paperback": "978-3-67605-173-6",
+        "hardcover": "978-3-67605-174-3"
+      },
+      "cover": "/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
+      "cover_sha256": "a5ecce0816e8a06335bae7b2905320f0ad2554292c75d6d6c3b689c6e5c7447b",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-173-6",
+          "pages": 630,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-174-3",
+          "pages": 630,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-edition-rolf",
+      "work_id": "ETS_005",
+      "title": "Rolf in the Woods (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-rolf/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-68-8",
+        "paperback": "978-3-912883-63-3",
+        "ebook": "978-3-912883-64-0"
+      },
+      "cover": "/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+      "cover_sha256": "094785461b52b1e2fa25b79fc8a4a5064d574da98cc0d526a118660433521e77",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ETS_ERNEST_THOMPSON_SETON\\02_WERKE\\ETS_005_ROLF_IN_THE_WOODS_1911\\EN_MASTER\\07_EXPORT_EN\\KDP_RELEASE_NACHPRUEFUNG_R4_20260921\\ETS005_EN_EBOOK_COVER.jpg",
+        "source_sha256": "56550306b7c3d0c05e41d8a1a284493f30455dc3bc5c90a9afe2a641244ff177",
+        "record_utc": "2026-09-21T19:20:00Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "R4_20260921_KDP_EINGEREICHT"
+      },
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-64-0",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJ2S6J8Q"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJ2S6J8Q"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJ2S6J8Q"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJ2S6J8Q"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-63-3",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883637"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883637"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883637"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883637"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-68-8",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883688"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883688"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883688"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-edition-two-little-savages",
+      "work_id": "ETS_008",
+      "title": "Two Little Savages (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-two-little-savages/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-67-1",
+        "paperback": "978-3-912883-61-9",
+        "ebook": "978-3-912883-62-6"
+      },
+      "cover": "/assets/images/cover-two-little-savages-en-fallback.jpg",
+      "cover_sha256": "3640b171bb6b87f448b28bcc8f045fabef48b05c4c0571ef9e093090c923c6a7",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ETS_ERNEST_THOMPSON_SETON\\02_WERKE\\ETS_008_ZWEI_KLEINE_WILDE_1903\\EN_MASTER\\07_EXPORT_EN\\KDP_RELEASE_NACHPRUEFUNG_R3_20260921\\ETS008_EN_EBOOK_COVER.jpg",
+        "source_sha256": "1eac1032be43977a54c2372e414d8502ba239d795786b2f1903714aa789c5a77",
+        "record_utc": "2026-09-21T19:19:45Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "R3_20260921_KDP_EINGEREICHT"
+      },
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-62-6",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJ2PRS9G"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJ2PRS9G"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJ2PRS9G"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJ2PRS9G"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-61-9",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883610"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883610"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883610"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883610"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-67-1",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/391288367X"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/391288367X"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/391288367X"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-edition-arctic-prairies",
+      "work_id": "ETS_006",
+      "title": "The Arctic Prairies (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-arctic-prairies/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Kindle, Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-69-5",
+        "paperback": "978-3-912883-65-7",
+        "ebook": "978-3-912883-66-4"
+      },
+      "cover": "/assets/images/cover-arctic-prairies-en-fallback.jpg",
+      "cover_sha256": "86b4c4ee8acb9ab6da8e591f3240385fa28111872c5a747743b3157f7f155ccf",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ETS_ERNEST_THOMPSON_SETON\\02_WERKE\\ETS_006_DIE_ARKTISCHEN_PRAERIEN_1911\\EN_MASTER\\07_EXPORT_EN\\KDP_RELEASE_NACHPRUEFUNG_R3_20260921\\ETS006_EN_EBOOK_COVER.jpg",
+        "source_sha256": "5372440d21da80d41e1b998f1a54c365ef58cf32de8bd964477d10a2aa75426d",
+        "record_utc": "2026-09-21T19:23:30Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "R3_20260921_KDP_EINGEREICHT"
+      },
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-66-4",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJ2P7ZD9"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJ2P7ZD9"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJ2P7ZD9"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJ2P7ZD9"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-65-7",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883653"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883653"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883653"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883653"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-69-5",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883696"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883696"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883696"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-robert-montgomery-bird-edition-nick",
+      "work_id": "RMB_001",
+      "title": "Nick of the Woods (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-nick/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Kindle, Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-11-4",
+        "paperback": "978-3-912883-25-1",
+        "ebook": "978-3-912883-14-5"
+      },
+      "cover": "/assets/images/cover-rmb001-en-end-v5-20261023.jpg",
+      "cover_sha256": "8b73931311654d2ced37296ba9a44685267f712dbb1c828b2aea5774f1bb24a0",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\RMB_ROBERT_MONTGOMERY_BIRD\\04_PRODUCTION\\RMB001_RELAUNCH_20261008\\EN\\10_UPLOADPAKET\\UPLOADPAKET_EN_END_V5_20261023\\RMB001_EN_EBOOK_DECKEL_1707x2560.jpg",
+        "source_sha256": "8b73931311654d2ced37296ba9a44685267f712dbb1c828b2aea5774f1bb24a0",
+        "record_utc": "2026-10-26T07:53:24.709Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\BESTAND_R8_18_20261026T075105Z\\VORBEREITETE_LIVE_NACHTRAEGE_V2.json",
+        "record_version": "R8_18_END_V5_KDP_EBOOK_LIVE_20261026"
+      },
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-14-5",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HFG6QCY5"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HFG6QCY5"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HFG6QCY5"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HFG6QCY5"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-25-1",
+          "pages": 440,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883254"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883254"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883254"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883254"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-11-4",
+          "pages": 440,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883114"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883114"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883114"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-robert-montgomery-bird-edition-hawks",
+      "work_id": "RMB_002",
+      "title": "The Hawks of Hawk-Hollow",
+      "url": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-hawks/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Kindle, Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-89-3",
+        "paperback": "978-3-912883-88-6",
+        "ebook": "978-3-912883-90-9"
+      },
+      "cover": "/assets/images/cover-hawks-en-fallback.jpg",
+      "cover_sha256": "d2f311ceb86cb4151b2a0fc99f0a103ad301f5e4157d753546ba32caab853c58",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-90-9",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJ2HX6CD"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJ2HX6CD"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJ2HX6CD"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJ2HX6CD"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-88-6",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883882"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883882"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883882"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883882"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-89-3",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883890"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883890"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883890"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-george-washington-sears-woodcraft-illustrated",
+      "work_id": "GWS_001",
+      "title": "Woodcraft (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-george-washington-sears-woodcraft-illustrated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": null,
+        "paperback": "978-3-912883-59-6",
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-woodcraft-en-fallback.jpg",
+      "cover_sha256": "2a185a5b94479d4d1daa0b48508096e2ddfa1cab740c923b788ca4daa3379e8f",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": null,
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HHXSJLX1"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HHXSJLX1"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HHXSJLX1"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HHXSJLX1"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-59-6",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883599"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883599"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883599"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883599"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-francis-parkman-edition-oregon-trail",
+      "work_id": "FP_002_EN",
+      "title": "The Oregon Trail (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-francis-parkman-edition-oregon-trail/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-031-9",
+        "paperback": "978-3-67605-030-2",
+        "ebook": "978-3-67605-029-6"
+      },
+      "cover": "/assets/images/cover-oregon-trail-en-fallback.jpg",
+      "cover_sha256": "63d49e6ecb0d66868f426494949e007b380adc1b48ea612b263bd58168ec84b8",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-67605-029-6",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJXVW262"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJXVW262"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJXVW262"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJXVW262"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-030-2",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676050304"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3676050304"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3676050304"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3676050304"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-031-9",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676050312"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3676050312"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3676050312"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-james-hall-the-harpe-s-head-illustrated",
+      "work_id": "JH_001_EN",
+      "title": "The Harpe’s Head (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-james-hall-the-harpe-s-head-illustrated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-060-9",
+        "paperback": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+      "cover_sha256": "20c878189a1b695231f70615df0b75e5d43144f9b1f4955f654d2540067559b0",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-060-9",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+      "work_id": "DCB_001",
+      "title": "Shelters, Shacks, and Shanties (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": null,
+        "paperback": "978-3-67605-072-2",
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-shelters-shacks-shanties.jpg",
+      "cover_sha256": "6b349b1f2396a119309a6cb13b24a2ed9434d945664d3ae71424610de3100a0f",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-072-2",
+          "pages": 274,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-richard-jefferies-edition-bevis",
+      "work_id": "RJE_001",
+      "title": "Bevis (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-richard-jefferies-edition-bevis/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": null,
+        "paperback": "978-3-912883-95-4",
+        "ebook": "978-3-912883-97-8"
+      },
+      "cover": "/assets/images/cover-bevis-en-fallback.jpg",
+      "cover_sha256": "2263c6c908b7e3e5d2a8f786fa20caf4ce8d17e3df11ec2e9bf9613e5e1622d9",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\_STAGING_OUTDOOR_CLASSICS_PILLAR_PENDING\\JEFFERIES\\02_WERKE\\RJE_001_BEVIS_1882\\07_EXPORT\\UPLOADPAKET_EN_KDP_V23_20261103\\RJE_001_EN_KDP_PAPERBACK_6X9_COVER_ISBN_9783912883954.pdf",
+        "source_sha256": "a2a07e9af89f3e4288d470619c23ce94a73c572f44406a759f0b36b9cb411b14",
+        "record_utc": "2026-11-09T09:15:00Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\INGRAM_PROOFS_20261109\\kdp_live_rje001_paperback.json",
+        "record_version": "LIVE_KDP_REGAL_20261109"
+      },
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-97-8",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJ6M56RG"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJ6M56RG"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJ6M56RG"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJ6M56RG"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-95-4",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883955"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883955"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883955"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883955"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-charles-brockden-brown-edgar-huntly-illustrated",
+      "work_id": "CBB_001",
+      "title": "Edgar Huntly (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-brockden-brown-edgar-huntly-illustrated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Kindle, Hardcover, Paperback",
+      "publication_date": "2026-09-22",
+      "isbn": {
+        "hardcover": "978-3-67605-099-9",
+        "paperback": "978-3-67605-098-2",
+        "ebook": "978-3-67605-097-5"
+      },
+      "cover": "/assets/images/cover-edgar-huntly-fallback.jpg",
+      "cover_sha256": "a2288e517006fb1f2f6720f5c37ecde36245bd25c4adaffaae9a0c822932cff2",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": "978-3-67605-097-5",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States — listing",
+              "url": "https://www.amazon.com/dp/B0HKMTDRHJ"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-099-9",
+          "pages": 316,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676050991"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3676050991"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3676050991"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-098-2",
+          "pages": 316,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676050983"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3676050983"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3676050983"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3676050983"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "work_id": "JBG_001",
+      "title": "Six Years with the Texas Rangers (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-james-b-gillett-six-years-with-the-texas-rangers-illustrated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": null,
+        "paperback": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-texas-rangers-gillett-en-20260929-fallback.jpg",
+      "cover_sha256": "a39d52f91244baaae93884fc4c1065761f4a73ac1d62a5e02725a0150d40e485",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Kindle",
+          "isbn": null,
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HJXX6366"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HJXX6366"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HJXX6366"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HJXX6366"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-james-j-hill-highways-of-progress-illustrated",
+      "work_id": "JJH_001",
+      "title": "Highways of Progress (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-james-j-hill-highways-of-progress-illustrated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover, Kindle",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-101-9",
+        "paperback": "978-3-67605-100-2",
+        "ebook": "978-3-67605-102-6"
+      },
+      "cover": "/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+      "cover_sha256": "26f39866f35144f4a77fb50004660d082eff2f043e215239e8cab88be04f0604",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\04_SAEULE_IV_BLAU_WIRTSCHAFT_TITANEN\\JJH_JAMES_J_HILL\\02_WERKE\\JJH_001_HIGHWAYS_OF_PROGRESS_1910\\EN_EDITION_20260926\\09_EXPORT\\UPLOADPAKET_V11_20261018\\JJH001_EN_EBOOK_DECKEL_1600x2400.jpg",
+        "source_sha256": "db7e3b83d86a3a8fd5571a4093aba8487c6cb42919ca9766790f32d1391fc885",
+        "record_utc": "2026-10-21T11:55:46.5408284Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\JJH001_U01C_U02B_20261021_BELEGE\\EN_EBOOK_REGISTER_LIVE.json",
+        "record_version": "V11_LIVE_BEOBACHTET_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-100-2",
+          "pages": 310,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676051009"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-101-9",
+          "pages": 310,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676051017"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-67605-102-6",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HLRD5D9L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "work_id": null,
+      "title": "The Epic of Mount Everest (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-116-3",
+        "paperback": "978-3-67605-115-6",
+        "ebook": "978-3-67605-117-0"
+      },
+      "cover": "/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+      "cover_sha256": "16530939b6c53a36a70f193831e7a1884f91e825b7b8e25d2ceabac5ed347041",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-115-6",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-116-3",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-67605-117-0",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-robert-louis-stevenson-treasure-island-annotated",
+      "work_id": "RLS_001",
+      "title": "Treasure Island (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-robert-louis-stevenson-treasure-island-annotated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-137-8",
+        "hardcover": "978-3-67605-138-5"
+      },
+      "cover": "/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+      "cover_sha256": "dc980a2a0fb11b7ce439edb92773f1d073a083ce645f29ab4cffbd45e8a4aec4",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-137-8",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-138-5",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "work_id": "JDU_001",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880",
+      "url": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover, Kindle",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-126-2",
+        "paperback": "978-3-67605-125-5",
+        "ebook": "978-3-67605-127-9"
+      },
+      "cover": "/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+      "cover_sha256": "54e609921ddb1cd05c6aaac0e239b8ef1ad599274b918efe28acbcaa6e219d35",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-125-5",
+          "pages": 366,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676051254"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-126-2",
+          "pages": 366,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676051262"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-67605-127-9",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HMBYTVPR"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "work_id": null,
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+      "url": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-129-3",
+        "paperback": "978-3-67605-128-6",
+        "ebook": "978-3-67605-130-9"
+      },
+      "cover": "/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+      "cover_sha256": "9c1711ffed9dce6800001ae6b43a8a94dfef3b77fd32806e7b39601c543e911f",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-128-6",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-129-3",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-67605-130-9",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-charles-william-wilson-from-korti-to-khartum-illustrated",
+      "work_id": "CWW_001",
+      "title": "From Korti to Khartum (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-william-wilson-from-korti-to-khartum-illustrated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-135-4",
+        "paperback": "978-3-67605-134-7",
+        "ebook": "978-3-67605-136-1"
+      },
+      "cover": "/assets/images/cover-cww001-en-r3g-20261111.jpg",
+      "cover_sha256": "2ea946f6ee498eedff51b3171cd006b757b45023d12fc946f77f4b0dcc9c3386",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CWW_CHARLES_WILLIAM_WILSON\\02_WERKE\\CWW_001_FROM_KORTI_TO_KHARTUM_1885\\09_EXPORT\\UPLOADPAKET_EN_R3G_20261111\\CWW001_EN_EBOOK_DECKEL_1600x2400.jpg",
+        "source_sha256": "30449c174252a25d3c4f17939155849d33ebff2b3a905ac3e52919921fd7dd24",
+        "record_utc": "2026-11-13T09:12:45Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\INGRAM_PROOFS_20261113\\register_cww001_ebook_live.json",
+        "record_version": "R3G_LIVE_20261113T091245Z"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-134-7",
+          "pages": 244,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676051343"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-135-4",
+          "pages": 244,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676051351"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-67605-136-1",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": "Published edition · retailer link under verification.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-grey-owl-the-men-of-the-last-frontier",
+      "work_id": null,
+      "title": "The Men of the Last Frontier",
+      "url": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-142-2",
+        "paperback": "978-3-67605-141-5",
+        "ebook": "978-3-67605-143-9"
+      },
+      "cover": "/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+      "cover_sha256": "1e48c161c4b43bdda709621fada9bd1e3fb35e66fa428704d4beda2ecfb7dd7f",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-141-5",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-142-2",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-143-9",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-wild-animals-i-have-known-annotated",
+      "work_id": "ETS_001",
+      "title": "Wild Animals I Have Known (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-wild-animals-i-have-known-annotated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-77-0",
+        "paperback": "978-3-912883-76-3",
+        "ebook": "978-3-912883-78-7"
+      },
+      "cover": "/assets/images/cover-ets001-en-20260923.jpg",
+      "cover_sha256": "bc72affbe3e78c92beabdfe15552a8c0abc82828c6244ad6993a957cf2412a4c",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-77-0",
+          "pages": null,
+          "status": "HOCHGELADEN",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883777"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883777"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883777"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-76-3",
+          "pages": null,
+          "status": "HOCHGELADEN",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883769"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883769"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883769"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883769"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-78-7",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HKMYVBGK"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HKMYVBGK"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HKMYVBGK"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HKMYVBGK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated",
+      "work_id": "ETS_002",
+      "title": "The Biography of a Grizzly (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-the-biography-of-a-grizzly-annotated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-80-0",
+        "paperback": "978-3-912883-79-4",
+        "ebook": "978-3-912883-81-7"
+      },
+      "cover": "/assets/images/cover-ets002-en-20260923.jpg",
+      "cover_sha256": "6cc7ccb2e5e36bc31ec4b2929ac868537bbf9fb96fc6a6ee99ff56b13a94772d",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-80-0",
+          "pages": null,
+          "status": "BLOCKIERT",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883807"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883807"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883807"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-79-4",
+          "pages": null,
+          "status": "BLOCKIERT",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883793"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883793"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883793"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883793"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-81-7",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HKNFSSQB"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HKNFSSQB"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HKNFSSQB"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HKNFSSQB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-lives-of-the-hunted-annotated",
+      "work_id": "ETS_003",
+      "title": "Lives of the Hunted (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-lives-of-the-hunted-annotated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-83-1",
+        "paperback": "978-3-912883-82-4",
+        "ebook": "978-3-912883-84-8"
+      },
+      "cover": "/assets/images/cover-ets003-en-20260923.jpg",
+      "cover_sha256": "640b4ee085f4c9ae238d7149b775da42924017586041c9d69f54458afb22b486",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-83-1",
+          "pages": null,
+          "status": "HOCHGELADEN",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883831"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883831"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883831"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-82-4",
+          "pages": null,
+          "status": "GEBAUT",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883823"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883823"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883823"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883823"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-84-8",
+          "pages": null,
+          "status": "BLOCKIERT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-animal-heroes-annotated",
+      "work_id": "ETS_004",
+      "title": "Animal Heroes (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-animal-heroes-annotated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-86-2",
+        "paperback": "978-3-912883-85-5",
+        "ebook": "978-3-912883-87-9"
+      },
+      "cover": "/assets/images/cover-ets004-en-20260923.jpg",
+      "cover_sha256": "97a233e2ece039dccf8a205fd4fef408b8c5b79a216eea637531bb91c50642ef",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ETS_ERNEST_THOMPSON_SETON\\02_WERKE\\ETS_004_TIERHELDEN_1905\\EN_MASTER\\07_EXPORT_EN\\KDP_RELEASE_V5_E810_20260921\\ETS004_EN_EBOOK_COVER.jpg",
+        "source_sha256": "97a233e2ece039dccf8a205fd4fef408b8c5b79a216eea637531bb91c50642ef",
+        "record_utc": "2026-09-21T19:18:00Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "V5_E810_20260921_KDP_EINGEREICHT"
+      },
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-86-2",
+          "pages": null,
+          "status": "BLOCKIERT",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883866"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883866"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883866"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-85-5",
+          "pages": null,
+          "status": "GEBAUT",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883858"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883858"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883858"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883858"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-87-9",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HKJXW3KV"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HKJXW3KV"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HKJXW3KV"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HKJXW3KV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated",
+      "work_id": "ETS_007",
+      "title": "Monarch, the Big Bear of Tallac (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-912883-74-9",
+        "paperback": "978-3-912883-73-2",
+        "ebook": "978-3-912883-75-6"
+      },
+      "cover": "/assets/images/cover-ets007-en-20260923.jpg",
+      "cover_sha256": "bf85e5e6092336b4cbb0c05902f297711d1954dd70f4a279a0c31f8cefcad682",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-912883-74-9",
+          "pages": null,
+          "status": "HOCHGELADEN",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883742"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883742"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883742"
+            }
+          ]
+        },
+        {
+          "label": "Paperback",
+          "isbn": "978-3-912883-73-2",
+          "pages": null,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3912883734"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3912883734"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3912883734"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3912883734"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "isbn": "978-3-912883-75-6",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HKNBL4CV"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HKNBL4CV"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HKNBL4CV"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HKNBL4CV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-william-gilmore-simms-the-yemassee-annotated",
+      "work_id": "WGS_001",
+      "title": "The Yemassee (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-william-gilmore-simms-the-yemassee-annotated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-131-6",
+        "hardcover": "978-3-67605-132-3",
+        "ebook": "978-3-67605-133-0"
+      },
+      "cover": "/assets/images/cover-en-william-gilmore-simms-the-yemassee-annotated-trade-20261118.jpg",
+      "cover_sha256": "8538ded657186a942666a3257de2f2feea0b97e22d4db8fc51e617af79ef2387",
+      "cover_updated": true,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\WGS_WILLIAM_GILMORE_SIMMS\\02_WERKE\\WGS_001_THE_YEMASSEE_1835\\09_EXPORT\\UPLOADPAKET_EN_INGRAM_V4_20261103\\INGRAM\\9783676051323_cov.pdf",
+        "source_sha256": "6334d35bae704ca8dcc3da3ea764f6dad7d84a4424c82daf32f63147627e75f8",
+        "record_utc": "2026-11-14T09:18:30.1675215Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\20261114T091830Z__WGS_001_ingram_eproof_live.json",
+        "record_version": "V4_LIVE_INGRAM_20261114T091830Z"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-131-6",
+          "pages": 528,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-132-3",
+          "pages": 528,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-133-0",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": "Published edition · retailer link under verification.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-arthur-conan-doyle-the-lost-world",
+      "work_id": "ACD_002",
+      "title": "The Lost World",
+      "url": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-lost-world/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-153-8",
+        "hardcover": "978-3-67605-154-5"
+      },
+      "cover": "/assets/images/cover-acd002-en-ingram-v1-20261008.jpg",
+      "cover_sha256": "af74cdc5b54de996eae99515a05c12868d13b946ac3570e0899aac9b85f7cfa3",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_002_THE_LOST_WORLD\\ENG\\10_UEBERGABE\\UPLOADPAKET_V5_EN_INGRAM_20261008\\INGRAM\\9783676051545_cov.pdf",
+        "source_sha256": "bb0bcf61a18b253d6818a273887203c9687635c704f397fe7b2fdfbe2b7efd1e",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-153-8",
+          "pages": 290,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-154-5",
+          "pages": 290,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-arthur-conan-doyle-the-white-company-volume-i",
+      "work_id": "ACD_001_BAND_I",
+      "title": "The White Company · Volume I",
+      "url": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-i/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-144-6",
+        "hardcover": "978-3-67605-145-3"
+      },
+      "cover": "/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-i-trade-20261118.jpg",
+      "cover_sha256": "bdfb840c0fbd39c25f77e7743e0daf0ff8755b8a5c45c54565858f5e749a945f",
+      "cover_updated": true,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\10_UEBERGABE\\UPLOADPAKET_V5_EN_INGRAM_BAND_1_20261009\\INGRAM\\9783676051453_cov.pdf",
+        "source_sha256": "8c6aa38f454b50bb584eaf8b8158c9d10f03206505a486754ffbf0ce5e8a9f42",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-144-6",
+          "pages": 216,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-145-3",
+          "pages": 216,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-arthur-conan-doyle-the-white-company-volume-ii",
+      "work_id": "ACD_001_BAND_II",
+      "title": "The White Company · Volume II",
+      "url": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-ii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-147-7",
+        "hardcover": "978-3-67605-148-4"
+      },
+      "cover": "/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-ii-trade-20261118.jpg",
+      "cover_sha256": "c1dc0ffef55115dde364910a978082bad38bd6594c879efcf894e7ce27610dde",
+      "cover_updated": true,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\10_UEBERGABE\\UPLOADPAKET_V5_EN_INGRAM_BAND_2_20261009\\INGRAM\\9783676051484_cov.pdf",
+        "source_sha256": "15858871c86b4731097c0012c99d31f0eb419072d77cfde9b3801fe8de2d7f53",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-147-7",
+          "pages": 186,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-148-4",
+          "pages": 186,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-arthur-conan-doyle-the-white-company-volume-iii",
+      "work_id": "ACD_001_BAND_III",
+      "title": "The White Company · Volume III",
+      "url": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-iii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-150-7",
+        "hardcover": "978-3-67605-151-4"
+      },
+      "cover": "/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-iii-trade-20261118.jpg",
+      "cover_sha256": "9bcbce1a6bdeb459fee2c93949c9954342f4b7d3aced64e19925edb8191a4c67",
+      "cover_updated": true,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\10_UEBERGABE\\UPLOADPAKET_V5_EN_INGRAM_BAND_3_20261009\\INGRAM\\9783676051514_cov.pdf",
+        "source_sha256": "cc1510a911d8303ada6c7c38b345d666498f015f7d1b4d622f3a6fb741e2cc3f",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-150-7",
+          "pages": 200,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-151-4",
+          "pages": 200,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-arthur-conan-doyle-sir-nigel",
+      "work_id": "ACD_003",
+      "title": "Sir Nigel",
+      "url": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-sir-nigel/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-169-9",
+        "hardcover": "978-3-67605-170-5"
+      },
+      "cover": "/assets/images/cover-acd003-en-ingram-v2-20261011.jpg",
+      "cover_sha256": "a56d020776aafcca9f4205467ed4dc0faa66569bb8a48d643b5a8a750c468c2d",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_003_SIR_NIGEL\\ENG\\10_UEBERGABE\\UPLOADPAKET_V3_EN_INGRAM_20261011\\INGRAM\\9783676051705_cov.pdf",
+        "source_sha256": "66f791832ff9360bad70e6276036527aa06da793d144a9005a4da3beceb813f4",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-169-9",
+          "pages": 476,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-170-5",
+          "pages": 476,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-deerslayer",
+      "work_id": "COO_001",
+      "title": "The Deerslayer",
+      "url": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-deerslayer/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-158-3",
+        "paperback": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-coo001-en-ingram-hc-r6-20261024.jpg",
+      "cover_sha256": "c1472a7c0d20eb91a9f9207625903364895a46991f3bfc77ccdcb62d2c4dd743",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-158-3",
+          "pages": 652,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-last-of-the-mohicans",
+      "work_id": "COO_002",
+      "title": "The Last of the Mohicans",
+      "url": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-last-of-the-mohicans/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-213-9",
+        "paperback": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-coo002-en-ingram-hc-r6-20261024.jpg",
+      "cover_sha256": "8df2b9452f17969f288c54bef67eaf319ace91c957a0a2ac7100539fe0e13ab7",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-213-9",
+          "pages": 492,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-pathfinder",
+      "work_id": "COO_003",
+      "title": "The Pathfinder",
+      "url": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-pathfinder/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-214-6",
+        "paperback": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-coo003-en-ingram-hc-r6-20261024.jpg",
+      "cover_sha256": "917657d80436a62a641ae54a376223f72842087eb1bdeba0e901d5f2d5fd33cc",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-214-6",
+          "pages": 556,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-pioneers",
+      "work_id": "COO_004",
+      "title": "The Pioneers",
+      "url": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-pioneers/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-215-3",
+        "paperback": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-coo004-en-ingram-hc-r6-20261024.jpg",
+      "cover_sha256": "4f9648cbf7ad5786b9e6622e2bf896173416af1fd900e22e8903e6fdd8d3df18",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-215-3",
+          "pages": 542,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-james-fenimore-cooper-the-prairie",
+      "work_id": "COO_005",
+      "title": "The Prairie",
+      "url": "https://aeternuspublishing.com/books/en-james-fenimore-cooper-the-prairie/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "hardcover": "978-3-67605-216-0",
+        "paperback": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-coo005-en-ingram-hc-r6-20261024.jpg",
+      "cover_sha256": "099e8f7e8574c6ded28b34db7d9251bfef5e91d9de25633d874f179e807694be",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-216-0",
+          "pages": 540,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-tappan-adney-the-klondike-stampede",
+      "work_id": "ETA_001",
+      "title": "The Klondike Stampede",
+      "url": "https://aeternuspublishing.com/books/en-tappan-adney-the-klondike-stampede/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-160-6",
+        "hardcover": "978-3-67605-161-3",
+        "ebook": "978-3-67605-162-0"
+      },
+      "cover": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+      "cover_sha256": "72006e22d896f7e44bc245e6f605503cda0464f23d313a2ba90c31eb898a8c6a",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-160-6",
+          "pages": 470,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-161-3",
+          "pages": 470,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "E-book",
+          "isbn": "978-3-67605-162-0",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-theodore-roosevelt-the-naval-war-of-1812",
+      "work_id": "TR_005",
+      "title": "The Naval War of 1812 (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-theodore-roosevelt-the-naval-war-of-1812/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-287-0",
+        "hardcover": "978-3-67605-288-7"
+      },
+      "cover": "/assets/images/cover-tr005-en-v6-20261113.jpg",
+      "cover_sha256": "f8b49a6da2ddc53bcabde8e16da92ca91b634684b4b89b3780768103f03603eb",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-287-0",
+          "pages": 502,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "978-3-67605-288-7",
+          "pages": 502,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-henry-doveton-hutchinson-the-campaign-in-tirah",
+      "work_id": "HDH_001",
+      "title": "The Campaign in Tirah, 1897–1898",
+      "url": "https://aeternuspublishing.com/books/en-henry-doveton-hutchinson-the-campaign-in-tirah/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Submitted to IngramSpark; eProof pending.",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-178-1",
+        "hardcover": "978-3-67605-179-8"
+      },
+      "cover": "/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg",
+      "cover_sha256": "8d0fa574565a752d9c1bdc87fd0363eb02e5e2ed3923d58736aecc9097952837",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-178-1",
+          "pages": 284,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-179-8",
+          "pages": 284,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-h-rider-haggard-king-solomons-mines",
+      "work_id": "HRH_001",
+      "title": "King Solomon’s Mines",
+      "url": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": "2026-10-12",
+      "isbn": {
+        "paperback": "978-3-67605-068-5",
+        "hardcover": "978-3-67605-069-2",
+        "ebook": "978-3-67605-067-8"
+      },
+      "cover": "/assets/images/cover-hrh001-en-ingram-v5-20261012.jpg",
+      "cover_sha256": "f91e8a1eb2f455a51cbe7f193d663ba4cddcecf51776dbee25349262bfd62fcc",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\HRH_HENRY_RIDER_HAGGARD\\04_PRODUCTION\\EN_SERIES_20260905\\HRH001_EN_REIHE_20261008\\UPLOADPAKET_V8_EN_INGRAM_EBOOK_20261012\\INGRAM\\9783676050685_cov.pdf",
+        "source_sha256": "cf412bf37a8bf14a2984c447b404ea516305f883ff0db20bbdf093ae29a23058",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-068-5",
+          "pages": 316,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-069-2",
+          "pages": 316,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-067-8",
+          "pages": null,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-h-rider-haggard-allan-quatermain",
+      "work_id": "HRH_002",
+      "title": "Allan Quatermain",
+      "url": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback",
+      "publication_date": "2026-10-12",
+      "isbn": {
+        "paperback": "978-3-67605-084-5",
+        "hardcover": "978-3-67605-085-2",
+        "ebook": "978-3-67605-083-8"
+      },
+      "cover": "/assets/images/cover-hrh002-en-ingram-v2-20261012.jpg",
+      "cover_sha256": "0a894252b8b0913404740d5f842fd8d0023aa1d27432bae3c05d18c09f763084",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\HRH_HENRY_RIDER_HAGGARD\\04_PRODUCTION\\EN_SERIES_20260905\\HRH002_EN_REIHE_20261008\\UPLOADPAKET_V2_EN_INGRAM_EBOOK_20261012\\INGRAM\\9783676050852_cov.pdf",
+        "source_sha256": "cce4fad687c684ff7a01cc0e3a002ea21f99a98b7440dbb82f14e5838e95d17f",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-084-5",
+          "pages": 410,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-085-2",
+          "pages": 408,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-083-8",
+          "pages": null,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-h-rider-haggard-nada-the-lily",
+      "work_id": "HRH_003",
+      "title": "Nada the Lily",
+      "url": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": "2026-10-12",
+      "isbn": {
+        "paperback": "978-3-67605-092-0",
+        "hardcover": "978-3-67605-093-7",
+        "ebook": "978-3-67605-082-1"
+      },
+      "cover": "/assets/images/cover-hrh003-en-ingram-v10-20261012.jpg",
+      "cover_sha256": "14b4a6526d1a0828679c4670495e8e1a63b02d63d35394553edffc5e11ee3ea4",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\HRH_HENRY_RIDER_HAGGARD\\04_PRODUCTION\\EN_SERIES_20260905\\HRH003_EN_KDP_20261008\\UPLOADPAKET_V3_EN_INGRAM_EBOOK_20261012\\INGRAM\\9783676050937_cov.pdf",
+        "source_sha256": "46e86bb176cbb098578fb8e7c8ccdc00fa248f6fffda9cf2bac7546fd24fe3da",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-092-0",
+          "pages": 452,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-093-7",
+          "pages": 452,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-082-1",
+          "pages": null,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-h-rider-haggard-she",
+      "work_id": "HRH_005",
+      "title": "She",
+      "url": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": "2026-10-12",
+      "isbn": {
+        "paperback": "978-3-67605-080-7",
+        "hardcover": "978-3-67605-081-4",
+        "ebook": "978-3-67605-079-1"
+      },
+      "cover": "/assets/images/cover-en-h-rider-haggard-she-trade-20261118.jpg",
+      "cover_sha256": "06b9b1e196417caf45cf5e4ef5023f16d2c09887f8b62cc345f8629861571278",
+      "cover_updated": true,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\HRH_HENRY_RIDER_HAGGARD\\04_PRODUCTION\\EN_SERIES_20260905\\HRH005_EN_REIHE_20261008\\UPLOADPAKET_V8_EN_INGRAM_EBOOK_20261012\\INGRAM\\9783676050814_cov.pdf",
+        "source_sha256": "3573ec80b5d8f661a6ef8a1e6c1dff148a17d6bc1c1ec30c3045fdcd35c2aa06",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-080-7",
+          "pages": 432,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-081-4",
+          "pages": 432,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-079-1",
+          "pages": null,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-h-rider-haggard-ayesha",
+      "work_id": "HRH_006",
+      "title": "Ayesha",
+      "url": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback",
+      "publication_date": "2026-10-12",
+      "isbn": {
+        "paperback": "978-3-67605-087-6",
+        "hardcover": "978-3-67605-088-3",
+        "ebook": "978-3-67605-086-9"
+      },
+      "cover": "/assets/images/cover-hrh006-en-ingram-v5-20261012.jpg",
+      "cover_sha256": "76c0de8a3e35342326e49fefc307fbda885812ed11b9bd661527e435e8d907d2",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\HRH_HENRY_RIDER_HAGGARD\\04_PRODUCTION\\EN_SERIES_20260905\\HRH006_EN_REIHE_20261008\\UPLOADPAKET_V5_EN_INGRAM_EBOOK_20261012\\INGRAM\\9783676050883_cov.pdf",
+        "source_sha256": "afda3f506c3476d61d2ef01f70d8864b0d02082dc22d1739eebf4e4236ea5901",
+        "record_utc": "2026-10-21T14:48:09Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261021"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-087-6",
+          "pages": 480,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-088-3",
+          "pages": 478,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-086-9",
+          "pages": null,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-francis-parkman-the-discovery-of-the-great-west",
+      "work_id": "FP_005",
+      "title": "The Discovery of the Great West",
+      "url": "https://aeternuspublishing.com/books/en-francis-parkman-the-discovery-of-the-great-west/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming in paperback and hardcover.",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-104-0",
+        "hardcover": "978-3-67605-105-7"
+      },
+      "cover": "/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+      "cover_sha256": "16d9868e68a7d861371fc1b0958944074a0d722fed64d95498d2817838592671",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-104-0",
+          "pages": 456,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-105-7",
+          "pages": 456,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-francis-parkman-the-conspiracy-of-pontiac",
+      "work_id": "FP_001",
+      "title": "The Conspiracy of Pontiac (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-francis-parkman-the-conspiracy-of-pontiac/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-217-7",
+        "hardcover": "978-3-67605-218-4",
+        "ebook": null
+      },
+      "cover": "/assets/images/fp001-pontiac-v7-20261024.jpg",
+      "cover_sha256": "cb2a4fc337d51c6f5a18b8d6841aa1e8c86c84c27bfffbe0c49ebd633fb87fac",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-217-7",
+          "pages": 698,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/367605217X"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-218-4",
+          "pages": 700,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-william-robertson-from-private-to-field-marshal",
+      "work_id": "WR_001",
+      "title": "From Private to Field-Marshal",
+      "url": "https://aeternuspublishing.com/books/en-william-robertson-from-private-to-field-marshal/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming in paperback, hardcover and ebook.",
+      "publication_date": "2026-10-22",
+      "isbn": {
+        "paperback": "978-3-67605-192-7",
+        "hardcover": "978-3-67605-193-4",
+        "ebook": "978-3-67605-194-1"
+      },
+      "cover": "/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+      "cover_sha256": "f8567dc3f664aa850d1c81759101a5db0ded9f0fe3f01f3333ab988615ed492c",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-192-7",
+          "pages": 504,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-193-4",
+          "pages": 504,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book (EPUB)",
+          "isbn": "978-3-67605-194-1",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-charles-edward-callwell-the-life-of-sir-stanley-maude",
+      "work_id": "CEC_001",
+      "title": "The Life of Sir Stanley Maude",
+      "url": "https://aeternuspublishing.com/books/en-charles-edward-callwell-the-life-of-sir-stanley-maude/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now",
+      "publication_date": "2026-10-27",
+      "isbn": {
+        "paperback": "978-3-67605-189-7",
+        "hardcover": "978-3-67605-190-3",
+        "ebook": "978-3-67605-191-0"
+      },
+      "cover": "/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+      "cover_sha256": "2a4f69a1a97e5389e70fd54773d10b2957d936bb63ff462e54dd4ac467535163",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-189-7",
+          "pages": 502,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-190-3",
+          "pages": 502,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-191-0",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-melliss-lion-hunting-in-somali-land-annotated",
+      "work_id": "CJM_001",
+      "title": "Lion-Hunting in Somali-land (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-melliss-lion-hunting-in-somali-land-annotated/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now",
+      "publication_date": "2026-10-22",
+      "isbn": {
+        "paperback": "978-3-67605-202-3",
+        "hardcover": "978-3-67605-203-0",
+        "ebook": "978-3-67605-204-7"
+      },
+      "cover": "/assets/images/cover-cjm001-en-v5-20261018.jpg",
+      "cover_sha256": "3a0fd69cb1130c04075d8a500b01bd4d82828cc049cf83b0ef93cc121d2737ac",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\CJM_CHARLES_JOHN_MELLISS\\02_WERKE\\CJM_001_LION_HUNTING_IN_SOMALI_LAND_1895\\09_HANDEL\\UPLOADPAKET_CJM001_EN_INGRAM_V4\\INGRAM\\9783676052023_cov.pdf",
+        "source_sha256": "83291344c1659ecfc9e4cf22526ea8990a5b463f4201a78fb4f889487e09d2b3",
+        "record_utc": "2026-10-22T20:41:49Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+        "record_version": "INGRAM_EPROOF_FREIGABE_20261022"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-202-3",
+          "pages": 144,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-203-0",
+          "pages": 144,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-204-7",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-robert-baden-powell-the-matabele-campaign-1896",
+      "work_id": "BP_009",
+      "title": "The Matabele Campaign, 1896 (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-matabele-campaign-1896/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now",
+      "publication_date": "2026-11-04",
+      "isbn": {
+        "paperback": "978-3-67605-210-8",
+        "hardcover": "978-3-67605-211-5",
+        "ebook": "978-3-67605-212-2"
+      },
+      "cover": "/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+      "cover_sha256": "fcfd735580a83e20e150a53b0daad11256a955b56ac9c0d1ef4156a37eaec24b",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\BP_ROBERT_BADEN_POWELL\\02_WERKE\\BP_009_MATABELE_CAMPAIGN_1897\\09_HANDEL\\UPLOADPAKET_BP009_EN_KDP_V4\\BP009_EN_KDP_HARDCOVER_UMSCHLAG_374.pdf",
+        "source_sha256": "3968c66324a9e6c3c2e241924b7f75703958408663377f0f29c14b2ccb37b89e",
+        "record_utc": "2026-11-06T10:20:00Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\INGRAM_PROOFS_20261106\\kdp_live_bp009_hc.json",
+        "record_version": "LIVE_KDP_REGAL_20261106"
+      },
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn": "978-3-67605-210-8",
+          "pages": 390,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-210-8",
+          "pages": 392,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · Amazon",
+          "isbn": "978-3-67605-211-5",
+          "pages": 390,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676052110"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3676052110"
+            },
+            {
+              "label": "Germany",
+              "url": "https://www.amazon.de/dp/3676052110"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3676052110"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3676052110"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "978-3-67605-211-5",
+          "pages": 392,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn": "978-3-67605-212-2",
+          "pages": null,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-robert-baden-powell-aids-to-scouting",
+      "work_id": "BP_002",
+      "title": "Aids to Scouting for N.-C.Os. & Men",
+      "url": "https://aeternuspublishing.com/books/en-robert-baden-powell-aids-to-scouting/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, E-Book",
+      "publication_date": "2026-10-28",
+      "isbn": {
+        "paperback": "978-3-67605-205-4",
+        "hardcover": null,
+        "ebook": "978-3-67605-206-1"
+      },
+      "cover": "/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+      "cover_sha256": "2074ffbde5a68d720348a08552d46f11510837e4b27d2c680c79532a765bc2f0",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\BP_ROBERT_BADEN_POWELL\\02_WERKE\\BP_002_AIDS_TO_SCOUTING_1899\\EN_EDITION_20260924\\09_HANDEL\\UPLOADPAKET_BP002_EN_KDP_V2\\BP002_EN_EBOOK_DECKEL.jpg",
+        "source_sha256": "81306cb7474135bf8d059060fb4cfad0b38a758c1a75a78805dfb328f2388ac9",
+        "record_utc": "2026-10-26T07:53:24.709Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\BESTAND_R8_18_FORTSETZUNG_20261026T181249Z\\NOCH_FEHLENDE_LIVE_NACHTRAEGE.json",
+        "record_version": "R8_18_KDP_V2_EBOOK_LIVE_20261026"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-205-4",
+          "pages": 144,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-206-1",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HNSZ77PN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-younghusband-the-relief-of-chitral",
+      "work_id": "GJY_001",
+      "title": "The Relief of Chitral",
+      "url": "https://aeternuspublishing.com/books/en-younghusband-the-relief-of-chitral/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": null,
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-195-8",
+        "hardcover": "978-3-67605-196-5",
+        "ebook": "978-3-67605-197-2"
+      },
+      "cover": "/assets/images/cover-the-relief-of-chitral-younghusband-en-20261116.jpg",
+      "cover_sha256": "cffb91d81ada504a292d218b149f61feba0b23b07aac024126559c1a4f308318",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-195-8",
+          "pages": 224,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-196-5",
+          "pages": 224,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-197-2",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-ian-hamilton-gallipoli-diary-volume-i",
+      "work_id": "IH_001",
+      "title": "Gallipoli Diary, Volume I (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-ian-hamilton-gallipoli-diary-volume-i/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming · 2 November 2026",
+      "publication_date": "2026-11-02",
+      "isbn": {
+        "paperback": "978-3-67605-183-5",
+        "hardcover": "978-3-67605-184-2",
+        "ebook": "978-3-67605-185-9"
+      },
+      "cover": "/assets/images/cover-gallipoli-diary-volume-i-en-20261022.jpg",
+      "cover_sha256": "71412549c54d2c4692d9520405b7c51bde11a13a3a3a62f125f61bff39db1c97",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-183-5",
+          "pages": 344,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-184-2",
+          "pages": 344,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-185-9",
+          "pages": null,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-ian-hamilton-gallipoli-diary-volume-ii",
+      "work_id": "IH_001",
+      "title": "Gallipoli Diary, Volume II (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-ian-hamilton-gallipoli-diary-volume-ii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover, E-Book",
+      "publication_date": "2026-11-02",
+      "isbn": {
+        "paperback": "978-3-67605-186-6",
+        "hardcover": "978-3-67605-187-3",
+        "ebook": "978-3-67605-188-0"
+      },
+      "cover": "/assets/images/cover-gallipoli-diary-volume-ii-en-20261022.jpg",
+      "cover_sha256": "144b473520878f71bec6782e98c85d2da0e012711f5278e04189b87ca703effa",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\IH_IAN_HAMILTON\\02_WERKE\\IH_001_GALLIPOLI_DIARY\\09_EXPORT\\UPLOADPAKET_IH001_EN_B2_INGRAM_V2\\IH001_EN_B2_EBOOK_DECKEL_1600x2400.jpg",
+        "source_sha256": "dc47f07fdf38a4a1879d11232131b58b4c001c117985427b88e2048696066811",
+        "record_utc": "2026-10-26T07:52:33.959Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\BESTAND_R8_18_HAMILTON_20261107\\LIVE_NACHTRAG.json",
+        "record_version": "R8_18_INGRAM_B2_EBOOK_V2_LIVE_20261026"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-186-6",
+          "pages": 336,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-187-3",
+          "pages": 336,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "E-Book",
+          "isbn": "978-3-67605-188-0",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-edgar-allan-poe-tales",
+      "work_id": "EAP_001",
+      "title": "Tales",
+      "url": "https://aeternuspublishing.com/books/en-edgar-allan-poe-tales/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": "2026-11-04",
+      "isbn": {
+        "paperback": "978-3-67605-207-8",
+        "hardcover": "978-3-67605-208-5",
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-eap001-en-ingram-v3-20261024.jpg",
+      "cover_sha256": "324ad3bba7bc0e0ebbf8b7e97fda355f1a2c0f8c34f251cd25491b77722aa160",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-207-8",
+          "pages": 298,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-208-5",
+          "pages": 298,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i",
+      "work_id": "FSR_001",
+      "title": "Forty-One Years in India (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-i/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Volume I · forthcoming in paperback and hardcover",
+      "publication_date": "2026-10-31",
+      "isbn": {
+        "paperback": null,
+        "hardcover": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-forty-one-years-in-india-volume-1-v5.jpg",
+      "cover_sha256": "8bca83216d5a8834bbed3ad292cf4517b1c25c666c6bb1b238f480b099f0f791",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": []
+    },
+    {
+      "id": "en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii",
+      "work_id": "FSR_001",
+      "title": "Forty-One Years in India (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-frederick-sleigh-roberts-forty-one-years-in-india-volume-ii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Volume II · forthcoming in paperback and hardcover",
+      "publication_date": "2026-10-31",
+      "isbn": {
+        "paperback": null,
+        "hardcover": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-forty-one-years-in-india-volume-2-v5.jpg",
+      "cover_sha256": "e4256ffdce09db31dc0bd5a393ccd07f521bfb1a52303b153ea90df0635ab039",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": []
+    },
+    {
+      "id": "en-charles-metcalfe-macgregor-wanderings-in-balochistan",
+      "work_id": "CMM_002",
+      "title": "Wanderings in Balochistan (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-wanderings-in-balochistan/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052221",
+        "hardcover": "9783676052238",
+        "ebook": "9783676052245"
+      },
+      "cover": "/assets/images/cover-cmm002-en-v12-20261027.jpg",
+      "cover_sha256": "d6ec387e3d6460c8e4de6649f4c0289ee43f38cf84bc325cc6ca181e95912951",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn": "9783676052221",
+          "pages": 348,
+          "status": "NOT_SUBMITTED",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "9783676052221",
+          "pages": 350,
+          "status": "HOCHGELADEN",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "9783676052238",
+          "pages": 350,
+          "status": "NOT_SUBMITTED",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn": "9783676052245",
+          "pages": null,
+          "status": "NOT_SUBMITTED",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-charles-metcalfe-macgregor-the-defence-of-india",
+      "work_id": "CMM_001",
+      "title": "The Defence of India (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052375",
+        "hardcover": "9783676052382"
+      },
+      "cover": "/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "cover_sha256": "3b349aba4c78b7ccd3928cae0387455456fc65148d379d8839da26ca0fe65c63",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "9783676052375",
+          "pages": 800,
+          "status": "BLOCKIERT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "9783676052382",
+          "pages": 800,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-i",
+      "work_id": "CMM_003",
+      "title": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume I (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-i/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback · IngramSpark, Hardcover · IngramSpark",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052559",
+        "hardcover": "9783676052566",
+        "ebook": "9783676052573"
+      },
+      "cover": "/assets/images/cover-cmm003-en-b1-v4-20261112.jpg",
+      "cover_sha256": "7492cd8e86d23d952b3fb7743ca8cf662d7e6e3bdbf29815a742df7dcc5fbfb3",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\_CB\\CMM003_EN_20261030\\CMM_003_LIFE_AND_OPINIONS_1888\\07_PAKETE\\FINAL_B1_V4_20261112\\INGRAM\\9783676052559_cov.pdf",
+        "source_sha256": "4b160b004858cfcea0d103ff4cb3ab83515993cee8e184dead721fd64bd5eb00",
+        "record_utc": "2026-11-14T09:17:33.3727181Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\20261114T091733Z__ingram_eproof_vertrieb_live.json",
+        "record_version": "B1_V4_LIVE_INGRAM_20261114T091733Z"
+      },
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn": "9783676052559",
+          "pages": 366,
+          "status": "NOT_SUBMITTED",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "9783676052559",
+          "pages": 368,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "9783676052566",
+          "pages": 368,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn": "9783676052573",
+          "pages": null,
+          "status": "NOT_SUBMITTED",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-charles-metcalfe-macgregor-life-and-opinions-volume-ii",
+      "work_id": "CMM_003_VOL_2",
+      "title": "The Life and Opinions of Major-General Sir Charles Metcalfe MacGregor, Volume II (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-life-and-opinions-volume-ii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback · IngramSpark, Hardcover · IngramSpark",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052580",
+        "hardcover": "9783676052597",
+        "ebook": "9783676052603"
+      },
+      "cover": "/assets/images/cover-cmm003-en-b2-v7-20261107.jpg",
+      "cover_sha256": "f88792017465c0459fc880514aa08dee35969a890bd4a9da8d7323daa2479494",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\_CB\\CMM003_EN_20261030\\CMM_003_LIFE_AND_OPINIONS_1888\\07_PAKETE\\FINAL_B2_V8_20261112\\INGRAM\\9783676052580_cov.pdf",
+        "source_sha256": "f479c59a798a04e2c4afceff4d21ffe220b17f983c345fb18eb3b60bce8e44b5",
+        "record_utc": "2026-11-14T09:18:30.1675215Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\20261114T091830Z__CMM_003_VOL_2_ingram_eproof_live.json",
+        "record_version": "B2_V8_LIVE_INGRAM_20261114T091830Z"
+      },
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn": "9783676052580",
+          "pages": 402,
+          "status": "NOT_SUBMITTED",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "9783676052580",
+          "pages": 404,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "9783676052597",
+          "pages": 404,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn": "9783676052603",
+          "pages": null,
+          "status": "NOT_SUBMITTED",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea",
+      "work_id": "JF_001",
+      "title": "Narrative of a Journey to the Shores of the Polar Sea (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052788",
+        "hardcover": "9783676052795"
+      },
+      "cover": "/assets/images/cover-jf001-en-v8-20261112.jpg",
+      "cover_sha256": "7701f3b317ddfdccb18922ba661482b6a1d7b9221ae4bf178765dcab47bb0c8e",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "9783676052788",
+          "pages": 774,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "9783676052795",
+          "pages": 774,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-charles-brockden-brown-wieland-illustrated",
+      "work_id": "CBB_002",
+      "title": "Wieland (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-brockden-brown-wieland-illustrated/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052191",
+        "hardcover": "9783676052207"
+      },
+      "cover": "/assets/images/cover-cbb002-en-v2-20261104.png",
+      "cover_sha256": "5a7ce92a836a375cf69db1b5cc64d81c3ae16f815ab9abc28e27a7648762cb22",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "9783676052191",
+          "pages": 350,
+          "status": "BLOCKIERT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "9783676052207",
+          "pages": 350,
+          "status": "BLOCKIERT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-richard-jefferies-wood-magic",
+      "work_id": "RJE_003",
+      "title": "Wood Magic (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-richard-jefferies-wood-magic/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback · IngramSpark",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-251-1",
+        "hardcover": null,
+        "ebook": "978-3-67605-252-8"
+      },
+      "cover": "/assets/images/cover-rje003-en-v4-20261103.jpg",
+      "cover_sha256": "334595e9f042c98e9ef79e5ddf603f3cabc6bae979e57467793a34c774643441",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn": "978-3-67605-251-1",
+          "pages": 351,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-251-1",
+          "pages": 360,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn": "978-3-67605-252-8",
+          "pages": null,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-richard-jefferies-the-gamekeeper-at-home",
+      "work_id": "RJE_002",
+      "title": "The Gamekeeper at Home (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-richard-jefferies-the-gamekeeper-at-home/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Live",
+      "publication_date": "2026-11-08",
+      "isbn": {
+        "paperback": "978-3-67605-074-6",
+        "hardcover": null,
+        "ebook": "978-3-67605-066-1"
+      },
+      "cover": "/assets/images/cover-rje002-en-v2-20261104.jpg",
+      "cover_sha256": "e5c44d189b4e16f205b2022384815bd9493d4e4f8a04b3243b99165f48d6af9d",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\_STAGING_OUTDOOR_CLASSICS_PILLAR_PENDING\\JEFFERIES\\02_WERKE\\RJE_002_GAMEKEEPER_AT_HOME_1878\\07_EXPORT\\UPLOADPAKET_EN_KDP_V2_20261104\\RJE_002_EN_KDP_PAPERBACK_6X9_COVER_ISBN_9783676050746.pdf",
+        "source_sha256": "aab70065665e52ab0c610e8dd07123f95ee1ddf8511bd0ecc8905ee43b882be1",
+        "record_utc": "2026-11-08T09:30:00Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\INGRAM_PROOFS_20261108\\kdp_live_rje002_paperback.json",
+        "record_version": "LIVE_KDP_REGAL_20261108"
+      },
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn": "978-3-67605-074-6",
+          "pages": 220,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676050746"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3676050746"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3676050746"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3676050746"
+            }
+          ]
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-074-6",
+          "pages": 222,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn": "978-3-67605-066-1",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HQWFHV8W"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HQWFHV8W"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HQWFHV8W"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HQWFHV8W"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-robert-baden-powell-the-downfall-of-prempeh",
+      "work_id": "BP_005",
+      "title": "The Downfall of Prempeh (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-downfall-of-prempeh/",
+      "previous_availability": "AVAILABLE",
+      "availability": "AVAILABLE",
+      "display_status": "Available now",
+      "publication_date": "2026-10-23",
+      "isbn": {
+        "paperback": "978-3-67605-107-1",
+        "hardcover": "978-3-67605-108-8",
+        "ebook": "978-3-67605-106-4"
+      },
+      "cover": "/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+      "cover_sha256": "9526e41ed1122d8638faf0bc50b115cdce4ce62e68e100feedeffe67490c1219",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · Amazon",
+          "isbn": "978-3-67605-107-1",
+          "pages": 194,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-107-1",
+          "pages": 196,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · Amazon",
+          "isbn": "978-3-67605-108-8",
+          "pages": 194,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/3676051084"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/3676051084"
+            },
+            {
+              "label": "Germany",
+              "url": "https://www.amazon.de/dp/3676051084"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/3676051084"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/3676051084"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "978-3-67605-108-8",
+          "pages": 196,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn": "978-3-67605-106-4",
+          "pages": null,
+          "status": "LIVE",
+          "availability_note": null,
+          "links": [
+            {
+              "label": "United States",
+              "url": "https://www.amazon.com/dp/B0HLPHV413"
+            },
+            {
+              "label": "United Kingdom",
+              "url": "https://www.amazon.co.uk/dp/B0HLPHV413"
+            },
+            {
+              "label": "Germany",
+              "url": "https://www.amazon.de/dp/B0HLPHV413"
+            },
+            {
+              "label": "Canada",
+              "url": "https://www.amazon.ca/dp/B0HLPHV413"
+            },
+            {
+              "label": "Australia",
+              "url": "https://www.amazon.com.au/dp/B0HLPHV413"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-charles-dickens-the-haunted-man-and-the-ghosts-bargain",
+      "work_id": "CD_001",
+      "title": "The Haunted Man and the Ghost's Bargain (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-charles-dickens-the-haunted-man-and-the-ghosts-bargain/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": "2026-11-20",
+      "isbn": {
+        "paperback": "978-3-67605-229-0",
+        "hardcover": "978-3-67605-230-6"
+      },
+      "cover": "/assets/images/cover-cd001-en-v16-20261113.jpg",
+      "cover_sha256": "a0cb88c7b651c4a6bbee41387a24c4b39e6bf8c88fa38c0e210d7b163323715e",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-229-0",
+          "pages": 150,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn": "978-3-67605-230-6",
+          "pages": 150,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-daniel-carter-beard-the-american-boys-handy-book",
+      "work_id": "DCB_002",
+      "title": "The American Boy’s Handy Book (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-daniel-carter-beard-the-american-boys-handy-book/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-262-7",
+        "hardcover": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-dcb002-en-20261113.jpg",
+      "cover_sha256": "54ea0df60f8efc95719319a971ae7991366f7821bb43f526466fbcb108fcdcc3",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-262-7",
+          "pages": 624,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-william-henry-harrison-murray-adventures-in-the-wilderness",
+      "work_id": "WHM_001",
+      "title": "Adventures in the Wilderness (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-william-henry-harrison-murray-adventures-in-the-wilderness/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-076-0",
+        "hardcover": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-whm001-en-20261113.jpg",
+      "cover_sha256": "057da19c0b4e16db82c488c4db6624d0a3cc0680fb6d6832a56577b1b3abc9e7",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-076-0",
+          "pages": 246,
+          "status": "EINGEREICHT",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
+      "work_id": "ESW_001",
+      "title": "Down the Mackenzie and Up the Yukon in 1906 (Illustrated)",
+      "url": "https://aeternuspublishing.com/books/en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback · IngramSpark",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-243-6",
+        "hardcover": null,
+        "ebook": null
+      },
+      "cover": "/assets/images/cover-esw001-en-20261113.jpg",
+      "cover_sha256": "61983a86ea7b1f9b01f6b9ab9e6d623087bd7aa2f08abc8d53db54a708db5e01",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\_STAGING_OUTDOOR_CLASSICS_PILLAR_PENDING\\STEWART\\02_WERKE\\ESW_001_DOWN_THE_MACKENZIE_1913\\04_PRODUCTION\\RELAUNCH_GLOSSAR_20261112\\UPLOADPAKET_EN_V7\\INGRAM\\9783676052436_cov.pdf",
+        "source_sha256": "21b137850efe155a46fc5574aa49d34c38986113feea23d8657a17ffe273ba5f",
+        "record_utc": "2026-11-14T09:18:30.1675215Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\20261114T091830Z__ESW_001_ingram_eproof_live.json",
+        "record_version": "V7_LIVE_INGRAM_20261114T091830Z"
+      },
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn": "978-3-67605-243-6",
+          "pages": 218,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-george-rutledge-gibson-stock-exchanges",
+      "work_id": "GGI_001",
+      "title": "The Stock Exchanges of London, Paris, and New York (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-george-rutledge-gibson-stock-exchanges/",
+      "previous_availability": "COMING_SOON",
+      "availability": "COMING_SOON",
+      "display_status": "Forthcoming in paperback and hardcover.",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "978-3-67605-282-5",
+        "hardcover": "978-3-67605-283-2"
+      },
+      "cover": "/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "cover_sha256": "48a852e6cdb7d9c7bb61fca2690e9cd56fa7d72d49d2861646459c11014b6be9",
+      "cover_updated": false,
+      "trade_cover_evidence": {},
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "978-3-67605-282-5",
+          "pages": 148,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "978-3-67605-283-2",
+          "pages": 148,
+          "status": null,
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-winfield-scott-memoirs-volume-i",
+      "work_id": "WS_001",
+      "title": "Memoirs of Lieutenant-General Scott (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-i/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052443",
+        "hardcover": "9783676052450"
+      },
+      "cover": "/assets/images/cover-ws001-volume-i.jpg",
+      "cover_sha256": "4f9532e56e6626d95175109abba546d91c56ae92a87934857181769d9fcd2138",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\WS_WINFIELD_SCOTT\\02_WERKE\\WS_001_MEMOIRS_OF_LIEUT_GENERAL_SCOTT_1864\\05_UMSCHLAG\\INGRAM_V1_20261106\\BAU_FINAL_R870_300PPI_20261112\\BI_PB\\cover.pdf",
+        "source_sha256": "9ea4480f0030756ca7f8d7e2ee0a2d82237352203fc1a1f656bac8c7d40a409f",
+        "record_utc": "2026-11-14T09:19:52.4462572Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\20261114T091952Z__WS_001_ingram_eproof_live.band-I.json",
+        "record_version": "R871_300PPI_LIVE_INGRAM_20261114T091952Z"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "9783676052443",
+          "pages": 348,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "9783676052450",
+          "pages": 348,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Cloth hardcover with dust jacket",
+          "isbn": "9783676052764",
+          "pages": 278,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "en-winfield-scott-memoirs-volume-ii",
+      "work_id": "WS_001",
+      "title": "Memoirs of Lieutenant-General Scott (Annotated)",
+      "url": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-ii/",
+      "previous_availability": "COMING_SOON",
+      "availability": "AVAILABLE",
+      "display_status": "Available now · Paperback, Hardcover",
+      "publication_date": null,
+      "isbn": {
+        "paperback": "9783676052467",
+        "hardcover": "9783676052474"
+      },
+      "cover": "/assets/images/cover-ws001-volume-ii.jpg",
+      "cover_sha256": "0afd80d73e66185328c945da498df197b0c45d033cf9874d40a7d51a57b07916",
+      "cover_updated": false,
+      "trade_cover_evidence": {
+        "source": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\WS_WINFIELD_SCOTT\\02_WERKE\\WS_001_MEMOIRS_OF_LIEUT_GENERAL_SCOTT_1864\\05_UMSCHLAG\\INGRAM_V1_20261106\\BAU_FINAL_R870_300PPI_20261112\\BII_PB\\cover.pdf",
+        "source_sha256": "956077d2bcd9de9dcfb8953bba26cdc57d353765717a1e2cd565e2c5d915a26f",
+        "record_utc": "2026-11-14T09:19:52.4462572Z",
+        "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\20261114T091952Z__WS_001_ingram_eproof_live.band-II-pruefung.json",
+        "record_version": "R870_300PPI_LIVE_INGRAM_20261114T091952Z"
+      },
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn": "9783676052467",
+          "pages": 328,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Hardcover",
+          "isbn": "9783676052474",
+          "pages": 328,
+          "status": "LIVE",
+          "availability_note": "Available through booksellers · order using this ISBN.",
+          "links": []
+        },
+        {
+          "label": "Cloth hardcover with dust jacket",
+          "isbn": "9783676052771",
+          "pages": 294,
+          "status": "FREIGEGEBEN",
+          "availability_note": null,
+          "links": []
+        }
+      ]
+    }
+  ],
+  "supplier_snapshot": "catalog/retail-state-20261118.json",
+  "cost_usd": 0
+}

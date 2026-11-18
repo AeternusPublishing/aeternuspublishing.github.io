@@ -1,7 +1,22 @@
 ---
 layout: layout.njk
 title: Authors
+authorIndexPage: true
 description: "Meet the authors of the AETERNUS programme, from naturalists and explorers to novelists and historical witnesses."
 permalink: /authors/index.html
 ---
-<section class="shell page-intro"><p class="kicker">The people behind the books</p><h1>Voices with a world<br><em>of their own.</em></h1></section><section class="shell author-index international-section">{% for author in site.authors %}<a class="author-panel" href="/authors/{{ author.slug }}/">{% if author.portrait.modern %}<img src="/assets/images/{{ author.portrait.file }}.webp" alt="{{ author.portrait.alt | escape }}" width="210" height="260" loading="lazy">{% endif %}<div><p class="kicker">{{ author.dates | plain }}</p><h2>{{ author.name }}</h2><p>{{ author.tagline | plain }}</p><span class="text-link">Life & works →</span></div></a>{% endfor %}</section>
+<section class="shell page-intro"><h1>Authors</h1></section>
+<section class="shell author-index international-section">
+  {% for author in site.authors %}
+    {% set world = author.slug | authorWorld("en") %}
+    <a class="author-panel" href="/authors/{{ author.slug }}/">
+      {% if world.portrait %}
+        <figure class="author-portrait">
+          <span class="author-portrait-mat"><img src="{{ world.portrait.file }}" alt="{{ world.portrait.name }}" loading="{% if loop.index <= 4 %}eager{% else %}lazy{% endif %}" decoding="async"></span>
+          <figcaption>{{ world.portrait.caption }}</figcaption>
+        </figure>
+      {% endif %}
+      <div><p class="kicker">{{ world.dates }}</p><h2>{{ world.name }}</h2><p>{{ world.tagline }}</p><span class="text-link">Life &amp; works →</span></div>
+    </a>
+  {% endfor %}
+</section>

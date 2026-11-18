@@ -25,9 +25,11 @@ const nodes = selection.nodes.map(selected => {
   const cover = coverKey(selected);
   const authorRecord = authorBooks.find(item => item.book.cover?.img === cover);
   const record = catalogue.books.find(item => item.cover === cover);
-  const englishRecord = selected.language === 'Englisch' ? englishForCover(cover) : null;
+  const englishRecord = selected.language === 'Englisch' ?
+    englishCatalogue.find(book => selected.sourceUrl === 'https://aeternuspublishing.com' + book.url) || englishForCover(cover) : null;
   if (!authorRecord && !englishRecord && selected.id !== 'grimm') throw new Error(`[kosmos] Stale catalogue entry: ${selected.title}`);
-  if (!fs.existsSync(path.join(__dirname, '../assets/images', `${cover}.webp`))) throw new Error(`[kosmos] Missing cover: ${cover}`);
+  const currentCover = englishRecord?.coverWebp || englishRecord?.cover || `/assets/images/${cover}.webp`;
+  if (!fs.existsSync(path.join(__dirname, '..', currentCover))) throw new Error(`[kosmos] Missing cover: ${currentCover}`);
   const { book, author } = authorRecord || {};
   const pending = record ? record.pending : book ? Boolean(author.preview || /vorbereitung|ausstehend|folgen nach|in progress|ordering links to follow/i.test([book.meta, book.modal?.status, book.modal?.metadata].join(' '))) : false;
   const amazon = record?.amazon || book?.modal?.amazon || '';
@@ -35,7 +37,7 @@ const nodes = selection.nodes.map(selected => {
     ...selected,
     title: plain(record?.title || book?.title || selected.title), author: author?.name || selected.author,
     subtitle: plain(record?.subtitle || book?.subtitle || selected.subtitle), summary: plain(record?.summary || book?.modal?.summary || selected.summary),
-    coverImageUrl: `/assets/images/${cover}.webp`,
+    coverImageUrl: currentCover,
     landingUrl: englishRecord ? 'https://aeternuspublishing.com' + englishRecord.url : record?.url || selected.landingUrl.replace('https://aeternus-verlag.de', ''),
     status: pending ? 'In Vorbereitung' : 'Im Programm',
     amazonUrl: !pending && /^https:\/\/www\.amazon\./.test(amazon) ? amazon : '',

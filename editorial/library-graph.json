@@ -1861,7 +1861,7 @@
       },
       "author": "William Gilmore Simms",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-wgs001-en-v6-20261008.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-william-gilmore-simms-the-yemassee-annotated-trade-20261118.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-william-gilmore-simms-the-yemassee-annotated/",
         "en": "https://aeternuspublishing.com/books/en-william-gilmore-simms-the-yemassee-annotated/"
@@ -1899,14 +1899,14 @@
       },
       "author": "Arthur Conan Doyle",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-i-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-i-trade-20261118.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-i/",
         "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-i/"
       },
       "summary": {
         "de": "",
-        "en": "Alleyne Edricson leaves Beaulieu Abbey and meets Hordle John, Samkin Aylward and Sir Nigel Loring. The company begins to form. Submitted to IngramSpark; eProof pending."
+        "en": "Alleyne Edricson leaves Beaulieu Abbey and meets Hordle John, Samkin Aylward and Sir Nigel Loring. The company begins to form. Available through booksellers."
       }
     },
     {
@@ -1918,14 +1918,14 @@
       },
       "author": "Arthur Conan Doyle",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-ii-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-ii-trade-20261118.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-ii/",
         "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-ii/"
       },
       "summary": {
         "de": "",
-        "en": "The company crosses the sea to Bordeaux and enters the military world of the Black Prince. Reputation and fellowship are tested in the field. Submitted to IngramSpark; eProof pending."
+        "en": "The company crosses the sea to Bordeaux and enters the military world of the Black Prince. Reputation and fellowship are tested in the field. Available through booksellers."
       }
     },
     {
@@ -1937,14 +1937,14 @@
       },
       "author": "Arthur Conan Doyle",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-white-company-vol-iii-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-iii-trade-20261118.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-iii/",
         "en": "https://aeternuspublishing.com/books/en-arthur-conan-doyle-the-white-company-volume-iii/"
       },
       "summary": {
         "de": "",
-        "en": "Beyond the Pyrenees, the struggle for the crown of Castile draws the company into its final campaign. Loyalty and courage face their last trial. Submitted to IngramSpark; eProof pending."
+        "en": "Beyond the Pyrenees, the struggle for the crown of Castile draws the company into its final campaign. Loyalty and courage face their last trial. Available through booksellers."
       }
     },
     {
@@ -2135,6 +2135,15 @@
       "summary": {
         "de": "",
         "en": "Far beyond the familiar roads of southern Africa, where the desert gives way to mountains that no living traveller has crossed and returned to describe, an ancient map points towards a forgotten kingdom and the fabulous treasure once attributed to King Solomon. For generations the secret has lain undisturbed, guarded by distance, by the silence of the dead, and by dangers of which the map itself can give no warning."
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_001"
       }
     },
     {
@@ -2154,6 +2163,15 @@
       "summary": {
         "de": "",
         "en": "He has crossed the desert, entered the legendary mines of King Solomon and returned from a kingdom beyond the known world with riches sufficient for a lifetime. Yet Allan Quatermain, the veteran hunter whose name has become a legend upon the African frontier, has discovered that all the treasures of the earth are powerless before the loss of the one life dearest to him."
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_002"
       }
     },
     {
@@ -2173,6 +2191,15 @@
       "summary": {
         "de": "",
         "en": "Before the great Zulu kings passed into history, their names commanded the allegiance of armies, their warriors carried terror across the plains of southern Africa, and the fate of nations could be determined by a single word spoken beneath the royal spears."
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_003"
       }
     },
     {
@@ -2184,7 +2211,7 @@
       },
       "author": "H. Rider Haggard",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-h-rider-haggard-she-trade-20261118.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/",
         "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/"
@@ -2192,6 +2219,15 @@
       "summary": {
         "de": "",
         "en": "For more than two thousand years, the secret has endured."
+      },
+      "geography": {
+        "location": [
+          28.2,
+          -28.8
+        ],
+        "region": "africa",
+        "place": "Afrika · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_005"
       }
     },
     {
@@ -2211,6 +2247,15 @@
       "summary": {
         "de": "",
         "en": "Eighteen years have passed since the immortal queen of Kôr vanished from the world of men. Kingdoms have risen and fallen, the living have grown older, and the ruins of her ancient dominion lie far beyond the reach of ordinary remembrance. Yet for Horace Holly and Leo Vincey, the memory of Ayesha has never faded, nor has the promise of her return ceased to govern their lives."
+      },
+      "geography": {
+        "location": [
+          90,
+          30
+        ],
+        "region": "asia",
+        "place": "Zentralasien · literarischer Schauplatz",
+        "source": "kosmosSelection:haggard-en-hrh_006"
       }
     },
     {
@@ -2905,34 +2950,6 @@
       }
     },
     {
-      "id": "book:atlas:shelters",
-      "type": "book",
-      "label": {
-        "de": "Shelters, Shacks, and Shanties (Illustrated)",
-        "en": "Shelters, Shacks, and Shanties (Illustrated)"
-      },
-      "author": "Daniel Carter Beard",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-shelters-shacks-shanties.webp",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/",
-        "en": "https://aeternuspublishing.com/books/en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated/"
-      },
-      "summary": {
-        "de": "Vom Bett aus Tannenzweigen über einfache Unterstände bis zum Blockhaus: Beard erläutert in 49 Kapiteln den Bau von Lagern, Dächern, Wänden und Holzverbindungen. Die Zeichnungen zeigen Konstruktionen und Bauteile im Detail.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          -75.1,
-          41.4
-        ],
-        "region": "north-america",
-        "place": "Nordamerika · Lager- und Hüttenbau",
-        "source": "kosmosSelection:shelters"
-      }
-    },
-    {
       "id": "book:atlas:texas-rangers",
       "type": "book",
       "label": {
@@ -2958,146 +2975,6 @@
         "region": "north-america",
         "place": "Zentral- und Westtexas, Rio Grande",
         "source": "kosmosSelection:texas-rangers"
-      }
-    },
-    {
-      "id": "book:atlas:haggard-en-hrh_001",
-      "type": "book",
-      "label": {
-        "de": "King Solomon’s Mines",
-        "en": "King Solomon’s Mines"
-      },
-      "author": "H. Rider Haggard",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh001-en-ingram-v5-20261012.webp",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-king-solomons-mines/"
-      },
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "region": "africa",
-        "place": "Afrika · literarischer Schauplatz",
-        "source": "kosmosSelection:haggard-en-hrh_001"
-      }
-    },
-    {
-      "id": "book:atlas:haggard-en-hrh_002",
-      "type": "book",
-      "label": {
-        "de": "Allan Quatermain",
-        "en": "Allan Quatermain"
-      },
-      "author": "H. Rider Haggard",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh002-en-ingram-v2-20261012.webp",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-allan-quatermain/"
-      },
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "region": "africa",
-        "place": "Afrika · literarischer Schauplatz",
-        "source": "kosmosSelection:haggard-en-hrh_002"
-      }
-    },
-    {
-      "id": "book:atlas:haggard-en-hrh_003",
-      "type": "book",
-      "label": {
-        "de": "Nada the Lily",
-        "en": "Nada the Lily"
-      },
-      "author": "H. Rider Haggard",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh003-en-ingram-v10-20261012.webp",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-nada-the-lily/"
-      },
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "region": "africa",
-        "place": "Afrika · literarischer Schauplatz",
-        "source": "kosmosSelection:haggard-en-hrh_003"
-      }
-    },
-    {
-      "id": "book:atlas:haggard-en-hrh_005",
-      "type": "book",
-      "label": {
-        "de": "She",
-        "en": "She"
-      },
-      "author": "H. Rider Haggard",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh005-en-ingram-v8-20261012.webp",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-she/"
-      },
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          28.2,
-          -28.8
-        ],
-        "region": "africa",
-        "place": "Afrika · literarischer Schauplatz",
-        "source": "kosmosSelection:haggard-en-hrh_005"
-      }
-    },
-    {
-      "id": "book:atlas:haggard-en-hrh_006",
-      "type": "book",
-      "label": {
-        "de": "Ayesha",
-        "en": "Ayesha"
-      },
-      "author": "H. Rider Haggard",
-      "language": "en",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-hrh006-en-ingram-v5-20261012.webp",
-      "url": {
-        "de": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/",
-        "en": "https://aeternuspublishing.com/books/en-h-rider-haggard-ayesha/"
-      },
-      "summary": {
-        "de": "Englische Originalausgabe.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          90,
-          30
-        ],
-        "region": "asia",
-        "place": "Zentralasien · literarischer Schauplatz",
-        "source": "kosmosSelection:haggard-en-hrh_006"
       }
     },
     {
@@ -4342,7 +4219,7 @@
       }
     },
     {
-      "source": "book:atlas:shelters",
+      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
       "target": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
       "type": "curated",
       "label": {
@@ -4351,7 +4228,7 @@
       }
     },
     {
-      "source": "book:atlas:shelters",
+      "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
       "target": "book:de:waldhandwerk",
       "type": "curated",
       "label": {
@@ -4504,8 +4381,8 @@
       }
     },
     {
-      "source": "book:en-arthur-conan-doyle-the-white-company-volume-i",
-      "target": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
+      "source": "book:de:the-white-company-band-i",
+      "target": "book:de:the-white-company-band-ii",
       "type": "curated",
       "label": {
         "de": "Doyles historischer Roman: Fortgang der Weißen Kompanie",
@@ -4513,8 +4390,8 @@
       }
     },
     {
-      "source": "book:en-arthur-conan-doyle-the-white-company-volume-ii",
-      "target": "book:en-arthur-conan-doyle-the-white-company-volume-iii",
+      "source": "book:de:the-white-company-band-ii",
+      "target": "book:de:the-white-company-band-iii",
       "type": "curated",
       "label": {
         "de": "Doyles historischer Roman: Feldzug und Abschluss",
@@ -5177,38 +5054,8 @@
       "type": "author"
     },
     {
-      "source": "book:atlas:shelters",
-      "target": "author:Daniel Carter Beard",
-      "type": "author"
-    },
-    {
       "source": "book:atlas:texas-rangers",
       "target": "author:James B. Gillett",
-      "type": "author"
-    },
-    {
-      "source": "book:atlas:haggard-en-hrh_001",
-      "target": "author:H. Rider Haggard",
-      "type": "author"
-    },
-    {
-      "source": "book:atlas:haggard-en-hrh_002",
-      "target": "author:H. Rider Haggard",
-      "type": "author"
-    },
-    {
-      "source": "book:atlas:haggard-en-hrh_003",
-      "target": "author:H. Rider Haggard",
-      "type": "author"
-    },
-    {
-      "source": "book:atlas:haggard-en-hrh_005",
-      "target": "author:H. Rider Haggard",
-      "type": "author"
-    },
-    {
-      "source": "book:atlas:haggard-en-hrh_006",
-      "target": "author:H. Rider Haggard",
       "type": "author"
     },
     {
@@ -5258,15 +5105,6 @@
     },
     {
       "source": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
-      "target": "book:en-george-washington-sears-woodcraft-illustrated",
-      "type": "curated",
-      "label": {
-        "de": "Praktischer Lager- und Hüttenbau",
-        "en": "Praktischer Lager- und Hüttenbau"
-      }
-    },
-    {
-      "source": "book:atlas:shelters",
       "target": "book:en-george-washington-sears-woodcraft-illustrated",
       "type": "curated",
       "label": {
@@ -5327,24 +5165,50 @@
         "de": "Birds Grenzromane: Identität, Loyalität und Vergeltung",
         "en": "Birds Grenzromane: Identität, Loyalität und Vergeltung"
       }
-    },
-    {
-      "source": "book:de:the-white-company-band-i",
-      "target": "book:de:the-white-company-band-ii",
-      "type": "curated",
-      "label": {
-        "de": "Doyles historischer Roman: Fortgang der Weißen Kompanie",
-        "en": "Doyles historischer Roman: Fortgang der Weißen Kompanie"
-      }
-    },
-    {
-      "source": "book:de:the-white-company-band-ii",
-      "target": "book:de:the-white-company-band-iii",
-      "type": "curated",
-      "label": {
-        "de": "Doyles historischer Roman: Feldzug und Abschluss",
-        "en": "Doyles historischer Roman: Feldzug und Abschluss"
-      }
     }
-  ]
+  ],
+  "aliases": {
+    "book:atlas:wild-animals": "book:de:wilde-tiere-die-ich-kannte",
+    "book:atlas:wahb": "book:de:wahb-lebensgeschichte-eines-grizzlybaeren",
+    "book:atlas:hunted": "book:de:leben-der-gejagten",
+    "book:atlas:heroes": "book:de:tierhelden-portraits-aus-der-wildnis",
+    "book:atlas:two-wild": "book:de:zwei-kleine-wilde",
+    "book:atlas:rolf": "book:de:rolf-in-der-wildnis",
+    "book:atlas:arctic": "book:de:die-arktischen-praerien",
+    "book:atlas:monarch": "book:de:monarch",
+    "book:atlas:indian-lore": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-i",
+    "book:atlas:indian-lore-ii": "book:de:das-buch-des-waldhandwerks-und-der-indianerweisheit-band-ii",
+    "book:atlas:waldteufel": "book:de:der-waldteufel",
+    "book:atlas:ford": "book:de:mein-leben-und-werk",
+    "book:atlas:lady-sale": "book:de:tagebuch-der-katastrophe",
+    "book:atlas:prempeh": "book:de:der-sturz-prempehs",
+    "book:atlas:scouting": "book:de:scouting-for-boys-uebersetzt",
+    "book:atlas:haggard": "book:de:koenig-salomos-schatzkammer",
+    "book:atlas:woodcraft": "book:de:waldhandwerk",
+    "book:atlas:west-1": "book:de:die-eroberung-des-westens-band-i",
+    "book:atlas:west-2": "book:de:die-eroberung-des-westens-band-ii",
+    "book:atlas:west-3": "book:de:die-eroberung-des-westens-band-iii",
+    "book:atlas:west-4": "book:de:die-eroberung-des-westens-band-iv",
+    "book:atlas:oregon": "book:de:der-oregon-trail",
+    "book:atlas:bambis-kinder": "book:de:bambis-kinder",
+    "book:atlas:bambi": "book:de:bambi",
+    "book:atlas:pinocchio": "book:de:pinocchio",
+    "book:atlas:tarleton": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
+    "book:atlas:heidi": "book:de:heidi",
+    "book:atlas:edgar-huntly": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
+    "book:atlas:shelters": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
+    "book:atlas:grimm": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-i",
+    "book:atlas:bevis": "book:en-richard-jefferies-edition-bevis",
+    "book:atlas:white-company-i": "book:de:the-white-company-band-i",
+    "book:atlas:white-company-ii": "book:de:the-white-company-band-ii",
+    "book:atlas:white-company-iii": "book:de:the-white-company-band-iii",
+    "book:atlas:siemens": "book:de:lebenserinnerungen",
+    "book:atlas:rough-riders": "book:de:die-rough-riders",
+    "book:atlas:haggard-en-hrh_001": "book:en-h-rider-haggard-king-solomons-mines",
+    "book:atlas:haggard-en-hrh_002": "book:en-h-rider-haggard-allan-quatermain",
+    "book:atlas:haggard-en-hrh_003": "book:en-h-rider-haggard-nada-the-lily",
+    "book:atlas:haggard-en-hrh_005": "book:en-h-rider-haggard-she",
+    "book:atlas:haggard-en-hrh_006": "book:en-h-rider-haggard-ayesha",
+    "book:atlas:der-heimgesuchte": "book:de:der-heimgesuchte"
+  }
 }

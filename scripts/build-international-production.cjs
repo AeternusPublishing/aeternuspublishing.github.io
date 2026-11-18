@@ -5,4 +5,8 @@ const result = spawnSync(process.execPath, [path.join(root,'node_modules/@11ty/e
   cwd:root, env:{...process.env,AETERNUS_SITE_MODE:'production'}, stdio:'inherit'
 });
 if(result.error) throw result.error;
-process.exitCode = result.status ?? 1;
+if (result.status === 0) {
+  const check = spawnSync(process.execPath, [path.join(root, 'scripts/check-english-site.cjs')], { cwd: root, stdio: 'inherit' });
+  if (check.error) throw check.error;
+  process.exitCode = check.status ?? 1;
+} else process.exitCode = result.status ?? 1;

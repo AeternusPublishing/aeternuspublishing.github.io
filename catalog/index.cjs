@@ -293,6 +293,9 @@ englishBooks.push(...scott.books);
 authorsEn.push(require('./jf001-author-20261111.cjs'));
 authorsEn.push(require('./wi001-author.cjs'));
 authorsEn.push(require('./wep001-author.cjs'));
+require('./retail-state.cjs').apply(englishBooks);
+const coverSync = require('./cover-sync-20261118.json');
+for (const book of englishBooks) if (coverSync[book.id]) Object.assign(book, coverSync[book.id]);
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {
