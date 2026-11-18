@@ -2,8 +2,8 @@
   "schema": "AETERNUS_WILDERNESS_REGISTER_EXPORT_V1",
   "source": "aeternus.py buchregister abfrage / ARCHIVTAFEL.sqlite zeilen",
   "query": "SELECT werk_kanon,sprache,produktform,isbn13,status,plattform,stand_utc FROM zeilen WHERE werk_kanon LIKE 'ETS_%' OR werk_kanon LIKE 'BP_%' OR werk_kanon LIKE 'RJE_%' OR werk_kanon LIKE 'DCB_%' OR werk_kanon LIKE 'KEP_%' OR werk_kanon LIKE 'WHM%' OR werk_kanon LIKE 'ESW_%' ORDER BY werk_kanon,sprache,produktform,plattform",
-  "captured_utc": "2026-11-18T08:28:45.439Z",
-  "records_sha256": "a78bdf963e6f8f3563ce15ea946c5d8b4aa6b7c5ef2394b80d49ecd462442863",
+  "captured_utc": "2026-11-18T10:35:20.720Z",
+  "records_sha256": "76df33f550f14e7b127605fee3b36865c76e29e1a26f8c50afe500d2d4cab1e7",
   "records": [
     {
       "werk_kanon": "BP_001",
@@ -136,45 +136,45 @@
       "sprache": "en",
       "produktform": "ebook",
       "isbn13": "978-3-67605-106-4",
-      "status": "EINGEREICHT",
+      "status": "FREIGEGEBEN",
       "plattform": "KDP",
-      "stand_utc": "2026-11-16T16:02:00Z"
+      "stand_utc": "2026-11-18T10:24:44Z"
     },
     {
       "werk_kanon": "BP_005",
       "sprache": "en",
       "produktform": "hardcover",
       "isbn13": "978-3-67605-108-8",
-      "status": "EINGEREICHT",
+      "status": "FREIGEGEBEN",
       "plattform": "INGRAM",
-      "stand_utc": "2026-11-16T16:01:44Z"
+      "stand_utc": "2026-11-18T10:24:44Z"
     },
     {
       "werk_kanon": "BP_005",
       "sprache": "en",
       "produktform": "hardcover",
       "isbn13": "978-3-67605-108-8",
-      "status": "EINGEREICHT",
+      "status": "FREIGEGEBEN",
       "plattform": "KDP",
-      "stand_utc": "2026-11-16T15:47:00Z"
+      "stand_utc": "2026-11-18T10:24:44Z"
     },
     {
       "werk_kanon": "BP_005",
       "sprache": "en",
       "produktform": "taschenbuch",
       "isbn13": "978-3-67605-107-1",
-      "status": "EINGEREICHT",
+      "status": "FREIGEGEBEN",
       "plattform": "INGRAM",
-      "stand_utc": "2026-11-16T16:11:40Z"
+      "stand_utc": "2026-11-18T10:24:44Z"
     },
     {
       "werk_kanon": "BP_005",
       "sprache": "en",
       "produktform": "taschenbuch",
       "isbn13": "978-3-67605-107-1",
-      "status": "EINGEREICHT",
+      "status": "FREIGEGEBEN",
       "plattform": "KDP",
-      "stand_utc": "2026-11-16T15:38:14Z"
+      "stand_utc": "2026-11-18T10:24:44Z"
     },
     {
       "werk_kanon": "BP_006",
@@ -253,18 +253,18 @@
       "sprache": "en",
       "produktform": "ebook",
       "isbn13": "978-3-67605-212-2",
-      "status": "EINGEREICHT",
+      "status": "LIVE",
       "plattform": "KDP",
-      "stand_utc": "2026-11-16T14:46:00Z"
+      "stand_utc": "2026-11-18T09:15:00Z"
     },
     {
       "werk_kanon": "BP_009",
       "sprache": "en",
       "produktform": "hardcover",
       "isbn13": "978-3-67605-211-5",
-      "status": "EINGEREICHT",
+      "status": "FREIGEGEBEN",
       "plattform": "INGRAM",
-      "stand_utc": "2026-11-16T17:22:00Z"
+      "stand_utc": "2026-11-18T10:30:20Z"
     },
     {
       "werk_kanon": "BP_009",
@@ -280,18 +280,18 @@
       "sprache": "en",
       "produktform": "taschenbuch",
       "isbn13": "978-3-67605-210-8",
-      "status": "EINGEREICHT",
+      "status": "FREIGEGEBEN",
       "plattform": "INGRAM",
-      "stand_utc": "2026-11-16T17:20:00Z"
+      "stand_utc": "2026-11-18T10:30:20Z"
     },
     {
       "werk_kanon": "BP_009",
       "sprache": "en",
       "produktform": "taschenbuch",
       "isbn13": "978-3-67605-210-8",
-      "status": "EINGEREICHT",
+      "status": "LIVE",
       "plattform": "KDP",
-      "stand_utc": "2026-11-16T14:46:00Z"
+      "stand_utc": "2026-11-18T09:15:00Z"
     },
     {
       "werk_kanon": "DCB_001",
