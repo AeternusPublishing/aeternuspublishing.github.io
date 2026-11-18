@@ -4,8 +4,25 @@ const english = require('./library-translations-en.json');
 module.exports = lang => {
   const ui = labels[lang];
   const origin = lang === 'en' ? 'https://aeternuspublishing.com' : 'https://aeternus-verlag.de';
-  const nodes = graph.nodes.map(n => ({ ...n, cover: n.cover?.startsWith(origin + '/') ? n.cover.slice(origin.length) : n.cover, label: n.label[lang], url: n.url?.[lang], summary: n.summary?.[lang] || '', typeLabel: ui.types[n.type],
+  const canonical = new Map();
+  if (lang === 'en') {
+    const englishBooks = require('../catalog/index.cjs').englishBooks;
+    const numbers = book => new Set([...(typeof book.isbn === 'string' ? [book.isbn] : Object.values(book.isbn || {})), ...(Array.isArray(book.formats) ? book.formats.map(f => f.isbn) : [])].filter(Boolean).map(n => n.replace(/-/g, '')));
+    for (const book of require('../src/_data/catalogue').books.filter(b => b.language === 'en')) {
+      const isbns = numbers(book);
+      const match = englishBooks.find(b => [...numbers(b)].some(n => isbns.has(n)));
+      if (match) canonical.set('book:de:' + book.id, 'book:' + match.id);
+    }
+  }
+  const nodes = graph.nodes.filter(n => !canonical.has(n.id)).map(n => ({ ...n, cover: n.cover?.startsWith(origin + '/') ? n.cover.slice(origin.length) : n.cover, label: n.label[lang], url: n.url?.[lang], summary: n.summary?.[lang] || '', typeLabel: ui.types[n.type],
     ...(lang === 'en' && n.geography ? { geography: { ...n.geography, place: english.places[n.geography.place] || n.geography.place } } : {}) }));
-  const links = graph.links.map(link => lang === 'en' && link.label?.en && english.connections[link.label.en] ? { ...link, label: { ...link.label, en: english.connections[link.label.en] } } : link);
-  return { lang, ui, nodes: nodes.filter(n => ['book', 'theme'].includes(n.type) && (n.type !== 'book' || n.language === lang)), payload: JSON.stringify({ ...graph, nodes, links, ui, lang }).replace(/</g, '\\u003c') };
+  const seen = new Set();
+  const links = graph.links.map(link => ({ ...link, source: canonical.get(link.source) || link.source, target: canonical.get(link.target) || link.target,
+    ...(lang === 'en' && link.label?.en && english.connections[link.label.en] ? { label: { ...link.label, en: english.connections[link.label.en] } } : {}) })).filter(link => {
+      const key = [link.source, link.target].sort().join('|') + '|' + link.type;
+      if (seen.has(key)) return false;
+      seen.add(key); return true;
+    });
+  const aliases = { ...Object.fromEntries(Object.entries(graph.aliases || {}).map(([id, target]) => [id, canonical.get(target) || target])), ...Object.fromEntries(canonical) };
+  return { lang, ui, nodes: nodes.filter(n => ['book', 'theme'].includes(n.type) && (n.type !== 'book' || n.language === lang)), payload: JSON.stringify({ ...graph, nodes, links, aliases, ui, lang }).replace(/</g, '\\u003c') };
 };
