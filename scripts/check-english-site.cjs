@@ -57,6 +57,9 @@ for (const author of catalogue.authorsEn) {
 }
 const library = require('../editorial/library-view.cjs')('en');
 assert(library.nodes.filter(n => n.type === 'book').every(n => n.language === 'en'), 'German editions in static English library shelf');
+assert.equal(library.nodes.filter(n => n.type === 'book').length, catalogue.englishBooks.length, 'Duplicate legacy copies in English library shelf');
+const libraryPayload = JSON.parse(library.payload);
+assert.equal(libraryPayload.aliases['book:de:the-white-company-band-i'], 'book:en-arthur-conan-doyle-the-white-company-volume-i', 'Legacy English-edition deep link lost');
 assert(!pages.get('/book-universe/').html.includes('>Der Waldteufel</a>'), 'German title in default English shelf');
 const scottII = catalogue.englishBooks.find(b => b.id === 'en-winfield-scott-memoirs-volume-ii');
 assert.equal(scottII.retailer_formats[0].pages, snapshot.records.find(r => r.isbn13.replace(/-/g, '') === '9783676052467' && r.status === 'LIVE').seitenzahl, 'Scott volumes conflated');
