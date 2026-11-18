@@ -1,0 +1,249 @@
+{
+  "schema": "AETERNUS_WEB_COVER_SYNC_V1",
+  "date": "2026-11-18",
+  "sources": [
+    {
+      "id": "en-william-gilmore-simms-the-yemassee-annotated",
+      "work_id": "WGS_001",
+      "title": "The Yemassee (Annotated)",
+      "current": "/assets/images/cover-wgs001-en-v6-20261008.jpg",
+      "source": "C:\\AETERNUS\\01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\WGS_WILLIAM_GILMORE_SIMMS\\02_WERKE\\WGS_001_THE_YEMASSEE_1835\\09_EXPORT\\UPLOADPAKET_EN_INGRAM_V4_20261103\\INGRAM\\9783676051323_cov.pdf",
+      "source_sha256": "6334d35bae704ca8dcc3da3ea764f6dad7d84a4424c82daf32f63147627e75f8",
+      "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\20261114T091830Z__WGS_001_ingram_eproof_live.json",
+      "record_status": "LIVE",
+      "record_utc": "2026-11-14T09:18:30.1675215Z",
+      "record_version": "V4_LIVE_INGRAM_20261114T091830Z",
+      "preview": "E:\\AETERNUS\\Arbeitsdaten\\Website_EN_Pruefung_20261118\\audit\\released-cover-previews\\en-william-gilmore-simms-the-yemassee-annotated.jpg",
+      "difference": 0.0454,
+      "geometry_evidence": [
+        [
+          10.751034,
+          1.250285,
+          6.0,
+          9.0
+        ],
+        "C:\\_CB\\wgs001-v7-20261024\\V7_DRAFT_05\\COVERS\\INGRAM_HC_BUILD\\5601d59bf5d8d6a2794442e83e4fd0e4534ffd4ba27d031bacce391022a19245\\build-report.json",
+        "2fb1f1e8d42386a191947526a6bb265afe9e48db889796cd269c1cfa52207bee"
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-william-gilmore-simms-the-yemassee-annotated-trade-20261118.jpg",
+          "sha256": "8538ded657186a942666a3257de2f2feea0b97e22d4db8fc51e617af79ef2387",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-william-gilmore-simms-the-yemassee-annotated-trade-20261118.webp",
+          "sha256": "0beb75e928c0939e5bba78ca99056273d2606baa3e2c406f20e1fd0ae2316ef5",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render only the compiler-bound trim face from the hash-verified live trade PDF. Source unchanged; no typography editing."
+    },
+    {
+      "id": "en-arthur-conan-doyle-the-white-company-volume-i",
+      "work_id": "ACD_001_BAND_I",
+      "title": "The White Company · Volume I",
+      "current": "/assets/images/cover-white-company-vol-i-fallback.jpg",
+      "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\10_UEBERGABE\\UPLOADPAKET_V5_EN_INGRAM_BAND_1_20261009\\INGRAM\\9783676051453_cov.pdf",
+      "source_sha256": "8c6aa38f454b50bb584eaf8b8158c9d10f03206505a486754ffbf0ce5e8a9f42",
+      "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+      "record_status": "LIVE",
+      "record_utc": "2026-10-21T14:48:09Z",
+      "record_version": "INGRAM_EPROOF_FREIGABE_20261021",
+      "preview": "E:\\AETERNUS\\Arbeitsdaten\\Website_EN_Pruefung_20261118\\audit\\released-cover-previews\\en-arthur-conan-doyle-the-white-company-volume-i.jpg",
+      "difference": 0.0683,
+      "geometry_evidence": [
+        [
+          10.751034,
+          1.250285,
+          6.0,
+          9.0
+        ],
+        "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\05_UMSCHLAG\\INGRAM_V4_20261009\\B1_HC\\BUILD\\9ad909d22b4b6f2ef8055e7b497bc6e648a3fa9ab3d187132f5989556b9454ca\\build-report.json",
+        "8fd7885f9610691ae546d48ceeb9b5d08093d1797b480e7ab5a23cc9ff4f7236"
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-i-trade-20261118.jpg",
+          "sha256": "bdfb840c0fbd39c25f77e7743e0daf0ff8755b8a5c45c54565858f5e749a945f",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-i-trade-20261118.webp",
+          "sha256": "ed319db6d8bbe4e96c80acde8e613562f7e4d1f7117e05c844013228c2a36d71",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render only the compiler-bound trim face from the hash-verified live trade PDF. Source unchanged; no typography editing."
+    },
+    {
+      "id": "en-arthur-conan-doyle-the-white-company-volume-ii",
+      "work_id": "ACD_001_BAND_II",
+      "title": "The White Company · Volume II",
+      "current": "/assets/images/cover-white-company-vol-ii-fallback.jpg",
+      "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\10_UEBERGABE\\UPLOADPAKET_V5_EN_INGRAM_BAND_2_20261009\\INGRAM\\9783676051484_cov.pdf",
+      "source_sha256": "15858871c86b4731097c0012c99d31f0eb419072d77cfde9b3801fe8de2d7f53",
+      "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+      "record_status": "LIVE",
+      "record_utc": "2026-10-21T14:48:09Z",
+      "record_version": "INGRAM_EPROOF_FREIGABE_20261021",
+      "preview": "E:\\AETERNUS\\Arbeitsdaten\\Website_EN_Pruefung_20261118\\audit\\released-cover-previews\\en-arthur-conan-doyle-the-white-company-volume-ii.jpg",
+      "difference": 0.0555,
+      "geometry_evidence": [
+        [
+          10.751034,
+          1.250285,
+          6.0,
+          9.0
+        ],
+        "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\05_UMSCHLAG\\INGRAM_V4_20261009\\B2_HC\\BUILD\\c0d5b63660b0f5933a746dd94196483f8b7278936e1522c42762f34b54ade914\\build-report.json",
+        "bc01650625b2500a89304f91349e2528aa7bd5afb948d5bb673e90ad7b1ded37"
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-ii-trade-20261118.jpg",
+          "sha256": "c1dc0ffef55115dde364910a978082bad38bd6594c879efcf894e7ce27610dde",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-ii-trade-20261118.webp",
+          "sha256": "2b2fef2c043248ee3eaa31930115e87d775d3f67f4765c0607c16b3ae157cbf3",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render only the compiler-bound trim face from the hash-verified live trade PDF. Source unchanged; no typography editing."
+    },
+    {
+      "id": "en-arthur-conan-doyle-the-white-company-volume-iii",
+      "work_id": "ACD_001_BAND_III",
+      "title": "The White Company · Volume III",
+      "current": "/assets/images/cover-white-company-vol-iii-fallback.jpg",
+      "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\10_UEBERGABE\\UPLOADPAKET_V5_EN_INGRAM_BAND_3_20261009\\INGRAM\\9783676051514_cov.pdf",
+      "source_sha256": "cc1510a911d8303ada6c7c38b345d666498f015f7d1b4d622f3a6fb741e2cc3f",
+      "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+      "record_status": "LIVE",
+      "record_utc": "2026-10-21T14:48:09Z",
+      "record_version": "INGRAM_EPROOF_FREIGABE_20261021",
+      "preview": "E:\\AETERNUS\\Arbeitsdaten\\Website_EN_Pruefung_20261118\\audit\\released-cover-previews\\en-arthur-conan-doyle-the-white-company-volume-iii.jpg",
+      "difference": 0.0564,
+      "geometry_evidence": [
+        [
+          10.751034,
+          1.250285,
+          6.0,
+          9.0
+        ],
+        "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\ACD_ARTHUR_CONAN_DOYLE\\02_WERKE\\ACD_001_THE_WHITE_COMPANY\\ENG\\05_UMSCHLAG\\INGRAM_V4_20261009\\B3_HC\\BUILD\\c28f93c856e078e3a198734f494175511b1a61b8401ac67b80944f5826256910\\build-report.json",
+        "34d455dc19d120511346368ae83f5d594c2fb291d915e7ca98ac81d32e7376f6"
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-iii-trade-20261118.jpg",
+          "sha256": "9bcbce1a6bdeb459fee2c93949c9954342f4b7d3aced64e19925edb8191a4c67",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-iii-trade-20261118.webp",
+          "sha256": "dad9828c778d50a5cb5ef642181b9674d34327582f2058a788db76f709220207",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render only the compiler-bound trim face from the hash-verified live trade PDF. Source unchanged; no typography editing."
+    },
+    {
+      "id": "en-h-rider-haggard-she",
+      "work_id": "HRH_005",
+      "title": "She",
+      "current": "/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+      "source": "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\HRH_HENRY_RIDER_HAGGARD\\04_PRODUCTION\\EN_SERIES_20260905\\HRH005_EN_REIHE_20261008\\UPLOADPAKET_V8_EN_INGRAM_EBOOK_20261012\\INGRAM\\9783676050814_cov.pdf",
+      "source_sha256": "3573ec80b5d8f661a6ef8a1e6c1dff148a17d6bc1c1ec30c3045fdcd35c2aa06",
+      "record": "C:\\AETERNUS\\00_BETRIEBSDATEN\\COORDINATION\\CODEX_TO_CLAUDE\\INVENTUR_ANGEFANGENE_PROJEKTE_20261023\\EVIDENZ\\register_journal.json",
+      "record_status": "LIVE",
+      "record_utc": "2026-10-21T14:48:09Z",
+      "record_version": "INGRAM_EPROOF_FREIGABE_20261021",
+      "preview": "E:\\AETERNUS\\Arbeitsdaten\\Website_EN_Pruefung_20261118\\audit\\released-cover-previews\\en-h-rider-haggard-she.jpg",
+      "difference": 0.1594,
+      "geometry_evidence": [
+        [
+          10.751034,
+          1.250285,
+          6.0,
+          9.0
+        ],
+        "C:\\AETERNUS\\05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER\\HRH_HENRY_RIDER_HAGGARD\\04_PRODUCTION\\EN_SERIES_20260905\\HRH005_EN_REIHE_20261008\\UMSCHLAG_INGRAM_HC_V8\\BUILD\\197a61e738a249bd5ccee619c79fc37516bdad8f3e80ab5d3905823c6fbfe633\\build-report.json",
+        "4fd2a181552af713608cd3177f9f33212f3dbe8f149a8a96721df19ff41ec852"
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-h-rider-haggard-she-trade-20261118.jpg",
+          "sha256": "06b9b1e196417caf45cf5e4ef5023f16d2c09887f8b62cc345f8629861571278",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-h-rider-haggard-she-trade-20261118.webp",
+          "sha256": "15e1d993b3971669537bac166d2783a459e359bde5f7a4b71a0f6e9ebafb5c62",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/backcover-en-h-rider-haggard-she-trade-20261118.jpg",
+          "sha256": "c8d95280e211f40b17b88554c0c24478c09258f6443787a162e27de42c0092e3",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "back"
+        },
+        {
+          "path": "src/assets/images/backcover-en-h-rider-haggard-she-trade-20261118.webp",
+          "sha256": "ea7841979fa2ecd70691eb7f93fba72c4b80464d607fe9ba689822e33bb73bf0",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "back"
+        }
+      ],
+      "operation": "Render only the compiler-bound trim face from the hash-verified live trade PDF. Source unchanged; no typography editing."
+    }
+  ]
+}

@@ -3224,6 +3224,15 @@
               "isbn13": "978-3-912883-14-5",
               "isbn10": "3912883149",
               "asin": null
+            },
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Nick of the Woods (Illustrated)",
+              "isbn13": "978-3-912883-14-5",
+              "isbn10": null,
+              "asin": "B0HFG6QCY5"
             }
           ]
         },
@@ -3243,6 +3252,15 @@
               "isbn13": "978-3-912883-25-1",
               "isbn10": "3912883254",
               "asin": null
+            },
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Nick of the Woods (Illustrated)",
+              "isbn13": "978-3-912883-25-1",
+              "isbn10": "3912883254",
+              "asin": "3912883254"
             }
           ]
         },
@@ -3262,6 +3280,15 @@
               "isbn13": "978-3-912883-11-4",
               "isbn10": "3912883114",
               "asin": null
+            },
+            {
+              "werk_kanon": "RMB_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Nick of the Woods (Illustrated)",
+              "isbn13": "978-3-912883-11-4",
+              "isbn10": "3912883114",
+              "asin": "3912883114"
             }
           ]
         }
@@ -3758,6 +3785,15 @@
               "isbn13": "978-3-67605-101-9",
               "isbn10": "3676051017",
               "asin": null
+            },
+            {
+              "werk_kanon": "JJH_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Highways of Progress (Illustrated)",
+              "isbn13": "978-3-67605-101-9",
+              "isbn10": "3676051017",
+              "asin": "3676051017"
             }
           ]
         },
@@ -3920,7 +3956,9 @@
           "label": "Paperback",
           "isbn13": "9783676051255",
           "productform": "taschenbuch",
-          "tokens": [],
+          "tokens": [
+            "3676051254"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "JDU_001",
@@ -3939,6 +3977,15 @@
               "isbn13": "978-3-67605-125-5",
               "isbn10": "3676051254",
               "asin": null
+            },
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "9783676051255",
+              "isbn10": "3676051254",
+              "asin": "3676051254"
             }
           ]
         },
@@ -3946,7 +3993,9 @@
           "label": "Hardcover",
           "isbn13": "9783676051262",
           "productform": "hardcover",
-          "tokens": [],
+          "tokens": [
+            "3676051262"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "JDU_001",
@@ -3965,6 +4014,15 @@
               "isbn13": "9783676051262",
               "isbn10": "3676051262",
               "asin": null
+            },
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "9783676051262",
+              "isbn10": "3676051262",
+              "asin": "3676051262"
             }
           ]
         },
@@ -3972,7 +4030,9 @@
           "label": "Kindle",
           "isbn13": "9783676051279",
           "productform": "ebook",
-          "tokens": [],
+          "tokens": [
+            "B0HMBYTVPR"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "JDU_001",
@@ -3991,6 +4051,15 @@
               "isbn13": "978-3-67605-127-9",
               "isbn10": "3676051270",
               "asin": null
+            },
+            {
+              "werk_kanon": "JDU_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Recollections of the Kabul Campaign, 1879 & 1880",
+              "isbn13": "9783676051279",
+              "isbn10": null,
+              "asin": "B0HMBYTVPR"
             }
           ]
         }
@@ -4637,11 +4706,15 @@
       "title": "The Yemassee (Annotated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-wgs001-en-v6-20261008.jpg",
+      "front_url": "/assets/images/cover-en-william-gilmore-simms-the-yemassee-annotated-trade-20261118.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-wgs001-en-v6-20261008.jpg",
-          "sha256": "66f063210bdb3cfba150e7e508a1c2488ef04dae56d31e9c185f184cec0455bb"
+          "path": "src/assets/images/cover-en-william-gilmore-simms-the-yemassee-annotated-trade-20261118.jpg",
+          "sha256": "8538ded657186a942666a3257de2f2feea0b97e22d4db8fc51e617af79ef2387"
+        },
+        {
+          "path": "src/assets/images/cover-en-william-gilmore-simms-the-yemassee-annotated-trade-20261118.webp",
+          "sha256": "0beb75e928c0939e5bba78ca99056273d2606baa3e2c406f20e1fd0ae2316ef5"
         }
       ],
       "formats": [
@@ -4756,15 +4829,15 @@
       "title": "The White Company · Volume I",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-white-company-vol-i-fallback.jpg",
+      "front_url": "/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-i-trade-20261118.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-white-company-vol-i-fallback.jpg",
-          "sha256": "f59e67c8e0fa5c919f543c502df35b25c78e5aa081997b1a8f5cd784dd240341"
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-i-trade-20261118.jpg",
+          "sha256": "bdfb840c0fbd39c25f77e7743e0daf0ff8755b8a5c45c54565858f5e749a945f"
         },
         {
-          "path": "src/assets/images/cover-white-company-vol-i.webp",
-          "sha256": "5ca3607456ef7a572635d87b4815cbe3ca8952ad25de2e90d00e5d2bc3e2bd6b"
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-i-trade-20261118.webp",
+          "sha256": "ed319db6d8bbe4e96c80acde8e613562f7e4d1f7117e05c844013228c2a36d71"
         }
       ],
       "formats": [
@@ -4829,15 +4902,15 @@
       "title": "The White Company · Volume II",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-white-company-vol-ii-fallback.jpg",
+      "front_url": "/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-ii-trade-20261118.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-white-company-vol-ii-fallback.jpg",
-          "sha256": "b6b26259e19cea114480e82c28f71c34ab17b0cda6fbaa30e4006bcdf5f8a0b0"
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-ii-trade-20261118.jpg",
+          "sha256": "c1dc0ffef55115dde364910a978082bad38bd6594c879efcf894e7ce27610dde"
         },
         {
-          "path": "src/assets/images/cover-white-company-vol-ii.webp",
-          "sha256": "ad4077a54952c981a56340c99fd5f47ba3bb204add33513f7380faecd7befb23"
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-ii-trade-20261118.webp",
+          "sha256": "2b2fef2c043248ee3eaa31930115e87d775d3f67f4765c0607c16b3ae157cbf3"
         }
       ],
       "formats": [
@@ -4884,15 +4957,15 @@
       "title": "The White Company · Volume III",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-white-company-vol-iii-fallback.jpg",
+      "front_url": "/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-iii-trade-20261118.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-white-company-vol-iii-fallback.jpg",
-          "sha256": "09fa41c26bc69da5a2ec30c65845c197ecf9b1dafab480145b253eee02ea172b"
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-iii-trade-20261118.jpg",
+          "sha256": "9bcbce1a6bdeb459fee2c93949c9954342f4b7d3aced64e19925edb8191a4c67"
         },
         {
-          "path": "src/assets/images/cover-white-company-vol-iii.webp",
-          "sha256": "f9fe25a3a61e60030681dec7d37de086fd5e89c44ef9f8755758fe9101ff802d"
+          "path": "src/assets/images/cover-en-arthur-conan-doyle-the-white-company-volume-iii-trade-20261118.webp",
+          "sha256": "dad9828c778d50a5cb5ef642181b9674d34327582f2058a788db76f709220207"
         }
       ],
       "formats": [
@@ -5376,19 +5449,23 @@
       "title": "She",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
+      "front_url": "/assets/images/cover-en-h-rider-haggard-she-trade-20261118.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-hrh005-en-ingram-v8-20261012.jpg",
-          "sha256": "6fe18a6ac9a07bf7cd9275007494072ceae8d819c1e28a91cba29a4896384950"
+          "path": "src/assets/images/cover-en-h-rider-haggard-she-trade-20261118.jpg",
+          "sha256": "06b9b1e196417caf45cf5e4ef5023f16d2c09887f8b62cc345f8629861571278"
         },
         {
-          "path": "src/assets/images/cover-hrh005-en-ingram-v8-20261012.webp",
-          "sha256": "33ef5d95896a10aad93ddc32df56574667126128639a6db63e41be54e1f785ee"
+          "path": "src/assets/images/cover-en-h-rider-haggard-she-trade-20261118.webp",
+          "sha256": "15e1d993b3971669537bac166d2783a459e359bde5f7a4b71a0f6e9ebafb5c62"
         },
         {
-          "path": "src/assets/images/backcover-hrh005-en-ingram-v8-20261012.jpg",
-          "sha256": "caea40070cfa92711cd87548d8821668e9d3a0bf1f08af50aa498f934261fbdd"
+          "path": "src/assets/images/backcover-en-h-rider-haggard-she-trade-20261118.jpg",
+          "sha256": "c8d95280e211f40b17b88554c0c24478c09258f6443787a162e27de42c0092e3"
+        },
+        {
+          "path": "src/assets/images/backcover-en-h-rider-haggard-she-trade-20261118.webp",
+          "sha256": "ea7841979fa2ecd70691eb7f93fba72c4b80464d607fe9ba689822e33bb73bf0"
         }
       ],
       "formats": [
@@ -5990,7 +6067,9 @@
           "label": "E-Book",
           "isbn13": "9783676052061",
           "productform": "ebook",
-          "tokens": [],
+          "tokens": [
+            "B0HNSZ77PN"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "BP_002",
@@ -6000,6 +6079,15 @@
               "isbn13": "978-3-67605-206-1",
               "isbn10": "3676052064",
               "asin": null
+            },
+            {
+              "werk_kanon": "BP_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Aids to Scouting for N.-C.Os. & Men",
+              "isbn13": "978-3-67605-206-1",
+              "isbn10": null,
+              "asin": "B0HNSZ77PN"
             }
           ]
         }
@@ -6428,7 +6516,9 @@
           "label": "Paperback",
           "isbn13": "9783676052177",
           "productform": "taschenbuch",
-          "tokens": [],
+          "tokens": [
+            "367605217X"
+          ],
           "register_evidence": [
             {
               "werk_kanon": "FP_001",
@@ -6438,6 +6528,15 @@
               "isbn13": "978-3-67605-217-7",
               "isbn10": "367605217X",
               "asin": null
+            },
+            {
+              "werk_kanon": "FP_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Conspiracy of Pontiac (Annotated)",
+              "isbn13": "978-3-67605-217-7",
+              "isbn10": "367605217X",
+              "asin": "367605217X"
             }
           ]
         },

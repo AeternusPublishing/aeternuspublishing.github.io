@@ -11,10 +11,11 @@ const edge=(source,target,type,label)=>{if(!ids.has(source)||!ids.has(target))th
 const seriesNames={anthrazit:'ANTHRACITE',gruen:'GREEN',rot:'RED',blau:'BLUE',bernstein:'AMBER',weiss:'WHITE',purpur:'PURPLE'};
 for(const s of de.series)add({id:'series:'+s.slug,type:'series',label:{de:s.name,en:seriesNames[s.slug]},url:{de:origin.de+'/reihen/'+s.slug+'/',en:origin.en+'/series/'+s.slug+'/'}});
 const byCover=new Map(),byRef=new Map();
+const imageKey = value => String(value || '').split('/').pop().replace(/(?:-fallback)?\.(?:jpg|webp|avif|png)$/,'');
 for(const b of de.books){const n=add({id:'book:de:'+b.id,type:'book',label:{de:b.title,en:b.title},author:b.author,language:b.language,cover:origin.de+'/assets/images/'+b.cover+'.webp',url:{de:origin.de+b.url,en:origin.de+b.url},summary:{de:b.summary,en:''}});byCover.set(b.cover,n.id);byRef.set('de:'+b.id,n.id);edge(n.id,'series:'+b.series,'series');}
-for(const b of en){const n=add({id:'book:'+b.id,type:'book',label:{de:b.title,en:b.title},author:b.authorName,language:'en',cover:b.cover?origin.en+b.cover:null,url:{de:origin.en+b.url,en:origin.en+b.url},summary:{de:'',en:b.description.short}});byRef.set('en:'+b.id,n.id);if(b.cover)byCover.set(b.cover.split('/').pop().replace(/-fallback\.jpg$/,''),n.id);edge(n.id,'series:'+b.series,'series');}
-const atlasIds=new Map();
-for(const b of atlas.nodes){const cover=b.coverImageUrl.split('/').pop().replace('.webp','');let id=byCover.get(cover);if(!id){id='book:atlas:'+b.id;const url=new URL(b.landingUrl,origin.de).href;add({id,type:'book',label:{de:b.title,en:b.title},author:b.author,language:b.language==='Englisch'?'en':'de',cover:origin.de+b.coverImageUrl,url:{de:url,en:url},summary:{de:b.summary,en:''}});}atlasIds.set(b.id,id);}
+for(const b of en){const n=add({id:'book:'+b.id,type:'book',label:{de:b.title,en:b.title},author:b.authorName,language:'en',cover:b.cover?origin.en+b.cover:null,url:{de:origin.en+b.url,en:origin.en+b.url},summary:{de:'',en:b.description.short}});byRef.set('en:'+b.id,n.id);if(b.cover)byCover.set(imageKey(b.cover),n.id);edge(n.id,'series:'+b.series,'series');}
+const atlasIds=new Map(),aliases={};
+for(const b of atlas.nodes){const cover=imageKey(b.coverImageUrl);let id=byCover.get(cover);if(!id){id='book:atlas:'+b.id;const url=new URL(b.landingUrl,origin.de).href;add({id,type:'book',label:{de:b.title,en:b.title},author:b.author,language:b.language==='Englisch'?'en':'de',cover:origin.de+b.coverImageUrl,url:{de:url,en:url},summary:{de:b.summary,en:''}});}if(id!=='book:atlas:'+b.id)aliases['book:atlas:'+b.id]=id;atlasIds.set(b.id,id);}
 for(const e of atlas.links)edge(atlasIds.get(e.source),atlasIds.get(e.target),'curated',{de:e.reason,en:e.reason});
 for(const t of history.data.themes)add({id:'theme:'+t.id,type:'theme',label:{de:t.locales.de.title,en:t.locales.en.title},url:{de:origin.de+history.routes.de+t.locales.de.slug+'/',en:origin.en+history.routes.en+t.locales.en.slug+'/'},summary:{de:t.locales.de.subtitle,en:t.locales.en.subtitle}});
 for(const t of history.data.themes){for(const lang of ['de','en'])for(const ref of t.bookRefs[lang]||[])edge('theme:'+t.id,byRef.get(lang+':'+ref),'context');for(const id of t.relatedIds)edge('theme:'+t.id,'theme:'+id,'related');for(const id of t.parentIds)edge('theme:'+t.id,'theme:'+id,'parent');}
@@ -42,7 +43,7 @@ const editionPlaces={
 'en-ernest-thompson-seton-monarch-the-big-bear-of-tallac-annotated':'monarch'
 };
 for(const n of nodes.filter(n=>n.type==='book')){
- const a=atlas.nodes.find(a=>a.coverImageUrl.split('/').pop()===n.cover?.split('/').pop()) || atlas.nodes.find(a=>a.id===editionPlaces[n.id.replace(/^book:/,'')]);
+ const a=atlas.nodes.find(a=>imageKey(a.coverImageUrl)===imageKey(n.cover)) || atlas.nodes.find(a=>a.id===editionPlaces[n.id.replace(/^book:/,'')]);
  if(a)n.geography={location:a.location,region:a.region,place:a.place,source:'kosmosSelection:'+a.id};
 }
 // Carry editorial work relationships into each available edition language.
@@ -51,7 +52,7 @@ for(const e of atlas.links){
  const targetBooks=nodes.filter(n=>n.geography?.source==='kosmosSelection:'+e.target);
  for(const a of sourceBooks)for(const b of targetBooks)if(a.language===b.language&&a.id!==b.id)edge(a.id,b.id,'curated',{de:e.reason,en:e.reason});
 }
-const result={schema:2,provenance:['src/_data/catalogue.js','catalog/index.cjs','src/_data/kosmos.js','editorial/historical-themes.json'],nodes,links};
+const result={schema:2,provenance:['src/_data/catalogue.js','catalog/index.cjs','src/_data/kosmos.js','editorial/historical-themes.json'],nodes,links,aliases};
 fs.writeFileSync('editorial/library-graph.json',JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({books:nodes.filter(n=>n.type==='book').length,themes:history.data.themes.length,links:links.length}));
 

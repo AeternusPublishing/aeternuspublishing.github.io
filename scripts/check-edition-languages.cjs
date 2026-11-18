@@ -34,7 +34,8 @@ assert(!haggard.includes('cover-hrh001-en') && !haggard.includes('Englische Orig
 assert(haggard.includes('https://aeternuspublishing.com/authors/henry-rider-haggard/'));
 for (const b of catalogue.books) {
   const html = read(b.url);
-  const knownEnglish = englishCovers.has(b.cover);
+  const knownEnglish = englishCovers.has(b.cover) || [b.isbn, ...(b.formats || []).map(f => f.isbn)]
+    .some(isbn => isbn && englishIsbns.has(isbn.replace(/-/g, '')));
   assert.equal(b.language, knownEnglish ? 'en' : 'de', b.id + ': edition language disagrees with English catalogue');
   assert.equal(b.schema.inLanguage, b.language, b.id + ': schema language');
   assert(html.includes('<dt>Sprache</dt><dd>' + b.languageLabel + '</dd>'), b.id + ': visible edition language');
