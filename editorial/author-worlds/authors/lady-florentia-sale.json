@@ -23,6 +23,27 @@
       "url": "https://collection.nam.ac.uk/detail.php?acc=1998-06-71-1",
       "checked": "2026-11-18",
       "note": "Source address verified during full English-site audit on 18 November 2026; previous URL returned HTTP 404."
+    },
+    {
+      "id": "DNBR",
+      "title": "Dictionary of National Biography (1897), Sale, Sir Robert Henry (Wikisource transcription)",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Sale,_Robert_Henry",
+      "checked": "2026-11-18",
+      "note": "Gives the marriage to Florentia, daughter of George Wynch, in 1809; Sir Robert's wound at Mudki on 18 December 1845 and death on 21 December; and that she afterwards lived on a pension of £500 a year granted by the queen in recognition of her conduct and his services. The entry says the queen without naming her."
+    },
+    {
+      "id": "DNB50",
+      "title": "Dictionary of National Biography vol. 50, p. 200 (Wikisource page scan, Sale entry)",
+      "url": "https://en.wikisource.org/wiki/Page:Dictionary_of_National_Biography_volume_50.djvu/200",
+      "checked": "2026-11-18",
+      "note": "On the retreat of January 1842 she tried to ease the suffering of women, children and the wounded, was wounded herself, and was with her dying son-in-law Lieutenant Sturt (died 9 January 1842). Diary begun at Kabul in September 1841, kept through captivity, published 1843. Captives moved from Khurd Kabul on 11 January and reached Badiabad on 17 January. Read through a summary of the page; the full wording was not reproduced."
+    },
+    {
+      "id": "WIKI",
+      "title": "Wikipedia · Florentia Sale",
+      "url": "https://en.wikipedia.org/wiki/Florentia_Sale",
+      "checked": "2026-11-18",
+      "note": "Secondary compilation. Used only for birth on 13 August 1790 at Madras as Florentia Wynch and for death on 6 July 1853 at Cape Town; both limited claims, not confirmed from a register."
     }
   ],
   "facts": [
@@ -55,9 +76,126 @@
         "NAM",
         "DIARY"
       ]
+    },
+    {
+      "id": "F04",
+      "status": "EINGESCHRÄNKT",
+      "kind": "historical-fact",
+      "statement": "Born on 13 August 1790 at Madras as Florentia Wynch, daughter of George Wynch; the date and place rest on a secondary compilation.",
+      "sources": [
+        "WIKI",
+        "DNBR"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In 1809 she married Robert Henry Sale.",
+      "sources": [
+        "DNBR",
+        "WIKI"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Sir Robert Sale defended Jellalabad in the First Afghan War; he was wounded at Mudki on 18 December 1845 and died of the wound on 21 December 1845.",
+      "sources": [
+        "NAM",
+        "DNBR"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "On the retreat of January 1842 she tried to relieve women, children and the wounded and was herself wounded; her son-in-law Lieutenant Sturt died on 9 January 1842. Her diary, begun at Kabul in September 1841, continued through captivity.",
+      "sources": [
+        "DNB50",
+        "NAM"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The captives were moved from Khurd Kabul on 11 January 1842 and reached Badiabad on 17 January; a British force under Sir George Pollock released her in September 1842.",
+      "sources": [
+        "DNB50",
+        "NAM"
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "A coloured lithograph of her after Lieutenant Vincent Eyre, dated 1842, belongs to the set Portraits of the Kabul Prisoners, published by John Murray in 1843.",
+      "sources": [
+        "NAM"
+      ]
+    },
+    {
+      "id": "F10",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Times called her the soldier's wife par excellence; her husband's fellow officers called her the Grenadier in Petticoats.",
+      "sources": [
+        "NAM"
+      ]
+    },
+    {
+      "id": "F11",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "After her husband's death she received a pension of £500 a year granted by the queen in recognition of her conduct and his services; the year of the grant is not given.",
+      "sources": [
+        "DNBR"
+      ]
+    },
+    {
+      "id": "F12",
+      "status": "EINGESCHRÄNKT",
+      "kind": "historical-fact",
+      "statement": "Died on 6 July 1853 at Cape Town; place and date rest on a secondary compilation.",
+      "sources": [
+        "WIKI"
+      ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Birth on 13 August 1790 at Madras, and death on 6 July 1853 at Cape Town.",
+      "decision": "Taken from a secondary compilation; the baptismal and burial registers have not been seen. Only the years 1790 and 1853 are confirmed by the National Army Museum."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Year of the pension and the identity of the queen.",
+      "decision": "The Dictionary of National Biography says the queen granted £500 a year after Sir Robert's death in 1845 and does not name her or give a year. The page therefore says granted by the queen and gives no year."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Exact day of release in September 1842.",
+      "decision": "The National Army Museum gives September 1842; a secondary compilation gives 17 September. Only the month is stated."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Number and fate of her children.",
+      "decision": "A secondary compilation speaks of ten children; no register or biography has been seen, so no figure is given."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Date and wording of the Times tribute.",
+      "decision": "Known only from the museum's catalogue note; the issue of The Times has not been seen."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Her own biographical entries in the Dictionary of National Biography and the Oxford Dictionary.",
+      "decision": "Not read in full; the account rests on the Sale entry of her husband, the museum records and the journal's own dates. The pension is the only honour claimed; no order or medal is attributed to her."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -79,15 +217,16 @@
     "en": {
       "tagline": "The Kabul retreat, recorded from within.",
       "intro": "Florentia Sale’s journal follows the collapse of a British position in Afghanistan through the eyes of a woman caught in its consequences. Marching, wounds, rumours and captivity give the campaign the scale of lived days.",
-      "orientation": "She was the wife of Major-General Sir Robert Sale, not a commanding officer. Her authority on the page comes from presence, close observation and the determination to keep a record.",
+      "orientation": "Florentia Sale was born, as Florentia Wynch, at Madras in 1790 and married the army officer Robert Henry Sale in 1809. She was the wife of the later Major-General Sir Robert Sale, not a commanding officer; her authority rests on presence, close observation and the determination to keep a record.",
       "origin": [
-        "An army marriage brought her into the mobile households of British service in India. In Afghanistan that world of officers and families was drawn into the First Anglo-Afghan War."
+        "Born at Madras, she married into the army in 1809 and followed it. The marriage brought her into the mobile households of British service in India; in Afghanistan that world of officers and families was drawn into the First Anglo-Afghan War."
       ],
       "career": [
-        "She accompanied the retreat from Kabul in January 1842, witnessed deaths and cared for the wounded. Captivity followed; she was released in September. Her journal reached readers in 1843, while the disaster was still recent."
+        "She began her diary at Kabul in September 1841. In the retreat of January 1842 she tried to ease the suffering of women, children and the wounded; she was wounded herself and was with her dying son-in-law, Lieutenant Sturt, on 9 January. The captives were taken from Khurd Kabul on 11 January and reached Badiabad on 17 January. A British force under Sir George Pollock released her in September 1842.",
+        "Her husband, Sir Robert Sale, had defended Jellalabad. He was wounded at Mudki on 18 December 1845 and died three days later. She lived afterwards on a pension of £500 a year granted by the queen, and died in 1853, at Cape Town according to a secondary source."
       ],
       "literature": [
-        "The book’s power lies in its changing horizon of knowledge: what could be seen, what was reported and what could only be feared. It should be read as testimony from a particular position within the expedition."
+        "Her diary, begun at Kabul and kept through captivity, was published in 1843 and was received with critical acclaim. Its power lies in the changing horizon of knowledge: what could be seen, what was reported and what could only be feared. It should be read as testimony from a particular position within the expedition."
       ],
       "legacy": "Sale preserved a civilian witness to a military catastrophe. Her attention to daily necessity gives the grand narrative of imperial policy a human chronology.",
       "bridge": "The diary restores the uncertain succession of days behind the familiar outline of the Kabul retreat.",
@@ -95,21 +234,35 @@
       "claimRefs": [
         "F01",
         "F02",
-        "F03"
-      ]
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ],
+      "overview": [
+        "In January 1842 she took part in the retreat from Kabul, tried to relieve the wounded and was wounded herself. Held captive from the Khurd Kabul pass, she was released in September 1842, and her journal appeared in 1843. Her husband, who had held Jellalabad, died of a wound received at Mudki in December 1845; she afterwards received a pension from the queen and died in 1853."
+      ],
+      "careerHeading": "From Madras to the Kabul captivity"
     },
     "de": {
       "tagline": "Der Rückzug aus Kabul, von innen aufgezeichnet.",
       "intro": "Florentia Sales Tagebuch verfolgt den Zusammenbruch einer britischen Stellung in Afghanistan aus der Nähe einer unmittelbar Betroffenen. Marsch, Verwundung, Gerüchte und Gefangenschaft geben dem Feldzug das Maß gelebter Tage.",
-      "orientation": "Sie war die Frau des Generalmajors Sir Robert Sale, keine Truppenführerin. Die Autorität ihres Berichts beruht auf Anwesenheit, genauer Beobachtung und dem Willen, das Geschehen festzuhalten.",
+      "orientation": "Florentia Sale kam 1790 in Madras als Florentia Wynch zur Welt und heiratete 1809 den Offizier Robert Henry Sale. Sie war die Frau des späteren Generalmajors Sir Robert Sale, keine Truppenführerin; die Autorität ihres Berichts beruht auf Anwesenheit, genauer Beobachtung und dem Willen, das Geschehen festzuhalten.",
       "origin": [
-        "Die Ehe mit einem Berufsoffizier führte sie in die bewegliche Welt britischer Militärhaushalte in Indien. In Afghanistan gerieten die Offiziere und ihre Familien mitten in den Ersten Anglo-Afghanischen Krieg."
+        "In Madras geboren, heiratete sie 1809 in die Armee hinein und folgte ihr. Die Ehe mit einem Berufsoffizier führte sie in die bewegliche Welt britischer Militärhaushalte in Indien; in Afghanistan gerieten Offiziere und Familien in den Ersten Anglo-Afghanischen Krieg."
       ],
       "career": [
-        "Im Januar 1842 begleitete sie den Rückzug aus Kabul, erlebte das Sterben und versorgte Verwundete. Es folgten Monate der Gefangenschaft bis zur Befreiung im September. 1843 erschien ihr Tagebuch."
+        "Ihr Tagebuch begann sie im September 1841 in Kabul. Im Rückzug vom Januar 1842 suchte sie das Leid der Frauen, Kinder und Verwundeten zu lindern; sie wurde selbst verwundet und war am 9. Januar bei ihrem sterbenden Schwiegersohn, Leutnant Sturt. Die Gefangenen wurden am 11. Januar aus Khurd Kabul weggeführt und erreichten am 17. Januar Badiabad. Eine britische Truppe unter Sir George Pollock befreite sie im September 1842.",
+        "Ihr Mann, Sir Robert Sale, hatte Dschalalabad verteidigt. Er wurde am 18. Dezember 1845 bei Mudki verwundet und starb drei Tage später. Sie lebte danach von einer Pension von 500 Pfund im Jahr, die die Königin gewährt hatte, und starb 1853, nach einer Nebenquelle in Kapstadt."
       ],
       "literature": [
-        "Seine Kraft liegt im wechselnden Horizont des Wissens: Was war zu sehen, was nur berichtet, was lediglich zu befürchten? Das Buch bewahrt die Wahrnehmung einer bestimmten Zeugin innerhalb des britischen Unternehmens."
+        "Ihr Tagebuch, in Kabul begonnen und durch die Gefangenschaft fortgeführt, erschien 1843 und fand große Anerkennung. Seine Kraft liegt im wechselnden Horizont des Wissens: Was war zu sehen, was nur berichtet, was lediglich zu befürchten? Das Buch bewahrt die Wahrnehmung einer bestimmten Zeugin innerhalb des britischen Unternehmens."
       ],
       "legacy": "Sale überlieferte eine zivile Stimme aus einer militärischen Katastrophe. Ihre Aufmerksamkeit für die täglichen Erfordernisse gibt der Geschichte imperialer Politik eine menschliche Zeitfolge.",
       "bridge": "Das Tagebuch führt hinter den bekannten Ausgang zurück in die ungewisse Folge der Tage.",
@@ -117,8 +270,21 @@
       "claimRefs": [
         "F01",
         "F02",
-        "F03"
-      ]
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ],
+      "overview": [
+        "Im Januar 1842 nahm sie am Rückzug aus Kabul teil, kümmerte sich um die Verwundeten und wurde selbst verwundet. Seit dem Khurd-Kabul-Pass in Gefangenschaft, wurde sie im September 1842 befreit; 1843 erschien ihr Tagebuch. Ihr Mann, der Dschalalabad gehalten hatte, starb im Dezember 1845 an einer Wunde von Mudki; sie erhielt danach eine Pension der Königin und starb 1853."
+      ],
+      "careerHeading": "Von Madras in die Gefangenschaft von Kabul"
     }
   },
   "image": {
@@ -167,19 +333,71 @@
   },
   "timeline": [
     [
+      "1790",
+      "Born at Madras as Florentia Wynch (date and place from a secondary source)",
+      "In Madras als Florentia Wynch geboren (Datum und Ort aus einer Nebenquelle)"
+    ],
+    [
+      "1809",
+      "Marries Robert Henry Sale",
+      "Heirat mit Robert Henry Sale"
+    ],
+    [
+      "September 1841",
+      "Begins her diary at Kabul",
+      "Beginn des Tagebuchs in Kabul"
+    ],
+    [
       "January 1842",
-      "Retreat from Kabul",
-      "Rückzug aus Kabul"
+      "Retreat from Kabul; wounded; Lieutenant Sturt dies on 9 January",
+      "Rückzug aus Kabul; verwundet; Leutnant Sturt stirbt am 9. Januar"
+    ],
+    [
+      "11–17 January 1842",
+      "Captives taken from Khurd Kabul to Badiabad",
+      "Gefangene von Khurd Kabul nach Badiabad geführt"
     ],
     [
       "September 1842",
-      "Released from captivity",
-      "Befreiung aus der Gefangenschaft"
+      "Released by Pollock's force",
+      "Befreiung durch Pollocks Truppe"
     ],
     [
       "1843",
-      "Journal published",
-      "Veröffentlichung des Tagebuchs"
+      "Journal published by John Murray",
+      "Veröffentlichung des Tagebuchs bei John Murray"
+    ],
+    [
+      "21 December 1845",
+      "Sir Robert Sale dies of the wound received at Mudki",
+      "Sir Robert Sale stirbt an der Wunde von Mudki"
+    ],
+    [
+      "after 1845",
+      "Pension of £500 a year granted by the queen (year not stated)",
+      "Pension von 500 Pfund im Jahr von der Königin (Jahr nicht genannt)"
+    ],
+    [
+      "1853",
+      "Dies (at Cape Town according to a secondary source)",
+      "Gestorben (nach einer Nebenquelle in Kapstadt)"
     ]
+  ],
+  "honours": [
+    {
+      "name": "Pension of £500 a year, granted by the queen",
+      "year": "after 1845",
+      "category": "prize",
+      "sources": [
+        "DNBR"
+      ],
+      "localName": {
+        "de": "Pension der Königin, 500 Pfund im Jahr"
+      },
+      "note": {
+        "en": "The Dictionary of National Biography records it as recognition of her conduct and her husband's services. It names neither the monarch nor the year, and it is not an order or decoration. Her nickname, the Grenadier in Petticoats, came from her husband's fellow officers (National Army Museum); The Times called her the soldier's wife par excellence.",
+        "de": "Das Dictionary of National Biography verzeichnet sie als Anerkennung ihres Verhaltens und der Verdienste ihres Mannes. Es nennt weder die Herrscherin noch das Jahr, und es ist kein Orden. Ihren Beinamen „Grenadier in Petticoats“ gaben ihr die Offiziere ihres Mannes (National Army Museum); die Times nannte sie „soldier's wife par excellence“."
+      }
+    }
   ]
 }
