@@ -11,25 +11,60 @@
   },
   "sources": [
     {
-      "id": "BIO",
-      "title": "C. E. Buckland · Dictionary of Indian Biography (1906), Hutchinson",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dictionary_of_Indian_biography%3B_%28IA_dictionaryofindi00buck%29.pdf",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "id": "BUCK",
+      "title": "C. E. Buckland · Dictionary of Indian Biography (1906), Hutchinson, Henry Doveton",
+      "url": "https://archive.org/details/dictionaryofindi00buck",
+      "checked": "2026-11-18",
+      "note": "Entry: born 13 September 1847, son of T. Cayley Hutchinson, M.D.; Sikkim 1887–88, relief of Chitral 1895, Tirah 1897–98; commanded troops in Chitral; Director of Military Education in India 1896–1901; Assistant Military Secretary for Indian affairs 1902; works; gives C.S.I. as 1902 (corrected by GAZ1903). Full text of the Internet Archive scan read."
+    },
+    {
+      "id": "IBD1915",
+      "title": "The Indian Biographical Dictionary (1915) · Hutchinson, Lieut.-Gen. Henry Doveton (Wikisource transcription, p. 195 of the book)",
+      "url": "https://en.wikisource.org/wiki/Page:The_Indian_Biographical_Dictionary.djvu/235",
+      "checked": "2026-11-18",
+      "note": "Lieut.-Gen., C.S.I. (1903), Indian Army (retired); eldest son of Dr T. Cayley Hutchinson, Deputy Inspector-General of Hospitals; married 1874; raised 2nd Bn 3rd Gurkha Rifles 1891; commanded troops in Chitral 1896; special duty India Office 1901–2; Assistant Military Secretary (Indian Affairs) 1902–4; Director of Staff Duties, War Office, 1904–8. Entries of this kind were largely supplied by their subjects; the transcription misprints the birth year as 1817."
     },
     {
       "id": "TIRAH",
-      "title": "The Campaign in Tirah · original edition catalogue",
-      "url": "https://commons.wikimedia.org/wiki/File:The_campaign_in_Tirah,_1897-1898;_an_account_of_the_expedition_against_the_Orakzais_and_Afridis_under_General_Sir_William_Lockhart,_based_(by_permission)_on_letters_contributed_to_%CA%BBThe_Times%CA%BE_(IA_cu31924028659575).pdf",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "title": "H. D. Hutchinson · The Campaign in Tirah, 1897–1898 (Macmillan, 1898), title page and preface",
+      "url": "https://archive.org/details/campaignintirah00hutcgoog",
+      "checked": "2026-11-18",
+      "note": "Title page: Colonel H. D. Hutchinson, Director of Military Education in India, based (by permission) on letters contributed to The Times; lists his earlier works. Preface signed ‘H. D. Hutchinson, Colonel’, London, 1 September 1898. Full text read."
     },
     {
-      "id": "NPG",
-      "title": "National Portrait Gallery · Henry Doveton Hutchinson",
-      "url": "https://www.npg.org.uk/collections/search/person/mp02341/henry-doveton-hutchinson",
-      "checked": "2026-10-20",
-      "note": "Sitter authority: 1847–1924, lieutenant-general."
+      "id": "NATURE",
+      "title": "Nature 59 (2 February 1899), p. 315 · ‘The Campaign in the Tirah’ (notice)",
+      "url": "https://www.nature.com/articles/059315b0",
+      "checked": "2026-11-18",
+      "note": "The notice calls the book largely a reprint of the author’s letters to The Times and adds that he supplied an introduction on the causes of the outbreak and an appendix on the lessons of the campaign. Only the abstract was read."
+    },
+    {
+      "id": "GAZ1871",
+      "title": "London Gazette no. 23702, p. 385 (February 1871)",
+      "url": "https://www.thegazette.co.uk/London/issue/23702/page/385/data.pdf",
+      "checked": "2026-11-18",
+      "note": "77th Foot: Ensign Henry Doveton Hutchinson allowed to receive the value of his commission on transfer to the Indian Staff Corps, dated 4 February 1871. Page scan read by OCR."
+    },
+    {
+      "id": "GAZ1879",
+      "title": "London Gazette no. 24770, p. 5876 (India Office notice of 11 October 1879)",
+      "url": "https://www.thegazette.co.uk/London/issue/24770/page/5876/data.pdf",
+      "checked": "2026-11-18",
+      "note": "Bengal Staff Corps, substantive promotions: Lieutenant Henry Doveton Hutchinson to be Captain, dated 6 July 1879. Page scan read by OCR."
+    },
+    {
+      "id": "GAZ1903",
+      "title": "London Gazette supplement no. 27511, p. 2 (1 January 1903)",
+      "url": "https://www.thegazette.co.uk/London/issue/27511/supplement/2/data.pdf",
+      "checked": "2026-11-18",
+      "note": "Order of the Star of India, Companions: ‘Colonel Henry Doveton Hutchinson, Indian Staff Corps, Assistant Military Secretary (for Indian Affairs) at the War Office’. Page scan read by OCR."
+    },
+    {
+      "id": "GAZ1904",
+      "title": "London Gazette no. 27676, p. 3090 (13 May 1904)",
+      "url": "https://www.thegazette.co.uk/London/issue/27676/page/3090/data.pdf",
+      "checked": "2026-11-18",
+      "note": "List headed ‘To be Honorary Colonels’ (continued from p. 3089): 3rd Gurkha Rifles, Major-General H. D. Hutchinson, C.S.I. Page scan read by OCR."
     },
     {
       "id": "OFFICE",
@@ -37,6 +72,20 @@
       "url": "https://bsi.gov.in/uploads/userfiles/file/Rare%20Books/The%20India%20Office%20List%20For%201923.pdf",
       "checked": "2026-10-20",
       "note": "Official roll: Hutchinson, 1 January 1903. Supersedes Buckland’s 1902 date."
+    },
+    {
+      "id": "NPG",
+      "title": "National Portrait Gallery · Henry Doveton Hutchinson",
+      "url": "https://www.npg.org.uk/collections/search/person/mp02341/henry-doveton-hutchinson",
+      "checked": "2026-10-20",
+      "note": "Sitter authority: 1847–1924, lieutenant-general. Page not retrievable by script on 18 November 2026 (access check); content as recorded on 20 October 2026."
+    },
+    {
+      "id": "WIKITREE",
+      "title": "WikiTree · Henry Doveton Hutchinson C.S.I. (1847–1924)",
+      "url": "https://www.wikitree.com/wiki/Hutchinson-5252",
+      "checked": "2026-11-18",
+      "note": "Genealogical compilation (secondary): baptism at Dinapore, death on 21 November 1924 at Kensington, citing newspaper notices. Content known only from a search summary; the page itself could not be opened. Used for the date of death alone, as a limited claim."
     }
   ],
   "facts": [
@@ -44,47 +93,133 @@
       "id": "F01",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Indian Army officer, born 1847; served in Sikkim, the Chitral relief and Tirah.",
+      "statement": "Henry Doveton Hutchinson was born on 13 September 1847, the son of T. Cayley Hutchinson, M.D. (later Deputy Inspector-General of Hospitals).",
       "sources": [
-        "BIO",
-        "TIRAH"
+        "BUCK",
+        "IBD1915"
       ]
     },
     {
       "id": "F02",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Director of Military Education in India, 1896–1901.",
+      "statement": "As Ensign of the 77th Foot he was allowed to transfer to the Indian Staff Corps on 4 February 1871; he was promoted Captain in the Bengal Staff Corps on 6 July 1879.",
       "sources": [
-        "BIO",
-        "TIRAH"
+        "GAZ1871",
+        "GAZ1879"
       ]
     },
     {
       "id": "F03",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "The Campaign in Tirah, 1897–1898 draws on letters contributed to The Times.",
+      "statement": "He married in 1874 a daughter of Colonel Stuart-Menteith.",
       "sources": [
-        "BIO",
-        "TIRAH"
+        "IBD1915"
       ]
     },
     {
       "id": "F04",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Companion of the Order of the Star of India from 1 January 1903; the official 1923 India Office roll takes precedence over Buckland’s 1902 date.",
+      "statement": "His service is recorded in the Sikkim campaign of 1887–88, the relief of Chitral in 1895 and the Tirah campaign of 1897–98.",
       "sources": [
-        "OFFICE"
+        "BUCK",
+        "IBD1915"
       ]
     },
     {
       "id": "F05",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Lived 1847–1924; final rank lieutenant-general, as recorded by the National Portrait Gallery.",
+      "statement": "He raised the 2nd Battalion, 3rd Gurkha Rifles in 1891 and commanded the troops in Chitral after the British occupation (1896).",
       "sources": [
+        "IBD1915",
+        "BUCK"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Director of Military Education in India, 1896–1901.",
+      "sources": [
+        "BUCK",
+        "IBD1915",
+        "TIRAH"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Special duty at the India Office 1901–02; Assistant Military Secretary for Indian Affairs from 1902 to 1904; Director of Staff Duties at the War Office 1904–08.",
+      "sources": [
+        "IBD1915",
+        "BUCK",
+        "GAZ1903"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Companion of the Order of the Star of India from 1 January 1903; the Gazette and the official 1923 India Office roll take precedence over Buckland’s 1902 date.",
+      "sources": [
+        "GAZ1903",
+        "OFFICE",
+        "BUCK"
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "He was a Colonel in 1898 (title page and preface of The Campaign in Tirah), Major-General by 13 May 1904 and finally Lieutenant-General, as recorded by the 1915 dictionary and the National Portrait Gallery.",
+      "sources": [
+        "TIRAH",
+        "GAZ1904",
+        "IBD1915",
+        "NPG"
+      ]
+    },
+    {
+      "id": "F10",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In May 1904 the Gazette lists him, as Major-General and C.S.I., as Honorary Colonel of the 3rd Gurkha Rifles.",
+      "sources": [
+        "GAZ1904"
+      ]
+    },
+    {
+      "id": "F11",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "His works include Military Sketching Made Easy, Field Fortification, The Story of Waterloo, The Story of 1812 and The Story of Corunna, followed in 1898 by The Campaign in Tirah, 1897–1898, based on letters contributed to The Times.",
+      "sources": [
+        "TIRAH",
+        "BUCK",
+        "IBD1915"
+      ]
+    },
+    {
+      "id": "F12",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "A contemporary notice in Nature (2 February 1899) describes the Tirah book as largely a reprint of those letters, with a new introduction on the causes of the outbreak and an appendix on the lessons of the campaign.",
+      "sources": [
+        "NATURE",
+        "TIRAH"
+      ]
+    },
+    {
+      "id": "F13",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "He died on 21 November 1924 at Kensington, London.",
+      "sources": [
+        "WIKITREE",
         "NPG"
       ]
     }
@@ -92,8 +227,58 @@
   "uncertainties": [
     {
       "status": "WIDERSPRUCH",
-      "claim": "Buckland lists CSI 1902; official roll dates it 1 January 1903.",
-      "decision": "Use 1903 in public presentation; retain this discrepancy in the dossier."
+      "claim": "Buckland lists C.S.I. 1902; the London Gazette supplement of 1 January 1903 and the India Office List give 1903.",
+      "decision": "Use 1 January 1903; the Gazette is the primary notice. Keep the discrepancy in the dossier."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "First commission and year of entry into the army. The earlier working note gives 6 July 1867.",
+      "decision": "Not confirmed. The Gazette of February 1871 shows him as Ensign of the 77th Foot transferring to the Indian Staff Corps; 1867 is not claimed."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Place of birth and parents’ names beyond the father.",
+      "decision": "The father is given by Buckland and the 1915 dictionary; the mother’s name, the birthplace and the baptism (Dinapore, reported by a genealogical compilation) are not established from a register."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Exact date of the marriage of 1874 and the bride’s name in full.",
+      "decision": "Year and bride’s father taken from the 1915 dictionary; a parish or civil register has not been seen."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "His own part in the Tirah campaign.",
+      "decision": "The title page names him Director of Military Education in India and the book rests on letters to The Times; Buckland and the 1915 dictionary list Tirah among his services. In what capacity he was in the field is not established and is not stated on the page."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Staff Duties 1904–08 and Chitral command 1896.",
+      "decision": "Each rests on the 1915 dictionary (largely subject-supplied) alone; the Assistant Military Secretaryship is corroborated by the Gazette of 1903, the Chitral command by Buckland without year."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Dates of promotion to Major-General and Lieutenant-General and of retirement.",
+      "decision": "Colonel in 1898 and Major-General by May 1904 are documented; the 1915 dictionary lists him as Lieut.-Gen., retired. No Gazette notice of promotion or retirement has been seen."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Individual campaign medals (India General Service Medal with clasp Sikkim 1888; India Medal 1895 with clasps Relief of Chitral 1895, Punjab Frontier 1897–98, Tirah 1897–98).",
+      "decision": "The 1915 dictionary records for him a medal and clasp for Chitral and two clasps for Tirah, without a roll; no medal roll naming him has been seen. Medals are therefore not listed among the honours, and no Sikkim medal is claimed."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Parent corps, regiment or regiments of his service; any motto.",
+      "decision": "No regimental affiliation beyond the Bengal Staff Corps, the raising of 2/3rd Gurkha Rifles and the honorary colonelcy is claimed; no motto is attributed to him."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Date and place of death.",
+      "decision": "21 November 1924 at Kensington rests on a genealogical compilation, with the National Portrait Gallery confirming only 1924; the probate calendar or death registration has not been seen."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Date of the appointment as Honorary Colonel.",
+      "decision": "The Gazette list of 13 May 1904 is cited; the date of the appointment itself has not been established."
     }
   ],
   "interpretation": {
@@ -117,17 +302,19 @@
     "en": {
       "tagline": "A frontier campaign examined by a military educator.",
       "intro": "Hutchinson’s account of Tirah joins the participant’s knowledge to the habits of an instructor. Routes, mountain positions and the handling of troops become the substance of military explanation.",
-      "orientation": "The expedition of 1897–98 belonged to Britain’s struggle to enforce authority along the North-West Frontier of India. Its terrain imposed demands that a map alone could not explain.",
+      "orientation": "Henry Doveton Hutchinson was born on 13 September 1847, the son of Dr T. Cayley Hutchinson, later Deputy Inspector-General of Hospitals. As an ensign of the 77th Foot he passed into the Indian Staff Corps in February 1871 and was a captain of the Bengal Staff Corps by July 1879. He served in the Sikkim campaign of 1887–88 and in 1891 raised the 2nd Battalion of the 3rd Gurkha Rifles.",
       "origin": [
-        "An Indian Army career brought service in Sikkim and the relief of Chitral before Tirah."
+        "Ensign Hutchinson of the 77th Foot was permitted in February 1871 to transfer to the Indian Staff Corps, and the India Office notice of October 1879 made him a captain of the Bengal Staff Corps from 6 July of that year. In 1874 he married a daughter of Colonel Stuart-Menteith. The years before 1871, including the date of his first commission, are not documented here."
       ],
       "career": [
-        "He directed military education in India from 1896 to 1901 and wrote instructional works as well as campaign history. Experience and teaching informed one another."
+        "The frontier brought him to Sikkim in 1887–88, to the relief of Chitral in 1895 and to Tirah in 1897–98. In 1891 he raised the 2nd Battalion of the 3rd Gurkha Rifles, and in 1896 he commanded the troops in Chitral. The sources do not say in what capacity he was in the field at Tirah.",
+        "From 1896 to 1901 he directed military education in India. After special duty at the India Office in 1901–02 he became Assistant Military Secretary for Indian Affairs, and the Gazette of 1 January 1903 names him in that post at the War Office among the new Companions of the Star of India. As Director of Staff Duties at the War Office from 1904 to 1908 he stood at the centre of the army’s staff work. In May 1904 the Gazette lists him, then a major-general, as Honorary Colonel of the 3rd Gurkha Rifles."
       ],
       "literature": [
-        "The Campaign in Tirah developed from letters contributed to The Times. That origin gives the book a double character: reporting close to events and a more sustained account of the expedition."
+        "Military Sketching Made Easy and Field Fortification were handbooks for the officer’s own craft: reading ground, drawing it and fortifying it. The Story of Waterloo, The Story of 1812 and The Story of Corunna turned campaigns into narrative for the general reader.",
+        "The Campaign in Tirah, 1897–1898 appeared in 1898 with a preface dated 1 September. Its title page names him Director of Military Education in India and states that it rests on letters contributed to The Times. Nature noticed it in February 1899 as largely a reprint of those letters, with a new introduction on the causes of the rising and an appendix on the lessons of the campaign. In the preface he says that he keeps clear of the Government of India’s frontier policy and gives only so much of the notorious facts as lets the reader judge why the war was fought."
       ],
-      "legacy": "Hutchinson is valuable where the detail of operations becomes intelligible. His work preserves the professional reasoning of an army learning from a difficult frontier war.",
+      "legacy": "Hutchinson is valuable where the detail of operations becomes intelligible. His Tirah book is both reporting close to events and a teacher’s account, written by an officer whose post was the instruction of the Indian Army.",
       "bridge": "The edition connects the mountain campaign with the practical questions of command, movement and supply.",
       "description": "Hutchinson’s account of Tirah joins the participant’s knowledge to the habits of an instructor. Routes, mountain positions and the handling of troops become the substance of military explanation.",
       "claimRefs": [
@@ -135,23 +322,37 @@
         "F02",
         "F03",
         "F04",
-        "F05"
-      ]
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "overview": [
+        "The relief of Chitral in 1895 and the Tirah campaign of 1897–98 followed. From 1896 to 1901 he was Director of Military Education in India, and in 1898, as a colonel, he published The Campaign in Tirah. He then served at the India Office, as Assistant Military Secretary for Indian Affairs from 1902 and as Director of Staff Duties at the War Office from 1904 to 1908. He was made C.S.I. on 1 January 1903, was a major-general by 1904 and retired a lieutenant-general. He died at Kensington on 21 November 1924."
+      ],
+      "careerHeading": "From the Indian Staff Corps to the War Office"
     },
     "de": {
       "tagline": "Ein Grenzfeldzug im Blick eines militärischen Lehrers.",
       "intro": "Hutchinson verbindet im Bericht über Tirah die Kenntnis des Beteiligten mit dem Blick des Ausbilders. Marschwege, Gebirgsstellungen und Truppenführung werden zum Gegenstand genauer militärischer Erklärung.",
-      "orientation": "Die Expedition von 1897–98 gehörte zum britischen Versuch, die Herrschaft an Indiens Nordwestgrenze durchzusetzen. Das Gelände stellte Anforderungen, die eine Karte allein nicht verständlich machte.",
+      "orientation": "Henry Doveton Hutchinson wurde am 13. September 1847 als Sohn des Arztes Dr. T. Cayley Hutchinson, später Deputy Inspector-General of Hospitals, geboren. Als Fähnrich des 77th Foot wechselte er im Februar 1871 in das Indian Staff Corps und war im Juli 1879 Hauptmann im Bengal Staff Corps. Er diente im Sikkim-Feldzug 1887–88 und stellte 1891 das 2. Bataillon der 3rd Gurkha Rifles auf.",
       "origin": [
-        "Die Laufbahn in der indischen Armee führte ihn nach Sikkim und zum Entsatz von Chitral, bevor er am Tirah-Feldzug teilnahm."
+        "Fähnrich Hutchinson vom 77th Foot durfte im Februar 1871 in das Indian Staff Corps übertreten; die Bekanntmachung des India Office vom Oktober 1879 machte ihn zum 6. Juli desselben Jahres zum Hauptmann des Bengal Staff Corps. 1874 heiratete er eine Tochter von Oberst Stuart-Menteith. Die Jahre vor 1871, auch das Datum des ersten Patents, sind hier nicht belegt."
       ],
       "career": [
-        "Von 1896 bis 1901 leitete er die militärische Ausbildung in Indien. Neben Feldzugsgeschichte schrieb er Lehrwerke; praktische Erfahrung und Unterricht wirkten aufeinander zurück."
+        "Die Grenze führte ihn 1887–88 nach Sikkim, 1895 zum Entsatz von Chitral und 1897–98 nach Tirah. 1891 stellte er das 2. Bataillon der 3rd Gurkha Rifles auf, 1896 befehligte er die Truppen in Chitral. In welcher Eigenschaft er in Tirah im Felde stand, sagen die Quellen nicht.",
+        "Von 1896 bis 1901 leitete er die militärische Ausbildung in Indien. Nach einem Sonderauftrag im India Office 1901–02 wurde er Assistant Military Secretary für indische Angelegenheiten; die Gazette vom 1. Januar 1903 nennt ihn in dieser Stellung im War Office unter den neuen Companions des Star of India. Als Director of Staff Duties im War Office stand er von 1904 bis 1908 im Mittelpunkt der Stabsarbeit der Armee. Im Mai 1904 führt ihn die Gazette als Generalmajor und Honorary Colonel der 3rd Gurkha Rifles."
       ],
       "literature": [
-        "The Campaign in Tirah ging aus Briefen an The Times hervor. Das verleiht dem Buch einen doppelten Charakter: zeitnahe Berichterstattung und zusammenhängende Darstellung der Expedition."
+        "Military Sketching Made Easy und Field Fortification waren Handbücher für das Handwerk des Offiziers: Gelände lesen, zeichnen und befestigen. The Story of Waterloo, The Story of 1812 und The Story of Corunna erzählten Feldzüge für den allgemeinen Leser.",
+        "The Campaign in Tirah, 1897–1898 erschien 1898 mit einem Vorwort vom 1. September. Das Titelblatt nennt ihn Director of Military Education in India und sagt, das Buch beruhe auf Briefen an The Times. Nature zeigte es im Februar 1899 an: weithin ein Neudruck dieser Briefe, dazu eine neue Einleitung über die Ursachen des Aufstands und ein Anhang über die Lehren des Feldzugs. Im Vorwort erklärt er, die Grenzpolitik der indischen Regierung zu meiden und nur so viel der bekannten Tatsachen zu geben, dass der Leser selbst urteilen kann, wofür der Krieg geführt wurde."
       ],
-      "legacy": "Hutchinsons Stärke liegt in der Erklärung konkreter Operationen. Sein Werk bewahrt das berufliche Denken einer Armee, die aus einem schwierigen Gebirgskrieg Lehren zog.",
+      "legacy": "Hutchinsons Stärke liegt in der Erklärung konkreter Operationen. Sein Tirah-Buch ist zeitnahe Berichterstattung und Lehrerbericht zugleich, geschrieben von einem Offizier, dessen Amt die Ausbildung der indischen Armee war.",
       "bridge": "Die englische Ausgabe erschließt den Feldzug über die Fragen von Führung, Bewegung und Versorgung. Sie ist auf der englischen Verlagsseite verzeichnet.",
       "description": "Hutchinson verbindet im Bericht über Tirah die Kenntnis des Beteiligten mit dem Blick des Ausbilders. Marschwege, Gebirgsstellungen und Truppenführung werden zum Gegenstand genauer militärischer Erklärung.",
       "claimRefs": [
@@ -159,8 +360,20 @@
         "F02",
         "F03",
         "F04",
-        "F05"
-      ]
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "overview": [
+        "Es folgten der Entsatz von Chitral 1895 und der Tirah-Feldzug 1897–98. Von 1896 bis 1901 war er Director of Military Education in India, und 1898 veröffentlichte er als Oberst The Campaign in Tirah. Danach arbeitete er im India Office, ab 1902 als Assistant Military Secretary für indische Angelegenheiten und von 1904 bis 1908 als Director of Staff Duties im War Office. Am 1. Januar 1903 wurde er zum Companion des Order of the Star of India ernannt, war 1904 Generalmajor und trat als Generalleutnant in den Ruhestand. Er starb am 21. November 1924 in Kensington."
+      ],
+      "careerHeading": "Vom Indian Staff Corps ins War Office"
     }
   },
   "image": {
@@ -182,9 +395,44 @@
   },
   "timeline": [
     [
+      "13 September 1847",
+      "Born",
+      "Geboren"
+    ],
+    [
+      "4 February 1871",
+      "Ensign, 77th Foot, transfers to the Indian Staff Corps",
+      "Fähnrich im 77th Foot, Übertritt in das Indian Staff Corps"
+    ],
+    [
+      "1874",
+      "Marriage",
+      "Heirat"
+    ],
+    [
+      "6 July 1879",
+      "Captain, Bengal Staff Corps",
+      "Hauptmann im Bengal Staff Corps"
+    ],
+    [
+      "1887–88",
+      "Sikkim campaign",
+      "Sikkim-Feldzug"
+    ],
+    [
+      "1891",
+      "Raises the 2nd Battalion, 3rd Gurkha Rifles",
+      "Aufstellung des 2. Bataillons der 3rd Gurkha Rifles"
+    ],
+    [
       "1895",
       "Relief of Chitral",
       "Entsatz von Chitral"
+    ],
+    [
+      "1896",
+      "Commands the troops in Chitral",
+      "Befehlshaber der Truppen in Chitral"
     ],
     [
       "1896–1901",
@@ -195,6 +443,41 @@
       "1897–98",
       "Tirah campaign",
       "Tirah-Feldzug"
+    ],
+    [
+      "1898",
+      "The Campaign in Tirah, 1897–1898 published (preface of 1 September)",
+      "The Campaign in Tirah, 1897–1898 erscheint (Vorwort vom 1. September)"
+    ],
+    [
+      "1901–02",
+      "Special duty, India Office",
+      "Sonderauftrag im India Office"
+    ],
+    [
+      "1902–04",
+      "Assistant Military Secretary for Indian Affairs",
+      "Assistant Military Secretary für indische Angelegenheiten"
+    ],
+    [
+      "1 January 1903",
+      "Companion of the Order of the Star of India (C.S.I.)",
+      "Companion des Order of the Star of India (C.S.I.)"
+    ],
+    [
+      "13 May 1904",
+      "Gazetted Honorary Colonel, 3rd Gurkha Rifles, as Major-General",
+      "In der Gazette als Generalmajor und Honorary Colonel der 3rd Gurkha Rifles"
+    ],
+    [
+      "1904–08",
+      "Director of Staff Duties, War Office",
+      "Director of Staff Duties im War Office"
+    ],
+    [
+      "21 November 1924",
+      "Dies at Kensington",
+      "Gestorben in Kensington"
     ]
   ],
   "connections": [
@@ -204,7 +487,8 @@
       "en": "The Chitral relief and the besieged garrison were two sides of the same operation.",
       "de": "Entsatzheer und belagerte Garnison von Chitral: zwei Seiten derselben Operation.",
       "sources": [
-        "BIO"
+        "BUCK",
+        "IBD1915"
       ]
     }
   ],
@@ -218,8 +502,29 @@
       "year": "1903",
       "category": "order",
       "sources": [
-        "OFFICE"
-      ]
+        "GAZ1903",
+        "OFFICE",
+        "BUCK"
+      ],
+      "note": {
+        "en": "Gazetted on 1 January 1903 while Assistant Military Secretary for Indian Affairs; Buckland’s 1902 is superseded by the Gazette and the India Office List.",
+        "de": "In der Gazette vom 1. Januar 1903 als Assistant Military Secretary für indische Angelegenheiten ernannt; Bucklands Jahr 1902 ist durch Gazette und India Office List überholt."
+      }
+    },
+    {
+      "name": "Honorary Colonel of the 3rd Gurkha Rifles",
+      "year": "1904",
+      "category": "title",
+      "sources": [
+        "GAZ1904"
+      ],
+      "localName": {
+        "de": "Honorary Colonel der 3rd Gurkha Rifles"
+      },
+      "note": {
+        "en": "Listed in the London Gazette of 13 May 1904; the date of appointment is open. His campaign medals are not listed because no medal roll naming him has been seen.",
+        "de": "In der London Gazette vom 13. Mai 1904 verzeichnet; das Ernennungsdatum ist offen. Feldzugsmedaillen sind nicht aufgeführt, da keine Medaillenrolle mit seinem Namen vorliegt."
+      }
     }
   ]
 }
