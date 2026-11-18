@@ -217,7 +217,7 @@
       "id": "F13",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "He died on 21 November 1924 at Kensington, London.",
+      "statement": "He died in 1924.",
       "sources": [
         "WIKITREE",
         "NPG"
@@ -333,7 +333,7 @@
         "F13"
       ],
       "overview": [
-        "The relief of Chitral in 1895 and the Tirah campaign of 1897–98 followed. From 1896 to 1901 he was Director of Military Education in India, and in 1898, as a colonel, he published The Campaign in Tirah. He then served at the India Office, as Assistant Military Secretary for Indian Affairs from 1902 and as Director of Staff Duties at the War Office from 1904 to 1908. He was made C.S.I. on 1 January 1903, was a major-general by 1904 and retired a lieutenant-general. He died at Kensington on 21 November 1924."
+        "The relief of Chitral in 1895 and the Tirah campaign of 1897–98 followed. From 1896 to 1901 he was Director of Military Education in India, and in 1898, as a colonel, he published The Campaign in Tirah. He then served at the India Office, as Assistant Military Secretary for Indian Affairs from 1902 and as Director of Staff Duties at the War Office from 1904 to 1908. He was made C.S.I. on 1 January 1903, was a major-general by 1904 and retired a lieutenant-general. He died in 1924."
       ],
       "careerHeading": "From the Indian Staff Corps to the War Office"
     },
@@ -371,7 +371,7 @@
         "F13"
       ],
       "overview": [
-        "Es folgten der Entsatz von Chitral 1895 und der Tirah-Feldzug 1897–98. Von 1896 bis 1901 war er Director of Military Education in India, und 1898 veröffentlichte er als Oberst The Campaign in Tirah. Danach arbeitete er im India Office, ab 1902 als Assistant Military Secretary für indische Angelegenheiten und von 1904 bis 1908 als Director of Staff Duties im War Office. Am 1. Januar 1903 wurde er zum Companion des Order of the Star of India ernannt, war 1904 Generalmajor und trat als Generalleutnant in den Ruhestand. Er starb am 21. November 1924 in Kensington."
+        "Es folgten der Entsatz von Chitral 1895 und der Tirah-Feldzug 1897–98. Von 1896 bis 1901 war er Director of Military Education in India, und 1898 veröffentlichte er als Oberst The Campaign in Tirah. Danach arbeitete er im India Office, ab 1902 als Assistant Military Secretary für indische Angelegenheiten und von 1904 bis 1908 als Director of Staff Duties im War Office. Am 1. Januar 1903 wurde er zum Companion des Order of the Star of India ernannt, war 1904 Generalmajor und trat als Generalleutnant in den Ruhestand. Er starb 1924."
       ],
       "careerHeading": "Vom Indian Staff Corps ins War Office"
     }
@@ -475,9 +475,9 @@
       "Director of Staff Duties im War Office"
     ],
     [
-      "21 November 1924",
-      "Dies at Kensington",
-      "Gestorben in Kensington"
+      "1924",
+      "Dies",
+      "Gestorben"
     ]
   ],
   "connections": [
