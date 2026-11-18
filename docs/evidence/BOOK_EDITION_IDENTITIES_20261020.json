@@ -555,11 +555,11 @@
       "assets": [
         {
           "path": "src/assets/images/cover-der-sturz-prempehs.webp",
-          "sha256": "145a965e83d1576edb500244212c37b3f231ec0e6c1ff5ff8e2c06c2c757ccf4"
+          "sha256": "4c969ea115f8459e6ce9d1da3691039ef19b4eb626ea24eb1bb011583ab49c4c"
         },
         {
           "path": "src/assets/images/cover-der-sturz-prempehs-fallback.jpg",
-          "sha256": "00f2f71364dacd80030e7f88116fe3e53c13794675df499b32a74082fdb3b88b"
+          "sha256": "a8f49ff0fb7ea57fb8ed6e2fd2020d9cb4e5071d602ef2b90af4a92acd6eae01"
         }
       ],
       "formats": [

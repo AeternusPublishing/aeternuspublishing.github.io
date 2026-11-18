@@ -606,13 +606,13 @@ module.exports = [
         "cover": {
           "img": "cover-der-sturz-prempehs"
         },
-        "meta": "Tagebuch · London · 1896",
+        "meta": "GRÜNE REIHE · Band 2 · London 1896",
         "title": "Der Sturz Prempehs",
         "subtitle": "Tagebuch des Aschanti-Feldzugs 1895–96",
         "modal": {
-          "metadata": "196 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,99 €",
-          "summary": "Winter 1895: Eine britische Expedition rückt in den Dschungel Westafrikas vor, um König Prempeh I. zu unterwerfen. An ihrer Spitze steht Major Robert Baden-Powell — beauftragt, mitten im Vormarsch aus einheimischen Stämmen eine Vorhut zu formen, die Native Levy. Sein Tagebuch ist kein geglätteter Bericht, sondern das Protokoll eines Feldzugs im Morast: Schneisen durch den Urwald, Brücken über reißende Flüsse, Späher im Busch — festgehalten mit militärischer Präzision und trockenem Spott. Hier steht die Felderfahrung, aus der drei Jahre später Aids to Scouting wurde und aus der die weltweite Pfadfinderbewegung hervorging.",
-          "sample": "Ungekürzte deutsche Neuübersetzung der Erstausgabe London 1896, mit allen 22 Originaltafeln nach Zeichnungen des Verfassers, dem Anhang seines Bruders George Baden-Powell, historischer Einordnung, Glossar und Bildnachweis.",
+          "metadata": "208 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,99 €",
+          "summary": "Britische Truppen rücken durch Westafrikas undurchdringlichen Urwald auf Kumasi vor, um König Prempeh I. die britische Oberhoheit aufzuzwingen. An der Spitze der Vorhut steht der britische Kavallerieoffizier Major Robert Baden-Powell – beauftragt, mitten im Vormarsch aus einheimischen Stämmen eine schlagkräftige Truppe zu formen: die Native Levy. Sein Tagebuch ist kein nachträglich geschönter Bericht, sondern das eiskalte Protokoll eines Feldzugs im Morast: geschlagene Schneisen durch den Urwald, Behelfsbrücken über reißende Flüsse, ständige Späheraktivität im dichten Busch – festgehalten mit der Präzision eines geschulten Aufklärungsoffiziers, nüchtern im Urteil und durchzogen von trockenem britischem Humor. Hier liegt das ungeschönte Fundament praktischer Aufklärung im Feld vor, aus dem später die weltweite Pfadfinderbewegung hervorging.",
+          "sample": "Vollständige deutsche Übersetzung der Erstausgabe London 1896 mit allen 22 Originaltafeln, jede Legende datiert, und dem Anhang Sir George Baden-Powells über Aschanti 1895. Dazu Gliederung der Streitkräfte, Personenverzeichnis, Glossar und Editorische Notiz sowie Vorwort, Nachwort und biografischer Apparat mit Belegen der London Gazette.",
           "amazon": "https://www.amazon.de/dp/3912883483"
         }
       },
