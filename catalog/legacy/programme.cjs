@@ -555,8 +555,9 @@ module.exports = {
                 en: "Baden-Powell's field diary of the 1895–96 Ashanti campaign, after the London first edition of 1896 with all 22 original plates."
               },
               isbn: "978-3-912883-48-0",
+              pages: 208,
               isbns: { ebook: null, paperback: "978-3-912883-48-0", hardcover: "978-3-912883-49-7" },
-              pricesEur: { hardcover: "24,99" },
+              pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "24,99" },
               asin: { ebook: "B0HHBS3WL4", paperback: "3912883483", hardcover: "3912883491" },
               amazonUrl: "https://www.amazon.de/dp/3912883483"
             },
