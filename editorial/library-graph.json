@@ -2753,6 +2753,25 @@
       }
     },
     {
+      "id": "book:en-george-warrington-steevens-with-kitchener-to-khartum-annotated",
+      "type": "book",
+      "label": {
+        "de": "With Kitchener to Khartum (Annotated)",
+        "en": "With Kitchener to Khartum (Annotated)"
+      },
+      "author": "George Warrington Steevens",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-gst001-en-20261117.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-george-warrington-steevens-with-kitchener-to-khartum-annotated/",
+        "en": "https://aeternuspublishing.com/books/en-george-warrington-steevens-with-kitchener-to-khartum-annotated/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Steevens’s first-hand account of the Anglo-Egyptian advance to the Atbara and Omdurman in 1898, with the maps of the original and a historical apparatus."
+      }
+    },
+    {
       "id": "book:en-george-rutledge-gibson-stock-exchanges",
       "type": "book",
       "label": {
@@ -3474,6 +3493,14 @@
       }
     },
     {
+      "id": "author:George Warrington Steevens",
+      "type": "author",
+      "label": {
+        "de": "George Warrington Steevens",
+        "en": "George Warrington Steevens"
+      }
+    },
+    {
       "id": "author:George Rutledge Gibson",
       "type": "author",
       "label": {
@@ -4075,6 +4102,11 @@
     {
       "source": "book:en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
       "target": "series:bernstein",
+      "type": "series"
+    },
+    {
+      "source": "book:en-george-warrington-steevens-with-kitchener-to-khartum-annotated",
+      "target": "series:gruen",
       "type": "series"
     },
     {
@@ -5011,6 +5043,11 @@
     {
       "source": "book:en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906",
       "target": "author:Elihu Stewart",
+      "type": "author"
+    },
+    {
+      "source": "book:en-george-warrington-steevens-with-kitchener-to-khartum-annotated",
+      "target": "author:George Warrington Steevens",
       "type": "author"
     },
     {

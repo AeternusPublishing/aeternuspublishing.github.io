@@ -36,7 +36,8 @@ const definitions = [
       'en-henry-doveton-hutchinson-the-campaign-in-tirah',
       'en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880',
       'en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition',
-      'en-charles-william-wilson-from-korti-to-khartum-illustrated'
+      'en-charles-william-wilson-from-korti-to-khartum-illustrated',
+      'en-george-warrington-steevens-with-kitchener-to-khartum-annotated'
     ],
     germanBookIds: ['tagebuch-der-katastrophe', 'der-sturz-prempehs', 'geschichte-der-feldzuege-von-1780-und-1781']
   },

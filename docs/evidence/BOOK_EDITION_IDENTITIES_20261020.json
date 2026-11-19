@@ -8297,6 +8297,84 @@
           ]
         }
       ]
+    },
+    {
+      "site": "en",
+      "id": "en-george-warrington-steevens-with-kitchener-to-khartum-annotated",
+      "language": "en",
+      "url": "/books/en-george-warrington-steevens-with-kitchener-to-khartum-annotated/",
+      "front_url": "/assets/images/cover-gst001-en-20261117.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-gst001-en-20261117.jpg",
+          "sha256": "d75a1f4fa8827aeef0b26a953037343b95e3a06e57e26424da0e7b4175708815"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052894",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "GST_001|en|ingram_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "GST_001",
+              "status": "FREIGEGEBEN",
+              "isbn13": "978-3-67605-289-4",
+              "isbn10": "3676052897",
+              "version": "FREIGABE_PAKET_INGRAM_V1_20261117",
+              "stand_utc": "2026-11-16T23:44:01Z"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "productform": "hardcover",
+          "isbn13": "9783676052900",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "GST_001|en|ingram_hardcover",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "GST_001",
+              "status": "FREIGEGEBEN",
+              "isbn13": "978-3-67605-290-0",
+              "isbn10": "3676052900",
+              "version": "FREIGABE_PAKET_INGRAM_V1_20261117",
+              "stand_utc": "2026-11-16T23:44:01Z"
+            }
+          ]
+        },
+        {
+          "label": "Kindle",
+          "productform": "ebook",
+          "isbn13": "9783676052917",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "GST_001|en|kdp_ebook",
+              "sprache": "en",
+              "produktform": "ebook",
+              "werk_id": "GST_001",
+              "status": "FREIGEGEBEN",
+              "isbn13": "978-3-67605-291-7",
+              "isbn10": "3676052919",
+              "version": "FREIGABE_PAKET_KDP_V1_20261117",
+              "stand_utc": "2026-11-16T23:43:14Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "PAKET_KDP_V1_20261117",
+        "file": "GST001_EN_EBOOK_DECKEL.jpg",
+        "sha256": "d75a1f4fa8827aeef0b26a953037343b95e3a06e57e26424da0e7b4175708815",
+        "preflight_sha256": "5178a3d9de1cdfdb6b3a085905378d0a595dfd099a4e6f7b80452f7575461116"
+      }
     }
   ],
   "additional_pages": [
