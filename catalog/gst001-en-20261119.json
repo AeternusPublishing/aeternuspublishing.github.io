@@ -1,0 +1,91 @@
+{
+  "author": {
+    "slug": "george-warrington-steevens",
+    "name": "George Warrington Steevens",
+    "dates": "1869–1900",
+    "eyebrow": "GREEN SERIES · AETERNUS",
+    "tagline": "A correspondent on the road to Khartum.",
+    "intro": "George Warrington Steevens moved from classical scholarship to reporting the world at speed. In 1898 the Daily Mail correspondent followed the Anglo-Egyptian army into the Sudan and wrote the campaign as he saw it.",
+    "metaDescription": "George Warrington Steevens (1869–1900), journalist and war correspondent, and author of With Kitchener to Khartum.",
+    "portrait": {
+      "modern": false
+    },
+    "brandOnly": true,
+    "books": []
+  },
+  "book": {
+    "id": "en-george-warrington-steevens-with-kitchener-to-khartum-annotated",
+    "work_id": "GST_001",
+    "language": "en",
+    "title": "With Kitchener to Khartum (Annotated)",
+    "subtitle": "The Campaigns of the Atbara and Omdurman, 1898",
+    "author": "george-warrington-steevens",
+    "authorName": "George Warrington Steevens",
+    "contributors": [],
+    "series": "gruen",
+    "series_number": null,
+    "original_title": "With Kitchener to Khartum",
+    "original_publication_year": 1898,
+    "isbn": {
+      "ebook": "978-3-67605-291-7",
+      "paperback": "978-3-67605-289-4",
+      "hardcover": "978-3-67605-290-0"
+    },
+    "formats": {},
+    "description": {
+      "short": "Steevens’s first-hand account of the Anglo-Egyptian advance to the Atbara and Omdurman in 1898, with the maps of the original and a historical apparatus.",
+      "long": "Steevens’s first-hand account of the Anglo-Egyptian advance to the Atbara and Omdurman in 1898, with the maps of the original and a historical apparatus."
+    },
+    "publisherDescriptionHTML": "<ul><li>Complete text of the Second Edition of 1898, word for word</li><li>About the Author and The Author’s Record</li><li>The Army of 1898 (order of battle) and the Honours of the Campaign</li><li>Afterword, Historical Timeline and Contemporary Reception</li><li>Glossary, Dramatis Personae and Note on This Edition</li></ul><p>In 1898 the Daily Mail sent George Warrington Steevens, twenty-eight years old and already known for his reports from the Greco-Turkish War, to march with the Anglo-Egyptian army into the Sudan. His despatches became this book: the reconquest of the Nile from the base at Wady Halfa to the ruins of Gordon's Khartum.</p><p>Steevens writes the war as a machine. Railway battalions lay track across the desert; steamers and gunboats wait on the flood; Sudanese, Egyptian and British brigades move only when the supplies are piled at their feet. Then come the battles: the storming of Mahmud's zariba on the Atbara, the capture of Mahmud himself, and the morning of 2 September 1898 at Omdurman, when the Khalifa's army advanced in the open against massed rifles and was broken, Macdonald's brigade wheeled to meet the second assault, and the 21st Lancers charged into a hidden ravine.</p><p>The correspondent names the officers and the dead, honours the courage of the enemy, and counts the cost in his own words.</p><p>This edition reproduces, word for word, the Second Edition published by William Blackwood and Sons in 1898, with the eight maps of the original, a portrait of Kitchener and the publisher's apparatus.</p>",
+    "cover": "/assets/images/cover-gst001-en-20261117.jpg",
+    "publication_date": null,
+    "pricing": {},
+    "availability": "COMING_SOON",
+    "links": {
+      "shop": null,
+      "amazon": null,
+      "ingram": null
+    },
+    "distribution_status": {
+      "own_shop": "NOT_CONFIGURED",
+      "amazon": "UNKNOWN",
+      "ingram": "UNKNOWN",
+      "other": {}
+    },
+    "commerce": {
+      "shopify_product_id": null,
+      "shopify_handle": null
+    },
+    "url": "/books/en-george-warrington-steevens-with-kitchener-to-khartum-annotated/",
+    "authorUrl": "/authors/george-warrington-steevens/",
+    "seriesName": "Green Series",
+    "seriesColor": "#243d2b",
+    "brandOnly": true,
+    "legacy": {
+      "modal": {
+        "metadata": "GREEN SERIES · AETERNUS"
+      }
+    },
+    "provenance": "GST_001 PAKET_KDP_V1_20261117, PREFLIGHT_RESULT SHA-256 5178a3d9de1cdfdb6b3a085905378d0a595dfd099a4e6f7b80452f7575461116; retail not observed live.",
+    "retailer_formats": [
+      {
+        "label": "Paperback",
+        "isbn": "978-3-67605-289-4",
+        "status": "FREIGEGEBEN",
+        "links": []
+      },
+      {
+        "label": "Hardcover",
+        "isbn": "978-3-67605-290-0",
+        "status": "FREIGEGEBEN",
+        "links": []
+      },
+      {
+        "label": "Kindle",
+        "isbn": "978-3-67605-291-7",
+        "status": "FREIGEGEBEN",
+        "links": []
+      }
+    ]
+  }
+}

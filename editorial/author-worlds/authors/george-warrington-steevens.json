@@ -1,0 +1,159 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "george-warrington-steevens",
+  "name": "George Warrington Steevens",
+  "dates": "1869–1900",
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "DNB1901",
+      "title": "Dictionary of National Biography, 1901 supplement: George Warrington Steevens",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1901_supplement/Steevens,_George_Warrington",
+      "checked": "2026-11-19",
+      "note": "Contemporary biographical notice: education, journalism, assignments, death and Collier portrait; its literary judgements are contemporary opinion."
+    },
+    {
+      "id": "BOOK1898",
+      "title": "With Kitchener to Khartum, 1898 edition, digitised copy",
+      "url": "https://archive.org/details/in.ernet.dli.2015.284801",
+      "checked": "2026-11-19",
+      "note": "Second-edition witness identified in GST_001 Note on This Edition. Book is a contemporary eyewitness account."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Born at Sydenham on 10 December 1869; studied at the City of London School and Balliol College, Oxford, and became a fellow of Pembroke College in 1893.",
+      "sources": [
+        "DNB1901"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Joined the Daily Mail in 1896 and reported from the United States, Greece and the Sudan.",
+      "sources": [
+        "DNB1901"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Accompanied Kitchener’s army in 1898 and published With Kitchener to Khartum that year.",
+      "sources": [
+        "DNB1901"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Reported the siege of Ladysmith and died there on 15 January 1900.",
+      "sources": [
+        "DNB1901"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Colour of the Collier portrait",
+      "decision": "No colour original established; this reconstruction uses conjectural colour and generative restoration."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Rights in historical reproduction",
+      "decision": "RECHTE_RECHERCHE_V1.md notes possible rights in the printed reproduction require review; no independent worldwide rights determination is claimed."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "His account is a correspondent’s perspective, situated in the campaign he observed."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Editorial assessment of the author and his narrative."
+  },
+  "locales": {
+    "en": {
+      "tagline": "A correspondent on the road to Khartum.",
+      "intro": "George Warrington Steevens moved from classical scholarship to reporting the world at speed. In 1898 the Daily Mail correspondent followed the Anglo-Egyptian army into the Sudan and wrote the campaign as he saw it.",
+      "orientation": "His account brings the railway, the river and the men of the army into the same story as the battles of the Atbara and Omdurman.",
+      "origin": [
+        "Born in Sydenham in 1869, Steevens attended the City of London School and Balliol College, Oxford. He took first-class honours in classics and became a fellow of Pembroke College in 1893."
+      ],
+      "career": [
+        "He joined the Daily Mail in 1896. Assignments took him to the United States and to the Greco-Turkish War before he accompanied Kitchener’s army in the Sudan. In 1899 he reported from India and Rennes, then travelled to South Africa.",
+        "During the siege of Ladysmith he contracted enteric fever. He died there on 15 January 1900, before the town was relieved."
+      ],
+      "literature": [
+        "With Kitchener to Khartum grew from Steevens’s dispatches and appeared in 1898. His account moves between the mechanics of an expedition and the experience of those who marched and fought in it."
+      ],
+      "legacy": "Steevens left the record of a correspondent close to events, writing under the pressures of a newspaper age.",
+      "bridge": "With Kitchener to Khartum follows the advance along the Nile to the battles and the city that gave the book its title.",
+      "description": "George Warrington Steevens (1869–1900), journalist and war correspondent, and author of With Kitchener to Khartum.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ]
+    }
+  },
+  "timeline": [
+    [
+      "1869",
+      "Born in Sydenham",
+      ""
+    ],
+    [
+      "1893",
+      "Elected fellow of Pembroke College, Oxford",
+      ""
+    ],
+    [
+      "1896",
+      "Joins the Daily Mail",
+      ""
+    ],
+    [
+      "1898",
+      "Reports the Sudan campaign and publishes With Kitchener to Khartum",
+      ""
+    ],
+    [
+      "1900",
+      "Dies during the siege of Ladysmith",
+      ""
+    ]
+  ],
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-george-warrington-steevens-collier-reconstruction.png",
+    "caption": {
+      "en": "George Warrington Steevens, after John Collier’s 1898 portrait. Modern generative restoration and conjectural colour."
+    },
+    "rights": "John Collier (1850–1934); photogravure published in Things Seen (1900). Historical rights research records the work as public domain but notes a remaining question concerning the reproduction process; verify for website distribution before publication.",
+    "provenance": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1901_supplement/Steevens,_George_Warrington (portrait and 1900 reproduction); GST_001 BILDNACHWEIS_V5.json, source JP2 SHA-256 45a1b40e606569bbd8d7d1bded7f67b87caeb64ec0b5acc31806e114848611b7.",
+    "processing": "Generative restoration and conjectural colour, unmodified native result; 9736c674eae882fac9efdc38efaf22249c06fd74244b4712c4a9ad76df53500b.",
+    "sha256": "9736c674eae882fac9efdc38efaf22249c06fd74244b4712c4a9ad76df53500b"
+  }
+}
