@@ -2929,11 +2929,11 @@
       "assets": [
         {
           "path": "src/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
-          "sha256": "fc8e2c63d4481a0712b5df7403fb3724f0e6acf3d6e109548a8af884ecda3a55"
+          "sha256": "4937515dd1bade5f722b7b36315cd11870045a73a36ca5b3049abd750e53ae77"
         },
         {
           "path": "src/assets/images/cover-front-my-campaign-in-mesopotamia-townshend-en.webp",
-          "sha256": "2147d1e7965a6d0ea7cf33d8cb6f8db1e4809fd725b3687c64c42054a2f97cab"
+          "sha256": "cddf2c308ce966b4592a8cc1718787c5c9bf4ae050e033ff948b9d90be23a292"
         },
         {
           "path": "src/assets/images/cover-back-my-campaign-in-mesopotamia-townshend-en.jpg",
