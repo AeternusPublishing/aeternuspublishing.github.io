@@ -1114,11 +1114,11 @@
       "assets": [
         {
           "path": "src/assets/images/cover-leben-der-gejagten-r3.webp",
-          "sha256": "246658298f42bebab2ec05bca7cc0909b10c1d043379f1b3cdad57694908eb30"
+          "sha256": "aefb355e1c71037921a9ad47e03a1bbb2dd820757e7a33f318969f99ed4b3383"
         },
         {
           "path": "src/assets/images/cover-leben-der-gejagten-r3-fallback.jpg",
-          "sha256": "f4c2484d5732851c843e82f490e69b7e7f09d4a1a750f0e8814e069596834af7"
+          "sha256": "f84a7fb8579433288338b8459c3295dad40ca53a1a4cf4c9be6a84191d031cc0"
         }
       ],
       "formats": [

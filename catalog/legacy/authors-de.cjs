@@ -93,9 +93,9 @@ module.exports = [
         "title": "Leben der Gejagten",
         "subtitle": "Wahrhaftige Berichte über das Tun fünf vierfüßiger und dreier gefiederter Geschöpfe",
         "modal": {
-          "metadata": "239 Seiten · eBook 9,99 € · Taschenbuch 14,01 € · Hardcover 26,99 €",
-          "summary": "Acht Tierleben zwischen Verfolgung, Anpassung und Überlebenskunst — beobachtet mit Setons naturkundlicher Genauigkeit und erzählerischer Spannung.",
-          "sample": "Jede Spur erzählt von Entscheidungen unter Druck: fliehen, ausharren, täuschen oder den vertrauten Weg noch einmal wagen.",
+          "metadata": "238 Seiten · eBook 9,99 € · Taschenbuch 14,99 € · Hardcover 24,98 €",
+          "summary": "In acht ungeschönten Chroniken folgt Seton den Gejagten der Wildnis – dem Widder, der Kojotin, dem Bären, dem treuen Hund – durch ein Leben, in dem jeder Tag ein Entkommen und jeder Atemzug ein Aufschub ist. Seton schreibt nicht von Opfern, sondern von Gejagten, die kämpfen – listig, ausdauernd, stolz und wachsam. So wird das Leben der Gejagten zur Chronik von Mut und List in einer Welt, die keine Gnade kennt und doch von herber Schönheit durchdrungen ist.",
+          "sample": "Vollständige Neuübersetzung der acht Erzählungen von 1901 mit Lebensbild Ernest Thompson Setons, Verlagsvorwort, Setons Vorwort an den Leser und Nachwort, Glossar mit 53 Einträgen, acht Erzähltafeln und Editorischer Notiz.",
           "amazon": "https://www.amazon.de/dp/3912883165"
         }
       },
