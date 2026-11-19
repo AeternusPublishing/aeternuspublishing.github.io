@@ -7481,11 +7481,23 @@
       "id": "en-winfield-scott-memoirs-volume-i",
       "language": "en",
       "url": "/books/en-winfield-scott-memoirs-volume-i/",
-      "front_url": "/assets/images/cover-ws001-volume-i.jpg",
+      "front_url": "/assets/images/cover-ws001-volume-i-ingram-r872-20261119.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-ws001-volume-i.jpg",
-          "sha256": "4f9532e56e6626d95175109abba546d91c56ae92a87934857181769d9fcd2138"
+          "path": "src/assets/images/cover-ws001-volume-i-ingram-r872-20261119.jpg",
+          "sha256": "4b2aeb9a00fc4903b2c5a210da5c0deb6de0a410dbf2a42fb5d390f042dca6dc"
+        },
+        {
+          "path": "src/assets/images/cover-ws001-volume-i-ingram-r872-20261119.webp",
+          "sha256": "05cbbc3afa71977046d66c5d96f6657f345d29db959136181a8e97c0b5d16144"
+        },
+        {
+          "path": "src/assets/images/backcover-ws001-volume-i-ingram-r872-20261119.jpg",
+          "sha256": "8726e22f7e63d779155ac7d7c4d4d0ecb737db22d541130331ffdf5b2e5df389"
+        },
+        {
+          "path": "src/assets/images/backcover-ws001-volume-i-ingram-r872-20261119.webp",
+          "sha256": "4e5a7af81c83c1fbdb67287d6cbfec94b45e7b2135e6edf3e44614c91bed5157"
         }
       ],
       "formats": [
@@ -7512,9 +7524,8 @@
         }
       ],
       "verification": {
-        "utc": "2026-11-07",
-        "source": "F1 metadata and official uebergabe pruefe (exit 0, hash-bound FREIGEGEBEN); matching Archivtafel rows where projected",
-        "package_preflight_sha256": "bbaf24fbb69d75846a400cf7033bb2e0a0dc753815bd051ec12d0940bb681ca5",
+        "utc": "2026-11-19",
+        "source": "Buchregister: Ingram revision R872 paperback, hardcover and cloth EINGEREICHT 19 November 2026; covers cut from the submitted paperback cover PDF at the trim box",
         "availability": "COMING_SOON"
       }
     },
@@ -7523,11 +7534,23 @@
       "id": "en-winfield-scott-memoirs-volume-ii",
       "language": "en",
       "url": "/books/en-winfield-scott-memoirs-volume-ii/",
-      "front_url": "/assets/images/cover-ws001-volume-ii.jpg",
+      "front_url": "/assets/images/cover-ws001-volume-ii-ingram-r872-20261119.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-ws001-volume-ii.jpg",
-          "sha256": "0afd80d73e66185328c945da498df197b0c45d033cf9874d40a7d51a57b07916"
+          "path": "src/assets/images/cover-ws001-volume-ii-ingram-r872-20261119.jpg",
+          "sha256": "70f0f7901b5a44b6ba7da55ab74739b3949ff781f1d37b84433101e4890b6037"
+        },
+        {
+          "path": "src/assets/images/cover-ws001-volume-ii-ingram-r872-20261119.webp",
+          "sha256": "4a55546a1db4fc2b30d342492c5ce701b43699ecb085fe374fd83eee0bba4899"
+        },
+        {
+          "path": "src/assets/images/backcover-ws001-volume-ii-ingram-r872-20261119.jpg",
+          "sha256": "2e1d1f97f184a8be385d97cce9b1a2f74ea87e957d438c12c89bcba898954732"
+        },
+        {
+          "path": "src/assets/images/backcover-ws001-volume-ii-ingram-r872-20261119.webp",
+          "sha256": "71b6a11a73add70a4006795ad5813946642cbcea046ab767d2cb0070edef0ae5"
         }
       ],
       "formats": [
@@ -7546,7 +7569,7 @@
               "isbn10": "3676052463",
               "asin": null,
               "manifestation": "ingram_paperback",
-              "status": "FREIGEGEBEN"
+              "status": "EINGEREICHT"
             }
           ]
         },
@@ -7565,7 +7588,7 @@
               "isbn10": "3676052471",
               "asin": null,
               "manifestation": "ingram_hardcover",
-              "status": "FREIGEGEBEN"
+              "status": "EINGEREICHT"
             }
           ]
         },
@@ -7584,18 +7607,14 @@
               "isbn10": "3676052773",
               "asin": null,
               "manifestation": "ingram_hardcover_leinen",
-              "status": "FREIGEGEBEN"
+              "status": "EINGEREICHT"
             }
           ]
         }
       ],
       "verification": {
-        "utc": "2026-11-07",
-        "source": "F1 metadata and official uebergabe pruefe (exit 0, hash-bound FREIGEGEBEN); matching Archivtafel rows where projected",
-        "package_preflight_sha256": [
-          "03335a12db036d3b077831127a3a453dfa786dd386e11667218a7f137ffd5beb",
-          "cb728e89bb762fcc0dde30f94e0cb3e2068f29d133aebf1898c38c8f6a4256bd"
-        ],
+        "utc": "2026-11-19",
+        "source": "Buchregister: Ingram revision R872 paperback, hardcover and cloth EINGEREICHT 19 November 2026; covers cut from the submitted paperback cover PDF at the trim box",
         "availability": "COMING_SOON"
       }
     },

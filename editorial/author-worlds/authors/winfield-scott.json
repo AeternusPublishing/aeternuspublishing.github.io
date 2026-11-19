@@ -3,41 +3,487 @@
   "slug": "winfield-scott",
   "name": "Winfield Scott",
   "dates": "1786–1866",
-  "depth": "compact",
-  "scope": { "de": false, "en": true, "legacyEn": false },
-  "rank": { "en": "Brevet Lieutenant General, United States Army" },
+  "depth": "expanded",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "rank": {
+    "en": "Brevet Lieutenant General, United States Army · General-in-Chief, 1841–1861 · Gold Medals of Congress, 1814 and 1848"
+  },
   "sources": [
-    { "id": "NPS", "title": "National Park Service: Winfield Scott", "url": "https://home.nps.gov/people/winfield-scott.htm" },
-    { "id": "MET", "title": "The Metropolitan Museum of Art: General Winfield Scott", "url": "https://www.metmuseum.org/art/collection/search/13187" }
+    {
+      "id": "APPARATUS",
+      "title": "Memoirs of Lieutenant-General Scott (Annotated), Volume I: About the Author and The Biographical Record, pp. 8–16 (AETERNUS edition, Ingram revision R872)",
+      "url": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-i/",
+      "checked": "2026-11-19",
+      "note": "Printed apparatus of the edition: life, commissions and appointments, regiments of 1814, honors and distinctions, private life and wounds. Read in full from the submitted interior file.",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\WS_WINFIELD_SCOTT\\02_WERKE\\WS_001_MEMOIRS_OF_LIEUT_GENERAL_SCOTT_1864\\09_EXPORT\\UPLOADPAKET_INGRAM_BAND_I_R872_300PPI_20261118\\INGRAM\\9783676052443_txt.pdf",
+      "sha256": "a39564606bd6ddbea2ab21d2492cfebf54f7b12463a7c4c6e937aada916d4d7c"
+    },
+    {
+      "id": "APPARATUS2",
+      "title": "Memoirs of Lieutenant-General Scott (Annotated), Volume II: Chronology, 1786–1866, and Note on the Text, pp. 321–323 (AETERNUS edition, Ingram revision R872)",
+      "url": "https://aeternuspublishing.com/books/en-winfield-scott-memoirs-volume-ii/",
+      "checked": "2026-11-19",
+      "note": "Dated chronology from 1839 to 1866 and the account of the 1864 edition. Read in full from the submitted interior file.",
+      "local_path": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\WS_WINFIELD_SCOTT\\02_WERKE\\WS_001_MEMOIRS_OF_LIEUT_GENERAL_SCOTT_1864\\09_EXPORT\\UPLOADPAKET_INGRAM_BAND_II_R872_300PPI_20261118\\INGRAM\\9783676052467_txt.pdf",
+      "sha256": "e5bd9e398e7471f7a300cc259fddcbb955afbf826af5db60cee4af8e59910ec8"
+    },
+    {
+      "id": "HOUSE",
+      "title": "U.S. House of Representatives, History, Art & Archives: Congressional Gold Medal Recipients",
+      "url": "https://history.house.gov/Institution/Gold-Medal/Gold-Medal-Recipients/",
+      "checked": "2026-11-19",
+      "note": "Two entries for Winfield Scott: resolution of 3 November 1814 (13th Congress, 3 Stat. 247) for Chippewa and Niagara, and resolution of 9 March 1848 (30th Congress, 9 Stat. 333) for Vera Cruz and the campaign to the capture of Mexico City."
+    },
+    {
+      "id": "STAT1855",
+      "title": "10 Stat. 723, Resolution No. 9 of the 33rd Congress, 2nd session, approved 15 February 1855",
+      "url": "https://www.govinfo.gov/content/pkg/STATUTE-10/pdf/STATUTE-10-Pg723.pdf",
+      "checked": "2026-11-19",
+      "note": "Revives the grade of lieutenant-general so that it may be conferred on a major-general for eminent services in the war with Mexico, “by brevet, and by brevet only”, to take rank from the date of the service. The resolution does not name Scott. Page scan read."
+    },
+    {
+      "id": "CMH",
+      "title": "William Gardner Bell, Commanding Generals and Chiefs of Staff, 1775–2013 (U.S. Army Center of Military History, 2013), Winfield Scott, p. 80",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo41991/pdf/GOVPUB-D114-PURL-gpo41991.pdf",
+      "checked": "2026-11-19",
+      "note": "Official career sketch: captain May 1808, suspension 1810, lieutenant colonel July 1812, colonel March 1813, brigadier general March 1814, brevet major general July 1814, major general June 1841, commanding general 5 July 1841 to 1 November 1861, Cherokee removal 1838, Maine–New Brunswick 1839, Whig candidate 1852, brevet lieutenant general 1855 retroactive to Vera Cruz, San Juan Island 1859, died at West Point 29 May 1866. Text read from the PDF."
+    },
+    {
+      "id": "EV",
+      "title": "Thomas G. Clemens, “Winfield Scott (1786–1866)”, Encyclopedia Virginia (Virginia Humanities), 2020, updated 23 February 2026",
+      "url": "https://encyclopediavirginia.org/entries/scott-winfield-1786-1866/",
+      "checked": "2026-11-19",
+      "note": "Born 13 June 1786 at Laurel Branch, his father’s farm in Dinwiddie County; William and Mary; married Maria Mayo on 11 March 1817; honorary doctorate from Columbia College; removal of the Cherokee Nation, April to August 1838; the 1852 election, 254 electoral votes to 42; funeral at the Cadets’ Chapel, West Point, 1 June 1866."
+    },
+    {
+      "id": "NPS",
+      "title": "National Park Service: Winfield Scott",
+      "url": "https://home.nps.gov/people/winfield-scott.htm",
+      "checked": "2026-11-19",
+      "note": "Born 13 June 1786 near Petersburg, Virginia; captain 1808; general-in-chief 1841; author of the plan that became known as the Anaconda Plan; died at West Point 29 May 1866."
+    },
+    {
+      "id": "MET",
+      "title": "The Metropolitan Museum of Art: Robert Walter Weir, General Winfield Scott",
+      "url": "https://www.metmuseum.org/art/collection/search/13187",
+      "note": "Portrait source, about 1855."
+    }
   ],
   "facts": [
-    { "id": "F01", "kind": "historical-fact", "status": "BELEGT", "statement": "Scott served in the War of 1812, commanded the 1847 campaign from Veracruz to Mexico City and advised the Union at the opening of the Civil War.", "sources": ["NPS"] },
-    { "id": "F02", "kind": "historical-fact", "status": "BELEGT", "statement": "Robert Walter Weir painted Scott around 1855.", "sources": ["MET"] }
+    {
+      "id": "F01",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Winfield Scott was born on 13 June 1786 at Laurel Branch, his family’s farm in Dinwiddie County near Petersburg, Virginia. He studied briefly at the College of William and Mary and read law in Petersburg.",
+      "sources": [
+        "EV",
+        "CMH",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "After serving in a Petersburg volunteer cavalry troop in 1807 he was commissioned captain of light artillery in May 1808; a court-martial suspended him for a year for open criticism of General James Wilkinson.",
+      "sources": [
+        "CMH",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "On the Niagara front he was captured and paroled after Queenston (October 1812), wounded at Fort George (May 1813), promoted brigadier general in March 1814 and brevetted major general in July 1814 after Chippewa and Lundy’s Lane, where he was severely wounded.",
+      "sources": [
+        "CMH",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Congress voted him a gold medal by resolution of 3 November 1814 for Chippewa and Niagara, and a second by resolution of 9 March 1848 for the campaign from Vera Cruz to the capture of Mexico City.",
+      "sources": [
+        "HOUSE",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "He married Maria Mayo of Richmond on 11 March 1817.",
+      "sources": [
+        "EV",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Between the wars he presided over boards of tactics and held commands in the Black Hawk War of 1832, the nullification crisis, the Seminole and Creek campaigns of 1836 and on the Canadian border; in 1838 he supervised the removal of the Cherokee Nation to the West.",
+      "sources": [
+        "CMH",
+        "EV",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In 1839 he arranged a peaceful settlement of the boundary dispute between Maine and New Brunswick.",
+      "sources": [
+        "CMH",
+        "APPARATUS2"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Promoted major general in June 1841, he was commanding general of the United States Army from 5 July 1841 to 1 November 1861.",
+      "sources": [
+        "CMH",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In 1847 he led the landing at Vera Cruz and the campaign to Mexico City, which he entered on 14 September 1847.",
+      "sources": [
+        "CMH",
+        "APPARATUS2"
+      ]
+    },
+    {
+      "id": "F10",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "He was the Whig candidate for president in 1852 and lost to Franklin Pierce.",
+      "sources": [
+        "CMH",
+        "EV",
+        "APPARATUS2"
+      ]
+    },
+    {
+      "id": "F11",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "A joint resolution approved on 15 February 1855 revived the grade of lieutenant general, by brevet only, for eminent services in the war with Mexico; Scott’s brevet took rank from 29 March 1847.",
+      "sources": [
+        "STAT1855",
+        "CMH",
+        "APPARATUS"
+      ]
+    },
+    {
+      "id": "F12",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In 1859 he settled the dispute over San Juan Island in Puget Sound; in 1861 he proposed the strategy of blockade and a river column later called the Anaconda Plan, and he retired on 1 November 1861.",
+      "sources": [
+        "CMH",
+        "NPS",
+        "APPARATUS2"
+      ]
+    },
+    {
+      "id": "F13",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "His Memoirs appeared in two volumes from Sheldon & Company, New York, in 1864. He died at West Point on 29 May 1866.",
+      "sources": [
+        "APPARATUS2",
+        "CMH",
+        "NPS"
+      ]
+    },
+    {
+      "id": "F14",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Robert Walter Weir painted Scott around 1855.",
+      "sources": [
+        "MET"
+      ]
+    }
   ],
-  "uncertainties": [],
-  "interpretation": { "kind": "historical-interpretation", "fields": ["literature"] },
-  "appraisal": { "kind": "editorial-appraisal", "fields": ["legacy"] },
+  "uncertainties": [
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Date of the suspension",
+      "decision": "The Army sketch dates the one-year suspension to 1810; the apparatus places the sentence in the winter of 1809–1810 and his return to duty in 1811. The page says only that a court-martial suspended him for a year."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Place of birth",
+      "decision": "Encyclopedia Virginia names Laurel Branch in Dinwiddie County; the Park Service says near Petersburg and the apparatus fourteen miles from Petersburg. The accounts agree; the page names the farm and the county."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Harvard LL.D. of 1861",
+      "decision": "The Columbia doctorate of 1850 is confirmed by Encyclopedia Virginia. The Harvard degree of 1861 rests on the apparatus and secondary reference works; the university’s own record has not been seen."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Presentation of the 1814 medal and the state swords",
+      "decision": "The apparatus records the presentation of the medal by President Monroe early in 1825 and swords of honor from New York and Virginia. These have not been checked against official records and are not listed among the distinctions."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Scott’s account of himself",
+      "decision": "The Memoirs are a self-account written in 1863–64, partly in defence of disputed decisions. Facts on this page are drawn from official and reference sources, not from Scott’s own narrative."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Interpretation of the documented life and works; no claim of personal acquaintance from shared themes."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "AETERNUS editorial judgement; not presented as a historical quotation."
+  },
   "image": {
     "status": "verified",
     "file": "/assets/images/portrait-winfield-scott-weir.jpg",
-    "caption": { "en": "Robert Walter Weir, General Winfield Scott, ca. 1855. The Metropolitan Museum of Art." },
+    "caption": {
+      "en": "Robert Walter Weir, General Winfield Scott, ca. 1855. The Metropolitan Museum of Art."
+    },
     "rights": "The Met Open Access, public domain",
     "provenance": "https://www.metmuseum.org/art/collection/search/13187",
     "processing": "Unaltered museum JPEG",
     "source_url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap10.54.jpg",
     "sha256": "56b6ab23c30e341d51774d4996da7a4154b0ebf49aef0edc0df109b96f42e1bd"
   },
+  "timeline": [
+    [
+      "13 June 1786",
+      "Born at Laurel Branch, Dinwiddie County, Virginia"
+    ],
+    [
+      "May 1808",
+      "Captain of light artillery"
+    ],
+    [
+      "1810",
+      "Suspended for a year by court-martial"
+    ],
+    [
+      "13 October 1812",
+      "Captured at Queenston"
+    ],
+    [
+      "27 May 1813",
+      "Wounded at Fort George"
+    ],
+    [
+      "March 1814",
+      "Brigadier general"
+    ],
+    [
+      "July 1814",
+      "Chippewa and Lundy’s Lane; brevet major general"
+    ],
+    [
+      "3 November 1814",
+      "First Gold Medal of Congress"
+    ],
+    [
+      "11 March 1817",
+      "Marries Maria Mayo of Richmond"
+    ],
+    [
+      "1832",
+      "Black Hawk War; nullification crisis"
+    ],
+    [
+      "1838",
+      "Removal of the Cherokee Nation"
+    ],
+    [
+      "1839",
+      "Maine–New Brunswick boundary dispute"
+    ],
+    [
+      "5 July 1841",
+      "Commanding general of the Army"
+    ],
+    [
+      "9 March 1847",
+      "Landing at Vera Cruz"
+    ],
+    [
+      "14 September 1847",
+      "Enters Mexico City"
+    ],
+    [
+      "9 March 1848",
+      "Second Gold Medal of Congress"
+    ],
+    [
+      "1850",
+      "LL.D., Columbia College"
+    ],
+    [
+      "1852",
+      "Whig candidate for president"
+    ],
+    [
+      "15 February 1855",
+      "Brevet lieutenant general, rank from 29 March 1847"
+    ],
+    [
+      "1859",
+      "San Juan Island settlement"
+    ],
+    [
+      "1 November 1861",
+      "Retires from active service"
+    ],
+    [
+      "1864",
+      "Memoirs published in New York"
+    ],
+    [
+      "29 May 1866",
+      "Dies at West Point"
+    ]
+  ],
+  "honours": [
+    {
+      "name": "Gold Medal of Congress",
+      "year": "1814",
+      "category": "decoration",
+      "sources": [
+        "HOUSE",
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Resolution of 3 November 1814 for Chippewa and Niagara, with the thanks of Congress (3 Stat. 247)."
+      }
+    },
+    {
+      "name": "Gold Medal of Congress",
+      "year": "1848",
+      "category": "decoration",
+      "sources": [
+        "HOUSE",
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Joint resolution of 9 March 1848, with the thanks of Congress, for the campaign from Vera Cruz to the capture of Mexico City (9 Stat. 333)."
+      }
+    },
+    {
+      "name": "Doctor of Laws, Columbia College",
+      "year": "1850",
+      "category": "academic",
+      "sources": [
+        "EV",
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Honorary doctorate."
+      }
+    },
+    {
+      "name": "Doctor of Laws, Harvard College",
+      "year": "1861",
+      "category": "academic",
+      "sources": [
+        "APPARATUS"
+      ],
+      "note": {
+        "en": "Recorded in the edition’s apparatus; the university’s own record has not been seen."
+      }
+    }
+  ],
+  "places": [
+    {
+      "en": [
+        "The Niagara frontier",
+        "Queenston, Fort George, Chippewa and Lundy’s Lane: here Scott was captured, wounded and made a general. The brigade he drilled at Buffalo in 1814 met British regulars in the open at Chippewa."
+      ]
+    },
+    {
+      "en": [
+        "The Cherokee country, 1838",
+        "Scott directed the removal of the Cherokee Nation from Georgia, Alabama and Tennessee between April and August 1838. The Memoirs give his side of it; the removal itself is a matter of record."
+      ]
+    },
+    {
+      "en": [
+        "From Vera Cruz to Mexico City",
+        "In 1847 Scott landed his army south of Vera Cruz and marched it inland by Cerro Gordo and Puebla to the valley of Mexico, for a time without a line of communication to the coast."
+      ]
+    },
+    {
+      "en": [
+        "West Point",
+        "After his retirement Scott lived at West Point, wrote the Memoirs in New York and died at the Military Academy in 1866."
+      ]
+    }
+  ],
   "locales": {
     "en": {
       "tagline": "From the Niagara frontier to Mexico City.",
       "intro": "Winfield Scott entered the army of a young republic and lived to advise its government at the opening of the Civil War. His memoirs trace the campaigns in which he learned to command and the decisions he later had to defend.",
-      "orientation": "The Niagara frontier and the road from Veracruz to Mexico City put different demands on the armies Scott led.",
-      "origin": ["Scott was born in Virginia in 1786 and served as a young officer in the war against Britain."],
-      "career": ["In 1847 he led his army from Veracruz to Mexico City. At the opening of the Civil War he proposed a blockade and control of the Mississippi."],
-      "literature": ["The memoirs reconstruct operations from the perspective of the man who directed them. They also show which decisions Scott thought needed explaining."],
-      "legacy": "Scott gives readers a commander's view of how the United States Army learned to campaign across a continent.",
-      "bridge": "Volume I follows Scott's formation as an officer. Volume II turns to Mexico and his later years of command.",
-      "claimRefs": ["F01", "F02"]
+      "orientation": "Winfield Scott was born on 13 June 1786 at Laurel Branch, his family’s farm in Dinwiddie County, Virginia. He spent a short time at the College of William and Mary and read law in Petersburg before a captain’s commission in the light artillery took him into the army in May 1808. A court-martial suspended him for a year for what he had said of his commanding general. The War of 1812 made his name: captured at Queenston, wounded at Fort George, a brigadier general in March 1814, he led the brigade that fought at Chippewa and Lundy’s Lane, came out of the war a brevet major general and received a gold medal from Congress.",
+      "overview": [
+        "For a quarter-century he shaped the peacetime army through its regulations and tactics, and the government sent him wherever it had trouble: to the Black Hawk War, to Charleston during nullification, to Florida and Alabama, to the Canadian border, and in 1838 to carry out the removal of the Cherokee Nation. In 1841 he became commanding general of the army, a post he held for twenty years. In 1847 he landed at Vera Cruz and took Mexico City, and Congress voted him a second gold medal. He lost the presidential election of 1852 as the Whig candidate. In 1855 Congress revived the grade of lieutenant general, by brevet only, and it was conferred on him with rank from 29 March 1847. In 1861 he proposed the plan of blockade and river war later called the Anaconda Plan and retired on 1 November. He wrote his memoirs in New York, published them in 1864 and died at West Point on 29 May 1866."
+      ],
+      "origin": [
+        "His father, a planter and Revolutionary officer, died when he was five, and his mother when he was seventeen. In 1807 he watched the treason trial of Aaron Burr at Richmond, and after the Chesapeake affair that summer he joined a volunteer troop of cavalry."
+      ],
+      "careerHeading": "From the Niagara to the valley of Mexico",
+      "career": [
+        "Scott’s peacetime work was administrative as much as military: boards of tactics, the General Regulations, the study of European armies. His field commands of the 1830s included the Cherokee removal of 1838, which he directed and later described in his own terms.",
+        "In Mexico he took an army from the coast to an enemy capital, for a time cut loose from its line of supply. In 1861 the Virginian stayed with the Union, held Washington and drew up the plan of blockade on which the North would fight, then gave up the command at seventy-five."
+      ],
+      "literature": [
+        "The Memoirs speak of Scott in the third person, as “the autobiographer”, and set official letters, orders and resolutions at full length beside the narrative. They are a commander’s record and a defence of his decisions, and they should be read as both.",
+        "The first edition was published by Sheldon & Company, New York, in 1864, in two volumes with a common index."
+      ],
+      "legacy": "Scott gives readers a commander’s view of how the United States Army learned to campaign across a continent, and of the costs that view leaves out.",
+      "bridge": "Volume I follows Scott’s formation as an officer, to 1838. Volume II turns to Mexico, the presidential campaign and the opening of the Civil War.",
+      "description": "Winfield Scott, commanding general of the United States Army from 1841 to 1861: life, honors and the two-volume memoir of 1864.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F13",
+        "F14"
+      ]
     }
   }
 }
