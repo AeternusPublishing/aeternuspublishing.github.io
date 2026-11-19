@@ -807,8 +807,8 @@ module.exports = {
                 paperback: "978-3-912883-17-6",
                 hardcover: "978-3-912883-16-9"
               },
-              pages: 239,
-              pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "26,99" },
+              pages: 238,
+              pricesEur: { ebook: "9,99", paperback: "14,99", hardcover: "24,98" },
               asin: { ebook: "B0HFD2K7L2", paperback: "3912883173", hardcover: "3912883165" },
               amazonUrl: "https://www.amazon.de/dp/3912883165",
               originalTitle: "Lives of the Hunted, 1901",
