@@ -3,7 +3,7 @@
   "slug": "theodore-roosevelt",
   "name": "Theodore Roosevelt",
   "dates": "1858–1919",
-  "depth": "expanded",
+  "depth": "comprehensive",
   "scope": {
     "de": true,
     "en": true,
@@ -12,17 +12,38 @@
   "sources": [
     {
       "id": "NOBEL",
-      "title": "Nobel Foundation · Theodore Roosevelt, 1906",
+      "title": "Nobel Foundation · Theodore Roosevelt, 1906: facts",
       "url": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/facts/",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "checked": "2026-11-19",
+      "note": "Dates of birth and death, prize motivation (for his role in bringing to an end the bloody war recently waged between two of the world's great powers, Japan and Russia)."
     },
     {
       "id": "BIO",
-      "title": "Nobel Foundation · Theodore Roosevelt, biographical",
+      "title": "Nobel Foundation · Theodore Roosevelt, biographical (Les Prix Nobel, 1906)",
       "url": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/biographical/",
-      "checked": "2026-10-20",
-      "note": "Institutional biography or collection description; retrieved 20 October 2026"
+      "checked": "2026-11-19",
+      "note": "Biography written at the time of the award. Covers Harvard, Assembly, Dakota ranch, Civil Service Commission, police department, Navy Department, 1898, governorship, presidency, Hague arbitration, Portsmouth mediation, 1912, 1917, twenty-six books. Its bibliography dates The Rough Riders to 1898."
+    },
+    {
+      "id": "ACCEPT",
+      "title": "Nobel Foundation · Acceptance by Herbert H. D. Peirce, American envoy, 10 December 1906",
+      "url": "https://www.nobelprize.org/prizes/peace/1906/roosevelt/acceptance-speech/",
+      "checked": "2026-11-19",
+      "note": "Records that Roosevelt was not present at the ceremony on 10 December 1906 and that Peirce accepted the prize on his behalf."
+    },
+    {
+      "id": "LAW",
+      "title": "Public Law 105-371 (12 November 1998), H.R. 2263 · govinfo.gov",
+      "url": "https://www.govinfo.gov/content/pkg/PLAW-105publ371/pdf/PLAW-105publ371.pdf",
+      "checked": "2026-11-19",
+      "note": "Statute authorizing and requesting the President to award the Medal of Honor posthumously for the attack on San Juan Heights on 1 July 1898. Read in full."
+    },
+    {
+      "id": "CMOHS",
+      "title": "Congressional Medal of Honor Society · Theodore Roosevelt",
+      "url": "https://www.cmohs.org/recipients/theodore-roosevelt",
+      "checked": "2026-11-19",
+      "note": "Recipient record cited for the posthumous conferral in 2001. The page answered an automated request with HTTP 403 on the check date and could not be read by machine; the conferral date follows the AETERNUS paratext package for The Rough Riders (V1) and awaits a manual check against this record."
     }
   ],
   "facts": [
@@ -30,7 +51,7 @@
       "id": "F01",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "United States president 1901–09; lived 1858–1919.",
+      "statement": "Born in New York City on 27 October 1858 into an old Dutch family; died on 6 January 1919 at Oyster Bay, New York. Entered Harvard College at eighteen.",
       "sources": [
         "NOBEL",
         "BIO"
@@ -40,9 +61,8 @@
       "id": "F02",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Wrote history, autobiography, hunting and travel books.",
+      "statement": "Member of the New York State Assembly for three years; after the death of his wife in 1884 he ranched in the Badlands of Dakota Territory and returned to New York in 1886.",
       "sources": [
-        "NOBEL",
         "BIO"
       ]
     },
@@ -50,14 +70,131 @@
       "id": "F03",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "Nobel Peace Prize 1906 for mediation ending the Russo-Japanese War.",
+      "statement": "Member of the Civil Service Commission from 1889 under President Harrison and its president until 1895; head of New York City's police administration from 1895; Assistant Secretary of the Navy from 1897 under President McKinley.",
       "sources": [
-        "NOBEL",
+        "BIO"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In 1898 he went to Cuba as lieutenant colonel of a volunteer cavalry regiment recruited among hunters and cowboys of the West, known as the Rough Riders.",
+      "sources": [
+        "BIO"
+      ]
+    },
+    {
+      "id": "F05",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Governor of New York for a two-year term from 1899; Vice President in 1901; President from 14 September 1901 after McKinley's assassination; elected to a full term in 1904.",
+      "sources": [
+        "BIO"
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In 1902 he took the initiative that brought the first case before the Hague Court of Arbitration (United States and Mexico, the Pious Fund of the Californias).",
+      "sources": [
+        "BIO"
+      ]
+    },
+    {
+      "id": "F07",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In June 1905 he offered his good offices as mediator between Russia and Japan; delegates met at Portsmouth, New Hampshire, in August and concluded a treaty in September 1905.",
+      "sources": [
+        "BIO"
+      ]
+    },
+    {
+      "id": "F08",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Nobel Peace Prize for 1906, the prize motivation naming his role in ending the war between Japan and Russia.",
+      "sources": [
+        "NOBEL"
+      ]
+    },
+    {
+      "id": "F09",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The prize was presented on 10 December 1906 in his absence; Herbert H. D. Peirce, American minister to Norway, accepted it on his behalf.",
+      "sources": [
+        "ACCEPT"
+      ]
+    },
+    {
+      "id": "F10",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "Public Law 105-371 of 12 November 1998 authorized and requested the posthumous award of the Medal of Honor for his part in the attack on San Juan Heights on 1 July 1898, without regard to the usual statutory time limit.",
+      "sources": [
+        "LAW"
+      ]
+    },
+    {
+      "id": "F11",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "The Medal of Honor was conferred posthumously in 2001 (16 January 2001, by President Clinton, according to the edition package; see uncertainty).",
+      "sources": [
+        "LAW",
+        "CMOHS"
+      ]
+    },
+    {
+      "id": "F12",
+      "status": "BELEGT",
+      "kind": "historical-fact",
+      "statement": "In 1912 he accepted the Progressive Party's presidential nomination; in 1917 President Wilson declined his offer to raise and command a division. His output included twenty-six books and over a thousand magazine articles.",
+      "sources": [
         "BIO"
       ]
     }
   ],
-  "uncertainties": [],
+  "uncertainties": [
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Date of The Rough Riders",
+      "decision": "The Nobel biography's bibliography lists the book as New York, Scribner, 1898. The AETERNUS edition reproduces the first book edition of Charles Scribner's Sons dated 1899, preceded by a six-part serial in Scribner's Magazine (January to June 1899). The page gives 1899 and records the divergence."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Why the Medal of Honor was not awarded in 1898-99",
+      "decision": "Roosevelt was recommended in 1898. The Brevet Board reported on 8 June 1899 without his name, and the records examined for the edition give no reason. No motive is supplied here."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Kettle Hill and San Juan Hill",
+      "decision": "The statute speaks of the attack of San Juan Heights and the 2001 citation of San Juan Hill. Roosevelt's own book names the hill he charged Kettle Hill and keeps the San Juan line apart. The page follows the book and says Kettle Hill and the San Juan line."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Wording of the 2001 citation and Roosevelt's own account",
+      "decision": "The detail of the citation (leading the charge, first to reach the trenches) states what the award rests on; it is not an independent reconstruction of the fighting. The Rough Riders is the commander's own testimony and was contested in print, among others by the Spanish lieutenant Jose Müller y Tejeiro on figures and by Sergeant Presley Holliday of the Tenth Cavalry on one passage. Neither is adjudicated here."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Who raised the regiment",
+      "decision": "The Nobel biography says Roosevelt raised the regiment himself. The book and the edition's own record present Leonard Wood as colonel in command with Roosevelt second to him until Wood took the brigade at the end of June 1898. The page follows the second account."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Conferral date of the Medal of Honor, 16 January 2001",
+      "decision": "Taken from the AETERNUS paratext package for The Rough Riders (V1), whose citation text it reproduces. The Congressional Medal of Honor Society record could not be read by machine on 19 November 2026 (HTTP 403). The year 2001 is certain; the day awaits a manual check."
+    },
+    {
+      "status": "EINGESCHRÄNKT",
+      "claim": "Exact terms of office",
+      "decision": "Assembly 1882-84, Civil Service Commission 1889-95, police board 1895-97, Navy Department from 19 April 1897, governorship 1 January 1899 to 31 December 1900, colonel's oath 31 July 1898, muster-out 15 September 1898 follow the AETERNUS package. They agree with the Nobel biography's outline; no institutional register with day-level dates was consulted."
+    }
+  ],
   "interpretation": {
     "kind": "historical-interpretation",
     "fields": [
@@ -77,47 +214,81 @@
   },
   "locales": {
     "en": {
-      "tagline": "Public action, wilderness and the strenuous life.",
-      "intro": "Roosevelt made authorship part of an unusually active public career. History, politics and outdoor experience became different expressions of a life lived in argument with the world around it.",
-      "orientation": "The president and the writer should be read together. His books disclose the habits of judgement, competition and public purpose that animated his political persona.",
-      "origin": [
-        "Born in New York in 1858, he entered public life while developing a substantial literary career. Western ranching and outdoor pursuits widened the experiences on which he drew."
+      "tagline": "From the Navy Department to Kettle Hill and the White House.",
+      "intro": "In May 1898 Theodore Roosevelt left the Navy Department, where he was Assistant Secretary, and took a commission in a volunteer cavalry regiment bound for Cuba. In 1899, as Governor of New York, he wrote the regiment’s history.",
+      "orientation": "Born in New York City on October 27, 1858, Roosevelt entered Harvard at eighteen and went from college into politics. He sat in the New York State Assembly, ranched in the Dakota Badlands after 1884, and came back to office as a member of the Civil Service Commission, head of the New York police board and Assistant Secretary of the Navy. In 1898 he went to Cuba with the First United States Volunteer Cavalry, the regiment the public called the Rough Riders.",
+      "overview": [
+        "Governor of New York from 1899 and Vice President in 1901, he became the twenty-sixth President on September 14, 1901, after McKinley’s assassination, and held the office until March 4, 1909. The Nobel Peace Prize for 1906 recognized his part in ending the Russo-Japanese War. The Medal of Honor for San Juan Heights followed only after his death, under an act of Congress of 1998 and conferred in 2001. The Rough Riders, published in 1899, is his own account of the regiment’s four months."
       ],
+      "origin": [
+        "Roosevelt was the son of Theodore Roosevelt Sr. and Martha Bulloch, of a prosperous New York family of Dutch descent; his mother had grown up in Georgia. He entered Harvard in 1876, graduated in 1880 and began to read law at Columbia that autumn. In the Assembly he made his name as a reformer.",
+        "In 1884 illness and the death of his wife sent him west. His mother died on the same day, February 14. He bought into a cattle ranch in the Badlands of Dakota Territory, hunted big game and stayed until 1886, when he returned to New York, married Edith Kermit Carow and went back to politics."
+      ],
+      "careerHeading": "Offices and the war of 1898",
       "career": [
-        "President from 1901 to 1909, he joined energetic domestic leadership to an assertive international role. Mediation in the Russo-Japanese War brought the Nobel Peace Prize in 1906."
+        "President Harrison named him to the Civil Service Commission in 1889, and he remained until 1895. He then took charge of New York City’s police administration. In April 1897 he entered President McKinley’s administration as Assistant Secretary of the Navy and, by the Nobel biographer’s account, prepared actively for the war with Spain that he saw coming.",
+        "In May 1898 he was commissioned lieutenant colonel of the First United States Volunteer Cavalry, with Leonard Wood as colonel. The regiment fought at Las Guasimas on June 24 and, on July 1, went up Kettle Hill and on against the San Juan line before Santiago de Cuba. When Wood took the brigade at the end of June Roosevelt took the regiment; he was promoted colonel in July, took the oath on July 31, and mustered out at Montauk Point, New York, on September 15, 1898.",
+        "Elected governor in 1898, he took office on January 1, 1899. As President he took the initiative in 1902 that brought the first case before the Hague Court of Arbitration, and in June 1905 offered his good offices to Russia and Japan; the delegates met at Portsmouth, New Hampshire, in August and signed a treaty in September. In 1912 he accepted the Progressive Party’s nomination, and in 1917 President Wilson declined his offer to raise a division. His son Quentin, a fighter pilot, was killed in France on July 14, 1918. Roosevelt died at Sagamore Hill, Oyster Bay, on January 6, 1919."
       ],
       "literature": [
-        "His historical and outdoor writings organise experience into lessons about character, nation and action. They are strongly voiced arguments, even where the subject is a landscape or an animal."
+        "The Nobel biography counts twenty-six books and over a thousand magazine articles. Among them are The Winning of the West, in four volumes (1889–1896), Oliver Cromwell (1900), African Game Trails (1910) and An Autobiography (1913).",
+        "The Rough Riders appeared in six parts in Scribner’s Magazine from January to June 1899 and then as a book from Charles Scribner’s Sons. It is the commander’s own testimony: it names troopers and Regulars, counts the dead and wounded, criticizes the supply of the army and credits the Spanish defenders with bravery. Its appendices carry the muster-out roll of the regiment, his report to the Secretary of War and the “Round Robin” letter of August 1898. It was answered in print, and a reader should set it beside the Spanish account of José Müller y Tejeiro."
       ],
-      "legacy": "Roosevelt’s range gives his work unusual historical density. The outdoorsman’s attention, the historian’s narrative and the statesman’s conviction are continually in conversation.",
-      "bridge": "The editions open particular parts of that wide literary and public life.",
-      "description": "Roosevelt made authorship part of an unusually active public career. History, politics and outdoor experience became different expressions of a life lived in argument with the world around it.",
+      "legacy": "The Medal of Honor came by a long road. Roosevelt was recommended in 1898, and the Brevet Board reported in June 1899 without his name. Public Law 105-371 of November 12, 1998, authorized and requested the award for his part in the attack on San Juan Heights on July 1, 1898, and it was conferred posthumously in 2001. The Nobel Peace Prize of 1906, presented in his absence, stands beside it as the other distinction.",
+      "bridge": "The Rough Riders gives Roosevelt’s own account of the four months in which an Assistant Secretary of the Navy became a colonel of volunteers.",
+      "description": "Theodore Roosevelt’s life from the Assembly and the Dakota Badlands to Kettle Hill, the presidency, the Nobel Peace Prize of 1906 and the Medal of Honor conferred in 2001.",
       "claimRefs": [
         "F01",
         "F02",
-        "F03"
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
       ]
     },
     "de": {
-      "tagline": "Öffentliches Handeln, Wildnis und tätiges Leben.",
-      "intro": "Roosevelt machte das Schreiben zum Bestandteil einer ungewöhnlich bewegten öffentlichen Laufbahn. Geschichte, Politik und Naturerfahrung wurden zu verschiedenen Ausdrucksformen eines Lebens, das seine Überzeugungen im Handeln erprobte.",
-      "orientation": "Präsident und Schriftsteller gehören zusammen. Seine Bücher erschließen jene Vorstellungen von Urteil, Wettbewerb und öffentlicher Aufgabe, die auch seinen politischen Auftritt bestimmten.",
-      "origin": [
-        "1858 in New York geboren, trat er ins öffentliche Leben und entwickelte zugleich eine umfangreiche schriftstellerische Tätigkeit. Ranchleben und Freiluftunternehmungen erweiterten seinen Erfahrungshorizont."
+      "tagline": "Vom Marineministerium über Kettle Hill ins Weiße Haus.",
+      "intro": "Im Mai 1898 verließ Theodore Roosevelt das Marineministerium, in dem er Unterstaatssekretär war, und übernahm ein Offizierspatent in einem Freiwilligen-Kavallerieregiment, das nach Kuba ging. 1899 schrieb er als Gouverneur von New York dessen Geschichte.",
+      "orientation": "Am 27. Oktober 1858 in New York City geboren, trat Roosevelt mit achtzehn Jahren in Harvard ein und ging von der Universität unmittelbar in die Politik. Er saß in der Versammlung des Staates New York, betrieb nach 1884 eine Ranch in den Badlands von Dakota und kehrte als Mitglied der Beamtenkommission, Leiter der New Yorker Polizeiverwaltung und Unterstaatssekretär der Marine ins Amt zurück. 1898 ging er mit der First United States Volunteer Cavalry nach Kuba, dem Regiment, das die Öffentlichkeit die Rough Riders nannte.",
+      "overview": [
+        "Ab 1899 Gouverneur von New York, 1901 Vizepräsident, wurde er am 14. September 1901 nach der Ermordung McKinleys der sechsundzwanzigste Präsident und blieb es bis zum 4. März 1909. Der Friedensnobelpreis 1906 würdigte seine Rolle bei der Beendigung des Russisch-Japanischen Krieges. Die Medal of Honor für San Juan Heights folgte erst nach seinem Tod, aufgrund eines Kongressgesetzes von 1998 und verliehen im Jahr 2001. The Rough Riders, 1899 erschienen, ist sein eigener Bericht über die vier Monate des Regiments."
       ],
+      "origin": [
+        "Roosevelt war der Sohn von Theodore Roosevelt Sr. und Martha Bulloch, aus einer wohlhabenden New Yorker Familie holländischer Herkunft; seine Mutter war in Georgia aufgewachsen. 1876 trat er in Harvard ein, schloss 1880 ab und begann im Herbst desselben Jahres ein Jurastudium an der Columbia. In der Versammlung machte er sich als Reformer einen Namen.",
+        "1884 schickten ihn Krankheit und der Tod seiner Frau nach Westen. Seine Mutter starb am selben Tag, dem 14. Februar. Er beteiligte sich an einer Rinderranch in den Badlands des Dakota-Territoriums, jagte Großwild und blieb bis 1886; dann kehrte er nach New York zurück, heiratete Edith Kermit Carow und wandte sich wieder der Politik zu."
+      ],
+      "careerHeading": "Ämter und der Krieg von 1898",
       "career": [
-        "Von 1901 bis 1909 Präsident der Vereinigten Staaten, verband er innenpolitischen Gestaltungswillen mit einem entschiedenen internationalen Auftreten. Die Vermittlung im Russisch-Japanischen Krieg brachte ihm 1906 den Friedensnobelpreis."
+        "Präsident Harrison berief ihn 1889 in die Beamtenkommission, der er bis 1895 angehörte. Danach übernahm er die Leitung der New Yorker Polizeiverwaltung. Im April 1897 trat er als Unterstaatssekretär der Marine in die Regierung McKinleys ein und bereitete sich, so der Biograf des Nobelkomitees, tatkräftig auf den kommenden Krieg mit Spanien vor.",
+        "Im Mai 1898 wurde er zum Oberstleutnant der First United States Volunteer Cavalry ernannt, mit Leonard Wood als Oberst. Das Regiment kämpfte am 24. Juni bei Las Guasimas und stürmte am 1. Juli den Kettle Hill und weiter gegen die San-Juan-Linie vor Santiago de Cuba. Als Wood Ende Juni die Brigade übernahm, führte Roosevelt das Regiment; im Juli wurde er zum Oberst befördert, leistete am 31. Juli den Eid und wurde am 15. September 1898 in Montauk Point, New York, entlassen.",
+        "Im Herbst 1898 zum Gouverneur gewählt, trat er am 1. Januar 1899 sein Amt an. Als Präsident ergriff er 1902 die Initiative, die den ersten Fall vor den Haager Schiedshof brachte, und bot im Juni 1905 Russland und Japan seine guten Dienste an; die Delegierten trafen im August in Portsmouth, New Hampshire, zusammen und schlossen im September einen Vertrag. 1912 nahm er die Nominierung der Progressiven Partei an, und 1917 lehnte Präsident Wilson sein Angebot ab, eine Division aufzustellen. Sein Sohn Quentin, Jagdflieger, fiel am 14. Juli 1918 in Frankreich. Roosevelt starb am 6. Januar 1919 auf Sagamore Hill in Oyster Bay."
       ],
       "literature": [
-        "Seine historischen und naturkundlichen Schriften formen Erfahrung zu Aussagen über Charakter, Nation und Tat. Auch die Landschaftsschilderung trägt häufig den Nachdruck eines Arguments."
+        "Der Biograf des Nobelkomitees zählt sechsundzwanzig Bücher und über tausend Zeitschriftenaufsätze. Dazu gehören The Winning of the West in vier Bänden (1889–1896), Oliver Cromwell (1900), African Game Trails (1910) und An Autobiography (1913).",
+        "The Rough Riders erschien von Januar bis Juni 1899 in sechs Folgen in Scribner’s Magazine und dann als Buch bei Charles Scribner’s Sons. Es ist das Zeugnis des Kommandeurs selbst: Es nennt Reiter und reguläre Soldaten beim Namen, zählt Gefallene und Verwundete, kritisiert die Versorgung des Heeres und rühmt die Tapferkeit der spanischen Verteidiger. Die Anhänge enthalten die Musterungsliste des Regiments, seinen Bericht an den Kriegsminister und den „Round Robin“-Brief vom August 1898. Das Buch wurde im Druck beantwortet; man sollte es neben den spanischen Bericht von José Müller y Tejeiro legen."
       ],
-      "legacy": "Roosevelts Vielseitigkeit gibt seinem Werk besondere historische Dichte. Der Naturbeobachter, der Geschichtserzähler und der Staatsmann sprechen immer wieder miteinander.",
-      "bridge": "Die Ausgaben erschließen einzelne Teile dieses weitgespannten literarischen und öffentlichen Lebens.",
-      "description": "Roosevelt machte das Schreiben zum Bestandteil einer ungewöhnlich bewegten öffentlichen Laufbahn. Geschichte, Politik und Naturerfahrung wurden zu verschiedenen Ausdrucksformen eines Lebens, das seine Überzeugungen im Handeln erprobte.",
+      "legacy": "Die Medal of Honor kam auf einem langen Weg. Roosevelt wurde 1898 vorgeschlagen, und der Brevet Board berichtete im Juni 1899 ohne seinen Namen. Public Law 105-371 vom 12. November 1998 ermächtigte den Präsidenten und ersuchte ihn, die Medaille für Roosevelts Anteil am Angriff auf San Juan Heights am 1. Juli 1898 zu verleihen; sie wurde 2001 postum übergeben. Der 1906 in seiner Abwesenheit überreichte Friedensnobelpreis steht als zweite Auszeichnung daneben.",
+      "bridge": "The Rough Riders gibt Roosevelts eigenen Bericht über die vier Monate, in denen aus einem Unterstaatssekretär der Marine ein Oberst der Freiwilligen wurde.",
+      "description": "Theodore Roosevelts Leben von der Versammlung und den Badlands von Dakota über Kettle Hill und die Präsidentschaft bis zum Friedensnobelpreis 1906 und der 2001 verliehenen Medal of Honor.",
       "claimRefs": [
         "F01",
         "F02",
-        "F03"
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
       ]
     }
   },
@@ -155,8 +326,8 @@
     ]
   },
   "rank": {
-    "en": "26th President of the United States · Nobel Peace Prize 1906",
-    "de": "26. Präsident der Vereinigten Staaten · Friedensnobelpreis 1906"
+    "en": "26th President of the United States · Nobel Peace Prize 1906 · Medal of Honor (posthumous, 2001)",
+    "de": "26. Präsident der Vereinigten Staaten · Friedensnobelpreis 1906 · Medal of Honor (postum, 2001)"
   },
   "honours": [
     {
@@ -164,29 +335,178 @@
       "year": "1906",
       "category": "prize",
       "sources": [
-        "NOBEL"
+        "NOBEL",
+        "ACCEPT"
       ],
       "localName": {
         "de": "Friedensnobelpreis",
         "en": "Nobel Peace Prize"
+      },
+      "note": {
+        "en": "For his role in ending the war between Japan and Russia. Presented in Kristiania on December 10, 1906, in his absence; the American minister, Herbert H. D. Peirce, accepted it for him.",
+        "de": "Für seine Rolle bei der Beendigung des Krieges zwischen Japan und Russland. Am 10. Dezember 1906 in Kristiania in seiner Abwesenheit überreicht; der amerikanische Gesandte Herbert H. D. Peirce nahm ihn für ihn entgegen."
+      }
+    },
+    {
+      "name": "Medal of Honor (posthumous) / Medal of Honor (postum)",
+      "year": "2001",
+      "category": "decoration",
+      "sources": [
+        "LAW",
+        "CMOHS"
+      ],
+      "localName": {
+        "de": "Medal of Honor (postum)",
+        "en": "Medal of Honor (posthumous)"
+      },
+      "note": {
+        "en": "For the attack on San Juan Heights, July 1, 1898. Authorized and requested by Public Law 105-371 of November 12, 1998; conferred in 2001. Recommended in 1898 but not awarded at the time.",
+        "de": "Für den Angriff auf San Juan Heights am 1. Juli 1898. Durch Public Law 105-371 vom 12. November 1998 ermöglicht und erbeten; 2001 verliehen. 1898 vorgeschlagen, damals aber nicht zuerkannt."
       }
     }
   ],
   "timeline": [
     [
-      "1901",
+      "October 27, 1858",
+      "Born in New York City",
+      "Geboren in New York City"
+    ],
+    [
+      "1880",
+      "Graduates from Harvard",
+      "Abschluss in Harvard"
+    ],
+    [
+      "1882–84",
+      "Member of the New York State Assembly",
+      "Mitglied der Versammlung des Staates New York"
+    ],
+    [
+      "1884–86",
+      "Ranch in the Dakota Badlands",
+      "Ranch in den Badlands von Dakota"
+    ],
+    [
+      "1889–95",
+      "Civil Service Commission",
+      "Beamtenkommission"
+    ],
+    [
+      "1895–97",
+      "President of the New York police board",
+      "Präsident der New Yorker Polizeibehörde"
+    ],
+    [
+      "April 19, 1897",
+      "Assistant Secretary of the Navy",
+      "Unterstaatssekretär der Marine"
+    ],
+    [
+      "May 1898",
+      "Lieutenant colonel, First U.S. Volunteer Cavalry",
+      "Oberstleutnant der First U.S. Volunteer Cavalry"
+    ],
+    [
+      "July 1, 1898",
+      "Kettle Hill and the San Juan line",
+      "Kettle Hill und die San-Juan-Linie"
+    ],
+    [
+      "September 15, 1898",
+      "Regiment mustered out at Montauk Point",
+      "Regiment in Montauk Point entlassen"
+    ],
+    [
+      "January 1, 1899",
+      "Governor of New York",
+      "Gouverneur von New York"
+    ],
+    [
+      "1899",
+      "The Rough Riders published by Scribner",
+      "The Rough Riders bei Scribner erschienen"
+    ],
+    [
+      "March 4, 1901",
+      "Vice President",
+      "Vizepräsident"
+    ],
+    [
+      "September 14, 1901",
       "Becomes President",
       "Amtsantritt als Präsident"
     ],
     [
-      "1906",
-      "Nobel Peace Prize",
-      "Friedensnobelpreis"
+      "September 1905",
+      "Treaty of Portsmouth, Russia and Japan",
+      "Frieden von Portsmouth zwischen Russland und Japan"
     ],
     [
-      "1909",
+      "December 10, 1906",
+      "Nobel Peace Prize presented in his absence",
+      "Friedensnobelpreis in seiner Abwesenheit überreicht"
+    ],
+    [
+      "March 4, 1909",
       "End of presidency",
       "Ende der Präsidentschaft"
+    ],
+    [
+      "January 6, 1919",
+      "Dies at Sagamore Hill, Oyster Bay",
+      "Tod auf Sagamore Hill, Oyster Bay"
+    ],
+    [
+      "November 12, 1998",
+      "Public Law 105-371 on the Medal of Honor",
+      "Public Law 105-371 zur Medal of Honor"
+    ],
+    [
+      "2001",
+      "Medal of Honor conferred posthumously",
+      "Medal of Honor postum verliehen"
     ]
+  ],
+  "places": [
+    {
+      "en": [
+        "Dakota Badlands",
+        "From 1884 to 1886 Roosevelt ranched here, hunted and recovered; the years sit between the Assembly and his return to office."
+      ],
+      "de": [
+        "Badlands von Dakota",
+        "Von 1884 bis 1886 betrieb Roosevelt hier eine Ranch, jagte und erholte sich; die Jahre liegen zwischen der Versammlung und seiner Rückkehr ins Amt."
+      ]
+    },
+    {
+      "en": [
+        "Kettle Hill and the San Juan line",
+        "On July 1, 1898, the regiment went up Kettle Hill and on against the San Juan line. The statute and the citation speak of San Juan Heights; Roosevelt’s book keeps the two apart."
+      ],
+      "de": [
+        "Kettle Hill und die San-Juan-Linie",
+        "Am 1. Juli 1898 stürmte das Regiment den Kettle Hill und ging gegen die San-Juan-Linie vor. Gesetz und Verleihungstext sprechen von San Juan Heights; Roosevelts Buch hält beide auseinander."
+      ]
+    },
+    {
+      "en": [
+        "Portsmouth, New Hampshire",
+        "Russian and Japanese delegates met here in August 1905, after Roosevelt’s offer of mediation, and concluded a treaty in September."
+      ],
+      "de": [
+        "Portsmouth, New Hampshire",
+        "Hier traten im August 1905 nach Roosevelts Vermittlungsangebot russische und japanische Delegierte zusammen und schlossen im September einen Vertrag."
+      ]
+    },
+    {
+      "en": [
+        "Sagamore Hill, Oyster Bay",
+        "Roosevelt died here on January 6, 1919."
+      ],
+      "de": [
+        "Sagamore Hill, Oyster Bay",
+        "Hier starb Roosevelt am 6. Januar 1919."
+      ]
+    }
   ]
 }

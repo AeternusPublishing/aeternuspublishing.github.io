@@ -2715,11 +2715,23 @@
       "title": "The Rough Riders (Annotated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-tr002-en-v1-20261008.jpg",
+      "front_url": "/assets/images/cover-tr002-en-ingram-v3-20261119.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-tr002-en-v1-20261008.jpg",
-          "sha256": "8b9c1dd332560f40e8399e9986f7c58cc3e7d45b78f4a87874f38831a8d6e522"
+          "path": "src/assets/images/cover-tr002-en-ingram-v3-20261119.jpg",
+          "sha256": "262239f8d6c9271ba753eb4841bcced92512f6ac69c89b793843e987f81d8d0e"
+        },
+        {
+          "path": "src/assets/images/cover-tr002-en-ingram-v3-20261119.webp",
+          "sha256": "ea183fab7218e776b6802b85b9aecfa4f685a2dc6e179f12c83ddfbc12ee527c"
+        },
+        {
+          "path": "src/assets/images/backcover-tr002-en-ingram-v3-20261119.jpg",
+          "sha256": "cff2751ef8664c04696e81cb41f1c64673f30b5ab02591c5313634846ec3410e"
+        },
+        {
+          "path": "src/assets/images/backcover-tr002-en-ingram-v3-20261119.webp",
+          "sha256": "ea38d2befb29ffad9c835e65dd92459e07387112b5325107fda92b9063d6366b"
         }
       ],
       "formats": [
