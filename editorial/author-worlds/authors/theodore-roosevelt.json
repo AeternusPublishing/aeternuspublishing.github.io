@@ -43,7 +43,7 @@
       "title": "Congressional Medal of Honor Society · Theodore Roosevelt",
       "url": "https://www.cmohs.org/recipients/theodore-roosevelt",
       "checked": "2026-11-19",
-      "note": "Recipient record cited for the posthumous conferral in 2001. The page answered an automated request with HTTP 403 on the check date and could not be read by machine; the conferral date follows the AETERNUS paratext package for The Rough Riders (V1) and awaits a manual check against this record."
+      "note": "Recipient record cited for the posthumous conferral on 16 January 2001. The page answered an automated request with HTTP 403 on the check date; the conferral date was checked by hand on 19 November 2026 (publisher's check, Theodore Roosevelt Center among the sources) and agrees with the AETERNUS paratext package."
     }
   ],
   "facts": [
@@ -142,7 +142,7 @@
       "id": "F11",
       "status": "BELEGT",
       "kind": "historical-fact",
-      "statement": "The Medal of Honor was conferred posthumously in 2001 (16 January 2001, by President Clinton, according to the edition package; see uncertainty).",
+      "statement": "The Medal of Honor was conferred posthumously on 16 January 2001, presented by President Clinton at the White House to Roosevelt's descendants.",
       "sources": [
         "LAW",
         "CMOHS"
@@ -183,11 +183,6 @@
       "status": "EINGESCHRÄNKT",
       "claim": "Who raised the regiment",
       "decision": "The Nobel biography says Roosevelt raised the regiment himself. The book and the edition's own record present Leonard Wood as colonel in command with Roosevelt second to him until Wood took the brigade at the end of June 1898. The page follows the second account."
-    },
-    {
-      "status": "EINGESCHRÄNKT",
-      "claim": "Conferral date of the Medal of Honor, 16 January 2001",
-      "decision": "Taken from the AETERNUS paratext package for The Rough Riders (V1), whose citation text it reproduces. The Congressional Medal of Honor Society record could not be read by machine on 19 November 2026 (HTTP 403). The year 2001 is certain; the day awaits a manual check."
     },
     {
       "status": "EINGESCHRÄNKT",
@@ -234,7 +229,7 @@
         "The Nobel biography counts twenty-six books and over a thousand magazine articles. Among them are The Winning of the West, in four volumes (1889–1896), Oliver Cromwell (1900), African Game Trails (1910) and An Autobiography (1913).",
         "The Rough Riders appeared in six parts in Scribner’s Magazine from January to June 1899 and then as a book from Charles Scribner’s Sons. It is the commander’s own testimony: it names troopers and Regulars, counts the dead and wounded, criticizes the supply of the army and credits the Spanish defenders with bravery. Its appendices carry the muster-out roll of the regiment, his report to the Secretary of War and the “Round Robin” letter of August 1898. It was answered in print, and a reader should set it beside the Spanish account of José Müller y Tejeiro."
       ],
-      "legacy": "The Medal of Honor came by a long road. Roosevelt was recommended in 1898, and the Brevet Board reported in June 1899 without his name. Public Law 105-371 of November 12, 1998, authorized and requested the award for his part in the attack on San Juan Heights on July 1, 1898, and it was conferred posthumously in 2001. The Nobel Peace Prize of 1906, presented in his absence, stands beside it as the other distinction.",
+      "legacy": "The Medal of Honor came by a long road. Roosevelt was recommended in 1898, and the Brevet Board reported in June 1899 without his name. Public Law 105-371 of November 12, 1998, authorized and requested the award for his part in the attack on San Juan Heights on July 1, 1898, and President Clinton presented it posthumously at the White House on January 16, 2001. The Nobel Peace Prize of 1906, presented in his absence, stands beside it as the other distinction.",
       "bridge": "The Rough Riders gives Roosevelt’s own account of the four months in which an Assistant Secretary of the Navy became a colonel of volunteers.",
       "description": "Theodore Roosevelt’s life from the Assembly and the Dakota Badlands to Kettle Hill, the presidency, the Nobel Peace Prize of 1906 and the Medal of Honor conferred in 2001.",
       "claimRefs": [
@@ -273,7 +268,7 @@
         "Der Biograf des Nobelkomitees zählt sechsundzwanzig Bücher und über tausend Zeitschriftenaufsätze. Dazu gehören The Winning of the West in vier Bänden (1889–1896), Oliver Cromwell (1900), African Game Trails (1910) und An Autobiography (1913).",
         "The Rough Riders erschien von Januar bis Juni 1899 in sechs Folgen in Scribner’s Magazine und dann als Buch bei Charles Scribner’s Sons. Es ist das Zeugnis des Kommandeurs selbst: Es nennt Reiter und reguläre Soldaten beim Namen, zählt Gefallene und Verwundete, kritisiert die Versorgung des Heeres und rühmt die Tapferkeit der spanischen Verteidiger. Die Anhänge enthalten die Musterungsliste des Regiments, seinen Bericht an den Kriegsminister und den „Round Robin“-Brief vom August 1898. Das Buch wurde im Druck beantwortet; man sollte es neben den spanischen Bericht von José Müller y Tejeiro legen."
       ],
-      "legacy": "Die Medal of Honor kam auf einem langen Weg. Roosevelt wurde 1898 vorgeschlagen, und der Brevet Board berichtete im Juni 1899 ohne seinen Namen. Public Law 105-371 vom 12. November 1998 ermächtigte den Präsidenten und ersuchte ihn, die Medaille für Roosevelts Anteil am Angriff auf San Juan Heights am 1. Juli 1898 zu verleihen; sie wurde 2001 postum übergeben. Der 1906 in seiner Abwesenheit überreichte Friedensnobelpreis steht als zweite Auszeichnung daneben.",
+      "legacy": "Die Medal of Honor kam auf einem langen Weg. Roosevelt wurde 1898 vorgeschlagen, und der Brevet Board berichtete im Juni 1899 ohne seinen Namen. Public Law 105-371 vom 12. November 1998 ermächtigte den Präsidenten und ersuchte ihn, die Medaille für Roosevelts Anteil am Angriff auf San Juan Heights am 1. Juli 1898 zu verleihen; Präsident Clinton überreichte sie am 16. Januar 2001 im Weißen Haus postum an Roosevelts Nachfahren. Der 1906 in seiner Abwesenheit überreichte Friedensnobelpreis steht als zweite Auszeichnung daneben.",
       "bridge": "The Rough Riders gibt Roosevelts eigenen Bericht über die vier Monate, in denen aus einem Unterstaatssekretär der Marine ein Oberst der Freiwilligen wurde.",
       "description": "Theodore Roosevelts Leben von der Versammlung und den Badlands von Dakota über Kettle Hill und die Präsidentschaft bis zum Friedensnobelpreis 1906 und der 2001 verliehenen Medal of Honor.",
       "claimRefs": [
@@ -360,8 +355,8 @@
         "en": "Medal of Honor (posthumous)"
       },
       "note": {
-        "en": "For the attack on San Juan Heights, July 1, 1898. Authorized and requested by Public Law 105-371 of November 12, 1998; conferred in 2001. Recommended in 1898 but not awarded at the time.",
-        "de": "Für den Angriff auf San Juan Heights am 1. Juli 1898. Durch Public Law 105-371 vom 12. November 1998 ermöglicht und erbeten; 2001 verliehen. 1898 vorgeschlagen, damals aber nicht zuerkannt."
+        "en": "For the attack on San Juan Heights, July 1, 1898. Authorized and requested by Public Law 105-371 of November 12, 1998; conferred on January 16, 2001. Recommended in 1898 but not awarded at the time.",
+        "de": "Für den Angriff auf San Juan Heights am 1. Juli 1898. Durch Public Law 105-371 vom 12. November 1998 ermöglicht und erbeten; am 16. Januar 2001 verliehen. 1898 vorgeschlagen, damals aber nicht zuerkannt."
       }
     }
   ],
