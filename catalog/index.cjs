@@ -272,6 +272,11 @@ englishBooks.push(...[
   require('./esw001-en-20261113.json'),
 ].map(book => ({ ...book, seriesName: amberRef.seriesName, seriesColor: amberRef.seriesColor })));
 
+// GST_001: authorised edition; no retailer link until observed live.
+const gst001 = require('./gst001-en-20261119.json');
+authorsEn.push(gst001.author);
+englishBooks.push(gst001.book);
+
 // SBS_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./sbs001-author-20261102.cjs'));
 
