@@ -2795,15 +2795,23 @@
       "title": "Life of Lord Kitchener · Volume I",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-life-of-lord-kitchener-volume-i-front.jpg",
+      "front_url": "/assets/images/cover-ga001-en-vol-i-ingram-v11-20261119.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-i-front.jpg",
-          "sha256": "c040a271eb88c743feb378c0ae7768c11d0a6163cec3edb79563063a498afe43"
+          "path": "src/assets/images/cover-ga001-en-vol-i-ingram-v11-20261119.jpg",
+          "sha256": "a15f2c63ad6e747b48d845e88ad3121f50dc14adc98f505848b65e6fbb9629a5"
         },
         {
-          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-i-front.webp",
-          "sha256": "ec2e1ff217f29035ef73e82da33fcafa2bd9aa5ffb48254507cc55c5260c2acf"
+          "path": "src/assets/images/cover-ga001-en-vol-i-ingram-v11-20261119.webp",
+          "sha256": "26db385614e29be43af938e907e2e5c5d6f837c6279a29b099ab5c3bc54eb16d"
+        },
+        {
+          "path": "src/assets/images/backcover-ga001-en-vol-i-ingram-v11-20261119.jpg",
+          "sha256": "90fe6d1be3d6637e14ed5e18c1d1ac74cc6e3fed39058e97d0ded4667492db8b"
+        },
+        {
+          "path": "src/assets/images/backcover-ga001-en-vol-i-ingram-v11-20261119.webp",
+          "sha256": "e161a1f4b7956ec2bc9b4ac47c2d841255142318312f61d7490a580acdfbb06f"
         }
       ],
       "formats": [
@@ -2871,15 +2879,23 @@
       "title": "Life of Lord Kitchener · Volume III",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-life-of-lord-kitchener-volume-iii-front.jpg",
+      "front_url": "/assets/images/cover-ga001-en-vol-iii-ingram-v11-20261119.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-iii-front.jpg",
-          "sha256": "9c4d7333385aa01d795a0ddb073c9b368d32034f1de68a76e19c0641636a8d4e"
+          "path": "src/assets/images/cover-ga001-en-vol-iii-ingram-v11-20261119.jpg",
+          "sha256": "184d510614b9cf2f0e6efc0a18c42b89ed1bbfa595ad0a8a659969a70ee39fc7"
         },
         {
-          "path": "src/assets/images/cover-life-of-lord-kitchener-volume-iii-front.webp",
-          "sha256": "38914dcfaa9d70cc8b432fd92a3f540eb5532dde5cf38fcf7c52753a0e934807"
+          "path": "src/assets/images/cover-ga001-en-vol-iii-ingram-v11-20261119.webp",
+          "sha256": "da53354206152b852721271897aa409c8dc964db427799051a1c5de61f0a5640"
+        },
+        {
+          "path": "src/assets/images/backcover-ga001-en-vol-iii-ingram-v11-20261119.jpg",
+          "sha256": "afb5871ebf4802e59d544d5726b223c9c293c23038885eca66255b1954db4c70"
+        },
+        {
+          "path": "src/assets/images/backcover-ga001-en-vol-iii-ingram-v11-20261119.webp",
+          "sha256": "e0d1fd229f2759455ee3b4fb08dd4583041133c8fbc7401602e337d48c647255"
         }
       ],
       "formats": [

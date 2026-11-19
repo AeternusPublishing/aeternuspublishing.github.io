@@ -1,8 +1,11 @@
 // GA_001 author copy is copied byte-for-byte from the printed V63 source.
-// V9 released 24 October 2026; retail availability awaits observation.
+// V9 released 24 October 2026; Volumes I and III revised to V11 (Ingram revision submitted 19 November 2026),
+// Volume II stays on V9 until its relaunch package passes. Retail availability awaits observation.
 const fs = require('node:fs');
 const path = require('node:path');
-const releasedVolumes = require('./ga001-v9-20261024.json');
+const v9Volumes = require('./ga001-v9-20261024.json');
+const v11Volumes = require('./ga001-v11-20261119.json');
+const releasedVolumes = { ...v9Volumes, ...v11Volumes };
 
 const source = fs.readFileSync(path.join(__dirname, 'ga001-author-v63-20261014.txt'), 'utf8').trim();
 if (!/^SIR GEORGE ARTHUR\r?\n\r?\n/.test(source)) throw new Error('GA_001 author source heading changed');
@@ -66,8 +69,9 @@ const books = volumes.map(([volume, isbn]) => {
     formats: { hardcover: { label: 'Hardcover', isbn, pages: released.book_pages } },
     description: { short: description, long: description },
     publisherDescriptionHTML: released.description_html,
-    cover: `/assets/images/cover-life-of-lord-kitchener-volume-${slug}-front.jpg`,
-    coverWebp: `/assets/images/cover-life-of-lord-kitchener-volume-${slug}-front.webp`,
+    cover: released.cover || `/assets/images/cover-life-of-lord-kitchener-volume-${slug}-front.jpg`,
+    coverWebp: released.coverWebp || `/assets/images/cover-life-of-lord-kitchener-volume-${slug}-front.webp`,
+    ...(released.backcover ? { backcover: released.backcover, backcoverWebp: released.backcoverWebp } : {}),
     publication_date: released.publication_date, pricing: {}, availability: 'COMING_SOON',
     forthcoming_label: 'Planned publication · 21 November 2026', cardStatus: 'Forthcoming · 21 November 2026',
     links: { shop: null, amazon: null, ingram: null },
@@ -75,9 +79,11 @@ const books = volumes.map(([volume, isbn]) => {
     commerce: { shopify_product_id: null, shopify_handle: null },
     url: `/books/${id}/`, authorUrl: `/authors/${author.slug}/`,
     seriesName: 'Green Series', seriesColor: '#2d4a22', brandOnly: true,
-    legacy: { modal: { metadata: `Hardcover · ${released.book_pages} pages · forthcoming`, sample: description } },
+    legacy: { modal: { metadata: `Hardcover · ${released.book_pages} pages · ${released.ingram_pages} pages in the Ingram edition · forthcoming`, sample: description } },
     retailer_formats: [{ label: 'Hardcover', isbn, pages: released.book_pages, links: [], status: 'EINGEREICHT' }],
-    provenance: `GA_001/07_EXPORT/UPLOADPAKETE_INGRAM_V9_20261024/${released.source_package}/METADATEN/ingram_hardcover.json`
+    provenance: released.manifest_sha256
+      ? `GA_001 EN relaunch package ${released.source_package}, MANIFEST ${released.manifest_sha256}; Ingram hardcover revision submitted ${released.ingram_revision_submitted} (register status EINGEREICHT)`
+      : `GA_001/07_EXPORT/UPLOADPAKETE_INGRAM_V9_20261024/${released.source_package}/METADATEN/ingram_hardcover.json`
   };
 });
 

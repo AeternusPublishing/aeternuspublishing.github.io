@@ -1,0 +1,34 @@
+{
+  "I": {
+    "description_html": "<ul><li>Complete, unmodernised text of the London 1920 edition</li><li>Volume I, Chapters I–XLI: from 1850 to South Africa, 1900</li><li>With the preface by Lord Salisbury and Earl Haig’s essay of 1920</li><li>Publisher’s general foreword, foreword and afterword to the volume</li><li>Historical framing of the campaigns in new publisher’s essays</li><li>1920 plates restored, maps redrawn, 18 additional historical plates</li><li>Kitchener’s career and honours, chronology, order of battle</li><li>Note on sources, glossary and dramatis personae</li><li>Editorial note and list of illustrations</li></ul><p><b>Volume I of three.</b></p><p>Sir George Arthur’s Life of Lord Kitchener is one of the great near-contemporary military biographies of the British Empire. Published in three volumes by Macmillan in 1920, it follows Horatio Herbert Kitchener from his formation as a Royal Engineer through Egypt and the Sudan, Omdurman and Fashoda, South Africa, the command of the Indian Army, renewed service in Egypt and finally the War Office during the First World War. The original set comprised three substantial volumes of 326, 346 and 413 pages.</p><p>Arthur wrote with unusual authority. He had served as Kitchener’s personal private secretary during the War Office years, and in 1916 the trustees placed the Field Marshal’s private papers and correspondence in his hands for the biography. The resulting work is therefore not merely a retrospective narrative of famous campaigns, but a record produced within the same military and imperial generation that had known Kitchener in command.</p><p>The AETERNUS edition preserves the three-volume architecture and frames Arthur’s text with new essays on Kitchener’s military method, the logistical system behind the Sudan campaign, the hard guerrilla war in South Africa, the Curzon dispute, the reform of the Indian Army, the New Armies of 1914 and the extraordinary sequence of royal honours by which Victoria, Edward VII and George V marked successive stages of his service.</p><p>The emphasis remains where Kitchener’s own career placed it: not upon ceremony detached from achievement, but upon the relation between duty, authority and result.</p><p>The surveyor became Sirdar.</p><p>The Sirdar became Field Marshal.</p><p>The Field Marshal became the organiser of a nation at war.</p><p>The insignia followed the service.</p><p>GREEN SERIES · AETERNUS</p>",
+    "publication_date": "2026-11-21",
+    "book_pages": 402,
+    "ingram_pages": 404,
+    "isbn": "978-3-67605-175-0",
+    "metadata_sha256": "7fd7711297488d3844f204da35428ffda25f57190400da96b80f91e772fdb029",
+    "manifest_sha256": "bd3e330eba46b5d6cc0284f671d78a463329a2956c70e58989ee2bd8405aa278",
+    "source_package": "GA001_EN_BAND_I_INGRAM_HC_V11_20261118",
+    "cover": "/assets/images/cover-ga001-en-vol-i-ingram-v11-20261119.jpg",
+    "coverWebp": "/assets/images/cover-ga001-en-vol-i-ingram-v11-20261119.webp",
+    "backcover": "/assets/images/backcover-ga001-en-vol-i-ingram-v11-20261119.jpg",
+    "backcoverWebp": "/assets/images/backcover-ga001-en-vol-i-ingram-v11-20261119.webp",
+    "ingram_status": "EINGEREICHT",
+    "ingram_revision_submitted": "2026-11-19"
+  },
+  "III": {
+    "description_html": "<ul><li>Complete, unmodernised text of the London 1920 edition</li><li>Volume III, Chapters XC–CXXXV: the War Office and the Great War</li><li>Publisher’s foreword, afterword and five concluding essays</li><li>Historical framing of the campaigns in new publisher’s essays</li><li>1920 plates restored, 14 additional historical plates</li><li>Note on sources, glossary and dramatis personae</li><li>Editorial note and list of illustrations</li></ul><p><b>Volume III of three.</b></p><p>Sir George Arthur’s Life of Lord Kitchener is one of the great near-contemporary military biographies of the British Empire. Published in three volumes by Macmillan in 1920, it follows Horatio Herbert Kitchener from his formation as a Royal Engineer through Egypt and the Sudan, Omdurman and Fashoda, South Africa, the command of the Indian Army, renewed service in Egypt and finally the War Office during the First World War. The original set comprised three substantial volumes of 326, 346 and 413 pages.</p><p>Arthur wrote with unusual authority. He had served as Kitchener’s personal private secretary during the War Office years, and in 1916 the trustees placed the Field Marshal’s private papers and correspondence in his hands for the biography. The resulting work is therefore not merely a retrospective narrative of famous campaigns, but a record produced within the same military and imperial generation that had known Kitchener in command.</p><p>The AETERNUS edition preserves the three-volume architecture and frames Arthur’s text with new essays on Kitchener’s military method, the logistical system behind the Sudan campaign, the hard guerrilla war in South Africa, the Curzon dispute, the reform of the Indian Army, the New Armies of 1914 and the extraordinary sequence of royal honours by which Victoria, Edward VII and George V marked successive stages of his service.</p><p>The emphasis remains where Kitchener’s own career placed it: not upon ceremony detached from achievement, but upon the relation between duty, authority and result.</p><p>The surveyor became Sirdar.</p><p>The Sirdar became Field Marshal.</p><p>The Field Marshal became the organiser of a nation at war.</p><p>The insignia followed the service.</p><p>GREEN SERIES · AETERNUS</p>",
+    "publication_date": "2026-11-21",
+    "book_pages": 406,
+    "ingram_pages": 408,
+    "isbn": "978-3-67605-177-4",
+    "metadata_sha256": "c8ad51a98432aa22afa898514c3a9e25cb31222da3ecbe793f3264f657602a6a",
+    "manifest_sha256": "6a578254f8963cd489765c8eb8e28bf0a52c91696a1318c0326ce8bc605c2a61",
+    "source_package": "GA001_EN_BAND_III_INGRAM_HC_V11_20261118",
+    "cover": "/assets/images/cover-ga001-en-vol-iii-ingram-v11-20261119.jpg",
+    "coverWebp": "/assets/images/cover-ga001-en-vol-iii-ingram-v11-20261119.webp",
+    "backcover": "/assets/images/backcover-ga001-en-vol-iii-ingram-v11-20261119.jpg",
+    "backcoverWebp": "/assets/images/backcover-ga001-en-vol-iii-ingram-v11-20261119.webp",
+    "ingram_status": "EINGEREICHT",
+    "ingram_revision_submitted": "2026-11-19"
+  }
+}
