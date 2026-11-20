@@ -118,6 +118,79 @@
   "pages": [
     {
       "site": "de",
+      "id": "kim",
+      "url": "/buecher/kim/",
+      "language": "de",
+      "front_url": "/assets/images/cover-rk002-de-v34-20261120-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-rk002-de-v34-20261120.webp",
+          "sha256": "f8b5c48577c4fbc493840cf7021dbb2c96068f3ea30982b862e769325fffe522"
+        },
+        {
+          "path": "src/assets/images/cover-rk002-de-v34-20261120-fallback.jpg",
+          "sha256": "2870f291bc9393fdc288ec7cc56cc2a8323096756fedb1850b3aceb5c049c6c3"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Taschenbuch",
+          "productform": "taschenbuch",
+          "isbn13": "9783676050555",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "RK_002",
+              "sprache": "de",
+              "produktform": "taschenbuch",
+              "isbn13": "9783676050555",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_PAKET_DE_INGRAM_362_V34"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "productform": "hardcover",
+          "isbn13": "9783676050562",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "RK_002",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "isbn13": "9783676050562",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_PAKET_DE_INGRAM_362_V34"
+            }
+          ]
+        },
+        {
+          "label": "E-Book",
+          "productform": "ebook",
+          "isbn13": "9783676050548",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "RK_002",
+              "sprache": "de",
+              "produktform": "ebook",
+              "isbn13": "9783676050548",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_PAKET_DE_INGRAM_362_V34"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "PAKET_DE_INGRAM_362_V34",
+        "file": "INGRAM/9783676050548_cover.jpg",
+        "sha256": "d3223d6a65c6b501dd10659ba7eb228fc55ea19e4615491f672a231c362c4273"
+      },
+      "primary_isbn13": "9783676050555"
+    },
+    {
+      "site": "de",
       "id": "der-waldteufel",
       "url": "/buecher/der-waldteufel/",
       "title": "Der Waldteufel",

@@ -1597,6 +1597,21 @@ module.exports.push({
   ]
 });
 
+const kiplingKim = require('../../catalog/rk002-de-20261120.json');
+module.exports.find(author => author.slug === kiplingKim.authorSlug).books.push({
+  id: kiplingKim.id,
+  url: kiplingKim.url,
+  cover: { img: kiplingKim.cover },
+  meta: 'Roman · 1901 · Neue deutsche Übersetzung',
+  title: kiplingKim.title,
+  subtitle: kiplingKim.subtitle,
+  status: kiplingKim.status,
+  modal: { summary: kiplingKim.summary, metadata: kiplingKim.metadata },
+  formats: kiplingKim.formats.map(format => ({
+    name: format.name, isbn: format.isbn, price: format.price, links: []
+  }))
+});
+
 // James Hall: Autorenseite und Ziel des QR-Kurzwegs /qr/hall/ aus der
 // Schlussseite von „Harpes Haupt“ (JH_001). Texte nach den verlagsfreigegebenen
 // Paratexten REDIGIERT_V2; Bestelllinks folgen nach der KDP-Freischaltung.

@@ -631,6 +631,27 @@
       "sourceUrl": "https://aeternus-verlag.de/autoren/johanna-spyri/"
     },
     {
+      "id": "kim",
+      "title": "Kim (Illustriert)",
+      "author": "Rudyard Kipling",
+      "year": "1901",
+      "region": "asia",
+      "location": [
+        74.35,
+        31.55
+      ],
+      "place": "Lahore",
+      "status": "In Vorbereitung",
+      "statusDetail": "Bestellmöglichkeiten folgen.",
+      "language": "Deutsch",
+      "coverImageUrl": "https://aeternus-verlag.de/assets/images/cover-rk002-de-v34-20261120.webp",
+      "subtitle": "Roman · Ungekürzte Ausgabe · Neue deutsche Übersetzung",
+      "summary": "Ein Waisenjunge aus Lahore wird Schüler eines tibetischen Lamas und Bote im Großen Spiel. Ihr gemeinsamer Weg führt durch Nordindien bis in den Himalaya.",
+      "landingUrl": "https://aeternus-verlag.de/buecher/kim/",
+      "amazonUrl": "",
+      "sourceUrl": "https://aeternus-verlag.de/buecher/kim/"
+    },
+    {
       "id": "jungle",
       "title": "Das Dschungelbuch",
       "author": "Rudyard Kipling",
