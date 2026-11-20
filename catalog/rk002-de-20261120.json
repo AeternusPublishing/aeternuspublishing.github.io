@@ -1,0 +1,78 @@
+{
+  "id": "kim",
+  "work_id": "RK_002",
+  "url": "/buecher/kim/",
+  "title": "Kim (Illustriert)",
+  "subtitle": "Roman · Ungekürzte Ausgabe · Neue deutsche Übersetzung",
+  "author": "Rudyard Kipling",
+  "authorUrl": "/autoren/rudyard-kipling/",
+  "authorSlug": "rudyard-kipling",
+  "authorIntro": "Kipling schrieb mit dem Ohr für Berufe, Milieus und wechselnde Sprechweisen. Soldaten, Kinder, Reisende und Tiere gewinnen ihre Gestalt durch die Regeln und Bindungen ihrer jeweiligen Welt.",
+  "portrait": {
+    "file": "portrait-kipling",
+    "alt": "Rudyard Kipling, historisches Autorenporträt",
+    "modern": true
+  },
+  "cover": "cover-rk002-de-v34-20261120",
+  "description": "Ein Waisenjunge aus Lahore wird Schüler eines tibetischen Lamas und Bote im Großen Spiel. Ihr gemeinsamer Weg führt durch Nordindien bis in den Himalaya.",
+  "summary": "Ein Waisenjunge aus Lahore wird Schüler eines tibetischen Lamas und Bote im Großen Spiel. Ihr gemeinsamer Weg führt durch Nordindien bis in den Himalaya.",
+  "publisherDescriptionHTML": "<ul><li>Neue deutsche Übersetzung nach der Londoner Erstausgabe 1901</li><li>Ungekürzt, mit allen Kapitelmottos und Liedern Kiplings</li><li>Zehn Bildtafeln von John Lockwood Kipling, restauriert</li><li>Neues Frontispiz, Autorenporträt, Vorwort und Nachwort</li><li>Glossar mit 64 Stichworten, Personen- und Ortsregister</li></ul><p><b>„Ich bin Kim. Ich bin Kim. Und was ist Kim?“</b></p><p>Kim ist der Sohn eines irischen Soldaten, Waise und aufgewachsen in den Gassen von Lahore, flink in jeder Sprache und jeder Verkleidung. Als ein alter tibetischer Lama in die Stadt kommt, um den Fluss des Pfeils zu suchen, wird Kim sein Schüler – und zugleich Bote im Großen Spiel, dem verdeckten Ringen der Mächte um die Grenzen Indiens.</p><p>Die gemeinsame Wanderung führt quer durch Nordindien bis in den Himalaya. Diese illustrierte Ausgabe bringt Kiplings Roman von 1901 ungekürzt in neuer deutscher Übersetzung, mit den Bildtafeln von John Lockwood Kipling.</p><p>BERNSTEIN-Reihe · AETERNUS Verlag</p><p><i>„Ein Werk von wahrem Genie, über und über strahlend von geistigem Licht wie der Himmel einer Frostnacht von Sternen.“</i><br/>The Atlantic Monthly, Dezember 1901</p>",
+  "original": "Kim (1901)",
+  "series": "bernstein",
+  "seriesName": "Bernstein",
+  "seriesColor": "#b7791f",
+  "language": "de",
+  "languageLabel": "Deutsch",
+  "isbn": "978-3-67605-055-5",
+  "searchIsbns": "978-3-67605-055-5 978-3-67605-056-2 978-3-67605-054-8",
+  "pages": 362,
+  "formats": [
+    {
+      "name": "Taschenbuch",
+      "isbn": "978-3-67605-055-5",
+      "price": "19,99 €",
+      "url": ""
+    },
+    {
+      "name": "Hardcover",
+      "isbn": "978-3-67605-056-2",
+      "price": "27,99 €",
+      "url": ""
+    },
+    {
+      "name": "E-Book",
+      "isbn": "978-3-67605-054-8",
+      "price": "10,99 €",
+      "url": ""
+    }
+  ],
+  "amazon": "",
+  "amazonLabel": "",
+  "pending": true,
+  "status": "Demnächst erhältlich",
+  "availability": "COMING_SOON",
+  "distribution_status": {
+    "ingram_paperback": "FREIGEGEBEN",
+    "ingram_hardcover": "FREIGEGEBEN",
+    "ingram_ebook": "FREIGEGEBEN"
+  },
+  "instagramUrl": "https://www.instagram.com/aeternus.publishing/p/Df9xne5PbOl/",
+  "metadata": "Druckausgaben · je 362 Seiten · 6 × 9 Zoll",
+  "schema": {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Kim (Illustriert)",
+    "url": "https://aeternus-verlag.de/buecher/kim/",
+    "author": {
+      "@type": "Person",
+      "name": "Rudyard Kipling"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AETERNUS Verlag"
+    },
+    "inLanguage": "de",
+    "description": "Ein Waisenjunge aus Lahore wird Schüler eines tibetischen Lamas und Bote im Großen Spiel. Ihr gemeinsamer Weg führt durch Nordindien bis in den Himalaya.",
+    "image": "https://aeternus-verlag.de/assets/images/cover-rk002-de-v34-20261120.webp"
+  }
+}

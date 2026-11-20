@@ -45,6 +45,7 @@ const books = programme.seriesItems.flatMap(series => series.authors.flatMap(aut
 })));
 books.push(require('../hjg001-de-20261104.json'));
 books.push(require('../cd001-de-20261113.json'));
+books.push(require('../rk002-de-20261120.json'));
 if (new Set(books.map(b => b.id)).size !== books.length) throw new Error("Duplicate book URL");
 module.exports = {
   books,
