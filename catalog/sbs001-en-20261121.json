@@ -1,0 +1,85 @@
+{
+  "id": "en-samuel-benfield-steele-forty-years-in-canada",
+  "work_id": "SBS_001",
+  "language": "en",
+  "title": "Forty Years in Canada (Illustrated)",
+  "subtitle": "Reminiscences of the Great North-West",
+  "author": "samuel-benfield-steele",
+  "authorName": "Samuel Benfield Steele",
+  "contributors": [],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "Forty Years in Canada",
+  "original_publication_year": 1915,
+  "isbn": {
+    "paperback": "9783676052405",
+    "hardcover": "9783676052412"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052405",
+      "pages": 566,
+      "platform": "IngramSpark",
+      "status": "LIVE",
+      "price_display": "US list price $27.99",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052412",
+      "pages": 566,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $44.99",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052405",
+      "pages": 566,
+      "platform": "IngramSpark",
+      "status": "LIVE",
+      "price_display": "US list price $27.99",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052412",
+      "pages": 566,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $44.99",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "Samuel Benfield Steele’s memoir of the Canadian West, from the March West to the Klondike Gold Rush."
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the London edition of 1915, word for word</li><li>Plates of 1915 restored, with ten further archival photographs</li><li>Publisher’s foreword and afterword, chronology and glossary</li><li>Editorial note on the text, its sources and its corrections</li></ul><p>There was an age when immense herds of buffalo still traversed the great plains of the Canadian West, when the Rocky Mountains stood as a formidable natural barrier between the settled provinces and the Pacific coast, and when, beyond the furthest railway station, the authority of the law might depend upon the resolution of a handful of determined men.</p><p>Into that world rode Samuel Benfield Steele — soldier, frontier policeman, commander of mounted men, and ultimately a major-general in the Canadian forces. His life was to become inseparably associated with the making of modern Canada.</p><p>As a member of the celebrated North-West Mounted Police, Steele took part in the great March West of 1874, maintained order along the construction of the transcontinental railway, served during the North-West disturbances of 1885, and encountered the chiefs, frontiersmen and adventurers whose names belong to the history of the North American continent. When the Klondike Gold Rush drew thousands of fortune-seekers into the remote northern wilderness, he was entrusted with the formidable task of upholding Canadian authority under conditions scarcely paralleled elsewhere in the Dominion.</p><p>His career eventually carried him across the Atlantic. During the South African War he commanded Lord Strathcona’s Horse, a Canadian regiment of mounted riflemen, and subsequently served in the organisation of the South African Constabulary.</p><p>First published in 1915, Forty Years in Canada unites the recollections of an extraordinary officer with the history of a nation undergoing immense transformation. It is a narrative of arduous marches, dangerous pursuits, turbulent frontier settlements and remarkable trials of human endurance, written from the standpoint of a man for whom duty and personal responsibility were never merely abstract virtues.</p><p>A commanding testimony to the Canadian pioneer age, the history of the Mounted Police, and that great imperial era whose soldiers and servants crossed immense distances, endured extraordinary hardships, and helped shape the destinies of nations.</p><p>GREEN SERIES · AETERNUS</p>",
+  "cover": "/assets/images/cover-sbs001-en-hc-20261119.jpg",
+  "coverWebp": "/assets/images/cover-sbs001-en-hc-20261119.webp",
+  "backcover": "/assets/images/back-sbs001-en-hc-20261119.jpg",
+  "backcoverWebp": "/assets/images/back-sbs001-en-hc-20261119.webp",
+  "first_published": "1915",
+  "availability": "AVAILABLE",
+  "cardStatus": "Available in paperback",
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "LIVE",
+    "amazon": "NOT_SUBMITTED"
+  },
+  "url": "/books/en-samuel-benfield-steele-forty-years-in-canada/",
+  "authorUrl": "/authors/samuel-benfield-steele/",
+  "seriesName": "GREEN SERIES",
+  "seriesColor": "#2d4a22",
+  "brandOnly": true,
+  "provenance": "SBS_001 V18C; Ingram hardcover revision cover SHA-256 9e7ea7c4731384c9a8fe783222a49c5ec302678b407da4442fc15c3117d28e16"
+}

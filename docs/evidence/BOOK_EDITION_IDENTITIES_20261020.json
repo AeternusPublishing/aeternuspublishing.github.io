@@ -6977,11 +6977,23 @@
       "title": "Wanderings in Balochistan (Annotated)",
       "language": "en",
       "primary_isbn13": "9783676052221",
-      "front_url": "/assets/images/cover-cmm002-en-v12-20261027.jpg",
+      "front_url": "/assets/images/cover-cmm002-en-hc-v8-20261120.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-cmm002-en-v12-20261027.jpg",
-          "sha256": "d6ec387e3d6460c8e4de6649f4c0289ee43f38cf84bc325cc6ca181e95912951"
+          "path": "src/assets/images/cover-cmm002-en-hc-v8-20261120.jpg",
+          "sha256": "c8853a1695a0da633508231eb60c98a22e83c6ff8d50e86d65a6339ccea022c9"
+        },
+        {
+          "path": "src/assets/images/cover-cmm002-en-hc-v8-20261120.webp",
+          "sha256": "a56dd39e5283f8e813b3b4d07949da1b24c3297f8d9e8895e1b49232ecde1b5f"
+        },
+        {
+          "path": "src/assets/images/back-cmm002-en-hc-v8-20261120.jpg",
+          "sha256": "735104dcdc2de4b40f3bbdc6932dd3fc4cf691a03c3edb45b35c565d13fe20f7"
+        },
+        {
+          "path": "src/assets/images/back-cmm002-en-hc-v8-20261120.webp",
+          "sha256": "9ce34aea6e7338173f34aab856968cfdea0438e7f2cbcce8f32ef6c28cca0742"
         }
       ],
       "formats": [
@@ -7068,7 +7080,11 @@
         "projection_sha256": "dab239fbd657353a1add18b8534a64d666b7b73fd98f1a5557cb1b061085b109",
         "package_preflight_sha256": "7d49b2384485977ec535a9b5bdec8453ca43e65298292b9577d44d4ce40235fc",
         "availability": "COMING_SOON",
-        "retail_links": "None; no LIVE observation"
+        "retail_links": "None; no LIVE observation",
+        "cover_revision": {
+          "package": "UPLOADPAKET_CMM002_EN_INGRAM_HC_TITULATUR_V8_20261120",
+          "preflight_sha256": "4a3c46e05571233166736cba70e8ffc8a469d06e7c948a8ec53674f87e31b66e"
+        }
       }
     },
     {
@@ -7078,15 +7094,23 @@
       "title": "The Defence of India (Annotated)",
       "language": "en",
       "primary_isbn13": "9783676052375",
-      "front_url": "/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "front_url": "/assets/images/cover-cmm001-en-v7e-20261119.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-cmm001-en-v6-20261104.jpg",
-          "sha256": "3b349aba4c78b7ccd3928cae0387455456fc65148d379d8839da26ca0fe65c63"
+          "path": "src/assets/images/cover-cmm001-en-v7e-20261119.jpg",
+          "sha256": "861331b412f893711bcd7637018a4e6e74145e7e4ea74d71c63f2b0782cf990b"
         },
         {
-          "path": "src/assets/images/back-cmm001-en-v6-20261104.jpg",
-          "sha256": "c721e96c77b605334fb16b65ff71dcc992fba9560919f1691b5d940adcf3e6d0"
+          "path": "src/assets/images/cover-cmm001-en-v7e-20261119.webp",
+          "sha256": "0cfd4ea6405af03f9c95e958726d18ead3af7b0a19c7328660a10c41769a2d75"
+        },
+        {
+          "path": "src/assets/images/back-cmm001-en-v7e-20261119.jpg",
+          "sha256": "a776b56f5f9f4d2109b63761a09e13d03cf3a0cedd2a9616de9bdf3f93fd586c"
+        },
+        {
+          "path": "src/assets/images/back-cmm001-en-v7e-20261119.webp",
+          "sha256": "a19b0b722aeec4a2323d4c4a3ac7623b8921c1c59edaee6005e31e0f627727a9"
         }
       ],
       "formats": [
@@ -7130,12 +7154,83 @@
         }
       ],
       "verification": {
-        "utc": "2026-11-04",
-        "source": "aeternus.py buchregister abfrage; CMM001_UPLOAD_20261104/REGISTER_WEB_QUELLE.json",
-        "projection_sha256": "4df3d5df92a5dfa1b61e99a9615ee27aa3043b07ee7cdb1552ade07ad3d9ac5a",
-        "package_preflight_sha256": "24a5f384d76c25b5d39b40c274b1a8873080458d518b39b6f5380dcd1dadae20",
+        "utc": "2026-11-21",
+        "source": "AETERNUS Buchregister; approved CMM_001 Ingram V7E package",
+        "package_preflight_sha256": "138a6b93243b7925e85dc3fb49a6e56e9b0bb18a6e263fa8abb44a6cfd735031",
         "availability": "COMING_SOON",
         "retail_links": "None; hardcover EINGEREICHT, paperback BLOCKIERT. No LIVE observation."
+      }
+    },
+    {
+      "site": "en",
+      "id": "en-samuel-benfield-steele-forty-years-in-canada",
+      "url": "/books/en-samuel-benfield-steele-forty-years-in-canada/",
+      "title": "Forty Years in Canada (Illustrated)",
+      "language": "en",
+      "primary_isbn13": "9783676052405",
+      "front_url": "/assets/images/cover-sbs001-en-hc-20261119.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-sbs001-en-hc-20261119.jpg",
+          "sha256": "87de7ecbfafdafcee298ffb5e21fe1baaf6730b90a6ba55b96e9e4a338a5357e"
+        },
+        {
+          "path": "src/assets/images/cover-sbs001-en-hc-20261119.webp",
+          "sha256": "ac9334b1eb0847c5d08a26d617500a9e1ab312acab782518472a0a5f63f05cca"
+        },
+        {
+          "path": "src/assets/images/back-sbs001-en-hc-20261119.jpg",
+          "sha256": "4a789fa90a8f9171644fdde3f8e7cc6c6f010218ffe11e6419aa4f391138660c"
+        },
+        {
+          "path": "src/assets/images/back-sbs001-en-hc-20261119.webp",
+          "sha256": "38ecfca777e07b43b625656f0dba6ef73ba58099d17f1507b0603a9849b0d2b1"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052405",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "SBS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Forty Years in Canada (Illustrated)",
+              "isbn13": "978-3-67605-240-5",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "LIVE"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052412",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "SBS_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Forty Years in Canada (Illustrated)",
+              "isbn13": "978-3-67605-241-2",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "EINGEREICHT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-21",
+        "source": "AETERNUS Buchregister; approved SBS_001 Ingram hardcover revision package",
+        "package_preflight_sha256": "c74406ff0a8cd2d66e04db3ccb7460cf9621ce071020b2d82dd4a82dee085da0",
+        "availability": "AVAILABLE",
+        "retail_links": "None verified. Ingram paperback LIVE; revised hardcover EINGEREICHT."
       }
     },
     {

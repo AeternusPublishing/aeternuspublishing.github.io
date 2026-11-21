@@ -1353,7 +1353,7 @@ module.exports.push({
   "dates": "1847–1920",
   "seriesClass": "series-green",
   "preview": true,
-  "previewStatus": "Paperback, hardcover and Kindle forthcoming &middot; ordering links to follow",
+  "previewStatus": "Paperback, hardcover and Kindle",
   "sampleLabel": "About this edition",
   "portrait": {
     "file": "",
@@ -1408,7 +1408,7 @@ module.exports.push({
     ],
     [
       "Formats",
-      "Paperback · Hardcover · Kindle (forthcoming)"
+      "Paperback · Hardcover · Kindle"
     ]
   ],
   "worksKicker": "The AETERNUS editions",
@@ -1507,7 +1507,7 @@ module.exports.push({
   "dates": "1836–1905",
   "seriesClass": "series-green",
   "preview": true,
-  "previewStatus": "Paperback, hardcover and Kindle forthcoming · ordering links to follow",
+  "previewStatus": "Paperback, hardcover and Kindle",
   "sampleLabel": "About this edition",
   "portrait": {
     "file": "portrait-wilson",

@@ -2514,7 +2514,7 @@
       },
       "author": "Charles Metcalfe MacGregor",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm002-en-v12-20261027.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm002-en-hc-v8-20261120.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-wanderings-in-balochistan/",
         "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-wanderings-in-balochistan/"
@@ -2533,7 +2533,7 @@
       },
       "author": "Charles Metcalfe MacGregor",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm001-en-v6-20261104.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-cmm001-en-v7e-20261119.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/",
         "en": "https://aeternuspublishing.com/books/en-charles-metcalfe-macgregor-the-defence-of-india/"
@@ -2769,6 +2769,25 @@
       "summary": {
         "de": "",
         "en": "Steevens’s first-hand account of the Anglo-Egyptian advance to the Atbara and Omdurman in 1898, with the maps of the original and a historical apparatus."
+      }
+    },
+    {
+      "id": "book:en-samuel-benfield-steele-forty-years-in-canada",
+      "type": "book",
+      "label": {
+        "de": "Forty Years in Canada (Illustrated)",
+        "en": "Forty Years in Canada (Illustrated)"
+      },
+      "author": "Samuel Benfield Steele",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-sbs001-en-hc-20261119.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-samuel-benfield-steele-forty-years-in-canada/",
+        "en": "https://aeternuspublishing.com/books/en-samuel-benfield-steele-forty-years-in-canada/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Samuel Benfield Steele’s memoir of the Canadian West, from the March West to the Klondike Gold Rush."
       }
     },
     {
@@ -3501,6 +3520,14 @@
       }
     },
     {
+      "id": "author:Samuel Benfield Steele",
+      "type": "author",
+      "label": {
+        "de": "Samuel Benfield Steele",
+        "en": "Samuel Benfield Steele"
+      }
+    },
+    {
       "id": "author:George Rutledge Gibson",
       "type": "author",
       "label": {
@@ -4106,6 +4133,11 @@
     },
     {
       "source": "book:en-george-warrington-steevens-with-kitchener-to-khartum-annotated",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-samuel-benfield-steele-forty-years-in-canada",
       "target": "series:gruen",
       "type": "series"
     },
@@ -5048,6 +5080,11 @@
     {
       "source": "book:en-george-warrington-steevens-with-kitchener-to-khartum-annotated",
       "target": "author:George Warrington Steevens",
+      "type": "author"
+    },
+    {
+      "source": "book:en-samuel-benfield-steele-forty-years-in-canada",
+      "target": "author:Samuel Benfield Steele",
       "type": "author"
     },
     {
