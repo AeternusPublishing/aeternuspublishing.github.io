@@ -4,7 +4,7 @@ const author = {
   slug, name: 'Frederick Sleigh Roberts', dates: '1832–1914', brandOnly: true,
   eyebrow: 'GREEN SERIES · AETERNUS',
   tagline: 'From the Bengal Artillery to command in India.',
-  metaDescription: 'Frederick Sleigh Roberts and Forty-One Years in India. Two forthcoming English volumes in the AETERNUS Green Series.',
+  metaDescription: 'Frederick Sleigh Roberts and Forty-One Years in India. Two English volumes in the AETERNUS Green Series.',
   portrait: { modern: false }, blocks: []
 };
 const subtitles = [

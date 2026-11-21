@@ -277,8 +277,9 @@ const gst001 = require('./gst001-en-20261119.json');
 authorsEn.push(gst001.author);
 englishBooks.push(gst001.book);
 
-// SBS_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
+// SBS_001: English edition and its author-world QR target.
 authorsEn.push(require('./sbs001-author-20261102.cjs'));
+englishBooks.push(require('./sbs001-en-20261121.json'));
 
 // HCR_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./hcr001-author-20261103.cjs'));
@@ -304,6 +305,12 @@ authorsEn.push(require('./wep001-author.cjs'));
 require('./retail-state.cjs').apply(englishBooks);
 const coverSync = require('./cover-sync-20261118.json');
 for (const book of englishBooks) if (coverSync[book.id]) Object.assign(book, coverSync[book.id]);
+const coverRelaunchWorks = new Set(['CMM_001', 'CMM_002', 'SBS_001', 'FSR_001', 'IH_001', 'JDU_001']);
+for (const book of englishBooks) {
+  if (!coverRelaunchWorks.has(book.work_id) && book.author !== 'joshua-duke') continue;
+  book.hideAvailabilityTeaser = true;
+  if (book.cardStatus && /forthcoming/i.test(book.cardStatus)) delete book.cardStatus;
+}
 const collectionArchitecture = collectionModel.bind(englishBooks, german.books, series);
 
 function directShopUrl(book, language, settings = commerce) {

@@ -28,7 +28,7 @@
     "hardcover": {
       "label": "Hardcover · IngramSpark",
       "isbn": "9783676052382",
-      "pages": 800,
+      "pages": 810,
       "platform": "IngramSpark",
       "status": "EINGEREICHT",
       "price_display": "US list price $49.99",
@@ -48,7 +48,7 @@
     {
       "label": "Hardcover · IngramSpark",
       "isbn": "9783676052382",
-      "pages": 800,
+      "pages": 810,
       "platform": "IngramSpark",
       "status": "EINGEREICHT",
       "price_display": "US list price $49.99",
@@ -71,7 +71,8 @@
     "Glossary concordance and editorial note",
     "Documented author biography"
   ],
-  "cover": "/assets/images/cover-cmm001-en-v6-20261104.jpg",
+  "cover": "/assets/images/cover-cmm001-en-v7e-20261119.jpg",
+  "coverWebp": "/assets/images/cover-cmm001-en-v7e-20261119.webp",
   "first_published": "Confidential printing, Simla, 1884",
   "publication_date": null,
   "availability": "COMING_SOON",
@@ -110,5 +111,6 @@
     "hardcover_platform_id": "CSS9797563",
     "availability_rule": "COMING_SOON until LIVE observed per platform; paperback pricing blocked, hardcover submitted."
   },
-  "backcover": "/assets/images/back-cmm001-en-v6-20261104.jpg"
+  "backcover": "/assets/images/back-cmm001-en-v7e-20261119.jpg",
+  "backcoverWebp": "/assets/images/back-cmm001-en-v7e-20261119.webp"
 }

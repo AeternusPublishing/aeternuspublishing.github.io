@@ -70,6 +70,7 @@ const definitions = [
       'en-robert-mcclure-the-discovery-of-the-north-west-passage',
       'en-john-franklin-narrative-of-a-journey-to-the-shores-of-the-polar-sea',
       'en-charles-metcalfe-macgregor-wanderings-in-balochistan',
+      'en-samuel-benfield-steele-forty-years-in-canada',
       'en-melliss-lion-hunting-in-somali-land-annotated'
     ]
   }
@@ -101,7 +102,8 @@ function bind(englishBooks, germanBooks, series) {
     if (definition.public && !books.length && !publishedGerman.length) throw new Error(`Empty public collection: ${definition.id}`);
     return { ...definition, books, publishedGerman,
       publishedBooks: books.filter(book => book.availability === 'AVAILABLE'),
-      forthcomingBooks: books.filter(book => book.availability !== 'AVAILABLE') };
+      catalogueBooks: books.filter(book => book.availability !== 'AVAILABLE' && book.hideAvailabilityTeaser),
+      forthcomingBooks: books.filter(book => book.availability !== 'AVAILABLE' && !book.hideAvailabilityTeaser) };
   });
   for (const book of englishBooks) {
     const collection = collections.find(item => item.books.includes(book)) ||

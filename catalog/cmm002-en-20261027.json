@@ -91,7 +91,7 @@
     "Selected original illustrations and views then and now",
     "Glossary and place-name concordance"
   ],
-  "cover": "/assets/images/cover-cmm002-en-v12-20261027.jpg",
+  "cover": "/assets/images/cover-cmm002-en-hc-v8-20261120.jpg",
   "first_published": "W. H. Allen & Co., London, 1882",
   "publication_date": null,
   "availability": "COMING_SOON",
@@ -123,11 +123,18 @@
     }
   },
   "provenance": "CMM_002/07_PAKETE/FINAL_V12_20261027/METADATEN/KDP_PAPERBACK.json",
-  "cover_sha256": "d6ec387e3d6460c8e4de6649f4c0289ee43f38cf84bc325cc6ca181e95912951",
+  "cover_sha256": "15d763e860a9db8cf01b92ff64fbea80028944788dcc4d9e59971a4ea5499cd2",
   "upload_package": {
     "name": "FINAL_V12_20261027",
     "preflight_sha256": "7d49b2384485977ec535a9b5bdec8453ca43e65298292b9577d44d4ce40235fc",
     "paperback_platform_id": "CSS9776495",
     "availability_rule": "COMING_SOON until LIVE observed per platform; Ingram paperback upload blocked by font validation."
+  },
+  "coverWebp": "/assets/images/cover-cmm002-en-hc-v8-20261120.webp",
+  "backcover": "/assets/images/back-cmm002-en-hc-v8-20261120.jpg",
+  "backcoverWebp": "/assets/images/back-cmm002-en-hc-v8-20261120.webp",
+  "cover_revision": {
+    "package": "UPLOADPAKET_CMM002_EN_INGRAM_HC_TITULATUR_V8_20261120",
+    "preflight_sha256": "4a3c46e05571233166736cba70e8ffc8a469d06e7c948a8ec53674f87e31b66e"
   }
 }
