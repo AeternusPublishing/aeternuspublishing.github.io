@@ -280,6 +280,7 @@ englishBooks.push(gst001.book);
 // SBS_001: English edition and its author-world QR target.
 authorsEn.push(require('./sbs001-author-20261102.cjs'));
 englishBooks.push(require('./sbs001-en-20261121.json'));
+englishBooks.push(require('./fs001-en-20261121.json'));
 
 // HCR_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./hcr001-author-20261103.cjs'));

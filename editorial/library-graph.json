@@ -2791,6 +2791,25 @@
       }
     },
     {
+      "id": "book:en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan",
+      "type": "book",
+      "label": {
+        "de": "A Journal of the Disasters in Affghanistan (Illustrated)",
+        "en": "A Journal of the Disasters in Affghanistan (Illustrated)"
+      },
+      "author": "Lady Florentia Sale",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-fs001-en-v7c-20261121.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan/",
+        "en": "https://aeternuspublishing.com/books/en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Florentia Sale records the retreat from Kabul and the months of captivity that followed in this illustrated edition of her 1843 journal."
+      }
+    },
+    {
       "id": "book:en-george-rutledge-gibson-stock-exchanges",
       "type": "book",
       "label": {
@@ -4142,6 +4161,11 @@
       "type": "series"
     },
     {
+      "source": "book:en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan",
+      "target": "series:gruen",
+      "type": "series"
+    },
+    {
       "source": "book:en-george-rutledge-gibson-stock-exchanges",
       "target": "series:blau",
       "type": "series"
@@ -5085,6 +5109,11 @@
     {
       "source": "book:en-samuel-benfield-steele-forty-years-in-canada",
       "target": "author:Samuel Benfield Steele",
+      "type": "author"
+    },
+    {
+      "source": "book:en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan",
+      "target": "author:Lady Florentia Sale",
       "type": "author"
     },
     {

@@ -1,0 +1,96 @@
+{
+  "id": "en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan",
+  "work_id": "FS_001",
+  "language": "en",
+  "title": "A Journal of the Disasters in Affghanistan (Illustrated)",
+  "subtitle": "1841–1842",
+  "author": "lady-florentia-sale",
+  "authorName": "Lady Florentia Sale",
+  "contributors": [],
+  "series": "gruen",
+  "series_number": null,
+  "original_title": "A Journal of the Disasters in Affghanistan",
+  "original_publication_year": 1843,
+  "isbn": {
+    "paperback": "9783676052924",
+    "hardcover": "9783676052931",
+    "ebook": "9783676052948"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052924",
+      "pages": 360,
+      "platform": "IngramSpark",
+      "status": "FREIGEGEBEN",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052931",
+      "pages": 360,
+      "platform": "IngramSpark",
+      "status": "FREIGEGEBEN",
+      "links": []
+    },
+    "ebook": {
+      "label": "Kindle eBook · KDP",
+      "isbn": "9783676052948",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052924",
+      "pages": 360,
+      "platform": "IngramSpark",
+      "status": "FREIGEGEBEN",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052931",
+      "pages": 360,
+      "platform": "IngramSpark",
+      "status": "FREIGEGEBEN",
+      "links": []
+    },
+    {
+      "label": "Kindle eBook · KDP",
+      "isbn": "9783676052948",
+      "platform": "KDP",
+      "status": "FREIGEGEBEN",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "Florentia Sale records the retreat from Kabul and the months of captivity that followed in this illustrated edition of her 1843 journal."
+  },
+  "publisherDescriptionHTML": "<ul><li>Illustrated</li><li>Map</li><li>Glossary</li><li>Dramatis Personae</li><li>Order of Battle</li></ul><p>Kabul, winter 1841. A British garrison lies in an open cantonment below a city in revolt, at the end of a line of supply that runs back through the passes to India. Its commander hesitates. Its Envoy is murdered at a parley. Its council accepts terms of retreat.</p><p>Florentia, Lady Sale, wife of the officer holding Jalalabad, recorded all of it, frequently hour by hour: the rumours and their contradictions, the stores lost, the councils that talked while the hills filled with armed men. In January 1842 she marched out with the column, rode through the Khurd Kabul Pass under fire, took a ball in the arm and saw her son-in-law mortally wounded. The column was destroyed on the road to Gandamak. She spent the next eight months as a hostage of Akbar Khan, an adversary to whom she gave his due and whom she never forgave the Envoy’s death, until her release in September 1842.</p><p>Published by John Murray in 1843, her journal remains one of the sharpest eyewitness accounts of the First Afghan War: dry, exact, impatient with indecision, and unsparing about conduct.</p><p>This AETERNUS edition reproduces the 1843 London text verbatim, with a portrait of the author, thirteen plates, a map of the retreat, a glossary, a dramatis personae and an order of battle.</p>",
+  "cover": "/assets/images/cover-fs001-en-v7c-20261121.jpg",
+  "coverWebp": "/assets/images/cover-fs001-en-v7c-20261121.webp",
+  "backcover": "/assets/images/back-fs001-en-v7c-20261121.jpg",
+  "backcoverWebp": "/assets/images/back-fs001-en-v7c-20261121.webp",
+  "first_published": "1843",
+  "availability": "COMING_SOON",
+  "hideAvailabilityTeaser": true,
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "FREIGEGEBEN",
+    "amazon": "FREIGEGEBEN"
+  },
+  "url": "/books/en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan/",
+  "authorUrl": "/authors/lady-florentia-sale/",
+  "seriesName": "GREEN SERIES",
+  "seriesColor": "#323817",
+  "brandOnly": true,
+  "provenance": "FS_001 EN Ingram V7C; paperback cover SHA-256 89279d1de528867b20caaace4eb0804f6ca8f800e6e554301cf25b5000b710a5"
+}

@@ -8562,6 +8562,121 @@
         "sha256": "d75a1f4fa8827aeef0b26a953037343b95e3a06e57e26424da0e7b4175708815",
         "preflight_sha256": "5178a3d9de1cdfdb6b3a085905378d0a595dfd099a4e6f7b80452f7575461116"
       }
+    },
+    {
+      "site": "en",
+      "id": "en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan",
+      "url": "/books/en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan/",
+      "title": "A Journal of the Disasters in Affghanistan (Illustrated)",
+      "language": "en",
+      "primary_isbn13": "9783676052924",
+      "front_url": "/assets/images/cover-fs001-en-v7c-20261121.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-fs001-en-v7c-20261121.jpg",
+          "sha256": "216104613d279bb2e2ca89b84c0ca58aa56b7fa27a030a2012947e068499321f"
+        },
+        {
+          "path": "src/assets/images/cover-fs001-en-v7c-20261121.webp",
+          "sha256": "e61be028a364eac55c78570b038cfe35a826bbc972f73f1a5ba546e65592c91c"
+        },
+        {
+          "path": "src/assets/images/back-fs001-en-v7c-20261121.jpg",
+          "sha256": "aa1f81f03fb98d580f84b499e1e598c32d172a4fbed5cb40486dd7b265414187"
+        },
+        {
+          "path": "src/assets/images/back-fs001-en-v7c-20261121.webp",
+          "sha256": "973653ac26e66f8646b77cb6ac38dce4afa44fb2db86331e4ee4bff5833a38bd"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback · IngramSpark",
+          "isbn13": "9783676052924",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-292-4",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "FREIGEGEBEN"
+            },
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-292-4",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover · IngramSpark",
+          "isbn13": "9783676052931",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-293-1",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "FREIGEGEBEN"
+            },
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-293-1",
+              "asin": null,
+              "manifestation": "kdp_hardcover",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook · KDP",
+          "isbn13": "9783676052948",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-294-8",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-21",
+        "source": "AETERNUS Buchregister, FS_LADY_FLORENTIA_SALE / FS_001 EN; approved Ingram V7C",
+        "package_preflight_sha256": "927f243b9aea34ef628d3ae6ecdc44655a94a87679d0cd8ff8a6f3e1b22525d9",
+        "availability": "COMING_SOON",
+        "retail_links": "None verified; FREIGEGEBEN, no LIVE observation."
+      }
     }
   ],
   "additional_pages": [
