@@ -13,27 +13,21 @@ const failures = [];
 const hash = value => crypto.createHash('sha256').update(value).digest('hex');
 const baseline = require('../tests/international/legacy-baseline.json');
 function check(name, fn) {try {fn(); console.log('PASS',name);} catch(e) {failures.push(name+': '+e.message); console.error('FAIL',name,e.message);}}
-check('existing German data compatibility', () => {
-  const current=require('../src/_data/catalogue.js');
-  assert.equal(hash(JSON.stringify(current)),baseline.catalogue_sha256, 'German catalogue differs from baseline');
-});
-check('German build is byte-identical', () => {
-  const after=path.join(root,'work/de-after');
-  assert(Object.keys(baseline.html).length>100);
-  for(const [file,digest] of Object.entries(baseline.html)) assert.equal(hash(fs.readFileSync(path.join(after,file))),digest,file);
-  assert.equal(walk(after).filter(f=>f.endsWith('.html')).length,Object.keys(baseline.html).length);
-});
+// Die beiden Vergleiche gegen tests/international/legacy-baseline.json sicherten nur die Umstellung auf den
+// internationalen Bau (DE byte-gleich zum Stand davor). Seitdem aendert sich die deutsche Seite gewollt; die
+// Basis ist veraltet. Welle 4 (decision_website_welle4_qualitaetsgate_drei_stufen_mergesperre_lokaler_deploy_20261122)
+// ersetzt sie durch die Sperrklinke scripts/check-quality-ratchet.cjs. Die Basis bleibt fuer die Weiterleitungspruefung.
 check('catalogue IDs, language and series', () => {
   const schema=require('../catalog/schemas/book.schema.json');
   assert.equal(catalog.series.length,7);
   const ids=new Set();
   for(const b of catalog.englishBooks) {
-    for(const field of schema.required) assert(Object.hasOwn(b,field),field);
-    if(b.publication_date!==null) assert(/^\d{4}-\d{2}-\d{2}$/.test(b.publication_date)&&new Date(b.publication_date).toISOString().slice(0,10)===b.publication_date);
+    // Fehlende Pflichtfelder zaehlt die Sperrklinke (bekannte Luecken eingefroren, neue sperren).
+    if(b.publication_date!=null) assert(/^\d{4}-\d{2}-\d{2}$/.test(b.publication_date)&&new Date(b.publication_date).toISOString().slice(0,10)===b.publication_date);
     assert(!ids.has(b.id),b.id);ids.add(b.id);
     assert.equal(b.language,'en');assert(catalog.series.some(s=>s.id===b.series));
-    assert(!['henry-ford','lady-florentia-sale'].includes(b.author));
-    if (b.author === 'robert-baden-powell') assert(['BP_002', 'BP_009'].includes(b.work_id));
+    assert(!['henry-ford'].includes(b.author)); // Lady Sale EN seit PR #244 (21.11.2026) im Katalog
+    if (b.author === 'robert-baden-powell') assert(['BP_002', 'BP_005', 'BP_009'].includes(b.work_id)); // BP_005 EN seit PR #218 (16.11.2026)
     assert.equal(catalog.directShopUrl(b,'en'),null);
   }
 });

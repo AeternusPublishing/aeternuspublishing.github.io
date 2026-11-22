@@ -43,9 +43,9 @@ for (const book of catalogue.books) {
   for (const item of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) assert.equal(JSON.parse(item[1])["@type"], "Book");
 }
 const monarch = catalogue.books.find(b => b.id === "monarch");
-// Seit 2026-09-21 fuehrt Monarch den Direktweg zum Taschenbuch statt einer ISBN-Suche;
-// die Regel prueft jetzt, dass der Kaufweg auf genau diese Bindung zeigt.
-assert(monarch.amazon.endsWith("/dp/391288336X"), "Monarch must link the paperback directly");
+// Seit 2026-09-21 fuehrt Monarch einen Direktweg statt einer ISBN-Suche. Seit c0b5bc9 (20.10.2026,
+// Audit der Ausgabenidentitaeten) zeigt er auf das Hardcover; die Regel prueft genau diese Bindung.
+assert(monarch.amazon.endsWith("/dp/3912883378"), "Monarch must link the hardcover directly");
 assert(monarch.searchIsbns.includes("978-3-912883-36-7"));
 assert(sample.paragraphs.length >= 4 && sample.paragraphs.join(" ").length > 2000, "Real reading sample required");
 const reader = read("/buecher/wilde-tiere-die-ich-kannte/");
