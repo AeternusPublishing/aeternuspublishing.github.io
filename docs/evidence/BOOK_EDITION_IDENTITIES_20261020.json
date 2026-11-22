@@ -7880,15 +7880,15 @@
       "title": "Forty Years in Canada (Illustrated)",
       "language": "en",
       "primary_isbn13": "9783676052405",
-      "front_url": "/assets/images/cover-sbs001-en-hc-20261119.jpg",
+      "front_url": "/assets/images/cover-sbs001-en-v19c-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-sbs001-en-hc-20261119.jpg",
-          "sha256": "87de7ecbfafdafcee298ffb5e21fe1baaf6730b90a6ba55b96e9e4a338a5357e"
+          "path": "src/assets/images/cover-sbs001-en-v19c-20261122.jpg",
+          "sha256": "48521b4a44edd6611abec212daaf1a98b891f67e6641fe47cc7fcb009987c6a4"
         },
         {
-          "path": "src/assets/images/cover-sbs001-en-hc-20261119.webp",
-          "sha256": "ac9334b1eb0847c5d08a26d617500a9e1ab312acab782518472a0a5f63f05cca"
+          "path": "src/assets/images/cover-sbs001-en-v19c-20261122.webp",
+          "sha256": "0d8781cc4f48165894f3d9c608fabb4fa7a6e929978074d12a0c4a15fd4dbc8f"
         },
         {
           "path": "src/assets/images/back-sbs001-en-hc-20261119.jpg",
@@ -7986,6 +7986,32 @@
         "date": "20261122",
         "evidence": "catalog/retail-state-20261122.json",
         "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
+      },
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-sbs001-en-hc-20261119.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-sbs001-en-hc-20261119.jpg",
+            "sha256": "87de7ecbfafdafcee298ffb5e21fe1baaf6730b90a6ba55b96e9e4a338a5357e"
+          },
+          {
+            "path": "src/assets/images/cover-sbs001-en-hc-20261119.webp",
+            "sha256": "ac9334b1eb0847c5d08a26d617500a9e1ab312acab782518472a0a5f63f05cca"
+          },
+          {
+            "path": "src/assets/images/back-sbs001-en-hc-20261119.jpg",
+            "sha256": "4a789fa90a8f9171644fdde3f8e7cc6c6f010218ffe11e6419aa4f391138660c"
+          },
+          {
+            "path": "src/assets/images/back-sbs001-en-hc-20261119.webp",
+            "sha256": "38ecfca777e07b43b625656f0dba6ef73ba58099d17f1507b0603a9849b0d2b1"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
       }
     },
     {
