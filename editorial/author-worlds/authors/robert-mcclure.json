@@ -75,6 +75,22 @@
     ]
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-robert-mcclure-20261122.webp",
+    "caption": {
+      "en": "Sir Robert McClure in Arctic clothing, 1855.",
+      "de": "Sir Robert McClure in arktischer Kleidung, 1855."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_portraetsuche_7_autoren_freigegeben_keine_karikaturen_20261122",
+      "sha256": "6f5b887738938eec47a41ea13d4e32e486600582996e5666031a9745755bbd81"
+    },
+    "rights": "Oil painting by Stephen Pearce (1819–1904), 1855. Public domain. Faithful reproduction of a two-dimensional public-domain work; no new copyright arises (Art. 14 Directive (EU) 2019/790, § 68 UrhG). The NPG formerly claimed rights in the reproduction.",
+    "provenance": "https://commons.wikimedia.org/wiki/File:Sir_Robert_McClure_by_Stephen_Pearce.jpg (retrieved 2026-11-22); National Portrait Gallery, London, NPG 1210 (Wikidata Q28050061).",
+    "processing": "Source file robert-mcclure_commons960.jpg (sha256 e560f52b36b903aa63fe8b40e10912690828c779a46426042bf1e03cdb8cda28, 960x1219) converted to WebP (quality 88, longest side at most 1400 px, 960x1219). No crop, colouring, retouching or generative change."
+  },
+  "previous_image": {
     "status": "omitted",
     "reason": "No colour portrait with documented reuse authority was commissioned for this page."
   },

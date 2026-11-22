@@ -1,0 +1,146 @@
+{
+ "schema": "AETERNUS_WEB_PORTRAIT_SEARCH_V1",
+ "date": "2026-11-22",
+ "decision": "decision_website_portraetsuche_7_autoren_freigegeben_keine_karikaturen_20261122",
+ "contact_sheet": "PORTRAETSUCHE_BOGEN.jpg (10 candidates for 8 authors)",
+ "approved": [
+  {
+   "slug": "george-robert-gleig",
+   "caption": {
+    "en": "George Robert Gleig, 1836.",
+    "de": "George Robert Gleig, 1836."
+   },
+   "rights": "Lithograph by William Drummond after Eden Upton Eddis, published by Thomas McLean, London, 1836 (Athenaeum Portraits). Public domain. Faithful reproduction of a two-dimensional public-domain work; no new copyright arises (Art. 14 Directive (EU) 2019/790, § 68 UrhG).",
+   "provenance": "British Museum 1865,0610.1207 (https://www.britishmuseum.org/collection/object/P_1865-0610-1207).",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Athenaeum_Portraits_(BM_1865,0610.1207).jpg",
+   "source_file": "george-robert-gleig_commons960.jpg",
+   "source_sha256": "2a50bd9d24177d180ffa4c6e2dab11f834765a0f3f560735e1d1276b51d7ae74",
+   "source_kind": "commons-thumbnail-960",
+   "source_download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Athenaeum_Portraits_%28BM_1865%2C0610.1207%29.jpg/960px-Athenaeum_Portraits_%28BM_1865%2C0610.1207%29.jpg",
+   "commons_sha1_original": "1dfcd804bdacde59e69a2d2aa34caec9f1763560",
+   "commons_sha1_match": null
+  },
+  {
+   "slug": "charles-dickens",
+   "caption": {
+    "en": "Charles Dickens in his study, 1859.",
+    "de": "Charles Dickens in seinem Arbeitszimmer, 1859."
+   },
+   "rights": "Oil painting by William Powell Frith (1819–1909), 1859. Public domain. Faithful reproduction of a two-dimensional public-domain work; no new copyright arises (Art. 14 Directive (EU) 2019/790, § 68 UrhG).",
+   "provenance": "Victoria and Albert Museum (https://collections.vam.ac.uk/item/O17333/charles-dickens-oil-painting-frith-william-powell/).",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Charles_Dickens_by_Frith_1859_(2).jpg",
+   "source_file": "charles-dickens_commons960.jpg",
+   "source_sha256": "3ebfec4fa03d2adcb09e0bbae4852e7a2d8d6d4815314e442176b5eeaf717202",
+   "source_kind": "commons-thumbnail-960",
+   "source_download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Charles_Dickens_by_Frith_1859_%282%29.jpg/960px-Charles_Dickens_by_Frith_1859_%282%29.jpg",
+   "commons_sha1_original": "85fcfe6abdd3a0c3d86fd29af2a43c13846ce81c",
+   "commons_sha1_match": null
+  },
+  {
+   "slug": "robert-mcclure",
+   "caption": {
+    "en": "Sir Robert McClure in Arctic clothing, 1855.",
+    "de": "Sir Robert McClure in arktischer Kleidung, 1855."
+   },
+   "rights": "Oil painting by Stephen Pearce (1819–1904), 1855. Public domain. Faithful reproduction of a two-dimensional public-domain work; no new copyright arises (Art. 14 Directive (EU) 2019/790, § 68 UrhG). The NPG formerly claimed rights in the reproduction.",
+   "provenance": "National Portrait Gallery, London, NPG 1210 (Wikidata Q28050061).",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sir_Robert_McClure_by_Stephen_Pearce.jpg",
+   "source_file": "robert-mcclure_commons960.jpg",
+   "source_sha256": "e560f52b36b903aa63fe8b40e10912690828c779a46426042bf1e03cdb8cda28",
+   "source_kind": "commons-thumbnail-960",
+   "source_download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Sir_Robert_McClure_by_Stephen_Pearce.jpg/960px-Sir_Robert_McClure_by_Stephen_Pearce.jpg",
+   "commons_sha1_original": "a1062909a9a611c12a384a8572ee778965589d07",
+   "commons_sha1_match": null
+  },
+  {
+   "slug": "john-franklin",
+   "caption": {
+    "en": "Sir John Franklin in uniform, 1845.",
+    "de": "Sir John Franklin in Uniform, 1845."
+   },
+   "rights": "Daguerreotype taken in 1845 before the last expedition; photographer not named in the source. Public domain (more than 180 years old, author unknown).",
+   "provenance": "Commons source: Maritime Greenwich Souvenir Guide, London 1993 (photograph of the printed reproduction).",
+   "source_url": "https://commons.wikimedia.org/wiki/File:John_Franklin_1845.JPG",
+   "source_file": "john-franklin_commons960.jpg",
+   "source_sha256": "a94e32a9e21d184aacdbd8e6a36624db1f8cebb3170a1458f0dbec233ec07925",
+   "source_kind": "commons-thumbnail-960",
+   "source_download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/John_Franklin_1845.JPG/960px-John_Franklin_1845.JPG",
+   "commons_sha1_original": "7149bbd30438a52133d226e3127506ff33e46dcb",
+   "commons_sha1_match": null
+  },
+  {
+   "slug": "washington-irving",
+   "caption": {
+    "en": "Washington Irving, late 1850s.",
+    "de": "Washington Irving, späte 1850er Jahre."
+   },
+   "rights": "Copy daguerreotype by Mathew Brady (1861) after an original by John Plumbe, dated by the source between 1855 and 1860 (Irving died in 1859). Public domain.",
+   "provenance": "Library of Congress Prints and Photographs Division, cph.3a07639 (another version cph.3c10044, LC-USZ62-4238); cropped Commons version.",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Irving-Washington-LOC_(cropped).jpg",
+   "source_file": "washington-irving_commons960.jpg",
+   "source_sha256": "6d8b3826fa5f1cb51a89070e577cb4934ea4bb0a043d4dcea1e5426e51b07b8c",
+   "source_kind": "commons-thumbnail-960",
+   "source_download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Irving-Washington-LOC_%28cropped%29.jpg/960px-Irving-Washington-LOC_%28cropped%29.jpg",
+   "commons_sha1_original": "e2c841adfff064cbe63f5568bee88b640d7c3935",
+   "commons_sha1_match": null
+  },
+  {
+   "slug": "parry",
+   "caption": {
+    "en": "William Edward Parry, c. 1820.",
+    "de": "William Edward Parry, um 1820."
+   },
+   "rights": "Oil painting by Samuel Drummond (1765–1844); engraved 1820 (NPG), dated before 1820 by Art UK and 1820 by Wikidata. Public domain. Faithful reproduction of a two-dimensional public-domain work; no new copyright arises (Art. 14 Directive (EU) 2019/790, § 68 UrhG). The NPG formerly claimed rights in the reproduction.",
+   "provenance": "National Portrait Gallery, London, NPG 5053 (Wikidata Q28048847).",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Sir_William_Edward_Parry_by_Samuel_Drummond.jpg",
+   "source_file": "parry_commons960.jpg",
+   "source_sha256": "c85b57cc157fd99107bf18433e389208bd87fa7e214f78fedb236de27e5389c5",
+   "source_kind": "commons-thumbnail-960",
+   "source_download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sir_William_Edward_Parry_by_Samuel_Drummond.jpg/960px-Sir_William_Edward_Parry_by_Samuel_Drummond.jpg",
+   "commons_sha1_original": "5d7f4ea3d5cf43366800721a47aa44d247fb6f34",
+   "commons_sha1_match": null
+  },
+  {
+   "slug": "george-rutledge-gibson",
+   "caption": {
+    "en": "George Rutledge Gibson, 1888.",
+    "de": "George Rutledge Gibson, 1888."
+   },
+   "rights": "Engraving signed by the draughtsman, published in The Cosmopolitan, vol. 5 no. 3, May 1888, p. 242, caption “GEORGE R. GIBSON”. Public domain (published in the United States in 1888).",
+   "provenance": "Internet Archive page sim_cosmopolitan_1888-05_5_3_0071.jp2 (sha256 e6a7c1b9…); raw cut GIBSON_1888_COSMOPOLITAN_STICH_ROH.png (sha256 a2a9b107…, 940x1050).",
+   "processing_note": "House master GGI_001_GIBSON_1888_AUTORBILD_STRICH_V1.tif from RESTAURIERUNG_CODEX_20261104_V1: neighbouring text column removed and paper tone cleaned; no new detail, not generative.",
+   "source_url": "https://archive.org/details/sim_cosmopolitan_1888-05_5_3",
+   "source_file": "george-rutledge-gibson_hausmaster.tif",
+   "source_sha256": "db76dcbe9533ddbe88a633ee4def25ab0873a7b908aeb7f7ad65ccbebe62c043",
+   "source_kind": "house-master"
+  }
+ ],
+ "rejected": [
+  {
+   "slug": "henry-doveton-hutchinson",
+   "candidate": "Leslie Ward (Spy), Vanity Fair, 8 Sept 1904",
+   "reason": "Publisher: no caricatures as author portraits."
+  },
+  {
+   "slug": "charles-dickens",
+   "candidate": "Jeremiah Gurney & Son, 1867",
+   "reason": "Frith 1859 chosen."
+  },
+  {
+   "slug": "washington-irving",
+   "candidate": "attr. Charles Robert Leslie, c. 1820",
+   "reason": "Brady/Plumbe chosen."
+  },
+  {
+   "slug": "john-franklin",
+   "candidate": "Thomas Phillips, 1825",
+   "reason": "Only 557x685 px; daguerreotype chosen."
+  }
+ ],
+ "not_found": {
+  "joshua-duke": "FIBIS cites a National Army Museum photograph (negatives 3360/6198), not online: https://wiki.fibis.org/w/List_of_doctors_and_surgeons",
+  "napoleon-augustus-jennings": "Editions 1899 (Scribner's) and 1930 (Turner) carry no portrait: https://www.oupress.com/9780806129037/a-texas-ranger",
+  "richard-hartley-kennedy": "No portrait found: https://gracesguide.co.uk/Richard_Hartley_Kennedy",
+  "elihu-stewart": "Dossier: the publisher supplies the portrait; reference https://bac-lac.wayback.archive-it.org/web/20071115101801/http:/www.nrcan-rncan.gc.ca/com/deptmini/traipion/elihustewart-eng.php"
+ }
+}

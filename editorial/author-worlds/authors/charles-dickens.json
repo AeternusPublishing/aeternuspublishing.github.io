@@ -229,6 +229,22 @@
   "connections": [],
   "places": [],
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-charles-dickens-20261122.webp",
+    "caption": {
+      "en": "Charles Dickens in his study, 1859.",
+      "de": "Charles Dickens in seinem Arbeitszimmer, 1859."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_portraetsuche_7_autoren_freigegeben_keine_karikaturen_20261122",
+      "sha256": "166547850e13e4143d454ca7ef8af0f7686157ac7f9d07bace73a33fadc0fca2"
+    },
+    "rights": "Oil painting by William Powell Frith (1819–1909), 1859. Public domain. Faithful reproduction of a two-dimensional public-domain work; no new copyright arises (Art. 14 Directive (EU) 2019/790, § 68 UrhG).",
+    "provenance": "https://commons.wikimedia.org/wiki/File:Charles_Dickens_by_Frith_1859_(2).jpg (retrieved 2026-11-22); Victoria and Albert Museum (https://collections.vam.ac.uk/item/O17333/charles-dickens-oil-painting-frith-william-powell/).",
+    "processing": "Source file charles-dickens_commons960.jpg (sha256 3ebfec4fa03d2adcb09e0bbae4852e7a2d8d6d4815314e442176b5eeaf717202, 960x1202) converted to WebP (quality 88, longest side at most 1400 px, 960x1202). No crop, colouring, retouching or generative change."
+  },
+  "previous_image": {
     "status": "not-supplied",
     "reason": "No approved Dickens website portrait exists yet; the separate book reconstruction is not silently reused."
   },
