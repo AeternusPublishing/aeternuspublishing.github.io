@@ -101,6 +101,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-tappan-adney-coloured-20261122.webp",
+    "caption": {
+      "de": "Edwin Tappan Adney; digital koloriert",
+      "en": "Portrait of Edwin Tappan Adney; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "51c45c5a3d09ed0dbeef88eb525cddaaa6866e23a92c8f36a4478803a4593fc4"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-edwin-tappan-adney.webp. Colourised master tappan-adney_KOLORIERT_V1.png (sha256 2079077b6516a5176f912b6e5bb48f37bab414828e31c222728d583061237d32).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1112x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-edwin-tappan-adney.webp",
     "caption": {
       "de": "Edwin Tappan Adney",

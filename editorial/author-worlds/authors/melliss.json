@@ -264,6 +264,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-melliss-coloured-20261122.webp",
+    "caption": {
+      "de": "Charles John Melliss; digital koloriert",
+      "en": "Charles John Melliss; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "d22a9cbe8dbd341e3b926c73ce00063e4470235943000ab6d20a8a7cc04e1a5b"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/author-melliss-v2-20261015.jpg. Colourised master melliss_KOLORIERT_V2.png (sha256 4266582825eff02136d7ee30b25228cc510f49a55ad70f7c5107095cfa6d752c).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 924x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/author-melliss-v2-20261015.jpg",
     "caption": {
       "de": "Charles John Melliss",

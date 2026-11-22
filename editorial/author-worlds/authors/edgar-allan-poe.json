@@ -182,6 +182,22 @@
   "connections": [],
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-edgar-allan-poe-coloured-20261122.webp",
+    "caption": {
+      "de": "Edgar Allan Poe, Rekonstruktion nach einer Daguerreotypie, um 1849; digital koloriert",
+      "en": "Edgar Allan Poe, reconstructed from a daguerreotype of about 1849; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "07be3538ed9fbdb733829928cb98116c3dc2e2b43cbdf42e65de353368f96d82"
+    },
+    "rights": "Publisher expressly authorized reuse of this supplied book asset for the author page. No broader clearance of an unidentified online source is inferred.",
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-edgar-allan-poe-eap001.png. Colourised master edgar-allan-poe_KOLORIERT_V1.png (sha256 64ff29322cce759f9f8c56aa5acab79b8bb0e675049686b739acb204d3313e27).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1050x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-edgar-allan-poe-eap001.png",
     "caption": {
       "de": "Edgar Allan Poe, Rekonstruktion nach einer Daguerreotypie, um 1849",

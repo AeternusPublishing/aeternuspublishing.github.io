@@ -123,6 +123,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-james-j-hill-coloured-20261122.webp",
+    "caption": {
+      "de": "James J. Hill, historisches fotografisches Porträt; digital koloriert",
+      "en": "James J. Hill, photographic portrait from Famous Living Americans, 1914; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "d7f2e5080a464e62dae4475eae0e245298a866fa00bacee8d0d73e37780ad55c"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-hill.webp. Colourised master james-j-hill_KOLORIERT_V1.png (sha256 b25da271307202f0f72425e189ac5724bac425935b8086485fed37b006922746).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1006x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-hill.webp",
     "caption": {
       "de": "James J. Hill, historisches fotografisches Porträt",

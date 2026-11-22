@@ -111,6 +111,22 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-daniel-carter-beard-coloured-20261122.webp",
+    "caption": {
+      "de": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress; digital koloriert.",
+      "en": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "b917825f2ae4ca1e40b079382b2c74f44539ce852326462f905919601ad4f883"
+    },
+    "rights": "Library of Congress: no known restrictions on publication; src/assets/images/portrait-beard.source.json",
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-beard.webp; original source: https://www.loc.gov/pictures/item/2014708970/. Colourised master daniel-carter-beard_KOLORIERT_V1.png (sha256 f2c8d4e8f826f7d6314e74559a2e4fba0a09f8c50b63fb48086bc83d15faea07).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1006x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-beard.webp",
     "caption": {
       "de": "Daniel Carter Beard. Bain News Service; date not recorded. Library of Congress.",

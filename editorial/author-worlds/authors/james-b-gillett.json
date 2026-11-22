@@ -123,6 +123,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-james-b-gillett-coloured-20261122.webp",
+    "caption": {
+      "de": "James B. Gillett als Texas Ranger, historisches Autorenporträt; digital koloriert",
+      "en": "James B. Gillett as a Texas Ranger, historical author portrait; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "762942e57b837594aaaf8a3a4fde799b87746dc9e7748e809c288c9713ec81fc"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-gillett.webp. Colourised master james-b-gillett_KOLORIERT_V1.png (sha256 4f46b73544e969cc856997079615396667e883856b037fb70a50683b74eef494).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1092x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-gillett.webp",
     "caption": {
       "de": "James B. Gillett als Texas Ranger, historisches Autorenporträt",

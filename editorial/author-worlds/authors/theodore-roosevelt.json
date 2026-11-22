@@ -289,6 +289,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-theodore-roosevelt-coloured-20261122.webp",
+    "caption": {
+      "de": "Theodore Roosevelt nach dem Gemälde von Philip Alexius de László, 1908; digital koloriert",
+      "en": "Theodore Roosevelt, after the portrait by Philip Alexius de László, 1908; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "c500ee37377c383d4d575152de1a8f9682d5bd756da61285d5af204ecc8400e0"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-roosevelt.webp. Colourised master theodore-roosevelt_KOLORIERT_V1.png (sha256 375704c5a834547658c2dc2519c6d93dccef27590fadc2a4aeca8cffd5f7fd8b).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1006x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-roosevelt.webp",
     "caption": {
       "de": "Theodore Roosevelt nach dem Gemälde von Philip Alexius de László, 1908",

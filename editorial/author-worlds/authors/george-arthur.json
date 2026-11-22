@@ -94,6 +94,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-george-arthur-coloured-20261122.webp",
+    "caption": {
+      "de": "George Arthur; digital koloriert",
+      "en": "Photographic portrait of Sir George Arthur; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "db6430843d0f8084f99e2902c3deee2971edcaf3f2cd327c2504fda8ebd78788"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-george-arthur-bassano-1920.webp. Colourised master george-arthur_KOLORIERT_V1.png (sha256 4aadd1dda2de7d6fdcd11b3a8d08d027a6489a567e2ce0a379048518e09087b9).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1069x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-george-arthur-bassano-1920.webp",
     "caption": {
       "de": "George Arthur",

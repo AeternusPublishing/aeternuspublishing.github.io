@@ -300,6 +300,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-francis-younghusband-coloured-20261122.webp",
+    "caption": {
+      "de": "Francis Edward Younghusband; digital koloriert",
+      "en": "Sir Francis Younghusband, historical photographic portrait; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "134e44079984cb5f38ecbf5053114fe45cbb5a74505c372c8e9613427f317f41"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-younghusband.webp. Colourised master francis-younghusband_KOLORIERT_V1.png (sha256 0e9a92d200c73a9e1196c455c354391f13a906c8e9f26862a7b94151429fcc64).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1073x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-younghusband.webp",
     "caption": {
       "de": "Francis Edward Younghusband",

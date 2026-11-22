@@ -123,6 +123,22 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-james-hall-coloured-20261122.webp",
+    "caption": {
+      "de": "James Hall. J. C. Buttre nach J. O. Eaton, Frontispiz, 1857; digital koloriert.",
+      "en": "James Hall. J. C. Buttre after J. O. Eaton, frontispiece, 1857; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "90720d4bc23cf327ff7412e0bf7c7f3104fc89db77b2c5cd444fa474cf8efe3f"
+    },
+    "rights": "1857 engraving; Eaton died 1867, Buttre died 1893; copyright terms expired; source and derivation in portrait-hall.source.json",
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-hall.webp; original source: https://commons.wikimedia.org/wiki/File:James_Hall,_judge_and_writer.png. Colourised master james-hall_KOLORIERT_V1.png (sha256 a146c1b0043c6bd92cae28d6fae8112a225aa43d8d3530c66a4beabf5b293bd4).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1006x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-hall.webp",
     "caption": {
       "de": "James Hall. J. C. Buttre nach J. O. Eaton, Frontispiz, 1857.",
