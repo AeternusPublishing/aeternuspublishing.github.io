@@ -9,5 +9,11 @@
         "note": "Historical print after Thomas Phillips; no complete original-download and colour/right evidence secured. Not used."
       }
     ]
+  },
+  "winfield-scott": {
+    "status": "OFFEN",
+    "published": "mit Coverportraet (publisher-approved 22.11.2026)",
+    "reason": "Historical source and image class (painting, photograph or colourisation) of the cover portrait of WS_001 are not recorded in the work folder; the cover build ran in C:/_CB/WS001_R872_BAU2. Caption therefore names only the cover.",
+    "decision": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122"
   }
 }

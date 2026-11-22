@@ -20,7 +20,9 @@ Originalquelle und spätere Forschung nach Zweck wählen: Ernennungen und Orden 
 
 Der Kopf nennt den belegbaren vollständigen Namen, Lebensdaten mit erforderlicher Unsicherheit und gegebenenfalls Rang, Würde und Erwerbsjahr. Eine starke Eröffnung führt zum Leben. Danach stehen sofort die tatsächlich vorhandenen Bücher mit einer individuellen Brücke zum Werk.
 
-Der kompakte Überblick bleibt sichtbar. Die ausführliche Biografie, Chronologie, Schauplätze und Dokumente werden mit nativen `details` erschlossen. Geeignete Ehrungen erscheinen als ruhige Textgalerie; keine erfundenen Insignien. Drei bis fünf bedeutende Einträge sind ein guter Ausschnitt, aber eine einzelne belegte Ehrung darf allein stehen. Unterschiedliche Kategorien sichtbar benennen.
+Der kompakte Überblick bleibt sichtbar. Die ausführliche Biografie, Chronologie, Schauplätze und Dokumente werden mit nativen `details` erschlossen.
+
+**Englische Autorenseiten seit Welle 2 (22.11.2026):** Reiter statt Faltungen – Books · Life · Timeline · Honours · Places · Sources (leere Reiter entfallen), Porträt im Rahmen 4:5 ohne Legende im Kopf; die Bildlegende steht im Reiter Sources. Ohne JavaScript bleiben alle Abschnitte sichtbar. Die deutschen Seiten behalten die Faltungen. Porträt der Autorenseite ist das Porträt vom Umschlag, wo das Buch eines zeigt. Entscheidungen: `decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122`, `decision_website_en_welle2_freigabe_reiter_raster_coverportraets_live_portraetsuche_20261122`. Geeignete Ehrungen erscheinen als ruhige Textgalerie; keine erfundenen Insignien. Drei bis fünf bedeutende Einträge sind ein guter Ausschnitt, aber eine einzelne belegte Ehrung darf allein stehen. Unterschiedliche Kategorien sichtbar benennen.
 
 Kompakt: gezielte Biografie und Werkdeutung, ohne künstlich vermehrte Module. Erweitert: zusätzliche belegte Lebensstationen, Zeittafel oder Ehrungen. Umfassend: ein besonders ergiebiger Lebens- und Werkzusammenhang mit mehreren unterschiedlichen Vertiefungen. Die Stufe ist keine Rangordnung der Personen. Keine Mindestwortzahl.
 

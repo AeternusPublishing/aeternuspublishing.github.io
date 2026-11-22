@@ -1,0 +1,121 @@
+/* Wave 2 (22.11.2026): English author pages in tabs and the author portrait grid.
+   Only loaded on authorPage / authorIndexPage. Classes are namespaced aw-* so the German pages stay untouched. */
+.aw-page{--aw-paper-2:#ebe6da;--aw-soft:#5d5a50;--aw-gold-deep:#8e784b;--aw-card:#fffdf7}
+.aw-index,.aw-filters,.aw-index-intro{--aw-paper-2:#ebe6da;--aw-soft:#5d5a50;--aw-gold-deep:#8e784b;--aw-card:#fffdf7}
+.aw-visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* hero */
+.aw-hero{display:grid;grid-template-columns:minmax(220px,340px) minmax(0,1fr);gap:clamp(28px,4vw,60px);align-items:center;padding-block:48px 40px}
+.aw-hero.aw-no-portrait{grid-template-columns:minmax(0,1fr)}
+.aw-portraits{display:grid;gap:14px}
+.aw-portraits.aw-pair{grid-template-columns:1fr 1fr}
+.aw-portrait{margin:0}
+.aw-portrait figcaption{font-size:12px;color:var(--aw-soft);margin-top:8px;text-align:center}
+.aw-portrait-box{display:block;aspect-ratio:4/5;border:1px solid var(--gold);padding:8px;background:var(--aw-card)}
+.aw-portrait-box img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.aw-hero h1{font-size:clamp(2.3rem,4.6vw,3.9rem);line-height:1.04;margin:10px 0 8px}
+.aw-dates{margin:0;font-size:15px;color:var(--aw-soft)}
+.aw-rank{margin:4px 0 0;font-size:14px;color:var(--aw-soft)}
+.aw-lede{font-family:'Fraunces',Georgia,serif;font-size:1.4rem;line-height:1.3;color:#4a4639;margin:20px 0 12px;max-width:36ch}
+.aw-intro{margin:0;max-width:62ch}
+.aw-facts{display:flex;flex-wrap:wrap;gap:10px 34px;margin:22px 0 0;padding-top:16px;border-top:1px solid var(--line);font-size:13px}
+.aw-facts dt{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#716344;font-weight:600}
+.aw-facts dd{margin:2px 0 0;display:flex;align-items:center}
+.aw-facts a{text-underline-offset:4px}
+
+/* tab bar */
+.aw-tabbar{position:sticky;top:0;z-index:20;background:var(--paper);border-block:1px solid var(--line)}
+.aw-tablist{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.aw-tablist::-webkit-scrollbar{display:none}
+.aw-tab{flex:none;padding:15px 16px 13px;font-size:14px;letter-spacing:.02em;text-decoration:none;color:var(--aw-soft);border-bottom:2px solid transparent;white-space:nowrap}
+.aw-tab:hover{color:var(--ink)}
+.aw-tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--aw-gold-deep);font-weight:600}
+.aw-tab small{color:var(--aw-gold-deep);font-weight:600;margin-left:3px;font-size:12px}
+.aw-tab:focus-visible{outline:3px solid #947330;outline-offset:-3px}
+
+/* panels */
+.aw-panel{padding-block:44px 56px;scroll-margin-top:64px}
+.aw-panel+.aw-panel{border-top:1px solid var(--line)}
+.aw-panel>h2{font-size:clamp(1.8rem,3vw,2.4rem);margin:0 0 26px}
+.aw-panel h3{font-size:1.45rem;margin:34px 0 12px}
+.aw-panel.author-biography{display:block}
+.aw-prose{max-width:72ch}
+.aw-prose p{font-size:17px;line-height:1.72;margin:0 0 16px}
+.aw-prose .aw-orientation{font-family:'Fraunces',Georgia,serif;font-size:1.25rem;line-height:1.5}
+.aw-panel .author-books{margin-top:0}
+.aw-panel .detail-section{padding-inline:0;width:auto}
+.aw-further{margin-top:44px;padding-top:28px;border-top:1px solid var(--line)}
+
+/* timeline */
+.aw-timeline{list-style:none;margin:0;padding:0;max-width:780px}
+.aw-timeline li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:20px;padding:12px 0;border-bottom:1px solid var(--line)}
+.aw-timeline time{font-family:'Fraunces',Georgia,serif;font-size:1.08rem;color:var(--aw-gold-deep);font-variant-numeric:tabular-nums}
+
+/* honours and places */
+.aw-honours{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+.aw-honours li{padding:18px 20px;border:1px solid var(--line);background:var(--aw-card)}
+.aw-honours .kicker{margin:0 0 6px}
+.aw-honours h3{font-size:1.15rem;margin:0 0 6px}
+.aw-honours p:not(.kicker){font-size:14px;margin:0;color:var(--aw-soft)}
+.aw-places{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+
+/* connections */
+.aw-connected{margin-top:40px;padding-top:6px;border-top:1px solid var(--line)}
+.aw-chips{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.aw-chip{display:flex;gap:14px;align-items:flex-start;padding:10px 14px 10px 10px;border:1px solid var(--line);background:var(--aw-card);text-decoration:none;height:100%}
+.aw-chip img{flex:none;width:44px;height:55px;object-fit:cover;object-position:50% 22%}
+.aw-chip>span{font-size:13px;line-height:1.5;color:var(--aw-soft)}
+.aw-chip b{display:block;font-family:'Fraunces',Georgia,serif;font-weight:400;font-size:1.05rem;color:var(--ink);margin-bottom:2px}
+.aw-chip:hover b{text-decoration:underline;text-underline-offset:4px}
+
+/* sources */
+.aw-sources{list-style:none;margin:0;padding:0;display:grid;gap:8px;max-width:800px}
+.aw-sources li{padding-bottom:8px;border-bottom:1px solid var(--line);font-size:14px}
+.aw-sources a{text-underline-offset:4px}
+.aw-prov{margin-top:26px;padding:16px 18px;background:var(--aw-paper-2);font-size:14px;max-width:800px}
+.aw-prov .kicker{margin:0 0 4px}
+.aw-prov p:not(.kicker){margin:0}
+
+/* tabs active (JS) */
+.aw-tabs-ready .aw-panel[hidden]{display:none}
+.aw-tabs-ready .aw-panel.aw-panel{border-top:0}
+
+/* index */
+.aw-index-intro p{font-size:18px;color:#626257;max-width:720px}
+.aw-filters{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line)}
+.aw-filters-inner{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding-block:14px}
+.aw-filter-chips{display:flex;flex-wrap:wrap;gap:8px}
+.aw-fchip{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--aw-card);color:var(--ink);padding:6px 13px;border-radius:999px;display:inline-flex;align-items:center;gap:7px;cursor:pointer}
+.aw-fchip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.aw-fchip .series-dot{margin:0}
+.aw-search{margin-left:auto;display:flex;gap:8px;align-items:center}
+.aw-search input,.aw-search select{font:inherit;font-size:14px;padding:8px 11px;border:1px solid var(--line);background:var(--aw-card);color:var(--ink);min-width:0}
+.aw-index{padding-block:30px 70px}
+.aw-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:30px 20px}
+.aw-card{display:grid;gap:9px;text-decoration:none}
+.aw-card .aw-portrait-box{padding:6px;transition:border-color .2s}
+.aw-card:hover .aw-portrait-box{border-color:var(--aw-gold-deep)}
+.aw-card h2{font-size:1.12rem;line-height:1.22;letter-spacing:-.01em;margin:0}
+.aw-card:hover h2{text-decoration:underline;text-underline-offset:4px}
+.aw-meta{font-size:12px;color:var(--aw-soft);display:flex;align-items:center;line-height:1.4}
+.aw-meta .series-dot{flex:none;width:9px;height:9px;margin-right:7px}
+.aw-monogram{display:flex;align-items:center;justify-content:center;width:100%;height:100%;background:var(--aw-paper-2);font-family:'Fraunces',Georgia,serif;font-size:2.6rem;color:var(--aw-gold-deep);letter-spacing:.04em}
+.aw-empty{color:var(--aw-soft);padding-block:30px}
+
+@media(max-width:900px){
+  .aw-hero{grid-template-columns:minmax(180px,260px) minmax(0,1fr)}
+}
+@media(max-width:620px){
+  .aw-hero{grid-template-columns:1fr;padding-block:28px}
+  .aw-portraits{max-width:250px}
+  .aw-portraits.aw-pair{max-width:none}
+  .aw-hero h1{font-size:2.2rem}
+  .aw-lede{font-size:1.2rem}
+  .aw-panel{padding-block:30px 40px}
+  .aw-timeline li{grid-template-columns:1fr;gap:2px}
+  .aw-search{margin-left:0;width:100%}
+  .aw-search input{flex:1}
+  .aw-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 14px}
+  .aw-card h2{font-size:1rem}
+}
+@media(prefers-reduced-motion:reduce){.aw-card .aw-portrait-box{transition:none}}

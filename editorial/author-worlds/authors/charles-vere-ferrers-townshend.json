@@ -202,6 +202,22 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-charles-vere-ferrers-townshend-cover-20261122.webp",
+    "caption": {
+      "de": "Charles Vere Ferrers Townshend. Porträt vom Umschlag der AETERNUS-Ausgabe „My Campaign in Mesopotamia“; digital koloriert.",
+      "en": "Charles Vere Ferrers Townshend. Portrait from the cover of the AETERNUS edition of My Campaign in Mesopotamia; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122",
+      "sha256": "9f98546593e90c02aee16ca17ba1eab48245e7d0307400507c4fe9c7a048213f"
+    },
+    "rights": "Historical portrait as printed on the AETERNUS cover; see the cover build of the edition.",
+    "provenance": "Portrait window of the front cover cover-front-my-campaign-in-mesopotamia-townshend-en.jpg (sha256 4937515dd1bade5f722b7b36315cd11870045a73a36ca5b3049abd750e53ae77), box 477,333,1318,1440 px, gold frame excluded.",
+    "processing": "Cover crop converted to WebP (quality 88, longest side at most 1400 px, 841x1107); no colour change or new generation. The cover image is a digital colourisation of a historical photograph."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-townshend-colour-20261021.webp",
     "caption": {
       "de": "Porträtfrontispiz der Ausgabe von 1920; rekonstruiert und nachträglich koloriert.",

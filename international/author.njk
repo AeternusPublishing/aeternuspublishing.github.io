@@ -11,20 +11,104 @@ eleventyComputed:
   title: "{{ author.name | safe }}"
   description: "{{ author.metaDescription | safe }}"
 ---
+{#- Wave 2 (22.11.2026): English author pages in tabs (Books · Life · Timeline · Honours · Places · Sources).
+    decision_website_en_relaunch_vier_wellen_reiter_farbportraets_kaufknoepfe_20261122. The German pages keep
+    editorial/author-worlds/components/content.njk unchanged. Without JavaScript every panel stays visible and the
+    tab bar works as an in-page navigation. -#}
 {% set world = author.slug | authorWorld("en") %}
-{% set worldWorksId = "works" %}
-{% set worldBioId = "biography" %}
-<div class="author-page">
-{% if world %}{% include "editorial/author-worlds/components/hero.njk" %}{% endif %}
-{% if author.slug == 'arthur-conan-doyle' %}<p class="shell"><a class="text-link" href="/books/the-white-company/">The White Company · Explore all three volumes →</a></p>{% endif %}
 {% set worldEnglishBooks = author.slug | worldEnglishBooks %}
-<section class="shell international-section" id="works">
-  <div class="section-heading"><h2>{{ "English-language editions" if world.wilderness else ("English editions in preparation" if author.editionStatus == "IN_PREPARATION" else ("English-language editions" if worldEnglishBooks.length else "German-language editions")) }}</h2></div>
+{% set furtherEditions = world.slug | wildernessFurtherEditions %}
+{% set booksHeading = "English-language editions" if world.wilderness else ("English editions in preparation" if author.editionStatus == "IN_PREPARATION" else ("English-language editions" if worldEnglishBooks.length else "German-language editions")) %}
+{% set seriesName = (worldEnglishBooks[0].seriesName if worldEnglishBooks.length else "") | lower | replace(" series", "") %}
+<div class="author-page aw-page">
+<section class="shell aw-hero{% if not world.portrait %} aw-no-portrait{% endif %}" data-author-world="{{ world.slug }}" data-depth="{{ world.depth }}">
+  {% if world.portrait %}<div class="aw-portraits{% if world.coauthorPortrait %} aw-pair{% endif %}">
+    <figure class="aw-portrait"><div class="aw-portrait-box"><img src="{{ world.portrait.file }}" alt="{{ world.portrait.name }}" decoding="async" fetchpriority="high"></div>{% if world.coauthorPortrait %}<figcaption>{{ world.portrait.name }}</figcaption>{% endif %}</figure>
+    {% if world.coauthorPortrait %}<figure class="aw-portrait"><div class="aw-portrait-box"><img src="{{ world.coauthorPortrait.file | thumb(480) }}" alt="{{ world.coauthorPortrait.name }}" decoding="async"></div><figcaption>{{ world.coauthorPortrait.name }}</figcaption></figure>{% endif %}
+  </div>{% endif %}
+  <div class="aw-hero-copy">
+    <p class="kicker">{{ world.labels.context }}</p>
+    <h1>{{ world.name }}</h1>
+    <p class="aw-dates">{{ world.dates }}</p>
+    {% if world.rankLine %}<p class="aw-rank">{{ world.rankLine }}</p>{% endif %}
+    <p class="aw-lede">{{ world.tagline }}</p>
+    <p class="aw-intro">{{ world.intro }}</p>
+    <dl class="aw-facts">
+      <div><dt>Editions</dt><dd>{% if worldEnglishBooks.length %}<a href="#works">{{ worldEnglishBooks.length }} in English</a>{% elif author.editionStatus == "IN_PREPARATION" %}In preparation{% else %}<a href="#works">German editions</a>{% endif %}</dd></div>
+      {% if seriesName %}<div><dt>Series</dt><dd><span class="series-dot" style="--series-color:{{ worldEnglishBooks[0].seriesColor }}"></span>{{ seriesName | capitalize }}</dd></div>{% endif %}
+      {% if world.honours.length %}<div><dt>Honours</dt><dd><a href="#honours">{{ world.honours.length }}</a></dd></div>{% endif %}
+    </dl>
+  </div>
+</section>
+{% if author.slug == 'arthur-conan-doyle' %}<p class="shell"><a class="text-link" href="/books/the-white-company/">The White Company · Explore all three volumes →</a></p>{% endif %}
+
+<nav class="aw-tabbar" aria-label="Sections of this author page" data-aw-tabs>
+  <div class="shell aw-tablist">
+    <a class="aw-tab" id="tab-works" href="#works">Books{% if worldEnglishBooks.length %} <small>{{ worldEnglishBooks.length }}</small>{% endif %}</a>
+    <a class="aw-tab" id="tab-biography" href="#biography">Life</a>
+    {% if world.timeline.length %}<a class="aw-tab" id="tab-timeline" href="#timeline">Timeline <small>{{ world.timeline.length }}</small></a>{% endif %}
+    {% if world.honours.length %}<a class="aw-tab" id="tab-honours" href="#honours">Honours <small>{{ world.honours.length }}</small></a>{% endif %}
+    {% if world.places.length %}<a class="aw-tab" id="tab-places" href="#places">Places <small>{{ world.places.length }}</small></a>{% endif %}
+    <a class="aw-tab" id="tab-sources" href="#sources">Sources{% if world.sources.length %} <small>{{ world.sources.length }}</small>{% endif %}</a>
+  </div>
+</nav>
+
+<div class="aw-panels">
+<section class="shell aw-panel" id="works" aria-labelledby="works-title">
+  <h2 id="works-title">{{ booksHeading }}</h2>
   {% if world.bridge %}<p class="world-book-bridge">{{ world.bridge }}</p>{% endif %}
   {% if author.editionStatus == "IN_PREPARATION" and not worldEnglishBooks.length %}<div class="author-books author-books-preparation"><p>The English edition is in preparation. Formats and publication date will be announced here.</p></div>{% else %}{% include "editorial/author-worlds/components/books-en.njk" %}{% endif %}
+  {% set supplement = author.supplement %}{% include "book-supplement.njk" %}
+  {% if author.extras %}<section class="detail-section author-extras" id="original-illustrations"><div><p class="kicker">{{ author.extras.kicker | plain }}</p><h3>{{ author.extras.title | plain }}</h3><p>{{ author.extras.text | plain }}</p></div><div class="format-list">{% for item in author.extras.items %}<article><h4>{{ item[0] | plain }}</h4><p>{{ item[1] | plain }}</p>{% if item[2] %}<a class="text-link" href="{{ item[2] }}" download>{{ (item[3] or "Download PDF") | plain }} ↓</a>{% else %}<p>{{ author.extras.status | plain }}</p>{% endif %}</article>{% endfor %}</div></section>{% endif %}
+  {% if furtherEditions.length %}
+  <section class="aw-further" aria-labelledby="further-editions-title">
+    <h3 id="further-editions-title">Further editions</h3>
+    <ul class="wilderness-editions">
+    {% for item in furtherEditions %}<li data-work="{{ item.work_id }}"><h4><a href="{{ item.url }}"{% if item.language != 'en' %} hreflang="{{ item.language }}"{% endif %}>{{ item.title }}</a></h4><p>{{ item.authorName }} · {{ item.year }}{% if item.language != 'en' %} · German-language edition{% endif %}</p><p>{{ item.text }}</p></li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
 </section>
-{% set supplement = author.supplement %}{% include "book-supplement.njk" %}
-{% if author.extras %}<section class="shell detail-section author-extras" id="original-illustrations"><div><p class="kicker">{{ author.extras.kicker | plain }}</p><h2>{{ author.extras.title | plain }}</h2><p>{{ author.extras.text | plain }}</p></div><div class="format-list">{% for item in author.extras.items %}<article><h3>{{ item[0] | plain }}</h3><p>{{ item[1] | plain }}</p>{% if item[2] %}<a class="text-link" href="{{ item[2] }}" download>{{ (item[3] or "Download PDF") | plain }} ↓</a>{% else %}<p>{{ author.extras.status | plain }}</p>{% endif %}</article>{% endfor %}</div></section>{% endif %}
-{% include "editorial/author-worlds/components/content.njk" %}
-{% include "editorial/author-worlds/components/further-editions.njk" %}
+
+<section class="shell aw-panel author-biography author-world" id="biography" aria-labelledby="world-title">
+  <h2 id="world-title">{{ world.labels.about }}</h2>
+  <div class="aw-prose">
+    <p class="aw-orientation">{{ world.orientation }}</p>
+    {% for paragraph in world.overview %}<p>{{ paragraph }}</p>{% endfor %}
+    {% if world.origin.length %}<h3>{{ world.originHeading or world.labels.origin }}</h3>{% for paragraph in world.origin %}<p>{{ paragraph }}</p>{% endfor %}{% endif %}
+    {% if world.career.length %}<h3>{{ world.careerHeading or world.labels.career }}</h3>{% for paragraph in world.career %}<p>{{ paragraph }}</p>{% endfor %}{% endif %}
+    {% if world.literature.length %}<h3>{{ world.labels.literature }}</h3>{% for paragraph in world.literature %}<p>{{ paragraph }}</p>{% endfor %}{% endif %}
+    {% if world.legacy %}<h3>{{ world.labels.legacy }}</h3><p>{{ world.legacy }}</p>{% endif %}
+  </div>
+  {% if world.gallery.length %}<h3>{{ world.labels.gallery }}</h3><div class="world-gallery aw-gallery">{% for item in world.gallery %}<figure><img src="{{ item.file }}" alt="{{ item.caption }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy"><figcaption>{{ item.caption }} <a href="{{ item.source }}">{{ world.labels.sources }} ↗</a></figcaption></figure>{% endfor %}</div>{% endif %}
+  {% if world.connections.length %}<div class="aw-connected"><h3>{{ world.labels.connections }}</h3><ul class="aw-chips">{% for c in world.connections %}{% set cp = c.slug | authorPortrait("en") %}<li><a class="aw-chip" href="{{ c.url }}">{% if cp %}<img src="{{ cp.file | thumb(480) }}" alt="" width="44" height="55" loading="lazy" decoding="async">{% endif %}<span><b>{{ c.name }}</b>{{ c.text }}{% if c.languageNote %} <span class="edition-note">({{ c.languageNote }})</span>{% endif %}</span></a></li>{% endfor %}</ul></div>{% endif %}
+</section>
+
+{% if world.timeline.length %}
+<section class="shell aw-panel" id="timeline" aria-labelledby="timeline-title">
+  <h2 id="timeline-title">{{ world.labels.timeline }}</h2>
+  <ol class="aw-timeline">{% for event in world.timeline %}<li><time>{{ event.date }}</time><span>{{ event.text }}</span></li>{% endfor %}</ol>
+</section>
+{% endif %}
+
+{% if world.honours.length %}
+<section class="shell aw-panel" id="honours" aria-labelledby="honours-title">
+  <h2 id="honours-title">{{ world.labels.honours }}</h2>
+  <ul class="aw-honours">{% for h in world.honours %}<li><p class="kicker">{{ h.categoryLabel }} · {{ h.year }}</p><h3>{{ h.name }}</h3>{% if h.note %}<p>{{ h.note }}</p>{% endif %}</li>{% endfor %}</ul>
+</section>
+{% endif %}
+
+{% if world.places.length %}
+<section class="shell aw-panel" id="places" aria-labelledby="places-title">
+  <h2 id="places-title">{{ world.labels.places }}</h2>
+  <ul class="aw-honours aw-places">{% for place in world.places %}<li><h3>{{ place.title }}</h3><p>{{ place.text }}</p></li>{% endfor %}</ul>
+</section>
+{% endif %}
+
+<section class="shell aw-panel" id="sources" aria-labelledby="sources-title">
+  <h2 id="sources-title">{{ world.labels.sources }}</h2>
+  {% if world.sources.length %}<ul class="aw-sources">{% for s in world.sources %}<li><a href="{{ s.url }}">{{ s.title }} ↗</a></li>{% endfor %}</ul>{% endif %}
+  {% if world.portrait %}<div class="aw-prov"><p class="kicker">Portrait</p><p>{{ world.portrait.caption }}{% if world.portrait.source %} <a href="{{ world.portrait.source }}">Source ↗</a>{% endif %}</p>{% if world.coauthorPortrait %}<p>{{ world.coauthorPortrait.caption }}</p>{% endif %}</div>{% endif %}
+</section>
+</div>
 </div>

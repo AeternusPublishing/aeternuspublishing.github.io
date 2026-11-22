@@ -133,6 +133,22 @@
     }
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-charles-metcalfe-macgregor-cover-20261122.webp",
+    "caption": {
+      "de": "Charles Metcalfe MacGregor. Porträt vom Umschlag der AETERNUS-Ausgabe „The Life and Opinions“; digital koloriert.",
+      "en": "Charles Metcalfe MacGregor. Portrait from the cover of the AETERNUS edition of The Life and Opinions; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122",
+      "sha256": "ca7bc63384d4f45e059c3f0c23f642adda27fe06fcc4b773b6c7ff463f7919c7"
+    },
+    "rights": "Historical portrait as printed on the AETERNUS cover; see the cover build of the edition.",
+    "provenance": "Portrait window of the front cover cover-cmm003-en-b1-v4-20261112.jpg (sha256 7492cd8e86d23d952b3fb7743ca8cf662d7e6e3bdbf29815a742df7dcc5fbfb3), box 556,355,1539,1605 px, gold frame excluded.",
+    "processing": "Cover crop converted to WebP (quality 88, longest side at most 1400 px, 983x1250); no colour change or new generation. The cover image is a digital colourisation of a historical photograph."
+  },
+  "previous_image": {
     "status": "verified",
     "file": "/assets/images/MACGREGOR_HAUSPORTRAET_V4.png",
     "rights": "Underlying photograph in Life and Opinions,volumeI,Blackwood1888; historical source, public domain. Source-bound deterministic restoration already prepared under A7. No new image or edit.",

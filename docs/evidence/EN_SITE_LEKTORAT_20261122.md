@@ -116,3 +116,13 @@ The wave-1 changes broke three checks of the German deploy run. They are fixed b
 - `check-book-identities --international`: an Amazon ISBN search is allowed only for an ISBN-13 bound to that page. A general search or a foreign ISBN fails (two new negative cases).
 
 Results: check:text, check:author-order, check:author-worlds (de-only and both builds), check:edition-languages, check:book-identities (plain and `--international`) and check:kosmos all PASS. check-english-site PASS.
+
+## Wave 2: author pages in tabs, portrait grid, cover portraits (22.11.2026)
+
+- `international/author.njk`: English author pages in tabs (Books · Life · Timeline · Honours · Places · Sources); empty tabs are left out. Without JavaScript all panels stay visible and the tab bar is an in-page navigation. The portrait sits in a 4:5 frame; its caption moved to the Sources tab. The German `content.njk` is unchanged.
+- `international/authors.njk`: portrait grid with series filter, search and sort (programme order, name, year of birth); authors without a portrait show their initials.
+- `international/assets/css/author-tabs.css` (aw-* classes) and `international.js` (tabs with arrow keys and hash routing, filters).
+- Seven author pages take the portrait from their book cover (`scripts/apply-cover-portraits-20261122.cjs`, crops in `WELLE2_COVER_PORTRAIT_CROPS_20261122.json`, approval sheet `WELLE2_PORTRAETS_VOM_COVER_20261122.jpg`). The old binding stays under `previous_image`; no asset was deleted. Winfield Scott's image class is open in `PORTRAET_QUELLEN_OFFEN.json`. Roberts keeps the seated portrait.
+- Results: check:text, check:author-order, check:author-worlds (de-only and both builds), check:edition-languages, check:book-identities (plain and `--international`), check:kosmos and check-english-site all PASS.
+- Open: 23 black-and-white portraits are being colourised (each image to the publisher for approval); 12 authors without a portrait get a sourced search, each image presented.
+- Decisions: `decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122`, `decision_website_en_welle2_freigabe_reiter_raster_coverportraets_live_portraetsuche_20261122`.
