@@ -1042,6 +1042,47 @@
         }
       ],
       "operation": "Downscale the hash-verified KDP front cover to 900 px; no retouching."
+    },
+    {
+      "id": "en-samuel-benfield-steele-forty-years-in-canada",
+      "title": "Forty Years in Canada (Illustrated)",
+      "current": "/assets/images/cover-sbs001-en-hc-20261119.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/SBS_SAMUEL_BENFIELD_STEELE/02_WERKE/SBS_001_FORTY_YEARS_IN_CANADA_1915/00_PRODUCTION_METADATA/SATZ_V19_IMPRESSUM_ISBN_20261122/UPLOADPAKET_SBS001_EN_INGRAM_HC_V19C_20261122/INGRAM/9783676052412_cov.pdf",
+      "source_sha256": "ec5c1b60af6998aac7597f1da526c06be4ef4b4c8aae0e6ca3dd41630aa83eea",
+      "register_event": "SBS_001|en|ingram_hardcover|HC_V19C_EINGEREICHT_20261122T183232Z",
+      "register_status": "EINGEREICHT",
+      "register_utc": "2026-11-22T18:32:32Z",
+      "page_pt": [
+        1296.0,
+        900.0
+      ],
+      "front_clip_pt": [
+        805.4149679999999,
+        90.0205078125,
+        1206.0744479999998,
+        738.0205230712891
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-sbs001-en-v19c-20261122.jpg",
+          "sha256": "48521b4a44edd6611abec212daaf1a98b891f67e6641fe47cc7fcb009987c6a4",
+          "dimensions": [
+            867,
+            1402
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-sbs001-en-v19c-20261122.webp",
+          "sha256": "0d8781cc4f48165894f3d9c608fabb4fa7a6e929978074d12a0c4a15fd4dbc8f",
+          "dimensions": [
+            867,
+            1402
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the visible front face (case laminate, cover compiler geometry) of the hash-verified register cover PDF; no retouching. Publisher instruction 22.11.2026: sync the website to the submitted V19C revision now (front adds the author office line; text, ISBN, price unchanged)."
     }
   ],
   "not_synced": [
