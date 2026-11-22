@@ -226,6 +226,23 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-younghusband-cover-20261122.webp",
+    "personName": "George John Younghusband",
+    "caption": {
+      "de": "George John Younghusband. Porträt vom Umschlag der AETERNUS-Ausgabe „The Relief of Chitral“; digital koloriert.",
+      "en": "George John Younghusband. Portrait from the cover of the AETERNUS edition of The Relief of Chitral; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122",
+      "sha256": "59a7ffb34365055df37ea24fbcc64bd9810b03b52725181ea78f85f03716c49c"
+    },
+    "rights": "Historical portrait as printed on the AETERNUS cover; see the cover build of the edition.",
+    "provenance": "Cover print source C:/AETERNUS/02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/GJY_GEORGE_JOHN_YOUNGHUSBAND/02_WERKE/GJY_001_THE_RELIEF_OF_CHITRAL_1910/07_UMSCHLAG/FRONTMOTIV_GEORGE_KOLORIERT_20261116/KANDIDAT_01_SRGB.png (sha256 e5211fed81bdcd7aa1381619ed084e7e854e472120df5545be49261684121761), same motif as the front cover cover-the-relief-of-chitral-younghusband-en-20261116.jpg (sha256 cffb91d81ada504a292d218b149f61feba0b23b07aac024126559c1a4f308318).",
+    "processing": "Print source converted to WebP (quality 88, longest side at most 1400 px, 1015x1400); no colour change or new generation. The cover image is a digital colourisation of a historical photograph."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-george-john-younghusband-stoneman-1917.png",
     "personName": "George John Younghusband",
     "caption": {

@@ -265,6 +265,22 @@
     "note": "AETERNUS editorial judgement; not presented as a historical quotation."
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-winfield-scott-cover-20261122.webp",
+    "caption": {
+      "de": "Winfield Scott. Porträt vom Umschlag der AETERNUS-Ausgabe „Memoirs of Lieutenant-General Scott“.",
+      "en": "Winfield Scott. Portrait from the cover of the AETERNUS edition of Memoirs of Lieutenant-General Scott."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122",
+      "sha256": "fef5afa3ec8dba120b1f80f01ef71d7681b9165f318902a6930eef79c6e35566"
+    },
+    "rights": "Historical portrait as printed on the AETERNUS cover; see the cover build of the edition.",
+    "provenance": "Portrait window of the front cover cover-ws001-volume-i-ingram-r872-20261119.jpg (sha256 4b2aeb9a00fc4903b2c5a210da5c0deb6de0a410dbf2a42fb5d390f042dca6dc), box 318,213,879,963 px, gold frame excluded.",
+    "processing": "Cover crop converted to WebP (quality 88, longest side at most 1400 px, 561x750); no colour change or new generation. Image class (painting, photograph, colourisation) not yet recorded; see PORTRAET_QUELLEN_OFFEN.json."
+  },
+  "previous_image": {
     "status": "verified",
     "file": "/assets/images/portrait-winfield-scott-weir.jpg",
     "caption": {

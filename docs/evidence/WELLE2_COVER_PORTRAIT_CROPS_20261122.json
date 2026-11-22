@@ -1,0 +1,173 @@
+{
+ "charles-william-wilson": {
+  "cover": "cover-cww001-en-r3g-20261111.jpg",
+  "cover_sha256": "2ea946f6ee498eedff51b3171cd006b757b45023d12fc946f77f4b0dcc9c3386",
+  "box": [
+   221,
+   160,
+   677,
+   713
+  ],
+  "crop_size": [
+   456,
+   553
+  ],
+  "source": "C:/AETERNUS/02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/CWW_CHARLES_WILLIAM_WILSON/02_WERKE/CWW_001_FROM_KORTI_TO_KHARTUM_1885/05_UMSCHLAG/RELAUNCH_20261109/MOTIV_EINGANG_VERLEGER_20261109/CWW001_PORTRAET_WILSON_KOLORIERT_VERLEGER_20261109.png",
+  "source_size": [
+   1107,
+   1421
+  ],
+  "source_sha256": "a56ce49d7b92567043fdaf672ea2c65a82a0da0cf087bfe8b274e2a56ac850c3",
+  "current": "/assets/images/portrait-wilson.webp"
+ },
+ "charles-vere-ferrers-townshend": {
+  "cover": "cover-front-my-campaign-in-mesopotamia-townshend-en.jpg",
+  "cover_sha256": "4937515dd1bade5f722b7b36315cd11870045a73a36ca5b3049abd750e53ae77",
+  "box": [
+   477,
+   333,
+   1318,
+   1440
+  ],
+  "crop_size": [
+   841,
+   1107
+  ],
+  "source": null,
+  "source_size": null,
+  "source_sha256": null,
+  "current": "/assets/images/portrait-townshend-colour-20261021.webp"
+ },
+ "younghusband": {
+  "cover": "cover-the-relief-of-chitral-younghusband-en-20261116.jpg",
+  "cover_sha256": "cffb91d81ada504a292d218b149f61feba0b23b07aac024126559c1a4f308318",
+  "box": [
+   223,
+   191,
+   676,
+   745
+  ],
+  "crop_size": [
+   453,
+   554
+  ],
+  "source": "C:/AETERNUS/02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/GJY_GEORGE_JOHN_YOUNGHUSBAND/02_WERKE/GJY_001_THE_RELIEF_OF_CHITRAL_1910/07_UMSCHLAG/FRONTMOTIV_GEORGE_KOLORIERT_20261116/KANDIDAT_01_SRGB.png",
+  "source_size": [
+   1068,
+   1473
+  ],
+  "source_sha256": "e5211fed81bdcd7aa1381619ed084e7e854e472120df5545be49261684121761",
+  "current": "/assets/images/portrait-george-john-younghusband-stoneman-1917.png"
+ },
+ "ian-hamilton": {
+  "cover": "cover-gallipoli-diary-volume-ii-en-20261022.jpg",
+  "cover_sha256": "144b473520878f71bec6782e98c85d2da0e012711f5278e04189b87ca703effa",
+  "box": [
+   318,
+   273,
+   877,
+   904
+  ],
+  "crop_size": [
+   559,
+   631
+  ],
+  "source": null,
+  "source_size": null,
+  "source_sha256": null,
+  "current": "/assets/images/portrait-ian-hamilton-sargent-v1.png"
+ },
+ "frederick-sleigh-roberts": {
+  "cover": "cover-forty-one-years-in-india-volume-1-v5.jpg",
+  "cover_sha256": "8bca83216d5a8834bbed3ad292cf4517b1c25c666c6bb1b238f480b099f0f791",
+  "box": [
+   229,
+   155,
+   632,
+   692
+  ],
+  "crop_size": [
+   403,
+   537
+  ],
+  "source": null,
+  "source_size": null,
+  "source_sha256": null,
+  "current": "/assets/images/portrait-frederick-sleigh-roberts-russell-1897-color-v2.jpg"
+ },
+ "charles-metcalfe-macgregor": {
+  "cover": "cover-cmm003-en-b1-v4-20261112.jpg",
+  "cover_sha256": "7492cd8e86d23d952b3fb7743ca8cf662d7e6e3bdbf29815a742df7dcc5fbfb3",
+  "box": [
+   556,
+   355,
+   1539,
+   1605
+  ],
+  "crop_size": [
+   983,
+   1250
+  ],
+  "source": null,
+  "source_size": null,
+  "source_sha256": null,
+  "current": "/assets/images/MACGREGOR_HAUSPORTRAET_V4.png"
+ },
+ "winfield-scott": {
+  "cover": "cover-ws001-volume-i-ingram-r872-20261119.jpg",
+  "cover_sha256": "4b2aeb9a00fc4903b2c5a210da5c0deb6de0a410dbf2a42fb5d390f042dca6dc",
+  "box": [
+   318,
+   213,
+   879,
+   963
+  ],
+  "crop_size": [
+   561,
+   750
+  ],
+  "source": null,
+  "source_size": null,
+  "source_sha256": null,
+  "current": "/assets/images/portrait-winfield-scott-weir.jpg"
+ },
+ "samuel-benfield-steele": {
+  "cover": "cover-sbs001-en-hc-20261119.jpg",
+  "cover_sha256": "87de7ecbfafdafcee298ffb5e21fe1baaf6730b90a6ba55b96e9e4a338a5357e",
+  "box": [
+   215,
+   189,
+   649,
+   770
+  ],
+  "crop_size": [
+   434,
+   581
+  ],
+  "source": "C:/AETERNUS/02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/SBS_SAMUEL_BENFIELD_STEELE/02_WERKE/SBS_001_FORTY_YEARS_IN_CANADA_1915/03_BILDSATZ_DRUCK/COVER_PORTRAET_VERLEGER_20261101/COVER_PORTRAET_STEELE_REKONSTRUIERT_KOLORIERT.png",
+  "source_size": [
+   1089,
+   1444
+  ],
+  "source_sha256": "cb8f096ea21b7aa603dc6daa93d215f7fbce4634f600a48cd4d0e55d377399be",
+  "current": "/assets/images/portrait-samuel-benfield-steele-1915-restored-v1.png"
+ },
+ "william-robertson": {
+  "cover": "cover-en-william-robertson-from-private-to-field-marshal-trade-20261122.jpg",
+  "cover_sha256": "3fab17ab31aa51db6f2804296074a8ea1d8145e3a66686608fe91013beb886ef",
+  "box": [
+   239,
+   160,
+   660,
+   723
+  ],
+  "crop_size": [
+   421,
+   563
+  ],
+  "source": null,
+  "source_size": null,
+  "source_sha256": null,
+  "current": "/assets/images/portrait-william-robertson-1917.png"
+ }
+}

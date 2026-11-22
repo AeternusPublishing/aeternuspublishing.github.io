@@ -234,6 +234,22 @@
     "en": "Major-General Sir Samuel Benfield Steele, K.C.M.G., C.B., M.V.O."
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-samuel-benfield-steele-cover-20261122.webp",
+    "caption": {
+      "de": "Samuel Benfield Steele. Porträt vom Umschlag der AETERNUS-Ausgabe „Forty Years in Canada“; digital koloriert.",
+      "en": "Samuel Benfield Steele. Portrait from the cover of the AETERNUS edition of Forty Years in Canada; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122",
+      "sha256": "30e9f7aa71a422a665e22fdb906a8f018e6ec7fad0d720eded84a0e41d5d0d02"
+    },
+    "rights": "Historical portrait as printed on the AETERNUS cover; see the cover build of the edition.",
+    "provenance": "Cover print source C:/AETERNUS/02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/SBS_SAMUEL_BENFIELD_STEELE/02_WERKE/SBS_001_FORTY_YEARS_IN_CANADA_1915/03_BILDSATZ_DRUCK/COVER_PORTRAET_VERLEGER_20261101/COVER_PORTRAET_STEELE_REKONSTRUIERT_KOLORIERT.png (sha256 cb8f096ea21b7aa603dc6daa93d215f7fbce4634f600a48cd4d0e55d377399be), same motif as the front cover cover-sbs001-en-hc-20261119.jpg (sha256 87de7ecbfafdafcee298ffb5e21fe1baaf6730b90a6ba55b96e9e4a338a5357e).",
+    "processing": "Print source converted to WebP (quality 88, longest side at most 1400 px, 1056x1400); no colour change or new generation. The cover image is a digital colourisation of a historical photograph."
+  },
+  "previous_image": {
     "status": "verified",
     "file": "/assets/images/portrait-samuel-benfield-steele-1915-restored-v1.png",
     "caption": {

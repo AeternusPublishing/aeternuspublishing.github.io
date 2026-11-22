@@ -101,6 +101,22 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-charles-william-wilson-cover-20261122.webp",
+    "caption": {
+      "de": "Charles William Wilson. Porträt vom Umschlag der AETERNUS-Ausgabe „From Korti to Khartum“; digital koloriert.",
+      "en": "Charles William Wilson. Portrait from the cover of the AETERNUS edition of From Korti to Khartum; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122",
+      "sha256": "dea56250902c0b5066631cfff659f2b32e41b0941dd5ece0bbe25e1f18e100b4"
+    },
+    "rights": "Historical portrait as printed on the AETERNUS cover; see the cover build of the edition.",
+    "provenance": "Cover print source C:/AETERNUS/02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/CWW_CHARLES_WILLIAM_WILSON/02_WERKE/CWW_001_FROM_KORTI_TO_KHARTUM_1885/05_UMSCHLAG/RELAUNCH_20261109/MOTIV_EINGANG_VERLEGER_20261109/CWW001_PORTRAET_WILSON_KOLORIERT_VERLEGER_20261109.png (sha256 a56ce49d7b92567043fdaf672ea2c65a82a0da0cf087bfe8b274e2a56ac850c3), same motif as the front cover cover-cww001-en-r3g-20261111.jpg (sha256 2ea946f6ee498eedff51b3171cd006b757b45023d12fc946f77f4b0dcc9c3386).",
+    "processing": "Print source converted to WebP (quality 88, longest side at most 1400 px, 1091x1400); no colour change or new generation. The cover image is a digital colourisation of a historical photograph."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-wilson.webp",
     "caption": {
       "de": "Charles William Wilson",

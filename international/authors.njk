@@ -5,18 +5,32 @@ authorIndexPage: true
 description: "Meet the authors of the AETERNUS programme, from naturalists and explorers to novelists and historical witnesses."
 permalink: /authors/index.html
 ---
-<section class="shell page-intro"><h1>Authors</h1></section>
-<section class="shell author-index international-section">
+{#- Wave 2 (22.11.2026): portrait grid with series filter, search and sort. The filters are added by
+    international.js; without JavaScript the full grid in programme order remains. -#}
+<section class="shell page-intro aw-index-intro"><h1>Authors</h1><p>{{ site.authors.length }} authors of the AETERNUS programme: soldiers, explorers, naturalists, novelists and witnesses of their age.</p></section>
+<div class="aw-filters" data-aw-filters hidden>
+  <div class="shell aw-filters-inner">
+    <div class="aw-filter-chips" role="group" aria-label="Filter by series"><button type="button" class="aw-fchip" aria-pressed="true" data-series="">All</button></div>
+    <div class="aw-search">
+      <label class="aw-visually-hidden" for="aw-search">Search authors</label><input id="aw-search" type="search" placeholder="Search authors" autocomplete="off">
+      <label class="aw-visually-hidden" for="aw-sort">Sort</label><select id="aw-sort"><option value="programme">Programme order</option><option value="name">Name A–Z</option><option value="born">Year of birth</option></select>
+    </div>
+  </div>
+</div>
+<section class="shell aw-index" aria-label="All authors">
+  <ul class="aw-grid" data-aw-grid>
   {% for author in site.authors %}
     {% set world = author.slug | authorWorld("en") %}
-    <a class="author-panel" href="/authors/{{ author.slug }}/">
-      {% if world.portrait %}
-        <figure class="author-portrait">
-          <span class="author-portrait-mat"><img src="{{ world.portrait.file | thumb(480) }}" alt="{{ world.portrait.name }}" loading="{% if loop.index <= 4 %}eager{% else %}lazy{% endif %}" decoding="async"></span>
-          <figcaption>{{ world.portrait.caption }}</figcaption>
-        </figure>
-      {% endif %}
-      <div><p class="kicker">{{ world.dates }}</p><h2>{{ world.name }}</h2><p>{{ world.tagline }}</p><span class="text-link">Life &amp; works →</span></div>
-    </a>
+    {% set books = author.slug | worldEnglishBooks %}
+    {% set series = (books[0].seriesName if books.length else "") | lower | replace(" series", "") %}
+    <li class="aw-card-item" data-name="{{ world.name }}" data-dates="{{ world.dates }}" data-series="{{ series }}" data-color="{{ books[0].seriesColor if books.length else '' }}" data-order="{{ loop.index }}">
+      <a class="aw-card" href="/authors/{{ author.slug }}/">
+        <span class="aw-portrait-box">{% if world.portrait %}<img src="{{ world.portrait.file | thumb(480) }}" alt="{{ world.portrait.name }}" width="480" height="600" loading="{% if loop.index <= 8 %}eager{% else %}lazy{% endif %}" decoding="async">{% else %}{% set nameParts = world.name.split(" ") %}<span class="aw-monogram" aria-hidden="true">{{ nameParts[0] | first }}{{ nameParts[nameParts.length - 1] | first }}</span>{% endif %}</span>
+        <h2>{{ world.name }}</h2>
+        <span class="aw-meta">{% if series %}<span class="series-dot" style="--series-color:{{ books[0].seriesColor }}"></span>{% endif %}{{ world.dates }}</span>
+      </a>
+    </li>
   {% endfor %}
+  </ul>
+  <p class="aw-empty" data-aw-empty hidden>No author matches this search.</p>
 </section>

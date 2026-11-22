@@ -195,6 +195,22 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-ian-hamilton-cover-20261122.webp",
+    "caption": {
+      "de": "General Sir Ian Hamilton. Porträt vom Umschlag der AETERNUS-Ausgabe „Gallipoli Diary“; digital koloriert.",
+      "en": "General Sir Ian Hamilton. Portrait from the cover of the AETERNUS edition of Gallipoli Diary; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122",
+      "sha256": "a5d8c43526a34f2453b8c4e0ff2dda8e1d3073f828b373429612170df81ee221"
+    },
+    "rights": "Historical portrait as printed on the AETERNUS cover; see the cover build of the edition.",
+    "provenance": "Portrait window of the front cover cover-gallipoli-diary-volume-ii-en-20261022.jpg (sha256 144b473520878f71bec6782e98c85d2da0e012711f5278e04189b87ca703effa), box 318,273,877,904 px, gold frame excluded.",
+    "processing": "Cover crop converted to WebP (quality 88, longest side at most 1400 px, 559x631); no colour change or new generation. The cover image is a digital colourisation of a historical photograph."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-ian-hamilton-sargent-v1.png",
     "caption": {
       "de": "After John Singer Sargent, c. 1898",
