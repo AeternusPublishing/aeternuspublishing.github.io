@@ -119,6 +119,22 @@
     }
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-george-rutledge-gibson-20261122.webp",
+    "caption": {
+      "en": "George Rutledge Gibson, 1888.",
+      "de": "George Rutledge Gibson, 1888."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_portraetsuche_7_autoren_freigegeben_keine_karikaturen_20261122",
+      "sha256": "f65f364b8f4decdfc1a815d5a3a1e18b70b953db99106b9039ac265ba1b87b08"
+    },
+    "rights": "Engraving signed by the draughtsman, published in The Cosmopolitan, vol. 5 no. 3, May 1888, p. 242, caption “GEORGE R. GIBSON”. Public domain (published in the United States in 1888).",
+    "provenance": "https://archive.org/details/sim_cosmopolitan_1888-05_5_3 (retrieved 2026-11-22); Internet Archive page sim_cosmopolitan_1888-05_5_3_0071.jp2 (sha256 e6a7c1b9…); raw cut GIBSON_1888_COSMOPOLITAN_STICH_ROH.png (sha256 a2a9b107…, 940x1050).",
+    "processing": "Source file george-rutledge-gibson_hausmaster.tif (sha256 db76dcbe9533ddbe88a633ee4def25ab0873a7b908aeb7f7ad65ccbebe62c043, 730x1025) converted to WebP (quality 88, longest side at most 1400 px, 730x1025). House master GGI_001_GIBSON_1888_AUTORBILD_STRICH_V1.tif from RESTAURIERUNG_CODEX_20261104_V1: neighbouring text column removed and paper tone cleaned; no new detail, not generative."
+  },
+  "previous_image": {
     "status": "omitted",
     "reason": "The identified 1888 engraving is monochrome. The current brief does not commission a new colour author portrait."
   }

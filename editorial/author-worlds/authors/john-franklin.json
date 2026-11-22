@@ -189,6 +189,22 @@
     "statement": "Literary assessment belongs to the publisher; it is not attributed to Franklin."
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-john-franklin-20261122.webp",
+    "caption": {
+      "en": "Sir John Franklin in uniform, 1845.",
+      "de": "Sir John Franklin in Uniform, 1845."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_portraetsuche_7_autoren_freigegeben_keine_karikaturen_20261122",
+      "sha256": "f2b6b14d5b96c6694af60d5805552cc3e9f5e6e1aba918679a9d716fe8cfbb44"
+    },
+    "rights": "Daguerreotype taken in 1845 before the last expedition; photographer not named in the source. Public domain (more than 180 years old, author unknown).",
+    "provenance": "https://commons.wikimedia.org/wiki/File:John_Franklin_1845.JPG (retrieved 2026-11-22); Commons source: Maritime Greenwich Souvenir Guide, London 1993 (photograph of the printed reproduction).",
+    "processing": "Source file john-franklin_commons960.jpg (sha256 a94e32a9e21d184aacdbd8e6a36624db1f8cebb3170a1458f0dbec233ec07925, 960x1211) converted to WebP (quality 88, longest side at most 1400 px, 960x1211). No crop, colouring, retouching or generative change."
+  },
+  "previous_image": {
     "status": "omitted",
     "reason": "No historically secure colour portrait with complete source, rights, original dimensions and SHA-256 evidence has been secured. See PORTRAET_QUELLEN_OFFEN.json."
   },

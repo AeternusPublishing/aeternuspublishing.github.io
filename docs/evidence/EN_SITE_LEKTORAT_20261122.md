@@ -134,3 +134,12 @@ Results: check:text, check:author-order, check:author-worlds (de-only and both b
 - Kephart, Murray, Miller received German captions (required for publisher-approved images).
 - Both sites read the dossiers: EN shows all 23, DE 16 author pages.
 - Decision: `decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122`.
+
+## Wave 2: portrait search for authors without a portrait (22.11.2026)
+
+- A sourced search covered the 12 authors without a portrait (Wikimedia Commons with institution records, house stock). The contact sheet with 10 candidates for 8 authors went to the publisher.
+- Approved: Gleig (Drummond after Eddis, 1836, BM), Dickens (Frith, 1859, V&A), McClure (Pearce, 1855, NPG 1210), Franklin (daguerreotype, 1845), Irving (Brady after Plumbe, LOC), Parry (Samuel Drummond, c. 1820, NPG 5053), Gibson (The Cosmopolitan, 1888, house master).
+- Hutchinson keeps his initials: the only find is a Vanity Fair caricature, and the publisher rules out caricatures as author portraits.
+- No find: Duke, Jennings, Kennedy, Stewart (Stewart is supplied by the publisher).
+- Applied with `scripts/apply-found-portraits-20261122.cjs` from `PORTRAIT_SEARCH_20261122.json` (source URL, source file sha256, rights, caption de/en). The old binding stays under `previous_image`.
+- Decision: `decision_website_portraetsuche_7_autoren_freigegeben_keine_karikaturen_20261122`.

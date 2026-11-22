@@ -166,6 +166,22 @@
     }
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-george-robert-gleig-20261122.webp",
+    "caption": {
+      "en": "George Robert Gleig, 1836.",
+      "de": "George Robert Gleig, 1836."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_portraetsuche_7_autoren_freigegeben_keine_karikaturen_20261122",
+      "sha256": "d91205436f140d04a1bc4e20b2344817a8a874df4b6b0cf47762532cc38a93dd"
+    },
+    "rights": "Lithograph by William Drummond after Eden Upton Eddis, published by Thomas McLean, London, 1836 (Athenaeum Portraits). Public domain. Faithful reproduction of a two-dimensional public-domain work; no new copyright arises (Art. 14 Directive (EU) 2019/790, § 68 UrhG).",
+    "provenance": "https://commons.wikimedia.org/wiki/File:Athenaeum_Portraits_(BM_1865,0610.1207).jpg (retrieved 2026-11-22); British Museum 1865,0610.1207 (https://www.britishmuseum.org/collection/object/P_1865-0610-1207).",
+    "processing": "Source file george-robert-gleig_commons960.jpg (sha256 2a50bd9d24177d180ffa4c6e2dab11f834765a0f3f560735e1d1276b51d7ae74, 960x1165) converted to WebP (quality 88, longest side at most 1400 px, 960x1165). No crop, colouring, retouching or generative change."
+  },
+  "previous_image": {
     "status": "not-available",
     "reason": "No portrait in the existing website inventory; no unverified new likeness added.",
     "existing": [
