@@ -220,8 +220,16 @@ module.exports = [
         "text": "Some AETERNUS editions retain the original language; others use a carefully renewed text or a translation. These approaches serve different works and readers. We describe the approach edition by edition, rather than treating every title alike."
       },
       {
-        "heading": "Your reading matters to us.",
-        "text": "We welcome feedback, corrections and suggestions for books that deserve to return to print. Tell us the author and title, and what makes the work matter to you. Every suggestion helps us understand what readers are looking for."
+        "heading": "Old sources, honestly handled.",
+        "text": "Our editions begin with originals that are often more than a century old: worn type, faded ink, pages that have passed through many hands. Every text is read several times, independently, and checked against the printed original before it goes to press. Even so, with sources of this age an error can occasionally slip through — a misread word, a lost punctuation mark, a reference that no longer fits. We would rather hear about it than have it go unnoticed. If you find one, please tell us the title, the format and the page. We check every report against the original and correct confirmed errors when the edition is next revised.",
+        "link": {
+          "label": "Report an error",
+          "url": "mailto:kontakt@aeternus-verlag.de?subject=AETERNUS%20error%20report&body=Title%3A%0AFormat%20(paperback%2C%20hardcover%2C%20ebook)%3A%0APage%3A%0AThe%20passage%20and%20what%20seems%20wrong%3A%0A"
+        }
+      },
+      {
+        "heading": "Your voice shapes the programme.",
+        "text": "Books live through their readers. If an edition has stayed with you, an honest review where you bought it helps other readers find it and shows us what works. We are just as glad to hear from you directly: what you valued, what you missed, what we could do better. And if you know a forgotten work of world history that deserves a new edition — a memoir, a campaign account, a travel narrative, a novel that has fallen out of print — write to us. Tell us the author and title and why the book matters to you. We read every message, and every suggestion is considered for the programme."
       }
     ],
     "link": {
