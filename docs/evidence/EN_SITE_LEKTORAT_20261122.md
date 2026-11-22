@@ -104,3 +104,15 @@ Stand 22.11.2026 · geprüft: alle 174 Live-Seiten (Sitemap), Abgleich gegen `BU
 - Cover: 22 Vorderseiten und 6 Rückseiten aus hashgeprüften Register-PDFs; Hawk Hollow aus dem KDP-Paket vom 07.09.2026 (sha256 ad8f09c0…). Woodcraft und Gillett zeigen bereits ihre echten Cover (nur der Dateiname enthält „fallback“).
 - Henry Ford: „German-language editions“ ist richtig, auf Englisch gibt es nur die deutschen Ausgaben, der Link führt zu aeternus-verlag.de.
 - Entscheidung: `decision_website_en_welle1_freigabe_pr_deploy_cover_suche_20261122`.
+
+## Wave 1: merge preparation (22.11.2026)
+
+The wave-1 changes broke three checks of the German deploy run. They are fixed before the merge:
+
+- `catalog/thumbs.cjs`: the `thumb` filter is a shared plugin. The German build also renders the English listing templates.
+- `scripts/rebind-cover-identities.cjs`: 23 English cover bindings moved to the register covers (same artwork). The old binding stays under `previous_cover_binding`.
+- `scripts/rebind-format-identities.cjs`: 20 English form bindings now use the public labels without a platform suffix, one per ISBN. Tokens and register evidence are merged, and no ISBN changed. Roberts I/II are bound from the LIVE register rows. The old binding stays under `previous_format_binding`.
+- `check-author-worlds`: accepts the 480 px thumbnail of the expected cover.
+- `check-book-identities --international`: an Amazon ISBN search is allowed only for an ISBN-13 bound to that page. A general search or a foreign ISBN fails (two new negative cases).
+
+Results: check:text, check:author-order, check:author-worlds (de-only and both builds), check:edition-languages, check:book-identities (plain and `--international`) and check:kosmos all PASS. check-english-site PASS.

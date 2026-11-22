@@ -68,7 +68,7 @@ for(const p of profiles){
    for(let i=0;i<cards.length;i++){
     const children=tags(cards[i]),cover=children.find(n=>n.name==='img');
     assert.equal(expected[i].language,'en');
-    if(cover)assert.equal(cover.attribs.src,expected[i].cover,route+': foreign-language cover');
+    if(cover)assert([expected[i].cover,'/assets/thumbs/'+require('node:path').basename(expected[i].cover).replace(/\.[^.]+$/,'')+'-480.webp'].includes(cover.attribs.src),route+': foreign-language cover');
     assert(children.some(n=>n.name==='a'&&n.attribs.href.endsWith(expected[i].url)),route+': wrong edition link');
    }
    if(!expected.length && p.wilderness){assert(html.includes('English editions will appear here when they are available.'),route+': missing honest edition status');assert(!html.includes('German-language editions'),route+': invented German fallback');}

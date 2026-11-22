@@ -22,6 +22,13 @@ const isbnValid = value => {
   const n = normal(value);
   return /^97[89]\d{10}$/.test(n) && [...n].reduce((s, c, i) => s + Number(c) * (i % 2 ? 3 : 1), 0) % 10 === 0;
 };
+const isbnSearch = value => {
+  const url = new URL(value);
+  if (url.pathname !== '/s' || url.searchParams.get('i') !== 'stripbooks') return null;
+  const k = url.searchParams.get('k') || '';
+  assert(/^97[89]\d{10}$/.test(k), 'Expected an ISBN-13 search, not a general search: ' + value);
+  return k;
+};
 const formats = book => book.retailer_formats || book.formats;
 const label = format => format.label || format.name;
 const links = format => format.links || (format.url ? [{ url: format.url }] : []);
@@ -90,7 +97,12 @@ function validateRendered(site, route, boundPages) {
   const allowedIsbns = new Set(boundPages.flatMap(p => p.formats.map(f => f.isbn13)).filter(Boolean));
   const allowedTokens = new Set(boundPages.flatMap(p => p.formats.flatMap(f => f.tokens)));
   for (const n of text.match(/(?<!\d)97[89](?:[- ]?\d){10}(?!\d)/g) || []) assert(allowedIsbns.has(normal(n)), route + ': foreign ISBN in rendered text');
-  for (const url of urls) assert(allowedTokens.has(token(url)), route + ': foreign buying link in rendered HTML');
+  for (const url of urls) {
+    // English buy box (22.11.2026): without a verified ASIN the Amazon button searches the page's own ISBN-13.
+    const search = isbnSearch(url);
+    if (search) assert(site === 'en' && allowedIsbns.has(search), route + ': ISBN search for a foreign edition');
+    else assert(allowedTokens.has(token(url)), route + ': foreign buying link in rendered HTML');
+  }
   const art = html.match(/<(?:div|figure) class="detail-art">([\s\S]*?)<\/(?:div|figure)>/);
   if (art && boundPages.length === 1) {
     const expected = boundPages[0];
@@ -135,4 +147,7 @@ assert.throws(() => validateBook('de', wrongIsbn, monarchProof), /ISBN assigned/
 const wrongLink = structuredClone(monarch);
 wrongLink.formats[0].url = 'https://www.amazon.com/dp/B0HKNBL4CV';
 assert.throws(() => validateBook('de', wrongLink, monarchProof), /buying link belongs/);
-console.log(JSON.stringify({ status: 'PASS', books: evidence.pages.length, formats: evidence.pages.reduce((n, b) => n + b.formats.length, 0), reviewedAssets: assetCount, renderedPages: rendered, negativeCases: 4 }));
+assert.throws(() => isbnSearch('https://www.amazon.com/s?k=roberts+india&i=stripbooks'), /ISBN-13 search/);
+const fsr = evidence.pages.filter(p => p.site === 'en' && p.id.includes('forty-one-years-in-india-volume-i'));
+assert(!new Set(fsr.flatMap(p => p.formats.map(f => f.isbn13))).has(isbnSearch('https://www.amazon.com/s?k=9783676052108&i=stripbooks')));
+console.log(JSON.stringify({ status: 'PASS', books: evidence.pages.length, formats: evidence.pages.reduce((n, b) => n + b.formats.length, 0), reviewedAssets: assetCount, renderedPages: rendered, negativeCases: 6 }));

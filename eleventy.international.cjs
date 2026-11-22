@@ -23,27 +23,7 @@ module.exports = function(config) {
     const url = catalog.directShopUrl(book, 'en');
     return url ? { '@context': 'https://schema.org', '@type': 'Product', name: book.title, sku: book.id, url } : null;
   });
-  // Thumbnails for listing pages: `{{ file | thumb(480) }}` returns /assets/thumbs/<name>-480.webp,
-  // rendered from the source image after the build. Detail pages keep the full image.
-  const thumbs = new Map();
-  config.addFilter('thumb', (file, width = 480) => {
-    if (!file || !/\.(jpe?g|png|webp)$/i.test(file)) return file;
-    const src = path.join(__dirname, 'src', String(file).replace(/^\//, ''));
-    if (!fs.existsSync(src)) return file;
-    const out = `/assets/thumbs/${path.basename(file).replace(/\.[^.]+$/, '')}-${width}.webp`;
-    thumbs.set(out, { src, width });
-    return out;
-  });
-  config.on('eleventy.after', async ({ dir, directories }) => {
-    const output = directories?.output || dir.output;
-    const sharp = require('sharp');
-    for (const [out, { src, width }] of thumbs) {
-      const dest = path.join(output, out);
-      if (fs.existsSync(dest) && fs.statSync(dest).mtimeMs >= fs.statSync(src).mtimeMs) continue;
-      fs.mkdirSync(path.dirname(dest), { recursive: true });
-      await sharp(src).resize({ width, withoutEnlargement: true }).webp({ quality: 74 }).toFile(dest);
-    }
-  });
+  config.addPlugin(require('./catalog/thumbs.cjs'));
   // Typography: straight apostrophes inside words (Broadfoot's) become ’ in visible text only.
   // Tags, attributes, scripts and styles stay untouched.
   config.addTransform('typographic-apostrophes', function(content) {
