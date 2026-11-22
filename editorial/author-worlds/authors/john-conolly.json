@@ -1,0 +1,276 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "john-conolly",
+  "name": "John Conolly",
+  "dates": "1794–1866",
+  "depth": "expanded",
+  "editionStatus": "IN_PREPARATION",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "DNB1887",
+      "title": "Conolly Norman, 'Conolly, John', Dictionary of National Biography, vol. XII (London: Smith, Elder & Co., 1887); Wikisource transcription",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Conolly,_John",
+      "checked": "2026-11-22",
+      "note": "Birth at Market Rasen 27 May 1794; ensign in the Cambridgeshire militia at eighteen; married a daughter of Sir John Collins; first year of married life near Tours, return 1817; Edinburgh M.D. 1821 with the thesis De statu mentis in insania et melancholia; Lewes, Chichester, Stratford-on-Avon (alderman and twice mayor); London 1827, chair at University College 1828; Warwick 1830; Birmingham 1838; charge of Hanwell 1 June 1839, mechanical restraint discontinued from 21 September 1839; ceased to reside 1844, visiting physician till 1852; plate and portrait by Sir John Watson Gordon on retirement; co-founder with Hastings and Forbes of the society later known as the British Medical Association; honorary D.C.L. when the Association met at Oxford (no year given); died in his house at Hanwell 5 March 1866. The Wikisource heading reads '(1794–1860)'; the article text gives 1866."
+    },
+    {
+      "id": "MUNK",
+      "title": "G. H. Brown, 'John Conolly', Lives of the Fellows of the Royal College of Physicians of London (Munk's Roll), vol. IV, p. 33 (1955); RCP Museum, Inspiring Physicians",
+      "url": "https://history.rcp.ac.uk/inspiring-physicians/john-conolly",
+      "checked": "2026-11-22",
+      "note": "Header: b. 27 May 1794, d. 5 March 1866; MD Edin, Hon DCL Oxon, FRCP (1844). Stratford-on-Avon five years, twice mayor; London 1827 and the chair of the practice of medicine at University College the following year; Warwick from 1830; Hanwell 1839, resident physician till 1845, visiting physician till 1852; Croonian Lectures on mania 1848–49; co-founder of the Provincial Medical and Surgical Association."
+    },
+    {
+      "id": "TREATMENT1856",
+      "title": "John Conolly, The Treatment of the Insane without Mechanical Restraints (London: Smith, Elder & Co., 1856); Internet Archive scan treatmentofinsan00cono (Countway Library of Medicine)",
+      "url": "https://archive.org/details/treatmentofinsan00cono",
+      "checked": "2026-11-22",
+      "note": "Leading witness of the AETERNUS edition JC_005. Dedication to Sir James Clark, Bart., M.D., F.R.S., dated The Lawn House, Hanwell, July 26th, 1856. Six parts: the last days of the old methods; the first days of the non-restraint system; private asylums; Hanwell in 1839; adoption in the large English asylums after 1839; progress on the Continent."
+    },
+    {
+      "id": "WELLCOME12548I",
+      "title": "Wellcome Collection, 'John Conolly. Photograph by Maull & Polyblank', reference 12548i",
+      "url": "https://wellcomecollection.org/works/ehn3qryr",
+      "checked": "2026-11-22",
+      "note": "One photograph; Public Domain Mark. The catalogue gives no date of exposure."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was born at Market Rasen, Lincolnshire, on 27 May 1794.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "At eighteen he became an ensign in the Cambridgeshire militia; after his marriage to Elizabeth, daughter of Sir John Collins, he lived for about a year in France near Tours and returned home in 1817.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He graduated M.D. at Edinburgh in 1821 with an inaugural thesis on the state of the mind in insanity and melancholia.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "After short periods of practice at Lewes and Chichester he settled for about five years at Stratford-upon-Avon, where he was alderman and twice mayor and inspecting physician to the county asylums.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He moved to London in 1827 and in 1828 became professor of the practice of medicine at the new University College.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "An Inquiry Concerning the Indications of Insanity appeared in 1830, written while he held the chair.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1830 he left London for Warwick, where he again served as inspecting physician to the county asylums, and in 1838 he moved to Birmingham.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He took charge of the Middlesex County Asylum at Hanwell on 1 June 1839; from 21 September 1839 every form of mechanical restraint was discontinued there.",
+      "sources": ["DNB1887", "MUNK", "TREATMENT1856"]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He gave up residence at the asylum in 1844 or 1845 and kept medical control as visiting physician until 1852.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F10",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was elected a Fellow of the Royal College of Physicians in 1844 and gave the Croonian Lectures on mania at the College in 1848–49.",
+      "sources": ["MUNK"]
+    },
+    {
+      "id": "F11",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "With Charles Hastings and John Forbes he took part in founding the Provincial Medical and Surgical Association, later the British Medical Association; the University of Oxford conferred on him the honorary degree of D.C.L. when the Association met there.",
+      "sources": ["DNB1887", "MUNK"]
+    },
+    {
+      "id": "F12",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "His books include On the Construction and Government of Lunatic Asylums (1847), The Treatment of the Insane without Mechanical Restraints (1856) and A Study of Hamlet (1863).",
+      "sources": ["DNB1887", "MUNK", "TREATMENT1856"]
+    },
+    {
+      "id": "F13",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "The Treatment of the Insane without Mechanical Restraints was published by Smith, Elder & Co. in London in 1856, dedicated to Sir James Clark and dated from The Lawn House, Hanwell, 26 July 1856.",
+      "sources": ["TREATMENT1856"]
+    },
+    {
+      "id": "F14",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "On his retirement as visiting physician he was presented with a piece of plate and a portrait of himself by Sir John Watson Gordon.",
+      "sources": ["DNB1887"]
+    },
+    {
+      "id": "F15",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He died in his house at Hanwell on 5 March 1866.",
+      "sources": ["DNB1887", "MUNK"]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "End of residence at Hanwell",
+      "decision": "The Dictionary of National Biography gives 1844, Munk's Roll 1845. The page says 1844 or 1845."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Year of the Oxford D.C.L.",
+      "decision": "Both sources record the honorary D.C.L.; neither gives the year. A date of 21 July 1852, during the Association's meeting at Oxford, appears in secondary accounts but no contemporary record has been seen. The page gives no year."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Years at Lewes, Chichester and Stratford-upon-Avon; years of the two mayoralties",
+      "decision": "The sources give durations, not dates. The page names the towns and offices without years."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Resignation of the University College chair",
+      "decision": "No date is given; both sources place his departure from London in 1830. The page does not date the resignation."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Private asylum at Hanwell",
+      "decision": "Both sources say he owned or managed a private asylum in the village of Hanwell. The 1856 dedication is dated from The Lawn House, Hanwell; that the house was the private asylum is not stated in the sources read, and the page does not say so."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Place of burial",
+      "decision": "Neither source names it. A gravestone in the Kensington Cemetery at Hanwell is reported in secondary sources and photographs, not in a documentary record seen; the page does not name a burial place."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Date of the photograph",
+      "decision": "The Wellcome catalogue gives none. Maull & Polyblank worked as a partnership in London in the 1850s and 1860s; the page does not date the likeness."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Death year in the Wikisource heading",
+      "decision": "The heading of the Wikisource transcription reads 1794–1860; the article text and Munk's Roll give 5 March 1866, which the page follows."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Non-restraint is presented as a system Conolly carried through at Hanwell on a large public scale, prepared by the York Retreat and by Gardiner Hill and Charlesworth at Lincoln, not as his sole invention; the book is read as his own account and justification."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Prose follows the JC_005 publisher's paratext V2 (About the Author) in substance, corrected against the two biographical sources. AETERNUS editorial judgement; no invented quotation."
+  },
+  "timeline": [
+    ["1794", "Born at Market Rasen, Lincolnshire, 27 May", ""],
+    ["c. 1812", "Ensign in the Cambridgeshire militia", ""],
+    ["1817", "Returns from France; begins medical studies at Edinburgh", ""],
+    ["1821", "M.D. Edinburgh, thesis on insanity and melancholia", ""],
+    ["1820s", "Practice at Lewes and Chichester, then Stratford-upon-Avon: alderman, twice mayor", ""],
+    ["1828", "Professor of the practice of medicine, University College, London", ""],
+    ["1830", "An Inquiry Concerning the Indications of Insanity; removes to Warwick", ""],
+    ["1838", "Birmingham", ""],
+    ["1839", "Takes charge of Hanwell, 1 June; mechanical restraint discontinued from 21 September", ""],
+    ["1844", "Fellow of the Royal College of Physicians", ""],
+    ["1844 or 1845", "Gives up residence at Hanwell; visiting physician", ""],
+    ["1847", "On the Construction and Government of Lunatic Asylums", ""],
+    ["1848–49", "Croonian Lectures on mania", ""],
+    ["1852", "Leaves the visiting physicianship at Hanwell", ""],
+    ["1856", "The Treatment of the Insane without Mechanical Restraints", ""],
+    ["1863", "A Study of Hamlet", ""],
+    ["1866", "Dies at Hanwell, 5 March", ""]
+  ],
+  "connections": [],
+  "rank": {
+    "en": "John Conolly, M.D., D.C.L., F.R.C.P., Resident Physician to the Middlesex County Asylum at Hanwell"
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-john-conolly-maull-polyblank.jpg",
+    "caption": {
+      "en": "John Conolly. Photograph by Maull & Polyblank, London. Wellcome Collection."
+    },
+    "rights": "Photograph by Maull & Polyblank; Wellcome Collection 12548i, Public Domain Mark.",
+    "provenance": "https://wellcomecollection.org/works/ehn3qryr (IIIF V0026208, full image); source JPEG SHA-256 c3ce323980bc5a73db472795a4d4770f9e17fc0f544d2e429545138b4a4409ba, 2350 x 3114 px.",
+    "processing": "Cropped to the inside of the arched mount (box 234,467,2133,2818 px; studio line and mount removed), master PNG SHA-256 0029d5cfc61e120a3c1fc82a87a101ce8214f4dc6176d04cabbd3bbec2a556a2; web copy Lanczos resize to 1000 px height, JPEG. The sepia tone is that of the scan; no retouching, colouring or generative change.",
+    "sha256": "b1f6a3b9a4ebec695548cb435f39fce45525101e46337f4ef8cc4caaf3312d9a",
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "Verleger an der Frage-Oberfläche 22.11.2026: Autorenporträt A (Foto Maull & Polyblank), Autorenseite mit Porträt A (decision_jc005_bilder_deckel_autorenseite_claude_20261122; bestätigt in decision_jc005_deckel_hanwell_kolorisiert_portraet_a_frontispiz_d_bleiben_20261122)."
+    }
+  },
+  "locales": {
+    "en": {
+      "tagline": "The physician who took the straps and strait-waistcoats out of Hanwell, and wrote down how it was done.",
+      "intro": "John Conolly, M.D., took charge of the Middlesex County Asylum at Hanwell, an asylum of some eight hundred patients, on 1 June 1839. From 21 September of that year no patient there was put under mechanical restraint. In 1856 he set down the history and the method of that change in The Treatment of the Insane without Mechanical Restraints.",
+      "orientation": "Conolly did not invent non-restraint. The York Retreat and the Lincoln asylum had prepared the ground. What he showed was that a public asylum of several hundred patients could be governed without chains, belts and strait-waistcoats, if attendants, wards, occupation and supervision were organised to replace them. His book treats non-restraint as a discipline for the staff as much as a mercy to the patients.",
+      "overview": [
+        "Before Hanwell his career was uncertain: militia officer, provincial physician and mayor, a London professor who left his chair after two years. His interest in insanity reached back to his Edinburgh thesis of 1821 and to his posts as inspecting physician to the Warwickshire asylums.",
+        "After Hanwell he was consulted as an authority on the care of the insane, and he wrote on how asylums should be built and governed."
+      ],
+      "originHeading": "Market Rasen, the militia and Edinburgh",
+      "careerHeading": "Stratford, University College, Warwick and Hanwell",
+      "origin": [
+        "John Conolly was born at Market Rasen in Lincolnshire on 27 May 1794. At eighteen he became an ensign in the Cambridgeshire militia. After his marriage to Elizabeth, daughter of Sir John Collins, he spent about a year in France, near Tours, and returned home in 1817 to study medicine at Edinburgh.",
+        "He graduated M.D. in 1821. His inaugural thesis dealt with the state of the mind in insanity and melancholia, the subject that would decide his later career."
+      ],
+      "career": [
+        "After short periods of practice at Lewes and Chichester he settled at Stratford-upon-Avon for about five years. He was alderman and twice mayor of the borough and inspecting physician to the county asylums. In 1827 he moved to London, and in 1828 he became professor of the practice of medicine at the newly founded University College. An Inquiry Concerning the Indications of Insanity appeared in 1830. In the same year he left London for Warwick, where he again inspected the county asylums. In 1838 he moved to Birmingham. With Charles Hastings and John Forbes he helped to found the Provincial Medical and Surgical Association, later the British Medical Association.",
+        "On 1 June 1839 he took charge of the Middlesex County Asylum at Hanwell, and from 21 September every form of mechanical restraint was discontinued there. He gave up residence in 1844 or 1845 and remained visiting physician until 1852. On his retirement he was presented with a piece of plate and a portrait of himself by Sir John Watson Gordon. He was elected a Fellow of the Royal College of Physicians in 1844, gave the Croonian Lectures on mania in 1848–49, and received an honorary D.C.L. from the University of Oxford. In his later years he had a large consulting practice in mental disease and a private asylum in the village of Hanwell. He died in his house at Hanwell on 5 March 1866."
+      ],
+      "literature": [
+        "On the Construction and Government of Lunatic Asylums (1847) set out how an asylum should be built and run. The Treatment of the Insane without Mechanical Restraints (1856) is his account of the change itself: the last days of the old methods, the first experiments at Lincoln, the abolition of restraint at Hanwell in 1839, its adoption in the large English asylums and its reception on the Continent. He dedicated it to Sir James Clark and dated it from The Lawn House, Hanwell, 26 July 1856.",
+        "The book is the testimony and the defence of the man who carried the system through. It describes the old instruments of restraint precisely, and it is just as exact about what was put in their place: watchful attendants, seclusion used with care, occupation, regular meals and the daily visits of the physician on the wards. In A Study of Hamlet (1863) he turned the same experience to Shakespeare's play."
+      ],
+      "legacy": "Conolly's distinction lies in showing, on a large public scale and in print, that mechanical coercion was not necessary to the government of an asylum. His own system kept considerable powers of control, and the book should be read with that in mind. The standard it set for English asylums nevertheless held.",
+      "bridge": "The Treatment of the Insane without Mechanical Restraints (1856). An English AETERNUS edition following the London text of 1856, with a new medical and historical apparatus, is in preparation in the Anthracite Series.",
+      "description": "John Conolly, M.D. (1794–1866), resident physician at the Middlesex County Asylum at Hanwell, who abolished mechanical restraint there in 1839, and author of The Treatment of the Insane without Mechanical Restraints (1856). An English AETERNUS edition is in preparation.",
+      "claimRefs": ["F01", "F02", "F03", "F04", "F05", "F06", "F07", "F08", "F09", "F10", "F11", "F12", "F13", "F14", "F15"]
+    }
+  }
+}
