@@ -90,6 +90,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-william-gilmore-simms-coloured-20261122.webp",
+    "caption": {
+      "de": "William Gilmore Simms; digital koloriert",
+      "en": "William Gilmore Simms. Oil on canvas, unidentified artist. National Portrait Gallery, Smithsonian Institution; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "91e50513900ef6ef2a8da009b585663fbfa88240a67b174967dbdce91cb33b0e"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-wgs001-npg-95-20-20261008.webp. Colourised master william-gilmore-simms_KOLORIERT_V1.png (sha256 373f6df8d8d8ea57c63e5dec706da7739dba240f19fd37f6aaf30eb257505129).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1138x1382). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-wgs001-npg-95-20-20261008.webp",
     "caption": {
       "de": "William Gilmore Simms",

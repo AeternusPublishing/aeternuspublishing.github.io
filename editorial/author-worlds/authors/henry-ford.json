@@ -143,6 +143,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-henry-ford-coloured-20261122.webp",
+    "caption": {
+      "de": "Henry Ford am Schreibtisch, fotografische Aufnahme; digital koloriert",
+      "en": "Henry Ford at his desk, photographic portrait; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "a3a0d917130ff56624025c892cd3f5947c1d5e79cf778d8e2405b4d2a09e2711"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-ford.webp. Colourised master henry-ford_KOLORIERT_V1.png (sha256 6849c8ba702c3ef60a6926fe711e5acd7852a6cb3fd5c50864d3587944012c44).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1006x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-ford.webp",
     "caption": {
       "de": "Henry Ford am Schreibtisch, fotografische Aufnahme",

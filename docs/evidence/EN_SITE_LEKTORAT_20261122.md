@@ -126,3 +126,11 @@ Results: check:text, check:author-order, check:author-worlds (de-only and both b
 - Results: check:text, check:author-order, check:author-worlds (de-only and both builds), check:edition-languages, check:book-identities (plain and `--international`), check:kosmos and check-english-site all PASS.
 - Open: 23 black-and-white portraits are being colourised (each image to the publisher for approval); 12 authors without a portrait get a sourced search, each image presented.
 - Decisions: `decision_website_en_welle2_coverportraets_sieben_roberts_sitzend_gpt_kolorierung_20261122`, `decision_website_en_welle2_freigabe_reiter_raster_coverportraets_live_portraetsuche_20261122`.
+
+## Wave 2: colourised author portraits (22.11.2026)
+
+- 23 portraits replaced by their GPT colourisation (Codex thread `web_en_welle2_portraet_kolorierung`); masters hash-checked against `KOLORIERUNG_PRUEFUNG.json`, applied with `scripts/apply-colourised-portraits-20261122.cjs`; the old binding stays under `previous_image`.
+- Melliss: V1 (blue tunic) rejected by the publisher; V2 scarlet with black collar, 9th Bombay Infantry "Red; faced black" (en.wikipedia.org/wiki/109th_Infantry).
+- Kephart, Murray, Miller received German captions (required for publisher-approved images).
+- Both sites read the dossiers: EN shows all 23, DE 16 author pages.
+- Decision: `decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122`.

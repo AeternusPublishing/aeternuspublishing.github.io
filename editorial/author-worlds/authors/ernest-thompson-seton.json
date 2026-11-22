@@ -183,6 +183,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-ernest-thompson-seton-coloured-20261122.webp",
+    "caption": {
+      "de": "Historisches Porträt von Ernest Thompson Seton; digital koloriert",
+      "en": "Historical portrait of Ernest Thompson Seton; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "22ff6effd386d3f760853b31925e22f61b99a7f851b0dbe8401458734c5c5515"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-seton-clean-20260923.webp. Colourised master ernest-thompson-seton_KOLORIERT_V1.png (sha256 458102519de33b089f4b56d37e66d6f71aff9213783a48de57c412df7e52b661).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1125x1398). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-seton-clean-20260923.webp",
     "caption": {
       "de": "Historisches Porträt von Ernest Thompson Seton",

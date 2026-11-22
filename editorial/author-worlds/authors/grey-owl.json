@@ -112,6 +112,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-grey-owl-coloured-20261122.webp",
+    "caption": {
+      "de": "Archibald Stansfeld Belaney · Grey Owl; digital koloriert",
+      "en": "Grey Owl (Archibald Stansfeld Belaney), photograph from the first edition, 1931; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "7b2f59bb32c62b43ada990724dd9cd6acd67bec2002d76785eaa8280be7e72f2"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-grey-owl.webp. Colourised master grey-owl_KOLORIERT_V1.png (sha256 fa23ef69c476287fb2d4caf62e5f8571889b72f933f77837a8efe050abf69166).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 986x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-grey-owl.webp",
     "caption": {
       "de": "Archibald Stansfeld Belaney · Grey Owl",

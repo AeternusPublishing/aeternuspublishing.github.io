@@ -107,6 +107,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-george-washington-sears-coloured-20261122.webp",
+    "caption": {
+      "de": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887; digital koloriert",
+      "en": "George Washington Sears, “Nessmuk,” wood engraving after a photograph, about 1887; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "c5403d59049a8aed7aec6e0192f014acf2dd50c3baeb2f4a13fd32e08f59a490"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-sears.webp. Colourised master george-washington-sears_KOLORIERT_V1.png (sha256 1ae318bdff7c5418eb6dc6eb881be360c4dd3327590b3169b9ec2f18bd669497).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1006x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-sears.webp",
     "caption": {
       "de": "George Washington Sears, »Nessmuk«, Holzstich nach einer Fotografie, um 1887",

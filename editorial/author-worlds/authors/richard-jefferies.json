@@ -90,6 +90,22 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-richard-jefferies-coloured-20261122.webp",
+    "caption": {
+      "de": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888; digital koloriert.",
+      "en": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "30b4e1c2efb38749f369104c612dccfb0d432289d3e2f3743acf4086d8542b09"
+    },
+    "rights": "1888 published portrait; anonymous historical original; source and local derivation in portrait-jefferies.source.json",
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-jefferies.webp; original source: https://archive.org/details/eulogyofrichardj00besarich. Colourised master richard-jefferies_KOLORIERT_V1.png (sha256 8343f3e911501db22a13ad20c6818ed7d80ce422be91e0c87629072edb7efd2e).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1008x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-jefferies.webp",
     "caption": {
       "de": "Richard Jefferies. Frontispiece to Walter Besant’s The Eulogy of Richard Jefferies, 1888.",

@@ -101,6 +101,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-robert-louis-stevenson-coloured-20261122.webp",
+    "caption": {
+      "de": "Porträt am Schreibtisch; Rekonstruktion nach dem Fotogravüre-Frontispiz seiner Briefe von 1899; digital koloriert.",
+      "en": "Portrait at his writing desk; reconstructed after the photogravure frontispiece of his Letters, 1899; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "f6a52dde0c7fb81507a565037d82efa1fe7f73a0c092e11de1b2a79934c9d018"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-stevenson.webp. Colourised master robert-louis-stevenson_KOLORIERT_V1.png (sha256 b05dc1711cc6a05cd338bd24ecdf32b0da9b775949f8e225b8f60cd703a127c2).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1038x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-stevenson.webp",
     "caption": {
       "de": "Porträt am Schreibtisch; Rekonstruktion nach dem Fotogravüre-Frontispiz seiner Briefe von 1899.",

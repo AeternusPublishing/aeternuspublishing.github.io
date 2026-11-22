@@ -101,6 +101,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-james-fenimore-cooper-coloured-20261122.webp",
+    "caption": {
+      "de": "James Fenimore Cooper; digital koloriert",
+      "en": "James Fenimore Cooper, portrait by John Wesley Jarvis, 1822; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "2f3e924e821c57c4265531e87e2b625886314bc07a79615095a21dacacbe8881"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-coo-cooper-jarvis-1822-20261008.webp. Colourised master james-fenimore-cooper_KOLORIERT_V1.png (sha256 02010827dae70fdd767b0b64a69ccb3bde4f8ace987ca9bcb345e4d666029e9c).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1127x1396). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-coo-cooper-jarvis-1822-20261008.webp",
     "caption": {
       "de": "James Fenimore Cooper",

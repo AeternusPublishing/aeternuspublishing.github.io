@@ -133,6 +133,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-arthur-conan-doyle-coloured-20261122.webp",
+    "caption": {
+      "de": "Porträt am Schreibtisch; Rekonstruktion nach einer Fotografie; digital koloriert.",
+      "en": "Portrait at his writing desk; reconstructed after a photograph; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "64dee6a449538ea2663bbaf99623dee9d9fa30e29ba8409166adaad7323fb1f7"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-acd-doyle-20261008.webp. Colourised master arthur-conan-doyle_KOLORIERT_V1.png (sha256 bdbdb215dd16bc0cba63aa91406551c0c6aea8c9abf81f441079a8211acd18d3).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1127x1396). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-acd-doyle-20261008.webp",
     "caption": {
       "de": "Porträt am Schreibtisch; Rekonstruktion nach einer Fotografie.",

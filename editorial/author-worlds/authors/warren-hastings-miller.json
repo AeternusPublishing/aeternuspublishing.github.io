@@ -183,6 +183,22 @@
     }
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-warren-hastings-miller-coloured-20261122.webp",
+    "caption": {
+      "de": "Warren Hastings Miller neben einem Zelt mit Tragbahrenbett, vor 1918; digital koloriert.",
+      "en": "Warren Hastings Miller beside a stretcher-bed tent, before 1918; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "059052113b7590da10ce7551219fd9919ddb725a1f7f7851524911aa242bc647"
+    },
+    "rights": "Photograph in Warren H. Miller, Camping Out, George H. Doran, New York, 1918, facing p. 74; photographer unidentified. Public domain in the United States (publication before 1931). Identification of the sitter by Warren Miller Jr. (David Wescott interview, 2012).",
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-miller-1918-web-20261102.jpg; original source: https://archive.org/details/campingout00mill. Colourised master warren-hastings-miller_KOLORIERT_V1.png (sha256 a7deb5334f5a6709a9239036ad0004ddb3fbbc35a251279a014c24d77eb00000).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1400x1111). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
     "status": "verified",
     "file": "/assets/images/portrait-miller-1918-web-20261102.jpg",
     "rights": "Photograph in Warren H. Miller, Camping Out, George H. Doran, New York, 1918, facing p. 74; photographer unidentified. Public domain in the United States (publication before 1931). Identification of the sitter by Warren Miller Jr. (David Wescott interview, 2012).",

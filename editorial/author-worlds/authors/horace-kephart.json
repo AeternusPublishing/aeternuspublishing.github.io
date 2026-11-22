@@ -228,6 +228,22 @@
     }
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-horace-kephart-coloured-20261122.webp",
+    "caption": {
+      "de": "Horace Kephart beim Kochen im Lager, vor 1913; digital koloriert.",
+      "en": "Horace Kephart cooking in camp, before 1913; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "71a8ded4328d03bbad3fc0ab1bdb7773842c4c273383d1432458871a82649831"
+    },
+    "rights": "Photograph published in Horace Kephart, Our Southern Highlanders, Outing Publishing, New York, 1913; photographer unknown. Public domain in the United States (publication before 1931).",
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-kephart-1913-web-20261102.jpg; original source: https://archive.org/details/oursouthernhighl00keph. Colourised master horace-kephart_KOLORIERT_V1.png (sha256 f377112771c1bb38e17478e6cbf455ef68df8e9f9419c412f495cb8eaf379eff).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1038x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
     "status": "verified",
     "file": "/assets/images/portrait-kephart-1913-web-20261102.jpg",
     "rights": "Photograph published in Horace Kephart, Our Southern Highlanders, Outing Publishing, New York, 1913; photographer unknown. Public domain in the United States (publication before 1931).",

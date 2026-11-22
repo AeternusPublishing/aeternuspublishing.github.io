@@ -133,6 +133,21 @@
   },
   "image": {
     "status": "publisher-approved",
+    "file": "/assets/images/portrait-henry-rider-haggard-coloured-20261122.webp",
+    "caption": {
+      "de": "Historisches Porträt von Henry Rider Haggard; digital koloriert",
+      "en": "Historical portrait of Henry Rider Haggard; digitally colourised"
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "acfba176178d2497402fe6d5f7a34e464ff854f99bbd0c2c24725f3a17ae0796"
+    },
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-haggard.webp. Colourised master henry-rider-haggard_KOLORIERT_V1.png (sha256 8c81e2a7b1fea1d3cd59717fba9e6ed91297c81e4d2c86b563b63cdb8124c885).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 1006x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
+    "status": "publisher-approved",
     "file": "/assets/images/portrait-haggard.webp",
     "caption": {
       "de": "Historisches Porträt von Henry Rider Haggard",

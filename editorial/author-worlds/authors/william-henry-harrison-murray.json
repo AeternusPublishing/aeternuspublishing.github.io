@@ -191,6 +191,22 @@
     }
   },
   "image": {
+    "status": "publisher-approved",
+    "file": "/assets/images/portrait-william-henry-harrison-murray-coloured-20261122.webp",
+    "caption": {
+      "de": "William Henry Harrison Murray, veröffentlicht um 1905; digital koloriert.",
+      "en": "William Henry Harrison Murray, published c. 1905; digitally colourised."
+    },
+    "approval": {
+      "date": "2026-11-22",
+      "authority": "decision_website_en_welle2_kolorierung_23_freigegeben_melliss_scharlach_20261122",
+      "sha256": "7ac2785f8b072b9c29c35a632303f0c7532fceacf4b0b255d8abcde838c66d0c"
+    },
+    "rights": "Photograph reproduced in the National Magazine (Boston), catalogued c. 1905; photographer not identified. Public domain in the United States (publication before 1931).",
+    "provenance": "Digital colourisation (GPT image tool, Codex thread web_en_welle2_portraet_kolorierung) of the previously approved portrait /assets/images/portrait-murray-national-web-20261102.jpg; original source: https://commons.wikimedia.org/wiki/File:William_Henry_Harrison_Murray.jpg. Colourised master william-henry-harrison-murray_KOLORIERT_V1.png (sha256 1d80635b2a8d806e5dff8dfd3eeaafb622add4b11528a8b016480fd772fe26a6).",
+    "processing": "Colourised master converted to WebP (quality 88, longest side at most 1400 px, 919x1400). Colours are an interpretation, not a record."
+  },
+  "previous_image": {
     "status": "verified",
     "file": "/assets/images/portrait-murray-national-web-20261102.jpg",
     "rights": "Photograph reproduced in the National Magazine (Boston), catalogued c. 1905; photographer not identified. Public domain in the United States (publication before 1931).",
