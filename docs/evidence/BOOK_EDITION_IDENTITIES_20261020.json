@@ -2724,15 +2724,15 @@
       "title": "A Texas Ranger",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+      "front_url": "/assets/images/cover-en-napoleon-augustus-jennings-a-texas-ranger-annotated-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
-          "sha256": "215aff75c4104697303a462395fe086dfc3b39eaf0c28081624b78f8dc055cb5"
+          "path": "src/assets/images/cover-en-napoleon-augustus-jennings-a-texas-ranger-annotated-trade-20261122.jpg",
+          "sha256": "900f66edd599dc2a60606aef441ad676f83ce81f3731952b0298203f8c320879"
         },
         {
-          "path": "src/assets/images/cover-a-texas-ranger-jennings-en-20261009.webp",
-          "sha256": "5128025fd5f7c0033bfcfc481d92011671ec6e8731f74257be71a5471dc9abd5"
+          "path": "src/assets/images/cover-en-napoleon-augustus-jennings-a-texas-ranger-annotated-trade-20261122.webp",
+          "sha256": "a219bcd845ab4077d13ed2795b021039ab75560c84466732dd401ff8bd31575c"
         }
       ],
       "formats": [
@@ -2779,7 +2779,25 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+            "sha256": "215aff75c4104697303a462395fe086dfc3b39eaf0c28081624b78f8dc055cb5"
+          },
+          {
+            "path": "src/assets/images/cover-a-texas-ranger-jennings-en-20261009.webp",
+            "sha256": "5128025fd5f7c0033bfcfc481d92011671ec6e8731f74257be71a5471dc9abd5"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3061,11 +3079,15 @@
       "title": "Rolf in the Woods (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+      "front_url": "/assets/images/cover-en-ernest-thompson-seton-edition-rolf-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
-          "sha256": "094785461b52b1e2fa25b79fc8a4a5064d574da98cc0d526a118660433521e77"
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-rolf-trade-20261122.jpg",
+          "sha256": "962df257a52462b230c621ae39ae0ad41049e28e1d671bab23009e5d32251760"
+        },
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-rolf-trade-20261122.webp",
+          "sha256": "1a92b4233e060030537ea7814c92826a8009b9d60f49c7821cbb72cc649b11b0"
         }
       ],
       "formats": [
@@ -3126,7 +3148,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+            "sha256": "094785461b52b1e2fa25b79fc8a4a5064d574da98cc0d526a118660433521e77"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3135,11 +3171,15 @@
       "title": "Two Little Savages (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-two-little-savages-en-fallback.jpg",
+      "front_url": "/assets/images/cover-en-ernest-thompson-seton-edition-two-little-savages-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-two-little-savages-en-fallback.jpg",
-          "sha256": "3640b171bb6b87f448b28bcc8f045fabef48b05c4c0571ef9e093090c923c6a7"
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-two-little-savages-trade-20261122.jpg",
+          "sha256": "8e71ebf0a587a19467afcc100b1f4c507c42d5a777de18514f329726bff30a5c"
+        },
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-two-little-savages-trade-20261122.webp",
+          "sha256": "489f43f82889e0ad7d02ed09ede85971ba60b58add1ada6ccb9180729f39e5ca"
         }
       ],
       "formats": [
@@ -3200,7 +3240,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-two-little-savages-en-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-two-little-savages-en-fallback.jpg",
+            "sha256": "3640b171bb6b87f448b28bcc8f045fabef48b05c4c0571ef9e093090c923c6a7"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3209,11 +3263,15 @@
       "title": "The Arctic Prairies (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-arctic-prairies-en-fallback.jpg",
+      "front_url": "/assets/images/cover-en-ernest-thompson-seton-edition-arctic-prairies-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-arctic-prairies-en-fallback.jpg",
-          "sha256": "86b4c4ee8acb9ab6da8e591f3240385fa28111872c5a747743b3157f7f155ccf"
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-arctic-prairies-trade-20261122.jpg",
+          "sha256": "517bea7a0c6b7fe4b626762c8e2b6e291c0634bc00ca790a42fac8d31b9d567a"
+        },
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-arctic-prairies-trade-20261122.webp",
+          "sha256": "cfcf8a3d957631a94b4cd02ca65498a0e7a3a35f944420193f63ce7a8c76e66f"
         }
       ],
       "formats": [
@@ -3292,7 +3350,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-arctic-prairies-en-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-arctic-prairies-en-fallback.jpg",
+            "sha256": "86b4c4ee8acb9ab6da8e591f3240385fa28111872c5a747743b3157f7f155ccf"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3408,11 +3480,15 @@
       "title": "The Hawks of Hawk-Hollow",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-hawks-en-fallback.jpg",
+      "front_url": "/assets/images/cover-en-robert-montgomery-bird-edition-hawks-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-hawks-en-fallback.jpg",
-          "sha256": "d2f311ceb86cb4151b2a0fc99f0a103ad301f5e4157d753546ba32caab853c58"
+          "path": "src/assets/images/cover-en-robert-montgomery-bird-edition-hawks-trade-20261122.jpg",
+          "sha256": "6dbdfe627a5c66e9d2620669dc0b991089750b39db2abc064563c7386a8ab904"
+        },
+        {
+          "path": "src/assets/images/cover-en-robert-montgomery-bird-edition-hawks-trade-20261122.webp",
+          "sha256": "2b18482277bf3e88bfb5ab1841df6634c2061408aed9757fde6aa6c610f39b4c"
         }
       ],
       "formats": [
@@ -3473,7 +3549,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-hawks-en-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-hawks-en-fallback.jpg",
+            "sha256": "d2f311ceb86cb4151b2a0fc99f0a103ad301f5e4157d753546ba32caab853c58"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3537,11 +3627,15 @@
       "title": "The Oregon Trail (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-oregon-trail-en-fallback.jpg",
+      "front_url": "/assets/images/cover-en-francis-parkman-edition-oregon-trail-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-oregon-trail-en-fallback.jpg",
-          "sha256": "63d49e6ecb0d66868f426494949e007b380adc1b48ea612b263bd58168ec84b8"
+          "path": "src/assets/images/cover-en-francis-parkman-edition-oregon-trail-trade-20261122.jpg",
+          "sha256": "59a369b3f8605a6a8f171ef4783cafcfaba1806375a4c387b1f9833fde96216e"
+        },
+        {
+          "path": "src/assets/images/cover-en-francis-parkman-edition-oregon-trail-trade-20261122.webp",
+          "sha256": "9f35e9a7844a5b52b4267cf9c4abb43b3e1e15c4c97f962c7f2cda2359d6242b"
         }
       ],
       "formats": [
@@ -3602,7 +3696,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-oregon-trail-en-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-oregon-trail-en-fallback.jpg",
+            "sha256": "63d49e6ecb0d66868f426494949e007b380adc1b48ea612b263bd58168ec84b8"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3611,11 +3719,15 @@
       "title": "The Harpe’s Head (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+      "front_url": "/assets/images/cover-en-james-hall-the-harpe-s-head-illustrated-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
-          "sha256": "20c878189a1b695231f70615df0b75e5d43144f9b1f4955f654d2540067559b0"
+          "path": "src/assets/images/cover-en-james-hall-the-harpe-s-head-illustrated-trade-20261122.jpg",
+          "sha256": "ac3938f9c23e066fb733f00a6ca80e3d09653f68a639d514c10008fa3d8c6b83"
+        },
+        {
+          "path": "src/assets/images/cover-en-james-hall-the-harpe-s-head-illustrated-trade-20261122.webp",
+          "sha256": "0caa216b0bb8f5d4de990ea017139d8e01f7c9889d3d083034a2bd9be50a9b48"
         }
       ],
       "formats": [
@@ -3636,7 +3748,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+            "sha256": "20c878189a1b695231f70615df0b75e5d43144f9b1f4955f654d2540067559b0"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3654,6 +3780,25 @@
       ],
       "formats": [
         {
+          "label": "Paperback",
+          "isbn13": "9783676050722",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "DCB_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Shelters, Shacks, and Shanties (Illustrated)",
+              "isbn13": "978-3-67605-072-2",
+              "isbn10": "367605072X",
+              "asin": null
+            }
+          ]
+        }
+      ],
+      "previous_format_binding": [
+        {
           "label": "Paperback · IngramSpark",
           "isbn13": "9783676050722",
           "productform": "taschenbuch",
@@ -3670,7 +3815,12 @@
             }
           ]
         }
-      ]
+      ],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
+      }
     },
     {
       "site": "en",
@@ -3679,11 +3829,15 @@
       "title": "Bevis (Annotated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-bevis-en-fallback.jpg",
+      "front_url": "/assets/images/cover-en-richard-jefferies-edition-bevis-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-bevis-en-fallback.jpg",
-          "sha256": "2263c6c908b7e3e5d2a8f786fa20caf4ce8d17e3df11ec2e9bf9613e5e1622d9"
+          "path": "src/assets/images/cover-en-richard-jefferies-edition-bevis-trade-20261122.jpg",
+          "sha256": "59dfe4fce7b32256f3873c84146989f29637f3efe1b46c850afd21b80f741f1a"
+        },
+        {
+          "path": "src/assets/images/cover-en-richard-jefferies-edition-bevis-trade-20261122.webp",
+          "sha256": "1dc7faea7afc1577a79f2632e2daf89fd530dbd74276ab96e7234fb8e2eb24e5"
         }
       ],
       "formats": [
@@ -3725,7 +3879,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-bevis-en-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-bevis-en-fallback.jpg",
+            "sha256": "2263c6c908b7e3e5d2a8f786fa20caf4ce8d17e3df11ec2e9bf9613e5e1622d9"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3734,11 +3902,15 @@
       "title": "Edgar Huntly (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-edgar-huntly-fallback.jpg",
+      "front_url": "/assets/images/cover-en-charles-brockden-brown-edgar-huntly-illustrated-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-edgar-huntly-fallback.jpg",
-          "sha256": "a2288e517006fb1f2f6720f5c37ecde36245bd25c4adaffaae9a0c822932cff2"
+          "path": "src/assets/images/cover-en-charles-brockden-brown-edgar-huntly-illustrated-trade-20261122.jpg",
+          "sha256": "df0ab77e7b48dd26814a66baa69d064c3e9ca309c8e3661328a6711e5123da2a"
+        },
+        {
+          "path": "src/assets/images/cover-en-charles-brockden-brown-edgar-huntly-illustrated-trade-20261122.webp",
+          "sha256": "6a0f997c038d443eeaabb91f3a00002eed5761492c2921ce96d58c04a1f90793"
         }
       ],
       "formats": [
@@ -3799,7 +3971,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-edgar-huntly-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-edgar-huntly-fallback.jpg",
+            "sha256": "a2288e517006fb1f2f6720f5c37ecde36245bd25c4adaffaae9a0c822932cff2"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3834,11 +4020,15 @@
       "title": "Highways of Progress (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+      "front_url": "/assets/images/cover-en-james-j-hill-highways-of-progress-illustrated-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
-          "sha256": "26f39866f35144f4a77fb50004660d082eff2f043e215239e8cab88be04f0604"
+          "path": "src/assets/images/cover-en-james-j-hill-highways-of-progress-illustrated-trade-20261122.jpg",
+          "sha256": "f7dc3800e597880cf75e5417c12e77aa55b559c00bf53ebf9bc14180f2962d14"
+        },
+        {
+          "path": "src/assets/images/cover-en-james-j-hill-highways-of-progress-illustrated-trade-20261122.webp",
+          "sha256": "afa974c6ae336bb838a0bafc9795a33ab740eff24870a1b897b4182fe06f58bd"
         }
       ],
       "formats": [
@@ -3917,7 +4107,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+            "sha256": "26f39866f35144f4a77fb50004660d082eff2f043e215239e8cab88be04f0604"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3926,11 +4130,15 @@
       "title": "The Epic of Mount Everest (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+      "front_url": "/assets/images/cover-en-francis-younghusband-the-epic-of-mount-everest-illustrated-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
-          "sha256": "16530939b6c53a36a70f193831e7a1884f91e825b7b8e25d2ceabac5ed347041"
+          "path": "src/assets/images/cover-en-francis-younghusband-the-epic-of-mount-everest-illustrated-trade-20261122.jpg",
+          "sha256": "c4e44b94fd919b5783bda49df7fadd63b6bd373280d04d78edbda4d9f4b12f2c"
+        },
+        {
+          "path": "src/assets/images/cover-en-francis-younghusband-the-epic-of-mount-everest-illustrated-trade-20261122.webp",
+          "sha256": "d456eecf88d82e761f855457ffc27163b883577271140c89cc1115b12a7fc7a0"
         }
       ],
       "formats": [
@@ -3985,7 +4193,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+            "sha256": "16530939b6c53a36a70f193831e7a1884f91e825b7b8e25d2ceabac5ed347041"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -3994,11 +4216,15 @@
       "title": "Treasure Island (Annotated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+      "front_url": "/assets/images/cover-en-robert-louis-stevenson-treasure-island-annotated-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
-          "sha256": "dc980a2a0fb11b7ce439edb92773f1d073a083ce645f29ab4cffbd45e8a4aec4"
+          "path": "src/assets/images/cover-en-robert-louis-stevenson-treasure-island-annotated-trade-20261122.jpg",
+          "sha256": "bef5012c26f6976f4986251f338765e14dd9c02caa8d12b10ad13d7af9f7c2b6"
+        },
+        {
+          "path": "src/assets/images/cover-en-robert-louis-stevenson-treasure-island-annotated-trade-20261122.webp",
+          "sha256": "89d5dd0a4a8e275f42278557d904af6e462d57fc54a0c554289bcfeaf90a7edc"
         }
       ],
       "formats": [
@@ -4036,7 +4262,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+            "sha256": "dc980a2a0fb11b7ce439edb92773f1d073a083ce645f29ab4cffbd45e8a4aec4"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -4045,11 +4285,15 @@
       "title": "Recollections of the Kabul Campaign, 1879 & 1880",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+      "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
-          "sha256": "54e609921ddb1cd05c6aaac0e239b8ef1ad599274b918efe28acbcaa6e219d35"
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
+          "sha256": "cb91f15cfd6fe4b5f0990c79d7b3568320d7771b9c7f12cdab3753f883aa6e4c"
+        },
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.webp",
+          "sha256": "d1c35b15713a78b3744b9fe360ebf10fae612bd5868702732bb2cbaa52c503fc"
         }
       ],
       "formats": [
@@ -4164,7 +4408,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+            "sha256": "54e609921ddb1cd05c6aaac0e239b8ef1ad599274b918efe28acbcaa6e219d35"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -4173,11 +4431,15 @@
       "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+      "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
-          "sha256": "9c1711ffed9dce6800001ae6b43a8a94dfef3b77fd32806e7b39601c543e911f"
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
+          "sha256": "64c8e9f6bf16067ec38207217ff46def91acdb633a6a6fa3635b04a1b700cf47"
+        },
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.webp",
+          "sha256": "8ce9302889c4373eb687391f4ba315cb966e958e1ddf0738603cf6b11add7bc8"
         }
       ],
       "formats": [
@@ -4232,7 +4494,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+            "sha256": "9c1711ffed9dce6800001ae6b43a8a94dfef3b77fd32806e7b39601c543e911f"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -4317,11 +4593,15 @@
       "title": "The Men of the Last Frontier",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+      "front_url": "/assets/images/cover-en-grey-owl-the-men-of-the-last-frontier-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
-          "sha256": "1e48c161c4b43bdda709621fada9bd1e3fb35e66fa428704d4beda2ecfb7dd7f"
+          "path": "src/assets/images/cover-en-grey-owl-the-men-of-the-last-frontier-trade-20261122.jpg",
+          "sha256": "27a77d92eea82970ec29d9aad5d0e6537dc966b2098fdbabddb10aa15a3e6dcb"
+        },
+        {
+          "path": "src/assets/images/cover-en-grey-owl-the-men-of-the-last-frontier-trade-20261122.webp",
+          "sha256": "b0133fcdbc7772f7eba7f9a7255b723e8893f3bfb5678645786250c148800728"
         }
       ],
       "formats": [
@@ -4376,7 +4656,21 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+            "sha256": "1e48c161c4b43bdda709621fada9bd1e3fb35e66fa428704d4beda2ecfb7dd7f"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -5177,15 +5471,15 @@
       "title": "The Klondike Stampede",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+      "front_url": "/assets/images/cover-en-tappan-adney-the-klondike-stampede-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
-          "sha256": "72006e22d896f7e44bc245e6f605503cda0464f23d313a2ba90c31eb898a8c6a"
+          "path": "src/assets/images/cover-en-tappan-adney-the-klondike-stampede-trade-20261122.jpg",
+          "sha256": "2284b3c52c99b640155a2729311bdc1bc21ea86dac4910bb2d95f86ec3e81ee7"
         },
         {
-          "path": "src/assets/images/cover-the-klondike-stampede-adney-en-20261010.webp",
-          "sha256": "dda4a3e2541d9484ee3a339fbfdbf20bebb343154baf3ec60522bf239e4861d9"
+          "path": "src/assets/images/cover-en-tappan-adney-the-klondike-stampede-trade-20261122.webp",
+          "sha256": "823265315b2b138011cf2ef3297657f8566c64bf7da0880fc5f4700267cb6a7c"
         }
       ],
       "formats": [
@@ -5240,7 +5534,25 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+            "sha256": "72006e22d896f7e44bc245e6f605503cda0464f23d313a2ba90c31eb898a8c6a"
+          },
+          {
+            "path": "src/assets/images/cover-the-klondike-stampede-adney-en-20261010.webp",
+            "sha256": "dda4a3e2541d9484ee3a339fbfdbf20bebb343154baf3ec60522bf239e4861d9"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -5724,19 +6036,23 @@
       "title": "The Discovery of the Great West",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+      "front_url": "/assets/images/cover-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
-          "sha256": "16d9868e68a7d861371fc1b0958944074a0d722fed64d95498d2817838592671"
+          "path": "src/assets/images/cover-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.jpg",
+          "sha256": "8931df89a4ba6280ef55c3ee20a9d23b82884867730420b241de80b013970f8d"
         },
         {
-          "path": "src/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016.webp",
-          "sha256": "eaa060b136e49e161d62570f0c866bf78bf672284410318566ecaca30a00af2b"
+          "path": "src/assets/images/cover-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.webp",
+          "sha256": "370f0501340af4bcbfdff1f14f69f670101aaad34f7a85e70ca2bc1b6d84125f"
         },
         {
-          "path": "src/assets/images/back-the-discovery-of-the-great-west-parkman-en-20261016.jpg",
-          "sha256": "a8c047aead2fa4874e696005ea3472bcf5dd0dc460dfa38473f8cb650828e79e"
+          "path": "src/assets/images/back-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.jpg",
+          "sha256": "b660eefa36dd8081babe2b95f0857f9b4f25d59a384052183bb268b741532749"
+        },
+        {
+          "path": "src/assets/images/back-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.webp",
+          "sha256": "618e32b6e3ac02aa19f16699af18faef9f11d8aedbae64c0ecc04d5d9f0f2dd2"
         }
       ],
       "formats": [
@@ -5774,7 +6090,29 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+            "sha256": "16d9868e68a7d861371fc1b0958944074a0d722fed64d95498d2817838592671"
+          },
+          {
+            "path": "src/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016.webp",
+            "sha256": "eaa060b136e49e161d62570f0c866bf78bf672284410318566ecaca30a00af2b"
+          },
+          {
+            "path": "src/assets/images/back-the-discovery-of-the-great-west-parkman-en-20261016.jpg",
+            "sha256": "a8c047aead2fa4874e696005ea3472bcf5dd0dc460dfa38473f8cb650828e79e"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -5783,19 +6121,23 @@
       "title": "From Private to Field-Marshal",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+      "front_url": "/assets/images/cover-en-william-robertson-from-private-to-field-marshal-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
-          "sha256": "f8567dc3f664aa850d1c81759101a5db0ded9f0fe3f01f3333ab988615ed492c"
+          "path": "src/assets/images/cover-en-william-robertson-from-private-to-field-marshal-trade-20261122.jpg",
+          "sha256": "3fab17ab31aa51db6f2804296074a8ea1d8145e3a66686608fe91013beb886ef"
         },
         {
-          "path": "src/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017.webp",
-          "sha256": "237c1da33a948c765e9420b9375c3c7cabc0d3536400ea928477a1487e858eeb"
+          "path": "src/assets/images/cover-en-william-robertson-from-private-to-field-marshal-trade-20261122.webp",
+          "sha256": "6a268b25fd696112bb8e64b7ee747229089b92819ae24c33c183ba690cea5a0d"
         },
         {
-          "path": "src/assets/images/back-from-private-to-field-marshal-robertson-en-20261017.jpg",
-          "sha256": "a168c67e3b1da20eaa01fc2add7d446708d158f12a646b189b4ecc68c28dc6cd"
+          "path": "src/assets/images/back-en-william-robertson-from-private-to-field-marshal-trade-20261122.jpg",
+          "sha256": "322f77d1a7280fe13bd84c4ce4d1fb233be01c00bd1df4b5db2ea4ec9645279c"
+        },
+        {
+          "path": "src/assets/images/back-en-william-robertson-from-private-to-field-marshal-trade-20261122.webp",
+          "sha256": "d83ee3d5fc5b876091f86f99acfe40c0411b20f8fc801b7c1e0e92103abf57ae"
         }
       ],
       "formats": [
@@ -5850,7 +6192,29 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+            "sha256": "f8567dc3f664aa850d1c81759101a5db0ded9f0fe3f01f3333ab988615ed492c"
+          },
+          {
+            "path": "src/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017.webp",
+            "sha256": "237c1da33a948c765e9420b9375c3c7cabc0d3536400ea928477a1487e858eeb"
+          },
+          {
+            "path": "src/assets/images/back-from-private-to-field-marshal-robertson-en-20261017.jpg",
+            "sha256": "a168c67e3b1da20eaa01fc2add7d446708d158f12a646b189b4ecc68c28dc6cd"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -5859,23 +6223,23 @@
       "title": "The Life of Sir Stanley Maude",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+      "front_url": "/assets/images/cover-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
-          "sha256": "2a4f69a1a97e5389e70fd54773d10b2957d936bb63ff462e54dd4ac467535163"
+          "path": "src/assets/images/cover-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.jpg",
+          "sha256": "12db0a877e37cb9bdc74d6ce0e7a772e13225437b20b7419d7002d2c7420b24b"
         },
         {
-          "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
-          "sha256": "cd783e572a354a4aa0389ea4b6a5d550831d90a06705a842f8554ce3d00bc337"
+          "path": "src/assets/images/cover-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.webp",
+          "sha256": "91a138d0da4c14822f220b11b75851731847ff59a1f9b1a3664eb2aa8f55a728"
         },
         {
-          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
-          "sha256": "56a4ace1466309b2b5e08e174e7b6afc12bce5e1a9e9e794e7c19ca08821e961"
+          "path": "src/assets/images/back-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.jpg",
+          "sha256": "6d26087975a992e485a3b92880b13e73e04410b90baf38ff46673938ebb49a58"
         },
         {
-          "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
-          "sha256": "2823911d19b621e1aa664b1d1849acba2c437c1d88844956d50d75be5ce5f19d"
+          "path": "src/assets/images/back-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.webp",
+          "sha256": "9dd7f9fd2035de6e16d176aaa7479a4915d246ba72d9533f4d5cf220aaca54c0"
         }
       ],
       "formats": [
@@ -5930,7 +6294,33 @@
             }
           ]
         }
-      ]
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+            "sha256": "2a4f69a1a97e5389e70fd54773d10b2957d936bb63ff462e54dd4ac467535163"
+          },
+          {
+            "path": "src/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
+            "sha256": "cd783e572a354a4aa0389ea4b6a5d550831d90a06705a842f8554ce3d00bc337"
+          },
+          {
+            "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+            "sha256": "56a4ace1466309b2b5e08e174e7b6afc12bce5e1a9e9e794e7c19ca08821e961"
+          },
+          {
+            "path": "src/assets/images/back-the-life-of-sir-stanley-maude-callwell-en-20261116.webp",
+            "sha256": "2823911d19b621e1aa664b1d1849acba2c437c1d88844956d50d75be5ce5f19d"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      }
     },
     {
       "site": "en",
@@ -6011,26 +6401,107 @@
       "title": "The Matabele Campaign, 1896",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+      "front_url": "/assets/images/cover-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
-          "sha256": "fcfd735580a83e20e150a53b0daad11256a955b56ac9c0d1ef4156a37eaec24b"
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.jpg",
+          "sha256": "f22bd6ca9396232a6eab07ef8b71fd46cb0f17063898ad25f1f0f5b04edea9c9"
         },
         {
-          "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116.webp",
-          "sha256": "8f18bf5a76b48a9f086dbd1e96853c654f250aac0313a0d94b2181b91a169842"
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.webp",
+          "sha256": "742b48e86e1a2a2ea2dc7543d50352645d75745830b9d2458f0a822b036181e8"
         },
         {
-          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
-          "sha256": "091e047b675241054cd7acaf0ed83f2fd5b56326988fa600a8cdcb9ee14ba476"
+          "path": "src/assets/images/back-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.jpg",
+          "sha256": "b73dff2263c12dda12d90966816bcd86e4725d0514b8548c956e2b4d755739df"
         },
         {
-          "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261116.webp",
-          "sha256": "0cc4141cf2f792eff427ae0717be85afe93de295049979fc80c9f0bc8e566853"
+          "path": "src/assets/images/back-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.webp",
+          "sha256": "2144797cc06f72191fd6030986fa900cc74b08402185778b05cd48d168d30815"
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052108",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-210-8",
+              "isbn10": "3676052102",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052115",
+          "productform": "hardcover",
+          "tokens": [
+            "3676052110"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-211-5",
+              "isbn10": "3676052110",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052122",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_009",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Matabele Campaign, 1896",
+              "isbn13": "978-3-67605-212-2",
+              "isbn10": "3676052129",
+              "asin": null
+            }
+          ]
+        }
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+            "sha256": "fcfd735580a83e20e150a53b0daad11256a955b56ac9c0d1ef4156a37eaec24b"
+          },
+          {
+            "path": "src/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116.webp",
+            "sha256": "8f18bf5a76b48a9f086dbd1e96853c654f250aac0313a0d94b2181b91a169842"
+          },
+          {
+            "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+            "sha256": "091e047b675241054cd7acaf0ed83f2fd5b56326988fa600a8cdcb9ee14ba476"
+          },
+          {
+            "path": "src/assets/images/back-the-matabele-campaign-1896-baden-powell-en-20261116.webp",
+            "sha256": "0cc4141cf2f792eff427ae0717be85afe93de295049979fc80c9f0bc8e566853"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · Amazon",
           "isbn13": "9783676052108",
@@ -6118,7 +6589,12 @@
             }
           ]
         }
-      ]
+      ],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
+      }
     },
     {
       "site": "en",
@@ -6127,23 +6603,23 @@
       "title": "Aids to Scouting for N.-C.Os. & Men",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+      "front_url": "/assets/images/cover-en-robert-baden-powell-aids-to-scouting-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
-          "sha256": "2074ffbde5a68d720348a08552d46f11510837e4b27d2c680c79532a765bc2f0"
+          "path": "src/assets/images/cover-en-robert-baden-powell-aids-to-scouting-trade-20261122.jpg",
+          "sha256": "f4bc5efb1b1381c616467c260a44d0af350b5c125a6d3dd219f451734cf229d0"
         },
         {
-          "path": "src/assets/images/cover-aids-to-scouting-baden-powell-en-20261020.webp",
-          "sha256": "3182c454f735a80f4c8c27f2968f7cb97d26912473184c661cd0b536b8968c2f"
+          "path": "src/assets/images/cover-en-robert-baden-powell-aids-to-scouting-trade-20261122.webp",
+          "sha256": "90adb36b52dca361f404ed74bb25d8cd13b7734c941c807999052d24a3073a84"
         },
         {
-          "path": "src/assets/images/back-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
-          "sha256": "68bde09c61478341b79172c9530416050eebb759d2a430529cf985afa8511ef4"
+          "path": "src/assets/images/back-en-robert-baden-powell-aids-to-scouting-trade-20261122.jpg",
+          "sha256": "78ecfcbc56352833b5102378ac2c18060ff424e070092aad3e95d9194a76d5c3"
         },
         {
-          "path": "src/assets/images/back-aids-to-scouting-baden-powell-en-20261020.webp",
-          "sha256": "46341ff286b7ad9c09a7124fd95ddf68aa4fbfb82f0f06f36067d18d7546d9dc"
+          "path": "src/assets/images/back-en-robert-baden-powell-aids-to-scouting-trade-20261122.webp",
+          "sha256": "e56854b012e6331f76701a56e581ea647e3a2fea4b01d3b3dbf5408bb739455a"
         }
       ],
       "formats": [
@@ -6202,6 +6678,32 @@
         "source_text_sha256": "bbcfc28077c317ecc10dd62f9d09d9b910b5cc3b520486c374a5db4b2e1da8b7",
         "decision_id": "decision_bp002_en_endfreigabe_kdp_v2_ingram_v2_upload_website_instagram_20261020",
         "review": "Front and back JPEG/WebP pairs visually inspected: English Aids to Scouting, Robert Baden-Powell, paperback142 pages, back-cover ISBN9783676052054. All four files byte-identical to canonical web originals. Both format ISBNs independently checked against registered English BP_002 forms. Forthcoming remains; no buying links or LIVE claim."
+      },
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+            "sha256": "2074ffbde5a68d720348a08552d46f11510837e4b27d2c680c79532a765bc2f0"
+          },
+          {
+            "path": "src/assets/images/cover-aids-to-scouting-baden-powell-en-20261020.webp",
+            "sha256": "3182c454f735a80f4c8c27f2968f7cb97d26912473184c661cd0b536b8968c2f"
+          },
+          {
+            "path": "src/assets/images/back-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+            "sha256": "68bde09c61478341b79172c9530416050eebb759d2a430529cf985afa8511ef4"
+          },
+          {
+            "path": "src/assets/images/back-aids-to-scouting-baden-powell-en-20261020.webp",
+            "sha256": "46341ff286b7ad9c09a7124fd95ddf68aa4fbfb82f0f06f36067d18d7546d9dc"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
       }
     },
     {
@@ -6560,13 +7062,58 @@
           "sha256": "ad69c80de69fb39835b26abb06d85e4842691ce098a31ca612a5f9bac20fb93c"
         }
       ],
-      "formats": [],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051989",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FSR_001_BAND_I",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Forty-One Years in India (Annotated): From Subaltern to Commander-in-Chief. Volume I: The Mutiny and the Making of an Officer",
+              "isbn13": "978-3-67605-198-9",
+              "isbn10": "367605198X",
+              "asin": null,
+              "zeile_id": "FSR_001_BAND_I|en|ingram_paperback",
+              "version": "INGRAM_EPROOF_FREIGABE_9783676051989_20261026"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051996",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FSR_001_BAND_I",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Forty-One Years in India (Annotated) — From Subaltern to Commander-in-Chief. Volume I: The Mutiny and the Making of an Officer",
+              "isbn13": "978-3-67605-199-6",
+              "isbn10": "3676051998",
+              "asin": null,
+              "zeile_id": "FSR_001_BAND_I|en|ingram_hardcover",
+              "version": "INGRAM_EPROOF_FREIGABE_9783676051996_20261026"
+            }
+          ]
+        }
+      ],
       "independent_verification": {
         "reviewed_utc": "2026-10-24T12:32:36.400Z",
         "source_metadata": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\07_EXPORT\\UPLOADPAKET_BD1_V5_20261023\\METADATEN\\ingram_paperback.json",
         "source_metadata_sha256": "406bdb05bbc879d06d879627f1cad2dcef3b7e6aa3b5e601d0360f37e3604a3e",
         "decision_id": "decision_fsr001_en_bd1_paket_v5_endfreigabe_20261024",
         "review": "Publisher-authorized forthcoming preview only. Title and volume checked against released V5 metadata. Typographic title card, no claimed cover asset, ISBN, price, buying link or LIVE state."
+      },
+      "previous_format_binding": [],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Forms bound from LIVE register rows; previously a forthcoming preview without product forms."
       }
     },
     {
@@ -6585,13 +7132,58 @@
           "sha256": "abd8d2015a589d8677b61060b01b25f77b0eb3e33234b4c1fb26c7c60b3c02d6"
         }
       ],
-      "formats": [],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052009",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FSR_001_BAND_II",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Forty-One Years in India (Annotated) — From Subaltern to Commander-in-Chief. Volume II: Kabul, Kandahar, and Command",
+              "isbn13": "978-3-67605-200-9",
+              "isbn10": "3676052005",
+              "asin": null,
+              "zeile_id": "FSR_001_BAND_II|en|ingram_paperback",
+              "version": "INGRAM_EPROOF_FREIGABE_9783676052009_20261026"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052016",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FSR_001_BAND_II",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Forty-One Years in India (Annotated) — From Subaltern to Commander-in-Chief. Volume II: Kabul, Kandahar, and Command",
+              "isbn13": "978-3-67605-201-6",
+              "isbn10": "3676052013",
+              "asin": null,
+              "zeile_id": "FSR_001_BAND_II|en|ingram_hardcover",
+              "version": "INGRAM_EPROOF_FREIGABE_9783676052016_20261026"
+            }
+          ]
+        }
+      ],
       "independent_verification": {
         "reviewed_utc": "2026-10-24T12:32:36.402Z",
         "source_metadata": "C:\\AETERNUS\\02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FSR_FREDERICK_SLEIGH_ROBERTS\\02_WERKE\\FSR_001_FORTY_ONE_YEARS_IN_INDIA_1897\\07_EXPORT\\UPLOADPAKET_BD2_V5_20261023\\METADATEN\\ingram_paperback.json",
         "source_metadata_sha256": "a404d1b908c9ee57c733882d9a416fc7aaa48de5e46fb7cb931d8b02b60faef8",
         "decision_id": "decision_fsr001_en_bd2_paket_v5_endfreigabe_20261024",
         "review": "Publisher-authorized forthcoming preview only. Title and volume checked against released V5 metadata. Typographic title card, no claimed cover asset, ISBN, price, buying link or LIVE state."
+      },
+      "previous_format_binding": [],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Forms bound from LIVE register rows; previously a forthcoming preview without product forms."
       }
     },
     {
@@ -6998,6 +7590,88 @@
       ],
       "formats": [
         {
+          "label": "Paperback",
+          "isbn13": "9783676052221",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052221",
+              "isbn10": "3676052226",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "FREIGEGEBEN"
+            },
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052221",
+              "isbn10": "3676052226",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "HOCHGELADEN"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052238",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052238",
+              "isbn10": "3676052234",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052245",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Wanderings in Balochistan (Annotated)",
+              "isbn13": "9783676052245",
+              "isbn10": "3676052242",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-10-27",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='CMM_002' AND sprache='en'",
+        "projection_sha256": "dab239fbd657353a1add18b8534a64d666b7b73fd98f1a5557cb1b061085b109",
+        "package_preflight_sha256": "7d49b2384485977ec535a9b5bdec8453ca43e65298292b9577d44d4ce40235fc",
+        "availability": "COMING_SOON",
+        "retail_links": "None; no LIVE observation",
+        "cover_revision": {
+          "package": "UPLOADPAKET_CMM002_EN_INGRAM_HC_TITULATUR_V8_20261120",
+          "preflight_sha256": "4a3c46e05571233166736cba70e8ffc8a469d06e7c948a8ec53674f87e31b66e"
+        }
+      },
+      "previous_format_binding": [
+        {
           "label": "Paperback · Amazon",
           "isbn13": "9783676052221",
           "productform": "taschenbuch",
@@ -7074,17 +7748,10 @@
           ]
         }
       ],
-      "verification": {
-        "utc": "2026-10-27",
-        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='CMM_002' AND sprache='en'",
-        "projection_sha256": "dab239fbd657353a1add18b8534a64d666b7b73fd98f1a5557cb1b061085b109",
-        "package_preflight_sha256": "7d49b2384485977ec535a9b5bdec8453ca43e65298292b9577d44d4ce40235fc",
-        "availability": "COMING_SOON",
-        "retail_links": "None; no LIVE observation",
-        "cover_revision": {
-          "package": "UPLOADPAKET_CMM002_EN_INGRAM_HC_TITULATUR_V8_20261120",
-          "preflight_sha256": "4a3c46e05571233166736cba70e8ffc8a469d06e7c948a8ec53674f87e31b66e"
-        }
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -7114,6 +7781,53 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052375",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-237-5",
+              "isbn10": "3676052374",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052382",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CMM_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Defence of India (Annotated)",
+              "isbn13": "978-3-67605-238-2",
+              "isbn10": "3676052382",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "EINGEREICHT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-21",
+        "source": "AETERNUS Buchregister; approved CMM_001 Ingram V7E package",
+        "package_preflight_sha256": "138a6b93243b7925e85dc3fb49a6e56e9b0bb18a6e263fa8abb44a6cfd735031",
+        "availability": "COMING_SOON",
+        "retail_links": "None; hardcover EINGEREICHT, paperback BLOCKIERT. No LIVE observation."
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · IngramSpark",
           "isbn13": "9783676052375",
@@ -7153,12 +7867,10 @@
           ]
         }
       ],
-      "verification": {
-        "utc": "2026-11-21",
-        "source": "AETERNUS Buchregister; approved CMM_001 Ingram V7E package",
-        "package_preflight_sha256": "138a6b93243b7925e85dc3fb49a6e56e9b0bb18a6e263fa8abb44a6cfd735031",
-        "availability": "COMING_SOON",
-        "retail_links": "None; hardcover EINGEREICHT, paperback BLOCKIERT. No LIVE observation."
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -7188,6 +7900,51 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052405",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "SBS_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Forty Years in Canada (Illustrated)",
+              "isbn13": "978-3-67605-240-5",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "LIVE"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052412",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "SBS_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Forty Years in Canada (Illustrated)",
+              "isbn13": "978-3-67605-241-2",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "EINGEREICHT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-21",
+        "source": "AETERNUS Buchregister; approved SBS_001 Ingram hardcover revision package",
+        "package_preflight_sha256": "c74406ff0a8cd2d66e04db3ccb7460cf9621ce071020b2d82dd4a82dee085da0",
+        "availability": "AVAILABLE",
+        "retail_links": "None verified. Ingram paperback LIVE; revised hardcover EINGEREICHT."
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · IngramSpark",
           "isbn13": "9783676052405",
@@ -7225,12 +7982,10 @@
           ]
         }
       ],
-      "verification": {
-        "utc": "2026-11-21",
-        "source": "AETERNUS Buchregister; approved SBS_001 Ingram hardcover revision package",
-        "package_preflight_sha256": "c74406ff0a8cd2d66e04db3ccb7460cf9621ce071020b2d82dd4a82dee085da0",
-        "availability": "AVAILABLE",
-        "retail_links": "None verified. Ingram paperback LIVE; revised hardcover EINGEREICHT."
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -7252,6 +8007,49 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052191",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052191",
+              "manifestation": "ingram_paperback",
+              "status": "BLOCKIERT"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052207",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "CBB_002",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "Wieland (Illustrated)",
+              "isbn13": "9783676052207",
+              "manifestation": "ingram_hardcover",
+              "status": "BLOCKIERT"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-04",
+        "source": "aeternus.py buchregister isbn CBB_002; package metadata and platform account read directly",
+        "package_preflight_sha256": "c7cbd184467d0664e318b22115065f973695bc68f03c2a9e0364aecf11e1a0dc",
+        "availability": "COMING_SOON",
+        "retail_links": "None: both Ingram forms submitted, processing, audience correction pending."
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · IngramSpark",
           "isbn13": "9783676052191",
@@ -7287,12 +8085,10 @@
           ]
         }
       ],
-      "verification": {
-        "utc": "2026-11-04",
-        "source": "aeternus.py buchregister isbn CBB_002; package metadata and platform account read directly",
-        "package_preflight_sha256": "c7cbd184467d0664e318b22115065f973695bc68f03c2a9e0364aecf11e1a0dc",
-        "availability": "COMING_SOON",
-        "retail_links": "None: both Ingram forms submitted, processing, audience correction pending."
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -7410,15 +8206,15 @@
       "id": "en-george-rutledge-gibson-stock-exchanges",
       "language": "en",
       "url": "/books/en-george-rutledge-gibson-stock-exchanges/",
-      "front_url": "/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "front_url": "/assets/images/cover-en-george-rutledge-gibson-stock-exchanges-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
-          "sha256": "48a852e6cdb7d9c7bb61fca2690e9cd56fa7d72d49d2861646459c11014b6be9"
+          "path": "src/assets/images/cover-en-george-rutledge-gibson-stock-exchanges-trade-20261122.jpg",
+          "sha256": "282f7890fbffc6229ad01a01f2f88de3a3ad20d5ff9bdcb8f55b381794a17ec7"
         },
         {
-          "path": "src/assets/images/cover-ggi001-en-u3-20261107.webp",
-          "sha256": "5169c5cdc8cd67c51557dcf523622d80cc52671406a623941ab94c56e37c070e"
+          "path": "src/assets/images/cover-en-george-rutledge-gibson-stock-exchanges-trade-20261122.webp",
+          "sha256": "4341456a60e8fb8c0582f2b7cefad6427150c1d816a5c1049b5be17eaed129d9"
         }
       ],
       "formats": [
@@ -7477,6 +8273,24 @@
           1200
         ],
         "rect_origin": "top-left, Cover Compiler front_rect_in"
+      },
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+            "sha256": "48a852e6cdb7d9c7bb61fca2690e9cd56fa7d72d49d2861646459c11014b6be9"
+          },
+          {
+            "path": "src/assets/images/cover-ggi001-en-u3-20261107.webp",
+            "sha256": "5169c5cdc8cd67c51557dcf523622d80cc52671406a623941ab94c56e37c070e"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
       }
     },
     {
@@ -7492,6 +8306,65 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052511",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "9783676052511",
+              "isbn10": "367605251X",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "FREIGEGEBEN"
+            },
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "978-3-67605-251-1",
+              "isbn10": "367605251X",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "EINGEREICHT"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052528",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_003",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "Wood Magic: A Fable",
+              "isbn13": "9783676052528",
+              "isbn10": "3676052528",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-03",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='RJE_003' AND sprache='en'",
+        "projection_sha256": "7c3c933522835af9d913d09b55a80048a517a9a0506068b504769d6689cde371",
+        "package_preflight_sha256": "3264d10387c27159ab31083380016d0d2c110484f82c40035eaa8e581c3150bf",
+        "availability": "COMING_SOON",
+        "retail_links": "None; no LIVE observation"
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · Amazon",
           "isbn13": "9783676052511",
@@ -7550,13 +8423,10 @@
           ]
         }
       ],
-      "verification": {
-        "utc": "2026-11-03",
-        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='RJE_003' AND sprache='en'",
-        "projection_sha256": "7c3c933522835af9d913d09b55a80048a517a9a0506068b504769d6689cde371",
-        "package_preflight_sha256": "3264d10387c27159ab31083380016d0d2c110484f82c40035eaa8e581c3150bf",
-        "availability": "COMING_SOON",
-        "retail_links": "None; no LIVE observation"
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -7572,6 +8442,70 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676050746",
+          "productform": "taschenbuch",
+          "tokens": [
+            "3676050746"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Gamekeeper at Home (Annotated)",
+              "isbn13": "978-3-67605-074-6",
+              "isbn10": "3676050746",
+              "asin": "3676050746",
+              "manifestation": "kdp_paperback",
+              "status": "LIVE"
+            },
+            {
+              "werk_kanon": "RJE_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Gamekeeper at Home (Annotated)",
+              "isbn13": "978-3-67605-074-6",
+              "isbn10": "3676050746",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "EINGEREICHT"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676050661",
+          "productform": "ebook",
+          "tokens": [
+            "B0HQWFHV8W"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "RJE_002",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Gamekeeper at Home (Annotated)",
+              "isbn13": "978-3-67605-066-1",
+              "isbn10": "3676050665",
+              "asin": "B0HQWFHV8W",
+              "manifestation": "kdp_ebook",
+              "status": "LIVE"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-11",
+        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='RJE_002' AND sprache='en'",
+        "projection_sha256": "339a335a69668dac6d11468806e3c1d0abb54d418524c5d9cb73c435bbb90551",
+        "projection_rule": "sha256 of json.dumps(rows, sort_keys=True, ensure_ascii=False)",
+        "package_preflight_sha256": "b63f0e475ea8b9ffba9475e3a6535e41a7e8357d76033d9c865083d07de383e8",
+        "availability": "AVAILABLE",
+        "retail_links": "KDP paperback and Kindle LIVE observed 2026-11-08 on the KDP bookshelf; Ingram submitted, no link"
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · Amazon",
           "isbn13": "9783676050746",
@@ -7634,14 +8568,10 @@
           ]
         }
       ],
-      "verification": {
-        "utc": "2026-11-11",
-        "source": "SELECT werk_kanon,sprache,produktform,titel,isbn13,isbn10,asin,manifestation,status FROM zeilen WHERE werk_kanon='RJE_002' AND sprache='en'",
-        "projection_sha256": "339a335a69668dac6d11468806e3c1d0abb54d418524c5d9cb73c435bbb90551",
-        "projection_rule": "sha256 of json.dumps(rows, sort_keys=True, ensure_ascii=False)",
-        "package_preflight_sha256": "b63f0e475ea8b9ffba9475e3a6535e41a7e8357d76033d9c865083d07de383e8",
-        "availability": "AVAILABLE",
-        "retail_links": "KDP paperback and Kindle LIVE observed 2026-11-08 on the KDP bookshelf; Ingram submitted, no link"
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -7800,6 +8730,77 @@
       ],
       "formats": [
         {
+          "label": "Paperback",
+          "isbn13": "9783676052559",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003|en|kdp_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052559",
+              "version": "FREIGABE_FINAL_B1_V4_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
+            },
+            {
+              "zeile_id": "CMM_003|en|ingram_paperback|B1_V4_EINGEREICHT_20261112T165351Z",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052559",
+              "version": "B1_V4_EINGEREICHT_20261112T165351Z",
+              "stand_utc": "2026-11-12T16:53:51.3998818+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052566",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003|en|ingram_hardcover|B1_V4_EINGEREICHT_20261112T165401Z",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "CMM_003",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052566",
+              "version": "B1_V4_EINGEREICHT_20261112T165401Z",
+              "stand_utc": "2026-11-12T16:54:01.5778775+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052573",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003|en|kdp_ebook",
+              "sprache": "en",
+              "produktform": "ebook",
+              "werk_id": "CMM_003",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052573",
+              "version": "FREIGABE_FINAL_B1_V4_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "FINAL_B1_V4_20261112",
+        "file": "kdp_ebook/EBOOK_COVER.jpg",
+        "sha256": "7492cd8e86d23d952b3fb7743ca8cf662d7e6e3bdbf29815a742df7dcc5fbfb3"
+      },
+      "previous_format_binding": [
+        {
           "label": "Paperback · Amazon",
           "productform": "taschenbuch",
           "isbn13": "9783676052559",
@@ -7872,10 +8873,10 @@
           ]
         }
       ],
-      "cover_source": {
-        "package": "FINAL_B1_V4_20261112",
-        "file": "kdp_ebook/EBOOK_COVER.jpg",
-        "sha256": "7492cd8e86d23d952b3fb7743ca8cf662d7e6e3bdbf29815a742df7dcc5fbfb3"
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -7895,6 +8896,101 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052580",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|kdp_paperback",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052580",
+              "version": "FREIGABE_FINAL_B2_V8_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
+            },
+            {
+              "zeile_id": "CMM_003_VOL_2|en|ingram_paperback|B2_V8_EINGEREICHT_20261112T165413Z",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052580",
+              "version": "B2_V8_EINGEREICHT_20261112T165413Z",
+              "stand_utc": "2026-11-12T16:54:13.4435608+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052597",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|ingram_hardcover|B2_V8_EINGEREICHT_20261112T165423Z",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052597",
+              "version": "B2_V8_EINGEREICHT_20261112T165423Z",
+              "stand_utc": "2026-11-12T16:54:23.5689275+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052603",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "CMM_003_VOL_2|en|kdp_ebook",
+              "sprache": "en",
+              "produktform": "ebook",
+              "werk_id": "CMM_003_VOL_2",
+              "status": "FREIGEGEBEN",
+              "isbn13": "9783676052603",
+              "version": "FREIGABE_FINAL_B2_V8_20261112",
+              "stand_utc": "2026-11-12T16:29:39Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "FINAL_B2_V7_20261107",
+        "file": "INGRAM/9783676052580_cov.pdf",
+        "sha256": "a98636ee9e487065813579cdbf62903715f0952ad749c66c086ed32d9e48dfb9",
+        "panels": [
+          {
+            "side": "front",
+            "file": "CMM003_EN_B2_FRONT_1080.jpg",
+            "sha256": "d5fd80ae02b063f5b28ce1c7265db424c7e3469b8f9ffa3fd188292b30274518",
+            "rect_in": [
+              10.375001,
+              0.125001,
+              7,
+              10
+            ]
+          },
+          {
+            "side": "back",
+            "file": "CMM003_EN_B2_BACK_1080.jpg",
+            "sha256": "24c7070f3e749f2bfc2d831b13f30d46001519734037ceab4b22b53c8f9618ae",
+            "rect_in": [
+              2.565,
+              0.125001,
+              7,
+              10
+            ]
+          }
+        ]
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · Amazon",
           "productform": "taschenbuch",
@@ -7968,34 +9064,10 @@
           ]
         }
       ],
-      "cover_source": {
-        "package": "FINAL_B2_V7_20261107",
-        "file": "INGRAM/9783676052580_cov.pdf",
-        "sha256": "a98636ee9e487065813579cdbf62903715f0952ad749c66c086ed32d9e48dfb9",
-        "panels": [
-          {
-            "side": "front",
-            "file": "CMM003_EN_B2_FRONT_1080.jpg",
-            "sha256": "d5fd80ae02b063f5b28ce1c7265db424c7e3469b8f9ffa3fd188292b30274518",
-            "rect_in": [
-              10.375001,
-              0.125001,
-              7,
-              10
-            ]
-          },
-          {
-            "side": "back",
-            "file": "CMM003_EN_B2_BACK_1080.jpg",
-            "sha256": "24c7070f3e749f2bfc2d831b13f30d46001519734037ceab4b22b53c8f9618ae",
-            "rect_in": [
-              2.565,
-              0.125001,
-              7,
-              10
-            ]
-          }
-        ]
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -8047,6 +9119,49 @@
       ],
       "formats": [
         {
+          "label": "Paperback",
+          "isbn13": "9783676052788",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "JF_001|en|ingram_paperback|V8_EINGEREICHT_20261112T174903Z",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "werk_id": "JF_001",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052788",
+              "version": "V8_EINGEREICHT_20261112T174903Z",
+              "stand_utc": "2026-11-12T17:49:03.1449009+00:00"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052795",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "JF_001|en|ingram_hardcover|V8_EINGEREICHT_20261112T174918Z",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "werk_id": "JF_001",
+              "status": "EINGEREICHT",
+              "isbn13": "9783676052795",
+              "version": "V8_EINGEREICHT_20261112T174918Z",
+              "stand_utc": "2026-11-12T17:49:18.5336274+00:00"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "UPLOADPAKET_JF001_EN_KDP_V8",
+        "file": "JF001_EN_EBOOK_DECKEL.jpg",
+        "sha256": "7701f3b317ddfdccb18922ba661482b6a1d7b9221ae4bf178765dcab47bb0c8e"
+      },
+      "previous_format_binding": [
+        {
           "label": "Paperback · IngramSpark",
           "productform": "taschenbuch",
           "isbn13": "9783676052788",
@@ -8083,10 +9198,10 @@
           ]
         }
       ],
-      "cover_source": {
-        "package": "UPLOADPAKET_JF001_EN_KDP_V8",
-        "file": "JF001_EN_EBOOK_DECKEL.jpg",
-        "sha256": "7701f3b317ddfdccb18922ba661482b6a1d7b9221ae4bf178765dcab47bb0c8e"
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -8103,9 +9218,9 @@
       ],
       "formats": [
         {
-          "label": "Paperback · IngramSpark",
-          "productform": "taschenbuch",
+          "label": "Paperback",
           "isbn13": "9783676052627",
+          "productform": "taschenbuch",
           "tokens": [],
           "register_evidence": [
             {
@@ -8126,6 +9241,31 @@
         "file": "INGRAM/9783676052627_cov.pdf",
         "sha256": "b6eed994a379d7653e533c6b8ec763dc8a2973765deb64789969aff9fa14e615",
         "derivative": "Front panel from the Ingram PDF TrimBox"
+      },
+      "previous_format_binding": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052627",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "DCB_002|en|ingram_paperback|V4_EINGEREICHT_20261112T145000Z",
+              "werk_id": "DCB_002",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "978-3-67605-262-7",
+              "status": "EINGEREICHT",
+              "version": "V4_EINGEREICHT_20261112T145000Z",
+              "stand_utc": "2026-11-12T14:50:00.2219311+00:00"
+            }
+          ]
+        }
+      ],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -8142,9 +9282,9 @@
       ],
       "formats": [
         {
-          "label": "Paperback · IngramSpark",
-          "productform": "taschenbuch",
+          "label": "Paperback",
           "isbn13": "9783676052436",
+          "productform": "taschenbuch",
           "tokens": [],
           "register_evidence": [
             {
@@ -8165,6 +9305,31 @@
         "file": "INGRAM/9783676052436_cov.pdf",
         "sha256": "21b137850efe155a46fc5574aa49d34c38986113feea23d8657a17ffe273ba5f",
         "derivative": "Front panel from the Ingram PDF TrimBox"
+      },
+      "previous_format_binding": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676052436",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "ESW_001|en|ingram_paperback|V7_EINGEREICHT_20261112T142927Z",
+              "werk_id": "ESW_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "9783676052436",
+              "status": "EINGEREICHT",
+              "version": "V7_EINGEREICHT_20261112T142927Z",
+              "stand_utc": "2026-11-12T14:29:27.4739574+00:00"
+            }
+          ]
+        }
+      ],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -8181,9 +9346,9 @@
       ],
       "formats": [
         {
-          "label": "Paperback · IngramSpark",
-          "productform": "taschenbuch",
+          "label": "Paperback",
           "isbn13": "9783676050760",
+          "productform": "taschenbuch",
           "tokens": [],
           "register_evidence": [
             {
@@ -8204,6 +9369,31 @@
         "file": "INGRAM/9783676050760_cov.pdf",
         "sha256": "1a32d3f109d4a889ad3c200852345dd29a1aa0573b02de248dd42e97b57af9fb",
         "derivative": "Front panel from the Ingram PDF TrimBox"
+      },
+      "previous_format_binding": [
+        {
+          "label": "Paperback · IngramSpark",
+          "productform": "taschenbuch",
+          "isbn13": "9783676050760",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "zeile_id": "WHM_001|en|ingram_paperback|V20_EINGEREICHT_20261112T144856Z",
+              "werk_id": "WHM_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "9783676050760",
+              "status": "EINGEREICHT",
+              "version": "V20_EINGEREICHT_20261112T144856Z",
+              "stand_utc": "2026-11-12T14:48:56.9058713+00:00"
+            }
+          ]
+        }
+      ],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -8219,6 +9409,45 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052870",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "TR_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "978-3-67605-287-0",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CHECKOUT_PROBE_TR005_20261113_V6"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052887",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "TR_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "isbn13": "978-3-67605-288-7",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CHECKOUT_PROBE_TR005_20261113_V6"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "CHECKOUT_PROBE_TR005_20261113_V6",
+        "file": "INGRAM/9783676052870_cov.pdf",
+        "sha256": "bbb3e847b2a88919a9cc6dfae4f80ca65aab344281366c83268291b6fbdf68c1"
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · IngramSpark",
           "productform": "taschenbuch",
@@ -8252,10 +9481,10 @@
           ]
         }
       ],
-      "cover_source": {
-        "package": "CHECKOUT_PROBE_TR005_20261113_V6",
-        "file": "INGRAM/9783676052870_cov.pdf",
-        "sha256": "bbb3e847b2a88919a9cc6dfae4f80ca65aab344281366c83268291b6fbdf68c1"
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -8271,6 +9500,45 @@
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052290",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "CD_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "978-3-67605-229-0",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CD001_EN_INGRAM_PB_V16_20261112"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052306",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_id": "CD_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "isbn13": "978-3-67605-230-6",
+              "status": "FREIGEGEBEN",
+              "version": "FREIGABE_CD001_EN_INGRAM_HC_V16_20261112"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "CD001_EN_INGRAM_PB_V16_20261112",
+        "file": "INGRAM/9783676052290_cov.pdf",
+        "sha256": "15da70d98976d0f20a874ea76c6b00eab2e66a0213146b94095effd33412bb3a"
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · IngramSpark",
           "productform": "taschenbuch",
@@ -8304,10 +9572,10 @@
           ]
         }
       ],
-      "cover_source": {
-        "package": "CD001_EN_INGRAM_PB_V16_20261112",
-        "file": "INGRAM/9783676052290_cov.pdf",
-        "sha256": "15da70d98976d0f20a874ea76c6b00eab2e66a0213146b94095effd33412bb3a"
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     },
     {
@@ -8374,26 +9642,109 @@
       "title": "The Downfall of Prempeh (Illustrated)",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+      "front_url": "/assets/images/cover-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
-          "sha256": "9526e41ed1122d8638faf0bc50b115cdce4ce62e68e100feedeffe67490c1219"
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.jpg",
+          "sha256": "4efefe2b119dc4b5d763cb4dc485bda72c806420f8226ec3e9508620757019e1"
         },
         {
-          "path": "src/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116.webp",
-          "sha256": "7ff8067ca90477764f8aed1f648f995a0d6d08ed1ed1a622bfb69606fbf40420"
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.webp",
+          "sha256": "8af99d6cad17fbe93e101252d934bbb8eb5c046fbe74dd1280747a2a5c3d0f89"
         },
         {
-          "path": "src/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
-          "sha256": "7a658996b1345e00eaf26af4689f1b8b8fff4beae6e827d7cd3d37ea66a98356"
+          "path": "src/assets/images/back-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.jpg",
+          "sha256": "826af402ea94a7cf0aa375665536c714188bacaf05ab4c7750955a23f0138bc0"
         },
         {
-          "path": "src/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116.webp",
-          "sha256": "d94175273f6aff711d96b1be655783df0065041d4fdac40898967eaa0b78dc09"
+          "path": "src/assets/images/back-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.webp",
+          "sha256": "2ee406c4f0dde860b92a41b2a60abc33c867cd47ab8a5dd2080a84dbe01203a2"
         }
       ],
       "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676051071",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-107-1",
+              "isbn10": "3676051076",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676051088",
+          "productform": "hardcover",
+          "tokens": [
+            "3676051084"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-108-8",
+              "isbn10": "3676051084",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676051064",
+          "productform": "ebook",
+          "tokens": [
+            "B0HLPHV413"
+          ],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_005",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "The Downfall of Prempeh (Illustrated)",
+              "isbn13": "978-3-67605-106-4",
+              "isbn10": "3676051068",
+              "asin": "B0HLPHV413"
+            }
+          ]
+        }
+      ],
+      "previous_cover_binding": {
+        "front_url": "/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+        "assets": [
+          {
+            "path": "src/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+            "sha256": "9526e41ed1122d8638faf0bc50b115cdce4ce62e68e100feedeffe67490c1219"
+          },
+          {
+            "path": "src/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116.webp",
+            "sha256": "7ff8067ca90477764f8aed1f648f995a0d6d08ed1ed1a622bfb69606fbf40420"
+          },
+          {
+            "path": "src/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+            "sha256": "7a658996b1345e00eaf26af4689f1b8b8fff4beae6e827d7cd3d37ea66a98356"
+          },
+          {
+            "path": "src/assets/images/back-downfall-of-prempeh-baden-powell-en-20261116.webp",
+            "sha256": "d94175273f6aff711d96b1be655783df0065041d4fdac40898967eaa0b78dc09"
+          }
+        ]
+      },
+      "cover_rebind": {
+        "date": "20261122",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
+        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+      },
+      "previous_format_binding": [
         {
           "label": "Paperback · Amazon",
           "isbn13": "9783676051071",
@@ -8483,7 +9834,12 @@
             }
           ]
         }
-      ]
+      ],
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
+      }
     },
     {
       "site": "en",
@@ -8591,6 +9947,94 @@
       ],
       "formats": [
         {
+          "label": "Paperback",
+          "isbn13": "9783676052924",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-292-4",
+              "asin": null,
+              "manifestation": "ingram_paperback",
+              "status": "FREIGEGEBEN"
+            },
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-292-4",
+              "asin": null,
+              "manifestation": "kdp_paperback",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052931",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-293-1",
+              "asin": null,
+              "manifestation": "ingram_hardcover",
+              "status": "FREIGEGEBEN"
+            },
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-293-1",
+              "asin": null,
+              "manifestation": "kdp_hardcover",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676052948",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "FS_001",
+              "werk_namensraum": "FS_LADY_FLORENTIA_SALE",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "A Journal of the Disasters in Affghanistan (Illustrated)",
+              "isbn13": "978-3-67605-294-8",
+              "asin": null,
+              "manifestation": "kdp_ebook",
+              "status": "FREIGEGEBEN"
+            }
+          ]
+        }
+      ],
+      "verification": {
+        "utc": "2026-11-21",
+        "source": "AETERNUS Buchregister, FS_LADY_FLORENTIA_SALE / FS_001 EN; approved Ingram V7C",
+        "package_preflight_sha256": "927f243b9aea34ef628d3ae6ecdc44655a94a87679d0cd8ff8a6f3e1b22525d9",
+        "availability": "COMING_SOON",
+        "retail_links": "None verified; FREIGEGEBEN, no LIVE observation."
+      },
+      "previous_format_binding": [
+        {
           "label": "Paperback · IngramSpark",
           "isbn13": "9783676052924",
           "productform": "taschenbuch",
@@ -8670,12 +10114,10 @@
           ]
         }
       ],
-      "verification": {
-        "utc": "2026-11-21",
-        "source": "AETERNUS Buchregister, FS_LADY_FLORENTIA_SALE / FS_001 EN; approved Ingram V7C",
-        "package_preflight_sha256": "927f243b9aea34ef628d3ae6ecdc44655a94a87679d0cd8ff8a6f3e1b22525d9",
-        "availability": "COMING_SOON",
-        "retail_links": "None verified; FREIGEGEBEN, no LIVE observation."
+      "format_rebind": {
+        "date": "20261122",
+        "evidence": "catalog/retail-state-20261122.json",
+        "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
     }
   ],

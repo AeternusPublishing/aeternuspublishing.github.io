@@ -14,6 +14,9 @@ function live(book) { return registerRows(book).some(r=>r.status==='LIVE'); }
 const bibliography = require('./wilderness-context.json');
 function further(slug, english, german) {
   if (!pages.includes(slug)) return [];
+  // English pages recommend the English edition of a work; the German one only where no English edition exists.
+  const englishWorks = new Set(english.map(b => b.work_id).filter(Boolean));
+  german = german.filter(book => !englishWorks.has(book.work_id || registerRows(book)[0]?.werk_kanon));
   return [...english, ...german].flatMap(book=>{
     const rows = registerRows(book), work = book.work_id || rows[0]?.werk_kanon;
     const author = book.authorSlug || book.author;

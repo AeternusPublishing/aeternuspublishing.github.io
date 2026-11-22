@@ -2,7 +2,7 @@
   <a class="book-art" href="{{ item.url }}">
     {% set cover = item.cover | existingImage %}
     {% if cover %}
-      <picture>{% if item.coverWebp %}<source type="image/webp" srcset="{{ item.coverWebp }}">{% endif %}<img src="{{ cover }}" alt="{{ item.title | escape }}" width="400" height="600" loading="lazy"></picture>
+      <picture>{% if item.coverWebp %}<source type="image/webp" srcset="{{ item.coverWebp }}">{% endif %}<img src="{{ cover | thumb(480) }}" alt="{{ item.title | escape }}" width="400" height="600" loading="lazy" decoding="async"></picture>
     {% else %}<span class="type-cover"><small>AETERNUS</small><strong>{{ item.title }}</strong><span>{{ item.authorName }}</span></span>{% endif %}
   </a>
   <div class="author-book-copy">

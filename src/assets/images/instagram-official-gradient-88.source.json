@@ -1,0 +1,8 @@
+{
+  "derived_from": "instagram-official-gradient.png",
+  "source": "https://www.meta.com/brand/resources/instagram/instagram-brand/",
+  "source_sha256": "21f86b55f986848665ce54ab354ff6b43b7705e6c421d90c04369882b5956766",
+  "operation": "proportional resize to 88x88 px (4x the 22 px display size), no other change",
+  "sha256": "262934fb251d8e8ddff8a2d0965db2e9ef3d0f0aab0b188c4522f51c167f6244",
+  "reason": "Website weight: 2.6 MB original loaded on every page; decision_website_en_relaunch_vier_wellen_reiter_farbportraets_kaufknoepfe_20261122"
+}

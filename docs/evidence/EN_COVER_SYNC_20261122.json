@@ -1,0 +1,1060 @@
+{
+  "schema": "AETERNUS_WEB_COVER_SYNC_V1",
+  "date": "20261122",
+  "sources": [
+    {
+      "id": "en-napoleon-augustus-jennings-a-texas-ranger-annotated",
+      "title": "A Texas Ranger",
+      "current": "/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/NAJ_NAPOLEON_AUGUSTUS_JENNINGS/02_WERKE/NAJ_001_A_TEXAS_RANGER_1899/07_EXPORT/UPLOADPAKET_INGRAM_V8_20261009/INGRAM/9783676051637_cov.pdf",
+      "source_sha256": "10d5fe88d57bdef25683431bcc10f5831e8f83593825fc21a316ea86f4c5bba1",
+      "register_event": "NAJ_001|en|ingram_paperback|INGRAM_EPROOF_FREIGABE_20261021",
+      "register_status": "LIVE",
+      "register_utc": "2026-10-21T14:48:09Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-napoleon-augustus-jennings-a-texas-ranger-annotated-trade-20261122.jpg",
+          "sha256": "900f66edd599dc2a60606aef441ad676f83ce81f3731952b0298203f8c320879",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-napoleon-augustus-jennings-a-texas-ranger-annotated-trade-20261122.webp",
+          "sha256": "a219bcd845ab4077d13ed2795b021039ab75560c84466732dd401ff8bd31575c",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-ernest-thompson-seton-edition-rolf",
+      "title": "Rolf in the Woods (Illustrated)",
+      "current": "/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+      "source": "05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER/ETS_ERNEST_THOMPSON_SETON/02_WERKE/ETS_005_ROLF_IN_THE_WOODS_1911/EN_MASTER/07_EXPORT_EN/KDP_RELEASE_NACHPRUEFUNG_R4_20260921/ETS005_EN_KDP_PAPERBACK_6X9_COVER_ISBN_9783912883633.pdf",
+      "source_sha256": "08ae300c9f62d804e5fe84dee03b71ac74242ceda9b7b2d9ff5e728c6a540e02",
+      "register_event": "ETS_005|en|kdp_paperback|R4_20260921_KDP_EINGEREICHT",
+      "register_status": "LIVE",
+      "register_utc": "2026-09-21T19:20:30Z",
+      "page_pt": [
+        963.5399780273438,
+        666.0
+      ],
+      "front_clip_pt": [
+        522.5399780273438,
+        9.0,
+        954.5399780273438,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-rolf-trade-20261122.jpg",
+          "sha256": "962df257a52462b230c621ae39ae0ad41049e28e1d671bab23009e5d32251760",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-rolf-trade-20261122.webp",
+          "sha256": "1a92b4233e060030537ea7814c92826a8009b9d60f49c7821cbb72cc649b11b0",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-ernest-thompson-seton-edition-two-little-savages",
+      "title": "Two Little Savages (Illustrated)",
+      "current": "/assets/images/cover-two-little-savages-en-fallback.jpg",
+      "source": "05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER/ETS_ERNEST_THOMPSON_SETON/02_WERKE/ETS_008_ZWEI_KLEINE_WILDE_1903/EN_MASTER/07_EXPORT_EN/KDP_RELEASE_NACHPRUEFUNG_R3_20260921/ETS008_EN_KDP_PAPERBACK_6X9_COVER_ISBN_9783912883619.pdf",
+      "source_sha256": "e6d47dd17e08d72112be56567d1c0263648eab1cad5a8d625fb25aa6a4234da1",
+      "register_event": "ETS_008|en|kdp_paperback|R3_20260921_KDP_EINGEREICHT",
+      "register_status": "LIVE",
+      "register_utc": "2026-09-21T19:20:00Z",
+      "page_pt": [
+        966.5999755859375,
+        666.0
+      ],
+      "front_clip_pt": [
+        525.5999755859375,
+        9.0,
+        957.5999755859375,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-two-little-savages-trade-20261122.jpg",
+          "sha256": "8e71ebf0a587a19467afcc100b1f4c507c42d5a777de18514f329726bff30a5c",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-two-little-savages-trade-20261122.webp",
+          "sha256": "489f43f82889e0ad7d02ed09ede85971ba60b58add1ada6ccb9180729f39e5ca",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-ernest-thompson-seton-edition-arctic-prairies",
+      "title": "The Arctic Prairies (Illustrated)",
+      "current": "/assets/images/cover-arctic-prairies-en-fallback.jpg",
+      "source": "05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER/ETS_ERNEST_THOMPSON_SETON/02_WERKE/ETS_006_DIE_ARKTISCHEN_PRAERIEN_1911/EN_MASTER/07_EXPORT_EN/KDP_RELEASE_NACHPRUEFUNG_R3_20260921/ETS006_EN_KDP_PAPERBACK_6X9_COVER_ISBN_9783912883657.pdf",
+      "source_sha256": "b5d89b76bf0a58d766b9a38b7a52fc160dc7a5bf65a28be3cc9ffc08c7de5471",
+      "register_event": "ETS_006|en|kdp_paperback|R3_20260921_KDP_EINGEREICHT",
+      "register_status": "LIVE",
+      "register_utc": "2026-09-21T19:22:00Z",
+      "page_pt": [
+        956.8800048828125,
+        666.0
+      ],
+      "front_clip_pt": [
+        515.8800048828125,
+        9.0,
+        947.8800048828125,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-arctic-prairies-trade-20261122.jpg",
+          "sha256": "517bea7a0c6b7fe4b626762c8e2b6e291c0634bc00ca790a42fac8d31b9d567a",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-ernest-thompson-seton-edition-arctic-prairies-trade-20261122.webp",
+          "sha256": "cfcf8a3d957631a94b4cd02ca65498a0e7a3a35f944420193f63ce7a8c76e66f",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-francis-parkman-edition-oregon-trail",
+      "title": "The Oregon Trail (Illustrated)",
+      "current": "/assets/images/cover-oregon-trail-en-fallback.jpg",
+      "source": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\FP_FRANCIS_PARKMAN\\02_WERKE\\THE_OREGON_TRAIL\\EN_EDITION_20260913\\KORREKTUR_KONSENS_20260930\\PAKET_V3_KURSIVLUECKE\\PB\\THE_OREGON_TRAIL_EN_KDP_PAPERBACK_6X9_COVER_ISBN_9783676050302.pdf",
+      "source_sha256": "8029fa992cdac39f55242ea647d8dfabe6b71948269fca0bfb4a6d168380361e",
+      "register_event": "FP_002_EN|en|kdp_paperback|KURSIV_V3_20261001_FREIGABE_20261001",
+      "register_status": "FREIGEGEBEN",
+      "register_utc": "2026-10-01T10:24:12Z",
+      "page_pt": [
+        968.0399780273438,
+        666.0
+      ],
+      "front_clip_pt": [
+        527.0399780273438,
+        9.0,
+        959.0399780273438,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-francis-parkman-edition-oregon-trail-trade-20261122.jpg",
+          "sha256": "59a369b3f8605a6a8f171ef4783cafcfaba1806375a4c387b1f9833fde96216e",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-francis-parkman-edition-oregon-trail-trade-20261122.webp",
+          "sha256": "9f35e9a7844a5b52b4267cf9c4abb43b3e1e15c4c97f962c7f2cda2359d6242b",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-james-hall-the-harpe-s-head-illustrated",
+      "title": "The Harpe’s Head (Illustrated)",
+      "current": "/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+      "source": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\JH_JAMES_HALL\\02_WERKE\\JH_001_HARPES_HAUPT_1833\\EN_EDITION_20260916\\INGRAM_HC_EN\\DATEIEN\\9783676050609_cov.pdf",
+      "source_sha256": "ea9d8a580dcf0bb0896f0f09f144e5ea02eed3dfb0a9513d7ed9d96bead8cdd4",
+      "register_event": "JH_001_EN|en|ingram_hardcover|INGRAM_BESTAND_20260929T135135Z",
+      "register_status": "LIVE",
+      "register_utc": "2026-09-29T15:16:46Z",
+      "page_pt": [
+        1296.0,
+        900.0
+      ],
+      "front_clip_pt": [
+        774.074462890625,
+        90.0205078125,
+        1206.074462890625,
+        738.0205230712891
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-james-hall-the-harpe-s-head-illustrated-trade-20261122.jpg",
+          "sha256": "ac3938f9c23e066fb733f00a6ca80e3d09653f68a639d514c10008fa3d8c6b83",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-james-hall-the-harpe-s-head-illustrated-trade-20261122.webp",
+          "sha256": "0caa216b0bb8f5d4de990ea017139d8e01f7c9889d3d083034a2bd9be50a9b48",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-richard-jefferies-edition-bevis",
+      "title": "Bevis (Annotated)",
+      "current": "/assets/images/cover-bevis-en-fallback.jpg",
+      "source": "_STAGING_OUTDOOR_CLASSICS_PILLAR_PENDING/JEFFERIES/02_WERKE/RJE_001_BEVIS_1882/07_EXPORT/UPLOADPAKET_EN_KDP_V23_20261103/RJE_001_EN_KDP_PAPERBACK_6X9_COVER_ISBN_9783912883954.pdf",
+      "source_sha256": "a2a07e9af89f3e4288d470619c23ce94a73c572f44406a759f0b36b9cb411b14",
+      "register_event": "RJE_001|en|kdp_paperback|LIVE_KDP_REGAL_20261109",
+      "register_status": "LIVE",
+      "register_utc": "2026-11-09T09:15:00Z",
+      "page_pt": [
+        1009.7999877929688,
+        666.0
+      ],
+      "front_clip_pt": [
+        568.7999877929688,
+        9.0,
+        1000.7999877929688,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-richard-jefferies-edition-bevis-trade-20261122.jpg",
+          "sha256": "59dfe4fce7b32256f3873c84146989f29637f3efe1b46c850afd21b80f741f1a",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-richard-jefferies-edition-bevis-trade-20261122.webp",
+          "sha256": "1dc7faea7afc1577a79f2632e2daf89fd530dbd74276ab96e7234fb8e2eb24e5",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-charles-brockden-brown-edgar-huntly-illustrated",
+      "title": "Edgar Huntly (Illustrated)",
+      "current": "/assets/images/cover-edgar-huntly-fallback.jpg",
+      "source": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\CBB_CHARLES_BROCKDEN_BROWN\\02_WERKE\\CBB_001_EDGAR_HUNTLY_1799\\09_EXPORT\\CBB001_EN_KDP_UPLOAD_PAKET_V1_20260921\\TASCHENBUCH\\Edgar_Huntly_Paperback_Cover_KDP_ISBN_9783676050982.pdf",
+      "source_sha256": "c07af7b2b69694013a8b90d3f89d66a9f6ecfc3b984f2ff1cfad8f451bbe3785",
+      "register_event": "CBB_001|en|kdp_paperback|V4_PARATEXT_20260921_KDP_REVIEW_20260922",
+      "register_status": "HOCHGELADEN",
+      "register_utc": "2026-09-22T07:52:31Z",
+      "page_pt": [
+        938.8800048828125,
+        666.0
+      ],
+      "front_clip_pt": [
+        497.8800048828125,
+        9.0,
+        929.8800048828125,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-charles-brockden-brown-edgar-huntly-illustrated-trade-20261122.jpg",
+          "sha256": "df0ab77e7b48dd26814a66baa69d064c3e9ca309c8e3661328a6711e5123da2a",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-charles-brockden-brown-edgar-huntly-illustrated-trade-20261122.webp",
+          "sha256": "6a0f997c038d443eeaabb91f3a00002eed5761492c2921ce96d58c04a1f90793",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-james-j-hill-highways-of-progress-illustrated",
+      "title": "Highways of Progress (Illustrated)",
+      "current": "/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+      "source": "C:/AETERNUS/04_SAEULE_IV_BLAU_WIRTSCHAFT_TITANEN/JJH_JAMES_J_HILL/02_WERKE/JJH_001_HIGHWAYS_OF_PROGRESS_1910/EN_EDITION_20260926/09_EXPORT/UPLOADPAKET_EN_INGRAM_V5_20261018/INGRAM/9783676051002_cov.pdf",
+      "source_sha256": "37d32220490b443fb6c431cc67b142d76f7571a4d46feb8a8f9ece82cf71bd3a",
+      "register_event": "JJH_001|en|ingram_paperback|INGRAM_EPROOF_FREIGABE_9783676051002_20261103",
+      "register_status": "LIVE",
+      "register_utc": "2026-11-03T07:37:16Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-james-j-hill-highways-of-progress-illustrated-trade-20261122.jpg",
+          "sha256": "f7dc3800e597880cf75e5417c12e77aa55b559c00bf53ebf9bc14180f2962d14",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-james-j-hill-highways-of-progress-illustrated-trade-20261122.webp",
+          "sha256": "afa974c6ae336bb838a0bafc9795a33ab740eff24870a1b897b4182fe06f58bd",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-francis-younghusband-the-epic-of-mount-everest-illustrated",
+      "title": "The Epic of Mount Everest (Illustrated)",
+      "current": "/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\FEY_FRANCIS_EDWARD_YOUNGHUSBAND\\02_WERKE\\FEY_001_THE_EPIC_OF_MOUNT_EVEREST_1926\\08_VERTRIEB_KDP_INGRAM_20260930\\UPLOADPAKET_V16_EN_RELAUNCH_20261118\\INGRAM\\9783676051156_cov.pdf",
+      "source_sha256": "6915572d6c315b9098a375732f62dd2bdfc5d739a17e58e2758358fea5fea5a8",
+      "register_event": "FEY_001|en|ingram_paperback|V16_EINGEREICHT_20261118",
+      "register_status": "EINGEREICHT",
+      "register_utc": "2026-11-18T09:28:30Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0250244140625,
+        8.98223876953125,
+        1071.0250244140625,
+        656.9822235107422
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-francis-younghusband-the-epic-of-mount-everest-illustrated-trade-20261122.jpg",
+          "sha256": "c4e44b94fd919b5783bda49df7fadd63b6bd373280d04d78edbda4d9f4b12f2c",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-francis-younghusband-the-epic-of-mount-everest-illustrated-trade-20261122.webp",
+          "sha256": "d456eecf88d82e761f855457ffc27163b883577271140c89cc1115b12a7fc7a0",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-robert-louis-stevenson-treasure-island-annotated",
+      "title": "Treasure Island (Annotated)",
+      "current": "/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+      "source": "05_SAEULE_V_BERNSTEIN_JUGEND_ABENTEUER/RLS_ROBERT_LOUIS_STEVENSON/02_WERKE/RLS_001_TREASURE_ISLAND_1883/09_UEBERGABE/UPLOADPAKET_V4_EN_INGRAM_20261006/INGRAM/9783676051378_cov.pdf",
+      "source_sha256": "42cd9120c60b216fb298760be2d3892dcee5fee2f773cf27913fb79e1f373fba",
+      "register_event": "RLS_001|en|ingram_paperback|UPLOADPAKET_V4_EN_INGRAM_20261006_EINGEREICHT_20261008T182108Z",
+      "register_status": "EINGEREICHT",
+      "register_utc": "2026-10-08T18:21:08Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-robert-louis-stevenson-treasure-island-annotated-trade-20261122.jpg",
+          "sha256": "bef5012c26f6976f4986251f338765e14dd9c02caa8d12b10ad13d7af9f7c2b6",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-robert-louis-stevenson-treasure-island-annotated-trade-20261122.webp",
+          "sha256": "89d5dd0a4a8e275f42278557d904af6e462d57fc54a0c554289bcfeaf90a7edc",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880",
+      "current": "/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/JDU_JOSHUA_DUKE/02_WERKE/JDU_001_RECOLLECTIONS_KABUL_CAMPAIGN_1883/07_EXPORT/UEBERGABE_20261007/UPLOADPAKET_EN_WORTGETREU_V4_20261007/JDU001_EN_WORTGETREU_KDP_TASCHENBUCH_UMSCHLAG_366.pdf",
+      "source_sha256": "ba20679ce227f1c7c035a4380ca89830bf7a829e65156f2ce8c3577290af69d1",
+      "register_event": "JDU_001|en|kdp_paperback|UPLOADPAKET_EN_WORTGETREU_V4_20261007_KDP_TB_LIVE_20261103",
+      "register_status": "LIVE",
+      "register_utc": "2026-11-03T16:19:11Z",
+      "page_pt": [
+        947.8800048828125,
+        666.0
+      ],
+      "front_clip_pt": [
+        506.8800048828125,
+        9.0,
+        938.8800048828125,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
+          "sha256": "cb91f15cfd6fe4b5f0990c79d7b3568320d7771b9c7f12cdab3753f883aa6e4c",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.webp",
+          "sha256": "d1c35b15713a78b3744b9fe360ebf10fae612bd5868702732bb2cbaa52c503fc",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
+      "current": "/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/JDU_JOSHUA_DUKE/02_WERKE/JDU_001_RECOLLECTIONS_KABUL_CAMPAIGN_1883/07_EXPORT/UEBERGABE_20261007/UPLOADPAKET_EN_MODERNISIERT_V4_20261007/INGRAM/9783676051293_cov.pdf",
+      "source_sha256": "986ae59b7627ff1cc754d8c4d5b0b98ce694e7259438ce34c6d3c202e0295f91",
+      "register_event": "JDU_001|en|sonstiges|MOD_P_PAKET_V4_INGRAM_HC_20261007_EINGEREICHT",
+      "register_status": "EINGEREICHT",
+      "register_utc": "2026-10-07T20:12:11Z",
+      "page_pt": [
+        1296.0,
+        900.0
+      ],
+      "front_clip_pt": [
+        774.074462890625,
+        90.0205078125,
+        1206.074462890625,
+        738.0205230712891
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
+          "sha256": "64c8e9f6bf16067ec38207217ff46def91acdb633a6a6fa3635b04a1b700cf47",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.webp",
+          "sha256": "8ce9302889c4373eb687391f4ba315cb966e958e1ddf0738603cf6b11add7bc8",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-grey-owl-the-men-of-the-last-frontier",
+      "title": "The Men of the Last Frontier",
+      "current": "/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\ASB_GREY_OWL_BELANEY\\02_WERKE\\AB_001_MEN_OF_THE_LAST_FRONTIER_1931\\09_EXPORT_EN\\UPLOADPAKET_INGRAM_V6_20261008\\INGRAM\\9783676051415_cov.pdf",
+      "source_sha256": "c0cf0b60cf91f53fdf63eb8553372a663a2a315e18679a2e143f16e8d70a6ab8",
+      "register_event": "AB_001|en|ingram_paperback|EINGEREICHT_INGRAM_V6_20261008_UK_EU",
+      "register_status": "EINGEREICHT",
+      "register_utc": "2026-10-08T18:16:03.551187+00:00",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-grey-owl-the-men-of-the-last-frontier-trade-20261122.jpg",
+          "sha256": "27a77d92eea82970ec29d9aad5d0e6537dc966b2098fdbabddb10aa15a3e6dcb",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-grey-owl-the-men-of-the-last-frontier-trade-20261122.webp",
+          "sha256": "b0133fcdbc7772f7eba7f9a7255b723e8893f3bfb5678645786250c148800728",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-tappan-adney-the-klondike-stampede",
+      "title": "The Klondike Stampede",
+      "current": "/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+      "source": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR\\ETA_EDWIN_TAPPAN_ADNEY\\02_WERKE\\ETA_001_THE_KLONDIKE_STAMPEDE_1900\\09_UEBERGABE\\UPLOADPAKET_ETA001_EN_INGRAM_V7_20261021\\INGRAM\\9783676051606_cov.pdf",
+      "source_sha256": "dbbf572e0f555cabf2fcd9357a80ae2225c81d9c4587607ce83328b12e125c68",
+      "register_event": "ETA_001|en|ingram_paperback|INGRAM_EPROOF_FREIGABE_9783676051606_20261103",
+      "register_status": "LIVE",
+      "register_utc": "2026-11-03T07:37:16Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-tappan-adney-the-klondike-stampede-trade-20261122.jpg",
+          "sha256": "2284b3c52c99b640155a2729311bdc1bc21ea86dac4910bb2d95f86ec3e81ee7",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-tappan-adney-the-klondike-stampede-trade-20261122.webp",
+          "sha256": "823265315b2b138011cf2ef3297657f8566c64bf7da0880fc5f4700267cb6a7c",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-francis-parkman-the-discovery-of-the-great-west",
+      "title": "The Discovery of the Great West",
+      "current": "/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+      "source": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/FP_FRANCIS_PARKMAN/02_WERKE/THE_DISCOVERY_OF_THE_GREAT_WEST/09_EXPORT/UPLOADPAKET_INGRAM_V4_20261015/INGRAM/9783676051040_cov.pdf",
+      "source_sha256": "b9e98d0564c022c3b2198ee742f349811709811d887c7a1d04ba07db25a367ff",
+      "register_event": "FP_005|en|ingram_paperback|UPLOADPAKET_INGRAM_V4_20261015_HOCHGELADEN_20261016",
+      "register_status": "HOCHGELADEN",
+      "register_utc": "2026-10-16T07:10:23.249133+00:00",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.jpg",
+          "sha256": "8931df89a4ba6280ef55c3ee20a9d23b82884867730420b241de80b013970f8d",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.webp",
+          "sha256": "370f0501340af4bcbfdff1f14f69f670101aaad34f7a85e70ca2bc1b6d84125f",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/back-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.jpg",
+          "sha256": "b660eefa36dd8081babe2b95f0857f9b4f25d59a384052183bb268b741532749",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        },
+        {
+          "path": "src/assets/images/back-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.webp",
+          "sha256": "618e32b6e3ac02aa19f16699af18faef9f11d8aedbae64c0ecc04d5d9f0f2dd2",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-william-robertson-from-private-to-field-marshal",
+      "title": "From Private to Field-Marshal",
+      "current": "/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\WR_WILLIAM_ROBERTSON\\02_WERKE\\WR_001_FROM_PRIVATE_TO_FIELD_MARSHAL_1921\\09_EXPORT\\UPLOADPAKET_INGRAM_V11_20261017\\INGRAM\\9783676051927_cov.pdf",
+      "source_sha256": "98df971ad839b138dd276f2b6d2d66234ccd184fbe4aef55c94bf748b7bb0661",
+      "register_event": "WR_001|en|ingram_paperback|FREIGABE_UPLOADPAKET_INGRAM_V11_20261017",
+      "register_status": "FREIGEGEBEN",
+      "register_utc": "2026-10-17T18:03:25Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-william-robertson-from-private-to-field-marshal-trade-20261122.jpg",
+          "sha256": "3fab17ab31aa51db6f2804296074a8ea1d8145e3a66686608fe91013beb886ef",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-william-robertson-from-private-to-field-marshal-trade-20261122.webp",
+          "sha256": "6a268b25fd696112bb8e64b7ee747229089b92819ae24c33c183ba690cea5a0d",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/back-en-william-robertson-from-private-to-field-marshal-trade-20261122.jpg",
+          "sha256": "322f77d1a7280fe13bd84c4ce4d1fb233be01c00bd1df4b5db2ea4ec9645279c",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        },
+        {
+          "path": "src/assets/images/back-en-william-robertson-from-private-to-field-marshal-trade-20261122.webp",
+          "sha256": "d83ee3d5fc5b876091f86f99acfe40c0411b20f8fc801b7c1e0e92103abf57ae",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-charles-edward-callwell-the-life-of-sir-stanley-maude",
+      "title": "The Life of Sir Stanley Maude",
+      "current": "/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/CEC_CHARLES_EDWARD_CALLWELL/02_WERKE/CEC_001_THE_LIFE_OF_SIR_STANLEY_MAUDE_1920/09_HANDEL/UPLOADPAKET_CEC001_EN_INGRAM_V3/INGRAM/9783676051897_cov.pdf",
+      "source_sha256": "74a1980de3276105913dafa2b4490dbdbf1318f37b89356a04d37213307da458",
+      "register_event": "CEC_001|en|ingram_paperback|INGRAM_EPROOF_FREIGABE_9783676051897_20261030",
+      "register_status": "LIVE",
+      "register_utc": "2026-10-30T16:30:00Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.jpg",
+          "sha256": "12db0a877e37cb9bdc74d6ce0e7a772e13225437b20b7419d7002d2c7420b24b",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.webp",
+          "sha256": "91a138d0da4c14822f220b11b75851731847ff59a1f9b1a3664eb2aa8f55a728",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/back-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.jpg",
+          "sha256": "6d26087975a992e485a3b92880b13e73e04410b90baf38ff46673938ebb49a58",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        },
+        {
+          "path": "src/assets/images/back-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.webp",
+          "sha256": "9dd7f9fd2035de6e16d176aaa7479a4915d246ba72d9533f4d5cf220aaca54c0",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-robert-baden-powell-the-matabele-campaign-1896",
+      "title": "The Matabele Campaign, 1896 (Illustrated)",
+      "current": "/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\BP_ROBERT_BADEN_POWELL\\02_WERKE\\BP_009_MATABELE_CAMPAIGN_1897\\09_HANDEL\\UPLOADPAKET_BP009_EN_KDP_V7\\BP009_EN_KDP_TASCHENBUCH_UMSCHLAG_390.pdf",
+      "source_sha256": "221afb8e5f3a208631492f149b3ed9a349c766171d52bf2a58ec090d4cb5f977",
+      "register_event": "BP_009|en|kdp_paperback|V7_LIVE_20261118T091500Z",
+      "register_status": "LIVE",
+      "register_utc": "2026-11-18T09:15:00Z",
+      "page_pt": [
+        952.2000122070312,
+        666.0
+      ],
+      "front_clip_pt": [
+        511.20001220703125,
+        9.0,
+        943.2000122070312,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.jpg",
+          "sha256": "f22bd6ca9396232a6eab07ef8b71fd46cb0f17063898ad25f1f0f5b04edea9c9",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.webp",
+          "sha256": "742b48e86e1a2a2ea2dc7543d50352645d75745830b9d2458f0a822b036181e8",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/back-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.jpg",
+          "sha256": "b73dff2263c12dda12d90966816bcd86e4725d0514b8548c956e2b4d755739df",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        },
+        {
+          "path": "src/assets/images/back-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.webp",
+          "sha256": "2144797cc06f72191fd6030986fa900cc74b08402185778b05cd48d168d30815",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-robert-baden-powell-aids-to-scouting",
+      "title": "Aids to Scouting for N.-C.Os. & Men",
+      "current": "/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/BP_ROBERT_BADEN_POWELL/02_WERKE/BP_002_AIDS_TO_SCOUTING_1899/EN_EDITION_20260924/09_HANDEL/UPLOADPAKET_BP002_EN_INGRAM_V2/INGRAM/9783676052054_cov.pdf",
+      "source_sha256": "6a6acb7c358bd936759fe1e0db1cddddfe7552e678be877b45a112f666c78947",
+      "register_event": "BP_002|en|ingram_paperback|INGRAM_EPROOF_FREIGABE_20261022",
+      "register_status": "LIVE",
+      "register_utc": "2026-10-22T20:41:49Z",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.0030517578125,
+        9.0040283203125,
+        1071.0030517578125,
+        657.0040283203125
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-robert-baden-powell-aids-to-scouting-trade-20261122.jpg",
+          "sha256": "f4bc5efb1b1381c616467c260a44d0af350b5c125a6d3dd219f451734cf229d0",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-robert-baden-powell-aids-to-scouting-trade-20261122.webp",
+          "sha256": "90adb36b52dca361f404ed74bb25d8cd13b7734c941c807999052d24a3073a84",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/back-en-robert-baden-powell-aids-to-scouting-trade-20261122.jpg",
+          "sha256": "78ecfcbc56352833b5102378ac2c18060ff424e070092aad3e95d9194a76d5c3",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        },
+        {
+          "path": "src/assets/images/back-en-robert-baden-powell-aids-to-scouting-trade-20261122.webp",
+          "sha256": "e56854b012e6331f76701a56e581ea647e3a2fea4b01d3b3dbf5408bb739455a",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-robert-baden-powell-the-downfall-of-prempeh",
+      "title": "The Downfall of Prempeh (Illustrated)",
+      "current": "/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN\\BP_ROBERT_BADEN_POWELL\\02_WERKE\\BP_005_DOWNFALL_OF_PREMPEH_1896\\VERTRIEB_KDP_INGRAM_20260929\\UPLOADPAKET_V11_EN_TITULATUR_V21_20261118\\BP005_EN_KDP_TASCHENBUCH_UMSCHLAG_194.pdf",
+      "source_sha256": "01fc8f60229da5825ff498b31d5bfe40bfb01bb048823c91d1082d8abe705b9e",
+      "register_event": "BP_005|en|kdp_paperback|EINGEREICHT_UPLOADPAKET_V11_EN_TITULATUR_V21_20261118",
+      "register_status": "EINGEREICHT",
+      "register_utc": "2026-11-20T11:24:00Z",
+      "page_pt": [
+        916.9199829101562,
+        666.0
+      ],
+      "front_clip_pt": [
+        475.91998291015625,
+        9.0,
+        907.9199829101562,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.jpg",
+          "sha256": "4efefe2b119dc4b5d763cb4dc485bda72c806420f8226ec3e9508620757019e1",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.webp",
+          "sha256": "8af99d6cad17fbe93e101252d934bbb8eb5c046fbe74dd1280747a2a5c3d0f89",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/back-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.jpg",
+          "sha256": "826af402ea94a7cf0aa375665536c714188bacaf05ab4c7750955a23f0138bc0",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        },
+        {
+          "path": "src/assets/images/back-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.webp",
+          "sha256": "2ee406c4f0dde860b92a41b2a60abc33c867cd47ab8a5dd2080a84dbe01203a2",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "back"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-george-rutledge-gibson-stock-exchanges",
+      "title": "The Stock Exchanges of London, Paris, and New York (Annotated)",
+      "current": "/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "source": "04_SAEULE_IV_BLAU_WIRTSCHAFT_TITANEN/GGI_GEORGE_RUTLEDGE_GIBSON/02_WERKE/GGI_001_STOCK_EXCHANGES_1889/06_SATZ/SATZ13_20261107/HANDELSPAKET_13_148_U3/INGRAM/9783676052825_cov.pdf",
+      "source_sha256": "5b5899280ae60fe31f8014afa6d68c844ae582613ef57d0d6d577cb98967bfe1",
+      "register_event": "GGI_001|en|ingram_paperback|U3_EINGEREICHT_20261107T123943Z",
+      "register_status": "EINGEREICHT",
+      "register_utc": "2026-11-07T12:39:43.513755+00:00",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.025146484375,
+        8.98223876953125,
+        1071.025146484375,
+        656.9822235107422
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-george-rutledge-gibson-stock-exchanges-trade-20261122.jpg",
+          "sha256": "282f7890fbffc6229ad01a01f2f88de3a3ad20d5ff9bdcb8f55b381794a17ec7",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-george-rutledge-gibson-stock-exchanges-trade-20261122.webp",
+          "sha256": "4341456a60e8fb8c0582f2b7cefad6427150c1d816a5c1049b5be17eaed129d9",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified register cover PDF; no retouching."
+    },
+    {
+      "id": "en-robert-montgomery-bird-edition-hawks",
+      "title": "The Hawks of Hawk-Hollow (Illustrated)",
+      "current": "/assets/images/cover-hawks-en-fallback.jpg (640 px, same artwork)",
+      "source": "01_SAEULE_I_ANTHRAZIT_WELTLITERATUR/RMB_ROBERT_MONTGOMERY_BIRD/04_PRODUCTION/RMB002_EN_KDP_SUBMISSION_20260907/HAWK_HOLLOW_EN_EBOOK_COVER.jpg",
+      "source_sha256": "ad8f09c05d1607cb33ceb4da85e08ef87b217341eb6c9467cb66bb1b79d9b555",
+      "source_manifest": "DELIVERABLES.json (AETERNUS_FINAL_DELIVERABLES_V1), KDP submission 7 September 2026",
+      "register_event": null,
+      "register_status": "no register event; KDP-era title, LIVE per retail-state snapshot",
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-robert-montgomery-bird-edition-hawks-trade-20261122.jpg",
+          "sha256": "6dbdfe627a5c66e9d2620669dc0b991089750b39db2abc064563c7386a8ab904",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-robert-montgomery-bird-edition-hawks-trade-20261122.webp",
+          "sha256": "2b18482277bf3e88bfb5ab1841df6634c2061408aed9757fde6aa6c610f39b4c",
+          "dimensions": [
+            900,
+            1350
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Downscale the hash-verified KDP front cover to 900 px; no retouching."
+    }
+  ],
+  "not_synced": [
+    {
+      "id": "en-george-washington-sears-woodcraft-illustrated",
+      "reason": "no register event with a print cover PDF"
+    },
+    {
+      "id": "en-james-b-gillett-six-years-with-the-texas-rangers-illustrated",
+      "reason": "no register event with a print cover PDF"
+    }
+  ],
+  "notes": [
+    "The other two flagged books (Woodcraft GWS_001, Gillett JBG_001) already show their real covers; only the file name says \"fallback\". No print cover PDF exists for them in the register, so they stay."
+  ]
+}

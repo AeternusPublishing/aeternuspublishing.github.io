@@ -23,5 +23,14 @@ module.exports = function(config) {
     const url = catalog.directShopUrl(book, 'en');
     return url ? { '@context': 'https://schema.org', '@type': 'Product', name: book.title, sku: book.id, url } : null;
   });
+  config.addPlugin(require('./catalog/thumbs.cjs'));
+  // Typography: straight apostrophes inside words (Broadfoot's) become ’ in visible text only.
+  // Tags, attributes, scripts and styles stay untouched.
+  config.addTransform('typographic-apostrophes', function(content) {
+    if (!(this.page.outputPath || '').endsWith('.html')) return content;
+    return content.split(/(<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>)/)
+      .map(part => part.startsWith('<') ? part : part.replace(/(?<=[A-Za-z])'(?=[A-Za-z])/g, '’'))
+      .join('');
+  });
   return { dir: { input: 'international', output: 'dist/international', includes: '_includes' }, templateFormats: ['njk'], htmlTemplateEngine: 'njk' };
 };
