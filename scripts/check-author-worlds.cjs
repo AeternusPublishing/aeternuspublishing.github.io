@@ -72,7 +72,7 @@ for(const p of profiles){
     assert(children.some(n=>n.name==='a'&&n.attribs.href.endsWith(expected[i].url)),route+': wrong edition link');
    }
    if(!expected.length && p.wilderness){assert(html.includes('English editions will appear here when they are available.'),route+': missing honest edition status');assert(!html.includes('German-language editions'),route+': invented German fallback');}
-   else if(!expected.length && p.editionStatus === 'IN_PREPARATION'){assert(html.includes('English editions in preparation') && html.includes('Publication details will follow after approval.'),route+': missing preparation status');assert(!html.includes('German-language editions'),route+': invented German fallback');assert(!html.includes('noindex'),route+': authorized live page must be indexed');}else if(!expected.length)assert(html.includes('German-language editions')&&html.includes('https://aeternus-verlag.de/autoren/'+p.slug+'/'),route+': missing language referral');
+   else if(!expected.length && p.editionStatus === 'IN_PREPARATION'){assert(html.includes('English editions in preparation') && html.includes('The English edition is in preparation.'),route+': missing preparation status');assert(!html.includes('German-language editions'),route+': invented German fallback');assert(!html.includes('noindex'),route+': authorized live page must be indexed');}else if(!expected.length)assert(html.includes('German-language editions')&&html.includes('https://aeternus-verlag.de/autoren/'+p.slug+'/'),route+': missing language referral');
   }
   pageRecords.push({route,root,language:lang,sha256:crypto.createHash('sha256').update(html).digest('hex')});routes++;
  }

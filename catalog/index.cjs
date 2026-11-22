@@ -304,8 +304,15 @@ authorsEn.push(require('./jf001-author-20261111.cjs'));
 authorsEn.push(require('./wi001-author.cjs'));
 authorsEn.push(require('./wep001-author.cjs'));
 require('./retail-state.cjs').apply(englishBooks);
-const coverSync = require('./cover-sync-20261118.json');
-for (const book of englishBooks) if (coverSync[book.id]) Object.assign(book, coverSync[book.id]);
+// Every cover-sync-<date>.json applies in date order; later syncs replace earlier covers.
+for (const file of require('fs').readdirSync(__dirname).filter(f => /^cover-sync-\d{8}\.json$/.test(f)).sort()) {
+  const coverSync = require('./' + file);
+  for (const book of englishBooks) if (coverSync[book.id]) {
+    // Keep replaced cover names as aliases: the library graph matches atlas entries by cover file.
+    if (book.cover && book.cover !== coverSync[book.id].cover) book.coverAliases = [...(book.coverAliases || []), book.cover];
+    Object.assign(book, coverSync[book.id]);
+  }
+}
 const coverRelaunchWorks = new Set(['CMM_001', 'CMM_002', 'SBS_001', 'FSR_001', 'IH_001', 'JDU_001']);
 for (const book of englishBooks) {
   if (!coverRelaunchWorks.has(book.work_id) && book.author !== 'joshua-duke') continue;

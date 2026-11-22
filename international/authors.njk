@@ -12,7 +12,7 @@ permalink: /authors/index.html
     <a class="author-panel" href="/authors/{{ author.slug }}/">
       {% if world.portrait %}
         <figure class="author-portrait">
-          <span class="author-portrait-mat"><img src="{{ world.portrait.file }}" alt="{{ world.portrait.name }}" loading="{% if loop.index <= 4 %}eager{% else %}lazy{% endif %}" decoding="async"></span>
+          <span class="author-portrait-mat"><img src="{{ world.portrait.file | thumb(480) }}" alt="{{ world.portrait.name }}" loading="{% if loop.index <= 4 %}eager{% else %}lazy{% endif %}" decoding="async"></span>
           <figcaption>{{ world.portrait.caption }}</figcaption>
         </figure>
       {% endif %}

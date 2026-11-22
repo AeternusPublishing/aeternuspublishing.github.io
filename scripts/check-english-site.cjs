@@ -5,7 +5,7 @@ const path = require('node:path');
 const { Parser } = require('htmlparser2');
 const catalogue = require('../catalog/index.cjs');
 const worlds = require('../catalog/author-worlds.cjs');
-const snapshot = require('../catalog/retail-state-20261118.json');
+const snapshot = require('../catalog/' + require('../catalog/retail-state.cjs').snapshotFile);
 const root = path.resolve('dist/release');
 const origin = 'https://aeternuspublishing.com';
 const parse = html => {
@@ -53,7 +53,9 @@ for (const book of catalogue.englishBooks) {
 const directory = pages.get('/authors/').html;
 for (const author of catalogue.authorsEn) {
   const world = worlds.get(author.slug, 'en');
-  if (world.portrait) assert(directory.includes(`src="${world.portrait.file}"`), `${author.slug}: approved portrait missing in directory`);
+  // The directory may show the 480 px thumbnail rendered from the approved file, never another image.
+  const thumb = world.portrait && `/assets/thumbs/${path.basename(world.portrait.file).replace(/\.[^.]+$/, '')}-480.webp`;
+  if (world.portrait) assert(directory.includes(`src="${world.portrait.file}"`) || directory.includes(`src="${thumb}"`), `${author.slug}: approved portrait missing in directory`);
 }
 const library = require('../editorial/library-view.cjs')('en');
 assert(library.nodes.filter(n => n.type === 'book').every(n => n.language === 'en'), 'German editions in static English library shelf');

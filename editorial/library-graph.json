@@ -1101,6 +1101,34 @@
       }
     },
     {
+      "id": "book:de:kim",
+      "type": "book",
+      "label": {
+        "de": "Kim (Illustriert)",
+        "en": "Kim (Illustriert)"
+      },
+      "author": "Rudyard Kipling",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-rk002-de-v34-20261120.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/kim/",
+        "en": "https://aeternus-verlag.de/buecher/kim/"
+      },
+      "summary": {
+        "de": "Ein Waisenjunge aus Lahore wird Schüler eines tibetischen Lamas und Bote im Großen Spiel. Ihr gemeinsamer Weg führt durch Nordindien bis in den Himalaya.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          74.35,
+          31.55
+        ],
+        "region": "asia",
+        "place": "Lahore",
+        "source": "kosmosSelection:kim"
+      }
+    },
+    {
       "id": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
       "type": "book",
       "label": {
@@ -1147,7 +1175,7 @@
       },
       "author": "Napoleon Augustus Jennings",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-a-texas-ranger-jennings-en-20261009-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-napoleon-augustus-jennings-a-texas-ranger-annotated-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-napoleon-augustus-jennings-a-texas-ranger-annotated/",
         "en": "https://aeternuspublishing.com/books/en-napoleon-augustus-jennings-a-texas-ranger-annotated/"
@@ -1261,7 +1289,7 @@
       },
       "author": "Ernest Thompson Seton",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-rolf-in-the-woods-en-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-ernest-thompson-seton-edition-rolf-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-rolf/",
         "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-rolf/"
@@ -1289,7 +1317,7 @@
       },
       "author": "Ernest Thompson Seton",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-two-little-savages-en-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-ernest-thompson-seton-edition-two-little-savages-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-two-little-savages/",
         "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-two-little-savages/"
@@ -1317,7 +1345,7 @@
       },
       "author": "Ernest Thompson Seton",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-arctic-prairies-en-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-ernest-thompson-seton-edition-arctic-prairies-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-arctic-prairies/",
         "en": "https://aeternuspublishing.com/books/en-ernest-thompson-seton-edition-arctic-prairies/"
@@ -1373,7 +1401,7 @@
       },
       "author": "Robert Montgomery Bird",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-hawks-en-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-robert-montgomery-bird-edition-hawks-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-hawks/",
         "en": "https://aeternuspublishing.com/books/en-robert-montgomery-bird-edition-hawks/"
@@ -1429,7 +1457,7 @@
       },
       "author": "Francis Parkman",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-oregon-trail-en-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-francis-parkman-edition-oregon-trail-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-francis-parkman-edition-oregon-trail/",
         "en": "https://aeternuspublishing.com/books/en-francis-parkman-edition-oregon-trail/"
@@ -1457,7 +1485,7 @@
       },
       "author": "James Hall",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-harpes-head-en-20260924-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-james-hall-the-harpe-s-head-illustrated-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-james-hall-the-harpe-s-head-illustrated/",
         "en": "https://aeternuspublishing.com/books/en-james-hall-the-harpe-s-head-illustrated/"
@@ -1513,7 +1541,7 @@
       },
       "author": "Richard Jefferies",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-bevis-en-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-richard-jefferies-edition-bevis-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-richard-jefferies-edition-bevis/",
         "en": "https://aeternuspublishing.com/books/en-richard-jefferies-edition-bevis/"
@@ -1541,7 +1569,7 @@
       },
       "author": "Charles Brockden Brown",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-edgar-huntly-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-charles-brockden-brown-edgar-huntly-illustrated-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-charles-brockden-brown-edgar-huntly-illustrated/",
         "en": "https://aeternuspublishing.com/books/en-charles-brockden-brown-edgar-huntly-illustrated/"
@@ -1588,7 +1616,7 @@
       },
       "author": "James J. Hill",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-highways-of-progress-hill-en-20260929-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-james-j-hill-highways-of-progress-illustrated-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-james-j-hill-highways-of-progress-illustrated/",
         "en": "https://aeternuspublishing.com/books/en-james-j-hill-highways-of-progress-illustrated/"
@@ -1607,7 +1635,7 @@
       },
       "author": "Sir Francis Younghusband",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-epic-of-mount-everest-younghusband-en-v13-20261008-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-francis-younghusband-the-epic-of-mount-everest-illustrated-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/",
         "en": "https://aeternuspublishing.com/books/en-francis-younghusband-the-epic-of-mount-everest-illustrated/"
@@ -1626,7 +1654,7 @@
       },
       "author": "Robert Louis Stevenson",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-treasure-island-rls-en-v4-20261008-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-robert-louis-stevenson-treasure-island-annotated-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-robert-louis-stevenson-treasure-island-annotated/",
         "en": "https://aeternuspublishing.com/books/en-robert-louis-stevenson-treasure-island-annotated/"
@@ -1645,7 +1673,7 @@
       },
       "author": "Joshua Duke",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/",
         "en": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880/"
@@ -1664,7 +1692,7 @@
       },
       "author": "Joshua Duke",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/",
         "en": "https://aeternuspublishing.com/books/en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition/"
@@ -1702,7 +1730,7 @@
       },
       "author": "Grey Owl",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-men-of-the-last-frontier-grey-owl-en-20261008-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-grey-owl-the-men-of-the-last-frontier-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/",
         "en": "https://aeternuspublishing.com/books/en-grey-owl-the-men-of-the-last-frontier/"
@@ -2070,7 +2098,7 @@
       },
       "author": "Edwin Tappan Adney",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-the-klondike-stampede-adney-en-20261010-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-tappan-adney-the-klondike-stampede-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-tappan-adney-the-klondike-stampede/",
         "en": "https://aeternuspublishing.com/books/en-tappan-adney-the-klondike-stampede/"
@@ -2267,7 +2295,7 @@
       },
       "author": "Francis Parkman",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-the-discovery-of-the-great-west-parkman-en-20261016-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-francis-parkman-the-discovery-of-the-great-west-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-francis-parkman-the-discovery-of-the-great-west/",
         "en": "https://aeternuspublishing.com/books/en-francis-parkman-the-discovery-of-the-great-west/"
@@ -2305,7 +2333,7 @@
       },
       "author": "William Robertson",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-from-private-to-field-marshal-robertson-en-20261017-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-william-robertson-from-private-to-field-marshal-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-william-robertson-from-private-to-field-marshal/",
         "en": "https://aeternuspublishing.com/books/en-william-robertson-from-private-to-field-marshal/"
@@ -2324,7 +2352,7 @@
       },
       "author": "Major-General Sir Charles Edward Callwell, K.C.B.",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-the-life-of-sir-stanley-maude-callwell-en-20261116-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-charles-edward-callwell-the-life-of-sir-stanley-maude-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-charles-edward-callwell-the-life-of-sir-stanley-maude/",
         "en": "https://aeternuspublishing.com/books/en-charles-edward-callwell-the-life-of-sir-stanley-maude/"
@@ -2362,7 +2390,7 @@
       },
       "author": "Robert Baden-Powell",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-the-matabele-campaign-1896-baden-powell-en-20261116-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-robert-baden-powell-the-matabele-campaign-1896-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-matabele-campaign-1896/",
         "en": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-matabele-campaign-1896/"
@@ -2381,7 +2409,7 @@
       },
       "author": "Robert Baden-Powell",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-aids-to-scouting-baden-powell-en-20261020-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-robert-baden-powell-aids-to-scouting-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-robert-baden-powell-aids-to-scouting/",
         "en": "https://aeternuspublishing.com/books/en-robert-baden-powell-aids-to-scouting/"
@@ -2666,7 +2694,7 @@
       },
       "author": "Robert Baden-Powell",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-downfall-of-prempeh-baden-powell-en-20261116-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-robert-baden-powell-the-downfall-of-prempeh-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-downfall-of-prempeh/",
         "en": "https://aeternuspublishing.com/books/en-robert-baden-powell-the-downfall-of-prempeh/"
@@ -2818,7 +2846,7 @@
       },
       "author": "George Rutledge Gibson",
       "language": "en",
-      "cover": "https://aeternuspublishing.com/assets/images/cover-ggi001-en-u3-20261107-fallback.jpg",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-en-george-rutledge-gibson-stock-exchanges-trade-20261122.jpg",
       "url": {
         "de": "https://aeternuspublishing.com/books/en-george-rutledge-gibson-stock-exchanges/",
         "en": "https://aeternuspublishing.com/books/en-george-rutledge-gibson-stock-exchanges/"
@@ -3283,6 +3311,14 @@
       }
     },
     {
+      "id": "author:Rudyard Kipling",
+      "type": "author",
+      "label": {
+        "de": "Rudyard Kipling",
+        "en": "Rudyard Kipling"
+      }
+    },
+    {
       "id": "author:Robert Le Mesurier McClure",
       "type": "author",
       "label": {
@@ -3569,14 +3605,6 @@
         "de": "Tacitus",
         "en": "Tacitus"
       }
-    },
-    {
-      "id": "author:Rudyard Kipling",
-      "type": "author",
-      "label": {
-        "de": "Rudyard Kipling",
-        "en": "Rudyard Kipling"
-      }
     }
   ],
   "links": [
@@ -3763,6 +3791,11 @@
     {
       "source": "book:de:der-heimgesuchte",
       "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:de:kim",
+      "target": "series:bernstein",
       "type": "series"
     },
     {
@@ -4717,6 +4750,11 @@
       "type": "author"
     },
     {
+      "source": "book:de:kim",
+      "target": "author:Rudyard Kipling",
+      "type": "author"
+    },
+    {
       "source": "book:en-robert-mcclure-the-discovery-of-the-north-west-passage",
       "target": "author:Robert Le Mesurier McClure",
       "type": "author"
@@ -5298,6 +5336,7 @@
     "book:atlas:pinocchio": "book:de:pinocchio",
     "book:atlas:tarleton": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
     "book:atlas:heidi": "book:de:heidi",
+    "book:atlas:kim": "book:de:kim",
     "book:atlas:edgar-huntly": "book:en-charles-brockden-brown-edgar-huntly-illustrated",
     "book:atlas:shelters": "book:en-daniel-carter-beard-shelters-shacks-and-shanties-illustrated",
     "book:atlas:grimm": "book:de:die-schreckensmaerchen-der-brueder-grimm-band-i",

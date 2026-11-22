@@ -17,3 +17,7 @@
 .edition-previews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.edition-previews figure{margin:0;min-width:0}.edition-previews img{display:block;width:100%;height:auto;border:1px solid #d5cec0}.edition-previews figcaption{font:14px/1.5 Inter,sans-serif;margin-top:12px;color:#6a685f}@media(max-width:600px){.edition-previews{grid-template-columns:1fr}}
 
 .edition-supplement{margin:0}.edition-supplement img{display:block;width:100%;height:auto}.edition-supplement figcaption{font:14px/1.5 Inter,sans-serif;margin-top:12px;color:#6a685f}
+/* Welle 1, 22.11.2026: one buying card per format, Amazon marketplace switch */
+.status-pill{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;padding:4px 10px;border-radius:999px;background:#efe5cf;color:#6b4f19}.status-pill.status-live{background:#e1e8d6;color:#2f4a27}
+.market-select{display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-size:14px}.market-select select{font:inherit;padding:6px 8px;border:1px solid #d5cec0;background:#fffdf7;color:inherit}
+.buy-format{display:grid;gap:8px}.buy-format-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px}.buy-format-head h3{margin:0}.buy-price{margin:0;font-family:Fraunces,Georgia,serif;font-size:22px;font-variant-numeric:tabular-nums}.buy-spec{margin:0;font-size:14px;color:#5d5a50;font-variant-numeric:tabular-nums}.buy-actions{display:flex;flex-wrap:wrap;gap:10px}.buy-others{margin:0;font-size:14px;display:flex;flex-wrap:wrap;gap:4px 14px}

@@ -31,3 +31,23 @@ document.querySelectorAll('[data-load-instagram]').forEach(button => {
   container.replaceChildren(frame);
  });
 });
+
+// Amazon marketplace switch on book pages (US/UK/CA/AU), remembered per visitor.
+const market = document.querySelector('[data-amazon-market]');
+if (market) {
+  const markets = ['com', 'co.uk', 'ca', 'com.au'];
+  const setMarket = value => {
+    document.querySelectorAll('[data-amazon]').forEach(link => {
+      const asin = link.dataset.asin;
+      link.href = value === 'com' && asin ? `https://www.amazon.com/dp/${asin}` : `https://www.amazon.${value}/s?k=${link.dataset.isbn}&i=stripbooks`;
+      const label = link.querySelector('[data-amazon-domain]');
+      if (label) label.textContent = '.' + value;
+    });
+  };
+  try { const saved = localStorage.getItem('aeternus-amazon-market'); if (markets.includes(saved)) market.value = saved; } catch (e) {}
+  setMarket(market.value);
+  market.addEventListener('change', () => {
+    try { localStorage.setItem('aeternus-amazon-market', market.value); } catch (e) {}
+    setMarket(market.value);
+  });
+}
