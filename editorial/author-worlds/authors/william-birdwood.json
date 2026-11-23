@@ -1,0 +1,570 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "william-birdwood",
+  "name": "William Riddell Birdwood",
+  "dates": "1865–1951",
+  "depth": "expanded",
+  "editionStatus": "IN_PREPARATION",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "ADB",
+      "title": "A. J. Hill, 'Birdwood, William Riddell (Baron Birdwood) (1865–1951)', Australian Dictionary of Biography, vol. 7 (Melbourne University Press, 1979)",
+      "url": "https://adb.anu.edu.au/biography/birdwood-william-riddell-baron-birdwood-5240",
+      "checked": "2026-11-22",
+      "note": "Read for the publisher's fact lane of WRB_002 (FACT_BASE_WRB_002_V1, 23 November 2026): birth at Kirkee 13 September 1865; Clifton and Sandhurst; 12th Lancers 1885, 11th Bengal Lancers 1887; marriage 1894; C.I.E. and D.S.O. 1908; major-general 1911; command in Egypt November 1914; Anzac landing 25 April 1915; I ANZAC Corps and Australian Corps, handed to Monash 31 May 1918; Fifth Army; field marshal and Commander-in-Chief in India 1925–30; Master of Peterhouse 1931; barony 1938; Khaki and Gown and In My Time; death at Hampton Court Palace 17 May 1951."
+    },
+    {
+      "id": "PEERAGE",
+      "title": "thePeerage.com, person page 14257, citing G. E. Cokayne, The Complete Peerage",
+      "url": "https://thepeerage.com/p14257.htm",
+      "checked": "2026-11-22",
+      "note": "Marriage on 5 March 1894 at Lahore to Janetta Hope Gonville Bromhead, daughter of Sir Benjamin Parnell Bromhead, 4th Baronet. A genealogical compilation; used only alongside the ADB."
+    },
+    {
+      "id": "WA",
+      "title": "Westminster Abbey, commemoration of William Birdwood",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/william-birdwood",
+      "checked": "2026-11-22",
+      "note": "Burial at Twickenham. Gives 19 May 1951 as the date of death, against 17 May in the ADB."
+    },
+    {
+      "id": "GAZ_CIE1908",
+      "title": "The London Gazette, issue 28095, supplement, p. 2 (1908): Companion of the Order of the Indian Empire",
+      "url": "https://www.thegazette.co.uk/London/issue/28095/supplement/2",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_DSO1908",
+      "title": "The London Gazette, issue 28168, supplement, p. 6066 (1908): Distinguished Service Order for the operations against the Zakka Khel and Mohmands, dated 18 July 1908",
+      "url": "https://www.thegazette.co.uk/London/issue/28168/supplement/6066",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_BE1917",
+      "title": "The Edinburgh Gazette, issue 13052, p. 367 (1917): Belgian Order of the Crown, Grand Officer",
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/13052/page/367",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_BECG1918",
+      "title": "The London Gazette, issue 30568, supplement, p. 3095 (1918): Belgian Croix de Guerre",
+      "url": "https://www.thegazette.co.uk/London/issue/30568/supplement/3095",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_GCMG1919",
+      "title": "The London Gazette, issue 31092, supplement, p. 3 (1919): Knight Grand Cross of the Order of St Michael and St George, dated 1 January 1919",
+      "url": "https://www.thegazette.co.uk/London/issue/31092/supplement/3",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_FRCG1919",
+      "title": "The London Gazette, issue 31222, supplement, p. 3281 (1919): French Croix de Guerre with palm",
+      "url": "https://www.thegazette.co.uk/London/issue/31222/supplement/3281",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_USDSM1919",
+      "title": "The London Gazette, issue 31451, supplement, p. 8937 (1919): United States Distinguished Service Medal",
+      "url": "https://www.thegazette.co.uk/London/issue/31451/supplement/8937",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_PT1919",
+      "title": "The London Gazette, issue 31514, supplement, p. 10614 (1919): Portuguese Military Order of the Tower and Sword, Grand Cross",
+      "url": "https://www.thegazette.co.uk/London/issue/31514/supplement/10614",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_JP1921",
+      "title": "The Edinburgh Gazette, issue 13673, p. 138 (1921): Japanese Order of the Rising Sun, First Class",
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/13673/page/138",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_GCB1923",
+      "title": "The Edinburgh Gazette, issue 13881, p. 18 (1923): Knight Grand Cross of the Order of the Bath; styled Colonel, 12th Lancers, General Officer Commanding-in-Chief, Northern Command, India",
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/13881/page/18",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_GCSI1930",
+      "title": "The Edinburgh Gazette, issue 14615, p. 16 (1930): Knight Grand Commander of the Order of the Star of India; styled Field Marshal, Commander-in-Chief in India",
+      "url": "https://www.thegazette.co.uk/Edinburgh/issue/14615/page/16",
+      "checked": "2026-11-22"
+    },
+    {
+      "id": "GAZ_GCVO1937",
+      "title": "The London Gazette, issue 34396, supplement, p. 3084 (1937): Knight Grand Cross of the Royal Victorian Order",
+      "url": "https://www.thegazette.co.uk/London/issue/34396/supplement/3084",
+      "checked": "2026-11-22"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was born on 13 September 1865 at Kirkee, near Poona, in India, the second son of Herbert Mills Birdwood.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was educated at Clifton College and the Royal Military College, Sandhurst, joined the 12th Lancers in India in 1885 and transferred to the 11th Bengal Lancers in 1887.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1894 he married Janetta Hope Gonville Bromhead, daughter of Sir Benjamin Parnell Bromhead, 4th Baronet.",
+      "sources": [
+        "ADB",
+        "PEERAGE"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was appointed C.I.E. in 1908 and received the D.S.O. for the operations against the Zakka Khel and Mohmands, dated 18 July 1908.",
+      "sources": [
+        "ADB",
+        "GAZ_CIE1908",
+        "GAZ_DSO1908"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He became a major-general in 1911.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In November 1914 Kitchener gave him command of the Australian and New Zealand troops gathering in Egypt.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "His corps landed at Anzac on 25 April 1915, in the campaign commanded by General Sir Ian Hamilton.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He commanded I ANZAC Corps from 1916 and then the Australian Corps, which he handed to Sir John Monash on 31 May 1918, before taking command of the Fifth Army.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was promoted field marshal in 1925 and was Commander-in-Chief in India from 1925 to 1930.",
+      "sources": [
+        "ADB",
+        "GAZ_GCSI1930"
+      ]
+    },
+    {
+      "id": "F10",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was elected Master of Peterhouse, Cambridge, in 1931.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F11",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1938 he was created Baron Birdwood, of Anzac and of Totnes.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F12",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He published two volumes of recollections, Khaki and Gown and In My Time: Recollections and Anecdotes.",
+      "sources": [
+        "ADB"
+      ]
+    },
+    {
+      "id": "F13",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He died at Hampton Court Palace and was buried at Twickenham.",
+      "sources": [
+        "ADB",
+        "WA"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Date of death",
+      "decision": "The ADB gives 17 May 1951; Westminster Abbey gives 19 May 1951. The page names the year only."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Year of In My Time",
+      "decision": "The ADB gives 1946. The AETERNUS edition follows the Skeffington & Son first edition, dated to December 1945; a second edition followed in May 1946. The page says first published in 1945."
+    },
+    {
+      "status": "WIDERSPRUCH",
+      "claim": "Year of marriage",
+      "decision": "The ADB and The Complete Peerage give 1894; other references give 1893. The page follows 1894."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Foreign honours",
+      "decision": "Foreign orders and decorations are listed by the year of their notice in the London or Edinburgh Gazette, not by the date of the foreign award."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Portrait",
+      "decision": "No portrait has yet been cleared for this page; no likeness has been generated or substituted."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "In My Time is read as an old soldier's book of anecdote and character, not as a record of his commands; no judgement of his generalship is offered beyond the sources."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Prose follows the WRB_002 back cover text (RUECKSEITE_WRB002_EN_V1, approved by the publisher) and the fact lane of 23 November 2026 in substance. AETERNUS editorial judgement; no invented quotation."
+  },
+  "timeline": [
+    [
+      "1865",
+      "Born at Kirkee, near Poona, 13 September",
+      ""
+    ],
+    [
+      "1885",
+      "Joins the 12th Lancers in India",
+      ""
+    ],
+    [
+      "1887",
+      "11th Bengal Lancers",
+      ""
+    ],
+    [
+      "1894",
+      "Marries Janetta Hope Gonville Bromhead",
+      ""
+    ],
+    [
+      "1908",
+      "C.I.E.; D.S.O. for the Zakka Khel and Mohmand operations",
+      ""
+    ],
+    [
+      "1911",
+      "Major-general",
+      ""
+    ],
+    [
+      "1914",
+      "Given command of the Australian and New Zealand troops in Egypt, November",
+      ""
+    ],
+    [
+      "1915",
+      "Landing at Anzac, 25 April",
+      ""
+    ],
+    [
+      "1916",
+      "I ANZAC Corps in France",
+      ""
+    ],
+    [
+      "1918",
+      "Hands the Australian Corps to Monash, 31 May; Fifth Army",
+      ""
+    ],
+    [
+      "1919",
+      "G.C.M.G.; baronet",
+      ""
+    ],
+    [
+      "1925",
+      "Field marshal; Commander-in-Chief in India until 1930",
+      ""
+    ],
+    [
+      "1931",
+      "Master of Peterhouse, Cambridge",
+      ""
+    ],
+    [
+      "1938",
+      "Baron Birdwood, of Anzac and of Totnes",
+      ""
+    ],
+    [
+      "1945",
+      "In My Time: Recollections and Anecdotes, London: Skeffington & Son",
+      ""
+    ],
+    [
+      "1951",
+      "Dies at Hampton Court Palace",
+      ""
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "ian-hamilton",
+      "kind": "shared-campaign",
+      "sources": [
+        "ADB"
+      ],
+      "en": "Shared campaign: Birdwood commanded the Australian and New Zealand troops at Gallipoli in 1915 in the campaign commanded by Sir Ian Hamilton."
+    }
+  ],
+  "rank": {
+    "en": "Field-Marshal Lord Birdwood, G.C.B., G.C.S.I., G.C.M.G., G.C.V.O., C.I.E., D.S.O."
+  },
+  "image": {
+    "status": "not-available",
+    "reason": "No portrait has been cleared for this page yet; no likeness has been generated or substituted."
+  },
+  "honours": [
+    {
+      "name": "Order of the Indian Empire, Companion (C.I.E.)",
+      "year": "1908",
+      "category": "order",
+      "sources": [
+        "GAZ_CIE1908"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Distinguished Service Order (D.S.O.)",
+      "year": "1908",
+      "category": "decoration",
+      "sources": [
+        "GAZ_DSO1908"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Order of the Crown (Belgium), Grand Officer",
+      "year": "1917",
+      "category": "order",
+      "sources": [
+        "GAZ_BE1917"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Croix de Guerre (Belgium)",
+      "year": "1918",
+      "category": "decoration",
+      "sources": [
+        "GAZ_BECG1918"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Order of St Michael and St George, Knight Grand Cross (G.C.M.G.)",
+      "year": "1919",
+      "category": "order",
+      "sources": [
+        "GAZ_GCMG1919"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Croix de Guerre with palm (France)",
+      "year": "1919",
+      "category": "decoration",
+      "sources": [
+        "GAZ_FRCG1919"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Distinguished Service Medal (United States)",
+      "year": "1919",
+      "category": "decoration",
+      "sources": [
+        "GAZ_USDSM1919"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Military Order of the Tower and Sword (Portugal), Grand Cross",
+      "year": "1919",
+      "category": "order",
+      "sources": [
+        "GAZ_PT1919"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Baronet",
+      "year": "1919",
+      "category": "title",
+      "sources": [
+        "ADB"
+      ],
+      "note": {
+        "en": "Hereditary title; not an order of chivalry."
+      }
+    },
+    {
+      "name": "Order of the Rising Sun (Japan), First Class",
+      "year": "1921",
+      "category": "order",
+      "sources": [
+        "GAZ_JP1921"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Order of the Bath, Knight Grand Cross (G.C.B.)",
+      "year": "1923",
+      "category": "order",
+      "sources": [
+        "GAZ_GCB1923"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Order of the Star of India, Knight Grand Commander (G.C.S.I.)",
+      "year": "1930",
+      "category": "order",
+      "sources": [
+        "GAZ_GCSI1930"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Royal Victorian Order, Knight Grand Cross (G.C.V.O.)",
+      "year": "1937",
+      "category": "order",
+      "sources": [
+        "GAZ_GCVO1937"
+      ],
+      "note": {
+        "en": "Year of the Gazette notice."
+      }
+    },
+    {
+      "name": "Baron Birdwood, of Anzac and of Totnes",
+      "year": "1938",
+      "category": "title",
+      "sources": [
+        "ADB"
+      ],
+      "note": {
+        "en": "Peerage of the United Kingdom; not an order of chivalry."
+      }
+    }
+  ],
+  "locales": {
+    "en": {
+      "tagline": "The general the Anzacs called Birdie, and the old soldier who remembered them as comrades.",
+      "intro": "William Riddell Birdwood came out of the cavalry of British India to lead the Australian and New Zealand troops ashore at Anzac in 1915. He stayed with them through Gallipoli and France, and ended his service as a field marshal and Commander-in-Chief in India.",
+      "orientation": "Birdwood's career runs from the frontier regiments of the 1880s to the last years of the Raj. In between lies the command for which he is remembered: the Australian and New Zealand Army Corps, from its gathering in Egypt to the Western Front.",
+      "originHeading": "Kirkee, Clifton and the Bengal Lancers",
+      "careerHeading": "Anzac, France and India",
+      "origin": [
+        "He was born at Kirkee, near Poona, in 1865, the second son of Herbert Mills Birdwood. After Clifton College and Sandhurst he joined the 12th Lancers in India in 1885 and moved two years later to the 11th Bengal Lancers.",
+        "In 1894 he married Janetta Hope Gonville Bromhead. In 1908 he was appointed C.I.E., and the operations against the Zakka Khel and Mohmands brought him the D.S.O."
+      ],
+      "career": [
+        "In November 1914 Kitchener gave him the Australian and New Zealand troops gathering in Egypt. His corps landed at Anzac on 25 April 1915, in the campaign commanded by Sir Ian Hamilton.",
+        "In France he commanded I ANZAC Corps and the Australian Corps, which he handed to Sir John Monash on 31 May 1918 before taking the Fifth Army. He was promoted field marshal in 1925 and was Commander-in-Chief in India until 1930. He then became Master of Peterhouse, Cambridge, and in 1938 a peer as Baron Birdwood, of Anzac and of Totnes. He died at Hampton Court Palace in 1951."
+      ],
+      "literature": [
+        "He wrote two books of recollections, Khaki and Gown and In My Time: Recollections and Anecdotes, the second published by Skeffington & Son in London.",
+        "In My Time is not the record of his commands. It is a book of the men he served with: regimental characters, Indian officers, viceroys, Anzacs and Cambridge dons, remembered in anecdote."
+      ],
+      "legacy": "The Anzacs called him Birdie. Thirty years after Gallipoli he still wrote of them as comrades, and that loyalty gives his last book its warmth.",
+      "bridge": "In My Time: Recollections and Anecdotes, first published in London in 1945. An English AETERNUS edition in the Green Series is in preparation.",
+      "description": "William Riddell Birdwood (1865–1951): Bengal Lancer, commander of the Anzacs at Gallipoli and in France, field marshal and Commander-in-Chief in India, with In My Time in preparation at AETERNUS.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12",
+        "F13"
+      ]
+    }
+  }
+}
