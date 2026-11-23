@@ -32,6 +32,7 @@ const BLOCKING = [
   ['history DE+EN', node, ['scripts/check-history.cjs']],
   ['editorial DE', node, ['scripts/check-editorial.cjs']],
   ['QR targets (printed in books)', node, ['scripts/check-qr-targets.js']],
+  ['Heidi live (price confirmed 23.11.)', node, ['scripts/check-heidi-live.cjs']],
   ['quality ratchet', node, ['scripts/check-quality-ratchet.cjs']],
 ];
 // Reported, not blocking: older checks that pin single-book values and need a publisher answer
@@ -41,7 +42,6 @@ const ADVISORY = [
   ['hreflang report', node, ['scripts/check-hreflang.js']],
   ['wilderness (old pins)', node, ['scripts/check-wilderness.cjs']],
   ['bird pages (old pins)', node, ['scripts/check-bird-pages.js']],
-  ['Heidi live (price pin)', node, ['scripts/check-heidi-live.cjs']],
 ];
 
 const run = ([name, cmd, args, env]) => {

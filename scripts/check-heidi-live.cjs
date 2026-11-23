@@ -8,7 +8,8 @@ assert.equal(author.preview,false);
 assert.deepEqual(book.formats.map(f=>[f.name,f.url,f.price]),[
   ['E-Book','https://www.amazon.de/dp/B0HJTRVJ17','9,99 €'],
   ['Taschenbuch','https://www.amazon.de/dp/3676050363','16,99 €'],
-  ['Hardcover','https://www.amazon.de/dp/3676050371','24,98 €']
+  // Price confirmed by the publisher 23.11.2026 (decision_website_heidi_hc_preis_2499_jjh001_aufnehmen_20261123).
+  ['Hardcover','https://www.amazon.de/dp/3676050371','24,99 €']
 ]);
 const html=fs.readFileSync('public/buecher/heidi/index.html','utf8');
 const landing=fs.readFileSync('public/autoren/johanna-spyri/index.html','utf8');
