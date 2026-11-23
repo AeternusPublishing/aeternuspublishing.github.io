@@ -1,0 +1,58 @@
+name: Website Arbiter
+
+# Technischer Merge nach ausdruecklichem Label und gruenem Qualitaetsgate.
+# Geschuetzte Pfade, insbesondere dieser Workflow selbst, bleiben offen.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_run:
+    workflows: ['Qualitaetsgate']
+    types: [completed]
+  pull_request_target:
+    types: [labeled]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  statuses: read
+
+concurrency:
+  group: website-arbiter
+  cancel-in-progress: false
+
+jobs:
+  merge-green-approved:
+    if: >-
+      (github.event_name == 'workflow_run' && github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success') ||
+      (github.event_name == 'pull_request_target' && github.event.label.name == 'arbiter-approved') ||
+      github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Kein Checkout und keine Ausfuehrung von Code aus dem PR.
+      - name: Merge freigegebene gruene PRs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          prs=$(gh pr list --repo "$REPO" --state open --label arbiter-approved --limit 1000 --json number --jq '.[].number')
+          for pr in $prs; do
+            data=$(gh pr view "$pr" --repo "$REPO" --json isDraft,baseRefName,mergeable,headRefOid,headRepository,changedFiles,labels)
+            if ! jq -e --arg repo "$REPO" '.isDraft == false and .baseRefName == "main" and .mergeable == "MERGEABLE" and .headRepository.nameWithOwner == $repo and any(.labels[]; .name == "arbiter-approved")' <<<"$data" >/dev/null; then continue; fi
+            files=$(gh api "repos/$REPO/pulls/$pr/files?per_page=100" --paginate --jq '[.[].filename]' | jq -s 'add // []')
+            if [ "$(jq 'length' <<<"$files")" -ne "$(jq '.changedFiles' <<<"$data")" ]; then continue; fi
+            if jq -e 'any(.[]; startswith(".github/") or startswith("REGISTRY/") or startswith("AGENT_CONTROL/") or startswith("00_VERFASSUNG/"))' <<<"$files" >/dev/null; then continue; fi
+            sha=$(jq -r '.headRefOid' <<<"$data")
+            runs=$(gh api "repos/$REPO/commits/$sha/check-runs" --paginate --jq '[.check_runs[] | select(.name != "merge-green-approved") | {id,name,status,conclusion}]' | jq -s 'add // [] | group_by(.name) | map(max_by(.id))')
+            if ! jq -e 'any(.[]; .name == "Qualitaetsgate" and .status == "completed" and .conclusion == "success") and all(.[]; .status == "completed" and (.conclusion == "success" or .conclusion == "neutral"))' <<<"$runs" >/dev/null; then continue; fi
+            statuses=$(gh api "repos/$REPO/commits/$sha/status")
+            if ! jq -e '.total_count == 0 or .state == "success"' <<<"$statuses" >/dev/null; then continue; fi
+            # Label und Head kurz vor dem Merge erneut lesen; GitHub bindet den
+            # Merge atomar an den geprueften Head.
+            live=$(gh pr view "$pr" --repo "$REPO" --json headRefOid,labels,isDraft,mergeable,baseRefName)
+            if ! jq -e --arg sha "$sha" '.headRefOid == $sha and .isDraft == false and .baseRefName == "main" and .mergeable == "MERGEABLE" and any(.labels[]; .name == "arbiter-approved")' <<<"$live" >/dev/null; then continue; fi
+            gh pr merge "$pr" --repo "$REPO" --squash --match-head-commit "$sha" || echo "WARN: Merge von #$pr abgelehnt"
+          done
