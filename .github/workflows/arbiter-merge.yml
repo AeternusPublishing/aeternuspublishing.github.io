@@ -17,6 +17,7 @@ permissions:
   pull-requests: write
   checks: read
   statuses: read
+  actions: write
 
 concurrency:
   group: website-arbiter
@@ -38,6 +39,20 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
+          merged=false
+          deploy_after_merge() {
+            result=$?
+            trap - EXIT
+            if [ "$merged" = true ]; then
+              echo "At least one PR merged; starting the main Pages deploy."
+              if ! gh workflow run deploy.yml --repo "$REPO" --ref main; then
+                echo "::error::Pages deploy dispatch failed after a successful merge."
+                exit 1
+              fi
+            fi
+            exit "$result"
+          }
+          trap deploy_after_merge EXIT
           prs=$(gh pr list --repo "$REPO" --state open --label arbiter-approved --limit 1000 --json number --jq '.[].number')
           for pr in $prs; do
             data=$(gh pr view "$pr" --repo "$REPO" --json isDraft,baseRefName,mergeable,headRefOid,headRepository,changedFiles,labels)
@@ -54,5 +69,9 @@ jobs:
             # Merge atomar an den geprueften Head.
             live=$(gh pr view "$pr" --repo "$REPO" --json headRefOid,labels,isDraft,mergeable,baseRefName)
             if ! jq -e --arg sha "$sha" '.headRefOid == $sha and .isDraft == false and .baseRefName == "main" and .mergeable == "MERGEABLE" and any(.labels[]; .name == "arbiter-approved")' <<<"$live" >/dev/null; then continue; fi
-            gh pr merge "$pr" --repo "$REPO" --squash --match-head-commit "$sha" || echo "WARN: Merge von #$pr abgelehnt"
+            if gh pr merge "$pr" --repo "$REPO" --squash --match-head-commit "$sha"; then
+              merged=true
+            else
+              echo "WARN: Merge von #$pr abgelehnt"
+            fi
           done
