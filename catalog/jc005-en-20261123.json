@@ -1,0 +1,85 @@
+{
+  "id": "en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints",
+  "work_id": "JC_005",
+  "language": "en",
+  "title": "The Treatment of the Insane without Mechanical Restraints (Annotated)",
+  "subtitle": null,
+  "author": "john-conolly",
+  "authorName": "John Conolly",
+  "contributors": [],
+  "series": "anthrazit",
+  "series_number": null,
+  "original_title": "The Treatment of the Insane without Mechanical Restraints",
+  "original_publication_year": 1856,
+  "isbn": {
+    "paperback": "9783676052689",
+    "hardcover": "9783676052696"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052689",
+      "pages": 296,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052696",
+      "pages": 296,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676052689",
+      "pages": 296,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676052696",
+      "pages": 296,
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "John Conolly’s 1856 account of Hanwell Asylum, where he abolished mechanical restraint, in an annotated edition of the complete first-edition text."
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the first edition of 1856, word for word</li><li>Eight illustrations, including six plates, fully captioned</li><li>With foreword, afterword, glossary and an account of the author</li></ul><p>The history of psychiatric medicine contains few reforms more consequential than the abandonment of mechanical restraint.</p><p>When John Conolly assumed the medical superintendence of Hanwell Asylum in 1839, he undertook to establish a system of treatment which dispensed with instruments long considered indispensable to the management of mental illness. His experience, developed within one of England’s major public asylums, became the foundation of <i>The Treatment of the Insane without Mechanical Restraints</i>, first published in 1856.</p><p>Combining institutional history, medical observation, and practical argument, Conolly examines the difficulties of governing an asylum without habitual mechanical coercion. His work illuminates both the achievements and the unresolved contradictions of nineteenth-century psychiatric reform.</p><p>Presented in a distinguished AETERNUS historical edition, this substantial medical classic bears witness to a transformation whose significance extended beyond the treatment of mental disease: the recognition that authority entrusted with human suffering must answer not merely to necessity, but to judgement, compassion, and restraint.</p>",
+  "cover": "/assets/images/cover-jc005-en-v7-20261123.jpg",
+  "coverWebp": "/assets/images/cover-jc005-en-v7-20261123.webp",
+  "backcover": "/assets/images/back-jc005-en-v7-20261123.jpg",
+  "backcoverWebp": "/assets/images/back-jc005-en-v7-20261123.webp",
+  "first_published": "1856",
+  "publication_date": "2026-12-01",
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "availability": "COMING_SOON",
+  "hideAvailabilityTeaser": true,
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "EINGEREICHT"
+  },
+  "url": "/books/en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints/",
+  "authorUrl": "/authors/john-conolly/",
+  "seriesName": "ANTHRACITE SERIES",
+  "seriesColor": "#333333",
+  "brandOnly": true,
+  "provenance": "JC_005 EN Ingram V7; paperback cover SHA-256 fba90fbe286a3082bc727293bcf0caac98a488abd7345169fc62f2bb9fa65451"
+}
