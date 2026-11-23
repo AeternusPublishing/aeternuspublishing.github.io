@@ -724,11 +724,11 @@
       "assets": [
         {
           "path": "src/assets/images/cover-scouting-for-boys.webp",
-          "sha256": "be7a0e26a2b41f30cb8fdd1a400a87a58ac8625ba057c0ae70be492d8ff57720"
+          "sha256": "b7a12d908bad16c087f65d18e526c548ade7980ac72d3fd9f66dfaa1e072da87"
         },
         {
           "path": "src/assets/images/cover-scouting-for-boys-fallback.jpg",
-          "sha256": "c693684f05ebbaca108735fece4364b36c576a6e9ba32784bc10fced5fc031fc"
+          "sha256": "b7675a46498b0b5dd07299ddace6ffb4a27872348c1cacce78a57cff57fa4109"
         }
       ],
       "formats": [
