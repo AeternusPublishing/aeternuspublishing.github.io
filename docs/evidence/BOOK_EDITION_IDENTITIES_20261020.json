@@ -10145,6 +10145,69 @@
         "evidence": "catalog/retail-state-20261122.json",
         "reason": "Platform suffix moved out of the public label; one card per ISBN; tokens and register evidence united, ISBNs unchanged."
       }
+    },
+    {
+      "site": "en",
+      "id": "en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints",
+      "url": "/books/en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints/",
+      "title": "The Treatment of the Insane without Mechanical Restraints (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-jc005-en-v7-20261123.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-jc005-en-v7-20261123.jpg",
+          "sha256": "7d69fc305a525ed6900664e18c0a3fb6aa4349631a003a7307fb2af73d8c5254"
+        },
+        {
+          "path": "src/assets/images/cover-jc005-en-v7-20261123.webp",
+          "sha256": "fb87ddd5fe6ef032c14a19fe363eac18212946ecc916e6f6951b9832c2cc1127"
+        },
+        {
+          "path": "src/assets/images/back-jc005-en-v7-20261123.jpg",
+          "sha256": "7dacb30c4e515eed3fe9a3b70001cefe967c4f209cc1bf7c219fb551d04cffa3"
+        },
+        {
+          "path": "src/assets/images/back-jc005-en-v7-20261123.webp",
+          "sha256": "6aea024bae23114e1a0bc607c99d4c06f9cfeb475e5c3d688f42b9dc222d10c3"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676052689",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JC_005",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "The Treatment of the Insane without Mechanical Restraints (Annotated)",
+              "isbn13": "978-3-67605-268-9",
+              "isbn10": "3676052684",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676052696",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "JC_005",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "The Treatment of the Insane without Mechanical Restraints (Annotated)",
+              "isbn13": "978-3-67605-269-6",
+              "isbn10": "3676052692",
+              "asin": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "additional_pages": [

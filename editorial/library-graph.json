@@ -2838,6 +2838,25 @@
       }
     },
     {
+      "id": "book:en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints",
+      "type": "book",
+      "label": {
+        "de": "The Treatment of the Insane without Mechanical Restraints (Annotated)",
+        "en": "The Treatment of the Insane without Mechanical Restraints (Annotated)"
+      },
+      "author": "John Conolly",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-jc005-en-v7-20261123.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints/",
+        "en": "https://aeternuspublishing.com/books/en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints/"
+      },
+      "summary": {
+        "de": "",
+        "en": "John Conolly’s 1856 account of Hanwell Asylum, where he abolished mechanical restraint, in an annotated edition of the complete first-edition text."
+      }
+    },
+    {
       "id": "book:en-george-rutledge-gibson-stock-exchanges",
       "type": "book",
       "label": {
@@ -3583,6 +3602,14 @@
       }
     },
     {
+      "id": "author:John Conolly",
+      "type": "author",
+      "label": {
+        "de": "John Conolly",
+        "en": "John Conolly"
+      }
+    },
+    {
       "id": "author:George Rutledge Gibson",
       "type": "author",
       "label": {
@@ -4196,6 +4223,11 @@
     {
       "source": "book:en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan",
       "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints",
+      "target": "series:anthrazit",
       "type": "series"
     },
     {
@@ -5152,6 +5184,11 @@
     {
       "source": "book:en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan",
       "target": "author:Lady Florentia Sale",
+      "type": "author"
+    },
+    {
+      "source": "book:en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints",
+      "target": "author:John Conolly",
       "type": "author"
     },
     {
