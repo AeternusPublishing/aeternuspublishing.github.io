@@ -39,6 +39,10 @@ jobs:
       - name: Build Eleventy Site
         run: npm run build
 
+      - name: Write build info for the live watch
+        run: |
+          printf '{"site":"aeternus-verlag.de","commit":"%s","built_utc":"%s"}\n' "$GITHUB_SHA" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > public/build-info.json
+
       - name: Check text and image integrity
         run: |
           npm run check:text

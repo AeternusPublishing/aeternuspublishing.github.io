@@ -1,0 +1,42 @@
+name: Qualitaetsgate
+
+# Wave 4 (22.11.2026), decision_website_welle4_qualitaetsgate_drei_stufen_mergesperre_lokaler_deploy_20261122.
+# Runs on every pull request against main. The branch rule on main requires the job "Qualitaetsgate":
+# a red result blocks the merge. Builds both sites and runs scripts/quality-gate.cjs (blocking checks,
+# quality ratchet, advisory checks). A green result is technical, never a publication approval.
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gate:
+    name: Qualitaetsgate
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - run: npm ci
+      - name: Build both sites and run the gate
+        run: node scripts/quality-gate.cjs
+      - name: Keep the gate result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quality-gate-result
+          path: work/QUALITY_GATE_RESULT.json
+          if-no-files-found: ignore

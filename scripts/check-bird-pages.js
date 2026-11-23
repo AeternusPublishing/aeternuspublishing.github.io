@@ -2,7 +2,7 @@ const fs = require('fs');
 const assert = require('node:assert/strict');
 const path = require('path');
 const expected = {
-  De: { route: 'autoren', covers: ['cover-waldteufel', 'cover-hawks-de'], asins: ['B0HDRJVR7N','3912883106','B0HHJRK4TL','3912883513','3912883521'], formats: [2,3] },
+  De: { route: 'autoren', covers: ['cover-waldteufel-v5-20261008', 'cover-hawks-de'], asins: ['B0HDRJVR7N','3912883106','B0HHJRK4TL','3912883513','3912883521'], formats: [2,3] },
   En: { route: 'en/authors', covers: ['cover-nick-en', 'cover-hawks-en'], asins: ['B0HFG6QCY5','3912883254','3912883114'], formats: [3,3] }
 };
 for (const [lang, e] of Object.entries(expected)) {

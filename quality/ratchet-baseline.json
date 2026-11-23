@@ -1,0 +1,84 @@
+{
+ "schema": "AETERNUS_WEB_QUALITY_RATCHET_V1",
+ "rule": "Findings may only disappear. A new finding fails the gate unless a publisher decision accepts it (--accept).",
+ "authority": "decision_website_welle4_qualitaetsgate_drei_stufen_mergesperre_lokaler_deploy_20261122",
+ "history": [
+  {
+   "date": "2026-11-22",
+   "note": "initial baseline (state of main at wave 4)"
+  }
+ ],
+ "metrics": {
+  "schema_gaps": [
+   "en-charles-dickens-the-haunted-man-and-the-ghosts-bargain:commerce",
+   "en-charles-dickens-the-haunted-man-and-the-ghosts-bargain:original_title",
+   "en-charles-dickens-the-haunted-man-and-the-ghosts-bargain:pricing",
+   "en-charles-dickens-the-haunted-man-and-the-ghosts-bargain:series_number",
+   "en-daniel-carter-beard-the-american-boys-handy-book:original_title",
+   "en-daniel-carter-beard-the-american-boys-handy-book:pricing",
+   "en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906:original_title",
+   "en-elihu-stewart-down-the-mackenzie-and-up-the-yukon-in-1906:pricing",
+   "en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan:commerce",
+   "en-lady-florentia-sale-a-journal-of-the-disasters-in-affghanistan:publication_date",
+   "en-robert-mcclure-the-discovery-of-the-north-west-passage:commerce",
+   "en-robert-mcclure-the-discovery-of-the-north-west-passage:contributors",
+   "en-robert-mcclure-the-discovery-of-the-north-west-passage:original_title",
+   "en-robert-mcclure-the-discovery-of-the-north-west-passage:pricing",
+   "en-robert-mcclure-the-discovery-of-the-north-west-passage:publication_date",
+   "en-robert-mcclure-the-discovery-of-the-north-west-passage:series_number",
+   "en-samuel-benfield-steele-forty-years-in-canada:commerce",
+   "en-samuel-benfield-steele-forty-years-in-canada:publication_date",
+   "en-theodore-roosevelt-the-naval-war-of-1812:commerce",
+   "en-theodore-roosevelt-the-naval-war-of-1812:original_title",
+   "en-theodore-roosevelt-the-naval-war-of-1812:pricing",
+   "en-theodore-roosevelt-the-naval-war-of-1812:series_number",
+   "en-william-henry-harrison-murray-adventures-in-the-wilderness:original_title",
+   "en-william-henry-harrison-murray-adventures-in-the-wilderness:pricing",
+   "en-winfield-scott-memoirs-volume-i:commerce",
+   "en-winfield-scott-memoirs-volume-i:contributors",
+   "en-winfield-scott-memoirs-volume-i:original_title",
+   "en-winfield-scott-memoirs-volume-i:pricing",
+   "en-winfield-scott-memoirs-volume-i:publication_date",
+   "en-winfield-scott-memoirs-volume-i:series_number",
+   "en-winfield-scott-memoirs-volume-ii:commerce",
+   "en-winfield-scott-memoirs-volume-ii:contributors",
+   "en-winfield-scott-memoirs-volume-ii:original_title",
+   "en-winfield-scott-memoirs-volume-ii:pricing",
+   "en-winfield-scott-memoirs-volume-ii:publication_date",
+   "en-winfield-scott-memoirs-volume-ii:series_number"
+  ],
+  "de_heavy_images": [
+   "/assets/images/cover-waldteufel-v5-20261008-fallback.jpg",
+   "/assets/images/instagram-official-gradient.png",
+   "/assets/images/mood-anthrazit-selected-20260924-fallback.jpg"
+  ],
+  "de_broken_local_refs": [
+   "/en/series/bernstein/ -> /en/authors/arthur-conan-doyle/"
+  ],
+  "de_duplicate_titles": [
+   "Der Waldteufel · Robert Montgomery Bird · AETERNUS Verlag (2)",
+   "Ernest Thompson Seton | Aeternus Verlag (3)",
+   "George Washington Sears | Aeternus Verlag (2)",
+   "Henry Ford | Aeternus Verlag (2)",
+   "Lady Florentia Sale | Aeternus Verlag (2)",
+   "Robert Baden-Powell | Aeternus Verlag (2)",
+   "Robert Montgomery Bird | Aeternus Verlag (2)"
+  ],
+  "en_heavy_images": [
+   "/assets/images/cover-cbb002-en-v2-20261104.png",
+   "/assets/images/cover-cmm003-en-b1-v4-20261112.jpg",
+   "/assets/images/cover-ets003-en-20260923.jpg",
+   "/assets/images/cover-ets004-en-20260923.jpg",
+   "/assets/images/cover-rje002-en-v2-20261104.jpg",
+   "/assets/images/cover-rmb001-en-end-v5-20261023.jpg",
+   "/assets/images/cover-shelters-shacks-shanties.jpg",
+   "/assets/images/mood-anthrazit-selected-20260924.jpg",
+   "/assets/images/portrait-george-warrington-steevens-collier-reconstruction.png",
+   "/assets/images/portrait-william-robertson-1917.png"
+  ],
+  "en_duplicate_titles": [
+   "Forty-One Years in India (Annotated) · Frederick Sleigh Roberts · AETERNUS (2)",
+   "Memoirs of Lieutenant-General Scott (Annotated) · Winfield Scott · AETERNUS (2)"
+  ]
+ }
+}

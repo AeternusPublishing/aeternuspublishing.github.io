@@ -39,7 +39,7 @@ for(const slug of wilderness.pages) {
     assert(!html.includes('/autoren/'+slug+'/'));
     const portrait=['verified','publisher-approved'].includes(profile.image.status);
     assert.equal(nodes.some(n=>n.name==='img'&&n.attribs.alt===profile.name&&n.attribs.src===profile.image.file),portrait,slug+': portrait visibility');
-    if(portrait)assert.equal(hash(fs.readFileSync('src'+profile.image.file)),profile.image.sha256,slug+': portrait changed');
+    if(portrait)assert.equal(hash(fs.readFileSync('src'+profile.image.file)),profile.image.sha256??profile.image.approval?.sha256,slug+': portrait changed');
     emptyCards++;
   }
 }

@@ -5,6 +5,9 @@ const PUBLIC = path.resolve("public");
 const QR_ROOT = path.join(PUBLIC, "qr");
 const findings = [];
 const qrPages = [];
+// QR-Ziele, die bewusst eine eigene Landeseite statt einer Weiterleitung sind (Inhalt mit Ueberschrift,
+// Ausgaben und Links). Fuer sie gilt: Seite hat eine h1 und jeder interne Link fuehrt auf eine vorhandene Seite.
+const LANDING_PAGES = new Set(["grimmelshausen", "sz002"]);
 
 const internalTargetFile = (pathname) => {
   const clean = pathname.split("?")[0].replace(/^\/+/, "");
@@ -33,6 +36,15 @@ for (const page of qrPages) {
   const fallback = html.match(/<body>[\s\S]*?<a href="([^"]+)"/i)?.[1];
   const campaign = html.match(/params\.set\("utm_campaign",\s*"([^"]+)"\)/)?.[1];
 
+  if (LANDING_PAGES.has(route)) {
+    if (!/<h1[\s>]/i.test(html)) findings.push(`${route}: Landeseite ohne Ueberschrift`);
+    for (const href of html.matchAll(/<a\s[^>]*href="(\/[^"#?]*)/g)) {
+      const target = href[1];
+      if (/\.(css|js|ico|png|jpg|webp|avif|svg|xml|json|webmanifest)$/i.test(target)) continue;
+      if (!fs.existsSync(internalTargetFile(target))) findings.push(`${route}: Link auf fehlendes Ziel ${target}`);
+    }
+    continue;
+  }
   if (!refresh) findings.push(`${route}: Meta-Refresh-Ziel fehlt`);
   if (!fallback) findings.push(`${route}: sichtbarer Fallback-Link fehlt`);
   if (route === "grimm" && campaign !== "grimm") findings.push(`${route}: utm_campaign=grimm fehlt`);
