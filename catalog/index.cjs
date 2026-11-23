@@ -288,6 +288,12 @@ authorsEn.push(require('./hcr001-author-20261103.cjs'));
 // RHK_001: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./rhk001-author-20261116.cjs'));
 
+// JC_005: commissioned English author world (QR target); edition card awaits a catalogue entry.
+authorsEn.push(require('./jc005-author-20261122.cjs'));
+
+// WRB_002: commissioned English author world (QR target); edition card awaits a catalogue entry.
+authorsEn.push(require('./wrb002-author-20261123.cjs'));
+
 const ggi001 = require('./ggi001-en-20261107.json');
 authorsEn.push(ggi001.author);
 englishBooks.push(ggi001.book);
