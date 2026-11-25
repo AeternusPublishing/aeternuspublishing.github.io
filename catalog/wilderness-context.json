@@ -217,6 +217,15 @@
       ],
       "kind": "thematic-comparison",
       "status": "DRAFT_PENDING_BOOK_WINDOW"
+    },
+    "BP_001": {
+      "year": 1908,
+      "sentence": "Baden-Powell turns military scouting into a handbook of observation, woodcraft and self-reliance for boys.",
+      "sources": [
+        "https://www.pen-and-sword.co.uk/anniversary/856/Robert-Baden-Powells-Scouting-for-Boys-is-published"
+      ],
+      "kind": "thematic-comparison",
+      "status": "DRAFT_PENDING_BOOK_WINDOW"
     }
   },
   "authors": {
