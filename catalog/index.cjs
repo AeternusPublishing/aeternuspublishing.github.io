@@ -292,6 +292,10 @@ authorsEn.push(require('./rhk001-author-20261116.cjs'));
 authorsEn.push(require('./jc005-author-20261122.cjs'));
 englishBooks.push(require('./jc005-en-20261123.json'));
 
+// PP_001: English author world (QR target) and the annotated English edition.
+authorsEn.push(require('./pp001-author-20261125.cjs'));
+englishBooks.push(require('./pp001-en-20261125.json'));
+
 // WRB_002: commissioned English author world (QR target); edition card awaits a catalogue entry.
 authorsEn.push(require('./wrb002-author-20261123.cjs'));
 

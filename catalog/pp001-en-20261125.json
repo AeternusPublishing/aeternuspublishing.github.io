@@ -1,0 +1,112 @@
+{
+  "id": "en-philippe-pinel-a-treatise-on-insanity",
+  "work_id": "PP_001",
+  "language": "en",
+  "title": "A Treatise on Insanity (Annotated)",
+  "subtitle": null,
+  "author": "philippe-pinel",
+  "authorName": "Philippe Pinel",
+  "contributors": [
+    {
+      "role": "TRANSLATOR",
+      "name": "David Daniel Davis",
+      "note": "Translator of the Sheffield edition of 1806"
+    }
+  ],
+  "series": "anthrazit",
+  "series_number": null,
+  "original_title": "Traité médico-philosophique sur l'aliénation mentale, ou la manie",
+  "original_publication_year": 1806,
+  "isbn": {
+    "paperback": "9783676053143",
+    "hardcover": "9783676053150",
+    "ebook": "9783676053167"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676053143",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "pages": 266,
+      "price_display": "US list price $19.99",
+      "links": []
+    },
+    "hardcover": {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676053150",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "pages": 266,
+      "price_display": "US list price $29.99",
+      "links": []
+    },
+    "ebook": {
+      "label": "E-book · IngramSpark",
+      "isbn": "9783676053167",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $9.99",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback · IngramSpark",
+      "isbn": "9783676053143",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "pages": 266,
+      "price_display": "US list price $19.99",
+      "links": []
+    },
+    {
+      "label": "Hardcover · IngramSpark",
+      "isbn": "9783676053150",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "pages": 266,
+      "price_display": "US list price $29.99",
+      "links": []
+    },
+    {
+      "label": "E-book · IngramSpark",
+      "isbn": "9783676053167",
+      "platform": "IngramSpark",
+      "status": "EINGEREICHT",
+      "price_display": "US list price $9.99",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "Philippe Pinel’s treatise on mental derangement and the government of the Paris hospitals, in the Sheffield translation of 1806, complete and annotated."
+  },
+  "publisherDescriptionHTML": "<ul><li>Complete text of the Sheffield edition of 1806, word for word</li><li>Original plates and table, portrait, frontispiece and six reconstructions</li><li>With note, afterword, glossary and an account of the author</li></ul><p>In 1793, in the years of the Revolution, Philippe Pinel was appointed physician at Bicêtre, the Paris hospital for men, whose wards were governed by Jean-Baptiste Pussin. Two years later he became chief physician at the Salpêtrière, the hospital for women. What he observed there, case by case and register by register, became a treatise first printed at Paris in the Republican year IX. In 1806 the Sheffield physician David Daniel Davis put it into English and added an introduction on the writers who had gone before.</p><p>Pinel set the inherited systems of classification aside. He resolved instead \"to notice successively every fact, without any other object than that of collecting materials for future use\". From those facts he drew his species of mental derangement, each in the sense the medicine of 1800 gave it: melancholia, mania with and without disorder of the understanding, dementia and idiotism. Beside them he set the order of a well-run hospital: the governor, the daily bread, the workshop, a limited liberty within the walls, and a table that showed every patient and every movement of the house at a glance.</p><p>Medicines were weighed in grains and scruples.</p><p>Bread was weighed in pounds.</p><p>Pinel weighed what he saw in the wards, and wrote it down.</p><p>The text of the Sheffield edition of 1806, with the two engraved plates and the two tables of the original.</p>",
+  "cover": "/assets/images/cover-pp001-en-v6-20261125.jpg",
+  "coverWebp": "/assets/images/cover-pp001-en-v6-20261125.webp",
+  "backcover": "/assets/images/back-pp001-en-v6-20261125.jpg",
+  "backcoverWebp": "/assets/images/back-pp001-en-v6-20261125.webp",
+  "first_published": "1806",
+  "publication_date": null,
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "availability": "COMING_SOON",
+  "hideAvailabilityTeaser": true,
+  "pricing": {},
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "ingram": "EINGEREICHT"
+  },
+  "url": "/books/en-philippe-pinel-a-treatise-on-insanity/",
+  "authorUrl": "/authors/philippe-pinel/",
+  "seriesName": "ANTHRACITE SERIES",
+  "seriesColor": "#333333",
+  "brandOnly": true,
+  "provenance": "PP_001 EN Ingram package V5 (PREFLIGHT 327aaf6eab19c7a1cb5cb4f4bd707a634d075ffc6e381906d39f4417a672b278); paperback cover SHA-256 91938011fa3b5aee5f7ace073750d4046874d593fe6e08aff3033b0bcf40d5ed"
+}
