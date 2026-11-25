@@ -92,26 +92,6 @@ module.exports = [
     }
   },
   {
-    "slug": "shop",
-    "title": "Direct from the publisher.",
-    "kicker": "The AETERNUS shop",
-    "description": "The AETERNUS direct shop is in preparation.",
-    "sections": [
-      {
-        "heading": "Our direct shop is forthcoming.",
-        "text": "We are preparing a shared shop for the German and international programme. Direct ordering is not yet available."
-      },
-      {
-        "heading": "Explore the programme.",
-        "text": "Our book pages introduce the existing editions and their editorial background."
-      }
-    ],
-    "link": {
-      "label": "Explore the books",
-      "url": "/books/"
-    }
-  },
-  {
     "slug": "legal",
     "title": "Legal information.",
     "kicker": "Publishing information",
