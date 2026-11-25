@@ -1,0 +1,320 @@
+{
+  "schema": "AETERNUS_AUTHOR_WORLD_V1",
+  "slug": "philippe-pinel",
+  "name": "Philippe Pinel",
+  "dates": "1745–1826",
+  "depth": "compact",
+  "editionStatus": "IN_PREPARATION",
+  "scope": {
+    "de": false,
+    "en": true,
+    "legacyEn": false
+  },
+  "sources": [
+    {
+      "id": "BNF2026",
+      "title": "Bibliothèque nationale de France, 'Bicentenaire de la mort de Philippe Pinel, père de la psychiatrie moderne et libérateur des aliénés'",
+      "url": "https://www.bnf.fr/fr/agenda/bicentenaire-de-la-mort-de-philippe-pinel-pere-de-la-psychiatrie-moderne-et-liberateur-des",
+      "checked": "2026-11-16",
+      "note": "Birth on 20 April 1745; death at Paris in 1826 (bicentenary of the death in 2026). Read for the PP_001 fact base, editorial review 16.11.2026."
+    },
+    {
+      "id": "ENCYC",
+      "title": "Encyclopedia.com, 'Pinel, Philippe' (Complete Dictionary of Scientific Biography and related entries)",
+      "url": "https://www.encyclopedia.com/people/medicine/psychology-and-psychiatry-biographies/philippe-pinel",
+      "checked": "2026-11-16",
+      "note": "Appointment as physician at Bicêtre in 1793 and his work there with the governor Jean-Baptiste Pussin."
+    },
+    {
+      "id": "CAIRN2012",
+      "title": "L'Information psychiatrique 2012/7, p. 549 (Cairn)",
+      "url": "https://stm.cairn.info/revue-l-information-psychiatrique-2012-7-page-549?lang=fr",
+      "checked": "2026-11-16",
+      "note": "Chief physician at the Salpêtrière and professor of internal pathology at the École de santé in 1795; lectures on mental alienation to the Société médicale d'émulation."
+    },
+    {
+      "id": "CTHS",
+      "title": "Comité des travaux historiques et scientifiques, Annuaire prosopographique: 'PINEL Philippe'",
+      "url": "https://www.cths.fr/an/savant.php?id=105806",
+      "checked": "2026-11-16",
+      "note": "Member of the Institut national, class of physical and mathematical sciences, 1803. The Legion of Honour dossier LH/2165/73 is cited there but was not seen; no date of the award is used."
+    },
+    {
+      "id": "PUBMED10986796",
+      "title": "PubMed 10986796, on D. D. Davis and the English translation of Pinel's Traité (1806)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10986796/",
+      "checked": "2026-11-16",
+      "note": "Traité médico-philosophique sur l'aliénation mentale, ou la manie, Paris, year IX (1800–01); David Daniel Davis (1777–1841), Sheffield physician and later obstetrician, translated the first French edition."
+    },
+    {
+      "id": "BNF_CCFR",
+      "title": "Catalogue collectif de France, record of the first edition of the Traité (Paris: Richard, Caille et Ravier, an IX)",
+      "url": "https://ccfr.bnf.fr/portailccfr/jsp/index_view_direct.jsp?record=bmr%3AUNIMARC%3A8560420",
+      "checked": "2026-11-16",
+      "note": "Publisher Richard, Caille et Ravier; the catalogue supplies [1801], the Republican year IX spans 1800 and 1801."
+    },
+    {
+      "id": "WELLCOME1809",
+      "title": "Wellcome Collection, Traité médico-philosophique sur l'aliénation mentale, 2nd edition (Paris: J. A. Brosson, 1809)",
+      "url": "https://wellcomecollection.org/works/hcyjgudr",
+      "checked": "2026-11-16",
+      "note": "Second French edition, entirely reworked and greatly enlarged according to its title page."
+    },
+    {
+      "id": "WEINER",
+      "title": "Dora B. Weiner, The Citizen-Patient in Revolutionary and Imperial Paris (University of California Press), and Weiner, Gesnerus 57 (2000)",
+      "url": "https://pub-ucpec2-prd.cdlib.org/ucpressebooks/view?docId=ft638nb3db",
+      "checked": "2026-11-16",
+      "note": "Esquirol dedicated his thesis Des passions (1805) to Pinel, called himself his disciple and pursued his ideas in a clinic under Pinel's supervision."
+    },
+    {
+      "id": "TREATISE1806",
+      "title": "Philippe Pinel, A Treatise on Insanity, translated by D. D. Davis (Sheffield: W. Todd, for Cadell and Davies, London, 1806); Wellcome Collection copy",
+      "url": "https://wellcomecollection.org/search/works?query=Pinel%20Treatise%20on%20Insanity%201806",
+      "checked": "2026-11-25",
+      "note": "Leading witness of the AETERNUS edition PP_001. Davis's Introduction, the General Plan, six sections and two plates; the folding General Table of cases treated at Bicêtre. Pussin is named in the text as governor."
+    },
+    {
+      "id": "RIJKS_RP-P-OB-63.821",
+      "title": "Rijksmuseum Amsterdam, RP-P-OB-63.821, 'Portret van Philippe Pinel', stipple engraving by Remi Henry Joseph Delvaux after Anna Mérimée",
+      "url": "https://www.rijksmuseum.nl/en/collection/object/Portret+van+Philippe+Pinel--62afc3c2fe7c516ed013638e9c4271b2",
+      "checked": "2026-11-04",
+      "note": "Inscription 'PHILIPPE PINEL, Né le 20 Avril 1745'; 'peint par Mme Mérimée', 'gravé par R. Delvaux'; Public Domain Mark 1.0. The record gives only the engraver's span 1760–1823 as date."
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He was born on 20 April 1745 in the Tarn, in the south of France.",
+      "sources": [
+        "BNF2026",
+        "RIJKS_RP-P-OB-63.821"
+      ]
+    },
+    {
+      "id": "F02",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1793 he was appointed physician at Bicêtre, where the wards for the insane were in the practical charge of the governor Jean-Baptiste Pussin.",
+      "sources": [
+        "ENCYC",
+        "TREATISE1806"
+      ]
+    },
+    {
+      "id": "F03",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1795 he became chief physician at the Salpêtrière and professor of internal pathology at the École de santé in Paris.",
+      "sources": [
+        "CAIRN2012"
+      ]
+    },
+    {
+      "id": "F04",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He developed his work on mental alienation in lectures to the Société médicale d'émulation; the Traité médico-philosophique sur l'aliénation mentale, ou la manie was published at Paris by Richard, Caille et Ravier in the Republican year IX (1800–01).",
+      "sources": [
+        "CAIRN2012",
+        "BNF_CCFR",
+        "PUBMED10986796"
+      ]
+    },
+    {
+      "id": "F05",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1803 he became a member of the Institut national, class of physical and mathematical sciences.",
+      "sources": [
+        "CTHS"
+      ]
+    },
+    {
+      "id": "F06",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "In 1806 David Daniel Davis (1777–1841), a Sheffield physician, published an English translation of the first French edition as A Treatise on Insanity, printed at Sheffield by W. Todd for Cadell and Davies, London, with an introduction of his own.",
+      "sources": [
+        "PUBMED10986796",
+        "TREATISE1806"
+      ]
+    },
+    {
+      "id": "F07",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "A second, reworked and enlarged French edition appeared at Paris through J. A. Brosson in 1809.",
+      "sources": [
+        "WELLCOME1809"
+      ]
+    },
+    {
+      "id": "F08",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "Jean-Étienne Dominique Esquirol dedicated his thesis Des passions (1805) to Pinel and called himself his disciple.",
+      "sources": [
+        "WEINER"
+      ]
+    },
+    {
+      "id": "F09",
+      "kind": "historical-fact",
+      "status": "BELEGT",
+      "statement": "He died in Paris on 25 October 1826.",
+      "sources": [
+        "BNF2026"
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "Place of birth",
+      "decision": "The sources agree on the Tarn; the commune is given differently in secondary accounts. The page, like the book, says 'in the Tarn'."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Legion of Honour",
+      "decision": "The engraving shows the cross of the Legion of Honour, and a dossier LH/2165/73 is cited by the CTHS; the dossier itself was not seen. The page names no grade and no date and shows no honours tab."
+    },
+    {
+      "status": "EINGESCHRAENKT",
+      "claim": "The striking-off of the chains",
+      "decision": "The scene of Pinel freeing the insane from their chains at Bicêtre is a later tradition, known above all from Tony Robert-Fleury's painting of Pinel at the Salpêtrière (1876). The 1806 text credits the practical management of the wards to the governor Pussin. The page does not narrate the scene as fact."
+    },
+    {
+      "status": "OFFEN",
+      "claim": "Date of the engraving",
+      "decision": "The Rijksmuseum record gives only the engraver's lifetime, 1760–1823. The page does not date the likeness."
+    }
+  ],
+  "interpretation": {
+    "kind": "historical-interpretation",
+    "fields": [
+      "orientation",
+      "literature"
+    ],
+    "note": "Pinel is presented as a physician who learnt the wards from the governor who ran them and wrote down what he saw; moral treatment is a parallel French and English tradition (York Retreat 1796), not his sole invention."
+  },
+  "appraisal": {
+    "kind": "editorial-appraisal",
+    "fields": [
+      "tagline",
+      "legacy",
+      "bridge"
+    ],
+    "note": "Prose follows the printed PP_001 'About the Author' (Satz V15) and the PP_001 fact base V2 in substance. AETERNUS editorial judgement; no invented quotation."
+  },
+  "timeline": [
+    [
+      "1745",
+      "Born in the Tarn, 20 April",
+      ""
+    ],
+    [
+      "1793",
+      "Physician at Bicêtre; works with the governor Jean-Baptiste Pussin",
+      ""
+    ],
+    [
+      "1795",
+      "Chief physician at the Salpêtrière; professor of internal pathology at the École de santé",
+      ""
+    ],
+    [
+      "1800–01",
+      "Traité médico-philosophique sur l'aliénation mentale, ou la manie (Paris, year IX)",
+      ""
+    ],
+    [
+      "1803",
+      "Member of the Institut national",
+      ""
+    ],
+    [
+      "1806",
+      "A Treatise on Insanity, English translation by D. D. Davis, Sheffield",
+      ""
+    ],
+    [
+      "1809",
+      "Second, enlarged French edition",
+      ""
+    ],
+    [
+      "1826",
+      "Dies in Paris, 25 October",
+      ""
+    ]
+  ],
+  "connections": [
+    {
+      "slug": "john-conolly",
+      "kind": "thematic-comparison",
+      "en": "Two physicians' accounts of how an asylum should be governed: Pinel at Bicêtre and the Salpêtrière around 1800, Conolly at Hanwell from 1839. No personal acquaintance or influence is asserted.",
+      "sources": [
+        "TREATISE1806"
+      ]
+    }
+  ],
+  "rank": {
+    "en": "Philippe Pinel, M.D., Physician-in-Chief to the Bicêtre and Salpêtrière, Paris, 1793 to 1826"
+  },
+  "image": {
+    "status": "verified",
+    "file": "/assets/images/portrait-philippe-pinel-delvaux-merimee.jpg",
+    "caption": {
+      "en": "Philippe Pinel. Stipple engraving by Remi Delvaux after a painting by Anna Mérimée. Rijksmuseum, Amsterdam (detail)."
+    },
+    "rights": "Rijksmuseum RP-P-OB-63.821, Public Domain Mark 1.0.",
+    "provenance": "https://iiif.micr.io/uwJzD/full/max/0/default.jpg (record https://id.rijksmuseum.nl/200184428); source JPEG SHA-256 fdd2054de11a19b44349d30fc28aed207d110652cf435ef505a0bbf9d98e0156, 1306 x 2088 px, retrieved 2026-11-04.",
+    "processing": "Detail of the oval medallion cut to 4:5 (box 168,115,1128,1315 px; inscription tablet, artists' line and museum number omitted), Lanczos resize to 800 x 1000 px, JPEG. Tone as scanned; no retouching, colouring or generative change.",
+    "sha256": "46a69791056f20a875513eb291bc8a97fc10bd4220f69c031ba0bd1fa283b482",
+    "approval": {
+      "date": "2026-11-04",
+      "authority": "Verleger wählte das Delvaux-Porträt als Autorenbild (decision_pp001_portraet_delvaux_rijksmuseum_20261104); dasselbe Blatt steht im gedruckten Buch auf der Autorenseite."
+    }
+  },
+  "locales": {
+    "en": {
+      "tagline": "The physician who learnt the wards of Bicêtre from the man who ran them, and wrote down what he saw.",
+      "intro": "Philippe Pinel was appointed physician at Bicêtre, the great Paris hospital for men, in 1793, in the years of the Revolution. Two years later he became chief physician at the Salpêtrière, the hospital for women. What he observed in their wards, case by case, became the Traité médico-philosophique sur l'aliénation mentale of the Republican year IX, which reached English readers in 1806 as A Treatise on Insanity.",
+      "orientation": "Pinel set the inherited systems of classification aside and resolved to collect facts. He built his species of mental derangement from what he saw, and beside them he set the order of a well-run hospital: the governor, the daily bread, the workshop, a limited liberty within the walls. The governor at Bicêtre, Jean-Baptiste Pussin, appears in the book by name and by deed.",
+      "overview": [
+        "He came to the work for which he is remembered late, in his late forties, through the hospitals of Paris after 1789, when the Revolution was remaking the institutions of the capital along with its government.",
+        "The later picture of Pinel striking the chains from the insane belongs to nineteenth-century painting. His own book gives the practical management of the wards to Pussin, and describes what Pinel learnt from him."
+      ],
+      "originHeading": "The Tarn and Paris",
+      "careerHeading": "Bicêtre, the Salpêtrière and the Treatise",
+      "origin": [
+        "Philippe Pinel was born on 20 April 1745 in the Tarn, in the south of France. His work as a physician of the insane began in Paris, in the hospitals of the capital, in the years of the Revolution."
+      ],
+      "career": [
+        "In 1793 he was appointed physician at Bicêtre. Its wards for the insane were in the practical charge of the governor, Jean-Baptiste Pussin, whose daily management of the patients Pinel watched and afterwards described. In 1795 he became chief physician at the Salpêtrière and, in the same year, professor of internal pathology at the École de santé in Paris.",
+        "He developed his thinking on mental alienation in lectures to the Société médicale d'émulation. In the Republican year IX, which spans 1800 and 1801, the Paris house of Richard, Caille et Ravier published his Traité médico-philosophique sur l'aliénation mentale, ou la manie. In 1803 he was elected a member of the Institut national, in the class of the physical and mathematical sciences. He issued a second, enlarged edition in 1809. Jean-Étienne Dominique Esquirol dedicated his thesis Des passions (1805) to him and called himself his disciple. Philippe Pinel died in Paris on 25 October 1826."
+      ],
+      "literature": [
+        "In 1806 the Sheffield physician David Daniel Davis put the first French edition into English as A Treatise on Insanity, and prefaced it with an introduction of his own on the writers who had gone before. The volume follows a General Plan through six sections: periodical insanity, the moral treatment of insanity, the malformation of the skull, the species of mental derangement, the internal management of asylums, and medical treatment. Two engraved plates of skulls and a folding table of the cases treated at Bicêtre complete it.",
+        "The book reads as the record of a physician in the wards: medicines weighed in grains and scruples, bread weighed in pounds, and every patient and every movement of the house entered in a table."
+      ],
+      "legacy": "Pinel's distinction lies in what he recorded and how: observation before system, and the governance of a hospital treated as part of medicine. The register of his life is short on private detail and long on wards, chairs and editions.",
+      "bridge": "A Treatise on Insanity (1806). An English AETERNUS edition of the Sheffield text of 1806, word for word, with the original plates and table, a glossary and a medical retrospect, appears in the Anthracite Series.",
+      "description": "Philippe Pinel, M.D. (1745–1826), physician at Bicêtre and chief physician at the Salpêtrière in Paris, author of the Traité médico-philosophique sur l'aliénation mentale, published in English in 1806 as A Treatise on Insanity. An English AETERNUS edition appears in the Anthracite Series.",
+      "claimRefs": [
+        "F01",
+        "F02",
+        "F03",
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09"
+      ]
+    }
+  }
+}

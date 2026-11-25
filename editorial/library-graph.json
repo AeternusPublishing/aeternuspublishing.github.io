@@ -2857,6 +2857,25 @@
       }
     },
     {
+      "id": "book:en-philippe-pinel-a-treatise-on-insanity",
+      "type": "book",
+      "label": {
+        "de": "A Treatise on Insanity (Annotated)",
+        "en": "A Treatise on Insanity (Annotated)"
+      },
+      "author": "Philippe Pinel",
+      "language": "en",
+      "cover": "https://aeternuspublishing.com/assets/images/cover-pp001-en-v6-20261125.jpg",
+      "url": {
+        "de": "https://aeternuspublishing.com/books/en-philippe-pinel-a-treatise-on-insanity/",
+        "en": "https://aeternuspublishing.com/books/en-philippe-pinel-a-treatise-on-insanity/"
+      },
+      "summary": {
+        "de": "",
+        "en": "Philippe Pinel’s treatise on mental derangement and the government of the Paris hospitals, in the Sheffield translation of 1806, complete and annotated."
+      }
+    },
+    {
       "id": "book:en-george-rutledge-gibson-stock-exchanges",
       "type": "book",
       "label": {
@@ -3610,6 +3629,14 @@
       }
     },
     {
+      "id": "author:Philippe Pinel",
+      "type": "author",
+      "label": {
+        "de": "Philippe Pinel",
+        "en": "Philippe Pinel"
+      }
+    },
+    {
       "id": "author:George Rutledge Gibson",
       "type": "author",
       "label": {
@@ -4227,6 +4254,11 @@
     },
     {
       "source": "book:en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints",
+      "target": "series:anthrazit",
+      "type": "series"
+    },
+    {
+      "source": "book:en-philippe-pinel-a-treatise-on-insanity",
       "target": "series:anthrazit",
       "type": "series"
     },
@@ -5189,6 +5221,11 @@
     {
       "source": "book:en-john-conolly-the-treatment-of-the-insane-without-mechanical-restraints",
       "target": "author:John Conolly",
+      "type": "author"
+    },
+    {
+      "source": "book:en-philippe-pinel-a-treatise-on-insanity",
+      "target": "author:Philippe Pinel",
       "type": "author"
     },
     {

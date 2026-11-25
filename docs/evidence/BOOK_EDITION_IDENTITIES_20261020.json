@@ -10208,6 +10208,86 @@
           ]
         }
       ]
+    },
+    {
+      "site": "en",
+      "id": "en-philippe-pinel-a-treatise-on-insanity",
+      "url": "/books/en-philippe-pinel-a-treatise-on-insanity/",
+      "title": "A Treatise on Insanity (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-pp001-en-v6-20261125.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-pp001-en-v6-20261125.jpg",
+          "sha256": "6055303f855bbc99adc4bbe0d6c287c73742ea0dd1a72ea82abfc968a709506b"
+        },
+        {
+          "path": "src/assets/images/cover-pp001-en-v6-20261125.webp",
+          "sha256": "bc09ab3f0568330f58302e939dd220519ff28ddc1958fe091c3165143f8eb4eb"
+        },
+        {
+          "path": "src/assets/images/back-pp001-en-v6-20261125.jpg",
+          "sha256": "8abf21634ac4b70485227a35043e23ecc81c2315a098419d9512889ca78cae8e"
+        },
+        {
+          "path": "src/assets/images/back-pp001-en-v6-20261125.webp",
+          "sha256": "0b6de00e06d6c55407a282bc697a0cc8e78900d6adfc98aab4ebfc2b2b98649d"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676053143",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "PP_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "titel": "A Treatise on Insanity (Annotated)",
+              "isbn13": "978-3-67605-314-3",
+              "isbn10": "3676053141",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676053150",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "PP_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "titel": "A Treatise on Insanity (Annotated)",
+              "isbn13": "978-3-67605-315-0",
+              "isbn10": "367605315X",
+              "asin": null
+            }
+          ]
+        },
+        {
+          "label": "E-book",
+          "isbn13": "9783676053167",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "PP_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "titel": "A Treatise on Insanity (Annotated)",
+              "isbn13": "978-3-67605-316-7",
+              "isbn10": "3676053168",
+              "asin": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "additional_pages": [
