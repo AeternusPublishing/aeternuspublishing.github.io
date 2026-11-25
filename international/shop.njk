@@ -1,0 +1,37 @@
+---
+layout: layout.njk
+title: "Shop · AETERNUS Publishing"
+description: "Every available AETERNUS edition with price and where to buy it. Ordering direct from the publisher is in preparation."
+permalink: /shop/index.html
+---
+{%- set available = [] -%}
+{%- for book in site.books -%}{%- if book.retailer_formats and (book.retailer_formats | selectattr("buy") | list | length) -%}{%- set _added = available.push(book) -%}{%- endif -%}{%- endfor -%}
+<style>
+.shop-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:2.5rem 2rem;margin:2rem 0 4rem}
+.shop-card{display:grid;grid-template-columns:96px 1fr;gap:1rem;align-items:start;border-top:1px solid rgba(0,0,0,.12);padding-top:1.25rem}
+.shop-cover{display:block}.shop-cover img{width:96px;height:auto;display:block;box-shadow:3px 6px 10px #59402140}
+.shop-card h2{font-size:1.25rem;line-height:1.2;margin:.2rem 0 .25rem}
+.shop-card h2 a{color:inherit;text-decoration:none}
+.shop-card .shop-author{margin:0 0 .6rem;font-size:.95rem}
+.shop-formats{list-style:none;margin:0;padding:0;display:grid;gap:.45rem}
+.shop-formats li{display:flex;flex-wrap:wrap;gap:.15rem .75rem;align-items:baseline;font-size:.93rem}
+.shop-formats .price{font-weight:600}
+.shop-formats .isbn{flex-basis:100%;font-size:.78rem;opacity:.7}
+.shop-direct{border:1px solid rgba(0,0,0,.14);padding:1.5rem 1.75rem;margin:1rem 0;max-width:46rem}
+.shop-direct h2{margin:.25rem 0 .5rem}
+</style>
+<section class="shell page-intro"><p class="kicker">The AETERNUS shop</p><h1>Your edition, your way.</h1><p>Every available edition with its price and where to buy it.</p></section>
+<section class="shell"><div class="shop-direct"><p class="kicker">Direct from the publisher</p><h2>In preparation.</h2><p>Soon you will be able to order every edition directly from AETERNUS, printed to order for you. Until then, each book is available from Amazon and other booksellers.</p></div>
+<p class="edition-note">{{ available.length }} available editions · Prices are US list prices. Local prices, taxes and delivery are shown by the retailer.</p>
+<label class="market-select">Shop on Amazon in <select data-amazon-market><option value="com">United States</option><option value="co.uk">United Kingdom</option><option value="ca">Canada</option><option value="com.au">Australia</option></select></label>
+<div class="shop-grid">
+{%- for book in available %}
+  <article class="shop-card" id="{{ book.id }}">
+    {% set cover = book.cover | existingImage %}<a class="shop-cover" href="{{ book.url }}" aria-label="{{ book.title | escape }} – {{ book.authorName | escape }}">{% if cover %}<picture>{% if book.coverWebp %}<source type="image/webp" srcset="{{ book.coverWebp }}">{% endif %}<img src="{{ cover }}" alt="{{ book.title | escape }}" width="400" height="600" loading="lazy" decoding="async"></picture>{% endif %}</a>
+    <div><p class="kicker"><span class="series-dot" style="--series-color:{{ book.seriesColor }}"></span>{{ book.seriesName }}</p><h2><a href="{{ book.url }}">{{ book.title }}</a></h2><p class="shop-author">{{ book.authorName }}</p>
+    <ul class="shop-formats">{% for format in book.retailer_formats %}{% if format.buy %}<li><strong>{{ format.label }}</strong>{% if format.price_display %}<span class="price">{{ format.price_display }}</span>{% endif %}<a class="text-link" data-amazon data-asin="{{ format.buy.asin or '' }}" data-isbn="{{ format.buy.isbn13 }}" href="{{ format.buy.amazon }}" target="_blank" rel="noopener noreferrer"><span>Amazon<span data-amazon-domain>.com</span> ↗</span></a>{% for link in format.buy.others %}<a class="text-link" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }} ↗</a>{% endfor %}{% if format.isbn %}<span class="isbn">ISBN {{ format.isbn }}</span>{% endif %}</li>{% endif %}{% endfor %}</ul></div>
+  </article>
+{%- endfor %}
+</div>
+<div class="prose"><h2>Good to know.</h2><p>When you buy through a retailer, its terms, delivery and privacy information apply. Questions about an edition? <a href="mailto:{{ site.email }}">{{ site.email }}</a></p></div>
+</section>
