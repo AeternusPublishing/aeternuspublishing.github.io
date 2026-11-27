@@ -3,7 +3,7 @@ module.exports = [
     "slug": "about",
     "title": "An independent publishing house.",
     "kicker": "About AETERNUS",
-    "description": "Historical voices, carefully prepared editions, and seven lines of enquiry.",
+    "description": "Historical voices, carefully prepared editions, and six lines of enquiry.",
     "sections": [
       {
         "heading": "Literary heritage, chosen for the future.",
@@ -11,7 +11,7 @@ module.exports = [
       },
       {
         "heading": "A growing catalogue. Readers worldwide.",
-        "text": "Rooted in Germany’s rich literary tradition, AETERNUS brings a continually growing programme to an international readership. Our seven colour-coded series offer different ways into literature, history, exploration and the natural world. International retailers and book-trade distribution carry our editions beyond national borders. Our German and international websites belong to the same publishing house."
+        "text": "Rooted in Germany’s rich literary tradition, AETERNUS brings a continually growing programme to an international readership. Our six colour-coded series offer different ways into literature, history, exploration and the natural world. International retailers and book-trade distribution carry our editions beyond national borders. Our German and international websites belong to the same publishing house."
       }
     ]
   },

@@ -1,0 +1,9 @@
+---
+pagination:
+  data: seriesOffline
+  size: 1
+  alias: move
+permalink: "{{ move.from }}index.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html><html lang="{{ move.lang }}"><head><meta charset="utf-8"><title>{% if move.lang == 'de' %}Weitergeleitet{% else %}Moved{% endif %}</title><link rel="canonical" href="https://aeternus-verlag.de{{ move.to }}"><meta http-equiv="refresh" content="0; url={{ move.to }}"><meta name="robots" content="noindex"></head><body><p>{% if move.lang == 'de' %}Diese Seite ist umgezogen:{% else %}This page has moved:{% endif %} <a href="{{ move.to }}">{{ move.to }}</a></p></body></html>

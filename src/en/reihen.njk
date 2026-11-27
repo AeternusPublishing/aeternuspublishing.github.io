@@ -1,6 +1,6 @@
 ---
 title: "Series — AETERNUS VERLAG"
-description: "The seven series of AETERNUS — with the authors and available titles in each."
+description: "The six series of AETERNUS — with the authors and available titles in each."
 layout: base.njk
 lang: en
 permalink: /en/series/index.html
@@ -19,7 +19,7 @@ permalink: /en/series/index.html
     </div>
 
     <div class="catalog-grid">
-      {% for card in i18n.seriesItems %}
+      {% for card in seriesVisible %}
         <a href="/en/series/{{ card.slug }}/" class="series-overview-card">
           <div class="series-overview-thumb"{% if not card.mood.file %} style="background:linear-gradient(135deg,#160c12,{{ card.colorHex }})"{% endif %}>
             {% if card.mood.file %}

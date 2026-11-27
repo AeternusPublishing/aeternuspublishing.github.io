@@ -9,7 +9,7 @@ const clean = value => String(value || '').replace(/<[^>]*>/g, '').replace(/&mid
 const slug = value => clean(value).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const collectionModel = require('./collections.cjs');
 const series = programme.seriesItems.map(s => ({
-  id: s.slug,
+  id: s.slug, offline: !!s.offline,
   name: s.colorName,
   label: s.label,
   color: s.colorHex, mood: s.mood, description: s.desc || s.description || {},
