@@ -1130,7 +1130,7 @@ module.exports = [
           "metadata": "Aeternus Verlag · Rote Linie · Hardcover · ISBN 978-3-67605-052-4 · 34,99 €",
           "summary": "Rom nach Augustus. Unter Tiberius wird die Republik zur Fassade, der Senat zum Schauplatz von Furcht, Ehrgeiz und Verrat. Tacitus schreibt Geschichte als Machtanalyse: knapp, kalt und psychologisch unerbittlich.",
           "sample": "Die deutsche Ausgabe folgt dem Wortlaut der Oxforder Edition von 1906. Textverluste der Überlieferung bleiben sichtbar; nichts wird ergänzt, nichts geglättet.",
-          "amazon": "/",
+          "amazon": "https://www.amazon.de/dp/3676050525",
           "status": "Erschienen · im Buchhandel bestellbar unter ISBN 978-3-67605-052-4"
         }
       },
@@ -1145,7 +1145,7 @@ module.exports = [
           "metadata": "Aeternus Verlag · Rote Linie · Hardcover · ISBN 978-3-67605-053-1 · 34,99 €",
           "summary": "Unter Claudius und Nero wird die römische Republik endgültig zur blutigen Fassade. Der Senat verkommt zum Schauplatz von Unterwerfung, Furcht und Verrat. Tacitus kannte diese Welt als Senator aus nächster Nähe – und schreibt doch, wie er verspricht, ohne Zorn und Eifer: Geschichte als Psychologie der Macht, knapp, unbarmherzig und frei von Illusionen.",
           "sample": "Der zweite Band umfasst die erhaltenen Bücher XI–XVI, von den Intrigen der Messalina bis zum Tod des Thrasea Paetus. Textverluste bleiben sichtbar; Band II schließt mit den Registern der Personen, Orte und Sachen.",
-          "amazon": "/",
+          "amazon": "https://www.amazon.de/dp/3676050533",
           "status": "Erschienen · im Buchhandel bestellbar unter ISBN 978-3-67605-053-1"
         }
       }

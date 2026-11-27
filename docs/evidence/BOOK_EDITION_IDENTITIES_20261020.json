@@ -113,6 +113,24 @@
       "url": "https://www.amazon.com/dp/B0HKNBL4CV",
       "observed_utc": "2026-10-20T09:13:14.837550+00:00",
       "evidence": "Amazon product page read in browser: title, publisher, language and ISBN where present"
+    },
+    "3676050525": {
+      "language": "de",
+      "isbn13": "9783676050524",
+      "work_id": "TAC_001_BAND_I",
+      "productform": "hardcover",
+      "url": "https://www.amazon.de/dp/3676050525",
+      "observed_utc": "2026-11-27T09:55:28.561657+00:00",
+      "evidence": "Amazon product page read 27.11.2026: Die Annalen: Band I: Tiberische Epoche, Bücher I-VI, Tacitus, Aeternus Verlag, Gebundene Ausgabe, Deutsch, 394 Seiten, ISBN-13 9783676050524."
+    },
+    "3676050533": {
+      "language": "de",
+      "isbn13": "9783676050531",
+      "work_id": "TAC_001_BAND_II",
+      "productform": "hardcover",
+      "url": "https://www.amazon.de/dp/3676050533",
+      "observed_utc": "2026-11-27T09:55:28.561657+00:00",
+      "evidence": "Amazon product page read 27.11.2026: Die Annalen: Band II: Klaudisch-Neronische Epoche, Bücher XI-XVI, Tacitus, Aeternus Verlag, Gebundene Ausgabe, Deutsch, 338 Seiten, ISBN-13 9783676050531."
     }
   },
   "pages": [
@@ -10296,6 +10314,92 @@
           ]
         }
       ]
+    },
+    {
+      "site": "de",
+      "id": "die-annalen-band-i",
+      "url": "/buecher/die-annalen-band-i/",
+      "language": "de",
+      "front_url": "/assets/images/cover-tacitus-annalen-band-1-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-tacitus-annalen-band-1.webp",
+          "sha256": "2e8546050aaecce78eab3be51b8f83d87802f36856b8efa20fcd732f602dc4ff"
+        },
+        {
+          "path": "src/assets/images/cover-tacitus-annalen-band-1-fallback.jpg",
+          "sha256": "2bedba6c8fd1052e919d083c56f9369d72739e4d273e284024a9065275fd30e0"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "productform": "hardcover",
+          "isbn13": "9783676050524",
+          "tokens": [
+            "3676050525"
+          ],
+          "register_evidence": [
+            {
+              "werk_id": "TAC_001_BAND_I",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "isbn13": "9783676050524",
+              "status": "LIVE",
+              "version": "INGRAM_BESTAND_20260929T135135Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "INGRAM_HC_UPLOAD_20260916",
+        "file": "DATEIEN/9783676050524_cov.pdf",
+        "sha256": "3719e5e645c1cbaa89318b6b164237c4cc9b63924b5893f54d82d36475655498"
+      },
+      "primary_isbn13": "9783676050524"
+    },
+    {
+      "site": "de",
+      "id": "die-annalen-band-ii",
+      "url": "/buecher/die-annalen-band-ii/",
+      "language": "de",
+      "front_url": "/assets/images/cover-tacitus-annalen-band-2-fallback.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-tacitus-annalen-band-2.webp",
+          "sha256": "9ae0e44471e81e88122feb72a41c91d439a288afa2d7e2a3eaa38c05e9a1c8a1"
+        },
+        {
+          "path": "src/assets/images/cover-tacitus-annalen-band-2-fallback.jpg",
+          "sha256": "e8b5dcbb9e07409b861d493b44a3c66651ef7946dac6bbdeac0b20210172ced8"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Hardcover",
+          "productform": "hardcover",
+          "isbn13": "9783676050531",
+          "tokens": [
+            "3676050533"
+          ],
+          "register_evidence": [
+            {
+              "werk_id": "TAC_001_BAND_II",
+              "sprache": "de",
+              "produktform": "hardcover",
+              "isbn13": "9783676050531",
+              "status": "LIVE",
+              "version": "INGRAM_BESTAND_20260929T135135Z"
+            }
+          ]
+        }
+      ],
+      "cover_source": {
+        "package": "INGRAM_HC_UPLOAD_20260916",
+        "file": "DATEIEN/9783676050531_cov.pdf",
+        "sha256": "88420ecd68fd4c5c41e60bdea48352dfcbddad09265f21853d47fc8cdc1a9ea5"
+      },
+      "primary_isbn13": "9783676050531"
     }
   ],
   "additional_pages": [
