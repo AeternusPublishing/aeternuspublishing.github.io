@@ -1,0 +1,9 @@
+---
+pagination:
+  data: editionCollections.redirects
+  size: 1
+  alias: move
+permalink: "{{ move.from }}index.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html><html lang="de"><head><meta charset="utf-8"><title>Weitergeleitet</title><link rel="canonical" href="https://aeternus-verlag.de{{ move.to }}"><meta http-equiv="refresh" content="0; url={{ move.to }}"><meta name="robots" content="noindex"></head><body><p>Diese Sammlung ist umgezogen: <a href="{{ move.to }}">{{ move.to }}</a></p></body></html>

@@ -1,0 +1,31 @@
+---
+layout: layout.njk
+lang: en
+collectionPage: true
+pagination:
+  data: site.collectionThemes
+  size: 1
+  alias: theme
+  addAllPagesToCollections: true
+permalink: "{{ theme.url }}index.html"
+eleventyComputed:
+  title: "{{ theme.title }}: {{ theme.subtitle }}"
+  description: "{{ theme.intro }}"
+---
+<div class="collection-hero cl-hero cl-westward"><div class="shell collection-hero-inner">
+  <nav class="collection-crumbs" aria-label="Breadcrumb"><a href="/collections/">Collections</a><span aria-hidden="true">/</span><span aria-current="page">{{ theme.title }}</span></nav>
+  <p class="kicker light-kicker">AETERNUS · Across the series</p>
+  <h1 class="cl-line-title">{{ theme.title }}</h1>
+  <p class="collection-subtitle">{{ theme.subtitle }}</p>
+  <p>{{ theme.intro }}</p>
+</div></div>
+<section class="cl-subs"><div class="shell"><div class="cl-grid">
+{% for item in theme.items %}
+  <article class="cl-card">
+    <div class="cl-card-head"><p class="cl-nr"><span class="series-dot" style="--series-color:{{ item.series.color }}"></span> {{ item.series.name.en }} Series{% if item.kind == 'line' %} · line{% endif %}</p><h3><a href="{{ item.url }}">{{ item.title }}</a></h3><p class="cl-intro">{{ item.intro }}</p></div>
+    {% set coverBooks = item.books %}{% set coverMax = 4 %}{% include 'collection-covers.njk' %}
+    <a class="cl-go" href="{{ item.url }}">Explore → <span>{{ item.count }} title{% if item.count != 1 %}s{% endif %}</span></a>
+  </article>
+{% endfor %}
+</div></div></section>
+<nav class="shell international-section collection-endnav" aria-label="Theme navigation"><a class="text-link" href="/collections/">← All series and collections</a></nav>

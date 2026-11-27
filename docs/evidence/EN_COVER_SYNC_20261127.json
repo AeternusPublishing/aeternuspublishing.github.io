@@ -75,6 +75,41 @@
         }
       ],
       "operation": "Render the front trim face of the hash-verified released cover PDF; no retouching."
+    },
+    {
+      "id": "en-henry-doveton-hutchinson-the-campaign-in-tirah",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/HDH_HENRY_DOVETON_HUTCHINSON/02_WERKE/HDH_001_CAMPAIGN_IN_TIRAH_1898/07_EXPORT/UPLOADPAKET_INGRAM_V12_20261125/INGRAM/9783676051781_cov.pdf",
+      "source_sha256": "6d67ed1c578366dbef9d8ad1feb60c4ab1fd17fc50931f99e4685dbcf9bd38e2",
+      "register_version": "CSS9732814_UMSCHLAG_V12_EINGEREICHT_20261125",
+      "replaces": "/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg (V4, 12.10.2026)",
+      "page_pt": [
+        1080.0,
+        864.0
+      ],
+      "front_clip_pt": [
+        639.03,
+        8.98,
+        1071.03,
+        656.98
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-hdh001-en-ingram-v12-20261125.jpg",
+          "sha256": "d61c754d983649e83a4801fade5f94616161cbf0a4ade9415663f1a8b14e3238",
+          "px": [
+            1200,
+            1800
+          ]
+        },
+        {
+          "path": "src/assets/images/cover-hdh001-en-ingram-v12-20261125.webp",
+          "sha256": "07044ed9631f04785b831d920474be74cd10a187ba27358dd40e3eb06183366c",
+          "px": [
+            1200,
+            1800
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,25 @@
+---
+layout: layout.njk
+lang: en
+collectionPage: true
+title: Series and collections
+description: Every AETERNUS series with its lines and subseries, and the cross-series theme Westward.
+permalink: /collections/index.html
+---
+<div class="collection-hero cl-hero"><div class="shell collection-hero-inner">
+  <p class="kicker light-kicker">AETERNUS · Collections</p>
+  <h1>Series and collections</h1>
+  <p class="collection-subtitle">Find a book by its series, line and subseries.</p>
+</div></div>
+<section class="cl-subs"><div class="shell"><div class="cl-grid">
+{% for entry in site.collectionLanding %}
+  <article class="cl-card">
+    <div class="cl-card-head"><p class="cl-nr"><span class="series-dot" style="--series-color:{{ entry.series.color }}"></span> {{ entry.series.label.en }}</p><h3><a href="{{ entry.url }}">{{ entry.series.name.en }}</a></h3>
+    <p class="cl-intro">{% for line in entry.lines %}{{ line.title }}{% if not loop.last or entry.looseCollections.length %} · {% endif %}{% endfor %}{% for c in entry.looseCollections %}{{ c.title }}{% if not loop.last %} · {% endif %}{% endfor %}</p></div>
+    <a class="cl-go" href="{{ entry.url }}">Explore the {{ entry.series.name.en }} Series → <span>{{ entry.bookCount }} titles</span></a>
+  </article>
+{% endfor %}
+{% for theme in site.collectionThemes %}
+  <article class="cl-card cl-theme"><div class="cl-card-head"><p class="cl-nr">Across the series</p><h3><a href="{{ theme.url }}">{{ theme.title }}</a></h3><p class="cl-intro">{{ theme.subtitle }}</p></div><a class="cl-go" href="{{ theme.url }}">Explore {{ theme.title }} →</a></article>
+{% endfor %}
+</div></div></section>

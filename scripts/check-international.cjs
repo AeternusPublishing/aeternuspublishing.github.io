@@ -67,6 +67,9 @@ check('all local HTML links and assets resolve; SEO matches deployment mode', ()
   const canonicals=new Set();let count=0;
   for(const file of walk(output).filter(f=>f.endsWith('.html'))) {
     const html=fs.readFileSync(file,'utf8');count++;
+    // Moved collection addresses (REIHENVERZEICHNIS 27.11.2026): noindex refresh page, target must exist.
+    const moved=html.match(/http-equiv="refresh" content="0; url=(\/[^"]*)"/);
+    if(moved){assert(html.includes('name="robots" content="noindex"'),file);assert(fs.existsSync(path.join(output,moved[1],'index.html')),file+' -> '+moved[1]);continue;}
     const esSeite=path.relative(output,file).split(path.sep)[0]==='es';
     assert.match(html,esSeite?/<html lang="es">/:/<html lang="en">/,file);
     if(production) assert(!html.includes('noindex'),file); else assert.match(html,/name="robots" content="noindex, nofollow"/);

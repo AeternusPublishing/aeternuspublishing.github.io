@@ -1,0 +1,43 @@
+---
+layout: layout.njk
+lang: en
+collectionPage: true
+pagination:
+  data: site.collectionLanding
+  size: 1
+  alias: entry
+  addAllPagesToCollections: true
+permalink: "{{ entry.url }}index.html"
+eleventyComputed:
+  title: "{{ entry.series.name.en }} Series · Lines and collections"
+  description: "{{ entry.series.label.en }}: the lines and subseries of the AETERNUS {{ entry.series.name.en }} Series."
+---
+<div class="collection-hero cl-hero cl-hero-{{ entry.series.id }}"><div class="shell collection-hero-inner">
+  <nav class="collection-crumbs" aria-label="Breadcrumb"><a href="/collections/">Collections</a><span aria-hidden="true">/</span><span aria-current="page">{{ entry.series.name.en }}</span></nav>
+  <p class="kicker light-kicker">AETERNUS · THE {{ entry.series.name.en }} SERIES</p>
+  <h1>{{ entry.series.name.en }}</h1>
+  <p class="collection-subtitle">{{ entry.series.label.en }}</p>
+  <div class="cl-map">
+    {% for line in entry.lines %}<div><p class="cl-map-head"><a href="{{ line.url }}">{{ line.title }}</a> · {{ line.kicker }}</p><div class="cl-chips">{% for c in line.collections %}<a class="cl-chip" href="{{ c.url }}">{{ c.nr }} · {{ c.title }}<b>{{ c.books.length }}</b></a>{% endfor %}</div></div>{% endfor %}
+    {% if entry.looseCollections.length %}<div><p class="cl-map-head">Collections</p><div class="cl-chips">{% for c in entry.looseCollections %}<a class="cl-chip" href="{{ c.url }}">{{ c.title }}<b>{{ c.books.length }}</b></a>{% endfor %}</div></div>{% endif %}
+  </div>
+  <a class="collection-hero-link" href="/series/{{ entry.series.id }}/">All {{ entry.series.name.en }} Series books →</a>
+</div></div>
+{% for line in entry.lines %}
+<section class="cl-band{% if loop.index0 % 2 == 1 %} cl-band-alt{% endif %}"><div class="shell">
+  <p class="kicker light-kicker">{{ entry.series.name.en }} Series · {{ line.kicker }}</p>
+  <h2><a href="{{ line.url }}">{{ line.title }}</a></h2><div class="cl-rule"></div>
+  <p class="cl-tagline">{{ line.tagline }}</p>
+  <p class="cl-meta">{{ line.bookCount }} titles in {{ line.collections.length }} subseries</p>
+</div></section>
+<section class="cl-subs"><div class="shell"><div class="cl-grid">
+  {% for card in line.collections %}{% set wide = card.books.length >= 8 %}{% include 'collection-card.njk' %}{% endfor %}
+</div></div></section>
+{% endfor %}
+{% if entry.looseCollections.length %}
+<section class="cl-subs"><div class="shell">
+  <div class="collection-section-head"><p class="kicker">Within the series</p><h2>Explore the Collections</h2></div>
+  <div class="cl-grid">{% for card in entry.looseCollections %}{% set wide = card.books.length >= 8 %}{% include 'collection-card.njk' %}{% endfor %}</div>
+</div></section>
+{% endif %}
+<nav class="shell international-section collection-endnav" aria-label="Series navigation"><a class="text-link" href="/collections/">← All series and collections</a><a class="text-link" href="/collections/westward/">Westward: the settlement and conquest of North America →</a>{% if entry.series.id == 'gruen' %}<a class="text-link" href="/series/gruen/historical-background/">Historical background →</a><a class="text-link" href="/series/gruen/chronology/">British campaigns chronology →</a>{% endif %}</nav>

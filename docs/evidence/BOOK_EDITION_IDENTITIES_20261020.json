@@ -5569,15 +5569,15 @@
       "title": "The Campaign in Tirah, 1897–1898",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg",
+      "front_url": "/assets/images/cover-hdh001-en-ingram-v12-20261125.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-hdh001-en-ingram-v4-20261012.jpg",
-          "sha256": "8d0fa574565a752d9c1bdc87fd0363eb02e5e2ed3923d58736aecc9097952837"
+          "path": "src/assets/images/cover-hdh001-en-ingram-v12-20261125.jpg",
+          "sha256": "d61c754d983649e83a4801fade5f94616161cbf0a4ade9415663f1a8b14e3238"
         },
         {
-          "path": "src/assets/images/cover-hdh001-en-ingram-v4-20261012.webp",
-          "sha256": "4dc08f3fe91456ccdffd9a97df02dcc04d923886656661a2c04b8dfa1970cf51"
+          "path": "src/assets/images/cover-hdh001-en-ingram-v12-20261125.webp",
+          "sha256": "07044ed9631f04785b831d920474be74cd10a187ba27358dd40e3eb06183366c"
         }
       ],
       "formats": [

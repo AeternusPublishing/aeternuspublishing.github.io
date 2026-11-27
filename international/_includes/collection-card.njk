@@ -1,0 +1,5 @@
+<article class="cl-card{% if wide %} cl-wide{% endif %}{% if card.inPreparation %} cl-soon{% endif %}">
+  <div class="cl-card-head">{% if card.nr %}<p class="cl-nr">{{ card.nr }}</p>{% endif %}<h3><a href="{{ card.url }}">{{ card.title }}</a></h3>{% if card.region %}<p class="cl-region">{{ card.region }}</p>{% endif %}</div>
+  {% if card.inPreparation %}<div class="cl-soonbox">In preparation</div>{% else %}{% set coverBooks = card.books %}{% if wide %}{% set coverMax = 6 %}{% else %}{% set coverMax = 4 %}{% endif %}{% include 'collection-covers.njk' %}{% endif %}
+  <a class="cl-go" href="{{ card.url }}">{% if card.inPreparation %}About this subseries{% else %}Explore {{ card.title }}{% endif %} → <span>{{ card.books.length }} title{% if card.books.length != 1 %}s{% endif %}</span></a>
+</article>
