@@ -1,0 +1,80 @@
+{
+  "schema": "AETERNUS_WEB_COVER_SYNC_V1",
+  "date": "20261127",
+  "books": [
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/JDU_JOSHUA_DUKE/02_WERKE/JDU_001_RECOLLECTIONS_KABUL_CAMPAIGN_1883/07_EXPORT/UEBERGABE_V34_K3_20261126/UPLOADPAKET_EN_WORTGETREU_V34_20261126/JDU001_EN_WORTGETREU_KDP_TASCHENBUCH_UMSCHLAG_366.pdf",
+      "source_sha256": "d355061cd173834ef41172aab9905996e519c60b6f5b82c38f3fe4a3f0df2995",
+      "release_decision": "decision_jdu001_e3_paketfreigabe_v34_k3_beide_kdp_ingram_20261127",
+      "page_pt": [
+        947.8800048828125,
+        666.0
+      ],
+      "front_clip_pt": [
+        506.8800048828125,
+        9.0,
+        938.8800048828125,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261127.jpg",
+          "sha256": "b44417b5c9575fca85931ebb386d77164c902a17662c462b1e0418a2126b9ba5",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261127.webp",
+          "sha256": "d4303a158737f5ac9e05efd6fc038dd02671ae3b11e12d4d12b6c68598a037fd",
+          "dimensions": [
+            900,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified released cover PDF; no retouching."
+    },
+    {
+      "id": "en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition",
+      "source": "02_SAEULE_II_GRUEN_MILITAER_EXPEDITIONEN/JDU_JOSHUA_DUKE/02_WERKE/JDU_001_RECOLLECTIONS_KABUL_CAMPAIGN_1883/07_EXPORT/UEBERGABE_V34_K3_20261126/UPLOADPAKET_EN_MODERNISIERT_V34_20261126/JDU001_EN_MODERNISIERT_KDP_TASCHENBUCH_UMSCHLAG_368.pdf",
+      "source_sha256": "25dac9a1f7758db181ce3456762cc62b276d739876c3d17f980fb953b467be7a",
+      "release_decision": "decision_jdu001_e3_paketfreigabe_v34_k3_beide_kdp_ingram_20261127",
+      "page_pt": [
+        948.239990234375,
+        666.0
+      ],
+      "front_clip_pt": [
+        507.239990234375,
+        9.0,
+        939.239990234375,
+        657.0
+      ],
+      "output_assets": [
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261127.jpg",
+          "sha256": "7ca852f8fe3c249f0aca7a0d712af62a2e2ad30be7eb2322d2b9cda5e94d7417",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        },
+        {
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261127.webp",
+          "sha256": "0c06badefaffaec31a5e9891d817ac1599fc084dc685ba22e2d837fed930ea85",
+          "dimensions": [
+            901,
+            1351
+          ],
+          "side": "front"
+        }
+      ],
+      "operation": "Render the front trim face of the hash-verified released cover PDF; no retouching."
+    }
+  ]
+}
