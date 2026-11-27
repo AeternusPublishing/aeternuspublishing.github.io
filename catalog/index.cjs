@@ -21,7 +21,7 @@ const englishAuthors = new Set(['ernest-thompson-seton', 'robert-montgomery-bird
 const englishBooks = authorsEn.filter(a => englishAuthors.has(a.slug)).flatMap(a => a.books.filter(b => !/German (edition|translation)/i.test(b.meta || '')).map(b => {
   // These existing author pages postdate the programme overview; their own
   // explicit series labels are the authority for this migration mapping.
-  const additionalSeries = { 'james-hall': 'anthrazit', 'daniel-carter-beard': 'bernstein', 'richard-jefferies': 'bernstein', 'james-b-gillett': 'gruen', 'james-j-hill': 'blau', 'francis-younghusband': 'gruen', 'robert-louis-stevenson': 'bernstein', 'joshua-duke': 'gruen', 'charles-william-wilson': 'gruen', 'grey-owl': 'gruen' };
+  const additionalSeries = { 'james-hall': 'anthrazit', 'daniel-carter-beard': 'bernstein', 'richard-jefferies': 'bernstein', 'james-b-gillett': 'gruen', 'james-j-hill': 'blau', 'francis-younghusband': 'gruen', 'robert-louis-stevenson': 'bernstein', 'joshua-duke': 'gruen', 'charles-william-wilson': 'gruen', 'grey-owl': 'bernstein' };
   const line = series.find(s => s.authors.includes(a.slug) || s.id === additionalSeries[a.slug]);
   if (!line) throw new Error('Unmapped author series: ' + a.slug);
   const id = `en-${a.slug}-${b.id || slug(b.title)}`;

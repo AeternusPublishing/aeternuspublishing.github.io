@@ -1,0 +1,27 @@
+---
+layout: layout.njk
+lang: en
+collectionPage: true
+pagination:
+  data: site.collectionLines
+  size: 1
+  alias: line
+  addAllPagesToCollections: true
+permalink: "{{ line.url }}index.html"
+eleventyComputed:
+  title: "{{ line.title }} · {{ line.seriesInfo.name.en }} Series"
+  description: "{{ line.tagline }} {{ line.intro }}"
+---
+<div class="collection-hero cl-hero cl-hero-{{ line.series }}"><div class="shell collection-hero-inner">
+  <nav class="collection-crumbs" aria-label="Breadcrumb"><a href="/collections/">Collections</a><span aria-hidden="true">/</span><a href="{{ line.seriesUrl }}">{{ line.seriesInfo.name.en }}</a><span aria-hidden="true">/</span><span aria-current="page">{{ line.title }}</span></nav>
+  <p class="kicker light-kicker">{{ line.seriesInfo.name.en }} Series · {{ line.kicker }}</p>
+  <h1 class="cl-line-title">{{ line.title }}</h1>
+  <p class="collection-subtitle">{{ line.tagline }}</p>
+  <p>{{ line.intro }}</p>
+  <div class="cl-chips">{% for c in line.collections %}<a class="cl-chip" href="{{ c.url }}">{{ c.nr }} · {{ c.title }}<b>{{ c.books.length }}</b></a>{% endfor %}</div>
+</div></div>
+<section class="cl-subs"><div class="shell">
+  <div class="collection-section-head"><p class="kicker">{{ line.collections.length }} subseries</p><h2>Choose a theatre</h2></div>
+  <div class="cl-grid">{% for card in line.collections %}{% set wide = card.books.length >= 8 %}{% include 'collection-card.njk' %}{% endfor %}</div>
+</div></section>
+<nav class="shell international-section collection-endnav" aria-label="Line navigation"><a class="text-link" href="{{ line.seriesUrl }}">← {{ line.seriesInfo.name.en }} Series: all lines</a><a class="text-link" href="/collections/westward/">Westward →</a></nav>

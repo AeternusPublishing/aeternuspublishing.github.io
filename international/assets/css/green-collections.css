@@ -26,3 +26,47 @@
 .collection-endnav{display:flex;flex-wrap:wrap;gap:26px;border-top:1px solid #d7d0c2}
 @media(max-width:850px){.collection-edition-list{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.collection-hero-inner{padding-block:58px 55px}.collection-grid,.collection-edition-list{grid-template-columns:1fr}.collection-panel{min-height:auto;padding:25px}.collection-endnav{flex-direction:column;gap:14px}}
+/* Series > line > subseries landing pages (27.11.2026) */
+.cl-hero h1.cl-line-title{max-width:none;font-family:'Cinzel','Fraunces',Georgia,serif;letter-spacing:.05em;font-size:clamp(2.1rem,5vw,4.2rem)}
+.cl-map{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px;margin-top:8px;padding-top:24px;border-top:1px solid rgba(189,166,117,.4)}
+.cl-map-head{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#d4bf8e;margin:0 0 12px}
+.cl-map-head a{color:#e2ca93;text-decoration:none}
+.cl-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.cl-chip{border:1px solid rgba(212,191,142,.6);border-radius:999px;padding:6px 14px;font-size:13px;color:#f5f0e4;background:rgba(0,0,0,.18);text-decoration:none}
+.cl-chip b{color:#d4bf8e;font-weight:600;margin-left:7px}
+.cl-chip:hover,.cl-chip.cl-on{background:#bda675;color:#17271e;border-color:#bda675}
+.cl-chip.cl-on b,.cl-chip:hover b{color:#17271e}
+.cl-band{background:linear-gradient(180deg,#18211a,#22301f);color:#f3ecd8;padding:64px 0 52px;border-top:1px solid rgba(189,166,117,.5);border-bottom:1px solid rgba(189,166,117,.5)}
+.cl-band-alt{background:linear-gradient(180deg,#1b2630,#243443)}
+.cl-band h2{font-family:'Cinzel','Fraunces',Georgia,serif;font-size:clamp(1.9rem,4.4vw,3.2rem);letter-spacing:.05em;margin:12px 0 4px}
+.cl-band h2 a{color:#f3e7c4;text-decoration:none}
+.cl-rule{width:120px;height:1px;background:#bda675;margin:18px 0}
+.cl-tagline{font-family:'Fraunces',Georgia,serif;font-size:clamp(1.15rem,2vw,1.5rem);max-width:720px;margin:0}
+.cl-meta{font-size:13px;opacity:.8;margin-top:12px}
+.cl-subs{background:#f1eee5;padding:52px 0 40px}
+.cl-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-flow:dense;gap:22px}
+.cl-card{min-width:0;background:#fff;border:1px solid #d4d0c4;border-top:3px solid #a8873f;padding:24px;display:flex;flex-direction:column;gap:14px}
+.cl-wide{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:26px;align-items:center}
+.cl-wide .cl-go{grid-column:1/-1}
+.cl-nr{font-family:'Cinzel',Georgia,serif;color:#a8873f;font-size:13px;letter-spacing:.14em;margin:0}
+.cl-card h3{font-size:clamp(1.45rem,2.25vw,1.9rem);margin:4px 0 4px;line-height:1.12}
+.cl-card h3 a{text-decoration:none}
+.cl-card h3 a:hover{text-decoration:underline;text-underline-offset:4px}
+.cl-region{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#6b6a60;margin:0}
+.cl-intro{font-size:14px;color:#3a3a33;margin:6px 0 0}
+.cl-covers{display:flex;gap:8px;align-items:flex-end;min-height:150px;overflow:hidden}
+.cl-covers img{display:block;height:150px;width:auto;box-shadow:0 6px 14px rgba(0,0,0,.25);background:#ddd}
+.cl-more{font-family:'Cinzel',Georgia,serif;font-size:13px;color:#a8873f;padding-left:6px;white-space:nowrap;align-self:center}
+.cl-go{margin-top:auto;font-size:14px;font-weight:600;color:#2d4a22;border-top:1px solid #d4d0c4;padding-top:12px;display:flex;justify-content:space-between;gap:12px;text-decoration:none}
+.cl-go span{color:#6b6a60;font-weight:500}
+.cl-soon{background:#fbfaf6;border-style:dashed}
+.cl-soonbox{height:150px;display:flex;align-items:center;justify-content:center;border:1px dashed #d4d0c4;color:#6b6a60;font-family:'Cinzel',Georgia,serif;letter-spacing:.12em;font-size:13px;text-transform:uppercase}
+.cl-westward{background:linear-gradient(125deg,#2a1f14 0%,#5a4026 60%,#2a1f14 100%)}
+.cl-theme{border-top-color:#7a5a32}
+@media(max-width:860px){.cl-grid,.cl-wide{grid-template-columns:1fr}.cl-covers img{height:120px}.cl-covers{min-height:120px}}
+/* Hero tint follows the series colour (Green keeps the base gradient). */
+.collection-hero.cl-hero-bernstein{background:linear-gradient(125deg,#2a1d0c 0%,#6b4714 62%,#2a1d0c 100%)}
+.collection-hero.cl-hero-anthrazit{background:linear-gradient(125deg,#161616 0%,#3a3a3a 62%,#161616 100%)}
+.collection-hero.cl-hero-blau{background:linear-gradient(125deg,#0d1c2b 0%,#1c3d5a 62%,#0d1c2b 100%)}
+.collection-hero.cl-hero-rot{background:linear-gradient(125deg,#2b0b0b 0%,#7c1c1c 62%,#2b0b0b 100%)}
+.collection-hero.cl-hero-purpur{background:linear-gradient(125deg,#22091a 0%,#591c3b 62%,#22091a 100%)}
