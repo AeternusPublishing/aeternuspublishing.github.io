@@ -4285,15 +4285,15 @@
       "title": "Recollections of the Kabul Campaign, 1879 & 1880",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
+      "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261127.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
-          "sha256": "cb91f15cfd6fe4b5f0990c79d7b3568320d7771b9c7f12cdab3753f883aa6e4c"
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261127.jpg",
+          "sha256": "b44417b5c9575fca85931ebb386d77164c902a17662c462b1e0418a2126b9ba5"
         },
         {
-          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.webp",
-          "sha256": "d1c35b15713a78b3744b9fe360ebf10fae612bd5868702732bb2cbaa52c503fc"
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261127.webp",
+          "sha256": "d4303a158737f5ac9e05efd6fc038dd02671ae3b11e12d4d12b6c68598a037fd"
         }
       ],
       "formats": [
@@ -4410,18 +4410,22 @@
         }
       ],
       "previous_cover_binding": {
-        "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
+        "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
         "assets": [
           {
-            "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-20261006-fallback.jpg",
-            "sha256": "54e609921ddb1cd05c6aaac0e239b8ef1ad599274b918efe28acbcaa6e219d35"
+            "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.jpg",
+            "sha256": "cb91f15cfd6fe4b5f0990c79d7b3568320d7771b9c7f12cdab3753f883aa6e4c"
+          },
+          {
+            "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-trade-20261122.webp",
+            "sha256": "d1c35b15713a78b3744b9fe360ebf10fae612bd5868702732bb2cbaa52c503fc"
           }
         ]
       },
       "cover_rebind": {
-        "date": "20261122",
-        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
-        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+        "date": "20261127",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261127.json",
+        "reason": "New released cover artwork (publisher release 27.11.2026), rendered from the hash-verified released KDP paperback cover PDF."
       }
     },
     {
@@ -4431,15 +4435,15 @@
       "title": "Recollections of the Kabul Campaign, 1879 & 1880 – Modern English Edition",
       "language": "en",
       "primary_isbn13": null,
-      "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
+      "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261127.jpg",
       "assets": [
         {
-          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
-          "sha256": "64c8e9f6bf16067ec38207217ff46def91acdb633a6a6fa3635b04a1b700cf47"
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261127.jpg",
+          "sha256": "7ca852f8fe3c249f0aca7a0d712af62a2e2ad30be7eb2322d2b9cda5e94d7417"
         },
         {
-          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.webp",
-          "sha256": "8ce9302889c4373eb687391f4ba315cb966e958e1ddf0738603cf6b11add7bc8"
+          "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261127.webp",
+          "sha256": "0c06badefaffaec31a5e9891d817ac1599fc084dc685ba22e2d837fed930ea85"
         }
       ],
       "formats": [
@@ -4496,18 +4500,22 @@
         }
       ],
       "previous_cover_binding": {
-        "front_url": "/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
+        "front_url": "/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
         "assets": [
           {
-            "path": "src/assets/images/cover-recollections-kabul-campaign-duke-en-modern-20261007-fallback.jpg",
-            "sha256": "9c1711ffed9dce6800001ae6b43a8a94dfef3b77fd32806e7b39601c543e911f"
+            "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.jpg",
+            "sha256": "64c8e9f6bf16067ec38207217ff46def91acdb633a6a6fa3635b04a1b700cf47"
+          },
+          {
+            "path": "src/assets/images/cover-en-joshua-duke-recollections-of-the-kabul-campaign-1879-1880-modern-english-edition-trade-20261122.webp",
+            "sha256": "8ce9302889c4373eb687391f4ba315cb966e958e1ddf0738603cf6b11add7bc8"
           }
         ]
       },
       "cover_rebind": {
-        "date": "20261122",
-        "evidence": "docs/evidence/EN_COVER_SYNC_20261122.json",
-        "reason": "Same artwork, rendered from the hash-verified print cover recorded in the Buchregister (or the KDP package)."
+        "date": "20261127",
+        "evidence": "docs/evidence/EN_COVER_SYNC_20261127.json",
+        "reason": "New released cover artwork (publisher release 27.11.2026), rendered from the hash-verified released KDP paperback cover PDF."
       }
     },
     {
