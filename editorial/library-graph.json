@@ -68,18 +68,6 @@
       }
     },
     {
-      "id": "series:weiss",
-      "type": "series",
-      "label": {
-        "de": "WEISS",
-        "en": "WHITE"
-      },
-      "url": {
-        "de": "https://aeternus-verlag.de/reihen/weiss/",
-        "en": "https://aeternuspublishing.com/series/weiss/"
-      }
-    },
-    {
       "id": "series:purpur",
       "type": "series",
       "label": {

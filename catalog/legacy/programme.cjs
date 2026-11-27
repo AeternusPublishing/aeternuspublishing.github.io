@@ -1183,6 +1183,8 @@ module.exports = {
       // obwohl die ebenfalls autorenlosen Reihen Grün, Rot und Blau dort geführt werden.
       num: "VI",
       slug: "weiss",
+      // Reihe offline (decision_website_reihe_weiss_ganz_ausblenden_sechs_reihen_20261127): keine Seite, in keiner Uebersicht; Adressen leiten auf die Reihenuebersicht.
+      offline: true,
       colorName: { de: "WEISS", en: "WHITE" },
       colorHex: "#d8d5cd",
       colorRgb: "216, 213, 205",
