@@ -400,6 +400,62 @@
       }
     },
     {
+      "id": "book:de:die-annalen-band-i",
+      "type": "book",
+      "label": {
+        "de": "Die Annalen · Band I",
+        "en": "Die Annalen · Band I"
+      },
+      "author": "Tacitus",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-tacitus-annalen-band-1.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-annalen-band-i/",
+        "en": "https://aeternus-verlag.de/buecher/die-annalen-band-i/"
+      },
+      "summary": {
+        "de": "Rom nach Augustus. Unter Tiberius wird die Republik zur Fassade, der Senat zum Schauplatz von Furcht, Ehrgeiz und Verrat. Tacitus schreibt Geschichte als Machtanalyse: knapp, kalt und psychologisch unerbittlich.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          12.5,
+          41.9
+        ],
+        "region": "europe",
+        "place": "Rom · Tiberische Epoche",
+        "source": "kosmosSelection:tacitus-1"
+      }
+    },
+    {
+      "id": "book:de:die-annalen-band-ii",
+      "type": "book",
+      "label": {
+        "de": "Die Annalen · Band II",
+        "en": "Die Annalen · Band II"
+      },
+      "author": "Tacitus",
+      "language": "de",
+      "cover": "https://aeternus-verlag.de/assets/images/cover-tacitus-annalen-band-2.webp",
+      "url": {
+        "de": "https://aeternus-verlag.de/buecher/die-annalen-band-ii/",
+        "en": "https://aeternus-verlag.de/buecher/die-annalen-band-ii/"
+      },
+      "summary": {
+        "de": "Unter Claudius und Nero wird die römische Republik endgültig zur blutigen Fassade. Der Senat verkommt zum Schauplatz von Unterwerfung, Furcht und Verrat. Tacitus kannte diese Welt als Senator aus nächster Nähe – und schreibt doch, wie er verspricht, ohne Zorn und Eifer: Geschichte als Psychologie der Macht, knapp, unbarmherzig und frei von Illusionen.",
+        "en": ""
+      },
+      "geography": {
+        "location": [
+          12.5,
+          41.9
+        ],
+        "region": "europe",
+        "place": "Rom · Claudius und Nero",
+        "source": "kosmosSelection:tacitus-2"
+      }
+    },
+    {
       "id": "book:de:mein-leben-und-werk",
       "type": "book",
       "label": {
@@ -2961,62 +3017,6 @@
       }
     },
     {
-      "id": "book:atlas:tacitus-1",
-      "type": "book",
-      "label": {
-        "de": "Die Annalen · Band I",
-        "en": "Die Annalen · Band I"
-      },
-      "author": "Tacitus",
-      "language": "de",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-tacitus-annalen-band-1.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/autoren/tacitus/#werke",
-        "en": "https://aeternus-verlag.de/autoren/tacitus/#werke"
-      },
-      "summary": {
-        "de": "Rom nach Augustus. Unter Tiberius wird die Republik zur Fassade, der Senat zum Schauplatz von Furcht, Ehrgeiz und Verrat. Tacitus schreibt Geschichte als Machtanalyse: knapp, kalt und psychologisch unerbittlich.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          12.5,
-          41.9
-        ],
-        "region": "europe",
-        "place": "Rom · Tiberische Epoche",
-        "source": "kosmosSelection:tacitus-1"
-      }
-    },
-    {
-      "id": "book:atlas:tacitus-2",
-      "type": "book",
-      "label": {
-        "de": "Die Annalen · Band II",
-        "en": "Die Annalen · Band II"
-      },
-      "author": "Tacitus",
-      "language": "de",
-      "cover": "https://aeternus-verlag.de/assets/images/cover-tacitus-annalen-band-2.webp",
-      "url": {
-        "de": "https://aeternus-verlag.de/autoren/tacitus/#werke",
-        "en": "https://aeternus-verlag.de/autoren/tacitus/#werke"
-      },
-      "summary": {
-        "de": "Unter Claudius und Nero wird die römische Republik endgültig zur blutigen Fassade. Der Senat verkommt zum Schauplatz von Unterwerfung, Furcht und Verrat. Tacitus kannte diese Welt als Senator aus nächster Nähe – und schreibt doch, wie er verspricht, ohne Zorn und Eifer: Geschichte als Psychologie der Macht, knapp, unbarmherzig und frei von Illusionen.",
-        "en": ""
-      },
-      "geography": {
-        "location": [
-          12.5,
-          41.9
-        ],
-        "region": "europe",
-        "place": "Rom · Claudius und Nero",
-        "source": "kosmosSelection:tacitus-2"
-      }
-    },
-    {
       "id": "book:atlas:jungle",
       "type": "book",
       "label": {
@@ -3242,6 +3242,14 @@
       "label": {
         "de": "Banastre Tarleton",
         "en": "Banastre Tarleton"
+      }
+    },
+    {
+      "id": "author:Tacitus",
+      "type": "author",
+      "label": {
+        "de": "Tacitus",
+        "en": "Tacitus"
       }
     },
     {
@@ -3651,14 +3659,6 @@
         "de": "Winfield Scott",
         "en": "Winfield Scott"
       }
-    },
-    {
-      "id": "author:Tacitus",
-      "type": "author",
-      "label": {
-        "de": "Tacitus",
-        "en": "Tacitus"
-      }
     }
   ],
   "links": [
@@ -3715,6 +3715,16 @@
     {
       "source": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
       "target": "series:gruen",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-annalen-band-i",
+      "target": "series:rot",
+      "type": "series"
+    },
+    {
+      "source": "book:de:die-annalen-band-ii",
+      "target": "series:rot",
       "type": "series"
     },
     {
@@ -4539,8 +4549,8 @@
       }
     },
     {
-      "source": "book:atlas:tacitus-1",
-      "target": "book:atlas:tacitus-2",
+      "source": "book:de:die-annalen-band-i",
+      "target": "book:de:die-annalen-band-ii",
       "type": "curated",
       "label": {
         "de": "Die erhaltenen Annalen: von Tiberius zu Nero",
@@ -4681,6 +4691,16 @@
     {
       "source": "book:de:geschichte-der-feldzuege-von-1780-und-1781",
       "target": "author:Banastre Tarleton",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-annalen-band-i",
+      "target": "author:Tacitus",
+      "type": "author"
+    },
+    {
+      "source": "book:de:die-annalen-band-ii",
+      "target": "author:Tacitus",
       "type": "author"
     },
     {
@@ -5249,16 +5269,6 @@
       "type": "author"
     },
     {
-      "source": "book:atlas:tacitus-1",
-      "target": "author:Tacitus",
-      "type": "author"
-    },
-    {
-      "source": "book:atlas:tacitus-2",
-      "target": "author:Tacitus",
-      "type": "author"
-    },
-    {
       "source": "book:atlas:jungle",
       "target": "author:Rudyard Kipling",
       "type": "author"
@@ -5405,6 +5415,8 @@
     "book:atlas:west-3": "book:de:die-eroberung-des-westens-band-iii",
     "book:atlas:west-4": "book:de:die-eroberung-des-westens-band-iv",
     "book:atlas:oregon": "book:de:der-oregon-trail",
+    "book:atlas:tacitus-1": "book:de:die-annalen-band-i",
+    "book:atlas:tacitus-2": "book:de:die-annalen-band-ii",
     "book:atlas:bambis-kinder": "book:de:bambis-kinder",
     "book:atlas:bambi": "book:de:bambi",
     "book:atlas:pinocchio": "book:de:pinocchio",

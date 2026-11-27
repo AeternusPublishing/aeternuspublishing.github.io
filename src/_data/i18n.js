@@ -680,7 +680,7 @@ module.exports = {
 },
       authors: [
         {
-          // Erstes Werk der Roten Linie (TAC_001, Verlegerbeschluss 2026-09-03). Noch kein Band erschienen - books leer.
+          // Erstes Werk der Roten Linie (TAC_001, Verlegerbeschluss 2026-09-03). Beide Baende seit 21.09.2026 als Hardcover lieferbar (Buchregister LIVE, Ingram; Amazon.de geprueft 27.11.2026).
           // landingUrl nur Deutsch: die englische Autorenseite existiert noch nicht.
           name: "Tacitus",
           slug: "tacitus",
@@ -689,7 +689,38 @@ module.exports = {
             de: "Cornelius Tacitus, Senator und Konsul, schrieb die Geschichte der Kaiser von Tiberius bis Nero als Mann aus der Mitte der Macht. Seine Annalen eröffnen in zwei Bänden die Reihe Rot.",
             en: "Cornelius Tacitus, senator and consul, wrote the history of the emperors from Tiberius to Nero as a man from the centre of power. His Annals open the Red series in two volumes."
           },
-          books: []
+          books: [
+            {
+              cover: "cover-tacitus-annalen-band-1",
+              isbn: "978-3-67605-052-4",
+              isbns: { hardcover: "978-3-67605-052-4" },
+              asin: { hardcover: "3676050525" },
+              pricesEur: { hardcover: "34,99" },
+              pages: 394,
+              amazonUrl: "https://www.amazon.de/dp/3676050525",
+              originalTitle: "Annales, Bücher I–VI (um 117 n. Chr.)",
+              title: { de: "Die Annalen · Band I", en: "Die Annalen · Band I (German edition)" },
+              desc: {
+                de: "Die tiberische Epoche in neuer deutscher Übersetzung: Rom nach Augustus, der Senat zwischen Furcht, Ehrgeiz und Verrat.",
+                en: "The Tiberian books in a new German translation: Rome after Augustus, the Senate between fear, ambition and betrayal."
+              }
+            },
+            {
+              cover: "cover-tacitus-annalen-band-2",
+              isbn: "978-3-67605-053-1",
+              isbns: { hardcover: "978-3-67605-053-1" },
+              asin: { hardcover: "3676050533" },
+              pricesEur: { hardcover: "34,99" },
+              pages: 338,
+              amazonUrl: "https://www.amazon.de/dp/3676050533",
+              originalTitle: "Annales, Bücher XI–XVI (um 117 n. Chr.)",
+              title: { de: "Die Annalen · Band II", en: "Die Annalen · Band II (German edition)" },
+              desc: {
+                de: "Die klaudisch-neronische Epoche in neuer deutscher Übersetzung, mit den Registern der Personen, Orte und Sachen.",
+                en: "The Claudian and Neronian books in a new German translation, with indexes of persons, places and subjects."
+              }
+            }
+          ]
         }
       ]
     },
