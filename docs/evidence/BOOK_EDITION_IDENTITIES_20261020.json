@@ -6624,6 +6624,74 @@
     },
     {
       "site": "en",
+      "id": "en-robert-baden-powell-scouting-for-boys",
+      "url": "/books/en-robert-baden-powell-scouting-for-boys/",
+      "title": "Scouting for Boys (Annotated)",
+      "language": "en",
+      "primary_isbn13": null,
+      "front_url": "/assets/images/cover-en-robert-baden-powell-scouting-for-boys-v24.jpg",
+      "assets": [
+        {
+          "path": "src/assets/images/cover-en-robert-baden-powell-scouting-for-boys-v24.jpg",
+          "sha256": "1a0b729bf6cb858ef20beec0b64a0d51948e775fc88774fc35f8610488538bc4"
+        }
+      ],
+      "formats": [
+        {
+          "label": "Paperback",
+          "isbn13": "9783676053068",
+          "productform": "taschenbuch",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_001",
+              "sprache": "en",
+              "produktform": "taschenbuch",
+              "isbn13": "9783676053068",
+              "asin": null,
+              "decision_id": "decision_bp001_en_v24_werkfreigabe_uploadauftrag_20261127",
+              "preflight_sha256": "064efa7b2c7570749d254e65fb3b12b03bd6ed5a6216881ffdf1688254e55d5d"
+            }
+          ]
+        },
+        {
+          "label": "Hardcover",
+          "isbn13": "9783676053075",
+          "productform": "hardcover",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_001",
+              "sprache": "en",
+              "produktform": "hardcover",
+              "isbn13": "9783676053075",
+              "asin": null,
+              "decision_id": "decision_bp001_en_v24_werkfreigabe_uploadauftrag_20261127",
+              "preflight_sha256": "aa6e5428e89992a136e6b7569ed66b6a6e08524f5bff9952df9608dfb9730b83"
+            }
+          ]
+        },
+        {
+          "label": "Kindle eBook",
+          "isbn13": "9783676053495",
+          "productform": "ebook",
+          "tokens": [],
+          "register_evidence": [
+            {
+              "werk_kanon": "BP_001",
+              "sprache": "en",
+              "produktform": "ebook",
+              "isbn13": "9783676053495",
+              "asin": null,
+              "decision_id": "decision_bp001_en_v24_werkfreigabe_uploadauftrag_20261127",
+              "preflight_sha256": "ededd42406a8e5f0fb9ead509841e1859bb06778add0ba4b5fdea69c73c7d879"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "site": "en",
       "id": "en-robert-baden-powell-aids-to-scouting",
       "url": "/books/en-robert-baden-powell-aids-to-scouting/",
       "title": "Aids to Scouting for N.-C.Os. & Men",

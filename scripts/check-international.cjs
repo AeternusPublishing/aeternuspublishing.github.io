@@ -27,7 +27,7 @@ check('catalogue IDs, language and series', () => {
     assert(!ids.has(b.id),b.id);ids.add(b.id);
     assert.equal(b.language,'en');assert(catalog.series.some(s=>s.id===b.series));
     assert(!['henry-ford'].includes(b.author)); // Lady Sale EN seit PR #244 (21.11.2026) im Katalog
-    if (b.author === 'robert-baden-powell') assert(['BP_002', 'BP_005', 'BP_009'].includes(b.work_id)); // BP_005 EN seit PR #218 (16.11.2026)
+    if (b.author === 'robert-baden-powell') assert(['BP_001', 'BP_002', 'BP_005', 'BP_009'].includes(b.work_id)); // BP_005 EN seit PR #218 (16.11.2026)
     assert.equal(catalog.directShopUrl(b,'en'),null);
   }
 });

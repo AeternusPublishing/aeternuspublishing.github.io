@@ -1,0 +1,100 @@
+{
+  "id": "en-robert-baden-powell-scouting-for-boys",
+  "work_id": "BP_001",
+  "language": "en",
+  "title": "Scouting for Boys (Annotated)",
+  "subtitle": "A Handbook for Instruction in Good Citizenship",
+  "author": "robert-baden-powell",
+  "authorName": "Robert Baden-Powell",
+  "contributors": [],
+  "series": "gruen",
+  "seriesName": "Green Series",
+  "seriesColor": "#334d3b",
+  "series_number": null,
+  "collectionReviewPending": true,
+  "original_title": "Scouting for Boys",
+  "original_publication_year": 1908,
+  "isbn": {
+    "paperback": "9783676053068",
+    "hardcover": "9783676053075",
+    "ebook": "9783676053495"
+  },
+  "formats": {
+    "paperback": {
+      "label": "Paperback",
+      "isbn": "9783676053068",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 512
+    },
+    "hardcover": {
+      "label": "Hardcover",
+      "isbn": "9783676053075",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 512
+    },
+    "ebook": {
+      "label": "Kindle eBook",
+      "isbn": "9783676053495",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  },
+  "retailer_formats": [
+    {
+      "label": "Paperback",
+      "isbn": "9783676053068",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 512
+    },
+    {
+      "label": "Hardcover",
+      "isbn": "9783676053075",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": [],
+      "pages": 512
+    },
+    {
+      "label": "Kindle eBook",
+      "isbn": "9783676053495",
+      "platform": "KDP",
+      "status": "NOT_SUBMITTED",
+      "links": []
+    }
+  ],
+  "description": {
+    "short": "Baden-Powell’s 1908 handbook introduces observation, tracking, woodcraft and citizenship through twenty-eight Camp Fire Yarns.",
+    "long": "Baden-Powell’s 1908 handbook introduces observation, tracking, woodcraft and citizenship through twenty-eight Camp Fire Yarns."
+  },
+  "publisherDescriptionHTML": "<ul><li>Publisher's preface, About the Author and historical afterword</li><li>Orders and honours, chronology, dramatis personae and glossary</li></ul>\n<p><i>Scouting for Boys</i> is the founding handbook of the Scout Movement, published originally in six fortnightly parts in 1908. Its author, Lieutenant-General Robert Baden-Powell, drew upon military reconnaissance, outdoor life, literature and the example of public service to create a practical course in character and citizenship.</p>\n<p>The twenty-eight Camp Fire Yarns lead the reader through observation, tracking, woodcraft, camp life, pioneering, endurance, chivalry, life-saving and patriotic duty. Instruction is carried by stories, drawings and exercises, with practical guidance for those who would take charge of boys and give the programme effect. Honour, self-command and readiness to help give the subjects their common purpose, while the variety of the work sustains the reader’s interest.</p>\n<p>Baden-Powell writes directly of God and the King, the duties of the citizen and the responsibilities of the Empire, while drawing upon Seton’s woodcraft and Kipling’s imaginative world. His book belongs to the history of education, military fieldcraft and the great voluntary associations through which ordinary people undertook work together. It records the point at which these several inheritances were joined in a programme that boys could begin to practise for themselves.</p>\n<p>AETERNUS accompanies the work with a publisher’s preface, an account of the author’s life, a historical afterword, selected orders and honours, a chronology, a dramatis personae and a glossary. These place the handbook within its history and illuminate the practical idea which gave it such reach: that a boy entrusted with a duty may grow capable of bearing it well.</p>\n<p>GREEN SERIES · Robert Baden-Powell<br />AETERNUS · 2026</p>",
+  "cover": "/assets/images/cover-en-robert-baden-powell-scouting-for-boys-v24.jpg",
+  "publication_date": null,
+  "pricing": {},
+  "availability": "COMING_SOON",
+  "links": {
+    "shop": null,
+    "amazon": null,
+    "ingram": null
+  },
+  "distribution_status": {
+    "amazon": "NOT_SUBMITTED",
+    "ingram": "NOT_SUBMITTED"
+  },
+  "commerce": {
+    "shopify_product_id": null,
+    "shopify_handle": null
+  },
+  "url": "/books/en-robert-baden-powell-scouting-for-boys/",
+  "authorUrl": "/authors/robert-baden-powell/",
+  "brandOnly": true,
+  "forthcoming_label": "Forthcoming in paperback, hardcover and Kindle.",
+  "cardStatus": "Forthcoming",
+  "provenance": "decision_bp001_en_v24_werkfreigabe_uploadauftrag_20261127"
+}
